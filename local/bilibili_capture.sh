@@ -22,7 +22,11 @@ set -euo pipefail
 
 REPO="${0:A:h:h}"
 ENV_FILE="${BILIBILI_ENV_FILE:-$HOME/.config/openclaw-feeds/bilibili.env}"
-RSSHUB_URL="${RSSHUB_URL:-http://127.0.0.1:1200}"
+# Not 1200: this host already maps that port to the ragflow stack's
+# Elasticsearch (docker-es01-1, 1200->9200), which answers 401 and would
+# otherwise look like an RSSHub that refuses us.
+RSSHUB_PORT="${RSSHUB_PORT:-1201}"
+RSSHUB_URL="${RSSHUB_URL:-http://127.0.0.1:$RSSHUB_PORT}"
 CONTAINER="${RSSHUB_CONTAINER:-openclaw-rsshub}"
 MIDS=(73414544 519463151 1567748478)
 MIN_BYTES=400
@@ -42,7 +46,7 @@ if [[ "${1:-}" == "--start-container" ]]; then
   # Bound to loopback on purpose: this service holds a session cookie and has no
   # business being reachable from anywhere but this machine.
   docker run -d --name "$CONTAINER" --restart unless-stopped \
-    -p 127.0.0.1:1200:1200 \
+    -p "127.0.0.1:$RSSHUB_PORT:1200" \
     -e "BILIBILI_COOKIE_${BILIBILI_UID}=SESSDATA=${BILIBILI_SESSDATA}" \
     diygod/rsshub:latest
   print "started $CONTAINER; give it ~20s to boot, then run this script with no arguments"
