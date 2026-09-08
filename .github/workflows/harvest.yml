@@ -1,0 +1,62 @@
+name: Harvest feeds
+
+# The consuming pipeline reads these artifacts at 01:30 UTC. Upstream's X feed is
+# published at 06:17 UTC, so a mirror run shortly after that is the freshest X data
+# that can exist before the next read -- it lands ~19h before the pipeline looks,
+# and the 96h rolling window makes that lag irrelevant. The second run exists so a
+# transient failure has a chance to self-correct before the pipeline reads, rather
+# than leaving a whole day on a stale copy.
+on:
+  schedule:
+    - cron: '25 7 * * *'
+    - cron: '25 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: harvest
+  cancel-in-progress: false
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Kept as separate steps on purpose: if the X window fails, the YouTube and
+      # 36kr mirrors have no reason not to run, and the job summary should show
+      # exactly which leg broke rather than one collapsed failure.
+      - name: X rolling window
+        id: x
+        run: python scripts/x_mirror.py | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: YouTube and 36kr mirrors
+        id: mirrors
+        if: always()
+        run: python scripts/mirror_feed.py | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed-x.json feeds state
+          if git diff --cached --quiet; then
+            echo "no change" | tee -a "$GITHUB_STEP_SUMMARY"
+          else
+            git commit -m "chore: refresh feeds [skip ci]"
+            git push
+          fi
+
+      # A leg that failed must not be buried by a successful commit step.
+      - name: Fail the run if any leg failed
+        if: always() && (steps.x.outcome == 'failure' || steps.mirrors.outcome == 'failure')
+        run: |
+          echo "x=${{ steps.x.outcome }} mirrors=${{ steps.mirrors.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          exit 1

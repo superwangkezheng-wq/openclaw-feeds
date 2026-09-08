@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ"/>
+ <id>yt:channel:XUPKJO5MZQN11PqgIvyuvQ</id>
+ <yt:channelId>XUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+ <title>Andrej Karpathy</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ"/>
+ <author>
+  <name>Andrej Karpathy</name>
+  <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+ </author>
+ <published>2013-09-07T08:21:13+00:00</published>
+ <entry>
+  <id>yt:video:EWvNQjAaOHw</id>
+  <yt:videoId>EWvNQjAaOHw</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>How I use LLMs</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EWvNQjAaOHw"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2025-02-27T22:29:56+00:00</published>
+  <updated>2026-05-19T21:50:43+00:00</updated>
+  <media:group>
+   <media:title>How I use LLMs</media:title>
+   <media:content url="https://www.youtube.com/v/EWvNQjAaOHw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EWvNQjAaOHw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The example-driven, practical walkthrough of Large Language Models and their growing list of related features, as a new entry to my general audience series on LLMs. In this more practical followup, I take you through the many ways I use LLMs in my own life.
+
+Chapters
+00:00:00 Intro into the growing LLM ecosystem
+00:02:54 ChatGPT interaction under the hood
+00:13:12 Basic LLM interactions examples
+00:18:03 Be aware of the model you're using, pricing tiers
+00:22:54 Thinking models and when to use them
+00:31:00 Tool use: internet search
+00:42:04 Tool use: deep research
+00:50:57 File uploads, adding documents to context
+00:59:00 Tool use: python interpreter, messiness of the ecosystem
+01:04:35 ChatGPT Advanced Data Analysis, figures, plots
+01:09:00 Claude Artifacts, apps, diagrams
+01:14:02 Cursor: Composer, writing code
+01:22:28 Audio (Speech) Input/Output
+01:27:37 Advanced Voice Mode aka true audio inside the model
+01:37:09 NotebookLM, podcast generation
+01:40:20 Image input, OCR
+01:47:02 Image output, DALL-E, Ideogram, etc.
+01:49:14 Video input, point and talk on app
+01:52:23 Video output, Sora, Veo 2, etc etc.
+01:53:29 ChatGPT memory, custom instructions
+01:58:38 Custom GPTs
+02:06:30 Summary
+
+Links
+- Tiktokenizer https://tiktokenizer.vercel.app/
+- OpenAI's ChatGPT https://chatgpt.com/
+- Anthropic's Claude https://claude.ai/
+- Google's Gemini https://gemini.google.com/
+- xAI's Grok https://grok.com/
+- Perplexity https://www.perplexity.ai/
+- Google's NotebookLM https://notebooklm.google.com/
+- Cursor https://www.cursor.com/
+- Histories of Mysteries AI podcast on Spotify  https://open.spotify.com/show/3K4LRyMCP44kBbiOziwJjb
+
+- The visualization UI I was using in the video: https://excalidraw.com/
+- The specific file of Excalidraw we built up: https://drive.google.com/file/d/1DN3LU3MbKI00udxoS-W5ckCHq99V0Uqs/view?usp=sharing
+- Discord channel for Eureka Labs and this video: https://discord.gg/3zy8kqD9Cp
+
+Educational Use Licensing
+This video is freely available for educational and internal training purposes. Educators, students, schools, universities, nonprofit institutions, businesses, and individual learners may use this content freely for lessons, courses, internal training, and learning activities, provided they do not engage in commercial resale, redistribution, external commercial use, or modify content to misrepresent its intent.</media:description>
+   <media:community>
+    <media:starRating count="67498" average="5.00" min="1" max="5"/>
+    <media:statistics views="2696297"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7xTGNNLPyMI</id>
+  <yt:videoId>7xTGNNLPyMI</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>Deep Dive into LLMs like ChatGPT</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7xTGNNLPyMI"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2025-02-05T18:23:47+00:00</published>
+  <updated>2026-08-28T09:18:33+00:00</updated>
+  <media:group>
+   <media:title>Deep Dive into LLMs like ChatGPT</media:title>
+   <media:content url="https://www.youtube.com/v/7xTGNNLPyMI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7xTGNNLPyMI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is a general audience deep dive into the Large Language Model (LLM) AI technology that powers ChatGPT and related products. It is covers the full training stack of how the models are developed, along with mental models of how to think about their &quot;psychology&quot;, and how to get the best use them in practical applications. I have one &quot;Intro to LLMs&quot; video already from ~year ago, but that is just a re-recording of a random talk, so I wanted to loop around and do a lot more comprehensive version.
+
+Instructor
+Andrej was a founding member at OpenAI (2015) and then Sr. Director of AI at Tesla (2017-2022), and is now a founder at Eureka Labs, which is building an AI-native school. His goal in this video is to raise knowledge and understanding of the state of the art in AI, and empower people to effectively use the latest and greatest in their work.
+Find more at https://karpathy.ai/ and https://x.com/karpathy
+
+Chapters
+00:00:00 introduction
+00:01:00 pretraining data (internet)
+00:07:47 tokenization
+00:14:27 neural network I/O
+00:20:11 neural network internals
+00:26:01 inference
+00:31:09 GPT-2: training and inference
+00:42:52 Llama 3.1 base model inference
+00:59:23 pretraining to post-training
+01:01:06 post-training data (conversations)
+01:20:32 hallucinations, tool use, knowledge/working memory
+01:41:46 knowledge of self
+01:46:56 models need tokens to think
+02:01:11 tokenization revisited: models struggle with spelling
+02:04:53 jagged intelligence
+02:07:28 supervised finetuning to reinforcement learning
+02:14:42 reinforcement learning
+02:27:47 DeepSeek-R1
+02:42:07 AlphaGo
+02:48:26 reinforcement learning from human feedback (RLHF)
+03:09:39 preview of things to come
+03:15:15 keeping track of LLMs
+03:18:34 where to find LLMs
+03:21:46 grand summary
+
+Links
+- ChatGPT https://chatgpt.com/
+- FineWeb (pretraining dataset): https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1
+- Tiktokenizer: https://tiktokenizer.vercel.app/
+- Transformer Neural Net 3D visualizer: https://bbycroft.net/llm
+- llm.c Let's Reproduce GPT-2 https://github.com/karpathy/llm.c/discussions/677
+- Llama 3 paper from Meta: https://arxiv.org/abs/2407.21783
+- Hyperbolic, for inference of base model: https://app.hyperbolic.xyz/
+- InstructGPT paper on SFT: https://arxiv.org/abs/2203.02155
+- HuggingFace inference playground: https://huggingface.co/spaces/huggingface/inference-playground
+- DeepSeek-R1 paper: https://arxiv.org/abs/2501.12948
+- TogetherAI Playground for open model inference: https://api.together.xyz/playground
+- AlphaGo paper (PDF): https://discovery.ucl.ac.uk/id/eprint/10045895/1/agz_unformatted_nature.pdf
+- AlphaGo Move 37 video: https://www.youtube.com/watch?v=HT-UZkiOLv8
+- LM Arena for model rankings: https://lmarena.ai/
+- AI News Newsletter: https://buttondown.com/ainews
+- LMStudio for local inference https://lmstudio.ai/
+
+- The visualization UI I was using in the video: https://excalidraw.com/
+- The specific file of Excalidraw we built up: https://drive.google.com/file/d/1EZh5hNDzxMMy05uLhVryk061QYQGTxiN/view?usp=sharing
+- Discord channel for Eureka Labs and this video: https://discord.gg/3zy8kqD9Cp
+
+Educational Use Licensing
+This video is freely available for educational and internal training purposes. Educators, students, schools, universities, nonprofit institutions, businesses, and individual learners may use this content freely for lessons, courses, internal training, and learning activities, provided they do not engage in commercial resale, redistribution, external commercial use, or modify content to misrepresent its intent.</media:description>
+   <media:community>
+    <media:starRating count="134840" average="5.00" min="1" max="5"/>
+    <media:statistics views="9312986"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:l8pRSuU81PU</id>
+  <yt:videoId>l8pRSuU81PU</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>Let's reproduce GPT-2 (124M)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=l8pRSuU81PU"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2024-06-09T23:31:35+00:00</published>
+  <updated>2026-05-04T19:51:16+00:00</updated>
+  <media:group>
+   <media:title>Let's reproduce GPT-2 (124M)</media:title>
+   <media:content url="https://www.youtube.com/v/l8pRSuU81PU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/l8pRSuU81PU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We reproduce the GPT-2 (124M) from scratch. This video covers the whole process: First we build the GPT-2 network, then we optimize its training to be really fast, then we set up the training run following the GPT-2 and GPT-3 paper and their hyperparameters, then we hit run, and come back the next morning to see our results, and enjoy some amusing model generations. Keep in mind that in some places this video builds on the knowledge from earlier videos in the Zero to Hero Playlist (see my channel). You could also see this video as building my nanoGPT repo, which by the end is about 90% similar.
+
+Links:
+- build-nanogpt GitHub repo, with all the changes in this video as individual commits: https://github.com/karpathy/build-nanogpt
+- nanoGPT repo: https://github.com/karpathy/nanoGPT
+- llm.c repo: https://github.com/karpathy/llm.c
+- my website: https://karpathy.ai
+- my twitter: https://twitter.com/karpathy
+- our Discord channel: https://discord.gg/3zy8kqD9Cp
+
+Supplementary links:
+- Attention is All You Need paper: https://arxiv.org/abs/1706.03762
+- OpenAI GPT-3 paper: https://arxiv.org/abs/2005.14165 - OpenAI GPT-2 paper: https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf- The GPU I'm training the model on is from Lambda GPU Cloud, I think the best and easiest way to spin up an on-demand GPU instance in the cloud that you can ssh to: https://lambdalabs.com 
+
+Chapters:
+00:00:00 intro: Let’s reproduce GPT-2 (124M)
+00:03:39 exploring the GPT-2 (124M) OpenAI checkpoint
+00:13:47 SECTION 1: implementing the GPT-2 nn.Module
+00:28:08 loading the huggingface/GPT-2 parameters
+00:31:00 implementing the forward pass to get logits
+00:33:31 sampling init, prefix tokens, tokenization
+00:37:02 sampling loop
+00:41:47 sample, auto-detect the device
+00:45:50 let’s train: data batches (B,T) → logits (B,T,C)
+00:52:53 cross entropy loss
+00:56:42 optimization loop: overfit a single batch
+01:02:00 data loader lite
+01:06:14 parameter sharing wte and lm_head
+01:13:47 model initialization: std 0.02, residual init
+01:22:18 SECTION 2: Let’s make it fast. GPUs, mixed precision, 1000ms
+01:28:14 Tensor Cores, timing the code, TF32 precision, 333ms
+01:39:38 float16, gradient scalers, bfloat16, 300ms
+01:48:15 torch.compile, Python overhead, kernel fusion, 130ms
+02:00:18 flash attention, 96ms
+02:06:54 nice/ugly numbers. vocab size 50257 → 50304, 93ms
+02:14:55 SECTION 3: hyperpamaters, AdamW, gradient clipping
+02:21:06 learning rate scheduler: warmup + cosine decay
+02:26:21 batch size schedule, weight decay, FusedAdamW, 90ms
+02:34:09 gradient accumulation
+02:46:52 distributed data parallel (DDP)
+03:10:21 datasets used in GPT-2, GPT-3, FineWeb (EDU)
+03:23:10 validation data split, validation loss, sampling revive
+03:28:23 evaluation: HellaSwag, starting the run
+03:43:05 SECTION 4: results in the morning! GPT-2, GPT-3 repro
+03:56:21 shoutout to llm.c, equivalent but faster code in raw C/CUDA
+03:59:39 summary, phew, build-nanogpt github repo
+
+Corrections:
+I will post all errata and followups to the build-nanogpt GitHub repo (link above)
+
+SuperThanks:
+I experimentally enabled them on my channel yesterday. Totally optional and only use if rich. All revenue goes to to supporting my work in AI + Education.</media:description>
+   <media:community>
+    <media:starRating count="32277" average="5.00" min="1" max="5"/>
+    <media:statistics views="1165337"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zduSFxRajkE</id>
+  <yt:videoId>zduSFxRajkE</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>Let's build the GPT Tokenizer</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zduSFxRajkE"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2024-02-20T17:11:35+00:00</published>
+  <updated>2026-04-13T20:44:04+00:00</updated>
+  <media:group>
+   <media:title>Let's build the GPT Tokenizer</media:title>
+   <media:content url="https://www.youtube.com/v/zduSFxRajkE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zduSFxRajkE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Tokenizer is a necessary and pervasive component of Large Language Models (LLMs), where it translates between strings and tokens (text chunks). Tokenizers are a completely separate stage of the LLM pipeline: they have their own training sets, training algorithms (Byte Pair Encoding), and after training implement two fundamental functions: encode() from strings to tokens, and decode() back from tokens to strings. In this lecture we build from scratch the Tokenizer used in the GPT series from OpenAI. In the process, we will see that a lot of weird behaviors and problems of LLMs actually trace back to tokenization. We'll go through a number of these issues, discuss why tokenization is at fault, and why someone out there ideally finds a way to delete this stage entirely.
+
+Chapters:
+00:00:00 intro: Tokenization, GPT-2 paper, tokenization-related issues
+00:05:50 tokenization by example in a Web UI (tiktokenizer)
+00:14:56 strings in Python, Unicode code points
+00:18:15 Unicode byte encodings, ASCII, UTF-8, UTF-16, UTF-32
+00:22:47 daydreaming: deleting tokenization
+00:23:50 Byte Pair Encoding (BPE) algorithm walkthrough
+00:27:02 starting the implementation
+00:28:35 counting consecutive pairs, finding most common pair
+00:30:36 merging the most common pair
+00:34:58 training the tokenizer: adding the while loop, compression ratio
+00:39:20 tokenizer/LLM diagram: it is a completely separate stage
+00:42:47 decoding tokens to strings
+00:48:21 encoding strings to tokens
+00:57:36 regex patterns to force splits across categories
+01:11:38 tiktoken library intro, differences between GPT-2/GPT-4 regex
+01:14:59 GPT-2 encoder.py released by OpenAI walkthrough
+01:18:26 special tokens, tiktoken handling of, GPT-2/GPT-4 differences
+01:25:28 minbpe exercise time! write your own GPT-4 tokenizer
+01:28:42 sentencepiece library intro, used to train Llama 2 vocabulary
+01:43:27 how to set vocabulary set? revisiting gpt.py transformer
+01:48:11 training new tokens, example of prompt compression
+01:49:58 multimodal [image, video, audio] tokenization with vector quantization
+01:51:41 revisiting and explaining the quirks of LLM tokenization
+02:10:20 final recommendations
+02:12:50 ??? :)
+
+Exercises:
+- Advised flow: reference this document and try to implement the steps before I give away the partial solutions in the video. The full solutions if you're getting stuck are in the minbpe code https://github.com/karpathy/minbpe/blob/master/exercise.md
+
+Links:
+- Google colab for the video: https://colab.research.google.com/drive/1y0KnCFZvGVf_odSfcNAws6kcDD7HsI0L?usp=sharing
+- GitHub repo for the video: minBPE https://github.com/karpathy/minbpe
+- Playlist of the whole Zero to Hero series so far: https://www.youtube.com/watch?v=VMj-3S1tku0&amp;list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
+- our Discord channel: https://discord.gg/3zy8kqD9Cp
+- my Twitter: https://twitter.com/karpathy
+
+Supplementary links:
+- tiktokenizer https://tiktokenizer.vercel.app
+- tiktoken from OpenAI: https://github.com/openai/tiktoken
+- sentencepiece from Google https://github.com/google/sentencepiece</media:description>
+   <media:community>
+    <media:starRating count="28944" average="5.00" min="1" max="5"/>
+    <media:statistics views="1190874"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zjkBMFhNj_g</id>
+  <yt:videoId>zjkBMFhNj_g</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>[1hr Talk] Intro to Large Language Models</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zjkBMFhNj_g"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2023-11-23T02:27:48+00:00</published>
+  <updated>2026-08-01T19:04:52+00:00</updated>
+  <media:group>
+   <media:title>[1hr Talk] Intro to Large Language Models</media:title>
+   <media:content url="https://www.youtube.com/v/zjkBMFhNj_g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zjkBMFhNj_g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is a 1 hour general-audience introduction to Large Language Models: the core technical component behind systems like ChatGPT, Claude, and Bard. What they are, where they are headed, comparisons and analogies to present-day operating systems, and some of the security-related challenges of this new computing paradigm.
+As of November 2023 (this field moves fast!).
+
+Context: This video is based on the slides of a talk I gave recently at the AI Security Summit. The talk was not recorded but a lot of people came to me after and told me they liked it. Seeing as I had already put in one long weekend of work to make the slides, I decided to just tune them a bit, record this round 2 of the talk and upload it here on YouTube. Pardon the random background, that's my hotel room during the thanksgiving break.
+
+- Slides as PDF: https://drive.google.com/file/d/1pxx_ZI7O-Nwl7ZLNk5hI3WzAsTLwvNU7/view?usp=share_link (42MB)
+- Slides. as Keynote: https://drive.google.com/file/d/1FPUpFMiCkMRKPFjhi9MAhby68MHVqe8u/view?usp=share_link (140MB)
+
+Few things I wish I said (I'll add items here as they come up):
+- The dreams and hallucinations do not get fixed with finetuning. Finetuning just &quot;directs&quot; the dreams into &quot;helpful assistant dreams&quot;. Always be careful with what LLMs tell you, especially if they are telling you something from memory alone. That said, similar to a human, if the LLM used browsing or retrieval and the answer made its way into the &quot;working memory&quot; of its context window, you can trust the LLM a bit more to process that information into the final answer. But TLDR right now, do not trust what LLMs say or do. For example, in the tools section, I'd always recommend double-checking the math/code the LLM did.
+- How does the LLM use a tool like the browser? It emits special words, e.g. |BROWSER|. When the code &quot;above&quot; that is inferencing the LLM detects these words it captures the output that follows, sends it off to a tool, comes back with the result and continues the generation. How does the LLM know to emit these special words? Finetuning datasets teach it how and when to browse, by example. And/or the instructions for tool use can also be automatically placed in the context window (in the “system message”).
+- You might also enjoy my 2015 blog post &quot;Unreasonable Effectiveness of Recurrent Neural Networks&quot;. The way we obtain base models today is pretty much identical on a high level, except the RNN is swapped for a Transformer. http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+- What is in the run.c file? A bit more full-featured 1000-line version hre: https://github.com/karpathy/llama2.c/blob/master/run.c
+
+Chapters:
+Part 1: LLMs
+00:00:00 Intro: Large Language Model (LLM) talk
+00:00:20 LLM Inference
+00:04:17 LLM Training
+00:08:58 LLM dreams
+00:11:22 How do they work?
+00:14:14 Finetuning into an Assistant
+00:17:52 Summary so far
+00:21:05 Appendix: Comparisons, Labeling docs, RLHF, Synthetic data, Leaderboard
+Part 2: Future of LLMs
+00:25:43 LLM Scaling Laws
+00:27:43 Tool Use (Browser, Calculator, Interpreter, DALL-E)
+00:33:32 Multimodality (Vision, Audio)
+00:35:00 Thinking, System 1/2
+00:38:02 Self-improvement, LLM AlphaGo
+00:40:45 LLM Customization, GPTs store
+00:42:15 LLM OS
+Part 3: LLM Security
+00:45:43 LLM Security Intro
+00:46:14 Jailbreaks
+00:51:30 Prompt Injection
+00:56:23 Data poisoning
+00:58:37 LLM Security conclusions
+End
+00:59:23 Outro
+
+Educational Use Licensing
+This video is freely available for educational and internal training purposes. Educators, students, schools, universities, nonprofit institutions, businesses, and individual learners may use this content freely for lessons, courses, internal training, and learning activities, provided they do not engage in commercial resale, redistribution, external commercial use, or modify content to misrepresent its intent.</media:description>
+   <media:community>
+    <media:starRating count="102174" average="5.00" min="1" max="5"/>
+    <media:statistics views="4057316"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:kCc8FmEb1nY</id>
+  <yt:videoId>kCc8FmEb1nY</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>Let's build GPT: from scratch, in code, spelled out.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=kCc8FmEb1nY"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2023-01-17T16:33:27+00:00</published>
+  <updated>2026-04-11T04:49:26+00:00</updated>
+  <media:group>
+   <media:title>Let's build GPT: from scratch, in code, spelled out.</media:title>
+   <media:content url="https://www.youtube.com/v/kCc8FmEb1nY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/kCc8FmEb1nY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We build a Generatively Pretrained Transformer (GPT), following the paper &quot;Attention is All You Need&quot; and OpenAI's GPT-2 / GPT-3. We talk about connections to ChatGPT, which has taken the world by storm. We watch GitHub Copilot, itself a GPT, help us write a GPT (meta :D!) . I recommend people watch the earlier makemore videos to get comfortable with the autoregressive language modeling framework and basics of tensors and PyTorch nn, which we take for granted in this video.
+
+Links:
+- Google colab for the video: https://colab.research.google.com/drive/1JMLa53HDuA-i7ZBmqV7ZnA3c_fvtXnx-?usp=sharing
+- GitHub repo for the video: https://github.com/karpathy/ng-video-lecture
+- Playlist of the whole Zero to Hero series so far: https://www.youtube.com/watch?v=VMj-3S1tku0&amp;list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
+- nanoGPT repo: https://github.com/karpathy/nanoGPT
+- my website: https://karpathy.ai
+- my twitter: https://twitter.com/karpathy
+- our Discord channel: https://discord.gg/3zy8kqD9Cp
+
+Supplementary links:
+- Attention is All You Need paper: https://arxiv.org/abs/1706.03762
+- OpenAI GPT-3 paper: https://arxiv.org/abs/2005.14165 
+- OpenAI ChatGPT blog post: https://openai.com/blog/chatgpt/
+- The GPU I'm training the model on is from Lambda GPU Cloud, I think the best and easiest way to spin up an on-demand GPU instance in the cloud that you can ssh to: https://lambdalabs.com . If you prefer to work in notebooks, I think the easiest path today is Google Colab.
+
+Suggested exercises:
+- EX1: The n-dimensional tensor mastery challenge: Combine the `Head` and `MultiHeadAttention` into one class that processes all the heads in parallel, treating the heads as another batch dimension (answer is in nanoGPT).
+- EX2: Train the GPT on your own dataset of choice! What other data could be fun to blabber on about? (A fun advanced suggestion if you like: train a GPT to do addition of two numbers, i.e. a+b=c. You may find it helpful to predict the digits of c in reverse order, as the typical addition algorithm (that you're hoping it learns) would proceed right to left too. You may want to modify the data loader to simply serve random problems and skip the generation of train.bin, val.bin. You may want to mask out the loss at the input positions of a+b that just specify the problem using y=-1 in the targets (see CrossEntropyLoss ignore_index). Does your Transformer learn to add? Once you have this, swole doge project: build a calculator clone in GPT, for all of +-*/. Not an easy problem. You may need Chain of Thought traces.)
+- EX3: Find a dataset that is very large, so large that you can't see a gap between train and val loss. Pretrain the transformer on this data, then initialize with that model and finetune it on tiny shakespeare with a smaller number of steps and lower learning rate. Can you obtain a lower validation loss by the use of pretraining?
+- EX4: Read some transformer papers and implement one additional feature or change that people seem to use. Does it improve the performance of your GPT?
+
+Chapters:
+00:00:00 intro: ChatGPT, Transformers, nanoGPT, Shakespeare
+baseline language modeling, code setup
+00:07:52 reading and exploring the data
+00:09:28 tokenization, train/val split
+00:14:27 data loader: batches of chunks of data
+00:22:11 simplest baseline: bigram language model, loss, generation
+00:34:53 training the bigram model
+00:38:00 port our code to a script
+Building the &quot;self-attention&quot;
+00:42:13 version 1: averaging past context with for loops, the weakest form of aggregation
+00:47:11 the trick in self-attention: matrix multiply as weighted aggregation
+00:51:54 version 2: using matrix multiply
+00:54:42 version 3: adding softmax
+00:58:26 minor code cleanup
+01:00:18 positional encoding
+01:02:00 THE CRUX OF THE VIDEO: version 4: self-attention
+01:11:38 note 1: attention as communication
+01:12:46 note 2: attention has no notion of space, operates over sets
+01:13:40 note 3: there is no communication across batch dimension
+01:14:14 note 4: encoder blocks vs. decoder blocks
+01:15:39 note 5: attention vs. self-attention vs. cross-attention
+01:16:56 note 6: &quot;scaled&quot; self-attention. why divide by sqrt(head_size)
+Building the Transformer
+01:19:11 inserting a single self-attention block to our network
+01:21:59 multi-headed self-attention
+01:24:25 feedforward layers of transformer block
+01:26:48 residual connections
+01:32:51 layernorm (and its relationship to our previous batchnorm)
+01:37:49 scaling up the model! creating a few variables. adding dropout
+Notes on Transformer
+01:42:39 encoder vs. decoder vs. both (?) Transformers
+01:46:22 super quick walkthrough of nanoGPT, batched multi-headed self-attention
+01:48:53 back to ChatGPT, GPT-3, pretraining vs. finetuning, RLHF
+01:54:32 conclusions
+
+Corrections: 
+00:57:00 Oops &quot;tokens from the _future_ cannot communicate&quot;, not &quot;past&quot;. Sorry! :)
+01:20:05 Oops I should be using the head_size for the normalization, not C</media:description>
+   <media:community>
+    <media:starRating count="168562" average="5.00" min="1" max="5"/>
+    <media:statistics views="7789021"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:t3YJ5hKiMQ0</id>
+  <yt:videoId>t3YJ5hKiMQ0</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>Building makemore Part 5: Building a WaveNet</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=t3YJ5hKiMQ0"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2022-11-21T00:32:48+00:00</published>
+  <updated>2026-05-30T03:30:15+00:00</updated>
+  <media:group>
+   <media:title>Building makemore Part 5: Building a WaveNet</media:title>
+   <media:content url="https://www.youtube.com/v/t3YJ5hKiMQ0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/t3YJ5hKiMQ0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We take the 2-layer MLP from previous video and make it deeper with a tree-like structure, arriving at a convolutional neural network architecture similar to the WaveNet (2016) from DeepMind. In the WaveNet paper, the same hierarchical architecture is implemented more efficiently using causal dilated convolutions (not yet covered). Along the way we get a better sense of torch.nn and what it is and how it works under the hood, and what a typical deep learning development process looks like (a lot of reading of documentation, keeping track of multidimensional tensor shapes, moving between jupyter notebooks and repository code, ...).
+
+Links:
+- makemore on github: https://github.com/karpathy/makemore
+- jupyter notebook I built in this video: https://github.com/karpathy/nn-zero-to-hero/blob/master/lectures/makemore/makemore_part5_cnn1.ipynb
+- collab notebook: https://colab.research.google.com/drive/1CXVEmCO_7r7WYZGb5qnjfyxTvQa13g5X?usp=sharing
+- my website: https://karpathy.ai
+- my twitter: https://twitter.com/karpathy
+- our Discord channel: https://discord.gg/3zy8kqD9Cp
+
+Supplementary links:
+- WaveNet 2016 from DeepMind https://arxiv.org/abs/1609.03499
+- Bengio et al. 2003 MLP LM https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf 
+
+Chapters:
+intro
+00:00:00 intro
+00:01:40 starter code walkthrough
+00:06:56 let’s fix the learning rate plot
+00:09:16 pytorchifying our code: layers, containers, torch.nn, fun bugs
+implementing wavenet
+00:17:11 overview: WaveNet
+00:19:33 dataset bump the context size to 8
+00:19:55 re-running baseline code on block_size 8
+00:21:36 implementing WaveNet
+00:37:41 training the WaveNet: first pass
+00:38:50 fixing batchnorm1d bug
+00:45:21 re-training WaveNet with bug fix
+00:46:07 scaling up our WaveNet
+conclusions
+00:46:58 experimental harness
+00:47:44 WaveNet but with “dilated causal convolutions”
+00:51:34 torch.nn
+00:52:28 the development process of building deep neural nets
+00:54:17 going forward
+00:55:26 improve on my loss! how far can we improve a WaveNet on this data?</media:description>
+   <media:community>
+    <media:starRating count="4878" average="5.00" min="1" max="5"/>
+    <media:statistics views="294122"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:q8SA3rM6ckI</id>
+  <yt:videoId>q8SA3rM6ckI</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>Building makemore Part 4: Becoming a Backprop Ninja</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=q8SA3rM6ckI"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2022-10-11T17:56:19+00:00</published>
+  <updated>2026-08-19T14:18:44+00:00</updated>
+  <media:group>
+   <media:title>Building makemore Part 4: Becoming a Backprop Ninja</media:title>
+   <media:content url="https://www.youtube.com/v/q8SA3rM6ckI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/q8SA3rM6ckI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We take the 2-layer MLP (with BatchNorm) from the previous video and backpropagate through it manually without using PyTorch autograd's loss.backward(): through the cross entropy loss, 2nd linear layer, tanh, batchnorm, 1st linear layer, and the embedding table. Along the way, we get a strong intuitive understanding about how gradients flow backwards through the compute graph and on the level of efficient Tensors, not just individual scalars like in micrograd. This helps build competence and intuition around how neural nets are optimized and sets you up to more confidently innovate on and debug modern neural networks.
+
+!!!!!!!!!!!!
+I recommend you work through the exercise yourself but work with it in tandem and whenever you are stuck unpause the video and see me give away the answer. This video is not super intended to be simply watched. The exercise is here:
+https://colab.research.google.com/drive/1WV2oi2fh9XXyldh02wupFQX0wh5ZC-z-?usp=sharing
+!!!!!!!!!!!!
+
+Links:
+- makemore on github: https://github.com/karpathy/makemore
+- jupyter notebook I built in this video: https://github.com/karpathy/nn-zero-to-hero/blob/master/lectures/makemore/makemore_part4_backprop.ipynb
+- collab notebook: https://colab.research.google.com/drive/1WV2oi2fh9XXyldh02wupFQX0wh5ZC-z-?usp=sharing
+- my website: https://karpathy.ai
+- my twitter: https://twitter.com/karpathy
+- our Discord channel: https://discord.gg/3zy8kqD9Cp
+
+Supplementary links:
+- Yes you should understand backprop: https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b
+- BatchNorm paper: https://arxiv.org/abs/1502.03167
+- Bessel’s Correction: http://math.oxford.emory.edu/site/math117/besselCorrection/
+- Bengio et al. 2003 MLP LM https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf 
+
+Chapters:
+00:00:00 intro: why you should care &amp; fun history
+00:07:26 starter code
+00:13:01 exercise 1: backproping the atomic compute graph
+01:05:17 brief digression: bessel’s correction in batchnorm
+01:26:31 exercise 2: cross entropy loss backward pass
+01:36:37 exercise 3: batch norm layer backward pass
+01:50:02 exercise 4: putting it all together
+01:54:24 outro</media:description>
+   <media:community>
+    <media:starRating count="6005" average="5.00" min="1" max="5"/>
+    <media:statistics views="373943"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:P6sfmUTpUmc</id>
+  <yt:videoId>P6sfmUTpUmc</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>Building makemore Part 3: Activations &amp; Gradients, BatchNorm</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=P6sfmUTpUmc"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2022-10-04T16:41:03+00:00</published>
+  <updated>2026-08-17T15:11:11+00:00</updated>
+  <media:group>
+   <media:title>Building makemore Part 3: Activations &amp; Gradients, BatchNorm</media:title>
+   <media:content url="https://www.youtube.com/v/P6sfmUTpUmc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/P6sfmUTpUmc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We dive into some of the internals of MLPs with multiple layers and scrutinize the statistics of the forward pass activations, backward pass gradients, and some of the pitfalls when they are improperly scaled. We also look at the typical diagnostic tools and visualizations you'd want to use to understand the health of your deep network. We learn why training deep neural nets can be fragile and introduce the first modern innovation that made doing so much easier: Batch Normalization. Residual connections and the Adam optimizer remain notable todos for later video.
+
+Links:
+- makemore on github: https://github.com/karpathy/makemore
+- jupyter notebook I built in this video: https://github.com/karpathy/nn-zero-to-hero/blob/master/lectures/makemore/makemore_part3_bn.ipynb
+- collab notebook: https://colab.research.google.com/drive/1H5CSy-OnisagUgDUXhHwo1ng2pjKHYSN?usp=sharing
+- my website: https://karpathy.ai
+- my twitter: https://twitter.com/karpathy
+- Discord channel: https://discord.gg/3zy8kqD9Cp
+
+Useful links:
+- &quot;Kaiming init&quot; paper: https://arxiv.org/abs/1502.01852
+- BatchNorm paper: https://arxiv.org/abs/1502.03167
+- Bengio et al. 2003 MLP language model paper (pdf): https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf
+- Good paper illustrating some of the problems with batchnorm in practice: https://arxiv.org/abs/2105.07576
+
+Exercises:
+- E01: I did not get around to seeing what happens when you initialize all weights and biases to zero. Try this and train the neural net. You might think either that 1) the network trains just fine or 2) the network doesn't train at all, but actually it is 3) the network trains but only partially, and achieves a pretty bad final performance. Inspect the gradients and activations to figure out what is happening and why the network is only partially training, and what part is being trained exactly.
+- E02: BatchNorm, unlike other normalization layers like LayerNorm/GroupNorm etc. has the big advantage that after training, the batchnorm gamma/beta can be &quot;folded into&quot; the weights of the preceeding Linear layers, effectively erasing the need to forward it at test time. Set up a small 3-layer MLP with batchnorms, train the network, then &quot;fold&quot; the batchnorm gamma/beta into the preceeding Linear layer's W,b by creating a new W2, b2 and erasing the batch norm. Verify that this gives the same forward pass during inference. i.e. we see that the batchnorm is there just for stabilizing the training, and can be thrown out after training is done! pretty cool.
+
+Chapters:
+00:00:00 intro
+00:01:22 starter code
+00:04:19 fixing the initial loss 
+00:12:59 fixing the saturated tanh
+00:27:53 calculating the init scale: “Kaiming init”
+00:40:40 batch normalization
+01:03:07 batch normalization: summary
+01:04:50 real example: resnet50 walkthrough
+01:14:10 summary of the lecture
+01:18:35 just kidding: part2: PyTorch-ifying the code
+01:26:51 viz #1: forward pass activations statistics
+01:30:54 viz #2: backward pass gradient statistics
+01:32:07 the fully linear case of no non-linearities
+01:36:15 viz #3: parameter activation and gradient statistics
+01:39:55 viz #4: update:data ratio over time
+01:46:04 bringing back batchnorm, looking at the visualizations
+01:51:34 summary of the lecture for real this time</media:description>
+   <media:community>
+    <media:starRating count="9033" average="5.00" min="1" max="5"/>
+    <media:statistics views="545850"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TCH_1BHY58I</id>
+  <yt:videoId>TCH_1BHY58I</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>Building makemore Part 2: MLP</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TCH_1BHY58I"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2022-09-12T14:43:06+00:00</published>
+  <updated>2026-09-07T00:20:01+00:00</updated>
+  <media:group>
+   <media:title>Building makemore Part 2: MLP</media:title>
+   <media:content url="https://www.youtube.com/v/TCH_1BHY58I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TCH_1BHY58I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We implement a multilayer perceptron (MLP) character-level language model. In this video we also introduce many basics of machine learning (e.g. model training, learning rate tuning, hyperparameters, evaluation, train/dev/test splits, under/overfitting, etc.).
+
+Links:
+- makemore on github: https://github.com/karpathy/makemore
+- jupyter notebook I built in this video: https://github.com/karpathy/nn-zero-to-hero/blob/master/lectures/makemore/makemore_part2_mlp.ipynb
+- collab notebook (new)!!!: https://colab.research.google.com/drive/1YIfmkftLrz6MPTOO9Vwqrop2Q5llHIGK?usp=sharing
+- Bengio et al. 2003 MLP language model paper (pdf): https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf
+- my website: https://karpathy.ai
+- my twitter: https://twitter.com/karpathy
+- (new) Neural Networks: Zero to Hero series Discord channel: https://discord.gg/3zy8kqD9Cp , for people who'd like to chat more and go beyond youtube comments
+
+Useful links:
+- PyTorch internals ref http://blog.ezyang.com/2019/05/pytorch-internals/
+
+Exercises:
+- E01: Tune the hyperparameters of the training to beat my best validation loss of 2.2
+- E02: I was not careful with the intialization of the network in this video. (1) What is the loss you'd get if the predicted probabilities at initialization were perfectly uniform? What loss do we achieve? (2) Can you tune the initialization to get a starting loss that is much more similar to (1)?
+- E03: Read the Bengio et al 2003 paper (link above), implement and try any idea from the paper. Did it work?
+
+Chapters:
+00:00:00 intro
+00:01:48 Bengio et al. 2003 (MLP language model) paper walkthrough
+00:09:03 (re-)building our training dataset
+00:12:19 implementing the embedding lookup table
+00:18:35 implementing the hidden layer + internals of torch.Tensor: storage, views
+00:29:15 implementing the output layer
+00:29:53 implementing the negative log likelihood loss
+00:32:17 summary of the full network
+00:32:49 introducing F.cross_entropy and why
+00:37:56 implementing the training loop, overfitting one batch
+00:41:25 training on the full dataset, minibatches
+00:45:40 finding a good initial learning rate
+00:53:20 splitting up the dataset into train/val/test splits and why
+01:00:49 experiment: larger hidden layer
+01:05:27 visualizing the character embeddings
+01:07:16 experiment: larger embedding size
+01:11:46 summary of our final code, conclusion
+01:13:24 sampling from the model
+01:14:55 google collab (new!!) notebook advertisement</media:description>
+   <media:community>
+    <media:starRating count="9617" average="5.00" min="1" max="5"/>
+    <media:statistics views="586272"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:PaCmpygFfXo</id>
+  <yt:videoId>PaCmpygFfXo</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>The spelled-out intro to language modeling: building makemore</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=PaCmpygFfXo"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2022-09-07T19:14:47+00:00</published>
+  <updated>2026-08-14T03:05:54+00:00</updated>
+  <media:group>
+   <media:title>The spelled-out intro to language modeling: building makemore</media:title>
+   <media:content url="https://www.youtube.com/v/PaCmpygFfXo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/PaCmpygFfXo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We implement a bigram character-level language model, which we will further complexify in followup videos into a modern Transformer language model, like GPT. In this video, the focus is on (1) introducing torch.Tensor and its subtleties and use in efficiently evaluating neural networks and (2) the overall framework of language modeling that includes model training, sampling, and the evaluation of a loss (e.g. the negative log likelihood for classification).
+
+Links:
+- makemore on github: https://github.com/karpathy/makemore
+- jupyter notebook I built in this video: https://github.com/karpathy/nn-zero-to-hero/blob/master/lectures/makemore/makemore_part1_bigrams.ipynb
+- my website: https://karpathy.ai
+- my twitter: https://twitter.com/karpathy
+- (new) Neural Networks: Zero to Hero series Discord channel: https://discord.gg/3zy8kqD9Cp , for people who'd like to chat more and go beyond youtube comments
+
+Useful links for practice:
+- Python + Numpy tutorial from CS231n https://cs231n.github.io/python-numpy-tutorial/ . We use torch.tensor instead of numpy.array in this video. Their design (e.g. broadcasting, data types, etc.) is so similar that practicing one is basically practicing the other, just be careful with some of the APIs - how various functions are named, what arguments they take, etc. - these details can vary.
+- PyTorch tutorial on Tensor https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html
+- Another PyTorch intro to Tensor https://pytorch.org/tutorials/beginner/nlp/pytorch_tutorial.html
+
+Exercises:
+E01: train a trigram language model, i.e. take two characters as an input to predict the 3rd one. Feel free to use either counting or a neural net. Evaluate the loss; Did it improve over a bigram model?
+E02: split up the dataset randomly into 80% train set, 10% dev set, 10% test set. Train the bigram and trigram models only on the training set. Evaluate them on dev and test splits. What can you see?
+E03: use the dev set to tune the strength of smoothing (or regularization) for the trigram model - i.e. try many possibilities and see which one works best based on the dev set loss. What patterns can you see in the train and dev set loss as you tune this strength? Take the best setting of the smoothing and evaluate on the test set once and at the end. How good of a loss do you achieve?
+E04: we saw that our 1-hot vectors merely select a row of W, so producing these vectors explicitly feels wasteful. Can you delete our use of F.one_hot in favor of simply indexing into rows of W?
+E05: look up and use F.cross_entropy instead. You should achieve the same result. Can you think of why we'd prefer to use F.cross_entropy instead?
+E06: meta-exercise! Think of a fun/interesting exercise and complete it.
+
+Chapters:
+00:00:00 intro
+00:03:03 reading and exploring the dataset
+00:06:24 exploring the bigrams in the dataset
+00:09:24 counting bigrams in a python dictionary
+00:12:45 counting bigrams in a 2D torch tensor (&quot;training the model&quot;)
+00:18:19 visualizing the bigram tensor
+00:20:54 deleting spurious (S) and (E) tokens in favor of a single . token
+00:24:02 sampling from the model
+00:36:17 efficiency! vectorized normalization of the rows, tensor broadcasting 
+00:50:14 loss function (the negative log likelihood of the data under our model)
+01:00:50 model smoothing with fake counts
+01:02:57 PART 2: the neural network approach: intro
+01:05:26 creating the bigram dataset for the neural net
+01:10:01 feeding integers into neural nets? one-hot encodings
+01:13:53 the &quot;neural net&quot;: one linear layer of neurons implemented with matrix multiplication
+01:18:46 transforming neural net outputs into probabilities: the softmax
+01:26:17 summary, preview to next steps, reference to micrograd
+01:35:49 vectorized loss
+01:38:36 backward and update, in PyTorch
+01:42:55 putting everything together
+01:47:49 note 1: one-hot encoding really just selects a row of the next Linear layer's weight matrix
+01:50:18 note 2: model smoothing as regularization loss
+01:54:31 sampling from the neural net
+01:56:16 conclusion</media:description>
+   <media:community>
+    <media:starRating count="20594" average="5.00" min="1" max="5"/>
+    <media:statistics views="1262289"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:kVpDARqZdrQ</id>
+  <yt:videoId>kVpDARqZdrQ</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>Stable diffusion dreams of psychedelic faces</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=kVpDARqZdrQ"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2022-08-19T18:32:25+00:00</published>
+  <updated>2026-05-21T02:51:27+00:00</updated>
+  <media:group>
+   <media:title>Stable diffusion dreams of psychedelic faces</media:title>
+   <media:content url="https://www.youtube.com/v/kVpDARqZdrQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/kVpDARqZdrQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Prompt: &quot;psychedelic faces&quot;
+Stable diffusion takes a noise vector as input and samples an image. To create this video I smoothly (spherically) interpolate between randomly chosen noise vectors and render frames along the way.
+
+This video was produced by one A100 GPU taking about 10 tabs and dreaming about the prompt overnight (~8 hours). While I slept and dreamt about other things.
+
+Music: Stars by JVNA
+
+Links:
+- Stable diffusion: https://stability.ai/blog
+- Code used to make this video: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- My twitter: https://twitter.com/karpathy</media:description>
+   <media:community>
+    <media:starRating count="947" average="5.00" min="1" max="5"/>
+    <media:statistics views="53598"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2oKjtvYslMY</id>
+  <yt:videoId>2oKjtvYslMY</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>Stable diffusion dreams of steampunk brains</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2oKjtvYslMY"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2022-08-17T16:58:01+00:00</published>
+  <updated>2026-05-28T17:34:15+00:00</updated>
+  <media:group>
+   <media:title>Stable diffusion dreams of steampunk brains</media:title>
+   <media:content url="https://www.youtube.com/v/2oKjtvYslMY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2oKjtvYslMY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Prompt: &quot;ultrarealistic steam punk neural network machine in the shape of a brain, placed on a pedestal, covered with neurons made of gears. dramatic lighting. #unrealengine&quot;
+Stable diffusion takes a noise vector as input and samples an image. To create this video I smoothly (spherically) interpolate between randomly chosen noise vectors and render frames along the way.
+
+This video was produced by one A100 GPU dreaming about the prompt overnight (~8 hours). While I slept and dreamt about other things.
+
+This is version 2 video of this prompt, with (I think?) a bit higher quality and trippy AGI music.
+
+Music: Wonders by JVNA
+
+Links:
+- Stable diffusion: https://stability.ai/blog
+- Code used to make this video: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- My twitter: https://twitter.com/karpathy</media:description>
+   <media:community>
+    <media:starRating count="627" average="5.00" min="1" max="5"/>
+    <media:statistics views="37770"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:sM9bozW295Q</id>
+  <yt:videoId>sM9bozW295Q</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>Stable diffusion dreams of tattoos</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sM9bozW295Q"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2022-08-16T23:02:58+00:00</published>
+  <updated>2026-04-30T02:54:44+00:00</updated>
+  <media:group>
+   <media:title>Stable diffusion dreams of tattoos</media:title>
+   <media:content url="https://www.youtube.com/v/sM9bozW295Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sM9bozW295Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Dreams of tattoos. (There are a few discrete jumps in the video because I had to erase portions that got just a little 🌶️, believe I got most of it)
+
+Links
+- Stable diffusion: https://stability.ai/blog
+- Code used to make this video: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- My twitter: https://twitter.com/karpathy</media:description>
+   <media:community>
+    <media:starRating count="846" average="5.00" min="1" max="5"/>
+    <media:statistics views="102986"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:VMj-3S1tku0</id>
+  <yt:videoId>VMj-3S1tku0</yt:videoId>
+  <yt:channelId>UCXUPKJO5MZQN11PqgIvyuvQ</yt:channelId>
+  <title>The spelled-out intro to neural networks and backpropagation: building micrograd</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=VMj-3S1tku0"/>
+  <author>
+   <name>Andrej Karpathy</name>
+   <uri>https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ</uri>
+  </author>
+  <published>2022-08-16T22:44:26+00:00</published>
+  <updated>2026-04-13T15:29:09+00:00</updated>
+  <media:group>
+   <media:title>The spelled-out intro to neural networks and backpropagation: building micrograd</media:title>
+   <media:content url="https://www.youtube.com/v/VMj-3S1tku0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VMj-3S1tku0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is the most step-by-step spelled-out explanation of backpropagation and training of neural networks. It only assumes basic knowledge of Python and a vague recollection of calculus from high school.
+
+Links:
+- micrograd on github: https://github.com/karpathy/micrograd
+- jupyter notebooks I built in this video: https://github.com/karpathy/nn-zero-to-hero/tree/master/lectures/micrograd
+- my website: https://karpathy.ai
+- my twitter: https://twitter.com/karpathy
+- &quot;discussion forum&quot;: nvm, use youtube comments below for now :)
+- (new) Neural Networks: Zero to Hero series Discord channel: https://discord.gg/3zy8kqD9Cp , for people who'd like to chat more and go beyond youtube comments
+
+Exercises:
+you should now be able to complete the following google collab, good luck!:
+https://colab.research.google.com/drive/1FPTx1RXtBfc4MaTkf7viZZD4U2F9gtKN?usp=sharing
+
+Chapters:
+00:00:00 intro
+00:00:25 micrograd overview
+00:08:08 derivative of a simple function with one input
+00:14:12 derivative of a function with multiple inputs
+00:19:09 starting the core Value object of micrograd and its visualization
+00:32:10 manual backpropagation example #1: simple expression
+00:51:10 preview of a single optimization step
+00:52:52 manual backpropagation example #2: a neuron
+01:09:02 implementing the backward function for each operation
+01:17:32 implementing the backward function for a whole expression graph
+01:22:28 fixing a backprop bug when one node is used multiple times
+01:27:05 breaking up a tanh, exercising with more operations
+01:39:31 doing the same thing but in PyTorch: comparison
+01:43:55 building out a neural net library (multi-layer perceptron) in micrograd
+01:51:04 creating a tiny dataset, writing the loss function
+01:57:56 collecting all of the parameters of the neural net
+02:01:12 doing gradient descent optimization manually, training the network
+02:14:03 summary of what we learned, how to go towards modern neural nets
+02:16:46 walkthrough of the full code of micrograd on github
+02:21:10 real stuff: diving into PyTorch, finding their backward pass for tanh
+02:24:39 conclusion
+02:25:20 outtakes :)</media:description>
+   <media:community>
+    <media:starRating count="81306" average="5.00" min="1" max="5"/>
+    <media:statistics views="4042397"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

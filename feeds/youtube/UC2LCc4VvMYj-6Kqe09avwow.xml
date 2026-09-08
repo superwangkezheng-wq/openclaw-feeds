@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC2LCc4VvMYj-6Kqe09avwow"/>
+ <id>yt:channel:2LCc4VvMYj-6Kqe09avwow</id>
+ <yt:channelId>2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+ <title>Semiconductor Engineering</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow"/>
+ <author>
+  <name>Semiconductor Engineering</name>
+  <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+ </author>
+ <published>2011-06-27T17:15:38+00:00</published>
+ <entry>
+  <id>yt:video:r3PFFZImWpA</id>
+  <yt:videoId>r3PFFZImWpA</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>Smart Outlier Detection</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=r3PFFZImWpA"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-09-08T07:00:26+00:00</published>
+  <updated>2026-09-08T07:00:27+00:00</updated>
+  <media:group>
+   <media:title>Smart Outlier Detection</media:title>
+   <media:content url="https://www.youtube.com/v/r3PFFZImWpA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/r3PFFZImWpA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Nearly all leading-edge designs today are multi-die assemblies, which means that one defective die can render the entire device unusable. But not all dies that are deemed defective should be scrapped, and not all dies that pass inspection will behave as expected in the field, especially over time. Nir Sever, senior director of business development at proteanTecs, talks with Semiconductor Engineering about how to train machine learning models to identify outliers in context, replacing a rigid pass/fail decision tied to a spec with one that assesses its usefulness based on its behavior under real workloads in a complex system.</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="12"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:rrke8kXnsII</id>
+  <yt:videoId>rrke8kXnsII</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>Redefining Roles For Edge And Cloud AI</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=rrke8kXnsII"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-08-25T07:00:31+00:00</published>
+  <updated>2026-09-01T01:28:40+00:00</updated>
+  <media:group>
+   <media:title>Redefining Roles For Edge And Cloud AI</media:title>
+   <media:content url="https://www.youtube.com/v/rrke8kXnsII?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/rrke8kXnsII/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The rapid build-out of AI on the edge marks a fundamental shift in where intelligence is located, how much is included in devices, and the speed at which that intelligence can be applied to everyday problems. While the cloud will still be used for training large language models, the edge will include a collection of smaller, much more targeted language models. Nigel Drego, CTO and co-founder of Quadric, talks with Semiconductor Engineering about how edge AI will interact with the cloud in co-optimized systems, how the proliferation of edge AI will improve response time and reduce privacy concerns, and how quickly this market is expanding. [According to recent estimates, 100 billion models are being run locally on edge devices today.]</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="575"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:WMKiQUYQhnA</id>
+  <yt:videoId>WMKiQUYQhnA</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>AI Agent Orchestration For ASIC Autonomy</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WMKiQUYQhnA"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-07-27T07:00:06+00:00</published>
+  <updated>2026-08-03T05:44:41+00:00</updated>
+  <media:group>
+   <media:title>AI Agent Orchestration For ASIC Autonomy</media:title>
+   <media:content url="https://www.youtube.com/v/WMKiQUYQhnA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WMKiQUYQhnA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The use of AI agents in chip design has been limited to small portions of the design flow. Engineers have been proceeding cautiously to understand how agents work, how to ensure they are delivering consistent results, and how different agents work together. The next step is to extend their role beyond just gluing together coding and tooling functions. Mehir Arora, head of engineering at ChipAgents, talks with Semiconductor Engineering about what happens when the role of AI agents is expanded to include semantics and physics, what's happens when agents work in parallel on different engineering problems, and what's needed to achieve a 10X or greater improvement in productivity.</media:description>
+   <media:community>
+    <media:starRating count="42" average="5.00" min="1" max="5"/>
+    <media:statistics views="1605"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:FZrYySrBLpA</id>
+  <yt:videoId>FZrYySrBLpA</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>Verifying Networks On Chip</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FZrYySrBLpA"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-07-20T07:01:10+00:00</published>
+  <updated>2026-09-01T03:15:40+00:00</updated>
+  <media:group>
+   <media:title>Verifying Networks On Chip</media:title>
+   <media:content url="https://www.youtube.com/v/FZrYySrBLpA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FZrYySrBLpA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>More data, more processing elements, and more memories are making it much harder to maintain consistent throughput in a multi-die assembly. There is more concurrent traffic, more potential interactions, and more protocol layers. Ashish Darbari, CEO of Axiomise, talks with Semiconductor Engineering about the of coherency on serialization bugs, how to ensure data is secure, and how to ferret out the root cause of problems like silent data corruption using formal technology.</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="374"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:LbgU5ybG4OY</id>
+  <yt:videoId>LbgU5ybG4OY</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>AI Models On The Edge</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=LbgU5ybG4OY"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-07-14T07:01:10+00:00</published>
+  <updated>2026-08-31T15:54:03+00:00</updated>
+  <media:group>
+   <media:title>AI Models On The Edge</media:title>
+   <media:content url="https://www.youtube.com/v/LbgU5ybG4OY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LbgU5ybG4OY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Moving from large language models in the cloud to small language models at the edge is much more complicated than just slimming down the algorithms. It requires changes in both hardware and software, and the constraints can vary greatly from one market segment to another. Daniel Firu, CPO and co-founder of Quadric, and Ravi Chakaravarthy, vice president of software at the company, talk with Semiconductor Engineering about how to optimize NPUs for different applications, how to build in enough flexibility to keep designs from becoming obsolete too quickly, and how to leverage the benefits of open-source while still adding value.</media:description>
+   <media:community>
+    <media:starRating count="19" average="5.00" min="1" max="5"/>
+    <media:statistics views="684"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zV6Zq-FTzzg</id>
+  <yt:videoId>zV6Zq-FTzzg</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>How Far Left Can You Shift?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zV6Zq-FTzzg"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-06-24T07:00:34+00:00</published>
+  <updated>2026-08-31T22:51:44+00:00</updated>
+  <media:group>
+   <media:title>How Far Left Can You Shift?</media:title>
+   <media:content url="https://www.youtube.com/v/zV6Zq-FTzzg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zV6Zq-FTzzg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>More steps in the design flow are shifting left, which makes a complicated design process even more complex. This includes early software prototyping, workload mapping, verification, multi-physics integration, verification, IP qualification. Frank Schirrmeister, executive director of strategic programs for System Solutions at Synopsys, talks with Semiconductor Engineering about the increasing number of steps, the potential trouble spots, how reuse and chiplets impact the flow, and what engineers need to know in order to get a working chip out the door and on schedule.</media:description>
+   <media:community>
+    <media:starRating count="22" average="5.00" min="1" max="5"/>
+    <media:statistics views="710"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ROxK6uNQ2qk</id>
+  <yt:videoId>ROxK6uNQ2qk</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>New USB Standards: Benefits And Incompatibilities</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ROxK6uNQ2qk"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-06-23T07:00:27+00:00</published>
+  <updated>2026-07-27T07:26:33+00:00</updated>
+  <media:group>
+   <media:title>New USB Standards: Benefits And Incompatibilities</media:title>
+   <media:content url="https://www.youtube.com/v/ROxK6uNQ2qk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ROxK6uNQ2qk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Just because it's a standard doesn't mean everything will work together, and this is especially evident with conflicting USB standards. David Shin, senior product marketing manager at Cadence Design Systems, talks with Semiconductor Engineering about where incompatibilities can crop up, why it's so difficult to control the different versions, and what's behind all this confusion.</media:description>
+   <media:community>
+    <media:starRating count="22" average="5.00" min="1" max="5"/>
+    <media:statistics views="598"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QxU09Tkl_Mg</id>
+  <yt:videoId>QxU09Tkl_Mg</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>Will Your Chip's Memory Work As Expected?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QxU09Tkl_Mg"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-06-22T07:00:13+00:00</published>
+  <updated>2026-07-27T07:25:04+00:00</updated>
+  <media:group>
+   <media:title>Will Your Chip's Memory Work As Expected?</media:title>
+   <media:content url="https://www.youtube.com/v/QxU09Tkl_Mg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QxU09Tkl_Mg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Increased density at advanced nodes, multi-die assemblies, and the rollout of AI everywhere are making it much more challenging to ensure that memory will function properly over its expected lifetime. Test is no longer about a single memory or one approach for testing memory. It can vary by application, by workload, and by architecture. Some testing is close to memory, some is built into memory, and some is a combination of multiple approaches with corners tied to a particular manufacturing process. Yervant Zorian, chief architect and fellow at Synopsys, and president of Synopsys Armenia, talks with Semiconductor Engineering about why a hierarchical approach is now essential for testing memory, what can go wrong while testing different memories tied to different types of processors, and why massive multi-physics simulations and digital twins are needed for everything from smartphones to robots.</media:description>
+   <media:community>
+    <media:starRating count="38" average="5.00" min="1" max="5"/>
+    <media:statistics views="1030"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6hlHn0AQp1g</id>
+  <yt:videoId>6hlHn0AQp1g</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>Signoff Of Synthesis-Optimized Registers</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6hlHn0AQp1g"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-06-17T07:00:15+00:00</published>
+  <updated>2026-08-31T12:29:51+00:00</updated>
+  <media:group>
+   <media:title>Signoff Of Synthesis-Optimized Registers</media:title>
+   <media:content url="https://www.youtube.com/v/6hlHn0AQp1g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6hlHn0AQp1g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>How do you know when you sign off on a complex chip design that everything is going to work? There are more variables, more elements that need to be verified, and more waivers that need to be generated. Suresh Barla, senior director of field applications at Synopsys, talks with Semiconductor Engineering about how to ensure that RTL is fully optimized for PPA targets in large designs that can include hundreds of millions of gates and dozens of design blocks, and that the netlist meets sign-off quality.</media:description>
+   <media:community>
+    <media:starRating count="41" average="5.00" min="1" max="5"/>
+    <media:statistics views="839"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5KcuFshl29U</id>
+  <yt:videoId>5KcuFshl29U</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>Building Multi-Agent Systems For ASIC Flows</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5KcuFshl29U"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-06-10T07:00:17+00:00</published>
+  <updated>2026-09-01T00:54:30+00:00</updated>
+  <media:group>
+   <media:title>Building Multi-Agent Systems For ASIC Flows</media:title>
+   <media:content url="https://www.youtube.com/v/5KcuFshl29U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5KcuFshl29U/hqdefault.jpg" width="480" height="360"/>
+   <media:description>If one AI agent can solve a problem in a certain amount of time, can multiple agents solve it faster? The answer is yes, but only if the agents have well-defined roles and targets. This is where orchestrators fit in, and why they are so critical to agentic AI. Kexun Zhang, head of research at ChipAgents, talks with Semiconductor Engineering about what exactly AI agents are, how they can be used to solve big problems that would require many experienced engineers, and how to parse a problem to maximize the effectiveness of those agents.</media:description>
+   <media:community>
+    <media:starRating count="27" average="5.00" min="1" max="5"/>
+    <media:statistics views="1853"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6K7ZDX7kROQ</id>
+  <yt:videoId>6K7ZDX7kROQ</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>1 Megawatt Racks In Data Centers</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6K7ZDX7kROQ"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-06-03T07:00:27+00:00</published>
+  <updated>2026-09-01T01:27:06+00:00</updated>
+  <media:group>
+   <media:title>1 Megawatt Racks In Data Centers</media:title>
+   <media:content url="https://www.youtube.com/v/6K7ZDX7kROQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6K7ZDX7kROQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The demand for performance in an AI data center is causing a huge spike in the amount of power being consumed. Within a rack are a half-dozen SoC components housed in different types of advanced packages and connected with an assortment of blazing-fast interface IP and optical signaling. Manmeet Walia, director of product management for mixed-signal PHY IP in the Synopsys Solutions Group, talks with Semiconductor Engineering about the unprecedented changes underway to enable faster training and inferencing, and the collection of new technologies needed to make this all work, from 3.5D and 3D-ICs to the disaggregation of memory into tiered structures.</media:description>
+   <media:community>
+    <media:starRating count="34" average="5.00" min="1" max="5"/>
+    <media:statistics views="1109"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:tsufaTU5S8s</id>
+  <yt:videoId>tsufaTU5S8s</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>The Evolution Of UCIe</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tsufaTU5S8s"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-06-02T07:00:00+00:00</published>
+  <updated>2026-08-31T20:51:19+00:00</updated>
+  <media:group>
+   <media:title>The Evolution Of UCIe</media:title>
+   <media:content url="https://www.youtube.com/v/tsufaTU5S8s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tsufaTU5S8s/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Since it was released in March 2022, the Universal Chiplet Interconnect Express (UCIe) has grown from a basic way of connecting two dies together into a comprehensive specification that can ensure the handoff of data between various components in an advanced package, as well as validate the chiplets within that package. Mayank Bhatnagar, director of product marketing at Cadence, talks with Semiconductor Engineering about the physical elements in UCIe, the logical view of how it appears to design engineers, and how this can be customized for anything from a simple connection to a complex collection of chiplets that can come from multiple foundries and operate at different speeds.</media:description>
+   <media:community>
+    <media:starRating count="25" average="5.00" min="1" max="5"/>
+    <media:statistics views="976"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:PF3RI0uuTvU</id>
+  <yt:videoId>PF3RI0uuTvU</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>Moving Defect Detection And Classification To The Edge</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=PF3RI0uuTvU"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-05-29T07:00:33+00:00</published>
+  <updated>2026-08-31T20:33:09+00:00</updated>
+  <media:group>
+   <media:title>Moving Defect Detection And Classification To The Edge</media:title>
+   <media:content url="https://www.youtube.com/v/PF3RI0uuTvU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/PF3RI0uuTvU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The number of defects detected through inspection is exploding at each new process node. There are now millions of defects being identified on each wafer, but only a fraction of those can cause problems. Prasad Bachiraju, senior director of business development at Onto Innovation, talks with Semiconductor Engineering about the different types of images being captured using different illumination modes at different touch points, how that data gets classified, and how AI and machine learning at the edge can be used to identify critical errors and separate out the nuisance errors that may be caused by process variation and neighborhood noise.</media:description>
+   <media:community>
+    <media:starRating count="23" average="5.00" min="1" max="5"/>
+    <media:statistics views="788"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Vb5sKpvUn2c</id>
+  <yt:videoId>Vb5sKpvUn2c</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>Overcoming Bottlenecks In Data Movement</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Vb5sKpvUn2c"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-05-27T07:00:18+00:00</published>
+  <updated>2026-06-16T18:16:29+00:00</updated>
+  <media:group>
+   <media:title>Overcoming Bottlenecks In Data Movement</media:title>
+   <media:content url="https://www.youtube.com/v/Vb5sKpvUn2c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Vb5sKpvUn2c/hqdefault.jpg" width="480" height="360"/>
+   <media:description>AI is all about data. There is more data to process, store, and move, and more tradeoffs required to do that efficiently and with enough flexibility to handle changes in future workloads. Nandan Nayampally, chief commercial officer at Baya Systems, talks with Semiconductor Engineering about networks on chip and networks across chip, what the choke points are for data movement, and where and when data coherency makes sense.</media:description>
+   <media:community>
+    <media:starRating count="27" average="5.00" min="1" max="5"/>
+    <media:statistics views="750"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:WmirrTh87bA</id>
+  <yt:videoId>WmirrTh87bA</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>DFT In Automotive</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WmirrTh87bA"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-05-13T07:00:23+00:00</published>
+  <updated>2026-09-01T00:12:40+00:00</updated>
+  <media:group>
+   <media:title>DFT In Automotive</media:title>
+   <media:content url="https://www.youtube.com/v/WmirrTh87bA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WmirrTh87bA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Ensuring automotive chips are reliable, defect-free, and secure adds a whole new dimension to design for testability (DFT). Depending on the safety criticality of a system in an automobile, tests can range from key-on, once a car is started, to safety-critical features that may need to be tested every couple hundred milliseconds during operation. Lee Harrison, director of automotive IC solutions in Siemens EDA's Tessent Division, talks with Semiconductor Engineering about why logic built-in self-test (LBiST) and memory BiST (MBiST) are so important for test coverage and customization, the impact of standards such as ISO 2134 and Europe's CRA, and the challenges of using chiplets developed by different vendors.</media:description>
+   <media:community>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="473"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

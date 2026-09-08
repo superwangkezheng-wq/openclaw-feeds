@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC_CzsS7UTjcxJ-xXp1ftxtA"/>
+ <id>yt:channel:_CzsS7UTjcxJ-xXp1ftxtA</id>
+ <yt:channelId>_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+ <title>Sebastian Raschka</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA"/>
+ <author>
+  <name>Sebastian Raschka</name>
+  <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+ </author>
+ <published>2012-02-21T04:08:32+00:00</published>
+ <entry>
+  <id>yt:video:BJua0yjO5dk</id>
+  <yt:videoId>BJua0yjO5dk</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build A Reasoning Model Scratch 2: Loading a Base Model, Text Generation, and KV Caching</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=BJua0yjO5dk"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-09-06T11:05:33+00:00</published>
+  <updated>2026-09-06T16:17:57+00:00</updated>
+  <media:group>
+   <media:title>Build A Reasoning Model Scratch 2: Loading a Base Model, Text Generation, and KV Caching</media:title>
+   <media:content url="https://www.youtube.com/v/BJua0yjO5dk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/BJua0yjO5dk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The second video in the Build A Reasoning Model (From Scratch) series illustrates how to load a pre-trained model, how LLM text generation works, and how to make it more efficient with KV caching. (These are the basics to get started, later videos will revisit text-generation with sampling in more detail.)
+
+- Reasoning Book: https://mng.bz/Nwr7 (Manning) &amp; https://amzn.to/4aAKiFY (Amazon)
+- Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
+- Reasoning From Scratch Playlist: https://www.youtube.com/playlist?list=PLfrHAQCRxtUs
+
+Other resources mentioned in the video:
+
+- LLMs from Scratch book: https://amzn.to/4fqvn0D
+- LLMs from Scratch repo: https://github.com/rasbt/LLMs-from-scratch
+- LLMs from Scratch playlist: https://www.youtube.com/watch?v=yAcWnfsZhzo&amp;list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11&amp;index=1
+
+- MPS bug article: https://scottkirila.studio.site/blog/kernel-bug
+- BPE from scratch: https://github.com/rasbt/LLMs-from-scratch/tree/main/ch02/05_bpe-from-scratch
+- KV cache from scratch https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms
+
+00:00 Introduction and reasoning model demo
+01:55 How to work through the book
+05:00 Chapter 2 overview
+08:25 Checking PyTorch and hardware support
+10:26 Apple silicon and MPS caveats
+15:00 Cloud GPU options
+16:08 Tokens and tokenization
+18:20 Qwen3 and the Reasoning From Scratch package
+23:05 Encoding and decoding text
+26:24 Downloading weights and selecting a device
+31:01 Loading the pretrained Qwen3 model
+34:32 How LLMs generate text
+36:47 Input tensors and batch dimensions
+41:48 Running the model in inference mode
+44:11 Logits and next-token predictions
+49:21 Greedy decoding with argmax
+52:28 Building a streaming text generator
+01:01:28 Generating text and handling end-of-sequence tokens
+01:06:00 Benchmarking text generation
+01:14:34 How KV caching works
+01:17:22 Adding KV caching and measuring the speedup
+01:24:31 Model compilation with torch.compile
+01:30:33 Combining compilation with KV caching
+01:32:53 Comparing CPU and GPU performance
+01:35:32 Recap and next steps</media:description>
+   <media:community>
+    <media:starRating count="131" average="5.00" min="1" max="5"/>
+    <media:statistics views="7586"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:KT4n-z_4QJU</id>
+  <yt:videoId>KT4n-z_4QJU</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>OpenAI Astra and Recurrent Depth / Looped Transformers</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KT4n-z_4QJU"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-09-02T23:10:00+00:00</published>
+  <updated>2026-09-04T14:58:41+00:00</updated>
+  <media:group>
+   <media:title>OpenAI Astra and Recurrent Depth / Looped Transformers</media:title>
+   <media:content url="https://www.youtube.com/v/KT4n-z_4QJU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KT4n-z_4QJU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A short video explaining the rumored recurrent depth (looped transformer) architectural design in OpenAI's new (upcoming) Astra model.
+
+In particular, I discuss what looped transformers are and go over the related literature.
+
+Links and references
+
+The Information article on OpenAI Astra:
+https://www.theinformation.com/articles/secret-technique-behind-openais-astra-model-sparks-security-concerns
+
+Looped depth sharing explainer:
+https://sebastianraschka.com/llm-architecture-gallery/looped-depth-sharing/
+
+LLM Architecture Gallery:
+https://www.sebastianraschka.com/llm-architecture-gallery/
+
+Nanbeige4.2-3B technical report:
+https://arxiv.org/abs/2607.22083
+
+Mixture-of-Recursions:
+https://arxiv.org/abs/2507.10524
+
+Universal Transformers:
+https://arxiv.org/abs/1807.03819
+
+Scaling up Test-Time Compute with Latent Reasoning:
+https://arxiv.org/abs/2502.05171
+
+00:00 OpenAI Astra and the Recurrent-Depth Rumor
+01:37 Claims About Recurrent Depth
+03:02 Nanbeige4.2-3B’s Looped Transformer
+05:21 Why Reuse the Same Layers?
+07:43 Training From Scratch vs. Retrofitting
+09:47 Why Use Two Passes?
+10:35 KV-Cache Implications
+12:00 Mixture-of-Recursions and Dynamic Depth
+16:18 Validation-Loss Comparison
+18:16 Attention and KV Caching With Dynamic Depth
+19:55 Recurrent Depth and Chain of Thought
+23:26 Recursive Self-Improvement
+24:27 Universal Transformers
+25:27 Latent Reasoning With Recurrent Depth
+27:09 Summary
+
+Corrections:
+3:09 I incorrectly said that Nanbeige was developed in India. Nanbeige4.2-3B was developed by Nanbeige LLM Lab and Boss Zhipin in China. I had confused it with Sarvam AI, which is based in India.
+
+If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
+https://magazine.sebastianraschka.com/</media:description>
+   <media:community>
+    <media:starRating count="924" average="5.00" min="1" max="5"/>
+    <media:statistics views="97896"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Kh9mqTzjuEQ</id>
+  <yt:videoId>Kh9mqTzjuEQ</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build A Reasoning Model Scratch 1: Motivation &amp; Code Setup</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Kh9mqTzjuEQ"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-08-30T11:30:10+00:00</published>
+  <updated>2026-08-30T11:45:23+00:00</updated>
+  <media:group>
+   <media:title>Build A Reasoning Model Scratch 1: Motivation &amp; Code Setup</media:title>
+   <media:content url="https://www.youtube.com/v/Kh9mqTzjuEQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Kh9mqTzjuEQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video explains the relationship between conventional LLMs and reasoning models (and agents), philosophizes a about &quot;from scratch&quot; approaches, and explains how to install Python &amp; PyTorch requirements with uv.
+
+
+- Reasoning Book: https://amzn.to/4aAKiFY
+- Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
+- Reasoning effort article: https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms
+
+- LLMs from Scratch book: https://amzn.to/4fqvn0D
+- LLMs from Scratch repo: https://github.com/rasbt/LLMs-from-scratch
+- LLMs from Scratch playlist: https://www.youtube.com/watch?v=yAcWnfsZhzo&amp;list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11&amp;index=1
+
+0:00 Introduction
+1:16 From conventional LLMs to reasoning models
+2:54 Reasoning models and agent harnesses
+4:00 Why implement models from scratch?
+8:23 Learning resources and books
+11:42 What this video series covers
+14:23 Controlling reasoning effort in modern LLMs
+17:19 Which video series should you start with?
+18:18 Setting up the code environment
+19:45 Cloning the GitHub repository
+20:40 Installing the dependencies with pip or uv
+27:19 Running the code in JupyterLab
+28:34 Troubleshooting Python environments
+30:33 Checking CUDA and Apple Silicon support
+32:43 Do you need a GPU?
+34:30 Using a remote GPU with VS Code
+39:35 Fixing CUDA and PyTorch issues
+41:50 Questions and what comes next</media:description>
+   <media:community>
+    <media:starRating count="574" average="5.00" min="1" max="5"/>
+    <media:statistics views="28089"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:tLv7qRWFMlw</id>
+  <yt:videoId>tLv7qRWFMlw</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>How Claude's Text Watermarking Works</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tLv7qRWFMlw"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-08-19T01:41:04+00:00</published>
+  <updated>2026-08-29T21:25:46+00:00</updated>
+  <media:group>
+   <media:title>How Claude's Text Watermarking Works</media:title>
+   <media:content url="https://www.youtube.com/v/tLv7qRWFMlw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tLv7qRWFMlw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Link to transcript: https://magazine.sebastianraschka.com/p/claude-watermarking
+Link to the slides: https://sebastianraschka.com/pdf/slides/2026-08-18-claude-watermarking.pdf
+
+This video explains how Anthropic's text watermarking for Claude works. In particular, it explains how the next-token sampling process in LLMs work, and how this is modified to implement the watermarking technique. A thorough understanding of the watermarking is useful because it helps us understand the implementation shortcomings as well.
+
+0:00 How Claude's Text Watermarking Works
+5:38 How LLM Text Generation Works
+11:39 How Next-Token Sampling Works
+16:19 From Sampling to Watermarking
+18:23 Random Seeds and Deterministic Sampling
+20:03 How the Watermarking Key Works
+24:45 Where the Watermark Is Applied
+26:13 How Watermark Detection Works
+28:00 How to Remove a Watermark
+30:17 How the Watermark Scoring Function Works
+31:18 SynthID Text and Tournament Sampling
+34:33 Random Watermarking Functions
+36:36 Tournament Sampling Step by Step
+39:18 Detecting Watermarks Without Rerunning the LLM
+43:26 Watermarking Summary and Limitations
+44:34 What This Means for AI-Generated Text
+47:13 Final Thoughts
+
+Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
+   <media:community>
+    <media:starRating count="435" average="5.00" min="1" max="5"/>
+    <media:statistics views="17759"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7KDW-VOEUOI</id>
+  <yt:videoId>7KDW-VOEUOI</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build A Reasoning Model (From Scratch), Page 198</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7KDW-VOEUOI"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-07-19T16:33:50+00:00</published>
+  <updated>2026-07-27T13:27:11+00:00</updated>
+  <media:group>
+   <media:title>Build A Reasoning Model (From Scratch), Page 198</media:title>
+   <media:content url="https://www.youtube.com/v/7KDW-VOEUOI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7KDW-VOEUOI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In listing 6.5 on page 198 of Build a Reasoning Model (From Scratch), torch.manual_seed(0) should be torch.manual_seed(5).
+
+This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
+   <media:community>
+    <media:starRating count="71" average="5.00" min="1" max="5"/>
+    <media:statistics views="3972"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TXzQ7PGpO6w</id>
+  <yt:videoId>TXzQ7PGpO6w</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>What I Learned From Implementing LLM Architectures From Scratch (And How to Get Started)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TXzQ7PGpO6w"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-05-12T23:27:35+00:00</published>
+  <updated>2026-08-21T21:07:31+00:00</updated>
+  <media:group>
+   <media:title>What I Learned From Implementing LLM Architectures From Scratch (And How to Get Started)</media:title>
+   <media:content url="https://www.youtube.com/v/TXzQ7PGpO6w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TXzQ7PGpO6w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>LLM Architecture Gallery: https://llm-gallery.com
+
+In this talk, I discuss what we can learn from implementing LLM architectures from scratch in Python and PyTorch.
+
+The main idea is that to really understand how modern LLMs work, it helps to inspect the actual implementation details: attention variants, normalization layers, configuration files, KV cache optimizations, and the small architectural choices that often make a model work correctly.
+
+I also walk through how I approach new open-weight models, how I compare them against reference implementations, and what broader architecture trends emerge from looking at many recent LLMs.
+
+
+Chapters:
+00:00 Introduction
+01:15 Running LLMs locally in Python
+02:30 What &quot;Python&quot; means in practice: PyTorch and hardware backends
+04:45 The LLM ecosystem: training and inference tools
+07:25 Why implementation details matter
+09:35 From model releases to architecture diagrams
+12:00 Reading model cards and config files
+15:50 Debugging architecture implementations
+18:00 Comparing against Hugging Face Transformers
+20:30 A Gemma 3 RMSNorm example
+24:00 A 12-step workflow for understanding new architectures
+25:15 The LLM Architecture Gallery
+26:10 Architecture trends across recent LLMs
+27:30 KV cache motivation
+29:40 Grouped-query attention
+32:30 Multi-head latent attention
+36:40 Sliding window attention
+40:00 Sparse and selective attention trends
+42:00 KV cache quantization
+43:30 LLMs inside agentic software harnesses
+46:10 Getting started with LLMs from scratch
+48:00 When to use libraries instead of from-scratch code
+50:00 Transparent open-source training codebases
+52:00 Build a Reasoning Model From Scratch</media:description>
+   <media:community>
+    <media:starRating count="1329" average="5.00" min="1" max="5"/>
+    <media:statistics views="32817"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CepbWmGie0E</id>
+  <yt:videoId>CepbWmGie0E</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>A Visual Tour of Modern LLM Architectures</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CepbWmGie0E"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-03-28T00:12:06+00:00</published>
+  <updated>2026-04-28T20:39:27+00:00</updated>
+  <media:group>
+   <media:title>A Visual Tour of Modern LLM Architectures</media:title>
+   <media:content url="https://www.youtube.com/v/CepbWmGie0E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CepbWmGie0E/hqdefault.jpg" width="480" height="360"/>
+   <media:description>LLM Architecture Gallery: https://sebastianraschka.com/llm-architecture-gallery/
+
+In this video, I take you on a visual tour of modern LLM architectures and walk through the key ideas behind models like DeepSeek, Qwen3-Next, Kimi, Sarvam, Ling 2.5, and Nemotron.
+
+We look at what actually changed in recent LLM design, including grouped-query attention (GQA), sliding-window attention, multi-head latent attention (MLA), DeepSeek sparse attention, and hybrid linear attention.
+
+The goal of the gallery is to make it easier to compare architectures side by side, connect the diagrams back to papers, configs, and code, and get a clearer intuition for how today’s language models differ under the hood.
+
+Poster: https://www.redbubble.com/i/poster/LLM-Architecture-Gallery-by-Ahead-of-AI/179274487/flk2
+Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-variants
+
+00:00 Intro
+00:55 Why I built the gallery
+01:16 Overview of the LLM Architecture Gallery
+04:17 Comparing models side by side
+05:41 Benchmarks and the Artificial Intelligence Index
+07:03 GPT2 XL as the baseline architecture
+10:22 Grouped-Query Attention (GQA)
+14:51 Sliding-Window Attention
+18:40 Multi-Head Latent Attention (MLA)
+25:31 Sarvam 30B vs 105B
+27:41 DeepSeek Sparse Attention
+30:24 Hybrid Attention and Qwen3-Next
+33:20 Kimi Linear, Ling 2.5, and Nemotron
+36:39 Poster, future updates, and wrap-up</media:description>
+   <media:community>
+    <media:starRating count="786" average="5.00" min="1" max="5"/>
+    <media:statistics views="17133"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:lONyteDR4XE</id>
+  <yt:videoId>lONyteDR4XE</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>LLM Building Blocks &amp; Transformer Alternatives</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=lONyteDR4XE"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2025-10-27T15:27:11+00:00</published>
+  <updated>2026-09-04T04:50:52+00:00</updated>
+  <media:group>
+   <media:title>LLM Building Blocks &amp; Transformer Alternatives</media:title>
+   <media:content url="https://www.youtube.com/v/lONyteDR4XE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/lONyteDR4XE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Resources:
+- Understanding and Coding the KV Cache in LLMs from Scratch: https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms
+- The Big Architecture Comparison: https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
+- Beyond Standard LLMs: Linear Attention Hybrids, Text Diffusion, Code World Models, and Small Recursive Transformers
+- Reasoning From Scratch book: https://mng.bz/Nwr7
+
+Description:
+Learn the core components of modern transformer-based large language models (LLMs) and the practical techniques that make inference faster and cheaper.
+We walk through Grouped-Query Attention (GQA), Multi-Head Latent Attention (MLA), and Sliding Window Attention (SWA), show where Mixture of Experts (MoE) fits into today’s architectures, and finish with a look at promising alternatives and hybrid models beyond standard transformers.
+
+Chapters:
+
+00:00 Intro
+01:13 Main theme: bigger models and cheaper inference
+02:13 Grouped-Query Attention (GQA)
+05:44 Multi-Head Latent Attention (MLA)
+09:51 Sliding Window Attention (SWA)
+13:57 Mixture of Experts
+17:01 LLM and transformer alternatives
+
+
+#LLM #Transformers #DeepLearning #MachineLearning #Inference #MoE #GQA #MLA #SWA #KVCache</media:description>
+   <media:community>
+    <media:starRating count="681" average="5.00" min="1" max="5"/>
+    <media:statistics views="20097"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:rNlULI-zGcw</id>
+  <yt:videoId>rNlULI-zGcw</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>The Big LLM Architecture Comparison</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=rNlULI-zGcw"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2025-09-10T10:01:33+00:00</published>
+  <updated>2026-05-05T00:11:48+00:00</updated>
+  <media:group>
+   <media:title>The Big LLM Architecture Comparison</media:title>
+   <media:content url="https://www.youtube.com/v/rNlULI-zGcw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/rNlULI-zGcw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Article: https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
+Reasoning from scratch book: https://mng.bz/Nwr7
+LLMs from Scratch repo: https://github.com/rasbt/LLMs-from-scratch
+
+This video covers the most important open-weight LLM architectures released in 2025, along with their architectural design decisions.
+
+00:00:00 The Big Architecture Comparison
+00:01:52 1. DeepSeek V3/R1
+00:24:50 2. OLMo 2
+00:35:07 3. Gemma 3 
+00:44:31 4. Mistral Small 3.1
+00:48:04 5. Llama 4
+00:50:03 6. Qwen3
+00:58:07 7. SmolLM3
+01:05:03 8. Kimi 2
+01:08:19 9. GPT-OSS
+01:14:57 10. Grok 2.5
+01:19:04 11. GLM-4.5</media:description>
+   <media:community>
+    <media:starRating count="1750" average="5.00" min="1" max="5"/>
+    <media:statistics views="44875"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4yNswvhPWCQ</id>
+  <yt:videoId>4yNswvhPWCQ</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build an LLM from Scratch 7: Instruction Finetuning</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4yNswvhPWCQ"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2025-04-11T17:17:37+00:00</published>
+  <updated>2026-04-21T23:58:03+00:00</updated>
+  <media:group>
+   <media:title>Build an LLM from Scratch 7: Instruction Finetuning</media:title>
+   <media:content url="https://www.youtube.com/v/4yNswvhPWCQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4yNswvhPWCQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Links to the book: 
+- https://amzn.to/4fqvn0D (Amazon)
+- https://mng.bz/M96o (Manning)
+
+Link to the GitHub repository: https://github.com/rasbt/LLMs-from-scratch
+
+This is a supplementary video explaining how to instruction finetune an LLM.
+
+00:00 7.2 Preparing a dataset for supervised instruction finetuning
+15:37 7.3 Organizing data into training batches
+39:17 7.4 Creating data loaders for an instruction dataset
+46:44 7.5 Loading a pretrained LLM
+54:25 7.6 Finetuning the LLM on instruction data
+1:14:20 7.7 Extracting and saving responses
+1:23:56 7.8 Evaluating the finetuned LLM
+
+You can find additional bonus materials on GitHub
+
+Generating a Dataset for Instruction Finetuning, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation
+
+Direct Preference Optimization (DPO) for LLM Alignment, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/04_preference-tuning-with-dpo
+
+Building a User Interface to Interact With the Instruction Finetuned GPT Model, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/06_user_interface
+
+Evaluating Instruction Responses Using the OpenAI API and Ollama, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation</media:description>
+   <media:community>
+    <media:starRating count="824" average="5.00" min="1" max="5"/>
+    <media:statistics views="47333"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5PFXJYme4ik</id>
+  <yt:videoId>5PFXJYme4ik</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build an LLM from Scratch 6: Finetuning for Classification</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5PFXJYme4ik"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2025-04-04T19:19:37+00:00</published>
+  <updated>2026-05-05T04:34:02+00:00</updated>
+  <media:group>
+   <media:title>Build an LLM from Scratch 6: Finetuning for Classification</media:title>
+   <media:content url="https://www.youtube.com/v/5PFXJYme4ik?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5PFXJYme4ik/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Links to the book: 
+- https://amzn.to/4fqvn0D (Amazon)
+- https://mng.bz/M96o (Manning)
+
+Link to the GitHub repository: https://github.com/rasbt/LLMs-from-scratch
+
+This is a supplementary video explaining how to finetune an LLM as a classifier (here using a spam classification example) as a gentle introduction to fine-tuning, before instruction finetuning the LLM  in the next video.
+
+00:00 6.2 Preparing the dataset
+26:49 6.3 Creating data loaders
+42:50 6.4 Initializing a model with pretrained weights
+52:56 6.5 Adding a classification head
+1:08:28 6.6 Calculating the classification loss and accuracy
+1:30:54 6.7 Finetuning the model on supervised data
+2:04:25 6.8 Using the LLM as a spam classifier
+
+You can find additional bonus materials on GitHub:
+
+Additional experiments finetuning different layers and using larger models, 
+https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/02_bonus_additional-experiments
+
+Finetuning different models on 50k IMDB movie review dataset,
+https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/03_bonus_imdb-classification
+
+Building a User Interface to Interact With the GPT-based Spam Classifier,
+https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/04_user_interface</media:description>
+   <media:community>
+    <media:starRating count="656" average="5.00" min="1" max="5"/>
+    <media:statistics views="30010"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Zar2TJv-sE0</id>
+  <yt:videoId>Zar2TJv-sE0</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build an LLM from Scratch 5: Pretraining on Unlabeled Data</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Zar2TJv-sE0"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2025-03-23T10:33:00+00:00</published>
+  <updated>2026-05-04T17:26:44+00:00</updated>
+  <media:group>
+   <media:title>Build an LLM from Scratch 5: Pretraining on Unlabeled Data</media:title>
+   <media:content url="https://www.youtube.com/v/Zar2TJv-sE0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Zar2TJv-sE0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Links to the book: 
+- https://amzn.to/4fqvn0D (Amazon)
+- https://mng.bz/M96o (Manning)
+
+Link to the GitHub repository: https://github.com/rasbt/LLMs-from-scratch
+
+This video explains how to pretrain a LLM from scratch.
+
+00:00 5.1.1 Using GPT to generate text
+17:23 5.1.2 Calculating the text generation loss: cross-entropy and perplexity
+44:43 5.1.3 Calculating the training and validation set losses
+1:10:27 5.2 Training an LLM
+1:36:36 5.3 Decoding strategies to control randomness
+1:39:51 5.3.1 Temperature scaling
+1:53:24 5.3.2 Top-k sampling
+2:01:40 5.3.3 Modifying the text generation function
+2:12:24 5.4 Loading and saving model weights in PyTorch
+2:16:44 5.5 Loading pretrained weights from OpenAI
+
+You can find additional bonus materials on GitHub:
+
+Pretraining GPT on the Project Gutenberg Dataset, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/03_bonus_pretraining_on_gutenberg
+
+PyTorch Performance Tips for Faster LLM Training, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/10_llm-training-speed
+
+Converting the GPT-2 architecture into Llama 2 and Llama 3, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama</media:description>
+   <media:community>
+    <media:starRating count="712" average="5.00" min="1" max="5"/>
+    <media:statistics views="37384"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YSAkgEarBGE</id>
+  <yt:videoId>YSAkgEarBGE</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build an LLM from Scratch 4: Implementing a GPT model from Scratch To Generate Text</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YSAkgEarBGE"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2025-03-17T15:24:30+00:00</published>
+  <updated>2026-08-17T08:17:13+00:00</updated>
+  <media:group>
+   <media:title>Build an LLM from Scratch 4: Implementing a GPT model from Scratch To Generate Text</media:title>
+   <media:content url="https://www.youtube.com/v/YSAkgEarBGE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YSAkgEarBGE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Links to the book: 
+- https://amzn.to/4fqvn0D (Amazon)
+- https://mng.bz/M96o (Manning)
+
+Link to the GitHub repository: https://github.com/rasbt/LLMs-from-scratch
+
+This is a supplementary video explaining how to code an LLM architecture  from scratch.
+
+00:00 4.1 Coding an LLM architecture
+13:52 4.2 Normalizing activations withlayer normalization
+36:02 4.3 Implementing a feed forward network with GELU activations
+52:16 4.4 Adding shortcut connections
+1:03:18 4.5 Connecting attention and linear layers in a transformer block
+1:15:13 4.6 Coding the GPT model
+
+You can find additional bonus materials on GitHub, for example converting the GPT-2 architecture into Llama 2 and Llama 3: https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama</media:description>
+   <media:community>
+    <media:starRating count="713" average="5.00" min="1" max="5"/>
+    <media:statistics views="38932"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-Ll8DtpNtvk</id>
+  <yt:videoId>-Ll8DtpNtvk</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build an LLM from Scratch 3: Coding attention mechanisms</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-Ll8DtpNtvk"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2025-03-11T15:42:06+00:00</published>
+  <updated>2026-04-12T09:49:31+00:00</updated>
+  <media:group>
+   <media:title>Build an LLM from Scratch 3: Coding attention mechanisms</media:title>
+   <media:content url="https://www.youtube.com/v/-Ll8DtpNtvk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-Ll8DtpNtvk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Links to the book: 
+- https://amzn.to/4fqvn0D (Amazon)
+- https://mng.bz/M96o (Manning)
+
+Link to the GitHub repository: https://github.com/rasbt/LLMs-from-scratch
+
+This is a supplementary video explaining how attention mechanisms (self-attention, causal attention, multi-head attention) work by coding them from scratch.
+
+00:00 3.3.1 A simple self-attention mechanism without trainable weights
+41:01 3.3.2 Computing attention weights for all input tokens
+52:40 3.4.1 Computing the attention weights step by step
+1:12:33 3.4.2 Implementing a compact SelfAttention class
+1:21:00 3.5.1 Applying a causal attention mask
+1:32:33 3.5.2 Masking additional attention weights with dropout
+1:38:05 3.5.3 Implementing a compact causal self-attention class
+1:46:55 3.6.1 Stacking multiple single-head attention layers
+1:58:55 3.6.2 Implementing multi-head attention with weight splits
+
+You can find additional bonus materials on GitHub:
+
+Comparing Efficient Multi-Head Attention Implementations, https://github.com/rasbt/LLMs-from-scratch/blob/main/ch05/02_alternative_weight_loading/weight-loading-hf-transformers.ipynb
+
+Understanding PyTorch Buffers, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch03/03_understanding-buffers</media:description>
+   <media:community>
+    <media:starRating count="1228" average="5.00" min="1" max="5"/>
+    <media:statistics views="69621"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:341Rb8fJxY0</id>
+  <yt:videoId>341Rb8fJxY0</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build an LLM from Scratch 2: Working with text data</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=341Rb8fJxY0"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2025-03-02T14:15:00+00:00</published>
+  <updated>2026-08-12T11:58:38+00:00</updated>
+  <media:group>
+   <media:title>Build an LLM from Scratch 2: Working with text data</media:title>
+   <media:content url="https://www.youtube.com/v/341Rb8fJxY0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/341Rb8fJxY0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Links to the book: 
+- https://amzn.to/4fqvn0D (Amazon)
+- https://mng.bz/M96o (Manning)
+
+Link to the GitHub repository: https://github.com/rasbt/LLMs-from-scratch
+
+This is a supplementary video going over text data preparations steps (tokenization, byte pair encoding, data loaders, etc.) for LLM training.
+
+00:00 2.2 Tokenizing text
+14:02 2.3 Converting tokens into token IDs
+23:56 2.4 Adding special context tokens
+30:26 2.5 Byte pair encoding
+44:00 2.6 Data sampling with a sliding window
+1:07:10 2.7 Creating token embeddings
+1:15:45 2.8 Encoding word positions
+
+You can find additional bonus materials on GitHub:
+
+Byte Pair Encoding (BPE) Tokenizer From Scratch, https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/05_bpe-from-scratch/bpe-from-scratch.ipynb
+
+Comparing Various Byte Pair Encoding (BPE) Implementations, https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/02_bonus_bytepair-encoder/compare-bpe-tiktoken.ipynb
+
+Understanding the Difference Between Embedding Layers and Linear Layers, https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/03_bonus_embedding-vs-matmul/embeddings-and-linear-layers.ipynb
+
+Data sampling with a sliding window with number data, https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/04_bonus_dataloader-intuition/dataloader-intuition.ipynb
+
+A video on the effect of random seeds: https://www.youtube.com/watch?v=ii89_SqKB08&amp;feature=youtu.be</media:description>
+   <media:community>
+    <media:starRating count="1932" average="5.00" min="1" max="5"/>
+    <media:statistics views="109673"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

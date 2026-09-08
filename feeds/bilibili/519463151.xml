@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>bilibili uid 519463151 (awaiting credential)</title>
+    <link>https://space.bilibili.com/519463151</link>
+    <description>Placeholder. The local capture leg has not run yet because ~/.config/openclaw-feeds/bilibili.env is absent. A parseable empty feed is deliberate: it keeps the reader on a 200 with zero items instead of a 404, so the source reports "no new items" rather than a transport failure it cannot act on.</description>
+    <lastBuildDate>Mon, 08 Sep 2026 08:00:00 GMT</lastBuildDate>
+  </channel>
+</rss>

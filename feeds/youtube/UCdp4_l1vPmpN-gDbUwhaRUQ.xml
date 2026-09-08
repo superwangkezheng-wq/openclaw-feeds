@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCdp4_l1vPmpN-gDbUwhaRUQ"/>
+ <id>yt:channel:dp4_l1vPmpN-gDbUwhaRUQ</id>
+ <yt:channelId>dp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+ <title>Branch Education</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ"/>
+ <author>
+  <name>Branch Education</name>
+  <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+ </author>
+ <published>2018-05-14T20:46:11+00:00</published>
+ <entry>
+  <id>yt:video:9kM3mnxrMMM</id>
+  <yt:videoId>9kM3mnxrMMM</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>How do microSD Cards Store 2 TB in such a TINY space?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9kM3mnxrMMM"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2026-08-21T13:30:02+00:00</published>
+  <updated>2026-08-29T11:23:52+00:00</updated>
+  <media:group>
+   <media:title>How do microSD Cards Store 2 TB in such a TINY space?</media:title>
+   <media:content url="https://www.youtube.com/v/9kM3mnxrMMM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9kM3mnxrMMM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Want cutting-edge tech articles? Get 20% off your subscription to IEEE Spectrum, the world's leading engineering magazine: https://spectrum.ieee.org/brancheducation
+ 
+microSD Cards are the most compact and dense data storage format you can buy.  Latest microSD Cards can store 2TB in a volume smaller than a penny!  A shoebox full of them could hold every movie and TV show on your favorite streaming platform, with room to spare, and a room of microSD Cards can store the entirety of the internet.  In this video, we open one up and journey down to the nanoscopic scale to see how 16 dies, each as thin as a strand of hair, filled with over 200 layers of NAND flash cells, store all your photos and files.
+
+
+Table of Contents:
+00:00 – microSD Cards, storing the entirety of the internet in a room.
+00:43 – What’s inside microSD Cards?
+02:19 – How are microSD Cards manufactured?
+04:01 – Packaging the microSD Card
+04:57 – IEEE Spectrum
+ 
+We're working on more ambitious subjects like how AI works and Quantum Computers. Any contribution would greatly help make these videos. https://www.patreon.com/brancheducation 
+Branch Education Website: https://www.branch.education 
+Branch Education Facebook: https://www.facebook.com/BranchEducation/
+ 
+Key Branches from this video are: 
+How do SSDs Work? https://youtu.be/5Mh3o886qpg
+How do Hard Drives Work?  https://youtu.be/wtdnatmVdIg
+How does DRAM Work? https://youtu.be/7J7X7aZvMXQ
+
+
+Animation: Adrei Dulay
+Research, Script and Editing: Teddy Tablante
+Twitter: @teddytablante
+Modeling: Prakash Kakadiya
+Voice Over: Phil Lee
+Sound Design by Drilu: www.drilu.studio
+Sound Design and Mix: Luis Huesca
+  
+
+Attribution
+We used a CT Scan by Lumafield for reference in modeling the microSD Card
+
+&quot;Nike Shoe Box&quot; by sample1337 is licensed under Creative Commons Attribution
+
+&quot;living room&quot; by Arch.mahmoudbadr is licensed under Creative Commons Attribution
+
+&quot;Banana 3D scan&quot;  by grafi is licensed under Creative Commons Attribution
+
+&quot;Record Table&quot; by turtlesomber is licensed under Creative Commons Attribution
+
+&quot;Turntable Debut PRO. Pro-Ject&quot; by Liza Pasichnyk is licensed under Creative Commons Attribution
+
+#microSD #IEEE #Storage</media:description>
+   <media:community>
+    <media:starRating count="22223" average="5.00" min="1" max="5"/>
+    <media:statistics views="693885"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_gbDFq5h9KI</id>
+  <yt:videoId>_gbDFq5h9KI</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>How GPUs Are Printed With Light</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/_gbDFq5h9KI"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2026-08-07T01:35:39+00:00</published>
+  <updated>2026-08-10T01:10:56+00:00</updated>
+  <media:group>
+   <media:title>How GPUs Are Printed With Light</media:title>
+   <media:content url="https://www.youtube.com/v/_gbDFq5h9KI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_gbDFq5h9KI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Inside this Nvidia graphics card is a GPU made from billions of transistors.
+
+But before it becomes a chip, its microscopic design is printed onto a 300mm silicon wafer using an EUV photolithography system — a machine that can cost over $200 million.
+
+Using extreme ultraviolet light, the machine prints one layer of each GPU chip at a time. In just seconds, it can pattern dozens of chips across a wafer, helping produce hundreds of thousands of microchips per day.
+
+This is how modern GPUs are made.
+
+Watch the full video on EUV Photolithography:  https://youtu.be/B2482h_TNwg
+
+#Shorts #GPU #Nvidia #EUV #Photolithography #Microchip #Semiconductor #ChipManufacturing #SiliconWafer #Nanotechnology #TechExplained #Engineering #ASML #ComputerHardware #ScienceShorts</media:description>
+   <media:community>
+    <media:starRating count="21531" average="5.00" min="1" max="5"/>
+    <media:statistics views="413304"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:VieA92aRW6o</id>
+  <yt:videoId>VieA92aRW6o</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>The Forgotten Apple Product that Revolutionized Computing #apple #computer</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/VieA92aRW6o"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2026-07-22T14:12:25+00:00</published>
+  <updated>2026-07-25T23:06:21+00:00</updated>
+  <media:group>
+   <media:title>The Forgotten Apple Product that Revolutionized Computing #apple #computer</media:title>
+   <media:content url="https://www.youtube.com/v/VieA92aRW6o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VieA92aRW6o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Apple II was Apple’s first commercially successful computer, released in 1977 and selling nearly 6 million units. Starting with just 4KB of RAM and powered by the MOS 6502 CPU, this early personal computer could run applications and classic games like The Oregon Trail. In this teardown, we explore the Apple II’s internal hardware, including ROM, DRAM, and expansion slots, and break down how this revolutionary system helped shape modern computing. From its $7,000 starting price to its simple yet powerful architecture, the Apple II is a key piece of tech history.
+
+
+Watch the full breakdown:
+https://youtu.be/16zrEPOsIcI
+
+#Shorts #AppleII #AppleComputer #RetroTech #VintageComputers #ComputerHistory #RetroComputing #ClassicTech #TechHistory #HowComputersWork</media:description>
+   <media:community>
+    <media:starRating count="1575" average="5.00" min="1" max="5"/>
+    <media:statistics views="52815"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Bez-2cvYja0</id>
+  <yt:videoId>Bez-2cvYja0</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>Zooming Into a CPU (It's Incredible)</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/Bez-2cvYja0"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2026-07-09T17:18:38+00:00</published>
+  <updated>2026-07-17T10:49:16+00:00</updated>
+  <media:group>
+   <media:title>Zooming Into a CPU (It's Incredible)</media:title>
+   <media:content url="https://www.youtube.com/v/Bez-2cvYja0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Bez-2cvYja0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>When you zoom into a CPU, SoC, or any microchip in general, you'll find a nanoscopic sea of transistors, each just a few nanometers wide, grouped into logic gates called standard cells. To wire a full processor together, it takes 18 stacked layers upon layers of intricate wiring with the  transistors at the bottom and then progressively larger wires up top — all connected vertically by vias.
+
+Watch the full video to see how it all fits together. 🔬https://youtu.be/_Pqfjer8-O4
+
+#semiconductors #chips #engineering #howitworks #technology #smartphone #transistors #computerscience</media:description>
+   <media:community>
+    <media:starRating count="10275" average="5.00" min="1" max="5"/>
+    <media:statistics views="212541"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bUt19gIN7jM</id>
+  <yt:videoId>bUt19gIN7jM</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>The Most Expensive Machine Ever Made</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/bUt19gIN7jM"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2026-07-01T19:41:17+00:00</published>
+  <updated>2026-07-09T02:41:15+00:00</updated>
+  <media:group>
+   <media:title>The Most Expensive Machine Ever Made</media:title>
+   <media:content url="https://www.youtube.com/v/bUt19gIN7jM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bUt19gIN7jM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A massive excavator can cost $25 million. A Falcon 9 rocket costs around $67 million. An F-35 fighter jet can cost around $100 million.
+
+But a single EUV photolithography system can cost over $200 million — and it’s used to print the microscopic patterns inside modern microchips.
+
+Even crazier? Advanced chip factories can have dozens of these machines, making the entire facility cost close to $20 billion.
+
+This is why modern chip manufacturing is one of the most expensive industries on Earth.
+
+#Shorts #EUV #Photolithography #Microchip #Semiconductor #ChipManufacturing #ASML #Nanotechnology #Engineering #TechExplained #ScienceShorts #FutureTech #CPU #GPU #SiliconWafer</media:description>
+   <media:community>
+    <media:starRating count="4165" average="5.00" min="1" max="5"/>
+    <media:statistics views="107737"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:lA6ffduY06k</id>
+  <yt:videoId>lA6ffduY06k</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>The Sections inside a CPU #cpu #computer</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/lA6ffduY06k"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2026-06-19T18:12:57+00:00</published>
+  <updated>2026-06-23T01:11:07+00:00</updated>
+  <media:group>
+   <media:title>The Sections inside a CPU #cpu #computer</media:title>
+   <media:content url="https://www.youtube.com/v/lA6ffduY06k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/lA6ffduY06k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Take a journey inside a modern CPU, from its 26 billion transistors down to the microscopic building blocks that power computation. Explore how cores, caches, and specialized engines work together—and zoom all the way in to the ALU itself, where layers of circuitry bring simple calculations to life.
+
+Here's the full video:
+https://youtu.be/16zrEPOsIcI
+
+#cpu #computer #computerscience</media:description>
+   <media:community>
+    <media:starRating count="4291" average="5.00" min="1" max="5"/>
+    <media:statistics views="87404"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TfhL5kBiQVI</id>
+  <yt:videoId>TfhL5kBiQVI</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>How does Computer Cache, Memory, and Storage Work? 🖥️💿🛠️</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TfhL5kBiQVI"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2026-05-28T13:35:42+00:00</published>
+  <updated>2026-06-12T10:46:14+00:00</updated>
+  <media:group>
+   <media:title>How does Computer Cache, Memory, and Storage Work? 🖥️💿🛠️</media:title>
+   <media:content url="https://www.youtube.com/v/TfhL5kBiQVI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TfhL5kBiQVI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>To learn more about how Micron memory and storage help enable AI at every level, visit: https://tinyurl.com/Micron-AI-data-center
+ 
+Interested in working with Micron to make cutting-edge memory and storage solutions? Work at Micron: https://tinyurl.com/Micron-Careers
+ 
+Your computer has over a dozen different memory and storage locations—from CPU registers to DRAM, SSDs and hard drives—and it needs every single one.  In this video, you’ll see exactly why.
+We're breaking down the entire explanation of the memory hierarchy into three parts. 
+First, a visual analogy using books and libraries that finally makes the wild tradeoffs in speed, capacity, and cost click. 
+Second, a nanoscopic tour inside registers, SRAM cache, DRAM, 3D NAND SSDs, and spinning hard drives to see how each one physically stores bits. 
+Third, the insane memory and storage stack powering modern AI servers, from HBM3E stacks to petabyte-scale NVMe data lakes.
+By the end, you'll understand exactly how your computer—and the AI servers training the world's largest models—juggle data across every layer of the hierarchy.
+
+Notes about the content:  As our example computer, we’re using a typical computer from 2026.  Of course, the specs vary based on the devices and the age of your computer, but all are within the ballpark.  Also, we chose to keep the units consistent when comparing the devices, which is why we focus on nanosecond access time rather than the number of clock cycles.  Consistency between units, we felt, was more important to get a sense of the magnitudes of difference.
+
+Table of Contents:
+00:00 – Why do computers use so many different data memory &amp; storage locations?
+02:06 – Why use Registers, Cache, Memory, and Storage? 
+03:49 – Building the visual representation of data
+07:58 – University Lecture on the Memory Hierarchy
+08:25 – Cloud Storage
+09:09 – How do Solid State Drives Work? Storage
+11:52 – How do Hard Disk Drives Work? Storage
+13:33 – How does DRAM Work? Memory
+15:20 – How does Cache Work? 
+16:14 – How do Registers Work?
+17:40 – Approximate Specifications
+18:51 – AI Memory Hierarchy
+19:22 – Why does AI need so much Memory and Storage?
+22:34 – The AI Memory Hierarchy, Micron Sponsored Segment
+26:42 – A Glimpse into the Memory Hierarchy
+26:59 – Thank you to our Patrons
+
+This video’s title is still a work in progress- so if you have some ideas let us know!!  Here are the options we thought through:
+How does Data Work Inside a Computer?
+Why Don’t Computers Just Use One Type of Memory? 🖥️💿🛠️
+A Complete Explanation of How Data Works Inside Your Computer!!
+Why do Computers use 12 (or more) Data Memory &amp; Storage Locations?
+What Exactly is the Memory Hierarchy?
+ 
+We're working on more ambitious subjects like how AI works and Quantum Computers. Any contribution would greatly help make these videos. https://www.patreon.com/brancheducation 
+Branch Education Website: https://www.branch.education 
+Branch Education Facebook: https://www.facebook.com/BranchEducation/
+ 
+Key Branches from this video are: 
+How does DRAM Work? https://youtu.be/7J7X7aZvMXQ
+How do SSDs Work? https://youtu.be/5Mh3o886qpg
+How do Hard Drives Work?  https://youtu.be/wtdnatmVdIg
+
+Animation: Mike Radjabov, Sherdil Davronov, Muazzam Azizova, Max Botirov, Javohir Xusan ogli
+Research, Script and Editing: Teddy Tablante
+Twitter: @teddytablante
+Modeling: Mike Radjabov, Prakash Kakadiya
+Voice Over: Phil Lee
+Sound Design by Drilu: www.drilu.studio
+Sound Design and Mix: Luis Huesca
+ 
+Erratum:  
+ Tanenbaum, A. S., &amp; Austin, T. (2013). Structured Computer Organization (6th ed.). Pearson Education.
+ 
+Wikipedia contributors.   “DRAM”. “Hard Drive”. “Memory Hierarchy&quot;. “SSD”    Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, Visited May 24th 2026
+ 
+Textbooks and Papers
+See the DRAM, SSD, and HDD videos for all the references in there.
+ 
+#DRAM #SSD #Micron</media:description>
+   <media:community>
+    <media:starRating count="20013" average="5.00" min="1" max="5"/>
+    <media:statistics views="428397"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:aa6YISbAJEA</id>
+  <yt:videoId>aa6YISbAJEA</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>The Incredible Evolution of Computers</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=aa6YISbAJEA"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2026-02-17T12:59:08+00:00</published>
+  <updated>2026-05-04T17:25:39+00:00</updated>
+  <media:group>
+   <media:title>The Incredible Evolution of Computers</media:title>
+   <media:content url="https://www.youtube.com/v/aa6YISbAJEA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aa6YISbAJEA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Go to http://brilliant.org/BranchEducation/ for a 30-day free trial and expand your knowledge. Use this link to get a 20% discount on their annual premium membership.
+
+Computers used to be huge, taking up an entire room, yet modern smartphones that fit in your pocket are millions of times more powerful than those room‑sized mainframes. So how did we get from heavy, slow computers to incredibly powerful smartphones? Well, in this video, we’ll explore the evolution of computers over the past 80 years and also look ahead to the future of computing and AI processors. Throughout the video, we’ll focus not just on transistor counts and Moore’s law, but on the fundamental technological shifts between generations of computers.  So stick around and let's explore the Evolution of Computers!
+
+Table of Contents for The Evolution of Computers
+00:00 - The Evolution of Computers 1945-2026
+00:57 - Computer Disassembly
+02:05 - Much more than Moore's Law
+03:30 - The 8 Ages of Computer Evolution
+05:12 - Dozens of Zeroes of Processing Power
+06:27 - Age 1: Transistorization
+08:44 - Age 1: The First Transistorized Computers
+09:45 - The Evolution of Computer Memory
+11:11 - Brilliant Sponsorship
+12:58 - Age 2: Packaging Transistors
+15:41 - Age 2: Why are Mainframes So Big?
+19:42 - Age 2: The beginning of the Integrated Circuit 
+22:57 - Age 2: The First CPU
+25:30 - How do technology leaders fall behind?
+29:55 - Age 3: The Frequency Race
+30:29 - Behind the Scenes
+31:51 - The 8 Ages of The Evolution of Computers
+33:03 - Thank You to Our Supporters
+
+If you want to support our production of the next episodes on the Evolution of Computers, 
+Any contribution would greatly help make these videos. https://www.patreon.com/brancheducation 
+Branch Education Website: https://www.branch.education 
+Branch Education Facebook: https://www.facebook.com/BranchEducation/
+
+Primary Animator and Director:  Adrei Dulay
+Secondary Animators: Parvesh Khatri, Sahil Khatri
+Research, Script and Editing: Teddy Tablante
+Twitter: @teddytablante
+Modeling:  Prakash Kakadiya &amp; Adrei Dulay
+Image and Thumbnail Editing: Adrei Dulay &amp; Sahil Khatri
+Voice Over: Phil Lee
+Sound Design by Drilu: www.drilu.studio
+Sound Design and Mix: Luis Huesca
+
+Erratum:  
+
+Attribution:
+Photo Attribution in Order of Appearance
+Harvard Mark 1 | Computer. Public Domain. Wikimedia Commons​
+Colossus Mark 1 | Computer. Bletchley Park. Farai Gandiya. Wikimedia Commons​
+The Z3 | Computer. Deutsches Museum, Munich. Venusianer. Wikimedia Commons​
+&quot;Victory&quot;|Computer. Public Domain. Wikimedia Commons​
+1st-Transistor. Unitronic. Wikimedia Commons​
+​RCA 501| Mainframe. RCA Corporation. Via Computer History Museum​
+IBM 7090| Mainframe. NASA. Wikimedia Commons
+NEAC 2203 | Computer. Statistics Bureau, Japan. NEC. Wikimedia Commons​
+Mercury Delay-Line Store of the Univac I Computer.  Deutsches Museum, Munich.  Tiia Monto. Wikimedia Commons ​
+Williams-Kilburn Tube. Manchester Mark I.  ArnoldReinhold. Wikimedia Commons​
+Left to Right
+IBM System 360 Model 30| Mainframe. Computer History Museum. ArnoldReinhold. Wikimedia Commons
+IBM System 360 Model 75|Mainframe. University of Waterloo Archives. Wikimedia Commons​
+IBM System 360 Model 91| Mainframe. Public Domain. Wikimedia Commons ​ ​
+IBM System 360 Model 20 | Mainframe. Oslo Museum. Ørnelund, Leif. Wikimedia Commons​
+IBM System 360 Model 25| Mainframe. Vienna. JonnyBrazil. Wikimedia Commons​
+IBM System 360 Model 40| Mainframe. Kyoto-Day9. Wikimedia Commons​
+IBM System 360 Model 44| Mainframe. Living Computers: Museum+Labs. Wikimedia Commons​
+IBM System 360 Model 50| Mainframe. Sandstein. Wikimedia Commons​
+IBM System 360 Model 65| Mainframe. Living Computers: Museum+Labs. Wikimedia Commons​
+IBM System 360 Model 67| Mainframe. Public Domain. Wikimedia Commons​
+IBM System 360 Model 85|Mainframe. Public Domain. Wikimedia Commons​
+IBM System 360 Model 195| Mainframe. German Federal Archive. Wikimedia Commons​
+SMIL Drum Memory|Memory. Nixdorf. Wikimedia Commons ​
+Apollo Guidance Computer NOR-gate die| IC. Public Domain. Wikimedia Commons​
+Apollo Guidance Computer| Computer. Steve Jurvetson. Flickr​
+​the 74181 TTL 4 bits ALU schematics. Stéphane Tsacas. Wikimedia Commons​
+Altair 8800 | Computer. California. Michael Holley. Wikimedia Commons ​
+Sphere 1 | Personal Computer. Ben Zotto. Wikimedia Commons ​
+TRS-80 Model 1 | Personal Computer. Prolete. Wikimedia Commons​
+TRS-80 Model 1 | Personal Computer. Prolete. Wikimedia Commons​
+United States v. International Business Machines Corp.
+“I.B.M. Antitrust Suit Opens With U.S. Seeking Break‐Up.”
+ New York Times, May 20, 1975, Business &amp; Finance, 53.​
+
+
+
+
+#Computers #HistoryofComputers #HowItWorks</media:description>
+   <media:community>
+    <media:starRating count="37060" average="5.00" min="1" max="5"/>
+    <media:statistics views="796604"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YsSqbFrtM2I</id>
+  <yt:videoId>YsSqbFrtM2I</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>How does Computer Logic Work? #computerscience #logic #hardware</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/YsSqbFrtM2I"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2026-01-28T21:35:46+00:00</published>
+  <updated>2026-04-13T19:16:05+00:00</updated>
+  <media:group>
+   <media:title>How does Computer Logic Work? #computerscience #logic #hardware</media:title>
+   <media:content url="https://www.youtube.com/v/YsSqbFrtM2I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YsSqbFrtM2I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>You’ve probably heard that computers operate using logic gates — but have you ever wondered how they actually work? Logic gates are the fundamental building blocks of all digital systems, from tiny microcontrollers to powerful CPUs. In this short, we focus on one of the simplest yet most important ones: the AND gate.
+
+We’ll take a close-up look at its internal circuitry, show how transistors are arranged to implement logical operations, and explain what happens at the electrical level when inputs change. Whether you’re new to digital electronics or just curious about what goes on beneath the silicon, this quick breakdown gives you a clear glimpse into the logic that drives modern computing..
+
+Watch the full video on how Logic Gates Actually Work!  - https://youtu.be/_Pqfjer8-O4</media:description>
+   <media:community>
+    <media:starRating count="5615" average="5.00" min="1" max="5"/>
+    <media:statistics views="133085"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ymXp9yQhynQ</id>
+  <yt:videoId>ymXp9yQhynQ</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>How does a Laser Computer Mouse Work? #mouse #howitworks #laser</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/ymXp9yQhynQ"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2026-01-06T01:09:00+00:00</published>
+  <updated>2026-04-13T18:29:47+00:00</updated>
+  <media:group>
+   <media:title>How does a Laser Computer Mouse Work? #mouse #howitworks #laser</media:title>
+   <media:content url="https://www.youtube.com/v/ymXp9yQhynQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ymXp9yQhynQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Ever wondered how a computer mouse actually works? 🖱️ Using clean and easy-to-follow 3D animation, this short takes you inside one of the most important tools we use every day. Beneath its simple design is smart technology working constantly in real time.
+
+An optical sensor on the bottom of the mouse scans the surface thousands of times per second. A tiny processor compares these images to detect direction and speed, turning your hand movements into smooth cursor motion on screen. Each click activates precise switches that instantly send signals to your computer, while the scroll wheel uses a rotating encoder to control scrolling with accuracy.
+
+Whether wired or wireless, the mouse communicates with your computer in milliseconds, making everything feel fast and effortless. From browsing and gaming to design and animation, this small device plays a big role in how we interact with digital worlds.
+
+Watch the Full Video - https://www.youtube.com/watch?v=SAaESb4wTCM&amp;t=24s</media:description>
+   <media:community>
+    <media:starRating count="4392" average="5.00" min="1" max="5"/>
+    <media:statistics views="134648"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:VwY3YoJnkCQ</id>
+  <yt:videoId>VwY3YoJnkCQ</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>How do Scroll Wheels Work? #mouse #howitworks</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/VwY3YoJnkCQ"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2025-12-30T20:01:59+00:00</published>
+  <updated>2026-04-22T16:14:27+00:00</updated>
+  <media:group>
+   <media:title>How do Scroll Wheels Work? #mouse #howitworks</media:title>
+   <media:content url="https://www.youtube.com/v/VwY3YoJnkCQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VwY3YoJnkCQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Ever wondered how the scroll wheel on your computer mouse actually works? 🖱️ Using 3D animation, this short dives inside the mouse to show how the scroll wheel detects movement, translates rotation into signals, and lets you smoothly scroll through pages—revealing the tiny mechanical and electronic parts that make it all feel effortless.
+
+Watch the full video -  https://youtu.be/-HVKm5fIUA8</media:description>
+   <media:community>
+    <media:starRating count="9224" average="5.00" min="1" max="5"/>
+    <media:statistics views="286942"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:gE13q4yobxQ</id>
+  <yt:videoId>gE13q4yobxQ</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>How does an Everyday Keyboard Work? ⌨️🤔 #keyboard  #pcbuild</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/gE13q4yobxQ"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2025-12-17T02:59:08+00:00</published>
+  <updated>2026-05-30T03:01:16+00:00</updated>
+  <media:group>
+   <media:title>How does an Everyday Keyboard Work? ⌨️🤔 #keyboard  #pcbuild</media:title>
+   <media:content url="https://www.youtube.com/v/gE13q4yobxQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/gE13q4yobxQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>You've probably used a keyboard for at least a few hours today, but have you ever wondered what's inside it and how it works? Well, in this video, we're going to tear apart a typical keyboard and see all the parts inside. Specifically, this keyboard is NOT a mechanical keyboard; it's a membrane keyboard. In total, this keyboard costs just $6.00, and it's so cheap because it's only made of a few parts.
+
+If you're curious as to how keyboards work, watch the full video - https://youtu.be/h-NM1xSSzHQ</media:description>
+   <media:community>
+    <media:starRating count="1878" average="5.00" min="1" max="5"/>
+    <media:statistics views="82915"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:eUkz4VaBxWY</id>
+  <yt:videoId>eUkz4VaBxWY</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>How do Mechanical Keyboards Work? #keyboard #pcbuild</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/eUkz4VaBxWY"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2025-12-03T00:55:39+00:00</published>
+  <updated>2026-04-30T00:30:51+00:00</updated>
+  <media:group>
+   <media:title>How do Mechanical Keyboards Work? #keyboard #pcbuild</media:title>
+   <media:content url="https://www.youtube.com/v/eUkz4VaBxWY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/eUkz4VaBxWY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>That crisp snap of a mechanical keyboard isn't magic—it's engineering. We are breaking down exactly what happens inside a mechanical switch to create that signature sound.
+
+If you're curious as to how computers work, watch the full video  - https://youtu.be/h-NM1xSSzHQ</media:description>
+   <media:community>
+    <media:starRating count="3320" average="5.00" min="1" max="5"/>
+    <media:statistics views="106528"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:16zrEPOsIcI</id>
+  <yt:videoId>16zrEPOsIcI</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>The Engineering that Runs the Digital World 🛠️⚙️💻 How do CPUs Work?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=16zrEPOsIcI"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2025-11-15T16:49:32+00:00</published>
+  <updated>2026-05-20T18:17:02+00:00</updated>
+  <media:group>
+   <media:title>The Engineering that Runs the Digital World 🛠️⚙️💻 How do CPUs Work?</media:title>
+   <media:content url="https://www.youtube.com/v/16zrEPOsIcI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/16zrEPOsIcI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Go to http://brilliant.org/BranchEducation/ for a 30-day free trial and expand your knowledge. Use this link to get a 20% discount on their annual premium membership.
+
+Have you ever wondered how CPUs work?  Well, in this video, we take a 3D animated tour of a Central Processing Unit and see exactly how it works.  Central Processing Units, or CPUs, are incredibly complicated, and they practically run the modern world.  CPUs can be found in every desktop computer, laptop, video game console, smartphone, and any other device you use on a daily basis.  CPUs are built from tens of billions of transistors assembled into billions of logic gates, and essentially they're amazingly powerful calculators.  But in reality, they're more like instruction-crunching and data-moving machines.  All CPUs share a common DNA, which is the Fetch-Decode-Execute cycle.  This cycle is both very powerful and a critical limitation of every CPU.  So dive right in and we'll show you how CPUs work.
+
+Table of Contents for How CPUs Work
+00:00 - The CPU Inside Your Computer
+01:45 - The Technological DNA of CPUs
+03:28 - Teardown of a Laptop
+04:39 - A CPU Die
+05:59 - Analogy of a CPU
+07:10 - Explaining the CPU Analogy
+09:47 - How do CPUs Complete Instructions?
+12:34 - The Program Counter
+13:33 - Loops and Branches
+16:01 - All Possible Instructions
+17:07 - Fetch Decode Execute
+21:14 - CPU Clock and Fetch Decode Execute
+22:53 - Uncovering the Technological DNA: Fetch Decode Execute
+23:47 - ASICs and FPGAs
+24:35 - Memory and Writeback
+25:36 - Sponsored Section
+28:02 - RISC vs CISC
+30:09 - About Branch Education
+31:09 - Extrapolating to the M1
+33:36 - The Diagram of a Performance Core
+34:09 - CPU vs SoC
+34:58 - GPU Architecture
+35:55 - Thank You to Our Supporters
+
+We're working on more ambitious subjects like How AI Works 
+Any contribution would greatly help make these videos. https://www.patreon.com/brancheducation 
+Branch Education Website: https://www.branch.education 
+Branch Education Facebook: https://www.facebook.com/BranchEducation/
+
+Animation Director:  Mike Radjabov
+Primary Animators: Muazzam Azizova, Max Botirov
+Secondary Animators: Parvesh Khatri, Sherdil Davronov
+Research, Script and Editing: Teddy Tablante
+Twitter: @teddytablante
+Modeling:  Prakash Kakadiya
+Image and Thumbnail Editing: Randy Catequista, BJ Torrejos, Adam Silven
+Voice Over: Phil Lee
+Sound Design by Drilu: www.drilu.studio
+Sound Design and Mix: Luis Huesca
+
+Erratum:   At 5 min 34sec in, we show a NAND logic gate, when it should be an AND logic gate- we've reviewed this video dozens of times, along with having many other expert reviewers, and somehow this glaring detail got through.  Funny enough, we reviewed all the binary and many other elements in close detail, but because this was such a big thing, it's probably why it wasn't reviewed as thoroughly.
+
+4004 (dot) com.  &quot;Intel 4004 - 50th Anniversary Project
+
+Apple Newsroom. &quot;Apple Unleashes M1&quot; Nov10, 2020
+
+ARM Information Center.  &quot;ARMv8 Architecture Reference Manual&quot;
+
+Compiler-explorer (dot) com.  &quot;Compiler Explorer&quot;
+
+Ken Shirriff's blog. &quot;The 6502 microprocecssor chip&quot;
+
+Visual6502 (dot) org.  &quot;Visual Transistor-levl Simulation of the 6502 CPU&quot;
+
+Wikipedia contributors.    &quot;Control Unit&quot;, &quot;CPU&quot;, &quot;Instruction Register&quot;, &quot;Integrated Circuit&quot;, &quot;Memory Address Register&quot;, &quot;Program Counter&quot;.    Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, Visited November 11th 2025
+
+WikiChip. &quot;Cortex A77 Microarchitecture&quot;
+
+#CPU #CompSci #HowItWorks</media:description>
+   <media:community>
+    <media:starRating count="59515" average="5.00" min="1" max="5"/>
+    <media:statistics views="3095263"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9ae7Q87jPgU</id>
+  <yt:videoId>9ae7Q87jPgU</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>How do Power Supplies Work? #pcbuild #powersupply #gamingpc</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/9ae7Q87jPgU"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2025-11-01T17:59:23+00:00</published>
+  <updated>2026-04-29T03:01:18+00:00</updated>
+  <media:group>
+   <media:title>How do Power Supplies Work? #pcbuild #powersupply #gamingpc</media:title>
+   <media:content url="https://www.youtube.com/v/9ae7Q87jPgU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9ae7Q87jPgU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Have you ever wondered what the inside of a computer power supply looked like?  In this video, we open a power supply and explore its different sections.  Specifically, we'll look at the high-voltage input power side and the low-voltage output power side.  
+If you're curious as to how computers work, watch the full video -- https://youtu.be/d86ws7mQYIg</media:description>
+   <media:community>
+    <media:starRating count="14957" average="5.00" min="1" max="5"/>
+    <media:statistics views="299987"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

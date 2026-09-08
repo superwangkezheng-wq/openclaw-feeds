@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"/>
+ <id>yt:channel:bfYPyITQ-7l4upoX8nvctg</id>
+ <yt:channelId>bfYPyITQ-7l4upoX8nvctg</yt:channelId>
+ <title>Two Minute Papers</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg"/>
+ <author>
+  <name>Two Minute Papers</name>
+  <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+ </author>
+ <published>2006-08-18T00:05:41+00:00</published>
+ <entry>
+  <id>yt:video:B3LXEW4Pc-w</id>
+  <yt:videoId>B3LXEW4Pc-w</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>Claude Fable AI Is Much Stranger Than The Headlines Suggest</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=B3LXEW4Pc-w"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-09-03T08:23:37+00:00</published>
+  <updated>2026-09-04T16:32:55+00:00</updated>
+  <media:group>
+   <media:title>Claude Fable AI Is Much Stranger Than The Headlines Suggest</media:title>
+   <media:content url="https://www.youtube.com/v/B3LXEW4Pc-w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/B3LXEW4Pc-w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+📝 The Claude Fable 5.1 paper is available here:
+https://www.anthropic.com/claude-fable-and-mythos-5-1
+https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20%26%20Claude%20Mythos%205.1%20System%20Card.pdf
+
+Sources:
+https://x.com/alexalbert__/status/2094860187743986169?s=46
+https://x.com/holytrinity/status/2094866061212459130?s=46
+https://x.com/holytrinity/status/2094927984217985474?s=46
+https://x.com/omedvibecodes/status/2094887840848965845?s=46
+https://x.com/loktar00/status/2094951511742632168?s=46
+https://x.com/maxt3chno/status/2094798704385380762?s=46
+https://x.com/fabianofirmo/status/2094954495646035978?s=46
+https://x.com/fabianofirmo/status/2094954495646035978?s=46
+https://x.com/Rubzem/status/2094866225960493189?s=20
+https://x.com/atomicagent_io/status/2094895071304839400?s=20
+https://x.com/do_owne/status/2095054932466422125
+https://x.com/holytrinity/status/2095216452433313915
+https://x.com/vib3coded/status/2095329598472860011
+https://x.com/MaxForAI/status/2095270764979355651
+https://x.com/MengTo/status/2095104073590808644
+https://x.com/earthtojake/status/2095352925597884465
+https://x.com/alexalbert__/status/2094860187743986169
+https://x.com/adonis_singh/status/2095158753796497550
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="2884" average="5.00" min="1" max="5"/>
+    <media:statistics views="185700"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:w9RDunJACkc</id>
+  <yt:videoId>w9RDunJACkc</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>GLM 5.3: Powerful AI Is Becoming Almost Free</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=w9RDunJACkc"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-09-01T09:04:56+00:00</published>
+  <updated>2026-09-04T14:01:45+00:00</updated>
+  <media:group>
+   <media:title>GLM 5.3: Powerful AI Is Becoming Almost Free</media:title>
+   <media:content url="https://www.youtube.com/v/w9RDunJACkc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/w9RDunJACkc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+📝 GLM 5.3 Flash:
+https://z.ai/blog/glm-5.3-flash
+
+Sources:
+https://x.com/louszbd/status/2092694163104113016
+https://x.com/semianalysis_/status/2092623833630998556
+https://x.com/skalskip92/status/2092748209802154201
+https://x.com/louszbd/status/2093047548550525165
+https://x.com/atomic_chat_hq/status/2093433913238552712
+https://x.com/holytrinity/status/2094093933584257334
+https://x.com/KinasRemek/status/2090081611832295581/video/1
+https://x.com/AiXsatoshi/status/2093679264013181119/video/1
+https://x.com/AiXsatoshi/status/2093353322921263389/video/1
+https://x.com/stevibe/status/2092655031040565252
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="3142" average="5.00" min="1" max="5"/>
+    <media:statistics views="163723"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:LBiNcdGNgrg</id>
+  <yt:videoId>LBiNcdGNgrg</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>The Billion Dollar AI Gap Is Collapsing</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=LBiNcdGNgrg"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-08-28T09:44:44+00:00</published>
+  <updated>2026-08-29T08:57:03+00:00</updated>
+  <media:group>
+   <media:title>The Billion Dollar AI Gap Is Collapsing</media:title>
+   <media:content url="https://www.youtube.com/v/LBiNcdGNgrg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LBiNcdGNgrg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Weights &amp; Biases and sign up for a free demo here: https://wandb.me/papers
+
+📝 The paper and Qwen3.8-Flash-Next are available here:
+https://github.com/QwenLM/Qwen3.8-Flash-Next/blob/main/tech_report.pdf
+https://qwen.ai/blog?id=qwen3.8-flash-next
+
+Sources:
+https://x.com/analogalok/status/2092697021790708148
+https://www.reddit.com/r/unsloth/comments/1vzf6j7/mind_blowing_qwen38flashnext_rtx_3090_128ddr5
+https://www.reddit.com/r/LocalLLM/comments/1vz1w00/first_gif_cooked_by_qwen38flashnext
+https://x.com/analogalok/status/2092781954529903078/video/1
+https://x.com/loktar00/status/2092719895729324224/video/1
+
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="2391" average="5.00" min="1" max="5"/>
+    <media:statistics views="140291"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:L9mMfAFwbl4</id>
+  <yt:videoId>L9mMfAFwbl4</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>DeepSeek’s New AI System Shouldn’t Be Possible</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=L9mMfAFwbl4"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-08-26T13:10:13+00:00</published>
+  <updated>2026-09-04T20:27:43+00:00</updated>
+  <media:group>
+   <media:title>DeepSeek’s New AI System Shouldn’t Be Possible</media:title>
+   <media:content url="https://www.youtube.com/v/L9mMfAFwbl4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/L9mMfAFwbl4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+📝 DeepSeek Harness + paper are available here:
+https://deepseek.com/harness/en/
+https://github.com/cordiverse/paper
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="3201" average="5.00" min="1" max="5"/>
+    <media:statistics views="107116"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:wMl6c_r0ubw</id>
+  <yt:videoId>wMl6c_r0ubw</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>This Small AI Will Change Everything</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wMl6c_r0ubw"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-08-24T16:48:40+00:00</published>
+  <updated>2026-08-25T07:30:44+00:00</updated>
+  <media:group>
+   <media:title>This Small AI Will Change Everything</media:title>
+   <media:content url="https://www.youtube.com/v/wMl6c_r0ubw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wMl6c_r0ubw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+📝 The Qwen3.8-27b is available here:
+https://huggingface.co/Qwen/Qwen3.8-27B
+
+Sources:
+https://www.reddit.com/r/unsloth/comments/1vogva0/share_your_results_from_qwen3827b/
+https://www.reddit.com/r/LocalLLaMA/comments/1voer8u/qwen_38_27b_aquarium_burst_sample_test/
+https://x.com/KyleHessling1/status/2088327667733180637
+https://www.reddit.com/r/LocalLLaMA/comments/1vqme4y/qwen3827b_q8_0_on_strix_halo_is_seriously/
+https://forums.developer.nvidia.com/t/qwen3-8-27b-nvfp4-on-a-single-dgx-spark-up-to-1m-context-vllm-mtp-measurements/380244
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="3791" average="5.00" min="1" max="5"/>
+    <media:statistics views="109098"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:kyYepbhe1g8</id>
+  <yt:videoId>kyYepbhe1g8</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>DeepSeek Just Made Closed AI Look Ridiculous</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=kyYepbhe1g8"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-08-19T18:02:46+00:00</published>
+  <updated>2026-08-22T23:41:56+00:00</updated>
+  <media:group>
+   <media:title>DeepSeek Just Made Closed AI Look Ridiculous</media:title>
+   <media:content url="https://www.youtube.com/v/kyYepbhe1g8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/kyYepbhe1g8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+DeepSeek V4 Pro 0813:
+https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813
+
+DSpark full episode: https://www.youtube.com/watch?v=1yBU41auQhw
+
+Sources:
+https://x.com/cline/status/2087602193205694891
+https://x.com/TypingMindApp/status/2088214938754167263
+https://x.com/stevibe/status/2047546592530747561
+https://x.com/voidfreud/status/2087701887327887543
+https://x.com/exploraX_/status/2079197387860435360
+https://x.com/AiHubMix/status/2087869896483057758
+https://x.com/BruceBlue/status/2087833177155117304
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="5523" average="5.00" min="1" max="5"/>
+    <media:statistics views="173239"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QnGNF8k_uoc</id>
+  <yt:videoId>QnGNF8k_uoc</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>Claude AI Failed 650 Times…Then Beat The Human Record</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QnGNF8k_uoc"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-08-14T08:42:07+00:00</published>
+  <updated>2026-08-16T18:19:35+00:00</updated>
+  <media:group>
+   <media:title>Claude AI Failed 650 Times…Then Beat The Human Record</media:title>
+   <media:content url="https://www.youtube.com/v/QnGNF8k_uoc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QnGNF8k_uoc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Weights &amp; Biases and sign up for a free demo here: https://wandb.me/papers
+
+📝 The paper is available here:
+https://www.anthropic.com/research/riemann-zeta
+
+Source:
+https://www.scientificamerican.com/article/no-ai-didnt-just-solve-the-thorniest-problem-in-math/
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="2173" average="5.00" min="1" max="5"/>
+    <media:statistics views="56177"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:JQ97GiDwPxc</id>
+  <yt:videoId>JQ97GiDwPxc</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>OpenAI’s AI Agents Just Crossed A Line</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JQ97GiDwPxc"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-08-11T15:35:35+00:00</published>
+  <updated>2026-08-12T07:02:29+00:00</updated>
+  <media:group>
+   <media:title>OpenAI’s AI Agents Just Crossed A Line</media:title>
+   <media:content url="https://www.youtube.com/v/JQ97GiDwPxc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JQ97GiDwPxc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+📝 More reports are available here:
+https://openai.com/index/hugging-face-model-evaluation-security-incident/
+https://huggingface.co/blog/security-incident-july-2026
+https://huggingface.co/blog/agent-intrusion-technical-timeline
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="3260" average="5.00" min="1" max="5"/>
+    <media:statistics views="67122"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vO6SWG-jxvE</id>
+  <yt:videoId>vO6SWG-jxvE</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>DeepMind Just Changed How AI Sees The World</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vO6SWG-jxvE"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-08-07T08:22:00+00:00</published>
+  <updated>2026-08-16T14:52:14+00:00</updated>
+  <media:group>
+   <media:title>DeepMind Just Changed How AI Sees The World</media:title>
+   <media:content url="https://www.youtube.com/v/vO6SWG-jxvE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vO6SWG-jxvE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+📝 The Gemma4 paper and some more is available here:
+https://arxiv.org/abs/2607.02770
+https://x.com/googlegemma/status/2077449152062247219
+https://x.com/UnslothAI/status/2078118183085731843
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="6201" average="5.00" min="1" max="5"/>
+    <media:statistics views="128834"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ppQh4Tc9BmM</id>
+  <yt:videoId>ppQh4Tc9BmM</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>The Billion Dollar AI Race Just Broke</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ppQh4Tc9BmM"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-08-05T13:54:29+00:00</published>
+  <updated>2026-08-06T12:48:48+00:00</updated>
+  <media:group>
+   <media:title>The Billion Dollar AI Race Just Broke</media:title>
+   <media:content url="https://www.youtube.com/v/ppQh4Tc9BmM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/ppQh4Tc9BmM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+📝 Qwen 3.8 Max:
+https://qwen.ai/blog?id=qwen3.8
+
+Sources:
+https://x.com/loktar00/status/2082589566934929750
+https://x.com/CommandCodeAI/status/2084293498950590839
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="4894" average="5.00" min="1" max="5"/>
+    <media:statistics views="128470"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bm1BjOjS7sQ</id>
+  <yt:videoId>bm1BjOjS7sQ</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>Another DeepSeek Moment Has Arrived</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bm1BjOjS7sQ"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-08-03T09:47:34+00:00</published>
+  <updated>2026-08-07T00:26:40+00:00</updated>
+  <media:group>
+   <media:title>Another DeepSeek Moment Has Arrived</media:title>
+   <media:content url="https://www.youtube.com/v/bm1BjOjS7sQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bm1BjOjS7sQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+📝 DeepSeek v4 Flash 0731:
+https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731
+
+DeepSeek API: https://platform.deepseek.com/
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="5574" average="5.00" min="1" max="5"/>
+    <media:statistics views="129018"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8B05cy3UuSE</id>
+  <yt:videoId>8B05cy3UuSE</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>NVIDIA's AI Learns Why Copying Humans Isn't Enough</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8B05cy3UuSE"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-08-02T15:01:10+00:00</published>
+  <updated>2026-08-02T17:18:05+00:00</updated>
+  <media:group>
+   <media:title>NVIDIA's AI Learns Why Copying Humans Isn't Enough</media:title>
+   <media:content url="https://www.youtube.com/v/8B05cy3UuSE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8B05cy3UuSE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+📝 The paper is available here:
+https://jiashunwang.github.io/HIL/
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="2202" average="5.00" min="1" max="5"/>
+    <media:statistics views="48216"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Xj-QdEUxJkE</id>
+  <yt:videoId>Xj-QdEUxJkE</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>Kimi K3 Just Broke The Economics Of AI</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Xj-QdEUxJkE"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-07-29T12:37:50+00:00</published>
+  <updated>2026-08-03T05:39:55+00:00</updated>
+  <media:group>
+   <media:title>Kimi K3 Just Broke The Economics Of AI</media:title>
+   <media:content url="https://www.youtube.com/v/Xj-QdEUxJkE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/Xj-QdEUxJkE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+📝 The paper is available here:
+https://arxiv.org/abs/2607.24653
+
+Try Kimi K3 (subject to availability): https://www.kimi.com/
+
+Links:
+https://macos27.kimi.page/
+https://x.com/mweinbach/status/2077878247920951400
+https://x.com/intheworldofai/status/2077838911494336681
+https://x.com/chetaslua/status/2077829183989072281
+https://x.com/hqmank/status/2078104317027094907
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="4274" average="5.00" min="1" max="5"/>
+    <media:statistics views="106340"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:axOcn--n_lM</id>
+  <yt:videoId>axOcn--n_lM</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>Claude Just Revealed AI's Biggest Problem</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=axOcn--n_lM"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-07-16T15:39:17+00:00</published>
+  <updated>2026-07-17T21:53:55+00:00</updated>
+  <media:group>
+   <media:title>Claude Just Revealed AI's Biggest Problem</media:title>
+   <media:content url="https://www.youtube.com/v/axOcn--n_lM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/axOcn--n_lM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+📝 The paper is available here:
+https://www.anthropic.com/research/AI-assistance-coding-skills
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="3815" average="5.00" min="1" max="5"/>
+    <media:statistics views="84515"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0CqLVnx-2UM</id>
+  <yt:videoId>0CqLVnx-2UM</yt:videoId>
+  <yt:channelId>UCbfYPyITQ-7l4upoX8nvctg</yt:channelId>
+  <title>Anthropic Found Something That Shouldn't Exist</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0CqLVnx-2UM"/>
+  <author>
+   <name>Two Minute Papers</name>
+   <uri>https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg</uri>
+  </author>
+  <published>2026-07-15T13:58:27+00:00</published>
+  <updated>2026-07-16T08:40:13+00:00</updated>
+  <media:group>
+   <media:title>Anthropic Found Something That Shouldn't Exist</media:title>
+   <media:content url="https://www.youtube.com/v/0CqLVnx-2UM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0CqLVnx-2UM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers
+
+📝 The paper is available here:
+https://transformer-circuits.pub/2025/linebreaks/index.html
+
+Paper for reindeer vision change - https://royalsocietypublishing.org/rspb/article/280/1773/20132451/50765/Shifting-mirrors-adaptive-changes-in-retinal
+
+🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:
+Adam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi</media:description>
+   <media:community>
+    <media:starRating count="3008" average="5.00" min="1" max="5"/>
+    <media:statistics views="72352"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
