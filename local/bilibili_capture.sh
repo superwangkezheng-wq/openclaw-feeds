@@ -82,8 +82,18 @@ done
 
 if (( ${#failed[@]} )); then
   print -u2 "FAIL ${#failed[@]}/${#MIDS[@]} bilibili source(s) failed: ${failed[*]}"
-  print -u2 "     Most likely the SESSDATA in $ENV_FILE has expired (~1 month lifetime)."
-  print -u2 "     Refresh it, then: $0 --start-container && $0"
+  # Which diagnosis is right is decided by the other sources, not guessed. If any
+  # of them returned items the cookie demonstrably works, and blaming it would send
+  # the reader off to fix something that is not broken. A confident wrong diagnosis
+  # costs more than none.
+  if (( ${#failed[@]} == ${#MIDS[@]} )); then
+    print -u2 "     Every source failed, so the shared cause is most likely the credential:"
+    print -u2 "     refresh SESSDATA in $ENV_FILE (~1 month lifetime), then $0 --start-container && $0"
+  else
+    print -u2 "     $(( ${#MIDS[@]} - ${#failed[@]} )) other source(s) returned items, so the credential works."
+    print -u2 "     This is per-source: a cold RSSHub route, an upstream hiccup, or a space with"
+    print -u2 "     no videos. Re-run once before investigating further."
+  fi
   exit 1
 fi
 
