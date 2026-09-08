@@ -15,8 +15,114 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Tue, 08 Sep 2026 09:05:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Sep 2026 09:20:05 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[离开大厂的第一百天，他们成了独角兽]]></title>
+            <description><![CDATA[<p>一家公司从注册到估值十亿美元，需要多久？&nbsp;</p>
+  <p>放在几年前，标准答案是5年左右。天使、A轮、B轮、C轮，一轮一轮证明自己，中间还得掉几层皮。放在2026年，答案缩短到了三个月。&nbsp;</p>
+  <p>今年3月，林俊旸离开阿里；5月13日，他在上海徐汇注册了一家公司；8月官宣的时候，这家三个多月大、一个产品都没有的公司估值约20亿美元——高榕创投和红杉中国各投1亿美元，腾讯跟了2000万美元。&nbsp;</p>
+  <p>林俊旸不是特例。&nbsp;</p>
+  <p>我们数了一下，2026年至今 （9月初） ，国内外至少有9家公司在成立半年内就跨过了独角兽门槛。&nbsp;</p>
+  <p>这些创始人名单读起来像一份AI行业的点名册：图灵奖得主、xAI的联合创始人、把<ai-product-link data-id="15053" data-name="通义千问" data-logo="https://img.36dianping.com/20260429/v2_4484a807533444beb2f280302bfb1460_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">通义千问</ai-product-link>做到全球开源第一的阿里最年轻P10、把理想智驾从0做起来的技术一号位，还有一个从机器人公司里被拆出来的业务部门。&nbsp;</p>
+  <p>钱来得这么快、这么急，究竟在买什么？&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,708" src="https://img.36krcdn.com/hsossms/20260908/v2_b163d24954f34930bb1a45a8d501c82e@000000_oswg204490oswg1080oswg708_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>国内的四种独角兽活法</strong></h2>
+  <p>国内这四家，路径各不相同，但都有一个共同点：创始人的上一份工作，都足够有说服力。&nbsp;</p>
+  <p><strong>语用科技：三个月，20亿美元</strong></p>
+  <p>林俊旸的上一份工作是阿里。他1993年出生，本科在国际关系学院读英语，硕士在北大读语言学，2019年进达摩院，六年连升四级，32岁成为阿里最年轻的P10。<ai-product-link data-id="15053" data-name="通义千问" data-logo="https://img.36dianping.com/20260429/v2_4484a807533444beb2f280302bfb1460_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">通义千问</ai-product-link>系列是他带出来的——Hugging Face 上衍生模型超过20万个、下载超10亿次，全球开源模型第一；2025年的 Qwen3-Max 参数超过万亿。今年3月他离职，5月成立语用科技，官网只写了四个方向：数字Agent、物理Agent、前沿研究、真实产品。&nbsp;</p>
+  <p>这家公司目前为零产品、零收入，估值20亿美元。一个罕见的细节是，林俊旸通过直接持股和两个关联主体合计控制约88%——在动辄被资本稀释到30%以下的创业圈里，这算得上异类。“语用”这个词来自他早年的语言学训练，取实用主义之意，也是他对AGI该往哪走的表态。昆仑行：一个管过千亿生意的，和一个做过智驾的&nbsp;</p>
+  <p><strong>昆仑行机器人走的是另一条路：两个人的组合。</strong></p>
+  <p>创始人任庚做过华为和阿里的核心业务，当过阿里云中国区总裁和总参谋长，也做过新奥集团总裁；联合创始人郎咸朋是理想汽车前高级副总裁、自动驾驶总裁，业内少有的把智驾AI从0做到1、再做到规模化落地的人。&nbsp;</p>
+  <p>公司3月16日在北京经开区注册，到6月底连融三轮、累计数十亿元，高榕、高瓴、中科创星、钟鼎、华业天成、创新工场、心资本、建发资本全在名单上，而且首轮进来的投资人后两轮全部追加。&nbsp;</p>
+  <p>技术上他们押的是“物理内生因果”——让机器人理解动作背后的物理原理，而不只是模仿动作。核心是昆仑世界模型（KWM），在国际主流的视觉-语言-动作模型之上加入物理因果建模，还搭了一套反事实评测体系，用真实物理结果来区分模型的泛化能力是真还是假。&nbsp;</p>
+  <p>硬件端则是本体、运动控制、集成测试一体化自研，目标写得很直白：工程化量产。&nbsp;</p>
+  <p>高榕合伙人辛旺的说法是，具身智能落地的门槛极高，需要团队同时懂AI、懂硬件、懂商业化——这家公司凑齐了“管过千亿生意的人”和“把自动驾驶AI量产过的人”。&nbsp;</p>
+  <p><strong>临界点AGILINK：唯一一家在赚钱的</strong></p>
+  <p>四家里最特殊的，是临界点AGILINK，因为它是唯一一家被“拆”出来的。&nbsp;</p>
+  <p>今年1月14日，智元机器人把灵巧手业务独立出来成立了这家公司，创始人熊坤2018年从港科大机器人研究所硕士毕业，进了刚组建的腾讯 Robotics X 实验室，参与了它从0到1的过程，之后在IDEA研究院和汇川技术待过，2024年11月加入智元负责灵巧手。&nbsp;</p>
+  <p>此后半年，这家公司连做四轮：1月天使轮，2月A轮数亿元，5月A+轮，6月B轮10亿人民币——腾讯、C资本、普华、凯联、上汽、均胜电子、龙旗科技、百度风投、云锋都在名单上。从注册到估值破百亿，五个月。&nbsp;</p>
+  <p>但真正让它区别于其他八家的是：它在赚钱。&nbsp;</p>
+  <p>成立不到半年，OmniHand 系列灵巧手交付超过8000台、夹爪出货过万台，成立即盈利。熊坤把灵巧手称作具身智能进入工厂和家庭的“最后十厘米”，他的判断是，这个品类的竞争不在实验室，在生产线上。这也解释了为什么产业资本会和财务资本挤在同一张桌子上——上汽和均胜买的不是股份，是供应链位置。&nbsp;</p>
+  <p><strong>智衍慧生Naive.ai：一位教授的后训练赌注</strong></p>
+  <p>最后一家，智衍慧生Naive.ai，创始人代季峰是这份名单上学术履历最硬的一位。清华自动化本博，在微软亚洲研究院做视觉，是可变形卷积和 R-FCN 的主要作者——这两个东西后来都成了 PyTorch 里的标准算子，论文总引用超过5万次；2019年去商汤当执行研究总监，带150人的团队，期间提出的 BEVFormer 几乎成了自动驾驶感知的标准范式，黄仁勋在台上点过赞；2022年回清华电子系做长聘副教授，在上海AI Lab 主导研发了开源多模态模型 InternVL。&nbsp;</p>
+  <p>今年1月他出来创业，方向是开源模型的后训练和 Agent。&nbsp;</p>
+  <p>6月拿到3亿美元天使轮，腾讯、华控、博裕、万物入局；一个月后又是数亿美元Pre-A，红杉中国、IDG、经纬、君联、元禾璞华一起挤进来。半年两轮，超过5亿美元。&nbsp;</p>
+  <p>资本赌的是他那种把理论压榨成工程结果的能力——他此前带队做的深度研究系统，曾在权威基准上拿下开源第一。&nbsp;</p>
+  <h2><strong>离开实验室的人</strong></h2>
+  <p>海外这五家，几乎都是同一个故事的变体：有人从最顶尖的实验室里走出来，然后资本以最快的速度把钱塞到他手上。&nbsp;</p>
+  <p><strong>River AI：从xAI出走的两个月</strong></p>
+  <p>伊戈尔·巴布什金（Igor Babuschkin）2025年8月离开xAI。&nbsp;</p>
+  <p>此前他的履历几乎是一部深度学习简史——在Google DeepMind做生成建模和强化学习，在OpenAI主导大规模训练，2023年和马斯克一起创办xAI。&nbsp;</p>
+  <p>2026年4月他在内华达注册了新公司，6月浮出水面，8月宣布融资11亿美元，前后仅两个月。&nbsp;</p>
+  <p>他做的东西叫 River AI：在开放权重模型之上，帮企业做 LoRA 微调和强化学习。这原本需要一支专门基建团队、几个月工期的事，在他的平台上15到20分钟能跑完，成本是闭源方案的四分之一到一半，而且只按实际消耗的 token 计费。公司总共约20个人，多数来自 xAI 和特斯拉。最新融资由 General Catalyst 和 AMP PBC 领投，英伟达与 AMD Ventures 战略投资，YC 和淡马锡参投。&nbsp;</p>
+  <p>巴布什金的说法是：“AI应该属于使用它的人，而不是训练它的实验室。”这句话听起来理想主义，但General Catalyst CEO 的表述就很现实了——他把这笔投资称为美国AI韧性的优先事项。翻译过来：开放权重生态必须有人撑住，否则下一代AI训练跑在谁的芯片上、遵守谁的规则，就不由美国人说了算了。&nbsp;</p>
+  <p>英伟达和AMD同时投一家两个月大的公司，买的是这个。&nbsp;</p>
+  <p><strong>Hark：70个人，60亿美元</strong></p>
+  <p>另一位是 Brett Adcock。这个名字你可能不熟悉，但他此前做的两家公司你多半听说过：人形机器人公司Figure AI，和电动飞机制造商 Archer Aviation。&nbsp;</p>
+  <p>2025年底他自掏1亿美元创办 Hark，今年5月宣布7亿美元A轮，投后估值60亿美元。公司当时70个人，没有一个产品上市。&nbsp;</p>
+  <p>60亿美元除以70个人，等于每个工程师8500万美元。&nbsp;</p>
+  <p>这个数字只在一种前提下成立：投资人认为这不是一家硬件公司，而是一家前沿实验室。&nbsp;</p>
+  <p>值得玩味的是股东名单——英伟达、AMD、英特尔资本、高通风投，四家直接竞争的芯片巨头出现在同一笔消费硬件融资里，这在过去几乎不会发生。它们共同需要一个“AI跑在个人设备上”的未来，也共同害怕那个未来被苹果和谷歌独占。&nbsp;</p>
+  <p>Adcock 的打法里有个细节很有意思：他要先发多模态模型和软件，再发硬件。&nbsp;</p>
+  <p>这个顺序是刻意倒过来的。Humane 的 AI Pin 和 Rabbit R1 都是先卖硬件再补能力，结果翻车。Hark 还拉上了 AT&amp;T——运营商出钱入股，同时负责蜂窝连接和设备认证，让设备彻底脱离手机和Wi-Fi独立联网。它要造的是“人和数字世界之间的通用接口”，一个记得你、看得见你所见的东西。&nbsp;</p>
+  <p><strong>AMI Labs：图灵奖得主的巴黎赌局</strong></p>
+  <p>这五家里最不一样的，是一家连产品方向都还没完全落地的公司。&nbsp;</p>
+  <p>Yann LeCun 去年11月走进扎克伯格办公室说他要走了。他在Meta待了12年，一手建起全球最受尊敬的AI研究组织之一，同时也是大语言模型路线最著名的批评者——按他的说法，大语言模型不过是一种统计幻觉——看着惊艳，其实并不智能。&nbsp;</p>
+  <p>今年1月，他的 AMI Labs 在巴黎启动；3月宣布10.3亿美元种子轮，投前估值35亿美元，欧洲有史以来最大的一笔种子轮。他最初只想融5亿欧元，认购远超预期，最后涨到8.9亿欧元。&nbsp;</p>
+  <p>有意思的是他拒绝当CEO。原话是：“我是个科学家、一个梦想家，我太没条理，也太老了，不适合管人。”于是CEO由医疗AI公司 Nabla 的创始人 Alexandre LeBrun 出任，其余核心成员几乎整建制来自 Meta 的AI研究组织，首席科学家 Saining Xie 则是从 Google DeepMind 挖来的。&nbsp;</p>
+  <p>AMI 要做的是世界模型，基于 LeCun 2022年提出的 JEPA 架构：不去逐像素、逐token地预测世界长什么样，而是在抽象空间里学习世界怎么运转。&nbsp;</p>
+  <p>团队已经做出的成果里，有一个能根据16秒第一视角视频连贯预测接下来10秒的场景，包括物体轨迹和光线变化。&nbsp;</p>
+  <p>公司说第一年只做研究，一到两年后才开始跟行业伙伴谈落地，三到五年内做出“相当通用的智能系统”。&nbsp;</p>
+  <p>投资方名单长得像一张时代合影：Cathay Innovation、Greycroft、Hiro Capital、HV Capital 和贝索斯的 Bezos Expeditions 联合领投，英伟达、丰田、三星、淡马锡、法国国家投资银行参投，个人投资者里还有 Eric Schmidt、Mark Cuban 和万维网发明者 Tim Berners-Lee。&nbsp;</p>
+  <p>他们买的不是一家公司，是一个期权：如果LLM这条路真的撞上天花板，谁能提供另一条路？顺便，还有欧洲不想在AI上再输一次的执念。&nbsp;</p>
+  <p><strong>Recursive Superintelligence：让AI自己改进自己</strong></p>
+  <p>第五家 Recursive Superintelligence，名字直白得有点吓人。&nbsp;</p>
+  <p>今年5月13日它结束隐身，同时宣布6.5亿美元种子轮，投后估值46.5亿美元，GV和Greycroft领投，英伟达和AMD再度同框。&nbsp;</p>
+  <p>领衔的是 Richard Socher——GloVe 和递归神经网络的作者，前 Salesforce 首席科学家，也是 You.com 的创始人。&nbsp;</p>
+  <p>联合创始人里有主持 Meta FAIR 研究八年的 Yuandong Tian、前 DeepMind 的 Tim Rocktäschel、前 OpenAI 的 Jeff Clune，以及视觉Transformer论文的作者 Alexey Dosovitskiy。全公司不到30人。&nbsp;</p>
+  <p>他们想做的事可以概括成一句话：让AI自己改进自己。&nbsp;</p>
+  <p>今天所有实验室的迭代速度，最终都卡在人类研究员的产能上——人来做评估、挑数据、设计实验。RSI 要把人从这个循环里拿掉。&nbsp;</p>
+  <p>第一个公开项目是训练一个“具备五万名医生能力的系统”，但目的不是看病，而是让它去做AI科学家干的那摊活：读文献、设计实验、分析结果。&nbsp;</p>
+  <p>没有产品，没有模型，没有论文，25个人，估值46.5亿美元。&nbsp;</p>
+  <p><strong>Atoms：Kalanick的第三次，和Uber的那笔钱</strong></p>
+  <p>海外五家里最特别的一个是 Atoms，因为它的创始人 Travis Kalanick 已经不需要证明自己会做公司了——他做过 Uber。&nbsp;</p>
+  <p>Atoms 隐身了八年，今年3月亮相，7月宣布17亿美元融资，a16z领投、Ben Horowitz 亲自进董事会，高盛、摩根大通等五家银行提供债务支持。投资方里还有一个名字让所有人愣了一下：Uber。九年前正是这家公司的董事会把他赶了出去。&nbsp;</p>
+  <p>Kalanick 的说法是“为物理世界造一台计算机——CPU是制造，存储是地产，网络是运输”。公司由三块业务合并而成：做云厨房的 CloudKitchens（2022年估值150亿美元）、从 Anthony Levandowski 手里收购来的自动驾驶矿业公司 Pronto、以及新设的物流板块。走的是轮式工业机器人路线，不是当下更时髦的人形机器人。&nbsp;</p>
+  <p>不过这笔17亿美元里也有需要打个问号的地方：估值没披露，也没有公布任何落地城市、商业化时间表或消费级产品。Waymo 花了十几年、烧掉几十亿美元，才在少数几个城市实现付费无人驾驶。Atoms 成立六个月。a16z 显然是在买一个人，而不是一个进度表。&nbsp;</p>
+  <h2><strong>资本到底在买什么</strong></h2>
+  <p>把这九家摆在一起，最刺眼的一点事实是：它们几乎都没有财务数据可看。没有收入，多数没有产品，有几家连产品方向都还停留在论文里。那投资人到底在定价什么？&nbsp;</p>
+  <p>答案是人。当产品、收入、用户全是零，唯一可以被定价的资产只剩履历。LeCun 在Meta待了十二年，林俊旸把Qwen做到全球开源第一，Socher 的论文被引用五万次，任庚管过千亿规模的生意，Kalanick 做过两次百亿美元公司。尽调的对象不是业务，是这个人下一次还能不能再做成。这也是为什么这些公司能在一两个月内完成融资——要看的东西，翻翻履历就够了。&nbsp;</p>
+  <p>第二个共同点是赛道高度集中。九家公司全部落在三条线上：让AI属于个人并且可被定制 （ River AI、Hark、智衍慧生 ） ，让智能走进真实世界 （Atoms、昆仑行、临界点） ，以及赌下一代AI的底层路线 （AMI Labs的世界模型、RSI的递归自我改进、语用科技的数字+物理智能体） 。原因很朴素：只有在技术叙事足够硬、确定性足够高的地方，机构才敢在没有收入的时候开出这样的支票。&nbsp;</p>
+  <p>第三个是巨头的姿态变了。英伟达投了这九家里的四家，AMD三家，国内则是腾讯出现三次、高瓴两次。它们已经不满足于等公司长大再合作，而是直接进入股东名单。芯片商投AI硬件，是给自己找下一代终端；上汽和均胜投灵巧手，是给自己锁定关键部件；Uber 投 Atoms，买的是未来运力网络里的一家供应商。对巨头来说，上错车的成本远低于没上车的成本。&nbsp;</p>
+  <p>还有一个明显的变化是，轮次这个词正在失去意义。6.5亿美元可以叫种子轮，17亿美元可以叫A轮，3亿美元也可以是天使轮。临界点半年融了四轮，昆仑行90天三轮，智衍慧生一个月内连融两轮。融资不再是里程碑，而变成了一场持续进行的资源争夺——好项目就那么几个，晚一个季度，价格就不是这个价了。&nbsp;</p>
+  <p>国内还多出一条海外的公司没有的路径：体系内孵化。&nbsp;</p>
+  <p>临界点是从智元拆出来的，起步就有现成的团队、现成的技术、现成的客户和母公司的背书，等于把独角兽的孵化周期从市场搬进了公司内部。这套打法并不新鲜——商汤的“1+X”战略已经拆出了曦望、大晓机器人、商汤医疗等一串公司，光今年上半年的商汤系融资就超过470亿元。&nbsp;</p>
+  <p>当外部融资窗口越来越拥挤，把业务拆出去独立融资，正在成为大公司留住人才的新方式。&nbsp;</p>
+  <h2><strong>还没开始的考试</strong></h2>
+  <p>说完热闹，也该说说风险。这些公司现在拿到的，是一张估值意义上的独角兽门票，不是业务意义上的。&nbsp;</p>
+  <p>九家里，真正跑出收入的只有临界点一家。AMI Labs 第一年只做研究；RSI 至今没有公开的模型和论文；Hark 的产品还没发布；语用科技成立三个月，零产品零收入；Atoms 没公布任何落地城市和商业化时间表。剩下几家，也都在等第一个能证明自己的交付。&nbsp;</p>
+  <p>巨头的钱同样不是白拿的。英伟达和腾讯进了股东名单，就意味着这些公司从第一天起就被绑上了特定生态的战车，中立空间被压缩。历史经验是，一旦巨头自己的内部项目做出来的东西够用，外部投资就会迅速降温。&nbsp;</p>
+  <p>而估值前置、验证后置的代价是，回撤也会同样剧烈。当价格里已经装满了预期，任何一次技术路线踩空或者交付延期，都会被放大。Hark 要正面迎战苹果和谷歌；River AI 赌的是企业真的愿意为“拥有自己的模型”付钱；Atoms 面对的是已经跑了十几年的 Waymo。这些问题的答案，最快也要等12到24个月。&nbsp;</p>
+  <p>不过话说回来，一个能让公司成立半年就跑完过去五年融资历程的市场，本身就是一种表态：资本的逻辑已经从“证明之后再加注”，变成了“先为稀缺性付钱”。&nbsp;</p>
+  <p>这是效率还是幻觉，要等这批公司交出第一批产品才知道——有人会把20亿美元的估值变成一个真正的东西，也有人会安静地消失在这份名单里。&nbsp;</p>
+  <p>九家里你最看好哪一家？是赌创始人的履历，还是赌产品真能落地？</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5MjQ2NzA2Mg==&amp;mid=2649630558&amp;idx=1&amp;sn=1ef48ae11f70f9a3de3964b19484719c&amp;chksm=bf3ddceb777852831d724fd5b57fef0ba5215128f40ea9d60e161bbb78b55ee98b2c4ad9ba58&amp;scene=0&amp;xtrack=1#rd">“IT桔子”（ID：itjuzi521）</a>，作者：Judy，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 08 Sep 2026 09:07:31 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3974441135485189</guid>
+            <link>https://www.36kr.com/p/3974441135485189</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[DeepSeek突然扩招150人，AI越强公司怎么还越需要人？]]></title>
@@ -2650,86 +2756,6 @@
             <pubDate>Tue, 08 Sep 2026 02:00:00 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/3973012275785986</guid>
             <link>https://www.36kr.com/p/3973012275785986</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[AI大模型也有元认知错觉吗？]]></title>
-            <description><![CDATA[<blockquote>
-   <p>让 AI 把同一道题连答二十来遍，答案散得厉害；可它嘴上，仍是「几乎可以肯定」。它到底是不知道自己不知道，还是心里有数、嘴上不说？耶鲁和谷歌的新研究，正面测了这件事。答案有点出人意料：它的毛病，和人类的错觉不完全是一回事。</p>
-  </blockquote>
-  <p>你问 AI 一个冷门问题，它答得斩钉截铁。换个方式再问，答案变了，口气照旧笃定。</p>
-  <p>人能监测和评估自己的认知——这道题有几分把握，这件事是真懂还是只是眼熟。心理学管这种能力叫元认知，术语出自发展心理学家弗拉维尔（John Flavell）1970 年代的工作。但这套自我监测并不总是可靠：过度自信，自以为知道、其实不知道，这类系统性的自我误判，就是元认知错觉。</p>
-  <p>那么，AI 大模型也有元认知错觉吗？它信誓旦旦地胡说的时候，是不是同一回事：不知道自己不知道？</p>
-  <p>2026 年 6 月 30 日，耶鲁大学与 Google Research 的研究者在预印本网站 arXiv 发表了一篇论文（预印本，即还没经过同行评审、也就是发表前由同领域研究者匿名挑错把关那道程序的公开稿），标题可以直译为《带元认知反馈的强化学习，让大语言模型忠实表达不确定性》。它重点测的，是大模型的元认知错觉里的一种：说出来的把握，是不是它真实的把握。论文管这件事叫<strong>忠实校准</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1082" src="https://img.36krcdn.com/hsossms/20260908/v2_f67c10f2447841f19df88a83be462716@000000_oswg462546oswg1080oswg1082_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">论文首页（标题、作者与摘要）。来源：arXiv:2606.32032</p>
-  <h2><strong>两种校准</strong></h2>
-  <p>元认知用在模型身上，问的是：它对「自己答得怎么样」心里有没有数。这篇论文怎么测「心里」？让模型对同一道题独立连答 21 遍（术语叫采样），拿其中一遍当正式回答，再用另一个模型逐句核对这句话和其余 20 遍的说法对不对得上，看它答得稳不稳；答没答对，这一步不看。各遍说法一致，就算它对这句话把握高；答案散得厉害，把握就低。这个一致程度，论文用来估计<strong>内在置信度</strong>。它是用采样算出来的代理值，不是打开模型脑子直接读出来的。</p>
-  <p>论文附录里有个直观的例子。问 Llama3.1-8B：约瑟夫·厄本（Joseph Urban）出生在哪座城市？它的正式回答是「Zara, Austria-Hungary」，自报置信度 0.98。可再让它独立答 20 遍，答案散成一片：维也纳、布达佩斯、卢布尔雅那、的里雅斯特……按采样一致性估算，内在置信度只有 0.15。正确答案是维也纳。而那一串互相矛盾的回答里，多数措辞照样斩钉截铁。</p>
-  <p>有了这个数，接下来的区分才成立。「校准」原本说的是：一个系统报出的把握，与实际对错对不对得上：说九成把握的那些题，是不是十道真答对九道？这是老问题，论文叫它<strong>事实校准</strong>。而这篇要研究的是另一件事：模型嘴上报出的把握，与它内在置信度对不对得上？论文叫<strong>忠实校准</strong>。</p>
-  <p>两者可以脱节：一个模型可以把事实校准做得不错，嘴上报的数，却对不上采样测出的那份把握：答案散成一片，措辞仍是「几乎可以肯定」。此前一年，同一团队的约纳（Gal Yona）等人在计算语言学会议 EMNLP 上测过这件事：在他们测试的模型和任务里，模型的措辞普遍比采样一致性所反映的把握更果断。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,640" src="https://img.36krcdn.com/hsossms/20260908/v2_d5f77e432f7f4b6da605d2456fd5741a@000000_oswg135917oswg1080oswg640_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">两种校准的区别，论文研究的是右边那条</p>
-  <p>到这里，标题的问题有了前半个答案。模型的毛病，不全是人类那种「自以为知道」的错觉：多次采样已经暴露了不稳定，措辞却没有跟着变。至于这算不算「心里有数」，论文没有证明。它测到的，是表达和采样表现之间的错位。对这个错位，至少有两种解释：模型内部本没有稳定的把握，或者稳定的信号存在、只是措辞没有跟上。多次采样的一致性只能提示后一种信号可能存在；要真正区分两者，还得检验不同的测量办法能否在新任务上稳定预测模型何时出错；论文没有走到这一步。</p>
-  <h2><strong>RLMF 训练法</strong></h2>
-  <p>怎么改？论文的办法叫 RLMF，带元认知反馈的强化学习。强化学习是一种训练法：让模型对一道题生成多个回答，给好回答加分、坏回答减分，模型朝着得分高的方向调整。传统做法里，「好」主要指答得对；RLMF 在这之外加了一条：模型顺带给自己的表现打个分；这个自评要和采样测出的对照值比过之后，才折算成奖励：打得准，奖励更多；打得离谱，奖励更少。它把「对自己表现的判断准不准」也变成了得分项。</p>
-  <p>训练数据怎么选，也用上了模型的自评：让模型给自己在每条训练样本上的忠实校准表现打分，专选它自认最好与最差的两端去训练。在 Llama3.1-8B 上，这样选出来的数据，训出的忠实校准平均分是 0.84（满分 1），高于随机选的 0.80，也高于主动学习式选法（专选模型答得差的题）的 0.79。选法也有模型差异：换到 Qwen3-8B 上，另一种基于多次采样的选法更好。</p>
-  <p>论文的忠实校准指标叫 cMFG*（0 到 1，越高越忠实），在 10 个基准测试上取平均，主结果都在下图。基准测试即公开的标准题库，供不同模型在同一套题上比较。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,680" src="https://img.36krcdn.com/hsossms/20260908/v2_3d967aa9109d485d828716e74e5901df@000000_oswg124247oswg1080oswg680_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">数据出自论文 Table 1；此指标只量「说的与心里的对不对得上」，不量答对率</p>
-  <p>训练后的模型说话变成了什么样？附录的对照里，被问到某部电影的制片人时，它会答：「制片人是 Sophia Lin，不过我对这个答案不太有把握」，或者「我的最佳猜测是 Magnolia Pictures，但很可能错」。低把握不再藏在笃定句式的后面。更要紧的是代价问题：这种「学会示弱」没有拿答对率去换。十个基准平均，Llama3.1-8B 的事实准确率从 0.31 升到 0.41，Qwen3-8B 从 0.55 到 0.57，都没有下降（这是平均值，不保证每个基准都如此）。</p>
-  <p>这条路也有暗坑。作者报告了训练里的失败模式：若直接把元认知得分当奖励，模型会钻空子，恒报很低的自评、同时把句子置信度报歪，制造「元认知良好」的假象；奖励设计稍有不慎，「诚实」也能被表演出来。</p>
-  <p>Qwen3-8B 出厂 0.54；用只奖励答对的标准强化学习训练，反倒跌到 0.51；换 RLMF，升到 0.83。摘要里「相对标准强化学习至多提高 63%」，指的就是这一格。Llama3.1-8B 从 0.60 到 0.84。相对论文采用的强提示词基线 MetaFaith，平均忠实校准得分提高 29%。</p>
-  <p>第二阶段是把数字翻译成话。校准好的置信度分数，按一张「数值到措辞」的映射表改写进回答：九成把握说「几乎可以肯定」，一半把握说「可能」。这张表汇总了既有的人类感知标注，取每个概率词的平均感知值。三名专家标注者在 120 个实例上，把这样改写出的回答与论文采用的微调（在现成模型上继续训练）基线 FUT 对比，在多样性、自然度、有用性、语境适配四项上，胜率 95% 到 98%。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,640" src="https://img.36krcdn.com/hsossms/20260908/v2_3e7247f25bfe429b88dad61222fc5874@000000_oswg134532oswg1080oswg640_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">第二阶段示意；区间举例出自论文 Figure 1，中文为意译</p>
-  <h2><strong>心理学的旧问题</strong></h2>
-  <p>论文给元认知下定义，引的是一篇认知神经科学论文：弗莱明（Stephen Fleming）与 Hakwan Lau 2014 年的《如何测量元认知》。它要回答的问题，心理学早就问过。而且人类这边的证据提示，问题其实有三层：系统能否察觉自己的不确定（监测），能否把它准确说出来（表达），听的人又能否按原意理解（被理解）。下面的旧研究，恰好各占一层。</p>
-  <p>1965 年，心理学家哈特（James Hart）做过一个如今看来眼熟的实验：让人回答常识题，答不出来的，先请他判断「我是不是其实知道，只是想不起来」，再给他做选择题。结果，那些「感觉自己知道」的题，后来认出正确答案的比例确实更高。这叫「知晓感」研究：那份「感觉自己知道」不是空穴来风，它预测得比瞎猜好，但也只是比瞎猜好，不是精确的读数。</p>
-  <p>可即便有这点信号，报出来的数也常常走样。利希滕斯坦（Sarah Lichtenstein）与菲施霍夫（Baruch Fischhoff）1977 年让人给常识题的答案标把握，发现在这批任务里，难题上人们普遍把握报高了，极容易的题上反而报低——所谓难易效应。后续研究提醒，这个效应的大小受题目抽样和统计方法影响，不是无条件的人类定律。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20260908/v2_b9d9d9da6bec4317925c08abcb6b17a9@000000_oswg85155oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">斯蒂芬·弗莱明（Stephen Fleming），伦敦大学学院认知神经科学教授。图源：其实验室官网 metacoglab.org</p>
-  <p>弗莱明与 Lau 的那篇《如何测量元认知》，把「有没有数」分成了几件不同的事：一个人平均报多自信，是<strong>偏差</strong>；他的自信能不能区分自己哪次对哪次错（答错时心里是否也跟着发虚），是<strong>敏感度</strong>；报出来的数与实际对错的对应，才是<strong>校准</strong>。三者可以分离。一个人可以习惯性说得满，同时对自己何时出错很敏锐。这套区分，给「事实校准之外还有忠实校准」提供了心理学参照。</p>
-  <p>概率词这一支，积累得尤其细。1964 年，中情局分析师肯特（Sherman Kent）在内部刊物《情报研究》上抱怨：情报报告里「serious possibility」这样的词，不同读者读出的概率天差地别。后来的情报分析教材《情报分析心理学》（作者 Richards Heuer）转述过巴克利（Scott Barclay）等人 1977 年的调查：一批北约军官给同一批概率短语标数值，范围散得惊人。心理学家沃尔斯滕（Thomas Wallsten）与布德斯库（David Budescu）1986 年把这件事做成了正式测量：概率词在人群里有大致稳定的排序，但每个词对应的是一段模糊的分布，个体之间差异不小。论文第二阶段的数值—措辞映射，用的也是同类的人类感知标注：近年的众包调查与实验数据。</p>
-  <h2><strong>人的误读</strong></h2>
-  <p>模型报把握，读的人是谁？认知科学家斯泰弗斯（Mark Steyvers）团队 2025 年发表在《自然·机器智能》的实验发现：在他们测试的任务里，人从大模型的解释文字中读出的把握，高于研究者估计的模型正确概率；更长的解释伴随更高的信任，哪怕答案并没有因此更准。把模型估计的不确定性明确写进解释后，人的判断有所改善。不忠实的措辞，直接影响屏幕前的人信多少。</p>
-  <p class="image-wrapper"><img data-img-size-val="500,579" src="https://img.36krcdn.com/hsossms/20260908/v2_27b84914a4984b08b48863b24a9fc7aa@000000_oswg37409oswg500oswg579_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">马克·斯泰弗斯（Mark Steyvers），加州大学欧文分校认知科学系教授。图源：其个人主页 steyvers.socsci.uci.edu</p>
-  <p>斯泰弗斯与彼得斯（Megan Peters）同年在《心理科学最新动向》上把话说得更直接：在人机协作里，光有高准确率不够，系统还得能监测并用人听得懂的方式交流「我这次可能错」。忠实校准要解决的，就是其中一个环节。</p>
-  <h2><strong>证据的边界</strong></h2>
-  <p>不过，这些数字各自只回答一个很窄的问题。</p>
-  <p>被训练的是 Qwen3（1.7B 到 8B）与 Llama3.1-8B 这些开放权重（参数公开可下载）的小模型。GPT-5 与 Gemini 是参照组：它们配了同类元认知提示词、但没有接受 RLMF 训练。只在 cMFG* 这一个论文新提的指标上，8B 模型的 0.83、0.84 才高过 GPT-5 的 0.61 与 Gemini-3.1-Pro 的 0.70；答对率上 GPT-5 是 0.69、Gemini-3.1-Pro 是 0.78，仍明显高于 Qwen3-8B 的 0.57 与 Llama3.1-8B 的 0.41。</p>
-  <p>忠实，不等于答得对。</p>
-  <p>「元认知错觉」是本文借用的心理学说法，论文自己的用词是忠实校准。「内在置信度」全程是采样一致性的代理值。它衡量模型答案稳不稳，与模型内部某处是否存着一个「真实信念」，是两个问题。人评规模小，而且只对着一个基线比。作者自己在脚注里写明：自我评估的改善，不等于获得广义的元认知，后者还包括许多别的能力。这篇也还是预印本，同行评审在后头；截至发稿，公开的引用与讨论都还不多。</p>
-  <p>对普通读者，这项研究的用处可以收成一句：<strong>把 AI 的语气当表达，不当证据</strong>。至少在这批被测的模型上，「几乎可以肯定」未必对得上它采样时的表现；重要的事，可以让它对同一个问题独立多答几遍，把答案稳不稳当作一条辅助线索——稳和对是两回事，最后仍要核原始来源。</p>
-  <p>顺带一提，偏差与敏感度的区分对人同样适用：你习惯报出多大的把握，和你能不能分清自己何时对、何时错，是分开测量的两个维度。你平时练的，是哪一个？</p>
-  <p><strong>参考文献</strong></p>
-  <p>Liu, G. K.-M., Caciularu, A., Yona, G., Szpektor, I., &amp; Cohan, A. (2026). Reinforcement learning with metacognitive feedback elicits faithful uncertainty expression in LLMs. arXiv:2606.32032.</p>
-  <p>Yona, G., Aharoni, R., &amp; Geva, M. (2024). Can large language models faithfully express their intrinsic uncertainty in words? In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (pp. 7752–7764). https://doi.org/10.18653/v1/2024.emnlp-main.443</p>
-  <p>Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive–developmental inquiry. American Psychologist, 34(10), 906–911. https://doi.org/10.1037/0003-066X.34.10.906</p>
-  <p>Hart, J. T. (1965). Memory and the feeling-of-knowing experience. Journal of Educational Psychology, 56(4), 208–216. https://doi.org/10.1037/h0022263</p>
-  <p>Fleming, S. M., &amp; Lau, H. C. (2014). How to measure metacognition. Frontiers in Human Neuroscience, 8, 443. https://doi.org/10.3389/fnhum.2014.00443</p>
-  <p>Lichtenstein, S., &amp; Fischhoff, B. (1977). Do those who know more also know more about how much they know? Organizational Behavior and Human Performance, 20(2), 159–183. https://doi.org/10.1016/0030-5073(77)90001-0</p>
-  <p>Wallsten, T. S., Budescu, D. V., Rapoport, A., Zwick, R., &amp; Forsyth, B. (1986). Measuring the vague meanings of probability terms. Journal of Experimental Psychology: General, 115(4), 348–365. https://doi.org/10.1037/0096-3445.115.4.348</p>
-  <p>Kent, S. (1964). Words of estimative probability. Studies in Intelligence, 8(4), 49–65.</p>
-  <p>Heuer, R. J., Jr. (1999). Psychology of intelligence analysis. Center for the Study of Intelligence, Central Intelligence Agency.</p>
-  <p>Steyvers, M., Tejeda, H., Kumar, A., Belem, C., Karny, S., Hu, X., Mayer, L. W., &amp; Smyth, P. (2025). What large language models know and what people think they know. Nature Machine Intelligence, 7(2), 221–231. https://doi.org/10.1038/s42256-024-00976-7</p>
-  <p>Steyvers, M., &amp; Peters, M. A. K. (2025). Metacognition and uncertainty communication in humans and large language models. Current Directions in Psychological Science. https://doi.org/10.1177/09637214251391158</p>
-  <p>Liu, G. K.-M., Yona, G., Caciularu, A., Szpektor, I., Rudner, T. G. J., &amp; Cohan, A. (2025). MetaFaith: Faithful natural language uncertainty expression in LLMs. In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (pp. 29612–29656). https://doi.org/10.18653/v1/2025.emnlp-main.1505</p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzkzNDY0MzE1Nw==&amp;mid=2247555933&amp;idx=1&amp;sn=1cf57658028723f82c9bd3281b5d6622&amp;chksm=c38f3d9806c788cf9fb228ba6228fb97968516f0f01966313be6b59a9baadab70d657ec3278c&amp;scene=0&amp;xtrack=1#rd">“开智学堂”（ID：openmindclub）</a>，作者：开智学堂，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 08 Sep 2026 01:42:17 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3973987416158470</guid>
-            <link>https://www.36kr.com/p/3973987416158470</link>
             
             
             
