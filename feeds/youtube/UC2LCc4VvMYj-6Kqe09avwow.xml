@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/r3PFFZImWpA/hqdefault.jpg" width="480" height="360"/>
    <media:description>Nearly all leading-edge designs today are multi-die assemblies, which means that one defective die can render the entire device unusable. But not all dies that are deemed defective should be scrapped, and not all dies that pass inspection will behave as expected in the field, especially over time. Nir Sever, senior director of business development at proteanTecs, talks with Semiconductor Engineering about how to train machine learning models to identify outliers in context, replacing a rigid pass/fail decision tied to a spec with one that assesses its usefulness based on its behavior under real workloads in a complex system.</media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="12"/>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="76"/>
    </media:community>
   </media:group>
  </entry>
