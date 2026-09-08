@@ -195,6 +195,22 @@ def main() -> int:
         f"-> window {len(rows)} builders / {total_tweets} tweets, "
         f"+{added} new, -{dropped} aged out, span {span_hours:.1f}h of {WINDOW_HOURS}h"
     )
+
+    # An upstream that still has rows while our window comes out empty is not a slow
+    # news day -- it is this script failing to understand the data. A field rename in
+    # `createdAt`, `id` or `url` would send every tweet through the skip path or the
+    # age-out path, and the result publishes with a fresh generatedAt and an empty `x`.
+    # Downstream cannot catch that: builder_feed declares no minimumArtifacts, so the
+    # consumer grades zero artifacts as a healthy fetch. This is the only place that
+    # can tell the difference, so it has to be the place that refuses.
+    if payload["x"] and total_tweets == 0:
+        print(
+            f"FAIL upstream carried {len(payload['x'])} builder row(s) but the window is empty. "
+            "Refusing to publish a hollow feed -- most likely the upstream field names "
+            "(createdAt / id / url) moved and every tweet is being skipped.",
+            file=sys.stderr,
+        )
+        return 1
     if span_hours < WINDOW_HOURS - 24:
         print(
             f"NOTE the window is not full yet ({span_hours:.1f}h of {WINDOW_HOURS}h). "
