@@ -1,4 +1,14 @@
+node_modules/
+coverage/
 *.env
 .env
 __pycache__/
 *.pyc
+
+# OMC runtime state: session ids, transcript paths, local cwd. No credentials,
+# but nothing here belongs in a public repository, and it churns on every run.
+.omc/
+
+# dist/ is deliberately NOT ignored anywhere in this repo. Nothing here builds,
+# but the sibling weixin extension learned on 2026-09-08 that an artifact which
+# is not tracked is an artifact whose silent reversion nobody sees.
