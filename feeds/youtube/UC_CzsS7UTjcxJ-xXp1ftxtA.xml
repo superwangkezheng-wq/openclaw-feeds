@@ -68,8 +68,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="131" average="5.00" min="1" max="5"/>
-    <media:statistics views="7594"/>
+    <media:starRating count="132" average="5.00" min="1" max="5"/>
+    <media:statistics views="7622"/>
    </media:community>
   </media:group>
  </entry>
@@ -138,8 +138,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="924" average="5.00" min="1" max="5"/>
-    <media:statistics views="97929"/>
+    <media:starRating count="926" average="5.00" min="1" max="5"/>
+    <media:statistics views="98048"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
     <media:starRating count="435" average="5.00" min="1" max="5"/>
-    <media:statistics views="17759"/>
+    <media:statistics views="17761"/>
    </media:community>
   </media:group>
  </entry>
@@ -261,7 +261,7 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
     <media:starRating count="71" average="5.00" min="1" max="5"/>
-    <media:statistics views="3972"/>
+    <media:statistics views="3971"/>
    </media:community>
   </media:group>
  </entry>
@@ -364,7 +364,7 @@ Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-
 36:39 Poster, future updates, and wrap-up</media:description>
    <media:community>
     <media:starRating count="786" average="5.00" min="1" max="5"/>
-    <media:statistics views="17133"/>
+    <media:statistics views="17137"/>
    </media:community>
   </media:group>
  </entry>
@@ -408,7 +408,7 @@ Chapters:
 #LLM #Transformers #DeepLearning #MachineLearning #Inference #MoE #GQA #MLA #SWA #KVCache</media:description>
    <media:community>
     <media:starRating count="681" average="5.00" min="1" max="5"/>
-    <media:statistics views="20097"/>
+    <media:statistics views="20098"/>
    </media:community>
   </media:group>
  </entry>
@@ -448,7 +448,7 @@ This video covers the most important open-weight LLM architectures released in 2
 01:19:04 11. GLM-4.5</media:description>
    <media:community>
     <media:starRating count="1750" average="5.00" min="1" max="5"/>
-    <media:statistics views="44875"/>
+    <media:statistics views="44876"/>
    </media:community>
   </media:group>
  </entry>
@@ -495,7 +495,7 @@ Building a User Interface to Interact With the Instruction Finetuned GPT Model, 
 Evaluating Instruction Responses Using the OpenAI API and Ollama, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation</media:description>
    <media:community>
     <media:starRating count="824" average="5.00" min="1" max="5"/>
-    <media:statistics views="47333"/>
+    <media:statistics views="47335"/>
    </media:community>
   </media:group>
  </entry>
@@ -629,7 +629,7 @@ This is a supplementary video explaining how to code an LLM architecture  from s
 You can find additional bonus materials on GitHub, for example converting the GPT-2 architecture into Llama 2 and Llama 3: https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama</media:description>
    <media:community>
     <media:starRating count="713" average="5.00" min="1" max="5"/>
-    <media:statistics views="38932"/>
+    <media:statistics views="38939"/>
    </media:community>
   </media:group>
  </entry>

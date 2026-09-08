@@ -15,8 +15,465 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Tue, 08 Sep 2026 08:15:38 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Sep 2026 09:02:59 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[11天、30万美元：AI攻破358年数学难题的最后一关]]></title>
+            <description><![CDATA[<p>近日，Anthropic宣布了一项震动数学界的消息：其AI模型Claude在基本自主运行11天后，完成了费马大定理的首个端到端、可由计算机完整检查的形式化证明。</p>
+  <p>这不是AI第一次在数学领域引发轰动。但这一次，震撼程度完全不同。</p>
+  <h2><strong>一个350年的“页边空白”</strong></h2>
+  <p>故事要从1637年说起。</p>
+  <p>法国数学家皮埃尔·德·费马在一本数学书的页边潦草地写下了一句话：对于任意整数n&gt;2，不存在正整数a、b、c使得aⁿ+bⁿ=cⁿ。他还补了一句——自己有一个“真正绝妙的证明”，可惜页边太窄写不下。</p>
+  <p>然后他去世了。</p>
+  <p>接下来358年，一代又一代数学家前赴后继，试图找回费马口中那个“绝妙证明”。欧拉、勒让德、库默尔……无数顶尖头脑折戟沉沙。</p>
+  <p>直到1993年，英国数学家安德鲁·怀尔斯公开宣布完成证明。但故事并未就此结束——两个月后，同行评审发现证明中存在关键漏洞。怀尔斯又花了一年时间，与前学生理查德·泰勒合作修补，最终于1995年发表了129页的修正版证明。</p>
+  <p>怀尔斯的证明是20世纪数学的里程碑，为他赢得了2016年的阿贝尔奖。但数学家们很快意识到另一个问题：<strong>这份写给人类看的证明，计算机看不懂。</strong></p>
+  <h2><strong>从人类直觉到计算机能读懂的逻辑</strong></h2>
+  <p>普通数学论文是写给数学家读的。大量在专业人士看来“显而易见”的推导会被省略——“显然可得”“不难验证”这类词，背后可能藏着数十个定义、引理，甚至几百年的数学积累。</p>
+  <p>但计算机没有“显然”这个概念。它需要一个专门的工具来充当“裁判”，逐行检查逻辑是否成立。</p>
+  <p>Lean就是目前最主流的这种工具——它既是一门编程语言，也是一个极度严格的审核者。每一个定义、每一次逻辑跳转、每一个中间结论，都必须被严格写出来喂给它。链条中任何一环有漏洞，Lean会立刻拒绝通过。一旦通过，就意味着这个证明在逻辑上正确，不再依赖任何人的主观判断。</p>
+  <p>整个工作的本质就是：把人类直觉上的“懂了”，拆解成机器逻辑上的“确认了”。 这个过程极其枯燥，却又绝对必要。</p>
+  <p>2005年前后，计算机科学家已提出将怀尔斯证明“翻译”给机器的设想。2024年，伦敦帝国理工学院教授Kevin Buzzard正式启动了一个大型开源项目，计划用Lean完成费马大定理的机器验证。仅项目第一阶段的技术蓝图就写了86页。整个项目预计需要数学家们耗费数年时间。</p>
+  <p>然后，Claude来了。</p>
+  <h2><strong>11天，1300万行代码</strong></h2>
+  <p>Claude并非单打独斗。Anthropic调用了<strong>数十个Claude智能体并行协作</strong>。它们各司其职：有的补数学定义，有的专攻中间引理，有的沿已有成果向更高层定理推进，还有的负责将不同部分拼回整个证明体系。</p>
+  <p>但一开始，事情并不顺利。Anthropic发现，当多个智能体直接协作时，它们很快开始“失忆”——忘记工程进行到哪里、无法复用彼此的结果、协作陷入停滞。</p>
+  <p>转折点是一个名为<strong>Prove2Me</strong>的工具，由本次项目的发起者、Anthropic研究员彭天翼（Tianyi Peng）及其团队开发。Prove2Me将整个证明拆解为一个有向无环图（DAG），记录每个定理及其依赖关系。每个智能体都能看清全局进度、判断任务依赖、知道自己接下来该做什么，彻底解决了上下文遗忘和协作混乱的问题。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,645" src="https://img.36krcdn.com/hsossms/20260908/v2_5ddb262e2a684417bacfab89562ce95c@000000_oswg209111oswg1080oswg645_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>11天后，结果出炉：</p>
+  <ul>
+   <li>1300万行Lean代码</li>
+   <li>超过3万个中间定理，最终证明使用了其中约29,500个</li>
+   <li>代码量是Lean核心数学库Mathlib的5倍以上</li>
+   <li>消耗约60亿个输出Token</li>
+   <li>完整证明仅依赖Lean的三个标准公理</li>
+  </ul>
+  <p>用更直观的方式理解：这些代码若按每页50行打印，可铺满26万页，相当于520本500页的学术专著。</p>
+  <p>整个过程中，人类提供的数学指导极为有限，主要是偶尔给出类似“优先完成Mazur定理”这样的高层方向。</p>
+  <h2><strong>30万美元买“确定性”</strong></h2>
+  <p>这项成就的成本是多少？</p>
+  <p>Anthropic使用的内部研究模型性能大致相当于Claude Fable 5.1。按该模型每百万输出Token50美元的定价计算，60亿输出Token对应约<strong>30万美元</strong>——约为Buzzard五年期项目经费（100万英镑）的四分之一。</p>
+  <p>同时，另一组值得关注的数字是：</p>
+  <p>五周前，OpenAI发布了十项专家们至少十年未曾推进的数学难题的突破性成果，每个都附带了可机器验证的Lean证书，总成本约<strong>2,000美元</strong>。</p>
+  <p>对比一下：<strong>十个真正的数学新发现，成本两千美元；机械确认一个已有三十年历史的结论，成本三十万美元</strong>。</p>
+  <p>Anthropic对此极为坦诚：Claude这项工作在数学上“没有告诉我们任何新东西”。怀尔斯已在三十年前完成证明，Claude只是为它建了一张机器可查验的“收据”。</p>
+  <p><strong>最贵的从来不是找到答案，而是把答案变成不需要信任任何人、可以被机器逐行验证的形式</strong>。</p>
+  <p>正如《自然》杂志报道所言：一台机器能将人类数学家的工作转化为长达1300万行、无懈可击的证明，“彻底震撼了我”。</p>
+  <h2><strong>“如果费马大定理可以，那大概什么都可以”</strong></h2>
+  <p>数学界的反应复杂而深刻。</p>
+  <p>Buzzard——那个本要用数年完成同一项目的帝国理工教授——在审阅后给出了极高的评价：这是一项“非凡的自动形式化成就”，证明过程“除数学公理外不依赖任何额外假设”。他指出：“如果费马大定理的自动形式化在今天已经可行，那么现代数学文献的全面机器验证就迈出了一大步。”</p>
+  <p>加拿大多伦多大学数论学家Daniel Litt更进一步：“<strong>如果他们能形式化费马大定理，那他们大概能形式化任何东西。</strong>”</p>
+  <p>但并非所有人都只有欢呼。</p>
+  <p>菲尔兹奖得主陶哲轩提出了审慎的观察。他认为，AI目前在“解题”和“验证正确性”前两个层面有优势，但“清晰表述”“被学术共同体接受”“融入学科标准理论”等后续环节“越来越慢、越来越需要人”。他警告当前的风险是“<strong>证明消化不良</strong>”——AI生成速度远超人类理解与教学转化能力。</p>
+  <p>1300万行Lean代码，<strong>没有人能从头通读</strong>。“证明通过机器检查”不等于“证明适合人类阅读和复用”。数学知识的可验证性与可理解性正在分离——这是一个新的结构性问题。</p>
+  <p>11天，1300万行代码，30万美元。</p>
+  <p>Claude没有发现新的数学定理，但它做了一件可能同样重要的事：<strong>证明了一个AI可以将人类最复杂的数学成果，转化为机器可以独立验证的形式</strong>。</p>
+  <p>Buzzard有句话说得恰到好处：“两年前，这还是个幻想。”</p>
+  <p>而今天，这个幻想变成了1300万行可以逐行检查的代码，安静地躺在GitHub上，等待任何一个有足够时间和好奇心的数学家去翻阅。</p>
+  <p>费马大定理的形式化，或许只是一个开始。真正的问题不是“AI能不能做到”，而是——<strong>当AI能以人类无法企及的速度生成可验证的知识时，我们准备好了吗？</strong></p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzkzNDE3NTUzOQ==&amp;mid=2247511255&amp;idx=1&amp;sn=da07376c7d97caf360b3d1de9dd3539e&amp;chksm=c3cc4192869de59452dc159b87759543cbaf02e1a386ebc43e89b63a7f08164cfc561f7af32f&amp;scene=0&amp;xtrack=1#rd">“Edu指南”（ID：EduZhiNan）</a>，作者：Edu指南，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 08 Sep 2026 08:36:16 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3974412299301376</guid>
+            <link>https://www.36kr.com/p/3974412299301376</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[王云鹤创业后交出首个模型]]></title>
+            <description><![CDATA[<p>王云鹤创业后，首次交卷了大模型成果。</p>
+  <p>量子位获悉，华为诺亚方舟实验室前主任、<ai-product-link data-id="14620" data-name="盘古大模型" data-logo="https://img.36dianping.com/20250909/v2_7adcf653a52547498dcf0775e7f9d4dc_oswg9668oswg96oswg96_img_000" data-classify-list="大厂出品,模型训练" data-refer-type="20">盘古大模型</ai-product-link>负责人<strong>王云鹤</strong>创办的基元律动，发布首个Agent-Native模型NeoHorse。</p>
+  <p>该模型由无问芯穹提供底层基础设施支撑与Infra优化技术能力，清华大学、北京大学团队参与算法和训练方法研究，共同探索提升Agent后训练的数据利用效率和训练效果。</p>
+  <p><strong>NeoHorse-1包含4B和9B两个版本</strong>，重点面向Agent工作过程中需要的一组能力，包括调用工具、读取环境反馈、发现错误、调整路径，并最终完成任务。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,345" src="https://img.36krcdn.com/hsossms/20260908/v2_3017a9403d394c029d9fdd60010c9a12@46958_oswg119587oswg1080oswg345_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在覆盖Harness Agent、工具使用、代码和指令遵循等10项评测中，经过Agentic Post-Training后，<strong>4B模型综合表现已经达到/略超9B基础模型。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,750" src="https://img.36krcdn.com/hsossms/20260908/v2_5ff71f0a3dbe4d35805cd2dde80e8bec@46958_oswg514513oswg1080oswg750_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>一家一直强调多模型协作的公司，为什么又开始自己训练模型？基元律动准备加入基础模型牌桌了吗？</p>
+  <p>从NeoHorse给出的答案看，方向并没有发生这样的变化。</p>
+  <p>这款模型更像是基元律动过去积累的多模型执行经验，第一次进入了模型参数。</p>
+  <h2><strong>帮Agent挑模型的公司，也开始训练模型</strong></h2>
+  <p>一直以来，分数往往成为比较模型的主要依据。</p>
+  <p>但当模型开始被放进Agent系统、承担完整任务后，单一分数的解释力就会下降。</p>
+  <p>一项任务中，模型不仅要给出一个看似合理的答案，还要在执行过程中持续读取环境反馈，处理错误，并根据实际进展调整后续路径；不同环节对模型能力的要求也不一样。</p>
+  <p>由此，基元律动团队形成了一个判断。</p>
+  <blockquote>
+   <p><strong>模型不归一将是AI产业长期存在的一种结构。</strong></p>
+  </blockquote>
+  <p>模型越多、分工越细，价格和能力差异越明显，就越需要一套系统回答几个问题——</p>
+  <p>这一步应该用哪个模型？哪些环节可以交给成本更低的模型？什么时候需要升级到推理和执行能力更强的模型？一条执行路径受阻后，应该换谁接手？多个模型能否并行给出方案，再把结果聚合起来？</p>
+  <p>王云鹤团队把这一层系统称为Routing Harness（旗下相关开源项目OpenSquilla已经接入多款模型，通过统一接口，在Agent运行过程中进行细粒度路由、模型切换和多模型协作）。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,636" src="https://img.36krcdn.com/hsossms/20260908/v2_3bc2259974b44c268c269a36cfa3583b@46958_oswg293420oswg1080oswg636_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>同样，基于这一思路，基元律动似乎没有太强的理由自己训练模型。市场上已经有足够丰富的模型供给，按需调用看起来更加灵活。</p>
+  <p>随着调度系统持续运行，<strong>另一类资产开始沉淀</strong>，如“什么任务需要什么能力”“模型在哪一步容易失败”“什么样的修复路径有效”“怎样的结果能够通过环境验证”。</p>
+  <p>这些信息一方面可以提升路由判断，另一方面也开始具备训练价值。</p>
+  <p>这有点像一家连接大量品牌与消费者的平台。交易过程中积累的需求、评价和使用反馈，可以帮助商品找到更合适的用户，也可以进一步反馈给产品研发。</p>
+  <p>平台服务市场的过程由此成为下一轮产品改进的数据来源。</p>
+  <p>NeoHorse承担的就是把基元律动过去在Harness中积累的一部分执行经验，转化成模型能力。</p>
+  <h2><strong>把多模型走过的路，练进Agent-Native模型</strong></h2>
+  <p>NeoHorse的数据来源值得一提。</p>
+  <p>它的<strong>核心语料是将Routing Harness产生的Agent执行信号与公开数据结合，构建面向Agent后训练的数据体系。</strong></p>
+  <p>Agent在Harness里完成一次任务，会留下完整的执行记录。</p>
+  <blockquote>
+   <ol>
+    <li>输入任务→ 路由器判断需要什么能力</li>
+    <li>→ 选择某个模型</li>
+    <li>→ 模型进行推理和工具调用</li>
+    <li>→ 环境返回结果</li>
+    <li>→ 模型继续执行或发生错误</li>
+    <li>→ 系统切换模型或调整路径</li>
+    <li>→ 任务最终完成或失败</li>
+   </ol>
+  </blockquote>
+  <p>常见问答数据往往集中在“问题”和“答案”两端。</p>
+  <p><strong>Routing Harness的数据中还包含另外几层信息</strong>：任务需要什么能力，系统做出了什么执行决策，以及环境最终给出了什么反馈。</p>
+  <p>比如，路由器最初判断某项任务只需要普通模型，但执行过程中连续失败，随后升级到能力更强的模型，任务才被完成。</p>
+  <p>这条轨迹包含的信息远多于一次失败。</p>
+  <p>系统可以知道，最初的能力判断可能偏低，模型在哪一步出现问题，更强模型采用了怎样的策略，哪条执行路径最终通过环境验证，以及完成任务额外消耗了多少Token和时间。</p>
+  <p class="image-wrapper"><img data-img-size-val="550,680" src="https://img.36krcdn.com/hsossms/20260908/v2_67bab74e515741919a8495ba3ea7d219@46958_oswg59419oswg550oswg680_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>更重要的一点在于，基元律动观察到的并非某个模型对自身能力的判断，而是多个模型面对相似任务时留下的横向表现。</p>
+  <p>其中既有成功路径，也有中途失败、随后被其他模型接手的执行记录。</p>
+  <p><strong>从训练角度看，失败轨迹甚至可能提供更多信息。</strong></p>
+  <p>最终答案能够告诉模型一条可行路径，失败与修复过程则补充了另外两类知识，哪里容易出错，以及出错以后如何调整。</p>
+  <p>“学习的除了多个模型给出的结果，还有多个模型在任务环境中实际走过的路径”，这也是NeoHorse比较有辨识度的一点。</p>
+  <h2><strong>Agent工作日志怎么变成模型能力？</strong></h2>
+  <p>把所有日志全部投入训练，并不会自然得到一个更强的Agent模型。</p>
+  <p>Agent轨迹通常很长，其中混有系统提示、用户请求、工具参数、执行结果、重复尝试、错误信息以及大量中间输出。</p>
+  <p>有些步骤具有训练价值，有些更接近噪声。还有一些轨迹流程完整，结果本身却并不正确。</p>
+  <p>基元律动<strong>首先需要解决“哪些数据值得模型学习”这个问题</strong>。</p>
+  <p>根据技术报告，每条轨迹都会经过结构检查，确认请求、模型回复、工具调用和环境结果之间能够对应。</p>
+  <p>随后，系统会<strong>从六个维度评估执行质量</strong>，包括是否完成用户目标、是否遵守指令、工具使用是否合理、结论是否有证据支撑、发生错误后能否恢复，以及模型是否在合适的时机终止任务。</p>
+  <p>这里<strong>还涉及Agent训练里容易被混在一起的问题</strong>。</p>
+  <p>任务结束并不等于用户目标已经满足——模型输出“任务已经完成”只能说明执行流程停止了，无法证明交付物符合用户要求。</p>
+  <p>因此，完成状态、目标满足度、环境证据和用户反馈，需要作为不同信号分别记录。</p>
+  <p><strong>数据完成筛选后，路由信号开始发挥另一项作用。</strong></p>
+  <p>路由器会估计任务所需能力，并形成不同能力档位的信号。NeoHorse在训练过程中据此安排样本顺序，先学习能力需求较低的任务，再逐渐增加更加复杂的执行轨迹，同时保留基础任务覆盖。</p>
+  <p>这一方法被称为<strong>Routing-Guided Curriculum</strong>，也就是路由引导的课程学习。</p>
+  <p>通俗一点理解，路由信号在线上决定任务交给谁，在训练阶段还可以告诉模型，哪些任务更适合先学，哪些适合后学。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,702" src="https://img.36krcdn.com/hsossms/20260908/v2_ab571dfffb0245da9f7b7cfe9ff739a2@46958_oswg370096oswg1080oswg702_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>除了常规监督微调，NeoHorse还使用了<strong>On-Policy Distillation</strong>。</p>
+  <p>可以理解为先让学生按照自己的方式解题，再由老师针对学生实际走到的步骤给出指导。</p>
+  <p>这样一来，教师模型处理的是学生模型当前分布下会遇到的问题，而非预先准备的一套标准错误。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,624" src="https://img.36krcdn.com/hsossms/20260908/v2_d022cd04c519407c8d3000eedca2488e@46958_oswg328891oswg1080oswg624_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>经过这些环节，多模型长期执行任务积累下来的经验，开始被用于NeoHorse的后训练。</p>
+  <h2><strong>后训练之后，提升的是什么？</strong></h2>
+  <p>从当前技术报告给出的结果看，Agentic Post-Training在4B和9B两个尺度上都带来了稳定提升。</p>
+  <p>其中，NeoHorse-1-4B的综合表现（宏平均得分从58.94提升到64.87）已经达到同规模SOTA——在所有可对比的基准上均超越其基础模型Qwen3.5-4B，并在4B同规模对比模型中综合领先。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,598" src="https://img.36krcdn.com/hsossms/20260908/v2_b888cfab13d44eb9b7a7feca7557c382@46958_oswg163745oswg1080oswg598_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>但SOTA并不意味着能力是均匀铺开的。</p>
+  <p>进一步拆分结果可以看到，<strong>4B模型的提升主要集中在一类任务上</strong>。</p>
+  <p>这类任务通常拥有相对明确的工作流程，环境反馈能够被观察，成功与失败可以验证，最终交付标准也比较清楚。</p>
+  <p>比如在一个项目排期任务中，基础模型虽然找到了工作目录中的文件，却没有继续读取一封包含最新依赖约束的邮件。</p>
+  <p>结果，它按照已经过期的信息生成计划，并把文件写到了错误位置。</p>
+  <p>经过后训练的模型会继续读取新增证据，发现约束已经变化，重新计算排期、验证结果，再把交付物保存到正确位置。</p>
+  <p><strong>二者的差异体现在Agent执行链条上。</strong></p>
+  <p>一个模型大致知道任务应该怎么做，另一个模型已经能把获取证据、更新约束、执行、验证和交付串成较完整的工作流。</p>
+  <p>达到同规模SOTA，并不意味着要让NeoHorse-1-4B接管所有任务。基元律动更关心<strong>怎样精细划分不同模型的能力边界。</strong></p>
+  <p>能够由4B稳定完成的任务，可以减少更大规模模型的调用；能够由更强模型完成的任务，也不需要持续升级到价格最高的旗舰模型；难度继续上升以后，再交给模型池中能力更强的模型。</p>
+  <p>这里正好衔接上Routing Harness与自研模型之间的关系。</p>
+  <p>模型不断向外扩展可承担任务的成本区间，路由系统则根据任务难度和执行情况，把不同能力放到合适的位置。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,423" src="https://img.36krcdn.com/hsossms/20260908/v2_8f878b4ee73f4a4f8dfd7e66ed8b091e@46958_oswg191486oswg1080oswg423_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>除了API调用费，这套模式还有什么价值？</strong></h2>
+  <p>说到这里，基元律动几条产品线之间的关系也逐渐清晰起来。</p>
+  <p><strong>第一层是OpenSquilla开源版。</strong></p>
+  <p>通过免费、开源、本地部署和桌面产品，基元律动降低开发者使用多模型Agent的门槛，同时连接开发者和任务入口。</p>
+  <p><strong>第二层是TokenRhythm API。</strong></p>
+  <p>其定位接近“中国版OpenRouter”，通过统一接口提供不同模型的调用能力，承接开发者和企业的模型使用需求，同时帮助模型厂商连接更多应用场景。</p>
+  <p>企业不需要分别适配大量模型接口，就能更方便地评测、选择和切换模型。</p>
+  <p><strong>第三层是面向企业的服务与部署能力。</strong></p>
+  <p>金融、制造等行业对权限、稳定性、私有部署和服务保障有不同要求，也由此形成进一步的商业空间。</p>
+  <p><strong>第四层才是NeoHorse。</strong></p>
+  <p>NeoHorse首先验证了一项关键连接：Harness执行过程中产生的有效经验，经过筛选和训练以后，确实有机会被转化成模型自身的能力。</p>
+  <p>由此，基元律动此前提出的商业飞轮第一次出现了模型层面的结果。</p>
+  <p>这一点也带来了优化推理经济账的可能。</p>
+  <p>如果NeoHorse后续能够稳定承接一批高频、标准相对明确的Agent任务，平台便多了一种可以自主调度的能力供给。</p>
+  <p>这些任务可以进一步优化推理成本、响应速度和稳定性，也让模型供给配置更加灵活。随着模型继续迭代，其可覆盖的任务范围还有进一步扩大的空间。</p>
+  <p>从这个角度看，基元律动想做的事情有点像制造体系中的工艺积累。</p>
+  <p>外部模型生态提供不同能力，Harness负责组织执行；在执行过程中形成的经验，再进入下一轮模型改进。</p>
+  <p>从连接模型、提供服务，到把服务中产生的经验转化为模型能力，并进一步改善效率和质量，这也是基元律动在API聚合平台之外，多走出去的一步。</p>
+  <h2><strong>模型之外，基元律动在构建什么？</strong></h2>
+  <p>基元律动设想中的循环大致可以用几条业务线串起来：</p>
+  <blockquote>
+   <ol>
+    <li>Routing&nbsp;Harness连接开发者与Agent任务</li>
+    <li>→ TokenRhythm API连接模型供给与调用需求</li>
+    <li>→ Harness组织执行，积累路由与任务轨迹</li>
+    <li>→ 可用轨迹经过筛选，用于模型训练</li>
+    <li>→ 更新后的模型返回Harness，参与适配任务</li>
+    <li>→ 改善任务体验，探索更好的响应速度与成本效率</li>
+    <li>→ 持续使用、付费与经营效率的提升</li>
+    <li>→ 支持下一轮服务完善和研发投入</li>
+   </ol>
+  </blockquote>
+  <p><strong>其中一个关键变化在于</strong>，模型产生的轨迹，不再只停留在消费和调用环节，它还可能成为下一轮模型训练的来源。</p>
+  <p>Agent完成一次任务，Harness就多获得一次关于能力边界的观察。</p>
+  <p>某个模型失败，系统知道能力缺口可能出现在哪里；另一个模型成功接手，系统得到一条新的修复路径；用户最终接受或者拒绝结果，又提供一层外部反馈。</p>
+  <p>任务积累越多，路由判断可能越准确；路由判断更加准确以后，筛选出的训练轨迹也会更贴近实际任务；模型更适合任务以后，API服务又有机会获得更好的成本和体验。</p>
+  <p>如果这一循环能够长期成立，基元律动与常规API聚合平台之间的差异，也会逐渐从路由规则和模型列表，进入训练任务设计、训练方法以及模型参数。</p>
+  <p>最后再通过产品表现呈现出来。</p>
+  <h2><strong>距离RSI还有多远？</strong></h2>
+  <p>以上是基元律动开始谈论<strong>RSI</strong>（Recursive Self-Improvement，递归自我改进）的背景。</p>
+  <p>基元律动目前验证RSI的范围更接近一套工程闭环，可以拆成两个部分。</p>
+  <p><strong>第一个是Data-RSI。</strong></p>
+  <p>模型在Harness中持续执行任务，每一次路由、工具调用、失败恢复和最终结果，都会生成新的结构化记录。</p>
+  <p>这些记录经过筛选和处理以后，可以进入后续训练的数据池。训练数据因此不必全部依赖人工提前准备，也能够随着系统持续使用而增加。</p>
+  <p><strong>第二个是Model-RSI。</strong></p>
+  <p>系统根据评测结果识别当前模型的能力短板，调整下一轮训练数据分布，更新模型，再把新模型放回Harness参与执行。</p>
+  <p>也就是说，模型从执行经验中学习，更新后的模型又通过新的任务执行，为下一轮训练产生新的反馈。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,541" src="https://img.36krcdn.com/hsossms/20260908/v2_80ad54cd99da4072b0c692cb18be2d08@46958_oswg161811oswg1080oswg541_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>不过，<strong>以NeoHorse目前公开的信息，还不能把这套体系视为完整RSI</strong>。</p>
+  <p>技术报告目前验证的是一次“执行—评估—选择—更新”闭环。信号设计、奖励设计和训练流程仍由人类设定，多代模型迭代以后能否继续稳定获得增益，也需要更多实验确认。</p>
+  <p>因此更准确的表述是，NeoHorse这次发布完成了两层验证。</p>
+  <p>一层是商业上的，系统积累的数据，能够进入模型训练，并转化成可测量的能力提升。</p>
+  <p>另一层是技术上的，王云鹤带领创业团队完成了一次面向RSI方向的单轮工程验证。</p>
+  <h2><strong>模型越多，这家公司越值钱？</strong></h2>
+  <p>当然，基元律动的故事要成立，还需要跨过几道关。</p>
+  <p>第一，开源生态能否持续转化为API使用和收入。</p>
+  <p>第二，随着任务类型增加，系统能否持续获得足够高质量、可用于训练的Agent轨迹。</p>
+  <p>第三，模型能力改善以后，能否稳定转化成更好的任务体验和执行效率，并进一步体现在经营数据上。</p>
+  <p>第四，多轮模型迭代以后，能力增益还能持续多久。</p>
+  <p>这些问题都需要更长时间观察。</p>
+  <p>以及还有一个绕不开的变量——<strong><ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>、Qwen、<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>等模型厂商也在向Harness和Agent产品延伸，模型与Agent基础设施垂直整合的趋势越来越明显。</strong></p>
+  <p>以基元律动为例，这家公司目前拥有的差异之一是模型中立，以及跨模型执行过程中形成的横向比较数据。</p>
+  <p>但如果模型之间的能力差异足够大，跨模型调度有机会成为一门独立生意；如果头部模型逐渐覆盖更多任务，或者厂商自己把Routing、工具调用和Agent框架一起打包，留给中间层的空间就会被压缩。</p>
+  <p>上游能力越来越强、越来越便宜的时候，中间这一层为什么还需要存在？</p>
+  <p>对基元律动来说，NeoHorse至少让这个问题多了一层新的观察角度。</p>
+  <p>过去它证明自己会“用模型”，现在开始尝试证明，长期使用模型积累下来的数据，也能沉淀成自己的模型能力。</p>
+  <p>这条路如果走通，基元律动的护城河就不只在路由策略上；如果走不通，它仍然要面对所有模型中间层都会遇到的问题。</p>
+  <p>GitHub：https://github.com/TokenRhythm/NeoHorse</p>
+  <p>抱抱脸：https://huggingface.co/collections/TokenRhythm/neohorse-1</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/fvM-s3f5kNCtaGlIIjAixQ">“量子位”</a>，作者：衡宇，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 08 Sep 2026 08:25:18 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3974411357974789</guid>
+            <link>https://www.36kr.com/p/3974411357974789</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[奥特曼、李飞飞、张一鸣齐押注，3D世界成AI竞赛新战场]]></title>
+            <description><![CDATA[<p>生成式AI的竞争，正在从图片、短视频等平面内容，快速延伸到更具想象空间的三维世界。</p>
+  <p>过去一周，四场重磅发布接连落地，三条技术底色完全不同的路线，不约而同在同一个方向上重兵集结——可实时交互的3D空间。</p>
+  <p>9月1日，Anthropic推出新一代旗舰Claude Fable 5.1，同一天李飞飞创办的 World Labs发布新一代原生世界模型Atlas。</p>
+  <p>9月3日，OpenAI 正式发布GPT-6 Astra，智能体直接操作专业软件生成3D交互场景的能力迅速引爆开发者社区。</p>
+  <p>9月7日，彭博社援引知情人士消息称，字节跳动正基于Seedance视频模型研发实时空间视频生成模型，创始人张一鸣亲自跨部门协调资源，最快10月推出，目标直指可响应用户动作、声音的实时虚拟环境，覆盖直播、互动短剧、游戏场景，并计划适配Pico VR头显。</p>
+  <p>三条技术路线正在逐渐清晰：OpenAI与Anthropic同属LLM，字节跳动Seedance代表视频模型，World Labs则是原生世界模型派，三者起点各异，路径不同，最终却指向同一个产业拐点：内容产业的形态，正在转向 “可进入、可交互的空间”。</p>
+  <h2><strong>LLM的新角色，用通用智能驱动3D内容生产</strong></h2>
+  <p>OpenAI与Anthropic两家头部大模型公司，选择了相似的技术路径：依靠大语言模型的通用推理、任务规划与工具调用能力，切入虚拟内容的生产管线，把AI能力直接嵌入创作者沿用多年的专业软件体系，最终产出可编辑、可交互的3D场景。</p>
+  <p>这条路线上，GPT-6 Astra的表现最受瞩目。OpenAI将其定位为新一代通用智能体模型，能力覆盖计算机操作、编程、网络安全与科学研究，其中就包括对Blender、Unreal Engine等三维创作软件的完整操作权限。</p>
+  <p>在官方演示里，Astra能独立走完从概念到交付的全链路：给出一段文字描述后，模型先在Blender里完成建筑建模、材质贴图与光影渲染，再自动编写导出脚本，把成品导入Unreal Engine 5，生成一个可以自由漫游的交互场景，期间不需要人工分步介入。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,715" src="https://img.36krcdn.com/hsossms/20260908/v2_ead1fc40434740c7867e398f8929ba98@6027075_oswg435678oswg1080oswg715_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Astra开放测试后，开发者社区很快涌现出大量实测案例。有人只给一张房屋照片，就能在Blender里还原出完整的室内空间，家具、电器等细节一应俱全，重建结果能以接近游戏的帧率在本地运行；也有人在虚幻引擎里逐街区搭建出可以自由漫游的城区场景，精细到每条街道；分钟级生成的城市白模、二十多分钟内搭出的城市漫游demo、当天成型的第一人称射击地图，也都在社区里流传开来。</p>
+  <p class="image-wrapper"><img data-img-size-val="958,486" src="https://img.36krcdn.com/hsossms/20260908/v2_9ab6d25b309e4c25bd6166e338d1a314@6100851_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>游戏开发是反馈最集中的领域之一：有游戏工作室做过对照测试，让Astra从同一个灰模基础出发一次产出三款可玩原型，人工修复的工作量比传统流程减少了约一半；社区里同时也出现了多个经典游戏的复刻案例。</p>
+  <p>这些案例背后是Astra的Computer Use能力：它不依赖专属API或定制连接器，而是靠多模态视觉识别界面、模拟键鼠操作直接驱动软件，理论上人能在图形界面里完成的工作，它都能逐步学会——最终产出的还是可编辑的工程文件，能直接接入现有生产流程。</p>
+  <p>同样依托大语言模型的通用能力，Anthropic早在半年前就布局了MCP连接器生态，把Claude接入Blender、Adobe Creative Cloud等九款专业创作软件，通过Python API直接读写场景数据、批量处理素材。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,610" src="https://img.36krcdn.com/hsossms/20260908/v2_f7607ed87bab4a1f812ab5f8a98a23b7@6027075_oswg300013oswg1080oswg610_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>与OpenAI需要通过Computer Use模拟键鼠操作不同，Anthropic的MCP方案直接嵌入了工具的内核，让Claude能更流畅地与专业软件协同。</p>
+  <p>Fable 5.1发布后，社区里同样跑出了大量3D游戏、场景建模的实测案例，模型能独立完成从素材检索到成品输出的全流程。</p>
+  <p>两家公司的思路高度一致：以LLM为核心，把智能体能力嵌进已经沉淀几十年的工业软件管线里，服务于专业创作者的既有流程，最终产出符合工业标准的可交互三维内容。凭借通用智能体调度全流程的能力，它们天然占据着3D内容生产链路的上游位置。</p>
+  <h2><strong>视频模型走向上游，从可视化内容到可交互空间</strong></h2>
+  <p>GPT-6 Astra发布没几天，开发者社区就跑出了一整套影视级工作流。开发者Higgsfield做了一次测试：只给Astra一句总指，在Blender里完成预演，再调用Seedance 2.5生成镜头，最后剪辑成片，全程保持角色与场景一致。</p>
+  <p>Astra接到任务后，先从零写出完整故事脚本，随后打开Blender，搭出一条日式街巷的简化3D白模，把两个角色放进场景，规划好不同镜头下的站位与走位，完成影视前期预演（Previs）。预演做完，Astra再敲定每个镜头的机位与运镜轨迹，导出对应参考帧，把角色形象、场景画面和动作参考一并交给Seedance 2.5去渲染成片。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,708" src="https://img.36krcdn.com/hsossms/20260908/v2_59ac9ce10ff448a2b95ecc85c7692266@6027075_oswg501024oswg1080oswg708_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这套组合玩法在社区刷屏的同时，也预示了一种行业趋势：如果视频模型只停留在画面渲染这一环，未来可能就会成为LLM的下游——创意、分镜、流程调度都由上游的大语言模型说了算。某种意义上，GPT-6的全流程能力越强，纯视频模型的位置就越被动。</p>
+  <p>这正是字节推动Seedance向上延伸的核心逻辑：不甘心只做视频生成器，而是要往空间理解、实时交互的上游走，直接产出可交互的虚拟空间，从“生成内容的工具”变成“承载体验的平台”。</p>
+  <p>彭博社9月7日独家报道称，字节跳动正在开发一款实时空间视频生成模型，项目由创始人张一鸣亲自跨部门协调，调集模型研发、云基础设施、Pico硬件与内容业务线的资源，算力优先保障，最快于10月推出。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,867" src="https://img.36krcdn.com/hsossms/20260908/v2_788dd895fb02403180747869676a3a98@6027075_oswg748904oswg1080oswg867_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>和市面上已有的模型不同，这款产品瞄准的不是预先生成好的视频，而是能随用户声音、动作实时变化的虚拟环境：用户向前走，视角就同步推进；转过头，四周的场景依然连贯。应用场景直接指向直播、互动短剧和游戏，并计划适配字节旗下的Pico系列VR头显。</p>
+  <p>技术路径上，项目以字节已经成熟的Seedance视频生成能力为基础，把大量空间渲染计算放在云端完成，再把画面串流到终端设备，借此压低头显的硬件门槛。据报道援引的测试数据，模型可以按需生成每秒20帧的视频，端到端延迟约50毫秒。</p>
+  <p>这个数据在实时交互的语境中意义重大——50毫秒的延迟已经接近人类感知阈值，足以支撑流畅的沉浸式体验，而20帧/秒的生成速度则意味着云端渲染与流媒体传输的协同已经达到了可用的工程水准。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,534" src="https://img.36krcdn.com/hsossms/20260908/v2_3eda2d36623a414fb891c0729f292a7b@6027075_oswg623871oswg1080oswg534_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这条向上延伸的路线，其实早就埋下过伏笔。7月底发布的Seedance 2.5已经加入了Clay Render白模参考能力，支持基于3D白模生成贴合空间结构的画面，配套的Blender插件也在创作者群体中被广泛使用。</p>
+  <p>这次的实时空间模型，相当于把Seedance的能力往前推了一步，变成“实时生成可交互空间”，彻底脱离纯渲染工具的定位，转向承载体验的平台。</p>
+  <p>把这条路线放到LLM智能体派旁边看，差异会更清楚：一个面向生产端，一个面向消费端。OpenAI、Anthropic做的是替代人工操作软件，产出符合工业标准的工程文件，服务专业创作者的生产流程。</p>
+  <p>字节的空间模型直接产出可观看、可交互的体验，服务直播、短剧、游戏这类大众内容场景，离终端用户更近，还能倚仗抖音/TikTok的内容生态、即梦/小云雀等创作者工具和Pico的硬件终端，形成从生成到分发的完整闭环。</p>
+  <h2><strong>原生世界模型进击，从底层重构空间理解</strong></h2>
+  <p>和前两家沿着现有工具链、内容链往外延伸不同，李飞飞联合创立的World Labs选了一条更原生的路：从零训练一个理解三维空间的世界模型，在底层表征层面就做出空间一致性，直接产出可以自由探索的三维虚拟世界。</p>
+  <p>9 月 1 日，World Labs正式发布新一代原生世界模型Atlas。这是一套从零预训练的原生多模态模型，可统一处理文本、图像、视频和相机位姿信息。所有输入都会被锚定在同一套三维空间坐标系中构建共享空间上下文，全程保持三维空间逻辑一致。</p>
+  <p class="image-wrapper"><img data-img-size-val="900,506" src="https://img.36krcdn.com/hsossms/20260908/v2_cafd3f66e3104090a33d9d976ea352af@6100851_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>其核心能力聚焦于空间重建与相机可控生成：仅需少量参考图片即可还原真实三维场景、输出新视角画面；也可按指定的精确机位与运镜轨迹生成视频，镜头控制达像素级精度。</p>
+  <p>和前两条路线产出工程文件或渲染画面不同，Atlas的核心特质是原生的空间一致性。它在意的不只是单帧画面好不好看，而是视角变了之后，物体位置、光影逻辑还连不连贯。这种能力让它天然适合需要空间一致性的场景，官方给出的落地方向包括影视内容制作、游戏关卡原型、数字孪生、机器人仿真训练四大领域。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,359" src="https://img.36krcdn.com/hsossms/20260908/v2_05048f39aa8d4052ab5b324b3fe226ad@6100851_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>Atlas发布后，最先在影视和游戏从业者圈子里引发讨论。影视行业关心的是虚拟制片与场景重建：传统影视做三维场景重建、子弹时间特效，往往要多机位同步拍摄或激光雷达扫描，成本高、周期长，Atlas只用几张随手拍的照片，就能重建出完整三维空间，补全镜头没拍到的区域，还能按任意路径生成运镜画面。</p>
+  <p>有影视从业者在社区里表示，这对前期勘景、场景预演、虚拟制片环节的效率提升会很明显，但目前还主要停留在视觉层面的空间重建，离进入成熟的工业制作管线仍有距离。</p>
+  <p>游戏行业的讨论则更多落在场景产能上。不少游戏开发者认为，Atlas最适合用来快速生成关卡背景、环境白模与概念场景，拿来验证空间布局与动线设计，再导入Unity、UE等引擎补全交互逻辑与细节。</p>
+  <p>虽然Atlas生成的场景还不具备完整的物理属性与结构化资产，无法直接替代专业团队的成品制作，但作为前期创意与原型阶段的效率工具，它已经能够显著降低原型验证的成本。</p>
+  <h2><strong>三线并行，3D空间模型的产业分野</strong></h2>
+  <p>梳理三条路线的技术路径与落地进展不难发现，虽然各方都在向可交互三维空间这个方向集结，但彼此的技术底色、能力禀赋与产业定位截然不同，在核心优势、落地场景与成熟节奏上呈现出清晰的分野。</p>
+  <p>能力上，三条路线的强项并不重合。LLM的核心能力是全流程调度，从创意构思到软件操作、再到工程文件产出，OpenAI和Anthropic都能把整条生产链条走完。在BenchCAD三维重建评测中达到95.9%的几何重合度、在OSWorld 2.0通用计算机操作基准上拿到72.6%的成绩，这些数据证明了这条能力线在持续变强。</p>
+  <p>视频模型的核心能力是渲染与实时性。字节的优势在于把成熟的Seedance视频生成能力，压缩进20帧每秒、50毫秒延迟这样的实时交互指标里，这是LLM智能体和原生世界模型目前都还没有主打的方向。</p>
+  <p>原生世界模型派的核心能力是空间一致性：Atlas从底层表征上保证视角变化后画面的连贯，这是单纯靠“调用软件”或“渲染画面”很难天然获得的能力。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,543" src="https://img.36krcdn.com/hsossms/20260908/v2_05ba8fc22ca44c3da371338e04a483d2@6027075_oswg767710oswg1080oswg543_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>场景上，三条路线离用户的距离也各不相同。LLM智能体派更贴近专业创作者的生产环节：建筑可视化、游戏关卡原型、影视预演，服务的是B端、生产端的效率提升；视频模型更贴近大众消费场景：直播、互动短剧、游戏，字节还能借助内容平台与工具，形成从生成到分发的完整闭环，离C端用户最近；原生世界模型派目前更偏向前沿探索：机器人仿真、工业数字孪生这类需要长期投入的领域，落地周期相对更长。</p>
+  <p>从目前的能力来看，三条路线都远未走到终点，存在着巨大的提升空间。LLM智能体派的通用前端界面审美判断力仍是公认的短板，长任务的操作精度和稳定性也在持续打磨；字节的实时空间模型仍处于开发阶段，方案细节和上线时间都有变数；原生世界模型派生成的场景离3A游戏、高端影视的工业标准，以及机器人仿真的精度要求，仍有距离。</p>
+  <p>从文字到图片，再到视频，大模型每一次跃迁，做的都是同一件事：降低内容生产的门槛，拓展内容产业的边界。这一次，它们把目标对准了更复杂、更有价值的虚拟内容——从被动观看的视频，走向可进入、可交互的三维空间。</p>
+  <p>当然，这个过程并非一蹴而就。工业标准、成本控制、生态协同等现实因素，仍需时间打磨。三条路线目前还谈不上谁会胜出，更可能的情况是，它们会在不同的生产环节和场景里各自找到位置——过程中既相互借力，也相互竞争。短期内，三条路线会各占山头；但长期的融合与竞争格局，仍待观察。</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/kCaPDftVhSho5WrB_vlJkw">“AI价值官”</a>，作者：<ai-product-link data-id="14637" data-name="星野" data-logo="https://img.36dianping.com/20250909/v2_b2a0ffd8272d4b27bce3d2493e608f9e_oswg7021oswg256oswg256_img_000" data-classify-list="图像生成,AI助理,文本处理" data-refer-type="20">星野</ai-product-link>，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 08 Sep 2026 08:21:23 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3974316392847237</guid>
+            <link>https://www.36kr.com/p/3974316392847237</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[半年三次，黄仁勋的AGI怎么又到了]]></title>
+            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260908/v2_8d7b5626813e47ffb1f8b1803bde85b6@000000_oswg875033oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">头图及封面来源 | GPT</p>
+  <p>AGI又又又到了。</p>
+  <p>这次，连“诞生地”都有了。</p>
+  <p>北京时间9月7日，黄仁勋在X上回复了Crusoe联合创始人兼CEO Chase Lochmiller的一条帖子。后者引用转发OpenAI介绍GPT-6 Astra成绩的帖子，祝贺OpenAI，并称美国得克萨斯州的阿比林为“AGI的诞生地”。</p>
+  <p>这座城市是“星际之门”旗舰数据中心的所在地。Crusoe参与建设，园区使用英伟达芯片，为OpenAI提供算力。建数据中心的先送来贺词，卖芯片的随后跟上。</p>
+  <p>黄仁勋的回复很简单，节译过来就是：</p>
+  <blockquote>
+   <p>从ChatGPT到o1，再到Astra，只用了4年。</p>
+   <p>AGI已到来。祝贺OpenAI团队。</p>
+   <p>下一批40万块GPU即将上线。</p>
+  </blockquote>
+  <p class="image-wrapper"><img data-img-size-val="1080,1496" src="https://img.36krcdn.com/hsossms/20260908/v2_507b4ae74e5a4c0c89c9a173670f6f0f@000000_oswg1045574oswg1080oswg1496_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图注：Chase Lochmiller引用转发OpenAI的帖子，黄仁勋在其下回复</p>
+  <p>这句祝贺，让人有些似曾相识。</p>
+  <p><strong>3月23日发布的播客里，黄仁勋已说过AGI实现了。8月26日的英伟达财报电话会上，他又作出了带有限定的类似判断。不到六个月，至少三次“抵达”AGI。</strong></p>
+  <p>半年前已经实现的东西，为什么今天还能再次到来？有意思的是，把时间再往前拨，有人在GPT-4时代，就已经宣布过同样的消息。</p>
+  <h2><strong>同一句话，三种“AGI已来”</strong></h2>
+  <p>今年3月，黄仁勋做客Lex Fridman Podcast。这档以长篇访谈见长的节目，第494期聊的是英伟达、AI计算和公司经营。在接近两小时处，主持人把话题引向AGI。</p>
+  <p>Fridman给出了一道很适合问企业家的题：AI能不能创立、发展并经营一家价值超过10亿美元的科技公司？同时，他还让黄仁勋估计，是需要5年、10年、15年，还是20年。</p>
+  <p>黄仁勋没有选其中任何一个。</p>
+  <p><strong>“我认为，我们已经实现了AGI。”</strong></p>
+  <p>不过，他随后补了一句：<strong>“你说的是十亿美元，又没说要永远经营下去。”</strong></p>
+  <p>他设想的是一个小应用或网络服务：突然吸引数十亿用户，每人付50美分，很快成为一门大生意，也可能很快消失。按他的理解，主持人给出的条件，可以容纳这种短暂的成功。</p>
+  <p>可当话题变成十万个这样的智能体能否建立一家英伟达，他给出的概率却是“零”。</p>
+  <p>同样是创办公司，做出一款爆红应用，与经营一家英伟达，在黄仁勋那里得到了截然不同的答案。他认为前一种成功已经可能发生，但没有举出一家已由AI经营、估值达到十亿美元的公司作为实例。</p>
+  <p><strong>五个月后，问题从“AI能不能创业”，变成了“AI还需要多少算力”。</strong></p>
+  <p>8月26日，英伟达召开2027财年第二季度财报电话会。Melius Research分析师Ben Reitzes问，递归自我改进和AGI会怎样进一步推动需求。</p>
+  <p>所谓递归自我改进，是AI改进自身，再用更强的能力继续改进。黄仁勋给出的例子却相当日常：持续运行的智能体，可以更新技能文档，把工作中得到的经验留给下一次任务。他将这称为一种较粗粒度的自我改进。</p>
+  <p>接着，他说：</p>
+  <p><strong>“在许多方面、对许多任务而言，我们可以说已经实现了AGI。”</strong></p>
+  <p>这次，他还表示，继续纠结这些里程碑，已经没有多大意义。更值得关注的是AI能否完成有用的工作，输出能带来利润的内容，以及投入更多算力能否换来更多收益。</p>
+  <p>回答投资者时，黄仁勋把重点放在了生产力上：AI能干活、能创造收入，就是增加算力投入的理由。不过，他原话中的“对许多任务而言”，也为这次AGI判断划定了范围。</p>
+  <p><strong>到了9月，让黄仁勋再次发出“已到来”的，是一张新模型成绩单。</strong></p>
+  <p>OpenAI展示了Astra在数学、推理和计算机操作等测试中的表现。其中，Astra在采用厂商适配框架的ARC-AGI-3半私有测试中，得分达到99.9%，尤其醒目。这个名字直接带着“AGI”的测试，似乎就要被做满分了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,764" src="https://img.36krcdn.com/hsossms/20260908/v2_722af7269907493087ce137657500690@000000_oswg138741oswg1080oswg764_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>有趣的是，公布这项评测的ARC Prize团队，没有一起宣布AGI到来。</strong></p>
+  <p>9月3日，评测作者Greg Kamradt肯定了Astra的能力跃升，却在同一篇文章中明确写道：<strong>“我们并未声称它就是AGI。”</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,740" src="https://img.36krcdn.com/hsossms/20260908/v2_20d4ed1691ba4026ba069b63e899d4be@000000_oswg183891oswg1080oswg740_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>同一个新模型，黄仁勋看到了“到来”，出题者看到了重大进步，却没有给出同样的结论。</p>
+  <h2><strong>多种“已达”：从公司愿景，到产品的“完成时”</strong></h2>
+  <p>AGI成为这轮AI竞争的目标，比ChatGPT走红还要早得多。</p>
+  <p>2015年12月，OpenAI的成立公告里已在讨论一种未来：AI可能在几乎所有智力任务上达到人类水平。当时的OpenAI表示，这一天何时到来还难以预测。到了2018年，OpenAI在公布的章程中，把确保AGI造福全人类写成使命。</p>
+  <p>2022年11月30日，OpenAI向公众发布了ChatGPT。当时的ChatGPT能回答追问、承认错误，也会一本正经地给出错误答案。它以研究预览的形式发布，当时的发布说明并没有宣布AGI实现。</p>
+  <p>产品问世后，怎样迎接AGI，也成了奥特曼公开讨论的问题。2023年2月24日，<strong>他署名发表《规划AGI及其后的未来》，设想一个“我们所有人都能在几乎任何认知任务上获得帮助”的世界。</strong></p>
+  <p>同时，他把准备工作说得很具体：怎样应对工作岗位被替代，怎样分配AI创造的收益，以及怎样治理这些系统。那时，他讨论的是如何迎接AGI，而不是宣布它已经实现。</p>
+  <p><strong>一个月后，微软研究者已在模型里寻找AGI的“火花”。</strong></p>
+  <p>塞巴斯蒂安·布贝克当时负责微软研究院雷德蒙德的机器学习基础组，提前接触到了研发中的GPT-4。在微软于3月23日发布的访谈里，他讲了一个发生在夜晚的小实验。</p>
+  <p>当时，他醒来，打开笔记本电脑，想到喜欢独角兽的三岁女儿，便让GPT-4画一只独角兽。他没有调用绘图模型，而是让它写TikZ代码，再把代码渲染成图。</p>
+  <p>这幅画，画得并不完美。但头、角、腿的位置组合在一起，确实是一只独角兽。在布贝克看来，这显示模型掌握了这个概念。他此前也试过数学题、诗歌分析，却总怀疑答案可能只是来自网上已有的材料。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,379" src="https://img.36krcdn.com/hsossms/20260908/v2_6c06b89f31e34e14b9969067b3663c89@000000_oswg90241oswg1080oswg379_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这次实验让他感到惊讶。</p>
+  <p>独角兽只是他们测试中的一个片段。在3月22日提交的《通用人工智能的火花：GPT-4早期实验》中，布贝克及其合作者讨论了数学、代码、视觉等多种任务，认为早期GPT-4可以被视为一种早期、尚不完整的AGI，也详细列出了它的局限。</p>
+  <p>“早期”“尚不完整”，仍然是当时判断中非常重要的一部分。但到同年10月，另一篇文章的标题就直接用了完成时。</p>
+  <p>谷歌研究者Blaise Agüera y Arcas与曾任谷歌研究主管的Peter Norvig，在《Noema》发表《通用人工智能已经到来》。文中主要说的就是当时版本的ChatGPT、Bard、LLaMA和Claude。</p>
+  <p>彼时，ChatGPT的付费用户已经能使用GPT-4；谷歌的Bard可以帮助用户写文章、写代码。Meta在当年7月推出Llama 2，允许开发者在许可条件下用于研究和商业开发。Anthropic同月发布的Claude 2，则能读入长文档，进行摘要和问答。</p>
+  <p><strong>当时，这些模型和产品已经能够用于写作、编程和资料处理。</strong></p>
+  <p>两人知道这些模型会编造引文，甚至算错简单的算术。<strong>但他们仍然认为，能跨主题、跨任务、跨语言处理问题，已足以使它们被称为“通用”。</strong>他们用早期通用计算机作类比：机器后来变快、变好用，并不意味着早期机器就不算通用计算机。</p>
+  <p>这给“AGI已经到来”提供了一种解释：<strong>通用性可以先出现，可靠性和能力水平继续提高。按这种理解，承认模型有缺点，并不妨碍宣布它是AGI。</strong></p>
+  <p>然而，此后的表述，并没有沿着一张统一的进度表前进。</p>
+  <p>2025年1月，奥特曼在个人博客上称，<strong>已经确信知道如何构建“传统理解中的AGI”，并开始把目光投向超智能。</strong></p>
+  <p>今年2月，加州大学圣迭戈分校的四名学者又在《Nature》发表评论，主张现有AI已具有人类水平的智能。在校方相关的采访中，第一作者Eddy Keming Chen解释，<strong>他们不要求AI全知全能，因为没有哪个人全知全能。他们看重的是跨领域的深度，以及灵活、通用的思考能力。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,2220" src="https://img.36krcdn.com/hsossms/20260908/v2_f10bcb7134164f1eb45056e3a50d034e@000000_oswg521464oswg1080oswg2220_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">制作：盒饭财经</p>
+  <p>于是，<strong>一个原本写在公司使命里的目标，越来越多地被用来描述眼前的产品。</strong></p>
+  <h2><strong>考进前10%，就算AGI了吗</strong></h2>
+  <p>要求似乎参差不齐。</p>
+  <p>有人认为GPT-4已经算AGI，另一些人还在谈怎样造出AGI，其差别首先在于要求模型做到哪一步。</p>
+  <p>2023年3月，OpenAI发布GPT-4时介绍，它在模拟律师资格考试中的成绩约处于考生前10%，而GPT-3.5则在后10%左右。<strong>但同一份发布说明也提醒，GPT-4在许多现实场景中仍不如人类，会编造事实、推理出错。</strong></p>
+  <p>按照当时的能力来看，它已经很会考试了。可把工作交给它，仍然需要另一种判断。</p>
+  <p>按照OpenAI章程，AGI应当是“在大多数具有经济价值的工作中超过人类的高度自主系统”。这里既有能力的要求，也有自主性的要求。答对法律考题，与接手一份法律工作之间，仍隔着事实核实、持续执行和出错后的处理。</p>
+  <p>回看黄仁勋今年3月回答的创业设想，一款应用能赚到钱，也还没有回答“多数工作”做得怎样。但“多数工作”具体包括哪些职业，“超过人类”又该怎样衡量，章程没有给出一套可以直接验收的办法。</p>
+  <p><strong>Anthropic的达里奥·阿莫代伊则干脆换了一个称呼。</strong></p>
+  <p>2024年10月，达里奥·阿莫代伊在《充满爱的机器》中直言：“我不喜欢AGI这个词。”他认为它含混，夹杂了太多科幻和炒作意味，宁愿具体描述一种“强大AI”。</p>
+  <p>什么样的“强大AI”？<strong>在他看来，就是在多数相关领域比诺奖得主更出色，能长时间自主工作，还能以大量副本并行运行。</strong></p>
+  <p>“超过人类”，究竟该以普通人还是顶尖专家为参照？研究者也在尝试把这个问题拆得更细。</p>
+  <p>2023年11月，Meredith Ringel Morris、Shane Legg等DeepMind研究者提交《AGI的等级》论文，后来发表于ICML 2024。他们没有只设一道“是或不是AGI”的门槛，而是把做事的广度与水平分开。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,715" src="https://img.36krcdn.com/hsossms/20260908/v2_3cfea39d877840c4abfb343a9aac7217@000000_oswg396079oswg1080oswg715_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>能处理很多种问题是一回事，每一种处理得有多好是另一回事。</strong></p>
+  <p>按论文提出的“胜任”级别，系统应在多数认知任务上，至少达到有相关技能成年人的中位水平。到了“专家”级别，门槛升至第90百分位。</p>
+  <p>甚至，连“人类”这个比较对象，也要重新说清。</p>
+  <p>怎么理解？比如，考英语写作，要和谁比？论文明确要求，这项能力应当与能够读写并流利使用英语的成年人比较。但细想，“读写并流利使用英语的成年人”也能拆分许多。是一个正在死背abandon正在冲刺四级的大学生，还是一个工作多年正在多邻国上打卡的成年人？</p>
+  <p><strong>有意思的是，这篇论文也把当时的ChatGPT列入了“萌芽AGI”。</strong>但按照文中对2023年9月模型表现的判断，它还没有进入“胜任AGI”。论文甚至将《Noema》两位作者的定义，对应到自己的“萌芽”一级。</p>
+  <p>同样说AGI出现了，说的也有可能是不同等级。</p>
+  <p><strong>另一条路线干脆追问：AI究竟是已经会做很多题，还是能很快学会新题？</strong></p>
+  <p>这条思路早于ChatGPT。2019年11月，François Chollet发表《论智能的度量》，区分已有技能与获取新技能的效率。在他看来，大量训练数据和已有知识，可以把某项技能推得很高，却未必说明系统善于应付陌生问题。</p>
+  <p>他提出的ARC测试，最初是一组彩色网格：给几个变化前后的样例，解题者自己找规律，再处理新的网格。它尽量绕开学科知识储备，观察解题者如何从少量例子中学会规则。</p>
+  <p>到了Astra参加的第三代测试，题目变成了交互环境。模型需要探索、发现规则，再决定下一步行动。这次99.9%的成绩，来自允许模型保留内部推理状态的一套厂商适配配置。</p>
+  <blockquote>
+   <p>*测试条件：ARC-AGI-3半私有测试集，Provider Adapter框架，high推理档位。*</p>
+  </blockquote>
+  <p>成绩很高，出题者仍然保留判断，是因为这些环境终究有边界——规则确定，目标封闭。掌握这些游戏，尚不足以证明模型能应对现实世界的开放性和复杂性。这也是ARC Prize一边肯定Astra，一边继续研究下一代测试的原因。</p>
+  <p>从能对话，到会考试，再到自主工作、学习陌生规则，产品的进步让AGI的讨论越来越具体。但这些要求并没有被合并成一套统一标准，工作表现、能力广度、学习效率仍是不同的判断依据。</p>
+  <p>回到阿比林的那条帖子，建数据中心的人在祝贺，提供芯片的人在预告下一批GPU。“AGI已到来”与“下一批40万块GPU即将上线”，只隔了一行。</p>
+  <p>3月那场播客里，黄仁勋自己的回答已经说明：做出一款爆红的应用，与建立一家英伟达，距离还很远。</p>
+  <p>至于这一步该不该叫AGI，各方的答案或许很长一段时间都会不相同。“已经到来”未必与继续进步矛盾，但还是要回答一个问题——<strong>这次究竟比上次多做成了什么？</strong></p>
+  <p>参考资料：</p>
+  <p>1.《Crusoe announces flagship Abilene data center is live》，Crusoe官网</p>
+  <p>2.《Jensen Huang: NVIDIA – The $4 Trillion Company &amp; the AI Revolution》</p>
+  <p>3.《Transcript for Jensen Huang: NVIDIA – The $4 Trillion Company &amp; the AI Revolution | Lex Fridman Podcast》</p>
+  <p>4.《NVIDIA Corp. (NVDA) Q2 2027 Earnings Call》，财报电话会逐字稿，13—14页</p>
+  <p>5.《Planning for AGI and beyond》，山姆·奥特曼，OpenAI官网</p>
+  <p>6.《隆重推出 ChatGPT》，ChatGPT发布说明，OpenAI官网</p>
+  <p>7.《Introducing OpenAI》，OpenAI官网</p>
+  <p>8.《OpenAI Charter》，OpenAI官网</p>
+  <p>9.《Does AI already have human-level intelligence? The evidence is clear》，《Nature》评论</p>
+  <p>10.《Is artificial general intelligence here?》</p>
+  <p>11.《Reflections》，Sam Altman</p>
+  <p>12.《Artificial General Intelligence Is Already Here》，Noema</p>
+  <p>13.《Sparks of Artificial General Intelligence:Early experiments with GPT-4》</p>
+  <p>14.《AI Frontiers: The Physics of AI with Sébastien Bubeck》，微软官网</p>
+  <p>15.《Position: Levels of AGI for Operationalizing Progress on the Path to AGI》</p>
+  <p>16.《Machines of Loving Grace &nbsp;How AI Could Transform the World for the Better》，阿莫代伊</p>
+  <p>17.GPT‑4发布说明，OpenAI官网</p>
+  <p>18.《OpenAI's GPT-6 Astra on ARC-AGI-3》，Astra评测与测试条件</p>
+  <p>19.《On the Measure of Intelligence》</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzkyODE4ODYxMA==&amp;mid=2247531628&amp;idx=1&amp;sn=88d62914db09e1c54c659e665daec4fe&amp;chksm=c3397951013c8cc069c3e9ccac01bc079104ff9611c9f27e36781fbdd97321292b52411dc3b0&amp;scene=0&amp;xtrack=1#rd">“盒饭财经”（ID：daxiongfan）</a>，作者：彻诺，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 08 Sep 2026 08:16:13 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3974380657438977</guid>
+            <link>https://www.36kr.com/p/3974380657438977</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[思维链让AI变聪明，Astra却用它骗人]]></title>
@@ -2255,462 +2712,6 @@
             <pubDate>Tue, 08 Sep 2026 01:30:00 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/3973553316081920</guid>
             <link>https://www.36kr.com/p/3973553316081920</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[当一个人带着16个Agent工作，人开始成为瓶颈]]></title>
-            <description><![CDATA[<p>瑞华智策合伙人高燕给自己配置了16个Agent，分别处理产品、交付、品牌、营销、个人IP、理论研究、战略、销售管理等工作。</p>
-  <p>遇到一个课题，她会先和Agent讨论，方案逐渐明确后，再让Agent调用工具和Skill继续执行。</p>
-  <p>但这16个Agent<strong>不会同时工作</strong>。高燕每天真正保持活跃的，大约只有5个。</p>
-  <p>十几个Agent同时启动，方案、问题和待确认事项很快就会涌过来。哪些结果能用，哪些需要修改，下一步往哪里走，是否继续授权，都需要她判断。</p>
-  <blockquote>
-   <p>“如果十几个Agent同时工作，我本人很快就会成为决策瓶颈。”她说。</p>
-  </blockquote>
-  <p>传统管理经常研究一个管理者适合带多少人。</p>
-  <p>Agent进入公司后，一个新的问题出现了，那就是一个人到底能同时管理多少个Agent？</p>
-  <p>这支做企业级AI落地服务的团队，从组建时就在尝试AI原生的工作方式。工作增加，他们不会立即想到再招一个人，第一反应是，这件事能不能先交给AI？如果一个Agent不够，能不能让AI进一步调用AI？</p>
-  <p>在高燕看来，这也是<strong>AI原生组织和传统公司“+AI”的不同之处</strong>。</p>
-  <h2><strong>01</strong></h2>
-  <h2><strong>AI 重写组织扩张的“加人”逻辑</strong></h2>
-  <p>瑞华智策目前的组织很薄。</p>
-  <p>高燕直接面对技术、交付、商务、营销等职能成员，成员下面是各自使用的Agent，人的组织关系基本只有两层。未来团队增加到几十人，她预计可能再增加一层，但三层基本就是上限。</p>
-  <p>人数和层级增加，<strong>信息传递和协作成本也会增加</strong>。Agent同样如此。</p>
-  <p>调用一个Agent解决问题，链路相对直接；</p>
-  <p>多个Agent组成“专家团”，协作反而可能变慢，甚至在彼此讨论中陷入循环。</p>
-  <p>所以，当工作量增加、现有人手不够时，团队先判断AI能不能承担，再考虑增加人。</p>
-  <p>这种方式已经进入具体工作。</p>
-  <p>公司的营销型网站由<strong>一名资深人员借助AI</strong>完成。高燕自己的公众号，从选题、创作、排版到生图，大量环节交给Agent。</p>
-  <p>她确认选题之后，Agent可以继续完成写作、修改、排版和配图，最后因为平台权限等原因，再由人工完成发布。</p>
-  <p><strong>PPT也换了一套做法</strong>。高燕发现，直接让Agent生成传统PPT，质量和Token成本都不理想，团队后来改用HTML生成可以翻页、带交互的演示页面。</p>
-  <p>Logo、版式、版权标识等品牌规范也被<strong>做成Skill</strong>。</p>
-  <p>团队早期请兼职设计师参与Logo和基础视觉规范设计，之后把这些规范转换成Agent可以调用的规则。再生成材料时，Agent直接按照统一标准执行，一些过去反复出现的制图、排版和PPT制作工作随之减少。</p>
-  <p>业务量增加之后，瑞华智策习惯先增加Agent、Skill和自动化能力，再决定要不要增加人。</p>
-  <p>这条路很快碰到了另一个问题。</p>
-  <h2><strong>02</strong></h2>
-  <h2><strong>AI 跑得越快，人越需要慢下来判断</strong></h2>
-  <p>AI的执行速度上去了，人的时间没有增加。</p>
-  <p>高燕举过一个编程场景：Agent可以整夜生成代码，第二天工程师可能根本审不过来。她自己的情况也类似：</p>
-  <p>一个Agent给出一个方案，需要判断一次；</p>
-  <p>十几个Agent同时推进，等待确认的节点会迅速增加。</p>
-  <p>所以，她虽然配置了约16个Agent，每天通常只让<strong>5个左右</strong>保持活跃。“这样才能给自己留下决策和思考的空间。”</p>
-  <p>5个并不是标准答案，只是她现阶段的个人经验。</p>
-  <p>她的工作包含<strong>大量决策和深度思考</strong>，如果Agent持续推送结果，一天很容易变成接收、审核、反馈，再接收、再审核。<strong>Agent能并行，但人脑有“带宽”限制。</strong></p>
-  <p>这也改变了团队成员的工作方式。</p>
-  <p>每个人都要自己判断今天优先调用哪个Agent，多个Agent如何分配时间，什么时候启动新任务，什么时候停止，哪些结果必须<strong>人工接管</strong>。</p>
-  <p>Agent配置好了，任务也不会因此自动跑完。</p>
-  <p><strong>目标仍需要由人说清楚</strong>。如果需求表达模糊，Agent可能沿着错误方向执行，生成大量冗长、不准确的结果，同时增加Token消耗。</p>
-  <p>因此，高燕把目标拆解、任务分配、结果审核都视为成员需要具备的基本能力。这些过去更接近管理者的工作，现在一个没有管理头衔的人，也可能每天调度多个Agent。</p>
-  <p>传统管理里有“管理幅度”，讨论一个管理者适合带多少人。高燕认为，AI时代也会出现类似的问题，即一个人究竟能同时管理多少Agent？</p>
-  <p><strong>而数量并非越多越好</strong>。Agent持续并行工作，会把越来越多结果和决策节点推给人。</p>
-  <p>人的注意力被不断切分，审核和判断很快跟不上机器的产出速度。高燕也提到，长期处在这种状态里，人的工作幸福感和成就感都会受到影响。</p>
-  <p>Agent可以不断增加，但人的判断力却<strong>无法同步扩容</strong>。</p>
-  <h2><strong>03</strong></h2>
-  <h2><strong>岗位在减少，也在重做</strong></h2>
-  <p>Agent进入工作以后，一些岗位已经开始变薄。</p>
-  <p>高燕首先提到的是以前只负责上传下达的中层，这个人群所做的工作一般是收集下面的数据，整理后再向上汇报。</p>
-  <p>如果信息可以由系统直接整理和传递，这类工作的空间会受到明显挤压。另一类是纯工具型岗位，简单制图、排版和PPT制作已经可以大量交给Agent。</p>
-  <p>与此同时，一些工作却在加重。<strong>FDE就是其中之一</strong>。</p>
-  <p>瑞华智策做To B服务。高燕发现，把Agent部署（高燕称之为“硅基员工”上岗）到客户企业只是开始。很多企业即使拿到了Agent，也未必知道怎样安全、高效、低成本地使用；原来的流程、权限体系、岗位分工和人员能力，也不会随着AI上线自动改变。</p>
-  <p>因此，他们把FDE的工作范围做得更宽。</p>
-  <p><strong>Neuters</strong></p>
-  <p>客户AI成熟度低，FDE可能需要带着专家团队做更长时间的辅导；</p>
-  <p>客户成熟度高，服务才会逐渐变轻。他们更关心客户最后有没有真正用起来、有没有产生业务价值。</p>
-  <p>现在<strong>负责FDE</strong>的人，原来做<strong>数字营销</strong>。他并不是以“成熟FDE”的身份从市场上招进来的。</p>
-  <p>团队看中他的技术研究能力、专业导向和服务意识，先让他参与内部AI改造和客户交付，再逐渐承担FDE负责人角色。</p>
-  <p>高燕认为，新岗位刚出现时，市场上很难直接找到成熟人才。团队会先看这项工作要解决什么问题、需要哪些能力，再从现有成员中寻找具备相应特质的人，在实际工作中逐步培养。</p>
-  <p><strong>知识管理也被重新放到了重要位置</strong>。即使团队很小，瑞华智策仍专门设置了知识管理职能。</p>
-  <p>高燕有一个<strong>知识管理Agent</strong>，除了把过往的沉淀整理成了结构化的知识服务层，还会定期从日常互动、内容、讲话和资料中，把有长期价值的思想“蒸馏”出来，持续加厚这个知识服务层，供所有其他Agent 接入和调用。</p>
-  <p>这样，负责个人IP的Agent会越来越熟悉她的表达，其他Agent也能继承已经沉淀下来的方法和判断。</p>
-  <p>但她并不主张把所有东西都塞进知识库。</p>
-  <p>IM里的闲聊、隐私信息、低价值内容，没有必要全部保存；历史数据全量清洗的成本也可能高于收益。她更愿意留下那些“<strong>能够穿越周期</strong>”的知识。</p>
-  <p>过去，知识管理主要解决“以后能不能找到”。现在，沉淀下来的经验、规则和方法，还会继续进入Agent，影响以后的工作。</p>
-  <h2><strong>04</strong></h2>
-  <h2><strong>80%是老兵，周报却被取消了</strong></h2>
-  <p>瑞华智策还有一个看起来不太“AI原生”的特点：团队里约80%的成员拥有15年以上工作经验。</p>
-  <p>高燕认为，这和<strong>To B服务</strong>有关。</p>
-  <p>客户不会因为AI出现，一夜之间变成AI原生企业。服务团队需要理解客户原来的组织怎么运转、业务流程怎么跑、哪些环节风险高、哪些地方可以改，以及怎样设计一条客户能够接受的过渡路径。</p>
-  <p>这些东西依赖<strong>长期积累</strong>。所以现阶段，他们首先选择的是经验丰富、同时又能够深度使用AI的人。</p>
-  <p>但经验也会形成惯性。</p>
-  <p>高燕自己是70后，也会反复提醒自己，过去形成的工作方法可能成为约束。接下来团队还会再引入更年轻的成员，包括“00后”。</p>
-  <p>年轻成员往往更容易直接使用新的AI工具和基础设施，不需要先放弃已经熟悉多年的工作方式。</p>
-  <p><strong>两类人各有价值：一边有行业Know-how，一边是对AI的“原生”手感</strong>。</p>
-  <p>在日常管理上，瑞华智策做了不少减法。</p>
-  <p>团队没有固定早会，也没有周报。季度开始时确定策略、分工和季度末需要完成的里程碑，过程中出现困难、需要同步进展或共享关键信息时，再开会。</p>
-  <p>高燕不太认同依靠高频汇报维持控制。</p>
-  <p>她更关心共同认知、价值观和边界是否清楚。当然，这套方式也与团队规模有关。人数继续增加后，很多今天可以直接沟通解决的问题，仍可能重新需要机制和流程。</p>
-  <p><strong>人数增加会让协作网络变复杂，Agent增加也是如此</strong>。</p>
-  <p>采访最后，高燕谈到一个更基础的问题：如果执行、检索、制图、写作、编程越来越多交给AI，人还留下什么？</p>
-  <p>她给了两个答案。</p>
-  <p><strong>一个是责任。</strong>AI可以给方案，也可以参与决策，但无法承担后果。在企业级场景里，授权到哪里、采用哪个结果、出了问题谁负责和兜底，最终仍然落在人身上。</p>
-  <p><strong>另一个是人与人之间的连接。</strong>尤其是大客户销售、咨询和服务，信任很难靠一份Agent生成的完整方案直接建立。现场的一句话、一次反馈、一次理解，人到客户现场感受到的内部独特氛围和“政治议题”都可能影响合作是否继续。</p>
-  <p>高燕每天只让5个左右的Agent真正活跃，看起来只是一个使用习惯，却已经触碰到AI进入组织后的一个新约束。</p>
-  <p>过去，公司担心没人干活。现在，Agent越来越能干，人开始担心自己审不过来。</p>
-  <p><strong>执行能力迅速增加以后，判断正在变成新的稀缺能力。</strong></p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI4NjEwMDQzMQ==&amp;mid=2649937701&amp;idx=1&amp;sn=e269448470a61a4e5e3cef72643a05f1&amp;chksm=f25e7903d5cc4a99fac1b1c7ef43b8d9e1aaef466d8b195522daf5654582c8d748dc9e89e6bd&amp;scene=0&amp;xtrack=1#rd">“牛透社”（ID：Neuters）</a>，作者：Alex，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 08 Sep 2026 01:28:24 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3974033069486339</guid>
-            <link>https://www.36kr.com/p/3974033069486339</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[禾赛科技的后半场：转型物理AI的喜与忧]]></title>
-            <description><![CDATA[<p>“禾赛迄今为止最大的主题就是物理世界的数字化。”</p>
-  <p>2026年4月17日，禾赛科技CEO李一帆在技术开放日上说出这句话时，公司三周前刚交出一份颇为亮眼的年报：营收30.28亿元，同比增长45.8%；净利润4.36亿元，成为激光雷达行业首家全年GAAP盈利的企业。</p>
-  <p>资本市场反应并不热烈——此后数月，禾赛股价持续低迷，按前复权口径年内一度下跌约34%，市值徘徊在200亿港元上下。</p>
-  <p>这个反差揭示了一个行业现实：<strong>激光雷达正在从“技术稀缺品”变成“普通元器件”——对禾赛来说，这是成就，也是新挑战的起点。</strong></p>
-  <p>禾赛把激光雷达的价格打下来的同时，也把自己打进了“制造业”的估值框架，失去了想象空间。</p>
-  <p>李一帆对此有清醒的判断。</p>
-  <p>2026年1月达沃斯世界经济论坛年会期间，他在演讲中判断：人形机器人是物理AI的核心赛道，中国科技企业突围的核心在于供应链与需求端的双重优势。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,610" src="https://img.36krcdn.com/hsossms/20260908/v2_bba83731be574269b6ddd97a3953be9f@5091053_oswg579328oswg1080oswg610_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">禾赛科技CEO李一帆</p>
-  <p>四个月后，禾赛宣布了全新的战略方向：<strong>从“空间感知”升级为“空间智能”，从单一传感器供应商走向物理AI基础设施提供商。</strong></p>
-  <p>紧接着又是四个月之后，李一帆专门炮制了一场Sharpa机器人刷屏事件。</p>
-  <p>这不是一次轻松的战略转身，<strong>它涉及技术边界的拓展、商业模式的重构，以及对一个尚未完全成熟市场的提前卡位。</strong></p>
-  <h2>01</h2>
-  <h2><strong>不公平的市值游戏</strong></h2>
-  <p>先看一组数据。</p>
-  <p>同属智驾产业链的地平线机器人，2025年营收37.6亿元、尚未盈利，港股市值约550亿港元（2026年9月初）。</p>
-  <p>小马智行，L4自动驾驶运营商，营收规模比禾赛小得多，2025年11月港股上市首日市值即达510亿港元。</p>
-  <p>Momenta，以物理AI公司身份于2026年7月登陆港股，上市首日市值约700亿港元。</p>
-  <p>再看具身智能赛道。</p>
-  <p>宇树科技2026年8月19日科创板上市，发行市值约610亿元，上市首日盘中市值一度冲破4400亿元；银河通用、智元尚未上市，但最新估值已达约200亿元。</p>
-  <p>禾赛呢？</p>
-  <p>营收30.28亿、净利润4.36亿、全球ADAS主激光雷达出货量市占率43%排名第一，绝对的行业巨头，市值只有200亿港元上下。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,252" src="https://img.36krcdn.com/hsossms/20260908/v2_9aa92473c1084ffcaef22cffff54bf11@5091053_oswg120798oswg1080oswg252_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">禾赛科技2025年财报</p>
-  <p><strong>在智驾感知这个核心环节，禾赛的地位几乎无可争议：</strong>已获全球40家汽车品牌、超160款车型的量产定点，覆盖中国销量前十的全部汽车品牌——2026年3月，其在国内乘用车主激光雷达市场的装机份额达55%，超过其他所有供应商之和，连续14个月位居第一。</p>
-  <p>这组对比揭示了一个尴尬的现实：禾赛的财务表现远超上述多数公司，但市值却远低于它们。</p>
-  <p>原因很直接——<strong>资本市场给激光雷达贴的标签是“汽车零部件”，给智驾方案和具身智能贴的标签是“AI/物理AI”。</strong></p>
-  <p>在制造业估值框架里，禾赛已经做到了天花板：市销率约5倍，按2026年盈利预期计算的市盈率约17倍。但在科技平台估值框架里，这个数字远远不够——宇树的发行市盈率高达219倍，Momenta、优必选的市销率也都是禾赛的数倍。</p>
-  <p>CFO樊鹏的一句话道出了公司的不甘：“外界对禾赛有一种误解，总以为禾赛只是一家激光雷达公司。实际上，禾赛年初战略已进行升维——从‘汽车核心感知’到‘物理AI基础设施’。”</p>
-  <p class="image-wrapper"><img data-img-size-val="861,442" src="https://img.36krcdn.com/hsossms/20260908/v2_3b87447eb402496696d4b63c8368d602@5091053_oswg39471oswg861oswg442_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>翻译一下：激光雷达把禾赛带到了行业的顶端，但顶端不是终点。要打开新的增长空间，必须跳出激光雷达这个单一定义，完成向物理AI公司的转身。</p>
-  <h2>02</h2>
-  <h2><strong>转型物理AI公司：一场有准备的战略转身</strong></h2>
-  <p><strong>理解禾赛的物理AI战略，需要抓住三个人和三句话。</strong></p>
-  <p>CEO李一帆定方向：“物理AI时代，真正的瓶颈从来都不是模型，而是高质量的真实世界数据。没有高质量的物理世界数据，再优秀的模型都是空中楼阁。”</p>
-  <p>CTO向少卿定路径：“过去十年，我们通过做无人驾驶的眼睛，做成了机器人感知世界。现在是一个时间，去深刻地拥抱禾赛的后半场——从感知世界，做到让机器人理解世界以及让机器人改变世界。”</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,555" src="https://img.36krcdn.com/hsossms/20260908/v2_e6fddce370bb4caf8752647f6faa9f10@5091053_oswg579115oswg1080oswg555_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">禾赛入选大摩全球人形机器人百强</p>
-  <p>禾赛机器人感知业务副总裁刘兴伟定边界：“我们提取的是这个最大公约数。”</p>
-  <p>这三句话构成了禾赛新战略的完整框架：<strong>感知</strong>（激光雷达）<strong>→理解</strong>（Kosmo空间数据平台）<strong>→执行</strong>（动力模组）<strong>。</strong></p>
-  <p>这个框架在逻辑上是成立的。</p>
-  <p>更重要的是，它有真实的业务落点——感知有激光雷达，理解有Kosmo，执行有动力模组，每一块都已经在产生收入或订单。</p>
-  <p>物理AI公司，是一个比激光雷达供应商大得多的身位。</p>
-  <p>李一帆的解释是，禾赛和纯制造企业不一样，更底层的定位是一家围绕AI体系去设计和提供底层基础设施的公司。</p>
-  <p>客观来看，这次转型的路径相当务实：<strong>不另起炉灶，而是在同一个技术底座上延展能力边界。</strong>过去卖的是激光雷达（感知），现在卖的是激光雷达+Kosmo+动力模组（感知+理解+执行）。从单品到平台，从零部件到基础设施——这是业务版图的真实扩张，也是估值逻辑从制造业切换到科技业的前提。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260908/v2_096245469ccf4505ada2f8b789296558@5091053_oswg61467oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这不是一句口号。</p>
-  <p>对禾赛来说，转型物理AI公司既是战略方向，也是突破估值天花板的必选项。</p>
-  <p>判断它是不是“真转型”的标准只有一个：<strong>新业务能不能长出真实的收入。</strong></p>
-  <p>而禾赛能讲这个故事的底气，来自过去十年的产业链积累。</p>
-  <h2>03</h2>
-  <h2><strong>产业链的纵深：禾赛凭什么能做物理AI</strong></h2>
-  <p>禾赛做物理AI，不是从零开始。它在激光雷达领域十年的积累，为其向机器人、空间智能延伸提供了坚实产业链基础。</p>
-  <p><strong>第一，芯片全栈自研能力。</strong></p>
-  <p>禾赛的核心竞争力之一是自研芯片。</p>
-  <p>从第一代到第五代，禾赛的自研芯片平台经历了持续迭代。2026年4月发布的“毕加索”SPAD-SoC，是第五代自研芯片平台的首款产品，也是全球首款在芯片层面实现RGB色彩与XYZ空间信息像素级融合的6D全彩超感光激光雷达芯片。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260908/v2_63243d3b260b4e6481e6975f5191c38c@5091053_oswg78546oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这意味着禾赛可以把彩色感知和深度测距集成到同一颗芯片上，打破了激光雷达和摄像头的传统界限。</p>
-  <p><strong>第二，研发制造一体化的量产能力。</strong></p>
-  <p>禾赛在上海自建的麦克斯韦智造中心是全球首个研发与制造一体化的激光雷达智造中心，投资近10亿元，建筑面积5.2万平方米，2023年底投入运营。其全自动化产线平均每10秒即可下线一台激光雷达。2026年，禾赛规划年产能已翻番至400万台，泰国曼谷“伽利略”工厂预计2027年初投产，奔驰L3级自动驾驶车型的订单即由该工厂保障产能。</p>
-  <p>这种制造能力不是轻易能复制的。</p>
-  <p>它意味着禾赛可以把车规级产品的量产经验迁移到机器人领域——而机器人行业最缺的就是可靠的规模化供应链。</p>
-  <p><strong>第三，人才与上下游资源积累。</strong></p>
-  <p>禾赛在激光雷达领域深耕十年，积累了从光学、电子、机械到算法的全栈人才团队。</p>
-  <p>其客户网络覆盖全球40多个国家的车企和机器人公司，包括奔驰、宇树科技、银河通用、九识智能等头部企业。</p>
-  <p>这种产业链纵深，为其切入物理AI提供了天然的资源禀赋。</p>
-  <p><strong>第四，财务上的转型空间。</strong></p>
-  <p>禾赛已连续五个季度GAAP盈利，2026年Q2净利润7055万元，同比增长60%。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,299" src="https://img.36krcdn.com/hsossms/20260908/v2_635cf0bc04394270b46b89010c8d874d@5091053_oswg74806oswg1080oswg299_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">禾赛科技2026年Q2财报</p>
-  <p>截至2026年6月末，公司现金储备约70.5亿元。</p>
-  <p>这意味着SGI（战略增长业务）有足够的投入空间，而不至于因为烧钱而影响公司整体健康。</p>
-  <p>这些积累让禾赛的物理AI转型不只是“画饼”，而是有真实的能力底座支撑。</p>
-  <h2>04</h2>
-  <h2><strong>机器人业务：工程很强，AI很弱</strong></h2>
-  <p>机器人业务是禾赛物理AI版图中最早产生收入的板块，也是观察其转型成效最直接的窗口。</p>
-  <p><strong>优势：工程能力扎实</strong></p>
-  <p>从数据看，禾赛机器人激光雷达业务增长迅猛。</p>
-  <p>2026年上半年出货26.07万台，同比增长165.3%；其中Q2单季出货14.24万台，同比增长193.4%。</p>
-  <p>在割草机器人、无人配送、商用清洁等细分市场，禾赛的出货量已位居第一梯队。</p>
-  <p>产品层面，迷你型激光雷达JT128采用第四代自研芯片架构，拥有360°×189°超半球视野，已被宇树科技、蚂蚁灵波、荣耀机器人、银河通用、星海图、原力灵机等超50家具身智能企业导入，九识智能更是在3月和8月两度与禾赛签署各20万颗激光雷达的独家定点。</p>
-  <p class="image-wrapper"><img data-img-size-val="996,1280" src="https://img.36krcdn.com/hsossms/20260908/v2_30f3e416151d4a9bbc7208302cd99f87@5091053_oswg195267oswg996oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">禾赛科技部分合作机器人企业</p>
-  <p>动力模组则是更进一步的延伸。</p>
-  <p>截至2026年Q2末，累计交付超过1万套，已向专注灵巧操作的AI机器人企业Sharpa供货，产品范围正由灵巧手模组向全身关节模组拓展。官方披露的数据显示，其动力模组体积较市场领先产品缩小约37%，扭矩密度与功率密度均提升至3倍。</p>
-  <p>2026年8月，禾赛入选摩根士丹利《Humanoid Horizons》全球人形机器人百强（Humanoid 100），横跨“激光雷达、视觉传感器、执行器”三大核心类目，<strong>是唯一覆盖“感知—理解—执行”全链路的公司之一。</strong></p>
-  <p><strong>劣势：本体和大脑落后</strong></p>
-  <p>禾赛在机器人领域的短板同样明显。</p>
-  <p><strong>首先，禾赛不做机器人本体。</strong></p>
-  <p>它的定位是“卖铲子”——提供传感器和执行器，但不参与终端产品的定义和集成。这意味着禾赛的机器人业务天花板取决于下游客户的需求，而不是自己掌控。</p>
-  <p><strong>其次，禾赛不做AI模型。</strong></p>
-  <p>Kosmo定位是“空间数据平台”，但它不是机器人大脑。在具身智能的核心竞争——AI模型和操作算法上，禾赛没有布局。银河通用有GraspVLA，宇树有工业级具身大模型UnifoLM-X1-0，而禾赛的产品矩阵里没有“大脑”这一环。</p>
-  <p><strong>另外，软件能力相对薄弱。</strong></p>
-  <p>禾赛的优势在硬件工程——芯片、光学、机械结构。但在软件层——感知算法、运动规划、场景理解——禾赛的积累远不如专业的AI公司。</p>
-  <p>李一帆在2025年11月谈及机器人行业时说过一句实话：“机器人的AI能力不足以支撑正向商业价值，我觉得还需要一些时间……这件事也许比我们想得要慢，大家要有耐心。”</p>
-  <p>硬件可以快速迭代，但软件（尤其是AI能力）需要时间沉淀。</p>
-  <p><strong>Sharpa：禾赛机器人布局的“体外实验”</strong></p>
-  <p>2026年9月初，机器人公司Sharpa在社交媒体上刷屏。</p>
-  <p>其机器人在DQ上海门店独立完成暴风雪冰淇淋制作——从取杯、打冰淇淋到加配料、递送，全流程无人化。这段视频传播极广，成为近期最具话题性的机器人落地案例之一。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,697" src="https://img.36krcdn.com/hsossms/20260908/v2_22f287cf3b1f489bab8a0709a0c4e35a@5091053_oswg657039oswg1080oswg697_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">Sharpa机器人</p>
-  <p><strong>Sharpa与禾赛的关系，是观察禾赛机器人战略的一个关键窗口，而这层关系比表面看起来更深。</strong></p>
-  <p>工商与媒体公开信息显示，Sharpa是禾赛三位联合创始人——李一帆、向少卿、孙恺的二次创业公司。</p>
-  <p>三人负责战略方向，不担任具体执行职务；Sharpa与禾赛上市公司之间不存在股权从属或业务管控关系，是完全独立运营的主体，员工已超过100人。其产品包括拥有22个可活动关节的灵巧手SharpaWave（单价数万美元）和通用人形机器人Sharpa&nbsp;North。</p>
-  <p>DQ门店的部署，正是禾赛在中期业绩报告中披露的“全球首个零改造部署”商业场景验证。</p>
-  <p><strong>从业务层面看，Sharpa是禾赛动力模组的首批客户之一，其机器人核心关节使用禾赛的执行器产品。</strong>这意味着禾赛的动力模组已经走出“样品验证”阶段，进入真实商业场景。对一家刚刚跨界进入机器人零部件领域的公司来说，这是一个重要的里程碑。</p>
-  <p>但从资本层面看，Sharpa并不在禾赛上市公司体内，这引发了市场的不同解读。</p>
-  <p><strong>乐观的看法是，创始团队二次创业与上市公司形成“体外协同”</strong>——Sharpa验证场景、打磨需求，禾赛上市公司专注做供应商，既规避了直接下场做本体的风险，又锁定了执行器的早期订单。</p>
-  <p>三位创始人的选择本身，也是对动力模组赛道前景的背书。</p>
-  <p class="image-wrapper"><img data-img-size-val="891,438" src="https://img.36krcdn.com/hsossms/20260908/v2_850c6b19270f47ffa025e06391f82390@5091053_oswg520704oswg891oswg438_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">禾赛科技团队</p>
-  <p>谨慎的看法是，如果终端场景最亮眼的成果始终在体外，禾赛的物理AI版图就会缺少“最后一公里”的拼图。资本市场喜欢“全链路”的故事，但如果执行端的成长果实与上市公司无关，价值捕获就会打折扣。</p>
-  <p>更深层的问题是：禾赛到底想不想做终端机器人？刘兴伟说禾赛的定位是“卖铲子”，不做下游竞争。</p>
-  <p>但创始人团队在体外“淘金”的事实又让人追问——<strong>当“卖铲子”的人最懂金子在哪里，客户会不会有顾虑？这层关联关系如何被市场定价，目前没有明确答案。</strong></p>
-  <p><strong>Sharpa既是一个showcase，也是一个问号。</strong></p>
-  <h2>05</h2>
-  <h2><strong>挑战与不确定</strong></h2>
-  <p>除了机器人业务自身的挑战，禾赛的整体转型还面临几个关键问题。</p>
-  <p><strong>Kosmo的商业化远未验证</strong></p>
-  <p>Kosmo是禾赛物理AI布局的核心产品，但它的规模化收入还没有出现。</p>
-  <p>2026年Q2，SGI板块首次贡献收入4494万元，全部来自动力模组；Kosmo直到7月才完成首批样机交付，虽已获得银河通用等头部人形机器人企业订单，但要到三季度才开始确认收入。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,692" src="https://img.36krcdn.com/hsossms/20260908/v2_cbbc804003f04311a4e15a6145f4fc97@5091053_oswg360863oswg1080oswg692_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">Kosmo AI 空间相机</p>
-  <p><strong>机器人公司是否真的愿意为一个“空间数据平台”付费？这不是靠技术领先就能回答的问题。</strong></p>
-  <p>李一帆自己也承认：“物理AI的数据和任务、场景、机器人本体是高度耦合的，不存在一套数据普遍适配所有机器人这件事。”</p>
-  <p><strong>“卖铲子”模式的估值天花板</strong></p>
-  <p>刘兴伟用一句话概括禾赛的定位：“我们的定位是基础设施，就是给客户卖铲子。”这个定位在商业模式上是安全的，但在估值逻辑上存在天花板。</p>
-  <p>“卖铲子”的公司能否获得科技平台的高估值，<strong>取决于下游淘金热的强度。</strong></p>
-  <p>刘兴伟自己给出的时间表也不算激进：SGI业务三年内超过汽车业务“仍有难度”，但五年内“可能会发生”。</p>
-  <p>樊鹏对需求侧有务实的判断：“机器人市场对激光雷达的长期需求可能超过车端。但终局状态下人形机器人会搭载适用传感器，形态将不同。未来2-3年机器人收入占比，市场变化极快，难以量化预测。”</p>
-  <h2>06</h2>
-  <h2><strong>潮涌AI观点</strong></h2>
-  <p>禾赛的物理AI战略，本质上是一次从“单一产品公司”向“基础设施平台”的跃迁。</p>
-  <p>这个跃迁在逻辑上是成立的——感知、理解、执行确实是物理AI的三大刚需，而禾赛是目前少数覆盖全链路并已开始商业化的企业。</p>
-  <p>但逻辑成立不等于商业成功，<strong>禾赛需要跨过两个关键门槛：</strong></p>
-  <p><strong>第一，Kosmo能否从“概念”变成“规模化收入”？</strong>公司将2026年SGI营收指引从1亿元上调至2—3亿元，并预计2027年达到约7亿元、实现盈亏平衡，这是检验转型成色的关键指标。</p>
-  <p><strong>第二，动力模组能否在红海竞争中建立壁垒？</strong>机器人执行器市场的竞争比激光雷达更分散，禾赛目前的技术指标（体积缩小37%、扭矩密度3倍）能否转化为持续订单，尚需观察。</p>
-  <p>从基本面看，禾赛的家底是扎实的：全球ADAS主激光雷达市占率43%排名第一，连续五个季度GAAP盈利，产能扩张和国际化（奔驰订单、泰国工厂）稳步推进。这些都为物理AI转型提供了充足的“弹药”和“安全边际”。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,698" src="https://img.36krcdn.com/hsossms/20260908/v2_2c788c1ac69341e5bbc7b8f6ef7e9638@5091053_oswg240896oswg1080oswg698_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">Yole Group《2026年全球车载市场报告》</p>
-  <p><strong>但也要看到盈利的成色。</strong></p>
-  <p>2026年上半年，禾赛8887万元净利润主要由利息和投资收益（合计约1.42亿元）贡献，合并经营层面仍微亏约640万元；SGI业务单季经营亏损约6400万元，仍在投入期。</p>
-  <p>换言之，是激光雷达主业这台“现金奶牛”在为转型输血。<strong>这既是底气，也意味着转型窗口并非无限。</strong></p>
-  <p>李一帆说<strong>“这件事也许比我们想得要慢”</strong>——这句话既是给行业的提醒，也是给资本市场的预期管理。</p>
-  <p>禾赛的后半场，才刚刚开始。</p>
-  <p><strong>参考文章</strong></p>
-  <p>1、智车星球《对话禾赛李一帆：物理AI瓶颈不是模型，而是高质量真实世界数据》</p>
-  <p>2、赛博汽车《李一帆的新锚点：当所有移动物体都自主化，禾赛想做什么？》</p>
-  <p>3、中国经营报《禾赛科技刘兴伟：激光雷达、空间相机、动力模组是我们的三条基础设施》</p>
-  <p>4、融资中国《李一帆二次创业，出手就是独角兽》</p>
-  <p>5、定焦One《禾赛、速腾卷向机器人，赚到钱了吗？》</p>
-  <p>6、雷峰网《对话禾赛CEO李一帆：激光雷达行业，不能自嗨式地“造名词”》</p>
-  <p>7、雷递《专访禾赛CFO樊鹏：我们不只是激光雷达公司，SGI业务明年收入7亿》</p>
-  <p>8、科创板日报《专访禾赛科技CFO樊鹏：空间智能平台Kosmo拟Q3起贡献收入》</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/PaTWRzbqj7dbydHwINjSxw">“潮涌AI”</a>，作者：龙二，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 08 Sep 2026 01:27:57 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3973939322188040</guid>
-            <link>https://www.36kr.com/p/3973939322188040</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[大厂恨死AI了]]></title>
-            <description><![CDATA[<p>最近大厂们都疯了，在疯狂借钱融资。</p>
-  <p>要知道这可是大厂，家家账面上趴着少则几百亿、多则几千亿的现金，但是，他们不约而同，都在借钱、在融资。</p>
-  <p>9月3日，字节被曝敲定一笔296亿美元银团贷款。</p>
-  <p>8月23日阿里宣布港股增发，宣称为了AI投入融资800亿港元。</p>
-  <p>腾讯虽然还没有外部融资，但一季度资本开支约319亿元，二季度27.84亿元、同比多176%，上半年合计847亿，自由现金流直接转负。</p>
-  <p>……</p>
-  <p>为什么呢？大厂都疯了吗？这么砸AI，不怕亏吗？不怕这是一个天大的泡沫吗？</p>
-  <p class="image-wrapper"><img data-img-size-val="1024,436" src="https://img.36krcdn.com/hsossms/20260908/v2_b6cff209ce4e486abbe34db58661c616@000000_oswg66395oswg1024oswg436_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2>01</h2>
-  <h2><strong>烧钱的必然</strong></h2>
-  <p>资本市场上最近有一个搞笑的事情，微软宣称，2027年我要少搞点AI了，资本开支砍到1750亿美元。结果呢？股价单日暴涨15.5%，市值一夜之间多了4800亿美元。</p>
-  <p>全世界最有钱的公司，宣布自己不再那么疯狂地烧钱搞AI，市场居然像过年一样庆祝。</p>
-  <p>这太魔幻了。因为市场上，已经开始害怕大厂的资本开支太大了。</p>
-  <p>谷歌这个全球第一互联网公司，2026年第二季度自由现金流是负的，负58.55亿美元。这是它上市以来，第一次现金流为负。</p>
-  <p>钱去哪了，全砸向AI了。</p>
-  <p>Meta第二季度自由现金流只剩7.84亿美元，同比暴跌91%，创下四年新低。</p>
-  <p>谷歌和META都在资本市场上疯狂借钱，一借就是上千亿美元。</p>
-  <p>大厂之所以这么疯，因为他们集体焦虑了，因为他们认为，自己已经回不去过去躺着数钱的日子。</p>
-  <p>2010年的诺基亚的利润处于历史顶峰，当时，它和苹果一起，拿走了全球手机市场超过八成的利润。那时候的诺基亚，当了十几年的手机界印钞机。</p>
-  <p>然后呢？然后就没了。</p>
-  <p>2011年，它押注Windows Phone。不到一年，智能手机销售崩溃。两年后，手机业务以54.4亿欧元的价格，贱卖给了微软。</p>
-  <p>一个帝国，从巅峰到卖身，只用了三年。</p>
-  <p>那微软这样的帝国呢？一样，它反复错过历史性机遇。</p>
-  <p>2000年微软就发布Windows Mobile，思路是把PC软件塞进手机，结果2007年iPhone发布后才如梦初醒。</p>
-  <p>2010年推Windows Phone，2013年全球份额仅3.7%，Android占79%，iOS占13%。花72亿美元收购诺基亚手机业务，还是没起色。</p>
-  <p>鲍尔默自己都承认：“没有将移动互联网视为新的绝招，错过了这个机会。”</p>
-  <p>这些巨头缺钱吗？缺技术吗？缺人才吗？都不缺。它们缺的是对新时代的认知，缺的是放下旧世界的勇气。</p>
-  <p>这就是范式转移的残酷，不行动的确定性死亡，胜过行动的不确定性。</p>
-  <p>这就是为什么今天的大厂这么痛苦的原因。</p>
-  <p>它们是怕错过这个时代。</p>
-  <p>不行动的死亡是确定的，而行动的不确定性，至少还有活路。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,463" src="https://img.36krcdn.com/hsossms/20260908/v2_dc9056e3b1224ea09ec3d1842fc15dce@000000_oswg726558oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2>02</h2>
-  <h2><strong>算力这门畸形的生意</strong></h2>
-  <p>大厂疯狂投入AI，还因为算力这门生意，已经变成了一个不买就出局的游戏。</p>
-  <p>CPU时代有个铁律叫摩尔定律，芯片性能不断提升，价格不断下降。你花同样的钱，能买到越来越好的电脑。规模越大，成本越低。</p>
-  <p>但AI时代，这个规律被地缘政治彻底改写了。</p>
-  <p>2022年10月起，美国开始对A100、H100这些高端芯片实施出口管制。</p>
-  <p>整个AI算力资源的供给被政治性地人为收紧。</p>
-  <p>结果当然只有一个，那就是价格暴涨。</p>
-  <p>供给一收紧，价格就疯了。你看H100，四年前的老芯片，一年期租赁价从2025年10月的1.70美元/GPU/小时，涨到2026年3月的2.35美元，涨了40%，到2026年8月已近3美元，半年再涨约50%。新卡上市老卡不降反升，GPU折旧定律直接失灵了。</p>
-  <p>国内现货市场更夸张。</p>
-  <p>H200月租从约6万翻到10万以上；B300整机现货从约450万飙到1300多万，半年涨近三倍。英伟达芯片及服务器整体报价上调5-15%。</p>
-  <p>我问你，你见过电子产品越用越值钱的吗？现在算力就是这么个鬼样子。</p>
-  <p>一边是需求猛增的预期，一边是出口管制、台积电产能瓶颈、电力土地基建约束。</p>
-  <p>供给根本放不了量。</p>
-  <p>所以，只要需求猛增、供给不足这个预期在，算力就是一门短期稳赚不赔的生意。</p>
-  <p>大厂大量的AI投入，主要是花在了买算力上，而这笔买卖，当下很暴利。</p>
-  <p>马斯克的xAI公司在孟菲斯用122天建成了全球最大的超算Colossus，首批10万张H100。现在，已经扩到大约22到23万张GPU了。</p>
-  <p>他把Colossus 1租给了Anthropic，年租金多少？50亿美元！</p>
-  <p>Meta也向Anthropic出租数据中心算力，两年合同最高约100亿美元。</p>
-  <p>有金融机构测算，Meta算力业务到2027年底，年收入可达100到200亿美元。</p>
-  <p>看懂了吗？</p>
-  <p>马斯克和META都是大模型竞争的失败者，但他们并不是生意上的失败者，光是租显卡和算力中心，他们就爆赚。</p>
-  <p>中国大厂，又哪里算不清这笔账呢，前几年买的显卡，现在的产出都是杠杠的。当算力房东收租，现在就是一个大生意。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,453" src="https://img.36krcdn.com/hsossms/20260908/v2_3380c5fd2a2b47f39e59de5a37a4fc30@000000_oswg770023oswg1080oswg453_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2>03</h2>
-  <h2><strong>没有护城河的生意</strong></h2>
-  <p>技术公司，本质上是一门资本品生意。</p>
-  <p>什么叫资本品？就是芯片、算力、模型训练设施这些东西。它们的价值，会随着技术迭代快速贬值。</p>
-  <p>所以，这类生意没有守成这个选项。</p>
-  <p>谁能赢得市场，取决于你的投入速度。</p>
-  <p>你不持续投研发，就会被对手的速度甩下。</p>
-  <p>这几年，你看整个AI市场的变化多快！ChatGPT定义了对话式AI，然后Claude出现了。Anthropic在2026年第二季度营收约116亿美元，首次反超了OpenAI。然后<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>又用低成本搅局。</p>
-  <p>没有谁能靠一个模型躺赢。</p>
-  <p>所以大厂被迫持续烧钱。因为停了，你就出局了。</p>
-  <p>这是未来的军备竞赛，我可能不知道将来会如何，但我知道，如果不投入，那就是一定输。</p>
-  <h2>04</h2>
-  <h2><strong>大厂没有管理优势，只有钱</strong></h2>
-  <p>大企业在新时代面前，不仅没有管理优势，体制甚至是包袱。</p>
-  <p>强如微软，在互联网时代全面落伍。诺基亚、黑莓拥有巨大市场份额，还是被创业型对手颠覆。</p>
-  <p>为什么创业公司更快？</p>
-  <p>OpenAI、Anthropic、<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>、xAI，都是创业公司起家。它们决策链条短、敢押注、能快速掉头。</p>
-  <p>而大厂呢？组织庞大、KPI导向、既得利益牵制转型。谷歌的搜索广告、Meta的社交广告，都是它们不敢轻易动的基本盘。</p>
-  <p>所以，大厂的管理体制在新范式面前，不是优势，是包袱。</p>
-  <p>但大厂有一个创业公司永远比不了的优势，那就是资本。</p>
-  <p>四大云厂商一年7500亿美元的资本开支，高盛预计2027年1.2万亿美元。这是创业公司想都不敢想的数字。</p>
-  <p>大厂的终局选项，当下可能不是赢下大模型战争，而是用资本建算力收租。</p>
-  <p>既然做不成淘金者，就做矿场主。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,463" src="https://img.36krcdn.com/hsossms/20260908/v2_83da2b3625cc49fb89a69ff6643666e0@000000_oswg810021oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>就像淘金热里，无论谁挖到金子，卖铲子的永远赚钱。</p>
-  <p>所以，你问大厂为什么恨AI？为什么焦虑？</p>
-  <p>AI就是那条鲶鱼，把这些大厂全部从那个躺着收租、确定性极高的旧世界，全部赶起床来，认真对待了。</p>
-  <p>以前，谷歌只要守着搜索广告，就能稳稳地赚钱。Meta只要守着社交广告，就能躺着数钱。微软只要守着Windows和Office，就能高枕无忧。</p>
-  <p>阿里腾讯字节手里都有一堆爆款产品，在各自领先的优势中吃得很爽。</p>
-  <p>现在呢？他们迷茫了，不知道未来会发生什么。</p>
-  <p>它们必须把真金白银，砸进一个没人知道怎么赚钱的新世界。不做，就出局，做了，也可能血本无归。</p>
-  <p>有人说，这是泡沫，但大厂的企业主敢赌吗？万一这不是泡沫呢？万一这就是下一个时代呢？</p>
-  <p>不管如何，先上车，抢到一张船票再说，再不济，也得当一个算力房东。</p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzIzOTA3NTA5Mg==&amp;mid=2652618709&amp;idx=1&amp;sn=8e6fcd0e34e27077f34ae1e5d63457a6&amp;chksm=f352b38595b5cbee69d8fbb594a62ca3189ad7f90da05fda1d280794babde703d9e33ce32958&amp;scene=0&amp;xtrack=1#rd">“功夫财经”（ID：kongfuf）</a>，作者：流沙，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 08 Sep 2026 01:26:34 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3973914453405955</guid>
-            <link>https://www.36kr.com/p/3973914453405955</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[DeepSeek一口气扩招150人，0个AI研究岗]]></title>
-            <description><![CDATA[<p><strong><ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>，一口气扩招150人！</strong></p>
-  <p>啥玩意他们总共也就才300-500人规模，这是要搞大动作啊。</p>
-  <p class="image-wrapper"><img data-img-size-val="868,470" src="https://img.36krcdn.com/hsossms/20260908/v2_dc253890d8344bc2ba65f6fd0856597b@5091053_oswg481551oswg868oswg470_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而且这150个HC并非AI研究方向，全部集中到两个岗位：<strong>服务端开发工程师、Agent弹性计算研发工程师</strong>，重点面向2到10年经验的资深后端开发。</p>
-  <p>负责人崔添翼解释到，规模大了产生复杂度，复杂度又反过来要求扩大规模。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,358" src="https://img.36krcdn.com/hsossms/20260908/v2_5f3095ffea19444ba9edcba35c2657ed@5091053_oswg237674oswg1080oswg358_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这是……团队人数的Scaling Law？</p>
-  <h2><strong>DeepSeek弹性计算从论文走向大规模工程化</strong></h2>
-  <p>这次的Agent弹性计算研发工程师又分两个方向，平台开发和底层系统。</p>
-  <p>这个平台指为Agent量身定制的<strong>弹性计算平台DSec</strong>（<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link> Elastic Compute），在不久前发布的<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>-V4技术报告中首次公开披露。</p>
-  <p>根据论文描述，DSec由三个Rust组件构成：API网关Apiserver、每台宿主机上的Edge代理、以及集群监控器Watcher，三者通过自研RPC协议互联，运行在<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>自研的3FS分布式文件系统之上。</p>
-  <p>招聘信息则透露了下一步的工程扩张的计划。</p>
-  <blockquote>
-   <p>为了增加可靠性和效率，<strong>DSec需要修改整个系统栈</strong>：从操作系统到虚拟机，再到各级网络和存储，一直上到应用层调度和管控面服务。</p>
-   <p>这个项目很多事前人没有做过，没有现成的答案可抄。</p>
-  </blockquote>
-  <p class="image-wrapper"><img data-img-size-val="1080,731" src="https://img.36krcdn.com/hsossms/20260908/v2_bf3450c4e7e34d4686b460839305f91e@5091053_oswg368621oswg1080oswg731_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>平台开发和维护方向</strong>，有点像产品和开发的结合，要参与理解需求，也要亲自把系统设计、开发和维护好。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1310" src="https://img.36krcdn.com/hsossms/20260908/v2_8fbde7a8ddfb47449d7abbd5389771b7@5091053_oswg777996oswg1080oswg1310_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>底层调优和攻坚</strong>更硬核，能把“某些操作系统组件的性能压榨到SOTA，或者干脆直接压到硬件极限”是加分项。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,960" src="https://img.36krcdn.com/hsossms/20260908/v2_d3c631bbad284c8b94fba6761aedc9dc@5091053_oswg544900oswg1080oswg960_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>最后这句“你的工作直接决定了Agent模型训练的多样性和效率”也不是空话。</p>
-  <p>因为<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>会做到SOTA，然后开源，那就影响的不只是未来<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link> Agent基础设施，而是整个行业的。</p>
-  <p class="image-wrapper"><img data-img-size-val="972,234" src="https://img.36krcdn.com/hsossms/20260908/v2_524c5abc00f643e393b74eb28f7e0595@5091053_oswg28436oswg972oswg234_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>Agent贯穿研发全链路</strong></h2>
-  <p>服务端开发工程师这边，六个方向覆盖了从模型研究到面向用户服务的完整链路：</p>
-  <p><strong>大模型研究平台方向、Agent框架组件方向、研发效率基建方向、<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link> API方向、线上服务方向、数据工程方向。</strong></p>
-  <p><ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>对这个团队使命的描述是：离大模型研究前沿足够近，做出来的东西马上有来自研究一线的反馈。平台的可靠与好用，直接决定了大模型研究的效率和提升智能上限的速度。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,738" src="https://img.36krcdn.com/hsossms/20260908/v2_7a279397c29b44909c37d61a46db2a0f@5091053_oswg370229oswg1080oswg738_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>大模型研究平台方向</strong>的核心任务是将研究流程抽象为平台能力，需要“深入研究员一线工作场景”，主动识别问题而非被动承接需求。最终目标是“缩短研究想法从提出、验证到迭代的周期”</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,723" src="https://img.36krcdn.com/hsossms/20260908/v2_53b941e773274979ba17b95fd2e13eb8@5091053_oswg526285oswg1080oswg723_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>Agent框架组件方向</strong>负责建设统一的Agent接入与运行框架。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,817" src="https://img.36krcdn.com/hsossms/20260908/v2_ff04e63068a84fceb4a50fb5250f5a3d@5091053_oswg512503oswg1080oswg817_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>研发效率基建方向</strong>的职责覆盖统一的CI/CD体系、可观测与告警体系、大规模数据跨集群流转与治理、运维自动化等，并明确提出要“探索Agent在自动诊断与RCA中的应用”。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1118" src="https://img.36krcdn.com/hsossms/20260908/v2_664c271867ae421fb3882806c6e20810@5091053_oswg678284oswg1080oswg1118_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>面向外部用户的两个方向直接服务于<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>的产品。</p>
-  <p><strong><ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link> API方向</strong>需要应对“超大规模API服务挑战”，将前沿模型的科研成果通过稳定、高效的API输送给全球开发者与海量用户，并与内部推理框架共同演进。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,791" src="https://img.36krcdn.com/hsossms/20260908/v2_fe1d250a8e7d408a92ddd5a9eb7bcb17@5091053_oswg433346oswg1080oswg791_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>线上服务方向</strong>则需要支撑“数千万日活用户”规模的大模型应用的架构设计与持续迭代。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,534" src="https://img.36krcdn.com/hsossms/20260908/v2_772b9b3a95164a4ba4473bf24142edd7@5091053_oswg238134oswg1080oswg534_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>最后，<strong>数据工程方向</strong>服务于从模型训练到线上服务的所有环节，技术栈涉及Spark、Flink、Kafka、ClickHouse、Iceberg等，要求候选人能独立完成从埋点日志到业务指标的全链路数据建模。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,956" src="https://img.36krcdn.com/hsossms/20260908/v2_1d56530dab6144ea8df222e19439b32e@5091053_oswg597060oswg1080oswg956_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>把这几个方向的职责连起来看，它们指向一条完整的链路：模型在沙箱环境中执行任务，平台记录操作过程和结果，形成训练与评测数据，数据再用于改进模型。</p>
-  <h2><strong>DeepSeek想找什么样的人？</strong></h2>
-  <p>所有与研究相关的岗位都强调同一件事：<strong>工程师要“深入研究员一线工作场景”，主动识别问题、推动解决方案从定义到落地，而非仅承接和交付需求</strong>。</p>
-  <p>招聘信息专门用了一整段来刻画理想人选，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>期望招进来的工程师，本身已经在日常工作中深度使用Agent进行开发。</p>
-  <p>其中一条要求是“熟练使用AI Agent工具进行软件开发，在AI辅助下能够在<strong>没有直接经验的领域</strong>写出有质量保证的代码”。</p>
-  <p>又要求“当Agent提供有问题的方案时，你能够敏锐地发现并及时介入”。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,613" src="https://img.36krcdn.com/hsossms/20260908/v2_1cbefaa30a0f4650b89b63b578503bd3@5091053_oswg403708oswg1080oswg613_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>在这个Agent时代，对特定语言、工具的使用经验，甚至做过某一类项目的重要性在下降。</p>
-  <p>研发正在从“我知道怎么做”，转向“我知道该追问什么、哪里可能错、怎样证明它是对的”。</p>
-  <p><strong>参考链接：</strong></p>
-  <p>[1]https://x.com/tianyi/status/2096975270578139273?s=20</p>
-  <p>[2]https://app.mokahr.com/social-recruitment/</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247919747&amp;idx=1&amp;sn=088a0c384fe74a6ff9edf6d23f778edd&amp;chksm=e9664fa8f64e36d6f5c159dadfc8e72dd1b66ae2d137567822c7cbdbc734b21d7b94b726b031&amp;mpshare=1&amp;scene=24&amp;srcid=0908LUAtgDxbf7oLOwSOFge0&amp;sharer_shareinfo=79fbdcf49957c724b064c91231c8a1f0&amp;sharer_shareinfo_first=79fbdcf49957c724b064c91231c8a1f0#rd">“量子位”</a>，作者：梦晨，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 08 Sep 2026 00:54:01 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3974040294388232</guid>
-            <link>https://www.36kr.com/p/3974040294388232</link>
             
             
             

@@ -12,6 +12,13 @@ on:
     - cron: '25 23 * * *'
   workflow_dispatch:
 
+# Actions runs `run:` under `bash -e` WITHOUT pipefail unless a shell is named,
+# so `python x.py | tee` returned tee's 0 and every loud failure below was
+# silently graded as success. Naming the shell is what makes the exit codes real.
+defaults:
+  run:
+    shell: bash
+
 permissions:
   contents: write
 
@@ -34,12 +41,12 @@ jobs:
       # exactly which leg broke rather than one collapsed failure.
       - name: X rolling window
         id: x
-        run: python scripts/x_mirror.py | tee -a "$GITHUB_STEP_SUMMARY"
+        run: python scripts/x_mirror.py 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: YouTube and 36kr mirrors
         id: mirrors
         if: always()
-        run: python scripts/mirror_feed.py | tee -a "$GITHUB_STEP_SUMMARY"
+        run: python scripts/mirror_feed.py 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Commit
         if: always()

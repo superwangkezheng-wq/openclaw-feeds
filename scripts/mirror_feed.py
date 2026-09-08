@@ -22,7 +22,8 @@ import argparse
 import json
 import sys
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from xml.etree import ElementTree
 from pathlib import Path
 
 USER_AGENT = "openclaw-feeds/1.0 (+https://github.com/superwangkezheng-wq/openclaw-feeds)"
@@ -46,6 +47,26 @@ YOUTUBE_CHANNELS = {
 # Minimum plausible body. Anything smaller is an error page or an empty shell,
 # and overwriting a good file with one of those is the failure this guards.
 MIN_BYTES = 400
+
+# A volunteer RSSHub instance under load answers 200 with an HTML error page, and
+# YouTube can answer 200 with an empty shell. Both clear a byte threshold easily,
+# and either one overwriting a good file destroys the whole point of keeping the
+# last good copy. So the gate is the consumer's own standard: it must parse, and
+# it must contain at least one entry.
+MAX_STALE_HOURS = 72
+
+
+def looks_like_a_feed(body: bytes) -> str | None:
+    """Return a reason it is unusable, or None if it parses and carries entries."""
+    try:
+        root = ElementTree.fromstring(body)
+    except ElementTree.ParseError as error:
+        return f"not parseable XML ({error})"
+    items = root.iter("item")
+    entries = root.iter("{http://www.w3.org/2005/Atom}entry")
+    if not any(True for _ in items) and not any(True for _ in entries):
+        return "parses but carries no <item> or <entry>"
+    return None
 
 
 # 36kr killed its own RSS -- the direct feed is now an empty SPA shell -- so the
@@ -120,6 +141,9 @@ def main() -> int:
                 candidate = fetch(url, args.timeout)
                 if len(candidate) < MIN_BYTES:
                     raise RuntimeError(f"body too small ({len(candidate)}B < {MIN_BYTES}B)")
+                unusable = looks_like_a_feed(candidate)
+                if unusable:
+                    raise RuntimeError(f"200 but {unusable}")
             except Exception as error:  # noqa: BLE001 -- reported, never swallowed
                 attempts.append(f"{url} -> {error}")
                 continue
@@ -154,13 +178,34 @@ def main() -> int:
     STATE.parent.mkdir(parents=True, exist_ok=True)
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
+    # Keeping the last good copy is right for a blip and wrong for a burial. Past
+    # MAX_STALE_HOURS the reader is being served a fossil that still parses, still
+    # returns 200, and is therefore indistinguishable from a healthy source at every
+    # downstream layer -- the pipeline has no feed-age assertion to catch it. This is
+    # the only place that can notice, so this is where it has to be noticed.
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=MAX_STALE_HOURS)
+    fossils = []
+    for key in kept:
+        last = state.get(key, {}).get("lastSuccess")
+        try:
+            when = datetime.strptime(last, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc) if last else None
+        except ValueError:
+            when = None
+        if when is None or when < cutoff:
+            fossils.append(f"{key} (last success {last or 'never'})")
+
     print(f"\nrefreshed {len(refreshed)}, kept-stale {len(kept)}, missing-entirely {len(missing)}")
     if kept:
         print("  kept stale: " + ", ".join(sorted(kept)))
     if missing:
         print("  MISSING:    " + ", ".join(sorted(missing)), file=sys.stderr)
-    # A stale copy is survivable and reported; no copy at all is not.
-    return 1 if missing else 0
+    if fossils:
+        print(f"  STALE BEYOND {MAX_STALE_HOURS}h -- being served as if healthy:", file=sys.stderr)
+        for line in sorted(fossils):
+            print("    " + line, file=sys.stderr)
+    # A fresh-enough stale copy is survivable and reported. A fossil, or no copy at
+    # all, is not.
+    return 1 if (missing or fossils) else 0
 
 
 if __name__ == "__main__":

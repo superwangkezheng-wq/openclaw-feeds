@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.lenovo.openclaw-feeds.bilibili</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>/Users/lenovo/Documents/OpenClaw/openclaw-feeds/local/bilibili_capture.sh</string>
+  </array>
+  <!-- Ahead of the 01:30 UTC (09:30 CST) pipeline read, and again in the evening
+       so a daytime failure has a second chance before the next read. -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>8</integer><key>Minute</key><integer>40</integer></dict>
+    <dict><key>Hour</key><integer>20</integer><key>Minute</key><integer>40</integer></dict>
+  </array>
+  <key>StandardOutPath</key><string>/Users/lenovo/Library/Logs/openclaw-feeds-bilibili.log</string>
+  <key>StandardErrorPath</key><string>/Users/lenovo/Library/Logs/openclaw-feeds-bilibili.err.log</string>
+  <key>RunAtLoad</key><false/>
+</dict>
+</plist>

@@ -63,7 +63,18 @@ failed=()
 for mid in "${MIDS[@]}"; do
   dest="$REPO/feeds/bilibili/$mid.xml"
   tmp="$(mktemp)"
-  if curl -fsS --max-time 60 -o "$tmp" "$RSSHUB_URL/bilibili/user/video/$mid" 2>/dev/null; then
+  # RSSHub initialises a route on its first request, so a cold one can exceed the
+  # timeout while the same route answers in milliseconds a moment later -- measured
+  # here at 1.14s cold against 0.02s warm. One retry distinguishes a cold start from
+  # a real outage; anything past that is still reported as a failure.
+  fetched=0
+  for attempt in 1 2; do
+    if curl -fsS --max-time 60 -o "$tmp" "$RSSHUB_URL/bilibili/user/video/$mid" 2>"$tmp.err"; then
+      fetched=1; break
+    fi
+    (( attempt == 1 )) && sleep 3
+  done
+  if (( fetched )); then
     size=$(stat -f%z "$tmp")
     # A cookie that has expired comes back as a small error document, not as an
     # HTTP failure. Overwriting a good feed with one of those is the whole risk.
@@ -74,9 +85,9 @@ for mid in "${MIDS[@]}"; do
     fi
     print -u2 "MISS $mid: response has no items (${size}B) -- cookie expired, or the route broke"
   else
-    print -u2 "MISS $mid: RSSHub request failed"
+    print -u2 "MISS $mid: RSSHub request failed after 2 attempts: $(tr -d '\n' < "$tmp.err" | tail -c 200)"
   fi
-  rm -f "$tmp"
+  rm -f "$tmp" "$tmp.err"
   failed+=("$mid")
 done
 
@@ -102,6 +113,14 @@ if [[ -n "$(git status --porcelain feeds/bilibili)" ]]; then
   git add feeds/bilibili
   git -c user.name="openclaw-feeds" -c user.email="tian1617@sohu.com" \
     commit -q -m "chore(bilibili): refresh uploads feeds"
+  # The Actions harvester pushes to this same branch twice a day. Without a rebase
+  # the first such push makes every later run here a non-fast-forward rejection,
+  # stacking commits on a stale base until a human intervenes -- the leg would go
+  # quiet from that moment on.
+  if ! git pull --rebase --autostash -q; then
+    print -u2 "FAIL cannot rebase onto origin/main; the feeds were captured but not published"
+    exit 1
+  fi
   git push -q
   print "pushed"
 else
