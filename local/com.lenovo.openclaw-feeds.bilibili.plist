@@ -6,7 +6,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/zsh</string>
-    <string>/Users/lenovo/Documents/OpenClaw/openclaw-feeds/local/bilibili_capture.sh</string>
+    <string>/Users/lenovo/Library/Application Support/OpenClaw/openclaw-feeds/local/bilibili_capture.sh</string>
   </array>
   <!-- Ahead of the 01:30 UTC (09:30 CST) pipeline read, and again in the evening
        so a daytime failure has a second chance before the next read. -->

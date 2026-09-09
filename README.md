@@ -81,6 +81,14 @@ Placeholder feeds are committed so the pipeline reads a parseable **empty** feed
 rather than a 404 before the credential lands — "no new items" is something a
 reader can act on; a transport failure is not.
 
+**Where this working clone lives is load-bearing, not incidental.** It must sit
+under `~/Library/Application Support/OpenClaw/`. `~/Documents`, `~/Desktop` and
+`~/Downloads` are TCC-protected on macOS: a launchd agent reading from them gets
+`Operation not permitted` and the job dies before it runs a line. That is not
+theoretical -- it happened on 2026-09-09, twice, and the only trace was
+`can't open input file` in the agent's stderr while the file was plainly readable
+from an interactive shell. `/tmp` is worse: macOS empties it on reboot.
+
 Setup is in the header comment of `local/bilibili_capture.sh`. SESSDATA lives
 about a month; when it expires the script fails loudly and names the file to fix.
 
