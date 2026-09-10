@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i3.ytimg.com/vi/Bgmtn2tTby4/hqdefault.jpg" width="480" height="360"/>
    <media:description>Increasingly capable natural language processing is changing how audio systems are designed, integrated, and perceived. Voice has been used to navigate through menus for the better part of two decades, but the addition of AI has transformed it from often annoying and highly limited responses to numbers to a much more interactive human-machine interface. Amol Borkar, group director of product management and marketing for Tensilica DSPs at Cadence, talks with Semiconductor Engineering about how this technology will improve even further in the future, why the focus isn't just about faster processors, and why this is so important for edge systems.</media:description>
    <media:community>
-    <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="177"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="382"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>Nearly all leading-edge designs today are multi-die assemblies, which means that one defective die can render the entire device unusable. But not all dies that are deemed defective should be scrapped, and not all dies that pass inspection will behave as expected in the field, especially over time. Nir Sever, senior director of business development at proteanTecs, talks with Semiconductor Engineering about how to train machine learning models to identify outliers in context, replacing a rigid pass/fail decision tied to a spec with one that assesses its usefulness based on its behavior under real workloads in a complex system.</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="436"/>
+    <media:statistics views="501"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>The rapid build-out of AI on the edge marks a fundamental shift in where intelligence is located, how much is included in devices, and the speed at which that intelligence can be applied to everyday problems. While the cloud will still be used for training large language models, the edge will include a collection of smaller, much more targeted language models. Nigel Drego, CTO and co-founder of Quadric, talks with Semiconductor Engineering about how edge AI will interact with the cloud in co-optimized systems, how the proliferation of edge AI will improve response time and reduce privacy concerns, and how quickly this market is expanding. [According to recent estimates, 100 billion models are being run locally on edge devices today.]</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="578"/>
+    <media:statistics views="580"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>The use of AI agents in chip design has been limited to small portions of the design flow. Engineers have been proceeding cautiously to understand how agents work, how to ensure they are delivering consistent results, and how different agents work together. The next step is to extend their role beyond just gluing together coding and tooling functions. Mehir Arora, head of engineering at ChipAgents, talks with Semiconductor Engineering about what happens when the role of AI agents is expanded to include semantics and physics, what's happens when agents work in parallel on different engineering problems, and what's needed to achieve a 10X or greater improvement in productivity.</media:description>
    <media:community>
     <media:starRating count="42" average="5.00" min="1" max="5"/>
-    <media:statistics views="1628"/>
+    <media:statistics views="1637"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>Moving from large language models in the cloud to small language models at the edge is much more complicated than just slimming down the algorithms. It requires changes in both hardware and software, and the constraints can vary greatly from one market segment to another. Daniel Firu, CPO and co-founder of Quadric, and Ravi Chakaravarthy, vice president of software at the company, talk with Semiconductor Engineering about how to optimize NPUs for different applications, how to build in enough flexibility to keep designs from becoming obsolete too quickly, and how to leverage the benefits of open-source while still adding value.</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="686"/>
+    <media:statistics views="688"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>Just because it's a standard doesn't mean everything will work together, and this is especially evident with conflicting USB standards. David Shin, senior product marketing manager at Cadence Design Systems, talks with Semiconductor Engineering about where incompatibilities can crop up, why it's so difficult to control the different versions, and what's behind all this confusion.</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="600"/>
+    <media:statistics views="601"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description>Increased density at advanced nodes, multi-die assemblies, and the rollout of AI everywhere are making it much more challenging to ensure that memory will function properly over its expected lifetime. Test is no longer about a single memory or one approach for testing memory. It can vary by application, by workload, and by architecture. Some testing is close to memory, some is built into memory, and some is a combination of multiple approaches with corners tied to a particular manufacturing process. Yervant Zorian, chief architect and fellow at Synopsys, and president of Synopsys Armenia, talks with Semiconductor Engineering about why a hierarchical approach is now essential for testing memory, what can go wrong while testing different memories tied to different types of processors, and why massive multi-physics simulations and digital twins are needed for everything from smartphones to robots.</media:description>
    <media:community>
     <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="1043"/>
+    <media:statistics views="1048"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>How do you know when you sign off on a complex chip design that everything is going to work? There are more variables, more elements that need to be verified, and more waivers that need to be generated. Suresh Barla, senior director of field applications at Synopsys, talks with Semiconductor Engineering about how to ensure that RTL is fully optimized for PPA targets in large designs that can include hundreds of millions of gates and dozens of design blocks, and that the netlist meets sign-off quality.</media:description>
    <media:community>
     <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="842"/>
+    <media:statistics views="843"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description>The demand for performance in an AI data center is causing a huge spike in the amount of power being consumed. Within a rack are a half-dozen SoC components housed in different types of advanced packages and connected with an assortment of blazing-fast interface IP and optical signaling. Manmeet Walia, director of product management for mixed-signal PHY IP in the Synopsys Solutions Group, talks with Semiconductor Engineering about the unprecedented changes underway to enable faster training and inferencing, and the collection of new technologies needed to make this all work, from 3.5D and 3D-ICs to the disaggregation of memory into tiered structures.</media:description>
    <media:community>
     <media:starRating count="34" average="5.00" min="1" max="5"/>
-    <media:statistics views="1110"/>
+    <media:statistics views="1111"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description>Since it was released in March 2022, the Universal Chiplet Interconnect Express (UCIe) has grown from a basic way of connecting two dies together into a comprehensive specification that can ensure the handoff of data between various components in an advanced package, as well as validate the chiplets within that package. Mayank Bhatnagar, director of product marketing at Cadence, talks with Semiconductor Engineering about the physical elements in UCIe, the logical view of how it appears to design engineers, and how this can be customized for anything from a simple connection to a complex collection of chiplets that can come from multiple foundries and operate at different speeds.</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="999"/>
+    <media:statistics views="1000"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description>AI is all about data. There is more data to process, store, and move, and more tradeoffs required to do that efficiently and with enough flexibility to handle changes in future workloads. Nandan Nayampally, chief commercial officer at Baya Systems, talks with Semiconductor Engineering about networks on chip and networks across chip, what the choke points are for data movement, and where and when data coherency makes sense.</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="752"/>
+    <media:statistics views="754"/>
    </media:community>
   </media:group>
  </entry>
