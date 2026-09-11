@@ -11,6 +11,140 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:STGH82fzaKE</id>
+  <yt:videoId>STGH82fzaKE</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>DeepSeek 发布并开源 DeepSeek V4.1 Flash；OpenAI 宣布暂停 ChatGPT Pro 20x 新订阅【AI 早报 2026-09-11】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=STGH82fzaKE"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-09-11T01:25:13+00:00</published>
+  <updated>2026-09-11T10:59:20+00:00</updated>
+  <media:group>
+   <media:title>DeepSeek 发布并开源 DeepSeek V4.1 Flash；OpenAI 宣布暂停 ChatGPT Pro 20x 新订阅【AI 早报 2026-09-11】</media:title>
+   <media:content url="https://www.youtube.com/v/STGH82fzaKE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/STGH82fzaKE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+OpenAI 宣布暂停 ChatGPT Pro 20x 新订阅 00:09
+https://x.com/thsottiaux/status/2098113585683808624
+
+深度求索发布并开源 DeepSeek V4.1 Flash 00:29
+https://mp.weixin.qq.com/s/qg0NU3NNUbp1co2PdkAPAg
+https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash
+
+DeepSeek Harness 发布 v0.1.5 01:00
+https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.5-rc.1
+https://mp.weixin.qq.com/s/lt6fT1iYCJIfEdAGlJEktg
+
+DeepSeek App 与网页端三种模式合并升级 01:14
+https://linux.do/t/topic/2882869
+
+DeepSeek开源三个代码仓库 01:27
+https://github.com/deepseek-ai/DeepSelect
+https://github.com/deepseek-ai/DeepJIT
+https://github.com/deepseek-ai/deepseek-recipe
+https://x.com/tianyi/status/2097993855778046379
+
+Cognition发布SWE-2编程模型 01:46
+https://cognition.com/blog/swe-2
+https://x.com/cognition/status/2098069235733823965
+
+杭州联合智谱推出杭州全城Coding计划 02:05
+https://docs.bigmodel.cn/cn/coding-plan/hangzhou-rules
+
+高德推出ABot-Earth 0.7，10分钟可生成公里级3D城市 02:22
+
+Cohere 发布开源翻译模型 North Small Translate 02:35
+https://x.com/cohere/status/2098081558087270736
+https://cohere.com/blog/north-small-translate
+https://huggingface.co/CohereLabs/North-Small-Translate-1.0
+
+GPT-Live-1 登陆 OpenAI API，支持边听边说与推理委托 02:47
+https://openai.com/index/introducing-gpt-live-1-in-the-api/
+https://x.com/OpenAIDevs/status/2098099269551149398
+
+OpenAI 推出 Agents API 公测版，托管云端 Agent 03:05
+https://openai.com/index/introducing-the-agents-api/
+https://developers.openai.com/api/docs/guides/agents-api/overview
+
+Codex 上线官方 Unity 插件 03:24
+https://chatgpt.com/plugins/plugins_6aa1c02597c081918e358d72f65bd772
+https://x.com/OpenAIDevs/status/2097900175973138631
+
+Cursor 推出 Projects，以协调 Agent 委派 subagent 承接大型工作 03:36
+https://cursor.com/blog/projects
+https://x.com/cursor_ai/status/2098162488013455784
+
+Claude Code 桌面应用支持将任意面板弹出为独立窗口 03:49
+https://x.com/ClaudeDevs/status/2098090911137972271
+
+TraeCode 9 月上线模型限时折扣，Seed 系列限时一折 03:57
+https://mp.weixin.qq.com/s/CoPhdIfDADQ6v3aXWOv4nA
+
+Gemini API 文档首个预览版直接上线 AI Studio 04:09
+https://ai.studio/docs
+https://aistudio.google.com/docs
+https://x.com/GoogleAIStudio/status/2098084421899301244
+
+Nebius 推出免费 AI Builder Program，提供超 400 美元额度与折扣 04:19
+https://dev.nebius.com/builders
+https://x.com/nebiusai/status/2098064142947033474
+
+Arena 限时免费开放 GPT-Image-2.5 Sunburst 04:29
+https://x.com/arena/status/2098064001263706202
+
+Google 推出 Windows 版 Gemini 桌面应用 04:42
+https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/
+https://gemini.google/desktop/
+
+OpenAI 在 ChatGPT Work 推出 Data agent 04:50
+https://openai.com/index/put-data-to-work/
+https://x.com/ChatGPT/status/2098065296968011853
+
+ChatGPT 面向美国 Plus 和 Pro 用户推出股票自选清单功能 05:04
+https://x.com/ChatGPT/status/2098141242911785452
+
+ChatGPT Library 原生接入 Dropbox、Box 和 Sharepoint 05:13
+https://x.com/ChatGPT/status/2098127115791294703
+https://x.com/OpenAIDevs/status/2098137495632482496
+
+OpenAI 推出 ChatGPT for Financial Services 05:26
+https://openai.com/index/introducing-chatgpt-financial-services/
+https://x.com/OpenAI/status/2098118191029624911
+
+Google Labs 向全美用户免费开放 Dreambeans 05:41
+https://blog.google/innovation-and-ai/models-and-research/google-labs/dreambeans-expansion-september-2026/
+https://labs.google/dreambeans
+
+千问教师节上线智能组卷、教案生成助手等多个教学AI技能 05:51
+https://mp.weixin.qq.com/s/sU3_a4Vk5cGpZ1VpEcoC4A
+
+Cursor 推出 CursorBench 4.0：整体难度提升 06:02
+https://cursor.com/cursorbench
+https://x.com/leerob/status/2098144600594465148
+
+Anthropic测试AI情报定位与武器开发能力 06:12
+https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities
+
+Kimi 启动企业合作伙伴计划 06:29
+https://mp.weixin.qq.com/s/CdPMweyCatDeWrEB2SJWnA
+
+ElevenLabs 与 Universal Music Group 达成多年期战略合作 06:37
+https://x.com/ElevenLabs/status/2098049234465620251
+
+消息称OpenAI在另一道千禧年大奖难题取得实质性进展 06:50
+https://x.com/AndrewCurran_/status/2098083604853342688
+https://x.com/synthwavedd/status/2097971881596916185</media:description>
+   <media:community>
+    <media:starRating count="32" average="5.00" min="1" max="5"/>
+    <media:statistics views="1520"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:-a8ht3K7qQ0</id>
   <yt:videoId>-a8ht3K7qQ0</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -21,7 +155,7 @@
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-09-10T01:19:28+00:00</published>
-  <updated>2026-09-10T07:29:08+00:00</updated>
+  <updated>2026-09-11T01:27:12+00:00</updated>
   <media:group>
    <media:title>DeepSeek 宣布将正式发布 V4.1 Flash；OpenAI 或将暂停 ChatGPT Pro 订阅【AI 早报 2026-09-10】</media:title>
    <media:content url="https://www.youtube.com/v/-a8ht3K7qQ0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -100,8 +234,8 @@ https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partne
 路透社：DeepSeek 计划今年启动科创板上市进程 05:53
 https://www.reuters.com/world/chinas-deepseek-taps-citic-securities-domestic-ipo-sources-say-2026-09-09/</media:description>
    <media:community>
-    <media:starRating count="30" average="5.00" min="1" max="5"/>
-    <media:statistics views="1977"/>
+    <media:starRating count="32" average="5.00" min="1" max="5"/>
+    <media:statistics views="3522"/>
    </media:community>
   </media:group>
  </entry>
@@ -192,7 +326,7 @@ OpenAI 承包 Firmus 马来西亚两处 AI 工厂专用算力 04:53
 https://firmus.co/newsroom/firmus-surpasses-900-mw-contracted-capacity-adds-openai-as-anchor-customer-and-expands-into-malaysia</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="1428"/>
+    <media:statistics views="1489"/>
    </media:community>
   </media:group>
  </entry>
@@ -250,7 +384,7 @@ ChatGPT 收复网站流量份额，Gemini 回落至 25.6% 02:02
 https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="2255"/>
+    <media:statistics views="2306"/>
    </media:community>
   </media:group>
  </entry>
@@ -293,7 +427,7 @@ https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2841067
 https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="911"/>
+    <media:statistics views="921"/>
    </media:community>
   </media:group>
  </entry>
@@ -344,7 +478,7 @@ https://devday.openai.com/
 https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1153"/>
+    <media:statistics views="1118"/>
    </media:community>
   </media:group>
  </entry>
@@ -445,7 +579,7 @@ https://www.bloomberg.com/news/articles/2026-09-04/deepseek-plans-big-huawei-ai-
 https://www.theinformation.com/articles/anthropics-house-payments-tech-push-chip-away-stripe</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="3381"/>
+    <media:statistics views="3398"/>
    </media:community>
   </media:group>
  </entry>
@@ -567,7 +701,7 @@ https://linux.do/t/topic/2850295
 https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="2074"/>
+    <media:statistics views="2078"/>
    </media:community>
   </media:group>
  </entry>
@@ -661,7 +795,7 @@ https://x.com/synthwavedd/status/2095184148981842161
 https://x.com/elonmusk/status/2094983639780204846</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="3164"/>
+    <media:statistics views="3163"/>
    </media:community>
   </media:group>
  </entry>
@@ -749,7 +883,7 @@ https://www.reuters.com/technology/anthropic-signs-35-billion-cloud-deal-with-nv
 https://www.bloomberg.com/news/articles/2026-08-31/anthropic-seals-35-billion-cloud-deal-with-nvidia-backed-lambda</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2937"/>
+    <media:statistics views="2939"/>
    </media:community>
   </media:group>
  </entry>
@@ -824,7 +958,7 @@ https://www.ithome.com/0/996/649.htm
 https://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works/</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2822"/>
+    <media:statistics views="2824"/>
    </media:community>
   </media:group>
  </entry>
@@ -859,7 +993,7 @@ https://www.theinformation.com/articles/apple-stumbled-ai-hardware-success-mac
 https://mp.weixin.qq.com/s/x4wUN14Lm17VwYrDBarJiQ</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="2041"/>
+    <media:statistics views="2042"/>
    </media:community>
   </media:group>
  </entry>
@@ -909,7 +1043,7 @@ Anthropic 及创始人遭起诉 被控非法抓取数万版权作品 02:34
 https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="2026"/>
+    <media:statistics views="2028"/>
    </media:community>
   </media:group>
  </entry>
@@ -974,7 +1108,7 @@ https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.ca
 https://www.courtlistener.com/docket/72379655/250/anthropic-pbc-v-us-department-of-war/</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2119"/>
+    <media:statistics views="2121"/>
    </media:community>
   </media:group>
  </entry>
@@ -1083,102 +1217,7 @@ Google 员工回应 Ox Alpha 暗示争议 04:20
 https://x.com/OfficialLoganK/status/2092705771389894709</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="2183"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:KlHYyFhe6o0</id>
-  <yt:videoId>KlHYyFhe6o0</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>智谱正式发布并开源 GLM-5.3-Flash【AI 早报 2026-08-27】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=KlHYyFhe6o0"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-08-27T01:54:55+00:00</published>
-  <updated>2026-08-30T07:36:15+00:00</updated>
-  <media:group>
-   <media:title>智谱正式发布并开源 GLM-5.3-Flash【AI 早报 2026-08-27】</media:title>
-   <media:content url="https://www.youtube.com/v/KlHYyFhe6o0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/KlHYyFhe6o0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-智谱正式发布并开源 GLM-5.3-Flash 00:09
-https://z.ai/blog/glm-5.3-flash
-https://mp.weixin.qq.com/s/O7RCVME1Kut-Z2oFYhgrkw?scene=1&amp;click_id=837440420
-https://huggingface.co/zai-org/GLM-5.3-Flash
-https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5.3-flash
-
-阿里发布 Qwen3.8-Flash 模型 00:50
-https://qwen.ai/blog?id=qwen3.8-flash-next
-https://github.com/QwenLM/Qwen3.8-Flash-Next/blob/main/tech_report.pdf
-https://huggingface.co/Qwen/Qwen3.8-Flash-Next
-
-OpenAI 称误路由 5.5-mini 问题已修复并致歉 01:12
-https://x.com/adamhfry/status/2092310922421481855
-
-Google 发布 Gemini 3.5 Transcribe 语音转文本模型 01:24
-https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/
-https://ai.google.dev/gemini-api/docs/live-api/live-transcribe
-https://ai.google.dev/gemini-api/docs/transcribe
-
-Antigravity CLI 上线语音模式，可与 agent 对话 01:40
-https://x.com/antigravity/status/2092690141794222150
-https://x.com/JackWoth98/status/2092637879788814399
-
-Claude Code 现可自动起草反馈报告，用户批准后发送 01:49
-https://x.com/ClaudeDevs/status/2092695038270775647
-
-Claude in Chrome 正式面向所有付费订阅方案开放 01:56
-https://claude.com/blog/claude-in-chrome-generally-available
-
-Claude 在 Cowork 中推出内置浏览器，未来一周内上线 02:05
-https://x.com/claudeai/status/2092755574563741871
-
-Grok Bot 向 SuperGrok 和 Cursor Pro 订阅用户开放并重置每周用量 02:16
-https://x.com/elonmusk/status/2092691713399931124
-https://x.com/bot/status/2092664183334846840
-
-谷歌为 Gemini Live 推出重大生产力升级 02:25
-https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/
-https://gemini.google/overview/gemini-live/
-
-OpenAI 推介 $visualize：可在 ChatGPT Work 和 Codex 中生成可视化图表 02:37
-https://x.com/OpenAIDevs/status/2092638606531977295
-
-Manus 开放数据恢复，服务恢复正常稳定运行 02:45
-https://x.com/ManusAI/status/2092506518667268375
-
-OpenAI 公布 Hugging Face 入侵事件技术报告 02:57
-https://openai.com/index/hugging-face-incident-and-the-road-ahead/
-https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
-https://x.com/OpenAI/status/2092691861773160673
-
-Anthropic 开放 Claude 聚合对话研究 03:17
-https://www.anthropic.com/research/enabling-independent-research
-https://huggingface.co/datasets/Anthropic/enabling-independent-research
-
-爆料称 Fable 5.1 或最快周四发布，已在网页版灰度 03:24
-https://x.com/legit_api/status/2092633561119482037
-
-月之暗面传与三云巨头洽 Kimi K3 分成 03:35
-https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/
-
-MiniMax：M3 Pro 参数规模预计提升至约 3T 03:47
-https://www.ithome.com/0/994/759.htm
-
-报道称 Anthropic 与 Nscale 签署约 450 亿美元算力租用协议 03:58
-https://www.bloomberg.com/news/articles/2026-08-26/anthropic-to-pay-nscale-45-billion-for-ai-computing-power
-https://www.wsj.com/tech/ai/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-a611efea
-
-Altman 称 OpenAI 预计 2026 年底将拥有其可称为 AGI 的内部系统 04:12
-https://x.com/TIME/status/2092568710775189657
-https://the-decoder.com/sam-altman-says-openai-will-have-agi-by-the-end-of-2026-if-you-accept-his-definition/</media:description>
-   <media:community>
-    <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="1771"/>
+    <media:statistics views="2185"/>
    </media:community>
   </media:group>
  </entry>
