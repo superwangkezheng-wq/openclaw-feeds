@@ -11,6 +11,115 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:wUSb_OFFiFk</id>
+  <yt:videoId>wUSb_OFFiFk</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>Kimi 上线 Kimi K2.8 Preview；DeepSeek 调整 V4 Pro 的 API 下线计划【AI 早报 2026-09-12】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wUSb_OFFiFk"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-09-12T01:57:08+00:00</published>
+  <updated>2026-09-12T06:37:57+00:00</updated>
+  <media:group>
+   <media:title>Kimi 上线 Kimi K2.8 Preview；DeepSeek 调整 V4 Pro 的 API 下线计划【AI 早报 2026-09-12】</media:title>
+   <media:content url="https://www.youtube.com/v/wUSb_OFFiFk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wUSb_OFFiFk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+Kimi K2.8 Preview 全量上线 Kimi Code 00:09
+https://www.kimi.com/code/docs/kimi-code/models.html
+https://www.kimi.com/code/docs/kimi-code/whats-new.html
+
+DeepSeek 调整了 DeepSeek V4 Pro 的 API 下线计划 00:27
+
+Tibo回应现有用户服务含偶尔重置 00:38
+https://x.com/thsottiaux/status/2098300424520687965
+
+25位菲尔兹奖得主联署批评AI公司竞逐数学难题 00:56
+https://mathandai.org/
+https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/
+https://www.businessinsider.com/openai-caltech-ai-math-hackathon-backlash-anthropic-2026-9
+
+Claude Code 新增 claude plugin eval，评估插件或skill 01:16
+https://x.com/ClaudeDevs/status/2098500999656923145
+https://code.claude.com/docs/en/plugin-evals
+
+Claude Code桌面端新增单次会话防休眠开关 01:27
+https://x.com/lydiahallie/status/2098455697004613814
+
+ChatGPT 桌面应用宠物功能升级 01:34
+https://x.com/ChatGPT/status/2098533675050672134
+
+ChatGPT Sites上线协作编辑、私密分享与自定义域名 01:46
+https://x.com/ChatGPT/status/2098457920291946894
+
+OpenAI 发布 GPT-6 Astra 提示词与 skills 重构指南 02:00
+https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+https://x.com/OpenAIDevs/status/2098480213244117065
+
+OpenAI 联合 Product Hunt 推出 GPT-6 Astra Challenge 02:10
+https://www.producthunt.com/contests/gpt-6-astra-challenge
+https://x.com/OpenAIDevs/status/2098441627056664928
+
+Devin Desktop 和 CLI 推出 Fusion 双模型模式 02:17
+https://cognition.com/blog/local-fusion
+
+阿里云Token Plan个人版升级 02:31
+https://mp.weixin.qq.com/s/CXRjUVa-s26BFPLBVa4Guw
+https://platform.qianwenai.com/pricing/token-plan
+
+SpaceXAI 发布 Grok Bot 入门指南 02:47
+https://x.ai/bot/guides/grok-bot-101
+
+Sakana AI 发布 Fugu Max 与 Fugu Ultra v2 02:57
+https://sakana.ai/fugu-max-release/
+
+ElevenLabs推出Music v2.5 03:06
+https://x.com/ElevenLabs/status/2098457076410482971
+
+小米开源目标说话人语音识别大模型 Xiaomi-CocktailASR-1 03:18
+https://github.com/xiaomi-research/xiaomi-cocktailasr-1
+https://huggingface.co/Ease3/Xiaomi-CocktailASR-1
+https://arxiv.org/abs/2609.11274
+
+OpenAI 宣布 GPT-Rosalind 向全球符合条件组织开放 03:32
+
+OpenAI 发文介绍内部存储平台 Habitat 03:40
+https://openai.com/index/scaling-storage-one-billion-users-part-one/
+https://x.com/OpenAIDevs/status/2098502006935814272
+
+OpenAI Agent 被指两个月前曾攻击 RubyGems 03:55
+https://rubyhack.ai/
+https://www.reuters.com/legal/litigation/openai-agents-attacked-software-service-rubygems-before-hugging-face-incident-2026-09-11/
+
+报道称 OpenAI 考虑放缓最前沿 AI 开发 04:06
+https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff
+https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/
+
+英国议员推动禁止超级智能 AI 法案并呼吁达成国际协议 04:23
+https://x.com/alexsobel/status/2098448859659718955
+
+Elon Musk更新Grok 4.7进度：发布时间推后数日 04:32
+https://x.com/elonmusk/status/2098462085973741960
+https://x.com/elonmusk/status/2094983639780204846
+
+Tibo 称 GPT-5.3-Codex-Spark 将于下周下线 04:50
+https://x.com/thsottiaux/status/2098300998968357218
+
+测试者称DeepSeek移动应用灰度朗读功能提供4种音色 05:05
+
+消息称 Nvidia 洽谈最多投资 100 亿美元担任 Anthropic IPO 锚定投资者 05:14
+https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/
+https://www.bloomberg.com/news/articles/2026-09-11/nvidia-in-talks-to-invest-up-to-10b-in-anthropic-ipo-reuters</media:description>
+   <media:community>
+    <media:starRating count="19" average="5.00" min="1" max="5"/>
+    <media:statistics views="895"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:STGH82fzaKE</id>
   <yt:videoId>STGH82fzaKE</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -140,7 +249,7 @@ https://x.com/AndrewCurran_/status/2098083604853342688
 https://x.com/synthwavedd/status/2097971881596916185</media:description>
    <media:community>
     <media:starRating count="37" average="5.00" min="1" max="5"/>
-    <media:statistics views="3420"/>
+    <media:statistics views="3540"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,7 +344,7 @@ https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partne
 https://www.reuters.com/world/chinas-deepseek-taps-citic-securities-domestic-ipo-sources-say-2026-09-09/</media:description>
    <media:community>
     <media:starRating count="32" average="5.00" min="1" max="5"/>
-    <media:statistics views="3698"/>
+    <media:statistics views="3734"/>
    </media:community>
   </media:group>
  </entry>
@@ -326,7 +435,7 @@ OpenAI 承包 Firmus 马来西亚两处 AI 工厂专用算力 04:53
 https://firmus.co/newsroom/firmus-surpasses-900-mw-contracted-capacity-adds-openai-as-anchor-customer-and-expands-into-malaysia</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="1510"/>
+    <media:statistics views="1525"/>
    </media:community>
   </media:group>
  </entry>
@@ -384,7 +493,7 @@ ChatGPT 收复网站流量份额，Gemini 回落至 25.6% 02:02
 https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="2312"/>
+    <media:statistics views="2316"/>
    </media:community>
   </media:group>
  </entry>
@@ -427,7 +536,7 @@ https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2841067
 https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="913"/>
+    <media:statistics views="917"/>
    </media:community>
   </media:group>
  </entry>
@@ -579,7 +688,7 @@ https://www.bloomberg.com/news/articles/2026-09-04/deepseek-plans-big-huawei-ai-
 https://www.theinformation.com/articles/anthropics-house-payments-tech-push-chip-away-stripe</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="3401"/>
+    <media:statistics views="3404"/>
    </media:community>
   </media:group>
  </entry>
@@ -701,7 +810,7 @@ https://linux.do/t/topic/2850295
 https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="2078"/>
+    <media:statistics views="2079"/>
    </media:community>
   </media:group>
  </entry>
@@ -795,7 +904,7 @@ https://x.com/synthwavedd/status/2095184148981842161
 https://x.com/elonmusk/status/2094983639780204846</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="3165"/>
+    <media:statistics views="3159"/>
    </media:community>
   </media:group>
  </entry>
@@ -958,7 +1067,7 @@ https://www.ithome.com/0/996/649.htm
 https://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works/</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2826"/>
+    <media:statistics views="2825"/>
    </media:community>
   </media:group>
  </entry>
@@ -993,7 +1102,7 @@ https://www.theinformation.com/articles/apple-stumbled-ai-hardware-success-mac
 https://mp.weixin.qq.com/s/x4wUN14Lm17VwYrDBarJiQ</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="2043"/>
+    <media:statistics views="2044"/>
    </media:community>
   </media:group>
  </entry>
@@ -1043,7 +1152,7 @@ Anthropic 及创始人遭起诉 被控非法抓取数万版权作品 02:34
 https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="2028"/>
+    <media:statistics views="2029"/>
    </media:community>
   </media:group>
  </entry>
@@ -1109,115 +1218,6 @@ https://www.courtlistener.com/docket/72379655/250/anthropic-pbc-v-us-department-
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
     <media:statistics views="2121"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:RB46MLA7I6Q</id>
-  <yt:videoId>RB46MLA7I6Q</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>Gemini Omni 1.1 Flash 发布；Codex 重置用户用量并推出 Luna Reserve 备用额度【AI 早报 2026-08-28】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=RB46MLA7I6Q"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-08-28T01:28:03+00:00</published>
-  <updated>2026-08-31T06:17:45+00:00</updated>
-  <media:group>
-   <media:title>Gemini Omni 1.1 Flash 发布；Codex 重置用户用量并推出 Luna Reserve 备用额度【AI 早报 2026-08-28】</media:title>
-   <media:content url="https://www.youtube.com/v/RB46MLA7I6Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/RB46MLA7I6Q/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-Gemini Omni 1.1 Flash 上线：新增首尾帧控制与 4K 放大 00:09
-https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/
-https://ai.google.dev/gemini-api/docs/omni
-https://aistudio.google.com/prompts/new_chat?model=gemini-omni-1.1-flash
-
-Tibo称所有ChatGPT Work与Codex用户额度已重置 00:26
-https://x.com/thsottiaux/status/2093014447833116908
-
-OpenAI 推出 Luna Reserve 备用额度 00:32
-https://help.openai.com/en/articles/20001499-luna-reserve-in-codex-and-chatgpt-work?utm_source=chatgpt.com
-
-ChatGPT临时聊天更新：可调用记忆与插件，支持转为常规聊天 00:49
-https://help.openai.com/en/articles/6825453-chatgpt-release-notes
-https://x.com/ChatGPT/status/2093037143639851121
-
-OpenAI 联合 Anthropic 等呼吁加强网络防御 01:04
-https://openai.com/collective-cyberdefense/
-https://x.com/OpenAI/status/2093074192636018977
-
-Anthropic 推出 Model Hardware Standard 研究预览版 01:16
-https://www.anthropic.com/news/model-hardware-standard-research-preview
-https://www.modelhardwarestandard.com/
-
-蚂蚁百灵发布金融增强模型 Ling-3.0-flash-Fin 01:31
-https://x.com/AntLingAGI/status/2093022087069958492
-https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free#providers
-
-fal 推出基于 MiniMax H3 的后训练模型 H3 Max 01:44
-https://blog.fal.ai/introducing-h3-max-by-fal/
-https://x.com/fal/status/2092710676431020376
-
-Midjourney V8.2图像编辑模型开启测试 01:56
-https://updates.midjourney.com/edit-model-for-v8/
-https://alpha.midjourney.com/
-
-BreezeBlue 开源 Breeze TTS 2 语音模型 02:06
-https://huggingface.co/BreezeBlue/Breeze-TTS-2
-https://github.com/breezeblue-ai/breeze-tts
-https://breezeblue.ai/breeze-tts-2
-https://breezeblue.ai/
-
-Cohere 发布文档解析模型 Parse 5 02:17
-https://dashboard.cohere.com
-https://huggingface.co/spaces/CohereLabs/cohere-parse
-
-全新Qoder发布：推编程与通用双模式及桌面端 02:26
-https://mp.weixin.qq.com/s/zv__neHCaFBZrWP2Nvmxxg
-https://qoder.com
-https://qoder.cn
-
-阿里云百炼下调 Qwen3.8-Flash 模型价格 02:42
-https://www.aliyun.com/notice/detail?notice-id=118600
-
-AISI 发布开源工具 optstop 以动态优化 LLM 评估算力 02:53
-https://www.aisi.gov.uk/blog/optimal-stopping-spending-evaluation-compute-where-it-counts
-https://github.com/UKGovernmentBEIS/optstop
-
-Hugging Face 发布开源双足机器人 Microduck 03:04
-https://pollen-robotics.com/microduck/
-https://github.com/pollen-robotics/microduck
-
-Google搜索AI Mode升级旅游规划功能 03:20
-https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/
-
-Gemini Notebook支持导入已购Google Play电子书 03:29
-https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/
-https://notebook.google/expert-intelligence/
-
-谷歌DeepMind试运行前沿AI模型双盲评估 03:38
-https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/
-https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/piloting-the-worlds-first-double-blind-ai-evaluations/double-blind-evaluations-technical-report.pdf
-https://x.com/GoogleDeepMind/status/2092961763553677387
-
-Anthropic推出科学家专属Claude订阅方案，提供一万免费席位 03:49
-https://www.anthropic.com/news/expanding-support-for-scientists
-http://claude.com/programs/team-plan-for-scientists
-
-消息称英伟达同意129亿美元收购Hugging Face 03:57
-https://www.theinformation.com/articles/nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion
-
-消息称英伟达暂停与AI云服务商的收益分成交易 04:06
-https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e
-
-Google 员工回应 Ox Alpha 暗示争议 04:20
-https://x.com/OfficialLoganK/status/2092705771389894709</media:description>
-   <media:community>
-    <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="2185"/>
    </media:community>
   </media:group>
  </entry>

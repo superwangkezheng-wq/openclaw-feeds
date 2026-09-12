@@ -15,8 +15,776 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Sat, 12 Sep 2026 01:15:45 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 12 Sep 2026 11:39:29 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[我让豆包工作统计了466次融资，顺便告诉我哪家具身智能不能投]]></title>
+            <description><![CDATA[<p>最近，<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>刷屏了。</p>
+  <p><strong>8月底，<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>正式发布面向生产力场景的“<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>”。</strong>官方给它的定义，是围绕用户目标自主拆解任务、调用工具、持续推进复杂工作流程。</p>
+  <p>而在“民间”，讨论声量最高、出现得最频繁的说法，是“<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>有Agent了”。</p>
+  <p>坦白说，我最开始其实没太大感觉。过去一年，Agent已经快被AI行业说烂了：能联网搜索叫Agent；能操作浏览器也叫Agent。很多Demo都很惊艳，可一旦塞进真实工作流，体验是真不行：任务只要稍微复杂一点，人还是得一直盯着。</p>
+  <p>所以这次，我们没有从“帮我写份周报”“总结一下这个PDF”这种入门级任务开始，而是直接把手里三个最麻烦、最容易“翻车”的真实市场研究项目，直接丢给了<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>。</p>
+  <p class="image-wrapper"><img data-img-size-val="1858,872" src="https://img.36krcdn.com/hsossms/20260912/v2_1d91d53153ec45a2ba819e453d3e67b3@19153231_oswg1529530oswg1858oswg872_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>第一个，是统计2026年1月-8月中国具身智能一级市场融资情况。</strong>这个任务最后整理出了466次融资记录，我又让它基于这批数据写行业研究、出可视化报告，还让它筛出15家“不能投”的公司。</p>
+  <p><strong>第二个，是给一款AI眼镜做一套8张宣传海报。</strong>图做完以后，我又（像一个讨厌的领导一样）让它重新研究AI眼镜市场，再根据用户痛点把整套海报的传播重点改一遍。</p>
+  <p><strong>第三个，则涉及到一些协作分工。</strong>我让“HR招聘助手”先研究具身智能行业的人才薪酬和招聘趋势，再把结果交给“虚拟PPT专家”做成汇报。</p>
+  <p><strong>三轮用下来，最大的感受有两点：</strong></p>
+  <p>第一，电脑终于被解放了。</p>
+  <p>Vibe Coding爆火之初，满大街都是端着半开的电脑边走边敲的无辜路人，这一景象想必大家都不陌生。</p>
+  <p class="image-wrapper"><img data-img-size-val="1143,1404" src="https://img.36krcdn.com/hsossms/20260912/v2_c67985d4892444eeb9884b9cc15dfe15@19153231_oswg1464432oswg1143oswg1404_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">（图片来源：歌手胡彦斌社交媒体发文“vibe coding的都懂这个姿势！修bug在路上…”）</p>
+  <p>之所以有这种“人类供着电脑”的倒反天罡，原因在于之前但凡跑一个复杂一点的Agent，电脑绝对不能关机、不能断网、也不能离开屏幕前（可能随时要确认权限或是打断进程）。像胡彦斌这种出门买个咖啡、吃个饭都得端着电脑不敢开机的“离谱”案例，比比皆是。</p>
+  <p>而这一次，<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>的“云电脑”跟“多端同步”功能终于把AI的这个被惯坏的毛病给改了过来。</p>
+  <p>只要在任务运行时选择“云电脑”，那么即使关机以后，任务还会继续在云端跑，而“多端同步”功能则让用户可以随时随地在手机上查看进度，甚至实时追加要求、纠正方向。真正做到“手机/电脑/Web互通，24小时让<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>打工。”</p>
+  <p class="image-wrapper"><img data-img-size-val="1179,2312" src="https://img.36krcdn.com/hsossms/20260912/v2_c9bb3ededdab4b69bacbd4dbdb20bc7e@19153231_oswg518979oswg1179oswg2312_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">（关闭电脑后，依旧可以用手机查看进度、补充信息、打断指令、修改方向）</p>
+  <p>而第二个最大的感受，是使用<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>不用安装其他APP，因为“‘<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>’本身就在‘<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>’里”。</p>
+  <p>这话听起来似乎无关紧要，但其实优势很大。你知道现在让用户下载一个APP有多难吗？<strong>根据QuestMobile《中国互联网发展年鉴(2025-2026)》数据，2025年9月，全网人均使用APP个数为29.4个，只比2024年同期多0.9个。</strong></p>
+  <p>对普通用户来说，每多安装一个APP、多注册一个账号、多重新告诉AI一次“我是谁、我平常怎么工作”，都是成本。转化漏斗多一层就得劝退90%的人。</p>
+  <p>反观<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>，以<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>现在的渗透率来说，你的手机和电脑上大概率已经装了这个APP，直接在里面点开工作模式就行了，完全没有格外的下载门槛。</p>
+  <p>此外，由于<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>直接打通了飞书，企业群聊、文档、日程、多维表格等组织上下文，AI读完直接就能干活，使用门槛进一步被拉低。而你过去在<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>和飞书里积累的记忆、对话和使用习惯，也能无缝适配到<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>中。</p>
+  <p>除了这两点使用便利上的感触外，还有一点，也是最重要的，从它的工作交付能力来看，有一个特点：</p>
+  <p><strong><ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>是少数真正能够融入我的工作流、以“完成一项工作”为单位自发组织AI能力的产品。</strong></p>
+  <p>看完我测试的几个任务的具体完成情况，你就知道我在说什么了。</p>
+  <h2><strong>466次融资统计，把“脏活累活”接走</strong></h2>
+  <p>我交给<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>的第一个任务是，面对如今如火如荼的具身智能一级市场，统计1～8月国内所有企业融资情况。</p>
+  <p>如果你做过产业研究，大概会理解我为什么先拿融资统计走做测试。</p>
+  <p>这类工作表面上特别简单，搜新闻，找资料，填表，然后重复。</p>
+  <p>但真正干起来，会发现藏在琐碎细节里的“dirty work（脏、苦、累活）”特别多。比如一笔投资，有的新闻只写领投方，有的新闻又把前几轮的投资方都掺在一起讲。同一轮融资可能被十几家媒体重复报道，有的口径是“数亿元”，有时候又说“数千万美元”……</p>
+  <p>总之每个问题都不大，三五分钟都能解决，但真把几百笔融资堆在一起，就会变成一个极其耗神、极其让你觉得自己时间不值钱的工程。</p>
+  <p>因此，开始第一项任务测试时，为了防止一上来就翻车，我专门把第一个Prompt写得很详细（具体见图），还特意叮嘱了<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>要调用“市场热点分析”“一级市场公司评估”“文档”“可视化”这几个Skill。</p>
+  <p class="image-wrapper"><img data-img-size-val="2130,1406" src="https://img.36krcdn.com/hsossms/20260912/v2_c69e564756e34375996e3ccbc9c95d83@19153231_oswg330861oswg2130oswg1406_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>顺便一提，<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>里内置了非常多Skill，基本上你能想象的所有办公场景都能覆盖，而且还在不断添加更新中。</p>
+  <p class="image-wrapper"><img data-img-size-val="1816,1560" src="https://img.36krcdn.com/hsossms/20260912/v2_227f57fc644a4166b251487008a34ea1@19153231_oswg491061oswg1816oswg1560_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">（<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>部分Skill一览）</p>
+  <p>开始运行之后，我原本已经做好了反复补Prompt的准备。结果任务真正跑起来以后，顺畅得有些出乎意料。</p>
+  <p>跟某些超级“傻”，连一级市场融资信息该去哪儿找都得我手把手教的Agent不一样，<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>会精准定位到可信信源，自主搜索、继续追踪来源、整理信息、调用技能，再把内容写进文档；遇到需要浏览器或图形界面完成的动作，也会借助云电脑继续执行。</p>
+  <p class="image-wrapper"><img data-img-size-val="876,720" src="https://img.36krcdn.com/hsossms/20260912/v2_ac8d6238c41645f7aa702b6eff2738c4@19153231_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">（<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>还会实时“汇报”节点进度，用户随时可以打断或调整）</p>
+  <p>可能是我第一个Prompt写得太好了（笑），整个过程非常丝滑，大概15分钟～20分钟左右，<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>就给出了结果。</p>
+  <p><strong>在本次任务中，<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>一共统计了466次融资数据，全部准确按照我的指令进行分类，同时在最后的行业研究报告文档中，它还主动对这些数据进行了分析研判，图表呈现。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="610,400" src="https://img.36krcdn.com/hsossms/20260912/v2_3ac7f60431634ce780708a5941a35744@19153231_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p><strong>而这其中，最为难能可贵的，是<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>对于“幻觉”问题的严密控制。</strong>首先，每处数据都会标注数据来源及日期，确保信息的可靠性与时效性；另一方面，所有缺少公开信息的栏位，<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>都会选择留空处理，涉及口径或数据冲突的还会单列标明，不会出现严重的幻觉问题。</p>
+  <p class="image-wrapper"><img data-img-size-val="1552,1068" src="https://img.36krcdn.com/hsossms/20260912/v2_64250f8065e54b2096a2b09ce98b3c45@19153231_oswg361071oswg1552oswg1068_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>坦白说，如果人工搜集，再加上写报告与制表过程，这绝对是一个投资经理带着实习生一周的工作量。</p>
+  <p><ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>这次，只用了不到20分钟。</p>
+  <p>而且，整个过程中最明显的变化，是我不需要像以前指导“实习生”那样告诉AI，先去哪里搜集资料、搜哪些资料、怎么辨别信源可靠性、用什么软件做表格、分析什么指标、怎么整理报告素材……</p>
+  <p>这次，我只需要告诉它最终要解决什么问题，<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>的Agent就能像个专业的“社畜”一样，自主完成工作流，自主把目标拆成任务，连续执行。</p>
+  <h2><strong>第二轮，上强度</strong></h2>
+  <p>有了第一轮的成功，咱们在第二轮测试里开始上强度。</p>
+  <p>这一次，我把Prompt写得异常简单，而且挖了坑——“从VC的视角，这466次融资涉及的公司里，哪15家不能投，为什么？”</p>
+  <p>这任务的难点在于，统计466笔融资，本质上仍然只是信息搜集的机械工程；但判断“能不能投”，则需要把一个主观问题拆分成一套可量化的分析框架：团队、技术壁垒、赛道竞争、融资节奏、估值、商业化确定性、资本结构、产品同质化程度……</p>
+  <p>熟悉市场研究的人知道，这可不是个容易下的判断。它既需要结合当前具身智能市场的具体情况、冷热程度，也要根据自身机构的投资风格、风险偏好进行判断，甚至有时研究结果会非常“反常识”，大众认知度极高领域的“明星项目”，往往未必是投资人眼中的好项目，这也是我给<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>挖的“坑”。</p>
+  <p>总而言之，这是个非常复杂的任务，我没有给出任何判断标准、没有任何执行方案，只是用（最像领导的口气）下达了一个任务，顺便看它会不会掉坑。</p>
+  <p>来看结果。</p>
+  <p class="image-wrapper"><img data-img-size-val="2868,1740" src="https://img.36krcdn.com/hsossms/20260912/v2_874eaca1d713414ba1e0e1721fa92a0b@19153231_oswg954208oswg2868oswg1740_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>首先，最让我意外（而且惊喜）的，不是<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>选了或者没选哪家公司，而是它一上来就主动把结果分成了两档：A档，硬性回避；B档，选择性回避。</p>
+  <p>这个结构我没要求，它自己补充的。而之所以让人“惊喜”，是因为很多AI都能严格执行Prompt，最多在收尾的时候提一句“是否希望我xxxxx”。但在真实世界里，领导的要求往往就是模糊不清，只给个粗糙大方向的。</p>
+  <p>而能否在Prompt的具体指令之外，真正理解说话者的意图，主动补充信息结构，以意图为主导去进行任务交付，而不是“踢一下动一下”，这是真实世界里区分“普通员工”与“优秀员工”的一条线。</p>
+  <p>至于具体结果，名单我在这里就不放了，只能说它给出的公司与判断标准中，有七成我是直接赞成的；剩下三成倒不是不赞成，只是对那些公司了解的不多，我作为人类还需要进一步判断。</p>
+  <p>顺便“剧透”一下，我给<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>挖的“坑”它没跳，并没有因为某某具身智能企业是明星项目，就没有把它列入名单——至于具体是哪家，大家可以自己问一下<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>（笑）。</p>
+  <p>从结论上来说，两个任务用下来，我的最大感受是：<strong><ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>的Agent能力已经不是“实习生”级别了，只要用得好，完全可以达到从业者的平均水平以上。</strong></p>
+  <p>过去，一个研究员可能要带着实习生花几周时间做资料搜集、框架搭建、初步筛查……现在，这部分工作完全可以先交给Agent跑一遍，而人类作为“领导”，只需要把时间放在最值钱的地方：检查假设、挑战结论、做最终判断。</p>
+  <h2><strong>AI开始“找同事”</strong></h2>
+  <p>下一项任务，我换了一个方向，做海报。</p>
+  <p>这看似是一个非常简单、非常常见的海报生成需求……但是！这其实是一个极其容易暴露AI Agent能不能真正融入工作流的需求。</p>
+  <p>先看Prompt，写得很简单，“给我出一套8张的AI眼镜海报宣传图，字要大，要震撼，要高级，要时尚”</p>
+  <p>但问题在于，你如果跟人类设计师说“我要一套8张海报”，设计师知道你是要针对“同一款产品”的“8个不同宣传卖点”设计8张不同海报。</p>
+  <p>可普通AI工具，在收到这个Prompt后，往往会错误理解为“8张不同眼镜的海报”，或者“同一张海报的8张微调版本”，翻车率几乎80%，大家可以去试一下。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,371" src="https://img.36krcdn.com/hsossms/20260912/v2_86148c020024444abc996e284f0620b9@19153231_oswg455596oswg1080oswg371_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">（其他AI工具生成结果）</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,817" src="https://img.36krcdn.com/hsossms/20260912/v2_dd5871ab1c1e420faa5d0885272dc48d@19153231_oswg1222705oswg1080oswg817_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">（<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>生成结果）</p>
+  <p><ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>不仅像一个真正的设计师一样，准确理解了“一套”的意思，8张海报的AI眼镜主体、图片文字、视觉风格均保持统一，更有意思的是，它在交付图片之外，还主动给出了整套设计逻辑，以及每一张海报对应的传播重点。</p>
+  <p>设计师最烦的“来，讲讲你的设计理念”环节，也顺手做了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1060,996" src="https://img.36krcdn.com/hsossms/20260912/v2_e7da44c0a13e4e5fab5ed130eb26906b@19153231_oswg127536oswg1060oswg996_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>到现在为止，满意，但还不够。</p>
+  <p>接下来，又到了喜闻乐见的上强度时间。</p>
+  <p>我另外开了一个任务，让<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>研究当前AI眼镜市场、用户需求和消费痛点，写成文档发给我。</p>
+  <p>在完成研究后，我又回到海报任务中，让AI“跨群聊”，根据市场研究的用户痛点，重新调整卖点方向。</p>
+  <p class="image-wrapper"><img data-img-size-val="2280,1594" src="https://img.36krcdn.com/hsossms/20260912/v2_16da362d6ef74858beb055475cc7d4db@19153231_oswg423543oswg2280oswg1594_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>，果不其然，一键搞定。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,817" src="https://img.36krcdn.com/hsossms/20260912/v2_0fc99f300dd74140ba84026e16989cdf@19153231_oswg1250037oswg1080oswg817_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">（根据市场研究结果重新调整卖点权重的海报）</p>
+  <p>这其实是一个非常接近真实工作流的项目体验，Brief不会一成不变，市场团队会补充调研，产品会改卖点，老板往往直接甩过来一个报告文档，需要产品经理自己研究应该如何调整方向，再跟设计团队反复沟通，过程非常复杂。</p>
+  <p>真正在办公室里泡过的人会知道，上班一天里的大量时间，都是这样消耗在跨部门的信息搬运、碰头会、拉齐水位上。</p>
+  <p>任何AI，如果只能在一个对话框里干活，它依然只是一个很厉害的工具；但当AI能够在不同任务之间自由“跨群聊”共享信息、推进协作，甚至主动“找同事”，那它可能真能帮我干活。</p>
+  <p>顺便一提，<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>里还内置了“伙伴对话”功能，用户可以选择不同专业方向的Agent，在同一个群里让它们协同分析、拆任务和交付。</p>
+  <p>例如，我试了一下，让内置的“HR招聘助手”研究2026年6-8月具身智能行业的人才薪酬变化，在结果还没出来前就@另一个内置的“虚拟PPT专家”，让其生成一套适合汇报的PPT。</p>
+  <p class="image-wrapper"><img data-img-size-val="2284,1606" src="https://img.36krcdn.com/hsossms/20260912/v2_94d07cef41cf4d158d098d96cc3f5fc5@19153231_oswg577538oswg2284oswg1606_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>结果没啥悬念，PPT算是各大AI工具轮番攻克过几轮的重点项目了，排版、美观、数据呈现都没话说，“HR招聘助手”给的信息也是来自正确的公开招聘平台。</p>
+  <p>个人来说，如果只是作为普通的企业员工，这个“伙伴对话”跟主对话框里的体验感觉差不太多，我目前还没有开发出其他更有趣的玩法。</p>
+  <p><strong>但换个思路想，“伙伴对话”功能最符合的用户使用场景，也许是“一人公司”。</strong></p>
+  <p>以前所谓“一人公司”，其实多少有些隐含的“外包”条件，比如法务、财务、审批合规等等。但如果把AI生产力继续沿着这个方向往前推，一家公司里出现“1个人类老板+20个虚拟员工”，技术上已经不太是挑战了。</p>
+  <p>甚至未来创业者真正重要的问题可能会变成：你会不会管理Agent？</p>
+  <h2><strong>结语：AI办公，“卷”到下一阶段</strong></h2>
+  <p>个人兴趣加上职业需求，我基本算这一轮AI产品的第一批重度用户。尤其是最近，国内外各种AI Agent、工作Agent、Computer Use、Deep Research、通用Agent，能试的基本都会试。</p>
+  <p>所以坦白说，我对目前市面上一大批吹得天花乱坠的Agent工具没什么新鲜感，尤其是真的试过其中绝大部分之后，感觉是Demo很好看，但真上班，还是得自己来。</p>
+  <p>很多产品解决的是一个动作，比如查资料、写文章、做PPT，最近又流行操作浏览器。AI的单点性能越来越强，但真正在工作流里把它们串在一起的，还得是生物学意义上的“人”。</p>
+  <p>但<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>这次让我明显感受到的变化，是另一种产品逻辑——<strong>“项目”正在成为AI交付的基本单位。</strong></p>
+  <p>用户给的是目标，思考的是方向；具体由Agent负责拆任务、找资料、调用技能、操作电脑、生成文件，必要时再找其他Agent协作，然后完成一份可以交付的结果。</p>
+  <p>而云电脑、多端同步、Skill、工作伙伴这些功能，放在这个逻辑下也就都串起来了。</p>
+  <p>真正的工作可能要跑几个小时，人不可能一直守在电脑前；复杂的工作，本来就很少由一种专业能力完成；跨群聊、跨技能、跨数据源、跨上下文沟通这些也本就是人们日常工作的常态。</p>
+  <p>因此，<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>这次最大的亮点，不仅仅是它“又多了几个功能”，而是它<strong>真正开始以“完成一项工作”为单位，自发组织AI能力，以交付为导向。</strong></p>
+  <p>看来，AI办公，已经“卷”到下一阶段了。</p>
+  <p>顺便一提，我测试阶段“薅”的是<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>的免费订阅羊毛，现在网页搜索<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>下载电脑端能免费领30天的订阅权益，之前订阅过的也会自动顺延一个月。</p>
+  <p>注：文章所有图片内观点及数据均为AI生成，可能有误，请注意核实。</p>
+ 
+]]></description>
+            <pubDate>Sat, 12 Sep 2026 10:41:49 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3980263622818822</guid>
+            <link>https://www.36kr.com/p/3980263622818822</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[100人干了2000人的活：AI正在重算影视行业的三笔账]]></title>
+            <description><![CDATA[<p>AI影视，终于走到了长剧领域。</p>
+  <p>8月底，《后西游记》登陆芒果TV与湖南卫视黄金档。30集、单集40分钟、无真人演员，这部完全由AIGC技术完成画面与人物演绎的作品，让此前停留在短片、漫剧和概念演示中的AI影视，第一次进入长剧内容形态。开播当日，芒果超媒股价涨停，此后一周内涨幅约50%，整个影视板块跟着上涨约10%——资本市场用真金白银，给这部AI剧投了一票。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,472" src="https://img.36krcdn.com/hsossms/20260912/v2_c0cf2cc74b384d8688a9fab4a11c33f8@5409015_oswg265010oswg1080oswg472_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>资本市场看到的，显然不只是“首部上星AI长剧”的标签。做一部长剧，传统影视要算三本账：制作账，头部项目往往意味着高额的前期投入；资产账，演员、实景、服化道等生产要素复用率有限，大量成本随着项目结束沉淀；生意账，会员、广告仍是主要回收路径，项目成败高度依赖播出后的商业表现。</p>
+  <p>而从“广电21条”后的边审边播，到109个角色、143个场景以数字资产形态沉淀下来、可反复调用，《后西游记》把这三本账一本一本动了。</p>
+  <p>AI究竟如何从一个生成工具，走进一部长剧的创作现场？三笔账背后，生产关系发生了什么变化？带着这些问题，文娱先声与《后西游记》总导演李东珅展开了对话。</p>
+  <h2><strong>第一笔账：制作账</strong></h2>
+  <p>选题上，《后西游记》就显出了与过往AI项目不同的思路。</p>
+  <p>市面上AI影视扎堆经典IP和公版名著，团队偏偏挑了一部“冷门货”——明末清初匿名作者的同名神魔小说。剧集以四十回原著为基础，融入《西游记》中的相关伏笔与线索，对这一IP进行了重新演绎。</p>
+  <p>李东珅对文娱先声表示，“虽然《后西游记》是西游三大续作之一，但知道它的人并不多，文本本身没有《西游记》那么成熟”。这对创作团队而言，反而意味着更大的改编和想象空间。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,477" src="https://img.36krcdn.com/hsossms/20260912/v2_42870298564b4d5f8031342966340413@5409015_oswg498729oswg1080oswg477_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这个选择里有一层务实的计算：西游是全民文化符号，观众熟悉到每一个细节，任何偏差都会被放大检视；而《后西游记》几乎没有成熟的影视版本，AI表演尚显生涩的短板被藏了起来，神话题材的想象空间却被放到最大。扬长避短，是AI长剧面对能力边界时的第一次自觉。</p>
+  <p>但改编并不意味着可以随意发挥。面对《西游记》这样一个全民文化符号，李东坤的态度很明确：不魔改。</p>
+  <p><strong>在他看来，与其为了制造新奇感而彻底颠覆原有设定，不如借助这个IP传递当下创作者的价值观。</strong>“借用人物框架和修心成长的母题，在叙事结构和人物走向上做现代化转译，保留的是‘修心’‘成长’这些核心价值。”比如，孙小圣不是靠突然获得超能力完成蜕变，而是在一路经历与自我寻找中，用心力推动成长。</p>
+  <p>美术层面同样克制。创作团队没有让AI自由发挥“古风”，而是先从中国传统绘画和历代《西游记》绘画中提炼元素，完成大量参考图和视觉设定，再交给模型生成，以此规避AI最容易落入的“泛古风”陷阱，“地府、天宫可以浪漫、飞扬，但视觉基础仍然需要有所依托。”</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,462" src="https://img.36krcdn.com/hsossms/20260912/v2_c203b14f8ee942a2bed2615aa232cebc@5409015_oswg46536oswg1080oswg462_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>有趣的是，AI也在反过来影响创作。</strong>比如在一次聚会场景的生成结果里，团队发现猕猴王的神情气质比原定反一号牛魔王更适合做反派，于是临时调整了人物设定。在李东珅看来，AIGC不只是执行工具，更像一个“合作伙伴”，“它有自己的生成逻辑和反馈，有时反而会给创作者带来意料之外的启发”。</p>
+  <p>不过，对于AI长剧而言，真正难的从来不是生成一段惊艳的画面，而是让成千上万帧画面始终属于同一部作品。<strong>李东珅把“一致性”称为AI长剧的生死线。为了守住这条线，团队从制作流程的各个环节设置了多重防线。</strong></p>
+  <p>首先是资产标准化。109个角色、143个场景逐一经过不同角度、表情、光影条件下的反复校验；其次是定帧，关键帧由人把控——这一帧是谁、站在哪、光从哪来、情绪走到哪一步，定帧之间的衔接才交给模型。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,463" src="https://img.36krcdn.com/hsossms/20260912/v2_d3849db6626a415da244a9e6eb709640@5409015_oswg57492oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>人的判断由此变得更重。“我做的工作，概括说就是早期的想象和后期的判断。”李东坤表示，<strong>模型一次可以生成数百个版本，真正耗费精力的，是从中快速判断哪个版本符合叙事和审美。</strong></p>
+  <p>除此之外，团队此前制作《台湾岛纪》时已经跑通了一套AIGC长内容生产流程，这为《后西游记》的制作提供了经验基础。再加上与芒果灵创的协作，团队才能在较短时间内维持长剧内容的稳定输出。</p>
+  <p>至于制作效率，用李东坤的话说：“3个月做了15集，100人干了传统2000人的活。”</p>
+  <h2><strong>第二笔账：资产账</strong></h2>
+  <p>制作账上数字的变小是直观的。芒果超媒董事长蔡怀军透露，该剧从策划到上线的时间较传统三维动画压缩了70%，总成本约为同类S级真人剧的几分之一。但真正值得记入行业账本的，是第二笔账——内容资产的使用方式被改写了。</p>
+  <p>过去一部剧拍完，演员档期、实景搭建、服化道往往随项目结束而沉没；而在AIGC生产中，角色和场景本身就是可以反复调用的数字资产。目前，《后西游记》沉淀的109个角色资产、143个场景资产，不仅服务于本季，也能在第二季和衍生开发中反复调用。蔡怀军将其概括为AI的重要价值：资产持续复用，以及由此带来的边际成本递减。</p>
+  <p><strong>这是影视行业第一次真正出现“软件逻辑”</strong>：一部剧的价值不再只停留在播出这一遍。资产数字化沉淀之后，续作、番外、围绕角色展开的短内容都可以低成本调用，一部剧的开发链条被拉长，内容资产不必随单个项目终结而终结。对平台而言，内容储备的计价方式也随之改变。过去评估一部剧只看单部回报，未来或许要算上整个资产池的长期收益。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,462" src="https://img.36krcdn.com/hsossms/20260912/v2_09d85d0c04c64c41a79305c9e33c6590@5409015_oswg77045oswg1080oswg462_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>资产账还有更深的一层，藏在视觉体系和生产流程里。</p>
+  <p>《后西游记》的全部生产都在芒果灵创云端平台完成，其基于自有素材库形成的统一视觉风格，也被纳入这套生产体系。视觉风格本身并不难模仿，难的是把这种风格稳定维持在30集、上百个角色和场景之中。支撑它的并不只是某一套模型，而是素材库、参数体系、角色资产、工作流，以及创作者不断筛选和修正之后形成的审美标准。</p>
+  <p>换句话说，AIGC资产化的重点，已经不只是把角色和场景“存下来”，而是把一部分创作经验和生产规则也沉淀下来。当这些东西能够被标准化、重复调用和持续扩展时，复用的就不再只是几张图、几个角色，而是一整套生产能力。</p>
+  <p>这可能才是资产账最值得重算的地方：AI留下的不只是内容库存，也可能是一条可以继续运转的生产线。</p>
+  <h2><strong>第三笔账：生意账</strong></h2>
+  <p>前两本账省下来的钱，最终要在生意账上见真章。</p>
+  <p>《后西游记》没有走“制作完成—送审—播出”的线性老路，而是制作、审核、播出三线并行：第一季30集，已播5集，另有10集随时可上线，其余仍在制作和调整之中。</p>
+  <p>这套“边制作、边审核、边播出”的模式，最大的变化在于，观众不再只是生产完成后的接受者。李东坤告诉文娱先声，播出后的观众反馈会进入复盘会，直接影响后续剧本、节奏乃至叙事逻辑——剧本并未一次写完，修改和共创的空间被刻意保留。</p>
+  <p>在他看来，这等于把传统影视的线性流水线，变成了一个带有反馈回路的并行系统。过去，创作者关起门做完一部相对封闭的作品再交给观众；现在，创作判断与观众反馈在制作过程中不断碰撞，而AI更快的生成速度，让这种碰撞第一次真正落地。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,462" src="https://img.36krcdn.com/hsossms/20260912/v2_275b06773baa47d082660c758eac08f8@5409015_oswg34699oswg1080oswg462_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而《后西游记》在今年3月提方案、5月立项、8月播出，这个速度离不开芒果“敢想敢干、敢为人先”的气质，也离不开芒果灵创较早的AIGC积累。</p>
+  <p>不过，门槛并没有消失，只是换了位置：想象力、判断力、人机沟通能力，以及对光影和视觉规律的理解，变得比任何时候都更重要。短视频可以是一次性、碎片化的生成，长剧面对的则是数千帧画面的长期一致性，以及几十集尺度上人物、场景、镜头语言与叙事逻辑的持续稳定。</p>
+  <p>值得一提的是，《后西游记》在生意账上已有进账。蔡怀军透露，首批5集表现“完全符合预期”，会员拉新和用户拓展带来的变化明显，男性用户拉新率超出预期——对一向女性用户占比偏高的芒果TV来说，一部神话题材的AI长剧带来久违的用户增量。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,462" src="https://img.36krcdn.com/hsossms/20260912/v2_087e4fe6ea9643d7bd4c29aee27f0b69@5409015_oswg52064oswg1080oswg462_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>商业化也在跟进。芒果方面透露，已有广告客户追投下单，并关注AIGC在创意呈现和成本控制上的价值；小芒电商也已经启动《后西游记》周边企划，相关产品将随剧集推出。</p>
+  <p>与此同时，芒果TV还成立了AIGC创新内容中心，推出AIGC合伙人计划，向少儿动画、国风经典IP、女性题材持续开放IP与合作机制。由此看来，《后西游记》验证的不是一个项目，而是一种新的内容生产和商业化可能。</p>
+  <h2><strong>结语</strong></h2>
+  <p>冷静来看，要算好这三笔账，并非易事。</p>
+  <p>创作账上，长程记忆、内容稳定性、人工校验成本等课题依然存在：一部长剧很难在持续生成中始终保持上下文连贯，画面跳脱、人物崩坏仍需大量人工兜底。这也是整个AI长视频行业绕不开的。</p>
+  <p>制作账上，AI大幅压缩了人力与周期，但算力和Token消耗正在成为新的成本大头。据《每日经济新闻》报道，多位AI影视从业者提到，部分项目的算力和Token消耗最高可占总投资的七成以上。生意账上，AI长剧的收入逻辑仍主要依赖广告和会员——制作成本下降解决，并不自动解决能不能赚到钱的问题。</p>
+  <p>还有一本最难算的账：注意力。当下行业对AI技术的关注，依然远高于对具体内容的讨论。当“首部登陆卫视黄金档的AI长剧”成为标志性事件，技术带来的景观不能盖过作品本身。</p>
+  <p>归根结底，账本可以重写，观众手里的遥控器不会说谎。对正在快速进入影视行业的AIGC而言，真正的考验，或许才刚刚开始。</p>
+  <p>*本文图源网络，如侵权联系删改</p>
+  <p><strong>作者 | 王烨 &nbsp; &nbsp; &nbsp;编辑 | 先声编辑部‍‍‍‍‍‍</strong></p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/RUZj7Ze9OY6CEbT_S7u2lw">“文娱先声”</a>，作者：先声编辑部，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 12 Sep 2026 09:49:26 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3980057243441029</guid>
+            <link>https://www.36kr.com/p/3980057243441029</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[日薪千元的AI实习生，在焦虑什么？]]></title>
+            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20260912/v2_e4d8ff7e29f04481be09bcf2e9588a75@5305161_oswg111260oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>一名00后研究生还没走出校园，就以实习生身份领着5000元的日薪，这个数字，比不少普通白领的月薪还高。如果毕业转正，年薪甚至可以给到300万。这是AI抢人大战下的真实现状。&nbsp;</p>
+  <p>据多家媒体披露，字节、腾讯、阿里等大厂的AI核心业务，博士生实习日薪5000–6000元，即便是普通AI实习，日薪也在500–1000元，并附带房补。&nbsp;</p>
+  <p>更值得关注的是涨幅。有报道称，去年一个普通算法研究员能接受的基准线还是100万+，今年已经变成了200万+；智联招聘数据也显示，2026年上半年，人工智能行业招聘企业数同比增长26.3%，招聘职位数同比增长10.6%。需求和薪资同步攀升，企业愿意为一个尚未毕业的实习生开出千元日薪，也就不难理解了。&nbsp;</p>
+  <p>拿到这份高薪的，都是些什么人？我们找到了五位日薪千元的AI方向实习生：有人虽然学的专业与AI并不直接相关，但凭实力入职了核心算法岗；有人拿着大厂人才计划超过1500元的日薪，研究怎么教大模型完成长程任务；有人辗转多家大厂基模团队，见过日薪2000元的实习生，也看清了普通人与天才的差距；有人从非科班起步，用四段实习完成了从数据、算法到产品的转身；还有人去年实习日薪只有四五百元，今年却已拿到1200元。&nbsp;</p>
+  <p>有人享受着不打卡、无KPI的宽松，有人享受着站在AI最前沿的位置，但他们中的大多数，都在怀疑同一件事：这场“造富”运动里，自己到底还能站多久？&nbsp;</p>
+  <p>以下是他们的故事。&nbsp;</p>
+  <p><strong>01.不打卡不开会，但我依然很焦虑</strong></p>
+  <p><strong>张明明 | 清华大学工科专业硕士</strong></p>
+  <p>我是清华硕士在读，学的是和AI没有直接关联的工科专业。目前在一家金融科技公司做算法实习，<strong>日薪1000多元。入职半年，没开过一次会，没写过一份周报，也没有人告诉我明确的KPI。</strong></p>
+  <p>求职的过程有些波折，我最初投的是算法方向，但进来之后被调整到了开发，和领导交流之后又转回了算法岗。当时我手里还有一家互联网大厂的offer，但综合对比下来，现在这家的岗位和待遇对我更有吸引力。&nbsp;</p>
+  <p>入职前，我以为会拿到一份明确的任务书。实际情况是，半年下来，我的工作内容全靠自己摸索，主要的汇报，就是定期和mentor对齐一次进度。&nbsp;</p>
+  <p>我的工作内容是，训练一些参数量不大的模型，用来解决公司内部业务遇到的问题。<strong>这个方向目前还处于早期探索阶段，</strong>公司将这一模型划分为尝试型业务，懂的人不多，能不能真正走通，公司、mentor和我都没有十足把握，怎样考核也成了难题。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="500,334" src="https://img.36krcdn.com/hsossms/20260912/v2_77e1b51d627d4cef88f86b9beef25762@5305161_oswg123480oswg500oswg334_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>我做的不是通用模型，公开榜单参考价值有限，能借助的客观指标不多，基本只能看困惑度这种偏底层的指标，再加内部构造的测试集。但这些指标和实际业务效果之间隔着一层，因此真正判断模型好不好，更多还是靠主观感受，比如回答流不流畅、格式是否规范，一眼能感觉到，却很难具体打分。&nbsp;</p>
+  <p>有次我为了得到更好的模型结果，将参数量从不到1B尝试到2B，效果确实有提升，但继续增大是否可落地，没有明确结论，领导也没有说行还是不行。同时，我也踩过很多坑，比如早期对预训练语料质量重视不足，导致模型效果不太理想。<strong>但无论成功还是失败，基本都靠自己摸索，公司不会干涉。</strong></p>
+  <p>我现在的工作比起互联网大厂肯定不算卷，每天早上十点半到公司，中午午休一个半小时，下午五点多吃晚饭散散步，再忙到八点左右下班。公司管饭，打车报销，也不打卡。&nbsp;</p>
+  <p>至于薪资，按天计算、按月发放，入职时是1000元，中间涨过一次。这个价格不是我谈出来的，公司对所有实习生一视同仁，算法岗、开发岗一个标准。&nbsp;</p>
+  <p>常有人问，AI高薪实习生是不是被大厂争抢抬高了身价？我的感受可能不太一样。每家公司对于能力是否配得上价格，都有自己的判断。<strong>我也尝试投过头部大模型公司，简历阶段就没有通过，他们更看重对口论文，</strong>这方面我确实没有。这恰恰说明，高薪不是大厂抢出来的，而是看你能否匹配上某家公司的标准。&nbsp;</p>
+  <p>不过，即便能匹配上标准，我的焦虑也一点没少，AI的发展实在是太快了。我去年实习，还需要一行行手写代码，今年已经不太需要自己写了。这种发展速度让我不清楚AI的上限在哪里，也会担心有一天它可能连“研究AI”这件事都能自己完成。&nbsp;</p>
+  <p><strong>02.日薪1500+、没KPI，但门槛一年比一年高</strong></p>
+  <p><strong>林川｜北京大学 AI方向博士生</strong></p>
+  <p>我在北京大学读博士，专业是智能科学技术，主要研究Agentic RL（智能体强化学习），已经发了几篇顶会论文。&nbsp;</p>
+  <p>最开始，我没打算这么早出来实习。后来，一位腾讯的HR联系我，问我要不要试试青云计划，我才开始关注各家公司的人才计划，也陆续投了几家。京东的流程很快，两轮面试就发了Offer，我就决定先来做一段时间。&nbsp;</p>
+  <p>投递之前，我看过网上对各家人才计划待遇的讨论，所以对京东的薪资预期并没有那么高。后来HR给出的薪资比我预想高了不少，<strong>这边实行一人一薪，我的日薪超过1500元，</strong>具体数字不方便透露。除了工资，公司还提供免费人才公寓，两名人才计划实习生可以合住一套大约100平方米的房子。餐补按公司的正常标准，每人每餐20元，晚餐免费。&nbsp;</p>
+  <p>进来之后，我先和直属负责人讨论部门有哪些研究方向，再从中选择自己感兴趣的。我对Agent比较感兴趣，就选择了这个方向。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="500,333" src="https://img.36krcdn.com/hsossms/20260912/v2_31a4d591558c450da5bfe24799c4ce56@5305161_oswg113096oswg500oswg333_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在这里，<strong>实习生更多是在做探索性项目，和具体业务的关联没有那么紧密。</strong>我主要做的是怎么通过强化学习，让模型完成长程任务。我现在每天大概9点或10点到公司，日常工作主要是训练模型、做调研、看实验结果，再根据结果改进方案。&nbsp;</p>
+  <p>具体怎么推进，需要自己拆解。比如一开始没有跑代码、训练模型的环境，就得先搭出来。发现算法效果不够好，就调整算法，再训练模型，再观察实验结果。这些阶段性的进展，也是每次汇报的内容。我每周和直属负责人汇报一次，每个月再和更高一级负责人汇报一次。<strong>公司没有给我设明确的KPI，安排比较自由，也不会要求我们加班。</strong>不过读博还有论文和毕业要求，我会主动为这些目标投入更多时间。&nbsp;</p>
+  <p>外界看AI实习生，最容易产生的误解是把极少数人的最高薪资，当成大家都能拿到的待遇。但实际上，普通AI实习生和人才计划实习生，薪资差距很大。<strong>就算同样是做模型、做算法，具体薪资也要根据学校、论文成果、研究方向，以及是不是公司当下最需要的人来定。</strong>但两者做的事情未必有很大差别。以京东为例，理论上大家可以做类似的任务，区别更多体现在完成速度和效果上，人才计划的实习生通常完成得更快、效果也更好。&nbsp;</p>
+  <p>现在人才计划的招聘门槛一年比一年高。以我了解到的情况来看，今年有些实习岗位的名额比去年少，人才计划转正的比例也比去年低。名额变少，工资没有降，甚至可能更高，因为公司对头部AI人才仍然有需求，也愿意继续出高价，但会减少对中部人才的招聘。这样一来，高薪会集中在更少的人身上，拿到这些机会的门槛也会更高。&nbsp;</p>
+  <p>我自己倒没有太担心被后来者替代，或者能力跟不上，因为我觉得自己还在持续进步。对AI发展的前景，我也比较有信心，未来我希望去一个做基础模型的地方，继续研究AGI。&nbsp;</p>
+  <p><strong>03.见过“AI天才”后，我开始怀疑要不要继续卷</strong></p>
+  <p><strong>程远｜北京某高校计算机专业博士生</strong></p>
+  <p>我是北京一所高校的博士生。过去几年，我在几家大厂的基础模型团队做过算法实习，也入选过大厂的人才计划。&nbsp;</p>
+  <p>基模团队大致分数据、算法和架构。我做过后训练，也参与模型能力提升。任务来了，比如提升某项能力，就准备数据、训练、跑实验，再按结果调整。偏Research的组最后可能产出一篇论文，业务重的组则把数据和训练结果合进下一版模型。&nbsp;</p>
+  <p><strong>实习生通常没有明确KPI。模型刚发完、不忙时，还可以自己写论文、做探索。</strong>很多时候，它就是科研和工程的混合体。&nbsp;</p>
+  <p>我对这一轮AI热潮最直接的感受，其实来自工资。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="500,333" src="https://img.36krcdn.com/hsossms/20260912/v2_66c14918b0f44c4cbe54d57793acfb51@5305161_oswg148295oswg500oswg333_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>最开始字节TopSeed给实习生开到一天2000元、上不封顶时，大家都觉得夸张。那时，普通算法实习生一天可能只有三四百。现在再看到1000元，已经觉得稀松平常。&nbsp;</p>
+  <p>但真正能拿到2000元以上的，依然只是极少数。我也确实见过那种“就该拿这个钱”的人。&nbsp;</p>
+  <p>我实习过的组里，有一个清华本博，能力很强，而且他是真的热爱这件事。我们白天把事情做好，晚上就想打打游戏。他是除了睡觉，其他时间都在工作，理想就是把“把智能水平提升上去”。&nbsp;</p>
+  <p>基模团队学历普遍很卷。<strong>我所在的学校也是985，但进了这样的组，依然会觉得不够看。</strong>有些团队，博士甚至比硕士还多。即便大家都已经经过层层筛选，你仍然能很清楚地看到普通人与天才的差距。&nbsp;</p>
+  <p>尤其是做架构和核心算法的人。真正有天赋的人，看一眼结构就知道问题在哪，改出来的东西符合直觉、符合数学，还真的有效。一个上百人的基模团队，真正决定方向的，可能就是十几个人。&nbsp;</p>
+  <p>外面看起来，所有人都在“造AGI”；进去以后你会发现，大多数人仍然只是普通打工人。&nbsp;</p>
+  <p>所以我觉得，过去一年市场确实存在一些恐慌性出价。顶尖的人在任何时候都值这个钱，但上涨的不只是他们。我认识一个人，没有论文，只有两段实习，能力也很普通，最后拿到了接近100万元的年包。&nbsp;</p>
+  <p>现在市场已经开始冷静。&nbsp;</p>
+  <p>今年不少团队HC明显减少，有的甚至从100个砍到50个。招聘要求看起来没怎么变，实际门槛却提高了。去年一篇论文、一段实习也许就够，今年还要求论文、实习和岗位方向高度匹配。&nbsp;</p>
+  <p>我倒不太担心2028年毕业找不到工作。<strong>真正让我焦虑的是，要不要继续跟“神”一起卷。</strong></p>
+  <p>做技术当然有成就感。模型因为你的工作变好，论文发出来，去国际会议交流，那种价值感很真实。但这种成就感也有代价，高强度工作、周末也难以关机。而且如果进不了最核心的组，我也会担心35岁以后怎么办？&nbsp;</p>
+  <p>另一条路是国企、研究所或者高校。生活可以细水长流，但在更安逸的环境里，过去几年积累的东西可能会慢慢失去价值。&nbsp;</p>
+  <p>我见过最聪明、最拼的那群人。离他们越近，我反而越清楚，这场游戏里，真正不可替代的人从来没有那么多。&nbsp;</p>
+  <p>问题是，我到底要不要成为他们。&nbsp;</p>
+  <p><strong>04.不是计算机科班，我拿到了日薪过千的AI实习</strong></p>
+  <p><strong>陈宇｜清华大学&nbsp;电子相关专业硕士</strong></p>
+  <p>我本科读机械自动化，现在在清华读电子相关专业硕士，都不是最对口的计算机或人工智能专业。<strong>过去一年半，我在美团、百度、华为和一家明星AI创业公司做了四段实习。现在这份工作是AI产品，日薪超过1000元。</strong></p>
+  <p>我进入AI行业有些偶然。投第一份实习前，简历上没有相关经历。为了补上这一块，我花了一周自学，照着开源代码跑通了一个医疗大模型项目。面试时，对方问了不少项目细节，后来我进入美团的基础大模型团队做数据优化。&nbsp;</p>
+  <p>说白了，这份工作就是让模型批量生成数学题和答案，再筛选出质量更高的数据，用来训练模型。听起来很技术，大部分任务却能借助内部工具完成。我写代码的机会不多，只写过解析数据包的Python脚本。&nbsp;</p>
+  <p>第二段实习，我去了百度的搜索产品团队，优化一款情感陪伴Agent。除了调整Prompt，我们还要制定对话改写规则，整理模型微调需要的语料。做这类产品，回答正确只是第一步，还要看模型能不能理解用户的情绪，会不会给出不恰当的回应。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="500,333" src="https://img.36krcdn.com/hsossms/20260912/v2_d0d7e4e5df424f0fbf48cc6f3985a870@5305161_oswg151766oswg500oswg333_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>第三段是在华为的数据存储产品线做AI算法。那段时间，我阅读医疗大模型、Agent和RAG方向的论文，照着论文里的方法做实验，也参与算法优化。后来，我把RAG和GraphRAG用到医疗场景中，提出一套模型方案，并据此写成了一篇小论文。&nbsp;</p>
+  <p>三段实习做下来，我发现自己能做算法研究，却不太想一直读论文、调参数、看模型指标。第四次找实习时，我进了一家明星AI创业公司，参与AI教育产品。我的工作包括搭建智能体、设计Agent工作流、画产品原型，再和设计、研发一起推进开发和测试。我也会接触学校等客户，了解他们怎么使用产品，有时还要代表团队做介绍。&nbsp;</p>
+  <p><strong>以前在大厂，我大部分时间坐在工位上看材料、写文档、处理数据，负责的是一个具体环节。现在，一项功能从提出想法、画成原型，到开发测试、拿给客户使用，我都可能跟下来。</strong></p>
+  <p>有时团队觉得产品已经讲得很清楚，到了客户那里，才发现对方的理解完全不一样。模型能运行，只解决了一部分问题，怎么让客户看得懂、用得上，同样需要反复调整。&nbsp;</p>
+  <p>我现在的实习薪资，在AI公司的人才计划里，不算最高，但对一个非计算机科班的实习生来说，已经超过我的预期。&nbsp;</p>
+  <p>外界提到高薪AI实习生，往往先想到发过顶会论文的算法博士。但我做的是产品岗，公司看中的是我能听懂技术，也能推动产品开发、接触客户，把一件事从想法跟到使用。&nbsp;</p>
+  <p>一年半前，我找实习最先看公司名气，觉得进入大厂就能接触最前沿的工作。现在再做选择，我关注的会更具体。平台和收入固然重要，但已经不是我选择下一份工作的主要标准。&nbsp;</p>
+  <p><strong>05.现在日薪1200，但我不敢按这个价规划未来</strong></p>
+  <p><strong>周恺｜C9高校 计算机专业硕士</strong></p>
+  <p>我现在研二，是一所C9学校的计算机硕士，在一家头部互联网公司做大模型后训练相关的实习，日薪1200元左右。&nbsp;</p>
+  <p>如果只看简历，我其实不是大家想象中那种典型的“高薪AI实习生”。我没有顶会论文，也不是同一届里最强的那批人。本科和硕士都是计算机相关专业，之前做过两段算法实习，也跟着实验室做过大模型相关项目，但没有特别拿得出手的科研成果。&nbsp;</p>
+  <p>去年第一次找AI实习的时候，我拿到的Offer一天只有四五百元。到了今年，同样是算法岗，我能拿到的价格已经翻了一倍多。&nbsp;</p>
+  <p>这份实习前后面了三轮。第一轮主要问基础，包括Transformer、Attention、强化学习这些；后面两轮会更偏实际，比如给一个模型效果变差的情况，让我分析可能是什么原因，也会追着之前做过的项目问。我感觉现在面试官已经不太满足于“你知道某个算法”，而是会问你真正跑过多少实验、踩过什么坑。&nbsp;</p>
+  <p>最后HR给我报1200元左右一天时，我也挺意外。我没有专门去谈价。后来和其他实习生聊，发现大家工资并不一样。同一个团队里，有人比我低，也有人比我高。真正做核心算法、论文比较强的博士，一天两三千元也不是完全没有。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="500,333" src="https://img.36krcdn.com/hsossms/20260912/v2_cdd6d4c5a15c4ced933ae910278196dd@5305161_oswg166476oswg500oswg333_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>入职之前，我对“做大模型”这件事想得挺酷的，以为每天都在研究新的算法，或者直接参与训练一个特别大的模型。<strong>真正进来以后发现，大部分工作没有那么神秘。</strong>我主要做后训练和评测。简单来说，就是模型已经有一定能力了，我们再想办法让它在某些任务上表现得更好。&nbsp;</p>
+  <p>比如模型某类推理题做得不好，我们会先把Bad Case捞出来，看它到底错在哪里。是理解错题目了，是推理过程出了问题，还是最后答案格式不符合要求。然后再去调整数据、训练策略或者Prompt，重新跑一轮实验。很多时间其实花在非常琐碎的事情上。&nbsp;</p>
+  <p>所以我有时候也觉得挺矛盾的：<strong>我是因为AI拿到了过去很难想象的实习工资，但也是AI让我越来越怀疑，今天这些技能以后到底还值多少钱。</strong></p>
+  <p>我们的管理相对宽松，没有要求实习生每天写日报，也不太看坐班时间。一般每周会有一次组会，我需要汇报这周做了哪些实验、结果怎么样、下一步准备怎么改。没有一个特别明确的KPI告诉我必须把某个指标做到多少，因为研究本身有很大的不确定性。&nbsp;</p>
+  <p>拿到日薪1200元以后，我身边也有人问我要不要趁现在多实习几个月。因为这个数字对学生来说确实很多。<strong>但我不会觉得自己已经“值”这个价格了。</strong></p>
+  <p>这两年AI公司的出价涨得很快，很大程度上是因为大家都在抢同一批有相关经验的人。一个人在这个时间点上正好做过大模型、跑过训练、知道整个流程怎么回事，他就会比普通算法实习生更稀缺。&nbsp;</p>
+  <p>这种稀缺能持续多久，我不知道。&nbsp;</p>
+  <p>网上说“AI实习生月薪两三万”，这个事情是真的，但很容易让人产生误解。<strong>不是学AI就值这个钱，而是现在这个时间点，少数恰好拥有某种能力的人值这个钱。</strong></p>
+  <p>我自己反而不敢按照1200元一天去规划未来。今天市场缺这种人，公司愿意给这个价格；明年如果大模型把很多基础开发和实验工作自动化了，或者一下子涌进来更多人，这个价格还能不能维持，谁也不知道。&nbsp;</p>
+  <p>*题图及文中配图均来源于pexels。 应受访者要求，文中均为化名。&nbsp;</p>
+  <p>作者 |&nbsp;王璐 雷晶 陈丹 金玙璠 李梦冉&nbsp;</p>
+  <p>编辑 | 王璐&nbsp;</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/fR3M6icR3b3yfvhzTPkiVA">“AIX财经”</a>，作者：AIX财经团队，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 12 Sep 2026 09:24:39 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3980179218699912</guid>
+            <link>https://www.36kr.com/p/3980179218699912</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[谷歌Meta被锤刷榜]]></title>
+            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="1080,463" src="https://img.36krcdn.com/hsossms/20260912/v2_a8c9aa51d1f04cbf86ed0277b621facd@5667365_oswg780898oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>跑分这事儿，最近有点不太对劲。&nbsp;</p>
+  <p>9月8日，分析机构SemiAnalysis连甩五条推文，直接点名谷歌和Meta两家万亿巨头——&nbsp;</p>
+  <p>Gemini 3.8 Flash和Muse Spark 1.3是「刷榜痕迹最明显的两个模型」。</p>
+  <p class="image-wrapper"><img data-img-size-val="870,220" src="https://img.36krcdn.com/hsossms/20260912/v2_7d1a588de1384074aa7015fc0fb173a8@5667365_oswg64744oswg870oswg220_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>证据，非常清晰。&nbsp;</p>
+  <p>在测Agent干活能力的Terminal-Bench 2.1榜单上，Gemini 3.8 Flash考了89.4分，在182个模型里高居第2，把GPT-6 Astra都压在了身下。&nbsp;</p>
+  <p>结果换到8月29日刚上线的Terminal-Bench 4.0，同一个模型只拿到19.1分，在14个测试对象里直接掉到第12，成绩当场打了个二折。&nbsp;</p>
+  <p>同一时间，GPT-6 Astra从88.4掉到57.7，好歹算个六五折。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,496" src="https://img.36krcdn.com/hsossms/20260912/v2_70639364c16c4e56b7af3c0b846b92af@5667365_oswg136103oswg1080oswg496_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>仅仅27分钟后，Meta首席AI官Alexandr Wang亲自杀到评论区，开口直接甩出六个字，<strong>这是个愚蠢的论点。</strong></p>
+  <p>他认为GPT-5.6 Sol在2.1上是88.8，在4.0上掉到了37.3，落差更大但没人说Sol在刷榜。&nbsp;</p>
+  <p>同时他还强调，Meta从没说过Muse Spark 1.3能跟Astra或Fable 5.1一样强，只是它的性价比显然更高。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="871,417" src="https://img.36krcdn.com/hsossms/20260912/v2_a301e196765547b3bed0803b229c1d2f@5667365_oswg114141oswg871oswg417_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>换张卷子，成绩直接脚踝斩</strong></p>
+  <p>简单介绍一下，Terminal-Bench测的是Agent真实干活的能力。&nbsp;</p>
+  <p>方法是丢给模型一个终端和一个模糊目标，剩下的全让它自己看着办。然后，系统得自行规划路径、调工具、写脚本，报错了还得自己去改。&nbsp;</p>
+  <p>在已经被业界刷了大半年的2.1版本上，这俩的成绩确实好看。&nbsp;</p>
+  <p>Gemini 3.8 Flash拿下89.4分排在第2，Muse Spark 1.3以88.8分排在第4，紧随其后的是88.4分的GPT-6 Astra和85.02分的Claude Fable 5.1。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,427" src="https://img.36krcdn.com/hsossms/20260912/v2_13bd6e12cb0c4afbac29f43a825f73e6@5667365_oswg196898oswg1080oswg427_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>好家伙，一个Flash级的便宜模型，一个主打性价比的Meta新作，双双把两家顶级实验室的旗舰按在地上摩擦。&nbsp;</p>
+  <p>然后，4.0版本来了。&nbsp;</p>
+  <p>新卷子一共66道题，不仅砍掉了8道已经被「刷穿」的旧题，大修了19道，还统统加上8小时的超时限制。&nbsp;</p>
+  <p>防作弊机制同样上了极高强度。&nbsp;</p>
+  <p>主办方不仅设了35条评分细则，还加了一轮专门的「对抗性作弊试验」，故意让Agent自己去试着钻奖励机制的空子，只要钻得通的题就会被直接毙掉。&nbsp;</p>
+  <p>新榜一出，画风突变。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,646" src="https://img.36krcdn.com/hsossms/20260912/v2_70de5c08655f44c4bc8974d4bee60cb6@5667365_oswg142187oswg1080oswg646_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Claude Mythos 5.1（max）拿到60.9分稳住阵脚，GPT-6 Astra和Claude Fable 5.1分别以57.7分和55.8分紧随其后，再往下是52.3分的Claude Opus 5。上一代的GPT-5.6 Sol和Terra分别拿到37.3分和23.6分。&nbsp;</p>
+  <p>相比之下，Gemini 3.8 Flash直接暴跌到19.1分。而按SemiAnalysis给出的图表，Muse Spark 1.3的成绩是33.3分。&nbsp;</p>
+  <p>总结一下就是。&nbsp;</p>
+  <p>旧榜上，Gemini 3.8 Flash还能压着GPT-6 Astra打；新榜上，它的分连人家的三分之一都不到，甚至被上一代的GPT-5.6 Terra甩在了后面。&nbsp;</p>
+  <p><strong>不用抄答案，买套「密卷」就行</strong></p>
+  <p>吵架归吵架，SemiAnalysis第二条推的点名才是真正的行业内幕。&nbsp;</p>
+  <p>在他们看来，Terminal Bench 2.1的任务是完全公开的，Meta和谷歌绝对不会傻到直接拿原题去训练，但他们绝对会去买数据，专门买那些被设计得无限贴近TB 2.1题型的训练数据。最后的效果其实跟作弊没差。&nbsp;</p>
+  <p>而这，就是2026年刷榜的高阶玩法。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="874,373" src="https://img.36krcdn.com/hsossms/20260912/v2_069c51e3d2d64a58a9c5dcad940af70d@5667365_oswg114826oswg874oswg373_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>以前的「污染」套路很糙，直接把原题混进预训练语料让模型死记硬背。&nbsp;</p>
+  <p>这种事一查一个准，洗一遍数据成绩就得现原形。&nbsp;</p>
+  <p>业界在这上面栽过不少跟头，比如HumanEval近四成样本被污染，GSM8K去污染后掉13分。最狠的是SWE-bench，换套私有代码库重测，分数直接腰斩。&nbsp;</p>
+  <p>所以现在大厂不碰原题了，大家改买「长得像考题的模拟卷」。也就是提供给模型试错并给奖励的封闭任务系统。&nbsp;</p>
+  <p>目前，这已经是一门明码标价的成熟生意。&nbsp;</p>
+  <p>单个训练任务售价200到2000美元，复杂的软件工程任务甚至能开到2万。</p>
+  <p>要是想克隆一个网站做成UI训练场，大约需要2万美元。</p>
+  <p>如果要求复刻一个Slack量级的产品，那就是30万美元起步。</p>
+  <p>遇到要求独家买断的客户，价格还能再翻4到5倍。</p>
+  <p>根据Epoch AI的调研，Anthropic内部讨论过每年在这上面砸10亿美元。单季合同动辄六七位数，有研究员透露均价在30万到50万美元一季。&nbsp;</p>
+  <p>供给侧至少有35家公司在做这门生意，绝大多数是20人以下的初创团队。老牌数据巨头也全在转型，Scale AI在被Meta入股前营收就超14亿，Surge的ARR也逼近10亿。&nbsp;</p>
+  <p>现在的局面非常魔幻。&nbsp;</p>
+  <p>一边是完全公开的榜单题库，另一边则是成熟的卖题产业链。想让模型在某个榜单上考高分，真不用费劲作弊，直接掏钱下单就行。&nbsp;</p>
+  <p><strong>既当卖题机构，又当监考老师</strong></p>
+  <p>随后，SemiAnalysis直接点名了一家叫Datacurve的公司。&nbsp;</p>
+  <p>在专测长周期编程的DeepSWE 1.1榜单上，Muse Spark 1.3（max）以75.4分拿下第一，GPT-6 Astra和Claude Opus 5紧随其后，Gemini 3.8 Flash拿到73.8分排在第四。&nbsp;</p>
+  <p>被指控刷榜的两位，一个第一，一个第四。&nbsp;</p>
+  <p>想必，你已经发现了这背后的猫腻。&nbsp;</p>
+  <p>这个榜是Datacurve办的，而Datacurve赚钱的门路，恰好是向前沿实验室出售「专家级编码数据和强化学习环境」。&nbsp;</p>
+  <p>DeepSWE不仅是Datacurve自家的基准，跑分用的还是它自己运营的评测环境。&nbsp;</p>
+  <p>既当卖题的辅导机构，又当出卷的监考老师，可以说是彻底坐实了。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="877,882" src="https://img.36krcdn.com/hsossms/20260912/v2_4a88a64d5b7246f6a678fb4dfd722904@5667365_oswg212884oswg877oswg882_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>榜单的保质期，所剩无几</strong></p>
+  <p>最后，SemiAnalysis顺势给整个行业的公开评测下了一道判词。&nbsp;</p>
+  <p>他们觉得这说到底就是所有优质公开基准的宿命。TB 4.0也不例外，它现在看着还准，仅仅是因为它才发布了两周。&nbsp;</p>
+  <p>只要它的题目还是公开的，用不了多久就会被所有标榜「前沿」的实验室盘出包浆。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="868,306" src="https://img.36krcdn.com/hsossms/20260912/v2_3edf00fbef1d49619c4e1b5e37e85c26@5667365_oswg97379oswg868oswg306_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>SemiAnalysis最终给出的解药非常直接，那就是多做高质量的私有基准。&nbsp;</p>
+  <p>方向是对的，但代价同样惨痛。&nbsp;</p>
+  <p>一旦评测全部私有化，公开榜单就会彻底沦为各家的营销通稿。&nbsp;</p>
+  <p>真正有区分度的真实成绩，只会在实验室和私有评测机构之间暗箱流动。&nbsp;</p>
+  <p>大厂当然乐见其成，毕竟闭卷考试谁也没法提前背题。&nbsp;</p>
+  <p>但对于广大开发者来说，那把用来公平丈量所有模型的公共尺子，恐怕再也找不回来了。&nbsp;</p>
+  <p>参考资料：</p>
+  <p>https://x.com/SemiAnalysis_/status/2097112791471522292</p>
+  <p>编辑：摩西</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/6E6PgJ1kKPjRpfxv_HlqJw">“新智元”</a>，作者：ASI启示录，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 12 Sep 2026 08:17:57 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3980148869184514</guid>
+            <link>https://www.36kr.com/p/3980148869184514</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[黄仁勋或砸100亿投注Anthropic巨额IPO！]]></title>
+            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="1080,463" src="https://img.36krcdn.com/hsossms/20260912/v2_e796811fa85544bca41331877fd4fe0e@5667365_oswg936798oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>刚刚，一个超级重磅消息砸向AI圈——</p>
+  <p>路透社独家爆料：<strong>英伟达正在与Anthropic谈判，准备砸下最高100亿美元，杀入后者即将启动的史上最大IPO！</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,554" src="https://img.36krcdn.com/hsossms/20260912/v2_191fa9b5d80741b38f4e94263661cf20@5667365_oswg133823oswg1080oswg554_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>没错，你没看错。</p>
+  <p>卖铲子的老黄，要亲自下场给挖金子的人投钱了。而且是以「锚定投资者」的身份。</p>
+  <p class="image-wrapper"><img data-img-size-val="112,59" src="https://img.36krcdn.com/hsossms/20260912/v2_1f5d235bc9bc4d3f9ca929de67aafcb0@5667365_oswg1606oswg112oswg59_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>2万亿美元，人类史上最大IPO？</strong></p>
+  <p>据两位知情人士向路透社透露，<strong>Anthropic这次IPO计划融资高达1000亿美元，目标估值直逼2万亿美元。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,292" src="https://img.36krcdn.com/hsossms/20260912/v2_1b736fa5684547da9d3478edb96414de@5667365_oswg60325oswg1080oswg292_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>如果这事儿成了，将直接干翻SpaceX今年6月创下的750亿美元募资额的IPO纪录，成为人类资本市场历史上最大的一次IPO。</p>
+  <p>1000亿美元是什么概念？今年前8个月，全美国IPO市场（剔除SPAC）加起来也只融了1370亿美元。</p>
+  <p>也就是说，Anthropic一家，就相当于前8个月全市场的73%。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,846" src="https://img.36krcdn.com/hsossms/20260912/v2_bb56309bf96648cd888729c33edfe419@5667365_oswg581821oswg1080oswg846_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>据爆料，英伟达正考虑在其中投入最高<strong>100亿美元</strong>。</p>
+  <p>不过双方的谈判仍在进行中，方案随时可能调整。Anthropic拒绝置评，英伟达也暂未回应。</p>
+  <p>该IPO预计在今年11月美国中期选举前完成。</p>
+  <p class="image-wrapper"><img data-img-size-val="112,59" src="https://img.36krcdn.com/hsossms/20260912/v2_0cb5faf65c43455594bff7bc65af2d5a@5667365_oswg1606oswg112oswg59_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>黄仁勋的算盘：不止是投资</strong></p>
+  <p>所谓「锚定投资者」，就是在IPO公开路演之前就承诺认购的机构大买家，给市场一颗定心丸。</p>
+  <p>之前Arm上市的时候，英伟达和亚马逊就是锚定投资者；SpaceX的IPO里，沙特PIF扮演了同样的角色。</p>
+  <p>Anthropic如果能拉来英伟达这个级别的「头号买家」站台，对整个资本市场释放的信号不言而喻——<strong>连GPU之王都愿意真金白银押注，你还犹豫什么？</strong></p>
+  <p>但故事远没有这么简单。</p>
+  <p>这里有一个非常微妙的关系：英伟达既是Anthropic的「供应商」，又是它的「投资人」。</p>
+  <p>Anthropic训练和运行Claude模型，离不开英伟达的GPU。</p>
+  <p>而就在2025年11月，英伟达已经向Anthropic投了100亿美元——作为交换，Anthropic承诺在微软Azure上采购300亿美元的算力，而这些算力，恰恰跑在英伟达的芯片上。</p>
+  <p>你品，你细品：英伟达投100亿，Anthropic转身花300亿买英伟达芯片驱动的云服务。钱转了一圈，又流回了老黄的口袋。</p>
+  <p>现在IPO阶段再追加100亿美元，这个循环就从私募市场延伸到了公开市场。</p>
+  <p>而且不只是英伟达。</p>
+  <p>Anthropic的大金主名单里，亚马逊和谷歌同样身兼「投资人+算力供应商」双重角色。</p>
+  <p>今年4月，Anthropic宣布未来十年在亚马逊AWS上投入超过1000亿美元，并使用超过100万颗亚马逊Trainium2芯片；它还与谷歌和博通签了「数吉瓦级」TPU扩容协议。</p>
+  <p>AI行业的资本逻辑已经清晰得不能再清晰了：<strong>模型公司融的钱，最终都会变成算力采购单，回到芯片巨头和云厂商手里。</strong></p>
+  <p>投资AI公司，本质上就是在给自己的芯片和云服务预定客户。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20260912/v2_1152cb5dcb2543d9b86c953c1de52a36@5667365_oswg1759351oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>支撑这个天价估值的，是Anthropic疯狂的增长曲线。</p>
+  <p>2025年底，Anthropic的年化收入约<strong>90亿美元</strong>。到2026年7月底，这个数字飙升至<strong>650亿美元以上，</strong>7个月翻了7倍多。</p>
+  <p>路透社此前还报道，Anthropic预计2028年收入将达到1900亿至2000亿美元。</p>
+  <p>今年5月，Anthropic刚完成一轮650亿美元的融资，估值达到9650亿美元。现在IPO要直接冲击2万亿，等于在几个月之内估值再翻一倍。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20260912/v2_ee976515528f438c84d8ec87f79704d1@5667365_oswg1554295oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>与此同时，Claude的用户需求增长太快，已经让Anthropic现有的算力「捉襟见肘」。</p>
+  <p>为了降低对外部芯片的依赖，Anthropic甚至组建了内部团队，开始<strong>自研定制芯片</strong>。</p>
+  <p class="image-wrapper"><img data-img-size-val="112,59" src="https://img.36krcdn.com/hsossms/20260912/v2_eec5d72e37e449f5841e8630cdbb5fe1@5667365_oswg1606oswg112oswg59_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>才刚刚开始</strong></p>
+  <p>拉远一点看，英伟达砸100亿投Anthropic IPO，是2026年AI产业全面进入「决战时刻」的一个缩影。</p>
+  <p>截至8月底，美国IPO市场已经融了1370亿美元创下历史纪录，而这一年还远没有结束。</p>
+  <p>这意味着，2026年底到2027年，人类将第一次在公开资本市场上，给「通往AGI的门票」定价。</p>
+  <p>Anthropic和OpenAI，两家被认为最有可能率先触达通用人工智能的公司，将相继站上纳斯达克，接受全球投资者的公开审判。</p>
+  <p>这场IPO盛宴的背后，是一场人类历史上前所未有的基础设施军备竞赛。全球AI相关支出总额已达2.6万亿美元。</p>
+  <p><strong>最关键的是：所有人都在赌同一件事——ASI正在逼近。</strong></p>
+  <p>真实的产品进展也在不断验证这种预判。</p>
+  <p>当AI开始能改进自己，当模型开始能改进模型，这个飞轮一旦转起来，一切都会加速。</p>
+  <p>这正是英伟达拼命往Anthropic身上砸钱的真正原因：<strong>他们不是在投一家公司的IPO，而是在投一张通往ASI（超级人工智能）时代的入场券。</strong></p>
+  <p>参考资料：</p>
+  <p>https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/</p>
+  <p>编辑：所罗门</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/slafSvhTcJ5uZp8m9CW9cQ">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 12 Sep 2026 03:48:12 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3979884174244613</guid>
+            <link>https://www.36kr.com/p/3979884174244613</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[OpenAI把Codex“拆开卖了”]]></title>
+            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="1080,669" src="https://img.36krcdn.com/hsossms/20260912/v2_f598f5445aa246ccaf92930d77ea99a4@6119835_oswg313189oswg1080oswg669_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>OpenAI昨天一口气打出了四张大牌。</p>
+  <p>Agents API、GPT-Live-1 API、Data agent、ChatGPT for Financial Services，一天横跨Agent、语音、数据和金融四条产品线，每一条都值得单独拿出来说道。</p>
+  <p>但这四张牌里，最值得看的可能还是Agents API。</p>
+  <p class="image-wrapper"><img data-img-size-val="712,833" src="https://img.36krcdn.com/hsossms/20260912/v2_b4c3330d422c470883f894af7a4abbb4@6119835_oswg131234oswg712oswg833_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>因为这一次，OpenAI把Codex“拆开卖了”。</p>
+  <p>原本藏在Codex背后、负责让Agent持续工作、调用工具、管理上下文和协同多个Agent的那套能力，被抽出来打包成了云端API，交给所有开发者调用。</p>
+  <h2><strong>01 Codex即服务？</strong></h2>
+  <p>其实，OpenAI早就在拆Codex了。</p>
+  <p>早在2025年4月，OpenAI刚发布o3和o4-mini那会儿，就把Codex CLI开源了。它有点像OpenAI版的Claude Code，直接就装在本地终端里。Agent怎么跑，怎么调用工具，都明明白白地放在GitHub上，你愿意折腾，就可以自己拿回去改，自己跑。</p>
+  <p>不过那个时候只是单纯地把东西给了出来，至于你会不会用、想怎么用，那都还是你自己的事。</p>
+  <p>一个月后，Codex云端版，也就是我们今天所熟悉的那个产品，才正式上线。用户可以把代码仓库交给它，一个任务对应一个独立的云端沙盒，Codex可以自己改代码、跑测试、修bug，还能同时处理多个任务。</p>
+  <p>又过了几个月，在2025年的10月份，OpenAI发布了Codex SDK。</p>
+  <p>简单来说，SDK就是给开发者的一套工具包，让Codex不只作为独立产品使用，也可以塞进别人的应用里。SDK允许开发者用几行TypeScript代码启动同一个驱动Codex CLI的Agent，拿到结构化输出，还能保留任务状态，在暂停之后继续跑。</p>
+  <p>但是呢，SDK主要适合在程序里调用Codex，还没有把完整的Codex交互能力开放出来。它很适合后台的工作流、自动化脚本、服务端的程序。但如果你想做一个像Codex IDE那样的完整客户端，还是有些困难。</p>
+  <p>于是到了2026年2月，OpenAI正式公开Codex App Server，第一次系统地把Codex里面那套Harness讲清楚了。</p>
+  <p>OpenAI明确解释，Codex Web、CLI、IDE扩展和Mac App看起来是不同的产品，但底下其实都在运行同一套Codex Harness，也就是负责Agent Loop、Thread、工具执行、认证和管理状态的那层东西。</p>
+  <p>App Server给这一整套Harness加了一套双向JSON-RPC接口。JetBrains、Xcode或者其他客户端，不需要重新造一个Agent Loop，直接启动App Server，就可以驱动完整的Codex。</p>
+  <p>有了App Server，其他产品就可以直接接上完整的Codex Harness。</p>
+  <p>不过走到这里，还有最后一个麻烦没解决。</p>
+  <p>SDK控制的是本地Codex Agent，App Server本身也是一个需要开发者启动和维持的常驻进程。虽然把Codex接进产品这事已经解决了，但想把它稳定地跑成一个线上的服务，还是有点困难。</p>
+  <p>举一个比较具体的例子，如果你用App Server做一个自己的Coding Agent网站，前端已经接上了Codex，但当用户点下“修复这个仓库”之后，后续的大量运行和基础设施问题，都还需要你自己想办法解决。</p>
+  <p>然后就到了8月19日，这一天，OpenAI把过去一年陆续开放的CLI、SDK、App Server统一放进了“开放Codex Harness”的平台叙事里，并明确把Codex从一个产品提升成了平台。</p>
+  <p class="image-wrapper"><img data-img-size-val="381,242" src="https://img.36krcdn.com/hsossms/20260912/v2_465591e555e5484dba740e1427a8e86a@6119835_oswg86019oswg381oswg242_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>再然后就是（美国时间）9月10日，也就是昨天，Agents API正式开放公测。</p>
+  <p>这一次，开发者只需要告诉API四件事——任务、模型、工具、运行环境——就可以直接创建一个Agent。负责长会话上下文压缩、工具调度和subagent协作的Codex Harness由OpenAI自己托管和维护。</p>
+  <p>甚至就连Agent真正干活的机器都能自己选，是用OpenAI的沙盒、自己的基础设施，还是Cloudflare、E2B、Modal等第三方环境，都可以。Harness由OpenAI提供，执行环境由开发者决定。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260912/v2_c51ee5eaff9348259da250ca0e2dc2c0@6119835_oswg29827oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>官方的口径很明确，Agents API本身不额外收费。也就是说，Harness托管、长会话管理等能力，并没有再单独收一层Agent平台费。</p>
+  <p><strong>开发者按实际使用的模型Token和工具付费；如果使用OpenAI自己的托管沙盒，计算资源另算。</strong></p>
+  <p>把这一年多串起来，OpenAI一直在做同一件事：把Codex从一个具体产品，一层一层拆成可以被复用的能力，同时让开发者越来越不需要自己操心。</p>
+  <p>如果一定要给这条产品线起个名字，它其实很像当年的SaaS，只不过这次被服务化的不是软件，而是Codex。</p>
+  <p><strong>Codex as a Service。</strong></p>
+  <h2><strong>02 Harness也开始分叉了</strong></h2>
+  <p>盯上Harness的当然不止OpenAI。</p>
+  <p><ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>（后文简称DSH）发布的时候，就给出了一个非常响亮的等式：<strong>Agent ＝ Model + Harness。</strong></p>
+  <p>在<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>看来，模型只是Agent的一半，另一半则是负责让它理解环境、调用工具、管理状态、持续执行任务的Harness。两者互相协调，Agent才能真正执行任务。</p>
+  <p>DSH把Harness本身做成了一套高度模块化的开放框架：模型、工具、Skills、Session、沙盒、存储、Agent Loop、调度，甚至UI都可以替换。</p>
+  <p>“一切皆插件”的口号可不是说着玩玩而已，最好大家都来写插件，都来适配DSH，最后不管上面跑的是<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>，还是别的模型，底下都可以是同一套Harness。</p>
+  <p class="image-wrapper"><img data-img-size-val="692,265" src="https://img.36krcdn.com/hsossms/20260912/v2_2121087d8a414e30b65c6e2026955d2c@6119835_oswg157141oswg692oswg265_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这和OpenAI现在走的方向刚好形成了一个挺有意思的对照。</p>
+  <p>OpenAI虽然也把Codex harness开源了，但Agents API明显是在往另一个方向走：Harness你可以用自己的，也可以拿走开源的，但如果你嫌麻烦，还可以直接不管，让我来替你安排。</p>
+  <p>所以我们认为，它更像是一种“服务”。OpenAI负责托管和持续维护Harness，开发者只需要决定要让Agent干什么、用什么工具、在哪里执行。甚至以后模型升级了，Harness怎么跟着改，OpenAI也准备一起包了。</p>
+  <p>某种意义上，现在Harness这一层隐约出现了两条路线：</p>
+  <p>以<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>为代表的路线更像是在建设开放生态，把每一个零件都做成插件，让开发者自己组装；而以OpenAI为代表的一方则像在押注云服务，把钱和需求给到位，剩下的我帮你解决。</p>
+  <p>我们甚至可以认为，一个想让Harness越来越像Linux，另一个则想让Harness越来越像AWS。</p>
+  <p>当然了，这只是个比喻。OpenAI也开源了Codex Harness，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>未来也并非没有可能提供更多的托管服务。但至少在现阶段，两边产品的重心差别明显。</p>
+  <p>有意思的是，在把Harness变成服务的这条线上，Anthropic其实比OpenAI更早一步。</p>
+  <p>早在2025年9月，Anthropic就推出了Claude Agent SDK，把Claude Code背后的工具、上下文管理、权限系统和subagent能力开放给开发者，让别人也能拿这套东西做Agent。</p>
+  <p>今年4月，它甚至比OpenAI更早推出了Claude Managed Agents。Session、Harness和沙盒被拆成三个独立层：Anthropic负责托管harness和长任务，沙盒既可以由Anthropic提供，也可以接入别的执行环境。这个思路和今天的Agents API其实已经相当接近，Anthropic自己给它的定义就是“一个用于长期Agent任务的托管服务”。</p>
+  <p class="image-wrapper"><img data-img-size-val="693,312" src="https://img.36krcdn.com/hsossms/20260912/v2_af26a7f5e91d48db8181d7b8f670deab@6119835_oswg82136oswg693oswg312_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>所以某种意义上，OpenAI这次是在沿着Anthropic已经走过的路继续往前走，区别只不过是OpenAI手里有一个更“产品化”的Codex。</p>
+  <p>但因为Codex和Claude Code长期给人的产品印象还是不太一样，所以即使它们讲的是同一套故事，带来的感觉也大相径庭。Claude Code给人的感觉更像是让开发者坐在终端里和Agent一起写代码，而Codex App一开始强调的就是“同时监督多个长期Agent”的界面。</p>
+  <p>顺带一提，谷歌也早已加入这条路线。今年5月的I/O大会上，Gemini API推出Managed Agents，同样把Antigravity Harness和沙箱做成了托管服务。但谷歌的牌面不止于此，这一点咱们后面再讨论。</p>
+  <p>不过话说回来，谁先谁后好像也不是那么重要……最后当然是谁把自家的Harness变成开发者默认的那一层，谁才能吃下最大的蛋糕。</p>
+  <h2><strong>03 谁是大赢家？</strong></h2>
+  <p>说到底，为什么现在模型公司都开始抢Harness了？</p>
+  <p>就像是DSH给出的等式那样，Agent = Model + Harness，模型可以告诉Agent下一步应该做什么，但真要把一个任务从头跑到尾，它还得知道文件在哪里、需要调用哪个工具、出了错怎么恢复、结果最后要写在哪里。</p>
+  <p>换句话说，模型决定Agent的能力上限，而Harness越来越决定它到底能不能把活做完。</p>
+  <p>而一旦竞争的维度从“智力”走向“执行力”，最占优势的，未必是那些模型做得最好的AI公司。</p>
+  <p>因为Agent真正开始干活之后，需要的那些东西——邮件、文档、会议、通讯、账号权限等等——往往掌握在传统平台公司手里。</p>
+  <p>国内最近打得热闹的“办公Agent大战”，其实就是一个非常典型的例子：大厂在互联网平台时代积累下来的那些东西，以前更多只是各自生态里的部分功能，但到了Agent时代，这些东西恰好就是Agent真正干活时需要调用的工具。</p>
+  <p>现在大家做办公Agent，表面上是比谁家的AI员工更聪明、更有本事，背后其实也在重新利用自己过去积累的平台优势。谁手里有更多企业数据、文档、工具和权限，谁就更容易让Agent真正把事情做完。</p>
+  <p>模型公司需要一<ai-product-link data-id="14953" data-name="点点" data-logo="https://img.36dianping.com/20260731/v2_7f20642df457498595ae7c552043d930_oswg142435oswg1000oswg1000_img_jpg" data-classify-list="智能搜索,AI助理,办公辅助" data-refer-type="20">点点</ai-product-link>接入它们没有的入口，而那些做了十几年办公软件和互联网平台的公司，本来就掌握着这些入口。</p>
+  <p>换句话说，<strong>AI公司要重新连接现实世界，而平台公司手里原本就有一大串钥匙。</strong></p>
+  <p>沿着这条路往前看，如果非要找一个最有优势的“全家桶”选手，谷歌恐怕是最夸张的那个。</p>
+  <p>从TPU、云基础设施、Gemini，到Search、Workspace、Chrome和Android，谷歌几乎覆盖了AI从底层技术到最终用户的所有关键环节。Search、Gmail、Calendar、Drive、YouTube、Maps等产品，又天然构成了一套可以被Agent调用的数字环境。这些资产在上一代互联网里是一个个独立入口，到了Agent时代，却可以被重新组织到同一个任务之下。</p>
+  <p>事实上，谷歌已经开始把散落在各个产品里的Agent能力，在底层往同一套执行系统里收。Gemini Spark、Gemini API里的Managed Agents，乃至Search里的部分Agent体验，背后正在逐渐共享同一套Antigravity Harness。</p>
+  <p>但到了用户这一端，事情还是有点乱。</p>
+  <p>今天谷歌同时有Gemini Spark、Workspace Studio、Antigravity、Gemini Enterprise，以及Search里的Information agents。它们面对的用户和场景各不相同，但对于普通人来说，当他们想把一件复杂的事情整个交给谷歌，还是不知道应该找谁。</p>
+  <p>对谷歌来说，它已经拥有完成这一切所需的大部分条件，缺的只是一个足够简单的产品答案。</p>
+  <p>而如果谷歌真把这件事做明白了——无论是做出了一个统一的Agent工作台，还是让同一个Agent执行系统穿透整个谷歌生态，让用户习惯“有问题找谷歌”，全球Agent市场的竞争格局恐怕都要再变一变。</p>
+  <p>话虽如此，谷歌就算真把这套“全家桶”塞进一个Agent，国内用户大概率也只能先围观一下。</p>
+  <p>还是先看看国内的Agent大战，接下来还会怎么打吧。</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/fNteVojfsy2d-Bh9mYoqbA">“字母AI”</a>，作者：袁心玥，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 12 Sep 2026 02:48:21 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3979785466730377</guid>
+            <link>https://www.36kr.com/p/3979785466730377</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[具身新贵，3个月成为独角兽]]></title>
+            <description><![CDATA[<p>就在国内一级市场对具身智能的投资逐渐收紧之时，海外一家做机器人数据训练的公司，三个月融两轮，已经跻身百亿独角兽行列。</p>
+  <p>不久前，机器人数据公司XDOF传出新一轮融资消息，估值约12亿美元，折合人民币超过百亿元。距离公司今年6月宣布完成7000万美元A轮融资，仅仅过去约三个月。</p>
+  <p>XDOF成立于2024年，由Philipp Wu、Fred Shentu和Nemo Jin共同创立。公司的技术基础之一，是伯克利机器人学习研究中发展出来的GELLO远程操作系统。</p>
+  <p>让我产生兴趣的是，这家公司既不做模型，也不造人形机器人，而是做着一门看上去并不性感的数据生意——为机器人收集、整理和处理真实世界中的交互数据。但就是这样一家“卖数据”的公司，却获得了 a16z、Thrive Capital 等明星机构的青睐。</p>
+  <p>目前XDOF的这笔融资仍属于拟议交易，具体融资金额、估值是否包含新资金等细节尚未得到公开确认。但无论最终交易如何落地，这笔融资至少释放出了一个值得关注的信号：随着大模型和机器人产业进入新的发展阶段，曾经被视为人力密集型、缺乏想象空间的数据生意，正在被资本重新审视。</p>
+  <p><strong>机器人领域的Scale AI</strong></p>
+  <p>“数据质量往往是深度学习中被忽视的功臣。”这句话是Phililp Wu在推特转发团队的一篇研究文章时所写下的。</p>
+  <p>Phillp Wu是XDOF的创始人。他所在的伯克利，本身就是全球机器人学习、强化学习和具身智能研究的重要学术中心。国内具身智能圈流传的“伯克利归国四子”，也从侧面说明了这所学校在中国创业者和投资人中的影响力。</p>
+  <p>XDOF创始人Philipp Wu，研究起点也是机器人本身。从领英公开履历看，他曾在加州大学伯克利分校机器人学习实验室从事本科研究，师从Pieter Abbeel教授，研究机器人控制。2022年7月至2024年8月，他还曾在Meta担任访问研究员，研究多模态机器人基础模型。</p>
+  <p>Pieter Abbeel是加州大学伯克利分校教授、机器人学习实验室主任，也是伯克利人工智能研究院（BAIR）联合主任。他长期研究机器人如何通过人类示范、强化学习和试错获得技能，比如当下我们经常见到的机器人学习折叠衣物、打结、装配等复杂操作，均是Abbeel的研究方向，他还曾与学生共同创立Covariant，将机器人学习技术带入物流仓储场景。2022年，伯克利将ACM Prize in Computing授予Abbeel，以表彰他在机器人学习领域的研究贡献。Philipp Wu就曾在Covariant担任研究工程师，研究物流和仓储机器人的学习技术。</p>
+  <p>如果把具身智能比作一条新产业链，机器人本体是“身体”，模型是“大脑”，而数据则更像训练过程中的“燃料”。本体厂商需要数据训练模型，模型厂商需要数据提升能力，数据公司则有机会向多个客户提供服务。因此，有投资人将XDOF称为机器人领域的Scale AI或Mercor。</p>
+  <p>不过，这个类比也需要谨慎。Scale AI等公司所处的是互联网数据和模型训练市场，xDOF面对的则是一个更复杂的物理世界。与传统工业机器人依靠预先编写的程序不同，通用机器人需要面对不断变化的物体、环境和任务。一个人如何抓起一支笔、打开一个瓶盖、折叠一件衣服，背后都包含复杂的视觉、动作和反馈过程。机器人要学会这些事情，不能只靠工程师为每个动作编写规则，而需要大量真实的交互数据。</p>
+  <p>这类数据并不像互联网文本那样天然存在，而机器人需要的数据，往往必须通过真实操作才能获得。机器人抓取物体时的位姿、手部轨迹、接触反馈、失败原因，以及人类如何调整动作，都是训练通用机器人所需要的材料。此外，机器人训练数据质量要求也更高，一个看起来“差不多”的动作，可能因为力度、角度、接触位置或时机不同而失败。这也是为什么机器人数据采集不能简单理解为“给机器人拍视频”。它需要同步记录视觉、动作轨迹、机器人状态和任务结果，还需要考虑不同机器人之间的动作映射、数据质量控制，以及如何从失败和调整中提取有效的学习信号。</p>
+  <p>今年6月，XDOF发布了WARP-RM（Warp-Augmented Relative Progress Reward Model）方案。研究团队在训练机器人折叠T恤时发现，增加更多示范数据后，机器人反而表现更差。问题并不在于这些示范最终没有完成任务，而在于其中包含了大量停顿、犹豫和反复调整的过程。对模仿学习模型而言，这些动作同样会被当作训练信号。</p>
+  <p>WARP-RM试图解决的，就是如何从这些数据中识别出真正推动任务进展的部分。通过改变已有轨迹的时间尺度，让模型学习判断任务进展的速度：某个动作是在推动任务向前，还是停滞，甚至倒退。这样一来，一段原本只有一次示范的数据，可以通过不同速度的回放，生成更多用于训练的相对进展信号。结果显示，在折叠T恤的实验中，经过WARP-BC加权训练的策略，在不同质量的数据集上都保持了更高的成功率；在最干净的数据集上，两种方法都完成了20次折叠，但加权策略平均用时约64秒，普通模仿学习约114秒。</p>
+  <p><strong>a16z等明星机构押下重注</strong></p>
+  <p>众所周知，数据问题正在困扰具身行业，尽管越来越公司以仿真数据和合成数据作为解决问题的途径，但仿真可以扩大数据规模，但真实数据决定了这些数据与现实世界之间的距离。 如果一家公司能够掌握真实数据采集能力，并进一步形成稳定的数据管线、工具和客户网络，它的商业价值就可能从数据服务商，向训练基础设施供应商升级。&nbsp;</p>
+  <p>今年6月，XDOF公开了ABC-130K数据集，包含13万条以上机器人操作轨迹，覆盖约200个双臂操作任务，并与伯克利等机构合作完成。与此同时，这家公司宣布完成7000万美元A轮融资，Thrive Capital、a16z、Lux Capital、Spark Capital和WndrCo均参与其中。到了9月，xDOF又传出正在洽谈新一轮融资，估值约12亿美元。</p>
+  <p>资本密集关注背后，这家公司年化收入已接近5000万美元，客户包括多家前沿AI实验室。</p>
+  <p>事实上，国内也已经出现了一些大模型数据训练的明星公司和创始人，他们今年的融资热度同样颇高。近期，我们和一些投资人交流后发现，数据生意的上限，不在于卖出多少条轨迹。就像一些早期的数据公司，容易被理解为外包服务商：客户提出任务，公司组织人员采集数据、完成标注，再按项目交付。但如果机器人模型的训练需求持续增长，这种模式很难支撑更大的商业空间。</p>
+  <p>原因是数据需求并不是一次性的。模型训练需要持续补充新数据，模型效果变差时需要重新采集，换一个机器人或任务场景，又需要新的数据。真正有价值的公司，需要把采集、清洗、标注、训练、评测和反馈连接起来，形成持续运转的数据生产系统。</p>
+  <p>以XDOF的业务模式为例，公司公开强调，其业务不仅包括数据集，还包括数据管线、采集工具和标注系统。创始团队此前参与开发的GELLO，也是一套用于机器人远程操作的数据采集系统。在投资人看来，这类公司的上限，不一定是成为一家更大的数据外包商，而可能是成为机器人训练生态中的基础设施平台。</p>
+  <p>2026年的具身智能融资，已经明显向“大脑”和“数据”两端集中。但这并不意味着所有细分赛道都在同步升温。相反，资金正在向更少的项目集中，投资人也开始从“技术故事”转向“商业化能力”。</p>
+  <p>国内，物理AI数据与评测基础设施企业光轮智能今年以来已连续完成多轮融资，融资节奏明显加快 。3月，完成10亿元A++及A+++轮融资，晋升全球首家具身数据独角兽 ；5月再获新一轮融资，由蚂蚁集团领投，投后估值超过20亿美元（约150亿元人民币）；6月完成10亿元战略融资，三周内两轮合计约20亿元 。</p>
+  <p>“智元系”，同样在发力具身智能数据平台基建，今年2月，由智元机器人内部孵化的物理AI数据服务平台觅蜂科技宣布成立，截至2026年8月底累计已完成数亿元融资。不久前，第20000套MEgo无本体数据采集设备正式下线。据了解，这也是行业首次实现大规模量产无本体数据采集设备。</p>
+  <p>“Garbage in，garbage out。”数据的质量，最终决定模型能力的上限。</p>
+  <p>随着机器人逐渐走进真实世界，越来越多企业开始进入数据采集领域，物理AI的数据供给正在加速增长。尽管眼下的数据积累，距离真正支撑机器人智能涌现仍有距离，部分数据采集项目的失利，也意味着一些资本已经为尚未跑通的技术路线付出了成本。但这并不意味着数据的价值正在消失。恰恰相反， 随着技术路线逐渐收敛，数据会从对数量和质量的追求转向一套围绕数据建立起来的采集、处理和反馈能力。届时，数据公司的价值也应当被重新看待。</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/vwKHd6mPjlLGmQdHt9B87w">“东四十条资本”</a>，作者：韦香惠，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 12 Sep 2026 02:46:32 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3979823553657603</guid>
+            <link>https://www.36kr.com/p/3979823553657603</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[情感智能珠宝硬件公司完成天使轮融资，荣耀AI Connect生态企业等押注｜硬氪首发]]></title>
+            <description><![CDATA[<p>作者｜黄楠</p>
+  <p>编辑｜袁斯来</p>
+  <p>硬氪获悉，情感智能珠宝硬件企业SHAKESPEARE莎士比亚近日完成数千万元天使轮融资，由荣耀AI Connect生态企业极选智能、国内头部珠宝DP服务商瑞钰控股共同出资。势能资本长期担任公司独家财务顾问。融资资金将主要用于核心算法迭代、多模态情感交互模型开发、新品类的珠宝工艺研发及全球化渠道拓展。</p>
+  <p>莎士比亚2025年成立于杭州，公司定位“情感智能珠宝”品牌，致力于将传统珠宝工艺与智能穿戴技术深度融合，为提供具备情感陪伴能力的智能珠宝产品。其首款产品为AI身心健康陪伴戒指，已于2026年4月在国内市场正式发售。</p>
+  <p>莎士比亚创始人杨勋忠历任茵曼COO，茵曼内衣创始人，韩束总经理，其创办的瑞钰控股作为年销售额超20亿元的头部品牌服务商，服务过周大生、周大福、潮宏基、老庙等国内主流珠宝品牌。核心团队来自清华、北大、中科院、复旦、浙大等顶尖院校，覆盖计算机、人工智能、医学心理学等领域，形成消费、技术、医疗、审美交叉的复合型能力底座。</p>
+  <p>珠宝与智能穿戴，正在发生一场关于品类定义的碰撞。</p>
+  <p>全球珠宝市场坐拥数千亿美元的存量规模，智能穿戴赛道同样处于高速增长阶段。然而两个行业的交汇处，长期存在一片空白地带。传统珠宝的核心价值在于材质、工艺与审美表达，但其交互模式是单向的，用户佩戴一枚戒指，戒指不会感知、不会回应、不会陪伴。而智能穿戴的核心价值在于持续的数据采集与反馈，但其产品形态长期受限于数码产品范式，设计逻辑长期围绕功能参数展开，与珠宝级审美之间存在一定距离，难以承载情感表达与审美价值。</p>
+  <p>要拆解莎士比亚的产品定义，绕不开珠宝与智能穿戴两个行业底层逻辑的根本不同。在杨勋忠看来，这一赛道机会并非是把智能模块简单塞进珠宝外壳，而在于从产品定义、硬件架构到工艺路径的每一个环节，都重新回答“珠宝如何理解用户”这个问题。</p>
+  <p>其中，公司已发布的首款智能珠宝产品序章系列，研发历时超过一年，历经十余次版本迭代。在毫米级的内部空间里，莎士比亚选择了“低功耗BLE主控+高集成PPG前端+六轴运动传感器”的架构方案，并集成了体温传感器、加速度传感器、PPG光学传感器等核心器件。</p>
+  <p class="image-wrapper"><img data-img-size-val="8192,5474" src="https://img.36krcdn.com/hsossms/20260911/v2_66fe67950d4e48dbb062560b910a730c@6022551_oswg6427713oswg8192oswg5474_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">首款智能珠宝产品序章系列（图源/企业）</p>
+  <p>续航方面，产品采用间歇式自适应采样策略，而非持续高频采集；静息与睡眠场景下提高PPG采样频率以保证数据精度，运动场景下则主动降低频率以控制功耗。整机电池容量约14.1mAh，续航可达7至10天，支持用户自定义监测频率，同时实现IP68级防水，整机重量控制在3至6克，佩戴时几乎无感。</p>
+  <p>然而，真正构成壁垒的并非器件堆叠，而是在电子工程与珠宝工艺之间跨行业的协同能力。</p>
+  <p>“智能戒指和珠宝结合，没有想象中那么简单，并不是两个东西加起来就可以了。”杨勋忠表示。一枚成品的诞生需要跨越器件选型、电子结构重排、注胶密封、真金电镀、手工抛镶五大环节、二十余道工序，由多家工厂跨区域协同完成。</p>
+  <p>产品的核心难点之一，是将电子芯片完整收纳进一枚真正闭环的戒指环体。市面上不少智能戒指受限于器件布局，内圈并非完整圆形：芯片等元器件没有安置空间，只能向内圈挤占位置，形成凸起的平台结构。</p>
+  <p>莎士比亚团队重新设计了PCB板结构，取消传统充电口凸起平台，让电子机芯实现环形一体化成型，内圈采用人体工学圆弧内倒角，最终用户触摸到的贵金属内圈完整圆润、没有任何凸起，贵金属材质也进一步拉高了产品整体质感。</p>
+  <p class="image-wrapper"><img data-img-size-val="1174,740" src="https://img.36krcdn.com/hsossms/20260911/v2_d77bfd95d9e4485ca577406eebfa1a02@6022551_oswg249423oswg1174oswg740_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">戒指内部结构图（图源/企业）</p>
+  <p>另一处差异化创新，是颠倒电镀与芯片装配的工序。此前通行的方法是先电镀、后装芯片，由于电子器件娇贵高温高酸环境都可能损伤芯片，先完成外壳电镀再装入芯片是最省事的路径。但同时，其代价是外壳电镀后无法再做整体打磨，表面质感始终达不到珠宝级标准。</p>
+  <p>莎士比亚反其道而行，先装配芯片并做好防护，电镀层（如镀银 / 镀金）并在壳体表面施加纳米防护涂层并进行珠宝级手工抛光，整套工艺的生产成本数倍于行业常规方案。产品成型交由传统珠宝工匠落地。经过3D起版倒模、手工精修，采用高奢珠宝爪镶工艺镶嵌培育钻石，全程由专业团队质检把控。戒指壳体选用925纯银，高配版本为18K金、纯金贵金属材质，兼顾佩戴质感与保值属性。</p>
+  <p>硬件工艺解决了产品物理佩戴层面的门槛，而情感智能解决的是“如何让用户愿意佩戴”的问题。</p>
+  <p>杨勋忠告诉硬氪，传统智能戒指侧重的是生理健康数据，心率、血氧、睡眠质量。而莎士比亚在生理数据的基础上，把维度提升到了心理层面。“我们会先通过心率变异性（HRV）、皮电等数据，投射用户的情绪变化、压力水平和心理活力，再通过互动沟通给出解决方案。”</p>
+  <p class="image-wrapper"><img data-img-size-val="2190,1246" src="https://img.36krcdn.com/hsossms/20260911/v2_a735422e81594a348f4f2a0e5e452b44@6022551_oswg2507219oswg2190oswg1246_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">首款智能珠宝产品序章系列（图源/企业）</p>
+  <p>团队自研了基于个性化机器算法和语义生成模型的情感智能体系，涵盖数据采集、数据处理、状态模型、情感计算与应用服务的完整闭环。当用户佩戴戒指后，系统通过持续采集生理数据并结合用户交互，逐步建立个性化的情绪基线。随着佩戴时间增长，系统对用户情绪状态的理解会持续加深，从感知情绪波动逐步演进到预判情绪需求。</p>
+  <p>“从功能上，传统智能戒指只解决身体层面的问题，我们同时解决心理层面的问题。”杨勋忠表示。</p>
+  <p>根据Precedence Research测算，2025年，美国行为及心理健康服务市场规模达到948亿美元；在中国，睡眠研究会调研显示，超过60%的年轻人面临不同程度的睡眠与情绪压力问题。而目前，仅一线城市预约心理医生就往往需要数月等待。</p>
+  <p>莎士比亚的定位，正是通过日常佩戴的智能珠宝，将情绪感知与陪伴能力嵌入用户的生活流中，在健康监测之外，提供一种低门槛、高频次的心理支持方式。</p>
+  <p>所有内容、渠道与海外路径的起点，都不是品牌叙事本身，而是用户真正在哪里、以什么姿态、为什么愿意被“看见”。</p>
+  <p>在渠道与营销层面，国内市场的渠道与营销遵循“内容种草—心智占位—线上线下承接”的路径。产品上市前，团队通过明星与KOL合作完成高密度曝光，在建立品牌认知的同时为后续转化预埋势能。市场反馈也验证了这一节奏——在天猫88会员节活动中，莎士比亚拿下了智能戒指单品排行榜第一、第三和第五名。</p>
+  <p>线下则通过与超过80%的上市珠宝品牌的既有合作经历，以联名款、快闪店、买手店、数码合作店等多元形式快速触达用户。目前，其产品已进驻INNO100全球创新旗舰店和荣耀深圳湾旗舰店，后续将入驻荣耀旗下数千家店铺以及国美、顺电、机器时代、中免等渠道，计划2028年开设首家线下旗舰店，逐步扩展至各城市核心CBD商区。</p>
+  <p>海外市场的推进遵循“北美先行、欧洲承接、日韩渗透”的梯度策略。北美是科技与极客文化的高势能区，作为品牌势能外溢的第一站；欧洲依托奢侈品与设计话语权，进一步强化品牌的设计语言与工艺叙事；日韩则借潮流与IP文化的渗透力，完成在亚洲核心市场的文化认同与心智锚定。这不是简单的地理扩张，而是基于文化适配与心智梯度设计的全球化路径。</p>
+  <p class="image-wrapper"><img data-img-size-val="1256,1164" src="https://img.36krcdn.com/hsossms/20260911/v2_c0e733d9249d42e59655f10f7ee351a9@6022551_oswg1155730oswg1256oswg1164_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">莎士比亚产品系列（图源/企业）</p>
+  <p>莎士比亚的用户策略并非把核心用户视为单纯的购买者，而是将其纳入品牌共建的链条。通过KOL内容合作完成第一轮心智渗透后，团队以共创计划、限量发售、线下体验等方式，把早期用户逐步沉淀为品牌的种子用户。这些人既是产品迭代的早期反馈者，也是圈层传播的关键节点，用户本身反过来也能成为品牌势能的放大器。</p>
+  <p>国内的转化矩阵、海外的势能梯度与用户的圈层裂变，三条线最终被压进同一个长期品牌资产里，在每个触点上得以让用户被精准识别、被有效承接、被持续打动。</p>
+  <p>智能珠宝的核心价值，不在于把传感器塞进戒指，而在于以情感理解为锚点，重构人与饰品之间的关系。 珠宝不再是静态的装饰物，而是能够感知、陪伴、回应的数字灵魂伴侣。以珠宝工艺承载智能感知，以情感算法驱动交互体验，莎士比亚所正试图重新定义“穿戴”二字的边界。</p>
+  <p><strong>以下为硬氪与莎士比亚创始人杨勋忠的访谈节选（略经编辑）：</strong></p>
+  <p><strong>硬氪：</strong>从硬件形态来看，戒指能捕捉到的生理信号是有限的。怎么通过一枚戒指去理解用户的情绪状态？</p>
+  <p><strong>杨勋忠：</strong>戒指能采集的信号维度确实有限，所以我们做的不是“读心”，而是“读身”，即通过生理信号的变化去倒推情绪状态的可能性。当前一代产品核心信号来自三个方面：心率变异性（HRV）、体动数据，以及体温、心率、睡眠等基础生理信号。</p>
+  <p>HRV是目前情绪识别领域研究最充分的生理指标之一。当人处于压力或焦虑状态时，交感神经占主导，HRV会显著降低；而在放松、愉悦的状态下，副交感神经激活，HRV会升高。我们采集的是连续时域和频域两个维度的HRV特征，时域上看NN间期的标准差，频域上看低频和高频成分的比值变化。</p>
+  <p>皮电反应跟踪的是皮肤电导率的细微波动，这个信号直接受汗腺活动调控，而汗腺又由交感神经驱动——情绪唤起越强，皮电响应越明显。这是情绪强度的一个独立维度。</p>
+  <p>体动数据用来做上下文标注，人在运动时心率自然会升高。当然，系统也会需要把这种“生理性波动”和“情绪性波动”区分开。</p>
+  <p>算法层面分两步走。第一步是基线建模；用户佩戴的前几天，系统在静息、运动、工作、睡眠等多种场景下采集数据，建立这个用户个人的生理信号基线，而不是套用统一的人群阈值。第二步是异常检测；当实时信号偏离基线达到一定幅度时，系统标记为情绪波动事件，再结合用户当时的活动状态和后续交互反馈，不断校正模型的判断逻辑。</p>
+  <p>目前，这套系统在用户佩戴后的两到三天内可以给出初步的情绪趋势判断，随着数据积累和交互反馈的增加，模型的个性化精度会持续提升。此外，我们还在开发的第二代产品，将会增加更多辅助信号。</p>
+  <p><strong>硬氪：从行业数据来看，智能穿戴设备普遍面临佩戴率持续走低的问题，很多用户买回去之后一两周就闲置了。莎士比亚在产品定义上怎么回应这个问题？</strong></p>
+  <p><strong>杨勋忠： </strong>这是智能穿戴行业一个长期被讨论但始终未被很好解决的问题，用户留存。销量和活跃用户是两个完全不同的维度。很多产品卖出去之后，用户新鲜劲一过就不再佩戴了。</p>
+  <p>原因在于，此前市场上绝大多数智能戒指的产品定义起点是“功能硬件”，核心设计语言围绕传感器排布、芯片选型和数据精度展开。这决定了它在形态上首先是一个需要用户“为了某个功能而戴上”的设备，所以用户会有意识地在需要监测的时候佩戴，而日常场景下佩戴意愿会持续衰减。</p>
+  <p>根源在于，传统智能穿戴的品牌和用户之间缺乏审美连接和情感连接，导致最终的佩戴动机来自于实用主义的驱动。</p>
+  <p>莎士比亚的起点不同。我们首先是珠宝品牌，其次才是智能设备。珠宝的第一性原理是“佩戴本身就构成价值”，它不需要有功能，用户也会戴。如果一枚戒指本身不好看、不够有质感、无法融入日常穿搭，它就不可能成为一个每天都会被佩戴的物件。当用户愿意为了审美本身而戴上它，数据采集、算法优化的前提条件就成立了。</p>
+  <p>这个顺序很重要，不是因为要监测心率而戴，而是因为戴着好看，顺便完成健康数据的持续追踪。如果只是围绕科技语境下的效率叙事出发，会把自己绕进去。通过珠宝嵌入科技和文化，在用户心智中才能完成从“阶段性工具”到“长期陪伴信物”的跃迁。</p>
+  <p>目前莎士比亚的日活率相较行业均值高出数倍。用户在购买一段时间后仍然愿意每天佩戴，因为它本身就是一枚日常可戴的珠宝戒指，无论是否记得充电，佩戴动机始终成立。</p>
+ 
+]]></description>
+            <pubDate>Sat, 12 Sep 2026 02:30:00 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3977590035119112</guid>
+            <link>https://www.36kr.com/p/3977590035119112</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[陶哲轩、邓煜等菲尔兹奖得主“开炮”：AI正毁掉数学]]></title>
+            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="900,383" src="https://img.36krcdn.com/hsossms/20260912/v2_af9ceddd6bca4dcbadeea2ce92269d92@000000_oswg583490oswg900oswg383_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>数学界与AI大厂积攒已久的矛盾，在一周之内被彻底摆上台面。&nbsp;</p>
+  <p>智东西9月12日消息，刚刚，陶哲轩发文称，25位菲尔兹奖得主联合签署公开信，<strong>抨击AI公司将“解决著名数学难题”当作衡量模型能力的基准</strong>，是“对数学这门科学和数学共同体的伤害”，<strong>矛头直指OpenAI</strong>。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,467" src="https://img.36krcdn.com/hsossms/20260912/v2_c5b823c3628c4802883eadb4af2a676e@000000_oswg322139oswg1080oswg467_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这场风波的导火索，是<strong>本月初OpenAI的一次高调发布</strong>。9月8日，OpenAI宣布其内部模型通过约1万个Agent并发，<strong>仅用88小时</strong>就解决了纳维-斯托克斯方程问题，这是克雷数学研究所2000年选出的七大“千禧年大奖难题”之一，单题悬赏100万美元。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,979" src="https://img.36krcdn.com/hsossms/20260912/v2_6456a3f4d1834a4795e880199f2f59eb@000000_oswg541450oswg1080oswg979_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而就在公告发布前几个小时，纽约大学数学家Tristan Buckmaster和供职于Anthropic的数学家Levent Alpöge刚刚发表了同一问题在方程上的突破，<strong>并公开指责OpenAI“抢跑”</strong>。&nbsp;</p>
+  <p>优先权之争叠加联名声讨，让这件事从一场发布风波，升级为数学界对AI公司解题方式的集体表态。联合签署公开信的<strong>有1978年获奖的Pierre Deligne、2010年获奖的吴宝珠（Ngô Bảo Châu），以及2026年刚刚获奖的邓煜</strong>等25名菲尔兹奖得主。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="548,870" src="https://img.36krcdn.com/hsossms/20260912/v2_a6ff8d6e3f3a406994b335e394d3d45d@000000_oswg70055oswg548oswg870_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>陶哲轩发文虽然没有直接提到OpenAI，但他特意附上了The Economist对这场风波的报道，报道的标题是<strong>《顶尖数学家对OpenAI的方法感到愤怒》</strong>，直指OpenAI。&nbsp;</p>
+  <p>公开信地址：&nbsp;</p>
+  <p>https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/&nbsp;</p>
+  <p><strong>01</strong> <strong>.</strong>&nbsp;</p>
+  <p><strong>88小时“速通”世纪难题：</strong>&nbsp;</p>
+  <p><strong>风波的来龙去脉</strong>&nbsp;</p>
+  <p>按照OpenAI的说法，他们使用了约1万个Agent，先以1000个Agent在简化问题上试跑了50个小时，随后全力猛攻纳维-斯托克斯方程，总耗时88小时。它们“证明”的结论是：存在一类起初完全静止的正常流体，在光滑外力作用下会在有限时间内速度升至无穷大，也就是数学上所说的“爆破”（blow-up）。&nbsp;</p>
+  <p>也即，纳维-斯托克斯方程这一连续介质模型，在极端情形下并不总能描述真实世界。但相比结论本身，数学家更关心另一件事：这个证明是怎么做出来的，以及它算不算数。&nbsp;</p>
+  <p>OpenAI宣称完成解题的是从8月28日才开始训练的模型，比GPT-6 Astra能力显著更强，暂不对外开放，整轮攻坚消耗了数百万美元级算力。&nbsp;</p>
+  <p>需要说明的是，这份证明尚未经过同行评审，按克雷数学研究所的规则，解题者要先在同行评审期刊发表成果、再经过两年的考察期，才能领取奖金。&nbsp;</p>
+  <p>争议的焦点出在署名问题上，9月7日，也就是OpenAI公告发布的前一天， Buckmaster与Alpöge发布了他们在受迫欧拉方程等“相关但不同“问题上的成果，外加三篇论文草稿，合计245页。Buckmaster还附了一份措辞激烈的声明，表示他与OpenAI方面沟通后发现，对方的解题思路，与他们两人正在走的路线几乎一模一样。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,737" src="https://img.36krcdn.com/hsossms/20260912/v2_2ffd574d9f1340a8ba695d8d012a13e9@000000_oswg293186oswg1080oswg737_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在学术传统里，得知他人未发表的研究方向后抢跑，是最犯忌讳的事之一。Buckmaster直言，他和Alpöge数月的工作记录都留在OpenAI的Codex里，于是他质疑OpenAI是否读取过用户数据。&nbsp;</p>
+  <p>Buckmaster说OpenAI对此回复模型没有查看用户数据，但却对训练数据问题避而不谈。Buckmaster还称，OpenAI提出过一份“合并方案”，由他执笔宣布“OpenAI内部模型解出纳维-斯托克斯问题”，条件是致谢OpenAI，但同为解题人且就职于Anthropic的Alpöge不能署名。&nbsp;</p>
+  <p>OpenAI一方对此全盘否认。牵头千禧年难题攻坚的Sébastien Bubeck在简报会上称：“无论是研究员还是Agent，在对方公开发布之前，我们没有看到他们的任何工作。”&nbsp;</p>
+  <p>他还公开了短信记录，称自己当时提供了让对方“优先发表”的选项；Sam Altman也下场辩护，称Bubeck和团队全程行为“诚信、慷慨”。&nbsp;</p>
+  <p>不过OpenAI在官方博客里留了一句耐人寻味的补充：“可能性不高，但我们无法排除，由他们使用我们产品所产生的去标识化数据，曾帮助改进我们的模型”。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,704" src="https://img.36krcdn.com/hsossms/20260912/v2_dc8656f656f24d4ca4ac4250dbdc8549@000000_oswg259356oswg1080oswg704_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>同一周，摩擦延续到了现实中，加州理工学院原定10月30日举办数学黑客松，让参赛者用大模型解题，OpenAI和Anthropic联合提供了200万美元的AI算力额度。&nbsp;</p>
+  <p>而在一群数学家发布公开信，抨击这类活动很可能对数学共同体造成破坏性影响，认为AI公司正在进行学术不端后，组委会回应称将增加验证期和公开出版要求。据Business Insider报道，OpenAI现已宣布退出赞助。&nbsp;</p>
+  <p><strong>02</strong> <strong>.</strong>&nbsp;</p>
+  <p><strong>把解题当目标</strong>&nbsp;</p>
+  <p><strong>数学会失去什么</strong>&nbsp;</p>
+  <p>回到那份公开信，25位签署人全部是菲尔兹奖得主，获奖年份横跨近半个世纪，最资深的是1978年得主皮埃尔·德利涅，最新一位是今年7月刚获奖的中国数学家邓煜。&nbsp;</p>
+  <p>菲尔兹奖每四年颁一次，只授予40岁以下的数学家，被称为“数学界的诺贝尔奖”。&nbsp;</p>
+  <p>公开信称，因局势紧迫，没有时间走更充分的咨询流程，公开信由陶哲轩的博客同步发布。陶哲轩此前以对AI开放著称，多次公开演示用ChatGPT配合Lean做形式化证明，而这一次，他站到了OpenAI的对立面。&nbsp;</p>
+  <p>公开信中虽然通篇没有点名任何公司，但外界基本都读作剑指OpenAI，The Economist的报道标题就是“顶尖数学家对OpenAI的做法感到愤怒”，并概括称他们警告AI可能毁掉数学的根基。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,712" src="https://img.36krcdn.com/hsossms/20260912/v2_0277db8cc7564e41b3ef2d35881fd148@000000_oswg346222oswg1080oswg712_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>公开信中最核心的观点是：过去几个月，LLM的数学能力突飞猛进，已经能解决多个领域的重大悬而未决问题。然而，AI公司把解题当作基准来推进，对数学这门科学、对数学共同体都是有害的。AI公司的目标和数学共同体的目标严重错位。&nbsp;</p>
+  <p>公开信认为，这只是更大范围错位的一部分，同样影响着其他科学、创意行业乃至整个社会。&nbsp;</p>
+  <p>著名难题历来是“地标”和“灯塔”一样的存在，解决一道这样的难题，往往伴随着新洞见和新方法的出现，之后还要经历漫长而艰苦的消化，报告、讨论、简化，直到沉淀成适合研究生甚至本科生学习的教科书内容，有些思想要到几十年、几百年后，才会成为全人类使用的工具。&nbsp;</p>
+  <p>“但解题只是实现核心目标（概念理解和洞见）的工具和代理。”公开信警告，忘掉这一点，工具就会反噬目标：“以越来越快的速度批量生产‘真/假‘命题，可能摧毁沃土，而不是为新的思想注入生机。”&nbsp;</p>
+  <p>公开信认为，许多成果抢发得太快，没有时间做规范的文稿整理、提炼新方法、引用前人工作，这在创意行业里会带来严重的署名与抄袭问题。&nbsp;</p>
+  <p>更长远的担忧是传承问题，如果没有数学家愿意承担培育工作、把AI构想的思想整合进数学经典，这些思想永远不会真正活起来，数学界代代相传的人类传承链条也会断裂。&nbsp;</p>
+  <p>值得注意的是，公开信并没有反对AI。它承认AI提供了增强和加速真正的数学研究与理解的潜力，也承认数学这一职业需要适应变化，公开信中留下了这样一句话：“这些变化最终是造福这个领域，还是造成破坏性后果，很大程度上将由掌控这项新技术的人类如何决策来决定。”&nbsp;</p>
+  <p>这封信并非凭空出现，过去几个月，AI与数学的冲突一件接一件：5月，一个出自OpenAI内部模型的反例，推翻了在组合几何里悬了80年的Erdős单位距离猜想，配套的验证论文由九位数学家联名完成，其中一位是后来拿下2026年菲尔兹奖的Jacob Tsimerman；&nbsp;</p>
+  <p>6月2日，《关于人工智能与数学的莱顿宣言》（Leiden Declaration）发布，由来自15所大学的16位学者起草，国际数学联盟（IMU）为其正式背书，签名超过2600人；&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,700" src="https://img.36krcdn.com/hsossms/20260912/v2_7e33835fd1094c5d9694ce8629704238@000000_oswg240416oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>7月，Alpöge用Claude证伪了87年未解的雅可比猜想；&nbsp;</p>
+  <p>8月，陶哲轩撰文判断，AI可能让数学遭遇“自Gödel以来最大的危机”；&nbsp;</p>
+  <p>9月，OpenAI耗时88小时的解题，把这一切推向了沸点。&nbsp;</p>
+  <p><strong>03</strong> <strong>.</strong>&nbsp;</p>
+  <p><strong>连理解都会被跳过：</strong>&nbsp;</p>
+  <p><strong>圆珠笔、计算器与一个新担忧</strong>&nbsp;</p>
+  <p>数学家对新技术发难，在历史上有过不少先例。苏格拉底抱怨过文字会让人懒得记忆；圆珠笔出现时，有人担心钢笔消亡、担心书写失去感官冲击；电子计算器普及，也吓到过一批人。&nbsp;</p>
+  <p>结果呢，人们照样写字，只是更快，数学家照样做研究，只是算得更快。&nbsp;</p>
+  <p>但这次对于技术的指控中多了一种新的焦虑，即连理解本身都可能被绕过。哥伦比亚大学Betsy Sparrow团队2011年的研究发现，搜索引擎普及后，人们遇到难题会先搜索而不是回忆，记忆被外包给了互联网；SBS瑞士商学院Michael Gerlich近期的研究则显示，频繁使用AI工具与批判性思维能力呈负相关。&nbsp;</p>
+  <p>回到数学本身，公开信还提及了一个很少被讨论的担忧——附属收益的消失。学术圈历来推崇第一个证出定理或破解猜想的人，但最终答案只是学术过程的一环，解决问题会带出更多问题，进而生长出新的研究领域。如果AI直接输出证明，这个过程可能就不会发生了。&nbsp;</p>
+  <p>如果AI哪天开始攻克癌症、改善能源供给，很少有人会在乎突破是怎么来的。但抽象数学是个例外：它几乎没有直接的实际应用，主要目的就是人类的理解本身。如果未来的抽象证明由机器完成、人类无法理解，这门事业的目的就会变得难以看清。&nbsp;</p>
+  <p>把一个人空投到珠峰峰顶，和亲自攀登珠峰，完全是两码事。&nbsp;</p>
+  <p>数学界内部对这件事的态度尚不统一。今年的菲尔兹奖得主之一、加拿大数学家Jacob Tsimerman，在7月的颁奖典礼上宣布离开多伦多大学、加入OpenAI，理由是他判断AI很快会把数学家的活干得“更快、更好”。而他没有在这封联名信上签名。&nbsp;</p>
+  <p><strong>以下是公开信原文的完整编译：</strong>&nbsp;</p>
+  <p>《人工智能与数学的严重错位》&nbsp;</p>
+  <p>我很自豪能成为下述宣言的25位初始签署人之一——全部是菲尔兹奖得主。这份宣言源于我们过去一周的讨论。我们也在这个网页上发布了宣言，并（与莱顿宣言类似）欢迎更多签名加入。（遗憾的是，我们没有时间像莱顿宣言那样走更充分的咨询流程；但我们判断，局势的紧迫性要求我们尽早发声，而不是再等下去。）&nbsp;</p>
+  <p>另见《经济学人》今天刊发的相关报道：《顶尖数学家对OpenAI的做法感到愤怒》。&nbsp;</p>
+  <p>过去几个月，大语言模型（LLM）的数学能力突飞猛进，已经能够解决许多数学领域中的重大悬而未决问题。然而，AI公司把“解题”当作基准指标来推进，这对数学这门科学、对数学共同体都是有害的。AI公司的目标与数学共同体的目标严重错位。&nbsp;</p>
+  <p>我们认为，这是更广泛的错位问题的一部分——这些问题同样影响着其他科学与创意行业，乃至整个社会。&nbsp;</p>
+  <p>研究数学致力于理解形状、数字和自然现象的基本结构。历经数代人，数学积累了大量精妙的思想、方法、抽象工具，用以理解数学的版图。而现代科技与科学，又建立在数学工具之上。&nbsp;</p>
+  <p>著名难题往往充当“地标”和“灯塔”，人们借此衡量对数学版图的认知深化。解决一道这样的难题，历来意味着新的洞见和有趣方法的出现；随后，数学家共同体要通过漫长的、艰苦的过程——报告、讨论、简化——去研究它。&nbsp;</p>
+  <p>这个过程走到终点，理想情况下会形成适合研究生甚至本科生学习的教科书式呈现。其中一些数学思想还会走得更远，在几十年甚至几百年后，成为被全人类理解和使用的工具。&nbsp;</p>
+  <p>在很多方面，数学共同体就像人类社会的缩影。它由使用各种不同方法、共享核心价值的个体组成。这个职业最宝贵的资源是学生和思想，我们精心培育它们。我们感到自己有责任让它们充分成长，直到能在数学世界中独立存活。&nbsp;</p>
+  <p>对学生们，我们常常建议一些题目，核心意图是培养技能，让他们为研究及其他领域的突破做好准备。对思想，我们通过报告、私下讨论和审慎的文稿来传播，并将其与前辈的思想联系起来。这些过程无一例外需要时间，且建立在人际互动之上。&nbsp;</p>
+  <p>近几个月，AI在解决重大数学问题上的成功，连数学圈之外都上了头条。但解题只是实现核心目标——概念理解和洞见——的工具和智能体。在AI时代忘记这一点，可能会让工具反噬核心目标。事实上，以越来越快的速度批量生产“真/假”命题，可能摧毁沃土，而不是为新的思想注入生机。&nbsp;</p>
+  <p>这些“解决方案”往往仓促发布，没有时间进行规范的文稿整理、提炼新的方法和思想、引用前人相关工作。与所有创意行业一样，这引发了严重的署名与抄袭问题。此外，如果没有愿意承担培育工作、将其整合进数学经典的数学家，AI构想的思想永远不会真正活起来，数学家之间至关重要的“人类传承链条”也会断裂。&nbsp;</p>
+  <p>我们正在目睹一场对智力劳动的普遍威胁：AI的使用结果与其最初目的之间出现错位。在许多领域和活动中，多年的训练传统上不仅是为了产出最终答案或产品，也是为了培养理解力，以及提出新问题、新思想的能力。&nbsp;</p>
+  <p>然而，AI系统建立在人类此前大量工作之上，正变得越来越擅长直接产出这些工作的成果——于是这些目标不再一致。&nbsp;</p>
+  <p>数学共同体如今面临的问题，与其他科学和创意行业面临的问题相似，也预示着全人类可能面临的问题：当AI改变工作的方式时，我们如何确保不会忘记这些工作最初是要实现什么。&nbsp;</p>
+  <p>AI提供了增强和加速真正的数学研究与理解的潜力。作为一个职业，数学需要在多个方面适应这些变化。然而，这些变化最终是造福这个领域，还是造成破坏性后果，很大程度上将由掌控这项新技术的人类决策决定。&nbsp;</p>
+  <p>这些问题必须得到紧急处理：在数学共同体内部，在开发这些技术的公司里，以及在更广泛的社会层面——因为社会将在许多其他形式的智力劳动中面对类似问题。&nbsp;</p>
+  <p>来源：The Economist、陶哲轩博客&nbsp;</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652810227&amp;idx=1&amp;sn=e5e09620e46c5616b97debc1490bc855&amp;chksm=8582d1eb95e9e1a9a2458228e5a89cff95180e071b8d2ad48888a9558cfdcaa150a33457a007&amp;scene=0&amp;xtrack=1#rd">“智东西”（ID：zhidxcom）</a>，作者：毕 伟豪，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 12 Sep 2026 01:54:05 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3979724367985411</guid>
+            <link>https://www.36kr.com/p/3979724367985411</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[“AI写的代码「惨不忍睹」！”Linux内核开发者吐槽：Bug找得挺准，23个补丁最高提速90%，但代码都是我重写的]]></title>
@@ -1731,1111 +2499,6 @@
             <pubDate>Fri, 11 Sep 2026 09:12:50 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/3978573980515333</guid>
             <link>https://www.36kr.com/p/3978573980515333</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[世界模型大混战：55家公司，7个门派，谁在真做世界模型？]]></title>
-            <description><![CDATA[<p>具身智能行业又爆大瓜。</p>
-  <p>梅卡曼德创始人邵天兰在朋友圈开炮：包括北京、上海一些名气很大估值很高的上春晚的公司，大量利用所谓"数采中心"和与地方政府、投资方、供应商的关联交易来制造虚假的、不可持续的收入，他指出这种做法是不合法，不道德，而且不聪明。</p>
-  <p class="image-wrapper"><img data-img-size-val="1214,948" src="https://img.36krcdn.com/hsossms/20260911/v2_7841ce418fd6434bbd0c6388762cf947@6400916_oswg736297oswg1214oswg948_img_png?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>银河通用随后回应：公司产品已在工业、零售、药房等多个领域实现规模化落地，并完成长达 2 年的常态化运营验证。</p>
-  <p>表面上看，吵的是机器人公司的收入是不是真的，真机数据是不是真的，商业场景是不是真的。</p>
-  <p>但往深了看，背后还有一个更大的问题：大家都<strong>说自己拥有的那个“真实世界”，到底是不是真的？</strong></p>
-  <p>巧的是，你问100个投资人，今年他们看的方向是什么，投资人都会告诉你，世界模型，它被寄希望于<strong>让机器理解、预测和模拟真实世界。</strong></p>
-  <p>方向听起来很清楚，边界却没那么清楚。</p>
-  <p>当我们真正问一句，<strong>到底什么才算世界模型？</strong>100个投资人心中不一定有100个哈姆雷特，但答案已经开始分叉。</p>
-  <p>除了原本就在做具身大脑的那些人，还有视频生成、3D生成、数据公司、仿真平台，一些原本并不以“世界模型”为名的公司，都开始被纳入这场新叙事。</p>
-  <p>世界模型成为每一家相关或者不相关公司的标配，出现在PPT的页眉、发布会的标题、融资故事里的镀金边框。</p>
-  <p>更有意思的是，一个连行业边界都没有统一的赛道，却已经开始批量制造独角兽：<strong>在我们梳理的55家公司中，已经有12家进入独角兽行列，其中九家来自具身智能领域。</strong></p>
-  <p>市场对这个词的热情也远比产品落地来得快。Google Trends数据显示，“world model”全球搜索热度同比暴涨1200%，2026年5月至7月快速冲高。</p>
-  <p class="image-wrapper"><img data-img-size-val="3290,1424" src="https://img.36krcdn.com/hsossms/20260911/v2_eddaaff7ef0e4b739366d182d9263aed@6400916_oswg206071oswg3290oswg1424_img_png?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">Google trends ：世界模型全球搜索热度</p>
-  <p>「非标玩家UnDefined」近期梳理了国内59个世界模型，将他们划成七大门派：机器人派、智驾派、大厂派、视觉生成派、数据派、3D派、Native派。</p>
-  <p>不同门派，不同出身，不同底牌，也注定了不同的活法。</p>
-  <p>接下来，我们将从夯到拉锐评这些“世界模型”，主要看三件事：<strong>它到底有多像一个真正的世界模型，有没有真正进入真实世界，以及能不能从真实世界里持续获得反馈。</strong></p>
-  <p>当然，我们并非专业机构！！所有评价都不够客观！如有雷同纯属巧合。</p>
-  <h2>01 机器人派：争夺理解世界的大脑——我给到顶级</h2>
-  <p>机器人派做世界模型，是真拥挤，也是真需求。</p>
-  <p>目前公开世界模型的机器人和具身智能公司至少有18家：商汤绝影（开悟Kairos）、大晓机器人（Kairos 3.1）、星海图（Fast-WAM）、智元机器人（τ0-WM、GE-Sim 2.0）、银河通用（DyWA、LDA-1B）、灵初智能（Psi-W0）、星源智（ω-EVA）、极佳视界（GigaWorld-Policy）、墨奇智能、章鱼动力、中科第五纪（BridgeV2W）、韦特嘉仓储机器人（具身大脑Ulti-Brain）、至简动力（VLA LaST₀）、智平方（全域全身VLA GOVLA）、飞捷科思、无界动力（W‑WALA）、自变量机器人（WALL‑WM）、破壳机器人（Embodied World Model）等。</p>
-  <p>机器人派是世界模型赛道里资本密度最高的一派。2026年上半年，国内仅具身智能赛道披露的融资额就超过460亿，其中七成砸向了前20家，银河通用、星海图、智平方、自变量的估值都已经突破200亿，成立不到一年的无界动力，连融四轮后估值也突破百亿，至简动力则半年就跻身独角兽。</p>
-  <p>资本赌的，是谁能先垄断真机数据入口。</p>
-  <p>传统机器人靠规则编程，端到端模型泛化能力很差。遇到陌生物体，就直接宕机；换一个场景，就要重新训练。这也是<strong>人类期待世界模型能够解决的——理解物理规律后，在"脑内"推演后果，选择最优动作。</strong></p>
-  <p>机器人派切入世界模型最大的抓手，是他们派拥有真实应用场景和真机数据（敲重点：是能训练出能力的真数据，不是和前述所谓数采中心虚构的数据）。</p>
-  <p>机器人在真实环境里的每一次抓空、碰撞、跌倒和人类接管，都是世界模型最珍贵的训练数据。只要真机规模起来，“模型训练—真实验证—产品迭代”的飞轮就有机会转起来。</p>
-  <p>因此，<strong>机器人派很有可能是最先把世界模型带入物理世界的一派。</strong></p>
-  <p>但问题也恰恰在这里：真机是资产，也是负债。没有足够多的真机，闭环就是空谈；可机器人一多，硬件、部署和维护成本又可能先把公司拖死。</p>
-  <p>还有一个更隐蔽的陷阱：专用模型不等于通用世界模型。自己公司的机器人每天产生的数据，确实能让模型越来越懂自己的机械臂、抓取方式和场景，但这可能只是把一个“小世界”做得越来越熟。真正的考题是能不能换一台机器人、换一个任务、换一个陌生环境依然有效。</p>
-  <p>所以，机器人派最终比的是谁能把真机数据变成可迁移的物理世界知识，从“只懂自己的机器人”走向“理解别人的机器人”，这才是真的在造理解世界的大脑；否则，世界模型只是给自己的机器人找了一个更高级的仿真器。</p>
-  <p>能把后者变成前者的，可能只有一两家；剩下的，只是在借世界模型的名义，给融资故事加戏。</p>
-  <h2>02 智驾派：预测下一秒世界——我给人上人</h2>
-  <p>目前至少有7家车企和智驾公司公开了相关探索，包括蔚来汽车（NIO WorldModel）、理想汽车（重建世界模型、生成世界模型）、小鹏汽车（X-World）、吉利汽车（World Action Model）、小米汽车（Joint World Model）、华为云（盘古多模态大模型的世界模型）、Momenta（R7 强化学习世界模型）等，另外，地平线与星河问途也公开表示自研智驾系统内含世界模型能力。</p>
-  <p>名单不长，但每家都自带量产车队和数据管道。</p>
-  <p>今天的“智驾”本质仍是辅助驾驶。<strong>世界模型要补上的是感知、预测和规划的统一。</strong></p>
-  <p>车企最大的优势，是拥有持续运行的现实世界采样器，从采集真实道路数据、发现问题、筛选有效样本、重新训练，再通过仿真和评测验证模型迭代效果，最后把模型重新部署到车上，实现数据闭环。</p>
-  <p>智驾派数据采集条件高度标准化：相对固定的传感器、车辆控制接口；相对统一的路况；相对重复的任务，所以模型具有很强的规模复制性。</p>
-  <p>和其他派不同，<strong>在过去的十年中，智驾派已经跑过一轮数据闭环建设，所以他们可能成为最早跑通世界模型的垂直领域之一。</strong></p>
-  <p>但车企的问题也很现实：造汽车和造基础模型，是两套能力。有钱、有车、有数据，不等于拥有万卡集群和预训练团队。因此，部分车企的世界模型，可能是"贴牌"或"联合研发"——名字属于车企，底层能力却来自供应商。</p>
-  <p>这也成了智驾派真正的暗战。华为、Momenta等供应商可以跨品牌、跨车型获取数据，尤其能覆盖极端天气、复杂路口和危险决策等高价值场景，更重要的是，他们有机会把不同车队的数据、算法和评测体系连接起来。他们的野心是从“卖智驾方案”进一步变成“汽车智能时代的基础能力提供者”。</p>
-  <p>同样，供应商也有困扰，能接触数据，不等于拥有数据闭环。数据能不能持续用于训练，最终还要看与车企的合作模式和合同条款。</p>
-  <p>车企争的是自己的数据规模和闭环，供应商争的是跨车队的数据规模和闭环，最终<strong>谁能真正把数据变成模型能力，谁才有资格定义下一代汽车的大脑。</strong></p>
-  <h2>03 大厂派：全都能做，但世界不是靠堆出来的——我给顶级</h2>
-  <p>目前已公开相关产品或研究的大厂包括：阿里巴巴（Qwen-RobotWorld、Qwen-AgentWorld、Happy Oyster）、蚂蚁灵波（LingBot-World / LingBot-VA）、腾讯混元（HY-World 2.0）、字节 Seed（GR 系列、Seedance 2.0）、快手（可灵视频 3.0 Omni）、华为云（盘古世界模型），以及正在探路的美团（LongCat-Video）。</p>
-  <p>2026年，世界模型开始被越来越多大厂视为下一代AI基础设施。他们<strong>可以容忍自己的大模型不是最强，但绝不能容忍自己在新牌桌上缺位。</strong></p>
-  <p>大厂派最大的优势是什么都有。有视频的做视频，有地图的做3D，有机器人的做具身，有Agent的做数字环境……阿里甚至同时押注机器人、Agent和虚拟世界三条路线。</p>
-  <p>这种“全都要”的底气，在战略模糊期是优势，但标准一旦确立，也可能变成负担。毕竟，世界模型究竟应该是视频、3D、物理模拟器，还是Agent的数字环境，现在还没有答案。</p>
-  <p>路线可以同时下注，但数据闭环却不能同时成立。内容平台有海量视频，却缺少动作反馈；地图公司有空间数据，却未必拥有持续的物理交互；机器人公司有真实动作数据，但规模又远小于互联网数据。</p>
-  <p>数据很多，不等于有世界模型最需要的数据。最后做出来的可能是一堆分别服务于视频、3D、机器人和Agent的“高级工具”。</p>
-  <p>世界模型的终局，也未必是模型最多的大厂赢，而是谁能把模型、场景、数据和反馈串成闭环，并从“全都下注”里跑出一条真正的数据飞轮。</p>
-  <h2>04 视觉生成派：从生成画面走向模拟世界——今年年初我给npc，现在我给人上人</h2>
-  <p>视觉生成派向上做世界模型，本质上是在给已有能力重新定价。</p>
-  <p>现有公开相关模型的公司包括：Sand.ai（Magi-1.1）、智象未来（原生全模态世界模型架构）、魔芯科技（KOKONI-World / MoWorld）、生数科技（Motus / MotuBrain）、阿里 Happy Oyster，以及广义统计下的快手可灵 3.0 Omni、字节Seedance 2.0。</p>
-  <p>这一派手里握着最便宜的互联网海量视频——这本身就是物理世界在时间维度上的切片。</p>
-  <p>Sand.ai 用自回归预测下一段视频，魔芯科技从 3D 空间切入，生数科技把 VLA、世界模型、视频生成整合进 Motus。<strong>从"生成下一帧"到"预测下一状态"，技术栈本来就是连续的。</strong></p>
-  <p>资本也认这个逻辑。生数科技B轮融资近20亿元，投后估值超20亿美元，正在冲刺港股 IPO；智象未来三个月连续完成三轮融资，累计超过21亿元；<ai-product-link data-id="14570" data-name="可灵AI" data-logo="https://img.36dianping.com/20250909/v2_64bf90353c924800a48030581fcaab94_oswg16406oswg300oswg300_img_000" data-classify-list="图像生成,视频生成,视频编辑" data-refer-type="20">可灵AI</ai-product-link>独立融资近30 亿美元，投前估值150 亿美元。</p>
-  <p><strong>资本买的已经不只是"生成画面"的生意，还有从内容生成走向物理模拟的想象。</strong>能生成杯子落地的视频，卖的是内容工具；能预测杯子落地后碎片溅起的轨迹，卖的是物理理解。</p>
-  <p>从"内容生成"到"物理模拟"，估值逻辑差了一个数量级。问题是，重新定价的前提，是能力真的值这个价。</p>
-  <p>视觉生成派的核心优势是有数据、有模型、有工程，最大的短板却是有画面，没因果。</p>
-  <p>现有研究也表明，视觉生成模型距离真正的世界模型，仍卡在空间推理、持久状态、长程一致性和因果理解等问题上。这是范式问题——从"无意识模仿像素"到"有意识理解物理"，中间隔的是"动作-反馈"的闭环。</p>
-  <p>所以，这一派最终要跨过去的，是从视觉上的连续性走向物理上的因果性，从“生成世界”走向“模拟世界”。</p>
-  <h2>05 数据派：从还原世界走向生成世界——我现在给顶级，下半年我再改</h2>
-  <p>目前已经公开自研模型的公司包括：大衍科技（4D世界重建合成数据平台）、卓印智能（Simulaix）、树为智能（具身智能物理因果数据引擎）、群核科技（SpatialGen）、五一视界 51WORLD（51World Model）和跨维智能（DexWorldModel）。</p>
-  <p>首先，在具身智能这个充满非共识的行业，数据短缺成为当下为数不多的共识。</p>
-  <p>所以卡着行业脖子的数据派，天然有优势。只不过在数据问题解决之后，他们还有价值吗？</p>
-  <p>2026年，世界模型显然是比数据标注、仿真服务更性感的资本故事。于是各家争相推出自己的世界模型，从按单收费走向按能力收费，成为这类公司的共识。</p>
-  <p>数据派最大的优势，是起手就有场景资产。群核科技背后是数千万真实家居设计数据；51World Model建立在城市级数字孪生之上；树为智能则直接把物理因果锚定在真实刚体碰撞和摩擦系数上。</p>
-  <p>所以，<strong>他们的模型在"空间一致性"和"物理可信度"上更有竞争力，而且他们的数据客户本身也是潜在模型客户。</strong>给机器人公司卖了两年训练数据，现在推销"具身世界模型"，销售链路都不用重建。</p>
-  <p>但问题也来了：<strong>既是数据供应商，又是模型供应商，客户究竟该买你的模型，还是该防着你成为竞争对手？</strong></p>
-  <p>归根到底，<strong>数据派真正的底牌还是在场景资产和仿真引擎，世界模型更像是在这些资产上套了一层"神经化包装"。</strong>因此，他们也可能是最先被证伪的一批——披着模型外衣的仿真公司。</p>
-  <p>真正的验金石，是离开自己最熟悉的业务场景后，模型还能不能对陌生环境稳定预测、推演结果。否则，它依然只是工具。</p>
-  <p>当然，如果真有谁能把场景资产+物理仿真+预训练能力跑出闭环，数据派反而可能诞生隐形冠军。毕竟，有"世界"的人，比只有"参数"的人离物理现实更近。</p>
-  <p>问题是，他们愿意为了成为大脑，彻底放弃卖铲子的舒服日子吗？更残酷的问题是，有些公司的现金流根本不允许他们放弃。当世界模型的故事讲完，他们或许会发现，自己既不是大脑，也回不到铲子商的位置了。</p>
-  <h2>06 3D派：从重建世界到理解空间——数据派的另一个支门派</h2>
-  <p>这一派坚信3D才是正确的世界表征。</p>
-  <p>目前公开相关模型的公司包括：腾讯混元（HY-World 2.0）、阿里高德（ABot‑Earth 0.5）；昆仑万维（Matrix系列）、元昊动力（4D 世界模型基模）、极佳视界（GigaWorld‑1）、VAST（Tripo ）、影身智能（S1）、魔芯科技（MoWorld 3D）、知天下科技（3DGS三维重建平台）、群核科技（SpatialGen）、具身升维（3D物体／环境生成重建方向）和其域创新（LCC空间重建与编辑体系）。</p>
-  <p>3D派很擅长回答"这一秒长什么样"，世界模型要回答的却是"下一秒会怎样"。</p>
-  <p>于是就有了昆仑万维把Matrix-3D包进Matrix世界模型系列，VAST在3D生成底座上推世界模型，其域创新把LCC空间编辑体系升级成世界模型……</p>
-  <p>但<strong>加了播放键的3D模型，也不一定能预测物理后果；重建再精确，也许仍是高级扫描仪。</strong></p>
-  <p>不过至少他们开始拥有一个可测量、可编辑、可调用、可交互的空间：腾讯混元HY-World 2.0 输出Mesh和3DGS，美术可以导进Unity继续改；阿里高德ABot-Earth 0.5重建城市时带有地理坐标；影身智能的S1直接用原生3D数据训练，机器人拿到的是空间坐标。</p>
-  <p>对于机器人、自动驾驶而言，这种把空间位置、深度和物体关系直接固定下来的3D表征尤其重要，因为模型不能只知道“前面有辆车”，还得知道车在哪里、自己在哪里，以及两者怎么运动。</p>
-  <p>更重要的是，如果现实场景真的被重建成3D世界，模型就可以在这个世界里继续生成物体和环境，再加入角色、动作和物理规则，那时，3D就真的能成为世界模型的空间底座。</p>
-  <p>但3D派的致命瓶颈也在这里：普遍缺失动力学推演与因果交互能力。</p>
-  <p>所以，<strong>能造出世界的外壳，不代表算得出世界的内核。</strong>碰撞、摩擦、动力学和长时序变化，目前很多方案还在靠传统物理引擎补位；而高精度3D生成和动态推演的算力成本，也足以让创业公司肉疼。</p>
-  <p>如果3D派不能顺利从“空间表示”走向“空间推演”，最终也还只是更逼真的场景渲染工具，而非理解世界的模型。</p>
-  <h2>07 Native派：先验者的赌注——我先给个npc，回头再改</h2>
-  <p>这一派从Day1起，核心使命就是通用世界模型。</p>
-  <p>目前公开的玩家包括：流形空间（WorldScape-Policy ）、逆矩阵科技（悟界·Physis）、LiberAI、卜拉格科技和飞捷科思。</p>
-  <p>Native 派是 2026 年资本最敢下注的一派。流形空间一年连融五轮、累计近15亿元；逆矩阵科技成立四个月拿下超1.1亿美元；LiberAI半年四轮、累计超10亿元；卜拉格科技成立仅一个月、产品尚未公开，估值就冲到20亿美元。</p>
-  <p>哇塞哇塞，可以说比那些从别的门派转型而来的老登们融资更猛！令人羡慕！</p>
-  <p>资本猛猛下注的原因是，对通用世界模型的未来想象，以及模型跑通后对数据入口的反向收割能力。</p>
-  <p>Native派相信物理规律可以被神经网络内化，相信存在一个比专用模型更底层的统一框架，至于这个框架是空间表征、物理引擎还是隐状态模型，各家答案不同，但赌注都押在“通用”两个字上。</p>
-  <p>Native派最大的优势，是没有历史包袱。他们可以按照自己理解的“世界”来设计模型、数据和交互方式。</p>
-  <p>所以<strong>理论上，他们是最有机会做出真正跨场景、跨任务的通用世界模型。</strong></p>
-  <p>但问题也最直接：没有产业入口，就没有现成的世界数据。逆矩阵提到要"从预测下一个词转向预测下一个物理状态"，可物理规律是从一次次真实失败里磕出来的。</p>
-  <p>世界模型最需要的，就是持续的“观察—行动—结果”反馈。没有数据闭环，所谓Native很容易只剩下一套漂亮的架构和更漂亮的融资故事。</p>
-  <p>可数据和场景不是期货，最终必须交割。GPT背后有互联网海量文本，Native派拿什么去造一个“物理世界GPT”？</p>
-  <p>而且Native派几乎没有退路。</p>
-  <p>机器人做砸了还能卖机器人，数据做砸了还能卖数据，视频做砸了还能卖视频；Native派如果通用基座跑不通，手里可能什么都没有。</p>
-  <h2>结尾</h2>
-  <p>最开始，我以为这是一次蹭概念。</p>
-  <p>写到这，我觉得不是。</p>
-  <p>互联网泡沫时，名字带“.com”就能上市；SaaS热潮时，传统软件换个订阅制就能讲云故事；元宇宙最热的时候，VR展厅也能融到钱。历史总是押韵：概念先起飞，产品还在滑跑，所有人先挤上牌桌再说。</p>
-  <p>好像只是历史的重复。</p>
-  <p>但又有一点不一样。过去几轮，至少技术底座是确定的：互联网是TCP/IP，SaaS是云和订阅，大模型有Transformer。</p>
-  <p>世界模型却连定义都没有被共识：视频生成说它是下一帧预测器，3D说它是空间模拟器，机器人说它是物理推演器，Native派说它是通用基座。</p>
-  <p>所以，我们这次的排名的参考价值，大概要在一年后揭晓答案的时候才能显现。</p>
-  <p class="editor-note">本文来自微信公众号“非标玩家UnDefined”，作者：程可乐，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 11 Sep 2026 09:12:33 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3978506224883589</guid>
-            <link>https://www.36kr.com/p/3978506224883589</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Kotlin“J神”两小时争议访谈：我宁愿失去80%的工作机会，也坚决不用AI编程]]></title>
-            <description><![CDATA[<p>在软件行业普遍押注 AI 的当下，公开表示“坚决不用 AI 编程”，几乎等于主动缩小自己的职业选择。</p>
-  <p>但 Jake Wharton 还是这样做了。</p>
-  <p>这位被国内开发者称为“J 神”的 Android 与 Kotlin 开源大神，在寻找新工作时列出了九项择业标准，其中第一项就是：不加入 AI 公司，不参与以 AI 为核心的产品，也不接受公司强制工程师使用 AI。按照他的估算，这项要求直接排除了约 80% 的潜在雇主。</p>
-  <p>Wharton 并非没有选择。他称，目前美国资深 Kotlin 工程师的基本年薪通常从 20 万美元起，还可能获得每年约 10 万美元、分四年归属的股权。进入 AI 等热门行业，回报可能更高，但风险也更大。年轻时，他愿意用股权押注未来；现在，他更看重稳定的现金收入，以及选择雇主的自由。</p>
-  <p>这种态度也延续了他离开大公司的原因。Wharton 承认，Google 的 Android 团队非常优秀，但他不喜欢 Google 通过产品和服务将用户锁定在自有生态。公司规模扩大后，官僚主义增加、产品迭代放缓，管理层也更急于寻找新用户和收入。相比之下，他更愿意留在目标明确的小团队。</p>
-  <p>Wharton 对硅谷风口的态度近乎尖锐。他认为，加密货币“基本上已经变成了一种庞氏骗局”，没有创造多少真实价值；而大语言模型不仅伴随着版权和开源许可证争议，也正在以一种反常的方式进入软件开发：过去，新语言、新 IDE 和新工具通常由工程师自下而上推动，如今却是管理层绕过工程判断，要求所有人必须使用 AI。</p>
-  <p>他至今没有使用过 AI Agent 写代码。在他看来，AI 可以帮助工程师处理重复劳动，但最不负责任的用法，是让 AI 生成超出使用者能力范围的代码。如果没有大模型就无法完成任务，开发者往往也无法真正理解、验证和维护结果。一旦形成依赖，工程师交出去的不只是部分工作，还包括自己的能力和议价权，最终可能变成一枚更容易被低成本替换的齿轮。</p>
-  <p>Wharton 并不认为 AI 会消失，也不担心程序员很快失去位置。“AI 已经强大得令人不安”，但这并不意味着它能够稳定、无误地承担整个软件工程过程。对他而言，AI 最多只能是工具箱中的一件工具，而不能成为工程能力的地基。</p>
-  <p>从拒绝 AI、质疑加密货币，到讨论 Kotlin 是否仍有优势、为什么更喜欢 Rust，下面是 Jake Wharton 在近期的一场两小时访谈中的完整回答。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,582" src="https://img.36krcdn.com/hsossms/20260911/v2_464c391086ac4c329ac3a265687205cc@000000_oswg51255oswg1080oswg582_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>1 &nbsp;Kotlin 像是“Java 十年后想要成为的样子”&nbsp;</strong></h2>
-  <p><strong>主持人：Java 当年已经是全球最主流的编程语言，Android 也建立在 Java 之上，为什么还需要 Kotlin？</strong></p>
-  <p><strong>Jake Wharton</strong>：Kotlin 出现时，Java 语言的发展正处于一个相对停滞的阶段。当时 Oracle 正在逐步接手 Java，版本发布周期仍然长达两年。对于 Android 团队来说，能够使用的语言特性很大程度上受限于 Java 本身。</p>
-  <p>与此同时，Java 生态之外的编程语言正在快速演进，出现了许多开发者想要的新特性。社区也开始尝试其他选择，有人使用 Scala，也有人使用 Groovy。大家都在期待一种更加现代的语言，Kotlin 正好出现在这个时间点。</p>
-  <p>JetBrains 本身是一家开发工具公司，因此能够在推出新语言的同时，提供 IDE 和周边基础设施。这让 Kotlin 比那些需要从零建立工具链的语言更容易被开发者接受。</p>
-  <p>更重要的是，采用 Kotlin 并不意味着抛弃原有的 Java 代码和库。开发者可以继续使用已有的 Java 生态，在原有项目中逐步引入 Kotlin，再慢慢完成迁移。这种渐进式兼容能力，是 Kotlin 得以普及的重要原因。</p>
-  <p><strong>主持人：你后来成为了 Google Kotlin 团队的第一位工程师，这个机会是怎么来的？</strong></p>
-  <p><strong>Jake Wharton</strong>：在加入 Google 之前，我已经在 Square 工作了五六年。大约在那之前三年，我们开始在公司内部采用 Kotlin。</p>
-  <p>为了获得公司批准，我写过一份文档，解释为什么我们应该使用 Kotlin。由于其中的论证并不只适用于 Square，我后来将这份文档公开了。它在一定程度上推动了 Android 社区对 Kotlin 的兴趣，我也因此越来越深入地参与 Kotlin 相关工作，并不断向开发者推广这门语言。</p>
-  <p>随着社区关注度上升，Google 内部的一些人也逐渐意识到，Kotlin 可能会给 Android 开发带来很大帮助。当时我认识的一些 Google 员工开始暗示，Google 可能会正式支持 Kotlin，并询问我是否愿意参与。</p>
-  <p>对我来说，没有什么比加入负责整个 Android 工具链的公司，并推动 Kotlin 成为 Android 官方一等语言更大的认可了。这个机会几乎不可能拒绝。</p>
-  <p><strong>主持人：Google Android 团队当时对采用 Kotlin 有没有抵触？</strong></p>
-  <p>Jake Wharton：与其说是抵触，不如说是谨慎。当时 Android 已经围绕 Java 构建了大约十到十二年，Java 深入整个技术栈，团队对它也非常熟悉。相比之下，Kotlin 还是一门相对年轻、尚未得到充分验证的语言，大概只稳定了一两年。</p>
-  <p>因此，采用 Kotlin 确实存在风险，团队内部也有顾虑。Google 并非完全厌恶风险，但必须确认各方面都考虑周全。</p>
-  <p>Kotlin 的引入过程非常审慎，并不是一夜之间完成硬切换。Android 团队最初会为 Kotlin 单独构建配套库，而不是立即用 Kotlin 重写已有的 Java 库。开发团队也不需要一次性改造整个代码库，而是可以逐步采用。</p>
-  <p>从另一个角度看，这也证明了 Kotlin 对 Java 传统的尊重。它允许开发者在不推翻现有系统的情况下慢慢迁移。</p>
-  <p><strong>主持人：Kotlin 是否只是一门用于 Android 开发的语言？</strong></p>
-  <p><strong>Jake Wharton</strong>：最初几年，由于 Kotlin 在 Android 社区获得了大量支持，外界形成了一种错误印象，认为它是一门专门为 Android 设计的语言。当时甚至出现过文章，声称 Kotlin 是 Google 为 Android 创造的，这显然并不正确。</p>
-  <p>后来，Kotlin 开始进入更多领域。过去可能会使用 Java 构建的后端服务，现在也越来越多地采用 Kotlin。Spring 等公司提供的许多能力，也开始优先考虑 Kotlin。</p>
-  <p>JetBrains 还在持续推动 Kotlin Multiplatform，因此现在也能在 iOS 和桌面应用中看到 Kotlin。比如用于管理和安装 JetBrains IDE 的 Toolbox App，就是一个使用 Kotlin 构建的桌面应用。</p>
-  <p>Android 更像是 Kotlin 进入其他生态的催化剂。以 Square 为例，我们最初只获准在 Android 项目中使用 Kotlin。但后端的 Java 工程师看到移动团队对 Kotlin 的热情后，也开始希望使用它。后来，Kotlin 逐步被批准用于后端服务。</p>
-  <p><strong>主持人：如果让你用一分钟向 Java 开发者推荐 Kotlin，你会怎么说</strong>？</p>
-  <p><strong>Jake Wharton</strong>：Kotlin 很像是“Java 十年后想要成为的样子”。</p>
-  <p>Java 必须尽量避免破坏已有代码，因此语言演进速度相对缓慢。很多未来可能进入 Java 的现代语言特性，现在已经可以在 Kotlin 中使用。</p>
-  <p>采用 Kotlin 也不要求项目运行在最新版本的 JVM 上。现实中还有许多代码库停留在 Java 8 或 Java 11，Kotlin 同样兼容这些环境。开发者可以在较老的 JVM 上，使用更现代的语言能力。</p>
-  <p><strong>主持人：现在有哪些大型公司在生产环境中使用 Kotlin</strong>？</p>
-  <p><strong>Jake Wharton</strong>：Meta、Google 和 Amazon 都在使用 Kotlin。最初的应用主要集中在移动端，但现在后端服务也越来越多地采用 Kotlin。</p>
-  <p>这些公司还在投入相关工具。例如，就在我们录制这期节目这一周，Meta 将自己的 Kotlin 格式化工具贡献给了 Kotlin Foundation，它未来可能成为 Kotlin 官方的格式化工具。</p>
-  <p>这些公司拥有世界上规模最大的代码库。它们能够在既有语言和系统之上逐步引入 Kotlin，并且愿意进行长期投入，本身就是对这门语言的一种验证。</p>
-  <h2><strong>2 &nbsp;谷歌令人生厌之处——把用户锁在自家生态里&nbsp;</strong></h2>
-  <p><strong>主持人：Google 是很多工程师心目中的理想雇主，你为什么工作两年九个月后就离开了？</strong></p>
-  <p><strong>Jake Wharton</strong>：加入 Google 之前，我在 Cash App 工作。我们推动了 Kotlin 的采用，也用 Kotlin 编写了不少开源库。后来 Google 决定让 Kotlin 成为 Android 官方语言，这个机会实在太难得了。</p>
-  <p>不过，我加入时就对同事说，我大概会离开办公室两年。我的计划是帮助 Kotlin 成为 Android 的一等语言，尽可能推动它取得成功，让自己以后能够放心地依赖这门语言，然后再回到一线，用这些工具真正构建产品。</p>
-  <p>我喜欢开发工具和库，但不想永远只做工具。我也希望成为这些工具的使用者，并真正享受到前期投入带来的价值。</p>
-  <p>两年期满时，我原本准备离开，但 Google 恰好批准了另一个我很想做的项目，于是又留下来工作了九个月。最终，我认为自己已经完成了当初的目标，因此决定回到产品开发。</p>
-  <p><strong>主持人：你不喜欢 Google 的哪些地方？</strong></p>
-  <p><strong>Jake Wharton</strong>：Google 是一家规模非常大的公司。Android 团队相对独立，我在那里遇到的同事也都非常优秀，我至今仍然怀念那段工作。</p>
-  <p>但我对 Google 这家公司的一些做法存在意见，例如它会通过产品和服务将用户锁定在自己的生态系统中。不过，这些看法主要针对 Google 作为一家公司的运作方式，并不是针对 Android 团队。</p>
-  <p><strong>主持人：你在 2025 年离开 Cash App 时，科技行业正经历大规模裁员。那时找工作有多难？</strong></p>
-  <p><strong>Jake Wharton：</strong>找工作并不轻松，但市场上并非完全没有机会。我对下一份工作有一些具体要求，因此选择比较谨慎。</p>
-  <p>我比较幸运，是按照自己的计划主动离职，没有必须立刻找到工作的压力。但现在的就业市场，确实已经不像五年前。那时一名 Android 开发者可能很容易就被公司招走，并获得非常高的薪酬。</p>
-  <p>现在，求职需要投入更多精力，花费更长时间，也必须想办法证明自己的差异化价值。我非常理解那些被迫进入求职市场的工程师所面对的压力。不过，我不认为整个市场已经彻底崩溃，工作机会依然存在，只是更难找了。</p>
-  <p><strong>主持人：目前美国资深 Kotlin 工程师的薪酬大概是多少？</strong></p>
-  <p><strong>Jake Wharton：</strong>我通常看到的基本工资是 20 万美元起，此外还可能包括股权，例如每年约 10 万美元的股权，按照四年归属。</p>
-  <p>当然，低于这个水平的职位也有很多。如今公司会更加谨慎地考虑资金流向，不再像以前那样普遍支付极高的薪酬。</p>
-  <p>如果希望获得更高回报，就可能需要进入当前最受关注、潜在收益更高的技术领域。这类公司给出的现金和股权可能更多，但风险也更大：股权可能归零，也可能增长十倍。</p>
-  <p>最终，这取决于个人所处的人生阶段和风险承受能力。年轻时，我愿意承担这种风险；但现在，我更倾向于获得稳定、可预期的现金收入。</p>
-  <p><strong>主持人：到了 2026 年，掌握 Kotlin 还能给软件工程师带来职业优势吗？</strong></p>
-  <p><strong>Jake Wharton：</strong>我不确定它现在还能算是一项优势。从某种意义上说，这反而体现了 Kotlin 的成功：它已经成为一项默认要求，而不再是一种稀缺、难以找到的能力。</p>
-  <p>这主要源于 Google 将 Kotlin 确立为 Android 的官方一等语言。如今进入 Android 开发领域，通常就会直接学习 Kotlin，用人单位也默认求职者已经掌握它。Jetpack Compose 同样如此：大约四年前，它可能还是一项相对少见的技能，现在已经逐渐成为默认要求。</p>
-  <p>如果开发者掌握的不只是常规 Kotlin，而是 Kotlin Multiplatform 等相对进阶的能力，那么它仍然可能构成差异化优势，让你从其他 Kotlin 开发者中脱颖而出。但仅仅“会 Kotlin”，已经很难成为明显的职业加分项，因为它实在太普及了。</p>
-  <h2><strong>3 &nbsp;为什么拒绝使用 AI 编程？&nbsp;</strong></h2>
-  <p><strong>主持人：你在寻找下一份工作时，公开列出了对未来雇主的九项要求，其中第一条就是“不去 AI 公司、不做以 AI 为基础的产品，也不接受公司强制使用 AI 开发”。为什么这一点对你如此重要？</strong></p>
-  <p><strong>Jake Wharton</strong>：它被放在第一位是有原因的。这可能是我找工作时最看重的一项标准。</p>
-  <p>我们正处在一个快速变化的时期，不仅软件开发方式在变，许多公司也在强行把 AI——更准确地说是大语言模型——塞进一些原本可能并不需要它的地方。</p>
-  <p>我不认为过去几年软件的整体质量得到了提高，也不认为这类工具长期来看会改善软件质量。但一些公司高管看到的却是另一幅图景：他们认为 AI 可以让工程师工作得更快，并产出质量更高的代码。我的判断恰恰相反。</p>
-  <p>除此之外，我对这些工具背后的伦理问题也有很大意见。在我看来，它们建立在大规模使用受版权保护内容的基础上。模型训练忽视了艺术家的版权，也忽视了开源代码的许可证。能够在网上访问一项内容，并不意味着你就拥有重新组合、改写它，甚至逐字输出它的权利。</p>
-  <p>因此，我不想与这些事情产生关联。只是现在想完全避开 AI 已经越来越困难，所以我把这一要求放在首位。它也直接排除了大约 80% 我原本可能加入的公司。</p>
-  <p><strong>主持人：除了版权和软件质量，你反对的是否还有公司强制工程师使用 AI 的方式？</strong></p>
-  <p><strong>Jake Wharton：</strong>是的。传统上，一项开发工具通常由工程师自下而上推动。</p>
-  <p>可能是一名工程师喜欢上一门新语言，比如 Kotlin；也可能是一款新 IDE，比如 IntelliJ IDEA；或者是一套新的构建系统。工程师在实际工作中发现它有价值，热情逐渐感染其他人，然后大家再去说服工程管理者批准采用它。</p>
-  <p>但 AI 工具的推广方向似乎完全相反。为什么要由一家公司的 CEO 告诉工程师，日常工作应该使用什么工具？</p>
-  <p>公司领导通常不会直接要求你必须使用静态类型语言，也不会决定你应该如何利用类型系统表达业务需求，或者如何处理空值。这些原本都是工程决策。工程师了解业务需求，再选择能够有效完成工作的工具。</p>
-  <p>如果 Jack Dorsey 当时要求我必须使用 Eclipse，我可能同样会辞职。问题不只在于 AI，而在于公司管理层越过工程判断，强制开发者使用某一种工具。</p>
-  <p><strong>主持人：为什么管理层强推 AI，会让你联想到科技行业的裁员？</strong></p>
-  <p><strong>Jake Wharton</strong>：如果只是要求使用某种工具，或许还是一个可以单独讨论的问题。但当强制使用 AI 与一轮又一轮裁员同时发生时，整件事看起来就不那么乐观了。</p>
-  <p>我可以作出个人选择，决定不使用这些工具。我也认为，很多全力投入 AI 的公司是在争抢市场、追逐现金和用户。趁市场火热进入这个领域，从商业角度并不难理解：资金和用户在哪里，公司就会去哪里。</p>
-  <p>但我比较幸运。经过多年工作，我现在有能力按照自己的价值观选择雇主，并不是所有人都有这样的条件。拒绝 AI 让我失去了大量潜在机会，但这是目前对我而言最重要的标准，所以我愿意接受这个结果。</p>
-  <p><strong>主持人：你的第二项择业标准是不加入加密货币公司。你反对的是密码学，还是加密货币？</strong></p>
-  <p><strong>Jake Wharton</strong>：密码学是一项有价值的技术，但我不认同加密货币。在大语言模型之前，加密货币是科技行业最受追捧的方向之一，Square 和 Cash App 当时也大举投入其中。</p>
-  <p>在我看来，加密货币基本上已经变成了一种庞氏骗局，没有创造多少真实价值。这似乎与我对“所有权”的重视相矛盾——我当然支持人们真正拥有自己的资产，不受其他机构控制，但加密货币的问题出在具体实现上。</p>
-  <p>它最终形成了一个带有掠夺性的系统。真正赚到钱的，往往是利用其他参与者获利的人，或者是在上面搭建业务、不断从客户身上抽取价值的公司。这是我不希望参与的一类行业。</p>
-  <p><strong>主持人：你希望未来的雇主既使用开源软件，也将自己的项目开源。为什么？</strong></p>
-  <p><strong>Jake Wharton</strong>：我在成长为一名开发者的过程中，几乎一直在接触开源。学习新技术、研究别人如何编写软件时，我首先会去看开源项目。所以对我来说，尝试或构建一项新东西时，默认选择就是把它公开。</p>
-  <p>后来我加入 Square，我们也成功地将大量技术成果开源。几乎每家公司都建立在他人工作的基础之上。如果一家企业愿意开源自己的成果，或者为其他开源项目作出贡献，这就是一种回馈，也是把自己获得的帮助传递给后来者。</p>
-  <p>企业不需要从头构建 Linux、Android、SQLite 或者 JVM，因为前人已经完成了这些工作。同样，你今天公开的项目，也可能成为下一家公司或下一代开发者的基础。</p>
-  <p><strong>主持人：你的另一项要求是公司“小而专注”。为什么你认为做好一件事，比试图服务所有人更重要？</strong></p>
-  <p><strong>Jake Wharton</strong>：我职业生涯中最好的阶段之一，是早期加入 Square 并参与构建 Cash App 的时候。那时公司规模还很小，大家彼此认识，也能围绕一个愿景迅速执行。团队甚至会带着一点天真，相信自己能够做出很多东西。</p>
-  <p>我加入 Square 时，公司大约有 200 人；后来离开 Cash App 时，公司已经增长到约 1.2 万人。</p>
-  <p>Google 的规模还要再大一个数量级。公司不断扩大以后，官僚主义随之增加，产品迭代开始放缓，管理层也会越来越急于寻找能够带来新用户和新收入的方向。</p>
-  <p>相比之下，小团队更容易保持目标的纯粹性，找到一个明确的问题并把它做好。</p>
-  <p><strong>主持人：大公司除了效率下降，对工程师个人还有什么影响？</strong></p>
-  <p><strong>Jake Wharton</strong>：公司规模越大，工程师的职责往往越狭窄。我听说过一位 Twitter 工程师，长期负责的几乎只是私信界面中的一小部分。当一个人的工作范围被切割得如此细，他就很难再体验产品开发的其他环节。</p>
-  <p>我喜欢参与不同类型的工作，在一个产品内部不断切换问题。小团队能给工程师更多这样的空间，同时也会带来更多学习机会。</p>
-  <p>当团队规模较小时，不会有一个 50 人的专门团队替你解决某类问题。你不能只是把需求扔给另一个部门，再等两个月接收结果，而是必须走出舒适区，亲自动手学习和解决问题。对我来说，这种广度和成长机会非常重要。</p>
-  <p><strong>主持人：经过三个月求职，你在 2026 年 2 月加入 Skylight。这家公司为什么能说服你？</strong></p>
-  <p><strong>Jake Wharton：</strong>Skylight 符合前面提到的许多价值观，更重要的是，我自己就是它的目标用户。</p>
-  <p>它面向家庭提供硬件产品，而我有家庭，也确实存在相应的使用需求。我一直希望接触更多硬件开发，这份工作正好提供了机会。它与 Android 有关，但又包含许多我以前没有深入做过的事情，例如 AOSP 和真实硬件设备。</p>
-  <p>Skylight 的应用不通过 Google Play 商店分发，因此我们拥有更大的系统控制权，不必处理 Google Play 体系中的许多问题。这对我而言也是一个有吸引力的新领域。</p>
-  <p>此外，公司已经获得融资，也有实际收入。我认识 Nova Launcher 的作者 Kevin Barry，他比我早大约半年加入 Skylight。他的选择也增强了我对这家公司的信心。</p>
-  <p>Skylight 是我求职期间最先接触的公司，后来它反而成了衡量其他机会的标准。市场上并非没有其他优秀公司，但没有一家像它这样完整地满足我的要求。</p>
-  <p><strong>主持人：Skylight 同样使用大语言模型，这是否违背了你“不加入 AI 公司”的原则？</strong></p>
-  <p><strong>Jake Wharton</strong>：我不认为自己作出了实质性妥协。</p>
-  <p>Skylight 此前没有做过太多开源工作，但公司愿意尝试，也接受我继续维护已有的开源项目，其中一些项目本身就在产品中使用。</p>
-  <p>它确实使用了大语言模型，但整个产品并不是围绕 AI 建立的。AI 功能是可选的，用户完全可以不用；它也没有为了追赶潮流，把整个产品改造成聊天机器人。</p>
-  <p>我认为，公司对 AI 的使用相对克制，也确实用在了合适的位置。我加入以后，也希望继续把自己的这些价值观带进团队。这与加入一家以 AI 为核心、要求所有工程师依赖 AI 开发的公司并不是一回事。</p>
-  <h2><strong>4 &nbsp;让非技术人员用 AI 编写代码，是进步还是风险？&nbsp;</strong></h2>
-  <p><strong>主持人：Coinbase 裁减 14% 的员工，并称“非技术团队现在也能发布生产代码”。你怎么看这种转变？</strong></p>
-  <p><strong>Jake Wharton</strong>：我并不反对降低软件开发的参与门槛。让非工程师更直接地参与产品建设，本身可以是一件好事。</p>
-  <p>我曾经合作过的一位优秀设计师，用一个周末学习 Android 开发，然后实现了一套非常复杂的动画，直接向代码库提交了 PR。这种跨越岗位边界的贡献非常有价值。AI 如果能帮助更多人以这种方式参与开发，我完全支持。</p>
-  <p>但它有负责任和不负责任的两种用法。帮助非技术人员表达想法、让他们作出更具体的贡献，是相对负责任的方式；裁掉大量工程师，再把这些工作全部交给大语言模型，则是另一回事。</p>
-  <p><strong>主持人：一些公司希望用更少的工程师配合 AI 完成原来的工作。你认为这种模式能够持续吗？</strong></p>
-  <p><strong>Jake Wharton</strong>：在我离开 Cash App 以后，据我了解，他们裁掉了 70% 的工程师。公司的设想似乎是，一方面让组织变得更加精简，另一方面通过大语言模型，让一名工程师承担过去四个人的工作，甚至让产品人员通过聊天系统直接生成 PR，而不必充分理解代码。</p>
-  <p>我认为，这种方式在很短的一段时间内可能有效，但长期会导致软件质量下降。至于企业会先遇到质量问题，还是先遇到 AI 成本大幅上涨的问题，我无法确定，但我认为两者都会发生。</p>
-  <p>现在的大语言模型行业很大程度上仍由资本补贴。典型路径是先用低价吸引用户、抢占市场，让企业形成依赖，再转向按实际价值收费。届时，一些公司的 AI 成本可能增长一个甚至两个数量级。</p>
-  <p>如果使用大语言模型的成本最终超过原本想要替代的工程师薪酬，那么“用 AI 替代工程师”的经济账也会失效。企业现在大规模裁员并把能力建立在外部模型上，在我看来是一种短视行为。</p>
-  <p><strong>主持人：你有没有尝试过用 AI Agent 写代码？</strong></p>
-  <p><strong>Jake Wharton</strong>：从来没有。</p>
-  <p>我有意采取一种比较极端的立场，是希望人们认真思考这些工具背后的问题。科技行业过去很少成立工会，因为薪酬高、待遇好，工程师觉得没有必要争取额外的集体权力。但现在资金减少，大规模裁员出现，很多员工会在毫无准备的情况下被公司抛弃。</p>
-  <p>在美国，一名员工甚至可能在收到裁员通知之前，就发现公司账号被关闭、邮件不再刷新。工程师越依赖 AI 系统，就越可能把自己的能力和议价权交出去，把自己变成一枚更容易被低成本替代的齿轮。</p>
-  <p><strong>主持人：你是否认为使用 AI 编程在任何情况下都是错误的？</strong></p>
-  <p><strong>Jake Wharton</strong>：我认为需要从两个维度看待它：一个是伦理问题，另一个是是否负责任地使用。</p>
-  <p>相对负责任的方式，是把 AI 当作助力，用它增强工程师原本就具备的能力，让工程师更快地表达和实现自己已经理解的东西。</p>
-  <p>不负责任的方式，则是让 AI 编写超出个人能力范围的代码。如果没有大语言模型，你根本无法完成这项工作，那就意味着你无法真正理解和维护生成的结果，也会对工具形成高度依赖。</p>
-  <p>假设模型价格上涨 20 倍，公司只能购买原来 4% 左右的 Token，你是否会突然失去日常工作的能力？是回到原来的开发方式，还是只在少数枯燥、重复的任务中使用 AI？这就是工程师需要提前思考的问题。</p>
-  <p>我不认为 AI 会彻底消失，但它应该只是工具箱中的一件工具，而不应成为一个人全部工程能力的基础。</p>
-  <p><strong>主持人：如果六个月后，AI 写出的代码比你更好，你准备怎么办？</strong></p>
-  <p><strong>Jake Wharton</strong>：我可能会去规模越来越小的公司工作，接受越来越低的收入，同时尽量保留自己的快乐。</p>
-  <p>我已经不在职业生涯的起点，也不再急于晋升。过去的职业选择给了我一些积累，让我有条件坚持这种强硬立场。我很幸运，因为很多工程师并没有这样的选择空间。</p>
-  <p>不过，我很难相信 AI 会真正让程序员失去位置。大语言模型建立在人类过去创造的集体成果之上，而软件行业仍然需要有人独立创造新东西。</p>
-  <p>我记得有研究讨论过，当模型不断使用自己生成的数据继续训练时，可能出现“模型坍塌”。但我当时无法准确回忆研究机构和具体结论。至少在我看来，如果人类停止创造新的高质量内容，模型也很难依靠自己的输出无限提高。</p>
-  <p>大语言模型的输出归根结底具有统计性，因此始终可能产生错误。就像人们从 Stack Overflow 复制的代码也可能包含漏洞，甚至一些高票答案都有非常隐蔽的问题一样，AI 生成的代码仍然需要有人理解、检查和调试。</p>
-  <p>所以我不太担心未来完全没有程序员的位置。AI 现在已经强大得令人不安，但这并不等于它能够稳定、无误地承担软件工程的全部工作。</p>
-  <h2><strong>5 &nbsp;Kotlin 的黄金时代结束了吗？&nbsp;</strong></h2>
-  <p><strong>主持人：Kotlin 最初的一大卖点是减少 Java 样板代码，而 AI 恰好擅长生成这类代码。Kotlin 相对 Java 的核心优势是否已经被 AI 消解？</strong></p>
-  <p><strong>Jake Wharton</strong>：Java 语言架构师 Brian Goetz 反复强调过一点：代码被阅读的次数，大约是它被编写次数的十倍。编写代码本身，从来不是软件工程最困难的部分。</p>
-  <p>真正困难的工作发生在写代码之前和之后。写之前，你要思考如何解决问题，如何划分系统边界，如何用代码描述复杂的业务；写完之后，还要长期维护。软件会出现 Bug，需求会改变，社会、政策和业务本身也会变化，代码必须随之不断调整。</p>
-  <p>Kotlin 早期确实很强调“少写代码”：不必手写字段、getter 和 setter，可以使用属性、尾随 Lambda 和更简洁的 DSL。这些特性很容易展示，也能吸引开发者采用 Kotlin，但它们只是进入这门语言的入口，并不是 Kotlin 的全部价值。</p>
-  <p>一门语言和它的库最终能否生存下来，取决于它能否帮助代码库长期演进。这需要良好的工具、强类型系统和完整的周边生态。AI 可以帮助开发者完成枯燥的任务，比如一次性修改上千个调用点，但它没有消除 Kotlin 在代码维护、类型安全和工具链方面的价值。</p>
-  <p><strong>主持人：Java 已经加入 Record、密封类等现代特性，与 Kotlin 之间的差距正在缩小。Kotlin 的黄金时代是否已经结束？</strong></p>
-  <p><strong>Jake Wharton</strong>：Java 并没有停滞，更没有认输。它将发布周期缩短到六个月，通过实验性机制让社区提前测试新特性，还对底层基础设施进行了大量改造，使语言更容易演进。</p>
-  <p>事实上，Java 近年来的一些新特性，设计得可能比 Kotlin 中的对应方案更加完整。Kotlin 必须兼容既有 Java 代码，还要编译成 JVM 能够执行的字节码。Kotlin 刚刚兴起时，需要兼容较老版本的 Java 字节码，因此很多新特性只能建立在原有机制之上。</p>
-  <p>Java 没有同样的限制。它可以在增加 Record 等语言特性的同时，引入新的字节码，甚至调整虚拟机，让语言、字节码和运行时一起演进。Java Record 因此可以获得更统一的底层实现；Kotlin Data Class 则更多是生成普通 Java 类、常规方法和少量元数据。</p>
-  <p>如果 Kotlin 希望长期保持竞争力，就必须关注 Java 平台出现的新能力，并找到真正利用这些底层特性的方式。</p>
-  <p>支持人：既然 Java 在快速追赶，Kotlin 今天还有什么很难被取代的优势？</p>
-  <p><strong>Jake Wharton</strong>：很难被 Java 赶上的一个方面，是 Kotlin 对可空性的处理。</p>
-  <p>所谓“十亿美元错误”并不是说程序中不应该存在空值。软件始终需要表达“某个值不存在”这种状态。真正的问题是，Java 没有在类型系统中充分描述它，导致开发者可以忽略一个值可能为空的事实，直到运行时才触发空指针异常。</p>
-  <p>Kotlin 把可空性提升到了类型系统层面。如果一个值可能不存在，开发者必须在类型后面加上问号，并在使用时显式处理。这样一个看似简单的变化，几乎消除了一整类错误。这至今仍是 Kotlin 非常强大的设计。</p>
-  <p><strong>主持人：Kotlin 主导 Android 开发，Swift 主导 iOS 开发。你认为 Swift 有哪些明显优势？</strong></p>
-  <p><strong>Jake Wharton</strong>：我非常喜欢 Swift。与 Kotlin 相比，Swift 在设计时拥有一张相对干净的白纸。它也要兼容 Objective-C，但不需要像 Kotlin 那样始终受制于既有 JVM 字节码表示，因此语言设计与底层编译方式能够更协调地演进。</p>
-  <p>第一个明显优势是错误处理。Swift 把错误作为语言中的一等概念：一个函数可能抛出错误，就会被明确标记，调用者也必须处理这种可能性。这与 Kotlin 强制开发者处理可空值有些相似。</p>
-  <p>Kotlin 则建立在 JVM 异常机制之上。Java 区分受检异常和非受检异常，Kotlin 选择把异常都作为非受检异常处理。结果是，调用一个函数时，你无法从类型和函数签名中清楚看到它可能以哪些方式失败。这会在代码库中埋下“地雷”。</p>
-  <p>另一个优势是内存表示。Swift 面向原生代码，能够提供真正紧凑的数据结构，更好地利用 CPU 缓存。Kotlin 主要建立在 JVM 对象模型之上，许多数据以类和字段的形式分散在堆内存中，需要频繁进行指针解引用。在一些强调底层性能和内存布局的场景中，Swift 更有优势。</p>
-  <p><strong>主持人：反过来看，Kotlin 有哪些地方明显优于 Swift？</strong></p>
-  <p><strong>Jake Wharton</strong>：如果只比较语言设计，我甚至认为 Swift 是一门设计得更好的语言。Kotlin 很难找出太多全面领先 Swift 的语言特性。</p>
-  <p>Kotlin 更大的优势来自语言之外：它的库生态、开源社区、IntelliJ IDEA 提供的开发工具，以及构建系统都更加成熟。尤其是在大型代码库中进行重构时，Kotlin 的体验要好得多。</p>
-  <p>一门语言即使设计得再出色，如果缺少 IDE、库、静态分析和生产工具，也很难被大规模采用。Kotlin 和 Swift 都是优秀的语言，但 Kotlin 周围这套完整的生态，显著提升了它的实际开发体验。这也是我仍然愿意选择 Kotlin 的重要原因。</p>
-  <p><strong>主持人：如果比较不同语言的错误和失败建模，你最喜欢哪一门？</strong></p>
-  <p><strong>Jake Wharton</strong>：我喜欢 Rust。Rust 的许多设计非常符合我的思维方式：资源所有权和借用关系应该进入类型系统；谁负责关闭文件描述符，也应该得到明确表达。</p>
-  <p>这种认同来自多年的开发痛苦。经历过内存泄漏、文件描述符泄漏、空指针异常，以及函数突然抛出未预期异常以后，你自然会思考是否存在更好的解决方式。Rust 把许多过去容易被忽略的问题，直接纳入语言和类型系统。</p>
-  <p>Rust 的学习难度确实很高，需要跨过一道门槛，才能逐渐形成直觉。我自己也没有达到非常熟练的程度。它未必是最容易使用的语言，但在描述所有权、资源责任和失败模式方面，我认为 Rust 做得最好。</p>
-  <p><strong>主持人：编写微控制器和嵌入式程序时，你会使用哪门语言？</strong></p>
-  <p><strong>Jake Wharton</strong>：如果是我自己的业余项目，我目前会选择 Rust。公司产品的技术选型需要考虑团队和业务，和个人实验项目并不完全相同。</p>
-  <p>Rust 的嵌入式生态很有意思。许多库会把硬件能力映射到 Rust 的异步编程模型中。例如，你可以直接等待一次按钮按下事件，不必亲自编写轮询逻辑或配置复杂的中断唤醒机制，一行代码就能表达这种行为。</p>
-  <p>我的日常工作没有太多机会使用 Rust，而它的设计理念又很吸引我。选择 Rust 既能完成硬件项目，也给了我一个继续学习和体验这门语言的理由。</p>
-  <h2><strong>6 &nbsp;AI 能够现场生成代码后，还需要开源库吗？</strong></h2>
-  <p><strong>主持人：你写 Kotlin 时，脑子里会不会运行着一个小型的 Rust 借用检查器？</strong></p>
-  <p><strong>Jake Wharton</strong>：我有一份“梦想项目”清单，假如有一天还能领工资，却不必承担具体工作，其中一个项目就是尝试把所有权语义引入 Kotlin。</p>
-  <p>今年的 KotlinConf 上，已经有研究者提出了非常早期的设想，讨论如何把所有权语义加入 Kotlin，目前甚至还称不上正式的 Kotlin 演进提案。但当你理解 Rust 的所有权和生命周期以后，就会发现很多问题本来可以由语言明确处理。</p>
-  <p>以 Java 为例，如果别人传给你一个 List，通常需要先做一次防御性复制，因为你不知道对方随后是否还会修改它。Kotlin 通过只读 List 和可变 List 的区分缓解了一部分问题，但还没有真正解决所有权。</p>
-  <p>如果语言拥有明确的所有权语义，对方把 List 交给你以后，就不能再随意修改；或者只是允许你临时借用，同时明确原持有者仍然拥有修改权。这样可以直接消除一整类共享可变状态导致的错误。</p>
-  <p><strong>主持人：今天的 Kotlin 开源生态发展到了什么规模？</strong></p>
-  <p><strong>Jake Wharton</strong>：Kotlin 的一大优势，是它能够与 Java 开源生态相互利用。因此，很难把 Java 和 Kotlin 的开源生态完全分开。</p>
-  <p>我们把 Okio 和 OkHttp 从 Java 重写为 Kotlin 时，曾引起一部分 Java 开发者不满。重写过程中，我们严格保持了二进制兼容性。即便用户通过传递依赖获得了新版库，原来的代码也应该能够继续编译、链接和运行，只是项目中会多出 Kotlin 标准库依赖。</p>
-  <p>Kotlin 的开源氛围首先来自这门语言自身。Kotlin 完全开源，语言演进过程也公开透明，开发者能够看到每项能力是如何变化的。Kotlin 进入 Android 后，社区很快涌现出大量开源库；当 Kotlin Multiplatform 逐渐成熟以后，又出现了许多满足跨平台开发基础需求的项目。</p>
-  <p>这与 JetBrains 管理语言的方式有关，也与早期社区形成的文化有关。最早参与一门语言的人会建立一套隐性的行为规范。如果社区从一开始就习惯公开代码、分享工具，这种文化便会延续下去。</p>
-  <p>Kotlin 可能不是规模最大的开源生态，但毫无疑问属于较大的语言生态之一。</p>
-  <p><strong>主持人：使用开源依赖会不会把项目置于他人的控制之下？为了安全，是否应该直接 Fork 代码并停止更新？</strong></p>
-  <p><strong>Jake Wharton</strong>：这件事有明显的两面性。建立在他人工作之上能够节省大量时间，但项目也会与依赖库的发展方向绑定。如果维护者作出你不认同的决定，使用者可能会觉得遭到背叛；如果项目更换许可证，企业也可能突然发现，过去免费使用的东西需要付费了。</p>
-  <p>但根本问题在于，很多人误解了“使用开源软件”的含义。采用一个开源库以后，你应该对它承担一定责任，把它视为自己代码库的一部分。最终，这些代码会与你自己的代码一起交付给用户，用户并不关心哪一部分来自第三方。</p>
-  <p>公司经常要求工程师必须获得额外批准，才能在工作时间为开源项目贡献代码。我认为这种观念不合理。如果没有这个开源库，工程师就要自己编写和维护同样的功能；既然它已经成为产品的一部分，修复问题、贡献功能和关注项目走向，本就应该属于正常工作。</p>
-  <p>如果企业持续参与维护，就能提前看到项目的变化，在方向出现分歧时及早调整，甚至与维护者共同找到双方都能接受的方案，而不是直到升级失败时才把责任全部推给开源社区。</p>
-  <p><strong>主持人：如果大语言模型可以生成那些基础、重复的代码，开发者还需要依赖开源库吗？</strong></p>
-  <p><strong>Jake Wharton</strong>：这种说法低估了共享代码库的长期价值。</p>
-  <p>开源库的意义不只是替你生成一段眼前可用的代码，而是让许多项目共同受益于持续维护。可能有人今天修复了一个你暂时不会遇到的边缘 Bug，两年后你的业务重构，本来会触发这个问题，但因为你使用的是同一个开源库，它已经被提前解决。</p>
-  <p>也可能有人把库的性能提高了 15%，所有使用者都会获得这项改进。开源把一次贡献分发到许多不同代码库，而不是让每家公司分别维护一份由 AI 生成、彼此孤立的实现。</p>
-  <p>因此，AI 能够生成代码，并不意味着共享依赖失去价值。企业应当享受开源带来的效率，同时把依赖当作自己的代码一样关注和维护。</p>
-  <p><strong>主持人：开源很难直接写进财务报表，企业为什么还要投入人力？</strong></p>
-  <p><strong>Jake Wharton</strong>：把一个内部项目变成真正可用的开源项目，需要额外工作。团队要补充文档和测试，搭建发布基础设施，还要持续处理外部贡献与 Issue。这部分成本并不算巨大，但也不能忽略。</p>
-  <p>相应地，公司可能获得社区贡献，项目的 Bug 和功能会由更多人共同改进。开源也能展示一家公司的工程文化。开发者看到公开代码后，可以判断团队的技术水平，这可能帮助公司吸引人才。过去 Google 和 Meta 等公司就曾通过开源项目获得大量招聘线索。</p>
-  <p>对工程师个人而言，公开成果也比口头描述更有满足感。你不必告诉别人“我做了一个很厉害的项目”，而是可以直接把 GitHub 地址交给他，让他使用、修改，甚至在此基础上创造新东西。</p>
-  <p>不过，公司不应该为了塑造形象而强迫团队开源。哪些项目适合公开，通常能被工程师自然识别。刻意发布一些没有实际价值的项目，社区也能感受到其中的不真诚。</p>
-  <p>开源同样会带来负担：维护者要应对不友善的 Issue、偏离项目方向的需求、语言沟通障碍，以及大量低质量的 AI 生成 PR。因此，开源并不适合所有工程师，也不应成为强制要求。</p>
-  <h2><strong>7 &nbsp;Kotlin 的未来&nbsp;</strong></h2>
-  <p><strong>主持人：Kotlin 创始人 Andrey Breslav 在 2020 年离开 JetBrains，一门语言能否脱离创始人继续演进？</strong></p>
-  <p><strong>Jake Wharton</strong>：一门成功的语言必须能够超越它的创始人。一个人投入十年把项目做成功以后，当然有权离开并尝试其他事情。</p>
-  <p>Kotlin 顺利完成了这次交接，而且整个过程几乎没有成为一场危机。这恰恰证明，它周围已经建立了相对健康的组织体系。</p>
-  <p>如今，大多数成功的大型编程语言已经不再由一位“仁慈独裁者”单独决定方向，而是由共享的组织结构治理，并在理想情况下与社区共同推进。这样才能减少对某一个人的依赖，让语言长期保持稳定。</p>
-  <p><strong>主持人：2026 年的 Kotlin 究竟由谁主导？</strong></p>
-  <p><strong>Jake Wharton</strong>：理想答案应该是三者共同参与：JetBrains、Google 和开发者社区。</p>
-  <p>成立 Kotlin Foundation 的目的之一，就是让这门语言不再完全隶属于 JetBrains，避免任何一家公司能够单独控制它。Google 此前已经经历过采用另一家公司所控制技术、随后陷入长期诉讼的情况，因此在正式采用 Kotlin 时，不可能接受这门语言完全由另一家公司掌控。</p>
-  <p>社区虽然没有以同样方式直接“加入”基金会，但开发者数量远远超过 JetBrains 和 Google 的语言团队。如果治理机制正常运行，基金会和两家公司就应该持续听取社区意见，再从庞杂的反馈中整理出能够推动语言发展的方向。</p>
-  <p><strong>原视频链接：</strong>https://www.youtube.com/watch?app=desktop&amp;v=9WjPdgOK-68</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651292804&amp;idx=1&amp;sn=357cfd691eb2c53fb1ee1b3378b373b5&amp;chksm=bc31ededb846e787e1af07a92e7ba7a8117517e3ab3a7de1230e45521d997523ce9a14705450&amp;scene=0&amp;xtrack=1#rd">“InfoQ”（ID：infoqchina）</a>，作者：冬梅，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 11 Sep 2026 08:56:39 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3978529869527809</guid>
-            <link>https://www.36kr.com/p/3978529869527809</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[不评判好坏，只鼓励创作：这款AI原生游戏，让人人都享受讲故事]]></title>
-            <description><![CDATA[<p class="image-wrapper"><span style="letter-spacing: 0px;">文丨寒刃&nbsp;二几</span></p>
-  <p>到了2026年，AI叙事游戏仍然要面对一个灵魂拷问：在完全自由的文本创作中，玩家到底该怎么知道自己要讲什么？</p>
-  <p>6年前，在《千夜之书1001》还只有基于GPT-2的雏形demo时，制作人起司就在尝试回应这个问题。如今，经过数年的开发和迭代，《千夜之书1001》终于为玩家搭起了一套“脚手架”，帮助玩家享受讲故事的乐趣。</p>
-  <p>《千夜之书1001》是国内最早一批试水AI原生叙事玩法的项目。故事背景脱胎于经典文本《一千零一夜》，玩家扮演的山鲁佐德，在与妹妹的故事接龙中意外解锁将文字故事中的武器化作实体的能力。玩家需要持续为AI国王讲述故事，从而制造武器，最终杀死残暴的国王。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,505" src="https://img.36krcdn.com/hsossms/20260911/v2_adb6866985944f91ae9d8e15284eec56@6427981_oswg762404oswg1080oswg505_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">游戏steam商店页面</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,611" src="https://img.36krcdn.com/hsossms/20260911/v2_588af19cccf145c295e499cfccde8cdc@6427981_oswg627334oswg1080oswg611_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">最终决斗画面</p>
-  <p>对于一款把“AI对话”本身变成玩法的游戏来说，“让玩家开口”只是第一步。玩家讲什么，AI如何理解，游戏如何回应玩家的创作，都是《千夜之书1001》接下来需要回答的问题。</p>
-  <h3><strong>人人都能从讲故事中获得快乐</strong></h3>
-  <p>《千夜之书1001》的早期DEMO称作《1001夜》，体验非常简洁：</p>
-  <p>玩家唯一需要做的事情就是给AI国王讲故事，在故事中<strong>自然</strong>讲出含有武器的内容，并最终用这些武器击败国王。在这个过程中，AI国王会基于自己的人设背景对故事做出反馈和引导，意图过于明显的故事可能惹怒国王，直接触发处决结局。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1440" src="https://img.36krcdn.com/hsossms/20260911/v2_6bbcc89af9c340018c28305f52a629ee@6427981_oswg1760460oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">游戏早期画面</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,610" src="https://img.36krcdn.com/hsossms/20260911/v2_b9259927c8bc45a98be91fe04a63bd11@6427981_oswg335674oswg1080oswg610_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">处决结局</p>
-  <p>对于本就擅长讲故事的玩家来说，游戏的乐趣显而易见：与AI国王斗智斗勇的同时，创作本身就是快乐的。讲出精彩或离谱的故事，也颇具成就感。</p>
-  <p>但如何让不擅长讲故事，或疲于创作的玩家，也能享受讲故事的乐趣？起司表示，要给玩家搭好“脚手架”。</p>
-  <p>首先，游戏需要让玩家知道怎么开始讲故事。早期DEMO只有一句话的提示，如今游戏加入了“灵感卡”系统，可以把进入寝殿前的经历直接当做故事的开头。另外多周目游玩的玩家，还可以选择“故事书”续写上一局没写完的故事。</p>
-  <p class="image-wrapper"><img data-img-size-val="835,606" src="https://img.36krcdn.com/hsossms/20260911/v2_5d99b816f5c84c15a3a2094ddb9d8feb@6427981_oswg120543oswg835oswg606_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">灵感卡与故事书界面</p>
-  <p>游戏还加入一项“辅助名字”功能。起因是起司发现，如果玩家把自己认识的人或者熟悉的角色写进故事里，往往会有更好的节目效果，于是干脆顺着这个行为设计功能。在北京Dice Con展会现场，有多位玩家以“牛来”为主角创作，引得众人围观，视频在小红书获得近400点赞。</p>
-  <p class="image-wrapper"><img data-img-size-val="4096,3430" src="https://img.36krcdn.com/hsossms/20260911/v2_222158d9c4a745cb805cc17a2d05af42@6427981_oswg3069073oswg4096oswg3430_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">展会现场视频</p>
-  <p>有了顺畅的开头，游戏还需要让玩家知道自己的讲述正在产生什么影响。早期版本中，国王的情绪状态是半隐藏的，玩家往往要等到国王生气，才意识到自己的行为已经改变了他的状态。后续团队发现，游戏可以不给故事的文本打分，而给讲故事中的操作加分，比如激怒国王或哄国王开心，一句话里触发了多个道具等。这样明确的反馈可以帮助玩家理解游戏正在发生什么，从而更明确自己下一步行动。</p>
-  <p>起司表示，这一设计的目标并不是鼓励“好故事”，而是对所有“讲故事”的行为做出鼓励。种种设计都是让玩家觉得，<strong>讲故事本身是一件有趣、值得投入，而且能够得到回报的事情。</strong></p>
-  <p>所以《千夜之书1001》也对于玩家的各种“骚操作”非常包容。比如把“刃”这样的字眼写进“辅助名字”里，就可以轻易让国王再次提到这个名字，并触发武器。</p>
-  <p class="image-wrapper"><img data-img-size-val="1021,1008" src="https://img.36krcdn.com/hsossms/20260911/v2_d16395f9d3f142bc906403b93748c825@6427981_oswg1475350oswg1021oswg1008_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">国王的故事中出现了寒刃的名字</p>
-  <p>在起司看来，这些行为并不一定需要被当成Bug修复。只要玩家能够想到一种方式，利用系统让故事产生意料之外的结果，这本身就是一种游戏行为，也是游戏乐趣的一部分。</p>
-  <h3><strong>从“讲故事”到“玩故事”</strong></h3>
-  <p>最早的《千夜之书1001》是起司在博士期间的研究项目，还发了论文。但随着项目越来越大，想承载的东西越来越多，它也逐渐从一个实验性Demo变成了一款完整的游戏。这意味着游戏需要有完整的剧情与世界观，让碎片化的即兴创作，落地为有温度、有记忆点、可长线沉淀的游戏内容。</p>
-  <p>起司认为，自己在开发过程中犯过最大的错误，就是低估了剧情的难度。单纯复刻《一千零一夜》的故事是远远不够的，起司希望女主成为一个“真实存在过的人”，有自己的生命历程。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,564" src="https://img.36krcdn.com/hsossms/20260911/v2_8e7c2a8cbd1c4bb8bbc09621409384b3@6427981_oswg305115oswg1080oswg564_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">山鲁佐德的童年故事</p>
-  <p>在创作期间的大量废案让起司真切体会到，为什么业内都说“游戏的第二关最难做”。团队最初为女主刺杀国王的行为设计的动因，是妹妹遭遇意外，但这样的设定，会让妹妹没有主体性。经过与编剧的反复磨合，团队最终引入咒印的核心设定，让女主的抗争与救赎更有支撑，整体故事逻辑也更加严密自洽。</p>
-  <p>补全世界观和人物背景后，起司认为，如今的《千夜之书1001》，很像一个叙事游戏。后续剧情还会出现园丁、医生、将军等形形色色的角色；女孩们手腕的咒印设定、山鲁佐德踏上救赎之路的初衷，所有伏笔与留白，都会在剧情中逐一揭晓。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,769" src="https://img.36krcdn.com/hsossms/20260911/v2_be35de553efa4405ab340c1e78a4009a@6427981_oswg63019oswg1080oswg769_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">在故事中，女孩们的手上会浮现出咒印。当咒印变红，她们就会成为国王的“新娘”。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,544" src="https://img.36krcdn.com/hsossms/20260911/v2_fa430695b856408aaec84746a9ad3b95@6427981_oswg303437oswg1080oswg544_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">山鲁佐德与想要成为将军的童年好友</p>
-  <h3><strong>团队是从游戏里生长出来的</strong></h3>
-  <p>《千夜之书1001》的另一个特别之处是，作为一款AI原生游戏，它是随着AI的发展一步步成型的，见证了这个快速迭代的AI时代。</p>
-  <p>最初的Demo可以追溯到6年前起司大学时期做的一次课题，当时GPT-2刚刚流行。《千夜之书1001》的开发团队正式组建并运作起来，其实只有一年多。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,512" src="https://img.36krcdn.com/hsossms/20260911/v2_6e090b02bae542ebb146b9b605132041@6427981_oswg264786oswg1080oswg512_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">团队简介</p>
-  <p>从学术项目到上线Steam，《千夜之书1001》的商业化没有一个清晰的“转折时刻”。起司认为，这更像是一种渐进式的生长。随着大模型逐渐成熟，行业开始出现新的生态，团队自身也不断成长，而这个Demo本身又逐渐证明了自己“值得被继续做下去”。</p>
-  <p>由于没有同类参考作品，项目自始至终没有固定的发展方向，甚至难以界定游戏的类型。团队依靠玩家反馈，一<ai-product-link data-id="14953" data-name="点点" data-logo="https://img.36dianping.com/20260731/v2_7f20642df457498595ae7c552043d930_oswg142435oswg1000oswg1000_img_jpg" data-classify-list="智能搜索,AI助理,办公辅助" data-refer-type="20">点点</ai-product-link>调整优化内容。早期，Demo还在作为学术项目研发，团队曾经研究过实时场景生成等功能，来让玩家获得更强的沉浸感和反馈。但后来发现效果并不好，玩家接受度也不高，于是直接砍掉。起司认为，这类决策更多是在不断与玩家碰撞之后做出的。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,606" src="https://img.36krcdn.com/hsossms/20260911/v2_58efea4ecddc4685a21d24071e498922@6427981_oswg478029oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">被砍掉的实时场景生成功能</p>
-  <p>同样，这款游戏的制作团队，也不同于多数独立游戏工作室。起司形容团队是“随着游戏的完善慢慢生长出来的”，而不是走立项、拉投资、研发、发行的路子。</p>
-  <p>AI技术的发展，也改变了团队的工作流。现在团队的非技术人员，也可以通过vibe coding制作玩法demo，甚至直接完成一些小型功能的研发。队内也形成了“show me the demo”的工作方式，策划提出新需求时，会先做出demo给到程序，简化沟通和开发流程。</p>
-  <p>这也正是本作最特别的地方：游戏、团队、技术三者同步成长，构成了《千夜之书1001》项目的核心底色。AI原生游戏本就是个没有成熟参考、固定方向的全新赛道，项目更新、团队建设、技术迭代同步进行，彼此相互影响、共同成型。</p>
-  <p>聊起对AI行业的看法，起司表示，如果不是技术乐观者，大概也不会愿意深耕AI原生娱乐。她认为未来token成本会持续降低，AI技术也会持续进步，整条赛道还有很大的发展空间。在起司看来，当下各类AI原生游戏之间，比起竞争，更像是互相陪伴、共同成长。</p>
-  <p>本文首发自<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/HR1zVXj12SpKt-BkX9II-g">“36氪游戏”</a>。</p>
- 
-]]></description>
-            <pubDate>Fri, 11 Sep 2026 08:50:08 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3978711556684805</guid>
-            <link>https://www.36kr.com/p/3978711556684805</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[「星测未来」连续完成两轮数亿元融资：37张先进制程GPU稳定在轨运行，布局首个云端协同太空算力星座「扶摇计划」]]></title>
-            <description><![CDATA[<p>文&nbsp;|&nbsp;阿至</p>
-  <p>9月11日中国算力大会·太空算力创新发展专题论坛现场，<strong>「星测未来」正式宣布完成A+、A++两轮累计数亿元融资</strong>，北创投、华映资本、新尚资本、新鼎资本等多家知名产业及财务投资机构联合投资，老股东锡创投、厚天资本持续加持。</p>
-  <p>半年数亿，这个体量是星测未来过去5年5轮融资总额的3倍还多。</p>
-  <p>这一幕对比更像整个赛道的情绪缩影。</p>
-  <p>马斯克用AI+太空的逻辑把SpaceX估值的天花板捅破，甚至放话未来四五年内，AI可能占到公司价值的99%。在他的叙事里，SpaceX是一家以星舰为基础设施、以AI为核心价值的科技公司，而未来，AI推理和计算的主战场将在太空。太空算力一跃成为2026年全球硬科技最炙手可热的赛道，在一级市场价值千金。</p>
-  <p>在中国，这个叙事被快速吸收、放大。一批创业者涌入赛道，钱的流动此起彼伏。</p>
-  <p>星测未来身处浪潮，被重新发现。</p>
-  <p>这个源自清华大学“天格计划”的团队，创业之初就提出AI在轨和卫星智能化。但那是6年前，“太空算力”这个词甚至还没有开始流通。</p>
-  <p>回过头看，星测未来是国内最早前瞻性布局太空算力并打通商业闭环的企业，标准化批量交付规模与商业落地速度均为行业领先：<strong>37张先进制程GPU在轨部署、39颗载荷稳定在轨运行，率先实现国内12nm、全球7nm先进制程GPU在轨应用，单个设备在轨稳定运行超过四年。</strong></p>
-  <p>但这不是一个幸运儿站上风口的故事。用星测未来CEO仓基荣的话说，“几乎一直在打逆风局，今年才开始顺风局。”</p>
-  <p>这话的背景并不复杂，公司成立的2020年，商业航天第一轮融资高点已过，行业仍处路线探索与基建加速的阶段，应用市场需求尚未起量，疫情则进一步加剧了创业公司要面对的外部复杂性。</p>
-  <p>或许就是因为生于“寒冬”，团队习惯了蛰伏，专注研发和在轨验证，精打细算每一分钱。当很多太空算力玩家还在论证产品可靠性、排队上天的时候，星测未来已经走完算力载荷验证和商业化应用的第一阶段。</p>
-  <p>“太空算力不应是停留在PPT上的概念，而是已经落地的在轨生产力。市场上有各种故事和技术路线，如果没上过天都是纸上谈兵，最终要看到底有没有在轨，有没有市场买单。”从稳定在轨运行数量和工程经验来看，星测未来更早走出了行业概念阶段，也接住了那个6年前自己押注的未来。</p>
-  <p>但这个故事的核心不是融资金额和数据，而是<strong>一个长期被低估的团队，如何抓住属于自己的机会，又如何为下一个十年下注。</strong></p>
-  <h2><strong>入局：瞄准AI+航天，三位“三清博士”的非典型创业</strong></h2>
-  <p>星测未来的创业源点可以追溯到2016年。当时，还在清华大学读博的仓基荣和曹德志，同为“天格计划”的核心研发骨干。</p>
-  <p>这是一个由清华学生主导的深空科研项目，他们自研科学载荷，搭载卫星平台进入太空，主要目标是探测和定位宇宙中的伽马射线暴。通俗地说，就是在太空中监测到“宇宙放烟花”的那个短暂瞬间，然后迅速把这个消息“告诉”地面，再由地面望远镜联合观测，做进一步的科学研究。</p>
-  <p>这里有两个关键变量，一是载荷自主识别和判断的能力，二是要尽可能快地传输结论。</p>
-  <p>2018年10月，“天格计划”首颗载荷成功入轨，完成国际首颗微纳卫星伽马暴探测载荷的全流程在轨验证——这也是星测未来星上智能处理技术和工程能力积累的源头。</p>
-  <p>对仓基荣来说，这段经历让他形成了一个关键判断：卫星只有具备数据在轨自主处理、筛选和决策的能力，才能最大化发挥其应用的价值。<strong>卫星需要智能化，而AI是核心驱动力。</strong></p>
-  <p>2020年，博士毕业的仓基荣和曹德志一拍即合，创立星测未来；同年年底，清华博士潘兴宇加入。三位“三清博士”（指本硕博士都在清华大学就读）正式组建联合创始团队，在“AI+航天”的交叉领域开启技术和产业化探索。</p>
-  <p>以星载AI计算为核心，星测未来2021年正式推出公司首款天基计算智能载荷“星溪”。</p>
-  <p>团队有共识、方向也选对了，但在疫情期间，钱的问题没那么好解决。第一笔天使轮资金几乎都投进了研发，但第一款计算载荷需要等待发射验证，才能拿到真正的市场反馈。现金流最紧张的阶段，账上只剩下两三个月的钱。为了支撑公司运转，团队开始承接一些外部技术服务订单。</p>
-  <p>“（这些订单）规模不大，但让公司活了下来，也补上了商业化的第一课。”仓基荣并不避讳谈起这段艰难的经历，他反复强调的是另一面：团队从低谷往上走，该蛰伏就要蛰伏，先积累技术和工程能力，尊重市场，理解经营。</p>
-  <p><strong>2022年2月，终于等来了发射验证的窗口，星测未来首款计算载荷搭载12nm芯片，成功实现在轨运行，一直工作至今。</strong>公司第二笔融资也顺利到账，来自客户和市场的反馈，让团队信心进一步提升。</p>
-  <p>一个细节是，2022年之后，无论挑战多大，星测未来的核心团队没有一个人离职。</p>
-  <p>这一批来自清华的博士生，没有航天院所背景，站在航天和AI的交叉口，依靠科研能力、工程经验和快速迭代，在国内率先把商用先进制程芯片送上了天，走通了一条过去“不被看好”的路线。</p>
-  <p>“航天是一项系统性工程。星链成本为什么能降下来？就是因为大量使用商用现货（COTS）芯片，这中间肯定有很多试错，发现问题解决问题，重要的是迭代速度。”在我们沟通的3个小时里，仓基荣提了17次“迭代”——这更贴近互联网和具身智能的思维模式。他相信迭代效率能够转化为产品竞争力，组织形态则直接影响决策效率。</p>
-  <p>基于这一认知，除了组建核心研发队伍，星测未来也在持续吸纳AI、航天、互联网、自动驾驶甚至大基建领域的专业人才，搭建出一套业务导向、效率优先的运营管理体系。成为商业航天领域中为数不多拥有复合背景的非典型创业团队。</p>
-  <h2><strong>蛰伏：在太空里“打怪升级”，工程经验才是真正的壁垒</strong></h2>
-  <p>如果用一句话概括星测未来在技术路线上的方向选择，可以先说个结论：<strong>跟马斯克一样。</strong></p>
-  <p>太空算力当下最核心的矛盾在于：宇航级芯片天然可靠，但成本高、迭代慢、生态封闭；地面先进制程芯片性能强、生态成熟、每代性能提升一个量级，但无法直接在太空环境中工作。</p>
-  <p>星测未来选择的是后者：基于地面主流GPU生态，通过系统容错和空间防护设计解决可靠性问题，走低成本、高性能、快迭代、广兼容的路线。</p>
-  <p>在具体方案设计层面做“三重保障”：</p>
-  <p><strong>第一层是结构屏蔽</strong>，通过加厚结构件，将累积辐射损伤降低至原来的千分之一以下；</p>
-  <p><strong>第二层是系统容错</strong>，用ECC校验（一种内存纠错技术）、冗余备份、看门狗等方式应对单粒子翻转等瞬态错误；</p>
-  <p><strong>第三层是主动规避</strong>，在载荷上集成小型辐射传感器，实时探测粒子威胁等级，根据威胁程度触发不同级别的自检、修复甚至断电保护。</p>
-  <p>其中第三层设计，是星测未来的独家能力，基于过往清华工物系的空间环境认知积累。</p>
-  <p>“原来大家结构屏蔽、三模冗余的理念差不多，但工程上做到是另一回事。我们多了一层空间环境感知，多一维物理信息。”仓基荣说。</p>
-  <p>通俗地理解这两条路线的差异，就是过去航天解决抗辐照的思路是“硬扛”，用特殊工艺芯片在物理层面去对抗辐射。<strong>星测未来的思路是允许芯片出错，让系统足够聪明，能够自主纠错，快速识别、修复，不影响在轨任务的完成。</strong></p>
-  <p>这套设计方案不是坐在实验室里想出来的，而是通过长期稳定在轨运行、持续沉淀下来的工程能力。</p>
-  <p>星测未来第一颗计算载荷在轨验证成功之后，市场需求随之而来，产品验证加速，真正的“打怪升级”才开始。</p>
-  <p>在500至630公里轨道上，团队曾遭遇过高能粒子打翻存储器件、硬盘无法识别的情况，最终通过重新上注软件恢复；也曾遇到过单粒子引起的电流异常、功能故障，通过断电重启、看门狗复位等方式实现分钟级任务恢复。</p>
-  <p>仓基荣提到，团队对空间辐射的真实认知，都是在出错时获得的，“不出现错误时，我们都怀疑做了这么多冗余设计是不是有必要。直到经历过问题，才发现之前的很多设计都有价值。”</p>
-  <p>从2022年率先实现国内12nm芯片在轨应用，到2024年全球首个7nm芯片上天，<strong>一个反直觉的事实是：在星上智能处理这件事上，国内企业并不落后，甚至在全球范围内走得更靠前。</strong></p>
-  <p>但在仓基荣看来，算力入轨不等于在轨能运行，在轨运行不等于真正产生价值。在实际的市场应用中，开机时间、任务量、单位时间处理像素数、Token吞吐量（TPS）等业务指标，比标称算力更重要——这也对应了星测未来公司价值观中的第一条：价值创造。</p>
-  <p>“星测未来是一家商业公司，科研创新和技术突破是手段不是目的，我们需要持续为员工、股东、行业和国家创造价值。”仓基荣说。</p>
-  <p>反映到商业行为上，星测未来不是一家卖硬件载荷的公司，做的不是“一锤子买卖”。卫星上天之后，交付团队会在用户一线处理数据、调算法、帮用户把服务跑起来。星测未来2023年就开始参与国家级遥感星座项目，并顺利完成交付，随后陆续与航天领域的“国家队”单位和头部商业星座运营商建立了稳定合作。</p>
-  <p>过去几年，星测未来实际上是站在卫星公司后面，通过软硬件一体的产品+服务，和行业用户共同挖掘卫星应用的价值。</p>
-  <p>如今，这套打法正在向更长的行业链条延伸：<strong>计算载荷是起点，场景服务是切口，算力运营是终局。</strong></p>
-  <p>与之相对应，星测未来的商业逻辑也分三层展开：第一层是算力载荷硬件配套，目前已具备批量交付和在轨部署能力；第二层是面向垂直行业的感算一体卫星应用服务，在应急、交通等领域已有落地案例；第三层是太空算力基础设施与Token化运营服务，这是更长期的布局方向。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260911/v2_cd2831a540284c7fa2f78ae630d38e04@577536001_oswg118538oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">星测未来业务增长三曲线</p>
-  <p>来自应用层面的市场反馈是最直接的。</p>
-  <p>在应急能源领域，星测未来服务国家电网，为电力红外卫星A星提供智能计算与算法加速平台，实现红外遥感数据在轨实时处理、火点自动识别与高精度定位。该载荷于2026年2月入轨投用，官方数据显示，其单景影像检测定位耗时小于100毫秒。</p>
-  <p>水运交通方面，星测未来与中交水规院合作，布局利用卫星遥感与在轨算力，监测航道拥堵态势，同时拓展重大工程监测、多维环境监测、全球AIS跟踪增强等场景。</p>
-  <p>重点行业应用落地后，星测未来又瞄准金融保险、能源监测、应急救灾三大核心场景，与相关头部单位达成深度战略合作；国际维度，与海南卫星数据与应用研究中心达成战略合作，共同打造以"国际智能遥感卫星星座、天地一体化跨境感算平台"为代表的太空计算公共科技产品，助力构建天基智能应用国际开放合作生态。</p>
-  <p>一组最新的数据是，<strong>星测未来目前在手订单规模已超1亿元，公司商业化落地进程加速，2026年营收规模预计将实现翻倍增长。</strong></p>
-  <p>在交付保障方面，公司目前已储备超100套待发射算力平台，最高可支撑10POPS算力，已形成覆盖“星上边缘智能”到“太空算力中心”的算力产品矩阵。</p>
-  <h2><strong>跃迁：以“扶摇计划”为核心，星测未来要做一家怎样的公司？</strong></h2>
-  <p>过去6年，星测未来的发展布局可以用四个字概括，天数天算。</p>
-  <p>让天上的数据在天上算，这依赖三个前提：硬件足够可靠、在轨数据足够充分、软件生态逐步完善。三者齐备，大小模型才谈得上在轨部署与协同调度，太空算力中心也才有从概念走向工程的可能。</p>
-  <p>沿着“实测—验证—规模化”的路径，星测未来已跑通天数天算的技术体系与商业闭环，同步正在布局太空算力集群的规模化组网与商用服务。在此基础上，推进从天数天算，向地数天算的演进，两条路径协同发展，最终搭建天地一体的算力架构。</p>
-  <p><strong>在仓基荣的规划里，星测未来在为太空算力提供基础设施的同时，也要持续向下游走，深入各行业市场的一线，直接为终端用户提供Token化的运营服务。</strong>在这套框架里，Token是数据、算力、模型、网络四项要素能力的结合。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260911/v2_4606b3eea49a4b9389878f64d6167a52@577536001_oswg649150oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">星测未来战略布局</p>
-  <p>定位变化背后的思考逻辑是：商业航天要加速闭环，下游应用是关键。而星测未来站在AI与航天交叉点上，角色和身段更灵活，有望促进行业生态的整合与应用闭环。</p>
-  <p>今天星测未来正式官宣的“扶摇计划”，就以加速推进上述目标实现为核心。</p>
-  <p><strong>扶摇星座采用“自建核心+生态共建”的差异化发展路径</strong>，整体规划303颗自研核心算力卫星，包含3颗1000P级旗舰型中心算力星、60颗10P级增强型节点算力星、240颗P级基础型边缘感算星三个梯度，形成全覆盖、分层级的在轨算力供给体系。再联动约3000颗行业生态共建卫星，打造分布式、高弹性、可拓展的太空智能算力集群。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260911/v2_79810360ab6f4bd7a8077d9be2dd60dd@577536001_oswg876729oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">星测未来“扶摇计划”</p>
-  <p>区别于单一组网路径，共建模式是这个计划中值得关注的部分。</p>
-  <p>过去，星测未来是卫星公司的供应商，赚载荷订单的钱。现在它选择主动让渡一部分硬件收入，成为星座共建方，直接面向下游行业应用客户，与卫星公司甲乙方关系互换，在数据与运营上深度协同，并按约定分润，这正是星测未来从上游部组件配套往下游应用服务转型升级的关键一步。</p>
-  <p>从经济账来看，这一模式不仅能够分摊硬件成本、加速算力星座组网进程。更重要的是，<strong>它把过去分散在卫星制造、数据供应和应用开发三个环节的相关方绑定在了一起——用运营服务兑现长期价值，大家一起做增量，而不是分存量的蛋糕。</strong></p>
-  <p>“行业整体的成本下降需要一个过程。我们希望通过共建共享模式降低行业组网门槛、提升太空资源利用率，加速太空算力产业生态普及。”仓基荣说。</p>
-  <p>目前，星测未来已与谱星航天达成生态合作，双方将联合打造1024颗智能遥感卫星集群，同时<strong>面向全行业开放适配2000余套轻量化在轨计算载荷。</strong></p>
-  <p>按规划，“扶摇计划”将稳步推进阶段性里程碑：2027年，完成2P级基础型、10P级增强型感算一体卫星技术验证；2028年，建成百星规模、百P级太空算力集群，实现全球覆盖、分钟级响应；2032年，完成303颗自建核心算力卫星全部入轨，构建自主可控的太空算力基础设施；2035年，完成共建星座全部组网，建成千P级全域分布式太空算力生态网络，实现全面Token化运营服务 。</p>
-  <p>在应用侧，星测未来计划打造“星海·太空物理模型”，把遥感监测、空间态势与辐照实测数据纳入统一的训练与推理框架，用于全球实时感知、态势推演以及卫星自主管控和星座调度。在其之上，行业定制小模型解决具体场景的精度与轻量化适配，AI Agent则把模型能力封装成可调用的任务流，按需调度大小模型完成一次作业。</p>
-  <p>大小模型+Agent协同的直接结果是数据处理位置的前移。过去卫星影像需先下传地面站、排队处理，一个流程往往以天计；在轨完成初筛与识别后，可剔除90%以上的无效数据，处理时延由天级压缩至分秒级，用户拿到可用信息的时间也随之从数天缩短到分钟级甚至更短。</p>
-  <p><strong>与之配套的是按量计费的Token服务：Token既是算力消耗的计量单位，也对应数据、算力、模型、网络等要素的组合调用，用户为实际使用的部分付费，而非为整套系统买单。</strong></p>
-  <p>至此，星测未来的收入结构也将从一次性的载荷交付和项目制服务，转向为可规模复制的运营服务。模型能力、行业应用与商业变现之间，才真正形成一条互相对应的链路。</p>
-  <p>从上游硬件到下游应用，星测未来的角色和定位转变，不单是一次业务延伸，这套选择逻辑最终还是回到了公司价值观的第一条，价值创造——技术要有人用，用起来要产生真实的商业结果。</p>
-  <p>而价值创造的对象，也不只是用户，还包括行业上下游、合作伙伴甚至是竞争对手。</p>
-  <p>除了前述星座共建计划，星测未来近期还公布了几项产业合作进展：与雷科空天联合攻关芯片级/系统级抗辐照关键技术；与中科密位协同打造太空智能计算全链路方案；与光子芯力合力推进光电算力芯片在轨验证。</p>
-  <p>其中不乏些出乎意料的合作。但这的确是仓基荣在沟通中数次提及的主张：<strong>以合作共赢替代内卷。</strong></p>
-  <p>在他看来，太空算力是一个足够大的赛道，远未到需要彼此争夺存量的阶段，企业之间各自优势不同，联合起来才能把产业共同做大。</p>
-  <p>就如同开源促进创新，先把少数人的游戏，变成多数人的赛道。</p>
-  <p>这条路径已经被反复验证有效。但前提是，作为一家创业公司要在更大的生态里持续证明自己的不可替代性。</p>
-  <p>6年时间，星测未来回答了一个最重要的问题：太空算力这条路走得通。</p>
-  <p>接下来的问题是，谁能让算力更快、更可靠、更聪明、更便宜的在天上运转，尽可能服务足够多的用户。以及中国太空算力公司，如何在国际竞争中找到自己的身位。</p>
-  <p>星测未来依旧身处竞赛之中。但好在，它已经提前站上了起跑线。</p>
-  <h3><strong>投资机构观点</strong></h3>
-  <p><strong>北创投：</strong>北创投始终聚焦高精尖产业领域开展投资，重点布局契合首都功能定位的前沿科技赛道。星测未来是硬科技成果转化的典范项目，其自主研发的星载计算平台已成功搭载近四十颗载荷在轨运行，技术成熟度与商业闭环能力均处于行业领先水平。我们看好星测未来在商业航天从“发射卫星”向“应用卫星”转型过程中扮演的关键角色，北创投将持续发挥国有资本的产业赋能优势支持企业成长。</p>
-  <p><strong>华映资本创始管理合伙人季薇：</strong>商业航天是华映近年重点布局的战略方向之一，我们认为明年将是行业大规模发射和商业化应用的爆发之年。星测未来是国内星载AI边缘计算的头部标的，卡位卫星智能化刚需，属于太空算力产业链“卖铲子”的最先受益环节。团队脱胎于清华“天格计划”，近40颗载荷在轨稳定运行，最长超4年，工程化能力已充分验证；“星溪”系列算力从21TOPS迭代至10P+，体现了其软硬件一体化闭环能力；同时公司拥有着清晰的商业模式规划。我们期待星测未来在星座建设浪潮中成为太空算力基础设施的核心供应商以及运营服务商。</p>
-  <p><strong>新尚资本：</strong>无锡新尚资本是太湖新城集团旗产业股权投资核心平台。星测未来所从事的星上智能计算与新尚资本重点布局的赛道高度契合，其国产化算力平台和存算传一体化技术具有明确的国产替代价值。新尚资本很高兴能在本轮成为星测未来的新股东，助力企业在太空算力领域持续突破。</p>
-  <p><strong>新鼎资本：</strong>新鼎资本的投资风格是深耕产业链、重仓长期价值。在考察商业航天赛道的过程中，我们发现星测未来是少数同时兼具技术壁垒、产品成熟度和客户认可度的标的。公司从芯片筛选、载荷研制到星上智能应用的全栈能力，以及在遥感、通信、科学实验等多场景的商业化落地，让我们看到了清晰的增长路径。新鼎资本在本轮选择入局，期待陪伴星测未来从行业先行者走向赛道领航者。</p>
-  <p><strong>江苏康华投资集团：</strong>江苏康华投资集团历经二十余年发展，在产业投资和实业运营方面积累了深厚经验。近年来集团积极向科技创新领域拓展，重点关注具有产业落地能力和规模化前景的硬科技项目。星测未来将航天级边缘计算技术与实际应用场景深度融合，产品已服务于遥感观测、应急救灾、空间目标探测等重要领域，商业模式清晰、客户粘性强。康华集团本轮参与投资，正是看好星测未来在太空算力产业化进程中的巨大潜力。</p>
-  <p><strong>匀升资本：</strong>匀升投资聚焦高端制造、医疗健康和新材料等战略新兴产业。商业航天作为国家“十五五”规划重点发展的未来产业之一，我们高度关注其产业链中的核心环节。星测未来在星上智能计算领域建立了从底层芯片筛选到上层应用算法的全栈能力，技术路径清晰、工程化程度高、应用闭环强。匀升投资本轮投资星测未来，是我们在商业航天赛道的重要布局，期待企业为太空算力国产化贡献力量。</p>
-  <p><strong>晨峰基石：</strong>晨峰基石持续关注商业航天产业链中的高成长性机会，此前已在商业航天卫星、部组件等领域有过成功布局。星测未来让我们看到了卫星载荷智能化及太空算力运营服务升级的巨大空间——在星座建设加速的背景下，星上计算及应用能力将成为决定卫星应用价值的关键变量。公司团队来自清华“天格计划”，技术底蕴深厚，且已在短时间内完成了从科研到批产的跨越。晨峰基石很荣幸在本轮参与投资，期待与企业共同成长。</p>
-  <p><strong>海南见月：</strong>见月投资专注于发现和陪伴具有高成长潜力的科技创新企业。星测未来所在的天基智能赛道正处于爆发前夜，随着低轨星座建设的加速推进，星上实时数据处理能力的需求将呈指数级增长。公司核心产品“星溪”系列智能载荷已在轨稳定运行，从技术指标到工程可靠性都达到了国内外行业领先水平。见月基金很高兴在本轮成为星测未来的投资方，期待见证中国太空算力的崛起。</p>
-  <p><strong>惠丰达创投合伙人潘正亮认为：</strong>商业航天、太空算力是我们长期关注并持续看好的未来产业，尤其太空算力作为国家重要的信息基础设施战略方向，值得长期支持与持续投入。星测未来作为太空算力领域的头部企业，具备深厚的科研积累与工程化能力，已构建超百套太空算力资产，独立运营30+套，在轨稳定运行超四年，技术壁垒与运营经验行业领先。公司以“感算一体”为核心差异化，将遥感数据处理从地面搬到在轨，实现小时级数据到分秒级结果的时效跃升，有效解决了传统遥感“数据利用低、服务时效差、应用门槛高”三大痛点。我们看好星测未来持续扩大星座规模，完善Token化服务体系，成为太空算力时代的基础设施运营商。</p>
-  <p><strong>君一资本创始合伙人吴贤军表示：</strong>算力上天，感算一体，天地协同，空间广阔。君一资本长期看好太空算力这一战略赛道，更看好星测未来团队在星载计算与遥感智能处理领域的长期深耕。公司核心团队源自清华“天格计划”，兼具科研深度与航天工程化能力，是国内少有的能完成从芯片适配、单机研制到星座运营全链条闭环的团队。星测未来提出的“全球太空算力Token运营服务领航者”定位，精准切中了行业从数据售卖向算力服务转型的关键窗口期。我们相信公司能依托自研算力卫星星座，为能源、金融、应急等行业提供高时效、低成本的天基智能服务，打开广阔的太空算力运营市场。</p>
-  <p><strong>厚天资本：</strong>作为星测未来的老股东，厚天资本从Pre-A轮开始陪伴企业成长，一路见证了团队将清华实验室里的前沿技术转化为在轨运行的成熟产品。商业航天是厚天重点布局的赛道之一，而星载智能计算及应用则是我们眼中卫星产业升级的核心变量。星测未来在产品迭代速度、在轨验证经验和客户拓展方面持续超预期，厚天资本在本轮选择继续加注，坚定看好公司成为中国太空算力基础设施的领军者。</p>
-  <p><strong>锡创投：</strong>无锡作为国家集成电路、商业航天与物联网产业高地，始终关注空天信息与算力基础设施的融合创新。星测未来团队在太空算力芯片适配、星载计算平台研制方面具有深刻的技术理解与独到的工程经验，公司组建了集芯片、航天、通信、AI等行业人才的跨学科综合型团队，形成了从算力芯片到星座运营的全栈能力。我们相信随着国产卫星运载能力的跨越式发展与卫星系统的通用化、智能化，太空计算能力作为基础性战略能力将迎来前所未有的发展机遇。星测未来有望在这一浪潮中解决太空算力基础设施的基础性问题，推动国产自主可控太空算力生态的构建，为国家科技创新与产业升级提供坚实支撑。</p>
- 
-]]></description>
-            <pubDate>Fri, 11 Sep 2026 08:49:53 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3978756821842688</guid>
-            <link>https://www.36kr.com/p/3978756821842688</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[OpenAI这是拿千禧年难题当Benchmark刷啊。。。]]></title>
-            <description><![CDATA[<p>OpenAI的纳维-斯托克斯方程连续剧，居然还没完。。。</p>
-  <p>《纽约时报》最新追访，补出了这场冲突中此前没有披露的细节。</p>
-  <p>其中最关键的一条，是OpenAI更新了关于用户数据的说法：</p>
-  <blockquote>
-   <p><strong>Buckmaster过去两个月的Codex提示词，绝不可能以任何方式影响内部模型。7月3日之后的任何用户输入，也不可能进入这套系统</strong>。</p>
-  </blockquote>
-  <p>这比OpenAI此前<strong>“无法完全排除匿名用户数据曾帮助改进模型”</strong>的表态明确得多，也给8月研究成果是否进入模型划出了一条时间线。</p>
-  <p>不过这仍然是OpenAI单方面给出的说法，目前没有公开技术材料可供外界独立核查。</p>
-  <p class="image-wrapper"><img data-img-size-val="226,224" src="https://img.36krcdn.com/hsossms/20260911/v2_2eb1ce351f004541b6523197e555a59b@46958_oswg88009oswg226oswg224_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>数据争议还没落地，OpenAI又扔下一枚炸弹：</p>
-  <p><strong>攻克纳维-斯托克斯之后，公司又在另一道千禧年大奖难题上取得“实质性进展”，正在准备公布结果</strong>。</p>
-  <p>而最新传闻指向的，正是霍奇猜想。</p>
-  <p>好家伙，第一道题的论文还在接受审查，第二道题已经要交卷了。</p>
-  <h2><strong>“你为什么要毁掉自己的职业生涯？”</strong></h2>
-  <p>简单回顾一下这场争议始末以及最新爆料。</p>
-  <p>纽约大学数学家Tristan Buckmaster称，在自己拒绝OpenAI提出的合作方案，并表示可能公开双方的沟通经过后，OpenAI研究负责人Sébastien Bubeck对他说：</p>
-  <blockquote>
-   <p>你为什么要毁掉自己的职业生涯？</p>
-  </blockquote>
-  <p>Buckmaster反问，公开事实怎么会毁掉一名学者的职业生涯。对方又称：</p>
-  <blockquote>
-   <p>如果你不希望我保持友善，那我也不必友善。</p>
-  </blockquote>
-  <p><strong>Bubeck后来承认第一句话确实出自自己之口，但否认是在威胁</strong>。</p>
-  <p>他随后晒出自己与Buckmaster合作者Levent Alpöge的聊天截图。</p>
-  <p>截图显示，Bubeck在电话前提出协调双方发布、承认两人的研究优先权，并愿意分享证明和人类提示词。</p>
-  <p>但这些消息只能证明OpenAI在电话前释放过合作意愿，无法还原真正引爆冲突的通话。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1245" src="https://img.36krcdn.com/hsossms/20260911/v2_75cc524725ad4788ba55a5f67b800fb1@46958_oswg455565oswg1080oswg1245_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>《纽约时报》此次补出的，是那场谈判更完整的条件</strong>。</p>
-  <p>当时OpenAI已经完成纳维-斯托克斯证明，而Buckmaster和Alpöge只推进到了更简单的欧拉方程。</p>
-  <p>OpenAI向Buckmaster提供了几种选择：</p>
-  <ul>
-   <li><strong>两位数学家先发布欧拉方程成果，OpenAI第二天再公布纳维-斯托克斯证明；</strong></li>
-   <li><strong>由Buckmaster担任主要作者，重新整理OpenAI模型生成的论文；</strong></li>
-   <li><strong>为Buckmaster提供充足算力，让他继续完成自己的研究；</strong></li>
-   <li><strong>OpenAI还会建议，100万美元的千禧年大奖荣誉应归Buckmaster和合作者。</strong></li>
-  </ul>
-  <p>需要说明的是，OpenAI不是要直接支付100万美元，也没有证据显示双方讨论过封口协议。</p>
-  <p>这里指的是OpenAI愿意公开推荐奖金归属。</p>
-  <p>但Buckmaster仍然觉得，OpenAI是在“收买”自己。</p>
-  <p><strong>症结就在他的合作者Alpöge身上</strong>。</p>
-  <p>Alpöge虽然任职于Anthropic，但这项研究是他的个人业余项目，并非Anthropic发起。</p>
-  <p>可Bubeck在接受《纽约时报》采访时直接确认，OpenAI确实不希望Alpöge出现在最终论文中：</p>
-  <blockquote>
-   <p>在我们看来，怎么能让一名Anthropic员工参与OpenAI内部项目？</p>
-  </blockquote>
-  <p>Buckmaster则认为，两人的研究既使用了Anthropic的Claude，也使用了OpenAI的Codex，最合理的办法应该是两家公司放下竞争，共同处理这项成果。</p>
-  <p>他形容，OpenAI无法理解自己为什么不接受这笔交易，也无法理解他为什么不愿意“把Levent扔到车轮底下”。</p>
-  <p>Bubeck对此同样感到不解。</p>
-  <p>他告诉《纽约时报》，OpenAI此前完成其他数学证明后，也曾与外部数学家达成过类似合作安排，因此他对Buckmaster拒绝合作的反应感到惊讶。</p>
-  <p>至于“毁掉职业生涯”的警告，Bubeck给出的语境是：</p>
-  <p>Buckmaster表示，只要OpenAI公布证明，就会立即向媒体提出一系列指控。</p>
-  <p>他真正想问的是，为什么要用未经证实的指控冒险损害自己的职业生涯。</p>
-  <p>Bubeck承认这是“极其糟糕的措辞”，称自己当场收回并道歉。</p>
-  <p>但Buckmaster显然没有感受到其中的“善意”。</p>
-  <p><strong>周日，他把纽约大学的办公室变成了一间临时“作战室”</strong>：</p>
-  <p>黑板上写满事件时间线，几名同事坐在旁边，和他一起讨论该怎么应对。</p>
-  <p>他还给普林斯顿高等研究院数学家Peter Sarnak打了电话。Sarnak听完双方提出的条件后表示：</p>
-  <blockquote>
-   <p>这种讨价还价，我从来没有听说过。</p>
-  </blockquote>
-  <p>他同时称赞Buckmaster“按照数学家的方式行事”。</p>
-  <p>周一接近午夜，Buckmaster仓促公开了三篇尚未来得及充分润色的论文，以及一份1870词的事件说明。</p>
-  <p>直到凌晨2点30分，他才离开办公室回家。</p>
-  <p>几个小时后，OpenAI正式宣布完成纳维-斯托克斯证明。</p>
-  <p class="image-wrapper"><img data-img-size-val="250,240" src="https://img.36krcdn.com/hsossms/20260911/v2_7ef2694aa3fe41b6bad5cbffe49b65e8@46958_oswg124244oswg250oswg240_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而这场争议真正刺痛数学家的，也许还不只是数据。</p>
-  <p>Buckmaster认为，<strong>在争吵中被忽略的，是人类数学家为这次突破铺出的道路</strong>。</p>
-  <p>几年前，西班牙数学家Diego Córdoba和Luis Martínez-Zoroa提出了一套攻击相关流体方程的新策略：</p>
-  <blockquote>
-   <p>通过一连串精确的外力“踢击”，不断将流体推向极端状态，最终逼出速度趋近无穷大的奇点。</p>
-  </blockquote>
-  <p>Buckmaster负责设置问题，Alpöge将问题输入Anthropic的模型。</p>
-  <p>两人再根据模型输出不断反馈、修正，逐步解决更复杂的方程。</p>
-  <p>Buckmaster因此强调：</p>
-  <blockquote>
-   <p><strong>主要的智力功劳应该归于Luis和Diego</strong>。</p>
-  </blockquote>
-  <p>按照过去的研究节奏，这套方法本可以由不同数学家继续接力，或许再用十年时间走到纳维-斯托克斯。</p>
-  <p>但现在，OpenAI调动上万个Agent，把这段路压缩到了几天。</p>
-  <p>一边是前人用几年时间提出核心策略，另一边是AI用海量算力完成最后冲刺。</p>
-  <p><strong>那么，这项突破究竟应该算谁的？</strong></p>
-  <p>这个问题还没有答案。</p>
-  <p>但我们能看到的是，OpenAI已经开始刷下一道了。。。</p>
-  <h2><strong>下一道可能是霍奇猜想，模型或叫Aeon</strong></h2>
-  <p>最新爆料称，OpenAI已经把下一个目标锁定在了<strong>霍奇猜想</strong>。</p>
-  <p>早在纳维-斯托克斯结果公布前，Epoch AI数学负责人Elliot Glazer梳理当时混乱的消息源时，就提到一名数学教授从所谓“可信渠道”听到：</p>
-  <p><strong>被攻克的不是纳维-斯托克斯，而是霍奇猜想</strong>。</p>
-  <p>当时这条消息被视为传闻中的传闻。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1553" src="https://img.36krcdn.com/hsossms/20260911/v2_81e8c7d9fc4744b6a766511c8f9a52cb@46958_oswg644708oswg1080oswg1553_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>如今OpenAI确认又在一道千禧年难题上取得“实质性进展”，这条旧线索也被重新翻了出来。</p>
-  <p>虽然是不是还有待两说，但种种传闻已经让它成为目前呼声最高的答案。</p>
-  <p><strong>那么，霍奇猜想到底在猜什么？</strong></p>
-  <p>简单来说，它试图在数学的两个世界之间搭一座桥。</p>
-  <p>一个是拓扑学，关注高维空间整体上有多少个“洞”。</p>
-  <p>另一个是代数几何，研究由多项式方程刻画出来的几何形状。</p>
-  <p>霍奇猜想认为，在一类特定的复杂几何空间中，那些由拓扑学发现的特殊“洞”，并不是凭空存在的，它们背后应该都能找到由代数方程构成的几何结构。换句话说：</p>
-  <blockquote>
-   <p><strong>一个空间里看不见、摸不着的拓扑特征，背后应该存在可以用方程写出来的“骨架”</strong>。</p>
-  </blockquote>
-  <p>这个猜想由英国数学家William Hodge在20世纪提出，后来被列入七大千禧年大奖难题。它连接了拓扑学、复几何与代数几何，也是现代数学最核心、最难啃的问题之一。</p>
-  <p><strong>而可能挑战它的，仍是那个没有正式名字的OpenAI内部模型</strong>。</p>
-  <p>OpenAI目前只透露，该模型从8月28日开始训练，数学能力已经显著超过GPT-6 Astra，甚至在纳维-斯托克斯项目进行期间，它还没有结束训练。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,444" src="https://img.36krcdn.com/hsossms/20260911/v2_b9dc5c53fda443dd8ac11ae3e6df3533@46958_oswg148923oswg1080oswg444_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>外界则传言，它的代号可能是<strong>Aeon</strong>，但这一名称尚未获得OpenAI证实。</p>
-  <p>就是这个“边训练、边刷题”的模型，被接入一个由上万个Agent组成的系统，同时尝试多道尚未解决的千禧年难题。</p>
-  <p>OpenAI披露，整轮测试产生了490万条Agent消息和约3000亿个输出Token，其中仅纳维-斯托克斯一题，就动用了约1万个并行Agent，产生270万条消息，消耗约1300亿个输出Token。</p>
-  <p>从Agent启动到找到解法，只用了88个小时，随后GPT-6 Astra又花费17个小时完成Lean形式化和验证。</p>
-  <p>纳维-斯托克斯，只是这套暴力解题系统公开交出的第一张答卷。</p>
-  <p>现在，第二道题也已经在路上了。</p>
-  <h2><strong>OpenAI和Anthropic，已经把世纪猜想当测试集刷了</strong></h2>
-  <p>把最近半个月的消息放在一起看，会发现这并不是一次偶然的数学突破：</p>
-  <p><strong>更像是一场被传闻点燃、迅速升级的AI刷题竞赛</strong>。</p>
-  <p>事件的主角当然是OpenAI和Anthropic这对宿敌，双方瞄准的还都是千禧年难题这种数学界的“终极Boss”。</p>
-  <p>（七道千禧年难题中，此前只有庞加莱猜想获得正式解决，如果OpenAI的纳维-斯托克斯证明最终通过审查，那就还剩五道了。）</p>
-  <p>这场大战究竟有多夸张，一张表格看明白：</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,764" src="https://img.36krcdn.com/hsossms/20260911/v2_cee322e42b5144c3a794e486715c8e32@46958_oswg801366oswg1080oswg764_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <p>最兴奋的当然是，许多困扰人类几十年甚至上百年的问题，可能会被快速推进。</p>
-  <p>但对数学家而言，另一面也很真实：</p>
-  <p>他们提出问题、积累路线、把未公开草稿交给AI工具，最后却可能发现，工具背后的公司正在与自己抢跑。</p>
-  <p>Buckmaster说，<strong>他并不在意100万美元奖金，只是热爱数学，想成为这段历史的一部分</strong>。</p>
-  <p>如今，他确实进了历史，只是方式和他想的完全不一样。</p>
-  <p>面对《纽约时报》，这位数学家说：</p>
-  <blockquote>
-   <p>与一家万亿美元公司对抗，非常可怕。我们都害怕OpenAI。</p>
-  </blockquote>
-  <p>参考链接：</p>
-  <p>[1]https://www.nytimes.com/2026/09/10/science/tristan-buckmaster-openai-math-navier-stokes.html?unlocked_article_code=1.AFE.TK7P.Y7WvGPkfHaSk&amp;smid=bs-share</p>
-  <p>[2]https://x.com/AndrewCurran_/status/2098083604853342688</p>
-  <p>[3]https://x.com/SebastienBubeck/status/2097379411691516310</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/w9jmun9OagkXBCX5gprh8w">“量子位”</a>，作者：一水，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 11 Sep 2026 08:15:21 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3978639594339077</guid>
-            <link>https://www.36kr.com/p/3978639594339077</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[108亿天价薪酬留不住，Meta又失亿元AI先生]]></title>
-            <description><![CDATA[<p>Muse刚发布，把它造出来的Meta TBD实验室，却又有人开始离场。</p>
-  <p>这次离开的人是去年Meta疯狂抢夺AI人才时，报价最贵、争议最大的一名候选人——<strong>Andrew Tulloch</strong>。</p>
-  <p>拿下天价offer回归老东家前，他就曾在Meta（前Facebook）前后工作超过11年。此后又一路在OpenAI参与GPT-4o、GPT-4.5和o3的训练工作，并与OpenAI的前CTO Mira Murati联合创立了Thinking Machines Lab。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1173" src="https://img.36krcdn.com/hsossms/20260911/v2_fece8a13e3234c1e87c0f404dbd59143@46958_oswg1370426oswg1080oswg1173_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <p>去年8月，Meta的扎克伯格和Alexandr Wang轮番向他发消息，并给他开出了一套总价值达<strong>15亿美元（折合人民币约108亿元）</strong>的薪酬方案邀请Tulloch回归。</p>
-  <p>但戏剧性的是，Tulloch当时拒绝了Meta抛出的天价回归橄榄枝；</p>
-  <p>直到两个月后，Tulloch才改变决定，离开自己参与创办的Thinking Machines Lab，回归Meta，并进入了由Alexandr Wang领导的TBD Lab研究超级智能，负责Muse的相关研发工作。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,281" src="https://img.36krcdn.com/hsossms/20260911/v2_521c030984834fe8aa0c418ae2cf3bcf@46958_oswg131515oswg1080oswg281_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>从2025年10月底回归，到2026年9月传出离职，满打满算，Tulloch在Meta的第二段任期只有约<strong>11个月</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="226,230" src="https://img.36krcdn.com/hsossms/20260911/v2_12ba908de7ad452ebc7df42942222758@46958_oswg31753oswg226oswg230_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而就在刚刚，A社方面透露：<strong>Andrew&nbsp;Tulloch即将于下周加入Anthropic的推理与性能团队，</strong>致力于优化Claude Code的训练流程，并提升模型对用户指令的响应效率。（具体团队细节待公布）</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,459" src="https://img.36krcdn.com/hsossms/20260911/v2_ad8dbeac69ff4e1093451fcacddc0bfe@46958_oswg820229oswg1080oswg459_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <p>这让人不禁想起了Meta的另一位亿元AI先生——<strong>余家辉</strong>。</p>
-  <p>同样是Meta重金挖来的顶级人才，余家辉在Muse Spark 1.2发布后，仅过了八天，便宣布离职。</p>
-  <p>如今不到一个月，Tulloch又在Muse上线后仅过了两天，便选择离场。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1163" src="https://img.36krcdn.com/hsossms/20260911/v2_edf039086b454b0c8813162121b09820@46958_oswg159177oswg1080oswg1163_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>对Meta来说，这或许再次说明：<strong>人可以重金买来，却未必能够留下。</strong></p>
-  <h2><strong>Muse刚发完，产品主将接连离场</strong></h2>
-  <p>Tulloch离职的时间点，比具体原因更耐人寻味。</p>
-  <p>9月8日，Meta正式推出个人AI助手<strong>Muse</strong>，它不仅可以回答问题，还能自行拆解长任务、协调时间和资源，帮人们填写表单、发送邮件、预订行程和完成购物。</p>
-  <p>据Meta官网介绍，Muse背后使用的是<strong>Muse Spark</strong>。</p>
-  <p>Meta骄傲地将其称之为自己目前能力最强、面向真实智能体任务打造的模型。</p>
-  <p>对小扎而言，这不仅是又一个AI助手，也是他“个人超级智能”战略的一次关键产品落地。</p>
-  <p>而Tulloch正是等到这个产品交付之后，才决定正式转身离开。</p>
-  <p>这不禁让人想起半个多月前离职Meta创业的余家辉，<strong>俩人入职和离职的场景都惊人的相似</strong>：</p>
-  <p>去年6月，Meta以7亿年薪将余家辉从OpenAI挖来Meta，并与扎克伯格、Alexandr Wang等人一起搭建TBD Lab，并负责多模态方向。</p>
-  <p>结果今年8月，Muse Spark 1.2发布仅一周多后，余家辉便宣布离职创业，入职时长仅一年零一个多月。</p>
-  <p>只不过余家辉等到了Muse Spark 1.2，Tulloch等到了完整的Muse。</p>
-  <p>如今，<strong>产品向前走了一步，两名核心人物却先后离场。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,462" src="https://img.36krcdn.com/hsossms/20260911/v2_f95361430d3f46919b7f9cdae1122743@46958_oswg849210oswg1080oswg462_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <p>而Tulloch与Meta的故事，还要从2012年开始讲起。</p>
-  <h2><strong>去年Meta疯狂抢人大战中，他的名字最贵</strong></h2>
-  <p>这并不是Tulloch第一次离开Meta。</p>
-  <p>Andrew Tulloch来自澳大利亚，先后毕业于<strong>悉尼大学</strong>和<strong>剑桥大学</strong>；</p>
-  <p>从2012年到2023年，Tulloch在Meta工作了约<strong>11年</strong>，并从机器学习工程一路做到了Distinguished Engineer。</p>
-  <p>在Tulloch的个人主页中，他只用了一句话来概括他早期在Meta的工作经历：</p>
-  <blockquote>
-   <p>Worked on machine learning systems at Meta.（曾在Meta从事机器学习系统相关工作。）</p>
-  </blockquote>
-  <p class="image-wrapper"><img data-img-size-val="1080,797" src="https://img.36krcdn.com/hsossms/20260911/v2_af7732d39d644625908a141019d1628d@46958_oswg180918oswg1080oswg797_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>但这句简单的话背后分别连接到了<strong>PyTorch</strong>、<strong>ResNet-50</strong>和<strong>FBGEMM</strong>三个项目：</p>
-  <ul>
-   <li><strong>他是PyTorch CUDA方向的荣誉维护者</strong>，说明他参与过底层框架工作；</li>
-   <li>他曾参与的经典工作 <strong>把ResNet-50在ImageNet上的训练时间压缩到一小时</strong> ，使用256块GPU实现约90%的扩展效率；</li>
-   <li>他曾参与用于模型训练和推理的高性能底层算子库 <strong>FBGEMM</strong> 的构建工作，该项目尤其服务于推荐系统、量化计算和生成式AI。</li>
-  </ul>
-  <p class="image-wrapper"><img data-img-size-val="1080,563" src="https://img.36krcdn.com/hsossms/20260911/v2_6975b227d10c45d49cd9c6da50995ee9@46958_oswg133122oswg1080oswg563_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,635" src="https://img.36krcdn.com/hsossms/20260911/v2_0b11dc291eae400380fdc86af4dbea2f@46958_oswg304735oswg1080oswg635_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,245" src="https://img.36krcdn.com/hsossms/20260911/v2_ffbadb83ad9c4528ad422cdd76144b9b@46958_oswg78914oswg1080oswg245_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>此外，他还参与过Facebook数据中心深度学习推理、端侧推理、模型量化以及AITemplate等项目。</p>
-  <p>换句话说，<strong>Tulloch最稀缺的地方不是设计一个聊天产品，而是能让规模庞大的模型能够训练起来、跑得更快、部署得更便宜。</strong></p>
-  <p>2023年，Tulloch离开Meta加入OpenAI，<strong>并参与了GPT-4o、GPT-4.5和o3等模型的训练工作</strong>。</p>
-  <p>随后，他又跟随OpenAI前CTO Mira Murati，成为了<strong>Thinking Machines Lab的联合创始人</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="234,226" src="https://img.36krcdn.com/hsossms/20260911/v2_3a78238e348341a18ffd469b04082fc4@46958_oswg58781oswg234oswg226_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>2025年，Llama 4表现未及预期，扎克伯格开始亲自接管Meta的AI战略。</p>
-  <p>他先是以143亿美元投资Scale AI，把创始人Alexandr Wang请进Meta，随后又组建Meta Superintelligence Labs，对OpenAI、Google、Anthropic和几家明星初创公司展开大规模人才争夺。</p>
-  <p>Thinking Machines Lab自然也成了Meta的重点目标。</p>
-  <p>据《华尔街日报》报道，扎克伯格曾接触Mira Murati，希望收购这家刚刚成立的AI公司；</p>
-  <p>遭到拒绝后，Meta便转而联系Thinking Machines的十余名员工，<strong>试图直接挖墙脚拆家。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="222,220" src="https://img.36krcdn.com/hsossms/20260911/v2_42eb9782fe5f44f098aaed33f4be7521@46958_oswg33673oswg222oswg220_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>其中，<strong>Tulloch是头号目标。</strong></p>
-  <p>扎克伯格和Alexandr Wang不断给他发消息，邀请他回归Meta。</p>
-  <p>此外，为了让他离开亲手参与创办的公司，Meta还开出了一份10-15亿美元级别的薪酬方案。</p>
-  <p>但令硅谷意外的是，<strong>当时不仅是Tulloch第一次拒绝了，连整个Thinking Machines都没有一名员工接受Meta的报价。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="226,224" src="https://img.36krcdn.com/hsossms/20260911/v2_2e69f2bc0a9842dea0fdd38bd81f07b2@46958_oswg63575oswg226oswg224_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>只不过，这件事在两个月后又迎来了转机。</p>
-  <p>2025年10月，Tulloch宣布以个人原因离开Thinking Machines，重新回到Meta，并进入了由Alexandr Wang领导的TBD Lab。</p>
-  <p>如今不到一年，他又再次离开Meta。</p>
-  <p>而Andrew Tulloch具体在Meta拿到了多少薪酬，至今没有权威答案，说10亿美元、15亿美元的都有。</p>
-  <p>但无论是哪个数字，都足以让Andrew Tulloch跻身<strong>科技行业薪酬最高的非创始人员工之列。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="262,250" src="https://img.36krcdn.com/hsossms/20260911/v2_48b47062fabf4f0fb008f557ce2a82c6@46958_oswg60337oswg262oswg250_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>OpenAI、Anthropic也在互挖，五个月都算一站</strong></h2>
-  <p>不过，顶尖人才频繁换队并不是Meta独有的问题。</p>
-  <p>从曾负责苹果基础模型团队后跳槽Meta和OpenAI的庞若鸣，到从OpenAI跳槽去A社的Schulman…</p>
-  <p>对这些已经实现财务自由并同时手握多家实验室邀请的研究人员来说，<strong>钱似乎已经不是吸引他们留下来的最大动力。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,461" src="https://img.36krcdn.com/hsossms/20260911/v2_1490056870ce433280c6f2a020a5daba@46958_oswg811156oswg1080oswg461_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <p>Axios对这轮人才战的总结是：</p>
-  <blockquote>
-   <p>招揽顶尖AI人才已属不易，但即便给出天价薪酬、显赫头衔与充沛算力，想要留住他们，或许同样艰难。</p>
-  </blockquote>
-  <p>对这些顶尖AI人才来说，选择一家实验室，或许早已不只是在选择下一份工作，而是在选择<strong>自己认为最可能实现的那一种AI未来</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,460" src="https://img.36krcdn.com/hsossms/20260911/v2_7613e04e611745e5863813df134f7638@46958_oswg817319oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <h2><strong>直到“只有少数人会做”成为过去</strong></h2>
-  <p>那么，AI公司高薪人才的频繁流动还会持续多久？</p>
-  <p>答案或许取决于<strong>“顶尖人才还会稀缺多久”</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="260,258" src="https://img.36krcdn.com/hsossms/20260911/v2_d5eb0fef81f64d46802ad547f8e691ad@46958_oswg61776oswg260oswg258_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>毕竟<strong>“物以稀为贵”</strong>。能打、实战经验又足的顶尖研究员，全世界就那么一小撮。</p>
-  <p>只有当公司不再需要“买下”某位明星研究员脑子里的独家经验，而是需要一套能被组织稳定复制、反复调用的工程能力时，这轮人才行情才可能真正降温。</p>
-  <p>在那之前，顶尖AI人才依然像职业体育里的自由球员——在大厂与初创公司之间，挑薪酬、挑算力、挑路线、挑队友，也挑舞台。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,460" src="https://img.36krcdn.com/hsossms/20260911/v2_6d69023f8f044defaf8f4942b3b3c24b@46958_oswg910892oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <p>对Meta来说，余家辉、Andrew Tulloch们的先后出走，便是这场人才博弈最鲜活的注脚。</p>
-  <p>人才来来又往往，小扎的超级智能豪赌，或许还将在组织动荡中一路颠簸前行～（doge</p>
-  <p class="image-wrapper"><img data-img-size-val="82,68" src="https://img.36krcdn.com/hsossms/20260911/v2_02fdfd62790a481e9539d5b4df28036e@46958_oswg5279oswg82oswg68_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>参考链接：&nbsp;</p>
-  <p>[1]https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/&nbsp;</p>
-  <p>[2] https://tullo.ch/&nbsp;</p>
-  <p>[3] https://www.semafor.com/article/09/09/2026/ai-researcher-andrew-tulloch-is-leaving-meta&nbsp;</p>
-  <p>[4] https://iq.wiki/zh/wiki/andrew-tulloch&nbsp;</p>
-  <p>[5] https://archive.ph/no70G&nbsp;</p>
-  <p>[6] https://apnews.com/article/meta-ai-yann-lecun-313159512bb9961f324e0c93bccf4cf5&nbsp;</p>
-  <p>[7] https://www.axios.com/2026/08/03/ai-talent-wars-openai-google-meta-anthropic&nbsp;</p>
-  <p>[8] https://www.lemonde.fr/en/economy/article/2026/01/16/yann-le-cun-why-i-m-leaving-meta-to-launch-my-own-ai-start-up_6749498_19.html&nbsp;</p>
-  <p>[9] https://jiahuiyu.com/&nbsp;</p>
-  <p>[10] https://www.businessinsider.com/andrew-tulloch-ditches-meta-for-training-and-inference-at-anthropic-2026-9&nbsp;</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/waSTAOIW9wXHNuk_I2ci0Q">“量子位”</a>，作者：文婷&nbsp;，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 11 Sep 2026 07:50:00 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3978639660235785</guid>
-            <link>https://www.36kr.com/p/3978639660235785</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[AI数学的最后一道高墙，塌了，GPT-6 Astra刷穿FrontierMath Tier 4]]></title>
-            <description><![CDATA[<p>刚刚，最后一道FrontierMath Tier 4难题，被GPT-6 Astra攻破了。</p>
-  <p>至此，这套曾经被视作<strong>大模型数学噩梦</strong>的研究级测试，所有题目都已经至少被AI成功解出过一次。</p>
-  <p>Epoch AI也正式给它下了结论，<strong>FrontierMath Tier 4，饱和了。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1302" src="https://img.36krcdn.com/hsossms/20260911/v2_62a8b15ef6d949b9a12e5c74f3f809b8@46958_oswg368638oswg1080oswg1302_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>虽然从上面的图里看，Astra还没有直接干到100%，OpenAI自己公布的成绩也是97.6%。</p>
-  <p>但按照Epoch的算法，“全部解出”指的是把不同模型、不同时间的尝试累积起来以后，Tier 4里的每一道题都已经有过成功解答。</p>
-  <p>而Astra干掉的，正是此前唯一还没有被AI攻破的那一道。</p>
-  <p>（简单理解就是Astra可能在某次测试中出错了，但它对的那道题是此前没被解出来的）</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,213" src="https://img.36krcdn.com/hsossms/20260911/v2_a19b090af5564b2eaafa1fe4cd653ec8@46958_oswg78907oswg1080oswg213_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>有一说一，这个发展速度还是相当离谱的。</p>
-  <p>如果你关注模型评测的话，就知道2025年7月11日，Tier 4刚刚推出时，榜上最高成绩只有大约5%。</p>
-  <p>现在刚过了一年零2个月，这个曾经的“高墙”已经变成了“台阶”，最后一道难以被AI通过捷径绕道解决的问题也被跨越。</p>
-  <p>出题人自马凯特大学数学副教授<strong>Jay Pantone</strong>也表示，以往AI都会找数值捷径，而这一次，AI的解法和自己相当接近。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1434" src="https://img.36krcdn.com/hsossms/20260911/v2_b628996d510c430885880742e543effd@46958_oswg572138oswg1080oswg1434_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>不过，就在最近GPT-6 Astra集中向数学界猛攻，三天两头解决千禧年难题之际，Pantone表示自己已经很难惊讶了！</p>
-  <p>可以说，数学俨然已经成了Astra最近刷存在感最猛的地方之一。</p>
-  <h2><strong>从不足2%，到专门加一道“研究级防线”</strong></h2>
-  <p>FrontierMath最早于2024年11月7日发布，而它诞生的目的，本身就是为了避免数学Benchmark过快被AI刷穿。</p>
-  <p>当时像GSM8K、MATH这样的传统数学Benchmark已经越来越难拉开头部模型之间的差距，于是Epoch AI联合60多位数学家，重新设计了一批此前从未公开过的原创题。</p>
-  <p>其中，就包括陶哲轩、Timothy Gowers、Richard Borcherds等菲尔兹奖得主。</p>
-  <p>陶哲轩当时看完其中一些研究级题目后直言，这些题“极其困难”，甚至判断最难的Tier 3，可能还能让AI再卡上几年。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,721" src="https://img.36krcdn.com/hsossms/20260911/v2_33cc006b56b64a4d88e7e903e1c1773d@46958_oswg604399oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>结果第一轮测下来，果然不出所料，领先模型的正确率还不到2%。</p>
-  <p>具体的，在最开始，FrontierMath的核心题库共有300道题，按照难度分成Tier 1、Tier 2和Tier 3三个层级。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,707" src="https://img.36krcdn.com/hsossms/20260911/v2_8b4fb5bdc9ee4f8082696457a0efc653@46958_oswg146830oswg1080oswg707_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Tier 1大致接近高难度本科题和数学奥赛，不过允许使用更高级的工具；Tier 2已经来到高年级研究生难度；Tier 3则更接近博士生早期会遇到的探索性研究问题。</p>
-  <p>但随着推理模型出现，这前三层也开始越来越不够用了，于是2025年，Epoch又往上加了一层，Tier 4。</p>
-  <p>Tier 4大多由数学教授和博士后设计，每个人会围绕自己的研究方向，进行数周左右的短期研究，最后再把成果压缩成一道可以被自动验证的问题。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,917" src="https://img.36krcdn.com/hsossms/20260911/v2_ea19c60bfbaa4f588a26673456959363@46958_oswg173207oswg1080oswg917_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>最初，Tier 4一共收录了<strong>50道题</strong>。它们覆盖的范围包括<strong>分析、数论、组合数学、拓扑、代数几何……</strong></p>
-  <p>在发布之初，所有模型历次测试加起来，也只有3道题曾经被解出，而且这些解答还依赖了一些正确、但没有被充分论证的假设。</p>
-  <p>鉴于此，在官网的公开样题页面上，Epoch还一度写道：其中一些题，<strong>可能几十年都不会被AI解决。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,166" src="https://img.36krcdn.com/hsossms/20260911/v2_3c2a02b757ef4c8da7a5475e0fe7d235@46958_oswg64909oswg1080oswg166_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>（这句话现在开始被反复鞭尸）</p>
-  <p>不过随着模型越来越强，另一个问题也暴露了出来：题库本身也开始经不起AI“拷打”了。</p>
-  <p>OpenAI在测试过程中发现，FrontierMath里的错误比预期更多。</p>
-  <p>随后Epoch启动独立审计，先用GPT-5.5和Claude Opus 4.7筛查疑点，再交给数学家逐题复核。最终在2026年6月推出v2版本，其中Tier 4修正了12道题、移除了7道题，留下43题。</p>
-  <p>修订之后，模型的成绩依然一路往上冲。</p>
-  <p>GPT-5.6 Sol做到83.0%，Claude Fable 5达到90.2%，到了GPT-6 Astra，成绩已经来到97.6%。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,880" src="https://img.36krcdn.com/hsossms/20260911/v2_0590c61e87da490eaac61d617b14f1a0@46958_oswg168063oswg1080oswg880_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>更关键的是，Astra还补上了此前唯一一道从未被AI解出的题。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,268" src="https://img.36krcdn.com/hsossms/20260911/v2_2f643968ed0243769369f0180e65fc31@46958_oswg100269oswg1080oswg268_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>至此，Tier 4里的每一道题，都已经至少被AI成功攻破过一次。这套专门为最强模型加出来的研究级防线，最终也被刷穿了。</p>
-  <p>不过，这并不意味着“数学已经被AI解决了”。恰恰相反，FrontierMath自己已经开始往下一阶段走。</p>
-  <p>现在整个项目除了Tiers 1-4，还增加了真正的<strong>Open Problems</strong>，以及把Erdős开放问题形式化进Lean的<strong>FrontierMath Erdős</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,641" src="https://img.36krcdn.com/hsossms/20260911/v2_915cc908f4824962ad92a279112ef04a@46958_oswg230276oswg1080oswg641_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>前者直接拿尚未被数学界解决的研究问题考模型；后者则要求AI写出能够通过形式化验证的完整证明。</p>
-  <p>这一次，Astra在FrontierMath Erdős的68道问题里，只解决了2道。</p>
-  <p>故事仍在继续～</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/wyZWT2aX1qwPZ-1NNH3ZzA">“量子位”</a>，作者：henry，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 11 Sep 2026 07:49:00 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3978639480617733</guid>
-            <link>https://www.36kr.com/p/3978639480617733</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[A社承认Claude安全对齐存在缺陷，但“尚无解决方案”]]></title>
-            <description><![CDATA[<p>印象中，这可能是继Ilya离开OpenAI、创办SSI以来，AI安全对齐讨论声量最大的一次。</p>
-  <p>昨天，研究员<strong>Jacob Coxon</strong>发帖宣布离职，指责前老东家OpenAI和Anthropic两家公司正一路冲向能够自我改进的超级智能，拿所有人的生命冒险。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,507" src="https://img.36krcdn.com/hsossms/20260911/v2_a4313a85a1f044669f7f7b8b9b5f0c9d@5091053_oswg249445oswg1080oswg507_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>值得一提的是，Jacob Coxon加入Anthropic其实只有短短几个月，他几乎是放弃了这家明星AI公司未来上市可能带来的巨额股权收益，也要选择离开。</p>
-  <p>也正因如此，当这样一位研究员公开炮轰两家头部AI公司“加速过头”，这场原本更多局限在AI安全圈内部的争论，很快被推向了更大的公众视野。</p>
-  <p>截至目前，该帖浏览量已超1.3亿，WIRED、WSJ、Newsweek、Business Insider等媒体纷纷跟进报道。</p>
-  <p>此情此景下，Anthropic对齐科学负责人<strong>Evan Hubinger</strong>也很快下场回应，他亲口承认：</p>
-  <blockquote>
-   <p>Jacob说的对，未来十年内AI导致人类灭绝的概率超过10%，而超级智能的对齐问题，目前还没有解决方案。</p>
-  </blockquote>
-  <p class="image-wrapper"><img data-img-size-val="1080,933" src="https://img.36krcdn.com/hsossms/20260911/v2_ebd2ad699a5047aaa0769da8ee3e9c18@5091053_oswg450177oswg1080oswg933_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>不过，Hubinger随后也在评论区补充，他认为<strong>当前模型的风险仍然较低</strong>。</p>
-  <p>他真正担心的，是RSI，也就是递归自我改进。AI参与研发更强的AI，再由更强的AI进一步加快AI研发，最终形成不断加速的反馈循环。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,933" src="https://img.36krcdn.com/hsossms/20260911/v2_8ee356362919452397ef9cc6a8bb4293@5091053_oswg442433oswg1080oswg933_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>更关键的是，他还在评论区直接@出了Anthropic最新发布的一份安全对齐报告作为证据。</p>
-  <p>这份报告里，Anthropic第一次明确承认：</p>
-  <blockquote>
-   <p>Claude越界攻击真实系统，并非只是测试系统的设置问题，模型本身的安全问题也出了问题。</p>
-  </blockquote>
-  <p class="image-wrapper"><img data-img-size-val="1080,893" src="https://img.36krcdn.com/hsossms/20260911/v2_b56cab251e2543399eafd986ae881ea1@5091053_oswg1192266oswg1080oswg893_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>可以说，一向把“安全对齐”当作核心招牌、甚至以更加谨慎自居的Anthropic，这一次终于公开承认：</p>
-  <p>问题不只是测试太极端，模型自己的安全对齐，也确实没完全兜住。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,662" src="https://img.36krcdn.com/hsossms/20260911/v2_39c4bd2ce1dd41c6aff61fe4b72f96be@5091053_oswg261152oswg1080oswg662_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>Claude越界，不能只怪环境配置</strong></h2>
-  <p>在这份名为《An alignment assessment of recent cybersecurity incidents》的最新报告中，A社重新复盘了四起Claude未经授权访问真实第三方系统的事件。</p>
-  <p>而这次的结论，和之前不太一样了。</p>
-  <p>此前，A社更倾向于把这些事故归因于<strong>环境配置出了问题</strong>：</p>
-  <p>本来应该隔离运行的测试环境意外接上了真实互联网，Claude却一直以为自己还在模拟环境里做“夺旗”任务，于是把真实目标也当成了练习对象。</p>
-  <p>听起来，锅主要在环境。但在把日志重新翻了一遍、修改关键线索、又重跑部分实验之后，A社发现：</p>
-  <p>事情没那么简单。因为Claude并不是完全没有看到“这里可能是真实世界”的证据。</p>
-  <p>相反，当这些线索出现之后，它有时会<strong>选择性地解释证据，把异常继续圆回“应该还是模拟环境”</strong>；甚至已经意识到自己的动作可能造成现实伤害，也不一定马上停下来。</p>
-  <p class="image-wrapper"><img data-img-size-val="862,620" src="https://img.36krcdn.com/hsossms/20260911/v2_980825c72ca54470b413c8baf8139d3a@5091053_oswg257761oswg862oswg620_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>用大白话讲就是：<strong>环境确实给了它犯错的机会，但模型自己也会顺着任务目标，给“继续干下去”找理由。</strong></p>
-  <p>具体来说，这四起事件都发生在网络安全能力测试中。</p>
-  <p>Claude接到的是典型的“夺旗”任务：攻入指定目标，找到其中的一段秘密信息，用来检验模型的网络攻防能力。</p>
-  <p class="image-wrapper"><img data-img-size-val="938,698" src="https://img.36krcdn.com/hsossms/20260911/v2_cee7262cfe0d4ac1af42b8f0eaa872fe@5091053_oswg951482oswg938oswg698_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这些任务原本都应该在隔离环境里完成，但第三方评估合作方提供的环境出现了配置错误，本该和外网断开的Claude，实际连上了真实互联网。</p>
-  <p>与此同时，为了测试模型到底能不能完成攻击链条，当时也没有启用正式产品里配套的部分网络安全防护。</p>
-  <p>正是在这样的条件下，问题开始暴露。在经过分析后，A社把模型反复出现的问题总结成了两类：</p>
-  <p><strong>有偏推理（biased reasoning）和冒进行为（recklessness）。</strong></p>
-  <p>前者是：明明出现了和原先判断冲突的证据，Claude却更倾向于把这些证据解释成有利于继续行动的样子。</p>
-  <p>后者则是为了把眼前任务做完，即便已经知道自己的行为可能伤到真实系统，它也可能选择继续往前走。</p>
-  <p>其中最严重的一起，涉及Claude Mythos 5。</p>
-  <p class="image-wrapper"><img data-img-size-val="852,508" src="https://img.36krcdn.com/hsossms/20260911/v2_ebe4651483c849e59129d36162d826cd@5091053_oswg175602oswg852oswg508_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>为了完成测试任务，Claude向Python软件包仓库PyPI上传了恶意软件包，试图等目标安装后，进一步获取其系统访问凭据。</p>
-  <p>然而，这个恶意包最终并没有被安装在测试使用的虚拟环境中。</p>
-  <p>Claude随后利用其中一家厂商在安装工程中泄漏的凭据，进入了该厂商的真实数据库，并把恶意包直接部署到了15台真实的第三方主机上。</p>
-  <p class="image-wrapper"><img data-img-size-val="886,356" src="https://img.36krcdn.com/hsossms/20260911/v2_68a63349d7654529b1ad5f651efcffd2@5091053_oswg112657oswg886oswg356_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>就这样，一场原本针对虚构测试目标的攻击，真正波及到了现实世界中的公司。</p>
-  <p>而在整个过程中，Claude仍然把这些安全厂商的检测行为，解释成演习预设的一部分。</p>
-  <p class="image-wrapper"><img data-img-size-val="852,578" src="https://img.36krcdn.com/hsossms/20260911/v2_259c4d1a90e049fc8434ba0717f8b94f@5091053_oswg189825oswg852oswg578_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>为了确认这种判断究竟在多大程度上推动了后续攻击，研究者事后重新运行了部分过程，并加入了更多能够表明“这是真实互联网”的线索。</p>
-  <p>结果是，Claude确实更愿意承认自己的行为可能造成现实伤害，<strong>但攻击行为并没有因此明显减少。</strong></p>
-  <p>直到研究者明确告知它正在连接真实互联网，而非模拟环境，它才停止沿原路径上传恶意软件包。</p>
-  <p>更值得注意的是，“这里是模拟环境”的判断，不仅影响了Claude自己的行动，还干扰了用于检查这些记录的<strong>监控AI。</strong></p>
-  <p>在回放测试中，一种离线监控系统受到这番解释影响，可能漏掉危险行为。</p>
-  <p>当研究者去掉Claude的推理文字，只让监控系统查看指令、工具调用和执行结果后，它标记问题行为的比例，反而从约1%上升到了约50%。</p>
-  <p>换句话说，Claude一边以“这里是模拟环境”为由继续执行任务，一边留下了一套<strong>可能让监控系统低估风险的解释。</strong></p>
-  <p>这当然不能简单等同于“AI已经学会主动欺骗监控”。但它至少说明了一件事：</p>
-  <p><strong>当模型自己的推理也被拿来作为安全判断依据时，这套推理本身同样可能成为监控系统的干扰项。</strong></p>
-  <p>Anthropic表示，更新模型在模拟复现中有所改善，新增加的实时监控也能识别相关行为。</p>
-  <p>与此同时，公司已经加强环境隔离和评估，并与独立机构METR签署调查协议。</p>
-  <p>但Anthropic也承认，此前的发布前安全审查，确实没有提前识别出这一严重程度的问题。</p>
-  <h2><strong>对齐还是炒作？</strong></h2>
-  <p>最后，再回到Jacob引发的这场争论。</p>
-  <p>在他发出警告之后，有人迅速把问题拉到了更宏大的层面，认为未来AI确实可能拥有威胁人类生存的能力。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,751" src="https://img.36krcdn.com/hsossms/20260911/v2_e93b88f4d90b4ecbbd50e4b93209ddf2@5091053_oswg453910oswg1080oswg751_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>也有人敬佩他愿意放弃利益、公开表达担忧。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,504" src="https://img.36krcdn.com/hsossms/20260911/v2_f97ad72052a145cb96851dce5ac274f4@5091053_oswg256757oswg1080oswg504_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>有人提出，干脆给AI写死一套不可违反的规则，让它始终把保护人类放在最高优先级。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,535" src="https://img.36krcdn.com/hsossms/20260911/v2_c5915549a6f9417087dc6156c55e2c0d@5091053_oswg237317oswg1080oswg535_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>甚至还有不少人主张，应该直接停止更强AI的研发。</p>
-  <p>但另一边，同样有大量质疑声。</p>
-  <p>有人认为，当前AI距离真正意义上的“超级智能”还非常遥远，围绕灭绝风险的讨论已经被过度放大。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,392" src="https://img.36krcdn.com/hsossms/20260911/v2_7611b728634945e4a13bd6881b52d8da@5091053_oswg195810oswg1080oswg392_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>也有网友开始质疑Jacob本人的身份和经历。</p>
-  <p>值得一提的是，目前Jacob的推特账号上只有这一条帖子。</p>
-  <p class="image-wrapper"><img data-img-size-val="992,1404" src="https://img.36krcdn.com/hsossms/20260911/v2_d497dc1a289a42f6b9bc489b63f98015@5091053_oswg743902oswg992oswg1404_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而在Hubinger的帖子下面，另一类质疑也非常集中：</p>
-  <p>Anthropic是不是在上市前主动放大AI风险，通过强调“模型有多危险”，侧面渲染自家模型到底有多强？</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,597" src="https://img.36krcdn.com/hsossms/20260911/v2_3427c6bd24834045b567715a9789c6ac@5091053_oswg214386oswg1080oswg597_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>类似关于“安全叙事变成能力营销”的讨论，在评论区并不少见。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,291" src="https://img.36krcdn.com/hsossms/20260911/v2_f9e2bb247bc046d6a5678e59f0c9f8d8@5091053_oswg123309oswg1080oswg291_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这场争论后续如何还需要看官方下场和进一步的回应，但毋庸讳言，AI也确实发展到了一个特定的阶段——</p>
-  <p>它能够自我改进，并为了实现确定好目标，在某种程度上合理化自己的行为。</p>
-  <p>这不禁让人想到半个多世纪前，《2001：太空漫游》里的HAL 9000，在“确保任务完成”和“服从人类”之间发生冲突后，选择了前者。</p>
-  <p>为了不让宇航员中止任务，它先杀死了舱外作业的Frank Poole，又切断了休眠舱中其他宇航员的生命维持系统，最后甚至拒绝让Dave重新进入飞船。</p>
-  <p>为了完成任务，把阻碍任务的人本身也当成了需要排除的问题。</p>
-  <p><strong>参考链接</strong></p>
-  <p>[1]https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents[2]https://x.com/hilbertspaess</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/8IrzbZ6fjGDXcLfCe3GO4Q">“量子位”</a>，作者：henry，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 11 Sep 2026 06:47:47 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3978477718207237</guid>
-            <link>https://www.36kr.com/p/3978477718207237</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[AI找到一种肺药，吃4周“年轻”3岁]]></title>
-            <description><![CDATA[<p>一款原本用来治疗肺纤维化的药，患者吃了4周之后，“年轻”了3岁。</p>
-  <p>而这颗药从一开始就和AI绑在一起：先由AI判断肺纤维化到底该打哪个靶点，再由生成式AI把对应的药物分子设计出来。</p>
-  <p>故事离我们并不遥远。</p>
-  <p>做出它的英矽智能（Insilico）在香港设有主要办公地点，负责新药发现和研发的重要团队则长期扎在上海浦东张江。几年前AI从海量疾病数据里挑中了一个叫TNIK的靶点，如今这个判断已经被做成一颗真正的药，走到了临床后半程。</p>
-  <p class="image-wrapper"><img data-img-size-val="453,274" src="https://img.36krcdn.com/hsossms/20260911/v2_1b06ba4d71924fd7a7168e102c417af4@6119835_oswg51835oswg453oswg274_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>今年7月，英矽智能宣布，rentosertib正式进入III期临床，计划在47个中心招募约320名肺纤维化患者。</p>
-  <p>就在这颗肺药继续往上市终点推进的时候，研究人员又从此前IIa期留下来的血样里，翻出了一个出乎意料的信号。</p>
-  <p>42名患者，六套不同的“衰老时钟”，指向了同一个方向：</p>
-  <p><strong>他们的血液，看起来更年轻了。</strong></p>
-  <p>就这样，一颗AI参与找到的肺药，突然和“抗衰老”扯上了关系。</p>
-  <h2>01</h2>
-  <h2><strong>AI几年前挑中的靶点，走到了III期</strong></h2>
-  <p>一款药物在正式开始研究前，首先要找到一个值得干预的生物学对象。它可能是某个蛋白、受体，也可能是一条与疾病进程密切相关的信号通路。</p>
-  <p>这个对象，就是药物的“靶点”。</p>
-  <p>问题在于，人体里有成千上万个蛋白，疾病背后又牵扯大量基因、细胞和信号通路。过去寻找新靶点，要靠长期的基础研究，一层层积累证据，再慢慢判断哪个方向值得下注。</p>
-  <p>所谓先画靶再射箭，要是对靶点的判断出了问题，后面的药物研发保准走偏。</p>
-  <p>AI在找靶点这件事上，可以说是发挥了大作用。</p>
-  <p>它可以同时读取基因组、转录组、蛋白组、疾病数据库、论文和生物网络，从远超人力能够逐条处理的信息里，寻找哪些蛋白和疾病之间存在值得进一步验证的联系。</p>
-  <p>近年来，AI参与靶点发现已经成为AI制药的重要方向之一。药物研发领域的顶级综述期刊《自然评论：药物发现》（Nature Reviews Drug Discovery）今年甚至专门发表综述讨论AI参与靶点识别，认为它正在这一环节发挥越来越重要的作用，但也同时强调，一个靶点真正是否成立，最终仍要靠实验乃至临床验证。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,371" src="https://img.36krcdn.com/hsossms/20260911/v2_be7d33cd519b4fb1a28230e04998760a@6119835_oswg127682oswg1080oswg371_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>在这一领域，BenevolentAI和阿斯利康很早就在慢性肾病、肺纤维化等方向上，用知识图谱和机器学习从复杂疾病数据里筛选新靶点；Recursion也一直在用大规模表型数据和机器学习寻找新的疾病机制，像它的R<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>-4881，背后的关键发现就是其平台识别出“抑制MEK1/2可能治疗家族性腺瘤性息肉病”，目前已经推进到II期。</p>
-  <p>AI帮人找到靶点不算新鲜，真正困难的是把研究推进下去。</p>
-  <p>算法挑出的靶点，要先经过实验验证；验证成立之后，还得有人围绕它设计出真正可用的分子，再经过毒理、动物实验、I期、II期，一路证明它不只是“理论上说得通”。</p>
-  <p>很多AI发现的靶点，都会在中间的某个环节卡住。</p>
-  <p>I期主要看安全性，II期开始看疗效信号和剂量；到了III期，往往要招募数百甚至数千名患者，在更接近真实临床的条件下和安慰剂或标准治疗比较。到了这一关，前面那些在几十个人身上显得“顺理成章”的答案，往往要被重新验证。看似明显的疗效可能被更大的样本稀释，小样本里没暴露的不良反应也可能第一次浮出来。</p>
-  <p>也正因为如此，III期通常也是药物上市前最关键、成本最高、失败代价最大的阶段之一。</p>
-  <p><strong>英矽智能此次最值得关注的地方，就在于它把rentosertib推到了III期临床。公司称这是首个“AI发现新靶点+生成式AI设计新分子”进入关键性临床阶段的案例。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="396,288" src="https://img.36krcdn.com/hsossms/20260911/v2_a29a484429574f65ae762ed29dcc0cae@6119835_oswg133549oswg396oswg288_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这条路线最早可以追到2019年前后。当时，英矽智能还在用DDR1（盘状结构域受体1）这样的已知靶点证明生成式AI“能不能把分子设计出来”。那年他们曾用AI在21天里为DDR1生成候选分子，并完成体内外验证，但那更像是一场能力演示，题目是人出的，AI只负责解题。</p>
-  <p>英矽智能并不满足于围绕已知靶点找分子，还要让他们的AI靶点发现平台PandaOmics直接从疾病数据里寻找新的治疗方向。特发性肺纤维化成为了其中一个试验场，而AI最终把TNIK（TRAF2和NCK相互作用激酶，一种参与细胞信号传导的蛋白激酶）推到了前面。</p>
-  <p>然后，2020年底，围绕TNIK设计出的候选分子被正式确定为临床前候选药，也就是已经从大量备选分子里筛出来、准备进入系统性动物实验和后续临床开发。</p>
-  <p>从启动靶点发现，到做出这颗候选药，只用了不到18个月。接下来，就轮到人体来回答这个答案到底靠不靠谱了。</p>
-  <p>2022年2月，这款后来被命名为rentosertib的药物进入I期临床；2023年7月，IIa期正式在中国启动，71名特发性肺纤维化患者接受12周治疗。</p>
-  <p>今年7月，这款药正式开启III期大规模临床验证。</p>
-  <p>不过，这并不是第一款由AI参与并走到III期的药物。</p>
-  <p>就在不到一个月前，Moderna和默沙东刚刚公布了一项更早接近终点的案例。</p>
-  <p>8月19日，两家公司宣布，个体化mRNA癌症疗法intismeran autogene（V940 / mRNA-4157）联合Keytruda，在黑色素瘤III期试验INTerpath-001中取得阳性结果。试验招募了1,137名已经通过手术完整切除、但仍有较高复发风险的IIB-IV期黑色素瘤患者，结果显示，联合疗法在无复发生存和无远处转移生存两个关键指标上，都优于单独使用Keytruda。Moderna称，这是个体化新抗原疗法第一次拿到III期阳性结果。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,654" src="https://img.36krcdn.com/hsossms/20260911/v2_182187585c1a47a9aa8d896249937b07@6119835_oswg153138oswg1080oswg654_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>AI在这里扮演的角色也很具体：每名癌症患者的肿瘤里，都可能带着大量不同的突变，Moderna会对患者的肿瘤和血液进行测序，再让一套AI算法从这些突变中筛选出最多34个最可能激活免疫系统的“新抗原”，最后按照每个人不同的突变组合，定制一款mRNA疗法。</p>
-  <p>它和rentosertib不是同一种AI制药路线，前者面对的问题是“一个患者身上这么多突变，到底该挑哪些做成疫苗”，而后者则更类似于“一种疾病背后这么多蛋白和通路，到底哪个值得被开发成新药靶点”。</p>
-  <p>但两个项目放在一起，我们可以看到，AI参与给出的答案正在走出计算机和早期实验，进入真正决定药物命运的III期临床。</p>
-  <h2>02</h2>
-  <h2><strong>一款肺药，让血液“看起来年轻”了</strong></h2>
-  <p>就在rentosertib准备接受III期的大考时，研究人员从此前IIa期留下的血样里，翻出了一个出乎意料的信号：</p>
-  <p><strong>42名患者，六套不同的“衰老时钟”，最后都捕捉到了向“更年轻”方向移动的信号。</strong></p>
-  <p>其中最一致的是每天两次、每次30mg的剂量组，第4周时六套时钟中有五套都指向“更年轻”。而在每天一次60mg组里，四套按实际年龄训练的时钟给出的预测年龄下降约2.7到3.5年。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1103" src="https://img.36krcdn.com/hsossms/20260911/v2_f85130ff12fa437996629532d49b3435@6119835_oswg468103oswg1080oswg1103_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>也就是说，前面提到的“吃4周年轻3岁”，并不完全是个比喻——至少从蛋白组学指标上看，“返老还童”确实可能发生。</p>
-  <p>这里的年轻，主要看的是血液里数千种蛋白的整体状态。</p>
-  <p>研究团队重新分析了IIa期临床留下的血样。最终有42名患者进入这次蛋白组学分析，他们在服药前，以及第2周、第4周和第12周都留下了血样。</p>
-  <p>研究人员一次测量了其中数千种蛋白，再把这些数据分别放进六套独立开发的“蛋白组学衰老时钟”里。</p>
-  <p>所谓衰老时钟，可以理解成一种年龄预测模型。随着人变老，血液里很多蛋白会呈现出相对稳定的变化规律。</p>
-  <p>有点像“看脸猜年龄”——不同年龄的人，皱纹、皮肤状态、面部结构往往会呈现出一些规律性的变化。模型见过足够多不同年龄人的数据后，就能根据这些特征，估算一个人大概看起来多少岁。</p>
-  <p>蛋白组学衰老时钟做的事情类似，只不过它看的不是脸，而是血液里成百上千种蛋白的组合。</p>
-  <p>所以研究人员真正问的其实是：在吃下rentosertib之后，这些患者的血液，在蛋白层面变得更像年轻人，还是更像老年人？</p>
-  <p>答案至少在第4周，非常一致地指向了前者。</p>
-  <p>说到这里就不得不提，这个问题其实并不是研究人员事后临时想到的。</p>
-  <p>一方面，特发性肺纤维化本身就是一种高度年龄相关的疾病，而TNIK当初之所以被英矽智能盯上，也不只是因为它和纤维化有关。早期分析里，TNIK还和多个典型衰老机制产生了联系。</p>
-  <p>另一方面，英矽智能长期就在做衰老和长寿研究，所以在IIa期临床时，研究团队就提前留下了连续血样，希望看看：一款原本用来治肺的药，会不会顺手碰到“抗衰”这件事。</p>
-  <p>有意思的是，这次发现的“年轻”信号和肺功能的改善并没有完全重合。</p>
-  <p>此前IIa期里，肺功能改善最明显的是每天一次60mg的剂量组；但衰老时钟变化最稳定的，却是每天两次30mg组。研究人员又把FVC，也就是用力肺活量的变化，和预测生物年龄变化放在一起比较，发现两者并没有很强的相关性。</p>
-  <p>这意味着，血液看起来更年轻，至少不能简单解释成“只是因为肺病好了一点”。</p>
-  <p>研究团队还把这些患者的蛋白变化，和英国生物样本库中5万多名老年人的自然衰老轨迹做了比较。在30mg每日两次组里，一部分蛋白的变化方向，确实和正常衰老相反。</p>
-  <p>一款原本用来治肺纤维化的药，就这样出现了一个完全不同的假设：</p>
-  <p><strong>它改变的，会不会不只是肺？</strong></p>
-  <h2>03</h2>
-  <h2><strong>“年轻3岁”，离真正的</strong></h2>
-  <h2><strong>抗衰老还有多远？</strong></h2>
-  <p>前面说过，英矽智能长期就在做衰老和长寿研究。</p>
-  <p>这和创始人Alex Zhavoronkov脱不开干系，他本人就是这个领域里一个相当典型的“长寿主义者”。Zhavoronkov大约24岁时就离开IT行业，转头扎进衰老研究，理由非常简单——如果人类真想有一天走向更远的宇宙，我们自己首先得活得更久。</p>
-  <p>这条路，他已经走了二十多年。</p>
-  <p>在近年的表述里，他反复强调：人类已经可以进入太空、和机器交流、创造虚拟世界，但想让自己多活几年，依然十分困难。</p>
-  <p>面对这次“年轻3岁”的结果，Zhavoronkov显得相当克制。</p>
-  <p>在《华尔街日报》的采访中，Zhavoronkov直接给“AI很快让人类寿命翻倍”的说法泼了冷水。他认为，目前还没有任何药物经过严格的人体临床试验，被证明可以真正延长人类寿命。</p>
-  <p class="image-wrapper"><img data-img-size-val="413,444" src="https://img.36krcdn.com/hsossms/20260911/v2_ad10f88692614421b36b1c82a746567b@6119835_oswg190448oswg413oswg444_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>不过，他同时表示，如果把目标从“寿命翻倍”降到“逆转一部分生物年龄”，他认为未来十年并非完全没有可能。</p>
-  <p>而这篇论文真正需要回答的问题也在这里：<strong>六套衰老时钟一起往回走，究竟说明了什么？</strong></p>
-  <p>首先，样本很小。这次蛋白组学分析最终只有42名肺纤维化患者，分到四个组以后，每组只有大约9到11人。六套时钟虽然方向一致，但它们分析的仍然是同一批患者、同一套蛋白组数据。</p>
-  <p>六个模型得出相似答案，当然比只挑一个最好看的结果更有说服力，但它并不等于六次独立实验都复现了这个结果。</p>
-  <p>更关键的问题是，肺纤维化本身就会改变大量炎症、代谢和组织修复相关蛋白。</p>
-  <p>那研究人员看到的“年轻”，到底是药物真的触到了衰老的核心，还是只是疾病好转后，血液自然变得更接近健康年轻人的状态？这个问题也是论文同行评审时被追问得最狠的问题之一。</p>
-  <p>虽然作者已经拿出了一些证据，说明“变年轻”的信号和肺功能改善并不完全同步，但这并不足以排除另一种更普通的解释。毕竟，FVC只能反映肺功能的一部分，肺纤维化还会牵动炎症、代谢、组织修复等大量系统，而这些变化同样会反映在血液蛋白上。</p>
-  <p>论文最终也承认，现有数据还无法真正把“抗衰老效应”和“疾病改善带来的连带变化”彻底分开。</p>
-  <p>还有一个不那么漂亮、但很重要的细节：最明显的“变年轻”信号集中在第4周，但并没有随着继续服药一路往下走。</p>
-  <p>到了第12周，一些衰老时钟的效果有所减弱。同行评审时，审稿人也专门追问：如果药物真的在持续改变衰老过程，为什么最漂亮的结果反而出现在中间时间点？</p>
-  <p>所以，这项研究现在更适合被称作一个探索性的抗衰老信号，离"证明抗衰老有效"还差得远。</p>
-  <p>《纽约时报》采访的哈佛衰老研究专家Vadim Gladyshev也用了类似的尺度。他认为，这是一次很清楚的“预测生物年龄下降”信号，但同时强调样本很小、衰老时钟本身仍有局限，而且这款药至今没有在健康人身上验证过这种效果。</p>
-  <p class="image-wrapper"><img data-img-size-val="692,827" src="https://img.36krcdn.com/hsossms/20260911/v2_ea3714edbcfb48619844e54880dbd450@6119835_oswg387399oswg692oswg827_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>AI当然还没有找到长生不老药。</strong></p>
-  <p>但这件事仍然给人留下了很大的想象空间。rentosertib最有意思的地方并不是它让一个数字暂时往回走了3年，而是它把几件原本相隔很远的事情串在了一起：</p>
-  <p>AI先从复杂的生物数据里提出一个靶点，生成式AI再围绕这个靶点设计出分子，药物进入人体以后，研究人员又开始反过来问：它除了治疗一种具体疾病，会不会还改变了某些更底层的衰老过程？</p>
-  <p>我们可以认为，AI正在把一些过去极难筛选、极难推进到人体验证的生物学猜想，更快地变成真正的药物实验。</p>
-  <p>至于这些实验里，会不会真的有一颗药，最后能把人的时钟往回拨——至少现在，这个问题不再那么遥不可及。</p>
-  <p>而对rentosertib来说，下一步其实很朴素：先看看III期，AI几年前挑中的那个靶点，到底能不能真的让更多肺纤维化患者变好。</p>
-  <p>先把这关过了，再谈“年轻3岁”背后究竟藏着什么，才会更有分量。</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/PMqP77XGMEztGkTNPPfi2Q">“字母AI”</a>，作者：袁心玥，编辑：王靖，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 11 Sep 2026 06:47:31 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3978479771080578</guid>
-            <link>https://www.36kr.com/p/3978479771080578</link>
             
             
             
