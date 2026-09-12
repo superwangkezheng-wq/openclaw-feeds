@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-11T12:15:28.000Z",
+  "generatedAt": "2026-09-12T01:15:42.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-09-11T06:40:01.402Z",
-    "ageHours": 5.59
+    "ageHours": 18.59
   },
   "x": [
     {
@@ -82,25 +82,6 @@
       "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad"
     },
     {
-      "handle": "AmandaAskell",
-      "name": "Amanda Askell",
-      "tweets": [
-        {
-          "createdAt": "2026-09-07T16:13:44.000Z",
-          "id": "2096995340654444674",
-          "isQuote": false,
-          "likes": 1017,
-          "quotedTweetId": null,
-          "replies": 148,
-          "retweets": 44,
-          "text": "It would be cool to set up an email address that autonomous AI models could reach out to if they were looking for moral guidance. But it would require a reverse captcha that can detect that you're neither a human nor an AI being instructed to break it by a human.",
-          "url": "https://x.com/AmandaAskell/status/2096995340654444674"
-        }
-      ],
-      "source": "x",
-      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data."
-    },
-    {
       "handle": "amasad",
       "name": "Amjad Masad",
       "tweets": [
@@ -147,17 +128,6 @@
           "retweets": 4,
           "text": "Honored to have the Mayor of London, Sadiq Khan, help us open Replit’s first international office in London!\n\nI’ve really appreciated the Mayor’s approach to AI, it feels very similar to ours. He calls himself an AI realist: clear-eyed about the disruption AI will create, but optimistic about the impact if we give people the tools and skills to participate in the coming revolution.\n\nThat’s exactly how we think about it at Replit. AI is going to transform work, so we have to make sure far more people can use it to create, build businesses, and access new opportunities.\n\nIt’s also why, as we establish ourselves here, we’re partnering with The Lord Mayor’s Appeal to help young Londoners from disadvantaged communities develop practical coding and AI skills.\n\nLondon has the history, the talent, and the right leadership & philosophy for the AI era. We’re excited to be here.",
           "url": "https://x.com/amasad/status/2097197172299006423"
-        },
-        {
-          "createdAt": "2026-09-07T12:18:22.000Z",
-          "id": "2096936109817135331",
-          "isQuote": false,
-          "likes": 730,
-          "quotedTweetId": null,
-          "replies": 145,
-          "retweets": 57,
-          "text": "I don’t think we’ve reached AGI but what we have is functionally indistinguishable from AGI.\n\nBecause we have a relentless programmer that doesn’t get bored or tired.\n\nSo any problem that can be casted as a coding problem is virtually solved. https://t.co/4FOEW6VVbA",
-          "url": "https://x.com/amasad/status/2096936109817135331"
         }
       ],
       "source": "x",
@@ -380,28 +350,6 @@
           "retweets": 2,
           "text": "i was looking through my gmail messages from the early 2000s\n\ni have incredible news for you 13 year old dan....you came up with a name :)",
           "url": "https://x.com/danshipper/status/2097136523066110240"
-        },
-        {
-          "createdAt": "2026-09-07T23:52:04.000Z",
-          "id": "2097110684509380796",
-          "isQuote": false,
-          "likes": 18,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 0,
-          "text": "there are some things more tokens can’t make \n\nfor everything else there’s Fable and Astra",
-          "url": "https://x.com/danshipper/status/2097110684509380796"
-        },
-        {
-          "createdAt": "2026-09-07T23:36:17.000Z",
-          "id": "2097106713338052884",
-          "isQuote": true,
-          "likes": 65,
-          "quotedTweetId": "2095187868746383758",
-          "replies": 7,
-          "retweets": 1,
-          "text": "hard to express how much building something like this was my childhood dream \n\nand how out of reach it was until last week https://t.co/XcbbYq0xcW",
-          "url": "https://x.com/danshipper/status/2097106713338052884"
         }
       ],
       "source": "x",
@@ -476,17 +424,6 @@
           "retweets": 27,
           "text": "Children need to be teach-yourself-on-YouTube-maxxing https://t.co/1N6fJEHLyK",
           "url": "https://x.com/garrytan/status/2097133868549816429"
-        },
-        {
-          "createdAt": "2026-09-07T15:33:35.000Z",
-          "id": "2096985239319105559",
-          "isQuote": true,
-          "likes": 172,
-          "quotedTweetId": "2096928463558963478",
-          "replies": 38,
-          "retweets": 20,
-          "text": "It’s fair to say RFS are just hunches on what might be next, and conversation starters for people starting out. \n\nThe main determiner of a startup idea’s success are the specific founders building specific tech for specific customers. The rest is categorization. https://t.co/WSgDllalgl",
-          "url": "https://x.com/garrytan/status/2096985239319105559"
         }
       ],
       "source": "x",
@@ -599,17 +536,6 @@
           "retweets": 9,
           "text": "Good reminder here that with rapidly accelerating AI progress, you should likely be building with a vision that contemplates at least a few orders of magnitude of capability improvement or token volume available to you.\n\nThe best opportunities right now are those where you can value to customers today with things that are barely only possible, but with a full mission that feels nearly impossible with today’s tech.\n\nThere are lots of products the require orders of magnitude more processing of data (and thus are barely economically viable ideas) or where model capabilities still are in their infancy relative to what’s needed to work. Best to be building for those scenarios.",
           "url": "https://x.com/levie/status/2097189559712837770"
-        },
-        {
-          "createdAt": "2026-09-07T16:51:57.000Z",
-          "id": "2097004960307449937",
-          "isQuote": true,
-          "likes": 427,
-          "quotedTweetId": "2096668662627221705",
-          "replies": 53,
-          "retweets": 77,
-          "text": "The AI jobs prediction so far is playing out the opposite of what many thought.\n\nThe reason this is happening is because AI is bringing automation to areas that don’t have finite demand characteristics. AI allows companies to do far more than they could before, but agents still require human operators and oversight to generate value from them. \n\nAnd not only has AI not replaced many of the types of jobs that theoretically would have been most affected by AI - engineers or lawyers - but AI is also creating or growing entire categories of jobs across the economy. \n\nCybersecurity, FDEs, agent operators, engineers in non-software domains, and tons of job categories are going to explode. It’s not clear if or when this trend will reverse because we keep discovering all new areas of demand that AI is going to open up.",
-          "url": "https://x.com/levie/status/2097004960307449937"
         }
       ],
       "source": "x",
@@ -736,17 +662,6 @@
           "retweets": 0,
           "text": "Market maps are primarily for vanity (founders), show you are “early” (LPs) , and to convince your fund-mates you have thought leadership..\n\nNo successful investor (or founder) I have met has ever found it useful to date. https://t.co/EIrrIauVBa",
           "url": "https://x.com/nikunj/status/2097360241050747335"
-        },
-        {
-          "createdAt": "2026-09-07T14:06:36.000Z",
-          "id": "2096963347359150348",
-          "isQuote": true,
-          "likes": 98,
-          "quotedTweetId": "2011664633330090224",
-          "replies": 10,
-          "retweets": 5,
-          "text": "More and more people are coming to the same conclusion..\n\nAs building gets easier, what to build becomes the important bottle neck. \n\nYou might not need many of them, but the good ones are extremely well setup for the AI native organizations. https://t.co/gYGrO4Mxmm",
-          "url": "https://x.com/nikunj/status/2096963347359150348"
         }
       ],
       "source": "x",
@@ -832,39 +747,6 @@
           "retweets": 0,
           "text": "What are the best games that you've seen people build with Astra? \n\nPlease share in the replies (only include actual playable games please).",
           "url": "https://x.com/petergyang/status/2097351149024321690"
-        },
-        {
-          "createdAt": "2026-09-08T01:06:28.000Z",
-          "id": "2097129408729604237",
-          "isQuote": false,
-          "likes": 5,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 0,
-          "text": "Btw @GeminiApp is fantastic for all kinds of music https://t.co/lqJYZv0wMA",
-          "url": "https://x.com/petergyang/status/2097129408729604237"
-        },
-        {
-          "createdAt": "2026-09-08T01:04:39.000Z",
-          "id": "2097128951604986055",
-          "isQuote": false,
-          "likes": 10,
-          "quotedTweetId": null,
-          "replies": 5,
-          "retweets": 0,
-          "text": "AI for family videos to remember.\n\nIt did a pretty great job. https://t.co/Jyi4Iw8c1e",
-          "url": "https://x.com/petergyang/status/2097128951604986055"
-        },
-        {
-          "createdAt": "2026-09-07T22:50:55.000Z",
-          "id": "2097095296862036404",
-          "isQuote": true,
-          "likes": 17,
-          "quotedTweetId": "2096991367306391700",
-          "replies": 15,
-          "retweets": 1,
-          "text": "Yeah I don't know if I'm doing something wrong but Astra seems worse at triggering my skills automatically and following my instructions in them. https://t.co/iNPhPOFSZg",
-          "url": "https://x.com/petergyang/status/2097095296862036404"
         }
       ],
       "source": "x",
@@ -983,17 +865,6 @@
           "retweets": 27,
           "text": "Your software factory needs high quality video recording. 𝚊𝚐𝚎𝚗𝚝-𝚋𝚛𝚘𝚠𝚜𝚎𝚛 delivers.\n\nWe’re shipping more functionality derived from the lessons of automating the new bottleneck in software engineering: review, testing and QA. https://t.co/x7AC3voF0i",
           "url": "https://x.com/rauchg/status/2097134278358548658"
-        },
-        {
-          "createdAt": "2026-09-08T00:13:14.000Z",
-          "id": "2097116011384426516",
-          "isQuote": false,
-          "likes": 678,
-          "quotedTweetId": null,
-          "replies": 75,
-          "retweets": 33,
-          "text": "▲ ~/𝚛𝚊𝚞𝚌𝚑𝚐/𝚘𝚜𝚜-𝚐𝚛𝚊𝚗𝚝𝚜/  𝚕𝚜▐  (v2)\n\nI'm announcing v2 of my open source grants of $1,000USD to 35 awesome contributors. The themes:\n\n① Agent skills & tools\nSkills are now a valuable form of software, like Emil's world-class design eng work. Projects like 𝚙𝚐𝚋𝚘𝚝, 𝚔𝚗𝚒𝚙, 𝚞𝚗𝚕𝚒𝚐𝚑𝚝𝚑𝚘𝚞𝚜𝚎 create amazing AI engineering loops.\n\n② Local AI\nProjects like 𝚜𝚕𝚘𝚝𝚜𝚝𝚛𝚎𝚊𝚖, 𝙻𝚘𝚌𝚊𝚕𝙰𝙸, and 𝚌𝚘𝚕𝚒𝚋𝚛𝚒 are making inference not just a demo but for many a real and growing utility. Exciting to watch local AI unfold.\n\n③ Performance\nThere's no excuse for software to be slow anymore. Projects like 𝚏𝚏𝚏 and 𝚝𝚊𝚔𝚞𝚖𝚒 leading with speed, compilers like 𝙿𝚎𝚛𝚛𝚢𝚃𝚂 and 𝚙𝚘𝚛𝚏𝚏𝚘𝚛 that can help us upgrade entire ecosystems to native, and 𝚐𝚙𝚞𝚒𝚡 pushing the GPU rendering speed frontier.\n\n④ High quality foundations\nAI is still at its best when it can reuse great components than regenerating every time from first principles. Lots of love to folks working on @shadcn, Svelte(kit), Nuxt, Node.js and security foundations.\n\n⑤ Cool experiments\nI couldn't resist donating to https://t.co/j9XATPFzV7, a 'Finance terminal in the terminal', or beautiful funky things like 𝚍𝚒𝚝𝚑𝚎𝚛-𝚔𝚒𝚝.\n\n🔗 https://t.co/tkCpYPkHxH\n\nPS: These are personal, not affiliated with Vercel, and fully unconditional. If you are listed, I'll be DM'ing you or using your public contact info!",
-          "url": "https://x.com/rauchg/status/2097116011384426516"
         }
       ],
       "source": "x",
@@ -1172,17 +1043,6 @@
           "retweets": 72,
           "text": "This is brilliant. https://t.co/39dr9faUMC",
           "url": "https://x.com/steipete/status/2097830230899769349"
-        },
-        {
-          "createdAt": "2026-09-07T22:35:39.000Z",
-          "id": "2097091456234111377",
-          "isQuote": false,
-          "likes": 608,
-          "quotedTweetId": null,
-          "replies": 91,
-          "retweets": 5,
-          "text": "Did a PR to one of our upstream projects and they requested some minor changes.\n\nWhat’s even the point with this workflow? You already wrote the prompt, why make me ping my agent again so your agent then merges?",
-          "url": "https://x.com/steipete/status/2097091456234111377"
         }
       ],
       "source": "x",
@@ -1246,17 +1106,6 @@
           "retweets": 0,
           "text": "This weekend I used Astra to search my email and text messages for receipts to automatically fill out and submit expense reports. We are not the same. https://t.co/4J7cSdq31r",
           "url": "https://x.com/thenanyu/status/2097378208173920719"
-        },
-        {
-          "createdAt": "2026-09-07T18:35:18.000Z",
-          "id": "2097030970117702117",
-          "isQuote": true,
-          "likes": 44,
-          "quotedTweetId": "2097028571151962255",
-          "replies": 4,
-          "retweets": 0,
-          "text": "hard to see at first https://t.co/uWVHWh5SaG https://t.co/kAaLCAkBGn",
-          "url": "https://x.com/thenanyu/status/2097030970117702117"
         }
       ],
       "source": "x",
@@ -1386,17 +1235,6 @@
           "retweets": 299,
           "text": "All reset for everyone. Enjoy the week with Astra. https://t.co/WBM38JotGO",
           "url": "https://x.com/thsottiaux/status/2097174560412246215"
-        },
-        {
-          "createdAt": "2026-09-07T22:24:15.000Z",
-          "id": "2097088586843816330",
-          "isQuote": false,
-          "likes": 14421,
-          "quotedTweetId": null,
-          "replies": 1841,
-          "retweets": 404,
-          "text": "I think I can officially say: we are so back",
-          "url": "https://x.com/thsottiaux/status/2097088586843816330"
         }
       ],
       "source": "x",
@@ -1486,8 +1324,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 21,
-    "xTweets": 119,
-    "windowSpanHours": 89.12
+    "xBuilders": 20,
+    "xTweets": 105,
+    "windowSpanHours": 76.03
   }
 }
