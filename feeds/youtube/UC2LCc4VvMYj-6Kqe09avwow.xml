@@ -29,7 +29,7 @@
    <media:description>Increasingly capable natural language processing is changing how audio systems are designed, integrated, and perceived. Voice has been used to navigate through menus for the better part of two decades, but the addition of AI has transformed it from often annoying and highly limited responses to numbers to a much more interactive human-machine interface. Amol Borkar, group director of product management and marketing for Tensilica DSPs at Cadence, talks with Semiconductor Engineering about how this technology will improve even further in the future, why the focus isn't just about faster processors, and why this is so important for edge systems.</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="578"/>
+    <media:statistics views="619"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>Nearly all leading-edge designs today are multi-die assemblies, which means that one defective die can render the entire device unusable. But not all dies that are deemed defective should be scrapped, and not all dies that pass inspection will behave as expected in the field, especially over time. Nir Sever, senior director of business development at proteanTecs, talks with Semiconductor Engineering about how to train machine learning models to identify outliers in context, replacing a rigid pass/fail decision tied to a spec with one that assesses its usefulness based on its behavior under real workloads in a complex system.</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="600"/>
+    <media:statistics views="615"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>The rapid build-out of AI on the edge marks a fundamental shift in where intelligence is located, how much is included in devices, and the speed at which that intelligence can be applied to everyday problems. While the cloud will still be used for training large language models, the edge will include a collection of smaller, much more targeted language models. Nigel Drego, CTO and co-founder of Quadric, talks with Semiconductor Engineering about how edge AI will interact with the cloud in co-optimized systems, how the proliferation of edge AI will improve response time and reduce privacy concerns, and how quickly this market is expanding. [According to recent estimates, 100 billion models are being run locally on edge devices today.]</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="590"/>
+    <media:statistics views="592"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>The use of AI agents in chip design has been limited to small portions of the design flow. Engineers have been proceeding cautiously to understand how agents work, how to ensure they are delivering consistent results, and how different agents work together. The next step is to extend their role beyond just gluing together coding and tooling functions. Mehir Arora, head of engineering at ChipAgents, talks with Semiconductor Engineering about what happens when the role of AI agents is expanded to include semantics and physics, what's happens when agents work in parallel on different engineering problems, and what's needed to achieve a 10X or greater improvement in productivity.</media:description>
    <media:community>
     <media:starRating count="43" average="5.00" min="1" max="5"/>
-    <media:statistics views="1664"/>
+    <media:statistics views="1669"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>Moving from large language models in the cloud to small language models at the edge is much more complicated than just slimming down the algorithms. It requires changes in both hardware and software, and the constraints can vary greatly from one market segment to another. Daniel Firu, CPO and co-founder of Quadric, and Ravi Chakaravarthy, vice president of software at the company, talk with Semiconductor Engineering about how to optimize NPUs for different applications, how to build in enough flexibility to keep designs from becoming obsolete too quickly, and how to leverage the benefits of open-source while still adding value.</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="694"/>
+    <media:statistics views="695"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>More steps in the design flow are shifting left, which makes a complicated design process even more complex. This includes early software prototyping, workload mapping, verification, multi-physics integration, verification, IP qualification. Frank Schirrmeister, executive director of strategic programs for System Solutions at Synopsys, talks with Semiconductor Engineering about the increasing number of steps, the potential trouble spots, how reuse and chiplets impact the flow, and what engineers need to know in order to get a working chip out the door and on schedule.</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="714"/>
+    <media:statistics views="715"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>How do you know when you sign off on a complex chip design that everything is going to work? There are more variables, more elements that need to be verified, and more waivers that need to be generated. Suresh Barla, senior director of field applications at Synopsys, talks with Semiconductor Engineering about how to ensure that RTL is fully optimized for PPA targets in large designs that can include hundreds of millions of gates and dozens of design blocks, and that the netlist meets sign-off quality.</media:description>
    <media:community>
     <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="846"/>
+    <media:statistics views="847"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description>If one AI agent can solve a problem in a certain amount of time, can multiple agents solve it faster? The answer is yes, but only if the agents have well-defined roles and targets. This is where orchestrators fit in, and why they are so critical to agentic AI. Kexun Zhang, head of research at ChipAgents, talks with Semiconductor Engineering about what exactly AI agents are, how they can be used to solve big problems that would require many experienced engineers, and how to parse a problem to maximize the effectiveness of those agents.</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="1858"/>
+    <media:statistics views="1859"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description>Since it was released in March 2022, the Universal Chiplet Interconnect Express (UCIe) has grown from a basic way of connecting two dies together into a comprehensive specification that can ensure the handoff of data between various components in an advanced package, as well as validate the chiplets within that package. Mayank Bhatnagar, director of product marketing at Cadence, talks with Semiconductor Engineering about the physical elements in UCIe, the logical view of how it appears to design engineers, and how this can be customized for anything from a simple connection to a complex collection of chiplets that can come from multiple foundries and operate at different speeds.</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="1017"/>
+    <media:statistics views="1020"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description>The number of defects detected through inspection is exploding at each new process node. There are now millions of defects being identified on each wafer, but only a fraction of those can cause problems. Prasad Bachiraju, senior director of business development at Onto Innovation, talks with Semiconductor Engineering about the different types of images being captured using different illumination modes at different touch points, how that data gets classified, and how AI and machine learning at the edge can be used to identify critical errors and separate out the nuisance errors that may be caused by process variation and neighborhood noise.</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="801"/>
+    <media:statistics views="802"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description>AI is all about data. There is more data to process, store, and move, and more tradeoffs required to do that efficiently and with enough flexibility to handle changes in future workloads. Nandan Nayampally, chief commercial officer at Baya Systems, talks with Semiconductor Engineering about networks on chip and networks across chip, what the choke points are for data movement, and where and when data coherency makes sense.</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="758"/>
+    <media:statistics views="760"/>
    </media:community>
   </media:group>
  </entry>
