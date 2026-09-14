@@ -11,6 +11,64 @@
  </author>
  <published>2012-02-21T04:08:32+00:00</published>
  <entry>
+  <id>yt:video:JQJ_8_jSAoY</id>
+  <yt:videoId>JQJ_8_jSAoY</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build A Reasoning Model Scratch 3: The Verifier for Evaluation and RL with Verifiable Rewards</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JQJ_8_jSAoY"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-09-13T20:18:30+00:00</published>
+  <updated>2026-09-13T23:20:02+00:00</updated>
+  <media:group>
+   <media:title>Build A Reasoning Model Scratch 3: The Verifier for Evaluation and RL with Verifiable Rewards</media:title>
+   <media:content url="https://www.youtube.com/v/JQJ_8_jSAoY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JQJ_8_jSAoY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video explains how to implement a verifier so that we can evaluate the LLM on math benchmarks. And it's also the same verifier we will reuse for the reinforcement learning with verifiable rewards (RLVR) training later on.
+
+
+- Reasoning Book: https://amzn.to/4aAKiFY
+- Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
+- Reasoning effort article: https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms
+
+- LLMs from Scratch book: https://amzn.to/4fqvn0D
+- LLMs from Scratch repo: https://github.com/rasbt/LLMs-from-scratch
+- LLMs from Scratch playlist: https://www.youtube.com/watch?v=yAcWnfsZhzo&amp;list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11&amp;index=1
+
+00:00 Introduction
+01:21 Four approaches to LLM evaluation
+07:20 Verifiers and reinforcement learning with verifiable rewards
+10:52 Notebook setup and dependencies
+13:43 Section 3.1 Building a math verifier
+18:57 Section 3.2 Loading a pre-trained model to generate text
+24:34 Generating and displaying model answers
+29:23 Section 3.3 Implementing a wrapper for easier text generation
+34:00 Section 3.4 Extracting the final answer box
+37:29 Handling answers without boxes
+43:17 Section 3.5 Normalizing the extracted answer
+46:56 Section 3.6 Verifying mathematical equivalence
+53:32 Implementing the equality check
+57:48 Section 3.7 Grading answers
+59:20 Building and testing the answer grader
+1:03:18 Section 3.8 Loading the evaluation dataset (MATH-500)
+1:07:51 Section 3.9 Evaluating the model
+1:08:34 Prompt templates for evaluation
+1:10:47 Prompt sensitivity and memorization
+1:13:55 A minimal evaluation example
+1:15:32 Building the evaluation loop
+1:20:27 Comparing CPU, MPS, and CUDA results
+1:21:54 Reproducibility and floating-point math
+1:23:37 Base model vs. reasoning model
+1:25:30 Summary and next steps</media:description>
+   <media:community>
+    <media:starRating count="39" average="5.00" min="1" max="5"/>
+    <media:statistics views="785"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:BJua0yjO5dk</id>
   <yt:videoId>BJua0yjO5dk</yt:videoId>
   <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
@@ -68,8 +126,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="187" average="5.00" min="1" max="5"/>
-    <media:statistics views="13512"/>
+    <media:starRating count="188" average="5.00" min="1" max="5"/>
+    <media:statistics views="13807"/>
    </media:community>
   </media:group>
  </entry>
@@ -140,8 +198,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1098" average="5.00" min="1" max="5"/>
-    <media:statistics views="113543"/>
+    <media:starRating count="1110" average="5.00" min="1" max="5"/>
+    <media:statistics views="114139"/>
    </media:community>
   </media:group>
  </entry>
@@ -191,8 +249,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="610" average="5.00" min="1" max="5"/>
-    <media:statistics views="30145"/>
+    <media:starRating count="616" average="5.00" min="1" max="5"/>
+    <media:statistics views="30373"/>
    </media:community>
   </media:group>
  </entry>
@@ -238,7 +296,7 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
     <media:starRating count="453" average="5.00" min="1" max="5"/>
-    <media:statistics views="18238"/>
+    <media:statistics views="18270"/>
    </media:community>
   </media:group>
  </entry>
@@ -262,8 +320,8 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
-    <media:starRating count="71" average="5.00" min="1" max="5"/>
-    <media:statistics views="4110"/>
+    <media:starRating count="72" average="5.00" min="1" max="5"/>
+    <media:statistics views="4136"/>
    </media:community>
   </media:group>
  </entry>
@@ -318,8 +376,8 @@ Chapters:
 50:00 Transparent open-source training codebases
 52:00 Build a Reasoning Model From Scratch</media:description>
    <media:community>
-    <media:starRating count="1340" average="5.00" min="1" max="5"/>
-    <media:statistics views="33347"/>
+    <media:starRating count="1344" average="5.00" min="1" max="5"/>
+    <media:statistics views="33411"/>
    </media:community>
   </media:group>
  </entry>
@@ -365,8 +423,8 @@ Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-
 33:20 Kimi Linear, Ling 2.5, and Nemotron
 36:39 Poster, future updates, and wrap-up</media:description>
    <media:community>
-    <media:starRating count="790" average="5.00" min="1" max="5"/>
-    <media:statistics views="17328"/>
+    <media:starRating count="791" average="5.00" min="1" max="5"/>
+    <media:statistics views="17346"/>
    </media:community>
   </media:group>
  </entry>
@@ -410,7 +468,7 @@ Chapters:
 #LLM #Transformers #DeepLearning #MachineLearning #Inference #MoE #GQA #MLA #SWA #KVCache</media:description>
    <media:community>
     <media:starRating count="683" average="5.00" min="1" max="5"/>
-    <media:statistics views="20185"/>
+    <media:statistics views="20190"/>
    </media:community>
   </media:group>
  </entry>
@@ -450,7 +508,7 @@ This video covers the most important open-weight LLM architectures released in 2
 01:19:04 11. GLM-4.5</media:description>
    <media:community>
     <media:starRating count="1752" average="5.00" min="1" max="5"/>
-    <media:statistics views="45200"/>
+    <media:statistics views="45250"/>
    </media:community>
   </media:group>
  </entry>
@@ -465,7 +523,7 @@ This video covers the most important open-weight LLM architectures released in 2
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2025-04-11T17:17:37+00:00</published>
-  <updated>2026-09-13T12:20:04+00:00</updated>
+  <updated>2026-09-13T21:52:19+00:00</updated>
   <media:group>
    <media:title>Build an LLM from Scratch 7: Instruction Finetuning</media:title>
    <media:content url="https://www.youtube.com/v/4yNswvhPWCQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -497,7 +555,7 @@ Building a User Interface to Interact With the Instruction Finetuned GPT Model, 
 Evaluating Instruction Responses Using the OpenAI API and Ollama, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation</media:description>
    <media:community>
     <media:starRating count="826" average="5.00" min="1" max="5"/>
-    <media:statistics views="47598"/>
+    <media:statistics views="47624"/>
    </media:community>
   </media:group>
  </entry>
@@ -545,7 +603,7 @@ Building a User Interface to Interact With the GPT-based Spam Classifier,
 https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/04_user_interface</media:description>
    <media:community>
     <media:starRating count="662" average="5.00" min="1" max="5"/>
-    <media:statistics views="30200"/>
+    <media:statistics views="30220"/>
    </media:community>
   </media:group>
  </entry>
@@ -593,7 +651,7 @@ PyTorch Performance Tips for Faster LLM Training, https://github.com/rasbt/LLMs-
 Converting the GPT-2 architecture into Llama 2 and Llama 3, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama</media:description>
    <media:community>
     <media:starRating count="721" average="5.00" min="1" max="5"/>
-    <media:statistics views="37781"/>
+    <media:statistics views="37812"/>
    </media:community>
   </media:group>
  </entry>
@@ -631,7 +689,7 @@ This is a supplementary video explaining how to code an LLM architecture  from s
 You can find additional bonus materials on GitHub, for example converting the GPT-2 architecture into Llama 2 and Llama 3: https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama</media:description>
    <media:community>
     <media:starRating count="718" average="5.00" min="1" max="5"/>
-    <media:statistics views="39274"/>
+    <media:statistics views="39343"/>
    </media:community>
   </media:group>
  </entry>
@@ -676,56 +734,7 @@ Comparing Efficient Multi-Head Attention Implementations, https://github.com/ras
 Understanding PyTorch Buffers, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch03/03_understanding-buffers</media:description>
    <media:community>
     <media:starRating count="1236" average="5.00" min="1" max="5"/>
-    <media:statistics views="70389"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:341Rb8fJxY0</id>
-  <yt:videoId>341Rb8fJxY0</yt:videoId>
-  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
-  <title>Build an LLM from Scratch 2: Working with text data</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=341Rb8fJxY0"/>
-  <author>
-   <name>Sebastian Raschka</name>
-   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
-  </author>
-  <published>2025-03-02T14:15:00+00:00</published>
-  <updated>2026-08-12T11:58:38+00:00</updated>
-  <media:group>
-   <media:title>Build an LLM from Scratch 2: Working with text data</media:title>
-   <media:content url="https://www.youtube.com/v/341Rb8fJxY0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/341Rb8fJxY0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Links to the book: 
-- https://amzn.to/4fqvn0D (Amazon)
-- https://mng.bz/M96o (Manning)
-
-Link to the GitHub repository: https://github.com/rasbt/LLMs-from-scratch
-
-This is a supplementary video going over text data preparations steps (tokenization, byte pair encoding, data loaders, etc.) for LLM training.
-
-00:00 2.2 Tokenizing text
-14:02 2.3 Converting tokens into token IDs
-23:56 2.4 Adding special context tokens
-30:26 2.5 Byte pair encoding
-44:00 2.6 Data sampling with a sliding window
-1:07:10 2.7 Creating token embeddings
-1:15:45 2.8 Encoding word positions
-
-You can find additional bonus materials on GitHub:
-
-Byte Pair Encoding (BPE) Tokenizer From Scratch, https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/05_bpe-from-scratch/bpe-from-scratch.ipynb
-
-Comparing Various Byte Pair Encoding (BPE) Implementations, https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/02_bonus_bytepair-encoder/compare-bpe-tiktoken.ipynb
-
-Understanding the Difference Between Embedding Layers and Linear Layers, https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/03_bonus_embedding-vs-matmul/embeddings-and-linear-layers.ipynb
-
-Data sampling with a sliding window with number data, https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/04_bonus_dataloader-intuition/dataloader-intuition.ipynb
-
-A video on the effect of random seeds: https://www.youtube.com/watch?v=ii89_SqKB08&amp;feature=youtu.be</media:description>
-   <media:community>
-    <media:starRating count="1940" average="5.00" min="1" max="5"/>
-    <media:statistics views="110864"/>
+    <media:statistics views="70488"/>
    </media:community>
   </media:group>
  </entry>
