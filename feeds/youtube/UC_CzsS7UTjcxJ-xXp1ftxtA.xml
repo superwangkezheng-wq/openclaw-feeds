@@ -21,14 +21,14 @@
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-13T20:18:30+00:00</published>
-  <updated>2026-09-14T07:34:53+00:00</updated>
+  <updated>2026-09-14T17:40:47+00:00</updated>
   <media:group>
    <media:title>Build A Reasoning Model Scratch 3: The Verifier for Evaluation and RL with Verifiable Rewards</media:title>
    <media:content url="https://www.youtube.com/v/JQJ_8_jSAoY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/JQJ_8_jSAoY/hqdefault.jpg" width="480" height="360"/>
    <media:description>This video explains how to implement a verifier so that we can evaluate the LLM on math benchmarks. And it's also the same verifier we will reuse for the reinforcement learning with verifiable rewards (RLVR) training later on.
 
-
+- Reasoning playlist: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs
 - Reasoning Book: https://amzn.to/4aAKiFY
 - Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
 - Reasoning effort article: https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms
@@ -63,8 +63,8 @@
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="93" average="5.00" min="1" max="5"/>
-    <media:statistics views="5834"/>
+    <media:starRating count="118" average="5.00" min="1" max="5"/>
+    <media:statistics views="8577"/>
    </media:community>
   </media:group>
  </entry>
@@ -79,13 +79,14 @@
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-06T11:05:33+00:00</published>
-  <updated>2026-09-06T16:17:57+00:00</updated>
+  <updated>2026-09-14T17:39:43+00:00</updated>
   <media:group>
    <media:title>Build A Reasoning Model Scratch 2: Loading a Base Model, Text Generation, and KV Caching</media:title>
    <media:content url="https://www.youtube.com/v/BJua0yjO5dk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i3.ytimg.com/vi/BJua0yjO5dk/hqdefault.jpg" width="480" height="360"/>
    <media:description>The second video in the Build A Reasoning Model (From Scratch) series illustrates how to load a pre-trained model, how LLM text generation works, and how to make it more efficient with KV caching. (These are the basics to get started, later videos will revisit text-generation with sampling in more detail.)
 
+- Reasoning playlist: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs
 - Reasoning Book: https://mng.bz/Nwr7 (Manning) &amp; https://amzn.to/4aAKiFY (Amazon)
 - Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
 - Reasoning From Scratch Playlist: https://www.youtube.com/playlist?list=PLfrHAQCRxtUs
@@ -126,8 +127,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="193" average="5.00" min="1" max="5"/>
-    <media:statistics views="13998"/>
+    <media:starRating count="195" average="5.00" min="1" max="5"/>
+    <media:statistics views="14270"/>
    </media:community>
   </media:group>
  </entry>
@@ -198,8 +199,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1125" average="5.00" min="1" max="5"/>
-    <media:statistics views="114710"/>
+    <media:starRating count="1140" average="5.00" min="1" max="5"/>
+    <media:statistics views="115579"/>
    </media:community>
   </media:group>
  </entry>
@@ -214,14 +215,14 @@ https://magazine.sebastianraschka.com/</media:description>
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-08-30T11:30:10+00:00</published>
-  <updated>2026-08-30T11:45:23+00:00</updated>
+  <updated>2026-09-14T17:39:36+00:00</updated>
   <media:group>
    <media:title>Build A Reasoning Model Scratch 1: Motivation &amp; Code Setup</media:title>
    <media:content url="https://www.youtube.com/v/Kh9mqTzjuEQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i4.ytimg.com/vi/Kh9mqTzjuEQ/hqdefault.jpg" width="480" height="360"/>
    <media:description>This video explains the relationship between conventional LLMs and reasoning models (and agents), philosophizes a about &quot;from scratch&quot; approaches, and explains how to install Python &amp; PyTorch requirements with uv.
 
-
+- Reasoning playlist: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs
 - Reasoning Book: https://amzn.to/4aAKiFY
 - Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
 - Reasoning effort article: https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms
@@ -249,8 +250,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="626" average="5.00" min="1" max="5"/>
-    <media:statistics views="30669"/>
+    <media:starRating count="633" average="5.00" min="1" max="5"/>
+    <media:statistics views="31003"/>
    </media:community>
   </media:group>
  </entry>
@@ -295,8 +296,8 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
-    <media:starRating count="457" average="5.00" min="1" max="5"/>
-    <media:statistics views="18339"/>
+    <media:starRating count="459" average="5.00" min="1" max="5"/>
+    <media:statistics views="18418"/>
    </media:community>
   </media:group>
  </entry>
@@ -321,7 +322,7 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
     <media:starRating count="72" average="5.00" min="1" max="5"/>
-    <media:statistics views="4181"/>
+    <media:statistics views="4201"/>
    </media:community>
   </media:group>
  </entry>
@@ -376,8 +377,8 @@ Chapters:
 50:00 Transparent open-source training codebases
 52:00 Build a Reasoning Model From Scratch</media:description>
    <media:community>
-    <media:starRating count="1344" average="5.00" min="1" max="5"/>
-    <media:statistics views="33477"/>
+    <media:starRating count="1346" average="5.00" min="1" max="5"/>
+    <media:statistics views="33574"/>
    </media:community>
   </media:group>
  </entry>
@@ -424,7 +425,7 @@ Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-
 36:39 Poster, future updates, and wrap-up</media:description>
    <media:community>
     <media:starRating count="792" average="5.00" min="1" max="5"/>
-    <media:statistics views="17362"/>
+    <media:statistics views="17392"/>
    </media:community>
   </media:group>
  </entry>
@@ -467,8 +468,8 @@ Chapters:
 
 #LLM #Transformers #DeepLearning #MachineLearning #Inference #MoE #GQA #MLA #SWA #KVCache</media:description>
    <media:community>
-    <media:starRating count="683" average="5.00" min="1" max="5"/>
-    <media:statistics views="20198"/>
+    <media:starRating count="684" average="5.00" min="1" max="5"/>
+    <media:statistics views="20227"/>
    </media:community>
   </media:group>
  </entry>
@@ -507,8 +508,8 @@ This video covers the most important open-weight LLM architectures released in 2
 01:14:57 10. Grok 2.5
 01:19:04 11. GLM-4.5</media:description>
    <media:community>
-    <media:starRating count="1753" average="5.00" min="1" max="5"/>
-    <media:statistics views="45295"/>
+    <media:starRating count="1755" average="5.00" min="1" max="5"/>
+    <media:statistics views="45346"/>
    </media:community>
   </media:group>
  </entry>
@@ -523,7 +524,7 @@ This video covers the most important open-weight LLM architectures released in 2
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2025-04-11T17:17:37+00:00</published>
-  <updated>2026-09-14T08:55:30+00:00</updated>
+  <updated>2026-09-14T20:36:34+00:00</updated>
   <media:group>
    <media:title>Build an LLM from Scratch 7: Instruction Finetuning</media:title>
    <media:content url="https://www.youtube.com/v/4yNswvhPWCQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -554,8 +555,8 @@ Building a User Interface to Interact With the Instruction Finetuned GPT Model, 
 
 Evaluating Instruction Responses Using the OpenAI API and Ollama, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation</media:description>
    <media:community>
-    <media:starRating count="826" average="5.00" min="1" max="5"/>
-    <media:statistics views="47662"/>
+    <media:starRating count="829" average="5.00" min="1" max="5"/>
+    <media:statistics views="47733"/>
    </media:community>
   </media:group>
  </entry>
@@ -602,8 +603,8 @@ https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/03_bonus_imdb-classifi
 Building a User Interface to Interact With the GPT-based Spam Classifier,
 https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/04_user_interface</media:description>
    <media:community>
-    <media:starRating count="663" average="5.00" min="1" max="5"/>
-    <media:statistics views="30237"/>
+    <media:starRating count="666" average="5.00" min="1" max="5"/>
+    <media:statistics views="30294"/>
    </media:community>
   </media:group>
  </entry>
@@ -650,8 +651,8 @@ PyTorch Performance Tips for Faster LLM Training, https://github.com/rasbt/LLMs-
 
 Converting the GPT-2 architecture into Llama 2 and Llama 3, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama</media:description>
    <media:community>
-    <media:starRating count="721" average="5.00" min="1" max="5"/>
-    <media:statistics views="37862"/>
+    <media:starRating count="722" average="5.00" min="1" max="5"/>
+    <media:statistics views="37956"/>
    </media:community>
   </media:group>
  </entry>
@@ -688,8 +689,8 @@ This is a supplementary video explaining how to code an LLM architecture  from s
 
 You can find additional bonus materials on GitHub, for example converting the GPT-2 architecture into Llama 2 and Llama 3: https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama</media:description>
    <media:community>
-    <media:starRating count="718" average="5.00" min="1" max="5"/>
-    <media:statistics views="39381"/>
+    <media:starRating count="720" average="5.00" min="1" max="5"/>
+    <media:statistics views="39445"/>
    </media:community>
   </media:group>
  </entry>
@@ -734,7 +735,7 @@ Comparing Efficient Multi-Head Attention Implementations, https://github.com/ras
 Understanding PyTorch Buffers, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch03/03_understanding-buffers</media:description>
    <media:community>
     <media:starRating count="1236" average="5.00" min="1" max="5"/>
-    <media:statistics views="70564"/>
+    <media:statistics views="70713"/>
    </media:community>
   </media:group>
  </entry>
