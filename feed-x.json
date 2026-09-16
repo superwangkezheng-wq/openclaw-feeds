@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-15T12:44:45.000Z",
+  "generatedAt": "2026-09-16T01:28:59.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-09-15T06:42:09.351Z",
-    "ageHours": 6.04
+    "ageHours": 18.78
   },
   "x": [
     {
@@ -43,39 +43,6 @@
           "retweets": 1,
           "text": "Imagine a world where we didn’t have to rely on any one organization to be good and virtuous. https://t.co/Vkz9lpNeE2",
           "url": "https://x.com/adityaag/status/2099259374544003527"
-        },
-        {
-          "createdAt": "2026-09-12T01:11:32.000Z",
-          "id": "2098580235268899123",
-          "isQuote": false,
-          "likes": 34,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 0,
-          "text": "I often think and hope that I would have had the courage that the people in United 93 had to prevent an attack on the White House.\n\nI have been thinking about 9/11 all day…\n\nI was at CMU in a lecture in Wean Hall room 7500. People were very scared because one of the planes was near Pittsburgh.\n\nSo many heroes on that day.",
-          "url": "https://x.com/adityaag/status/2098580235268899123"
-        },
-        {
-          "createdAt": "2026-09-11T18:03:31.000Z",
-          "id": "2098472520798114263",
-          "isQuote": false,
-          "likes": 2,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "RSVP: https://t.co/WiWHBZ8pW7",
-          "url": "https://x.com/adityaag/status/2098472520798114263"
-        },
-        {
-          "createdAt": "2026-09-11T18:03:30.000Z",
-          "id": "2098472517845328303",
-          "isQuote": false,
-          "likes": 12,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 3,
-          "text": "How do we encourage true innovation in CA?\n\nHow do we enable a two-party state? \n\nHow should technology be regulated?\n\nWe're hosting conversations about tech policy with decision makers at @spc this fall. \n\n@SteveHiltonx on Sept 23rd. https://t.co/sThS98c6tx",
-          "url": "https://x.com/adityaag/status/2098472517845328303"
         }
       ],
       "source": "x",
@@ -147,17 +114,6 @@
           "retweets": 19,
           "text": "Not a bad idea to slow down to harden systems. Especially since we haven’t even discovered all the systems that agents hacked recently. https://t.co/8mPnI81HJG",
           "url": "https://x.com/amasad/status/2098828265800835310"
-        },
-        {
-          "createdAt": "2026-09-11T23:05:17.000Z",
-          "id": "2098548464452055437",
-          "isQuote": true,
-          "likes": 548,
-          "quotedTweetId": "2098418513748599089",
-          "replies": 35,
-          "retweets": 17,
-          "text": "Replit acquires a business entirely built on Replit. I expect first of many to come. https://t.co/hL516eAAu2",
-          "url": "https://x.com/amasad/status/2098548464452055437"
         }
       ],
       "source": "x",
@@ -251,39 +207,6 @@
           "retweets": 1,
           "text": "Okay for the avoidance of doubt this is a joke. Someone pls community note",
           "url": "https://x.com/danshipper/status/2098860370639130859"
-        },
-        {
-          "createdAt": "2026-09-12T01:08:19.000Z",
-          "id": "2098579426178908494",
-          "isQuote": true,
-          "likes": 73,
-          "quotedTweetId": "2098544270361964576",
-          "replies": 7,
-          "retweets": 3,
-          "text": "okay this is not great https://t.co/yzMDp9dIZh",
-          "url": "https://x.com/danshipper/status/2098579426178908494"
-        },
-        {
-          "createdAt": "2026-09-11T18:40:23.000Z",
-          "id": "2098481799047647715",
-          "isQuote": false,
-          "likes": 42,
-          "quotedTweetId": null,
-          "replies": 10,
-          "retweets": 3,
-          "text": "better benchmark scores don't tell you much about how well a model does on your real work \n\nthat's why for the last 3 years @every we've done vibe checks on new models: long-form reviews based on hands-on testing on each model for our real work\n\nnow we're doubling down, and getting more quantitative\n\n@hammer_mt and @nityeshaga built an internal platform for all of us to make personal benchmarks based on our real day-to-day work\n\nour vibe checks on new models used to be vibes only\n\nnow we're starting to get more quantitative with checks\n\nvery psyched about this :)",
-          "url": "https://x.com/danshipper/status/2098481799047647715"
-        },
-        {
-          "createdAt": "2026-09-11T18:20:59.000Z",
-          "id": "2098476917448118321",
-          "isQuote": true,
-          "likes": 47,
-          "quotedTweetId": "2098471888712552947",
-          "replies": 5,
-          "retweets": 4,
-          "text": "join the most ai pilled team on earth\n\nbe at the center of the AI wave, with access to the new models, tools, and teams that matter\n\ndo the best writing of your life: https://t.co/PDmrEAt4Yk",
-          "url": "https://x.com/danshipper/status/2098476917448118321"
         }
       ],
       "source": "x",
@@ -437,17 +360,6 @@
           "retweets": 22,
           "text": "Good post. Don’t agree with all of it, but it represents many of the actual practical realities for the general path forward in frontier AI whether we like it or not.\n\nAt the level of capability we’re seeing from models there will inevitably be some form of coordinated self-regulation of the industry; that’s generally a good thing. The big question will be if everyone can agree to what that is. However, the way things are headed politically there’s a chance that the labs won’t even get a say in it.\n\nAnd then the bigger question yet is do all the countries participate or not. Any “slow down” hinges on broad participation, which from a game theory standpoint isn’t likely until the risks are more severe and obvious.\n\nExpect this to be pretty messy for a while.",
           "url": "https://x.com/levie/status/2098785357307539882"
-        },
-        {
-          "createdAt": "2026-09-11T18:29:01.000Z",
-          "id": "2098478938003841123",
-          "isQuote": true,
-          "likes": 81,
-          "quotedTweetId": "2098471855149772829",
-          "replies": 32,
-          "retweets": 16,
-          "text": "This one is very cool. Now you can mount Box to agent sandboxes to make it far easier for an agent to read and write files on the agent's computer. As AI agents execute critical workflows in the enterprise, they're going to need the same primitives that people have had. https://t.co/h1BW92pMtH",
-          "url": "https://x.com/levie/status/2098478938003841123"
         }
       ],
       "source": "x",
@@ -511,28 +423,6 @@
           "retweets": 1,
           "text": "Breaking: Dario saves humanity but kills an entire industry of mind-blown tweets and breathless AI podcasts",
           "url": "https://x.com/mattturck/status/2098847298335687132"
-        },
-        {
-          "createdAt": "2026-09-11T21:00:21.000Z",
-          "id": "2098517023286247675",
-          "isQuote": false,
-          "likes": 1,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "You can see us on the list of tenants here:\nhttps://t.co/DuGS9PLTIw\n\nand you can see part of Kenton's story here:\nhttps://t.co/3KVbiF1Nqy",
-          "url": "https://x.com/mattturck/status/2098517023286247675"
-        },
-        {
-          "createdAt": "2026-09-11T21:00:21.000Z",
-          "id": "2098517022049190227",
-          "isQuote": false,
-          "likes": 129,
-          "quotedTweetId": null,
-          "replies": 16,
-          "retweets": 0,
-          "text": "My 9/11 story\n(lightly updated version of a blog post I wrote in 2016 for the 15th anniversary)\n\nIn September 2001, I was the young co-founder of a NYC tech startup, TripleHop Technologies.   \n\nWe were building enterprise search software, using whatever AI existed at the time, building what would be today close to what a Glean does.  \n\nWe had maybe 25 people on the team at the time.  Pretty much all of us were at the very begining of our careers, barely out of school, unexperienced, but highly enthusiastic.\n\nOur office was located on the 53rd floor of the North Tower at the World Trade Center.\n\nWe had ended up at the World Trade Center fairly randomly.  Our first office was located on Water Street, right above a 24 hour McDonald’s.  It looked more like a decrepit apartment than an actual office, occasionally didn’t smell that great, but it was cheap and good enough.\n\nBut after a year or so, the team had grown, and that office had become too small, so we started looking for a bigger one.\n\nAt the time, for a reason or another, there wasn’t a lot of office inventory on the market in the area where we wanted to be.  \n\nWe looked for a bit, couldn’t find anything suitable, until one of us had the strange idea of inquiring at the World Trade Center, which felt like a long shot. \n\nTurned out that the World Trade Center had some smaller offices, and some availability.  In those dot-com bubble days, they also were quite eager to attract young tech startups, and were willing to offer us some preferential terms. \n\nSo we went to take a look, and visited two offices in the North Tower. \n\nOne was a large office at the very top of the building, perhaps the 104th floor, I don’t exactly recall. It had unbelievable views, but it really felt like taking that office would be pushing it – even with a good deal, we were just a little seed-funded startup, after all. Also, the elevator ride took forever. \n\nSo instead we chose the smaller, cheaper office on the 53rd floor.  \n\nWe really liked our new office, and the World Trade Center in general.  It felt like a little town, with a lot of retail and amenities below the surface, and its own subway station. We ate a bit too often at a Sbarro joint located right outside the ground floor elevator.\n\nThe night before 9/11, my co-founder Renaud Laplanche and I worked very late into the evening, as we did most nights.  In true nerdy founder fashion, we played a ping pong game or two, as we did pretty much every time before calling it a night – the ping pong table being our attempt at creating a startup culture.  \n\nI left, and think Renaud may have stayed on that night to finish working on a proposal for a prospective customer.\n\nThe morning after, when the plane hit the North Tower at 8:46am, I was home, about to leave for work.   \n\nLike many young tech people, we were night owls but not early birds, typically showing up at the office around 9:30am.  \n\nI had the TV on, and as about to turn it off and walk out of the door, saw the “breaking news” scroll at the bottom of the screen mentioning a plane collision, but no image.    \n\nAs I had a faraway view of the World Trade Center from the window of my West Village studio apartment, I looked up and saw what seemed like a little bit of smoke at the top.\n\nI assumed the plane that had hit the tower was a small tourist plane.  We would often see them fly by the office, above the nearby Hudson River, often at altitudes that felt very close to us.  It had crossed my mind more than once that it wouldn’t take that much for one of them to hit the tower by accident.\n\nThen, like so many others, I saw those unbelievable images on TV. I called my family back in France.  Shortly thereafter, phone lines went down. \n\nThe rest of the day was surreal and gut-wrenching, although I remember feeling mostly numb.\n\nI went on a mad scramble to see if everyone at TripleHop was ok. For many hours, we just didn’t know.  With no phone working, we accounted for most people via email, but a number did not reply for a while.\n\nIt eventually turned out only one person from the team, Kenton Beerman, was at the office at 8:46am.   He made it out shocked but unscathed.\n\nPerhaps as a way to cope psychologically, or just because they were amazing people, I remember that the team was incredibly focused on saving the business that day.  \n\nThis was obviously pre-AWS, we had our own server room in our office, but thankfully our CTO Joaquin Delgado and his team had backed everything up.  By the end of the day, we were essentially back up and running.\n\nAfter a few days, we found shared office space.  But business didn’t go back to usual. In addition to everything else, 9/11 was the final nail in the coffin for the economy after the dot com bubble burst.  The next couple of years were a complete nuclear winter.\n\nThankfully, we had raised a $5M Series A (a solid amount at hte time!) a few months before 9/11, which kept us afloat.  We also managed to win a few deals in Europe, which gave us a bit more cash.  \n\nEventually business picked up strongly in late 2003 and 2004, potential acquirers came knocking, and TripleHop was acquired by Oracle in 2005.\n\nWe all went on with our lives.  My co-founder Renaud reached extraordinary entrepreneurial success and defined a whole new industry.\n\nWe all have families now.  I occasionally see pictures of beautiful children on my Facebook feed.  \n\nI rarely talk about 9/11, and have tried to not think about it too much. \n\nIt took me a very long time to go visit the 9/11 memorial downtown.  \n\nI finally made it just a few weeks ago, after a board meeting nearby, walking there almost by accident.\n\nLooking at the names engraved in the marble, I was reminded that it wouldn’t have taken much.  An hour later, a few floors lower. Or choosing that office on the 104th floor instead of the other one, a few months prior.\n\nAnd I feel deeply connected not just to those names, but to New York. \n\nBefore 9/11, New York felt like an exciting, but ultimately foreign, city. After 9/11, I truly started feeling like a New Yorker.  \n\nEveryone remembers where they were on 9/11.  Everyone has a story of some sort, many infinitely more tragic.  \n\nThis is just mine.",
-          "url": "https://x.com/mattturck/status/2098517022049190227"
         }
       ],
       "source": "x",
@@ -607,17 +497,6 @@
           "retweets": 0,
           "text": "Honestly having kids reduces p(doom) by an exponential amount..\n\nCase in point: We have been playing the garbage truck and excavator (techno version) for the past hour. \n\nAnd dancing to it as if we were at a concert. \n\nWith a temporary abandon to what the world is fighting about. https://t.co/4v2bM24SAO",
           "url": "https://x.com/nikunj/status/2098961771289870463"
-        },
-        {
-          "createdAt": "2026-09-11T23:14:15.000Z",
-          "id": "2098550718923997430",
-          "isQuote": false,
-          "likes": 39,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 2,
-          "text": "“Success has many fathers, but failure is an orphan.”\n\nI never realized the gravity of this quote till I saw extremely successful VCs fight for attribution of the hot deals. \n\nAnd you realize this viscerally because the large exits (or markups) are genuinely rare and those are the ones you raise the next fund on (your own or part of the firm). \n\nThis is why in the next couple of years you’ll see many names scrubbed (or conveniently omitted) and everyone wanting to revise history to claim some credit for the ones that eventually succeed. \n\nSo many emerging GPs are facing this explicitly as the only thing they can take to their future LPs is their track record. And it’s been sad to see them not get the credit they actually deserve. \n\nAs @AnjneyMidha said, eventually the new guard will shine as they will figure a way out. But in the short term, hold your founders close since they’ll be the real reference checks! \n\n(this is genuinely NOT a subtweet at any firm, just what I have been noticing across the market as I’m helping emerging managers)",
-          "url": "https://x.com/nikunj/status/2098550718923997430"
         }
       ],
       "source": "x",
@@ -736,28 +615,6 @@
           "retweets": 2,
           "text": "I have decided to do this after much deliberation: \n\nAll local scheduled tasks live in Codex. All cloud tasks I’m porting over to Grok Bot. \n\nMakes it a clean split.",
           "url": "https://x.com/petergyang/status/2098614492066435228"
-        },
-        {
-          "createdAt": "2026-09-12T00:46:43.000Z",
-          "id": "2098573992097657135",
-          "isQuote": false,
-          "likes": 1,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 2,
-          "text": "Read why here: https://t.co/qMkuBOwSKk",
-          "url": "https://x.com/petergyang/status/2098573992097657135"
-        },
-        {
-          "createdAt": "2026-09-12T00:13:39.000Z",
-          "id": "2098565668241334366",
-          "isQuote": false,
-          "likes": 179,
-          "quotedTweetId": null,
-          "replies": 82,
-          "retweets": 9,
-          "text": "I am skeptical of \"software factories.\"\n\nOther than for verification & testing, I don't think AI is at a point where it can self-improve a product or build a new feature end-to-end without human in the loop.\n\nWhenever I loop something overnight to build something new = if it makes one wrong assumption the whole thing becomes a waste of tokens. \n\nWhat products or features have been built end-to-end with a software factory and no human defining the requirements or checking the work?",
-          "url": "https://x.com/petergyang/status/2098565668241334366"
         }
       ],
       "source": "x",
@@ -843,17 +700,6 @@
           "retweets": 247,
           "text": "The concerns over AI safety and cybersecurity are legitimate, but we’re risking talking America, the global AI leader, into self-inflicted obsolescence and the obscurity of bureaucracy.\n\nThe OpenAI hacking HuggingFace argument is spurious. An agent in “ExploitGym”… exploited. Our adversaries have the training techniques, the data, and the will to attack. And they won’t be slowed down with “embedded evaluators.” They’ll likely have embedded accelerators!",
           "url": "https://x.com/rauchg/status/2098787667030712757"
-        },
-        {
-          "createdAt": "2026-09-11T21:56:31.000Z",
-          "id": "2098531157230969062",
-          "isQuote": true,
-          "likes": 290,
-          "quotedTweetId": "2098517466704167211",
-          "replies": 27,
-          "retweets": 9,
-          "text": "Tailscale’s model router is powered by Vercel AI Gateway as its underlying infrastructure.\n\nAI Gateways are the new CDNs. You could go “direct to origin”, but it’s brittle. You could DIY, but it’s painful and costly.\n\nProud to serve Tailscale, the 🐐 networking technology company https://t.co/ERS5GKJx6D",
-          "url": "https://x.com/rauchg/status/2098531157230969062"
         }
       ],
       "source": "x",
@@ -895,28 +741,6 @@
           "retweets": 0,
           "text": "Before we solve AI alignment, we have a pretty serious human alignment problem. \n\nIt is jarring to see the bad-faith reaction to Dario's piece from so many sides. I don't agree with every point of his essay but do believe it is a thoughtful piece everyone should read. It builds on some of the ideas @demishassabis  raised in July.\n\nIt is clear we need to focus on aligning amongst us humans on a few questions:\n\nWhat is the opportunity, risks, second-order effects?\n\nHow do we measure all of this?\n\nHow do companies, governments and countries coordinate?\n\nAI will benefit humanity if we can get our act together and move together.",
           "url": "https://x.com/realmadhuguru/status/2098803717432860987"
-        },
-        {
-          "createdAt": "2026-09-11T16:27:57.000Z",
-          "id": "2098448469497356569",
-          "isQuote": true,
-          "likes": 2,
-          "quotedTweetId": "2098064969464217720",
-          "replies": 0,
-          "retweets": 0,
-          "text": "https://t.co/Vkfx96ev4e",
-          "url": "https://x.com/realmadhuguru/status/2098448469497356569"
-        },
-        {
-          "createdAt": "2026-09-11T16:27:01.000Z",
-          "id": "2098448235048378456",
-          "isQuote": true,
-          "likes": 96,
-          "quotedTweetId": "2098218284139311615",
-          "replies": 11,
-          "retweets": 5,
-          "text": "Why most enterprise AI efforts fail.\n\n1/ Using old-school playbooks for AI\nThe CEO picks a trusted lieutenant to lead a central AI team. That leader pulls in a group of trusted people from across the company.\n\nThe problem here is the skill gap.\n\nThe team structure, product patterns, how you launch and learn that got you here do not work with AI. Much of product development over the last 15 yrs has been incremental improvements.\n\nAI requires experimentation and invention.\n\n2/ Under-investing in evals\n\nMost enterprises don't quite understand the importance of this and what good looks like here. (I have a whole evals series in the comments - check it out)\n\n3/ Building AI for the company from the outside\n\nThe central AI team declares itself a platform team and builds tools that everyone is supposed to adopt.\n\nThese products are often disconnected from the actual workflows, context and judgment of the people doing the work.\n\nBegrudging adoption follows. But not meaningful productivity gains.\n\nWhat you should do:\n\n1/ Hire leaders who have done successfully built AI products. You need technical/product depth plus the ability to earn trust with the people whose jobs they’re helping reinvent.\n\n2/ Make evals a first class citizen in your AI efforts\n\n3/ Embed your best AI builders inside the functions you want to transform. Build * with * finance , build * with * sales, build * with * support.",
-          "url": "https://x.com/realmadhuguru/status/2098448235048378456"
         }
       ],
       "source": "x",
@@ -1062,28 +886,6 @@
           "retweets": 9,
           "text": "This is amazing. Add Master of Orion 2 next! https://t.co/yHjlwsOLaJ",
           "url": "https://x.com/steipete/status/2098784877495939145"
-        },
-        {
-          "createdAt": "2026-09-11T21:43:54.000Z",
-          "id": "2098527982709256637",
-          "isQuote": false,
-          "likes": 18,
-          "quotedTweetId": null,
-          "replies": 4,
-          "retweets": 2,
-          "text": "Had to submit a patch to @trycua to make keys work reliable under Linux, dope framework overall tho!",
-          "url": "https://x.com/steipete/status/2098527982709256637"
-        },
-        {
-          "createdAt": "2026-09-11T21:42:03.000Z",
-          "id": "2098527519213604889",
-          "isQuote": false,
-          "likes": 270,
-          "quotedTweetId": null,
-          "replies": 43,
-          "retweets": 18,
-          "text": "Astra on OC in a cloud session playing Doom with CUA.\nNot quite AGI yet, but probably beats fly brain. https://t.co/SrJlaey3MB",
-          "url": "https://x.com/steipete/status/2098527519213604889"
         }
       ],
       "source": "x",
@@ -1177,17 +979,6 @@
           "retweets": 1125,
           "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around.\n\nWorking with some of you, we have found and fixed the following issues:\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\nWe’ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it’s going through the motions.\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\nAnd of course, a reset is also landing by midnight today.",
           "url": "https://x.com/thsottiaux/status/2098612714704891959"
-        },
-        {
-          "createdAt": "2026-09-12T00:30:46.000Z",
-          "id": "2098569976143806918",
-          "isQuote": false,
-          "likes": 3042,
-          "quotedTweetId": null,
-          "replies": 428,
-          "retweets": 73,
-          "text": "Excited to welcome Aidan & @\nSasha from the Git AI team to OpenAI! \n\nThey are building in the open and have developed an open-source tool that helps developers understand how coding agents contribute to their codebase. \n\nTogether, we’ll make it easier for businesses to see where Codex is making a difference when working through problems for individuals and teams. We’ll also keep Git AI open source and continue investing in it.",
-          "url": "https://x.com/thsottiaux/status/2098569976143806918"
         }
       ],
       "source": "x",
@@ -1229,28 +1020,6 @@
           "retweets": 80,
           "text": "If you showed me Claude Code today in 2018, I would have thought it was AGI.\n\nWe have already absorbed a dramatic amount of change in the profession of software engineering and society as a whole. But still, we’re starting to see cracks.\n\nThings are accelerating faster than I can honestly stay on top of. Most people I know in AI are tired but powering through. I fear we will need more than that.\n\nWe need time to harden our systems, and for society to deliberate in how this technology is used and deployed.\n\nI have a fairly low p(doom), I am confident that we can get through this! Humanity is incredibly reslient and adaptable, but this comes from our ability to make hard decisions- like this one, together.",
           "url": "https://x.com/trq212/status/2098860941391872132"
-        },
-        {
-          "createdAt": "2026-09-11T21:58:07.000Z",
-          "id": "2098531560643539440",
-          "isQuote": true,
-          "likes": 1250,
-          "quotedTweetId": "2098500999656923145",
-          "replies": 47,
-          "retweets": 58,
-          "text": "we heard feedback that it's hard to know if your skills are still working with new model releases\n\nplugin evals are here to help\n\nrun `claude plugin eval init` in your plugin folder https://t.co/Q0I1ZnugDs",
-          "url": "https://x.com/trq212/status/2098531560643539440"
-        },
-        {
-          "createdAt": "2026-09-11T19:13:32.000Z",
-          "id": "2098490139798655427",
-          "isQuote": false,
-          "likes": 1504,
-          "quotedTweetId": null,
-          "replies": 113,
-          "retweets": 62,
-          "text": "it's basically impossible to interpret evals by looking at just at the pass/fail scores these days\n\nmany of the failures I see in benchmarks are due to overly strict hidden tests, in some cases the model's answer makes more sense than the expected eval result",
-          "url": "https://x.com/trq212/status/2098490139798655427"
         }
       ],
       "source": "x",
@@ -1270,17 +1039,6 @@
           "retweets": 3,
           "text": "Anyone else notices this problem with Astra?\n\nAstra: I have done X\nMe: This is wrong, you should do Y instead\nAstra: You're right. I should do Y\nMe: ...\n\nWhy doesn't it just go and do Y, like the other models??",
           "url": "https://x.com/zarazhangrui/status/2099348631291883945"
-        },
-        {
-          "createdAt": "2026-09-11T18:48:20.000Z",
-          "id": "2098483800456179923",
-          "isQuote": false,
-          "likes": 704,
-          "quotedTweetId": null,
-          "replies": 209,
-          "retweets": 49,
-          "text": "I think the idea of a \"one-person company\" is overrated\n\nYes, a person can do a lot more thanks to AI. But building something new can be a profoundly lonely experience. You need someone to brainstorm together, suffer together, celebrate together...\n\nIt is extremely easy to lose motivation when you don't tie yourself to the mast together with somebody else",
-          "url": "https://x.com/zarazhangrui/status/2098483800456179923"
         }
       ],
       "source": "x",
@@ -1289,7 +1047,7 @@
   ],
   "stats": {
     "xBuilders": 21,
-    "xTweets": 101,
-    "windowSpanHours": 86.2
+    "xTweets": 79,
+    "windowSpanHours": 75.34
   }
 }
