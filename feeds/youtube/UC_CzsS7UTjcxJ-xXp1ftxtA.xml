@@ -63,8 +63,8 @@
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="139" average="5.00" min="1" max="5"/>
-    <media:statistics views="11293"/>
+    <media:starRating count="143" average="5.00" min="1" max="5"/>
+    <media:statistics views="12244"/>
    </media:community>
   </media:group>
  </entry>
@@ -128,7 +128,7 @@ Other resources mentioned in the video:
 01:35:32 Recap and next steps</media:description>
    <media:community>
     <media:starRating count="197" average="5.00" min="1" max="5"/>
-    <media:statistics views="14423"/>
+    <media:statistics views="14506"/>
    </media:community>
   </media:group>
  </entry>
@@ -199,8 +199,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1150" average="5.00" min="1" max="5"/>
-    <media:statistics views="116167"/>
+    <media:starRating count="1154" average="5.00" min="1" max="5"/>
+    <media:statistics views="116538"/>
    </media:community>
   </media:group>
  </entry>
@@ -251,7 +251,7 @@ https://magazine.sebastianraschka.com/</media:description>
 41:50 Questions and what comes next</media:description>
    <media:community>
     <media:starRating count="640" average="5.00" min="1" max="5"/>
-    <media:statistics views="31206"/>
+    <media:statistics views="31329"/>
    </media:community>
   </media:group>
  </entry>
@@ -297,7 +297,7 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
     <media:starRating count="459" average="5.00" min="1" max="5"/>
-    <media:statistics views="18456"/>
+    <media:statistics views="18479"/>
    </media:community>
   </media:group>
  </entry>
@@ -322,7 +322,7 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
     <media:starRating count="72" average="5.00" min="1" max="5"/>
-    <media:statistics views="4213"/>
+    <media:statistics views="4216"/>
    </media:community>
   </media:group>
  </entry>
@@ -377,8 +377,8 @@ Chapters:
 50:00 Transparent open-source training codebases
 52:00 Build a Reasoning Model From Scratch</media:description>
    <media:community>
-    <media:starRating count="1346" average="5.00" min="1" max="5"/>
-    <media:statistics views="33666"/>
+    <media:starRating count="1348" average="5.00" min="1" max="5"/>
+    <media:statistics views="33732"/>
    </media:community>
   </media:group>
  </entry>
@@ -425,7 +425,7 @@ Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-
 36:39 Poster, future updates, and wrap-up</media:description>
    <media:community>
     <media:starRating count="792" average="5.00" min="1" max="5"/>
-    <media:statistics views="17412"/>
+    <media:statistics views="17430"/>
    </media:community>
   </media:group>
  </entry>
@@ -469,7 +469,7 @@ Chapters:
 #LLM #Transformers #DeepLearning #MachineLearning #Inference #MoE #GQA #MLA #SWA #KVCache</media:description>
    <media:community>
     <media:starRating count="684" average="5.00" min="1" max="5"/>
-    <media:statistics views="20233"/>
+    <media:statistics views="20238"/>
    </media:community>
   </media:group>
  </entry>
@@ -508,8 +508,8 @@ This video covers the most important open-weight LLM architectures released in 2
 01:14:57 10. Grok 2.5
 01:19:04 11. GLM-4.5</media:description>
    <media:community>
-    <media:starRating count="1755" average="5.00" min="1" max="5"/>
-    <media:statistics views="45379"/>
+    <media:starRating count="1756" average="5.00" min="1" max="5"/>
+    <media:statistics views="45395"/>
    </media:community>
   </media:group>
  </entry>
@@ -555,8 +555,8 @@ Building a User Interface to Interact With the Instruction Finetuned GPT Model, 
 
 Evaluating Instruction Responses Using the OpenAI API and Ollama, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation</media:description>
    <media:community>
-    <media:starRating count="829" average="5.00" min="1" max="5"/>
-    <media:statistics views="47781"/>
+    <media:starRating count="831" average="5.00" min="1" max="5"/>
+    <media:statistics views="47808"/>
    </media:community>
   </media:group>
  </entry>
@@ -604,7 +604,7 @@ Building a User Interface to Interact With the GPT-based Spam Classifier,
 https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/04_user_interface</media:description>
    <media:community>
     <media:starRating count="667" average="5.00" min="1" max="5"/>
-    <media:statistics views="30330"/>
+    <media:statistics views="30343"/>
    </media:community>
   </media:group>
  </entry>
@@ -652,7 +652,7 @@ PyTorch Performance Tips for Faster LLM Training, https://github.com/rasbt/LLMs-
 Converting the GPT-2 architecture into Llama 2 and Llama 3, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama</media:description>
    <media:community>
     <media:starRating count="722" average="5.00" min="1" max="5"/>
-    <media:statistics views="37990"/>
+    <media:statistics views="38024"/>
    </media:community>
   </media:group>
  </entry>
@@ -689,8 +689,8 @@ This is a supplementary video explaining how to code an LLM architecture  from s
 
 You can find additional bonus materials on GitHub, for example converting the GPT-2 architecture into Llama 2 and Llama 3: https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama</media:description>
    <media:community>
-    <media:starRating count="719" average="5.00" min="1" max="5"/>
-    <media:statistics views="39494"/>
+    <media:starRating count="720" average="5.00" min="1" max="5"/>
+    <media:statistics views="39519"/>
    </media:community>
   </media:group>
  </entry>
@@ -735,7 +735,7 @@ Comparing Efficient Multi-Head Attention Implementations, https://github.com/ras
 Understanding PyTorch Buffers, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch03/03_understanding-buffers</media:description>
    <media:community>
     <media:starRating count="1237" average="5.00" min="1" max="5"/>
-    <media:statistics views="70792"/>
+    <media:statistics views="70848"/>
    </media:community>
   </media:group>
  </entry>
