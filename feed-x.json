@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-16T12:39:45.000Z",
+  "generatedAt": "2026-09-17T01:31:10.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-09-16T06:42:14.459Z",
-    "ageHours": 5.96
+    "ageHours": 18.82
   },
   "x": [
     {
@@ -82,25 +82,6 @@
       "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad"
     },
     {
-      "handle": "alexalbert__",
-      "name": "Alex Albert",
-      "tweets": [
-        {
-          "createdAt": "2026-09-12T16:41:47.000Z",
-          "id": "2098814342443761909",
-          "isQuote": true,
-          "likes": 160,
-          "quotedTweetId": "2098773920774074715",
-          "replies": 42,
-          "retweets": 6,
-          "text": "Worth spending a few minutes this weekend to read this essay in full. \n\nEmbedded evaluators might sound unusual in tech but it's pretty normal in other industries. Big banks have federal examiners with desks in the building and every nuclear plant in the US has inspectors who work on site full time. I think frontier AI labs should work the same way and this is a very practical first step.",
-          "url": "https://x.com/alexalbert__/status/2098814342443761909"
-        }
-      ],
-      "source": "x",
-      "bio": "Research @AnthropicAI. Opinions are my own!"
-    },
-    {
       "handle": "amasad",
       "name": "Amjad Masad",
       "tweets": [
@@ -169,17 +150,6 @@
           "retweets": 12,
           "text": "It was painful to see so many users being priced out of AI coding for a while. But now it’s free to build again! https://t.co/LBe5fPBBGC https://t.co/VwkZ2a5QAN",
           "url": "https://x.com/amasad/status/2099197117013340450"
-        },
-        {
-          "createdAt": "2026-09-12T17:37:07.000Z",
-          "id": "2098828265800835310",
-          "isQuote": true,
-          "likes": 606,
-          "quotedTweetId": "2098773920774074715",
-          "replies": 109,
-          "retweets": 19,
-          "text": "Not a bad idea to slow down to harden systems. Especially since we haven’t even discovered all the systems that agents hacked recently. https://t.co/8mPnI81HJG",
-          "url": "https://x.com/amasad/status/2098828265800835310"
         }
       ],
       "source": "x",
@@ -281,39 +251,6 @@
           "retweets": 0,
           "text": "we’re going to the moon https://t.co/f02uVIYNHS",
           "url": "https://x.com/danshipper/status/2099152769080828197"
-        },
-        {
-          "createdAt": "2026-09-12T22:42:24.000Z",
-          "id": "2098905091776373125",
-          "isQuote": false,
-          "likes": 32,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 1,
-          "text": "me asking fable 5.1 ultracode to explain whether the internet is truly a series of pipes https://t.co/Y5Bso2F5C8",
-          "url": "https://x.com/danshipper/status/2098905091776373125"
-        },
-        {
-          "createdAt": "2026-09-12T22:15:52.000Z",
-          "id": "2098898413366435903",
-          "isQuote": true,
-          "likes": 14,
-          "quotedTweetId": "2098897158715920412",
-          "replies": 5,
-          "retweets": 0,
-          "text": "finally, im an author! https://t.co/brRLLnHA9d",
-          "url": "https://x.com/danshipper/status/2098898413366435903"
-        },
-        {
-          "createdAt": "2026-09-12T19:44:41.000Z",
-          "id": "2098860370639130859",
-          "isQuote": false,
-          "likes": 73,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 1,
-          "text": "Okay for the avoidance of doubt this is a joke. Someone pls community note",
-          "url": "https://x.com/danshipper/status/2098860370639130859"
         }
       ],
       "source": "x",
@@ -366,17 +303,6 @@
           "retweets": 9,
           "text": "The content about startups we do is merely the teaser for the specific advice we give 1:1 when you actually are a YC startup https://t.co/MZ2tMlxLzJ",
           "url": "https://x.com/garrytan/status/2099181676039704870"
-        },
-        {
-          "createdAt": "2026-09-12T19:58:27.000Z",
-          "id": "2098863831732863310",
-          "isQuote": true,
-          "likes": 339,
-          "quotedTweetId": "2098806644021010672",
-          "replies": 34,
-          "retweets": 11,
-          "text": "This is huge https://t.co/3wNhYTyWqH",
-          "url": "https://x.com/garrytan/status/2098863831732863310"
         }
       ],
       "source": "x",
@@ -446,25 +372,6 @@
       "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio"
     },
     {
-      "handle": "karpathy",
-      "name": "Andrej Karpathy",
-      "tweets": [
-        {
-          "createdAt": "2026-09-12T16:32:14.000Z",
-          "id": "2098811935114551617",
-          "isQuote": true,
-          "likes": 8837,
-          "quotedTweetId": "2098773920774074715",
-          "replies": 3,
-          "retweets": 656,
-          "text": "I love this and really hope we can come together as an industry and make it happen. https://t.co/lz2vjjJ5XD https://t.co/jF2vhYXlAF",
-          "url": "https://x.com/karpathy/status/2098811935114551617"
-        }
-      ],
-      "source": "x",
-      "bio": "deep learning"
-    },
-    {
       "handle": "levie",
       "name": "Aaron Levie",
       "tweets": [
@@ -511,17 +418,6 @@
           "retweets": 30,
           "text": "“Pacing” can be somewhat of a trigger word because it sounds like an arbitrary slow down of capability or a way to hobble competitors through undue regulation. \n\nHowever, the specific improvement goals laid out in Dario’s are absolute necessities in AI development. We expect equivalent in areas like aerospace, life sciences, health care, and other industries, and AI development likely shouldn’t be that different. \n\nAI is going to be the technology underpinning our financial trading systems, our medical devices, our biotech breakthroughs, defense systems, government workflows, and many more mission critical domains. So it completely stands to reason that we want these systems to be safe and “aligned”. \n\nHow we get there -without meaningfully slowing down innovation progress or reducing competition- is one of the most complex questions in the 21st century, but the need is clearly real.",
           "url": "https://x.com/levie/status/2099167992835924301"
-        },
-        {
-          "createdAt": "2026-09-12T14:46:37.000Z",
-          "id": "2098785357307539882",
-          "isQuote": true,
-          "likes": 251,
-          "quotedTweetId": "2098773920774074715",
-          "replies": 62,
-          "retweets": 22,
-          "text": "Good post. Don’t agree with all of it, but it represents many of the actual practical realities for the general path forward in frontier AI whether we like it or not.\n\nAt the level of capability we’re seeing from models there will inevitably be some form of coordinated self-regulation of the industry; that’s generally a good thing. The big question will be if everyone can agree to what that is. However, the way things are headed politically there’s a chance that the labs won’t even get a say in it.\n\nAnd then the bigger question yet is do all the countries participate or not. Any “slow down” hinges on broad participation, which from a game theory standpoint isn’t likely until the risks are more severe and obvious.\n\nExpect this to be pretty messy for a while.",
-          "url": "https://x.com/levie/status/2098785357307539882"
         }
       ],
       "source": "x",
@@ -563,28 +459,6 @@
           "retweets": 10,
           "text": "Seed investor when a company he forgot about years ago gets acquired out of nowhere https://t.co/X6NWlHRNle",
           "url": "https://x.com/mattturck/status/2099257395708879286"
-        },
-        {
-          "createdAt": "2026-09-12T20:22:44.000Z",
-          "id": "2098869942988718426",
-          "isQuote": false,
-          "likes": 86,
-          "quotedTweetId": null,
-          "replies": 8,
-          "retweets": 8,
-          "text": "Breaking: VCs decide to pace their returns.",
-          "url": "https://x.com/mattturck/status/2098869942988718426"
-        },
-        {
-          "createdAt": "2026-09-12T18:52:45.000Z",
-          "id": "2098847298335687132",
-          "isQuote": false,
-          "likes": 32,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 1,
-          "text": "Breaking: Dario saves humanity but kills an entire industry of mind-blown tweets and breathless AI podcasts",
-          "url": "https://x.com/mattturck/status/2098847298335687132"
         }
       ],
       "source": "x",
@@ -777,39 +651,6 @@
           "retweets": 0,
           "text": "Record &amp; Replay seems broken and won't trigger @nickbaumann_ @OpenAIDevs https://t.co/RYm8F1y3vT",
           "url": "https://x.com/petergyang/status/2099175305818890472"
-        },
-        {
-          "createdAt": "2026-09-13T01:22:52.000Z",
-          "id": "2098945475038912741",
-          "isQuote": true,
-          "likes": 52,
-          "quotedTweetId": "2098836022419476527",
-          "replies": 28,
-          "retweets": 0,
-          "text": "What if this game worked like this:\n\n1. One person is commander and can play this like a RTS (macro)\n\n2. The rest of the team plays individual marines and characters (micro)\n\nProbably a terrible idea but would be cool 😎 https://t.co/CQF0dg0tBJ",
-          "url": "https://x.com/petergyang/status/2098945475038912741"
-        },
-        {
-          "createdAt": "2026-09-12T18:49:11.000Z",
-          "id": "2098846399949627553",
-          "isQuote": false,
-          "likes": 9,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "Can’t believe ASI will come out before StarCraft. \n\nSeriously just use AI to generate half the graphics with human oversight, I won’t mind if we can get a quality game out sooner.",
-          "url": "https://x.com/petergyang/status/2098846399949627553"
-        },
-        {
-          "createdAt": "2026-09-12T18:36:12.000Z",
-          "id": "2098843136328171540",
-          "isQuote": true,
-          "likes": 363,
-          "quotedTweetId": "2098832701243654376",
-          "replies": 61,
-          "retweets": 7,
-          "text": "wtf? 2030? 😂 🤦\n\nSomeone should just use AI to make StarCraft 3 at this point… https://t.co/RInemiP3nC",
-          "url": "https://x.com/petergyang/status/2098843136328171540"
         }
       ],
       "source": "x",
@@ -895,39 +736,6 @@
           "retweets": 213,
           "text": "You don't get it, I build software to relax",
           "url": "https://x.com/rauchg/status/2099248037507797164"
-        },
-        {
-          "createdAt": "2026-09-12T17:57:32.000Z",
-          "id": "2098833404707922239",
-          "isQuote": false,
-          "likes": 1955,
-          "quotedTweetId": null,
-          "replies": 122,
-          "retweets": 93,
-          "text": "I’m seeing teams at Vercel iterate just as fast on Zig, Go, Rust projects as TypeScript &amp; Python ones.\n\nThe days of language or runtime choice based on human convenience are over. Agents are the new compilers.\n\nThey compile intent into fast software.",
-          "url": "https://x.com/rauchg/status/2098833404707922239"
-        },
-        {
-          "createdAt": "2026-09-12T15:59:00.000Z",
-          "id": "2098803573861621778",
-          "isQuote": true,
-          "likes": 664,
-          "quotedTweetId": "2098800924776903047",
-          "replies": 49,
-          "retweets": 40,
-          "text": "https://t.co/OL0LzGsXKY can now orchestrate subagents with different models & reasoning efforts.\n\ne.g: Fable planning and Grok executing. Fable is a genius, Grok is a fast workhorse.\n\n① Simple. 𝙰𝙶𝙴𝙽𝚃𝚂.𝚖𝚍 or your prompt can indicate this preference.\n\n② Steer as you please. It’s extremely enjoyable to use. You just talk to the agent and interrupt at will.\n\nWorth noting this works with any model, any gateway. No fancy server-side routing. Just harnessing (no pun intended) the model’s intelligence and ability to orchestrate.",
-          "url": "https://x.com/rauchg/status/2098803573861621778"
-        },
-        {
-          "createdAt": "2026-09-12T14:55:48.000Z",
-          "id": "2098787667030712757",
-          "isQuote": false,
-          "likes": 2656,
-          "quotedTweetId": null,
-          "replies": 206,
-          "retweets": 247,
-          "text": "The concerns over AI safety and cybersecurity are legitimate, but we’re risking talking America, the global AI leader, into self-inflicted obsolescence and the obscurity of bureaucracy.\n\nThe OpenAI hacking HuggingFace argument is spurious. An agent in “ExploitGym”… exploited. Our adversaries have the training techniques, the data, and the will to attack. And they won’t be slowed down with “embedded evaluators.” They’ll likely have embedded accelerators!",
-          "url": "https://x.com/rauchg/status/2098787667030712757"
         }
       ],
       "source": "x",
@@ -947,28 +755,6 @@
           "retweets": 1,
           "text": "Stud traders like Kaushik love Muse! https://t.co/UPhEaGi5g6",
           "url": "https://x.com/realmadhuguru/status/2099224198732517750"
-        },
-        {
-          "createdAt": "2026-09-12T19:41:08.000Z",
-          "id": "2098859477219037691",
-          "isQuote": true,
-          "likes": 23,
-          "quotedTweetId": "2098851577050046478",
-          "replies": 2,
-          "retweets": 0,
-          "text": "Prediction: we will see movement of a lot more of the brightest minds on frontier model evals towards groups like METR over the next 12 months.\n\nThis skill is currently concentrated in \nin a few labs,  data providers and independent research groups.\n\nA combination of increased funding, financial independence from lab equity and the call to meet the existential risk of AI will motivate a migration of minds to this bigger cause.",
-          "url": "https://x.com/realmadhuguru/status/2098859477219037691"
-        },
-        {
-          "createdAt": "2026-09-12T15:59:34.000Z",
-          "id": "2098803717432860987",
-          "isQuote": true,
-          "likes": 29,
-          "quotedTweetId": "2098773920774074715",
-          "replies": 5,
-          "retweets": 0,
-          "text": "Before we solve AI alignment, we have a pretty serious human alignment problem. \n\nIt is jarring to see the bad-faith reaction to Dario's piece from so many sides. I don't agree with every point of his essay but do believe it is a thoughtful piece everyone should read. It builds on some of the ideas @demishassabis  raised in July.\n\nIt is clear we need to focus on aligning amongst us humans on a few questions:\n\nWhat is the opportunity, risks, second-order effects?\n\nHow do we measure all of this?\n\nHow do companies, governments and countries coordinate?\n\nAI will benefit humanity if we can get our act together and move together.",
-          "url": "https://x.com/realmadhuguru/status/2098803717432860987"
         }
       ],
       "source": "x",
@@ -1010,17 +796,6 @@
           "retweets": 702,
           "text": "The world deserves confidence that American companies developing increasingly capable AI will act responsibly, especially as the trajectory of progress has steepened. Every frontier lab must deliver on this, and there is no reason any of us should come to work if we cannot.\n\nWe welcome a federal framework that sets consistent safety requirements for frontier AI. But we do not believe we need to wait for an anti-trust exemption or legislation to begin the work of providing this confidence. Consistent rules to manage frontier risk so that we can maximize the benefits are a good idea (and we are excited by ideas like independent auditors).\n\nYears ago, companies like ours developed things like Responsible Scaling Policies and Preparedness Frameworks. Those were good for that moment, and focused primarily on the deployment of completed models, not what happens during their development process.\n\nToday's shift to focusing on safe development and evaluation will need new tools. For example, at OpenAI we now formulate explicit safety cases in advance of frontier reinforcement learning runs we expect to significantly increase capability, in addition to the safety work we have long done in advance of model releases.\n\nWe hope that other companies will learn from our approaches and propose their own; we think shared standards for misalignment, monitoring, and safety will lead to better outcomes. We look forward to collaborating with our colleagues across the industry to formulate the best version of these.\n\nWhen we talk about “pacing”, we do not mean “stopping”. Progress has been rapid and will continue to be. But it should be slower than it otherwise could be; interventions like safety cases and monitoring have significant costs.\n\nPacing will be well worth this cost; no amount of American competitive pressure should justify recklessness, or let capabilities get ahead of alignment and monitoring.\n\nWhere we will need the help of our government is for international coordination. But first we should do what we can ourselves.",
           "url": "https://x.com/sama/status/2099348812305473766"
-        },
-        {
-          "createdAt": "2026-09-12T16:30:45.000Z",
-          "id": "2098811563415150910",
-          "isQuote": true,
-          "likes": 53884,
-          "quotedTweetId": "2098773920774074715",
-          "replies": 4038,
-          "retweets": 5637,
-          "text": "I agree with Dario that we need to pace the frontier. This has been a primary topic of discussions we've had at OpenAI in recent weeks.\n\nCommitting to having independent evaluators with employee-like access is a great idea, and we will do the same. We'll have more to share soon. https://t.co/1YhhIybZX7",
-          "url": "https://x.com/sama/status/2098811563415150910"
         }
       ],
       "source": "x",
@@ -1095,28 +870,6 @@
           "retweets": 2,
           "text": "all sorted out. they defo been cookin!",
           "url": "https://x.com/steipete/status/2098995230314037516"
-        },
-        {
-          "createdAt": "2026-09-13T00:28:04.000Z",
-          "id": "2098931686042210381",
-          "isQuote": false,
-          "likes": 998,
-          "quotedTweetId": null,
-          "replies": 110,
-          "retweets": 23,
-          "text": "Anyone got an invite code for Meta's Muse? 👉👈\n\nI saw their Soul.md file and now i'm curious.",
-          "url": "https://x.com/steipete/status/2098931686042210381"
-        },
-        {
-          "createdAt": "2026-09-12T14:44:42.000Z",
-          "id": "2098784877495939145",
-          "isQuote": true,
-          "likes": 334,
-          "quotedTweetId": "2098370848147357871",
-          "replies": 28,
-          "retweets": 9,
-          "text": "This is amazing. Add Master of Orion 2 next! https://t.co/yHjlwsOLaJ",
-          "url": "https://x.com/steipete/status/2098784877495939145"
         }
       ],
       "source": "x",
@@ -1136,17 +889,6 @@
           "retweets": 0,
           "text": "37 signals would have called the the Nuse Feed https://t.co/RigssbRcMo",
           "url": "https://x.com/thenanyu/status/2099216347138011190"
-        },
-        {
-          "createdAt": "2026-09-12T17:41:26.000Z",
-          "id": "2098829351781593191",
-          "isQuote": true,
-          "likes": 6,
-          "quotedTweetId": "2098821552418803926",
-          "replies": 0,
-          "retweets": 0,
-          "text": "https://t.co/h69bQJ21v9 https://t.co/LRgNJtrq5k",
-          "url": "https://x.com/thenanyu/status/2098829351781593191"
         }
       ],
       "source": "x",
@@ -1229,17 +971,6 @@
           "retweets": 39,
           "text": "I talked to Sid &amp; Robert about building Claude Code: how much things have changed, how hard it's been to keep up with model capabilities and also what we miss about software engineering before AI.\n\nhttps://t.co/vLDFRaXawS",
           "url": "https://x.com/trq212/status/2099551141621329994"
-        },
-        {
-          "createdAt": "2026-09-12T19:46:58.000Z",
-          "id": "2098860941391872132",
-          "isQuote": true,
-          "likes": 2269,
-          "quotedTweetId": "2098773920774074715",
-          "replies": 204,
-          "retweets": 80,
-          "text": "If you showed me Claude Code today in 2018, I would have thought it was AGI.\n\nWe have already absorbed a dramatic amount of change in the profession of software engineering and society as a whole. But still, we’re starting to see cracks.\n\nThings are accelerating faster than I can honestly stay on top of. Most people I know in AI are tired but powering through. I fear we will need more than that.\n\nWe need time to harden our systems, and for society to deliberate in how this technology is used and deployed.\n\nI have a fairly low p(doom), I am confident that we can get through this! Humanity is incredibly reslient and adaptable, but this comes from our ability to make hard decisions- like this one, together.",
-          "url": "https://x.com/trq212/status/2098860941391872132"
         }
       ],
       "source": "x",
@@ -1266,8 +997,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 21,
-    "xTweets": 99,
-    "windowSpanHours": 84.19
+    "xBuilders": 19,
+    "xTweets": 76,
+    "windowSpanHours": 72.48
   }
 }

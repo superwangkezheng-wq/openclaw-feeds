@@ -1,61 +1,71 @@
 {
   "36kr-ai": {
-    "bytes": 404894,
-    "lastSuccess": "2026-09-16T12:39:45Z",
+    "bytes": 422491,
+    "lastSuccess": "2026-09-17T01:31:10Z",
     "via": "https://rss.injahow.cn/36kr/information/AI"
   },
   "youtube/UC1LpsuAUaKoMzzJSEt5WImw": {
     "bytes": 21144,
+    "lastError": "2026-09-17T01:31:10Z: https://www.youtube.com/feeds/videos.xml?channel_id=UC1LpsuAUaKoMzzJSEt5WImw -> HTTP Error 404: Not Found",
     "lastSuccess": "2026-09-16T12:39:45Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1LpsuAUaKoMzzJSEt5WImw"
   },
   "youtube/UC2LCc4VvMYj-6Kqe09avwow": {
     "bytes": 25417,
+    "lastError": "2026-09-17T01:31:10Z: https://www.youtube.com/feeds/videos.xml?channel_id=UC2LCc4VvMYj-6Kqe09avwow -> HTTP Error 500: Internal Server Error",
     "lastSuccess": "2026-09-16T12:39:45Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2LCc4VvMYj-6Kqe09avwow"
   },
   "youtube/UCIDll3SRcbHwwcXbrwvBZNw": {
     "bytes": 55312,
+    "lastError": "2026-09-17T01:31:10Z: https://www.youtube.com/feeds/videos.xml?channel_id=UCIDll3SRcbHwwcXbrwvBZNw -> HTTP Error 404: Not Found",
     "lastSuccess": "2026-09-16T12:39:45Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIDll3SRcbHwwcXbrwvBZNw"
   },
   "youtube/UCRPdsCVuH53rcbTcEkuY4uQ": {
     "bytes": 59796,
+    "lastError": "2026-09-17T01:31:10Z: https://www.youtube.com/feeds/videos.xml?channel_id=UCRPdsCVuH53rcbTcEkuY4uQ -> HTTP Error 404: Not Found",
     "lastSuccess": "2026-09-16T12:39:45Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRPdsCVuH53rcbTcEkuY4uQ"
   },
   "youtube/UCXUPKJO5MZQN11PqgIvyuvQ": {
     "bytes": 55584,
+    "lastError": "2026-09-17T01:31:10Z: https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ -> HTTP Error 404: Not Found",
     "lastSuccess": "2026-09-16T12:39:45Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ"
   },
   "youtube/UCZHmQk67mSJgfCCTn7xBfew": {
     "bytes": 39788,
+    "lastError": "2026-09-17T01:31:10Z: https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew -> HTTP Error 404: Not Found",
     "lastSuccess": "2026-09-16T12:39:45Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew"
   },
   "youtube/UC_CzsS7UTjcxJ-xXp1ftxtA": {
     "bytes": 36476,
+    "lastError": "2026-09-17T01:31:10Z: https://www.youtube.com/feeds/videos.xml?channel_id=UC_CzsS7UTjcxJ-xXp1ftxtA -> HTTP Error 404: Not Found",
     "lastSuccess": "2026-09-16T12:39:45Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_CzsS7UTjcxJ-xXp1ftxtA"
   },
   "youtube/UCawZsQWqfGSbCI5yjkdVkTA": {
     "bytes": 24083,
+    "lastError": "2026-09-17T01:31:10Z: https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA -> HTTP Error 404: Not Found",
     "lastSuccess": "2026-09-16T12:39:45Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA"
   },
   "youtube/UCbfYPyITQ-7l4upoX8nvctg": {
     "bytes": 29343,
+    "lastError": "2026-09-17T01:31:10Z: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg -> HTTP Error 404: Not Found",
     "lastSuccess": "2026-09-16T12:39:45Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"
   },
   "youtube/UCcIXc5mJsHVYTZR1maL5l9w": {
     "bytes": 33370,
-    "lastSuccess": "2026-09-16T12:39:45Z",
+    "lastSuccess": "2026-09-17T01:31:10Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcIXc5mJsHVYTZR1maL5l9w"
   },
   "youtube/UCdp4_l1vPmpN-gDbUwhaRUQ": {
     "bytes": 37831,
+    "lastError": "2026-09-17T01:31:10Z: https://www.youtube.com/feeds/videos.xml?channel_id=UCdp4_l1vPmpN-gDbUwhaRUQ -> HTTP Error 500: Internal Server Error",
     "lastSuccess": "2026-09-16T12:39:45Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCdp4_l1vPmpN-gDbUwhaRUQ"
   }
