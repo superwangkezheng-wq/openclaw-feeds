@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-17T12:38:35.000Z",
+  "generatedAt": "2026-09-18T01:19:08.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-09-17T06:42:41.601Z",
-    "ageHours": 5.93
+    "ageHours": 18.61
   },
   "x": [
     {
@@ -106,17 +106,6 @@
           "retweets": 6,
           "text": "This is an incredible demo.\n\nAI can be human. That is the ultimate goal.\n\nSo proud to have been their earliest partner.\n\nAs always, a lot more to build. https://t.co/4mDkza2Nd4",
           "url": "https://x.com/adityaag/status/2099529959262019887"
-        },
-        {
-          "createdAt": "2026-09-13T22:10:11.000Z",
-          "id": "2099259374544003527",
-          "isQuote": false,
-          "likes": 12,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 1,
-          "text": "Imagine a world where we didn’t have to rely on any one organization to be good and virtuous. https://t.co/Vkz9lpNeE2",
-          "url": "https://x.com/adityaag/status/2099259374544003527"
         }
       ],
       "source": "x",
@@ -199,17 +188,6 @@
           "retweets": 4,
           "text": "Nominal determinism strikes again. https://t.co/rFD1V1y2D9",
           "url": "https://x.com/amasad/status/2099343474734911917"
-        },
-        {
-          "createdAt": "2026-09-13T18:02:48.000Z",
-          "id": "2099197117013340450",
-          "isQuote": true,
-          "likes": 179,
-          "quotedTweetId": "2097229192157188361",
-          "replies": 38,
-          "retweets": 12,
-          "text": "It was painful to see so many users being priced out of AI coding for a while. But now it’s free to build again! https://t.co/LBe5fPBBGC https://t.co/VwkZ2a5QAN",
-          "url": "https://x.com/amasad/status/2099197117013340450"
         }
       ],
       "source": "x",
@@ -377,28 +355,6 @@
           "retweets": 74,
           "text": "we almost never test new foundation models but we've been testing this for ~a week @every and it's pretty wild.\n\nthe kind of things that will be obviously indispensible in 6-12 months\n\nit doesn't produce words as output, it produces probabilities. so it can efficiently act as a judge in cases where you'd need a Fable-level model—but in our testing was 25x faster and 600x lower priced \n\nexcellent vibe check by @hammer_mt on @every:\nhttps://t.co/yVX25Wsu4Z",
           "url": "https://x.com/danshipper/status/2099947471518474522"
-        },
-        {
-          "createdAt": "2026-09-13T20:18:26.000Z",
-          "id": "2099231248027730195",
-          "isQuote": false,
-          "likes": 285,
-          "quotedTweetId": null,
-          "replies": 24,
-          "retweets": 7,
-          "text": "started using Astra medium for simple tasks\n\ncall that pacing the frontier",
-          "url": "https://x.com/danshipper/status/2099231248027730195"
-        },
-        {
-          "createdAt": "2026-09-13T15:06:35.000Z",
-          "id": "2099152769080828197",
-          "isQuote": true,
-          "likes": 9,
-          "quotedTweetId": "2099152064072790468",
-          "replies": 1,
-          "retweets": 0,
-          "text": "we’re going to the moon https://t.co/f02uVIYNHS",
-          "url": "https://x.com/danshipper/status/2099152769080828197"
         }
       ],
       "source": "x",
@@ -462,17 +418,6 @@
           "retweets": 5,
           "text": "Interesting to realize this peptides boom didn't start in SF but rather the midwest in bodybuilding subcultures\n\nI recently started using peptides with @Ronan_RX and I've lost 18 lbs in two months! https://t.co/kIOkGEkOGf",
           "url": "https://x.com/garrytan/status/2099948078606520676"
-        },
-        {
-          "createdAt": "2026-09-13T17:01:27.000Z",
-          "id": "2099181676039704870",
-          "isQuote": true,
-          "likes": 219,
-          "quotedTweetId": "2099142144917159984",
-          "replies": 39,
-          "retweets": 9,
-          "text": "The content about startups we do is merely the teaser for the specific advice we give 1:1 when you actually are a YC startup https://t.co/MZ2tMlxLzJ",
-          "url": "https://x.com/garrytan/status/2099181676039704870"
         }
       ],
       "source": "x",
@@ -588,17 +533,6 @@
           "retweets": 11,
           "text": "Protecting enterprise data in a world where agents are using our systems 100X more than people ever did is going to be one of the more complex security and governance challenges of the 21st century. \n\nImportantly, security and productivity gains are inexorably linked in the world of AI. If you give an agent too much unfettered information access, it will be difficult to truly control and protect your data; and conversely, if you lock everything down completely, you won’t get any real productivity gains from AI.\n\nWe need all new ways to protect our systems, environments, and structured and unstructured dada in the enterprise in an intelligent way by modernizing our approach to security and governance.\n\nAt Box, as one example, we’re building new intelligent ways to protect enterprise data and agentic use of that information. A recent update in Box Shield is to provide granular controls on what content agents can and can’t work with based on document classification level. We’re also working on other features that can automatically detect and alert (or block) when data is being accessed or used in unusual or anomalous ways by agents.\n\nAnd this is just the start. There’s a ton more innovation coming across the entire industry - from the labs like OpenAI or Anthropic; security platforms like Palo Alto Networks, Cisco, CrowdStrike, Okta; or startups like Enclave, Method, Alterion, Runlayer, and many many others - to rethink how we protect information in the world of AI agents. Exciting and wild times ahead.",
           "url": "https://x.com/levie/status/2099550035239424465"
-        },
-        {
-          "createdAt": "2026-09-13T16:07:04.000Z",
-          "id": "2099167992835924301",
-          "isQuote": false,
-          "likes": 168,
-          "quotedTweetId": null,
-          "replies": 65,
-          "retweets": 30,
-          "text": "“Pacing” can be somewhat of a trigger word because it sounds like an arbitrary slow down of capability or a way to hobble competitors through undue regulation. \n\nHowever, the specific improvement goals laid out in Dario’s are absolute necessities in AI development. We expect equivalent in areas like aerospace, life sciences, health care, and other industries, and AI development likely shouldn’t be that different. \n\nAI is going to be the technology underpinning our financial trading systems, our medical devices, our biotech breakthroughs, defense systems, government workflows, and many more mission critical domains. So it completely stands to reason that we want these systems to be safe and “aligned”. \n\nHow we get there -without meaningfully slowing down innovation progress or reducing competition- is one of the most complex questions in the 21st century, but the need is clearly real.",
-          "url": "https://x.com/levie/status/2099167992835924301"
         }
       ],
       "source": "x",
@@ -629,17 +563,6 @@
           "retweets": 3,
           "text": "Ok, this was a fun weekend, but we all understand AI progress is not going to slow down, right? Too many players, too many economic incentives and too much prisoner's dilemma, both domestically and globally.",
           "url": "https://x.com/mattturck/status/2099589199104033031"
-        },
-        {
-          "createdAt": "2026-09-13T22:02:20.000Z",
-          "id": "2099257395708879286",
-          "isQuote": false,
-          "likes": 333,
-          "quotedTweetId": null,
-          "replies": 9,
-          "retweets": 10,
-          "text": "Seed investor when a company he forgot about years ago gets acquired out of nowhere https://t.co/X6NWlHRNle",
-          "url": "https://x.com/mattturck/status/2099257395708879286"
         }
       ],
       "source": "x",
@@ -714,39 +637,6 @@
           "retweets": 0,
           "text": "PSA to the new Dreamforce visitors.. Lyft bike is way way faster for your intra city commutes than spending hours stuck in a Waymo /  Uber. \n\nThe dedicated bike lanes in SOMA make this a breeze. \n\nJust like open source models you get 90% of the value for 10% of the time!",
           "url": "https://x.com/nikunj/status/2099536440006955445"
-        },
-        {
-          "createdAt": "2026-09-13T23:02:53.000Z",
-          "id": "2099272635926671532",
-          "isQuote": true,
-          "likes": 0,
-          "quotedTweetId": "2000708700823335051",
-          "replies": 0,
-          "retweets": 0,
-          "text": "All the questions to ask when you’re joining a startup https://t.co/m3c5GRQ7kI",
-          "url": "https://x.com/nikunj/status/2099272635926671532"
-        },
-        {
-          "createdAt": "2026-09-13T22:59:07.000Z",
-          "id": "2099271686969569309",
-          "isQuote": false,
-          "likes": 35,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 1,
-          "text": "When a seed investor realizes their marked down investment is suddenly going to return half the fund..  https://t.co/5V4BhqW7Dx",
-          "url": "https://x.com/nikunj/status/2099271686969569309"
-        },
-        {
-          "createdAt": "2026-09-13T18:08:34.000Z",
-          "id": "2099198567923765357",
-          "isQuote": true,
-          "likes": 75,
-          "quotedTweetId": "2099189835982315905",
-          "replies": 3,
-          "retweets": 1,
-          "text": "I get at least 1x text a day from a founder facing this exact conundrum..\n\nApplicants your entry valuation being higher and your total comp being higher is often a bug and not a feature. \n\nJust because a company has raised at a higher valuation doesn’t mean they are realistically more secure and the better place to go. \n\nYou have to really look at the numbers objectively - what’s the market, what’s the traction and how well positioned are they. And if they are worth 100x ARR, well they have to grow into it. \n\nThen, do your own analysis on what do you think this company exits at. Not to mention your 409a prices and tax implications. \n\nIt’s so freaking important right now when everything is upside down and numbers are not rooted in reality.\n\nPS: I have first hand personal experience with this. I worked at a company that raised $60M from probably one of the best investors on this planet. And the company folded 3 years in, all equity wiped out.",
-          "url": "https://x.com/nikunj/status/2099198567923765357"
         }
       ],
       "source": "x",
@@ -865,28 +755,6 @@
           "retweets": 0,
           "text": "I'm really curious who's actually managing this account https://t.co/BWu6Imtxuy",
           "url": "https://x.com/petergyang/status/2099345068893298816"
-        },
-        {
-          "createdAt": "2026-09-13T18:15:11.000Z",
-          "id": "2099200231820963891",
-          "isQuote": true,
-          "likes": 44,
-          "quotedTweetId": "2099139853170733280",
-          "replies": 10,
-          "retweets": 5,
-          "text": "While we're all debating whether AI will lead to a bad outcome for humanity, it's important to remember that most of the world hasn’t even started using it yet.\n\nPedro, Brex’s CEO, likes to refer to a specific chart (see the clip):\n\n“Each dot is 3.2 million people. Every gray box is someone that never used AI in the world (84%). Green boxes are free chatbot users (16%). Orange boxes are people who pay $20 a month for AI (~0.3%).\n\nAnd this tiny red box is people using agents effectively (~0.04%).”\n\nI think the chart is from February 2026, so things have probably picked up since then, but we're still super early.\n\n📌 Watch the full episode here: https://t.co/0E7XHvBEBR",
-          "url": "https://x.com/petergyang/status/2099200231820963891"
-        },
-        {
-          "createdAt": "2026-09-13T16:36:08.000Z",
-          "id": "2099175305818890472",
-          "isQuote": false,
-          "likes": 8,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 0,
-          "text": "Record &amp; Replay seems broken and won't trigger @nickbaumann_ @OpenAIDevs https://t.co/RYm8F1y3vT",
-          "url": "https://x.com/petergyang/status/2099175305818890472"
         }
       ],
       "source": "x",
@@ -994,17 +862,6 @@
           "retweets": 41,
           "text": "Welcoming Steren, creator of Google Cloud Run, to Vercel.\n\nHe will lead the Fluid family of compute products (Functions, Containers, Sandbox, Builds).\n\nServerless was the last chapter of the cloud, and Steren helped define the paradigm at Google.\n\nAgents are the next frontier, and they require new compute primitives designed for them. Excited for Steren to lead this transition once again.",
           "url": "https://x.com/rauchg/status/2099514906366328902"
-        },
-        {
-          "createdAt": "2026-09-13T21:25:08.000Z",
-          "id": "2099248037507797164",
-          "isQuote": false,
-          "likes": 2523,
-          "quotedTweetId": null,
-          "replies": 165,
-          "retweets": 213,
-          "text": "You don't get it, I build software to relax",
-          "url": "https://x.com/rauchg/status/2099248037507797164"
         }
       ],
       "source": "x",
@@ -1024,17 +881,6 @@
           "replies": 1,
           "isQuote": true,
           "quotedTweetId": "2099997096896274533"
-        },
-        {
-          "createdAt": "2026-09-13T19:50:25.000Z",
-          "id": "2099224198732517750",
-          "isQuote": true,
-          "likes": 6,
-          "quotedTweetId": "2099154608325267720",
-          "replies": 2,
-          "retweets": 1,
-          "text": "Stud traders like Kaushik love Muse! https://t.co/UPhEaGi5g6",
-          "url": "https://x.com/realmadhuguru/status/2099224198732517750"
         }
       ],
       "source": "x",
@@ -1117,62 +963,10 @@
           "retweets": 19,
           "text": "This is so useful. pushing to add this to codex as well. https://t.co/Pqs53SlKM7",
           "url": "https://x.com/steipete/status/2099571935495827761"
-        },
-        {
-          "createdAt": "2026-09-13T22:20:59.000Z",
-          "id": "2099262092633411832",
-          "isQuote": false,
-          "likes": 45,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 1,
-          "text": "And yes, I'll test this for a few weeks and if we see that this helps the majority of users I'll try to get this into codex!",
-          "url": "https://x.com/steipete/status/2099262092633411832"
-        },
-        {
-          "createdAt": "2026-09-13T18:18:53.000Z",
-          "id": "2099201162922938418",
-          "isQuote": false,
-          "likes": 102,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 5,
-          "text": "This is all written in Rust.\nBecause you can't escape Rust. https://t.co/WnauslO08k",
-          "url": "https://x.com/steipete/status/2099201162922938418"
-        },
-        {
-          "createdAt": "2026-09-13T18:03:24.000Z",
-          "id": "2099197266636783989",
-          "isQuote": false,
-          "likes": 643,
-          "quotedTweetId": null,
-          "replies": 43,
-          "retweets": 18,
-          "text": "Next release (or dev channel) does worktrees ~80% faster via apfs/brtfs/xfs/ReFS folder clones.\n\nAlso saves lots of disk space.",
-          "url": "https://x.com/steipete/status/2099197266636783989"
         }
       ],
       "source": "x",
       "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI"
-    },
-    {
-      "handle": "thenanyu",
-      "name": "Nan Yu",
-      "tweets": [
-        {
-          "createdAt": "2026-09-13T19:19:13.000Z",
-          "id": "2099216347138011190",
-          "isQuote": true,
-          "likes": 13,
-          "quotedTweetId": "2099150117156888757",
-          "replies": 0,
-          "retweets": 0,
-          "text": "37 signals would have called the the Nuse Feed https://t.co/RigssbRcMo",
-          "url": "https://x.com/thenanyu/status/2099216347138011190"
-        }
-      ],
-      "source": "x",
-      "bio": "(soon) member of product staff @openai. prev head of product @linear. I am grader."
     },
     {
       "handle": "thsottiaux",
@@ -1354,8 +1148,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 21,
-    "xTweets": 107,
-    "windowSpanHours": 85.82
+    "xBuilders": 20,
+    "xTweets": 89,
+    "windowSpanHours": 74.58
   }
 }
