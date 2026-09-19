@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-18T12:16:44.000Z",
+  "generatedAt": "2026-09-19T01:16:55.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-09-18T06:41:02.530Z",
-    "ageHours": 5.6
+    "ageHours": 18.6
   },
   "x": [
     {
@@ -106,28 +106,6 @@
           "retweets": 5,
           "text": "Profound started at @spc. \n\nWe're proud to be a part of the journey. \n\nOnwards. https://t.co/LlM4KCSzO3",
           "url": "https://x.com/adityaag/status/2099905666324312141"
-        },
-        {
-          "createdAt": "2026-09-14T19:10:06.000Z",
-          "id": "2099576440413184148",
-          "isQuote": false,
-          "likes": 2,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "Seriously you'll want to see this for yourself https://t.co/E9dVohVV0B",
-          "url": "https://x.com/adityaag/status/2099576440413184148"
-        },
-        {
-          "createdAt": "2026-09-14T16:05:24.000Z",
-          "id": "2099529959262019887",
-          "isQuote": true,
-          "likes": 118,
-          "quotedTweetId": "2099524751534477822",
-          "replies": 7,
-          "retweets": 6,
-          "text": "This is an incredible demo.\n\nAI can be human. That is the ultimate goal.\n\nSo proud to have been their earliest partner.\n\nAs always, a lot more to build. https://t.co/4mDkza2Nd4",
-          "url": "https://x.com/adityaag/status/2099529959262019887"
         }
       ],
       "source": "x",
@@ -262,17 +240,6 @@
           "retweets": 60,
           "text": "Claude Code showed that AI could do real work, not just answer questions. Developers hand Claude a feature, come back to shipped code. That's where much of the industry's serious engineering runs now.\n\nCowork proved knowledge workers could do the same: hand Claude the brief, come back to finished files.\n\nToday, chat and Cowork start merging into one Claude. The direction: one Claude that carries context across everything you're working on, wherever you are. Simple enough for everyone to access Claude's full capabilities.\n\nI've been using this experience every day for the last few weeks, and it feels awesome. Simpler, faster, and more powerful.\n\nWe're rolling this out slowly. We'll be fine-tuning the experience as we go to ensure it is fast and reliable. Can't wait to hear what you think.",
           "url": "https://x.com/bcherny/status/2100259951398789487"
-        },
-        {
-          "createdAt": "2026-09-14T17:30:10.000Z",
-          "id": "2099551291601248485",
-          "isQuote": false,
-          "likes": 2169,
-          "quotedTweetId": null,
-          "replies": 243,
-          "retweets": 140,
-          "text": "Claude Mods are landing now. Someone already built a Tetris-in-Claude mod 🤯\n\nSee issue for the latest community update, technical details, and more cool demos\n\nhttps://t.co/A15qGUZ6nx https://t.co/EbE2s7FZqK",
-          "url": "https://x.com/bcherny/status/2099551291601248485"
         }
       ],
       "source": "x",
@@ -610,28 +577,6 @@
           "retweets": 19,
           "text": "New updates in @Gemini_Notebook for students, my 2 favorites:\n\n1) Have a live, spoken Q&A with your class materials in ~100 languages\n\n2) Record lectures and notes on the go, the audio notes save automatically into your chosen notebook\n\nAs a university student, you can also still get a free Google AI Plan in 140+ countries for bigger limits and access to more Google products!",
           "url": "https://x.com/joshwoodward/status/2099921866014306633"
-        },
-        {
-          "createdAt": "2026-09-14T19:03:58.000Z",
-          "id": "2099574899555930114",
-          "isQuote": true,
-          "likes": 181,
-          "quotedTweetId": "2099516315698442615",
-          "replies": 14,
-          "retweets": 14,
-          "text": "Come design with us! https://t.co/NqDvgj43Wp",
-          "url": "https://x.com/joshwoodward/status/2099574899555930114"
-        },
-        {
-          "createdAt": "2026-09-14T17:58:35.000Z",
-          "id": "2099558443078365287",
-          "isQuote": false,
-          "likes": 1001,
-          "quotedTweetId": null,
-          "replies": 104,
-          "retweets": 58,
-          "text": "2 months ago, we launched a Gemini power user group to test early features in the app. 20+ features tested later, your feedback has been incredible. Thank you!\n\nA new cohort is now getting early access to what’s next for Daily Brief & Personal Intelligence, and we’ll keep onboarding people.\n\n​Join our community: https://t.co/uXdeIrtxhj",
-          "url": "https://x.com/joshwoodward/status/2099558443078365287"
         }
       ],
       "source": "x",
@@ -684,51 +629,10 @@
           "retweets": 8,
           "text": "We probably need to all update our sense of what’s coming in terms of agentic workloads with the combination of agent swarms, better computer use, the next wave of APIs and MCPs coming online, and new form factors like Muse or Instinct, vertical enterprise agents, background workflow agents, and other products that are emerging right now. \n\nWe’re going to throw agents at vastly more tasks in our professional and personal lives than we had initially imagined. The kind of information that agents will go out and find for us and do work for us in the background is going to be 100X more volume than what we can imagine previously prompting in a single session. \n\nYou’re going to have agents go out and surgically recruit talent for you 24/7, look for every signal in your customer’s business for when to pitch them, process every single transcript and conversation for product insights, review every line of code written for security issues and bugs, brute force test your systems for issues, and 100s of other tasks.\n\nWe’re probably 1% of the way into the shape of what all these agents look like, where they get deployed from, how they get managed, how we budget for them, and so on. But it’s inevitably going to happen at a scale that wouldn’t have been fathomable before.",
           "url": "https://x.com/levie/status/2099739019517235618"
-        },
-        {
-          "createdAt": "2026-09-14T17:25:10.000Z",
-          "id": "2099550035239424465",
-          "isQuote": true,
-          "likes": 68,
-          "quotedTweetId": "2099537294726439166",
-          "replies": 33,
-          "retweets": 11,
-          "text": "Protecting enterprise data in a world where agents are using our systems 100X more than people ever did is going to be one of the more complex security and governance challenges of the 21st century. \n\nImportantly, security and productivity gains are inexorably linked in the world of AI. If you give an agent too much unfettered information access, it will be difficult to truly control and protect your data; and conversely, if you lock everything down completely, you won’t get any real productivity gains from AI.\n\nWe need all new ways to protect our systems, environments, and structured and unstructured dada in the enterprise in an intelligent way by modernizing our approach to security and governance.\n\nAt Box, as one example, we’re building new intelligent ways to protect enterprise data and agentic use of that information. A recent update in Box Shield is to provide granular controls on what content agents can and can’t work with based on document classification level. We’re also working on other features that can automatically detect and alert (or block) when data is being accessed or used in unusual or anomalous ways by agents.\n\nAnd this is just the start. There’s a ton more innovation coming across the entire industry - from the labs like OpenAI or Anthropic; security platforms like Palo Alto Networks, Cisco, CrowdStrike, Okta; or startups like Enclave, Method, Alterion, Runlayer, and many many others - to rethink how we protect information in the world of AI agents. Exciting and wild times ahead.",
-          "url": "https://x.com/levie/status/2099550035239424465"
         }
       ],
       "source": "x",
       "bio": "ceo @box - your business lives in content. unleash it with AI"
-    },
-    {
-      "handle": "mattturck",
-      "name": "Matt Turck",
-      "tweets": [
-        {
-          "createdAt": "2026-09-14T23:00:19.000Z",
-          "id": "2099634379093848156",
-          "isQuote": false,
-          "likes": 26,
-          "quotedTweetId": null,
-          "replies": 4,
-          "retweets": 0,
-          "text": "Ramp’s brand marketing is just genius at this point - an actual Broadway musical about bills is… unhinged in the best possible way lol \n\n(👏@eglyman and team… no CMO) https://t.co/L7mwWOQlXP",
-          "url": "https://x.com/mattturck/status/2099634379093848156"
-        },
-        {
-          "createdAt": "2026-09-14T20:00:48.000Z",
-          "id": "2099589199104033031",
-          "isQuote": false,
-          "likes": 34,
-          "quotedTweetId": null,
-          "replies": 11,
-          "retweets": 3,
-          "text": "Ok, this was a fun weekend, but we all understand AI progress is not going to slow down, right? Too many players, too many economic incentives and too much prisoner's dilemma, both domestically and globally.",
-          "url": "https://x.com/mattturck/status/2099589199104033031"
-        }
-      ],
-      "source": "x",
-      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape."
     },
     {
       "handle": "nikunj",
@@ -799,28 +703,6 @@
           "retweets": 0,
           "text": "I’m meeting one too many founders who think the money spigot will magically flow and the next round will happen no matter what..\n\nCapital is a weapon for acceleration. Used well you’re unbeatable. If you are so dependent on it, a simple downturn can lead to not so great consequences. If you don’t believe me, a simple prompt asking for this history will suffice. \n\nSo been sharing this with a lot of the founders we advise: figure out the default path that ensures the survival of your company and a great self fulfilling business. \n\nAnd then figure out scenarios where abundant (or lack of) capital and what it does to your business. \n\nThe only constant is change and we don’t know how capital markets evolve in the next 6-18 months!",
           "url": "https://x.com/nikunj/status/2100008917980102863"
-        },
-        {
-          "createdAt": "2026-09-14T22:47:28.000Z",
-          "id": "2099631145268969840",
-          "isQuote": false,
-          "likes": 9,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 1,
-          "text": "I have been obsessed with closed payment loops for a LONG time, and have been looking to find a company trying to solve a real problem.. excited to finally back Piston (piston dot com) ⛽️\n\nUSA alone spends hundreds of billions in fuel. Most of that spend comes through cards (credit, fuel, or sometime house cards). However, a lot of these cards are not even tied to a particular driver. They often get stolen, skimmed, or misused. The fleet owner then has to eat the fraud and then spend a long time reconciling what exactly happened. The gas station has to pay interchange fees to accept the card, but has no relationship with the fleets on the other side. And a lot of companies have come and gone trying to optimize this infrastructure rather than thinking about it from the very beginning.\n\nYou really can't fix this issue by JUST building a better fuel card. The card is the problem, and so Piston decided to get rid of it. It moves the payment over its own rails without networks or any intermediaries. Piston pays the station and then invoices the fleet. Every transaction is tied to a specific driver with the time, location, and fuel type attached, and soon it'll be integrated with the vehicle itself.\n\nThe founders faced this problem themselves. @vik_sekhon runs his own fleet of trucks, and his fleet lost real money to fuel fraud. @Shivam2291 used to recruit thousands of drivers before the two of them got together to help build Piston. The best signal for how effective Piston is for fleets is the moment they switch over to Piston, they see their fuel spend automatically go down. I have seen so many charts and customer quotes that show this directly.\n\nCustomer love shows in the metrics. Payment volume has grown 8x and merchant network has grown 40x while retention has stayed above 98%. Piston is now live across 2,000 stations and across 48 states. Fleets pay nothing for it today and they get fraud prevention, which is what a card-based system cannot offer. Gas stations get direct access to fleets to help build loyalty and offer adjacent products.\n\nTo increase their reach, Piston is now directly integrated with POS of the majority of gas stations in America. This allows them to turn on hundreds of gas stations at once, secure supply and hence fulfill their already burgeoning demand. \n\nThrilled to be leading their Series A and joining the board, along with existing investors @sparkcapital & @pearvc. Special thanks to @arpans who introduced me to this team last year!",
-          "url": "https://x.com/nikunj/status/2099631145268969840"
-        },
-        {
-          "createdAt": "2026-09-14T16:31:09.000Z",
-          "id": "2099536440006955445",
-          "isQuote": false,
-          "likes": 54,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 0,
-          "text": "PSA to the new Dreamforce visitors.. Lyft bike is way way faster for your intra city commutes than spending hours stuck in a Waymo /  Uber. \n\nThe dedicated bike lanes in SOMA make this a breeze. \n\nJust like open source models you get 90% of the value for 10% of the time!",
-          "url": "https://x.com/nikunj/status/2099536440006955445"
         }
       ],
       "source": "x",
@@ -939,17 +821,6 @@
           "retweets": 1,
           "text": "Voice has made me more productive going on walks in nature than staring at my screen which is an incredible feeling https://t.co/ZdswcGeOfx",
           "url": "https://x.com/petergyang/status/2099677771408846975"
-        },
-        {
-          "createdAt": "2026-09-15T01:14:42.000Z",
-          "id": "2099668196651610556",
-          "isQuote": true,
-          "likes": 146,
-          "quotedTweetId": "2099362510440628235",
-          "replies": 10,
-          "retweets": 6,
-          "text": "She sounds super cool tbh https://t.co/AcZzpD9W0H",
-          "url": "https://x.com/petergyang/status/2099668196651610556"
         }
       ],
       "source": "x",
@@ -1057,39 +928,6 @@
           "retweets": 10,
           "text": "The future is multi-model. Trying to hide the choice confuses and hurts customers, who can't participate in the upside of the most exciting market competition of our times, nor master the best tool for the job. https://t.co/DWMmd7lUqX",
           "url": "https://x.com/rauchg/status/2099905740505055680"
-        },
-        {
-          "createdAt": "2026-09-15T00:14:28.000Z",
-          "id": "2099653035685445760",
-          "isQuote": false,
-          "likes": 200,
-          "quotedTweetId": null,
-          "replies": 29,
-          "retweets": 3,
-          "text": "One of the coolest things about 𝚏𝚡 is that it auto-upgrades, and 𝚌𝚝𝚛𝚕+𝚐 restarts + resumes the chat. \n\nAlso, that 0.0.10 is much, much faster for longer sessions 😊 https://t.co/vsf8v0KT3C https://t.co/mnEBbvz529",
-          "url": "https://x.com/rauchg/status/2099653035685445760"
-        },
-        {
-          "createdAt": "2026-09-14T16:48:49.000Z",
-          "id": "2099540886409695346",
-          "isQuote": true,
-          "likes": 1182,
-          "quotedTweetId": "2099534231114314145",
-          "replies": 71,
-          "retweets": 37,
-          "text": "Agents are only as good as the proof-checkers, compilers, type systems, and linters you give them.\n\n𝚜𝚑𝚊𝚍𝚌𝚗/𝚕𝚒𝚗𝚝 helps agents stay on track with the rules of your design system.\n\nMeta: verifiers + skills are the new 'frameworks'! https://t.co/eHygdAWFrg",
-          "url": "https://x.com/rauchg/status/2099540886409695346"
-        },
-        {
-          "createdAt": "2026-09-14T15:05:35.000Z",
-          "id": "2099514906366328902",
-          "isQuote": true,
-          "likes": 1935,
-          "quotedTweetId": "2099504151399104899",
-          "replies": 83,
-          "retweets": 41,
-          "text": "Welcoming Steren, creator of Google Cloud Run, to Vercel.\n\nHe will lead the Fluid family of compute products (Functions, Containers, Sandbox, Builds).\n\nServerless was the last chapter of the cloud, and Steren helped define the paradigm at Google.\n\nAgents are the next frontier, and they require new compute primitives designed for them. Excited for Steren to lead this transition once again.",
-          "url": "https://x.com/rauchg/status/2099514906366328902"
         }
       ],
       "source": "x",
@@ -1158,17 +996,6 @@
           "retweets": 8,
           "text": "Excited to have you on board, Graham! https://t.co/zAbozt9Lpf",
           "url": "https://x.com/steipete/status/2099960081207242808"
-        },
-        {
-          "createdAt": "2026-09-14T18:52:12.000Z",
-          "id": "2099571935495827761",
-          "isQuote": true,
-          "likes": 655,
-          "quotedTweetId": "2099561529637265687",
-          "replies": 53,
-          "retweets": 19,
-          "text": "This is so useful. pushing to add this to codex as well. https://t.co/Pqs53SlKM7",
-          "url": "https://x.com/steipete/status/2099571935495827761"
         }
       ],
       "source": "x",
@@ -1317,17 +1144,6 @@
           "retweets": 3,
           "text": "just finished recording on latent space\n\nI’m excited about this one- we get very technical about things we haven’t really talked about much yet https://t.co/62mpZYkNWT",
           "url": "https://x.com/trq212/status/2099671266068496802"
-        },
-        {
-          "createdAt": "2026-09-14T17:29:34.000Z",
-          "id": "2099551141621329994",
-          "isQuote": false,
-          "likes": 381,
-          "quotedTweetId": null,
-          "replies": 48,
-          "retweets": 39,
-          "text": "I talked to Sid &amp; Robert about building Claude Code: how much things have changed, how hard it's been to keep up with model capabilities and also what we miss about software engineering before AI.\n\nhttps://t.co/vLDFRaXawS",
-          "url": "https://x.com/trq212/status/2099551141621329994"
         }
       ],
       "source": "x",
@@ -1354,8 +1170,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 21,
-    "xTweets": 107,
-    "windowSpanHours": 87.04
+    "xBuilders": 20,
+    "xTweets": 91,
+    "windowSpanHours": 76.68
   }
 }
