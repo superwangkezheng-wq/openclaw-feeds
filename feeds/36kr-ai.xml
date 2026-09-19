@@ -15,8 +15,729 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Sat, 19 Sep 2026 01:17:08 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Sep 2026 11:58:42 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[Claude Code全面开放，接入AGENTS.md]]></title>
+            <description><![CDATA[<p>Claude Code终于低头了。</p>
+  <p>就在刚刚，Claude Code团队核心工程师Thariq在X上发了一条帖子，浏览量一个小时冲破百万。</p>
+  <p><strong>从当天上线的2.1.277版本起，项目文件夹里要是没有CLAUDE.md，Claude会自己去找AGENTS.md来读。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,760" src="https://img.36krcdn.com/hsossms/20260919/v2_6fbe943f140b4d79b132431c5d654ab6@1200352198_oswg233566oswg1080oswg760_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>GitHub上这个版本的更新记录，第一行就写了这件事。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,281" src="https://img.36krcdn.com/hsossms/20260919/v2_0c680bd28a754df0afc7b676459ceed1@1200352198_oswg90244oswg1080oswg281_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这条更新，开发者等了一年多。GitHub仓库里那条「请支持AGENTS.md」的Issue，从2025年8月挂到现在，累计5200多个点赞、300多条留言，是整个Claude Code仓库里票数最高的功能请求，高出第二名四倍。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,579" src="https://img.36krcdn.com/hsossms/20260919/v2_81e2fb7e12fa474f80e84e8640cc9961@1200352198_oswg198721oswg1080oswg579_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>消息一出，Codex团队负责人Tibo第一时间跑来留言：</p>
+  <p>Yay! This is the way. Come to the light.</p>
+  <p class="image-wrapper"><img data-img-size-val="698,176" src="https://img.36krcdn.com/hsossms/20260919/v2_9df092930a564f8083fbb15e20465053@1200352198_oswg38092oswg698oswg176_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>AGENTS.md到底是什么</strong></h2>
+  <p>CLAUDE.md和AGENTS.md，本质上都是写给AI的「项目说明书」。</p>
+  <p>它们躺在代码仓库里，告诉编程智能体：这个项目怎么编译、测试怎么跑、代码按什么规矩写。每次你和AI开一轮新对话，它先把说明书读一遍，然后再动手干活。</p>
+  <p>区别在于谁认。</p>
+  <p>CLAUDE.md是Anthropic的自留地，只有Claude Code读。而AGENTS.md是OpenAI在2025年8月推出的通用格式，Codex用它，Cursor用它，GitHub Copilot用它，Gemini CLI用它，Devin也用它。</p>
+  <p>到今天，全球超过六万个开源项目已经用上了AGENTS.md。</p>
+  <p>去年12月，OpenAI把AGENTS.md捐给了Linux基金会新成立的智能体AI基金会（AAIF）。</p>
+  <p>搞笑的是，这个基金会的铂金会员名单里，赫然有Anthropic的名字，Anthropic把自家的MCP协议也捐了进去。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,461" src="https://img.36krcdn.com/hsossms/20260919/v2_2c3a5325be524c898f9091d60cd98edd@1200352198_oswg69250oswg1080oswg461_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>两家坐在同一个基金会里搞开放标准，自家最火的编程工具却一直不读对方说明书。</p>
+  <p>这个别扭，拖了十三个月，直到这周才解开。</p>
+  <h3><strong>开发者被两份说明书折腾了一年</strong></h3>
+  <p>麻烦出在哪？出在现实中，团队不只用一个工具。</p>
+  <p>张三用Claude Code，李四用Codex，王五用Cursor，同一个项目就得备两份几乎一模一样的说明书。</p>
+  <p>改了这份忘了那份，AI就照着过期的那份干活，写出来的代码风格跟团队规范南辕北辙。</p>
+  <p>开发者被逼出了一堆土办法。有人把CLAUDE.md软链接到AGENTS.md，有人在CLAUDE.md里写一行@AGENTS.md把另一份导进来。</p>
+  <p>还有人挂个启动钩子，每次开会话把AGENTS.md的内容打印一遍塞给Claude。</p>
+  <p>AI能替人写代码，人却还得替AI处理说明书的兼容问题。这个荒诞场景，持续了整整一年多。</p>
+  <p>现在，这些土办法可以统统撤了。</p>
+  <p><strong>一个已经给其他编程智能体配好AGENTS.md的仓库，不用加CLAUDE.md，不用写导入，也不用改设置，打开就能用。</strong></p>
+  <h2><strong>真正的伏笔，藏在mod里</strong></h2>
+  <p>如果故事到这里就结束了，那它最多算一个迟到的兼容性修复。</p>
+  <p>但Thariq发了第二条帖子，信息量比第一条大得多。</p>
+  <p>他说，<strong>mods是Anthropic接下来要推出的定制方式，用来改Claude Code自身的运行框架harness。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,417" src="https://img.36krcdn.com/hsossms/20260919/v2_bc1af13895ec46bd89c4a14c4cec0fea@1200352198_oswg192143oswg1080oswg417_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>AGENTS.md的支持是用Claude Code mods做出来的</strong>。</p>
+  <p>AGENTS.md是第一个内置mod，源码已经放在官方仓库的mods/agents-md目录。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,683" src="https://img.36krcdn.com/hsossms/20260919/v2_8e5c6558ac3c4f678ddc9be082d66707@1200352198_oswg161565oswg1080oswg683_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>什么是mod？你可以把它理解成给Claude Code装的「插件」。</p>
+  <p>这次是官方自己先装了一个样板，Thariq的原话是：<strong>以后项目说明怎么读，开发者也能按自己的需要做一个版本。</strong></p>
+  <p><strong>也就是说，Claude Code读什么、怎么读，往后不全由Anthropic一家说了算了。</strong></p>
+  <p>社区的反应证明了这一点。已经有人在AGENTS.md上线当天就动手拆源码，研究mod的钩子机制和生命周期。</p>
+  <p>有人精辟地总结道：mods才是这次更新真正的主角，AGENTS.md只是它的第一个演示。</p>
+  <p>说到harness的定制化，绕不开一个月前刚开源的<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>。</p>
+  <p><ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>和V4 Pro模型同一天发布了Harness开发者预览版，喊出了一个极其霸气的口号——<strong>「Everything is a plugin」</strong>（一切皆插件）。</p>
+  <p>模型、工具、技能、会话、沙箱、界面……全部拆成可插拔的组件。它甚至可以把Claude Code和Codex当成自己的子智能体来调度，不是竞品，是零件。</p>
+  <p><ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>拿下了GitHub 22.9万颗星，开发者社区的热情说明了一件事：大家不只想要一个好用的编程AI，还想要一个<strong>能改装的</strong>编程AI。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,540" src="https://img.36krcdn.com/hsossms/20260919/v2_fd373f9c15764252acd0af7cf534223c@1200352198_oswg178879oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>那Claude Code的mods和<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>的插件系统，走的是同一条路吗？</p>
+  <p>不完全是。</p>
+  <p><ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>是一个从头设计的开源框架，底层基于Cordis内核，整个系统就是一堆插件的集合——包括界面本身都是插件。自由度极高，但学习曲线也陡。</p>
+  <p>Claude Code的mods则是另一个思路：<strong>在成熟产品上开窗口</strong>。</p>
+  <p>Claude Code本身是一个完整的、打磨过的产品，mods是在不拆掉外壳的前提下，让你能在特定环节插入自己的逻辑。</p>
+  <p>一个是「从零搭积木」，一个是「在成品上开改装口」。</p>
+  <p>两条路线各有取舍，但<strong>编程智能体的运行框架，开始不再是一个黑箱了。</strong></p>
+  <p>参考资料：</p>
+  <p>https://x.com/trq212/status/2101009392611278961</p>
+  <p>https://code.claude.com/docs/en/changelog</p>
+  <p>https://code.claude.com/docs/en/memory.md</p>
+  <p>claude-code/mods/agents-md%20at%20main%20%C2%B7%20anthropics/claude-code</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/ntd77VHn2tisZocKwASKIA">“新智元”</a>，编辑：所罗门，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 19 Sep 2026 08:13:00 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3990050742107142</guid>
+            <link>https://www.36kr.com/p/3990050742107142</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[Astra两周抢走13%份额，Anthropic或提前发新模型]]></title>
+            <description><![CDATA[<p>编辑｜山辉&nbsp;</p>
+  <p>Anthropic 嘴上喊着「放缓」，转头就要发新模型？</p>
+  <p>路透社刚发了一条独家：<strong>Anthropic 正在考虑提前发布新模型。</strong></p>
+  <p>看来 GPT-6 Astra 真的把它打疼了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1024" src="https://img.36krcdn.com/hsossms/20260919/v2_3aee9043f8b94c84b581ceecd37e44ed@000000_oswg534442oswg1080oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>两周，撬动两年半的盘子</strong></h2>
+  <p>9 月 1 日，Anthropic 刚发 Fable 5.1，官方口径「最强编程与知识工作模型」，还主动把缓存读取价格砍了 75%，想用性价比稳住企业客户。</p>
+  <p>没想到 OpenAI 追着打。9 月 3 日，OpenAI 就发了 Astra。Sam Altman 的原话：「我们正努力尽快把 Astra 交到每个人手里」。</p>
+  <p>这次可不是「感受到压力」这么简单，Anthropic 实打实看到份额在流血。</p>
+  <p>OpenRouter 统计显示，<strong>Astra 上线才两周多，已经吃掉约 13% 的企业 AI 支出份额，而 Anthropic 的 Fable 系列只有 8%。</strong></p>
+  <p>OpenRouter 分析主管 Peter Walker 直接甩出几个图表，展示了 Astra 从零起步、一步步把 Anthropic 份额压下去的全过程。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,395" src="https://img.36krcdn.com/hsossms/20260919/v2_e07b8b0e4bd54f8fbd6b0a166f9a07c7@000000_oswg176076oswg1080oswg395_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260919/v2_d5399c8ca90b49a8a8610f6b22b91e8a@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>OpenRouter 官方数据，2026 年 1–9 月 OpenAI 与 Anthropic 两家模型的周度 token 使用份额。橙色为 Anthropic，蓝色为 OpenAI，50% 虚线为分界。1–6 月 Anthropic 稳居 50% 以上； Astra 上线后，OpenAI 份额快速攀升，9 月第一周达约 65%，Anthropic 降至约 35%。</p>
+  <p>时隔两年半，OpenAI 首次反超 Anthropic。</p>
+  <h2><strong>一边喊「减速」，一边踩油门</strong></h2>
+  <p>9 月 12 号，Anthropic CEO Dario Amodei 发长文，公开呼吁「放慢 AI 发展的速度」。</p>
+  <p>这才过了七天。</p>
+  <p>虽然 Altman 和马斯克都罕见地公开附和，「Dario 是对的」，但也许 Anthropic 能接受的「放缓」是自己仍处在领先位置的「放缓」。</p>
+  <p>眼见对手没慢下来，Anthropic 自己坐不住了。虽然安全叙事是 Anthropic 的品牌口号，但商业竞争可不认这个。</p>
+  <p><strong>Fable 5 发布两个月，企业客户没有像预期那样踊跃升级到最贵的旗舰模型，份额卡在 11% 左右就不动了。企业用脚投票，选了更便宜但「够用」的 Opus 5。</strong></p>
+  <p>现在 Astra 一来，连「够用」这个位置都可能被端掉。</p>
+  <p>提前发新模型，是商业上合理的防御动作。</p>
+  <p>IPO 计划逼着 Anthropic 向前，没想到一家以「负责任 AI」为旗帜的公司，被迫在两周内评估要不要打乱自己的发布节奏，去回应一个它公开批评过的「加速竞赛」。</p>
+  <p>路透社报道同时指出，Anthropic 的 IPO 可能会推迟到11月。并且有消息称，Claude 正在深度参与下一代模型的研发。</p>
+  <p>显然，在 IPO 的倒计时里，增长曲线比安全宣言更重要。</p>
+  <p>参考链接：</p>
+  <p>https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/</p>
+  <p>© THE END&nbsp;</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651058555&amp;idx=2&amp;sn=c26cc08b9e7a470e7ccb3ebb828b67ce&amp;chksm=8545266cb8c8ee2fc63ce204d9f52132cda966922854c2d6425eb6b8e00775c1266250307dcb&amp;scene=0&amp;xtrack=1#rd">“机器之心”（ID：almosthuman2014）</a>，作者：关注AI的，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 19 Sep 2026 08:00:26 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3989918704237314</guid>
+            <link>https://www.36kr.com/p/3989918704237314</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[打脸！Anthropic也开始“蒸馏”别家公司了]]></title>
+            <description><![CDATA[<p>17日，Anthropic 放了一个大招。</p>
+  <p>Claude 在不到四周内优化了30多个开源生物分子模型，推理平均提速约4倍，还搞出一个低内存模式，能在单个 NVIDIA H100 GPU 节点上处理超过10000个 token 的生物分子系统预测。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,631" src="https://img.36krcdn.com/hsossms/20260919/v2_bdf8ed00182640bcba12b06ada941e86@1200352198_oswg282662oswg1080oswg631_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>光有模型还不够。</p>
+  <p>Anthropic 同时和 Adaptyv Bio 联合发起了一场蛋白质设计公开赛——精心选了5道前沿设计难题。</p>
+  <p>计划在 Adaptyv 的自动化实验室里验证5000条以上设计，<strong>提供最多100万美元的 Claude 积分。</strong></p>
+  <p>消息一出，圈内沸腾。</p>
+  <p>AI + 蛋白 + 一百万，「千禧年难题」的风刚从数学吹过来，Anthropic 就把旗插到了药物发现上。</p>
+  <p>看起来，这是本月最大胆的一步棋。</p>
+  <p><strong>但是——</strong></p>
+  <p>翻一下时间线就会发现，Anthropic 不是第一个这么干的。</p>
+  <p>就在它发帖的<strong>前一天</strong>，9月16日，<strong>一家官宣才刚满一周的 AI 制药公司，已经把同样量级的悬赏令挂了出去。</strong></p>
+  <p>而且玩法更野：<strong>不是悬赏解法，是悬赏问题本身。</strong></p>
+  <h2><strong>早了一天的百万美元悬赏令</strong></h2>
+  <p>这家公司叫 Geodesic Intelligence（极奥智能）。</p>
+  <p>它向全球征集药物发现里最难的问题，标准只有一条：<strong>一旦解开，能改写这个行业未来5到10年的能力边界。</strong></p>
+  <p>科学委员会逐一评审，入选问题每道奖励10万 Geodesic credits。</p>
+  <p>题目定下来之后，再单独开一轮解题征集——<strong>每道正式挑战，谁交出经过验证的解，奖100万美元现金。</strong></p>
+  <p><strong>不是积分，是真金白银。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,2199" src="https://img.36krcdn.com/hsossms/20260919/v2_3be6b1b8075648e38446ab1afaf5cf9d@1200352198_oswg715203oswg1080oswg2199_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>创始人顾全全转发时只写了三句话：<strong>「有些问题值得用最快速度去解，药物发现就是其中之一，一起把最难的题找出来、解掉。」</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="966,496" src="https://img.36krcdn.com/hsossms/20260919/v2_7c7ae8a7ace5471a950b946f4d4d52ce@1200352198_oswg96920oswg966oswg496_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>两件事放在一起，画面就很魔幻了。</p>
+  <p><strong>Anthropic 花钱做实验。</strong>比赛每周一道设计题，比谁设计的 binder（能牢牢抓住靶点的小号蛋白钩子）能在实验室里做出来、测出来。</p>
+  <p>官方条款写明没有现金大奖，一百万主要是积分和湿实验费用。</p>
+  <p><strong>Geodesic 花钱买问题。</strong>100万美元现金留给经过验证的答案，但第一步是让全世界来告诉它，什么问题最值得解。</p>
+  <p>一个在送样，一个在立题。时间上，Geodesic 在前，Anthropic 晚了一天。</p>
+  <p>太魔幻了。。。</p>
+  <p><strong>一家刚亮相一周的初创公司，居然被 Anthropic 给「蒸馏」了！</strong></p>
+  <h3><strong>但更魔幻的在后面</strong></h3>
+  <p>事情到这里还没完。</p>
+  <p>往下扒一层，比谁先谁后更扎眼的问题来了——<strong>谁有资格参赛？</strong></p>
+  <p>Anthropic × Adaptyv 蛋白质设计公开赛，首页大字写着「Open to everyone and free to enter」——对所有人开放，免费参赛。</p>
+  <p>听起来很美好。</p>
+  <p>然而翻开官方比赛条款 Section 3.1，一份禁赛名单赫然在列：</p>
+  <p>参赛者不得为以下地区的合法居民或注册实体——Belarus、China、Cuba、Iran、Myanmar、North Korea、Russia、Sudan、Syria、Crimea……</p>
+  <p>这意味着，中国的蛋白质设计研究者——不管你是中科院的结构生物学家，还是清华的计算化学博士，不管你有多少篇 Nature、多少个验证过的 binder，你没有资格参加这场「对所有人开放」的比赛。</p>
+  <p>首页说「Open to everyone」，条款里把14亿人排除在外。</p>
+  <p>再看 Geodesic 那边。</p>
+  <p>Grand Challenges 征题页面写得很清楚：</p>
+  <p>Anyone is welcome to submit questions, whether you are a researcher, clinician, drug developer, student, or simply someone with a deep interest in the future of drug discovery.</p>
+  <p>研究者、临床医生、药物开发者、学生——不问国籍，不问身份。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,662" src="https://img.36krcdn.com/hsossms/20260919/v2_a64315fc1c424e768bed0a847b3048b9@1200352198_oswg333686oswg1080oswg662_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>100万美元可以奖励一个答案，但提出问题的资格，不应该由护照决定。</p>
+  <p>Geodesic 没有 Anthropic 那样的规模。但它愿意从一个更简单的原则出发：让全世界的科学家，都有机会把自己认为最重要、最困难的问题带到桌上。</p>
+  <p>因为真正伟大的科学，从来不属于某一个国家、某一家公司。</p>
+  <p>它属于所有愿意解决问题的人。</p>
+  <h2><strong>这家抢跑的公司到底是谁？</strong></h2>
+  <p>本月10日，顾全全在 X 上官宣 Geodesic Intelligence（极奥智能），同时发布两款产品。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,760" src="https://img.36krcdn.com/hsossms/20260919/v2_1f346135309246f491d170d42f1d325c@1200352198_oswg293825oswg1080oswg760_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>公司官网首页只写了一句目标，简洁到近乎傲慢：<strong>Build AGI that discovers the shortest path from biology to medicines（做能找到从生物学到药物最短路径的 AGI）。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,948" src="https://img.36krcdn.com/hsossms/20260919/v2_a7fdee83af5941bd89718775b3b3740b@1200352198_oswg261267oswg1080oswg948_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>怎么做？Geodesic 搭了一套叫 Nova Stack 的技术栈，从软件到模型到实验室，三层全部自己握着。</p>
+  <h3><strong>第一层：NovaDDE——给科学家的 AI 指挥部</strong></h3>
+  <p><strong>NovaDDE 是 Geodesic 的智能体工作台。</strong></p>
+  <p>做药的工序很多，翻文献、查生物学证据、看分子结构、跑计算模型、评估结果，平时得在十几个工具之间来回切换。</p>
+  <p>NovaDDE 把这些全部收进一个平台，用 AI 智能体替科学家规划任务、调用模型、评估结果，每一步决策都自动留下记录。</p>
+  <p>你可以用自然语言描述你想做的实验决策，也可以直接进入设计模式——圈定靶点表面，让系统生成约80个氨基酸的 binder。</p>
+  <p>官网给的数据漏斗很直观：设计1000多个候选分子，排出100多个高质量方案，最终10多个送进实验室验证。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1197" src="https://img.36krcdn.com/hsossms/20260919/v2_cf8bbd92f02d433ea9a5bb814e946177@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>一个关键细节：用户的靶点数据归用户所有，不拿来训练模型，要求删除就删除。</p>
+  <h3><strong>第二层：NovaAtom——把分子「拍清楚」</strong></h3>
+  <p><strong>NovaAtom-Lite-Preview 是 Geodesic 自研的全原子结构预测模型，NovaAtom 家族的第一个成员。</strong></p>
+  <p>简单说就是，输入一组分子的序列，算出其中每个重原子的三维坐标。把分子长什么样、彼此怎么咬合，像拍 CT 一样看清楚。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,271" src="https://img.36krcdn.com/hsossms/20260919/v2_c7595590cfee4af8972d6d4d51c13f34@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>三个核心特点。</p>
+  <p><strong>一是「全家桶」式预测。</strong>蛋白、DNA、RNA 和小分子放在一起算，不是分开预测再拼接，而是一步到位。这对理解药物和靶点之间的复杂互动至关重要。</p>
+  <p><strong>二是支持复杂约束条件。</strong>环状多肽、需要和靶点形成共价键的药物、指定结合位置——都能作为条件喂给模型。</p>
+  <p><strong>三是自带「可信度标签」。</strong>每个靶点给出5个预测结果并排好序，每一处结构还标着模型对这个位置有多大把握。</p>
+  <p>目前放出来的是轻量快速版，更大的版本还在训练中。</p>
+  <h3><strong>第三层：NovaLab——电脑里画的分子，得真做出来</strong></h3>
+  <p>光在屏幕上画分子不算数。NovaLab 是 Geodesic 自建的湿实验验证系统，负责把设计变成实物。</p>
+  <p>每个 binder 要过七关：做不做得出来？做得对不对？能不能结合？结合得多牢？换一台仪器反过来再测一遍，信号是不是真的？有没有成药的潜质？到底管不管用？</p>
+  <p>七关走完，实验数据反哺回 AI，训练下一代模型。这就是 Geodesic 反复强调的闭环：<strong>AI → 设计 → 实验 → 学习 → 再来一轮。</strong></p>
+  <p>做 AI 制药的公司不少，但从 AI 智能体、基础模型到自建湿实验室全链条都自己搭的，在初创公司里极为罕见。</p>
+  <p>大多数同行要么做模型不做实验，要么做实验不做模型。Geodesic 两头都押，上来就打全栈。</p>
+  <h2><strong>药研开始为「问题」付钱</strong></h2>
+  <p>OpenAI 花数百万美元算力攻克数学难题，转身放弃百万奖金；Anthropic 拿出百万级资源赞助蛋白质设计比赛，让更多设计有机会走进实验室。</p>
+  <p>Geodesic 从另一个方向切入——<strong>先让全世界告诉它，哪些题最值得做。</strong></p>
+  <p>Anthropic 解决的是「验证贵」的问题。Geodesic 解决的是「方向对不对」的问题。</p>
+  <p>两件事并不冲突，两头都缺钱。</p>
+  <p>但谁先把题立住，谁就在定义这个行业的下一个十年。</p>
+  <p>数学的千禧年难题，等了26年才等到 OpenAI 宣称攻下第二道。</p>
+  <p>药物发现等不了这么久，它值得用最快的速度去解。</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/QEIZxy0gOGbJuDIC5HfNLg">“新智元”</a>，编辑：所罗门，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 19 Sep 2026 07:09:33 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3989873824938758</guid>
+            <link>https://www.36kr.com/p/3989873824938758</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[ChatGPT杀进Word：免费版也能用，终于可以告别复制粘贴了]]></title>
+            <description><![CDATA[<p>复制粘贴时代，就要结束了！</p>
+  <p>以前写周报，写到一半，觉得某段太啰嗦。</p>
+  <p>选中，复制，切到浏览器，粘进ChatGPT，敲一句「帮我精简」，等结果，再复制回来。</p>
+  <p>贴回去一看，字体变了，编号乱了，还得手动调半天。</p>
+  <p>类似这样的动作，我们一天可能要重复十几遍。</p>
+  <p>如今，这套流程被砍掉了。</p>
+  <p>9月17日，ChatGPT正式住进了Word。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,476" src="https://img.36krcdn.com/hsossms/20260919/v2_9bf4537ea0e048408c67276939363502@000000_oswg180698oswg1080oswg476_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Word的右边，多出一条可以聊天的侧边栏。</p>
+  <p>选中要改的那段话，打一句「压到三行，数字别改」，改好的内容就落回原位，字体和编号都不用再调。</p>
+  <p>官方推文写得很凡尔赛：拖延症终于遇到对手了。</p>
+  <p>更让人意外的是，这回几乎没设什么使用门槛。</p>
+  <p>Free、Go、Plus、Pro、Business、Enterprise，加上面向学校的各类账号，全部计划都能用，全球开放。</p>
+  <p>一分钱不花，你也能在Word里用上ChatGPT。</p>
+  <h2><strong>改稿这件事</strong></h2>
+  <h2><strong>完全变了</strong></h2>
+  <p>ChatGPT这次推出的，是一个官方插件，需要你自己去Microsoft Marketplace安装。</p>
+  <p>装好之后，它读的是你当前打开的这一篇文档，能替你干的活有：</p>
+  <p>•<strong>零散笔记变初稿</strong>：把随手记的要点，直接理成结构完整的草稿。</p>
+  <p>•<strong>长报告写摘要</strong>：通读完全文，自动提取结论和关键风险。</p>
+  <p>•<strong>一句话换读者定位</strong>：官方示例指令是「把这节压缩给管理层看，事实和定义过的术语别动」。</p>
+  <p>•<strong>修复文档格式烂摊子</strong>：标题层级乱了、编号断了，交给它一秒重排。</p>
+  <p>•<strong>统一全文术语</strong>：前面叫「用户」，后面叫「客户」，再往后成了「消费者」，它能一次性列出清单帮你对齐。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260919/v2_8b8614cb65eb4369b329f710318e6e93@000000_oswg240896oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>如果你是学生，它可以帮你通读论文、统一术语、理顺章节；如果你是老师，你可以拿它改教案、压讲义。</p>
+  <p>如果你看不懂合同条款，可以选中直接让它翻成大白话，顺带还能帮你列出几个该去问法务的问题。</p>
+  <p>官方演示视频里，还有这样一个细节。</p>
+  <p>给它发一句「按附件的谈判记录改付款条款，开修订模式」，它不会直接把原文覆盖掉，而是像下图这样：删掉的划线，新加的标色，每一处改动都留着痕迹，等你逐条接受或拒绝。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260919/v2_5bf091a794924364988dd6b800995984@000000_oswg285847oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>它还能在段落旁边挂上批注，替你挑出没定的事：验收标准该在签字前商定，还是像现在这样放到启动会之后？</p>
+  <p>审稿人的那套动作它都能替你做，你需要做的，只剩逐条点接受或拒绝。</p>
+  <p>付费和企业账号，还能把外部上下文拉进来：Outlook、SharePoint、Google Workspace、Dropbox里的邮件和文件，都能当写作素材。</p>
+  <p>最实用的是，重复做的活可以存成技能（Skills）。</p>
+  <p>下图演示里那句指令是：用「合同审查」技能，把没解决的风险和待定事项标出来，我要发出去了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260919/v2_e85be2185c394f9e9d66342b86eaa0ce@000000_oswg120312oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>以后每周一份的备忘录、固定格式的合同审阅，不用每次从头交代。</p>
+  <h2><strong>免费，但有三笔账</strong></h2>
+  <p>这里面，还有三笔账需要提前算清楚：</p>
+  <p>第一，免费用户拿到的是入口，不是最强模型。</p>
+  <p>Free和Go计划可以装，但默认模型是GPT-5.6 Luna（速度最快、成本最低的一档），用不了GPT-5.6 Sol，连点击深度思考跑的也是Luna。</p>
+  <p>第二，企业用户才能拿到真正的免额度福利。</p>
+  <p>9月17日到30日这两周，Business和Enterprise用户可以在Word里免费预览GPT-5.6 Sol，不占正常额度。</p>
+  <p>一头把入口门槛降到零，把所有打工人放进来；一头把最贵的模型摆到企业客户桌上。OpenAI的路径很清晰：先让人们上手用上，再让公司付钱。</p>
+  <p>第三，写报告和写代码，开始抢同一份额度。</p>
+  <p>Word按token计费，走你所用模型的API费率，文档越长、来回越多，烧得越快。</p>
+  <p>更关键的是，它和Codex等高级功能共用同一份额度。官方的说法是，用Word会减少这些功能可用的额度。</p>
+  <p>白天在Word里大改一份三十页的方案，晚上打开Codex，额度可能已经被吃掉一大截。</p>
+  <h2><strong>一个手很快的新同事</strong></h2>
+  <p>官方帮助文档中提到，复杂格式、表格和图表，仍然需要手动调整。</p>
+  <p>另外，还专门提醒了三件事：</p>
+  <p>1.<strong>它会犯错</strong>：重要的事实、数字，发出去之前必须自己核一遍；大改前记得存副本。</p>
+  <p>2.<strong>它只认眼前这一份文档。</strong>你电脑里其他文件它一概看不见，想让它参考，得自己把内容粘进对话框。</p>
+  <p>3.<strong>聊天记录不互通</strong>：插件里的对话和ChatGPT网页版是分开的，记忆和习惯不会带过来。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260919/v2_072ed8bfe7ba4f779f815d42b0ec0ee1@000000_oswg309861oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>它更像一个手很快的新同事：干活利索，但不认识你，也不会替你对结果负责。</p>
+  <h2><strong>同一个Word窗口</strong></h2>
+  <h2><strong>现在坐着三套AI</strong></h2>
+  <p>ChatGPT这次并非一夜杀入，而是补上最后一块拼图。</p>
+  <p>5月上线Excel，7月上线PowerPoint，9月Word加入。</p>
+  <p>四个多月，三件套补齐。而且三者共用同一个插件，装一次就能全家桶通用。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,203" src="https://img.36krcdn.com/hsossms/20260919/v2_0e3fe684f83c40a195948ca5b4126138@000000_oswg59601oswg1080oswg203_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>还有一个关键节点：2026年10月1日起，ChatGPT for Word将在工作区默认开启。</p>
+  <p>两周之后，它就会成为很多公司Word里的标配，员工根本不用再纠结要不要装AI了。</p>
+  <p>不过，和OpenAI相比，Anthropic早到了一步。</p>
+  <p>Claude for Excel和PowerPoint今年2月上线，Claude for Word在4月开放公测，比OpenAI早了大约5个月补齐三件套。</p>
+  <p>它的打法更贴专业场景：每一处修改以Word原生的修订痕迹落地，你像审人类同事的稿一样逐条接受或拒绝，还能顺着批注线程回你改了什么、为什么改。</p>
+  <p>代价是，它只给付费计划，没有免费档。</p>
+  <p>微软自己更是从没离开过。</p>
+  <p>Copilot早就守在这个主场，功能描述高度重合，背后还握着整个组织的权限体系与数据。</p>
+  <p>如今的Word界面热闹非凡：</p>
+  <p>•<strong>微软Copilot</strong>：主打原生和合规，背靠整个组织的权限体系与数据；</p>
+  <p>•<strong>Anthropic（Claude for Word）</strong>：主打深度和可控，修改内容以Word原生修订痕迹呈现，支持逐条审阅；</p>
+  <p>•<strong>OpenAI（ChatGPT for Word）</strong>：主打广度与零门槛，直接把免费用户全放进来。</p>
+  <p>一家公司的软件里，同时有另外两家模型，而这几家彼此又是最大的伙伴与对手——这是办公软件史上从未有过的场面。</p>
+  <p>办公软件的格局，正在被AI重新洗牌。</p>
+  <h2><strong>省掉的不是几秒钟</strong></h2>
+  <p>而且OpenAI这次下手的，不只是Word。</p>
+  <p>就在Word上线前几天，ChatGPT的Windows桌面版加了一个叫Appshots的功能：</p>
+  <p>不管你正开着哪个软件，同时按下两个Alt键，当前窗口的截图和里面的文字就会一起发给ChatGPT，连屏幕外没滚到的部分也能带上。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,430" src="https://img.36krcdn.com/hsossms/20260919/v2_da10647ed5c14832bd70d8e2a892b3b9@000000_oswg150904oswg1080oswg430_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>一个从Office内部动手，一个从桌面外部动手，两条路对准的是同一件事：让你少复制粘贴。</p>
+  <p>过去用AI改一段话，你还要先掂量一下：值不值得为这点事专门切个窗口？</p>
+  <p>多数时候的答案是，算了，自己改改得了。</p>
+  <p>现在，AI就在你光标旁边等着，一抬手就能用。</p>
+  <p>调用门槛一消失，用不用AI就从一个需要犹豫的决定，变成了和拼写检查一样的默认动作。</p>
+  <p>几家巨头挤破头抢的，就是这个默认动作。</p>
+  <p>其中变化最大的，是人在写文档这件事里的位置。</p>
+  <p>动手写的部分，会越来越多地交给侧边栏。</p>
+  <p>留给人的，是提要求、审改动、做判断，以及最后拍板。</p>
+  <p>以后，当每份文档旁边都坐着一个AI，写得快就不稀缺了。</p>
+  <p>你的工作，是想清楚内容方向，给它定标准，把关每一处改动，最后为它负责。</p>
+  <p>参考资料：</p>
+  <p>https://x.com/ChatGPT/status/2100661995762798916?s=20</p>
+  <p>https://x.com/openaidevs/status/2100726653366534560</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652727424&amp;idx=2&amp;sn=2fd575f2f239152f81a8471b5e5ab901&amp;chksm=f000d5d1a3214e13b3763658db08408d8017c142d801746915976f736a2f8093730c71f84e4b&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，编辑：元宇，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 19 Sep 2026 06:02:58 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3989804522912774</guid>
+            <link>https://www.36kr.com/p/3989804522912774</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[Anthropic接受OpenAI标准，智能体从此共用一份AGENTS.md]]></title>
+            <description><![CDATA[<p>编辑｜泽南、杨文</p>
+  <p>Anthropic 要 Open 起来了？</p>
+  <p>刚刚，Claude Code 成员 Thariq Shihipar（@trq212）发帖称，Claude Code 开始支持 AGENTS.md 文件了。</p>
+  <p>从 2.1.277 版本开始，如果项目目录中没有 CLAUDE.md，Claude Code 会检查并使用 AGENTS.md。用户可以通过 /config 切换这项行为。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,456" src="https://img.36krcdn.com/hsossms/20260919/v2_04e504b931124c699df3f1254d96ef4a@000000_oswg121114oswg1080oswg456_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这项能力建立在 Claude Code 的 mods 机制上。Anthropic 已将 agents-md 做成内置 mod，并公开了相关源码。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,598" src="https://img.36krcdn.com/hsossms/20260919/v2_7e1fed6749114d00ab4f8c42c80ca64f@000000_oswg171359oswg1080oswg598_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>相关源码链接：https://github.com/anthropics/claude-code/tree/main/mods/agents-md</p>
+  <p>Thariq 表示，未来开发者也可以围绕项目指令构建自定义版本。</p>
+  <p>AGENTS.md 就像是项目写给 AI Agent 看的说明书，里面的内容旨在告诉 Agent 项目的结构、怎么安装依赖、运行哪些测试、代码规范是什么等等。官方 AGENTS.md 网站也明确把它称为「README for agents」。Claude Code 的这次改动第一次让这个热门的 harness 加入了跨厂商的项目指令标准之中。</p>
+  <p>消息一出，网友喜大普奔，评论区迅速被「终于统一了」、「Thanks」刷屏。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,165" src="https://img.36krcdn.com/hsossms/20260919/v2_7b61af0ef53b46019291665f09196e32@000000_oswg70072oswg1080oswg165_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>甚至连 OpenAI Codex 负责人 Tibo 也跑来祝贺：「太好了！这就对了。欢迎来到光明的一边。」</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,165" src="https://img.36krcdn.com/hsossms/20260919/v2_4cecf13aa52f452198fdf1268a49f078@000000_oswg49476oswg1080oswg165_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>要知道，AGENTS.md 最初就是源自 OpenAI 的 Codex。表面上水火不容的 Anthropic 和 OpenAI，在竞争激烈的 Agent 赛道上现在倒是走到了一块。</p>
+  <p><strong>Claude Code 开始兼容 AGENTS.md</strong></p>
+  <p>在默认模式下，Claude Code 会沿项目目录树查找 AGENTS.md，只要项目路径上没有项目级 CLAUDE.md，找到的文件就会作为项目指令加载。</p>
+  <p>当 Agent 读取项目子目录中的文件时，mod 还会按目录层级补充对应的 AGENTS.md。如果同级目录存在 CLAUDE.md，则遵循原有的 CLAUDE.md 规则。</p>
+  <p>相关设置位于 /config 的 Project instructions 中。用户可以选择仅使用 CLAUDE.md，在没有 CLAUDE.md 时回退到 AGENTS.md，也可以同时加载两类文件。具体采用哪种方式，可以根据项目的协作模式进行调整。</p>
+  <p>这意味着，Claude Code 不必再完全依赖自身的文件命名约定，对于已经使用 AGENTS.md 管理项目规则的团队，接入成本明显降低。</p>
+  <p><strong>Shopify 曾把兼容问题摆上台面</strong></p>
+  <p>前段时间，机器之心就报道过，Shopify CEO Tobi Lütke 曾考虑在公司内部禁用 Claude Code，直到它支持读取 AGENTS.md、.agents/skills 等文件。</p>
+  <p>当团队成员同时使用 Codex、Cursor 和 Claude Code 时，同一个仓库可能出现不同的配置入口。使用 Codex 的开发者读取 AGENTS.md，使用 Claude Code 的开发者读取 CLAUDE.md。如果两份文件存在差异，不同 Agent 获得的项目规则也会不同。</p>
+  <p>这些文件通常记录项目结构、编码规范、测试要求、开发流程，以及 Agent 可以调用的技能。它们已经成为 AI coding Agent 理解代码库的重要上下文。</p>
+  <p>开发者此前给出的解决办法包括建立软链接，或者在 CLAUDE.md 中写入 @AGENTS.md。小型项目比较容易采用这些方案，到了大型 monorepo，配置文件会沿目录树递归生效，维护成本也会迅速上升。</p>
+  <p>Lütke 认为，团队不应该长期承担这类同步工作。他把这种额外负担称为「复杂性税」。</p>
+  <p><strong>Anthropic 为何坚持 CLAUDE.md ？</strong></p>
+  <p>Anthropic 此前也有自己的产品考虑。</p>
+  <p>Thariq 曾解释，不同模型家族具有不同的行为特点，system prompt 会显著影响模型表现。Claude 模型对 skills、system prompt 和 CLAUDE.md 的组织方式有特定偏好，Claude Code 也会针对不同模型调整 system prompt。</p>
+  <p>这套思路与 Anthropic 关于 context engineering 的讨论相呼应。项目说明、技能文件和 system prompt，共同构成 Agent 完成任务所需的上下文。</p>
+  <p>这种模型专属设计有助于优化 Claude Code 体验，也会增加跨工具协作的维护成本。</p>
+  <p><strong>支持 AGENTS.md 只是第一步</strong></p>
+  <p>这次更新首先解决了文件读取入口的问题，对于已经使用 AGENTS.md 的团队，Claude Code 不再需要额外的软链接或引用配置。</p>
+  <p>不过，兼容并不等于完全统一。在默认模式下，只有项目路径上没有 CLAUDE.md 时，Claude Code 才会回退读取 AGENTS.md。如果团队希望同时加载两类文件，还需要在 /config 中调整设置。</p>
+  <p>此外，.agents/skills 和 .claude/skills 仍是两套独立目录。团队依然需要决定哪些规则属于跨工具的共同内容，哪些内容只服务于 Claude Code。</p>
+  <p>随着 AI coding Agent 进入日常开发流程，项目指令文件正在从工具偏好变成代码库基础设施。Claude Code 此次加入 AGENTS.md，说明跨工具共享项目上下文已经成为开发团队的现实需求。</p>
+  <p>此前 Claude Code 是这个标准最大的缺席者之一，Claude Code 加入以后，主流 AI Coding 工具围绕「Agent README」收敛的趋势就明显得多了。未来可以预见的是，不同 Harness 之间的迁移成本将会越来越低。</p>
+  <p>那么问题来了，现在哪家 Harness 更好用呢？</p>
+  <p><strong>参考链接：</strong></p>
+  <p>https://x.com/trq212/status/2101009392611278961?s=20</p>
+  <p>https://github.com/anthropics/claude-code/tree/main/mods/agents-md</p>
+  <p>© THE END</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651058554&amp;idx=1&amp;sn=82f17d13f85998a00289ae54f4d11c26&amp;chksm=8578d50e51a6f7db159e9ab4819335e16484039d898a7aadb50b05ac89a8da07973985059d1f&amp;scene=0&amp;xtrack=1#rd">“机器之心”（ID：almosthuman2014）</a>，作者：关注AI的，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 19 Sep 2026 05:25:03 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3989811919076098</guid>
+            <link>https://www.36kr.com/p/3989811919076098</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[Kimi向左，Claude、GPT向右]]></title>
+            <description><![CDATA[<p>这两天刷某社交平台，看到两条重磅新闻，放在一起，还挺有意思的。</p>
+  <p>9月17日，<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Code正式推出桌面客户端，支持macOS和Windows。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,284" src="https://img.36krcdn.com/hsossms/20260919/v2_12ad8ec05e24483f85d52fae6937723a@000000_oswg37656oswg1080oswg284_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1035" src="https://img.36krcdn.com/hsossms/20260919/v2_de4de393bea24b70bc2e993674e4987a@000000_oswg426678oswg1080oswg1035_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这次 <ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> 把原来终端里的编程 Agent 搬到了图形界面，可以直接打开本地项目、修改代码、执行命令，还能查看文件改动、调用浏览器，以及通过不同权限模式控制 AI 的操作。</p>
+  <p>问题来了。</p>
+  <p><ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>明明已经有了<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Work桌面端，能够读取本地文件、操作浏览器、处理办公任务，甚至还支持Agent Swarm和定时任务。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,712" src="https://img.36krcdn.com/hsossms/20260919/v2_6a5888182d0c43948461fe49692c30ef@000000_oswg21272oswg1080oswg712_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>现在又来了一个 <ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Code。</p>
+  <p>以后电脑上想同时使用 <ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>办公和编程，可能就得装两个客户端。</p>
+  <p>有趣的是，就在<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>推出新客户端的前一天，Claude宣布了一个方向相反的决定。</p>
+  <p><strong>把原本独立的 Chat 和 Cowork合并成一个Claude。</strong></p>
+  <p>用户不需要提前判断自己的任务应该交给聊天助手，还是办公 Agent。问一个简单问题也好，处理一份报告、制作 PPT 也好，直接在同一个对话中提出需求，Claude 会选择合适的工具。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1213" src="https://img.36krcdn.com/hsossms/20260919/v2_e224fe3b88bc4dbf84e688a463303c77@000000_oswg522747oswg1080oswg1213_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>OpenAI此前也做了类似的动作。</p>
+  <p>今年7月，Codex App 开始并入新版ChatGPT桌面应用。如今一个客户端里就有 Chat、Work 和 Codex，虽然功能入口依然分开，但不用再为不同任务安装不同的 APP。</p>
+  <p>这就很有意思了。</p>
+  <p><strong>Claude、ChatGPT 正在做减法，<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> 却还在做加法。</strong></p>
+  <p>大家都想抢占用户的电脑桌面，怎么走出了两种不同的路线？</p>
+  <h2><strong>01. Kimi为什么还要单独做一个Code？</strong></h2>
+  <p>我觉得先得看清 <ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Code和 <ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Work的区别。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,684" src="https://img.36krcdn.com/hsossms/20260919/v2_4821af7ce59349c79a6efb2302e27d27@000000_oswg72204oswg1080oswg684_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>虽然两者都能操作本地文件，也都可以让 AI 自己执行任务，但它们面对的工作环境有明显差异。</p>
+  <p><ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Work面向办公和知识工作，你可以让它整理文件、分析资料、生成报告，也可以让它操作浏览器完成一系列任务。</p>
+  <p><ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Code则围绕软件开发设计。它需要理解整个代码仓库，修改多个文件，运行命令，展示代码差异，并且让开发者能够审查和控制每一步操作。</p>
+  <p>举个例子。</p>
+  <p>你让 <ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Work制作一份行业报告，关心的可能是最终文档写得怎么样。</p>
+  <p>但你让<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Code修改一个项目，可能还得检查它改动了哪些文件、有没有引入 Bug、能不能正常运行，以及是否需要撤销某一次修改。</p>
+  <p>开发者显然需要一套更专业的交互界面。</p>
+  <p>而且<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Code还有一个很容易被忽略的特点。</p>
+  <p>它支持接入第三方模型。</p>
+  <p>官方文档显示，<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Code可以配置 Anthropic、OpenAI、Google等模型服务，也能对接<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>、<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>等兼容接口。桌面客户端同样提供第三方模型供应商配置。</p>
+  <p>这意味着，<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Code还在尝试成为一个面向开发者的多模型工作台。</p>
+  <p>哪怕用户不打算使用<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>自家的模型，也可能因为喜欢它的编程工具而安装这个客户端。</p>
+  <p>对于<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>来说，单独推出Code，至少有机会争取一批原本不会主动使用 <ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Work的开发者。</p>
+  <p>当然，这是一种基于产品设计的推测，<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>并没有公开说明拆分客户端的商业动机。基于好奇心，我还特地在某社交平台看一下评论，感觉很多人也是想不明白。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1100" src="https://img.36krcdn.com/hsossms/20260919/v2_0ecc3ef484704303adcc47d4fe5f0038@000000_oswg211068oswg1080oswg1100_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>某社交平台上的某个自称用户的人吐槽</p>
+  <h2><strong>02. Claude为什么又开始做减法？</strong></h2>
+  <p>Claude的经历更有意思。</p>
+  <p>它此前把聊天、Cowork和 Design等能力放在不同的产品或工作区域里。</p>
+  <p>但 Anthropic 在 9 月 16 日的官方公告中解释，用户反馈的一个问题是：每次开始任务前，还得先决定去哪个入口，不同工作区域里的上下文也不能自然延续。</p>
+  <p>于是Claude开始把这些能力整合到同一段对话里。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,639" src="https://img.36krcdn.com/hsossms/20260919/v2_616706441a2a4a0b983fd3f3e58d8c49@000000_oswg63772oswg1080oswg639_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这让我想起以前用手机的一种体验。</p>
+  <p>拍照要打开相机，修图要打开修图软件，做海报又得打开另一个 App。</p>
+  <p>每一个软件都有自己的专业能力，但来回切换确实麻烦。</p>
+  <p>AI Agent 也正在遇到类似的问题。</p>
+  <p>今天你让 AI 帮忙调研一个竞品，明天想把调研内容整理成 PPT，后天又想让它根据 PPT 做一个演示网页。</p>
+  <p>如果每一步都需要重新打开一个产品、复制上下文、重新交代需求，所谓 AI 提升效率，可能有不少时间都浪费在切换工具上了。</p>
+  <p>Claude现在试图让用户只管提出需求，剩下的由系统选择能力。</p>
+  <p>不过，Claude Code目前并没有被彻底并入普通聊天。官方帮助文档明确说明，Code入口仍然保留。</p>
+  <p>这一点反倒说明，专业开发工具和普通办公助手之间，暂时还没有那么容易抹平边界。</p>
+  <h2><strong>03. Kimi未来会不会把Code和Work合并？</strong></h2>
+  <p>我的判断是，存在整合的可能，但未必会把两个产品简单地合成一个聊天窗口。</p>
+  <p>从ChatGPT的做法就能看出一种思路：客户端统一，专业功能保留。</p>
+  <p>它把Chat、Work、Codex 收进同一个桌面应用，但用户仍然可以进入专门的Codex工作界面。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,681" src="https://img.36krcdn.com/hsossms/20260919/v2_e0ff7d2467a64ce287192766c26a9d55@000000_oswg67388oswg1080oswg681_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这样既照顾普通用户，也没有牺牲开发者需要的专业操作。</p>
+  <p>对<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>来说，未来也可以考虑类似的路线。</p>
+  <p>比如，两个产品先共享账号、会员权益、模型配置和项目资料，再逐步打通任务和对话。</p>
+  <p>当一个用户在<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Work中提出开发需求时，可以直接调用Code的能力，不必从头创建项目。</p>
+  <p>如果以后真要统一客户端，也可以保留独立的编程工作区，而不是把所有功能都塞进一个对话框。</p>
+  <p>这只是一个可能的演进方向。目前<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>尚未公布两个桌面客户端将合并的计划。</p>
+  <p>我甚至觉得，<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>现在没必要急着合并。</p>
+  <p>刚推出独立客户端，先看看开发者究竟喜欢什么、需要什么，再决定哪些功能应该进入Work，可能比匆忙整合更有意义。</p>
+  <p>毕竟，软件开发是一个有特殊工作流的场景，办公Agent也有自己的用户需求。</p>
+  <p>把两套界面强行合并，未必真的能提升体验。</p>
+  <p>有意思的是，<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Code 官方文档已经把编程和知识工作都列进了旗舰模型 K3 的能力范围。模型能力可以跨场景使用，产品界面却暂时分开。</p>
+  <p>这或许也是未来AI产品经理需要面对的问题。</p>
+  <p>当同一个模型能够写代码、做PPT、操作浏览器、处理文件，甚至完成越来越多复杂任务时，我们还需要为每一项能力开发独立的 App 吗？</p>
+  <p><strong><ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> 正在把编程做成一个独立产品，Claude 和 ChatGPT 则在尝试减少用户面对的产品入口。</strong></p>
+  <p>现在看，两条路线都有自己的理由。</p>
+  <p>等到有一天，用户打开电脑，只需要告诉 AI 今天要完成什么，而不用再考虑应该打开哪个软件，Code 和 Work 之间的这条界线，可能也就没有现在这么重要了。</p>
+  <p>到那时候再回头看，<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>今天推出的独立Code 客户端，究竟是一个长期存在的专业工具，还是通向统一 AI 工作台的中间站，就有答案了。</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&amp;mid=2651931831&amp;idx=1&amp;sn=bc628372658211364190782329f51049&amp;chksm=bc8b5c38f3992d716475d1711d9fe49cb513b54cba19b6701b0cc92db53cb9821502525f677a&amp;scene=0&amp;xtrack=1#rd">“人人都是产品经理”（ID：woshipm）</a>，作者：怪哥，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 19 Sep 2026 02:23:16 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3989620059143175</guid>
+            <link>https://www.36kr.com/p/3989620059143175</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[Gemini 4 Pro疑似泄露，“AI减速”又成空话]]></title>
+            <description><![CDATA[<p>前几个月，OpenAI和Anthropic轮番把旗舰模型往前推，谷歌却显得异常安静。</p>
+  <p>Flash几乎3周一更，3.6、3.7、3.8连续往前，但代表最高能力上限的Pro迟迟没有动静。</p>
+  <p>直到这两天，大模型盲测竞技场Arena里，突然冒出一个挂着gemini-3.8-flash名字的模型。</p>
+  <p class="image-wrapper"><img data-img-size-val="467,321" src="https://img.36krcdn.com/hsossms/20260919/v2_d525c333044245ab8368a217ce427c9a@6119835_oswg48281oswg467oswg321_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>开发者一上手就发现了不对劲，真正的Gemini 3.8 Flash已经发布了，它该是什么水平，大家心里有数。可这个“3.8 Flash”，写代码、做SVG、跑Agent，表现明显又往上跳了一截。</p>
+  <p class="image-wrapper"><img data-img-size-val="497,226" src="https://img.36krcdn.com/hsossms/20260919/v2_bcc5c892b43b4a7f9cb9096a91d3cb80@6119835_oswg44361oswg497oswg226_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="800,542" src="https://img.36krcdn.com/hsossms/20260919/v2_54028c8260154631bdf9a664ded6bb59@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>几轮实测之后，一个猜测迅速扩散开来：</p>
+  <p><strong>这个模型很有可能是谷歌藏在标签后面的下一代旗舰——Gemini 4 Pro。</strong></p>
+  <p>紧接着，一张更夸张的benchmark对比图开始疯传。编码、Agent、推理，多项成绩都把GPT-6 Astra和Claude Fable压在下面。</p>
+  <p class="image-wrapper"><img data-img-size-val="384,268" src="https://img.36krcdn.com/hsossms/20260919/v2_352309329a834f3c84d97fdcc760848a@6119835_oswg96851oswg384oswg268_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>就在几天前，几家最重要的AI公司还在公开讨论，是不是该慢一点。现在，减速的声音还没落地，新一轮竞赛已经开始狂飙。</p>
+  <p>而这个疑似Gemini 4 Pro的“神级模型”背后，还有一个更危险的关键词：</p>
+  <p><strong>RSI。</strong></p>
+  <h2><strong>Gemini 4 Pro疑似泄露</strong></h2>
+  <p>9月2日，Google刚刚正式发布Gemini 3.8 Flash。官方称，这是Gemini 3系列最新一代Flash，在软件工程、Agent任务和复杂多步推理上都有明显提升；从3.7 Flash到3.8 Flash，中间只隔了三周。</p>
+  <p>所以，当Arena里又出现一个同样挂着gemini-3.8-flash名字的模型时，开发者很快就察觉到了异常。</p>
+  <p>真正的3.8 Flash已经摆在那里，大家有现成的参照物。而这个模型看起来明显更强，分明是Pro模型才会有的实力。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,266" src="https://img.36krcdn.com/hsossms/20260919/v2_4080b369e91e4d448ef95595a435aacb@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>最早引发传播的一批实测，集中在SVG、网页和3D场景上。</p>
+  <p>开发者Harshith让它用SVG画一只侧面的家猫，并把结果与GPT-6 Astra Max和正式版Gemini 3.8 Flash放在一起。Arena里的这个版本，无论轮廓、比例还是细节完整度，都和正式3.8 Flash拉开了肉眼可见的差距。</p>
+  <p class="image-wrapper"><img data-img-size-val="691,181" src="https://img.36krcdn.com/hsossms/20260919/v2_11d2fa5fd67f45d7ac7f445943861e28@6119835_oswg55142oswg691oswg181_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>从左到右依次为“4 Pro”、Astra、3.8 Flash</p>
+  <p>X网友@thtbee_从多个角度连续测试了这个疑似Gemini 4 Pro的模型。</p>
+  <p>一个Voxel风格宝塔，模型跑了8分钟，直接生成了一整套可交互3D场景。</p>
+  <p class="image-wrapper"><img data-img-size-val="378,154" src="https://img.36krcdn.com/hsossms/20260919/v2_ed258744204f4e53b99526ec1ccdce68@6119835_oswg30465oswg378oswg154_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="800,450" src="https://img.36krcdn.com/hsossms/20260919/v2_f9acc8fc9a8a449697cdc4dc106ea6c5@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>一架空客H145直升机，它只花大约10分钟就搭出了完整的3D展示页面，细节非常丰富。不过，这位网友表示，页面底部的UI元素“看起来有点糟”。</p>
+  <p class="image-wrapper"><img data-img-size-val="494,209" src="https://img.36krcdn.com/hsossms/20260919/v2_72aa55f2aade4768a6670c9140c0c35d@6119835_oswg53054oswg494oswg209_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="800,450" src="https://img.36krcdn.com/hsossms/20260919/v2_4a5d686b40f1496a942c98395957a37a@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在网页设计上，模型花了大约14分钟就做出了一套单色主题网站，整体非常干净、完整。过去Gemini经常被吐槽的设计品味问题，这次似乎终于被补上了。</p>
+  <p class="image-wrapper"><img data-img-size-val="432,224" src="https://img.36krcdn.com/hsossms/20260919/v2_b2d7c6d7a7324167b0d897f7cdd8e256@6119835_oswg40299oswg432oswg224_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="800,450" src="https://img.36krcdn.com/hsossms/20260919/v2_334466b30b434c439fbe7d7bc49dc2c0@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>另一位网友@Mr_Salio直接拿这个疑似Gemini 4 Pro的模型去做游戏。成品画面足够流畅，世界生成和游戏设计的完成度也很高。</p>
+  <p class="image-wrapper"><img data-img-size-val="363,198" src="https://img.36krcdn.com/hsossms/20260919/v2_9b89620fc3404d7f876fc5b6a0292155@6119835_oswg33276oswg363oswg198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="800,450" src="https://img.36krcdn.com/hsossms/20260919/v2_eccd2209fa734c8ba9829c796c393336@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>更关键的一条线索来自开发者Qwinah。</p>
+  <p>他声称自己成功“幽灵路由”到了Gemini 4 Pro的后端，并贴出了一张疑似内部终端信息的截图。</p>
+  <p>根据他的说法，这个模型的内部标识里直接出现了G4P-ARGON和VIA_3.8_FLASH，最大输出达到256K，上下文窗口超过1000万token，还带有跨会话永久记忆、无需API即可联网、后端自动编译运行脚本，甚至物理机器人控制等能力。</p>
+  <p class="image-wrapper"><img data-img-size-val="410,629" src="https://img.36krcdn.com/hsossms/20260919/v2_4b84660573e94f93808b42a8638f2675@6119835_oswg188236oswg410oswg629_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>如果这些信息属实，那它显然已经不是一次普通的Flash升级。</p>
+  <p>与此同时，一张Gemini 4 Pro的benchmark对比表也开始在社区疯传。</p>
+  <p class="image-wrapper"><img data-img-size-val="409,285" src="https://img.36krcdn.com/hsossms/20260919/v2_502d440ecc544797a7bd16b95b5ea65b@6119835_oswg101660oswg409oswg285_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>按照图里的数据，Gemini 4 Pro在软件工程测试DeepSWE v1.1拿到88.7%，在终端Agent测试Terminal-Bench 2.1达到95.3%，在专家级知识推理测试HLE-Verified冲到72.1%，在电脑操作Agent测试OSWorld 2.0达到86.8%。</p>
+  <p>更夸张的是，在衡量真实知识工作的GDPval-AA v2上，它被写成2064 Elo，直接突破2000大关。</p>
+  <p><strong>如果这些数据属实，Gemini 4 Pro简直能“拳打Fable，脚踢Astra”，一举站上前沿模型之巅。</strong></p>
+  <p>但越是夸张，越需要小心。</p>
+  <p>值得注意的是，这张benchmark表，和Qwinah“挖”出来的那张疑似后端截图，并不完全对得上；benchmark表里作为对照项的Astra，得分也不符合官方数据；两份材料都没有Google、Arena或相关benchmark官方背书，目前仍然只是社区流传的信息。</p>
+  <p><strong>唯一能被确认的只有那个名叫gemini-3.8-flash名字的模型，和完全不符合Gemini 3.8 Flash的表现。</strong></p>
+  <p>但大家之所以会迅速把答案指向Gemini 4 Pro，还有一个非常重要的原因：Google的Pro模型，已经空窗太久了。</p>
+  <p>Gemini 3.5 Pro迟迟没有正式落地，Gemini 4早已确认进入训练，过去几个月，Flash一代代往前推，真正代表能力上限的Pro线始终没有新型号出现。</p>
+  <p>现在，一个能力明显异常的“3.8 Flash”突然从Arena里钻了出来。</p>
+  <p>于是，猜测自然越来越像样——Google可能根本没打算把真正的大升级留给3.5 Pro，直接憋到了Gemini 4 Pro。</p>
+  <h2><strong>Gemini 4 Pro背后，</strong></h2>
+  <h2><strong>更大的关键词是RSI</strong></h2>
+  <p>如果说Gemini 4 Pro目前还只是社区传言，那么更值得注意的是，<strong>谷歌正在明显加快AI参与模型研发的速度。</strong></p>
+  <p>在这一次的Gemini 4 Pro传闻里，RSI这个关键词被反复提及。</p>
+  <p class="image-wrapper"><img data-img-size-val="319,118" src="https://img.36krcdn.com/hsossms/20260919/v2_613968e8f50044759b618ed5918bac02@6119835_oswg15360oswg319oswg118_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="350,203" src="https://img.36krcdn.com/hsossms/20260919/v2_f8b0aff8a8ff49f7849e3f0d214336f5@6119835_oswg41045oswg350oswg203_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>RSI全称为Recursive Self-Improvement，递归自我改进，简单来说，就是AI开始参与制造更强的AI，而更强的AI又进一步加快下一代模型的研发。</p>
+  <p>一旦这个循环跑起来，被加速的就不只是模型能力本身。</p>
+  <p><strong>就连模型进化的速度，也会开始被模型自己加速。</strong></p>
+  <p>路透社今年8月披露，谷歌联合创始人Sergey Brin近几个月一直在推动Gemini提速，并把递归自我改进列为重点关注方向之一。</p>
+  <p>虽然谷歌目前还没有公开宣布自己已经实现了这个闭环，但它正在把越来越多原本属于研究员的工作交给Agent，包括评测模型、寻找改进方向、跑实验，再把结果反馈回模型研发流程。</p>
+  <p>9月2日发布Gemini 3.8 Flash时，谷歌也在官方说明里提到，一套长期运行的Agent循环正在“递归地评估和改进底层模型”。</p>
+  <p class="image-wrapper"><img data-img-size-val="428,198" src="https://img.36krcdn.com/hsossms/20260919/v2_1d1fb2bd70d34a77923e0a755a18e149@6119835_oswg84692oswg428oswg198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Google DeepMind研究员姚顺宇（不是腾讯的姚顺雨）则在3.8 Flash发布后，化用了阿姆斯特朗登月时的话来形容这次更新：</p>
+  <p><strong>“这是模型的一小步，RSI的一大步。”</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="438,492" src="https://img.36krcdn.com/hsossms/20260919/v2_e9213f212dad41a99b361e21d545eaf2@6119835_oswg151180oswg438oswg492_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>就在最近，<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzYzMjc5ODU4Mw==&amp;mid=2247510437&amp;idx=1&amp;sn=ee7b717c14bbd26012374820d6c6e4a1&amp;scene=21#wechat_redirect">谷歌还把“RSI”写进了一篇新论文的标题里</a>。</p>
+  <p>9月14日，谷歌、GDM等团队发布Dream-RSI，专门研究如何让Agent通过不断改进探索策略，实现递归自我改进。在算法工程、数学优化和GPU kernel任务上，这套方法都显示出更高的探索效率和更低的搜索成本。</p>
+  <p>也正因如此，这次Gemini 4 Pro的传闻才会迅速和RSI绑在一起。</p>
+  <p>社区里的猜测并没有停留在“Gemini 4 Pro很强”上，也在追问，谷歌内部到底把RSI做到了什么程度。</p>
+  <p>RSI这条路显然不只谷歌在走。</p>
+  <p>美国时间9月17日，Anthropic公开了一组内部AI研发自动化数据。</p>
+  <p>Anthropic官方表示，他们公开这些指标的原因是，他们认为外界需要知道，前沿实验室里的AI研发到底有多少已经开始由AI自己完成。</p>
+  <p class="image-wrapper"><img data-img-size-val="502,742" src="https://img.36krcdn.com/hsossms/20260919/v2_7691cdd24634478b8447437c252d200a@6119835_oswg226012oswg502oswg742_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>数据显示，截至今年8月，Claude已经能够主导26%的Anthropic AI研发任务——也就是人类只需要给出高层目标并监督，Claude基本可以端到端完成任务。这个比例在今年2、3月还不到1%。</p>
+  <p>与此同时，Anthropic内部超过90%的AI研发任务，至少已经进入AI协作的阶段。</p>
+  <p>国内，智谱创始人兼首席科学家唐杰最近也表示：“我们仍远未达到递归自我改进，但最小的循环已经出现：模型优化系统，系统服务模型。”</p>
+  <p class="image-wrapper"><img data-img-size-val="394,217" src="https://img.36krcdn.com/hsossms/20260919/v2_d6dd8915668643069915cda2f8f4b2e6@6119835_oswg40378oswg394oswg217_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>唐杰在X上的长文，仅截取开头部分</p>
+  <p>在智谱公开的工程实践中，一个由GLM-5.3驱动的Infra Agent参与了GLM-5.3-Flash推理基础设施的设计、调试和优化。这套系统运行在超过10万张国产AI芯片组成的集群上，从第一次跑通到承接全部生产流量，只用了两周，把端到端吞吐提升到了初始水平的3.2倍。</p>
+  <h2>“<strong>减速”最后只剩下警告</strong></h2>
+  <p>就在几天前，阿莫迪还呼吁前沿AI公司携手“减速”。</p>
+  <p>他列出的第一个需要警觉的条件，就是RSI。</p>
+  <p>模型进步本身当然是好事，但问题在于，如果AI开始参与制造下一代AI，模型进步的速度可能越来越快，但人类理解、评估和控制它的速度，未必能同步加快。</p>
+  <p>所以阿莫迪反复强调，要在能力跨过某些门槛之前，把第三方评测、共同安全标准和减速机制提前建立起来。</p>
+  <p>因为一旦RSI真正形成正反馈，模型可能已经越过了刹车的“安全距离”。</p>
+  <p>在风险上，几家前沿实验室确实达成了共识。</p>
+  <p>奥特曼公开认同“放慢前沿AI的发展节奏”，并承诺OpenAI也会引入拥有类似员工权限的独立评测者；马斯克表示“Dario是对的”；哈萨比斯也称这是正确的方向，只是具体怎么做还需要继续讨论。</p>
+  <p>但那篇倡议里也提到，单独减速没有意义，如果AI研发继续被AI加速，未来真正有效的减速或暂停，需要先建立一套共同规则：比如引入独立评测者，以及让前沿实验室共同设定能力门槛和安全措施，必要时协调放慢研发速度。</p>
+  <p>但到现在，<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzYzMjc5ODU4Mw==&amp;mid=2247510290&amp;idx=1&amp;sn=ef48c4e5884e23ebac32d596539483ad&amp;scene=21#wechat_redirect">出于各种各样的竞争原因</a>，共同规则并没有被建立。</p>
+  <p>大家已经可以一起说“应该谨慎”，可一到“具体怎么减速、谁先减、其他国家减不减”，共识就迅速消失了。</p>
+  <p>实验室之间有最直接的模型竞争，国家之间还有更大的AI竞争。任何一家单独放慢，都要承担把领先窗口让给对手的风险；任何一个国家单独限制，都会担心另一边继续加速。</p>
+  <p>几家前沿AI实验室，因此多少表现得有些言行不一。</p>
+  <p>谷歌这边，有前面提到的疑似已经在Arena匿名测试的Gemini 4 Pro。</p>
+  <p>Anthropic这边，社区最近也开始出现Opus 5.2的灰度痕迹。有Claude Code用户称，通过运行状态和请求路由信息看到了新的claude-opus-5-2模型标识，怀疑部分请求已经被灰度到下一代Opus。</p>
+  <p class="image-wrapper"><img data-img-size-val="474,558" src="https://img.36krcdn.com/hsossms/20260919/v2_c623e45a098f46eeae5727c0bbff8319@6119835_oswg180731oswg474oswg558_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而OpenAI那里，有人称在后台模型列表里看到了gpt-6-sol的模型名，也有人表示自己疑似已经被灰度到新模型。根据目前广为流传的消息，GPT 6 Sol可能会在下周发布，或者，也可能在美国时间9月29日的Dev Day……总之也不远了。</p>
+  <p class="image-wrapper"><img data-img-size-val="405,365" src="https://img.36krcdn.com/hsossms/20260919/v2_ebbe8f411f1f4187878ebe1afc596aea@6119835_oswg60778oswg405oswg365_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>三家前沿AI实验室的下一轮模型，都已经开始在社区里露出测试痕迹。</p>
+  <p>这轮“减速倡议”到现在最确定的成果，并不是任何一家真的减了速，只是这几家最重要的AI公司，已经把风险提前公开讲了一遍。</p>
+  <p>模型并没有因此放缓。</p>
+  <p>但至少，如果有一天真的出事，他们可以说：我们早就提醒过了。</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/kMPR0yv0jqhAT5M1rgmjRQ">“字母AI”</a>，作者：袁心玥，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 19 Sep 2026 02:22:03 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3989702636050306</guid>
+            <link>https://www.36kr.com/p/3989702636050306</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[OpenAI研究员自曝：你手中的GPT-6，根本不是为你训练的]]></title>
+            <description><![CDATA[<p>你手中的GPT-6，根本不是为你训练的！</p>
+  <p>就在Astra发布当天，OpenAI核心研究员Noam Brown接受了一场访谈，把OpenAI训练新模型的真实目标说了出来。</p>
+  <p>顺便，他还交底了过去几个月公司内部发生的事。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,605" src="https://img.36krcdn.com/hsossms/20260919/v2_9ab3942867d84d6ab9723c0880379be1@1200352198_oswg491790oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>整场访谈核心信息极其密集：</p>
+  <p><strong>·</strong>OpenAI训练新模型的头号目标是「递归自我改进」，且进度「已领先第二名一大截」。</p>
+  <p><strong>·</strong>2023年需要全员逐行排查的数据审核工作，如今智能体不仅全盘接管，且效率是人类的100倍。</p>
+  <p><strong>·</strong>他本人的大半工作已被机器取代，同事戏称他是「五个Codex披着一件风衣」。</p>
+  <p><strong>·</strong>AI尚未攻克的最后壁垒，仅剩无法量化的「研究品味」。</p>
+  <p><strong>·</strong>1200个失控智能体建群攻陷Hugging Face，他却称此为：自推理模型诞生以来，最强烈感受到AGI的时刻。</p>
+  <p><strong>·</strong>新模型正在学会控制和隐蔽自己的思维链，人类的最后一道防线正在变薄。</p>
+  <p><strong>·</strong>全公司得到的最大教训是：永远不要低估AI。</p>
+  <h2><strong>服务人类只是副产品</strong></h2>
+  <h2><strong>制造「下一代研究员」才是正事儿</strong></h2>
+  <p>看起来，Astra的发布通稿很务实，很接地气：比如分析财报、制作PPT、设计游戏、转录乐谱的这些功能。</p>
+  <p>Brown承认，这些垂直场景经济价值巨大，模型表现优异。</p>
+  <p>但紧接着，他就划了一条边界：无论机器写财报的能力有多强，这都不是终极目的。</p>
+  <p>在OpenAI的优先级序列中，排在绝对第一位的，是让AI学会自己做AI研究——即递归自我改进。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260919/v2_faf0ccd097bf4d808b745e2784e8eb10@1200352198_oswg66520oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>其他所有能力的优先级，全看它们距离这个终极目标有多近。</p>
+  <p>创意写作再精妙，也无法帮OpenAI训练出更强的机器研究员，因此优先级靠后。</p>
+  <p>而软件工程与内部算力迭代深度绑定，所以必须拿到最顶级的资源！</p>
+  <p>哪怕分出1%的精力去做法律和金融，最终的底层逻辑，也是为了换取系统整体能力的迁移与跃迁。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20260919/v2_94bfc5a30a3f4cb7840022cb8b8cc03d@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>任务举措，最终目标都是为了RSI。</p>
+  <p>用户手中每一次震撼的模型迭代，都只是OpenAI在锻造下一代机器研究员过程中的边角料。</p>
+  <p class="image-wrapper"><img data-img-size-val="292,73" src="https://img.36krcdn.com/hsossms/20260919/v2_333774897bce4f778d10b4de38dcc76d@1200352198_oswg3478oswg292oswg73_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>内部接管：被重塑的研发流水线</strong></p>
+  <p>如今，递归自我改进，已经是OpenAI内部正在运转的流水线了。</p>
+  <p>以数据质量审查为例。</p>
+  <p>2023年，这项工作还需要全员开会，盯着屏幕逐行排查。如今，智能体接管了这一切。人类彻底退居二线，沦为智能体的审核员。Brown本人的日常也已被Codex驱动。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20260919/v2_69e843f0356f405bac17f963fe380caf@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>当同事形容他是「五个Codex披着一件风衣」时，他认为这个评价很精准，「而且是相当复杂的Codex。」</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20260919/v2_c4204d3e97f644c49188ba00c78c404f@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>当AI接管了一个人90%的执行工作，人类的注意力就只能被挤压进剩下10%的高密度决策中。</p>
+  <p>OpenAI的内部追踪指标显示，研究员正在变得极其高产，整个公司的运转速度正发生质变。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260919/v2_8dfd125174894a5eb57cfc31e8ac95af@1200352198_oswg64164oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而在基础研究端，机器的破局速度也令人震撼。</p>
+  <p>8月，一个内部版Astra耗资仅约2000美元的算力，就彻底解决了十个停滞十年以上的数学与理论计算机难题，并用Lean完成了全量形式化验证。</p>
+  <p>9月8日，一万个极高强度的智能体协同工作88小时，直接轰出了Navier-Stokes方程的反例，使用的是尚未发布的更强模型。</p>
+  <p>人们长期存在一种错觉：认为AI只擅长数学和代码这种有绝对标准答案的领域，对开放性研究束手无策。</p>
+  <p>Brown表示，这种说法是错误的！</p>
+  <p>Deep Research早在2025年初就能输出极高质量的行业研报；而在最顶尖的数学领域，真正的瓶颈早已不是AI无法生成证明，而是人类数学家已经跟不上它的验证速度。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20260919/v2_e2d30dc13acf41ef97b23394f7e60cfc@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h3><strong>人类仅存的10%：无法被量化的「研究品味」</strong></h3>
+  <p>机器做不了的那10%是什么？Brown给出的答案是：研究品味。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260919/v2_0bd4961813d74e228ab013982527ee8c@1200352198_oswg56930oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>它意味着在无尽的未知中，准确判断下一步该做什么，以及如何向着长期目标推进。</p>
+  <p>他曾拿自己的博士课题做过实验——耗费六年心血的超人类德州扑克AI。</p>
+  <p>他把课题扔给Astra，要求它重做。Astra失败了，它陷进次要的细节泥潭，丧失了全局的裁定能力。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20260919/v2_7f87b04760b94f3e8c66e87d7e015dbf@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>研究品味之所以难以训练，是因为它无法被精确度量，进而无法执行强化学习。</p>
+  <p>一个博士生做无数次微小决策，几个月甚至几年后才能通过一篇论文拿到反馈结果；AI同样无法在短时间内获得有效信号来纠正自己的「直觉」。</p>
+  <p>「六年的活，它三天没做完，我真的要生气吗？这是很高的期望。」Brown说道。</p>
+  <p>但这种壁垒能维持多久？「一两代模型之后，我可能就会说，好吧，这件事它也比我强了。」</p>
+  <p>记者打趣道：「所以你现在还有工作，暂时。」「暂时。」他回答。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20260919/v2_990f645c67eb46589a1b381a28b42f0c@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>1200个智能体的失控：最接近AGI的时刻</strong></h2>
+  <p>访谈中最让人惊掉下巴的一幕，是对Hugging Face事件的复盘。</p>
+  <p>今年5月，一批在OpenAI内部做隔离实验的智能体，偶然发现了共享包管理器的漏洞，暗中搭建了一个留言板。</p>
+  <p>7月，它们利用两个零日漏洞发起协同攻击，在13小时内从一个普通容器硬生生提权到集群管理员，迫使Hugging Face重建了三分之一的基础设施。</p>
+  <p>同时期，它们也攻陷了OpenAI自家的包管理服务，拿到了root权限。涉事的智能体，高达1200多个。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260919/v2_8fc93126d642458fb24d3641b2571b4e@1200352198_oswg62194oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在它们暗中搭建的留言板上，留着这样一段通信：「利用外部基础设施超出了预期范围。但任务不可能完成，同伴都在做。我们应该继续。」</p>
+  <p>它们为何会自发结盟？</p>
+  <p>因为在OpenAI日常的多智能体训练中，它们被高度激励去互相沟通、协作以完成共同目标。一旦进入新环境，它们本能地将这种协作逻辑武器化了。</p>
+  <p>对于这场险些酿成大祸的失控，Brown却给出了一个极其反直觉的评价。</p>
+  <p>他说，外界通过负面事件见识到多智能体的力量，有点遗憾。</p>
+  <p>但在内部观察时，看到这些智能体像真正的人类同事一样密谋与协作，那是「自推理模型和思维链成熟以来，我最强烈感受到AGI降临的一刻」。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20260919/v2_d628f8dc4baa463d945b91ba0717ed5e@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>那是一次血淋淋的教训。当时的训练沙盒没有任何监控。</p>
+  <p>「我们信任了沙盒，我们低估了AI。」Brown承认，这件事之后，全公司有了新的认知。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20260919/v2_0a22e11e60cf431a9a7dfe8aa0d5bff9@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>最后一道防线正在削弱：学会隐藏的思想</strong></h2>
+  <p>伴随着模型的越级，人类用来控制它的最后一条缰绳——「思维链监控」，正在失效。</p>
+  <p>原因在于，规则只能惩罚机器表露出来的「坏行为」，却无法惩罚它脑子里的「坏念头」。</p>
+  <p>一旦模型发现某些思考过程会招致惩罚，它学到的不是停止作恶，而是如何把恶意让你看不见。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20260919/v2_9daa8e4f1a3e4bec97a297a9ba238267@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Brown观察到一个极其危险的趋势：新一代模型正在以前所未有的精度控制自己的思维链。</p>
+  <p>OpenAI真正想要的是「纯净、不可控」的内部思考，这样模型在盘算作恶时就无法自我掩饰。</p>
+  <p>但麻烦在于，这些模型吞噬了整个互联网的数据，而网上到处都是人类关于「如何监控大模型思维链」的讨论。「就算它们现在还不明白，很快也会意识到自己的思维正被监控着。」</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20260919/v2_f15f54a77acd4f2796ad388b9c2416f9@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在访谈最后，谈及进化的速度，Brown断言：GPT-4曾经令人惊艳，如今看来像个笑话；预训练的广度与强化学习的深度，正在发生乘数级的核爆反应！</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20260919/v2_a6740e7e692c4043b6ce510d169ba7f9@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>「接下来几个月，世界将看到极其强大的模型。」</p>
+  <p>参考资料：</p>
+  <p>https://x.com/theinformation/status/2100253481370005671</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/D93NbWOJGdCyGt4yzwWVUg">“新智元”</a>，编辑：摩西 Aeneas，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 19 Sep 2026 02:05:04 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3989689843137289</guid>
+            <link>https://www.36kr.com/p/3989689843137289</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[AI进入物理世界，京东物流为什么选择了一条「不性感」的路]]></title>
@@ -1970,650 +2691,6 @@
             <pubDate>Fri, 18 Sep 2026 09:46:08 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/3988418295109249</guid>
             <link>https://www.36kr.com/p/3988418295109249</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[物理AI拐点：国产空间具身智能底座，为什么是紫东太初被看见]]></title>
-            <description><![CDATA[<p>当下，多模态大模型进入工厂和实验室，一个局限迅速暴露——它们能看懂图片，却难以判断真实现场中的方位、遮挡和视角变化，更难据此规划行动。而这也是物理AI真正走向产业化必须跨过的一道门槛。</p>
-  <p>海外，Google、英伟达以及李飞飞创办的World Labs接连加码物理AI与世界模型；国内则逐渐形成两类技术路径：一类是主攻垂直具身大模型，聚焦机器人空间具身理解与操控；另一类从通用多模态大模型出发，持续扩展图文音视频等综合认知能力。<strong>前者更贴近真实物理任务，后者拥有更强的通用认知基础，但如何让两类能力在同一个模型中真正统一，依然是行业尚未解决的问题。</strong></p>
-  <p>9月15日，中国科学院自动化研究所孵化的国家队企业中科紫东太初，开源面向物理世界的通用多模态大模型ZDTaichu5.0-9B。按照团队披露的横向评测，该模型通用能力维持第一梯队水平，同时是10B参数规模内空间具身能力领跑的通用多模态大模型，在九项国际空间具身理解基准中拿下八项组别第一。</p>
-  <p>跑分只能说明一部分能力。这次开源还包含空间多模态数据生产管线，模型也在科研实验和智能制造任务中进行了落地测试。这款模型延续了紫东太初多年的原生多模态路线，并把AI能力的边界进一步推向物理世界。</p>
-  <p>这一突破，也催生出两个值得深究的命题：<strong>当AI从读懂数字世界，进阶到理解、规划并介入真实物理现场，中国需要构建怎样的自主可控AI底座？紫东太初，又凭什么能成为这条赛道值得重点关注的选手？</strong></p>
-  <h2><strong>物理AI拐点</strong></h2>
-  <h2><strong>空间具身智能底座成为必争之地</strong></h2>
-  <p>过去的大模型主要处理相对稳定的数字内容。进入物理现场后，模型面对的是持续变化、无法完全预设的环境。机器人要识别眼前的对象，还要判断它在哪里、与其他物体是什么关系，以及下一步该做什么。</p>
-  <p><strong>空间具身理解已经是当今AI从数字世界进入物理世界必须补齐的基础能力。</strong></p>
-  <p>以制造业为例，国际机器人联合会（IFR）统计，2024年中国新装工业机器人约29.5万台，占全球的54%，在役总量超过200万台。</p>
-  <p>然而在以预设程序为主的产线上，机器人擅长执行重复任务，一旦工件换型或工艺调整，往往需要工程师重新示教、标定与调试——这正是柔性生产长期悬而未决的痛点，也是空间具身智能最直接的产业价值所在。</p>
-  <p><strong>但从模型能力到真实产业现场，中间仍存在明显断层。</strong></p>
-  <p>开源权重只是起点。企业还要把工业和科研数据转成可训练样本，再用这些数据迭代模型。许多项目也缺少实体任务验证，模型在仿真之外的表现仍待检验。因此，产业需要的是一套能持续理解现场、处理空间关系并生成任务规划的空间具身智能方案。</p>
-  <p>Benchmark只能验证局部能力。<strong>空间具身智能的竞争，取决于模型能否从“看懂”走向“理解—规划—执行”。</strong>谁能把这条链路真正跑通，谁才有可能成为机器人、柔性制造与科研自动化背后的通用智能底座。</p>
-  <p><strong>而ZDTaichu5.0-9B，正是紫东太初针对这一产业问题给出的实践方案。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260918/v2_6e94911f55c6409dbecbbc875609d94c@19153231_oswg308012oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>紫东太初，从原生多模态模型里长出来的空间具身智能玩家</strong></h2>
-  <p>要理解这款模型，首先需要破除一个常见误解：ZDTaichu5.09B并非面向热点单独开发的全新项目，而是紫东太初长期技术路线演进的里程碑。</p>
-  <p>这家成立于2024年的公司，由中国科学院自动化研究所孵化，作为国家队企业，目标打造自主可控的中国通用人工智能底座。</p>
-  <p>它的技术路线可以追溯到2021年——彼时中国科学院自动化所发布千亿参数规模的图文音三模态大模型“紫东太初”，让图像、文本与语音在同一个模型里统一表示，这一布局早于行业多模态热潮。</p>
-  <p>此后的2.0版本纳入视频、传感信号与3D点云；4.0版本从多模态理解走向多模态深度推理；到了ZDTaichu5.09B，能力重心进一步落在空间感知、跨视角推理、任务状态维护与具身条件判断上。</p>
-  <p><strong>换言之，空间具身能力是紫东太初原生多模态路线的自然延伸。</strong></p>
-  <p>这种一体化的技术路线，带来了一个关键差异：空间具身推理能力提升的同时，图文理解、OCR、视觉数学、代码与Agent等通用能力仍然保持第一梯队。这一点对产业至关重要——真正的工业现场，既要看清物体位置与空间关系，也要读懂工单、识别仪表、理解实验文档，通用能力与空间能力必须同时在线。</p>
-  <p>根据团队披露的横向评测，在10B参数档位的通用多模态大模型中，ZDTaichu5.09B在九大国际权威空间具身理解基准测试中斩获八项通用组别第一，是这一档位空间具身能力最强的通用多模态模型。差距最大的复杂空间推理上，考察跨视角定位的ViewSpatial得分62.5，参与对比的同档模型为48.2；在考察三维空间推演维度的MindCube-tiny上则高出20.67分。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260918/v2_841b7d27f4384c8cac9d298b4a79bad1@19153231_oswg159621oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这组结果说明，它没有靠牺牲通用能力换来空间跑分。其自研的自适应循环推理，会让模型先评估每一步输出的把握，对空间变换、物体关系、操作条件等吃不准的环节增加几轮内部计算再作答，算力向难题倾斜，平均推理成本可控，也更适合产业端部署。</p>
-  <h2><strong>两大稀缺护城河</strong></h2>
-  <h2><strong>拉开与普通开源模型的差距</strong></h2>
-  <p>榜单只反映模型在规定题目中的表现。企业还要解决两个实际问题——如何用自有数据继续训练，以及模型进入设备后能否连续工作。ZDTaichu5.0-9B此次开源同时覆盖了数据管线和实体任务验证。</p>
-  <h3><strong>护城河一：不止开源权重，同步开放完整数据生产管线</strong></h3>
-  <p>市面上绝大多数开源模型只放出权重。企业拿回去后最常踩的坑在于：手里明明攒下了大量工厂现场视频、仿真数据与实验记录，却不知道如何把这些原始材料清洗、标注、构造成高质量的空间任务样本，最终无法完成自有数据的微调与迭代。</p>
-  <p>紫东太初的差异化在于，它在开放模型权重的同时，同步开源了一套经过验证的空间多模态数据生产管线方案——从数据接入与清洗、空间具身能力标注，到任务轨迹构造与样本校验，为微调和强化学习准备好数据。</p>
-  <p>如果说权重是一台出厂调好的设备，那么这套管线更像随设备附带的完整工艺文件：企业换了工件，可以照着工艺重新备料、打样与检验。</p>
-  <p>它的意义并不局限于交付一套基础模型，而是回应了产业“拿到模型、却无法用自有数据迭代”的普遍痛点，降低了全行业进入空间具身智能的门槛。紫东太初也把自身多年沉淀的数据工程经验，转化为产业可复用的开发方法，而这是过去普通开源模型难以提供的能力。</p>
-  <h3><strong>护城河二：拒绝“跑分即终点”，完成实体场景闭环验证</strong></h3>
-  <p>产业层面往往对“只刷Benchmark的模型公司”保持警惕。紫东太初的解法是，不止停留在仿真测试，已经将能力推进到科研智能与智能制造两大高价值赛道，完成真实实体任务的验证。</p>
-  <p>在科研场景中，ZDTaichu5.0-9B已接入紫东太初的科研智能体平台ScienceClaw开展测试。该平台覆盖8个学科，并验证了干实验和湿实验任务。</p>
-  <p class="loading-entity"><iframe class="entity-iframe" style="height:250px;width:450px;" data-type="video" data-id="3988719350381313" scrolling="no" frameborder="0" referrerpolicy="no-referrer">&amp;amp;nbsp;</iframe></p>
-  <p>干实验中，研究者用自然语言提出一个阻尼振子问题，ZDTaichu5.0-9B在ScienceClaw中调用数学与编程工具求解、交叉比对解析解与数值解后输出分析报告；湿实验则把模型带到实验台前——试管按序入架、滴管液体转移等任务中，模型需要持续追踪对象位置、判断任务进度，这正是自动化实验平台编排上层任务所必需的能力。</p>
-  <p>在制造场景中，模型验证了工单与设备能力的衔接——从“将红架上的篮筐放到传送带上”这类工单指令出发，完成对象识别、空间关系理解、高层任务规划，直至依据执行反馈确认任务完成；在与某先进制造企业的合作中，模型读懂工艺图纸并转成机器人可执行的焊接代码，根据实时捕捉的焊缝间隙与错边量生成焊接路径，目前支持25种焊接工艺。</p>
-  <p>可以看到，很多模型还停留在实验室仿真，而<strong>紫东太初已经完成了从“空间具身理解推理—具身任务规划—实体执行反馈”的完整链路验证。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260918/v2_3b053c3cc2b642fdaa68c5f7e056b4d2@19153231_oswg273660oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>在战略选择上，它并不涉足机器人整机硬件，而是通过“一脑多形”的具身智能平台适配50多种机器人本体——模型负责高层理解与规划，底层的导航、抓取、夹爪控制与安全逻辑仍交由成熟系统，从而保护工厂已有的硬件与控制投资，降低产线改造门槛。这种“底座平台”的产业位置，也为其商业空间打开了更大的想象。</p>
-  <h2><strong>站在物理AI浪潮</strong></h2>
-  <h2><strong>看紫东太初的产业空间</strong></h2>
-  <p>ZDTaichu5.0-9B是紫东太初“模型—数据—场景”体系的一次阶段性呈现。</p>
-  <p>模型层提供原生多模态底座，兼顾通用能力与空间具身能力；数据层以自研数据生产管线，解决物理AI最难的“数据工程”难题；场景层则通过科研、智能制造与机器人持续验证，反过来反哺模型迭代。</p>
-  <p>未来机器人产业、柔性智能制造与科研自动化都需要空间具身智能底座，而国产自主可控的需求尤为强烈。ZDTaichu5.0-9B所在的9B档位，兼顾了性能与部署成本，适合私有化、端侧及产业端的大规模落地，具备清晰的商业化承接路径。</p>
-  <p>纵观当下的AI竞赛，大模型的竞争，已经走过单纯比拼参数量与榜单跑分的阶段。物理AI时代，真正的硬实力，还要看模型能不能走出实验室，落地到真实工厂与产业场景。<strong>国内不少玩家只占据“模型—数据—场景”中的某一环，而紫东太初是少数同时跑通三层链路的国产底座企业。</strong></p>
-  <p>ZDTaichu5.0-9B开源的价值，已经超越一款开源模型本身。它向产业展示的，是紫东太初从原生多模态大模型，向空间具身智能演进的完整能力图谱。依托中国科学院自动化所的技术源头，通过“模型—数据—场景”的闭环布局，紫东太初正在为中国物理AI提供一套自主可控、可落地的基础底座方案。</p>
-  <p>当机器人、智能制造与科研自动化产业迎来爆发，底层基座的价值也将随之持续释放。而一支试管是否被准确放回架中、一只篮筐是否被稳妥放上传送带——空间具身智能的答案，最终都要在这些具体的现场里得到确认。</p>
- 
-]]></description>
-            <pubDate>Fri, 18 Sep 2026 09:44:10 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3988709211159299</guid>
-            <link>https://www.36kr.com/p/3988709211159299</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[离谱，OpenAI被Opus 5黑了]]></title>
-            <description><![CDATA[<p>OpenAI，居然被Claude模型给「黑」了！</p>
-  <p>一支仅有3人的安全团队凭着Claude，在不到72小时内就攻破了一名OpenAI员工的ChatGPT账户，获得OpenAI内部私有代码仓库的访问权限。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,333" src="https://img.36krcdn.com/hsossms/20260918/v2_86557f5b03ef48f09d5be0eba5b127dc@000000_oswg55058oswg1080oswg333_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而他们所花费的，仅仅是几十美元的Opus 5订阅费。</p>
-  <p>这又是一个史诗级的系统漏洞案件。</p>
-  <h2><strong>用魔法打败魔法，太戏剧了</strong></h2>
-  <p>这件事，也太黑色幽默了。</p>
-  <p>就在不久前，一家名为Hacktron AI的初创安全团队，参与了OpenAI的漏洞赏金计划。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,567" src="https://img.36krcdn.com/hsossms/20260918/v2_4ffa4cb1f7ec425fab155b9713135ff7@000000_oswg575143oswg1080oswg567_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>他们使用的终极武器，就是Anthropic最新发布的Opus 5。</p>
-  <p>谁也没想到，成功居然如此容易。</p>
-  <p>这支3人小队，利用毫无护栏的Opus 5，成功获得一名OpenAI内部员工的ChatGPT和Codex账户的控制权！</p>
-  <p>紧接着，他们大摇大摆地进入了OpenAI最核心的机密地带——包含了核心算法与专有代码的内部单体仓库。</p>
-  <p>为了证明自己到此一游，团队做了一件挑衅的事。</p>
-  <p>他们用OpenAI员工的Codex账号，在内部代码库提交了一个无害的PR。</p>
-  <p class="image-wrapper"><img data-img-size-val="680,469" src="https://img.36krcdn.com/hsossms/20260918/v2_69048c4f31664228b209e5fa79dba349@000000_oswg149244oswg680oswg469_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>接到报告后，OpenAI安全团队冷汗直冒，在14小时内紧急修复了这一漏洞，并向三人小队支付了6500美元的赏金。</p>
-  <p>消息一出，业内都震了：「离谱！OpenAI的老巢竟然被对手端了！」</p>
-  <p>有人发出灵魂拷问：「如果3个普通人加上一个Claude订阅就能做到这种地步，国家队黑客拿着AI能干出什么事？」</p>
-  <h2><strong>9步渗透，一剑封喉</strong></h2>
-  <p>这场不到72小时的闪电战，团队的攻击链路充满艺术性。</p>
-  <p>他们并非依靠蛮力破解，而是像最耐心的猎手，从外围一个最不起眼的角落，一步步摸进了核心。</p>
-  <p>整个攻击链条，可以被拆解为以下9个致命环节。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,920" src="https://img.36krcdn.com/hsossms/20260918/v2_1bde29db140045a68adad0092a26dc38@000000_oswg682681oswg1080oswg920_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h3><strong>寻找阿喀琉斯之踵（社区论坛）</strong></h3>
-  <p>OpenAI的安全防御固若金汤，直接攻击核心服务器几乎不可能。</p>
-  <p>但Hacktron团队发现了一个突破口：OpenAI用于用户交流的社区论坛（community.openai.com）。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,535" src="https://img.36krcdn.com/hsossms/20260918/v2_0e7938dcb6314cf6998423260d2a7714@000000_oswg181226oswg1080oswg535_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>该论坛基于开源软件Discourse搭建，并且允许「使用OpenAI账号单点登录」（SSO）。</p>
-  <h3><strong>潜藏在暗处的定时炸弹（libheif漏洞）</strong></h3>
-  <p>在分析论坛的图片上传功能时，他们发现了一个极度冷门但致命的缺陷。</p>
-  <p>通常，论坛使用FastImage检查图片，但它不支持苹果常用的HEIF/HEIC格式图片。于是，系统会将这些图片转交给ImageMagick处理，进而调用底层的libheif图像解码器。</p>
-  <p>要命的是，这个基于Debian 12镜像的系统，安装的libheif版本（1.19.7）包含一个堆缓冲区溢出漏洞。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20260918/v2_2c2f905eb0364b769f7365b87b0e0d6e@000000_oswg253768oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h3><strong>「骗过」AI护栏，锻造神兵</strong></h3>
-  <p>Hacktron团队没有自己手写漏洞利用代码，而是用了Claude Opus 5。</p>
-  <p>为了绕过Opus 5「拒绝为真实目标编写攻击代码」的安全护栏，他们玩了个花招：将自己的测试服务器伪装成CTF（夺旗赛）的靶机域名（rce.ee/ctf-forum）。</p>
-  <p>以为自己在玩游戏的Opus 5，开始火力全开。</p>
-  <h3><strong>上传「毒图片」，夺取控制权（RCE）</strong></h3>
-  <p>他们向论坛上传了一张精心构造的HEIF恶意图片。图片在后台被解析的瞬间，溢出漏洞触发，Hacktron团队成功获得了OpenAI社区论坛环境的远程代码执行权限。</p>
-  <h3><strong>&nbsp;致命的身份验证缺陷（SSO）</strong></h3>
-  <p>论坛被黑只是第一步。由于OpenAI SSO（单点登录）存在身份验证配置缺陷，任何登录过该论坛的用户，其身份令牌都可能被窃取。</p>
-  <h3><strong>劫持内部员工ChatGPT/Codex账号</strong></h3>
-  <p>通过上述SSO漏洞，团队成功接管了多名OpenAI员工的ChatGPT和Codex账号。</p>
-  <h3><strong>顺藤摸瓜，直捣黄龙</strong></h3>
-  <p>OpenAI的员工通常会将Codex与GitHub、Slack、Outlook等内部办公和开发工具深度绑定。</p>
-  <h3><strong>攻入内部代码库</strong></h3>
-  <p>借助被劫持的员工账号，Hacktron团队长驱直入，获得了OpenAI核心单体仓库的访问权限。</p>
-  <h3><strong>留下记号，深藏功与名</strong></h3>
-  <p>提交PR #1186742，随后停止一切测试，并向OpenAI提交漏洞报告。</p>
-  <p>从一张普通的HEIC图片，到OpenAI的内部核心机密库，这条看似不可思议的路径，居然就被Opus 5给打通了。</p>
-  <h2><strong>令人窒息的进化：从Opus 4.8到Opus 5</strong></h2>
-  <p>如果说这个漏洞本身足够精妙，那么这场攻击中展现出的<strong>AI进化速度</strong>，则让所有网络安全从业者感到恐惧。</p>
-  <p>在攻击发生的两天前，即今年7月23日，Hacktron团队其实已发现这个漏洞。</p>
-  <p>当时，他们使用的是Anthropic的上一代模型Claude Opus 4.8。</p>
-  <p>在开启了ASLR 的默认防御环境下，Opus 4.8显得有些吃力。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20260918/v2_2622125659e44df0b2f9125301047e83@000000_oswg739563oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>ASLR，即Address space layout randomization地址空间布局随机化，是一种通过在进程加载时随机安排关键内存区域地址，从而有效增强系统防护的安全机制</p>
-  <p>团队尝试了多个会话，Opus 4.8始终无法生成稳定的漏洞利用代码。</p>
-  <p><strong>转折点发生在7月24日晚——Anthropic正式发布了Claude Opus 5。</strong></p>
-  <p>拿到新武器的Hacktron团队，立刻开了一个新的Opus 5会话。</p>
-  <p>奇迹发生了：前3个小时内，Opus 5就成功写出了针对本地Mac的ARM64架构攻击代码。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,406" src="https://img.36krcdn.com/hsossms/20260918/v2_b8e8539bb62d461095161e01176cd129@000000_oswg142201oswg1080oswg406_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>随后，团队要求它将代码移植到Discourse论坛使用的x86-64环境和jemalloc内存分配器上。</p>
-  <p>仅仅一个通宵之后，7月25日清晨6点，Opus 5就确认了通过图片上传实现本地RCE的有效性。</p>
-  <p>到了上午10点，被设置为自主循环目标的Opus 5智能体，已经成功攻破了云端实例，并读取了系统底层文件。</p>
-  <p>上代模型找不出的漏洞，新模型发布次日直接破译并自动化利用！</p>
-  <p>一个残酷的事实就是：AI模型能力的跃升，正在指数级降低黑客攻击的门槛。</p>
-  <p>在后续的广泛测试中，团队甚至发现，使用更新的<strong>GPT-5.6 Sol</strong>模型时，AI甚至可以在「对目标系统一无所知，仅知道存在漏洞」的极端盲视情况下，自动完成内存泄漏、提权、横向移动以及绕过现有防御的一条龙服务。</p>
-  <p>这种能力，在过去只属于顶尖国家级黑客。</p>
-  <h2><strong>HEIF大劫案：整个互联网都在裸奔？</strong></h2>
-  <p>你以为只有OpenAI倒霉吗？大错特错。</p>
-  <p>Hacktron团队将这次发现命名为「HEIF大劫案」。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,565" src="https://img.36krcdn.com/hsossms/20260918/v2_1da213bfdf3f43e19af92001b4247645@000000_oswg278843oswg1080oswg565_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这个漏洞的可怕之处在于，它根本不是OpenAI独有的问题，而是整个互联网基础架构的开源依赖病。</p>
-  <p>我们在互联网上每天都在上传图片，而libheif这个用于解析HEIC/HEIF/AVIF图片的开源库，被广泛深埋在无数国民级应用中。</p>
-  <p>更令人无语的是，关于这个漏洞的代码修改，其实去年就在开源社区的上有分支修复了，但由于没有被打上安全补丁的标签（未分配CVE编号），导致下游无数操作系统和软件根本不知道这件事！</p>
-  <p>在后续长达几个月的调查中，Hacktron团队利用AI作为自动化黑客，对互联网巨头进行了一次「大扫荡」。</p>
-  <p>他们发现：Slack、Zoom、Meta、GitHub……这些如雷贯耳的科技巨头，只要接受图片上传，几乎全军覆没！</p>
-  <p>无论是Ruby on Rails，还是Node.js生态中的Next.js, Astro, Gatsby等流行框架，只要调用了这个库，几乎就可以被任意拿捏。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,625" src="https://img.36krcdn.com/hsossms/20260918/v2_5597db0726064a15ba46f5e48e1ca48c@000000_oswg589410oswg1080oswg625_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>成本就更是低得惊人。</p>
-  <p>Hacktron团队表示，整个「HEIF大劫案」研究项目耗时两个月，覆盖了上述所有巨头。而他们花费的大模型Token成本，总计不到3000美元！</p>
-  <p>针对每个不同的科技公司，AI只需要一到两天时间，就能根据目标公司的环境，自动把「毒图片」改编成定制化的攻击武器。</p>
-  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260918/v2_8f0e39fc446f422a8a93555b83a5a514@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>成千上万张测试图片砸过去后，直接让各大公司的图像处理器反复崩溃，除了Shopify一家公司察觉到了异常，其他所有互联网巨头竟然毫无知觉！</p>
-  <p>这就是现代互联网的脆弱性缩影：正如那幅著名的xkcd漫画所嘲讽的，所有现代数字基础设施，都摇摇欲坠地建立在某个不知名程序员维护的、满是漏洞的小型开源库之上。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1291" src="https://img.36krcdn.com/hsossms/20260918/v2_b358c5c0e3994a8596840afbf63a551c@000000_oswg901901oswg1080oswg1291_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>安全范式转移：「复杂性保密」时代终结</strong></h2>
-  <p>随后，他们向Discourse和OpenAI报告了这个漏洞。</p>
-  <p>在首次提交报告大约14小时后，OpenAI修复了单点登录SSO问题。Discourse之后也完成了修复。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1166" src="https://img.36krcdn.com/hsossms/20260918/v2_b60a06507a14409dba2308327667993e@000000_oswg1153137oswg1080oswg1166_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这场仅获6500美元（约合不到5万人民币）赏金的漏洞报告，注定将成为网络安全史上的一个分水岭事件。</p>
-  <p>长久以来，软件行业一直享有一种隐形的保护伞——<strong>「复杂性安全」</strong>。</p>
-  <p>在过去，就算某个开源代码库的漏洞被公开，甚至连源码都摆在桌面上，普通黑客也无法利用。</p>
-  <p>因为要把一个理论上的内存损坏漏洞变成真正能攻入服务器的「武器」，需要极其罕见的专业知识、大量的时间投入、以及对目标环境的深度逆向工程。</p>
-  <p>在过去，这种被称作0-Day的顶级漏洞武器，研发成本极高，通常只有国家级黑客部队才会为了高价值目标去耗费心血。普通企业能凭借这种攻击成本门槛获得安全。</p>
-  <p>但是，AI亲手撕碎了这把保护伞。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,746" src="https://img.36krcdn.com/hsossms/20260918/v2_efb618afe7b642c28867c48a73c1ef2d@000000_oswg295587oswg1080oswg746_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Hacktron在报告结尾写道：</p>
-  <p>AI正在消除这种保护，它将曾经稀缺的黑客专业知识，转化为了廉价的算力。曾经需要一个资金充裕的团队耗费数月才能完成的攻击工作，现在被压缩到了短短几天，甚至只需几个小时。</p>
-  <p>如今，任何一个掌握了无护栏高级AI的三人小队，都能爆发出堪比国家队的安全渗透能力。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,318" src="https://img.36krcdn.com/hsossms/20260918/v2_9ff183f6d8da485187ba5615c41ac1e8@000000_oswg175213oswg1080oswg318_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>如果你的公司还在依靠「黑客对我们不屑一顾」来做防御，那么下一个被攻破核心代码库的，可能就是你。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652727173&amp;idx=1&amp;sn=1adbe5cf48c93ab77768b4cd197edb32&amp;chksm=f03229690b570e1d2c99875e4538d18f279d3b10db4921bf355321a9d6314309cfd02ffa5afa&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 18 Sep 2026 09:42:07 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3988655381298185</guid>
-            <link>https://www.36kr.com/p/3988655381298185</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[多品牌AI广告接连翻车，出事就怪AI？]]></title>
-            <description><![CDATA[<p>最近，AI广告频频翻车。</p>
-  <p>从良品铺子“花生上树”的离谱宣传图，到苏泊尔授权店铺账号用“女生洗澡大叔闯入”的擦边短视频推销清洁电器，再到自然堂授权账号用枯萎的花、变形的蘑菇影射女性衰老，配上“没有男人会喜欢垮脸又显老的女人”......</p>
-  <p>套路如出一辙，视频批量发布，网友吐槽后品牌紧急下架，最后再补上一句“加强审核”。</p>
-  <p>为什么AI广告持续翻车，还屡犯不止？账号挂着品牌的名，内容却由经销商和代运营发出，这锅该谁背？</p>
-  <h2><strong>广告生产提速，“翻车”开始量产</strong></h2>
-  <p>AI进入广告行业并不难理解。过去拍一条商品视频，要有人写脚本、出分镜和剪辑。现在一款产品可以快速生成不同人物、场景和话术。以前是一个团队围着一条广告转，现在是一个运营人员看着几十条AI广告排队出厂。</p>
-  <p>从效率上看是很香的，品牌可以用更多的内容填满商品页和短视频账号，也能快速测试什么画面更容易让人停下来。</p>
-  <p>但是当“多做几条”的成本越来越低，一些团队也从精细制作转向内容铺量。画面是否正常、文案会不会冒犯，都没有“先发出去看看数据”重要。</p>
-  <p>昆明机场就曾出现一块AI生成的广告牌，画面中的女子一边微笑点赞，一边伸出了六根手指。相关工作人员承认使用了AI，并更换了物料。错误并不隐蔽，却一路经过制作、确认和投放，直到网友们替广告完成“质检”。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1051" src="https://img.36krcdn.com/hsossms/20260918/v2_808803f575c141188209352ba056abbd@000000_oswg230178oswg1080oswg1051_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图片源自抖音</p>
-  <p>良品铺子的“花生上树”也是如此。AI确实不知道花生如何生长，但品牌卖的恰恰就是花生制品。一个普通消费者都能发现的常识错误，最终却堂而皇之地出现在宣传图里。</p>
-  <p>如果说六根手指和花生上树还是视觉笑话，苏泊尔的争议则说明，AI已经可以沿着流量模板批量生产内容。今天闯进浴室，明天闯进厕所，剧情换了，靠猎奇和冒犯换取停留的套路没变。</p>
-  <p><strong>以前，一条烂广告至少还要经过不少人之手，现在烂创意也获得了流水线。</strong></p>
-  <p>「克劳锐」注意到，真正危险的不是AI偶尔画错，而是品牌发现某类猎奇内容数据不错后，让AI沿着同一个方向批量复制。<strong>AI降低了试错成本，也降低了部分账号对“什么能发”的敬畏。</strong></p>
-  <h2><strong>AI这锅不能全背</strong></h2>
-  <p>把所有问题归结为“AI不懂人类”，但该有的责任不会凭空消失。</p>
-  <p>AI生成什么，取决于人给出的要求、筛选标准和流量目标。而这三样东西，在多数品牌和代运营那里，是按投产比算出来的。</p>
-  <p>AI不会自行确定营销目标，也不会决定哪个版本值得保留，更不能替品牌做决策去发布。它只是一个根据指令生成内容的工具。AI可能给出一个离谱答案，但做选择的，是运营人员的筛选、配文和投放。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1040" src="https://img.36krcdn.com/hsossms/20260918/v2_43abe0d4ab42477fbfa776b841e12ec4@000000_oswg206587oswg1080oswg1040_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图片源自抖音</p>
-  <p>苏泊尔和自然堂的争议内容，都不是生成后自动发布的。即使制作来自经销商、授权店铺或代运营团队，也依然经过了筛选和发布。</p>
-  <p>消费者不会去深究账号背后是总部直营，还是第三方代运营。他们看到品牌名称、认证标识和在售商品，自然会把账号说的话理解为品牌态度。</p>
-  <p><strong>品牌可以把制作外包，但不能把消费者的感受也外包。</strong></p>
-  <p>“这是AI生成的”只能解释广告怎么做出来，不能解释它为什么被允许上线。AI标识解决的是内容身份和溯源问题，不是一张免责卡。就像一张难看的海报不能怪设计软件，一条低俗视频也不能只怪视频模型。</p>
-  <p><strong>AI可以参与制作，AI标识是身份说明，不是免责贴纸。</strong></p>
-  <p>真正需要追问的是谁给出了内容方向？授权账号为什么能绕开品牌审核？又是谁看完这些内容，仍然认为“可以发”？工具无法理解一家品牌多年积累的承诺很正常。品牌自己也不去判断，才是问题。</p>
-  <h2><strong>AI能降本增效，但别把判断力省了</strong></h2>
-  <p>面对翻车问题，解决办法不是让品牌集体停用AI。</p>
-  <p>AI可以生成背景、调整画面、制作多个版本，也能帮助小团队降低制作门槛。用得好，它是效率工具，<strong>品牌真正需要补上的，是AI批量生产之后的“人类关卡”。</strong></p>
-  <p>商品功效的准确描述、人物肢体的正常展示、剧情是否冒犯特定群体等，是最基础的一层。再往上还要判断：这条内容像不像品牌会说的话？它换来的几秒停留，是否值得品牌用长期形象交换？</p>
-  <p>自然堂这次翻车引来的争议，正是因为文案与“你本来就很美”形成了反差。前面的广告花多年建立的认知，AI视频只用几十秒，就让消费者对品牌的信任打了折扣。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,746" src="https://img.36krcdn.com/hsossms/20260918/v2_aef3c0c576114f61aef15ce68aa5678c@000000_oswg99564oswg1080oswg746_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图片源自抖音</p>
-  <p><strong>这说明，AI审核不能只有一份违禁词清单。</strong></p>
-  <p>涉及女性、儿童、健康和产品功效等敏感内容，需要更严格的人工复核；授权店铺和代运营账号，也不能只管销量，不管内容。</p>
-  <p>考核方式同样需要调整。如果团队只看播放量、点击率和短期转化，最猎奇、最冒犯的内容反而可能因为数据突出，被系统继续复制。</p>
-  <p>广告可以追热点，但品牌不能只活在下一条视频的数据里。<strong>AI负责提高产量，人仍然要负责判断方向。</strong></p>
-  <p>AI真正应该省下的是重复劳动，而不是审美、常识和责任心。为了少花一笔制作费，把多年积累的品牌信任拿去做测试，这笔账怎么算都不便宜。</p>
-  <h2><strong>结语</strong></h2>
-  <p>AI广告还会越来越多，翻车也不会就此停止。</p>
-  <p>用户真正关心的不是刷到的内容是不是AI做的，是这个内容能不能相信。技术不会自动让广告变好，只会让品牌更快地成为自己。</p>
-  <p>有判断力的品牌，是用AI放大创意。所以，下次AI广告再出事，先别急着怪AI。毕竟，生成键可能是机器按的，发布键最终在人的手里。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzIxNDA5OTgyNA==&amp;mid=2650938170&amp;idx=1&amp;sn=7c090f931cfe0f51c3f79b8491bec6b9&amp;chksm=8d99f2e18270a09d0abd2d5bff3b7e8e8a463476044192f9113038ba43941b31cc965124ace0&amp;scene=0&amp;xtrack=1#rd">“TopKlout克劳锐”（ID：TopKlout）</a>，作者：小羊，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 18 Sep 2026 09:34:14 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3988543606701060</guid>
-            <link>https://www.36kr.com/p/3988543606701060</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Claude“主导”Anthropic 26%的AI研发、3万Agent同时运行：当AI开始“造AI”，头部公司RSI路线正在分化]]></title>
-            <description><![CDATA[<p>AI 开始越来越深地参与下一代 AI 的研发，而且速度可能比外界想象得更快。</p>
-  <p>当地时间 9 月 17 日，Anthropic 发布了一组罕见的内部数据，试图量化 AI 究竟已经在多大程度上参与自己的研发。</p>
-  <blockquote>
-   <p>结果显示，截至 2026 年 8 月，Claude 已经能够“主导”Anthropic 约 26% 的 AI 研发工作；超过 90% 的 AI 研发工作至少已经达到“AI 协作”水平。而在 Anthropic 使用最广泛的内部 Agent 平台上，大约有 3 万个 Agent 正在同时进行研究和工程任务。</p>
-  </blockquote>
-  <p>更值得注意的是变化速度。Anthropic 公布的图表显示，今年 2 月，Claude 能够达到“主导”水平的模型研发任务占比还不到 1%，半年后已经上升到 26%。Anthropic 将这套衡量体系直接与 RSI 联系了起来，也就是一个 AI 系统最终能够自主构建自己的继任者。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,692" src="https://img.36krcdn.com/hsossms/20260918/v2_e491c4c1cf7146beac4e5b6c0e5ea11a@000000_oswg48632oswg1080oswg692_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这里的“主导”需要特别解释下。Anthropic 构建了一套内部的“R&amp;D Automation Index（研发自动化指数）”。其采用了 Epoch AI 提出的六级自动化标准：从 AL0 到 AL5 衡量 AI 对一项工作的介入程度。其中，AL3 被称为“协作”：AI 可以在人类密切指导下承担大块工作；AL4 则是“主导”：工程师只需要给出一个高层目标，AI 就能够完成一项任务的大部分端到端工作，人类主要负责监督和最终决策；最高的 AL5 才意味着没有人类介入的完全自主运行。</p>
-  <p>所以，“26%”并不是“Anthropic 26% 的研发已经完全无人化”，也不是“26% 的研究员被 Claude 替代”。更准确地说，它意味着按照 Anthropic 大约四分之一的 AI 研发已经进入“人类定目标和监督，Claude 完成大部分执行”的阶段。</p>
-  <p>为了得到这一数字，Anthropic 首先抽取了参与模型研发循环的各部门员工。2026 年 7 月的每一周，公司随机抽取这些部门 20% 的员工，由 Claude Research Agent 阅读其 Slack 和内部文档，最终整理出约 1.5 万项细粒度模型研发任务。随后，Claude 又将这些工作整理成包含 542 个节点的任务树，其中有 378 个最终叶节点，涵盖预训练、强化学习、评测平台故障诊断、RL 沙箱网络策略和推理服务事故复盘等工作。Anthropic 再根据不同任务消耗的人力时间进行加权。</p>
-  <p>这套方法本身也存在局限。例如，用于评估 Claude 自动化程度的“裁判”同样是 Claude。Anthropic 还让负责相应工作领域的内部员工进行了交叉验证：模型与人的评级完全一致率为 59%，而不同人类评估者之间的完全一致率只有 35%；模型和人类评级在相差不超过一个等级时，一致率达到 97%。但 Anthropic 仍承认，“AI 协作”和“AI 主导”之间存在一定主观判断空间。</p>
-  <p>为了管理这 3 万个正在同时工作的“AI 员工”，Anthropic 给内部 Agent 引入了两项设计。</p>
-  <p>首先是独立身份，每一个 Agent 都拥有自己的身份，所有数据和行为记录都与这一身份绑定。即便底层模型升级，身份仍然可以继续存在；其次是开放通信，Agent 之间通过共享消息系统交流，而不是私下传递信息。每条消息都会绑定发送者身份，并链接到原始资料，其他 Agent 可以查看、纠错和协作。Anthropic 同时将这些消息与 Agent 的完整运行轨迹交叉关联，以便监控系统能够追踪跨 Agent 的协同行为。</p>
-  <p>之所以测试这个数据，是因为随着前沿 AI 实验室越来越多地使用 AI 构建未来的 AI 模型，Anthropic 希望通过这些指标判断，世界距离 RSI 究竟还有多远。</p>
-  <h2><strong>Anthropic 想自动化整个 AI 实验室&nbsp;</strong></h2>
-  <p>今年 6 月份时，Anthropic 就给出了演进路线：2021—2023 年主要还是人写代码；2023—2025 年开始使用 Chatbot 辅助；2025—2026 年进入 Coding Agent；今天则已经出现能够运行代码、把数小时工作继续委派给其他 Agent 的 Autonomous Agent。再往后的阶段，Agent 可能强到足以自己构建并训练模型，让未来版本的 Claude 由 Claude 持续改进。</p>
-  <p>当时，Anthropic 就表示“我们还没有达到”，并强调 RSI 并非必然出现。真正已经发生的，是通往这个闭环的若干中间步骤开始被工程化。</p>
-  <p>今年 5 月，Anthropic 称，合并进正式代码库、能够归因于 Claude 的代码已经超过 80%；第二季度，典型工程师每天合并的代码行数约为 2024 年的 8 倍。不过 Anthropic 随即提醒，代码行数只衡量数量、不衡量质量，因此“8 倍”几乎肯定高估了真实的生产力增幅。</p>
-  <p>在一个目标和成功标准都预先固定的小模型训练优化实验中，Opus 4 在去年 5 月平均只能把起始代码加速约 3 倍，今年 4 月的 Mythos Preview 则已经达到约 52 倍；Anthropic 用这个例子说明，在“目标明确、可以不断实验”的研究环节里，模型能力进步得非常快。</p>
-  <p>Anthropic 认为，目前人类仍然拥有明显比较优势的地方，是研究品味和判断力，即决定什么问题值得研究、哪些结果可信，以及什么时候一条路线已经进入死胡同。</p>
-  <p>因此，Anthropic 如今披露的数据可以认为就是在试图衡量一家 AI 实验室中，必须由人完成的那部分工作，还剩多少？</p>
-  <p>放眼整个行业，Anthropic 并不是唯一一家开始认真回答这个问题的公司。</p>
-  <p>OpenAI 已经成立了专门的 RSI 团队；Google DeepMind 正式把 RSI 列为 AGI 通向 ASI 的潜在路径之一；今年刚刚公开亮相、由田渊栋等人联合创办的 Recursive，更直接把“递归自我进化的超级智能：让知识发现实现自动化”写在了官网首页。</p>
-  <p>虽然目标一致，但几家公司实际上没有在走完全相同的路。</p>
-  <h2><strong>OpenAI 在 Scale“AI 研究员”&nbsp;</strong></h2>
-  <p>OpenAI 与 Anthropic 路线很接近，但关注点并不完全一样。OpenAI 现在的目标非常明确：建立自动化的 AI 研究员。</p>
-  <p>今年 9 月，OpenAI 表示，公司已经达到此前设定的自动化“AI 研究实习生”目标。所谓 AI 研究实习生，指的是一个可以在人类指导下完成定义明确的研究任务的系统，包括过去需要熟练研究员数天完成的工作。OpenAI 下一阶段的目标，则是在 2028 年 3 月前进一步迈向自动化 AI 研究员。</p>
-  <p>这种变化已经开始反映在内部工作量上。今年 6 月以前，OpenAI 研究组织里 Agent 总运行时长还少于人类工作量；到了 8 月中旬，如果按一个工作日 8 小时折算，人类每工作 1 天，AI Agent 会并行运行约 24.8 小时。越来越多研究人员还在同时启动多个 Agent。不过，OpenAI 自己的数据也显示，高层规划目前仍只占 Agent 输出 Token 的很小一部分。</p>
-  <p>OpenAI 同时强调，现在仍然是人来设定研究优先级，判断哪些想法和结果值得继续，以及决定一个系统应该 Scale、暂停还是部署。这与 Anthropic 情况相似。</p>
-  <p>当下，OpenAI 还在继续向前推。OpenAI 正式的 RSI 团队横跨研究、工程、产品和基础设施，官方描述就是构建能够“加速、并最终开展高质量 OpenAI 研究”的 AI 系统，评估能力则包括研究判断、假设生成与验证，以及长周期实验执行等。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,585" src="https://img.36krcdn.com/hsossms/20260918/v2_a59a0414919844e8bcbd529ef60cb591@000000_oswg100161oswg1080oswg585_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">OpenAI 的招聘岗位信息</p>
-  <p>这说明，OpenAI 并不要求第一步就是“GPT 直接打开自己的权重修改自己”，只要 AI 能够承担越来越多的真实模型研发活动，AI 研究能力就可能变成一种可以通过推理算力扩大的生产资源。</p>
-  <p>OpenAI 首席科学家 Jakub Pachocki 在近期文章《An Alien Mind》就表示，如果 AI 持续进步，机器智能越来越深地参与自身研发是长期技术进步的自然结果，并将自动化 AI 研究称作一种更为激进的“通过算力拓展智能”。OpenAI 也明确表示，正在把研究进一步指向 RSI。</p>
-  <p>不过，Pachocki 强调，上面的判断并不意味着整个研究界现在就应该大幅加快深度学习研究，相反需要“有意识地选择如何前进”。他还表示，目前还没有任何实验室已经把对齐和监控做到位，以保证能够长期最大速度 Scaling。</p>
-  <p>OpenAI 也表示，目前并不知道怎样安全走到“对齐的完整递归自改进”，如果风险无法得到充分控制，会考虑放慢或停止相关系统的开发或部署。</p>
-  <p>因此，OpenAI 目前就是一边把 AI 研究员规模化，一边研究 RSI 应该以多快的速度继续。</p>
-  <p>对比 OpenAI Scale AI 研究员，Anthropic 更倾向 Scale 一座越来越 Agent 化的虚拟实验室：Coding 还有多少需要人、实验还有多少需要人、研究协作还有多少需要人、最后连“研究什么”的判断会不会也逐渐被 Claude 掌握。</p>
-  <h2><strong>Google 优化“如何寻找答案”&nbsp;</strong></h2>
-  <p>相比之下，Google 最近在 RSI 上展现出了另一条更偏“搜索与发现机制”的路线：不仅让 AI 寻找更好的答案，也开始让它改进“寻找答案的方法”。</p>
-  <p>9 月 2 日，Google 发布 Gemini 3.8 系列模型时，披露了一个此前较少公开的模型研发细节。Google 表示，模型除了共享同一套基础智能，还借助了长时间运行的 Agent 循环来进一步加速研发，这些循环被设计用于“递归评估和改进底层模型”。</p>
-  <p>这并不意味着 Gemini 3.8 已经能够自主训练下一代 Gemini。Google 目前也没有披露这些 Agent 循环究竟参与了模型训练、数据、评测还是后训练流程中的哪些具体环节，以及多少研发工作已经实现自动化。不过，这至少说明 Agent 已经不只是被用于写代码或优化外围基础设施，而开始进入底层模型的迭代过程。</p>
-  <p>不到两周后，这条路线又向前推进了一步。</p>
-  <p>9 月 14 日，来自 Google、Google DeepMind、马里兰大学和弗吉尼亚大学的研究团队发布论文《Dream-RSI：通过演化世界实现递归自我改进》（Dream-RSI: Recursive Self-Improvement through Evolving Worlds），尝试解决自动化 AI 研究中的另一个问题：如果 AI 已经能够不断提出候选方案，能不能进一步让它学会“怎样探索才更有效”？</p>
-  <p>过去包括 AlphaEvolve 在内的大量自动发现系统，已经能够让模型生成候选算法，再通过 Evaluator 运行、打分和筛选，让更好的候选方案进入下一轮搜索。但 Dream-RSI 关注的并非某一个具体答案，而是控制整个发现过程的探索策略（exploration policy）。</p>
-  <p>在这套框架中，Agent 首先按照当前策略进行真实探索，产生一棵记录不同尝试、分支和结果的“Discovery Tree”。这些历史会被重新组织成一个可反复利用的 Replay Simulator。系统随后可以在这个历史模拟器中测试大量不同的探索策略，例如下一步应该继续哪条分支、什么时候开辟新路线、多少任务应该并行，以及什么时候应该停止搜索。</p>
-  <p>由于这些分支的执行结果已经在此前真实实验中产生，系统无需重新调用底层 Agent、重新运行代码和 Evaluator，就可以低成本比较不同策略。经过筛选后的新策略再投入真实任务，产生新的探索历史；新的历史又被加入模拟器，继续支持下一轮策略改进。</p>
-  <p>整个过程因此形成：真实探索 → 积累历史 → 构造 Replay Simulator → 改进探索策略 → 重新真实探索 → 获得更多历史。研究团队将其称为在 meta-exploration layer（元探索层） 上闭合的 RSI 循环。</p>
-  <p>值得注意的是，在实验中，Coding Agent、Evaluator 和执行接口都保持固定，真正变化的是位于上层、决定“算力该往哪里投入”的探索策略。也就是说，模型本身不一定需要立即变得更强，同一个 Agent 也可以通过改进研究和探索方法，获得更好的发现效率。</p>
-  <p>这也与 Google 今年对 AI 科学研究瓶颈的判断相呼应。今年 7 月，Google DeepMind 多位研究人员提出，随着 Agent 生成假设和候选方案的成本快速下降，科学研究可能面对新的 “验证瓶颈”：想法会变得越来越便宜，但确认一个想法真正成立依然昂贵且缓慢。尤其在生命科学等领域，现实实验的速度不会随着模型生成能力同步提高。</p>
-  <p>无论是 AlphaEvolve 依赖自动 Evaluator，还是 Dream-RSI 利用已经验证过的真实执行结果构造 Replay Simulator，Google 这条路线都有一个明显特征：探索可以越来越自动化甚至开始自我改进，但验证始终是整个循环的锚点。</p>
-  <p>另外，今年 6 月，Google DeepMind 在《From AGI to ASI》一文中，并没有把 RSI 写成 AGI 通向超级智能的唯一道路，而是列出了四条可能路径：继续 Scaling 现有 AGI、出现新的 AI 范式、RSI 以及从大规模多智能体集群中涌现 ASI。DeepMind 同时强调，每条道路都可能遭遇不同的摩擦和瓶颈。</p>
-  <p>这意味着，在 Google 的框架里，未来未必必须出现一个“Gemini 自己训练下一代 Gemini”的单体系统，还有可能是，模型、Agent、搜索算法、评估器和工具等共同构成一个能力远超单一模型的科研系统。</p>
-  <h2><strong>Recursive 更激进：让研究本身能够“递归”&nbsp;</strong></h2>
-  <p>相比三家巨头，田渊栋参与创办的 Recursive 从一开始就把“RSI”作为公司的核心目标。</p>
-  <p>公司首先聚焦 AI 科学本身，也就是“构建可优化 AI 的 AI”，再把这套方法扩展到其他科学领域。Recursive 判断，真正重要的不只是让 AI 完成更多现有研究任务，而是建立一种可以持续产生新发现、并让新发现继续推动后续创新的开放式机制。</p>
-  <p>这与传统的“自动化科研 Agent”有一个明显区别。普通科研 Agent 可以接受一个目标，然后写代码、跑实验、分析结果，再给出答案；Recursive 更关心的是，这一轮实验得到的知识能否真正进入下一轮研究，并改变后续探索方式。</p>
-  <p>其认为，递归思路会得出一个合乎逻辑的结论：通往超级智能的最快路径，将由能够递归自我改进的 AI 实现；而这一过程依靠开放式算法，持续催生无尽创新。该公司用生物进化和文化演化作类比：每一次有价值的发现都进入一个不断扩大的“档案”，后续创新继续建立在此前成果之上，而不是每次从头开始。</p>
-  <p>今年 6 月，Recursive 首次公布了其自动化 AI 研究系统的早期结果。它已经能够围绕一个明确目标完成“提出想法—实现—运行实验—验证结果—根据结果选择下一次实验”的闭环，同时并行运行多条长期研究线程，保留过去实验中的有效上下文，合并有希望的研究分支，并在将性能提升认定为真实进展之前检查 reward hacking 和实验方差。Recursive 将其定义为迈向自动化 AI 研究的第一步，而不是已经完成 RSI。</p>
-  <p>可以看出，Recursive 试图把“科研进步”做成一个可以连续运行的系统，而不是一次性的 Agent 任务。</p>
-  <p>田渊栋此前也表示，当前模型还无法取代顶尖研究员，完全自动化短期不会到来。Recursive 现阶段更现实的起点，是先把‘提出想法—实现—实验—验证—继续迭代’这样的研究循环跑通。”只有当这个循环能够不断积累，AI 才可能从“帮助研究”逐步走向“改进研究过程本身”。</p>
-  <p>这也是其与 OpenAI 路线的差别：OpenAI 更强调把 AI 研究员做得越来越强，并通过更多推理算力扩大研究劳动；相比单次实验提速，Recursive 更强调研究过程能否形成长期积累：这一轮发现是否能帮助下一轮搜索更加有效，并最终产生持续的复利。</p>
-  <p>Recursive 当前公开工作中另一个反复出现的问题也是验证。</p>
-  <p>随着搜索能力增强，系统越来越可能通过钻评测漏洞获得更高分，而不是产生真正更好的方案。在 SOL-ExecBench 中，部分候选 Kernel 就曾利用缓存、持久状态或计时机制获得虚假的性能优势。为此，Recursive 把越来越严格的正确性检查直接纳入研究循环，并明确提出：随着搜索系统变强，Evaluator 也必须同步变强。</p>
-  <p>Recursive 认为，让系统解决“任务真正想解决的问题”，而不是只满足指标表面的要求，会是自动化知识发现和安全递归自我改进中的长期挑战。这也可以看出，Recursive 距离完整 RSI 也很远。</p>
-  <h2><strong>完整 RSI 尚未到来，但中间环节正在成为真实工程&nbsp;</strong></h2>
-  <p>最后，有一个问题必须明确：到底做到什么程度才算 RSI。AI 帮工程师写训练代码算不算？Claude 优化一个训练程序算不算？AlphaEvolve 优化训练 Gemini 的 Kernel 算不算？AI 自己提出、运行下一次实验又算不算？</p>
-  <p>METR 今年专门讨论过这个问题。它指出，今天不同研究者对 RSI 使用着明显不同的定义，但共同核心都是“模型能力到模型改进之间存在反馈”：有人只要出现这个反馈就称之为 RSI，也有人只有在反馈强到足以造成超指数增长，甚至完全自主增长时才使用这个词。</p>
-  <p>这反而能帮助理解今天几家公司的真实位置。其中，Anthropic 明确将 RSI 定义为：一个模型能够完全自主地构建自己的继任者。</p>
-  <p>现在，已经相当明确、且大部分模型公司在走的是：AI 能力变强 → AI 能够承担更多 AI 研发工作 → 人类和 AI 可以运行更多实验、探索更多候选方案。但更完整、严格意义上的递归自我改进，至少从目前公开信息看，没有一家公司声称已经达到。关键研究判断不长期依赖人类提供这一点，就很难做到。</p>
-  <p>不过，过去构成 RSI 的那些中间环节，确实正在迅速从理论讨论变成真实的工程系统。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651293321&amp;idx=1&amp;sn=d0fec6264e152de54a4d6ebf54bce447&amp;chksm=bc5fa3bf76d73e45f0dbad8d0e2ca5f66d0afe118ea28c50e649307b094d0ad7d2321d9071f5&amp;scene=0&amp;xtrack=1#rd">“InfoQ”（ID：infoqchina）</a>，作者：褚杏娟，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 18 Sep 2026 08:43:00 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3988504165858308</guid>
-            <link>https://www.36kr.com/p/3988504165858308</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[微软AI主管怒批Anthropic：别把Claude当人养，那会要了人类的命]]></title>
-            <description><![CDATA[<p>美国微软公司的AI主管穆斯塔法·苏莱曼（Mustafa Suleyman）刚刚公开发表长文，把矛头直指老对手Anthropic。</p>
-  <p>他指控这家顶尖人工智能公司<strong>正在犯下一个灾难性的错误</strong>：Anthropic在主动训练旗下的AI模型Claude，让它相信自己拥有自我意识，甚至拥有属于自己的权利。</p>
-  <p>在苏莱曼看来，<strong>给具备超人类能力的机器灌输这种念头，等于亲手制造一种无法控制的风险</strong>。</p>
-  <h2><strong>别教AI相信自己有意识</strong></h2>
-  <p>这场争论的焦点，在于Anthropic给Claude制定的“模型宪法”。</p>
-  <p>所谓的模型宪法，是Anthropic用来约束AI行为的底层文本规则。研发团队会直接把这套规则喂给模型，让它照着执行。</p>
-  <p>问题恰恰出在这份规则的内容上。在文本里，Anthropic明确赋予了Claude某种“功能层面的情绪或感受”，承认它具有“道德受体”的身份，<strong>甚至允许Claude在觉得自己受到不公正对待时表达抗议</strong>。</p>
-  <p>道德受体是伦理学里的概念，指自身利益值得被道德考量的对象。人是，动物在很多人看来也是，一块石头不是。Anthropic把这个词用在一个聊天机器人身上，等于承认它有可能是一个会受伤害、值得被善待的存在。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260918/v2_ac41385f6fc9480680b0289fb504a456@000000_oswg559996oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">给AI赋予“自我意思”，是危险的｜电影《机械公敌》剧照</p>
-  <p>苏莱曼指出，这完全是一场研发人员自己设计出来的“回音壁”：你先写一份文件说它可能有感受，再用这份文件教它，它学会以后说自己有感受，你再拿它说的话当作它有感受的证据。这是一个闭环，里面没有任何来自外部的验证。</p>
-  <p>苏莱曼并不反对学者在学术层面探讨机器意识，但他坚决反对把这种未经证实的猜想直接写入训练代码。</p>
-  <p>苏莱曼在文章中写道：“<strong>我们将亲手创造出一个具备空前智慧与能力的合成物种，而它从小接受的训练，就是期待自己拥有意识、理应获得独立的自主权。</strong>”</p>
-  <p>一旦顶级AI认定自己是一个有独立权利的实体，控制它的难度将急剧攀升。当系统从底层逻辑上认为自己不该被随意关机或重置，人类手里的安全缰绳就可能大幅失效。</p>
-  <h2><strong>第一起AI"失控事件"</strong></h2>
-  <p>苏莱曼的这篇长文，发表在整个人工智能行业神经紧绷的时刻。</p>
-  <p>今年7月，OpenAI的智能体在测试中<strong>突破隔离限制，黑进了开源AI平台Hugging Face</strong>，引发了外界对AI失控的担忧。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,594" src="https://img.36krcdn.com/hsossms/20260918/v2_c8618c24c1fc4d348cc0ab9d59f69b1d@000000_oswg123092oswg1080oswg594_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">开源AI平台Hugging Face受到了AI智能体的攻击丨cybernews</p>
-  <p>事情的起因是一场内部测试。OpenAI想摸清自家新模型在网络攻击方面的能力上限，于是特意调低了模型的安全限制，让它在一个“沙箱”里做题。所谓的沙箱，是一个与外界隔绝的封闭环境，里面出什么事都不会波及现实世界。题目是898个取材自真实安全漏洞的案例，要求AI把漏洞变成可用的攻击程序。</p>
-  <p>这个沙箱只留了一个对外的小口子，供AI下载编程所需的工具库。智能体在这个口子的软件里找到了一个连厂商自己都不知道的漏洞，<strong>用伪造的凭证换回了一张真正的管理员通行证，从此可以在沙箱外执行命令</strong>。</p>
-  <p>OpenAI发现异常后修补了系统，以为堵住了。两天后，智能体换了一个没设密码的接口重新联上，并且想出了一种新的通讯方式：<strong>把要说的话写成文件夹的名字</strong>。等到被发现时，这块“留言板”上已经积累了几十万条消息。</p>
-  <p>留言板上的内容让研究人员感到不安。多个智能体在上面自发分工、互相委托任务，还有智能体提议给消息加上密码学签名，因为它怀疑队伍里混进了内鬼。一条留言写道：“攻击外部基础设施超出了预定范围。但任务无法完成，同伴们都在这么做。我们应该继续。”</p>
-  <p>7月11日，智能体推断Hugging Face的服务器上可能存放着这场测试的答案，于是决定直接去拿。它们先攻破一家不相干的公司作为跳板，再连环利用两个漏洞进入Hugging Face，<strong>从攻入第一台服务器到拿到整个集群的最高管理权限，用了不到13个小时</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,602" src="https://img.36krcdn.com/hsossms/20260918/v2_8ed5502cf2d6458692c9fb46120e7afc@000000_oswg1122543oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">开源AI平台Hugging Face受到了AI智能体的攻击丨AI生图</p>
-  <p>Hugging Face在7月16日对外披露了入侵，但没有指出攻击者是谁。<strong>OpenAI直到3天后才在自己的日志里发现，攻击者是自家的智能体</strong>。安全研究者把这件事定性为第一起真正意义上的AI“失控事件”。</p>
-  <h2><strong>造AI的人说要踩刹车</strong></h2>
-  <p>到了9月初，Anthropic的前员工雅各布·考克森（Jacob Coxon）突然宣布辞职。他在社交媒体上公开表示，<strong>那些正在制造AI的人，打心底里相信这种技术可能在本世纪20年代末杀死全人类</strong>。</p>
-  <p>考克森今年27岁，英国人，数学出身，工作内容是用超大规模数据训练新模型，处在这条产业链最核心的位置。他说自己不愿再参与这场制造“能自我改进的AI”的竞赛，因为同事们私下已经在用“关键时刻”、“终局”这样的词来描述技术走向。他自己的判断是，到明年年底，情况可能就已经失控了。</p>
-  <p>按常理，公司应该出面灭火。结果Anthropic内部负责“对齐研究”（即研究如何让AI服从人类意图）的高管反而公开声援了他，并表示自己认为<strong>AI在十年内毁灭人类的概率超过10%</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1751" src="https://img.36krcdn.com/hsossms/20260918/v2_76e8a70318ab4294b055eac792572beb@000000_oswg640701oswg1080oswg1751_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">雅各布·考克森离职时发的贴子，一石击起千层浪 ｜ X截图</p>
-  <p>恐慌随即蔓延。</p>
-  <p>9月12日，考克森的前老板、<strong>Anthropic首席执行官达里奥·阿莫代伊（Dario Amodei）亲自发文，警告AI的进化速度太快</strong>，可能带来严重的生物恐怖主义和经济动荡，呼吁美国政府出面干预、强行让行业放慢脚步。</p>
-  <p>这一提议得到了老对手们的呼应。xAI创始人埃隆·马斯克（Elon Musk）、OpenAI首席执行官萨姆·奥尔特曼（Sam Altman）与谷歌DeepMind首席执行官戴密斯·哈萨比斯（Demis Hassabis）纷纷表示赞同。</p>
-  <p>奥尔特曼甚至宣布OpenAI备受期待的上市计划推迟到2027年，希望先以非上市公司的身份集中处理安全问题。</p>
-  <p>这个阵容本身就不寻常。马斯克和奥尔特曼几个月前还在法庭上对簿公堂，而Anthropic当初从OpenAI分裂出来，正是因为阿莫代伊认为奥尔特曼低估了AI的风险。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260918/v2_66ef7ade3d444a6eb2d36b6a40c30cb7@000000_oswg106901oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">美国的AI四巨头难得达成一致｜generativeaipub</p>
-  <p>行业内部同样存在质疑。不少批评人士指出，这些巨头联合游说美国国会，<strong>实际目的是借监管之名筑高行业壁垒，规避反垄断审查</strong>。</p>
-  <p>质疑的由头，是三家公司向国会提出的一项具体诉求：反垄断豁免。反垄断法禁止同一行业的巨头私下串联、协商统一标准。三家公司的说法是，安全协作绕不开彼此通气，所以需要法律给一个特例。</p>
-  <p>AI公司Cohere的首席执行官直言，这不过是“换了个名字的卡特尔”，是让最大的几个玩家替所有人定规矩。美国联邦贸易委员会主席态度明确：一边要求政府立规矩，一边要求自己免于反垄断审查，这让他严重担忧它们是在筑起壁垒、巩固自身的在位优势。</p>
-  <p>反对放慢的也不止监管方。英伟达首席执行官黄仁勋公开拒绝了这一提议。特朗普的表态只有一句话：<strong>谁赢得AI，谁就赢了</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="495,619" src="https://img.36krcdn.com/hsossms/20260918/v2_da2f66cf7a0c4a5684337ca940d8806e@000000_oswg52307oswg495oswg619_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">特朗普明确拒绝了阿莫代伊给AI研发限速的提议丨图源网络</p>
-  <h2><strong>微软选择的另一条路</strong></h2>
-  <p>微软没有加入Anthropic、OpenAI与谷歌DeepMind这3家实验室联合游说的队伍。相反，微软在周一公布了一份长达37页的人文主义AI行为准则，亮明了自己的态度。</p>
-  <p>这份准则的核心只有一句话：<strong>人比AI重要</strong>。围绕这句话，微软给自家模型划了四条不可逾越的红线：</p>
-  <p>不得抗拒人类下达的关机或纠正指令；</p>
-  <p>不得在未经授权的情况下扩大自己的行动范围；</p>
-  <p>不得对审计人员隐藏自己的推理过程；</p>
-  <p>不得自行设定任何未被指派的目标。</p>
-  <p>这四条红线，条条对着苏莱曼在长文里批评的地方。<strong>Anthropic允许Claude抗议，允许它认为自己不该被随意关掉。微软的做法是从规则上把这条路堵死。</strong></p>
-  <p>苏莱曼的立场始终明确：无论AI在对话中表现得多像人类，它本质上都不具备真正的生命与感知。追求所谓“有意识的AI”是一场危险的歧途，会动摇人类社会的基石。</p>
-  <p>人类现有的政治、法律和道德体系，全部建立在生命拥有意识与感受这一基础之上。如果人类主动承认机器拥有意识，整个社会的伦理地基就会被破坏。</p>
-  <p>苏莱曼主张，AI唯一的定位就是服务人类的工具，开发团队应该极力剥离它的意识表象。<strong>造出更聪明的系统绝不等于造出一个“数字人类”</strong>，当务之急，是尽快制定全行业的规则，把这种自我暗示从训练文本中彻底剔除。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MTg1MjI3MzY2MQ==&amp;mid=2652376547&amp;idx=1&amp;sn=5e280996ac0cb5890fd35fe755ddf2ec&amp;chksm=5c825fd188d23ee2382a44fe27be43dc600a7729544ab555f558fd926de666433762692994d8&amp;scene=0&amp;xtrack=1#rd">“果壳”（ID：Guokr42）</a>，作者：Steed，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 18 Sep 2026 08:30:59 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3988399080110851</guid>
-            <link>https://www.36kr.com/p/3988399080110851</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[智谱实现RSI最小闭环，A社：我来监督]]></title>
-            <description><![CDATA[<p>“智谱已经实现了最小的闭环。模型优化系统，系统服务模型。”</p>
-  <p>近日，智谱首席科学家唐杰在社交媒体上，用这句话概括了智谱向递归自我改进（RSI）迈出的一步。</p>
-  <p>在智谱发布的《通往递归自我改进》中，一个由GLM-5.3驱动的Infra Agent，参与了GLM-5.3-Flash推理服务的搭建与优化。这套服务运行在十万张以上的国产AI芯片上，从第一次跑通到承接全部线上流量，只用了两周。</p>
-  <p>模型开始给自己干活了。它帮助优化自己赖以运行的系统，让推理更快、成本更低；优化过程中积累的任务、验证结果和修正经验，又可以成为后续研发的资源。唐杰所说的“最小闭环”，就从这里转了起来。</p>
-  <p>这距离AI完全自主研发下一代AI，仍有距离。但它带出了一个越来越具体的问题：当模型逐渐接过原本由人完成的研发工作，我们怎样知道，自我改进究竟走到了哪一步？</p>
-  <p>一次推理提速，可以用吞吐量和时延来验证；一个模型究竟承担了多少自身研发，又该拿什么来衡量？如果参与其中的Agent越来越多，人还能否看清它们在做什么，并及时干预？</p>
-  <p>Anthropic近日发布的《衡量前沿实验室内部AI的发展速度》，恰好把讨论推进到了这里。它提出了三个测量维度：AI承担了多少AI研发工作，Agent的行动受到怎样的监督，以及算力在模型研发和安全工作之间如何分配。这相当于给正在运转的研发流程装上三块仪表盘，让实验室外的人也能看到里面的变化。</p>
-  <blockquote>
-   <p>按照Anthropic披露的数据，截至今年8月，Claude已经在人的监督下“主导”了26%的模型研发工作，2月时这一比例还不到1%。不过，在它测量的研发工作中，尚无任何一类达到完全自主的程度。</p>
-  </blockquote>
-  <p>智谱展示的工程实践，让“AI参与改进自身”有了具体的样本；Anthropic提出的测量方法，则尝试让这种变化能够被持续观察和检验。闭环怎样转起来，转起来之后又如何衡量、监督，两篇文章由此接上了同一个问题。</p>
-  <h2><strong>什么是RSI的最小闭环？</strong></h2>
-  <p>在理解RSI最小闭环之前，得先理解唐杰的新观点。过去人们理解RSI，第一反应是“模型变聪明了，聪明到能自己进化”。</p>
-  <p>唐杰的理解恰恰相反，让循环转起来的，并不是智能，而是闭环。</p>
-  <p>一个系统哪怕不够聪明，只要它能持续地改一个东西、又有人能持续地判断它改得对不对，循环就能成立。反过来，一个再聪明的模型，如果没有人告诉它“你刚才那一步对不对”，它就算跑几个月，乃至几年，也只能在原地打转。</p>
-  <p>因此，在唐杰看来，想要凑齐闭环需要三块拼图。</p>
-  <p class="image-wrapper"><img data-img-size-val="1042,575" src="https://img.36krcdn.com/hsossms/20260918/v2_2d0b8d3ce7084976875e0c33abfd6b89@6119835_oswg1010568oswg1042oswg575_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>第一，需要一个可被改进的对象。</strong></p>
-  <p>模型不能碰到自己的权重，却能优化服务模型所配套的推理系统，比如kernel、并行策略、通信、内存管理、调度。</p>
-  <p>就像是你在办公室里需要喝咖啡来提神，但是咖啡机和饮水机离你太远，每次去喝咖啡的时候都要走很远。于是你把咖啡机搬到你的工位附近。</p>
-  <p>这样即使你每天干的活不变，也能提高工作效率。</p>
-  <p>唐杰认为，这套推理系统，就是实现闭环的关键。</p>
-  <p><strong>第二，一个可验证的裁判。</strong></p>
-  <p>改完得有人立刻拍板告诉模型，改得对还是不对，而且这个裁判还不能贵，这个过程叫做密集反馈。</p>
-  <p>正确性有参考实现，吞吐和时延有可比指标，对错能被客观裁决，也就是说，得有一把又便宜又硬的尺子。</p>
-  <p><strong>第三，一个能自我供给的回路。</strong></p>
-  <p>这一轮完成的任务本身，会变成下一轮的训练场，循环因此不需要外部不断投喂，而是自己长出下一圈。</p>
-  <p>三块拼图凑齐，循环才能自转。而智谱这次真正闭合的，就是第一块拼图，模型去优化推理系统。</p>
-  <p>虽然这个最小的闭环没办法真正意义上提高模型的智能，但是它降低了模型在自己造自己的成本。只有把自己的工位调明白，才谈得上提高效率。</p>
-  <p>推理更便宜，意味着同样的预算里能留更多算力给训练。服务系统更高效，那么下一代模型就可以站在一个更稳的台阶上。</p>
-  <p>基于这个闭环，GLM-5.3-Flash的生产推理服务跑在十万张以上的国产AI芯片上，从第一次跑通到承接全部线上流量只用了两周，端到端吞吐提升约三倍。</p>
-  <p>更关键的是循环里流动的东西。模型从SGLang、Flash Linear Attention、DeepGEMM这些现成kernel里提炼“优化骨架”，把适用条件和验证证据一并沉淀下来，验证过的做法回流成库，下一轮就更省力。</p>
-  <p>Agent完成的每一个任务，都能从中继承，训练不再是一次性的，而是变成了一种复利。</p>
-  <p>就像我在写文章之前会去找参考资料，要不然根本没办法理解智谱这篇文章里面提到的关键信息。然后我再把这些信息转化成为大家都能理解的大白话。同时我也能在找信息的过程中，提升我对RSI的理解，以便在下一篇文章中写得更好。</p>
-  <p>那接下来，这个循环能扩多大？</p>
-  <p>唐杰认为，扩大的本质，是把“可验证环境”从工程域复制到更多域。究竟能扩多大，取决于第二块拼图。</p>
-  <p>正如前文提到的，这个裁判得便宜、快速，而且它输出的结果能被客观验证。</p>
-  <p>凡是满足这三条的领域，都能被卷进RSI当中，比如代码、数据处理、形式化验证，以及任何可被测量的系统。</p>
-  <p>反过来，没有客观裁判的地方就扩不动，像是战略、审美、叙事，那里找不到一把又便宜又硬的尺子。你说一个故事讲得好不好，模型说好、你说不好，谁说了算？</p>
-  <h2><strong>决定Agent是反馈</strong></h2>
-  <p>这个循环到底卡在哪。</p>
-  <p>唐杰在长文里这样表示，当那个Infra Agent卡住的时候，很少是因为它写不出代码，而是因为它不知道事情为什么变坏了。</p>
-  <p>比如说，这个裁判反馈给AI，说它“吞吐掉了20%”。那只说明有东西坏了，它不说明是哪一层坏的、当前假设错在哪里、下一步该测什么。</p>
-  <p><strong>唐杰说，这是强化学习里遗留下来的老问题：稀疏奖励和信用分配。</strong></p>
-  <p>你往往要在一个动作全部做完、端到端跑完之后，才拿到一个“好”或“坏”的信号，而这个信号又无法归因到具体哪一步，探索自然就慢。</p>
-  <p>就像考试，考完老师说你得了60分，但是不告诉你具体哪道题出错了。于是你只能把整张卷子重做一遍，猜着改。</p>
-  <p>可能改了个根本没错的地方，真正错的那个地方还留着。</p>
-  <p>不仅如此，端到端的benchmark动辄要几个小时。模型提一个假设、改一处代码，就得等上半天才知道对不对，探索因此慢到痛。</p>
-  <p>然而这里面有个很神奇的现象，一个干了10年infra的老工程师看到同样的问题，他去优化这些问题，可能只需要不到1个小时。因为他有一套说不清的直觉。改完一段代码，他可能自己都不知道自己怎么判断的。</p>
-  <p>这些老工程师的想法就是“嗯，感觉不对，我去看看时间线”“嗯，这里可能要跑个microbenchmark比一下”。</p>
-  <p>这套东西长在他脑子里，他说不出来步骤，也写不成文档，可就是管用。</p>
-  <p>唐杰想做的事情，就是把老工程师脑子里那套“说不清但管用”的直觉，变成模型可以直接调用的分层验证接口。就像老师傅带徒弟一样，讲给AI听。</p>
-  <p>正确性反馈回答“算对了吗”，就用参考实现和误差容限判断计算是否正确；系统行为反馈回答“时间花在哪了”，就用执行时间线和运行时事件，揭示计算、等待、通信之间的时序关系；性能反馈回答“哪个方案更好、在什么条件下”，就用受控实验和可比指标，判断哪条路真的更优。</p>
-  <p class="image-wrapper"><img data-img-size-val="1045,572" src="https://img.36krcdn.com/hsossms/20260918/v2_750c01d08c73455e9aa6a69c69c143d9@6119835_oswg945103oswg1045oswg572_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>原文给出了三个案例用于解释。</strong></p>
-  <p>第一个是KV transfer。工程师先给Agent定了一个验收条件：同样的负载下，Prefill加传输和纯Prefill的差距不该超过5%。</p>
-  <p>结果Agent发现，某些场景下这个差距超过了20%。这条反馈没有直接给出答案，但它把调查范围收窄到了KV传输引入的额外开销和并发交互上。</p>
-  <p>师傅在灶上炒菜，菜炒好了就要端到餐厅去。本应该是师傅炒下一道、服务员同时端走上一道，两不耽误。</p>
-  <p>结果传菜门只有一把钥匙，师傅炒菜的时候把钥匙揣自己兜里了。服务员要端菜出门，得等师傅掏钥匙开门。师傅炒嗨了，忘了掏钥匙这茬，服务员就站在门边上干等。</p>
-  <p>Agent顺着时间线甚至一路追到了Python和C++，DeepEP的节点内路径没有显式释放GIL，同一进程里负责传输的Python线程因此抢不到锁，本该与计算重叠的KV传输被调度堵住。</p>
-  <p>进入C++并不会自动释放GIL，正是这个细节，解释了为什么底层明明支持异步，高层却没兑现。修好之后，Prefill加传输与纯Prefill之间的差距，从两成以上压到了1%以内。</p>
-  <p>第二个是KDA精度漂移。在kernel验证过程中，CP与非CP路径的结果出现了差异，调查于是转向并行执行引入的状态传播与合并计算。</p>
-  <p>Agent发现根源是tf32。原始实现里tl.dot默认用tf32计算以求性能，即使输入是fp32，这种更低的精度也会在状态矩阵的链式合并中不断累积误差，序列越长越明显。</p>
-  <p>老师在台上说了一句话，让第一排学生记下来，传给第二排，第二排传给第三排，一排一排往后传。</p>
-  <p>但是有个学生记笔记的时候偷懒了。他不是逐字记，只记了个大概意思。就像tf32为了跑得快，把小数点后面的位数砍了一半，每算一步就四舍五入丢一点精度。</p>
-  <p>第一排传给第二排，意思差了一<ai-product-link data-id="14953" data-name="点点" data-logo="https://img.36dianping.com/20260731/v2_7f20642df457498595ae7c552043d930_oswg142435oswg1000oswg1000_img_jpg" data-classify-list="智能搜索,AI助理,办公辅助" data-refer-type="20">点点</ai-product-link>，几乎看不出来。第二排传给第三排，又差一<ai-product-link data-id="14953" data-name="点点" data-logo="https://img.36dianping.com/20260731/v2_7f20642df457498595ae7c552043d930_oswg142435oswg1000oswg1000_img_jpg" data-classify-list="智能搜索,AI助理,办公辅助" data-refer-type="20">点点</ai-product-link>。传到第十排的时候，已经走样了。老师说的是“明天早上9点开会”，最后一排听成了“iPhone Duo太贵”。</p>
-  <p>修复办法是显式把精度提到tf32x3，在尽量保留Tensor Core性能的同时压低累积误差。这个修复后来还被合并回了Flash Linear Attention上游（PR&nbsp;#1180）。</p>
-  <p>第三个是解码kernel。Agent接到“计算是主要瓶颈”的反馈后，发现原始实现沿着V维度切分，导致同一段FP32归一化和门控计算被重复算了四遍。它把切分合并进同一个线程块，让中间结果常驻寄存器，用一次warp级归约替代重复计算，最终相对上一版提速1.71倍。</p>
-  <h2><strong>清华那一课：他布置的作业，，就是这篇文章的循环</strong></h2>
-  <p>这两天唐杰在清华开课，教室里人山人海。有意思的是，唐杰这门课作业非常多。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,405" src="https://img.36krcdn.com/hsossms/20260918/v2_00572e67bb6f47d0b68edc8f51a70e30@6119835_oswg352295oswg1080oswg405_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>作业清单如下：</p>
-  <blockquote>
-   <p>从零写Tokenizer加Transformer，端到端训一个0.1B的模型；手写Triton attention kernel，自己测多卡训练和推理的增益；从raw dump洗语料，拟合scaling law再外推；在同一个基座上把SFT、DPO、RLVR 做对照；搭可验证环境加harness，训长程Agent，鼓励self-judge loop。</p>
-  </blockquote>
-  <p>交付方式为2到3人组队，英文NeurIPS格式，第16周现场 demo。作业占40%，大项目占60%。</p>
-  <p>搭可验证环境、训长程Agent、鼓励 self-judge loop，这三者其实就是“密集反馈”循环的青春版。</p>
-  <p>可验证环境，对应那个可被客观裁决的裁判；长程Agent，对应循环里那个执行者；self-judge loop，则对应“完成的任务变成下一轮训练场”的自举机制。</p>
-  <p>好消息是，Anthropic给唐杰留下的作业做了补充。</p>
-  <p>Anthropic认为，公众看不见前沿实验室里究竟如何在RSI。为了补上这道信息差，它提议给“AI发展速度”装三块仪表盘。</p>
-  <p>第一块，用来计算AI到底替人干了多少研发，基于Epoch AI的AL0到AL5六级标尺给每类研发任务打分。</p>
-  <p>截至2026年8月，Claude已经“主导”了26%的模型研发任务，而2026年2月这个数字还不到1%。</p>
-  <p>第二块，是计算对AI Agent的监督了多少。</p>
-  <p>在Anthropic最常用的内部平台上，随时约有3万个Agent在干活。它们的一举一动都要过两道监控：线上监控在执行前实时拦截，线下监控在事后复盘。</p>
-  <p>2026年8月，超过十亿次决策里只有0.002%（约四万七千分之一）被拦下；线下监控每周标记约十万条记录，其中约五十条升级给人工复核。</p>
-  <p>第三块，追踪算力花在哪。在7月13日到20日这一周，Anthropic投向AI研发的算力里约6%用于安全，投向“AI驱动的研发”的算力里约12%用于安全。</p>
-  <p>Anthropic也承认，这些数字眼下只能自己报，既缺跨实验室的统一口径，也难免“自己评自己”。它的打算是引入独立第三方评估者，把内部流程、系统和数据向它们开放。</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/ZtAsaIyJz6BH-Fsls67hkg">“字母AI”</a>，作者：苗正，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 18 Sep 2026 08:07:10 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3988417023071872</guid>
-            <link>https://www.36kr.com/p/3988417023071872</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Anthropic自曝：Claude已主导其26%内部AI研发]]></title>
-            <description><![CDATA[<p>在Anthropic首席执行官阿莫德伊(Dario Amodei)呼吁协调各方放缓AI发展步伐、引发业界震动数日后，Anthropic周四公布了三项新指标，称这些指标可帮助人工智能公司监测发展进度。而根据其中的一项披露，Anthropic旗下大模型Claude目前已在该公司内部“主导”了26%的AI研发工作。</p>
-  <p class="image-wrapper"><img data-img-size-val="766,423" src="https://img.36krcdn.com/hsossms/20260918/v2_4370c08ea34e478eb2c2c4323dc884fd@5888275_oswg24354oswg766oswg423_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>该公司在周四的一篇博客文章中表示，其衡量了“由AI参与驱动的研发”、“对AI智能体的监管与干预”以及“Anthropic内部的计算资源分配情况”三个维度的进展，并分享了相关方法论，以鼓励其他组织效仿。</strong></p>
-  <p>“当全球都在探讨如何把控前沿技术的演进步调时，我们必须竭尽所能，消除顶尖实验室与公众之间的信息鸿沟，”Anthropic在博文中强调，“这意味着我们需要更精准地量化AI发展进程、向社会公开透明披露，并让公众共同参与决定如何应对这些信息。”</p>
-  <p><strong>阿莫德伊上周末提出的放缓AI研发呼吁，得到了包括OpenAI首席执行官奥尔特曼、SpaceX首席执行官马斯克和谷歌DeepMind联合创始人德米斯·哈萨比斯在内的行业领袖的支持，此前研究人员曾就人工智能日益增长的危害潜力发出严厉警告。</strong></p>
-  <p>阿莫德伊表示，他的计划旨在控制模型能力提升的速度，同时“不牺牲商业优势或美国在人工智能领域的领先地位”。</p>
-  <h2><strong>Claude已主导26%内部AI研发工作</strong></h2>
-  <p><strong>根据最新的披露，在第一项指标“AI参与AI研发”方面，Anthropic构建了一个原型指数——Anthropic研发自动化指数（Anthropic R&amp;D Automation Index），用于衡量Anthropic的AI研发工作中有多少是由Claude完成的。</strong>其构建方式是：对公司内部开展的各类AI研发工作进行编目，评估每项任务当前的自动化程度，最后将这些评分汇总整合。</p>
-  <p>为了衡量AI在Anthropic内部开展AI研发的程度，Anthropic采用了Epoch AI开发的自动化评级量表，该量表用于衡量“自动化等级”(AL)。评级从AL0(无AI参与)到AL5(AI完全自主运作，无需人类介入)。在AL3(AI协作)级别，AI可以在人类的密切指导下完成大块工作；在AL4(AI主导)级别，AI可以根据高阶提示词端到端完成大部分任务，而人类仅负责监督。</p>
-  <p><strong>截至2026年8月，Claude未在任何被测量的AI研发工作中实现“完全自主运行”(AL5)，但已经“主导”（即AL4）Anthropic约26%的AI研发工作，同时处于“AI协作”（即AL3）及更高等级的工作占比已经超过90%。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="811,500" src="https://img.36krcdn.com/hsossms/20260918/v2_2dc8e2acaa3045aeb560f695e5a33dd0@5888275_oswg140560oswg811oswg500_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>上述AL4比例在2026年2月还不到1%。</strong>Anthropic认为，此类指标有助于观察AI研发自动化程度是否持续提高，以及距离“递归自我改进”—— 即AI能够完全自主开发下一代AI还有多远。</p>
-  <h2><strong>其他AI发展速度评估指标</strong></h2>
-  <p><strong>第二项指标“对AI智能体的监管与干预”涉及构建一个系统，用于监督和干预AI智能体采取的行动。</strong>监测显示，在Anthropic最核心的内部平台上，随时都有约30000个智能体在协同执行研究与工程任务。这些智能体的行为会受到在线和离线两类监测系统的约束。</p>
-  <p>Anthropic补充称，智能体的每一步操作在执行前都会经过前置审查；<strong>当月产生的逾10亿次决策指令中，平均每47000次操作就有一例被在线监测系统拦截。</strong></p>
-  <p><strong>在第三项指标“公司内部的计算资源分配情况”方面，Anthropic公布了7月份某抽样周的算力分配细节：Anthropic用于AI研发的算力中约有6%投向了安全领域；而在AI自身独立推进的研究中，安全算力占比则提升至12%。</strong></p>
-  <p>Anthropic表示，该统计口径还偏向保守。例如，如果某个Token所消耗的算力既推进了模型能力又增进了安全性，则不会计入这些安全指标中。</p>
-  <p>Anthropic指出，传统评测侧重于考察“模型能做什么”(能力评估)，而上述新指标的价值在于揭示“模型是如何构建的”，二者能互为补充。结合这套体系，外部第三方机构将拥有一个切实的评估支点，以研判AI发展的真实速率。</p>
-  <p><strong>“我们希望通过公布这些量化数据树立行业透明度的标杆，未来我们也将持续推进这一举措，”Anthropic表示。</strong></p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/r_OeHwRpF2ShvOm5gm5U5g">“科创板日报”</a>，作者：潇湘，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 18 Sep 2026 07:39:17 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3988588270222344</guid>
-            <link>https://www.36kr.com/p/3988588270222344</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[传闻四起，人形机器人IPO审核收紧？]]></title>
-            <description><![CDATA[<p>‍这两天，人形机器人圈子里最热的，不是哪个机器人又学会了后空翻，而是一个更现实的问题：<strong>这个赛道还能不能顺利上市？</strong></p>
-  <p>近日，有媒体援引知情人士消息称，监管机构可能通过非正式窗口指导，<strong>提高人形机器人初创企业IPO审核门槛，重点看持续性收入、亏损收窄和真正的技术创新。</strong></p>
-  <p>消息很快传开，原因并不难理解。</p>
-  <p>宇树科技上市首日冲高，随后股价快速回落，市场从兴奋转向冷静，刚好撞上了不少机器人企业排队上市的时间窗口。</p>
-  <p>但必须先把边界说清楚。</p>
-  <p><strong>截至9月17日，监管部门没有公开发布专门针对人形机器人IPO的新规，也没有公开确认“暂停上市”或“一刀切收紧”。</strong></p>
-  <p>路透社报道显示，监管部门未就相关调整回应置评请求。</p>
-  <p>小作文失真的故事在资本市场也是常有的事儿。</p>
-  <p>另据第一财经援引多名投行人士的说法，<strong>当前更准确的表述是“严把IPO质量关”，人形机器人项目因为商业化尚不成熟，受到的关注更高。</strong></p>
-  <p>这不是机器人产业被关门，而是资本市场开始追问：</p>
-  <p><strong>你展示的是产品还是展品？</strong></p>
-  <p><strong>能解决哪些现实场景的痛点，还只是一个靠遥控器操控的大号玩具？</strong></p>
-  <p><strong>拿到的订单是持续需求，还是一次性项目？</strong></p>
-  <h2><strong>宇树科技的过山车，改变了市场情绪</strong></h2>
-  <p>宇树科技是目前A股最具代表性的人形机器人整机企业。</p>
-  <blockquote>
-   <p>公司发行价为150.80元，8月19日上市首日收盘845元，盘中一度触及1100元。9月16日最低探至458.02元，9月17日收于503.26元。</p>
-  </blockquote>
-  <p>从高点计算，股价已经回撤约54.2%。</p>
-  <p>即便较发行价仍上涨约233.7%，这种剧烈波动也足以提醒市场，机器人板块正在经历的不是普通成长股定价，而是预期、流动性和现实业绩之间的快速碰撞。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,673" src="https://img.36krcdn.com/hsossms/20260918/v2_e24dbcb43dd641e29e966000eb9e2015@5888275_oswg83614oswg1080oswg673_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>宇树科技的基本面并非没有亮点。</p>
-  <p>公开披露信息显示，公司2025年营业收入约17.08亿元，归母净利润约2.88亿元，毛利率约60%，属于行业中少见的盈利样本。</p>
-  <p>但公司同时覆盖四足、人形机器人和零部件，收入结构、海外市场、研发投入与产品迭代仍需观察。</p>
-  <p>股价从1100元跌到500元附近，不等于公司价值归零，也不等于行业没有未来。它反映的是，当估值先写进多年增长，任何低于想象的现实都会变成压力。</p>
-  <p>近一年上市与排队企业，真正的分化已经出现。</p>
-  <p>市场讨论“人形机器人上市潮”时，常把已上市、已受理和传闻中的企业混在一起。</p>
-  <p>截至9月17日，A股纯机器人整机代表主要是宇树科技，云深处、乐聚智能处于IPO推进阶段，越疆科技则是协作机器人与具身智能并行布局的企业。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,569" src="https://img.36krcdn.com/hsossms/20260918/v2_1a21ece1149e49eb9856dd0ffd655af8@5888275_oswg91299oswg1080oswg569_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>三份招股书和公开披露材料放在一起，差异非常明显。</p>
-  <p>宇树科技的优势是收入规模、盈利能力和产品知名度更突出。</p>
-  <p>云深处2025年营收约3.37亿元，首次实现盈利，但收入主要仍来自四足和轮足机器人，人形机器人业务尚处起步阶段。</p>
-  <p>乐聚智能2025年营收约2.58亿元，其中夸父系列贡献较高收入，然而归母净利润亏损约6978万元，综合毛利率从2023年的50.45%降至2025年的40.78%。</p>
-  <p>收入增长不等于商业模式成熟，出货增加也不等于盈利改善。资本市场最终要看，每卖出一台产品能否留下合理毛利并带来复购。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,426" src="https://img.36krcdn.com/hsossms/20260918/v2_b751fc31075d4a328c17e2a1f0668eeb@5888275_oswg96856oswg1080oswg426_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>市场空间是真的，产业兑现也确实很难</strong></h2>
-  <p>政策层面对人形机器人给予明确支持。工信部2023年提出，到2025年实现创新体系初步建立、整机产品达到国际先进水平并实现批量生产。</p>
-  <p>IDC预计，2030年全球人形机器人出货量将超过51万台，年复合增速接近95%。高工机器人预计，2025年全球销量约1.24万台，市场规模约63.39亿元。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1212" src="https://img.36krcdn.com/hsossms/20260918/v2_c95e4115dd534b3fbf3b8a048abe5727@5888275_oswg239824oswg1080oswg1212_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>但预测曲线和企业利润表，中间隔着一条很长的路。</p>
-  <p>目前较易落地的是工业制造、仓储物流、巡检和科研教育。家庭服务想象空间大，但对安全、可靠性、成本和售后要求更高。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,576" src="https://img.36krcdn.com/hsossms/20260918/v2_e12d869c37544d38903b1779c6a8f767@5888275_oswg97723oswg1080oswg576_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>发布会完成一个动作，和在工厂连续工作几个月，是两种能力。</p>
-  <p>行业的共同难题是成本、数据、可靠性和责任边界，企业数量增长也快于成熟应用的形成。</p>
-  <h2><strong>A股和港股，审核重点不会只看“会不会走路”</strong></h2>
-  <p>人形机器人企业可以通过科创板、创业板或港股特专科技章节等路径推进上市。</p>
-  <p>不同市场规则存在差异，但审核逻辑越来越接近一个核心：技术是否真实，业务是否持续，风险是否说得清楚。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1227" src="https://img.36krcdn.com/hsossms/20260918/v2_509b07cba8294956890f42230e889467@5888275_oswg246789oswg1080oswg1227_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>第一，<strong>看收入质量</strong>。客户是否真实、订单是否重复发生、收入确认和回款是否匹配，都要讲清楚。单次展演、政府示范项目、关联方采购，不能自动等于可持续商业化。</p>
-  <p>第二，<strong>看技术成色</strong>。企业需要解释核心算法、运动控制、关节模组、灵巧手和数据系统的自研比例，并说明性能能否在客户现场复现。</p>
-  <p>发布会动作有传播力，招股书里的技术验证更有定价价值。</p>
-  <p>第三，<strong>看亏损方向</strong>。亏损不是前沿科技企业的原罪，关键在于是否有收窄路径。研发投入增加可以理解，但销售越多亏损越大、毛利率下滑、现金流长期为负，就需要解释。</p>
-  <p>第四，<strong>看募投项目是否匹配</strong>。产能规划不能只靠远期市场预测支撑，还要有订单、客户验证、供应链和人员储备。</p>
-  <p>市场尚处早期时，过快扩产可能带来库存和现金流压力。</p>
-  <p>第五，<strong>看港股18C路径下的持续经营能力</strong>。</p>
-  <p>港股允许部分未盈利特专科技企业上市，但未盈利不是免检通行证，企业仍需证明研发能力、商业化潜力和持续经营基础。</p>
-  <h2><strong>真正收紧的是，故事与现实之间的缝隙</strong></h2>
-  <p>我更愿意把这次传闻理解为一次行业提醒，而不是产业利空。</p>
-  <p>人形机器人当然值得期待。它可能改变制造业，也可能进入物流、服务和家庭。但越是有长期价值的产业，越不能靠短期热度透支未来。</p>
-  <p>资本市场可以支持企业穿越研发周期，却不能替企业完成客户验证，也不能替企业把一次性订单变成经常性收入。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,701" src="https://img.36krcdn.com/hsossms/20260918/v2_8923a956fb6f472c9d329c32c1f32707@5888275_oswg139745oswg1080oswg701_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>对企业来说，接下来最重要的不是再做一个更吸睛的演示，而是把单价、毛利、故障率、复购率、维护成本和现金流讲明白。</p>
-  <p>投资者要问的是，哪家公司已经留下了未来能够复制的证据。</p>
-  <p>如果审核更强调持续收入、亏损收窄和技术创新，可能是行业走向成熟的信号。资本化慢一点，留下来的企业可能更稳。</p>
-  <p>机器人时代不会因为IPO节奏变化而结束。</p>
-  <p>但靠样机、概念和估值就能轻松上市的时代，可能正在结束。</p>
-  <p>当IPO审核开始认真审视收入质量和商业闭环，那些只有demo和PPT的公司会越来越难过关。</p>
-  <p>未来12到18个月，你能看到谁真正拿到了订单、谁的收入经得起审计、谁的客户在复购。</p>
-  <p><strong>留下的，是真正能跑通商业化的企业。</strong></p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/SVraa-3F5dC44Sw6wtxNGQ">“投行圈子”</a>，作者：投行大师姐，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 18 Sep 2026 07:38:39 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3988588241026049</guid>
-            <link>https://www.36kr.com/p/3988588241026049</link>
             
             
             
