@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-19T11:58:09.000Z",
+  "generatedAt": "2026-09-20T01:17:47.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-09-19T06:37:30.918Z",
-    "ageHours": 5.34
+    "ageHours": 18.67
   },
   "x": [
     {
@@ -84,39 +84,6 @@
           "retweets": 3,
           "text": "If California were a startup, what would its board ask the CEO?\n\nI’m hosting CA governor candidate @SteveHiltonx  at @spc  in a couple of weeks. On the agenda: priorities, execution, and what he’d want us to hold him accountable for.\n\nSign up here to attend:\nhttps://t.co/ahiXSi3TD5",
           "url": "https://x.com/adityaag/status/2100275836792492463"
-        },
-        {
-          "createdAt": "2026-09-15T19:13:31.000Z",
-          "id": "2099939689738191146",
-          "isQuote": false,
-          "likes": 9,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "More on why we invested in @profound from the beginning: https://t.co/kIiRR7fMM9",
-          "url": "https://x.com/adityaag/status/2099939689738191146"
-        },
-        {
-          "createdAt": "2026-09-15T19:13:30.000Z",
-          "id": "2099939685657141257",
-          "isQuote": false,
-          "likes": 97,
-          "quotedTweetId": null,
-          "replies": 8,
-          "retweets": 12,
-          "text": "People ask what we saw in @profound before there was a Profound to see.\n\nIt's now worth $1.8B. One third of the Fortune 100 runs on it.\n\nWe didn't find the company. We watched it form.\n\n@thejamescad and @dbabbs met at @spc. Opposite worlds: an Uber maps engineer and a founder with no college degree who willed businesses into existence.\n\nNeither arrived with the idea. The partnership formed first. \n\nProfound has now evolved to become the fastest-growing AI marketing platform. \n\nWe've invested in every round since the beginning and are proud to congratulate the team on their $180M Series D, co-led by @sequoia and @kleinerperkins with participation from @lightspeedvp, @khoslaventures, @Saga_Ventures, @EvanticCapital, and SPC.",
-          "url": "https://x.com/adityaag/status/2099939685657141257"
-        },
-        {
-          "createdAt": "2026-09-15T16:58:19.000Z",
-          "id": "2099905666324312141",
-          "isQuote": true,
-          "likes": 80,
-          "quotedTweetId": "2099891650285703616",
-          "replies": 2,
-          "retweets": 5,
-          "text": "Profound started at @spc. \n\nWe're proud to be a part of the journey. \n\nOnwards. https://t.co/LlM4KCSzO3",
-          "url": "https://x.com/adityaag/status/2099905666324312141"
         }
       ],
       "source": "x",
@@ -347,28 +314,6 @@
           "retweets": 252,
           "text": "You can also now make decks, docs, and designs in your conversation.\n\nDraft the one-pager in Claude Docs, turn it into a deck with Claude Slides, and mock up a matching visual in Claude Design, all from one place. https://t.co/Y0JaJGT3G8",
           "url": "https://x.com/claudeai/status/2100258492590207079"
-        },
-        {
-          "createdAt": "2026-09-15T15:02:29.000Z",
-          "id": "2099876515840245772",
-          "isQuote": false,
-          "likes": 237,
-          "quotedTweetId": null,
-          "replies": 12,
-          "retweets": 23,
-          "text": "Learn more about Salesforce in Claude: https://t.co/LVP8WIUzaY",
-          "url": "https://x.com/claudeai/status/2099876515840245772"
-        },
-        {
-          "createdAt": "2026-09-15T15:02:29.000Z",
-          "id": "2099876514330206578",
-          "isQuote": false,
-          "likes": 8891,
-          "quotedTweetId": null,
-          "replies": 285,
-          "retweets": 634,
-          "text": "Salesforce in Claude is now available in beta.\n\nIt brings your accounts, opportunities, and pipeline into Claude, with 37 pre-built sales skills. Prep a call, review a deal, create a pipeline dashboard, or send your forecast without leaving the conversation. https://t.co/juvI0sU3mX",
-          "url": "https://x.com/claudeai/status/2099876514330206578"
         }
       ],
       "source": "x",
@@ -454,17 +399,6 @@
           "retweets": 11,
           "text": "LLMs are just            jev is just a JSON \nautocomplete               classifier \n\n                             🤝\n\n                              🚩",
           "url": "https://x.com/danshipper/status/2100251499443998766"
-        },
-        {
-          "createdAt": "2026-09-15T19:44:27.000Z",
-          "id": "2099947471518474522",
-          "isQuote": true,
-          "likes": 1491,
-          "quotedTweetId": "2099925682726002904",
-          "replies": 50,
-          "retweets": 74,
-          "text": "we almost never test new foundation models but we've been testing this for ~a week @every and it's pretty wild.\n\nthe kind of things that will be obviously indispensible in 6-12 months\n\nit doesn't produce words as output, it produces probabilities. so it can efficiently act as a judge in cases where you'd need a Fable-level model—but in our testing was 25x faster and 600x lower priced \n\nexcellent vibe check by @hammer_mt on @every:\nhttps://t.co/yVX25Wsu4Z",
-          "url": "https://x.com/danshipper/status/2099947471518474522"
         }
       ],
       "source": "x",
@@ -528,39 +462,6 @@
           "retweets": 14,
           "text": "I can use any harness I want and it's the same personality and full memory of my personal AGI https://t.co/4IupWtnh84",
           "url": "https://x.com/garrytan/status/2100339347669279149"
-        },
-        {
-          "createdAt": "2026-09-15T21:57:34.000Z",
-          "id": "2099980972641124629",
-          "isQuote": true,
-          "likes": 1543,
-          "quotedTweetId": "2099975853685801147",
-          "replies": 120,
-          "retweets": 53,
-          "text": "I think Muse is going to win tbh https://t.co/ptFcAa9Zu0",
-          "url": "https://x.com/garrytan/status/2099980972641124629"
-        },
-        {
-          "createdAt": "2026-09-15T20:52:03.000Z",
-          "id": "2099964487667454097",
-          "isQuote": false,
-          "likes": 247,
-          "quotedTweetId": null,
-          "replies": 36,
-          "retweets": 23,
-          "text": "I just started using @capydotai with GStack/GBrain on some fix waves on outstanding issues/PRs and it did what would have taken a day with raw Codex/Claude Code in about half as much time, using the same frontier models. \n\nI'm amazed.",
-          "url": "https://x.com/garrytan/status/2099964487667454097"
-        },
-        {
-          "createdAt": "2026-09-15T19:46:51.000Z",
-          "id": "2099948078606520676",
-          "isQuote": true,
-          "likes": 183,
-          "quotedTweetId": "2099936113469112712",
-          "replies": 34,
-          "retweets": 5,
-          "text": "Interesting to realize this peptides boom didn't start in SF but rather the midwest in bodybuilding subcultures\n\nI recently started using peptides with @Ronan_RX and I've lost 18 lbs in two months! https://t.co/kIOkGEkOGf",
-          "url": "https://x.com/garrytan/status/2099948078606520676"
         }
       ],
       "source": "x",
@@ -610,39 +511,6 @@
           "retweets": 8,
           "text": "If you're not using @Gemini_Notebook on your phone yet, you're missing out. This is such a cool story! https://t.co/UZdm9Knj1f",
           "url": "https://x.com/joshwoodward/status/2100616682431807860"
-        },
-        {
-          "createdAt": "2026-09-15T18:02:42.000Z",
-          "id": "2099921868652482741",
-          "isQuote": false,
-          "likes": 11,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 0,
-          "text": "The offer\n\nhttps://t.co/meLzcwjkEI",
-          "url": "https://x.com/joshwoodward/status/2099921868652482741"
-        },
-        {
-          "createdAt": "2026-09-15T18:02:42.000Z",
-          "id": "2099921867331235956",
-          "isQuote": false,
-          "likes": 30,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 2,
-          "text": "The features\n\nhttps://t.co/VzCNJS6PRU",
-          "url": "https://x.com/joshwoodward/status/2099921867331235956"
-        },
-        {
-          "createdAt": "2026-09-15T18:02:42.000Z",
-          "id": "2099921866014306633",
-          "isQuote": false,
-          "likes": 329,
-          "quotedTweetId": null,
-          "replies": 22,
-          "retweets": 19,
-          "text": "New updates in @Gemini_Notebook for students, my 2 favorites:\n\n1) Have a live, spoken Q&A with your class materials in ~100 languages\n\n2) Record lectures and notes on the go, the audio notes save automatically into your chosen notebook\n\nAs a university student, you can also still get a free Google AI Plan in 140+ countries for bigger limits and access to more Google products!",
-          "url": "https://x.com/joshwoodward/status/2099921866014306633"
         }
       ],
       "source": "x",
@@ -684,17 +552,6 @@
           "retweets": 7,
           "text": "Incredibly exciting that there are entire universes of AI innovation that still exist that weren’t even on most of our radars.\n\nBeing able to process information insanely quickly, at crazy low costs, with high levels of capability is huge for a wide number of enterprise tasks.\n\nData classification tasks, routing decisions inside of a workflow, decision making when handed a particular domain problem, quick judgment calls about safety or security, and more all are the gates in a large number of  processes. \n\nThis model and approach could be quite cool in agentic workflows in the enterprise.",
           "url": "https://x.com/levie/status/2100448648672993540"
-        },
-        {
-          "createdAt": "2026-09-15T21:37:53.000Z",
-          "id": "2099976021311398230",
-          "isQuote": true,
-          "likes": 203,
-          "quotedTweetId": "2099904950990205097",
-          "replies": 36,
-          "retweets": 27,
-          "text": "There’s a massive chasm between the power of AI models and the ultimate workflows that enterprises are trying to automate. This gap is the opportunity for the applied AI layer to fill. \n\nYou need to connect the intelligence to workflows, often reengineer processes, aggregate the right context and data, allow for the right human in the loop experiences, drive change management, do domain specific evals, manage the security and governance of the data and process, and much more.\n\nWe’re going to see this layer emerge in every vertical and horizontal category. And ironically, even as models improve at incredible rates, this layer still must exist - and may become even more important and useful. Greater capability enables even more complex tasks to be tackled, amplifying the challenges if you don’t do this well.\n\nWas super fun chatting with @sonyatweetybird on all the things going into AI diffusion.",
-          "url": "https://x.com/levie/status/2099976021311398230"
         }
       ],
       "source": "x",
@@ -791,17 +648,6 @@
           "retweets": 0,
           "text": "Wife wanted Black Forest cake for her birthday..\n\nI haven’t baked in a long long time, so not perfect but think it turned out ok (thanks @ChatGPT)\n\nHappy birthday @shimoleejhaveri - I love you mostest ❤️ https://t.co/5LC3blykHK",
           "url": "https://x.com/nikunj/status/2100115958862107100"
-        },
-        {
-          "createdAt": "2026-09-15T23:48:36.000Z",
-          "id": "2100008917980102863",
-          "isQuote": false,
-          "likes": 68,
-          "quotedTweetId": null,
-          "replies": 9,
-          "retweets": 0,
-          "text": "I’m meeting one too many founders who think the money spigot will magically flow and the next round will happen no matter what..\n\nCapital is a weapon for acceleration. Used well you’re unbeatable. If you are so dependent on it, a simple downturn can lead to not so great consequences. If you don’t believe me, a simple prompt asking for this history will suffice. \n\nSo been sharing this with a lot of the founders we advise: figure out the default path that ensures the survival of your company and a great self fulfilling business. \n\nAnd then figure out scenarios where abundant (or lack of) capital and what it does to your business. \n\nThe only constant is change and we don’t know how capital markets evolve in the next 6-18 months!",
-          "url": "https://x.com/nikunj/status/2100008917980102863"
         }
       ],
       "source": "x",
@@ -898,39 +744,6 @@
           "retweets": 1,
           "text": "I use these 8 AI skills to produce my entire podcast while still applying my taste and judgment along the way.\n\n1. /podcast-prep does research on the guest and then preps an interview guide.\n\n2. /podcast-edit reviews the raw transcript, then works with me to pick engaging quotes for the intro reel along with moments to cut.\n\n3. /podcast-production orchestrates 5 skills to turn the full episode into 6 different assets.\n\nSome people think the latest models make skills redundant but they've been indispensable for me to get AI to follow my specific edit and browser-use instructions.\n\nMy latest video highlighting how I actually work with these skills is a good watch if you want to automate any manual workflow.\n\n📌 Watch me demo all 8 skills here: https://t.co/PYNbe5tlFw",
           "url": "https://x.com/petergyang/status/2100328939034128856"
-        },
-        {
-          "createdAt": "2026-09-16T01:02:24.000Z",
-          "id": "2100027487681953834",
-          "isQuote": false,
-          "likes": 4,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "Thank you all for your replies!\n\nJust sent @bot codes to a bunch of you — a few use cases that stood out:\n\nFor growth & clients:\n→ Find leads, draft outreach, and turn wins into case studies @kouroshbaloo\n→ Build a competitor comparison matrix with sources @PaulWeissAI\n\nFor ops & shipping:\n→ Monitor hundreds of ad accounts and catch broken signup/payment flows @yashjain10k\n→ Watch Jira, flag blockers, and draft the weekly status update @partykma\n→ Triage support tickets, draft replies, and escalate with full context @jurlycat\n→ For hotel owners: regularly test the booking flow so website booking errors get caught @LeenCanvas\n→ Automate paperwork and back-office workflows for an electrical contracting business @kerwinv101\n\nFor research & content:\n→ Monitor AI builders on X, verify sources, then turn wins into hooks and scripts @jenni489471\n→ A research desk for AI that turns noise into a daily brief @Orynsky\n\nWill run this again if I get more codes. Meanwhile consider subscribing to my YouTube below :)\nhttps://t.co/SKvvXlY6Km",
-          "url": "https://x.com/petergyang/status/2100027487681953834"
-        },
-        {
-          "createdAt": "2026-09-15T21:49:07.000Z",
-          "id": "2099978848255533280",
-          "isQuote": false,
-          "likes": 36,
-          "quotedTweetId": null,
-          "replies": 18,
-          "retweets": 0,
-          "text": "My attempt to get Muse to negotiate my Xfinity cable bill has sadly failed https://t.co/efkmGmHi2h",
-          "url": "https://x.com/petergyang/status/2099978848255533280"
-        },
-        {
-          "createdAt": "2026-09-15T21:09:35.000Z",
-          "id": "2099968897323778416",
-          "isQuote": true,
-          "likes": 147,
-          "quotedTweetId": "2099890276315848743",
-          "replies": 25,
-          "retweets": 3,
-          "text": "The Grok @bot team asked me if I had any advice for solopreneurs.\n\nI’ve only been doing this full time for three months, but my advice is to design your business so you can spend more time doing work you actually enjoy.\n\nThere will always be choices that could make more money. But if those choices leave you doing work you don’t enjoy, then that defeats the purpose of becoming a solopreneur in the first place.\n\nDelegate that boring work to your bots instead or just don't do it :)\n\nWas super fun joining the @SpaceXAI live stream this morning, the team is still going strong here: https://t.co/u2qwydK7M8",
-          "url": "https://x.com/petergyang/status/2099968897323778416"
         }
       ],
       "source": "x",
@@ -1038,39 +851,6 @@
           "retweets": 3,
           "text": "https://t.co/8uP1oRz9NP",
           "url": "https://x.com/rauchg/status/2100260457617736051"
-        },
-        {
-          "createdAt": "2026-09-15T21:33:16.000Z",
-          "id": "2099974859023683975",
-          "isQuote": false,
-          "likes": 284,
-          "quotedTweetId": null,
-          "replies": 25,
-          "retweets": 15,
-          "text": "Safari 27 supports JSPI, a magic WebAssembly capability for sync native code to suspend on an async 𝙿𝚛𝚘𝚖𝚒𝚜𝚎.\n\nOn https://t.co/OL0LzGtvAw, libfx uses the built-in browser 𝚏𝚎𝚝𝚌𝚑 stack to make API calls.\n\nAs more code goes native, I expect WebAssembly to play a huge role in the future of the web.",
-          "url": "https://x.com/rauchg/status/2099974859023683975"
-        },
-        {
-          "createdAt": "2026-09-15T17:21:18.000Z",
-          "id": "2099911447598059812",
-          "isQuote": false,
-          "likes": 1080,
-          "quotedTweetId": null,
-          "replies": 66,
-          "retweets": 47,
-          "text": "Excited to formally introduce Vercel Labs.\n\nhttps://t.co/zCNVryaiin is the home for the in-public research and experimentation arm of Vercel.\n\n247 million downloads in, we wanted to, also in public, share what we're supporting, what we're researching, and what experiments didn't pan out.\n\nKudos to @ctatedev and @cramforce for shaping this great initiative and iterating in public.",
-          "url": "https://x.com/rauchg/status/2099911447598059812"
-        },
-        {
-          "createdAt": "2026-09-15T16:58:37.000Z",
-          "id": "2099905740505055680",
-          "isQuote": true,
-          "likes": 380,
-          "quotedTweetId": "2099902412253499478",
-          "replies": 35,
-          "retweets": 10,
-          "text": "The future is multi-model. Trying to hide the choice confuses and hurts customers, who can't participate in the upside of the most exciting market competition of our times, nor master the best tool for the job. https://t.co/DWMmd7lUqX",
-          "url": "https://x.com/rauchg/status/2099905740505055680"
         }
       ],
       "source": "x",
@@ -1109,17 +889,6 @@
           "retweets": 342,
           "text": "the main thing i was excited about launching this week will be next week instead, but imo worth the wait! https://t.co/j8tcW05Fmk",
           "url": "https://x.com/sama/status/2100351958167220547"
-        },
-        {
-          "createdAt": "2026-09-15T14:46:56.000Z",
-          "id": "2099872600977760451",
-          "isQuote": true,
-          "likes": 12219,
-          "quotedTweetId": "2099744972195131850",
-          "replies": 1004,
-          "retweets": 545,
-          "text": "big 🚢 this week\n\nand then for devday\n\n🚢🚢🚢🚢🚢🚢 https://t.co/Kyj0mGE913",
-          "url": "https://x.com/sama/status/2099872600977760451"
         }
       ],
       "source": "x",
@@ -1161,17 +930,6 @@
           "replies": 3,
           "isQuote": false,
           "quotedTweetId": null
-        },
-        {
-          "createdAt": "2026-09-15T20:34:33.000Z",
-          "id": "2099960081207242808",
-          "isQuote": true,
-          "likes": 241,
-          "quotedTweetId": "2099955072830787697",
-          "replies": 9,
-          "retweets": 8,
-          "text": "Excited to have you on board, Graham! https://t.co/zAbozt9Lpf",
-          "url": "https://x.com/steipete/status/2099960081207242808"
         }
       ],
       "source": "x",
@@ -1265,17 +1023,6 @@
           "retweets": 58,
           "text": "What is ChatGPT",
           "url": "https://x.com/thsottiaux/status/2100295443620007993"
-        },
-        {
-          "createdAt": "2026-09-15T18:06:14.000Z",
-          "id": "2099922755655479624",
-          "isQuote": false,
-          "likes": 4885,
-          "quotedTweetId": null,
-          "replies": 1200,
-          "retweets": 63,
-          "text": "2026 is the year of efficiency and Tuesday is for random swag drops on your door handle https://t.co/w68GaYgrmX",
-          "url": "https://x.com/thsottiaux/status/2099922755655479624"
         }
       ],
       "source": "x",
@@ -1361,17 +1108,6 @@
           "retweets": 13,
           "text": "related to this- I think bash is no longer all you need, if your goal is just reliably tool calling\n\nbut sandboxes + bash are still good for work that involves code generation &amp; execution https://t.co/xTptTmEmCE",
           "url": "https://x.com/trq212/status/2100315535758217422"
-        },
-        {
-          "createdAt": "2026-09-15T20:27:49.000Z",
-          "id": "2099958388230873165",
-          "isQuote": false,
-          "likes": 2429,
-          "quotedTweetId": null,
-          "replies": 209,
-          "retweets": 109,
-          "text": "I was not expecting things to go this way, but I think MCPs are better than CLIs for most integrations. \n\nThe models have gotten much better at tool calling, we can defer tools &amp; MCP is now stateless.\n\nIf you need to compose/filter data, add params like query to your MCP tools.",
-          "url": "https://x.com/trq212/status/2099958388230873165"
         }
       ],
       "source": "x",
@@ -1410,7 +1146,7 @@
   ],
   "stats": {
     "xBuilders": 21,
-    "xTweets": 112,
-    "windowSpanHours": 87.03
+    "xTweets": 88,
+    "windowSpanHours": 75.57
   }
 }
