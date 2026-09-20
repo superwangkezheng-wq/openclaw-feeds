@@ -11,6 +11,58 @@
  </author>
  <published>2012-02-21T04:08:32+00:00</published>
  <entry>
+  <id>yt:video:t5y-kS9nNxU</id>
+  <yt:videoId>t5y-kS9nNxU</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build A Reasoning Model From Scratch 4: Inference Scaling 1 (Temperature, Top-p, Self-Consistency)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=t5y-kS9nNxU"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-09-19T13:16:32+00:00</published>
+  <updated>2026-09-19T13:22:03+00:00</updated>
+  <media:group>
+   <media:title>Build A Reasoning Model From Scratch 4: Inference Scaling 1 (Temperature, Top-p, Self-Consistency)</media:title>
+   <media:content url="https://www.youtube.com/v/t5y-kS9nNxU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/t5y-kS9nNxU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>After motivating the use cases for inference-time scaling, this video first walks through temperature scaling, top-p filtering, and multinomial sampling to generate diverse answers with an LLM. Then, using these techniques, we implement self-consistency to improve LLM answer accuracy.
+
+- Reasoning playlist: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs
+- Reasoning Book: https://amzn.to/4aAKiFY
+- Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
+
+- LLMs from Scratch book: https://amzn.to/4fqvn0D
+- LLMs from Scratch repo: https://github.com/rasbt/LLMs-from-scratch
+- LLMs from Scratch playlist: https://www.youtube.com/watch?v=yAcWnfsZhzo&amp;list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11&amp;index=1
+
+00:00 Introduction and recap
+00:31 Training-time and inference-time scaling
+07:52 What we'll implement
+11:47 Notebook setup and model loading
+17:43 Building a flexible text generation function
+24:40 Chain-of-thought prompting
+28:26 Sampling and output diversity
+33:43 Next-token logits and greedy decoding
+38:20 Temperature scaling step by step
+42:46 Softmax and token probabilities
+47:42 Multinomial sampling
+54:51 Adding temperature sampling to text generation
+59:31 Top-p filtering step by step
+1:10:23 Adding top-p filtering to text generation
+1:13:43 Sampling and LLM watermarking
+1:16:01 Self-consistency and majority voting
+1:20:36 Implementing self-consistency
+1:29:02 MATH-500 results
+1:35:01 Accuracy and compute tradeoffs
+1:36:50 Next steps and self-refinement</media:description>
+   <media:community>
+    <media:starRating count="73" average="5.00" min="1" max="5"/>
+    <media:statistics views="4272"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:IcFX0JJcumo</id>
   <yt:videoId>IcFX0JJcumo</yt:videoId>
   <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
@@ -30,8 +82,8 @@
 
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="1678"/>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="2239"/>
    </media:community>
   </media:group>
  </entry>
@@ -88,8 +140,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="178" average="5.00" min="1" max="5"/>
-    <media:statistics views="15581"/>
+    <media:starRating count="184" average="5.00" min="1" max="5"/>
+    <media:statistics views="15541"/>
    </media:community>
   </media:group>
  </entry>
@@ -152,8 +204,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="200" average="5.00" min="1" max="5"/>
-    <media:statistics views="15097"/>
+    <media:starRating count="203" average="5.00" min="1" max="5"/>
+    <media:statistics views="15281"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,8 +276,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1176" average="5.00" min="1" max="5"/>
-    <media:statistics views="118255"/>
+    <media:starRating count="1179" average="5.00" min="1" max="5"/>
+    <media:statistics views="118307"/>
    </media:community>
   </media:group>
  </entry>
@@ -275,8 +327,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="648" average="5.00" min="1" max="5"/>
-    <media:statistics views="32060"/>
+    <media:starRating count="660" average="5.00" min="1" max="5"/>
+    <media:statistics views="32415"/>
    </media:community>
   </media:group>
  </entry>
@@ -322,7 +374,7 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
     <media:starRating count="463" average="5.00" min="1" max="5"/>
-    <media:statistics views="18688"/>
+    <media:statistics views="18741"/>
    </media:community>
   </media:group>
  </entry>
@@ -346,8 +398,8 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
-    <media:starRating count="77" average="5.00" min="1" max="5"/>
-    <media:statistics views="4398"/>
+    <media:starRating count="76" average="5.00" min="1" max="5"/>
+    <media:statistics views="4439"/>
    </media:community>
   </media:group>
  </entry>
@@ -402,8 +454,8 @@ Chapters:
 50:00 Transparent open-source training codebases
 52:00 Build a Reasoning Model From Scratch</media:description>
    <media:community>
-    <media:starRating count="1350" average="5.00" min="1" max="5"/>
-    <media:statistics views="34019"/>
+    <media:starRating count="1338" average="5.00" min="1" max="5"/>
+    <media:statistics views="34064"/>
    </media:community>
   </media:group>
  </entry>
@@ -449,8 +501,8 @@ Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-
 33:20 Kimi Linear, Ling 2.5, and Nemotron
 36:39 Poster, future updates, and wrap-up</media:description>
    <media:community>
-    <media:starRating count="796" average="5.00" min="1" max="5"/>
-    <media:statistics views="17556"/>
+    <media:starRating count="795" average="5.00" min="1" max="5"/>
+    <media:statistics views="17583"/>
    </media:community>
   </media:group>
  </entry>
@@ -493,8 +545,8 @@ Chapters:
 
 #LLM #Transformers #DeepLearning #MachineLearning #Inference #MoE #GQA #MLA #SWA #KVCache</media:description>
    <media:community>
-    <media:starRating count="686" average="5.00" min="1" max="5"/>
-    <media:statistics views="20281"/>
+    <media:starRating count="687" average="5.00" min="1" max="5"/>
+    <media:statistics views="20290"/>
    </media:community>
   </media:group>
  </entry>
@@ -533,8 +585,8 @@ This video covers the most important open-weight LLM architectures released in 2
 01:14:57 10. Grok 2.5
 01:19:04 11. GLM-4.5</media:description>
    <media:community>
-    <media:starRating count="1760" average="5.00" min="1" max="5"/>
-    <media:statistics views="45593"/>
+    <media:starRating count="1755" average="5.00" min="1" max="5"/>
+    <media:statistics views="45643"/>
    </media:community>
   </media:group>
  </entry>
@@ -549,7 +601,7 @@ This video covers the most important open-weight LLM architectures released in 2
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2025-04-11T17:17:37+00:00</published>
-  <updated>2026-09-18T19:13:57+00:00</updated>
+  <updated>2026-09-19T14:04:35+00:00</updated>
   <media:group>
    <media:title>Build an LLM from Scratch 7: Instruction Finetuning</media:title>
    <media:content url="https://www.youtube.com/v/4yNswvhPWCQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -581,7 +633,7 @@ Building a User Interface to Interact With the Instruction Finetuned GPT Model, 
 Evaluating Instruction Responses Using the OpenAI API and Ollama, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation</media:description>
    <media:community>
     <media:starRating count="832" average="5.00" min="1" max="5"/>
-    <media:statistics views="47981"/>
+    <media:statistics views="48052"/>
    </media:community>
   </media:group>
  </entry>
@@ -596,7 +648,7 @@ Evaluating Instruction Responses Using the OpenAI API and Ollama, https://github
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2025-04-04T19:19:37+00:00</published>
-  <updated>2026-09-18T19:13:58+00:00</updated>
+  <updated>2026-09-19T14:04:35+00:00</updated>
   <media:group>
    <media:title>Build an LLM from Scratch 6: Finetuning for Classification</media:title>
    <media:content url="https://www.youtube.com/v/5PFXJYme4ik?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -628,8 +680,8 @@ https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/03_bonus_imdb-classifi
 Building a User Interface to Interact With the GPT-based Spam Classifier,
 https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/04_user_interface</media:description>
    <media:community>
-    <media:starRating count="668" average="5.00" min="1" max="5"/>
-    <media:statistics views="30481"/>
+    <media:starRating count="667" average="5.00" min="1" max="5"/>
+    <media:statistics views="30521"/>
    </media:community>
   </media:group>
  </entry>
@@ -644,7 +696,7 @@ https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/04_user_interface</med
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2025-03-23T10:33:00+00:00</published>
-  <updated>2026-09-18T19:13:58+00:00</updated>
+  <updated>2026-09-19T14:04:36+00:00</updated>
   <media:group>
    <media:title>Build an LLM from Scratch 5: Pretraining on Unlabeled Data</media:title>
    <media:content url="https://www.youtube.com/v/Zar2TJv-sE0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -676,46 +728,8 @@ PyTorch Performance Tips for Faster LLM Training, https://github.com/rasbt/LLMs-
 
 Converting the GPT-2 architecture into Llama 2 and Llama 3, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama</media:description>
    <media:community>
-    <media:starRating count="722" average="5.00" min="1" max="5"/>
-    <media:statistics views="38199"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:YSAkgEarBGE</id>
-  <yt:videoId>YSAkgEarBGE</yt:videoId>
-  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
-  <title>Build an LLM from Scratch 4: Implementing a GPT model from Scratch To Generate Text</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=YSAkgEarBGE"/>
-  <author>
-   <name>Sebastian Raschka</name>
-   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
-  </author>
-  <published>2025-03-17T15:24:30+00:00</published>
-  <updated>2026-09-18T19:13:58+00:00</updated>
-  <media:group>
-   <media:title>Build an LLM from Scratch 4: Implementing a GPT model from Scratch To Generate Text</media:title>
-   <media:content url="https://www.youtube.com/v/YSAkgEarBGE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/YSAkgEarBGE/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Links to the book: 
-- https://amzn.to/4fqvn0D (Amazon)
-- https://mng.bz/M96o (Manning)
-
-Link to the GitHub repository: https://github.com/rasbt/LLMs-from-scratch
-
-This is a supplementary video explaining how to code an LLM architecture  from scratch.
-
-00:00 4.1 Coding an LLM architecture
-13:52 4.2 Normalizing activations withlayer normalization
-36:02 4.3 Implementing a feed forward network with GELU activations
-52:16 4.4 Adding shortcut connections
-1:03:18 4.5 Connecting attention and linear layers in a transformer block
-1:15:13 4.6 Coding the GPT model
-
-You can find additional bonus materials on GitHub, for example converting the GPT-2 architecture into Llama 2 and Llama 3: https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama</media:description>
-   <media:community>
-    <media:starRating count="723" average="5.00" min="1" max="5"/>
-    <media:statistics views="39713"/>
+    <media:starRating count="719" average="5.00" min="1" max="5"/>
+    <media:statistics views="38270"/>
    </media:community>
   </media:group>
  </entry>

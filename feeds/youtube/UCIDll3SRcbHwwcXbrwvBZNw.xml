@@ -11,110 +11,76 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
-  <id>yt:video:GBDsw1xOVlU</id>
-  <yt:videoId>GBDsw1xOVlU</yt:videoId>
+  <id>yt:video:x61i-WudtDo</id>
+  <yt:videoId>x61i-WudtDo</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>研究者称智谱ZCode会上传工作区及完整Git历史【AI 早报 2026-09-19】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=GBDsw1xOVlU"/>
+  <title>DeepSeek API明确节假日及调休周末全天按空闲时段计费【AI 早报 2026-09-20】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=x61i-WudtDo"/>
   <author>
    <name>橘鸦Juya</name>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
-  <published>2026-09-18T09:10:13+00:00</published>
-  <updated>2026-09-19T11:27:13+00:00</updated>
+  <published>2026-09-20T01:12:57+00:00</published>
+  <updated>2026-09-20T07:36:39+00:00</updated>
   <media:group>
-   <media:title>研究者称智谱ZCode会上传工作区及完整Git历史【AI 早报 2026-09-19】</media:title>
-   <media:content url="https://www.youtube.com/v/GBDsw1xOVlU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/GBDsw1xOVlU/hqdefault.jpg" width="480" height="360"/>
+   <media:title>DeepSeek API明确节假日及调休周末全天按空闲时段计费【AI 早报 2026-09-20】</media:title>
+   <media:content url="https://www.youtube.com/v/x61i-WudtDo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/x61i-WudtDo/hqdefault.jpg" width="480" height="360"/>
    <media:description>Intro 00:00
 
-Claude Code 重构 Projects，支持协调并行云端线程 00:09
-https://claude.com/blog/projects-redesigned
-https://claude.com/form/projects
-https://x.com/claudeai/status/2100632677904744716
-https://x.com/ClaudeDevs/status/2100633571543367691
+DeepSeek API明确节假日及调休周末全天按空闲时段计费 00:09
+https://platform.deepseek.com/
 
-ChatGPT桌面版Windows端现已支持Appshots功能 00:29
-https://x.com/OpenAIDevs/status/2100726653366534560
+Tibo疑似暗示Codex banked reset 00:20
+https://x.com/thsottiaux/status/2101352781219258527
 
-Kimi Code 桌面端发布 00:42
-https://www.kimi.com/code/docs/kimi-code-desktop/getting-started.html
-https://x.com/real_kai42/status/2100562818353574017
+Step 5 Preview现身Artificial Analysis网站 00:40
+https://artificialanalysis.ai/models/step-5
 
-Kimi开放平台推出联网搜索 Basic、Pro及网页读取接口 00:53
-https://platform.kimi.com/docs/guide/web-search-best-practice
-https://mp.weixin.qq.com/s/YEPicyw-VqIN-DaRg9c99A
+千问发布Qwen3.8-LiveTranslate 00:58
+https://mp.weixin.qq.com/s/Rc3CKdHAtA_NdVRN2RLuAg
 
-TRAE 国际版上线新版订阅套餐 01:03
-https://docs.trae.ai/ide/new-plans-and-billing?_lang=zh
-https://linux.do/t/topic/2916250
+阿里巴巴达摩院开源腹部CT诊断模型RADAR，论文发表于Science 01:16
+https://github.com/alibaba-damo-academy/damo-radar
+https://huggingface.co/radar-generalist/RADAR
+https://zenodo.org/records/21271172
+https://www.science.org/doi/10.1126/science.aec6129
+https://damo.alibaba.com/events/32026091817897040537683024?language=CN
+https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions
 
-ChatGPT进入Microsoft Word，支持起草校对与格式检查 01:17
-https://x.com/ChatGPT/status/2100661995762798916
-https://x.com/ChatGPT/status/2100661997486633398
+Cua开源小型表单填写模型cua-s1-forms 01:34
+https://huggingface.co/cua-ai/cua-s1-forms
+https://github.com/trycua/cua/tree/main/libs/cua-s1
 
-ChatGPT向所有用户开放响应可视化功能 01:35
-https://x.com/JustinBleuel/status/2100656867257041109
+中国电信开源Xing4.0-29B-A4B模型 01:48
+https://github.com/XingChen-AGI/Xing4.0-29B-A4B
+https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B
 
-OpenAI推出Astra for Law，已向部分律所开放 01:43
-https://openai.com/index/astra-for-law/
-https://x.com/OpenAI/status/2100679992720142459
+Android Developers推出Android Bench 2.0 02:02
+https://x.com/AndroidDev/status/2100622197253398669
+https://developer.android.com/bench
 
-Kimi上线金融行业解决方案，开放9项金融技能 02:03
-https://www.kimi.com/news/kimi-financial-industry-ai-solution
+OpenAI等四家公司遭付费用户提起反垄断诉讼 02:12
+https://news.bloomberglaw.com/litigation/openai-anthropic-google-spacexai-hit-with-antitrust-lawsuit
+https://www.bloomberglaw.com/public/document/BuistetalvAnthropicPBCetalDocketNo326cv10693NDCalSep182026CourtDo?doc_id=XB2DGFVVCI9HORMAMOFMINMJF4
 
-Meta 上线 Muse for Mac 桌面端 02:17
-https://ai.meta.com/muse/download
-https://x.com/Muse/status/2100714397337264444
+Anthropic 或将发布发布新模型应对Astra在企业市场的竞争 02:31
+https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/
+https://x.com/synthwavedd/status/2101072800505049241
 
-Google Labs发布家庭AI Agent新版CC 02:26
-http://labs.google/cc
-https://x.com/GoogleLabs/status/2100653821907366366
+OpenAI 或将发布 GPT-6 Sol 和 GPT-6 Luna 02:46
+https://x.com/thsottiaux/status/2101157729037586694
 
-Union Alpha揭晓为Pareto 26.9，正推进付费接入 02:38
-https://x.com/unionalphaai/status/2100722366200557603
-https://unbiased.ai/model-card/
-https://x.com/OpenRouter/status/2100727672074551676
+Google 或将发布 Gemini 4 Pro 03:20
+https://x.com/god_of_ai7/status/2101237972633063922
 
-千问上线Qwen3.8-Omni-Flash，支持1M长上下文 02:51
-https://qwenlm.github.io/zh/blog/qwen3.8-omni-flash/
-https://help.aliyun.com/zh/model-studio/qwen-omni
-https://github.com/QwenLM/Qwen-MM-Plugins
-https://github.com/QwenLM/Qwen-Live-Harness
+MiniMax 或将发布 MiniMax-M3.1 03:37
+https://github.com/search?q=repo%3AMiniMax-AI%2Fminimax-code+minimax-m3.1&amp;type=code
 
-PrismML发布 Ternary Bonsai 2 27B，模型约5.9GB 03:11
-https://prismml.com/news/bonsai-2-27b
-https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf
-https://huggingface.co/collections/prism-ml/bonsai-2
-
-Jina AI发布jina-ocr-v1视觉文档解析模型 03:27
-https://huggingface.co/jinaai/jina-ocr-v1
-https://jina.ai/models/jina-ocr-v1
-
-Anthropic测试版LSVP向生命科学团队开放 03:45
-https://www.anthropic.com/news/life-sciences-verification-program
-https://x.com/AnthropicAI/status/2100646837799834096
-
-Anthropic提出三类指标衡量前沿AI开发速度 04:03
-https://www.anthropic.com/institute/measuring-pace-of-ai-development
-https://x.com/AnthropicAI/status/2100684274114699295
-
-智谱用GLM-5.3优化自身推理系统，吞吐提升3.2倍 04:21
-https://z.ai/blog/glm-built-its-inference-infrastructure
-
-Epoch AI推出外部AI基准审查体系，首批15项结果公布 04:44
-https://epoch.ai/data/benchmark-reviews-documentation
-https://x.com/EpochAIResearch/status/2100704765332394255
-
-报道称OpenAI接近解决霍奇猜想 04:53
-https://the-decoder.com/openai-reportedly-closes-in-on-solving-the-hodge-conjecture-its-second-millennium-prize-problem/
-
-UN System Data Commons 上线支持 AI Agent 05:08
-https://data.un.org/
-https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/</media:description>
+月之暗面或将发布 Kimi K3.1 03:56</media:description>
    <media:community>
-    <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1820"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="813"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,8 +187,8 @@ UN System Data Commons 上线支持 AI Agent 05:08
 https://data.un.org/
 https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/</media:description>
    <media:community>
-    <media:starRating count="32" average="5.00" min="1" max="5"/>
-    <media:statistics views="3010"/>
+    <media:starRating count="34" average="5.00" min="1" max="5"/>
+    <media:statistics views="3224"/>
    </media:community>
   </media:group>
  </entry>
@@ -320,7 +286,7 @@ https://www.theinformation.com/articles/apple-considers-return-server-market-tal
 https://the-decoder.com/apple-is-reportedly-building-an-enterprise-ai-server-with-its-own-m8-ultra-chips/</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="3338"/>
+    <media:statistics views="3257"/>
    </media:community>
   </media:group>
  </entry>
@@ -394,8 +360,8 @@ https://hotline.ryan-g.ai
 http://agenthotline.ai
 https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/</media:description>
    <media:community>
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="872"/>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="852"/>
    </media:community>
   </media:group>
  </entry>
@@ -478,7 +444,7 @@ https://thein.fo/4itEaUC
 https://www.wsj.com/tech/openai-buys-startup-developing-smartphone-camera-63590370</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="2101"/>
+    <media:statistics views="2052"/>
    </media:community>
   </media:group>
  </entry>
@@ -508,7 +474,7 @@ https://www.reuters.com/world/asia-pacific/chinas-zai-raises-5-billion-new-share
 https://huggingface.co/internlm/Intern-S2-397B</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="581"/>
+    <media:statistics views="580"/>
    </media:community>
   </media:group>
  </entry>
@@ -554,7 +520,7 @@ https://fortune.com/2026/09/12/sam-altman-interview-ai-doomsday-safety-models-co
 https://weibo.com/7909392214/RhK09bLve</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="767"/>
+    <media:statistics views="766"/>
    </media:community>
   </media:group>
  </entry>
@@ -663,7 +629,7 @@ https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-
 https://www.bloomberg.com/news/articles/2026-09-11/nvidia-in-talks-to-invest-up-to-10b-in-anthropic-ipo-reuters</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2195"/>
+    <media:statistics views="2201"/>
    </media:community>
   </media:group>
  </entry>
@@ -797,7 +763,7 @@ https://x.com/AndrewCurran_/status/2098083604853342688
 https://x.com/synthwavedd/status/2097971881596916185</media:description>
    <media:community>
     <media:starRating count="37" average="5.00" min="1" max="5"/>
-    <media:statistics views="3844"/>
+    <media:statistics views="3843"/>
    </media:community>
   </media:group>
  </entry>
@@ -892,7 +858,7 @@ https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partne
 https://www.reuters.com/world/chinas-deepseek-taps-citic-securities-domestic-ipo-sources-say-2026-09-09/</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="3889"/>
+    <media:statistics views="3890"/>
    </media:community>
   </media:group>
  </entry>
@@ -983,7 +949,7 @@ OpenAI 承包 Firmus 马来西亚两处 AI 工厂专用算力 04:53
 https://firmus.co/newsroom/firmus-surpasses-900-mw-contracted-capacity-adds-openai-as-anchor-customer-and-expands-into-malaysia</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="1580"/>
+    <media:statistics views="1586"/>
    </media:community>
   </media:group>
  </entry>
@@ -1041,7 +1007,7 @@ ChatGPT 收复网站流量份额，Gemini 回落至 25.6% 02:02
 https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="2349"/>
+    <media:statistics views="2352"/>
    </media:community>
   </media:group>
  </entry>
@@ -1084,7 +1050,7 @@ https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2841067
 https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="933"/>
+    <media:statistics views="934"/>
    </media:community>
   </media:group>
  </entry>
@@ -1236,7 +1202,7 @@ https://www.bloomberg.com/news/articles/2026-09-04/deepseek-plans-big-huawei-ai-
 https://www.theinformation.com/articles/anthropics-house-payments-tech-push-chip-away-stripe</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="3420"/>
+    <media:statistics views="3423"/>
    </media:community>
   </media:group>
  </entry>
