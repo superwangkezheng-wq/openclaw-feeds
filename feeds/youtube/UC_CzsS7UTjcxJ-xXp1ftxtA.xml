@@ -57,8 +57,8 @@
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="73" average="5.00" min="1" max="5"/>
-    <media:statistics views="4272"/>
+    <media:starRating count="81" average="5.00" min="1" max="5"/>
+    <media:statistics views="5313"/>
    </media:community>
   </media:group>
  </entry>
@@ -83,7 +83,7 @@
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="2239"/>
+    <media:statistics views="2334"/>
    </media:community>
   </media:group>
  </entry>
@@ -140,8 +140,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="184" average="5.00" min="1" max="5"/>
-    <media:statistics views="15541"/>
+    <media:starRating count="185" average="5.00" min="1" max="5"/>
+    <media:statistics views="15652"/>
    </media:community>
   </media:group>
  </entry>
@@ -204,8 +204,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="203" average="5.00" min="1" max="5"/>
-    <media:statistics views="15281"/>
+    <media:starRating count="206" average="5.00" min="1" max="5"/>
+    <media:statistics views="15383"/>
    </media:community>
   </media:group>
  </entry>
@@ -276,8 +276,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1179" average="5.00" min="1" max="5"/>
-    <media:statistics views="118307"/>
+    <media:starRating count="1183" average="5.00" min="1" max="5"/>
+    <media:statistics views="118430"/>
    </media:community>
   </media:group>
  </entry>
@@ -327,8 +327,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="660" average="5.00" min="1" max="5"/>
-    <media:statistics views="32415"/>
+    <media:starRating count="662" average="5.00" min="1" max="5"/>
+    <media:statistics views="32544"/>
    </media:community>
   </media:group>
  </entry>
@@ -374,7 +374,7 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
     <media:starRating count="463" average="5.00" min="1" max="5"/>
-    <media:statistics views="18741"/>
+    <media:statistics views="18761"/>
    </media:community>
   </media:group>
  </entry>
@@ -399,7 +399,7 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
     <media:starRating count="76" average="5.00" min="1" max="5"/>
-    <media:statistics views="4439"/>
+    <media:statistics views="4464"/>
    </media:community>
   </media:group>
  </entry>
@@ -454,8 +454,8 @@ Chapters:
 50:00 Transparent open-source training codebases
 52:00 Build a Reasoning Model From Scratch</media:description>
    <media:community>
-    <media:starRating count="1338" average="5.00" min="1" max="5"/>
-    <media:statistics views="34064"/>
+    <media:starRating count="1339" average="5.00" min="1" max="5"/>
+    <media:statistics views="34110"/>
    </media:community>
   </media:group>
  </entry>
@@ -502,7 +502,7 @@ Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-
 36:39 Poster, future updates, and wrap-up</media:description>
    <media:community>
     <media:starRating count="795" average="5.00" min="1" max="5"/>
-    <media:statistics views="17583"/>
+    <media:statistics views="17605"/>
    </media:community>
   </media:group>
  </entry>
@@ -546,7 +546,7 @@ Chapters:
 #LLM #Transformers #DeepLearning #MachineLearning #Inference #MoE #GQA #MLA #SWA #KVCache</media:description>
    <media:community>
     <media:starRating count="687" average="5.00" min="1" max="5"/>
-    <media:statistics views="20290"/>
+    <media:statistics views="20295"/>
    </media:community>
   </media:group>
  </entry>
@@ -586,7 +586,7 @@ This video covers the most important open-weight LLM architectures released in 2
 01:19:04 11. GLM-4.5</media:description>
    <media:community>
     <media:starRating count="1755" average="5.00" min="1" max="5"/>
-    <media:statistics views="45643"/>
+    <media:statistics views="45671"/>
    </media:community>
   </media:group>
  </entry>
@@ -633,7 +633,7 @@ Building a User Interface to Interact With the Instruction Finetuned GPT Model, 
 Evaluating Instruction Responses Using the OpenAI API and Ollama, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation</media:description>
    <media:community>
     <media:starRating count="832" average="5.00" min="1" max="5"/>
-    <media:statistics views="48052"/>
+    <media:statistics views="48097"/>
    </media:community>
   </media:group>
  </entry>
@@ -681,7 +681,7 @@ Building a User Interface to Interact With the GPT-based Spam Classifier,
 https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/04_user_interface</media:description>
    <media:community>
     <media:starRating count="667" average="5.00" min="1" max="5"/>
-    <media:statistics views="30521"/>
+    <media:statistics views="30545"/>
    </media:community>
   </media:group>
  </entry>
@@ -728,8 +728,8 @@ PyTorch Performance Tips for Faster LLM Training, https://github.com/rasbt/LLMs-
 
 Converting the GPT-2 architecture into Llama 2 and Llama 3, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama</media:description>
    <media:community>
-    <media:starRating count="719" average="5.00" min="1" max="5"/>
-    <media:statistics views="38270"/>
+    <media:starRating count="720" average="5.00" min="1" max="5"/>
+    <media:statistics views="38304"/>
    </media:community>
   </media:group>
  </entry>
