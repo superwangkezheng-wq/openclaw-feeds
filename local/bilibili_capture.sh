@@ -45,9 +45,25 @@ if [[ "${1:-}" == "--start-container" ]]; then
   docker rm -f "$CONTAINER" >/dev/null 2>&1 || true
   # Bound to loopback on purpose: this service holds a session cookie and has no
   # business being reachable from anywhere but this machine.
+  #
+  # --health-*: the image ships with no HEALTHCHECK of its own, which is what let
+  # this container run undetected for six days after 2026-09-08 with no restart
+  # signal at all -- the production guards that watch the other five containers
+  # on this host all key off dockerHealthcheck, and an entry with no healthcheck
+  # to report is indistinguishable from one that was never declared. Curl against
+  # the container's own internal port (1200, not the host-mapped 1201): verified
+  # both return 200 with RSSHub's landing page, but the healthcheck has to probe
+  # the same interface `docker inspect`'s Health block reports on, which is the
+  # container's own network namespace. start-period 30s covers the ~20s boot this
+  # script already documented above.
   docker run -d --name "$CONTAINER" --restart unless-stopped \
     -p "127.0.0.1:$RSSHUB_PORT:1200" \
     -e "BILIBILI_COOKIE_${BILIBILI_UID}=SESSDATA=${BILIBILI_SESSDATA}" \
+    --health-cmd "curl -sf --max-time 5 -o /dev/null http://127.0.0.1:1200/ || exit 1" \
+    --health-interval 30s \
+    --health-timeout 10s \
+    --health-start-period 30s \
+    --health-retries 3 \
     diygod/rsshub:latest
   print "started $CONTAINER; give it ~20s to boot, then run this script with no arguments"
   exit 0
