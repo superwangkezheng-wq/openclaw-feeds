@@ -1,62 +1,66 @@
 {
   "36kr-ai": {
-    "bytes": 434879,
-    "lastSuccess": "2026-09-21T14:20:04Z",
+    "bytes": 418509,
+    "lastSuccess": "2026-09-22T01:38:19Z",
     "via": "https://rss.injahow.cn/36kr/information/AI"
   },
   "youtube/UC1LpsuAUaKoMzzJSEt5WImw": {
     "bytes": 21031,
+    "lastError": "2026-09-22T01:38:19Z: https://www.youtube.com/feeds/videos.xml?channel_id=UC1LpsuAUaKoMzzJSEt5WImw -> HTTP Error 404: Not Found",
     "lastSuccess": "2026-09-21T14:20:04Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1LpsuAUaKoMzzJSEt5WImw"
   },
   "youtube/UC2LCc4VvMYj-6Kqe09avwow": {
     "bytes": 25418,
+    "lastError": "2026-09-22T01:38:19Z: https://www.youtube.com/feeds/videos.xml?channel_id=UC2LCc4VvMYj-6Kqe09avwow -> HTTP Error 404: Not Found",
     "lastSuccess": "2026-09-21T14:20:04Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2LCc4VvMYj-6Kqe09avwow"
   },
   "youtube/UCIDll3SRcbHwwcXbrwvBZNw": {
     "bytes": 51423,
+    "lastError": "2026-09-22T01:38:19Z: https://www.youtube.com/feeds/videos.xml?channel_id=UCIDll3SRcbHwwcXbrwvBZNw -> HTTP Error 500: Internal Server Error",
     "lastSuccess": "2026-09-21T14:20:04Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIDll3SRcbHwwcXbrwvBZNw"
   },
   "youtube/UCRPdsCVuH53rcbTcEkuY4uQ": {
     "bytes": 59348,
-    "lastSuccess": "2026-09-21T14:20:04Z",
+    "lastSuccess": "2026-09-22T01:38:19Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRPdsCVuH53rcbTcEkuY4uQ"
   },
   "youtube/UCXUPKJO5MZQN11PqgIvyuvQ": {
     "bytes": 55584,
-    "lastSuccess": "2026-09-21T14:20:04Z",
+    "lastSuccess": "2026-09-22T01:38:19Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ"
   },
   "youtube/UCZHmQk67mSJgfCCTn7xBfew": {
     "bytes": 39788,
-    "lastSuccess": "2026-09-21T14:20:04Z",
+    "lastSuccess": "2026-09-22T01:38:19Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew"
   },
   "youtube/UC_CzsS7UTjcxJ-xXp1ftxtA": {
-    "bytes": 35396,
-    "lastSuccess": "2026-09-21T14:20:04Z",
+    "bytes": 35398,
+    "lastSuccess": "2026-09-22T01:38:19Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_CzsS7UTjcxJ-xXp1ftxtA"
   },
   "youtube/UCawZsQWqfGSbCI5yjkdVkTA": {
-    "bytes": 23761,
-    "lastSuccess": "2026-09-21T14:20:04Z",
+    "bytes": 23986,
+    "lastSuccess": "2026-09-22T01:38:19Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA"
   },
   "youtube/UCbfYPyITQ-7l4upoX8nvctg": {
     "bytes": 29859,
+    "lastError": "2026-09-22T01:38:19Z: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg -> HTTP Error 404: Not Found",
     "lastSuccess": "2026-09-21T14:20:04Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"
   },
   "youtube/UCcIXc5mJsHVYTZR1maL5l9w": {
-    "bytes": 33370,
-    "lastSuccess": "2026-09-21T14:20:04Z",
+    "bytes": 33371,
+    "lastSuccess": "2026-09-22T01:38:19Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcIXc5mJsHVYTZR1maL5l9w"
   },
   "youtube/UCdp4_l1vPmpN-gDbUwhaRUQ": {
-    "bytes": 40213,
-    "lastSuccess": "2026-09-21T14:20:04Z",
+    "bytes": 40232,
+    "lastSuccess": "2026-09-22T01:38:19Z",
     "via": "https://www.youtube.com/feeds/videos.xml?channel_id=UCdp4_l1vPmpN-gDbUwhaRUQ"
   }
 }

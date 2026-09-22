@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-21T13:02:26+00:00</published>
-  <updated>2026-09-21T13:59:58+00:00</updated>
+  <updated>2026-09-21T15:43:33+00:00</updated>
   <media:group>
    <media:title>Do Looped Transformers Hide Chain of Thought?</media:title>
    <media:content url="https://www.youtube.com/v/ENkJawv5vCk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -30,8 +30,8 @@
 
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="21"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="171"/>
    </media:community>
   </media:group>
  </entry>
@@ -82,8 +82,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="91" average="5.00" min="1" max="5"/>
-    <media:statistics views="6076"/>
+    <media:starRating count="101" average="5.00" min="1" max="5"/>
+    <media:statistics views="6889"/>
    </media:community>
   </media:group>
  </entry>
@@ -107,8 +107,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="2394"/>
+    <media:starRating count="14" average="5.00" min="1" max="5"/>
+    <media:statistics views="2446"/>
    </media:community>
   </media:group>
  </entry>
@@ -166,7 +166,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:25:30 Summary and next steps</media:description>
    <media:community>
     <media:starRating count="187" average="5.00" min="1" max="5"/>
-    <media:statistics views="15671"/>
+    <media:statistics views="15749"/>
    </media:community>
   </media:group>
  </entry>
@@ -229,8 +229,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="206" average="5.00" min="1" max="5"/>
-    <media:statistics views="15434"/>
+    <media:starRating count="207" average="5.00" min="1" max="5"/>
+    <media:statistics views="15491"/>
    </media:community>
   </media:group>
  </entry>
@@ -301,8 +301,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1184" average="5.00" min="1" max="5"/>
-    <media:statistics views="118560"/>
+    <media:starRating count="1185" average="5.00" min="1" max="5"/>
+    <media:statistics views="118720"/>
    </media:community>
   </media:group>
  </entry>
@@ -352,8 +352,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="664" average="5.00" min="1" max="5"/>
-    <media:statistics views="32672"/>
+    <media:starRating count="666" average="5.00" min="1" max="5"/>
+    <media:statistics views="32798"/>
    </media:community>
   </media:group>
  </entry>
@@ -399,7 +399,7 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
     <media:starRating count="463" average="5.00" min="1" max="5"/>
-    <media:statistics views="18783"/>
+    <media:statistics views="18804"/>
    </media:community>
   </media:group>
  </entry>
@@ -423,8 +423,8 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
-    <media:starRating count="78" average="5.00" min="1" max="5"/>
-    <media:statistics views="4472"/>
+    <media:starRating count="81" average="5.00" min="1" max="5"/>
+    <media:statistics views="4491"/>
    </media:community>
   </media:group>
  </entry>
@@ -479,8 +479,8 @@ Chapters:
 50:00 Transparent open-source training codebases
 52:00 Build a Reasoning Model From Scratch</media:description>
    <media:community>
-    <media:starRating count="1339" average="5.00" min="1" max="5"/>
-    <media:statistics views="34169"/>
+    <media:starRating count="1346" average="5.00" min="1" max="5"/>
+    <media:statistics views="34206"/>
    </media:community>
   </media:group>
  </entry>
@@ -527,7 +527,7 @@ Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-
 36:39 Poster, future updates, and wrap-up</media:description>
    <media:community>
     <media:starRating count="795" average="5.00" min="1" max="5"/>
-    <media:statistics views="17618"/>
+    <media:statistics views="17639"/>
    </media:community>
   </media:group>
  </entry>
@@ -571,7 +571,7 @@ Chapters:
 #LLM #Transformers #DeepLearning #MachineLearning #Inference #MoE #GQA #MLA #SWA #KVCache</media:description>
    <media:community>
     <media:starRating count="687" average="5.00" min="1" max="5"/>
-    <media:statistics views="20297"/>
+    <media:statistics views="20302"/>
    </media:community>
   </media:group>
  </entry>
@@ -611,7 +611,7 @@ This video covers the most important open-weight LLM architectures released in 2
 01:19:04 11. GLM-4.5</media:description>
    <media:community>
     <media:starRating count="1756" average="5.00" min="1" max="5"/>
-    <media:statistics views="45697"/>
+    <media:statistics views="45733"/>
    </media:community>
   </media:group>
  </entry>
@@ -658,7 +658,7 @@ Building a User Interface to Interact With the Instruction Finetuned GPT Model, 
 Evaluating Instruction Responses Using the OpenAI API and Ollama, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation</media:description>
    <media:community>
     <media:starRating count="833" average="5.00" min="1" max="5"/>
-    <media:statistics views="48120"/>
+    <media:statistics views="48159"/>
    </media:community>
   </media:group>
  </entry>
@@ -706,7 +706,7 @@ Building a User Interface to Interact With the GPT-based Spam Classifier,
 https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/04_user_interface</media:description>
    <media:community>
     <media:starRating count="667" average="5.00" min="1" max="5"/>
-    <media:statistics views="30568"/>
+    <media:statistics views="30593"/>
    </media:community>
   </media:group>
  </entry>

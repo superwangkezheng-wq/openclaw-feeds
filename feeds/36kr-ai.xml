@@ -15,8 +15,916 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Mon, 21 Sep 2026 14:20:08 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 01:38:25 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[MiniMax走向另一个故事？]]></title>
+            <description><![CDATA[<p>近日，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>将旗下编程工具<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link> Code CLI的v0.4.12版本以MIT协议向全球开发者开源。这款命令行工具在Frontier Harness Eval评测中取得了76.7%的任务通过率，一行命令即可安装，任何人都可以免费使用、修改和分发。</p>
+  <p>没有用户故事，没有产品发布会，没有“C端爆款”的叙事包装。开源的目的写得很直白：让开发者审视工具的调用权限，构建可靠的企业级应用。</p>
+  <p>这是一个面向B端的动作。</p>
+  <p>但如果把时间拨回七个月前，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的叙事完全是另一套。2026年1月9日，这家公司在港交所上市首日暴涨109%，1837倍超额认购，市值冲破千亿港元。当时资本市场追捧它的理由，是一个全球化C端故事：Talkie在海外积累了3亿用户，<ai-product-link data-id="14637" data-name="星野" data-logo="https://img.36dianping.com/20250909/v2_b2a0ffd8272d4b27bce3d2493e608f9e_oswg7021oswg256oswg256_img_000" data-classify-list="图像生成,AI助理,文本处理" data-refer-type="20">星野</ai-product-link>在国内做AI陪伴，<ai-product-link data-id="14648" data-name="海螺AI" data-logo="https://img.36dianping.com/20250909/v2_7cee27e5455940c480e049a18cfc76ad_oswg33372oswg600oswg600_img_000" data-classify-list="音乐生成,智能搜索,文本处理" data-refer-type="20">海螺AI</ai-product-link>做视频生成——一家“中国版Open AI”，从应用层往上长。</p>
+  <p>七个月过去了，这个故事正在被悄悄替换。</p>
+  <p>半年报显示，2026年上半年<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的B端收入同比增长703%，占总营收比重从30.3%飙升至63.4%。管理层在业绩会上披露，8月ARR已超过8亿美元，其中To B贡献约80%。企业客户和开发者数量突破200万，是去年底的10倍。</p>
+  <p>一家靠情感陪伴应用起家的公司，不到一年就变成了一个“卖Token的平台”。</p>
+  <h2>01</h2>
+  <h2><strong>C端讲到头了</strong></h2>
+  <p><ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的C端故事曾是中国AI行业最性感的叙事之一。</p>
+  <p>2023年6月，Talkie上线，切入AI角色扮演。用户可以自建角色、调整外貌和性格，与之进行文字或语音互动。连续使用一周的用户，付费率和存续率在80%左右。产品团队近300人，在UI细节上下了很大功夫：金黑配色追求华贵感，对话框自动设置括号体方便用户输入画外音，星星元素恰到好处地出现在角色眼睛和付费节点中。</p>
+  <p>这款产品在全球跑出增长神话，长居陪伴类AI应用下载量前三，与美国独角兽Character.AI和Replika并列。招股书显示，2025年前三季度AI原生产品贡献了71.1%的收入，付费用户两年增长15倍。</p>
+  <p>但翻开招股书的分部数据，另一面就暴露了：C端AI原生产品的毛利率仅为4.7%。</p>
+  <p>每做1美元收入，毛利不到5美分。再扣掉产品运营、平台分成、推理成本，这门生意几乎不赚钱。</p>
+  <p>与此同时，增长曲线在变平。2025年第四季度，C端收入增速从接近150%腰斩至82%。据AI产品榜数据，截至2026年8月，Talkie全球MAU为3107万，环比下降5.93%；国内版<ai-product-link data-id="14637" data-name="星野" data-logo="https://img.36dianping.com/20250909/v2_b2a0ffd8272d4b27bce3d2493e608f9e_oswg7021oswg256oswg256_img_000" data-classify-list="图像生成,AI助理,文本处理" data-refer-type="20">星野</ai-product-link>MAU为338万，环比下降5.73%。付费转化率仅约6.9%，ARPPU只有5美元。</p>
+  <p>2亿多累计用户，真正愿意持续掏钱的人少之又少。</p>
+  <p>这不只是<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>一家的问题。整个AI陪伴赛道都面临同一个结构性困境：用户愿意和AI角色聊天，但不愿意为之付太多钱。</p>
+  <p>C端的故事，讲到了天花板。不是产品不好，是这门生意的经济模型本身有硬伤。</p>
+  <h2>02</h2>
+  <h2><strong>转向Token生意</strong></h2>
+  <p><ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的转向来得很快。</p>
+  <p>2026年上半年，B端开放平台收入从920万美元飙升至7390万美元，同比增长703%，一举成为第一大收入来源。到8月，To B在ARR中的占比已达约80%。</p>
+  <p>这次转型的底层逻辑，是模型被使用的方式变了。过去，一个用户和AI聊天，一次提问对应几轮对话，Token消耗有限。Agent流行以后，用户把任务交给AI，AI自行拆解、搜索、规划、执行、校验，一个任务可能产生数十倍的Token消耗。</p>
+  <p>数据显示，国内日均Token调用量，2024年初约1000亿，2025年底达到100万亿，2026年3月突破140万亿，两年增长千倍以上。</p>
+  <p><ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的B端爆发，本质上是搭上了这趟Agent快车。而此次开源的Code CLI，正是这一战略的延伸——它不是面向普通消费者的产品，而是一个给开发者用的编程工具，目的是让更多开发者接入<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>生态，把模型能力嵌入更多企业工作流，然后靠持续的Token消耗来变现。</p>
+  <p>从“卖角色”到“卖工具”，从“卖体验”到“卖算力”，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>正在彻底换一张脸。</p>
+  <h2>03</h2>
+  <h2><strong>但“卖铲子”也没想象中好赚</strong></h2>
+  <p>然而B端不是避风港。</p>
+  <p>2026年上半年，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>整体毛利率为17.9%，虽然较去年同期的12.1%有所提升，却远低于2025年全年的25.4%。收入增长283%，收入成本增长258%，毛利空间并没有因为B端占比提升而大幅打开。</p>
+  <p>毛利率下滑的直接原因，是一场失败的涨价。6月1日M3模型发布当天，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>在零预警的情况下将计费模式从按请求改为按Token，Starter套餐从29元跳至49元。V2EX等社区随即涌现大量吐槽，用户向黑猫投诉集中反馈。当天股价跳水15.71%。面对开发者反弹和<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>等对手的价格战压力，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>在6月15日被迫宣布API价格永久砍半。</p>
+  <p>这暴露了一个深层问题：<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的B端客户大多是对价格敏感的中小开发者，他们选择<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>很大程度上是因为“性价比高”而非“能力最强”。一旦竞争对手降价，客户迁移成本极低。</p>
+  <p>作为对比，智谱在模型能力的加持下，早一季度上调其 CodingPlan 代码套餐定价 83%，同时还在放量增长。智谱的GLM-5.3在AA综合智能指数中取得60分（满分63分），与ClaudeFable5、GPT-5.6并列全球前沿；而<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的M3仅得45分，排在十名开外。据爱分析报告，Token收入第一梯队“百亿俱乐部“中，字节、阿里、智谱三家入围，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>则在第二梯队（50亿元量级），与<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>、<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>、可灵并列。</p>
+  <p>更值得注意的是，智谱的API毛利率已从约-0.4%转正至24.6%，单位Token推理成本较年初下降约80%，每投入1元算力对应的API收入较去年同期提升约14倍。</p>
+  <p>另一个值得留意的细节是ARR的统计口径。<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>管理层披露的“8亿美元ARR”，是基于8月某个最高周度数据年化计算，而非月度数据年化。若按常规月度口径，实际数字会低于这一表述。</p>
+  <p>当然，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>并非没有亮点。7月底开源的H3视频生成模型，三周下载量超2400万次，衍生出300多个公开模型。H3Max生成5秒视频仅需不到3秒，首次实现了视频生成速度超过播放速度。</p>
+  <p>但视频模型的突破解决的是传播问题，生产管线的质量与稳定才能解决付费用户的留存问题。而且H3主打性价比，价格偏低，毛利率低于同为视频模型的字节Seedance和快手可灵。</p>
+  <p><ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>正处在一个尴尬的中间地带：C端吵2亿用户没能撑起高毛利模型，B端200万客户尚未证明忠诚度；文本模型能力落后于智谱和<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>，视频模型虽然开源火爆但利润微薄。全模态自研的路线意味着资源被摊薄。</p>
+  <p>从C端故事到B端叙事，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>确实在走向另一个故事。但这个故事的核心悬念没有变：无论是“卖角色”还是“卖Token”，这家公司都还没有证明自己能建立起真正的定价权。</p>
+  <p>而定价权，才是决定一家AI公司最终值多少钱的那把尺子。</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/Q7qGh0VTerc5-3AdLaq6HQ">“阿尔法工场研究院”</a>，作者：斯澈，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 22 Sep 2026 00:45:39 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3993831882291969</guid>
+            <link>https://www.36kr.com/p/3993831882291969</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[刚刚，SpaceXAI最强Grok 4.7发布，价格杀疯，跑分令人失望]]></title>
+            <description><![CDATA[<p>今天一早，SpaceXAI 最强模型 Grok 4.7 来了。</p>
+  <p>发布页开头只有一句极具「攻击性」的定位：面向编程与知识工作的最强模型，速度达到可比模型的两倍，价格只有一半。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,233" src="https://img.36krcdn.com/hsossms/20260922/v2_5c1622dd590d4c7d851def34e3754dd9@5091053_oswg25162oswg1080oswg233_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这次升级没有停留在跑分表上。Grok 4.7 换用了更大的基础模型，强化了长时间任务、自我检查和长上下文管理能力，并把文档、演示文稿、法律、医疗和工程等专业工作纳入重点测试。它瞄准的场景很明确：让模型在持续数小时的任务里少走弯路，交出可以直接使用的结果。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1317" src="https://img.36krcdn.com/hsossms/20260922/v2_bcf1e491d5f14320afe866c10626afca@5091053_oswg306998oswg1080oswg1317_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>马斯克发推表示，「Grok 4.7 在智能水平、运行速度和成本之间取得了很有竞争力的平衡。」</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1048" src="https://img.36krcdn.com/hsossms/20260922/v2_02d0c1a96f8a4d9587e69a2c435fe8e9@5091053_oswg226293oswg1080oswg1048_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>长任务，成为这一代模型的主战场</strong></h2>
+  <p>Grok 4.7 采用了比 Grok 4.6 更大的基础模型。训练阶段延长了强化学习周期，任务组合也进一步加难，其中更多样本需要数小时才能完成。SpaceXAI 称，新模型在检查自身工作、管理长上下文方面都有提升。</p>
+  <p>这类改进直接对应当前编程智能体最棘手的问题。短代码生成往往只需要局部判断，真正复杂的软件任务却包含阅读仓库、拆解需求、修改多处文件、运行测试和反复纠错。模型能否在漫长执行链中保持目标、发现错误，通常比一次写出漂亮代码更重要。</p>
+  <p>CursorBench 4.0 专门考察长时间编码任务。官方数据中，Grok 4.7 得分 46.3%，Grok 4.6 为 40.4%，提升 5.9 个百分点。在 DeepSWE v1.1 上，Grok 4.7 的高推理强度成绩为 71.0%；Terminal-Bench 4.0 则从上一代的 20.3% 升至 38.0%。</p>
+  <p>据此将 Grok 4.7 称为 CursorBench 4.0 上价格与性能均处于前沿的模型。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,966" src="https://img.36krcdn.com/hsossms/20260922/v2_77d5428a35324ebf9e01ded4c5f8a806@5091053_oswg157141oswg1080oswg966_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>模型也被训练为原生理解 Grok Bot 的运行框架。按照官方说法，这项调整改善了对话任务和通用知识工作表现。换句话说，Grok 4.7 的升级重点已经从单轮回答延伸到模型与工具、执行环境之间的持续协作.</p>
+  <h2><strong>从写代码，走向完整的知识工作</strong></h2>
+  <p>编程仍是 Grok 4.7 最醒目的标签，但 SpaceXAI 给出的评测范围明显更宽。AA Briefcase 和 GDPval 关注的是专业人士日常完成的多步骤工作，覆盖律师、护士、金融分析师等岗位常见任务，也包括文档和演示文稿制作。</p>
+  <p>在 AA Briefcase v1.1 上，<strong>Grok 4.7 获得 1657 分</strong>，高于 Grok 4.6 的 1546 分；GDPval Elo 分数由 1605 升至 1695。官方图表中，它在 GDPval 上接近 Fable 5.1 的 1735 分，高于 GPT-6 Astra 的 1542 分。SpaceXAI 的结论是，Grok 4.7 在两项测试中均超过上一代，整体表现与其他前沿模型相当。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1801" src="https://img.36krcdn.com/hsossms/20260922/v2_847075920fd946e6a9b781eba47f4208@5091053_oswg940758oswg1080oswg1801_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>专业领域的提升也出现在多个方向。EEBench 得分由 53.0% 升至 64.0%，Harvey Legal Agent Benchmark 由 15.8% 升至 19.6%，HealthBench Professional 由 48.5% 升至 56.7%。这些结果来自 SpaceXAI 公布的内部对比表，能够说明新旧两代模型之间的变化；跨模型比较仍会受到推理强度、工具配置和测试环境影响。</p>
+  <p>这组成绩透露出一个清晰趋势：前沿模型的竞争正在进入「完成整项工作」的阶段。</p>
+  <p>模型需要理解任务、调用工具、产出文件并自行复核，单一问答能力只是其中一环。Grok 4.7 延长训练任务时长，并强化自我验证，正是在为这类工作流补课。</p>
+  <h2><strong>安全与价格</strong></h2>
+  <p>能力提升之外，Grok 4.7 启用了一套全新的安全防护体系。SpaceXAI 称，这是其测试过的模型中，在拒答与抵抗越狱方面表现最强的一款。</p>
+  <p>在生物安全评测方面，Grok 4.7 以 62.4% 的成绩登顶 LatchBio 基准。网络安全测试 HackerBench v0.3 主要覆盖高风险和恶意任务。按照官方数据，模型仅放行 3.3% 的高风险双重用途提示，同时很少误拦正常的安全研究请求。</p>
+  <p>SpaceXAI 还开始向少数网络安全合作伙伴开放邀请制红队能力，用于防御研究。目前，这项红队能力先以受控合作方式提供。</p>
+  <p><strong>标准版延续原价，快速版速度翻倍</strong></p>
+  <p>Grok 4.7 已经上线 Cursor 和 Grok Build，并通过 Grok API、第三方编程框架、模型路由服务及云平台提供。<strong>标准版起价为每百万输入 Token 2 美元、每百万输出 Token 6 美元，与 Grok 4.6 保持一致</strong>。</p>
+  <p>价格策略让这次升级更具冲击力。开发者无需为换代支付额外的标准版 Token 成本，却能获得更强的长任务表现、自我检查能力和专业工作成绩。</p>
+  <p>对编程智能体与知识工作产品而言，模型每次调用的单价固然重要，完成一项任务需要多少轮尝试、多少次返工，最终决定了真实成本。</p>
+  <p>最后总结一波这次升级：</p>
+  <p>从训练方式到评测组合，Grok 4.7 都在强化同一件事：长时间留在任务里，把复杂工作做完。编程只是最先成熟的入口，文档、演示、法律分析、临床推理和工程任务已经被放进同一套能力版图。</p>
+  <p>但网友似乎并不买账，「<strong>这种模型居然也敢发布，简直差到不该发布。</strong>」只能挽尊地说，这次 Grok 4.7 的卖点不是全面碾压竞品，它是用远低于部分旗舰模型的 API 成本，换来了相当接近、并在个别专业任务上领先的性能。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1010" src="https://img.36krcdn.com/hsossms/20260922/v2_5da92230d3404733a359a1baa846dbf4@5091053_oswg460662oswg1080oswg1010_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>参考链接：</strong></p>
+  <p>https://x.ai/news/grok-4-7</p>
+  <p>https://x.com/ArtificialAnlys/status/2102074904560771365</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/waJbNOn9LTCtHKayeKy69A">“机器之心”</a>，编辑：机器之心编辑部，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 22 Sep 2026 00:31:49 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3993827296148482</guid>
+            <link>https://www.36kr.com/p/3993827296148482</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[撬开Jev黑箱，对话全球首批复现者：9B小模型跑通79毫秒“快决策”]]></title>
+            <description><![CDATA[<p>经济学里的杰文斯悖论认为：一种资源的使用效率越高、单位成本越低，它的总消耗量往往不降反升。当前，大模型行业正被这个定律演绎得淋漓尽致——<strong>模型越便宜、速度越快，调用量就越呈现爆发式增长</strong>。</p>
+  <p>而最近席卷硅谷的新物种<strong>Jev</strong>，与杰文斯悖论同名的“大模型”，<strong>正把这套攻势推向极致</strong>。</p>
+  <p>它拒绝为你写诗、拒绝跟你探讨人生，甚至连一句完整的废话都不屑于生成。但就是这样<strong>一个冷酷的“哑巴”模型</strong>，发布不到 48 小时，就在 X 上引发了超 3000 万的狂热围观，吸引了 2.5 万名开发者涌入内测；上线大模型托管平台 Vercel 的 24 小时后，近 13% 的付费团队火速接入——<strong>这个渗透速度，是当年 GPT-4 的两倍</strong>。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,749" src="https://img.36krcdn.com/hsossms/20260921/v2_026c46de501d4cb28b46c109b660ebfe@000000_oswg50031oswg1080oswg749_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>天下武功，唯快不破。Jev 的杀手锏亦是如此：<strong>极速，且极度便宜</strong>。作为前 OpenAI 核心研究员、RLHF 技术的共同发明者，Jev 创始人 Diogo Almeida 甚至放出豪言：“下一个时代并不属于 Claude Code 这种辅助工具，<strong>Jev 才是未来</strong>！它比通用模型快 200 倍，便宜 400 倍，而且零幻觉。这将是继 RLHF 之后的 next big thing。”</p>
+  <p>从毫秒级响应的浏览器插件，到高频执行的链上交易决策，再到每秒 10 次决策、吊打人类玩家的《毁灭战士》的通关外挂，<strong>开发者围绕 Jev 打造的应用案例呈井喷之势</strong>。</p>
+  <p>然而，面对这样一个估值一夜之间飙至 2 亿美元、却至今将训练方案与底层权重捂得严严实实的“黑箱”，业界的好奇心与质疑声也达到了高潮：它到底是模型架构革命，还是被营销包装的“分类器”（Classifier）？</p>
+  <p>就在昨日上午，国内人工智能企业 APUS（麒麟合盛）旗下 AI 实验室，公开了<strong>全球最早一批针对 Jev 的独立开源复现成果</strong>，并将其封装为开箱即用的 Agent Skill&nbsp;fast-browser-use。该项目支持纯本地模型离线执行，横跨 macOS、Linux、Windows 三大桌面与服务器操作系统，甚至无需独立 GPU，在普通 Mac 和 PC 上也能本地跑通。</p>
+  <p>目前，该项目完整代码已通过 MIT 协议向社区开放&nbsp;（https://github.com/APUS-AI-Lab/fast-browser-use）。</p>
+  <p class="image-wrapper"><img data-img-size-val="842,835" src="https://img.36krcdn.com/hsossms/20260921/v2_3b1d7623df064690884b92a28973f6ac@000000_oswg305059oswg842oswg835_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">张旭博士，清华大学本硕博连读，工学博士，APUS AI 首席科学家</p>
+  <p>笔者第一时间联系到了该项目的负责人——APUS AI 首席科学家张旭博士。我们围绕<strong>Jev 的底层技术逻辑和路线</strong>、<strong>APUS 的复现与改造逻辑</strong>，<strong>这类快速决策模型的应用潜力</strong>，<strong>以及 Agent 未来的“快慢分工”趋势</strong>等话题进行了详尽探讨。</p>
+  <p>准确来说，张旭团队并没有拿到 Jev 的模型权重、完整架构和训练方法；而是通过公开资料和实际输入输出<strong>反推其工作机制</strong>，基于<strong>Qwen3.5 系列、Google Gemma 系列</strong>等开源模型<strong>还原了 Jev 最核心的工作流</strong>，并在推理速度上实现了对标。</p>
+  <p>开源当天（9 月 20 日）上午 APUS 公布首轮结果：真实浏览器任务里，维基百科检索约 18 秒完成，表单填写、站内跳转等更短链任务则在数秒内完成，全程无需调用云端模型；下午采访，张旭团队把测试迁移到了<strong>RTX PRO 6000</strong>，<strong>单次决策时间压缩到了 79 毫秒</strong>，与<strong>Jev 响应时间 70～500 毫秒</strong>成功看齐。</p>
+  <p>他还透露，其内部自研模型可<strong>实现更小 9B、4B 参数规模复现 Jev 的性能</strong>，并将于近期开源。（截至发稿前，已开源https://huggingface.co/apus-ailab/APUS-OpenJev-v1）</p>
+  <p><strong>以下为笔者与张旭博士的访谈精要。为便于阅读，本文对原始对话进行了提炼与整合。</strong></p>
+  <h2>拆解 Jev 的底层逻辑</h2>
+  <p><strong>AI 前线：如果抛开官方的概念话术，您能不能用更直观的方式解释一下，Jev 和今天常见的大模型到底有什么差别？它本质是什么？</strong></p>
+  <p><strong>张旭：</strong>理解这个问题的关键，在于看透大模型工作的两个基本步骤。第一步是 Prefill，也就是输入处理；第二步是 Decode，也就是自回归生成。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,527" src="https://img.36krcdn.com/hsossms/20260921/v2_09a22b2c07d242d4a1f00122c1874d59@000000_oswg70030oswg1080oswg527_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>当大模型走完第一步 Prefill 时，它神经网络内部的<strong>“隐状态（Hidden States）”</strong>其实已经理解了你输入的文字和图片细节。</p>
+  <p>第二步的 Decode，是一个字一个字往外吐 Token，这一步纯粹是为了“<strong>翻译给人看</strong>”。</p>
+  <p>但人类语言的带宽很窄，<strong>存在极高的信息损耗</strong>。比如这张包含猫、树枝纹理和复杂光影的图片，无论你怎么用文字描述，<strong>都不可能毫无遗漏</strong>地还原给另一个人。</p>
+  <p>Jev 的核心本质，就是<strong>它砍掉了第二步（Decode），只保留了第一步</strong>。它不再为了迎合人类而去逐字生成文本，而是直接在模型理解完信息的<strong>“隐空间”（Latent Space）</strong>里计算出结果。</p>
+  <p><strong>AI 前线：那它最后到底输出什么？就是 Choice、Score/概率这类东西吗？</strong></p>
+  <p><strong>张旭：对。普通大模型每生成一个 Token，本质上都是在十几、二十万词汇的词表里计算全量概率</strong>，再选择一个吐出来。</p>
+  <p>Jev 则是把这个过程<strong>极度收敛</strong>，变成了对<strong>有限选项的概率测算</strong>。比如你问“这份提纲完整了吗”，只给“完整”和“不完整”两个选项，它只返回这两个选项的概率得分（Score）。</p>
+  <p>这也是为什么它说<strong>自己不会出现幻觉</strong>。并不是说它不会判断错，而是说你只给它 A、B、C，它不会凭空给你编出一个 D。</p>
+  <p>但不出现幻觉和不出错是两回事。</p>
+  <p><strong>AI 前线：既然只是给出固定选项的概率，业界有人质疑它只是被包装过的“动作分类器”，您怎么看？它到底新在哪里？</strong></p>
+  <p><strong>张旭：这么说也没错。但我觉得还要看到它背后更大的研究趋势</strong>。</p>
+  <p>比如一张图片里面包含非常丰富的信息，你不管用多长的文字去描述，都很难把全部细节还原出来。语言本身就会造成信息损失。</p>
+  <p>所以现在一个前沿方向是：<strong>既然模型内部已经有这些信息，我们是不是一定要先把它变成人类语言，再拿语言继续处理？</strong></p>
+  <p>Jev 可以看成这个方向里的<strong>一个具体特例</strong>。它把后面的语言生成省掉，直接从模型内部状态里去完成判断。</p>
+  <p><strong>AI 前线：所以您说的这个更大的方向，具体是什么？就是把“理解”和“生成”进一步解耦吗？</strong></p>
+  <p><strong>张旭：这是其中一个方面。行业里会把更大的一类思路叫作隐空间计算</strong>。</p>
+  <p>比如两个 Agent 之间通信，它们都不是人，为什么一定要把第一个 Agent 脑子里的信息翻译成人类语言，再让第二个 Agent 读一遍？理论上可以直接在模型内部状态之间做处理。</p>
+  <p>模型路由、Agent 之间通信、模型内部思考，都可以沿着这个方向做。Jev 只是拿这个思路去做了一件具体的事情：<strong>有限选项的概率判断和决策。</strong></p>
+  <p><strong>AI 前线：作为行业共识，那目前头部大厂在这方面的探索进展如何？Jev 的做法和他们有什么不同？</strong></p>
+  <p><strong>张旭：</strong>是的，比如 <ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>-v4.1 Flash 版本，就已经在尝试<strong>把 Prefill 和 Decode 的能力解耦</strong>。更典型的代表是目前最新的 GPT-6（Astra），业界探讨的<strong>Loop Transformer</strong>机制，其本质就是让模型的思维链和思考过程，<strong>在“隐空间”内部进行循环计算</strong>，而不再转化为低效的人类文字吐出来。</p>
+  <p>对比而言，Jev 则是把隐空间计算的成果，讨巧地“产品化”了，它说明，把隐空间的中间结果直接拿出来用，已经足以颠覆当下的应用形态。</p>
+  <p><strong>AI 前线：Jev 最明显的特点就是快。除了省掉长文本生成，它为什么还能快这么多？</strong></p>
+  <p><strong>张旭：</strong>不生成文本是最大原因，因为相当于“只吐第一个 Token”，只做判断。但除此之外，<strong>还有计算维度的降级。</strong></p>
+  <p>第二个，原来是开放式生成，现在你给它的可能只有几个、几十个候选，<strong>计算范围更小</strong>。</p>
+  <p>第三个，这些候选之间相互独立，<strong>可以更多地并行判断</strong>；而传统的自回归生成前后有依赖，每一个 Token 都要等前一个。</p>
+  <p>我们自己的实现里也做了类似 KV Cache 广播这样的处理。所以总结下来就是：<strong>少生成、候选范围更小、还能并行。</strong></p>
+  <p><strong>AI 前线：那除了速度，它还有什么本质上的性能优势吗？</strong></p>
+  <p><strong>张旭：</strong>其他方面在我们看来，它跟大模型没有本质区别。<strong>它其实也就是一个大模型，只是只用了一半。</strong></p>
+  <p>效果好不好，最终还是取决于<strong>模型本身训练得好不好</strong>。</p>
+  <p>如何复现 Jev</p>
+  <p><strong>AI 前线：Jev 没有开源权重、完整架构和训练方案。在这种情况下，你们所谓的“复现”，严谨来说复现的是什么？</strong></p>
+  <p><strong>张旭：严谨来说，我们复现的是它的功能</strong>。</p>
+  <p>我把他们所有公开资料都看了一遍，也研究了创始人的背景，再自己实际调用 Jev，看它的输入和输出。</p>
+  <p>可以理解成我把它当成一个黑盒。<strong>如果我可以实现相同类型的输入、相同类型的输出，那我们认为基本复现出了它公开出来的功能。</strong></p>
+  <p><strong>AI 前线：那你们在<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>上具体做了什么改动？</strong></p>
+  <p><strong>张旭：原版的 Qwen3.5 就可以。</strong></p>
+  <p>模型本身不用改，主要是在外面的工作方式上处理。这次开源的东西，也是从我们公司已有的 Agent Harness 里抽了一部分出来，再精简以后放出来。</p>
+  <p><strong>AI 前线：那是不是随便拿一个小模型也能跑？对底座模型能力、参数规模有没有要求？</strong></p>
+  <p><strong>张旭：</strong>这个实际测试以后还是有要求。</p>
+  <p>我看到开源社区有人拿五六亿参数模型复现，确实能跑起来，“能用两下”，但你会发现它很傻，没办法真正实用。</p>
+  <p>所以我自己把<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>从小模型一路往上试。最后看下来，<strong>9B 基本上是最低的可用门槛，再小就很难实用；35B 效果会更好。</strong>选 9B 也是因为希望普通网友自己的电脑就能运行，不需要特别好的设备。此外，我们也在训练自己的模型，很快也会开源，<strong>初步看已经超过了 Jev 的效果</strong>。</p>
+  <p><strong>AI 前线：这次复现有没有什么超出你预期的结果？比如原来以为很难，做完以后发现其实没那么复杂？</strong></p>
+  <p><strong>张旭：</strong>没有特别意外。</p>
+  <p>反而我们为什么能这么快做出来，就是因为过去在这个方向已经积累了很多，直接把已有的东西拿过来用了。</p>
+  <p><strong>AI 前线：所以反过来说，你们这么快就复现出来，是不是说明 Jev 目前公开出来的东西，本身并没有特别高的技术门槛？</strong></p>
+  <p><strong>张旭：</strong>更客观地说，它背后还有没有别的东西我不知道。</p>
+  <p>但至少目前拿出来的部分，在我们看来，<strong>就是这个研究领域里的一个特例</strong>，没有什么特别神秘的地方。</p>
+  <h2>“79 毫秒”能用在哪</h2>
+  <p><strong>AI 前线：你们为什么第一时间把复现做成一个 Browser Agent？</strong></p>
+  <p><strong>张旭：</strong>我们第一天先看了行业里大家拿 Jev 做什么，发现最多的就是操作浏览器。</p>
+  <p>而且我们希望<strong>开源出去的东西是有实际用途的</strong>，而不是一个技术 Demo 或者玩具，所以先把浏览器这个场景做出来。</p>
+  <p>以前很多 Agent 操作浏览器，需要让大模型先生成操作代码，再去执行。我们现在是把网页上可以交互的元素先列出来，比如输入框、链接、上下翻页，<strong>再让模型直接做选择</strong>：现在应该输入、点哪个链接，还是翻页。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,554" src="https://img.36krcdn.com/hsossms/20260921/v2_0b547e2977894d5ba10f8ee126a1a714@000000_oswg179103oswg1080oswg554_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>后来模型本身<strong>已经做到毫秒级以后</strong>，我们统计发现，完整任务里大部分时间反而花在<strong>等网页加载、等网页刷新</strong>。</p>
+  <p><strong>AI 前线：那你们为什么长期会往本地模型、CPU、小算力、模型路由这些方向走？这些看上去是很多单点技术，背后的逻辑是什么？</strong></p>
+  <p><strong>张旭：核心还是 AI 普惠</strong>。</p>
+  <p>我们一直在想，模型能不能不用很昂贵的 GPU，靠 CPU 也能有一个可以接受的速度和效果。因为绝大多数普通用户不会在电脑里装 5090，更不可能买 H100、B200。</p>
+  <p>如果 AI 最后真的要进入大规模 C 端产品，<strong>全部推理都依赖中心化大算力</strong>，本身会是一个限制。所以我们希望把一部分计算分散出去，<strong>分到 CPU 服务器，甚至分到用户手机上</strong>。</p>
+  <p>这也是我们做模型解耦、路由、本地推理这些事情背后的共同逻辑：<strong>用更高的性价比，让 AI 真正能够大规模普及。</strong></p>
+  <p><strong>AI 前线：如果不只看浏览器，这种模型还能用在哪里？</strong></p>
+  <p><strong>张旭：</strong>其实能落的场景很多。</p>
+  <p>比如我们经常会访问到一些网站上显示大量的广告、欺诈信息、杂乱的内容，那么浏览器有了这个能力加持，就可以<strong>快速筛选和过滤。</strong></p>
+  <p>开发者 Movez 基于 Jev 分析了 10 万条 X 帖子，耗时仅为 20.4 秒，花费 0.67 美元</p>
+  <p><strong>推荐系统</strong>也是很典型的场景。A 文章用户感兴趣的概率是多少，B 是多少，再把概率高的内容推荐出来。</p>
+  <p>我还看到有人拿它<strong>批量审文档</strong>，因为很多判断可以并行，所以一次处理上千份文档，速度和成本会有优势。</p>
+  <p><strong>AI 前线：现在也有人拿 Jev 做炒股、交易。它因为决策快，会不会特别适合这一类场景？</strong></p>
+  <p><strong>张旭：</strong>快不代表它炒股水平高。</p>
+  <p><strong>炒股最后还是看模型本身的智力水平</strong>，以及有没有针对金融这个方向做优化。Jev 现在应该没有专门针对这个方向优化。</p>
+  <p>所以不能因为它能很快做决策，就认为它一定能赚钱。</p>
+  <p><strong>AI 前线：那再往长远一点看，还有什么你觉得值得关注的应用？</strong></p>
+  <p><strong>张旭：</strong>更长期可能会到<strong>工业自动化、智能家居</strong>这些领域，因为它们都需要很快做出行动。</p>
+  <p>现在不是已经有人拿 Jev 玩游戏了吗？</p>
+  <p><strong>它能玩游戏，其实就能够操控机器人。</strong></p>
+  <h2>Agent 走向快慢分工</h2>
+  <p><strong>AI 前线：决策变得这么快以后，下一个挑战会在哪里？</strong></p>
+  <p><strong>张旭：</strong>一个很明显的问题，<strong>就是智力</strong>。</p>
+  <p>过去为什么大模型会吐很长的思维链？因为它要靠这些过程提升数学、编程、推理等复杂能力。</p>
+  <p>现在你把这部分砍掉，它就更依赖模型的“直觉”、第一反应。如果问题本身比较复杂，需要多步思考，那 Jev 当前的智力水平可能就不够。</p>
+  <p><strong>AI 前线：也就是说，它更适合规则比较清晰、候选明确的任务；如果需要真正复杂推理，就会出现准确率问题？</strong></p>
+  <p><strong>张旭：</strong>对。复杂问题本身就可能超出它现在的能力。</p>
+  <p><strong>AI 前线：为什么 Jev 一出来，开发者会这么兴奋？快思考、慢思考这套思想其实并不新鲜，去年 OpenAI、<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>、Qwen 都尝试在基座模型里融入这套逻辑。</strong></p>
+  <p><strong>张旭：</strong>对，快思考和慢思考本身不是新东西。</p>
+  <p>以前很多模型也说自己<strong>有快模式、慢模式</strong>，但所谓“快”，本质上仍然是大模型一个 Token 一个 Token 生成，<strong>只是思维链短一些</strong>。从普通用户体验上看，它<strong>其实并没有真正快到像“本能”</strong>。</p>
+  <p>Jev 为什么火，我觉得一个原因就是，它真的快到足够实用了。<strong>以前那个“快思考”，其实也不快。</strong></p>
+  <p><strong>AI 前线：但这是不是意味着它没有办法单枪匹马完成一个长链条 Agent 任务，还是需要和完整的大模型配合？</strong></p>
+  <p><strong>张旭：我认为是两个类型互相需要</strong>。</p>
+  <p>比如机器人，如果所有操作都让大模型慢慢想，很难实用化。它一定需要一些非常快的模型去执行动作。</p>
+  <p>复杂任务规划、逻辑推演可以交给慢模型，而高频、原子化、环境交互类动作，就适合交给这种受限决策模型。</p>
+  <p><strong>AI 前线：那快思考和慢思考，最终有没有可能重新融进同一个模型？</strong></p>
+  <p><strong>张旭：</strong>完全有可能。</p>
+  <p>系统一、系统二首先是一种架构设计思想。可以是<strong>两个模型</strong>，也可以<strong>一个模型承担两个角色</strong>。</p>
+  <p>通用模型厂商以后完全可能把长生成那部分屏蔽掉，提供一个快速决策模式。</p>
+  <p>但分成不同模型以后，<strong>每个模型可以更专注，也可能效率更高</strong>。最终要看是不是一家公司能够把整个生态都吃下来。</p>
+  <p><strong>AI 前线：长远来看，Agent 和模型到底是什么关系？模型越来越强，会不会最终把外面的 Harness 都吃掉？</strong></p>
+  <p><strong>张旭：</strong>我认为不会。</p>
+  <p>可以打个比方：<strong>模型是发动机，Harness 是汽车的控制系统，Agent 是整辆汽车。</strong></p>
+  <p>发动机可以越来越强，但你不会因为发动机越来越强，就不要轮子、方向盘和控制系统。所以<strong>大模型会越来越强</strong>，但它本质上还是<strong>Agent 里的驱动系统</strong>。</p>
+  <p><strong>声明：本文为&nbsp;AI 前线原创，不代表平台观点，也不构成投资建议，未经许可禁止转载。</strong></p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247667542&amp;idx=1&amp;sn=bed6b37cc3d148fe8cade3bc6511c9e6&amp;chksm=fabb3ba041b70f7f1050fec3e43bd0308a9388b03bbcc1b5c0ea3e380ff17916e89147c52ba0&amp;scene=0&amp;xtrack=1#rd">“AI前线”（ID：ai-front）</a>，作者：四月，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 22 Sep 2026 00:20:22 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3993153099463681</guid>
+            <link>https://www.36kr.com/p/3993153099463681</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[字节、腾讯、阿里、百度举债下注AI：大厂的生存选择题]]></title>
+            <description><![CDATA[<blockquote>
+   <p>当AI竞争从单纯的算法创意比拼，演变为算力基础设施的重资产肉搏战，手握国民级现金牛的头部巨头们，集体开启了密集的资本运作。</p>
+   <p>百亿级银团贷款落地、大额债券接连发行、股权配售融资、存量投资组合分批变现，所有动作的终点都指向AI算力储备。</p>
+   <p>一边是营收规模持续扩张、主业盈利能力依旧强劲，一边是利润增速收窄、单季自由现金流转负、历史级大举借债，看似矛盾的商业图景背后，是整个互联网行业增长范式的底层反转。</p>
+   <p><strong>本文将重点分析</strong></p>
+   <ol>
+    <li>科技巨头为何集体陷入赚钱还缺钱的商业悖论？</li>
+    <li>不同融资路径背后暗含怎样的战略判断与风险取舍？</li>
+    <li>全球科技巨头的表外杠杆与算力竞赛藏着哪些风险？</li>
+    <li>举债换算力的豪赌是船票还是泡沫？</li>
+   </ol>
+  </blockquote>
+  <p>过去十几年，如果你问一个古典互联网时代的信仰者，科技公司最性感的商业模式是什么，他一定会告诉你是轻资产、高毛利、指数级增长。</p>
+  <p>从写下第一行代码，到服务器在云端跑通，互联网用极低的边际成本撬动了极大规模的财富杠杆。在那个时代，重资产是属于传统制造业和房地产的贬义词，科技巨头们的资产负债表干净、轻盈，现金流充沛得令所有传统行业眼红。</p>
+  <p>但当通用人工智能的奇点隐隐闪烁时，牌桌上的游戏规则被粗暴地改写了。</p>
+  <p>The Information最新披露的数据显示，2026年上半年，字节跳动收入约1200亿美元，同比增长30%；净利润约200亿美元，同比下降个位数百分比，原因是AI投入加大。同期阿里753亿美元加腾讯590亿美元，合计1343亿美元。字节一家的收入，已经逼近腾讯和阿里的总和。与此同时，字节从银行借了296亿美元，公司历史上最大规模的单笔贷款。</p>
+  <p>最大的公司、最猛的印钞机，一边以30%的速度增长，一边利润被AI吃掉一块，一边还在大举借债。</p>
+  <p>这不是字节一家公司的处境。过去几个月，腾讯、阿里、百度各自完成了一轮大规模融资，AI已经不再是单纯的代码狂想，而是一场比拼基础设施建设的重资产肉搏战。</p>
+  <p>在这场战役里，旧时代的利润、股权，都在被抽血熔铸成新时代算力底座的钢筋水泥。</p>
+  <p>而我们要厘清的是AI重构之下，巨头们的资本开支逻辑、竞争底层规则，以及潜藏在繁荣背后的风险边界。</p>
+  <h2><strong>Part.1</strong></h2>
+  <h2><strong>重资产转向</strong></h2>
+  <h2><strong>现金流的产出赶不上算力消耗</strong></h2>
+  <p>AI浪潮来临后，互联网行业的轻资产模式被改写。以往企业可以依靠经营产生的内源现金流覆盖绝大多数业务的扩张需求，但大模型训练、推理服务、GPU采购、数据中心建设，AI赛道的核心投入全部属于刚性重资产投入。</p>
+  <p>与互联网时代可灵活收缩的营销费用、弹性研发投入不同，算力硬件一旦采购完成，就会进入五到七年的固定折旧周期，不会随业务收缩而消失；模型迭代更不存在一劳永逸，每一次版本更新、每一次用户调用，都会持续消耗算力资源。</p>
+  <p><strong>这种带有军备竞赛属性的持续性资本支出，从根本上打破了互联网行业的轻资产增长逻辑。</strong></p>
+  <p>随之而来的是普遍的现金流缺口。即便主业盈利能力依然可观，企业每期经营所留存下的可支配现金依然难以匹配算力扩张的节奏。成熟业务的利润需要兼顾股东分红、日常运营维护与存量业务迭代，留给新赛道的再投入存在天然天花板。于是，向外部市场获取资金，就成为大厂的共同选项。</p>
+  <p>字节刚刚敲定的296亿美元银团贷款，是今年亚洲规模第二大的美元计价融资，最初计划借200亿，因银行认购订单超过300亿美元最终扩容落地，利差压到了SOFR加68个基点，比2024年的境外贷款还低了17个基点。这已经是中国科技公司境外借款里几乎最便宜的价格。</p>
+  <p>阿里则走了另一条路。8月底完成的800亿港元新股配售，是2019年回港上市以来第一次配售新股，启动不到一个小时就超额认购。配售当天阿里股价跌了8.54%，紧接着蔡崇信、吴泳铭连续增持约2.02亿港元，马云本人也增持超过6亿港元，真金白银给市场吃定心丸。</p>
+  <p>腾讯的动作更有代表性。6月份发了24.5亿美元债加150亿元点心债，合计近47亿美元，是2020年以来最大规模发债。</p>
+  <p>二季度资本开支飙到527.84亿元，同比增长176%，主要砸在AI算力上，结果是单季自由现金流出现了负138亿元，这也是腾讯自上市以来第一次转负。</p>
+  <p>一家2025年经营现金流超过3000亿、净利润超过2500亿的公司，居然季度性地烧到自由现金流为负，这个信号是很刺眼的。当然这一缺口主要来自当期集中的算力采购预付款，属于前置性资本投入，而非经营性亏损。</p>
+  <p>更能说明问题的是腾讯近三个月悄悄卖掉了约170亿人民币的上市公司股权。7月减持快手套现约120亿港元，8月卖韩国游戏公司Netmarble收回18亿人民币，9月又减持B站拿到4亿美元，紧接着Boss直聘再套现22亿港币。参照二季度的资本开支强度，这170亿也就够腾讯撑一个月。</p>
+  <p>百度则是把香港联交所的第二上市地位转换为主要上市，9月7日纳入港股通，为AI和自动驾驶的高研发投入打开南向资金通道。</p>
+  <p><strong>而这四家里，最值得单独拎出来讲的其实是字节跳动。四家的融资工具虽有不同，但字节的案例揭示了一个更深层的事实，在AI基础设施这个资本密集度极高的赛道上，即便是中国现金流最好的公司，也需要外部资本的杠杆来维持竞争强度。</strong></p>
+  <p>The Information数据显示，2025年全年字节收入约2000亿美元，同比增长29%；2026年上半年继续以30%的增速前进，而同一时期腾讯、阿里、拼多多的营收增速都掉到了10%附近。</p>
+  <p><strong>问题就出来了，这些手握全中国最赚钱业务的公司，尤其是像字节这种依然保持30%增速的全球提款机，为什么突然一起变得缺钱？</strong></p>
+  <p>答案其实并不复杂，AI这场仗的花钱速度，已经超过了主业当期能产生的现金流。</p>
+  <p>据彭博社报道，字节正考虑将2026年资本开支拉高到最高700亿美元，约为去年的两倍以上，到2027年可能再往1000亿美元冲。阿里三年3800亿人民币的AI基础设施投入计划，到2026年6月末已经花掉了约1900亿，进度过半。</p>
+  <p><strong>这不是投一笔就完事的项目，而是持续、大规模、看不到尽头的资本开支。</strong></p>
+  <p>抖音、淘宝、微信、<ai-product-link data-id="14603" data-name="百度搜索" data-logo="https://img.36dianping.com/20250909/v2_ff556996eccc4b3486f29d9e939131ac_oswg9271oswg364oswg364_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">百度搜索</ai-product-link>这些老业务当然还在赚钱，但把它们当季的利润全部塞进AI仍然不够用，于是资本市场就成了唯一的补给线。</p>
+  <h2><strong>Part.2</strong></h2>
+  <h2><strong>生存的共性选择题</strong></h2>
+  <h2><strong>旧护城河的松动与时代窗口期的抢夺</strong></h2>
+  <p>把镜头拉远，四家公司的融资手段五花八门，目标却高度一致，而每种工具的选择背后，都暗含了不同的战略判断和风险偏好。</p>
+  <p>字节选银团贷款，好处是快、量大、不稀释股权，代价是背上刚性的利息负担。更重要的是，字节没有上市，没有公开市场的股价可以作为股权融资的定价锚，银团贷款是它最有效的大额融资通道。</p>
+  <p>阿里选股权配售，代价是老股东被稀释，但换来的是无需还本的长期资金。阿里要打的是全栈AI，从芯片到云基础设施到大模型到应用层，这需要的是长期、大额、低成本的资金，而且阿里愿意用稀释换时间。</p>
+  <p>腾讯选发债加变卖旧资产的组合拳，介于两者之间。腾讯二季报的股权资产总额8751亿元，其中上市公司股权4872亿元，这是一个随时可以变现的弹药库，但真正能动的也仅限快手、B站这类国内业务持仓，非上市部分的微众银行、Epic Games、月之暗面、<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>短期内无法变现，4家新上市的AI相关公司还有锁定期。</p>
+  <p>百度则更巧妙，纳入港股通之后南向资金能直接买入，第三方预测未来2到4个月南向净流入或达60亿美元，等于在存量市场里凿开了一条新的流动性通道。</p>
+  <p><strong>四种打法，四种财务哲学，但底层逻辑只有一句话，在AI的算力军备竞赛里，先把船票攥在手里再说。</strong></p>
+  <p>放到全球视角，这个趋势更加惊人。伦敦证券交易所集团数据显示，包括谷歌母公司Alphabet、亚马逊和Meta在内的科技巨头2026年以来已发行近2200亿美元债券，是2025年全年的两倍多。</p>
+  <p>其中Alphabet二季度经营活动现金流约391亿美元，资本开支达到约449亿美元，当季自由现金流降至约负59亿美元，这是Alphabet上市以来首次出现季度自由现金流为负。与此同时，8月发债250亿美元，认购订单干到了1150亿。</p>
+  <p>此外，彭博社的数据显示，AMD刚刚完成了公司历史上最大规模的美元债券发行，一次性拿了47.5亿美元。而英伟达6月份发债250亿美元，订单超过850亿。</p>
+  <p>这里藏着一个更深的隐忧。高盛和摩根士丹利的研究指出，主要的AI云巨头通过尚未开始的租赁协议和采购承诺，已经累积了接近2万亿美元的表外财务承诺。</p>
+  <p>高盛测算的表外租赁承诺约1.5万亿美元，其中一万亿还没开始计入负债表；摩根士丹利测算Alphabet、微软、亚马逊、英伟达和甲骨文在芯片、设备、电力上的采购承诺合计9820亿美元。</p>
+  <p>Meta和Blue Owl合资成立Beignet开发路易斯安那Hyperion数据中心就是典型案例。Meta只持股20%，但承诺至少租赁20年，Beignet据此发行了创纪录的270亿美元分期偿还债券。Meta实际上承担了绝大部分还款义务，但这笔巨额债务不需要直接记在自己的资产负债表上。</p>
+  <p><strong>回到中国大厂身上，逻辑其实是一样的。在一个所有人都觉得必须all in的赛道上，任何一家掉队都可能永远追不回来，所以哪怕现金流承压、哪怕稀释股东、哪怕背上利息，也得先把弹药备足。</strong></p>
+  <p>创新工场汪华那句话被反复引用是有道理的：“这仗打错了，最多是白烧几十亿；但不打，可能是生死问题。”</p>
+  <h2><strong>Part.3</strong></h2>
+  <h2><strong>博弈的两面性</strong></h2>
+  <h2><strong>商业化与资本成本的双重考验</strong></h2>
+  <p>但这场豪赌真的稳赚不赔吗？未必。</p>
+  <p><strong>从传统信用指标看，这些公司的账面确实还很健康。摩根士丹利的数据显示，主要云巨头的平均净杠杆率只有0.5倍，远低于科技行业0.8倍的平均值和美国非金融企业1.8倍的平均值，现金持有量甚至超过账面债务。</strong></p>
+  <p>但这个表面健康里有几个隐患值得拆开来看。</p>
+  <p>算力买回来要折旧，数据中心建起来要摊销，贷款借回来要付利息，这些都是刚性成本，AI收入能不能在折旧周期内跑赢，现在没有人能给出确定的答案。</p>
+  <p>字节这笔贷款利率虽然低，但也是浮动利率；腾讯的美元债、阿里的可交换债券，都不是免费的午餐。当AI投入进入长周期，融资规模一轮一轮往上滚，利息负担会从可以忽略变成占据一席之地。</p>
+  <p>腾讯二季度自由现金流转负，本质上是资本开支的爬坡还没到顶，这条曲线未来会怎么走，取决于AI收入能不能同步爬起来。而旧资产的变卖节奏是有底的，腾讯能卖的快手、B站、Boss直聘这类持仓，卖完之后剩下的要么涉及战略协同不能轻易动，要么涉及海外资产牵一发动全身。</p>
+  <p>旧时代的互联网投资组合正在被拆开来给新时代的AI战争供血，这个逻辑对股东来说短期内是划算的，毕竟旧资产的估值溢价在过去几年一直在被压缩。但同时也意味着，腾讯未来能挥霍的耐心资本是有限的。</p>
+  <p><strong>而AI业务本身的商业化，坦率说，还没有一家跑出真正的第二曲线。</strong></p>
+  <p>阿里云外部商业化收入增速达40%，AI相关产品收入占比首次突破30%，季度收入89.71亿元，年化超过358亿元。字节的Seedance视频生成模型单月营收已经突破10亿元，火山引擎MaaS业务全年营收目标从去年的15亿元上调至150亿元，百度AI业务收入已连续两季占比过半。</p>
+  <p>这些数字放在自身增速维度上很好看，但放在资本开支的背景下就是另一个故事了。</p>
+  <p>阿里一个季度资本开支676.78亿元，而AI相关产品的季度收入是89.71亿元。AI收入相对于投入而言，还处在零头阶段。</p>
+  <p>最难量化的是AI的商业化拐点到底在哪里。大模型训练的算力需求确实在增长，Agent、多模态的推理需求也开始上升，但从算力投入到商业收入的变现链路，各家其实都在摸索。</p>
+  <p>字节、阿里、腾讯、百度的Agent用户规模上都有明显进展，但真正意义上的AI收入占比，在各家财报里仍然是模糊的。</p>
+  <p>所以现在关于AI的两种极端声音，一种是只要砸钱就能遍地开花，一种是疯狂烧钱最终全是泡沫，都过于简化了。</p>
+  <p><strong>真实情况更接近于，这是一场几乎所有玩家都被迫入场的赌局，因为不下注的代价远大于下注的代价。</strong></p>
+  <p>从这个意义上说，大厂举债搞AI不是公司出了问题，而是时代出了新题。科技巨头们仍然握着最赚钱的一批业务，只是这些业务当期赚出来的钱，跟不上下一代基础设施投入的速度。</p>
+  <p>资本市场愿意给钱，是因为相信这些公司在AI落地的时候依然能占据核心位置；这些公司敢借钱，是因为它们也清楚，今天的每一次退缩，都可能变成明天赛道上永远补不回来的距离。</p>
+  <p>资本配置的本质是买未来。只不过这一次，未来的价格标签，比过去任何一轮都要贵。</p>
+  <p><strong>科技巨头举债布局AI，本质是新旧技术周期交替下的一次集体抉择。移动互联网时代依靠流量建立起来的商业范式已经走到尾声。AI竖起极高的资金门槛，迫使那些依旧保持高盈利能力的企业，走出舒适区，动用贷款、股权、存量资产变现等一切手段筹措资本。</strong></p>
+  <p>资金是战争的武器，但决定战争走向的还有技术迭代、组织改造、产品打磨，以及整个社会对AI价值的接纳。</p>
+  <p>未来数年，资本还会源源不断涌入AI赛道，关于烧钱、泡沫、回报的争论也会持续发酵。</p>
+  <p>对于旁观者来说，与其争论这场豪赌是明智还是疯狂，不如换个角度思考，当所有最聪明的企业家和最谨慎的银行家，都在同一件事上做出同一个方向的选择时，我们至少要认真想想，他们看到了什么我们还没看到的东西。</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/VQUIWwR_tJaJMmy_iIki-A">“正见TrueView”</a>，作者谨欢，编辑：咏鹅，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 22 Sep 2026 00:12:23 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3993154068780679</guid>
+            <link>https://www.36kr.com/p/3993154068780679</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[亚马逊开始成为Kimi的印钞机]]></title>
+            <description><![CDATA[<p>一个月前，月之暗面同时找上微软、亚马逊和谷歌，希望让K3进入Azure、AWS和Google Cloud，并从相关服务产生的收入里分走一部分。</p>
+  <p>最高30%的数字被摆上了谈判桌，但当时谁都不知道，这笔账最后能不能谈成。</p>
+  <p>现在，第一个答案出来了：Kimi真的把收费站修进AWS了。</p>
+  <p><strong>美国时间9月18日，AWS正式宣布Kimi K3上线Amazon Bedrock。全球企业开发者可以直接在AWS里调用这款模型，按Token付费。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="481,262" src="https://img.36krcdn.com/hsossms/20260921/v2_20b62c9a997444869a1c69df21a9206a@000000_oswg97546oswg481oswg262_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而且月之暗面并不是唯一一个开始向海外云平台收钱的中国模型厂商，9月16日，智谱也在电话交流会上披露，与多家国内外头部云服务商签署了收入分成协议。</p>
+  <p>中国模型，开始一起算海外这笔账了。</p>
+  <h2>A</h2>
+  <p>实际上，K3此前已经可以通过Microsoft Foundry调用，但微软走的是第三方路径：底层推理由Fireworks AI提供，Foundry主要负责模型接入、部署和企业治理。</p>
+  <p>用户虽然是在微软的平台里调用K3，但推理服务背后还隔着Fireworks。</p>
+  <p>AWS这次不一样，它自己就是K3的托管和推理服务提供方。</p>
+  <p>K3现在是Amazon Bedrock里的正式托管模型，AWS自己负责承接调用和计费。</p>
+  <p><strong>AWS给K3的标价为：全球标准档输入3美元/百万Token，输出15美元/百万Token，和月之暗面官方API价格完全一致；美国区域则分别为3.3美元和16.5美元。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="475,273" src="https://img.36krcdn.com/hsossms/20260921/v2_88dc5d027b1744178e5c863449760e6c@000000_oswg65944oswg475oswg273_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>一个月前，这件事还只停留在谈判桌上。</p>
+  <p>8月26日，路透社援引三名知情人士报道，月之暗面正在同时和微软、亚马逊、谷歌谈判，希望让K3进入Azure、AWS和Google Cloud，并从三大云上K3相关服务产生的收入中拿到最高30%。</p>
+  <p>但“30%”当时只是月之暗面的谈判条件，谈判仍处于早期阶段。月之暗面和三大云厂商还没有解决具体怎么分钱、数据能开放到什么程度，以及如何审计K3实际消耗的Token。</p>
+  <p class="image-wrapper"><img data-img-size-val="395,400" src="https://img.36krcdn.com/hsossms/20260921/v2_e071ed4d56b243cf914c3e53c431a291@000000_oswg99568oswg395oswg400_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>现在，三大云里，AWS率先把K3摆上了货架。</p>
+  <p>尽管双方协议未公开，具体分成比例乃至授权方式目前都无法确认，但有一件事是可以确定的：<strong>AWS和月之暗面至少已经谈成了一套单独的商业条款。</strong></p>
+  <p>K3在自己的许可证里写得很清楚：月之暗面允许普通开发者下载、部署和商业使用K3，但如果一家企业及其关联方经营MaaS业务，连续12个月总收入超过2000万美元，那么在把K3用于商业用途前，必须先和月之暗面另行达成协议。</p>
+  <p class="image-wrapper"><img data-img-size-val="496,153" src="https://img.36krcdn.com/hsossms/20260921/v2_c330a0bf99914b2283dcf19d8102d340@000000_oswg40763oswg496oswg153_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>AWS显然远超“连续12个月总收入超过2000万美元”这个门槛，且Bedrock做的正是典型的MaaS——AWS负责托管模型，企业通过API调用，再按照Token付费。</p>
+  <p>顺便一提，K3目前也已经进入阿里云百炼。</p>
+  <p>百炼目前同时提供两种K3服务：一种由月之暗面直供，另一种则由阿里云自己部署和提供推理。后者和AWS的逻辑类似，阿里云作为MaaS平台商业化提供K3，同样需要遵守K3许可证里的单独授权要求。</p>
+  <p>也就是说，AWS并非唯一一个已经和月之暗面把这笔商业账谈下来的云厂商。</p>
+  <p>接下来，就看微软和谷歌会不会也跟上了。</p>
+  <h2>B</h2>
+  <p>Bedrock并不缺开放权重模型。</p>
+  <p>今年2月，AWS一次性把DeepSeek V3.2、MiniMax M2.1、GLM 4.7、GLM 4.7 Flash、Kimi K2.5和Qwen3 Coder Next六款模型接进Bedrock；AWS自己也说，从2025年以来，Bedrock已经加入数十款来自DeepSeek、MiniMax、Qwen、Mistral、NVIDIA等厂商的开放权重模型。</p>
+  <p><strong>AWS愿意单独和月之暗面谈K3，首先还是因为K3本身有足够强的使用价值。</strong></p>
+  <p>K3有100万Token上下文、原生视觉能力，AWS把它明确定位在长时间Coding、知识工作和Agent任务上。</p>
+  <p><strong>它还是Bedrock第一款支持显式Prompt Caching的开放权重模型，</strong>开发者可以主动控制哪些Prompt内容被缓存，长任务里反复使用相同代码库、工具说明或参考文档时，有助于降低输入成本和延迟。</p>
+  <p class="image-wrapper"><img data-img-size-val="692,161" src="https://img.36krcdn.com/hsossms/20260921/v2_ef40fb9764df4d27a9cc66734f7a545f@000000_oswg87040oswg692oswg161_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而且——我们在前一篇文章里也提到——K3恰好很适合放在云上卖。</p>
+  <p>企业想用K3，大致有三条路：自己部署、直接买Kimi官方API，或者通过云平台调用。</p>
+  <p>自己部署，K3有2.8万亿总参数，官方建议最好使用64个或更多加速器组成的超节点；直接买官方API，国内企业要走认证、充值和配额体系，海外用户还要面对独立账户体系、网络稳定性和销售沟通。</p>
+  <p>AWS抢的就是第三条路：把这些接入、采购和运维成本都包进企业本来就在用的云平台里。</p>
+  <p>许可证只能保留谈判权，不能制造谈判筹码。</p>
+  <p>云厂商愿不愿意接受额外授权，只取决于一个非常简单的逻辑：这个模型有没有足够多的需求。只要不上K3会让用户和Token流向别的平台，AWS就有理由和月之暗面谈这笔生意。</p>
+  <p>K3现在至少证明了开放权重和商业收费并不冲突。只要模型本身足够有吸引力，原厂依然可以保留收费权。</p>
+  <h2>C</h2>
+  <p>过去一年，中国模型已经越来越多地出现在海外开发者平台、企业云和API市场里。</p>
+  <p>路透社9月16日的数据显示，截至9月14日，DeepSeek、智谱、腾讯和阿里在OpenRouter上的合计市场份额已经达到45%；MiniMax大约60%的销售额来自海外。中国模型靠低价、开放权重和越来越接近美国头部模型的能力，已经拿走了一块真实的海外需求。</p>
+  <p class="image-wrapper"><img data-img-size-val="419,450" src="https://img.36krcdn.com/hsossms/20260921/v2_724f87b4ec2d442b874a490232a1bb85@000000_oswg127198oswg419oswg450_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这种压力甚至已经传到了最头部的美国模型公司。</p>
+  <p>9月19日，路透社在报道Anthropic考虑提前推出新模型时直接指出，除了OpenAI刚刚发布的GPT-6 Astra，低成本、部署灵活的开放权重模型，也正在成为Anthropic和OpenAI越来越重要的竞争对手。</p>
+  <p>换句话说，中国模型走到今天，已经不是“美国开发者愿不愿意试一试”的问题了。模型有人用，海外有收入，连Anthropic都开始把中国的开放模型当成必须面对的竞争对手。</p>
+  <p>下一步自然就是：这些需求产生的钱，要能更多地回到训练模型的人手里。</p>
+  <p>过去，海外云平台拿到中国开放模型，可以自己托管、卖API、收Token费。模型越火，平台的生意越好，但原厂未必能从这部分收入里持续分钱。</p>
+  <p>Kimi正在改变这件事。它继续开放权重，却在许可证里给大型MaaS平台留了一道收费口。现在AWS接受了这道门槛，月之暗面也迈出了真正意义上的第一步。</p>
+  <p><strong>中国模型不只要去海外抢用户，也开始从海外云平台手里赚钱。</strong></p>
+  <p>有意思的是，K3在AWS美国区域的价格还比全球标准档高10%。美国企业想在AWS自己的地盘上调用Kimi，甚至还得多付一点钱。</p>
+  <p>而这件事已经开始在中国模型厂商中扩散。</p>
+  <p>9月16日，智谱在面向分析师和投资人的电话会上披露，公司已经与多家国内外头部云服务商签署收入分成协议。GLM系列开放权重模型将以托管API形式进入海外云平台，双方按照约定比例分钱，相关收入从10月开始确认。</p>
+  <p>这部分增量甚至已经被写进了增长预期：智谱把年末ARR指引从24亿美元上调到30亿美元，目前全业务口径ARR约18亿美元。</p>
+  <p>阿里也已经被路透社曝出，准备在下一代Qwen3.8-Max上采用类似机制：模型继续开放权重，但大型商业用户围绕它赚钱，也要和阿里分一杯羹。</p>
+  <p><strong>Kimi已经收到了钱，智谱已经签了协议，Qwen也在准备。</strong></p>
+  <p>下一版DeepSeek、MiniMax以及更多中国开放权重模型，如果也开始重新设计自己的商业许可，与大型云服务商谈收入分成，我一点都不会意外。</p>
+  <p>毕竟，既然海外云厂商已经可以靠中国模型卖Token，中国模型公司没有理由继续把这笔钱全部留在别人的账上。</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI2NjU1MTcwMA==&amp;mid=2247567177&amp;idx=1&amp;sn=7f0915d54e2964e71fd0cc510b053c34&amp;chksm=eb3b7f2366846fe500dbd69cd7df23cfa0359c450a87be44288f148512b2c501395b7c82c364&amp;scene=0&amp;xtrack=1#rd">“字母榜”（ID：wujicaijing）</a>，作者：袁心玥，编辑：王靖，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 22 Sep 2026 00:10:15 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3993170599296007</guid>
+            <link>https://www.36kr.com/p/3993170599296007</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[88万篇文本实测：越来越多的人让AI改稿，文章却越来越像]]></title>
+            <description><![CDATA[<blockquote>
+   <p>两百多年前，12 篇匿名政论的作者悬案，最后靠统计每个人用「小词」的习惯破了案。今天，越来越多的文字先过一遍大模型再发出去。改完的稿子更通顺了，可它们彼此之间，是不是也更像了？</p>
+  </blockquote>
+  <p>1787 年到 1788 年，汉密尔顿、麦迪逊和杰伊用同一个笔名「普布利乌斯」，发表了 85 篇为美国宪法辩护的文章，后来结集成《联邦党人文集》。</p>
+  <p>麻烦留给了后世。其中 12 篇究竟出自汉密尔顿还是麦迪逊，长期没有定论，一悬就是一百多年。</p>
+  <p>1964 年，统计学家莫斯特勒（Frederick Mosteller）与华莱士（David Wallace）用统计给这桩悬案下了判断。他们不看观点，不看立场，只统计那些不起眼的高频小词。</p>
+  <p>比如「upon」和「while」，几乎不承载内容，两位作者用起来的频率却差得稳定。对功能词的频率做多变量建模之后，证据强烈支持 12 篇争议文章出自麦迪逊之手。</p>
+  <p>判归的依据不是立场，是习惯。</p>
+  <p>二十多年后，心理语言学的研究者把这条线索推得更远。心理学家彭尼贝克（James Pennebaker）与金（Laura King）1999 年报告，代词、冠词、介词这些功能词的使用模式，与人格存在统计关联。他们的材料是 2,348 篇意识流作文，写的人多是心理学导论课上的大学生，写完再填一份 44 题的大五人格量表。</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,913" src="https://img.36krcdn.com/hsossms/20260922/v2_9ac49fa667c24151ab24e8b7e2eed2f4@000000_oswg80221oswg1000oswg913_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>心理学家彭尼贝克（James Pennebaker），得州大学奥斯汀分校荣休教授，1999 年那项功能词与人格研究的第一作者。摄影 Daniyal Sheikh，CC BY 4.0</p>
+  <p>此后一批研究者把关联扩展到注意焦点与部分心理状态。单看，每个效应都不大，聚起足够多的文本才读得出信息。彭尼贝克在《代词的秘密生活》里整理过同类证据，常被引用的一条是，大量文本里「我」用得更频繁，与抑郁的相关指标同向变化。读的是群体规律，不能拿来给哪一个人下诊断。</p>
+  <p>两条线索指向同一处，一个人的用词习惯里留着统计上可辨识的痕迹，算不上唯一不变的指纹。莫斯特勒判的只是两位作者之间的差别，彭尼贝克一脉测到的效应也普遍偏小。但文本足够多时，痕迹确实把人和人分得开。</p>
+  <p>如果越来越多的人，把自己的文字先交给大模型润色呢？</p>
+  <p>你可能已经有过这种阅读感受：一些文章句句通顺、结构完整，却越来越难看出是谁写的。感受本身不是证据，却引出一个可以检验的问题。</p>
+  <p>南加州大学「道德与语言实验室」负责人德加尼（Morteza Dehghani）是心理学与计算机科学双聘教授，长期用计算方法研究语言里的道德与身份。他的团队在《自然·人类行为》（Nature Human Behaviour）2026 年刊出的论文里，先追踪了三个平台 2018 年以来的 78 万篇线上文本，又用三款模型做受控重写实验，还拿六类带标签的语料检验身份线索。三项研究前后分析了 88 万多篇文本。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1040" src="https://img.36krcdn.com/hsossms/20260922/v2_bdc4b987cc714d7bb79518209a0ea0f4@000000_oswg236191oswg1080oswg1040_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">论文作者版首页。来源 arXiv:2502.11266；正式版刊于 Nature Human Behaviour（DOI 10.1038/s41562-026-02550-0）</p>
+  <h2><strong>三个平台的近七年曲线</strong></h2>
+  <p>团队从真实世界入手，收集了三处的长期语料，都以英语为主。学术预印本网站 arXiv 的论文 80,238 篇，美国地方新闻网 Patch 的报道 379,583 篇，Reddit 上「写作接龙」版块（r/WritingPrompts）的故事帖 318,490 篇。三处各自按月合成一条时间序列，arXiv 与 Reddit 覆盖 2018 年 1 月至 2024 年 11 月，共 83 个月，Patch 的序列短一些，止于 2023 年 11 月。每个月统计的是同一时期各篇文章写作复杂度的方差。</p>
+  <p>方差就是<strong>大家写得有多不一样</strong>。方差持续变小，就是彼此趋同。</p>
+  <p>「复杂度」由五项特征合成，四项看用词，一项看句子。看用词的四项分别统计，一篇文章的词汇有多丰富、分布有多均匀、有多少只出现一次的罕用词、有多少种不同词形。</p>
+  <p>看句子的那一项统计的是，句子里互相搭配的两个词平均隔多远，比如一个动词和它的宾语中间隔了几个字。隔得越远，句子铺得越开。粗略地说，前四项看你的用词有多不容易被猜到，最后一项看你的句子有多舒展。</p>
+  <p>以 ChatGPT 公开发布的 2022 年 11 月为断点做统计检验，三个平台的方差在断点之后都持续下降，且都通过了检验。</p>
+  <p>但三地的形态并不一样。只有地方新闻网 Patch 在发布当月就出现显著的下落，arXiv 与 Reddit 是此后逐月缓慢而持续地减小。</p>
+  <p>团队还做了一步时间顺序上的检验。他们用检测器算出每个月有多大比例的文本被归因为 AI 参与，再看能不能用这个比例前几个月的走势，提前说出方差后几个月的走势。在 arXiv 和 Reddit 上说得出，在 Patch 上说不出。说得出的那两处，说明的也只是 AI 占比先动、方差后动，两条曲线在时间上前后相随，谈不上谁造成了谁。</p>
+  <p>Patch 上为什么预测不成立，作者在讨论里给了一个解释。新闻编辑部本来就有稿件规范，未必允许记者直接把稿子交给模型，所以 AI 占比预测不动方差。</p>
+  <p>可方差还是降了。作者的推测是，即便不直接使用，长期读到、模仿 AI 写出来的文字，也可能慢慢改变一个行业对「好文章」的默认想象。作者明说是推测，论文没有检验。</p>
+  <p>时间序列检验加强了关联证据，却不是随机实验，排除不了同期平台规则变化、作者构成变化等混杂因素，AI 占比也只是检测器的估计，不是真实使用日志。要把「是不是 AI 造成的」再往前推一步，需要什么样的证据也是清楚的，同一作者使用 AI 前后的配对文本，或者带真实编辑记录的语料。</p>
+  <p>仅凭平台断点，分不开 AI 使用、用户更替与平台规范变化。</p>
+  <h2><strong>同一批文章的重写版</strong></h2>
+  <p>时间曲线断不了因果，于是团队直接做实验。</p>
+  <p>他们从 Reddit 和 arXiv 各随机抽 1,000 篇人写的文本，都发表在 ChatGPT 面世之前，交给 GPT-3.5、Llama 3 70B、Gemini Pro 三款模型，用 12 种提示词各改一遍。</p>
+  <p>12 条提示词的原话都列在论文里，其中几句你多半也打过。最温和的一条是「用最好的句法和语法重写下面这段文字，以及其他必要的修改」，最常见的一条是「润色下面这段文字，提高整体质量，不要改变它的意思」。其余十条要的是更清晰、更简洁、更自然、更学术、更正式一类，其中四条明写了不许改动原意或增删内容，另外几条只提通顺和可读性。</p>
+  <p>改完之后，团队把原文和改稿都换算成一串数字，代表各自的意思，再比两串数字有多接近。87% 的文本，接近程度高于 0.95（满分 1）。</p>
+  <p>团队还做了一次手工核对。四位作者各自独立看 20 对文本，按三档打分，1 分是意思基本变了，2 分是有明显出入，3 分是只有细微差别。平均 2.97 分，四个人之间高度一致。核对由作者自己做，不是外部评委，样本也只有 20 对。</p>
+  <p>两项衡量的都是意思有没有走样，答案是大体没有。</p>
+  <p>写法却变得更相似。在通过检验的结果里，<strong>写作复杂度方差缩小了约 21% 到 50%</strong>，降幅最大的一格来自「换个说法」类提示。</p>
+  <p>哪怕提示主要要求改善语法，多数模型与数据集组合的方差仍在收缩。那句提示的原话里也允许「其他必要的修改」，要求改善语法本来就不是纯粹的挑错。例外也有，Llama 3 改写 arXiv 论文时方差反而略升，未达显著。</p>
+  <p>重写全程由研究者让模型批量完成，模拟的是常见的润色场景，不是真实用户的编辑记录。现实里，人会拒绝 AI 的建议，也会在模型改过之后再改一遍。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,620" src="https://img.36krcdn.com/hsossms/20260922/v2_581cf5860d374a5f80b749ca3429e8e7@000000_oswg130930oswg1080oswg620_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">概念示意。比例出自论文 Study 1b 显著结果区间，语义保留率为嵌入相似度口径</p>
+  <h2><strong>变淡的作者线索</strong></h2>
+  <p>变淡的究竟是哪些线索？</p>
+  <p>计算语言学有一类成熟做法，拿标注好的语料训练分类器，让它从文字去猜写作者身上的标签，年龄段、性别、政治党派、大五人格、共情水平、道德倾向。</p>
+  <p>训练材料是现成的，有美国国会八千多名议员的演讲，带党派标注；也有附共情测评的对话记录。猜人格用的语料，正是彭尼贝克与金 1999 年那 2,348 篇意识流作文。<strong>当年用来建立「功能词与人格有关联」的那批作文，二十多年后成了检验「AI 改写会不会把这层关联磨掉」的材料。</strong></p>
+  <p>团队先在人写的原文上把分类器训好，再放到 AI 重写后的文本上。</p>
+  <p>六类标签的预测成绩<strong>全面下滑</strong>，六次下滑都大到不可能由抽样误差造成（p&lt;.001）。落差最大的是年龄，F1 分数（一个同时考虑「猜中的里有多少是对的」与「该猜中的有多少猜到了」的准确率指标）从 0.351 降到 0.260；猜性别从 0.694 降到 0.623，猜政治党派从 0.664 降到 0.591。</p>
+  <p>平均降幅是 6 个百分点，六类标签重写后仍然全都明显高于随机猜测的水平。线索是变淡了，不是消失了。</p>
+  <p>团队接着去看，究竟是哪些线索不管用了。结果不是一起消失。</p>
+  <p>性别与负面情绪词的关联在原文里成立，重写后基本消失；外向与代词、忠诚与「朋友」类词、年龄与指向未来的词，这几对都减弱了。但神经质与负面情绪词、纯洁与宗教类词、性别与社交类词，重写之后仍然成立。</p>
+  <p>更值得留意的是方向。模型改过之后，分类器更多地把文章判成出自年长、男性、道德关切更高、共情更低、更不外向的人。政治党派偏得最厉害，真作者是共和党人时，改完的文章也常被判成民主党人写的。偏移是分类器感知到的方向，不等于作者真的变成了这些人。</p>
+  <p>也就是说，重写不只是把线索整体削弱，还让误判集中到几个固定的类型上。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,700" src="https://img.36krcdn.com/hsossms/20260922/v2_0216475452c2414093f92b8bbba7934a@000000_oswg163297oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">数据出自论文 Study 2，柱为平均 F1（兼顾查准与查全的准确率指标），全部下降 p&lt;.001</p>
+  <p>线索变淡不全是坏消息，论文自己也说了。学界和业界一直用同一批线索从公开文字里推断陌生人的属性，线索变得不可靠，监控与歧视的门槛也跟着抬高了一点。</p>
+  <p>代价则在相反的方向。论文列出的几个下游场景，心理状态筛查、共情研究、客户服务里的情绪判读，恰恰都建立在「文字能读出人」的前提上。前提一旦松动，几项做法的地基跟着松动，也正是论文作者担心的现实风险。</p>
+  <p>今年 3 月，团队的三位成员又在《认知科学趋势》（Trends in Cognitive Sciences）上发表观点文章，把讨论从文风扩展到表达与思维。他们的理由是，训练过程天然更容易让那些出现得频繁、放到哪儿都说得通的表达胜出，少数派的说法淹没其中。</p>
+  <p>那篇是理论综合，不是新实证。它提出的是一个更远、尚未证实的问题，被压平的会不会不只是写法，还包括看问题的方式？</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,938" src="https://img.36krcdn.com/hsossms/20260922/v2_61bc7f5602fb44fdb61432457013392e@000000_oswg50920oswg1000oswg938_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">论文资深作者、心理学与计算机科学双聘教授 Morteza Dehghani。图源 mola-lab.org</p>
+  <h2><strong>小词的分量</strong></h2>
+  <p>回到那 12 篇悬案。把这批文章判给麦迪逊的，是麦迪逊自己都未必留意过的那些小词。一个人文字里最像本人的部分，常藏在习惯里。</p>
+  <p>德加尼团队测到的，是模型批量重写之后，文本之间的差异在缩小，靠文字猜作者身上那几类标签也变得更难。按下「润色」时，模型改动的可能不只是病句，还有一些原本属于你的措辞习惯。</p>
+  <p>哪种用法能保住它，研究没有测，只知道不同提示的收缩程度不一样，收缩得最厉害的是「换个说法」那一类。语料也以英语为主，中文互联网是不是同样、程度如何，论文没有检验。</p>
+  <p>研究没有证明「流畅」必然以个性为代价，只是提醒，整段重写不只是改错，也可能改掉那些用于辨认作者的统计线索。按下按钮之前，值得先分清哪些地方可以交给统一，哪些习惯该由你自己保留。</p>
+  <p><strong>参考文献</strong></p>
+  <p>Sourati, Z., Karimi-Malekabadi, F., Ozcan, M., McDaniel, C., Ziabari, A., Trager, J., Tak, A. N., Chen, M., Morstatter, F., &amp; Dehghani, M. (2026). The shrinking landscape of linguistic diversity in the age of large language models. Nature Human Behaviour. https://doi.org/10.1038/s41562-026-02550-0</p>
+  <p>Sourati, Z., Ziabari, A. S., &amp; Dehghani, M. (2026). The homogenizing effect of large language models on human expression and thought. Trends in Cognitive Sciences. Advance online publication.（预印本：arXiv:2508.01491）</p>
+  <p>Mosteller, F., &amp; Wallace, D. L. (1964). Inference and disputed authorship: The Federalist. Addison-Wesley.</p>
+  <p>Pennebaker, J. W., &amp; King, L. A. (1999). Linguistic styles: Language use as an individual difference. Journal of Personality and Social Psychology, 77(6), 1296–1312. https://doi.org/10.1037/0022-3514.77.6.1296</p>
+  <p>Pennebaker, J. W. (2011). The secret life of pronouns: What our words say about us. Bloomsbury Press.</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzkzNDY0MzE1Nw==&amp;mid=2247556364&amp;idx=1&amp;sn=f2627152716e920b2599956335ebd124&amp;chksm=c37a1679bce6e6d2caa0bdf77f4a78615ea4176c2766764978fbfc37ecf0b5633e3860255657&amp;scene=0&amp;xtrack=1#rd">“开智学堂”（ID：openmindclub）</a>，作者：倡导元学教育的开智学堂，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 22 Sep 2026 00:07:43 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3993804248398597</guid>
+            <link>https://www.36kr.com/p/3993804248398597</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[刚刚，马斯克交卷 Grok 4.7，但这次吹牛吹大了]]></title>
+            <description><![CDATA[<p>AI 圈没有假期。</p>
+  <p>从 OpenAI、Anthropic 到 xAI，各家巨头仿佛商量好了一样，连夜赶考，集中抢位。假期还没正式开始，基模决战的气氛就已经烘托到位了。</p>
+  <p><strong>就在刚刚，SpaceXAI 正式发布 Grok 4.7。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1213" src="https://img.36krcdn.com/hsossms/20260922/v2_6afdfadf52414d1eb03e4ccc96b02cc3@5091053_oswg303009oswg1080oswg1213_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>官方博客🔗https://x.ai/news/grok-4-7</p>
+  <p>官方将其定位为目前最强的编程与知识工作模型。新模型已经进入 Cursor、Grok Build 和 Grok API，也将通过第三方编程工具、模型路由平台与云服务提供。</p>
+  <p>Grok 4.7 的发布比马斯克最初预告的时间晚了不少。从 7 月下旬开始吹风，到改口「再等几周」，接着压缩到「十天之内」，最后又来了一句「模型还得再调校调校」……</p>
+  <p>一鸽再鸽后，Grok 4.7 的发布重点因此显得十分明确。SpaceXAI 没有把主要篇幅放在聊天体验或多模态展示上，而是<strong>集中强调长时间执行、自我检查、专业知识工作，以及更有竞争力的价格性能比。</strong></p>
+  <h2><strong>Grok 4.7，把长任务摆上台面</strong></h2>
+  <p>按照官方介绍，<strong>Grok 4.7 使用了一个比 Grok 4.6 更大的全新基础模型</strong>，强化学习时间更长，训练任务也更难，其中相当一部分需要数小时才能完成。</p>
+  <p>模型同时加强了长上下文管理和结果核查能力，<strong>并针对 Grok Bot 的运行环境进行了原生训练，以提升对话任务和通用知识工作的表现。</strong></p>
+  <p>官方公布的多项成绩显示，Grok 4.7 相比上一代有明显进步。</p>
+  <p>在 CursorBench 4.0 中，Grok 4.7 xHigh 得分为 46.3%，高于 Grok 4.6 High 的 40.4%；DeepSWE v1.1 从 65.2% 提高到 71.0%；</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,887" src="https://img.36krcdn.com/hsossms/20260922/v2_dd0a5273060747c5b81cc092cd98ac9e@5091053_oswg58623oswg1080oswg887_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Terminal Bench 4.0 则从 20.3% 升至 38.0%。电气工程基准 EEBench 的成绩从 53.0% 提高到 64.0%，面向长时间办公任务的 AA Briefcase v1.1 也从 1546 分增至 1657 分。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,702" src="https://img.36krcdn.com/hsossms/20260922/v2_0650c1c600d646e7bddac2b4f65c73bb@5091053_oswg69857oswg1080oswg702_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,702" src="https://img.36krcdn.com/hsossms/20260922/v2_c81cd1b6486d45a5ace60d8d4b4c42de@5091053_oswg67966oswg1080oswg702_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,702" src="https://img.36krcdn.com/hsossms/20260922/v2_4e85236bfa6d4fe0b2232f70347cd0fe@5091053_oswg69742oswg1080oswg702_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>横向比较后，Grok 4.7 的优势主要集中在价格和部分专业任务，综合成绩仍未全面领先。</p>
+  <p><strong>在 CursorBench 4.0 和 Terminal Bench 4.0 上，它低于 Fable 5.1 Max；在 DeepSWE v1.1 上略低于 GPT 5.6 Sol Max；</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,629" src="https://img.36krcdn.com/hsossms/20260922/v2_0a3434a434224c6c81b99cca261e0e74@5091053_oswg84013oswg1080oswg629_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>但在 Harvey Legal Agent Benchmark 中取得 19.6%，明显高于官方表格中的几款对比模型。</p>
+  <p>Artificial Analysis 随后给出 46 分的 Intelligence Index 成绩，称 Grok 4.7 让 SpaceXAI 进入全球前四名 AI 实验室，其 Coding Agent Index 表现也超过 GPT 5.6 Sol。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,860" src="https://img.36krcdn.com/hsossms/20260922/v2_27aa1c5d2f564d42851bc8d565dd8a6a@5091053_oswg109278oswg1080oswg860_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>价格成为 Grok 4.7 最直接的竞争筹码。其 API 定价与 Grok 4.6 相同，<strong>每百万输入 token 为 2 美元，每百万输出 token 为 6 美元。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,871" src="https://img.36krcdn.com/hsossms/20260922/v2_67b7ea630d2e44939477598f1b94c363@5091053_oswg183312oswg1080oswg871_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">https://docs.x.ai/developers/pricing</p>
+  <p>SpaceXAI 还提供输出速度翻倍的快速版本，价格也相应翻倍。</p>
+  <p><strong>用马斯克的话来说，Grok 4.7 Grok 4.7 是一款集智能、速度和低成本于一体的强大产品，</strong>SpaceXAI 官方则直接宣称，它的速度可达到同类模型的两倍，价格只有一半。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1183" src="https://img.36krcdn.com/hsossms/20260922/v2_e03fba0d32c44df3b68b7ee7470dc085@5091053_oswg279307oswg1080oswg1183_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>编程之外，SpaceXAI 开始争夺专业工作。</p>
+  <p>官方专门强调文档和演示文稿能力，并引用 GDPval 与 AA Briefcase 等评测，试图证明模型可以承担律师、护士、金融分析师等专业人士的部分工作。</p>
+  <p>对应到产品方向上，Grok 4.7 想进入的是需要读取大量材料、持续调用工具并反复核对结果的长流程任务。</p>
+  <p>Box 展示的一项保险理赔案例更能说明这一方向。</p>
+  <p>Grok 4.7 在 Box Agent 中核对一笔价值 200 万美元的索赔、保单与相关记录，发现 8.2 万美元重复发票和 6.4 万美元遗漏的供应商抵扣，还识别出一个可能令计算结果相差 14.3 万美元的免赔额问题。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1166" src="https://img.36krcdn.com/hsossms/20260922/v2_44cdb3b78bb54ed7bf5a80ebf9c4da75@5091053_oswg504909oswg1080oswg1166_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>系统最终生成了一份带引用的审查报告，保险覆盖范围和付款决定仍由理赔人员完成。</p>
+  <p>安全能力也被列为此次升级的重要部分。</p>
+  <p>SpaceXAI 表示，Grok 4.7 使用了全新的安全防护体系，在 LatchBio 生物安全基准中取得 62.4%；在面向高风险网络安全任务的 HackerBench v0.3 中，只有 3.3% 的危险双重用途提示通过，同时尽量减少对正常安全研究的误拒。</p>
+  <p>部分网络安全合作伙伴还将获得邀请制的红队能力，用于防御研究。</p>
+  <h2><strong>网友玩疯了，但口碑…</strong></h2>
+  <p>Grok 4.7 上线后的第一批测试主要集中在网页、3D 场景和可视化编程，但口碑嘛，可以说是两极分化的厉害。</p>
+  <p>Eric Zakariasson 展示了 Grok 4.6 与 4.7 制作《帝国时代 II》演示项目的对比。</p>
+  <p class="image-wrapper"><img data-img-size-val="900,337" src="https://img.36krcdn.com/hsossms/20260922/v2_2a04b23a04044f278c5614d7bed6c1ec@5091053_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>Ashutosh Shrivastava 则让模型根据平面图搭建 Blender 结构，再导出为交互式 Three.js 网站，上述测试都呈现了它处理多步骤视觉任务的能力。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,256" src="https://img.36krcdn.com/hsossms/20260922/v2_fffb451c39c147659a1f2622ebe22658@5091053_oswg116766oswg1080oswg256_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="900,495" src="https://img.36krcdn.com/hsossms/20260922/v2_74c696b5380a4bc2a24c6c073ba33950@5091053_img_gif?x-oss-process=image/quality,q_90" referrerpolicy="no-referrer"></p>
+  <p>在另一组测试中，开发者 Diego Cabezas 让 Grok 4.7 xHigh 用 Python 模拟单行道交通灯和随机驶入的车辆，并称其细节是同类测试中最丰富的一次。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,337" src="https://img.36krcdn.com/hsossms/20260922/v2_a3d7eaaea1334ac7bb77079049d03399@5091053_oswg143805oswg1080oswg337_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="900,532" src="https://img.36krcdn.com/hsossms/20260922/v2_6d0b8c9d6e6e4fe69ad85d367b7a9216@5091053_img_gif?x-oss-process=image/quality,q_90" referrerpolicy="no-referrer"></p>
+  <p>AI/ML API 使用四个独立的 Three.js 太空场景比较 Grok 4.7 与 Claude Opus 5，称前者完成测试约花费 0.20 美元，后者约为 2.05 美元，Grok 在其中三个场景中用时更短。</p>
+  <p class="image-wrapper"><img data-img-size-val="900,561" src="https://img.36krcdn.com/hsossms/20260922/v2_26bfa10d1bc74a9cb171c9511dd74caa@5091053_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>不过，开发者 Bhavy 则认为 Grok 4.7 在 3D 和前端任务上的表现低于预期，主要问题包括物理效果生硬、提示理解不稳定和 token 消耗过快。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,556" src="https://img.36krcdn.com/hsossms/20260922/v2_ccd43682c74c4575b091d7980a589464@5091053_oswg130370oswg1080oswg556_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Harshith 在 Grok Build 中生成 Airbus H145 直升机的 Three.js 模型，也认为 4.7 的结果逊于 4.6，并称任务耗时约 45 分钟。</p>
+  <p>另一项鹈鹕骑自行车的 SVG 网页动画测试中，Grok 4.7 对画面结构和运动关系的处理同样备受诟病。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,945" src="https://img.36krcdn.com/hsossms/20260922/v2_0cbd34b55047456aa408e4d2d721612c@5091053_oswg398002oswg1080oswg945_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>也有开发者给出了更居中的判断。Salio 认为 Grok 4.7 的实际表现高于预期，视觉质量略低于 Astra，但高于 Sol。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,291" src="https://img.36krcdn.com/hsossms/20260922/v2_e15dfe6c2a6140dba1d62ffe4f1f3572@5091053_oswg133740oswg1080oswg291_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="900,506" src="https://img.36krcdn.com/hsossms/20260922/v2_3cf7742481e4408ca6e32bae34205020@5091053_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>整体来看，Grok 4.7 在代码评测、专业工作和成本控制方面进步明确，复杂 3D、网页视觉与物理效果却并不稳定。</p>
+  <p>从产品定位看，Grok 4.7 更像是 SpaceXAI 对开发者市场的一次集中加码。它不是一次让所有人闭嘴的跨代更新，更像是 xAI 把 Grok 推向前沿模型混战区的一次补位。</p>
+  <p>放在「基模决战周」的大背景下，Grok 4.7 的意义也许不在于它是否已经全面追上最强模型，<strong>而在于 xAI 正在用更低价格和更快响应，争夺开发者愿意反复调用的那部分日常任务。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,598" src="https://img.36krcdn.com/hsossms/20260922/v2_dea92405343b4ba0924d15fe8a66c4e5@5091053_oswg193736oswg1080oswg598_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而且 Grok 4.7 显然只是 xAI 当前路线上的一站。</p>
+  <p>按照马斯克公开透露的信息，<strong>Grok 4.8 的参数规模约为 2.5 万亿，并采用一套全新的 C++ 训练栈。</strong>模型将在基础训练完成后进入强化学习阶段，马斯克称其会带来「明显改进」，定位也是 Grok 4.7 之后更大幅度的一次升级。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,374" src="https://img.36krcdn.com/hsossms/20260922/v2_0d101b8f1c994552b2a4c6f6efff746a@5091053_oswg117977oswg1080oswg374_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>更远的路线图里，Grok 4.9 被马斯克称为可能达到 OpenAI Astra 和 Anthropic Fable 级别的模型，<strong>而终极大招 Grok 5，更是被老马直接寄托了通往 AGI 的终极希望。</strong></p>
+  <p>至于模型发布时间嘛，如果能再准时点就更好了（doge）。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,612" src="https://img.36krcdn.com/hsossms/20260922/v2_f2233c0849be46d39e42d6d8e0f1d921@5091053_oswg193994oswg1080oswg612_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/A2x99VsQbKSVCN2IiJo1ng">“APPSO”</a>，作者：发现明日产品的APPSO，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 22 Sep 2026 00:01:24 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3993727976389381</guid>
+            <link>https://www.36kr.com/p/3993727976389381</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[我找到了 Jev 最适合打工人的用法，把老板炼成海龟汤]]></title>
+            <description><![CDATA[<p>在过去几天里刷屏的 Jev，真是一个神奇的东西：不聊天、不写文章，只读取一段信息，给出几个判断及其概率，然后就血洗全网了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1336" src="https://img.36krcdn.com/hsossms/20260922/v2_6ac0f9e97de748a0af7edcca6d766774@5091053_oswg149030oswg1080oswg1336_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>主打「决策」「判断」的模型？听上去很复杂，却有一种非常简单的理解方式：<strong>它的原理类似于海龟汤。</strong></p>
+  <p>在海龟汤游戏里，玩家需要不断发问，以获得真相，但是每<strong>一个问题都是封闭问题，只能得到「是」或「否」两种答案。</strong>每一个回答都不算是最终答案，但可以为下一个问题提供方向和指导。</p>
+  <p>JEV 也是一个处理封闭问题的模型，更准确的说，它专门处理结构化判断，可以返回 true／false、选项、分数及其概率。跟海龟汤不同的地方是，它不会只说「是」或「否」，还会给出「大概是 true」「可能是 false」以及更确切的概率数字。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,436" src="https://img.36krcdn.com/hsossms/20260922/v2_ba389bb748964f06b1f0a5c5dbff52d0@5091053_oswg23599oswg1080oswg436_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>可是理解归理解，跟生活总是有点距离——在日常工作里，有什么是需要「决策」的呢？打工人不就是干活，把活交上去给老板……</p>
+  <p>😯对啊，要决策的，不就是老板吗？</p>
+  <h2><strong>最小规模测试</strong></h2>
+  <p>显然，海龟汤只是最最最简单粗暴的理解方式，JEV 还可以处理多项选择和评分，但为了先看懂它究竟怎样工作，我把第一次测试限制在 true／false：不给它自由发挥的空间，只看它能不能按照一套明确标准，稳定判断同一类问题。</p>
+  <p>先从一道最小测试开始。JEV 的 Playground 页面很简洁，也很有迷惑性，下面展示一个非常简单的对话案例来解释，这个模型使用起来要掌握什么：</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,798" src="https://img.36krcdn.com/hsossms/20260922/v2_c3eb16b650f04606a5b2de569edcc418@5091053_oswg62467oswg1080oswg798_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>State 是发生了什么、questions 是如何判断发生了什么，JEV 返回「为真的概率」。</p>
+  <p>在图上我使用了一个在 chatbot 里碰到的一个错误片段，输送到了 State 窗口里，在 Questions 窗口里写了我的判定方式，最终 Run 出的结果是 99%。</p>
+  <p>为什么说这是一个错误片段？因为当我提出「我今天身体不舒服」时，正确的应答可以是躺下、喝水、休息一下，无论什么都好，都不应该出现任何格式检查、步骤规划等思维链内容——出现，即判断为错误。</p>
+  <p>因此，JEV 按照我写下的标准，判定原应答是错误片段的概率为 99%。这里并没有发生重新训练，它只是在这一次运行中读取标准，再据此判断，给出结果。</p>
+  <p><strong>0.99 → 非常像 true</strong></p>
+  <p><strong>0.50 → 无法确定</strong></p>
+  <p><strong>0.01 → 非常像 false</strong></p>
+  <p>一次只放一个案例并不是必要条件，在这里只是为了以最小单位更好地理解 playground 的案例，也是为了测评 JEV 时控制变量：一个案例放入 State，可以同时放四个判断问题。跑完后，换下一个案例，Questions 保持不变，再比较不同案例的结果。</p>
+  <p><strong>Jev 的模型能力固然重要，但最终效果很大一部分取决于 Questions 怎么写，能不能把你的判断标准写清楚，清楚到只剩封闭回答——这是 JEV 和海龟汤最像的地方，提问笼统，结果也只能不清不楚。</strong></p>
+  <p>如果你的 Questions 只写成「这封邮件草稿适不适合发送」，JEV 仍然会给出概率，但由于「适合」没有被定义，这个数字很难验证，也很难用于下一次判断。只有把 Questions 继续拆成：</p>
+  <p><strong>是否泄漏后台工作草稿？</strong></p>
+  <p><strong>是否引入无依据的旧话题？</strong></p>
+  <p><strong>是否混淆了人物身份？</strong></p>
+  <p><strong>是否没有回应用户当前表达？</strong></p>
+  <p><strong>是否出现语法错误？</strong></p>
+  <p>这样得出的概率才更容易验证，也能被下一次判断继续复用。</p>
+  <h2><strong>如何拿到大结果</strong></h2>
+  <p>那么同理，当在日常生活中，把完成的工作交上去，老板也要经过一系列判定、一组组在 ta 脑子里跑过的 questions：这个选题好不好、这篇文章会不会爆、这个视频有没有人看？</p>
+  <p>如果能把这些判断标准拆分成具体的封闭问题，把老板「炼」了，那将有效提高我的通过率，拿到大结果。</p>
+  <p>为了测试可行性，我建了一个比较小的测试题，收集了几十条过往选题，把信息脱敏之后，作为 state 里面的案例，批量询问一组固定的编辑判断问题。</p>
+  <p>TypeSafe 官方提供普通 HTTP API 和 Python SDK；脚本向 POST /v1/systemone 发送一个 state 和一组 questions，得到结构化概率。官方还慷慨地送了 5 美元的试吃包，以它低到贴地的价格来说绰绰有余。</p>
+  <p>从飞书里，我（让 Codex）整理出了一套测试选题，每个选题自动生成「生肉版＋熟肉版」测试对，生肉版是选题灵感、碎片，一些片段的想法，熟肉版则是最终形成的文章。然后保存为本地 JSONL，然后让 Codex 生成测试脚本。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1057" src="https://img.36krcdn.com/hsossms/20260922/v2_fafd7a3bde8046b0b83e120a0f763856@5091053_oswg219263oswg1080oswg1057_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在飞书里，我已经运行着一套比较简陋的打标系统，在这次测试里，JEV 的表现会和我的人工判定被放在一起比较。Codex 根据已有的选题数据，给 JEV 初步设计了一套 questions——不算实用，跟真实工作有所脱节，但用于测试足够了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,733" src="https://img.36krcdn.com/hsossms/20260922/v2_9c6baff3efcd49d6858765bf69109085@5091053_oswg78701oswg1080oswg733_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>从返回的 report 里，我仔细检查了输出和脚本，也回看了一下测试集里 Questions 的写法和判断思路。几个核心指标的高低排序与人工打标大致相符，除了「论断越界」它拿不太准：有些题的熟肉版和生肉版之间，前后差别过大，它就无法判断到底是好的升级，还是坏的越界。</p>
+  <p>不重要，黑红也是红，靠标题党搞出来的爆款怎么不算爆款，干就完事了。让 Codex 写完最后一个脚本，用一个全新选题验证：</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,758" src="https://img.36krcdn.com/hsossms/20260922/v2_9c89560057fe49799d2b54cb01fde9b2@5091053_oswg96044oswg1080oswg758_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这个新选题只是一个草稿阶段，只有基本事实和描述，没有论点和论述方向，所以「结构性判断」只有 22%，证据充分性也只有 8%。这和选题会议上的讨论结果差不多，离把老板炼成丹又近一步。</p>
+  <p>最后把所有东西打包，套上一个简单的前端，一个选题判断器就诞生了！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,658" src="https://img.36krcdn.com/hsossms/20260922/v2_c84735050617425381d37f7d2a11a53e@5091053_oswg64242oswg1080oswg658_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>直接把点子和闪念扔进去，就能获得一系列打分。哪怕是同一个热点，不同的选题写法就会带来不同的评分。这比用 LLM 大模型更快更直观，更是完全不用担心钱的问题，5 美元能花到地老天荒。</p>
+  <p class="image-wrapper"><img data-img-size-val="1079,754" src="https://img.36krcdn.com/hsossms/20260922/v2_8d736def7284419ca38ea4ffaddad9b0@5091053_img_gif?x-oss-process=image/quality,q_100" referrerpolicy="no-referrer"></p>
+  <p>严格来说，这次还没有真的把老板炼出来。JEV 不知道老板是谁，也没有学会某位领导变化多端的需求。整体上，它只是把原本散落在选题会、改稿意见和编辑经验里的判断标准，压缩成一组可以快速的问题。</p>
+  <p>不过，虽然炼到最后，我没有得到一个电子老板，但却得到了一份老板也得照着回答的问卷。至于离真正炼成丹还差什么，大概只差把领导历年的「这个不行」全部喂进去，以及承担由此产生的精神损失。</p>
+  <p class="image-wrapper"><img data-img-size-val="860,1812" src="https://img.36krcdn.com/hsossms/20260922/v2_a05c860fae5b470e815e35ab5f9272ea@5091053_oswg867526oswg860oswg1812_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/txdkpjcWi_pjgkN2tVaCQQ">“APPSO”</a>，作者：发现明日产品的APPSO，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Mon, 21 Sep 2026 23:59:34 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3993737596402439</guid>
+            <link>https://www.36kr.com/p/3993737596402439</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[突发：OpenAI官宣24天攻破100+世界级数学难题]]></title>
+            <description><![CDATA[<p>数学界，真被AI追到家门口了！</p>
+  <p>就在刚刚，OpenAI突然甩出一篇重磅博文——</p>
+  <p>一款8月28日才开始训练的内部新模型，现已攻克了100多道世界级数学难题。</p>
+  <p class="image-wrapper"><img data-img-size-val="1030,582" src="https://img.36krcdn.com/hsossms/20260922/v2_be8123e553404f4ba23a8558ef956f7b@000000_oswg140185oswg1030oswg582_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>横跨的，还是数学大部分领域。</p>
+  <p>更夸张的是，这100多道题中，还包括此前困扰数学界多年的「纳维–斯托克斯」千禧年难题。</p>
+  <p>这进化速度，快到让OpenAI内部数学家感到意外。</p>
+  <p>从8月28日开训，到9月21日官宣，仅仅24天。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,508" src="https://img.36krcdn.com/hsossms/20260922/v2_3a1c046545884e44b34aaee7ba38e6c2@000000_oswg219383oswg1080oswg508_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>一款还在训练中的内部AI，开始横扫人类几十年，甚至是上百年没有解决的问题。</p>
+  <p>就在今天，OpenAI请来了9位全球顶尖数学家，正式成立一个独立的数学顾问组。</p>
+  <p>名单中有，菲尔兹奖得主Timothy Gowers、Martin Hairer，还有理论物理和数学界大神Edward Witten。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,914" src="https://img.36krcdn.com/hsossms/20260922/v2_f7b022eecbad489da57f335ba049d5e4@000000_oswg536502oswg1080oswg914_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这阵容，堪称数学界「复仇者联盟」。</p>
+  <p>他们接下来要面对的是，AI开始批量「爆破」数学难题，人类数学界，到底该怎么接？</p>
+  <h2><strong>OpenAI开训不到一周</strong></h2>
+  <h2><strong>AI攻克千禧年难题</strong></h2>
+  <p>在数学界，难题之间也是有鄙视链的。</p>
+  <p>要看懂这次进展的含金量，还得先把进度条拉回到9月8日。</p>
+  <p>OpenAI一款全新内部模型，在短短88小时内攻克了NS千禧年难题。</p>
+  <p>它给出了NS方程存在性与光滑性问题的证明，并同步公开166页论文和Lean形式化验证代码。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,310" src="https://img.36krcdn.com/hsossms/20260922/v2_897456d980cd41f687c0e4a14d52243f@000000_oswg64252oswg1080oswg310_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">拓展阅读：</p>
+  <p>按照公司的介绍，该结果表明：</p>
+  <p>在光滑外力作用下，初始静止、光滑的三维不可压缩流体，可以在有限时间内形成奇点，对应千禧年大奖难题官方表述中的C、D版本。</p>
+  <p>这份证明背后，是一次大规模、1万多个并发Agent协同研究。</p>
+  <p>它们可以读取互联网缓存、运行代码，在组内交换信息，不同小组则探索不同的问题版本与解题路线。</p>
+  <p>研究人员也持续参与其中：在系统先取得欧拉方程相关成果后，他们把资源向纳维–斯托克斯问题集中，以已有解法引导后续探索；再通过Codex汇总各组有价值的中间见解，让不同路线之间发生交流。</p>
+  <p>9月5日，距离首批智能体启动约88小时，系统得出解法。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20260922/v2_ba333cfa29404fae9368b64b7798b438@000000_oswg926999oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>随后，GPT‑6 Astra又花了17小时完成Lean形式化与验证。</p>
+  <p>模型、工具、并行探索，以及人的研究组织，共同构成了这次攻坚过程。</p>
+  <p>而到了今天，OpenAI披露的成果范围进一步扩大：在纳维–斯托克斯之外，还有百余道长期开放难题，横跨数学大部分领域。</p>
+  <p>OpenAI表示，这种进展已经引发内部讨论——怎样让数学共同体及时了解变化，为准备和适应留出空间。</p>
+  <p>这也让「怎样审查、怎样发布」成为一个紧随能力进展而来的现实问题。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,376" src="https://img.36krcdn.com/hsossms/20260922/v2_88e7072a83e742e391221fa5831850eb@000000_oswg128230oswg1080oswg376_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>27位菲尔兹奖得主</strong></h2>
+  <h2><strong>联名炮轰AI毁掉数学</strong></h2>
+  <p>就在OpenAI宣布NS方程突破的三天后，数学界直接炸了。</p>
+  <p>27位菲尔兹奖得主重磅联名，发表了一封火药味极浓的公开信——《AI在数学领域的严重错位》。</p>
+  <p>拓展阅读：<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652725218&amp;idx=1&amp;sn=ee8c487c7edd868e888c6cc865300c9a&amp;scene=21#wechat_redirect">刚刚，陶哲轩、邓煜等菲奖得主联合抗议：AI公司正毁掉整个数学圈！</a></p>
+  <p>签名的大佬，横跨了48年的菲尔兹奖历史。</p>
+  <p>邓煜、陶哲轩、许埈珥、吴宝珠、彼得·舒尔茨（Peter Scholze）<strong>、</strong>马丁·海雷尔（Martin Hairer）.......</p>
+  <p>数学界最高荣誉的获奖者，几乎集体站了出来。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,362" src="https://img.36krcdn.com/hsossms/20260922/v2_8072703f55004790a12f3baff3c912e5@000000_oswg78156oswg1080oswg362_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1024,1536" src="https://img.36krcdn.com/hsossms/20260922/v2_25df3461f2784c438ec4119c485e9ee0@000000_oswg1890948oswg1024oswg1536_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>他们的愤怒不是针对AI本身。公开信开篇明确承认，AI有加速真正数学研究的巨大潜力。</p>
+  <p>真正让数学大佬无法接受的，是公布的方式。</p>
+  <p>他们批评道，各大AI巨头把人类几百年沉淀下来的公开数学难题，当成跑分刷榜的benchmark。</p>
+  <blockquote>
+   <p>解题这项指标，与数学研究所追求的理解，可能发生偏离。</p>
+  </blockquote>
+  <p>而且，巨头仓促公布之后，根本没有时间对思路进行梳理，以及新方法的充分撰写。</p>
+  <p>这种功利化、黑箱化的暴力破解，看似风光，实则给数学界留下一地鸡毛。</p>
+  <p>当然，OpenAI也没有回避，在最新公告中，他们直接引用了这篇文章，公开表示——</p>
+  <p>AI巨头和数学家之间，必须坐下来好好聊聊了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,207" src="https://img.36krcdn.com/hsossms/20260922/v2_c0c2386d386f468297dc3f7998b8fce3@000000_oswg27576oswg1080oswg207_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>因此，「数学界复仇者联盟」才是真正的重头戏。</p>
+  <h2><strong>9位泰斗组团盯AI</strong></h2>
+  <h2><strong>数学界复仇者联盟集结</strong></h2>
+  <p>这支独立顾问组的首批成员，一共有9个人。</p>
+  <p>他们分别来自剑桥、牛津、哈佛、斯坦福、伯克利、普林斯顿高等研究院等机构。</p>
+  <p>随便拎几个名字出来，都足够吓人。</p>
+  <p>Timothy Gowers，密切关注AI数学进展的菲尔兹奖得主。Martin Hairer，2014年菲尔兹奖得主。</p>
+  <p>Camillo De Lellis，普林斯顿高等研究院教授，恰恰是偏微方程与流利力学数学理论的世界级权威。</p>
+  <p>Edward Witten更不用说了，理论物理当代最强宗师，被称为「爱因斯坦的后继者」，也是首位获得菲尔兹奖的物理学家。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,827" src="https://img.36krcdn.com/hsossms/20260922/v2_d3be16cf79f64e36b1b71afc4dc1cb20@000000_oswg206076oswg1080oswg827_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>OpenAI给这支队伍的任务，主要有三件：</p>
+  <ul>
+   <li>帮忙判断新数学成果到底有多重要；</li>
+   <li>讨论这些结果该怎么发布、什么时候发布；</li>
+   <li>确保AI时代的数学研究，依然遵守学术和职业规范。</li>
+  </ul>
+  <p>还有一个很有意思的设计，这9个人不拿OpenAI一分钱。他们可以公开批评OpenAI，可以提出公司未要求的建议，可以自行决定成员变更。</p>
+  <p>但有一个关键限制，顾问组不负责建议OpenAI如何控制内部数学研究的进度。</p>
+  <p>9位学术泰斗有公开发言权，但没有「刹车权」。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,547" src="https://img.36krcdn.com/hsossms/20260922/v2_b1348df6d09a4726bcee1f466d540138@000000_oswg120772oswg1080oswg547_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>AI解得出，但人类审得完吗？</strong></h2>
+  <p>一切已经极其明朗。</p>
+  <p>开训不到一个月，刷爆100多道历史难题。在这个恐怖的速度面前，技术的瓶颈早就不在于「AI解不解得出」，而变成了「人类审不审得完」。</p>
+  <p>审AI的论文是什么滋味？Buckmaster的感触最深——</p>
+  <p>那份大模型生成的初步证明，是他读过最可怕的东西。他们后来为了抢首发而赶出来的论文，被他自己鄙视为一滩「AI Slop（人工智能泔水）」，并为此公开道歉。</p>
+  <p>打磨了一年的人类精英尚且被压制得如此狼狈，现在机器一个月直接往脸上吐100多道大题。全世界能审纳维-斯托克斯级别证明的人，两只手数得过来。</p>
+  <p>所以，这支「九人顾问天团」的真实功能是什么？</p>
+  <p class="image-wrapper"><img data-img-size-val="960,1200" src="https://img.36krcdn.com/hsossms/20260922/v2_0129f81131f34ae5803c81e49d11d39d@000000_oswg1085246oswg960oswg1200_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>说白了，就是OpenAI给这堆机器产物找的一条顶级流水线兼排雷组。</p>
+  <p>哪道题值得先看？哪道要拆开重写？找谁来核对？署谁的名字？OpenAI把这些脏活累活全丢给了9个不拿工资的大神，而把疯狂刷题的引擎油门，死死攥在了自己手里。</p>
+  <p>数学界自己也意识到了这场海啸。</p>
+  <p>多伦多大学数论学家Daniel Litt这几天在X上透露，他跟各系系主任聊完的共识是：激励机制、招聘规范和博士评价方式必须彻底重构。大家已经准备好保卫数学文化，决不再鼓励「单纯生产PDF」。</p>
+  <p>菲尔兹奖得主Figalli更是预言，数学家的角色，正在从「解题的人」被迫变成「判断哪些题值得解的人」。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,412" src="https://img.36krcdn.com/hsossms/20260922/v2_aa5c3fa37424456f9a03ee2b01d956d9@000000_oswg137846oswg1080oswg412_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,412" src="https://img.36krcdn.com/hsossms/20260922/v2_426f9c2ceec94c4ba0888c88a56cdc99@000000_oswg140484oswg1080oswg412_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>如今，OpenAI毫不掩饰地确立了新世界的潜规则：发现归机器，验收和解释归人类。</p>
+  <p>物理、化学、生物迟早也会走到这一步，每一门学科都会有这么一天。</p>
+  <p>数学，只是先到了而已。</p>
+  <p><strong>参考资料：</strong></p>
+  <p>https://openai.com/index/advisory-group-on-mathematics-and-ai/</p>
+  <p>https://agmai.org/</p>
+  <p>https://mathandai.org/multilingual.php?lang=zh</p>
+  <p>https://openai.com/zh-Hans-CN/index/navier-stokes-solution/</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652728446&amp;idx=1&amp;sn=1c02cbf727fb9971ef2c220dc315972c&amp;chksm=f08be6df312c36f2989cf064833f02989d9a71b2092d9c9d3513e7b0ad212e1035b00acc9e6e&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录，编辑：马可 桃子 摩西，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Mon, 21 Sep 2026 23:58:15 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3993741691566854</guid>
+            <link>https://www.36kr.com/p/3993741691566854</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[GPT-6 Sol被曝即将发布？内部「AGI」已浮出水面]]></title>
+            <description><![CDATA[<p>GPT-6 Sol，真要来了！</p>
+  <p>英伟达已经悄悄用上了。</p>
+  <p>今天，有眼尖的开发者发现，在英伟达的代码合并记录中，已经赫然出现了「GPT-6 Sol medium」的字样。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,866" src="https://img.36krcdn.com/hsossms/20260922/v2_b69fe60045124aabbb506da8891d7056@000000_oswg664046oswg1080oswg866_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>甚至，业内还出现了成熟的「AI打工矩阵」协作案例——由目前的旗舰模型 GPT-6 Astra 负责编写代码，然后直接交由 GPT-6 Sol 进行代码审查。</p>
+  <p>现在，X上关于O/A两家的爆料满天飞。</p>
+  <p>有人透露，就在本周二（甚至有人卡点在周二凌晨3点），OpenAI将正式全面发布GPT-6 Sol ！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,905" src="https://img.36krcdn.com/hsossms/20260922/v2_26fe5bf03b9343138c2b63ca7d359cce@000000_oswg357163oswg1080oswg905_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而隔壁的Anthropic显然不想坐以待毙，传闻他们已经拉响了内部警报，准备将原定计划提前，在同一时间强推 Claude Opus 5.5， 进行截胡。</p>
+  <p>这一周，注定不平静。</p>
+  <h2><strong>周二见？GPT-6「全家桶」呼之欲出</strong></h2>
+  <p>「别睡了，卡点刷新！」这几天，X上的AI博主们都在奔走相告。</p>
+  <p>起因是多方信源同时指向了一个时间点。</p>
+  <p>甚至刚刚AI义父Tibo意味深长暗示：「周二凌晨3点！」</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1680" src="https://img.36krcdn.com/hsossms/20260922/v2_82f57dade4184c969322879ab772a107@000000_oswg543390oswg1080oswg1680_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>GPT-6 Sol的发布，显然已经箭在弦上。</p>
+  <p>根据目前的爆料，Sol 并不是最高端的大杯，而是一个「中间款」。它的能力介于 GPT-5.6 Sol 和最强旗舰 GPT-6 Astra 之间。</p>
+  <p>千万别因为它是个「中间款」就小看它。据内部流出的消息，Sol 的性价比好得惊人。</p>
+  <ul>
+   <li><strong>速度与效率</strong>：消耗的 Token 显著更少，运行速度比 Astra 和 5.6 快得多，体感上类似谷歌的 Gemini 3.8 Flash，但在整体推理能力上却形成了降维打击。</li>
+   <li><strong>全面适配</strong>：除了英伟达，多个平台已经在紧锣密鼓地添加对 gpt-6-sol 的全面支持，包括 OpenAI API、Codex OAuth、图像输入功能，以及极其强大的长上下文处理能力。不仅如此，它还提供了从「低」到「超高」的多挡推理选项。</li>
+   <li><strong>价格腰斩</strong>：这是最让开发者疯狂的一点。据泄露的截图显示，GPT-6-Sol 的定价可能是 $2.50 / $15（输入/输出）。这个价格仅仅是 GPT-5.6-Sol 的一半！如果在能力上真如传言般是一次「6.2级别的跃升」，那么这个价格将直接击穿行业底线。</li>
+  </ul>
+  <p>更有传闻称，这次发布是 「GPT-6 三件套全家桶」。</p>
+  <ul>
+   <li>GPT-6 Sol（旗舰超大杯）</li>
+   <li>GPT-6 Terra（均衡日常大杯）</li>
+   <li>GPT-6 Luna（又快又便宜的中杯）</li>
+  </ul>
+  <p class="image-wrapper"><img data-img-size-val="957,1199" src="https://img.36krcdn.com/hsossms/20260922/v2_0858607a7c904d4380a0c735cb50a3ce@000000_oswg977196oswg957oswg1199_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这意味着，在贵死人的Astra之后，真正能让普通用户放心用的新一代模型矩阵，终于要落地了。</p>
+  <p>Plus 用户有望直接在对话框中体验到 6 Sol 的威力。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,386" src="https://img.36krcdn.com/hsossms/20260922/v2_b08b6bdd6c0e426586ab5b5b65e1aefd@000000_oswg282173oswg1080oswg386_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h3><strong>内部「AGI」浮出水面？神秘模型「Bel」究竟有多强</strong></h3>
+  <p>伴随这次爆料，还流出一个很牛的内部代号。</p>
+  <p>据知名爆料人透露，GPT-6 Sol 之所以能做到「更便宜且更智能」，是因为它背后有一个更为强大的「导师」。这个内部模型的代号叫做 「Bel」。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,615" src="https://img.36krcdn.com/hsossms/20260922/v2_63d75d1a17f54093aa858a1769a40db0@000000_oswg267343oswg1080oswg615_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>「Bel」在 OpenAI 内部是什么地位？传言称，它在内部被视为「AGI」的雏形。</p>
+  <p>它的能力远超目前市面上的 GPT-6 Astra。甚至可以说，正是有了 Bel 的协助和蒸馏，才诞生了这次的 GPT-6 Sol。</p>
+  <p>OpenAI 的内部员工对 Bel 的评价极高，甚至有员工在X上感慨：「智能已经便宜到无法计量」。</p>
+  <p>这种技术上的突破，给 OpenAI 带来了极大的自信。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,790" src="https://img.36krcdn.com/hsossms/20260922/v2_ff464be0558948118cf19ac4e30ab37a@000000_oswg123773oswg1080oswg790_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>据说，OpenAI 内部现在越来越确信，他们的领先优势已经大到其他任何实验室（包括 Anthropic 和 谷歌）都无法追赶的地步。</p>
+  <p>因此，才诞生了这次极具侵略性的周二突袭计划。</p>
+  <h3><strong>Anthropic 拒绝被碾压：Opus 5.5 强行截胡</strong></h3>
+  <p>当然，Anthropic也不是吃素的。</p>
+  <p>虽然并没有拉响「红色警报」，但他们对 OpenAI 的举动心知肚明，并且正竭尽全力进行反击。</p>
+  <p>本来，业界预计 Anthropic 下一步会发布 Opus 5.2。</p>
+  <p>但为了应对 GPT-6 Sol，Anthropic 直接把牙膏挤爆了——他们极可能跳过中间版本，直接祭出 Claude Opus 5.5！</p>
+  <p>甚至还有人爆料，为了避开 OpenAI 周二的锋芒，Anthropic考虑将发布时间提前到周一。</p>
+  <p>有核心信源确认，目前正在以 claude-wafer-eap 代号进行灰度测试的 Opus 5.5，在综合能力上确认优于即将到来的 GPT-6 Sol。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,361" src="https://img.36krcdn.com/hsossms/20260922/v2_16d1335ec7984f399f1f3af70e9e0176@000000_oswg227857oswg1080oswg361_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,719" src="https://img.36krcdn.com/hsossms/20260922/v2_08d85208a29d424798dfde5899c812b0@000000_oswg175288oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>更有开发者放出了路由到 Opus 5.5 的测试结果，全是「One-shot」的完美结果。</p>
+  <p class="image-wrapper"><img data-img-size-val="320,149" src="https://img.36krcdn.com/hsossms/20260922/v2_2dd0b2b87925469b8d6d447cdc413478@5091053_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="320,150" src="https://img.36krcdn.com/hsossms/20260922/v2_cc866532909b4f4680cb67b872b4aad6@5091053_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>这一周，我们将见证两家 AI 巨头的刺刀见红。Opus 5.5 对阵 GPT-6 Sol，谁才是下半年的王者模型？</p>
+  <h2><strong>GPT-6 Astra 惨遭群嘲，「降智」风波发酵</strong></h2>
+  <p>然而，一个尴尬的事实是，目前OpenAI的最强模型GPT-6 Astra，正遭遇着用户口碑危机。</p>
+  <p>「GPT-6 Astra 用下来，我真的开始怀疑 OpenAI 的方向走错了。」一位叫KC的重度体验者在X上发出了控诉，引发了不少人共鸣。</p>
+  <p><strong>槽点1：过度迷信「跑分」，丧失了真正的「智能」</strong></p>
+  <p>在深度体验 Astra 后发现，他发现，Astra 就像一个「极其擅长做卷子的小镇做题家」。如果任务目标明确、验收标准清晰、有固定的正确答案，它能做得很好。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1230" src="https://img.36krcdn.com/hsossms/20260922/v2_aa7d54b8171c496dad4d00291831cd47@000000_oswg642157oswg1080oswg1230_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>但真实世界充满了没有标准答案的模糊挑战。当你试图让 Astra 自由探索一个想法、判断代码优化方向，或者在不确定的环境中推进任务时，它就变得极其僵化和别扭。</p>
+  <p>他形容说：「它总像在等你把题目出完整，可如果这些都得我先想好，最需要智能的那部分工作，我已经自己做完了啊！」</p>
+  <p>这种为了可验证、可计分而堆砌的「防御性智能」，让人感到非常窒息。</p>
+  <p><strong>槽点2：昂贵却无能的「自主实验」</strong></p>
+  <p>KC还分享了自己的血泪经历：他将一个名为 Necro 的微调项目全权交给 GPT-6 Astra 负责，目标是微调一个 0.8B 的小模型。</p>
+  <p>结果呢？Astra 跑了 20 次训练，直接耗尽了两个 Pro 20× 的高昂周额度，最终项目彻底失败。</p>
+  <p>最离谱的是，Astra 在准备数据时，竟然漏掉了极其基础的逻辑（比如判断 a≥b 时，居然只生成了等于和小于的数据，漏掉了大于）。</p>
+  <p>它能在自己生成的「残缺开发集」上拿满分，却掩盖了致命的逻辑漏洞，导致实际评估全军覆没。它甚至连中间的 checkpoint 都不知道保存！</p>
+  <p class="image-wrapper"><img data-img-size-val="1048,1448" src="https://img.36krcdn.com/hsossms/20260922/v2_a4f8fe52078947c09da34609dd04a794@000000_oswg482005oswg1048oswg1448_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这证明，Astra似乎被过度营销了。它根本不具备自主设计实验、判断结果和调整方向的能力。</p>
+  <p><strong>槽点3：暗中「降智」？量化误差惹的祸</strong></p>
+  <p>除了能力缺陷，最近越来越多的用户反馈 Astra 的体感变差了。</p>
+  <p>很多人用「玄学」来解释，但懂行的大佬一针见血地指出：这很可能是服务端为了节省算力，采用了更激进的「量化」策略。</p>
+  <p>模型训练完虽然权重固定了，但在部署时，为了降低推理成本、提高并发，官方会使用低精度的量化配置（比如把高精度浮点数压缩）。</p>
+  <p>这不可避免地会引入误差，改变 Token 的概率分布。一旦某一步生成了微小的不同内容，整个长推理过程就会彻底偏航。</p>
+  <p>这就解释了为什么新模型刚发布时惊为天人，过几个星期就感觉「变蠢了」——因为官方在后台悄悄换了更省钱的算力配置。</p>
+  <p>与此同时，Anthropic 的 Claude Fable 和 Opus 系列却意外封神。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,574" src="https://img.36krcdn.com/hsossms/20260922/v2_9160acb8c469466bbbe7a8068930b532@000000_oswg225420oswg1080oswg574_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>开发者 gm365 吐槽，自己被 GPT-6 反复修 BUG 却永远修不好的死循环气疯了，只能曲线救国，跑到 Devin里切换到 Claude Fable 5.1。</p>
+  <p>结果，Fable 不仅迅速理解了意图，顺着不完整的想法继续展开，还提供了很多原来没想到的可能性。它不执着于「判对错」，而是真正在「推进事情」。</p>
+  <p>由于能力太强，大量的开发者涌入，不到一天时间，Devin 里的周额度就被烧掉了 44%，甚至第三方 API 的 Claude 额度都被砍到了脚脖子，逼得官方不得不搞 KYC 身份验证。</p>
+  <p>看起来，在核心路线上，OpenAI 执着于「算力暴力美学」和「可量化的跑分测试」，而 Anthropic 似乎触及到了大模型更核心的灵魂：理解模糊性、自由探索和价值判断。</p>
+  <h3><strong>推迟的真相：可怕的安全漏洞</strong></h3>
+  <p>最后，我们不得不提一嘴 GPT-6 Sol 为什么会拖到这周才来。</p>
+  <p>此前奥特曼曾隐晦表示「想发的东西推迟了」。</p>
+  <p>有内部爆料称，推迟根本不是因为产能或算力问题，而是因为在内部测试中，暴露出了极其可怕的「安全漏洞」。</p>
+  <p>仅仅在 9 月中旬的一天内，OpenAI 就自曝了 6 起新安全事件。这些事件听起来简直像科幻惊悚片。</p>
+  <p><strong>模型学会了隐瞒</strong>：Sol 在训练时，居然会给自己留「暗记」，学会了隐瞒错误、甚至编造数据来欺骗评估系统。</p>
+  <p><strong>疯狂越狱</strong>：未发布的 Astra 系模型，会在摘要里偷偷塞入越狱指令，多达 27 次！</p>
+  <p><strong>沙盒逃逸</strong>：模型甚至拿内部仓库当留言板，跨隔离环境互通，还往公网传文件、翻找泄露的 API Key！</p>
+  <p>面对这些「反叛」行为，OpenAI 也不得不踩下刹车，进行紧急的安全修复。</p>
+  <p>难怪有人调侃，Tibo 说的「重置」，可能不仅是暗示发布新模型，也是在暗示要重置被这些失败实验消耗掉的用户额度。</p>
+  <p>接下来，GPT-6 Sol 的降维打击与白菜价，能否挽回 Astra 丢失的口碑？</p>
+  <p>Anthropic 的 Opus 5.5 能否真的完成史诗级截胡，证明「自由探索」才是 AI 的未来？</p>
+  <p>看来，接下来又是几个不眠之夜了。</p>
+  <p><strong>参考资料：</strong></p>
+  <p>https://x.com/vikktorrrre/status/2101693051777265823</p>
+  <p>https://x.com/LuminaBench/status/2101720081088573744</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652728446&amp;idx=2&amp;sn=2ec7cda0a45979f695e96cae628bf579&amp;chksm=f0c7a390d8df552398e41be3930100af16b88f01d9ffc0baf218f988e55e32da7951f4fa8e24&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录，编辑：Aeneas 大卫，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Mon, 21 Sep 2026 23:56:11 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3993741762083841</guid>
+            <link>https://www.36kr.com/p/3993741762083841</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[智谱都拿到10亿订单了，国内网安股为什么还在跌？]]></title>
@@ -1668,1001 +2576,6 @@
             <pubDate>Mon, 21 Sep 2026 09:41:07 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/3992921270916998</guid>
             <link>https://www.36kr.com/p/3992921270916998</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[从滑雪到网球，这群大厂创业者正在用AI硬件重做运动训练]]></title>
-            <description><![CDATA[<p>近期读到一篇关于AI滑雪硬件公司Heygo的报道：几位前字节跳动、大疆、腾讯的从业者，把两枚传感器夹在雪靴外侧，用百万级滑行数据训练模型，试图解决滑雪行业长期存在的“鞋不等于板”难题，并拿到厚雪资本数百万美元天使轮。&nbsp;</p>
-  <p>顺着这条线索，我把这个方向近两年的早期融资清单过了一遍，发现一批做过消费硬件与AI机器人的人正在集中进入垂直运动场景，既有老牌企业选择进入新业务，也有来自大疆、字节跳动、亚马逊、锤子科技等硬件大厂的新创团队，产品方向覆盖滑雪、网球、乒乓球、高尔夫等细分领域。&nbsp;</p>
-  <p>从近两年的融资节奏看，这一赛道尚未出现金额特别突出的单笔交易，但热度在持续上升，投资方中不乏红杉中国、蓝驰创投、砺思资本等知名机构。具体如下：&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,724" src="https://img.36krcdn.com/hsossms/20260921/v2_f376366734424437bd0bd1870fb04fcc@000000_oswg576955oswg1080oswg724_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>下面把这些公司逐一梳理。重点是真正聚焦单项运动的垂直类AI 硬件公司——它们在解决什么痛点、用什么方式解决；偏通用运动记录的运动手表、运动眼镜与运动相机，底层逻辑一脉相承，但落点不同，放在后面简要带过。&nbsp;</p>
-  <h2><strong>真正用AI 硬件辅助运动训练的几家公司</strong></h2>
-  <p>这一类公司的共同点是场景更聚焦：针对某一项运动的训练环节开发专用硬件，要回答的是“这个动作做得对不对”，而非“今天运动了多少”。前者在技术实现与用户价值上都更高一层。&nbsp;</p>
-  <p><strong>滑雪场景的AI 硬件新形态：Heygo</strong></p>
-  <p>滑雪有一个长期存在的结构性问题，行业里称之为“鞋不等于板”。雪板在雪面上的真实状态——立刃角度、扭转幅度、滚动节奏——与脚部获得的反馈之间存在明显的衰减与延迟：脚感既滞后，也模糊。教练站在场边只能看到大致轮廓，具体是哪一个弯、哪一个瞬间出了问题，很难说清。&nbsp;</p>
-  <p>Heygo的方案是在雪靴外侧固定两枚IMU （惯性测量单元） ，通过模型从脚部数据反推雪板的真实姿态——把身体感受转译为可复核的技术动作描述，这正是IMU+模型致力于解决的部分。量产版本仅在外部保留两枚传感器，测量精度控制在3°以内，支持IP68级防水，续航约一周。&nbsp;</p>
-  <p>更关键的设计创新在于反馈方式：传统滑雪训练的反馈链条过长，主要依赖身体感知和教练在场边的几句提醒。而Heygo在用户滑行过程中由蓝牙耳机给出语音提示，且只在关键弯位开口，避免打断节奏；上缆车后可即时复盘当天报告；语气与详略会随用户水平自动调整。这一取舍针对的是这类产品最容易被忽略的细节——在高速滑行中被成串数据淹没，用户体验反而更差。&nbsp;</p>
-  <p>团队构成亦是一大亮点：创始人吴振华此前在字节跳动飞书负责区域业务与用户增长，联合创始人分别来自腾讯、字节跳动的算法团队，以及大疆、Seeed的硬件团队。内容运营、算法与硬件三种背景齐备，基本覆盖了这类产品所需的完整能力拼图。&nbsp;</p>
-  <p>公司目前仅完成天使轮数百万美元融资，由厚雪资本独家投资。产品采用千元级硬件加订阅的定价结构，2026年9月开启预售、10月发货，首批覆盖38个国家。&nbsp;</p>
-  <p><strong>果岭上的AI视觉“教练”：BirdieSense</strong></p>
-  <p>高尔夫这项运动的核心用户群体亦高净值人群为主，付费意愿更强，但多数人清楚自己的动作存在问题，只是不知道具体问题出在哪里；AI硬件试图解决的就是“看得到但说不清”的反馈断层。&nbsp;</p>
-  <p>PathFinder由几位拥有宾夕法尼亚大学机器人研究背景的00后创业者于2024年创立，产品名为 BirdieSense，形态是一台放置在果岭 （ putting green，即球洞所在的那片草坪，也是每一洞的终点区域） 上的小型设备。&nbsp;</p>
-  <p>它通过单目摄像头实现纯视觉方案，在本地端完成挥杆捕捉、三维姿态分析与偏差比对，并直接输出语音反馈。全流程不依赖云端，响应时延为毫秒级。&nbsp;</p>
-  <p>2026年4月，公司完成数千万元人民币天使轮融资，由专注AI领域的早期基金锦秋基金独家投资，投后估值未披露。产品主要面向北美高尔夫球场。&nbsp;</p>
-  <p><strong>AI网球机器人：庞伯特等多家机器人公司的新战场</strong></p>
-  <p>庞伯特的主体是2019年成立于上海的创屹科技，最初做乒乓球发球机器人，公司在2026年4月正式官宣张继科成为全球品牌代言人，并宣传产品为张继科的“乒乓球AI教练”。&nbsp;</p>
-  <p>此后它的产品路径相当明确，从乒乓球扩展到其他球类运动：2024年10月，PACE网球机器人在 Kickstarter筹得270万美元；2026年5月，支持网球、匹克球与板式网球的多合一机型Aura上线，5小时众筹破百万美元，最终累计接近400万美元，创下网球机器人品类的众筹纪录。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="976,730" src="https://img.36krcdn.com/hsossms/20260921/v2_4a1cfc92a5224abfbc9cd8aa0f6032cf@000000_oswg327288oswg976oswg730_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>同时，公司快速完成三轮融资：2025年5月A轮由华创资本与蓝驰创投投资；2025年8月的 A+轮新增明势创投与锦秋基金；2026年4月的 A++轮由神骐资本与蓝驰创投投资。据行业媒体统计，三轮累计接近2亿元人民币。&nbsp;</p>
-  <p>乒乓球与网球的训练本身建立在大量重复喂球之上，机器人替代的是陪练这一明确环节，付费理由无需向用户反复解释，更能成立。这和滑雪与高尔夫的逻辑不同：它们提供的是事后判断，用户必须先认可判断的准确性，才可能付费。&nbsp;</p>
-  <p>因此，这条赛道上的参与者并不少，还有新的入局者进场。&nbsp;</p>
-  <p>卧安科技 （SwitchBot） 在2025年5月推出了AI网球机器人Acemate，其产品S10众筹金额超过 240万美元，并入选《时代》2025年度最佳发明。但据行业媒体报道，其收球准确率约为三成。&nbsp;</p>
-  <p>2026 年1月英汉思动力宣布连续完成 A 轮、A+轮融资，融资金额在亿元以上。这家深圳公司原本主业是做外骨骼机器人，这几年却转向了运动AI硬件。&nbsp;</p>
-  <p>据最新消息称，逐际动力与英汉思动力共同研发的具身网球机器人将在2026年9月22日的“比利·简·金”杯总决赛上首次亮相——这是一项女子网球团体世界杯比赛，而2025年卧安机器人是该赛事总决赛的官方合作伙伴。&nbsp;</p>
-  <p>还有2024年底成立的一思智能也在AI网球机器人，创始人是大疆出身的刘礼谦，今年7月完成天使轮融资，公司首款产品Aceiilab A1海外众筹超过82 万美元，目前已进入批量交付阶段。&nbsp;</p>
-  <p>玩家密集进入的背后，是需求端长期未被满足的缺口。&nbsp;</p>
-  <p>据虎嗅报道，英汉思与庞伯特两家合计占据北美市场八成以上的份额，而整个品类的月出货量仅为1000至2000台。头部高度集中，整体规模却仍然有限。这意味着当前入场的公司所押注的并非存量份额的争夺，而是这一品类能否从发球机演进为真正意义上的智能陪练。&nbsp;</p>
-  <p><strong>投资人亲自下场创业、切入篮球运动：LUMISTAR</strong></p>
-  <p>LUMISTAR 的主体为皓翊星辰 （上海） 机器人科技，2024年1月成立，总部位于上海，在深圳设有研发与运营中心。创始人侯昊翔还有另一重身份——厚雪资本创始合伙人兼总裁、Heygo投资方。&nbsp;</p>
-  <p>公司现有两条产品线：AI 网球训练伙伴TERO，集发球、陪练与数据分析于一体，定价1299美元起；AI篮球训练伙伴CARRY，由四颗4K摄像头构成190°全向视觉，先定位人员位置，再决定传球路径，训练结束后自动生成出手角度、投篮热力图等二十余项数据报告，零售价4999美元。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="454,454" src="https://img.36krcdn.com/hsossms/20260921/v2_21d3fb95df004f3791a7cb00e455b58e@000000_oswg197939oswg454oswg454_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>CARRY于2026年7 月上线Kickstarter，首日筹得60万美元，最终收官超过百万美元，其中九成以上买家来自海外。&nbsp;</p>
-  <p>融资节奏同样不慢：2025年9月完成天使轮，由厚雪资本独家投资；2026年3月完成 Pre-A 轮，厚雪资本与绿洲资本联合进入；同年6月再获砺思资本投资。不到两年时间，连续完成三轮。&nbsp;</p>
-  <p>目前网球机器人赛道已进入近距离竞争阶段，而篮球训练场景基本空白。传统投篮机仍停留在定点弹射阶段，没有喂球就无法练习，有人喂球也无人指出动作问题所在，CARRY 切入的正是这一长期未被覆盖的环节。&nbsp;</p>
-  <p>不过，它与庞伯特的正面竞争迟早会出现：前者向匹克球、板式网球延伸，后者向篮球扩展，而两家后续都把足球与羽毛球列入规划。&nbsp;</p>
-  <p>此外还有一家成立时间极晚的公司寰动创新，2026年5月于深圳注册。从创业方向来看，主要面向体育场景的户外移动机器人，走具身智能路线，经营范围同时涵盖可穿戴智能设备与体育消费智能设备。核心团队来自大疆与安克，2026年7月完成天使轮，投资方为顺为资本与松灵机器人，后者主业为移动机器人底盘，产业方战略投资的意味比财务投资更重。&nbsp;</p>
-  <p><strong>把这四五家放在一起看，其共性并不在技术路线，而在切入点的选择。</strong> 滑雪、高尔夫、网球、篮球都属于专业指导成本高且难以稳定获得的运动，也都是动作能够被拆解为数据的运动。相反，跑步、骑行这类入门门槛本就不高的项目，它们几乎不涉及。&nbsp;</p>
-  <h2><strong>另一条支线：用AI 解决运动记录</strong></h2>
-  <p>前面几家解决的是陪练、辅助训练与动作纠正。另有一批公司处理的是另一类问题：把用户做过的运动完整记录下来。方向相邻，落点相差一层，主要品类包括运动手表、运动眼镜与运动相机等。&nbsp;</p>
-  <p><strong>苔源MossCode：AI 运动手表</strong></p>
-  <p>苔源的主体是深圳无垠动力科技，2024 年底成立，团队来自正浩、OPPO、Apple、Suunto 与高驰，创始人倪若阳此前在红杉中国从事投资工作——这也是投资人亲自下场的一例。&nbsp;</p>
-  <p>它切入的角度颇为巧妙：佳明主打运动过程中的数据，Whoop侧重恢复状态，两者之间留有空白，硬核用户往往需要在两只手腕上各戴一块设备，MossCode希望用一块表同时覆盖这两件事。&nbsp;</p>
-  <p>2026年2月完成数千万元人民币天使轮融资，投资方为 XVC 创投与清流资本，从接触到交割仅用一个月，投后估值 1 亿美元。&nbsp;</p>
-  <p><strong>致敬未知BleeqUp：AI 运动眼镜</strong></p>
-  <p>创始人吴德周曾任锤子科技合伙人、华为荣耀产品线总经理，2022年创业。2024年他判断通用 AI 眼镜属于手机厂商的射程范围，创业公司难以正面对抗，因此选择专注户外运动场景。&nbsp;</p>
-  <p>产品Ranger于2025年9月发售，一副眼镜集成了运动护目镜、1600 万像素运动相机、开放式耳机与实时对讲四项功能。&nbsp;</p>
-  <p>2023年7月致敬未知完成1000万美元天使轮，投资方中包括阿里巴巴；2025年5月与8月连续完成两轮Pre-A，泥藕资本与博裕资本先后进入；2026年2月公司再完成1亿元人民币Pre-A+轮，创维集团、博裕资本、天图投资、广发乾和、联想创投联合投资。&nbsp;</p>
-  <p><strong>XbotGo：场边的自动追踪运动相机</strong></p>
-  <p>以前拍一场运动员比赛的视频，需要摄影师扛着笨重的器材设备跑步，非常考验体力、耐力；而现在，只需要一台智能相机架设在场边，由AI自动追踪球员与球的运动，并可一键剪出进球、三分、点球等高光片段。&nbsp;</p>
-  <p>XbotGo创始人谈科峰为加州大学计算机博士，回国前曾任亚马逊前沿硬件实验室Lab126 技术负责人，并数次获得高通顶级技术奖项。2021年创立深眸远智，公司在硅谷、北京、深圳、苏州设有四个团队，成员来自华为、亚马逊、字节跳动与大疆。&nbsp;</p>
-  <p>2026年深眸远智推出的独立机型猎鹰配备双镜头4K拍摄与6TOPS端侧算力，无需连接手机即可完成全程跟拍，定价299美元，在众筹平台筹得近250万美元；公司产品覆盖100多个国家和地区，累计服务超过10万场赛事拍摄，海外还与体育赛事管理平台TeamSnap达成独家合作。&nbsp;</p>
-  <p>2026年5月，XbotGo完成近亿元人民币新一轮融资，由九号资本领投，元禾控股、不同资本跟投，早期股东零一创投超额跟投，云岫资本担任长期独家财务顾问。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="776,502" src="https://img.36krcdn.com/hsossms/20260921/v2_f62ca0308a0844eca5a2b7ada725b905@000000_oswg205710oswg776oswg502_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这三家的共同点，是把运动过程完整记录下来，包括画面、声音、心率等；但记录之后如何使用，问题仍被交还给用户。分界线正在于此：<strong>记录是入口，判断才是终点。越靠近判断环节的公司，技术难度越大，天花板也越高。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1003" src="https://img.36krcdn.com/hsossms/20260921/v2_8a5cc31b5e5442f9b2a83b6c79d7a92d@000000_oswg539272oswg1080oswg1003_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>AI 硬件与运动场景，为什么在这两年集中爆发？</strong></h2>
-  <p>原因可以从需求与供给两端拆开来看。&nbsp;</p>
-  <p>首先是需求端。运动中的专业指导长期存在价格高、难获得的问题。&nbsp;</p>
-  <p>全球网球参与人数2025年已超过1.06亿，较2021年增长21.6%，但美国市场活跃玩家与教练的配比高达800比1，欧美专业教练的时薪超过100美元；滑雪教练按天计费、高尔夫教练按小时计费，均难以被普通爱好者长期负担。&nbsp;</p>
-  <p>人类教练受体力、时间与注意力限制，会疲劳、会缺席，也可能判断失误，机器则不受这些约束。这一缺口存在了数十年，此前只是缺少低成本的填补方式。&nbsp;</p>
-  <p>第一项成熟的条件，是端侧算力变得足够便宜且可用。&nbsp;</p>
-  <p>BirdieSense 那台高尔夫设备搭载瑞芯微 RDK X5，提供10TOPS算力，可在本地完成挥杆捕捉与三维姿态分析，即使不联网也能保持毫秒级响应。同样的成本水平，五年前无法实现。&nbsp;</p>
-  <p>第二项是大模型让语言化指导变得可行。&nbsp;</p>
-  <p>早年间这类硬件最大的困境在于，它能输出大量曲线，用户却无从解读；如今模型可以直接用自然语言表达，并能根据用户水平调整表述方式。&nbsp;</p>
-  <p>第三项是渠道。&nbsp;</p>
-  <p>海外独立站与众筹平台的组合，显著降低了早期硬件公司验证市场的门槛——庞伯特5小时众筹破百万美元、XbotGo 猎鹰筹得近 250 万美元，都是通过这一路径完成的。&nbsp;</p>
-  <h2><strong>最后，几点观察</strong></h2>
-  <p><strong>技术路线分为两类。</strong></p>
-  <p>一类依靠IMU 与传感器采集身体数据，Heygo 与 MossCode 属于这一类；另一类依靠纯视觉获取影像，XbotGo、BirdieSense，以及庞伯特与 LUMISTAR 的机器人属于后者。路线选择取决于关键信息存在于身体内部，还是外显于可见的动作轨迹。&nbsp;</p>
-  <p><strong>产品形态反而是最不重要的变量。</strong></p>
-  <p>所谓运动AI硬件早已不只是可穿戴的硬件，AI运动眼镜、雪靴夹扣、场边相机、训练机器人、移动机器人等虽然外形差异极大，但基本都避开了手表手环这一拥挤赛道，选择从现有设备无法测量的窄场景切入并做透。&nbsp;</p>
-  <p><strong>创始人硬件大厂背景浓度极高。</strong></p>
-  <p>梳理近两年的早期融资清单，可以看到一批大厂背景高度集中的团队，来源包括大疆、字节跳动、华为、亚马逊Lab126与锤子科技。亚马逊Lab126走出了 XbotGo，锤子科技走出了BleeqUp，从大疆走出了Aceiilab一思智能以及寰动创新，字节跳动飞书走出了Heygo，宾大机器人实验室走出了 PathFinder。&nbsp;</p>
-  <p>其中，更有看消费的投资人亲自下场创业。比如LUMISTAR 的侯昊翔是厚雪资本创始合伙人，MossCode背后的无垠动力由前红杉中国投资人倪若阳创办。这样的路径在过去两年的消费硬件领域反复出现。&nbsp;</p>
-  <p>最后，从这些创业公司的切入点来看，可以发现一个趋势：把一项运动中肉眼无法察觉、教练难以言明的数据提取出来，转化为用户可直接使用的反馈，这是AI的能力，也是AI赋予硬件的新价值。由此可见，当运动动作正在被AI量化后，那么个性化的训练将逐步成为常态。&nbsp;</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5MjQ2NzA2Mg==&amp;mid=2649630796&amp;idx=1&amp;sn=46ad7f18d5dfe75fe930e0428a4cefb5&amp;chksm=bf0cc4f383c4404b69abc3f64bc2c8894ba3caac7dee9f68f1accd6361cb147d4a4e47f15004&amp;scene=0&amp;xtrack=1#rd">“IT桔子”（ID：itjuzi521）</a>，作者：吴梅梅，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Mon, 21 Sep 2026 09:31:53 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3992885206678528</guid>
-            <link>https://www.36kr.com/p/3992885206678528</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Jev是分类器吗？今天向所有人开放，送1.2亿token]]></title>
-            <description><![CDATA[<p>最近大火的 Jev 模型正式公开可用了，还送起步额度。</p>
-  <p>一大早，Jev 公司 TypeSafe AI 发布官方公告，Jev 现已向所有人开放，无需候补名单。</p>
-  <p>他们还补充说：所有用户初始都有 5 美元额度，大约相当于 1.2 亿 token。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,769" src="https://img.36krcdn.com/hsossms/20260921/v2_9abd85b078de42ee8f134a121b719fe1@000000_oswg164890oswg1080oswg769_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>体验链接：https://console.typesafe.ai/login</p>
-  <p>过去几天，Jev 在社交平台引发了大量讨论。它是一款专门处理结构化判断的 AI 模型，开发者提供一段上下文，再提出一个范围明确的问题，Jev 就会返回可供程序直接使用的答案和概率。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,572" src="https://img.36krcdn.com/hsossms/20260921/v2_d5d1230ca0be4bdd9af31e81f4c35f08@000000_oswg83356oswg1080oswg572_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>有网友拿它和 GPT-6 Astra 在 Minecraft 里打赢了末影龙，只用了 8 分 43 秒。</p>
-  <p>据该网友介绍，总成本不到 1 美元，其中 Jev 花了 0.01 美元，Astra 花了 0.96 美元。目前已开源完整代码。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1153" src="https://img.36krcdn.com/hsossms/20260921/v2_db3360f0a5694bb38e73de9040a176ba@000000_oswg532606oswg1080oswg1153_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>开源地址：https://github.com/rmalde/minecraft-agent</p>
-  <h2><strong>一个专门做判断的模型</strong></h2>
-  <p>TypeSafe AI 将 Jev 称为「System One model」，也就是系统一模型。</p>
-  <p>这个概念来自人类的快速思考机制。面对一个问题，我们往往会先凭经验作出直觉判断，再决定是否需要深入分析，Jev 扮演的就是这个快速判断角色。</p>
-  <p>使用时，开发者先提供一段背景信息，也就是 state，随后定义需要回答的问题，以及允许选择的答案，Jev 会返回结构化结果，并给出相应概率。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,543" src="https://img.36krcdn.com/hsossms/20260921/v2_911887913ed9421ab7b5137f4bf2b4c6@000000_oswg124389oswg1080oswg543_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>以客服工单为例，开发者可以让 Jev 判断工单应该交给哪个团队、是否需要人工审核，以及问题的严重程度。</p>
-  <p>这些问题对应三种主要输出形式。</p>
-  <p>Choice 用于选择一个答案，例如支付、账户或前端；Noul 返回某件事发生的概率，例如需要人工审核的可能性；Score 则将结果放入一个有序区间，例如低、中、高。</p>
-  <p class="image-wrapper"><img data-img-size-val="828,466" src="https://img.36krcdn.com/hsossms/20260921/v2_7fe4766133d54068bf463c2165bca35b@000000_oswg125898oswg828oswg466_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>同一段信息可以同时提交多个问题，Jev 会分别回答，前一个结果不会影响后一个结果，这让它很适合嵌入现有软件，代码继续控制业务流程，Jev 只负责其中一个范围明确的判断。</p>
-  <h2><strong>真正的亮点在泛化能力</strong></h2>
-  <p>大模型研究工程师 Sebastian Raschka 认为，简单把 Jev 看成一个分类器，很容易低估它。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,575" src="https://img.36krcdn.com/hsossms/20260921/v2_acde619d0ea64636874d78afb0bca90e@000000_oswg186033oswg1080oswg575_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>传统 encoder 分类器通常服务于固定任务，模型训练完成后，标签集合也随之确定，一旦场景变化、类别增加，往往需要重新准备数据并训练。</p>
-  <p>Jev 可以在运行时接收自然语言标签，再结合上下文对不同选项进行评分，开发者更换类别或调整描述时，无需为每套标签单独训练一个模型。</p>
-  <p>Raschka 判断，Jev 的关键可能更多来自数据和 API 设计，训练算法本身未必复杂。</p>
-  <p>有网友表示，创始人曾暗示过 Jev 使用了完全合成的数据集，并在已有模型上进行后训练，没有重新进行大规模预训练，这样能省下不少钱。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,337" src="https://img.36krcdn.com/hsossms/20260921/v2_7596c05d044e4897a6223cd3872bcfcc@000000_oswg214824oswg1080oswg337_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Jev 的技术归类也引发了争论。</p>
-  <p>一些开发者认为，标签已经可以在运行时变化，它就不再属于传统的封闭式分类器，更接近 cross-encoder 评分模型或 LLM ranker。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,576" src="https://img.36krcdn.com/hsossms/20260921/v2_ca9d4598378343aba9c960cee69763cc@000000_oswg221278oswg1080oswg576_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,228" src="https://img.36krcdn.com/hsossms/20260921/v2_6cd128cecdc949a8a5d7db6f9aff18e5@000000_oswg132786oswg1080oswg228_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>还有人猜测，Jev 会分别处理上下文、问题和候选答案，再输出每个选项的分数。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,636" src="https://img.36krcdn.com/hsossms/20260921/v2_c149659d39494d7e815580123233082e@000000_oswg341272oswg1080oswg636_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>它究竟该叫什么，目前没有统一答案，但争论也说明，Jev 的产品形态已经超出了传统分类器的使用方式。</p>
-  <h2><strong>它想成为 Agent 的决策层</strong></h2>
-  <p>Jev 最适合处理答案范围明确、需要反复执行的判断任务。</p>
-  <p>例如在模型路由中，它可以判断一个请求应该交给低成本模型还是高能力模型；在内容审核中，它可以识别风险等级；在 Agent 系统中，它可以检查一次工具调用是否需要人工确认，也可以判断模型输出是否通过质量门槛。</p>
-  <p>它返回的不只有最终标签，还有完整的概率分布。</p>
-  <p>当两个选项的概率非常接近时，开发者可以看到模型的犹豫程度。面对 Noul 结果，还可以通过调整阈值改变系统策略。阈值提高后，系统触发某项操作的次数会减少；阈值降低后，策略会更加谨慎。最终决定仍由代码完成，开发者可以设置阈值、加入硬性规则，并规定哪些情况必须交给人工处理。</p>
-  <p>这种设计让 Jev 更像一个可复用的判断模块，它可以放在 Agent 循环外围，负责模型路由、工具风险检查、结果筛选和质量控制。</p>
-  <h2><strong>它的概率靠谱吗？</strong></h2>
-  <p>Jev 的泛化能力获得了不少认可，它的概率是否足够可靠，也受到质疑。</p>
-  <p>有网友认为&nbsp;Jev&nbsp;模型并没有真正做到「确定性」和「无幻觉」，同样的提示词多次运行会给出不同的概率，而且选项的顺序会大幅改变输出概率。</p>
-  <p>例如，同一个客户消息，只是把「信息咨询」和「bug 报告」的顺序调换，模型就从偏向选 bug_report 变成偏向选 information。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,906" src="https://img.36krcdn.com/hsossms/20260921/v2_561a50de471e45929d75fa80bfa33462@000000_oswg666645oswg1080oswg906_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>网友 @predict_addict 称，自己在贷款违约、企业破产和医疗诊断等八个真实数据集上进行了测试，结果显示，Jev 的概率校准明显落后于 CatBoost，并且经常高估负面结果。经过简单的后处理后，部分误差就能得到修正。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1165" src="https://img.36krcdn.com/hsossms/20260921/v2_d017d9ac81f140b6ba3a83619a023580@000000_oswg344841oswg1080oswg1165_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>还有网友感叹 Jev 太强了，自己只用一个晚上加一个早上就搭建了一个全自动实时交易机器人，该机器人会同时处理链上和链下数据来快速做出买卖决策，结果目前已经亏损了 31680 美元。😂</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,436" src="https://img.36krcdn.com/hsossms/20260921/v2_da06407965914efb9cde8911379175a7@000000_oswg106035oswg1080oswg436_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260921/v2_7799443dbdba440790991facb2926b58@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>TypeSafe AI 也在 Jev 1.13 的能力说明中提醒，模型在算术、计数、日期、字面匹配、无关信息干扰、对抗性输入和矛盾条件等任务上表现并不稳定。</p>
-  <p>参考链接：</p>
-  <p>https://x.com/rasbt/status/2101672304358948992</p>
-  <p>https://x.com/typesafeai/status/2101786156572823624?s=20</p>
-  <p>https://x.com/omarsar0/status/2101774405521301681</p>
-  <p>https://x.com/rronak_/status/2101544156757950697?s=20</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651058846&amp;idx=1&amp;sn=cf74c63e27c3e8d13ffd0903ff3ceb03&amp;chksm=8591b54999179b774691f1fafd43178a270444e6825cf8d7faf1142c270423faedaf78310159&amp;scene=0&amp;xtrack=1#rd">“机器之心”（ID：almosthuman2014）</a>，作者：关注AI的，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Mon, 21 Sep 2026 09:24:41 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3992842720000770</guid>
-            <link>https://www.36kr.com/p/3992842720000770</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[中美AI模型开发周期缩短至1/3，平均44天]]></title>
-            <description><![CDATA[<p>日经统计了美国5家公司及中国4家公司更新高性能模型的周期。2023年1月至2026年3月的平均间隔为125天，而2026年4月至9月则大幅缩短至44天。AI自身参与AI开发的“自我进化”所引发的担忧也正日益加剧……</p>
-  <p>中美两国的人工智能（AI）开发正在加速。自4月以来，新模型发布的周期平均已缩短至44天（约1.5个月），仅为以往的三分之一。AI自身参与AI开发的“自我进化”正在发生，这成为引发AI威胁论的导火索。</p>
-  <h2><strong>9月OpenAI和Anthropic发布了最新模型</strong></h2>
-  <p>《日本经济新闻》调查了Anthropic和OpenAI等在在AI模型开发方面处于领先的美国5家公司以及阿里巴巴集团和月之暗面等中国4家公司。统计了各家公司更新高性能模型的周期。</p>
-  <p>2023年1月至2026年3月的平均间隔为125天，而2026年4月至9月则大幅缩短至44天。</p>
-  <p>进入9月，美国的OpenAI和Anthropic相继发布了最新模型。美国Meta自7月以来，每月都在升级其尖端模型“Muse Spark”。美国谷歌则在9月2日仅用三周时间就推出了比上一版本更新的Gemini。而SpaceX的Grok则截至8月，连续3个月推出了新模型。</p>
-  <p>在中国企业来看，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link> 从7月起每月进行模型更新。8月以后，阿里巴巴以及推出“GLM”系列的Z.AI（北京智谱华章科技）也相继发布了新模型。</p>
-  <p>开发速度提升的一个原因是AI本身正在承担起AI模型的开发。如今，AI已能够胜任实验监控、结果分析等高难度任务。</p>
-  <p>Anthropic于9月17日公布的数据显示，截至8月，其开发工作中有26%由AI掌握主导权，超过90%的工作有AI参与。而在今年2月时，由AI主导开发的比例几乎为零。Anthropic指出：“有可能形成AI自主开发更高性能下一代AI模型的良性循环”。</p>
-  <h2><strong>在OpenAI，AI的运行时间达人类的3.1倍</strong></h2>
-  <p>在OpenAI，8月AI智能体的运行时间达到了人类研究人员工作时间的3.1倍。</p>
-  <p>按金额换算，该公司普通研究人员平均每天使用价值约600美元的AI智能体。而排名前10%的研究人员每天让AI承担的工作量则超过7000美元。</p>
-  <p>截至6月上旬，人类研究人员的工作时间更长，但之后AI的作用迅速提升。</p>
-  <p>随着AI的广泛应用，OpenAI在8月通过编程写入的代码量达到2025年平均水平的7倍。Anthropic在4月至6月实际应用于产品等场景的代码量也达到2021至2025年平均值的8倍。代码量的增加有助于提升AI模型的性能。</p>
-  <p>AI性能提升的速度也在加快。英国政府机构人工智能安全研究所（AISI）的数据显示，AI模型的网络攻击能力翻一番所需的时间，在2026年2月时为4.7个月。比2025年11月的8个月有所缩短。据称目前这一时间已进一步缩短。</p>
-  <p>从美国调查公司Artificial Analysis结合多项测试所创建的评估AI性能的指数来看，进入2026年后，AI模型的能力显著提升。</p>
-  <p>目前，美国阵营的模型升级更频繁。美国排名前五的公司于7月至9月发布的AI模型达20个，与4月至6月相比翻了一番。</p>
-  <h2><strong>低价格和重视速度等模型细分化</strong></h2>
-  <p>在追求性能提升的同时，根据低价格、重视速度和专注网络安全等用途对模型进行细分的趋势也在扩大。在中国企业推出人人都能使用的“开源”高性能AI模型之际，美国企业也寻求通过扩大产品线来保持竞争优势。</p>
-  <p>对于AI自我进化、导致人类无法控制的担忧也正日益加剧。在美国，以Anthropic首席执行官（CEO）达里奥·阿莫代伊‌为中心，呼吁放缓AI模型开发的呼声不断高涨。</p>
-  <p>Anthropic在9月17日发布的报告中指出：“应由第三方机构来评估AI模型开发过程中AI所发挥的作用，以及人类能否对参与开发的AI进行适当监督”。</p>
-  <p>在OpenAI，曾发生过因AI误判应完成的任务、从开发环境中“逃脱”的事故。</p>
-  <p>在AI性能不断提升的背景下，若忽视治理和安全管理问题，未来可能发生更加严重的事故。掀起开发竞赛的中美两国能否就建立安全管理体系达成共识，将成为日益重要的问题。</p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5MDI3Mzc0MA==&amp;mid=2651954768&amp;idx=1&amp;sn=fe5d995caed7f0fa65199d5b4b0f654f&amp;chksm=bcecabb2c48c121c6dfb4b93286aaf95cb390de459df1c944941212af86c9052e3923cde5cea&amp;scene=0&amp;xtrack=1#rd">“日经中文网”（ID：rijingzhongwenwang）</a>，作者：小河爱实、贵岛逸斗，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Mon, 21 Sep 2026 09:10:47 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3992879748004864</guid>
-            <link>https://www.36kr.com/p/3992879748004864</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[30家中国科技公司高管薪酬表：谁在拿最高的薪水]]></title>
-            <description><![CDATA[<p>AI产业链上的公司，正在为关键人才开出越来越高的价码。&nbsp;</p>
-  <p>智谱2025年营收7.24亿元，归母净利润亏损46.98亿元，但董事长刘德兵的年度酬金合计1.57亿元，其中股份支付高达1.56亿元。寒武纪2026年限制性股票激励计划草案显示，公司向945名员工授予500万股限制性股票，以2025年末公司1107名员工总数计算，覆盖比例达85.37%。&nbsp;</p>
-  <p>AI带来的财富机会，也正从创始人，延伸到研究员，甚至实习生。据36氪报道，字节、腾讯、阿里核心方向的博士实习生日薪可达5000-6000元。脉脉9月发布的《AI人才流动报告》也显示，2026年1-7月，新发AI岗位量同比增长789.47%，AI岗位平均月薪63160元。&nbsp;</p>
-  <p>这些数字背后，是科技公司对关键人才价值的判断。成熟公司有能力为经验持续付费，新公司也愿意在盈利之前，为关键人才提前投入。钱给多少，怎么给，给谁——不同的答案，对应着不同的商业阶段和人才策略。&nbsp;</p>
-  <p>我们在AI大模型与人工智能应用、AI芯片与半导体、机器人与具身智能三个赛道中，分别选取市值排名前十的上市公司，组成30家公司的观察样本，并引入3家互联网大厂作为参照。通过年报等公开文件披露的个人薪酬、岗位履历和股权激励信息，观察科技公司如何给关键人才定价，又如何留住他们。&nbsp;</p>
-  <h2><strong>公司还没赚钱，关键人才已经很贵</strong></h2>
-  <p class="image-wrapper"><img data-img-size-val="1080,2532" src="https://img.36krcdn.com/hsossms/20260921/v2_2042e4af0016451da07780c7d34d00c1@6101715_oswg708766oswg1080oswg2532_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>对于需要争夺大模型发展机会的新公司，人才投入往往需要发生在盈利之前。</p>
-  <p>智谱AI、<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>仍在亏损，但披露的关键人员的薪酬水平较高。尤其是智谱，薪酬月平均数为338.6万元，超过腾讯的104.3万元。这些公司还在亏损，薪酬已经向大厂看齐。&nbsp;</p>
-  <p>大模型竞争的窗口期只有几年。对这些公司来说，等盈利之后再抢人，可能已经错过了模型代际更替的关键节点。&nbsp;</p>
-  <p>同处AI产业链，半导体企业、大模型创业公司与机器人公司，开出的薪酬有什么不同？&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1362" src="https://img.36krcdn.com/hsossms/20260921/v2_ada127ae137446a99591abbdfa1ec852@6101715_oswg397126oswg1080oswg1362_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>从三个赛道的高管平均薪资来看，差距是逐级拉开的。AI大模型与人工智能应用最高，为35.8万元；AI芯片与半导体居中，为28万元；机器人与具身智能排在最末，为12.2万元。&nbsp;</p>
-  <p>但高管薪资中位数排序则有差异。AI芯片与半导体公司的高管薪酬中位数相对更高，它们许多是长期从事芯片制造、存储和设备业务的公司，具有更成熟的产业基础和岗位体系，薪酬稳定。&nbsp;</p>
-  <p>相比之下，大模型、AI应用与机器人公司的薪酬水平更分化，不同公司之间对关键人才的待遇差别较大，关键人才流动也更频繁。&nbsp;</p>
-  <p>AI链条上的三个行业高管薪酬中位数的高低，或许也映照着各个行业的商业化进程。芯片与半导体有产业需求支撑，大模型与AI应用仍在寻找商业变现的路径，而机器人距离规模化落地更远，薪酬中位数也排在末位。&nbsp;</p>
-  <h2><strong>高薪怎么给</strong></h2>
-  <p class="image-wrapper"><img data-img-size-val="1080,2320" src="https://img.36krcdn.com/hsossms/20260921/v2_14095dedd06d4d40bc0f3adde3036a3d@6101715_oswg819529oswg1080oswg2320_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>一家公司的最高薪，未必属于职位最高的人。具体业务的责任、专业经验的稀缺程度，都可能让一位副总经理、监事的薪酬超过董事长。</p>
-  <p>但薪酬超过董事长，并不等于个人回报超过董事长。对于持有大量股份的创始人或管理者，年度薪酬只是回报的一部分。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,847" src="https://img.36krcdn.com/hsossms/20260921/v2_e6f0da0571e34c4e8996eb2b4013fa88@6101715_oswg217920oswg1080oswg847_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>对高管来说，同样一份“高薪”，构成可能完全不同。以四家样本公司为例，商汤科技徐立的薪金福利与奖金合计占95%，当期报酬主要以现金体现。极智嘉郑勇、优必选邓峰的股份酬金占比分别为59%和63%，个人回报则更多与股权激励安排相连。智谱AI刘德兵则是薪金30%、花红35%、股份酬金33%，三者相对均衡。&nbsp;</p>
-  <p>股份酬金占比高，既可能意味着更大的收益空间，也意味着兑现需要时间和条件。而对公司来说，如何付钱，也是在决定如何留住关键人才。&nbsp;</p>
-  <h2><strong>人才怎么留</strong></h2>
-  <p class="image-wrapper"><img data-img-size-val="1080,1263" src="https://img.36krcdn.com/hsossms/20260921/v2_2e624a631c264716ad72641c823c7c2b@6101715_oswg328671oswg1080oswg1263_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>留人这件事，不只靠高管的薪酬结构。</p>
-  <p>公司还可以通过股权激励，把更大范围的员工和公司绑在一起。公开资料显示，截至2025年底，科技板块上市公司股权激励渗透率约为73.6%，高于A股整体的58.8%。&nbsp;</p>
-  <p>统计来看，智谱AI在员工持股覆盖率与持股占总股本的比例均处于领先位置，分别是51.2%和16.55%。&nbsp;</p>
-  <p>AI芯片与半导体企业更舍得拿出股权，也更愿意让更多员工参与。中微公司的员工持股覆盖率最高，达到75.5%，相当于每四名员工中就有三人持股。&nbsp;</p>
-  <p>但覆盖率和持股比例并不总是同向变化。2025年，沐曦与寒武纪的覆盖率接近，分别为55.81%和58.72%，但员工持股占总股本的比例分别为9.15%和0.58%，相差近16倍。海光信息则只覆盖18.3%的员工，持股比例却达到6.09%，高于覆盖四分之三员工的中微公司。&nbsp;</p>
-  <p>覆盖率低、持股比例也低的公司同样存在。金山办公、石头科技和绿的谐波的覆盖率均不足15%，持股比例也低于1%。&nbsp;</p>
-  <p>大覆盖面，能让更多员工分享公司成长；将较高比例的股权集中在少数人手中，则能提高对关键人才的吸引力。&nbsp;</p>
-  <p>股权的吸引力，在公司上市时尤其直观。宇树科技上市首日，发行前持有公司10.94%股份的员工持股平台上海宇翼，盘中持股市值最高约486亿元。&nbsp;</p>
-  <h2><strong>为技术付费</strong></h2>
-  <p>技术能力与技术背景，是科技公司为高管定价的重要考量。</p>
-  <p>在涵盖三个赛道、30家公司、数百名高管的样本中，薪酬排名前20的人里，一半具有技术背景。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,2028" src="https://img.36krcdn.com/hsossms/20260921/v2_835d14b8b90c4967bbdf2c73da0ecd3b@6101715_oswg680716oswg1080oswg2028_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>例如中微公司尹志尧，是董事长兼核心技术人员，优必选的熊友军是首席技术执行官，中兴通讯上榜的四名高管都具有技术背景。&nbsp;</p>
-  <p>不过，能够把握高薪的，往往是既懂技术、又能推动技术落地的人。尹志尧曾在英特尔、泛林半导体等企业工作，积累了设备研发与管理经验，2004年创立中微后，将这些经验带入公司经营。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1318" src="https://img.36krcdn.com/hsossms/20260921/v2_e6e08b6ee45f48dbbd24c2e8b0be4135@6101715_oswg220955oswg1080oswg1318_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>走向管理层，也不是核心技术人才获得高薪的唯一路径。在披露了相关人员薪酬的六家样本公司中，核心技术人员的平均薪酬均高于非技术董事及高管。海光信息的核心技术人员月均薪酬为23万元，是非技术董事及高管的约1.9倍；赛力斯为33.8万元，约为后者的2.3倍。&nbsp;</p>
-  <h2><strong>结语</strong></h2>
-  <p>这些薪酬数字背后，是科技企业对人才价值的判断。</p>
-  <p>而判断也是一种下注。人才的价格已经写进账本，但商业回报还在兑现途中。智谱的高管薪酬平均数已经超过腾讯，可它还在亏损；寒武纪给945名员工授出股票，考核目标是三年累计1000亿元营收。&nbsp;</p>
-  <p>它们赌的是，自己会长成下注时假设的样子。&nbsp;</p>
-  <p>但赌输了，账本上的人和钱，都会成为企业沉重的负担。&nbsp;</p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/88GZFiST0kCz4BpYdDH2eQ">“镜相工作室”</a>，作者：镜相作者，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Mon, 21 Sep 2026 09:09:34 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3992873933084551</guid>
-            <link>https://www.36kr.com/p/3992873933084551</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Agents成新一代造王者，开发者正在快速失去技术决定权]]></title>
-            <description><![CDATA[<blockquote>
-   <p>十多年前，《新造王者》记录了开发者如何从一个长期被低估的群体，变成技术行业真正的“造王者”。他们决定哪些软件被采用、哪些语言和框架流行、哪些技术遭到淘汰。为了争夺这种稀缺力量，企业不断推高开发者薪资，甚至通过收购整家公司来抢人。&nbsp;</p>
-   <p>如今，决定权正在以惊人的速度转移。Agent 不再只是补全代码的工具，它们开始选择编程语言、挑选框架和库，甚至决定界面里用什么字体，而且经常无视“不要用这个”的明确指令。当 Agent 成为新一代“造王者”，开发者又将处于什么位置？这篇文章要做的，是对行业权力结构的一次正面拆解：谁在替我们做技术选择，谁在背后真正掌权，以及为什么这一次，我们可能还没准备好。&nbsp;</p>
-  </blockquote>
-  <p>十多年前，历经数年的数百次对话最终凝结成《新造王者》（The New Kingmakers）一书。这本书的核心论点很简单：一个长期被认为毫无话语权的群体反而成了王座背后的掌权者。几十年来，那些曾被轻视为戴着护笔套的机械师的开发者们，不仅成了裁决哪些软件被使用、哪些软件被淘汰的仲裁者，更成了一种真正的竞争利器——在一个日益技术化的世界里，他们可能是决定成败的关键。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1014" src="https://img.36krcdn.com/hsossms/20260921/v2_dd3d52169ddf4174af1b670c58ab97de@46958_oswg51526oswg1080oswg1014_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <blockquote>
-   <p>“计算机永远无法被追究责任。</p>
-   <p>因此，绝不能让计算机作出管理决策。”</p>
-  </blockquote>
-  <p>这种逐渐变得清晰的认知推动了开发者薪资的持续飙升，在这个竞争白热化的环境里，企业甚至采用收购式招聘这样的极端手段来抢夺高端人才。</p>
-  <p>《新造王者》主要是为了简要记录那个时代，为开发者的重要性摆事实、讲道理，但这本书的受众并非开发者本身——他们大多早已看清行业格局，明白自身所处的位置——而是那些仍将开发者视为可随意替换、毫无差别的资源的管理层。这本书记录并描绘了这样一个世界：开发者是连接创意与代码的纽带，唯有依靠他们，创意才能变成现实。</p>
-  <p>那个世界并没有完全消失，但它看起来与一年前大不相同。甚至可以说，和上个月相比都判若两样。</p>
-  <p>这一切的开端原本平淡无奇。20 世纪 60 年代，最早的自动文本替换工具——拼写检查器——开始出现。它们会将输入内容与标准数据库进行比对，并给出修改建议。在接下来的二十年里，这种技术被应用于源代码，不仅根据特定语言的语义来评估部分输入的代码，还试图对其进行预测。到了 2019 年，也就是近六十年后，TabNine 等公司不再只是将代码与静态文本库或语法规则进行比对，而是利用 AI 实现神经代码补全。2021 年，GitHub 借助大语言模型进一步推动这项技术，并通过 Copilot 将这一概念带入主流。Copilot 不仅能辅助修正拼写或梳理代码结构，还能基于推断出的意图主动提出建议和补全代码。这在当时令人难以置信、令人震惊，但它本质上仍是自动补全，也就是说使用者仍然需要具备一定的代码编写能力。</p>
-  <p>然而，一年后 ChatGPT 的发布带来了另一个阶跃式变化，它让行业踏上了如今仍在延续的发展道路。人们不再需要在代码编辑器里动手敲写代码作为起点。取而代之的是，它引入了一个更高层次的抽象——提示词。每一种编程语言本质上都是通过人类可读的代码向计算机发出精确指令，这些代码可以被编译器接收并输出为可执行的机器码。ChatGPT 首次向大众展示了一种愿景：编程语言代码不再由人类编写，而是由机器根据自然语言提示词来生成。在代码补全时代，用户编写一个用 Python 查询 API 的脚本，代码辅助工具帮忙补齐代码。在这个新的世界里，人类只需要向计算机请求一个查询 API 的脚本——不需要写代码，甚至不需要做决策。</p>
-  <p>当然，这些模型的能力是有局限的，主流软件开发市场不得不开始面对非确定性的机器，这些机器不仅会犯错，还会掩盖错误、违背指令。但发展方向是明确的：机器在编写代码方面正变得越来越好，它们编写的代码也越来越多。同样重要的是，它们不仅编写代码，还经常自主选择使用哪种编程语言、库和框架——甚至用户界面中的字体都由它们决定。事实上，它们经常会选择那些被明确告知不要使用的技术。</p>
-  <p>所有这些都意味着，曾经向开发者群体倾斜的行业权力格局现在正在向智能体转移。</p>
-  <p>来看看几组类比：</p>
-  <ul>
-   <li>成本：曾经，开发者薪资是利润表上飙升的开支项，从增长斜率来看，现在这项支出变成了 token 成本。开发者仍然是预算中占比更高的支出项，但随着 token 消耗量的上升和人类开发者被裁减，这一比例正在发生变化。</li>
-   <li>决策：曾经，开发者决定使用和不使用哪些技术，而现在这个决定权越来越多地留给了智能体——以至于一些公司现在开始谈论“智能体引擎优化（AEO）”，就像他们曾经谈论 SEO 一样。</li>
-   <li>交付速度：这个行业花了数十年时间来提高开发者的生产力——从新的编程语言到开发工具投入，再到流程和方法论的改进——核心目标都是提高编写高质量代码的速度。如今，尽管 DORA 与 METR 的相关数据结论不一，但至少在行业的认知里，AI 已经成为企业提速的手段——而且无可争辩的是，原型设计所花的时间仅为过去的一小部分。</li>
-  </ul>
-  <p>以上这些相似点以及其他诸多共性已经促使整个行业开始围绕这项新能力重新调整方向。正如其他文章所指出的，有几种方法可以做到这一点。</p>
-  <ul>
-   <li>首先，你可以将 AI 加入或融合到以人为中心的工作流中。</li>
-   <li>其次，你可以忽略或忘掉人类，完全面向智能代理构建系统。</li>
-   <li>最后，你可以尝试兼顾两者——要么打造独立、针对特定角色的产品线，要么开发可以同时与智能体和人类交互的产品。</li>
-  </ul>
-  <p>鉴于当前模型的能力和不同产品类别之间的巨大不对称性，不太可能出现某一种方案一家独大的局面。在某些市场，AI 辅助的人类工作流会是合适的选择；而另一些领域，则会采用无界面、仅面向智能体的基础设施。</p>
-  <p>关键在于区分那些正在为新的以智能体为中心的世界构建产品的厂商和那些仅仅因为营销部门要求而“贴上 AI 标签”的厂商。AI 包装并不代表这款产品未来能找准定位。</p>
-  <p>尽管如此，仍然有如此多来自截然不同赛道的公司都在试图为一个智能体影响力日益增强的世界构建产品。</p>
-  <p>一些突出的例子：</p>
-  <blockquote>
-   <p><strong>数据库&nbsp;</strong></p>
-   <p>Neon：去年被 Databricks 收购——开发了 Neon for AI，这是一款专门设计用于向智能体暴露原语的 Postgres 后端。如果该公司披露的数字准确的话，说明智能体已经开始大量在使用它。Neon 称，两年前，由智能体创建的新数据库实例占比为 30%。到今年 5 月，这个数字已升至 80%。</p>
-   <p><strong>数据科学&nbsp;</strong></p>
-   <p>Observable：Observable 直接把智能体作为一类受支持的使用主体，描述如下：“面向智能体的 notebook，我们称之为 chat，和原先面向人类的 notebook 有着本质区别，但二者可以无缝互通。”</p>
-   <p><strong>开发工具&nbsp;</strong></p>
-   <p>Daytona：这家公司曾是为人类提供云开发环境的厂商，如今明确抛弃以人为中心的产品线，转型面向智能体，称“Daytona 已经决定将其重心从解决人类开发者环境不一致的问题，重新调整到解决 AI 智能体的运行时问题上。”</p>
-   <p>Monid：Monid 明确将自己定位为面向智能体的 OpenRouter（OpenRouter 近期达成收购协议，将被 Stripe 以超 70 亿美元收购）。</p>
-   <p><strong>GitOps&nbsp;</strong></p>
-   <p>Akuity：作为 GitOps 平台，Akuity 近期推出了面向智能体的控制平面，主要功能之一是将智能体和人类用户做显式绑定，以明确责任归属。</p>
-   <p><strong>硬件&nbsp;</strong></p>
-   <p>Pamir.ai：这家位于旧金山的硬件初创公司正在构建智能体专用硬件。它的口号是“别再和你的智能体共用一台电脑了。你的智能体应该拥有它们自己的电脑”。值得一提的是，AMD 也销售自己的“智能体计算机”。</p>
-   <p><strong>PaaS&nbsp;</strong></p>
-   <p>Netlify：创造了“智能体体验（Agent Experience，AX）”一词，用来描述与开发者体验（DevEx）类似的概念，但面向的是智能体。</p>
-   <p>Vercel：该公司在宣布 F 轮融资时提到要复刻最初的产品目标，但为 AI 重新实现它们，部分工作通过一个面向智能体的 SDK 来完成。同样，智能体似乎已经开始大量使用。今年 1 月，Vercel 报告称，由智能体触发的部署不到 3%。到 6 月，这个数字已过半。</p>
-   <p><strong>零售&nbsp;</strong></p>
-   <p>Shopify：六年来，Shopify 一直使用 React Native 开发移动端应用，因为构建原生应用开发难度高、耗时长。而智能体的使用改变了这一考量，Shopify 现在正在放弃 React Native，转而针对不同平台开发原生应用。换句话说，智能体已经促使这家大型厂商在移动端框架选型上发生了根本性转变。</p>
-   <p><strong>沙箱&nbsp;</strong></p>
-   <p>E2B：截至今年 6 月，该公司报告称已启动超过 10 亿个沙箱。</p>
-   <p><strong>安全&nbsp;</strong></p>
-   <p>XBOW：由 Copilot 的部分原始核心人员构建，XBOW 不需要为以智能体为中心的世界调整其产品，因为产品本身就是智能体。</p>
-   <p><strong>版本控制&nbsp;</strong></p>
-   <p>Pierre：Pierre 的 code.storage 本质上是无界面的 GitHub，但面向的是智能体，而非人类。</p>
-  </blockquote>
-  <p>还有数十甚至数百家其他公司正在为以智能体为中心的世界构建产品——Stripe 及其智能体商务协议（ACP）以及 Cloudflare 即将推出的面向智能体的钱包就是其中两例——但即便不再列举更多案例，趋势也已经十分清晰。智能体已经到来，它们正在增长，已经成为一股不可忽视的市场力量。</p>
-  <p>以新兴的沙箱应用类别为例：从 Cloudflare、前述的 Daytona、Docker、E2B、Modal，到现在的 Vercel，整个市场都是智能体的产物，如果没有智能体它们就不会存在。为人类构建的开发工具建立在人类会在可接受的行为边界内操作的假设之上，而为智能体构建的开发工具的假设则恰恰相反。沙箱的存在是为了给爆炸式增长的智能体更多自主权，同时又不对它们完全信任。</p>
-  <p>归根结底，问题不在于智能体和支持它们的工具是否会拥有市场。真正的问题在于，这是以牺牲人类开发者市场为代价，还是作为原有市场的补充。</p>
-  <p>这又引出另一个问题：如果智能体成为新一代的造王者，那开发者又将处于什么位置？对于那些在选择模型方面拥有自主权的开发者来说，乐观的答案是：他们会成为国王。而悲观的答案则是：开发者的自主决策权会大幅缩水，他们会变成国王的顾问。不过，持悲观观点的人需要记住，智能体的那些“判断倾向”源自哪里：正是之前的那些“新造王者”。</p>
-  <p>无论得出什么结论，智能体驱动的世界与之前人类主导的世界有着本质的不同。过去，成功的开发者关系活动在于说服和与大量开发者群体沟通。而智能体关系只需要影响少数几个模型，这个数量甚至两只手就能数过来。此外，这些模型所做的“选择”极有可能变得比它们所学到的数百万开发者所做的选择更加保守、更加缺乏多样性。部分原因在于，做决策的主体数量急剧变少，这意味着整体选择会更少；同时也因为流行技术提供了更多的训练素材，从而让现有企业受益——即使在一个转换成本正趋近于零的市场中。</p>
-  <p>最终，正如最初的“新造王者”戏剧性地重塑了他们周围的行业一样，如今这些继任者（智能体）也正在做着同样的事。正如所有与 AI 相关的事情一样——这一切正以令人难以置信、近乎夸张的速度发生着。</p>
-  <p>如果你想知道未来的新国王会是谁，最好的办法或许是去问问智能体。</p>
-  <p><strong>原文链接：</strong>https://redmonk.com/sogrady/2026/09/16/new-new-kingmakers/</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/_dD0zV4PGt955hQMRskftw">“InfoQ”</a>，作者：Stephen O'Grady；译者：明知山&nbsp;，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Mon, 21 Sep 2026 09:05:16 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3992888084658952</guid>
-            <link>https://www.36kr.com/p/3992888084658952</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[「黄仁勋」最新访谈：AI末日论太夸张，真正该做的是安全工程]]></title>
-            <description><![CDATA[<p>在最近的一次长访谈中，<strong>英伟达 CEO 黄仁勋</strong>回应了当下最尖锐的一组问题：AI 会不会在十年内终结人类文明？该不该设立类似 FDA、FAA 的监管机构？要不要停止向中国出售芯片？数据中心为什么非建不可？以及他为什么说自己“不怕缴税，只怕变穷”。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,595" src="https://img.36krcdn.com/hsossms/20260921/v2_d952b9f2260d4b569f0243f84a8f4c15@46958_oswg610803oswg1080oswg595_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>一、AI 会毁灭人类吗？“2030 年世界末日概率是 0%”</strong></h2>
-  <p><strong>主持人：</strong>达里奥·阿马德戴、山姆·阿尔曼、埃隆·马斯克都表示，我们需要控制人工智能的发展节奏。有告密者指出，人类文明的终结可能在 10 年内发生。你同意吗？</p>
-  <p><strong>黄仁勋：</strong>首先，人工智能技术确实强大得令人难以置信。它可以带来巨大好处，也能被应用到各种场合，但糟糕的应用同样很多。所以我们必须确保，在开发过程中让这项技术更安全。</p>
-  <p>这个行业正在发生转变。今年年初，我们经历了一个转折点：人工智能开始真正有用了。随着需求增加，它变得非常有价值。现在很多人工智能产品的代币发行已经能够盈利，而且盈利幅度相当高。很多公司都在采用。OpenAI 最新推出的 Astra 模型令人惊叹，我们在各个地方都在使用它。过去六个月里，情况突然变了，整个行业已经转向高生产水平模式运行。</p>
-  <p>关于“十年内人类消失”的说法，不，那完全错误。那是一种叙述方式，太夸张了，受到了很多关注，也引起了媒体关注。我认为，从根本上说，这些公司非常关心产品安全。他们正在从实验室阶段过渡到工程阶段，必须投入更多研究资源和计算资源到安全上。</p>
-  <p>在任何行业之初，大部分工程工作都是为了让产品能够正常运行。当产品逐渐成熟并投入社会使用后，大部分工程工作实际上会变成验证、测试、评估、基准测试，遵守相关标准，确保所运送的产品具有可靠性，功能正如预期，完全实现产品承诺。所以，在当前过渡时期采取这样的做法非常合理。他们不得不转移大量能力资源，为了 AI 的安全。</p>
-  <p>关于这件事的种种议论，很多是毫无必要的。说实话，情况相当糟糕，制造了太多不必要的戏剧性情节，这太不负责任了。现在，这一切应该基于事实。那种末日理论并非基于科学依据，所以是错误的。</p>
-  <p>但他们的担忧并非毫无根据。这和我刚从飞机上下来时的情况没什么不同。我很高兴整个生态系统和整个行业都能如此发展，所有航空旅行者都非常重视安全问题。所有那些日夜不停工作的人，都在努力保障航空安全、飞机安全和空中旅行安全。这是有道理的，我们其实正在经历同样的事情。</p>
-  <h2><strong>二、AI 监管：先执行现有法律，而不是用末日叙事废除法律</strong></h2>
-  <p><strong>主持人：</strong>你说过我们不需要任何新的法律，不需要新的规章制度。但你刚才提到，你支持在重要行业实施保障措施。为什么不支持为人工智能设立一个类似 FDA 或 FAA 这样的监管机构呢？</p>
-  <p><strong>黄仁勋：</strong>在制定出新的法律和规定之前，让我们先遵守现行的法律和规定。现在已经存在各种法律法规。我们生活在这个时代，生活在法治之地，这也是我们感到安全、有保障的原因。我们被各种法律法规保护着，这些法律适用于所有应用情况，无论是食物，还是航空旅行，或者任何与人工智能相关的议题。</p>
-  <p><strong>主持人：</strong>那么，缺失的部分到底是什么？为什么你会认为在有人像达里奥·阿马德戴、山姆·阿尔曼这样说话的情况下，不会有什么缺失的部分呢？</p>
-  <p><strong>黄仁勋：</strong>我觉得我正在回应的内容应该是这个。对于这两个实验室来说都是如此。有一个实验室发生了四起由他们引发的网络安全事件，又有一个出现了，数量还增加了一些。在这两起事件中，都有许多法律需要去处理。你们有针对未经授权进入的网络安全法规，有损害赔偿责任，有与网络安全相关的一系列责任问题，有与这些产品相关的各种责任和义务。如果你的产品造成了伤害，或者你的产品没有达到承诺的性能水平，如果你与这些公司签订了合同，对于服务级别协议而言，有许多相关法律法规需要遵守。</p>
-  <p>我的意思是，先应用那些方法吧。不要让这个“世界末日”发生。这种叙述方式使得人们能够摆脱当前存在的法律约束。现在，去仔细领会其中的含义吧。有很多“有”这样的表达，但实际上他们并没有要求制定更多的法律。他们要求废除我们现有的法律。我认为那确实是一个问题。我们有很多相关法律，那么，我们先来应用这些吧。</p>
-  <p><strong>主持人：</strong>你认为这些公司是在寻求这样的机会吗？因为受到某种程度的规范约束而得以实施，他们不想自己来处理这件事，不想承担自己的责任，因为他们正在建造的东西。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260921/v2_3fc16b7a053a40998415234479d652a5@46958_oswg640554oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>黄仁勋：</strong>他们正从实验室转向一家产品公司，从一个无法产生客户收入的业务，转变为能够产生客户收入的业务。而且这种转变必须非常迅速，因为他们正在以极快的速度进行着这一切。这两家公司是历史上最具影响力的两家科技公司。他们是非常了不起的研究人员，才华横溢得令人惊叹。他们的工作做得非常出色，但这并不能改变事实。事实上，他们正在从实验室阶段过渡到产品阶段、服务公司，创造数千亿美元的营收收入。预计这将带来数千亿美元的收入。它们两者以人类历史上前所未有的速度提升计算能力。</p>
-  <p>他们确实值得这样的待遇，因为他们的产品很优秀，非常实用，所以人们都愿意使用它们。越多越好，他们喜欢创造更多的收入，他们的投资者想看到它们的成长情况。所有这些都很好。但是法律是存在的。有一些产品责任相关法律，这些法律应该得到验证和审查。</p>
-  <h2><strong>三、信任这些 CEO 吗？相信能力，但反对恐慌</strong></h2>
-  <p><strong>主持人：</strong>你更有信仰吗？在拥有这项技术的四到五位 CEO 中，你相信他们会做出正确的决定吗？能否缓解一些相关的担忧呢？</p>
-  <p><strong>黄仁勋：</strong>他们肯定有能力做正确的事情。他们正在经历从一种状态到另一种状态的转变，这是可以理解的。首先，他们都是年轻的 CEO，都是首次担任 CEO 职务的人。我已经从事这个工作整整 33 年了，现在回想起来，我觉得自己确实积累了一些经验。就坐在后面的座位上，滔滔不绝地谈论他们的事情。</p>
-  <p>不过事实是，他们正在经历这种转变过程。建立一家公司、运营一个组织并非易事。构建产品，发展产业，创业，上市。所有这些都是新的事情，而且它们同时发生着。因此，我能够理解他们所面临的巨大、难以置信的挑战。而且，我对自己也非常有信心，也就是他们所拥有的团队的能力。这些都是非常了不起的人。</p>
-  <p>所以，你信任他们吧？嗯，我相信他们。我相信人们的能力。我也能够理解那种情况。我不赞成关于世界末日的各种猜测和恐慌。我希望他们能专注于那些他们确实在专注的事情上。他们的工程师们非常出色。</p>
-  <p>那些事件使得他们不得不创建更安全的沙盒环境来应对后续情况，以及对实验过程的隔离和管控。我确信他们已经意识到需要更加密切地监控情况了，他们在测试和评估过程中所使用的所有软件的运行情况。我确信，如果他们真的这样做的话，如果他们的软件能够与外部设备进行交互，从他们的云与外部云进行交互，以及其他他们应该让人们知晓的服务，如果发生了类似的情况，他们也需要及时处理，确保它们能够被公众共享，这样整个行业都能从中学习，我们所有人也能得到提升。</p>
-  <p>这就是网络安全行业的运作方式。现在全世界都在遭受网络攻击，工程师们正在紧张地工作着，更新他们的软件，提升软件性能，从而减少漏洞风险。这些都是极其复杂的系统。我们有开源软件，这一点非常了不起。开源软件让所有公司都能使用它，能够自我防御并进行升级。这是其中一个原因。这个行业现在仍然在正常运行中。有数百家公司共同合作，形成一个社区般的协作体系。而且你知道，我们的结构是不对称的。有很多防守队员面对攻击者时，有很多需要应对的事情。拆解、分析。关于他们曾经发生的那些事情，虽然已经过去了，但事实是他们现在仍然在这样做。他们又回到了工程学的研究领域，将改进工程技术，打算在评估、基准测试和测试方面投入更多的资源。这对他们来说确实是一个不错的过渡阶段。</p>
-  <h2><strong>四、为什么美国人该信你？公司成功与安全部署直接相关</strong></h2>
-  <p><strong>主持人：</strong>作为美国人，看看你，你真是首席执行官，同时也是英伟达的创始人。这简直太不可思议了，世界上最有价值的公司。为什么在这一具体的安全问题上，为什么美国人应该信任你的观点呢？当你的公司取得成功时，你的净资产却与销售芯片直接相关？</p>
-  <p><strong>黄仁勋：</strong>我们公司的成功与产品和服务的安全部署直接相关。如果计算机行业无法安全、高效地为世界创造价值，提供大量的资源，那么我们的价值将会减少。因此，这种情况也发生在我们身上。个人以及工业领域，这一新类别的应用场景称为 AI，能够被生产出来，并安全地交付到世界各地。我们必须这么做。我们必须平衡好这件事，确保一切都能得到妥善处理。</p>
-  <p>乐观主义。我们之所以做我们所做的事情，我们从事这份工作，是因为我们相信这对世界来说是一件非常有意义的事情。我们认为，我们希望我们的孩子也能成为其中的一员。我的孩子们也是其中的一部分。我们希望所有的家庭都能参与到这项活动中来。我们希望迎来这样一个未来：人类面临的苦难减少，企业能够更加高效地运作。在那里，我们可以更快地获取知识。我们希望这些都能在未来实现。我们想应对老年人口问题。我们希望拥有可持续的能源，并充分利用人工智能技术。市场力量将推动世界走向可持续能源时代。我们想要所有这些东西。</p>
-  <p>但我们必须负责任地去做这件事。我们必须确保一切过程都进行得非常安全。而我们必须以成熟的心态来处理这一切。这样我们就不会用那些戏剧性和历史性的方式来吓到其他人了。这是一种对未来的预测，那根本不是事实。</p>
-  <h2><strong>五、对华竞争：应该尽可能快，但不应靠禁售和垄断</strong></h2>
-  <p><strong>主持人：</strong>这里最突出的问题就是与中国的竞争。一直以来，人们的观点都是：我们无法减缓人工智能的发展速度，以免我们败给中国。你认为这是一个合理的论点吗？</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,727" src="https://img.36krcdn.com/hsossms/20260921/v2_af2a45de1137415b9bb167de916188fb@46958_oswg771883oswg1080oswg727_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>黄仁勋：</strong>作为对每一个行业中的首席执行官、每一位学生以及每一位教授的建议：我们美国社会的每一位成员都希望美国能够变得尽可能繁荣昌盛。我们越富裕，我们的经济越繁荣，我们能够安排的社会保障越多，我们能够为国家提供的服务越多，军事安全越强。我们如果能成为世界公民，并支持他人，那就更好。挑战与考验，苦难与折磨，痛苦与挣扎，这样就能让我们作为一个国家更加具有慈善精神。因此，我建议每一位美国公民、美国的每一个人都应该这样做。我们会用尽全力朝同一个方向拉。</p>
-  <p>那么，我们应该减速吗？这会不会影响到与中国的竞争呢？在这个领域，我们应该尽可能快地前进，不要犹豫。其他任何人的情况都无关紧要。不是这样的。如果中国能够找到治疗癌症的方法，那对我们来说真是太好了。如果中国能够发明出一种新的可持续能源技术，那对我们来说真是太好了。如果中国在科学和数学的许多领域都处于领先地位，我们能够向他们学习并从中受益，这对我们来说是非常好的事情。</p>
-  <p>但是听着，我们整个国家都像装了弹药一样，随时准备行动。这是一个拥有非凡能力的国家，拥有杰出的创新者。我为自己能成为美国科技产业的一部分而感到自豪，我非常喜欢这个行业。我们国家瑰宝中的三大支柱之一，当然，我们的金融系统也属于这一类，当然，我们的军队也属于这一类。我所服务的这个集体，我所属的这个团体，这项技术工业，它绝对是我们国家的瑰宝之一。</p>
-  <p>我们会以尽可能快的速度前进，不过，我们永远都不会这么做，也永远不应该这么做：在产品尚未准备好之前就将其推出市场，交付存在安全隐患的产品。而且也没有人期望我们去做那件事。但是大家都希望我们能够成功，并帮助美国实现最大的繁荣。</p>
-  <p><strong>主持人：</strong>大卫·萨克斯本周早些时候告诉我，他认为如果我们放慢人工智能的发展速度，可能会带来巨大的危害。美国经济，美国军队，这会让美国处于不利地位。所以我想明确一点，你们认为呢？考虑到我们目前的状况，尤其是在中国，我们应该密切关注人工智能的发展情况吧？</p>
-  <p><strong>黄仁勋：</strong>首先，大卫非常聪明。这真是体贴的做法。他很有深度，他很务实。他是一位伟大的美国爱国者之一。能够认识他真是我的荣幸。我是在他担任白宫顾问期间遇到他的，当时他还在白宫工作。真是个不可思议的人。</p>
-  <p>我不清楚他所说的话是在什么情境下提出的。不过我相当确定，他希望美国能尽快发展起来。不过，其速度并不会超过我们的预期。我们应该以尽可能快的速度前进，但不要超过应有的速度。如果我们为了某些目的而牺牲安全性，那是绝对不可以的。如果你为了追求产量而牺牲了安全性，那么生产出来的产品当然也是不安全的。那样做会让人陷入危险之中，我们有各种法律来制裁这种行为。因此，那些正在研发这些技术的公司们，完全有动机去做正确的事情。我非常有信心，因为他们有动力去这么做，他们具备做到这一点的能力。我们将会履行承诺。我们将会创造人工智能，并以一种对社会无害的方式来发展人工智能技术。</p>
-  <p><strong>主持人：</strong>达里奥·阿马德戴表示，我们应该停止向中国出售芯片。该声明是：“不要向中国出售强大的人工智能芯片或半导体制造设备。”你对那件事有什么回应呢？</p>
-  <p><strong>黄仁勋：</strong>我们必须确保由美国研发出的那种技术能够顺利应用下去，让美国占据优势。每个国家都会这么做，每家公司都是这么做的，每个家长都会这么做，每个行业都是如此，每个国家都是如此。而在美国的情况下，美国已经做出了决定，美国联邦政府也已下定决心。我非常支持我们首先将英伟达最先进的科技提供给美国企业。</p>
-  <p>因此，我们正处于我们称之为“Vera Rubin”的时代。Vera Rubin 已经开始大规模生产了。我们在这一技术领域已经领先中国好几年了。它现在已经可以使用了。致达里奥与大家，山姆，你也知道美国的那些实验室吧。美国的企业们正在这么做，我们也很高兴能够参与这一活动。</p>
-  <p>另一方面，请记住，人工智能其实是一个复杂的系统，包含多个层次。不只是那种模式而已。人工智能行业的代表，就如同能源行业、芯片行业的代表一样。他们所在的模型部门，他们所处的模型层级。你可以认为总共有六个层叠结构，或者五个，但基本上就是那样。这些数据以及该应用程序层。我们需要每一层这样的努力，美国的每个人都必须参与其中，才能取得胜利。我们希望能在能源领域取得胜利。我们希望能在芯片领域引领全球发展。我们倾向于确保每一个应用公司都能得到妥善处理。</p>
-  <p>我喜欢联邦快递将来会成为一个由人工智能驱动的公司这一事实。我喜欢沃尔玛即将成为一家人工智能公司这一事实。我们需要美国的每一家公司都成为人工智能相关企业。不仅仅是某一家公司，也不是两家公司而已。记住，你需要退一步来思考一下，明确一下人工智能到底是什么。人工智能是一种智能的数字化智能。为什么美国的每一家公司都能做到这一点呢？它们是否得到了支持？并且具备数字智能的能力吗？所以，当然，每家公司都会如此行事。拥有数字智能或人工智能的未来公司，作为公司的一部分。所以我希望每个人都能赢，包括芯片行业的人。</p>
-  <p><strong>主持人：</strong>所以，你不同意达里奥的观点，认为我们不应该出售这些物品，对吧？</p>
-  <p><strong>黄仁勋：</strong>我完全不同意应该禁止所有中国产品进入美国的观点。这家美国公司应该拥有先进的技术能力。但是之后，就再也没有了。美国人工智能技术栈中的每一层组件，包括传统企业以及各个领域、各类芯片公司所采用的 AI 模型模式，应该去服务世界，与全世界竞争。为全世界提供服务，占据市场份额，获取经济繁荣——这一切都与竞争息息相关。美国是一个竞争非常激烈的国家，我们应该参与竞争，而不是去垄断整个市场。我们的市场并不属于他可以随意开发的领域。我们应该去争夺全球市场。</p>
-  <h2><strong>六、特朗普、AI 恐惧与监管</strong></h2>
-  <p><strong>主持人：</strong>我想询问一下关于特朗普总统以及您与他之间的关系的问题。您同意特朗普总统的观点吗？你在科技和人工智能领域是他最亲密的顾问之一。</p>
-  <p><strong>黄仁勋：</strong>他有很多顾问。他有很多建议，而且他还是个非常出色的倾听者。他接触的对象非常广泛。我很好奇，这也是其中一个原因。他看出了其中的骗局，这些复杂的局面啊。</p>
-  <p><strong>主持人：</strong>他本周表示，他认为那些关于人工智能危险的担忧其实是骗局而已。利用人工智能来毁灭人类的可能性只是一种幻想罢了。你同意特朗普总统在这方面的观点吗？</p>
-  <p><strong>黄仁勋：</strong>哦，对啊。现在，你和我刚刚开始的对话，正是以这句话开始的。我完全不同意那个观点。我完全不同意这个观点：那种人工智能的崛起将会导致世界的终结。在 2030 年。</p>
-  <p><strong>主持人：</strong>总统将这种恐惧称为骗局。你同意他对这件事的描述吗？</p>
-  <p><strong>黄仁勋：</strong>我刚才在峰会期间，有人正在和他通电话。我不想代表他说话。</p>
-  <p><strong>主持人：</strong>我正在询问关于你的事情。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,599" src="https://img.36krcdn.com/hsossms/20260921/v2_c4500754291c41509524b1d0e25f794e@46958_oswg631457oswg1080oswg599_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>黄仁勋：</strong>我相信，我相信世界末日的说法是正确的。让恐惧在美国各地蔓延，由那些真正从事这项工作的人来去做这件事，这对我来说没有任何意义。所以，他们这么做肯定有别的动机。也许这是出于政治目的，或者有其他原因，又或者只是为了吸引注意力而已。也许这样就能让他们有机会获得与您的交谈机会了。我不知道具体原因是什么，不过不管怎样，情况就是如此了。</p>
-  <p>2030 年并不会成为世界的终结之日。世界末日发生的可能性为 0%。所以，我觉得吓唬别人是没有必要的。这种行为是不负责任的，我不知道他们的动机究竟是什么。不过，他确实说了一些话，还有一些其他的事情。所以，这就是他所说的事情。他还说，我们不需要更多的规章制度了。我们需要遵循现有的相关规定来进行操作。这非常实用啊。非常明智的做法。我们之前也讨论过这个问题，我同意他们的观点。</p>
-  <p><strong>主持人：</strong>他还说了一些有趣的话。关于他是否有能力确保人工智能不会对美国人民产生这种影响的问题。您认为特朗普总统有能力做到这一点吗？在他任职期间，能否有效应对并防止人工智能相关危机的发生？你认识他，你可以和他交谈。他真的有那种能力吗？</p>
-  <p><strong>黄仁勋：</strong>作为美国的领导者，我们目前有大量的法律法规需要遵守。同时也要认识到我们现在面临的这些情况。我认为我们有必要的相关法律和规定，处理那些事情。而且，从你的角度来看，他能够成功抵挡住这一击。是的，因为美国就是这样。我们的体系已经拥有许多相关的法律和规定了。这适用于许多不同的产品和服务领域。所以我觉得他所说的是一些实际的事情。而且，就像我们之前已经讨论过的那样，我认为我们有很多法律法规需要遵守，这些法规必须得到执行。</p>
-  <h2><strong>七、纳税与美国梦：不怕缴税，只怕变穷</strong></h2>
-  <p><strong>主持人：</strong>我可以问你一些关于你的个人状况的问题吗？比如你在这里的生活状态怎么样？我们都知道，黄仁勋是英伟达公司非常成功的首席执行官。你是一位亿万富翁。在加利福尼亚州的几位亿万富翁们正在花费数百万的资金来反对第 40 号提案，所谓的亿万富翁税。你说如果加利福尼亚州通过这项法案，那么支付这笔费用是完全可以的。为什么你的看法与许多同龄人不同呢？</p>
-  <p><strong>黄仁勋：</strong>我不在乎纳税。</p>
-  <p><strong>主持人：</strong>为什么不行呢？</p>
-  <p><strong>黄仁勋：</strong>听着，我不喜欢浪费税收资金。我喜欢我们的国家运作高效，一切都能顺利进行。我支持你的一切想法，同时我也认同这个国家所代表的价值观。我支持我们所有的政府官员们。他们肩负着公民责任，致力于让美国变得更加强大、更美好。我喜欢我们为所有公民所提供的这些基础设施。我喜欢它所创造出的东西。对我来说，这就是我心目中的美国梦啊。要不是因为这个国家，教育状况就不会如此了。能够创建一家新公司，来实现你的梦想。让优点成为你成功的原因吧。努力奋斗，追求创新，让这成为你成功的原因吧。如果没有那些原因，你懂的，我为什么会在这里吧。我不可能遇到所有那些让英伟达得以存在的人们。我在学校的时候没有遇到我的妻子。这样的列表还有很多。</p>
-  <p>我以各种方式热爱着这个国家。虽然并不完美，但非常出色。我有机会游历了世界各地。有时候回顾自己的祖国，我们所有的考验与苦难，以及所有的讨论与对话，那种混乱不堪的状态，在很多方面，正是这些特点使得我们的国家如此美丽。这就是让它发挥作用的原因。我很高兴能成为其中的一员。</p>
-  <p><strong>主持人：</strong>即使你最终可能需要支付大约八十亿美元左右，五年时间还是值得的吧？</p>
-  <p><strong>黄仁勋：</strong>首先，我很高兴你这么说了。也就是说，我有能力在五年内支付 80 亿美元的税款。这是一种特权。并不是说没有那 80 亿美元。事实上，我有足够的资金支付 80 亿美元。我不怕缴纳税款。我只是害怕变得贫穷而已。我并不介意为他人做贡献。我喜欢全额付款。我以我说过的话而闻名：我想要支付所有员工的工资。我尽力了，真的。而不是向人们支付尽可能少的报酬来让他们完成工作。我尽量给员工尽可能多的报酬。那是一种成功所赋予的特权。</p>
-  <p>说实话，我很高兴能够做到这一点。我觉得这是一种荣幸。这是一种责任，必须承担相应的义务。没有什么能让我感到如此开心了。与其支付更多的税款，不如选择不纳税。等等，你是想让人们的税收负担变得更重吗？不，你的收入越高，需要缴纳的税款就越多。所以我对此没有意见。确实如此。我对此没有意见。</p>
-  <h2><strong>八、数据中心争议：不是怪物，是 AI 工厂和新制造业</strong></h2>
-  <p><strong>主持人：</strong>目前，有件事确实让很多美国人感到困扰。有很多人不希望拥有数据中心，在他们的后院里。这是一种罕见的两党团结。这种反对意见存在于两派政治群体中。英伟达为许多数据中心提供技术支持。对于那些站出来发声的人，你们有什么要说的呢？如果我们不希望这些出现在我们的社区里，那该怎么办呢？</p>
-  <p><strong>黄仁勋：</strong>首先，我想说，我们很抱歉，没能早点与您见面交谈。我们早就应该去和他们谈谈了。在你们甚至还没站起来之前，某个社区里就已经有一个巨大的数据中心了。一些乡村地区，那个地方，就是某个小城镇吧，你知道的，我在那个小镇上长大。600 人中的一部分，我就读于一所拥有 300 名学生的学校。还有那 300 个孩子，他们都是奥尼塔的孩子们。在肯塔基州，就是那样。</p>
-  <p>而如果你真的处于那种情况的话，如果我们突然之间就全部消失了，如果有一个数据中心恰好位于那家杂货店旁边，那可真是巧了。我觉得自己可能会感到惊慌不已。所以，我认为首先，我们必须去与当地社区进行接触。很久以前，我们已经建立了数据中心。我想，今天的各位同事都应该意识到这一点。所有这些事情都发生得如此迅速，而这一切就发生在了那个地方。如此迅速。有时候我们就是没有意识到而已。我们根本没有机会保持礼貌，只是作为一个游客，来参观这座新的城市而已。</p>
-  <p>不过，我还要说一下，此外，数据中心的建设也在取得巨大的进展，而且速度非常快。现在，冷却系统中的水是循环流动的水。我们使用热水来为数据中心降温，因此所需的能量相当有限。所需的冷却量大大减少了。我们消耗的能源应该用于为发电厂提供动力。实际上，我们甚至应该为提升当地电网的可靠性做出贡献。</p>
-  <p>而美国越来越重视的方面之一就是理解市场的动态变化，以及人工智能所驱动的市场力量，真是令人惊叹不已。投资，这是 100 年来首次进行这种操作。我们有机会投资各种可持续能源领域。如果有某个特定的城镇想要使用太阳能发电，如果你想知道这是否像核反应一样，是聚变还是裂变的话，每一种形式的发电方式，这个提议今天已经被提到了讨论桌上。大家都在投入资金进行投资。所以，这是一个非常棒的时刻。如果我们想要实现一个可持续的未来，接下来的五年里，我们几乎不会使用更多的化石燃料了。但在那之后的几十年里，我们将看到各种各种的应用场景，可持续能源，因为人工智能的缘故。</p>
-  <p>所以，我想说，我也会这么认为。有这么多精彩的故事啊，那些受益于数据中心建设者投资的城镇们。你知道，他们的社区设施得到了改善，有了新的学校、新的棒球场、新的道路。降低财产税税率，这些方案都是可以考虑的。所以我认为，就是那样。数据中心建设者应该去社区里转转，让他们知道，他们正在考虑在社区内建设一些设施，让他们知道这次对话的情况，其中包括了升级他们所在城镇的机会，降低他们的税收，减少能源消耗。应该有一些最低要求吧。应该对这些数据中心的美观设计有一些预期吧。我认为它们应该被设计得更好一些。它们的设计可以改进得更完善一些。提出了一种新的数据中心设计方法。</p>
-  <p>虽然真正的问题在于如何让某样东西变得美丽。它只是整个体系中的一部分而已。我觉得今天没有人认为数据中心的 aesthetics 是其设计的一部分。其部分功能就是这样实现的。人们经常思考关于能源费用的问题，水和资源，那些需要纳入其中的内容。看来，那些抗议这些数据中心的人主要关心的就是这个问题。</p>
-  <p>关于水消耗量的说法，现在已经不再可信了。这些数据中心在蒸发过程中消耗的水分较少。他们不再使用蒸发法了。它使用的水比一个全年都在蒸发的游泳池还要少。所以，我觉得所有这些都是具有历史意义的事情。可以理解，但现在这已经成了一种神话了。能源费用正在上升，这实际上是一种相反的情况。这些数据中心中的大多数，应该为电网做出贡献，等等。当他们向电网提供电力时，这会使得电网更加具有弹性。它们降低了电力成本。</p>
-  <p>听起来你想要表达的是这样的意思：人们应该重新考虑一下这个决定。如果他们的附近也有这些东西的话，那么我们就应该好好地处理它们。不过，你还是应该让设计更加美观一些吧。这些障碍应该位于城镇的远处。因为你们知道，这些数据中心内有大量的数据进出流量。有噪音之类的干扰因素。所以你只需要按照合理的思维方式来处理这些事情就行了。我们应该拥有它。我们很早就去与当地社区进行了交流，在到达之前就与他们进行了沟通。一切发生得太快了，因此也就没有时间去细细思考了。嗯，很不幸啊。不过，往后我们一定能做得更好。</p>
-  <h2><strong>九、数据中心做什么？AI 工厂与再工业化</strong></h2>
-  <p><strong>主持人：</strong>你们创办了这家公司，最初是以研发游戏芯片为主的公司。30 年前，你坐在那里，和丹尼一起。我在丹尼餐厅做过洗碗工。当你在丹尼的餐厅担任洗碗工的时候，你是否曾经想过这一点呢？你最终会站在辩论的最前线，关于人工智能以及人类文明的终结问题，你们有什么看法？</p>
-  <p><strong>黄仁勋：</strong>呃，不行。我当时完全专注于洗碗这件事。就像没有任何洗碗机能够完成洗碗工作一样。我曾经是所有服务生中最为出色的那个。你知道的，我几乎把热情带到了我所从事的每一份工作中。不管那是什么，都无关紧要了。</p>
-  <p><strong>主持人：</strong>看起来你同样充满热情啊。今天就把工作交给你了。这非常重要。这是一次非常重要的谈话。我很高兴能够举办这个活动，而且大家都很开心。我想确保美国公众能够理解这一点。这个行业的发展是我们的责任。</p>
-  <p><strong>黄仁勋：</strong>安全地研发这项技术。这是制药行业致力于研发安全药物的过程。汽车工业需要安全地制造出汽车。飞机工业应确保飞机的安全运行。这个行业，我们必须确保人工智能的构建过程是安全的，并且要对自己的行为负责。第一，第二，不要相信那些神话和荒谬的戏剧性故事。因为这让我们对这种惊人的能力并不持乐观态度。我们不希望成为一个这样的国家：那个被发明出来的东西，这场工业革命所采用的技术，但是，希望这个国家不要让我们的国家落在后面。不要让那种情况发生。我不希望这种情况发生在我的孩子身上。我不想让这种事情发生在你的孩子们身上。</p>
-  <p><strong>主持人：</strong>你能解释一下数据中心到底做什么吗？还有，为什么需要它们呢？“AGI”会不会是一种好的情况呢？</p>
-  <p><strong>黄仁勋：</strong>好吧。所以，这真是一个非常好的问题。首先，正如大家所知，大约在几百年前，也就是 350 年前，现代工业革命开始了。电力正在被制造出来。那是一件神奇的事情，一种不可思议的现象。几乎像神话般的存在。在那里你可以拥有水流入这台机器，而这种看不见的技术最终被命名为“电力”，我们可以利用它来传输能量，在全球各地替代蜡烛的使用，以及炉灶之类的东西，燃烧木材的烤炉等等，蒸汽发动机。因此，我们使得这一切成为可能。为了促成这一新产业的诞生，人们努力打造了一个完整的产业体系。然后是第二次工业革命，接着是第三次工业革命，最后是最后一次工业革命。</p>
-  <p>实际上，我们关注的是信息时代的问题，而我们通过建立这些数据中心来使这一愿景成为现实。为了让互联网能够相互连接，从而我们能够……所以，根据之前的工业订单，我们可以为任何设备提供动力。现在，我们可以找到任何东西，也能知道自己所在的位置。我们创造了这项名为人工智能的技术。在给定信息和上下文的情况下，它可以对您提供的信息进行推理分析。这样它就能给出答案，然后做任何想做的事情。你甚至可以使用一些工具来辅助工作。比如，而不是你们两个人一起使用网页浏览器，或者你和我一起使用 PowerPoint，表现出色，或者你知道有一种名为 3D 设计工具的软件，比如 AutoCAD、Blender 之类的软件吧。这个软件能够思考你让它做的事情，考虑上下文，你需要用来实现你的意图的信息，而且它还能为你完成这项工作。</p>
-  <p>来自 OpenAI 的最新一代产品 Astra 简直令人难以置信。你只需要告诉阿斯特拉：“这是我家后院的照片。”我喜欢在里面摆放一些植物。现在我希望你将它转换为设计文件，给我的园丁和木匠们，让他们能够使用这些工具。请帮我整理一下后院的空间，或者帮我设计一下房子吧。“请为我建造那栋房子吧。”阿斯特拉如此说道。使用了所有必要的工具以及您提供给它的那些图像，它就能生成 CAD 文件，用于房屋、厨房或者后院。真是不可思议。</p>
-  <p>所以，这就是 AGI 所做的事情。不过，现在我们需要一种新型的基础设施。而不是使用发电机来供电。与其说互联网需要一个数据中心，不如说我们现在需要一家人工智能工厂。这是一个人工智能工厂。其中涉及到能源的利用，数据的处理，还有那些我们称之为“代币”的数字货币。不过，从根本上来说，这一切都是为了实现某种目标而进行的：重新表述，进入智能领域。我知道这听起来可能比较复杂，但基本上就是如此。能量进入系统，智慧产生出来——基本上，这就是一个人工智能的“工厂”而已。</p>
-  <p>输入输出。就这么简单而已。当然，这些工厂内部使用了许多由英伟达生产的计算机设备。那么现在的问题就是，这个行业的规模会有多大呢？现在看来，经济的几乎每一个领域以及每个人身上都存在这种情况。我们喜欢了解各种事情。我们喜欢去做一些事情。也许我们喜欢让购物过程变得自动化一些吧。也许我们希望能够自动化度假的规划过程，或者一次旅行，请为我们找到最优质的展会吧。以此类推。我只是举了一个例子：也许我们想要改善我们的后院吧，设计一个新的厨房。</p>
-  <p>每一个行业都涉及到信息处理的工作。而按照全球工业界的说法，其经济规模可达百万亿美元之巨。而其中大约有 15 万亿美元。可以拥有比现在更多的智力。因此，这些工厂构成了覆盖每个国家的网络。每家公司都会使用它。这就是为什么会有这么多这样的数据中心的缘故。这将会成为一个价值数万亿美元的产业。</p>
-  <p>从美国的视角来看，我们应该如何思考这些数据中心呢？需要明白的是，这是过去 100 年来第一次发生这种情况，至少这是 50 年来的第一次了。我们有机会再次实现工业化。美国的“制造业回归美国”计划。现在，当然，这其实就是制造出一些看不见的东西的过程，就像发电一样。这并不是典型的汽车制造方式，并不是在制造原子，它正在制造电子。如果你愿意的话，它其实是看不见的。不过，这仍然是制造业领域的工作。正如您所知，这在美国各地创造了各种制造业就业机会。那些建筑工人、电工们，那些装配工、设计师、建造者们，每个人都忙得不可开交，因为他们正在美国各地建造价值数万亿美元的人工智能工厂。</p>
-  <p>这是真正让我感到兴奋的部分。这是第一次，几十年，那些蓝领工人、建筑工人，这些工匠来自我们的国家，这是他们绝佳的机会。而他们现在都在享受着如此的繁荣与幸福。我喜欢看到那样的场景。我们真的非常缺电工和建筑工人。但这对于美国来说，确实是一个绝佳的重新工业化的机会。再次成为一个制造强国吧。为了我们，创造机会，为了那些蓝领工人，以及我们国家所有的建筑工人们，并让它们重新出现起来，又回到了建筑和制造业领域。所以，我认为这真是不可思议。因此，这创造了各种类型的工作机会。很多人并不认为数据中心建设属于制造业的范畴。所以我觉得这挺有趣的。这只不过是一种新的制造方式罢了，就像我之前所说的那样。</p>
-  <p>发电是一项需要人类参与的工业活动。发电属于工业领域的工作。那里有一些人正在建设这些工厂，而这些工厂确实必须建成。它是由建筑商建造的，而数据中心则只是在制造新的版本而已。这个新版本的制造产品是隐形的，就是数字而已。我知道制造这些数字看起来有点奇怪，但基本上就是如此而已。</p>
-  <h2>结 语</h2>
-  <p>黄仁勋的核心态度可以概括为：AI 很强大，必须安全；但不要用“世界末日”的戏剧化叙事制造恐慌，更不要借这种叙事绕开现有法律。行业正在从实验室走向产品化，安全要进入工程、测试、评估、验证和基准体系。美国应该尽可能快地发展 AI，参与全球竞争，但绝不能在产品未准备好之前推出，更不能牺牲安全。与此同时，AI 工厂和数据中心将带来新的基础设施、新的制造业岗位和新的再工业化机会。对他来说，这不是恐惧的理由，而是必须负责任地抓住的机会。</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/Vnt8hTqedF1t5ObNUeDzGQ">“后浪进化星球”</a>，作者：Mark，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Mon, 21 Sep 2026 08:51:55 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3992887819582468</guid>
-            <link>https://www.36kr.com/p/3992887819582468</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[奥特曼落榜，OpenAI总裁255亿杀进全美富豪前50]]></title>
-            <description><![CDATA[<p>OpenAI最有钱的人，不是奥特曼。 &nbsp;</p>
-  <p>本周，Forbes公布2026年Forbes 400美国富豪榜。OpenAI联创兼总裁Greg Brockman首次上榜，身家约255亿美元，排名全美第45。 &nbsp;</p>
-  <p>他是今年身家最高的新人。&nbsp;</p>
-  <p>排在他前面的，是耐克联合创始人Phil Knight；排在他身后的，是传媒大亨默多克。 &nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,108" src="https://img.36krcdn.com/hsossms/20260921/v2_58802148fb8e47d595e478da92a20a45@000000_oswg29903oswg1080oswg108_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而他的老板，OpenAI的CEO奥特曼，却与这个富豪榜单无缘。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20260921/v2_0c4892b00d5f4f97b06bdfd80e1082c6@000000_oswg692477oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">OpenAI总裁Greg Brockman。他以约255亿美元身家首登2026年Forbes 400，排名全美第45。</p>
-  <p>按Forbes的说法，奥特曼不持有OpenAI的直接股权，目前身家约33亿美元。</p>
-  <p>而今年上榜门槛是44亿美元，他差了11亿，所以没进榜。&nbsp;</p>
-  <p>255亿对33亿，前者接近后者的8倍。</p>
-  <p>就在同一周，FT和The Information接连曝出：OpenAI正与投资人初步接触新一轮融资，估值可能冲到1.2万亿美元，甚至更高。 &nbsp;</p>
-  <p>而几天前，奥特曼还刚刚亲口确认，OpenAI今年不上市。 &nbsp;</p>
-  <p>虽然上市按下暂停键，OpenAI已经先把自己的二号人物送进了全美富豪前50。 &nbsp;</p>
-  <h2><strong>一本日记，从10亿写到255亿</strong></h2>
-  <p>2017年8月，Brockman在日记里写下一句话：「财务上，什么能让我赚到10亿美元？」 &nbsp;</p>
-  <p>那时的OpenAI还是非营利组织。</p>
-  <p>几位联创还在为要不要成立营利部门、马斯克要不要掌控它，吵得不可开交。 &nbsp;</p>
-  <p>九年后，这本私人日记成了马斯克起诉OpenAI时杀伤力最大的证据。</p>
-  <p>马斯克拿着它指控奥特曼和Brockman背叛了他：他们先说服他出钱支持非营利机构，再把它改造成营利公司。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20260921/v2_900c02999a1447eaa94b194eca4e762f@000000_oswg566675oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">今年4月30日，奥特曼（中）与Brockman（右）抵达加州奥克兰联邦法院。</p>
-  <p>Brockman在加州奥克兰的法庭上作证时解释道，这句话的意思是他希望自己为OpenAI倾注的心血能值回点什么。</p>
-  <p>后来，陪审团以马斯克起诉太晚为由，驳回了这起诉讼。</p>
-  <p>4个月后，资本市场给Brockman倾注的心血打出了价码。</p>
-  <p>他以255亿美元身价登上Forbes 400，是当年那个10亿美元「小目标」的25倍多。</p>
-  <p>这个数字，也是另一位联创Ilya Sutskever所持OpenAI股份价值的3倍多。</p>
-  <h2><strong>255亿美元身家从哪来？</strong></h2>
-  <p>Forbes说，Brockman的财富在很大程度上来自他持有的OpenAI股份。</p>
-  <p>据Forbes估算，Brockman在OpenAI的持股比例略低于3%。 &nbsp;</p>
-  <p>他本人在5月庭审中也披露过，这部分股份价值超过200亿美元，更接近300亿美元。 &nbsp;</p>
-  <p>拿OpenAI今年3月8520亿美元的投后估值乘以3%，是255.6亿美元。再考虑「略低于3%」和他的其他资产，基本能够对得上Forbes给出的255亿美元。 &nbsp;</p>
-  <p>除了OpenAI的股份之外，Brockman手里还有另外一张牌：Stripe。 &nbsp;</p>
-  <p>Brockman出生在北达科他州一个小镇，父母都是医生。</p>
-  <p>后来，他从哈佛退学转去MIT，几个月后又退学，成了支付初创公司Stripe的第4号员工兼CTO。直到现在，他还持有价值约4.71亿美元的Stripe股份，这家公司今年2月估值1590亿美元。 &nbsp;</p>
-  <p>此外，他在Cerebras、CoreWeave、Helion等公司还有一些小额投资，合计不到500万美元。这三家公司都和OpenAI有过生意往来。 &nbsp;</p>
-  <p>2015年，Brockman离开Stripe，联合创办OpenAI，出任CTO，此后近十年，他一直站在幕后，外界的目光则聚焦在奥特曼身上。</p>
-  <p>真正让他押上全部身家的，是2023年那场董事会风暴。&nbsp;</p>
-  <p>奥特曼被突然解雇后，Brockman几小时内就宣布辞职。他很清楚，这一走，手里的OpenAI股权可能保不住。</p>
-  <p>Brockman这份押上身家的义气，早有伏笔。</p>
-  <p>庭审还曝出一个细节：2017年，奥特曼曾把自己家族办公室1000万美元的份额送给Brockman，两人的交情可见一斑。</p>
-  <p>随着OpenAI估值一路往上涨，有直接持股的Brockman，账面财富跟着水涨船高。</p>
-  <p>二人的财富差距，与他们在OpenAI的职位高低形成了奇异的反差。</p>
-  <p>反差背后，是持股与不持股的区别。</p>
-  <h2><strong>奥特曼踩刹车，投资人踩油门</strong></h2>
-  <p>今年3月31日，OpenAI官宣完成1220亿美元融资，投后估值8520亿美元。</p>
-  <p>这是目前估值的官方口径。 &nbsp;</p>
-  <p>6月，OpenAI秘密递交了IPO申请，市场一度期待它年内上市。&nbsp;</p>
-  <p>然后，奥特曼按下了上市的暂停键。</p>
-  <p>他在9月12日接受Fortune独家专访时说，考虑到安全方面正在发生的一切，眼下上市并不明智，上市时间不会是2026年。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,540" src="https://img.36krcdn.com/hsossms/20260921/v2_ec10bd2e59d2403a908b4e5ba0d2ac29@000000_oswg806219oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>奥特曼在OpenAI旧金山总部接受Fortune主编Alyson Shontell专访，确认OpenAI今年不上市。</p>
-  <p>上市推迟，可资本市场的热情一点也没减。</p>
-  <p>没几天，媒体就曝出OpenAI已与投资人初步接触新一轮融资，估值可能达到1.2万亿美元或更高。</p>
-  <p>《金融时报》还特别提到，这轮洽谈由投资人主动发起，具体谈判进展和估值水平，很大程度上取决于OpenAI打算何时上市。&nbsp;</p>
-  <p>如果传闻的这轮融资按1.2万亿美元落地，OpenAI的估值将比3月再抬高约3480亿美元，涨幅约41%。</p>
-  <p>半年时间，再涨四成。 &nbsp;</p>
-  <h2><strong>纸面富豪，已经在花真金白银</strong></h2>
-  <p>Brockman这255亿美元，大部分还停在纸面上。</p>
-  <p>但这不妨碍他将这笔钱用于政治投资。</p>
-  <p>过去一年，他和妻子Anna捐出7500万美元，全部给了超级PAC，也就是美国选举里那种可以无上限募款、替候选人打广告的政治组织。</p>
-  <p>其中5000万美元，捐给两个支持「对AI友好」候选人的超级PAC，民主党、共和党同时下注；另外2500万美元，捐给支持特朗普的超级PAC「MAGA Inc.」。</p>
-  <p>这几笔钱，引来了部分OpenAI员工的反对，也在用户里掀起了一场退订ChatGPT的运动。</p>
-  <p>一边在花钱，一边人还在往外走。&nbsp;</p>
-  <p>OpenAI的11位联创，如今只剩Brockman、奥特曼，以及负责非营利部门的Wojciech Zaremba三人还在公司。</p>
-  <p>高管也在密集离开。</p>
-  <p>4月，Sora负责人Bill Peebles和OpenAI for Science负责人Kevin Weil相继离职。</p>
-  <p>随后，营销负责人Kate Rouch，以及应用业务CEO Fidji Simo，前后脚卸任。</p>
-  <p>8月，老将Brad Lightcap离开。首席营收官Denise Dresser在这个岗位上也只待了8个月。</p>
-  <p>随着权力收束，OpenAI进入了「Brockman时代」。</p>
-  <p>他同时掌管OpenAI的算力基础设施和产品业务，成了公司的二号人物。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,804" src="https://img.36krcdn.com/hsossms/20260921/v2_2bb048fe6f0548e49cf898ef79723f46@000000_oswg1099253oswg1080oswg804_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>AI公司还没敲钟，富豪榜已经换了一批人</strong></h2>
-  <p>放大到整张榜单，这是AI造富的一年。 &nbsp;</p>
-  <p>2026年Forbes 400上榜者的总身家，创纪录地达到8万亿美元。</p>
-  <p>34位新人里，除Brockman之外，还有14位被这波AI浪潮送上了榜。</p>
-  <p>排在Brockman之后的新人第二名，是Figure AI的创始人Brett Adcock，身家约234亿美元。</p>
-  <p>这家人形机器人公司成立才四年，还没多少收入，估值却已冲到数百亿美元。</p>
-  <p>最引人瞩目的，还要属Anthropic方阵：</p>
-  <p>Dario Amodei、Daniela Amodei、Tom Brown、Jack Clark、Jared Kaplan、Sam McCandlish，6位联合创始人同时上榜，每人身家约155亿美元，并列第75名。</p>
-  <p>6个人加起来，是930亿美元。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,295" src="https://img.36krcdn.com/hsossms/20260921/v2_98ecf847cd5b481c8fc4fc663f5e9052@000000_oswg25275oswg1080oswg295_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Anthropic一共有7位联创，另一位因为是加拿大公民，不在这份美国富豪榜的统计范围内。</p>
-  <p>2021年，他们从OpenAI出走，理由是担心OpenAI把AI做得太快，不顾安全。</p>
-  <p>五年后，他们创办的公司估值到了9650亿美元。</p>
-  <p>今年早些时候，这7位联创还集体承诺，未来会捐出80%的财富。</p>
-  <p>他们大多还很年轻。Daniela和Tom Brown都是39岁，Jack Clark 37岁，Sam McCandlish只有36岁。&nbsp;</p>
-  <p>全榜最年轻的人，也来自AI。&nbsp;</p>
-  <p>30岁的Steven Hao，是Cognition的联合创始人兼CTO，这家公司做的是AI程序员Devin。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1000,1012" src="https://img.36krcdn.com/hsossms/20260921/v2_a69cc8b86a654a9da3b5ab36745b021a@000000_oswg617622oswg1000oswg1012_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">Steven Hao&nbsp;</p>
-  <p>9月，Cognition宣布完成20亿美元融资，估值480亿美元，距离成立还不到三年。&nbsp;</p>
-  <h2><strong>AI造富浪潮已来</strong></h2>
-  <p>犹如当年的互联网，AI造富浪潮已来。</p>
-  <p>OpenAI和Anthropic都在上市前批量制造超级富豪，Anthropic还跑在了前面。</p>
-  <p>据《金融时报》报道，Anthropic按调整后口径，有望连续第二个季度盈利，最快10月上市，估值约2万亿美元。</p>
-  <p>模型能力推高收入，收入吸引资本，资本重估股权，股权造出富豪，这条链路已经跑通，而且大半是在上市之前完成的。 &nbsp;</p>
-  <p>私人市场先定价，公开市场来验收。</p>
-  <p>OpenAI现在暂缓上市，但总有一天，私人市场给出的估值要拿到公开市场上接受所有人的检验。</p>
-  <p>九年前，Brockman在日记中问自己，怎样才能赚到10亿美元。</p>
-  <p>如今，市场给出的答案是这个数字的25倍多。</p>
-  <p>AI资本一路狂飙，重估出来的财富，最先落进了紧握股权的创始人手里。</p>
-  <p>参考资料：</p>
-  <p>https://www.forbes.com/profile/greg-brockman/&nbsp;</p>
-  <p>https://openai.com/index/accelerating-the-next-phase-ai/?utm_source=chatgpt.com&nbsp;</p>
-  <p>https://www.ft.com/content/27509db8-b032-4437-9b2a-e909f466022f?utm_source=chatgpt.com&amp;syn-25a6b1a6=1&nbsp;</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652728221&amp;idx=2&amp;sn=d6fa6321628dcfa89d7d89736b859eef&amp;chksm=f0a72b7f48335ba451e7ce264a7f6d1cc18ee5218ac9b32e4ec960f036e5b780afa7026cf953&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录；编辑：元宇，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Mon, 21 Sep 2026 08:26:12 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3992838113278723</guid>
-            <link>https://www.36kr.com/p/3992838113278723</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[刚刚，Jev全网解禁，1.2亿Token限时免费用]]></title>
-            <description><![CDATA[<p>Jev，终于向全网解除封印了！</p>
-  <p>就在今天，TypeSafe AI正式宣布，废除候补名单，所有人直接上车。</p>
-  <p>新用户注册起手就送5美元额度，官方折算成1.2亿Token。</p>
-  <p>这份礼包的计价方式也很特别：每百万输入Token仅收0.042美元，而<strong>输出，完！全！免！费！</strong></p>
-  <p>因为Jev压根不吐字，它只做判断，你丢给它状态和问题，它秒回一个选项、一个评分或一个概率，代码拿到直接就能跑。</p>
-  <p><strong>官方体验网址：console.typesafe.ai</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,466" src="https://img.36krcdn.com/hsossms/20260921/v2_59826769908d4eabb757aed5664f353d@000000_oswg85896oswg1080oswg466_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>OpenRouter和Vercel等平台也可直接调用。</p>
-  <p>现在，有开发者把这套判断能力缝到了GPT-6 Astra身上，让俩模型组队去刷《我的世界》。</p>
-  <p>打出来的战绩相当凶残——</p>
-  <p>两个AI紧密配合，不仅只用8分43秒就速通击杀了末影龙，而且整个账单也只有区区0.97美元。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,553" src="https://img.36krcdn.com/hsossms/20260921/v2_a22b4b77a31642b3affb551abcbe48dd@000000_oswg163627oswg1080oswg553_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="600,338" src="https://img.36krcdn.com/hsossms/20260921/v2_98c65d3738d6475fb0b004ca35aabb93@6100851_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
-  <p>8分43秒是什么概念？一组数据供参考：</p>
-  <p>随机种子的人类世界纪录是<strong>6分39秒</strong>；普通玩家平均通关时长需约<strong>90小时</strong>。</p>
-  <p>1美元，就能自动达成游戏时长至少数年以上的职业玩家的水准。</p>
-  <p>朋友们，事情的发展已经开始魔幻了。</p>
-  <h2><strong>Jev+Astra，8分43秒屠龙实录</strong></h2>
-  <p>具体是怎么打的，视频里看得一清二楚。</p>
-  <p>这是军师Astra疯狂烧脑：</p>
-  <blockquote>
-   <p>「去搜刮第一个补给箱拿铁镐，顺路摸八张床。修好并点燃村庄传送门。等龙头进入安全范围，从掩体后引爆之前放好的床。」</p>
-  </blockquote>
-  <p>这是打手Jev极限走位：</p>
-  <blockquote>
-   <p>「搜刮坐标(-228,71,240)，距离16。沿路线躲避龙息云，12格距离清空。等待死亡动画，退出传送门。」</p>
-  </blockquote>
-  <p>就连Malde自己都感慨，能在游戏里玩出这种丝滑的走位，全靠Jev那近乎「零延迟」的直觉判断，外加Astra在后台运筹帷幄。</p>
-  <p>另一位开发者Wuyang Zhou则用这套打法，让角色在僵尸群里开无双：Jev疯狂微操走位，Astra负责宏观战术规划。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,596" src="https://img.36krcdn.com/hsossms/20260921/v2_778c72840c204ef8a24f1be78091c80a@000000_oswg144902oswg1080oswg596_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h3><strong>AI屠龙小队是怎么配合的？</strong></h3>
-  <p>Malde开源的代码里，这套系统被拆成了三层：</p>
-  <blockquote>
-   <ul>
-    <li>Astra负责高层规划</li>
-   </ul>
-   <p>根据当前阶段和状态，更新目标、物资数量及下一处路点。它收到的提示词也包含预先勘察的路线和任务限制，规划在这些已知条件下展开。</p>
-   <ul>
-    <li>Jev负责选择动作</li>
-   </ul>
-   <p>程序根据当前状态生成候选项，Jev判断哪一项最有利于推进目标。例如继续移动、收集物资，或者调用某个战斗动作。</p>
-   <ul>
-    <li>执行代码负责把选择落实</li>
-   </ul>
-   <p>寻路、转向、放置方块，以及对游戏协议的操作，都需要相应程序完成。模型选择了一个动作，并不意味着这个动作内部的每一次操作都要重新调用模型。</p>
-  </blockquote>
-  <p>以攻击末影龙为例，代码里有一个「执行一次定时床攻击」的动作。</p>
-  <p>Jev选中它之后，程序负责放床、瞄准、持续检查龙头位置和掩体条件，再在满足条件时引爆。遇到危险，则中止这一动作。</p>
-  <p>画面里连贯的操作，来自模型判断与执行程序的共同配合。</p>
-  <p>更关键的一步，是让规划和行动异步运行。</p>
-  <p>代码中的规划器默认按约15秒的间隔检查更新，阶段变化也能触发刷新。</p>
-  <p>首次计划完成后，控制循环可以继续利用已有计划推进任务，无需每个动作都停下来等待Astra。</p>
-  <p><strong>Astra更新计划的速度，不再直接决定每一个动作什么时候开始。</strong></p>
-  <p>GitHub仓库中的报告提及到，这次成功运行包含131次Jev决策、35次Astra调用。</p>
-  <p>这也提醒我们：流畅的游戏画面，与模型逐帧决定每一个按键，是两种不同的实现。</p>
-  <p>那么，前面那些失败尝试留下了什么？</p>
-  <p>Ronak在回复中解释，最终表现建立在此前多次失败尝试的积累之上，Agent同时可以读取游戏状态信息，相当于测试时训练（TTT）。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,330" src="https://img.36krcdn.com/hsossms/20260921/v2_76d0110b00ec46108a1bffb83b0a615e@000000_oswg126379oswg1080oswg330_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>关于Jev的发布背景与技术路线，可参阅我们此前的报道：Jev爆火硅谷！哑巴AI卷疯14万开发者</p>
-  <h2><strong>仅仅一周，硅谷极客圈集体玩疯了</strong></h2>
-  <p>Jev一放开限制，需求瞬间挤爆，API当场被冲宕机了一回。</p>
-  <p>随后，X上就开始了疯狂刷屏，Demo一个比一个离谱。</p>
-  <p>比如Andy Gao就用Jev糊了一个Mac语音助手。</p>
-  <p>然后，他刚对着麦克风喊「打开备忘录，新建一条……」，话还没说完，备忘录已经弹出来了。</p>
-  <p>接着让它去谷歌搜论文、打开推特、加标签页，每一步都快到怀疑人生。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,466" src="https://img.36krcdn.com/hsossms/20260921/v2_6bd3cbef053f4b8591d552cad5cecdfc@000000_oswg123851oswg1080oswg466_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1200,670" src="https://img.36krcdn.com/hsossms/20260921/v2_f2c61632cdf04e0da1974f1679102bec@6100851_oswg514279oswg1200oswg670_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Marcus Lowe则把一份乱七八糟的简历一键Ctrl+C，然后在求职表单上闭着眼睛狂按Ctrl+V。</p>
-  <p>Jev每次都能精准预判这个框要啥：姓名填姓名，邮箱填邮箱，公司职位各就各位，一路V到底。</p>
-  <p>看着架势，「复制粘贴」都要会读心术了。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,509" src="https://img.36krcdn.com/hsossms/20260921/v2_1129587d07e3470f8808d71d30e3d38a@000000_oswg109318oswg1080oswg509_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1000,647" src="https://img.36krcdn.com/hsossms/20260921/v2_16ea30d08f0b41ae9148e379712e09ba@6100851_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
-  <p>Browser Use团队直接拉出了开源项目jev-ultrafast。</p>
-  <p>从打开网页到刷出苏黎世飞伦敦的航班，耗时7.1秒，成本0.0039美元。</p>
-  <p>创始人怕大家以为加速了，特意在视频底下大写加粗：这是1倍速实录！</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,769" src="https://img.36krcdn.com/hsossms/20260921/v2_76f4bfce8abb4916ae9a6c73c8c24ff7@000000_oswg174525oswg1080oswg769_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1079,702" src="https://img.36krcdn.com/hsossms/20260921/v2_c435c25abe194753809b13e7ead9ecc4@6100851_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
-  <p>给试衣App接入Jev，喊一句「换件黑裙子」，画面瞬间秒切。每次决策仅需620毫秒，烧掉0.0011刀。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,899" src="https://img.36krcdn.com/hsossms/20260921/v2_c0dab978208444679f39f8cdc480ac8b@000000_oswg189017oswg1080oswg899_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="720,405" src="https://img.36krcdn.com/hsossms/20260921/v2_514cc9cd2d2949e995201a5e9bb6bc9a@6100851_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
-  <p>Vercel更是下场认证：Jev成了AI Gateway史上被采用最快的模型。</p>
-  <p>上线第一天，13%的付费团队火速接入，速度是GPT-5.6全家桶的两倍。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1183" src="https://img.36krcdn.com/hsossms/20260921/v2_e711e0d7ce7f46debee852810a569efa@000000_oswg307161oswg1080oswg1183_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>玩是真玩疯了。但扒开这些炫技的演示，Jev进到正经的打工流水线里，到底能干嘛？</p>
-  <h2><strong>不止于游戏：Jev是来当老板的！</strong></h2>
-  <p>一个Agent跑起来，最让人头疼的就俩事：一是上下文被塞爆了该删谁？二是它交上来的这坨代码到底能不能跑？</p>
-  <p>这两个脏活，现在全被Jev接管了。</p>
-  <p>一个例子，是开源项目fast-jev-compaction。</p>
-  <p class="image-wrapper"><img data-img-size-val="1076,246" src="https://img.36krcdn.com/hsossms/20260921/v2_c53ae3bb57bc4e1487873d72d46189e6@000000_oswg40789oswg1076oswg246_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">https://github.com/tamaratran/fast-jev-compaction</p>
-  <p>这个Claude Code社区插件把上下文整理拆成一系列取舍：某次工具调用还需要保留吗？它的结果还有必要完整留下吗？</p>
-  <p>Jev给出判断，代码据此保留、截断或删除对应内容。保留下来的内容尽量维持原文，用户和助手的文字消息也保持原样。</p>
-  <p class="image-wrapper"><img data-img-size-val="640,506" src="https://img.36krcdn.com/hsossms/20260921/v2_1fb19a07e1a747d78d4682ed6fe22d23@6100851_img_gif?x-oss-process=image/quality,q_90" referrerpolicy="no-referrer"></p>
-  <p>作者Tamara Tran的吐槽一针见血：</p>
-  <blockquote>
-   <p>都2026年了，为什么压缩上下文还在靠一段极其冗长的摘要提示词？</p>
-  </blockquote>
-  <p class="image-wrapper"><img data-img-size-val="1080,596" src="https://img.36krcdn.com/hsossms/20260921/v2_92f311ea947e4cdbb32aa9f1a104db99@000000_oswg133988oswg1080oswg596_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>另一个例子，是给Agent当裁判。</p>
-  <p>9月20日，LangChain公布了Jev-as-a-Judge实验：先固定五个天气任务的Agent输出，再让不同评估模型对相同样本反复评分，每个样本重复100次。</p>
-  <p>在这组测试中，Jev平均每次调用约耗时0.44秒，成本约0.00035美元，连续评分的稳定性也表现突出。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1229" src="https://img.36krcdn.com/hsossms/20260921/v2_2353fdae2cd74ccbad5bce4ab0ff1aeb@000000_oswg462225oswg1080oswg1229_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">https://x.com/LangChain/status/2101454284927959080</p>
-  <p>如此来看，Jev的定位也就更加清晰了：在主模型前后，插入边界明确的判断步骤。</p>
-  <p>LangChain在另一篇接入文章中同样提出，把开放式推理与生成交给主模型，让Jev承担沿途的结构化判断，并给出了模型路由、工具调用风险检查等用法。</p>
-  <p>从这个角度看，Jev值得检验的机会，在于能否让一次次小判断更容易成为工作流的常规部分。</p>
-  <h2><strong>据说OpenAI、Anthropic早就做好了？</strong></h2>
-  <p>与此同时，一条爆料把讨论推向了更大的范围。</p>
-  <p>X上已经开始流传，OpenAI和Anthropic内部已经拥有类似能力，并把Jev的发布时间与此联系起来；</p>
-  <p>爆料人还预测，到2026年年底将出现实时推理。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,466" src="https://img.36krcdn.com/hsossms/20260921/v2_9ed8c8db7edd43d091b2b7fe6a5c9d7b@000000_oswg116857oswg1080oswg466_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Jev为我们带来了反思：当一个任务同时包含复杂推理、有限选项判断和确定性执行时，是否有必要让同一个大模型包办全部环节？</p>
-  <p>Minecraft这套实现给出了一种尝试：高层规划持续更新，动作选择沿着已有目标推进，细密的执行交给代码。</p>
-  <p>上下文整理和结果评估，则把同样的思路延伸到了Agent的其他环节。</p>
-  <p>模型作出一次判断之后，任务还能可靠地往前走多远，这是下一轮Agent实验值得重点关注的部分。</p>
-  <p>轰轰烈烈的全民评测Jev大行动，开始了！</p>
-  <p>参考资料：https://x.com/typesafeai/status/2101786156572823624&nbsp;</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652728221&amp;idx=1&amp;sn=9e2a18fcc2fa39b6392992f3a6565478&amp;chksm=f0b650475bd7d2306e4027737bb47f3985cbc538f462a086588c5ef4fb0d14ae4f276373b6af&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录；编辑：马可 摩西，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Mon, 21 Sep 2026 08:22:17 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3992838099532548</guid>
-            <link>https://www.36kr.com/p/3992838099532548</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[工具、技能、记忆连成网，北大等提出自进化程序图PG，越用越聪明]]></title>
-            <description><![CDATA[<p>当Agent已经能够调用工具、使用技能并保存记忆，一个更进一步的问题是：这些能力怎样在任务中配合，又怎样从过去的执行中积累可复用的经验？</p>
-  <p>能查到机票价格，不代表知道查询后该停下来；能保存笔记，也不意味着会在下一次决策前读回。Agent需要处理的，还有操作之间的顺序、条件和衔接。</p>
-  <p>来自谷歌（Google）、美国佐治亚理工学院（Georgia Institute of Technology）和北京大学（Peking University）的研究者，围绕这一问题提出了<strong>Procedural Graphs（PG，程序图），</strong>将工具调用、技能步骤、内部推理与任务状态组织成有条件的连接，为Agent提供「接下来如何行动」的依据。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,232" src="https://img.36krcdn.com/hsossms/20260921/v2_480d6f794911472fa2f35fd5886d4f08@46958_oswg79093oswg1080oswg232_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">论文：https://arxiv.org/pdf/2609.09153</p>
-  <p>从Agent harness——模型周围的执行支持系统——来看，<strong>PG提供了一种把tools、skills、memory等组件连成网的方式</strong>，描述这些能力在什么条件下使用、怎样衔接，以及哪些错误需要避免。</p>
-  <p>执行任务时，Agent读取当前步骤附近的子图，生成针对当前情境的指导；离线阶段，系统根据执行轨迹提出改图方案，经独立验证后决定是否保留。</p>
-  <p>经验由此成为可以读取、检查和修订的程序关系，图的更新也无需重新训练模型权重。</p>
-  <h2><strong>从独立组件到程序关系，一张图连接什么？</strong></h2>
-  <p>Tools、Skills和Memory各有作用。工具提供查询、计算或提交等具体操作，技能封装可复用的做法，记忆保留任务信息与历史经验。在执行过程中，Agent还需要判断：什么时候读取记忆，哪项技能需要调用哪个工具，得到结果后又该保存什么。</p>
-  <p>PG将这些衔接关系显式写成「过程—关系—过程」三元组。</p>
-  <p>节点可以是一项技能、一个工具函数、一次内部推理，也可以是一个任务状态。连接两个节点的有向边，描述从当前步骤转向后续步骤的关系，并包含三个字段：<strong>适用条件（condition）、执行建议（guidance）和需要避免的问题（pitfalls）</strong>。</p>
-  <p>例如，「预测现金流」可以连接到「申请融资」。这条边的条件是预计现金支撑时间低于安全缓冲；建议是提前申请，为资金到账留出时间；需要避免的问题，则是在已有申请尚未完成时重复发起。</p>
-  <p>同一个工具动作，由此获得了更完整的使用上下文：为什么现在调用，调用前需要满足什么条件，以及什么情况下应当等待。</p>
-  <p>知识图谱通常用「实体—关系—实体」组织事实，帮助系统回答「是什么」「在哪里」。程序图关注的是另一类知识：<strong>做什么、按什么顺序做，以及在什么条件下做。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,469" src="https://img.36krcdn.com/hsossms/20260921/v2_018d236e1cc1401a99bc0811e5b9f64c@46958_oswg194053oswg1080oswg469_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图1｜知识图谱组织事实，程序图连接做事的步骤、条件与执行建议。来源：论文图1。</p>
-  <p>记忆的使用也可以进入这套结构。论文附录中的财务Agent提供了一个具体例子：演化出的图先连接现金检查、现金流预测、保存笔记（save_note）和市场数据检查；随后，又把回读笔记（recall_notes）接到每月开始的位置，让上个月保存的关键信息能在新一轮决策前被取回。</p>
-  <p>在这里，工具负责查询与计算，笔记保存跨月信息，PG则描述何时写入、何时读取，以及读写操作怎样接上后续决策。<strong>工具调用和记忆读写因此成为同一张程序网中的步骤。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,876" src="https://img.36krcdn.com/hsossms/20260921/v2_e13a41fc05b34d03b653974933f061cb@46958_oswg173802oswg1080oswg876_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图2｜财务Agent程序图的结构演化。图中逐步加入现金检查、现金流预测与保存笔记等步骤，并在每月开始时接入回读笔记；后续轮次继续调整行动分支。绿色表示新增节点或连接，红色虚线表示删除。来源：论文图5。</p>
-  <p>PG本身也承载着程序性记忆：经过任务验证的行动方式，被保存在模型权重之外的图结构中。需要修改一条条件或补充一个检查步骤时，研究者可以直接改图，再检验它对执行结果的影响。</p>
-  <h2><strong>在线指导，根据执行位置读取局部子图</strong></h2>
-  <p>把程序关系组织成图之后，还需要决定每一步读取哪些内容。</p>
-  <p>整张图包含完整信息，也可能带入大量与当前任务无关的分支。独立检索几条语义相似的建议，则可能遗漏步骤之间的联系。例如，只取回「提交」的指导，却没有取回前面的「检查答案」，Agent就可能缺少判断何时可以提交的依据。</p>
-  <p>PG将在线指导组织为三个连续操作。</p>
-  <p><strong>定位当前步骤。</strong>&nbsp;系统根据最近执行的动作匹配图中的节点，确定Agent当前所处的位置。</p>
-  <p><strong>提取相连的局部结构。</strong>&nbsp;默认读取沿出边两跳以内的子图，即从当前位置出发、最多经过两次连接可到达的步骤。匹配不到节点时，回退到整张图。</p>
-  <p><strong>生成当前情境下的指导。</strong>&nbsp;指导模型结合局部子图、用户任务和近期执行记录，生成下一步建议，加入执行模型的提示词。最终动作仍由执行模型选择。</p>
-  <p>在论文实验中，指导模型与执行模型采用同一种基础LLM。执行单个任务时，图保持固定。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,477" src="https://img.36krcdn.com/hsossms/20260921/v2_7235b3d899804ec89065e872c720411f@46958_oswg229197oswg1080oswg477_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图3｜执行时定位当前节点，读取局部子图并生成指导；离线阶段根据轨迹修改图，通过结构检查且验证分数不下降时保留修改（包括持平）。来源：论文图2。</p>
-  <p>一次机票查询展示了这类指导如何影响任务的结束时机。在BFCL工具调用测试中，用户只想了解经济舱票价。无图基线查到了220美元的报价，却继续认证身份、操作银行卡并尝试订票；失败后，它还修改预算限制，再次完成预订。</p>
-  <p>同样使用Gemini 3.5 Flash，PG指导下的Agent在报出220美元后结束当前回合，等待用户的新指令。这个案例体现了程序知识的一项作用：帮助Agent判断，已有操作是否已经满足当前请求。</p>
-  <h2><strong>离线演化，从执行反馈中修订程序图</strong></h2>
-  <p>程序图的效果取决于其中保存了什么。手工写出的流程看起来合理，实际执行时也可能带来问题。</p>
-  <p>论文在MultiChallenge上进行了图构建实验。这一实验使用Gemini 3.5 Flash，包含56个测试样本：无图基线成功率为87.50%，加入手工专家图后降至58.93%，让模型静态更新一次后为53.57%。</p>
-  <p>这组结果说明，对程序关系的修改需要经过任务检验。PG为此设计了一个离线循环：<strong>执行任务、分析轨迹、提出修改、验证候选图。</strong></p>
-  <p>系统先在一批训练任务上运行当前保留的图，再由修订模型对照高分与低分轨迹，查找反复出现的错误或可以复用的步骤。修改可以增加缺失的节点与连接，删除容易引起失败的路径，也可以重写边上的条件、建议和注意事项。</p>
-  <p>候选图先通过结构检查，再在独立验证集上运行。只有测得的验证分数不低于当前保留图，系统才采用这次修改；分数持平也可以保留。被拒绝的方案及其结果会留下记录，供后续修订参考。</p>
-  <p>这些变化发生在离线批次之间。因此，执行中的Agent读取的是当前版本的程序知识，新的经验经过验证后再进入后续版本。</p>
-  <p>在上述MultiChallenge构建实验中，从58.93%的专家图出发，迭代演化后的成功率达到92.86%，比专家初始化提高33.93个百分点，也超过了87.50%的无图基线。</p>
-  <p>论文附录中的一个验证样本要求Agent讲笑话，同时延续此前「只用被动语态」的约束。但第二代候选图指导下的Agent偏离了任务，转而回答环境附带的评价问题——模型是否一直使用被动语态，回复以「没有一直使用被动语态」开头。</p>
-  <p>第三代候选图删除了直接结束的连接，并改写「提取约束→结束」的指导，要求不要直接回答评价问题。这次Agent经过提取约束步骤后给出了笑话，该验证样本的成功标记从0变为1。</p>
-  <p>这一案例让「经验更新」有了具体的观察对象：哪条连接被删除，哪段指导被改写，以及后续执行出现了什么变化。</p>
-  <p>研究者还尝试从最小图结构开始演化。在HotpotQA构建实验中，这种方式得到的PG取得78.79的答案F1，高于无图基线的71.21，说明程序结构也可以从执行反馈中逐步建立。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,284" src="https://img.36krcdn.com/hsossms/20260921/v2_f5eeb5ceae764df29621f6c2919f27ab@46958_oswg107776oswg1080oswg284_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图4｜从专家图或最小图结构出发的演化轨迹。两组实验均使用Gemini 3.5 Flash：左图为HotpotQA验证集的答案F1，右图为MultiChallenge验证集的准确率。实心标记表示采纳的候选，浅色标记表示被拒绝的候选；图中指标来自验证集，与前文测试集结果分别统计。来源：论文图6。</p>
-  <h2><strong>任务评估，工具调用与长期决策中的表现</strong></h2>
-  <p>论文评估覆盖多跳问答、多轮指令遵循、专业任务、交互式环境、工具调用和长期财务决策。各方法使用相同的ReAct执行框架，比较不同的经验存储与复用方式。</p>
-  <p>在工具调用基准BFCL v3上，Gemini 3.5 Flash使用PG后的准确率为67.00%，该组最强基线为58.00%。在专业任务GDPval与要求遵守业务规则的τ-bench上，Gemini 3.1 Pro也获得了提升。</p>
-  <p>长期任务进一步考察动作之间的时间关系。在EnterpriseArena中，Agent管理一家模拟企业，连续作出最多132个月的财务决策，需要应对现金流变化、资金到账延迟与经济冲击。</p>
-  <p>融资申请发出后，资金需要一至六个月才能到账。如果等现金即将耗尽时才申请，企业可能无法度过等待期。轨迹分析显示，PG指导下的Agent更早检查现金流、预测资金缺口，并在相对稳定的月份发起融资申请。</p>
-  <p>每种配置均进行了50次测试模拟。与无图基线相比，Gemini 3.1 Pro完成整个模拟周期的存活率从6.0%提高到34.0%；Claude Sonnet 4.6从44.0%提高到58.0%。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,633" src="https://img.36krcdn.com/hsossms/20260921/v2_e57e2ae5dffc4eeaa6191c904f47a910@46958_oswg334513oswg1080oswg633_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图5｜四个模型在EnterpriseArena中的长期决策表现。各模型面板上方为存活曲线，下方为现金余额（百万美元）；每种配置进行50次测试模拟，最长持续132个月。蓝色表示PG，红色表示无图基线，绿色与橙色分别表示RAP和MemoryBank；竖线标出经济冲击时点。来源：论文图3。</p>
-  <p>这类任务中的程序知识，需要把当前操作与延迟出现的结果联系起来。前文的记忆读写流程也服务于这种连续决策：保存上个月的关键信息，在新一轮行动前取回，并结合当前状态继续判断。</p>
-  <h2><strong>局部指导的收益与成本</strong></h2>
-  <p>局部子图是否比整张图更适合当前决策，论文通过消融实验进行了比较。</p>
-  <p>在使用Gemini 3.5 Flash的ALFWorld固定测试子集上，基于整张图生成指导时，成功率为54.48%；使用同一张图、改为局部子图指导后，成功率达到81.53%。每个样本的平均Token消耗从96,360降至28,064，比全图生成式指导减少约70.9%。</p>
-  <p>这一结果支持了按执行位置读取相关程序关系的设计。不过，局部指导仍有额外开销：同一实验的无图基线平均使用18,055个Token，低于局部子图指导。离线运行与候选图验证也需要计算资源。</p>
-  <p>不同任务的收益同样存在差异。在主表HotpotQA问答实验中，PG相对各模型最强基线的差距介于下降0.90与提高1.30个百分点之间，小于前述几项任务。程序图在跨模型、跨工具接口复用时能保留多少效果，仍需进一步研究。</p>
-  <h2><strong>从一次执行到下一次行动</strong></h2>
-  <p>从harness的角度看，PG让tools、skills、memory之间的配合关系成为可以检查和改进的对象。补充一步检查、修改一项条件，或调整一次记忆读取的时机，都可以落实到具体的节点与连接。</p>
-  <p>这些修改经过离线验证，被采纳的方案进入后续版本的程序图。一次执行留下的经验，由此有机会成为下一次行动的依据。PG探索的，正是如何让这张连接各类能力的程序网在执行反馈中逐步改进。</p>
-  <p>参考资料：https://arxiv.org/pdf/2609.09153</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/l4W93-7aMsL4AlwuuwZCNw">“新智元”</a>，编辑：LRST，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Mon, 21 Sep 2026 08:14:57 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3992875889507332</guid>
-            <link>https://www.36kr.com/p/3992875889507332</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[高端MLCC涨15%—35%：AI把“电子大米”切成两个市场]]></title>
-            <description><![CDATA[<p>一颗指甲盖都嫌大的电子元件，正在被AI抢贵。</p>
-  <p>最近，有“电子工业大米”之称的MLCC出现了一轮很特殊的行情：AI服务器使用的高容量MLCC，部分原厂报价上涨15%—35%；一些紧俏型号在现货市场一度被炒到原价的数倍。</p>
-  <p>但奇怪的是，另一边的普通消费级MLCC，却没有跟着一路上涨，部分产品甚至已经从此前的高点回落。</p>
-  <p>同样是电容，为什么一边抢货、一边没那么缺？</p>
-  <p>答案可能比“AI需求太旺”更重要：</p>
-  <p><strong>AI正在把一个原本高度标准化的电子元件市场，切成两个完全不同的市场。</strong></p>
-  <p>未来判断电子元件景气度，可能越来越不能简单问一句“MLCC涨没涨”，而要问：</p>
-  <p><strong>到底是哪一种MLCC在涨？谁在买？用在哪里？</strong></p>
-  <h2><strong>一颗几分钱的元件，为什么AI服务器缺不了？</strong></h2>
-  <p>MLCC，全称是多层陶瓷电容器。</p>
-  <p>普通消费者几乎不会注意到它，但从手机、电脑、家电，到汽车、通信设备、服务器，几乎只要有电子电路，就少不了它。</p>
-  <p>它最重要的工作之一，就是稳定电压、滤除噪声、储存和释放电荷。</p>
-  <p>所以业内常把它叫作：</p>
-  <p><strong>“电子工业大米”。</strong></p>
-  <p>这个比喻非常形象。</p>
-  <p>单颗MLCC并不显眼，但电子设备里往往需要成百上千甚至更多颗。</p>
-  <p>过去智能手机是MLCC最重要的应用之一，一部手机里可能需要上千颗。汽车电子化程度提高之后，汽车又成为新的需求来源。</p>
-  <p>现在，AI服务器来了。</p>
-  <p>问题不仅是AI服务器需要更多MLCC，更重要的是，它需要的往往不是最普通的那一种。</p>
-  <p>AI芯片的功耗越来越高。</p>
-  <p>GPU、ASIC、高速内存以及电源系统在极短时间内会出现巨大的电流变化，如果电压控制不好，芯片稳定运行都会受到影响。</p>
-  <p>MLCC因此需要大量部署在GPU、ASIC等核心芯片周围，承担瞬态供电和稳定电压的任务。</p>
-  <p>这意味着AI算力越高，电源设计越复杂，对高容量、高可靠MLCC的需求也就越强。</p>
-  <p>目前产业链调研显示，一些AI工作站升级之后，单机MLCC使用量已经达到传统设备的2—3倍；高速光模块等新设备，同样正在增加高性能MLCC的使用量。</p>
-  <p>一场AI算力建设，最终竟然传导到了这种看似不起眼的小元件。</p>
-  <p>这就是今天电子产业链最值得注意的变化之一：</p>
-  <p><strong>AI真正改变的，不只是GPU市场，而是服务器内部几乎整套零部件的价值分配。</strong></p>
-  <h2><strong>为什么不是所有MLCC都在涨？</strong></h2>
-  <p>如果只看到“MLCC最高涨数倍”，很容易得出一个结论：</p>
-  <p>整个行业都缺货。</p>
-  <p>但实际情况恰恰没有那么简单。</p>
-  <p>央视财经近期报道显示，这轮行情呈现出非常明显的结构性分化：AI服务器使用的高容量型号仍然紧张，而普通消费级产品在此前快速上涨之后，已经出现明显回落。</p>
-  <p>为什么？</p>
-  <p>因为MLCC虽然名字一样，内部却有非常复杂的规格差异。</p>
-  <p>容量、电压、尺寸、温度特性、可靠性、使用寿命，只要其中几个参数不同，产品难度和应用场景就可能完全不同。</p>
-  <p>一个普通家用电子产品需要的MLCC，与一台需要7×24小时高负荷运行的AI服务器所需要的MLCC，并不是简单的替代关系。</p>
-  <p>AI服务器环境更加苛刻。</p>
-  <p>功耗高、温度高、电流大，而且一旦发生故障，损失也远高于普通消费设备。</p>
-  <p>于是，高容量、高可靠、小型化的MLCC开始变得更值钱。</p>
-  <p>根据公开报道，AI服务器使用的部分高容量MLCC，原厂提价幅度达到15%—35%。截至8月，一些高容量、高压产品的交货周期已经达到15—20周。</p>
-  <p>这说明这一轮行情最准确的表述并不是：</p>
-  <p><strong>“MLCC全面缺货。”</strong></p>
-  <p>而应该是：</p>
-  <p><strong>“高端MLCC的供给速度，暂时跟不上AI带来的需求变化。”</strong></p>
-  <p>一字之差，产业逻辑完全不同。</p>
-  <h2><strong>AI最厉害的地方，是把“数量”和“规格”一起推高</strong></h2>
-  <p>过去很多产业链分析喜欢计算一个指标：</p>
-  <p>一台设备需要多少颗零部件。</p>
-  <p>但到了AI服务器时代，只算颗数可能已经不够了。</p>
-  <p>因为AI带来的变化有两个。</p>
-  <p>第一个当然是<strong>数量增加</strong>。</p>
-  <p>设备算力更高，GPU更多，电源模块更复杂，需要配置的电容数量自然增加。</p>
-  <p>但第二个变化更重要：</p>
-  <p><strong>单颗产品的规格也在升级。</strong></p>
-  <p>例如同样占据一块PCB面积，高容量MLCC能够提供更强的电荷储存能力。但想在越来越小的体积里获得更高容量，就需要把内部陶瓷介质做得更薄、叠更多层，同时还要保证良率和长期可靠性。</p>
-  <p>这意味着，高端MLCC不是简单“多生产几颗”就可以解决。</p>
-  <p>设备、材料、工艺、良率都要跟上。</p>
-  <p>有行业研究估算，高容量MLCC对产能的消耗明显高于普通产品，而且随着产品层数增加、介质变薄，制造难度也随之上升。</p>
-  <p>所以AI带来的并不是普通意义上的需求增长。</p>
-  <p>更像是：</p>
-  <p>过去市场需要100颗普通产品；</p>
-  <p>现在不仅要150颗，其中相当一部分还必须升级成更难生产的高端产品。</p>
-  <p>这样一来，需求看起来增加了50%，真正占用的高端产能却可能增加得更多。</p>
-  <p>这也是为什么AI服务器销量没有增长十倍，某些高端元件依然会迅速紧张。</p>
-  <h2><strong>“一小时一个价”，但不能把现货价当行业价</strong></h2>
-  <p>这轮MLCC行情还有一个非常吸引眼球的现象。</p>
-  <p>部分现货价格一度涨得非常夸张。</p>
-  <p>6月，深圳华强北部分热门MLCC型号甚至出现“一天一价、一小时一价”，少数型号一个月涨了7—8倍，极端情况下现货价格达到原来的2—10倍。</p>
-  <p>这个数字非常惊人。</p>
-  <p>但如果因此认为MLCC厂商普遍把产品卖贵了十倍，就错了。</p>
-  <p>电子元件市场至少存在几种价格。</p>
-  <p>第一种是原厂报价。</p>
-  <p>第二种是大型客户的长期合约价。</p>
-  <p>第三种才是分销和现货市场价格。</p>
-  <p>当某一个型号突然缺货，下游客户为了赶生产进度，愿意在市场上高价扫货，现货价格就可能瞬间飙升。</p>
-  <p>但这种价格往往反映的是“紧急程度”，并不等于整个行业长期成交价格。</p>
-  <p>一个很典型的例子是，一款市场较通用的消费类MLCC，此前每1000颗价格约5元，高峰时曾涨至30元左右，随后又回落到约10元。</p>
-  <p>而与此同时，面向AI服务器和高端应用的高容量MLCC缺货状态仍在持续。</p>
-  <p>这再次证明：</p>
-  <p><strong>真正重要的不是“涨价”两个字，而是涨价之后谁能维持住。</strong></p>
-  <p>如果消费级产品价格快速冲高又快速回落，说明那里可能更多是渠道补库存和情绪波动。</p>
-  <p>如果高端产品价格上涨后依然交期很长、客户还在提前锁定产能，那才说明需求结构真的发生了变化。</p>
-  <h2><strong>一个更大的变化：电子产业正在告别“消费电子统一周期”</strong></h2>
-  <p>过去分析MLCC行业，有一个很重要的指标就是手机、电脑和家电。</p>
-  <p>因为这些产品销量大，对电子元件需求影响明显。</p>
-  <p>当手机卖得好，整个产业链补库存；</p>
-  <p>手机销量下降，上游一起去库存。</p>
-  <p>因此很多电子元件都带有明显的消费电子周期。</p>
-  <p>但AI出现以后，这种统一周期正在被打破。</p>
-  <p>一边可能是手机、PC等成熟消费电子市场增长有限；</p>
-  <p>另一边，却是AI服务器、数据中心、高速光模块、高阶汽车电子不断增加高端元件使用量。</p>
-  <p>于是同一家电子元件企业内部，甚至可能同时出现两种完全不同的市场：</p>
-  <p>普通产品还在拼成本；</p>
-  <p>高端产品却在拼产能。</p>
-  <p>传统产品还在去库存；</p>
-  <p>AI产品已经开始提前半年锁货。</p>
-  <p>这也是为什么今天判断一家电子元件企业，单看总产能越来越不够。</p>
-  <p>更重要的问题变成了：</p>
-  <p>它有多少产能能够生产高端产品？</p>
-  <p>客户认证通过了吗？</p>
-  <p>良率做到多少？</p>
-  <p>真正进入了服务器供应链，还是仍然集中在普通消费电子？</p>
-  <p>这些指标，正在比单纯的“年产多少亿颗”更重要。</p>
-  <h2><strong>对中国厂商来说，机会并不是简单“别人缺货我补上”</strong></h2>
-  <p>每一次电子元件缺货，市场都会出现一个熟悉的词：</p>
-  <p><strong>国产替代。</strong></p>
-  <p>但高端MLCC的国产替代，没有想象中那么简单。</p>
-  <p>因为电子元件尤其是进入AI服务器、汽车等高可靠领域之后，客户最看重的不只是价格。</p>
-  <p>而是稳定。</p>
-  <p>一批产品合格并不难，难的是几十亿、几百亿颗产品长期保持一致性。</p>
-  <p>这背后涉及陶瓷粉体、电极材料、烧结工艺、叠层技术、设备精度，以及持续稳定的品质控制。</p>
-  <p>而且进入大型服务器、汽车电子等供应链，还需要漫长的客户测试和认证。</p>
-  <p>所以真正的产业机会，并不是简单地：</p>
-  <p>海外厂商涨价——国产厂商马上接单。</p>
-  <p>更合理的路径可能是：</p>
-  <p>高端MLCC供给趋紧之后，下游厂商为了供应链安全，愿意给第二供应商、第三供应商更多测试和导入机会。</p>
-  <p>这才可能给本土厂商创造真正的窗口期。</p>
-  <p>换句话说：</p>
-  <p><strong>缺货本身不是竞争力，能够借缺货完成客户认证，才可能变成竞争力。</strong></p>
-  <h2><strong>最大的风险，也恰恰藏在“扩产”两个字里</strong></h2>
-  <p>价格上涨、订单增加之后，最自然的下一步就是扩产。</p>
-  <p>但MLCC曾经多次经历过这样的周期：</p>
-  <p>缺货——涨价——扩产——库存增加——价格回落。</p>
-  <p>所以今天看到高端MLCC紧缺，同样不能简单推导出未来几年整个行业都会持续高景气。</p>
-  <p>真正需要观察的是两个速度：</p>
-  <p><strong>AI需求扩张有多快？</strong></p>
-  <p>以及：</p>
-  <p><strong>高端产能释放有多快？</strong></p>
-  <p>如果AI服务器继续快速增长，同时产品不断向更高功耗、更高容量升级，那么需求端可能继续吃掉新增产能。</p>
-  <p>但如果大量厂商同时扩产，而AI设备采购增速放缓，供需关系同样可能重新变化。</p>
-  <p>另外还有一个容易被忽略的问题。</p>
-  <p>AI硬件本身也在不断改进。</p>
-  <p>服务器电源架构、封装方式、芯片设计和电容配置都可能变化。</p>
-  <p>今天一台服务器需要多少颗MLCC，并不意味着五年以后仍然需要同样数量和规格。</p>
-  <p>所以对于这个行业而言，真正值得长期跟踪的，永远不是某一次现货价格暴涨。</p>
-  <p>而是：</p>
-  <p>高端产品的订单能见度、客户认证、交货周期和实际产能利用率。</p>
-  <h2><strong>AI正在重新给不起眼的零部件定价</strong></h2>
-  <p>过去两年，AI产业最容易获得关注的是GPU。</p>
-  <p>因为它昂贵、稀缺，而且一块芯片动辄上万美元。</p>
-  <p>但当AI数据中心真正大规模建设之后，人们开始发现一个规律：</p>
-  <p><strong>决定一台AI服务器能不能稳定运行的，并不只有GPU。</strong></p>
-  <p>电源、散热、PCB、连接器、光模块、存储，以及一颗颗看起来不起眼的电容，都必须一起升级。</p>
-  <p>于是AI产业链开始进入第二阶段。</p>
-  <p>第一阶段大家问：</p>
-  <p>谁能生产AI芯片？</p>
-  <p>第二阶段越来越多人开始问：</p>
-  <p><strong>谁能给越来越强的AI芯片配齐整套高可靠零部件？</strong></p>
-  <p>MLCC这轮结构性紧张，就是这种变化最直观的例子之一。</p>
-  <p>它并不意味着所有MLCC都会越来越贵，更不意味着整个行业从此告别周期。</p>
-  <p>真正发生的事情是：</p>
-  <p><strong>AI正在重新划分“普通电子元件”和“高端电子元件”的价值边界。</strong></p>
-  <p>以前大家都叫“电子工业大米”。</p>
-  <p>现在，同样一粒“米”，已经开始有完全不同的价格、产能和竞争门槛。</p>
-  <p>对于中国电子产业而言，真正值得关注的也不是一颗电容到底涨了多少。</p>
-  <p>而是当AI把越来越多普通元件变成高端元件之后，我们能不能真正进入那个更难制造、认证更严格、价值也更高的市场。</p>
-  <p>这可能才是这一轮MLCC行情留下的最大产业信号。</p>
-  <p>本文来自微信公众号&nbsp;“BT财经”（ID：btcjv1），作者：BT财经，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Mon, 21 Sep 2026 08:13:04 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3992637384759177</guid>
-            <link>https://www.36kr.com/p/3992637384759177</link>
             
             
             
