@@ -31,7 +31,7 @@
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="171"/>
+    <media:statistics views="197"/>
    </media:community>
   </media:group>
  </entry>
@@ -82,8 +82,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="101" average="5.00" min="1" max="5"/>
-    <media:statistics views="6889"/>
+    <media:starRating count="110" average="5.00" min="1" max="5"/>
+    <media:statistics views="7477"/>
    </media:community>
   </media:group>
  </entry>
@@ -107,8 +107,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
-    <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="2446"/>
+    <media:starRating count="15" average="5.00" min="1" max="5"/>
+    <media:statistics views="2438"/>
    </media:community>
   </media:group>
  </entry>
@@ -166,7 +166,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:25:30 Summary and next steps</media:description>
    <media:community>
     <media:starRating count="187" average="5.00" min="1" max="5"/>
-    <media:statistics views="15749"/>
+    <media:statistics views="15813"/>
    </media:community>
   </media:group>
  </entry>
@@ -230,7 +230,7 @@ Other resources mentioned in the video:
 01:35:32 Recap and next steps</media:description>
    <media:community>
     <media:starRating count="207" average="5.00" min="1" max="5"/>
-    <media:statistics views="15491"/>
+    <media:statistics views="15552"/>
    </media:community>
   </media:group>
  </entry>
@@ -301,8 +301,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1185" average="5.00" min="1" max="5"/>
-    <media:statistics views="118720"/>
+    <media:starRating count="1187" average="5.00" min="1" max="5"/>
+    <media:statistics views="118831"/>
    </media:community>
   </media:group>
  </entry>
@@ -352,8 +352,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="666" average="5.00" min="1" max="5"/>
-    <media:statistics views="32798"/>
+    <media:starRating count="668" average="5.00" min="1" max="5"/>
+    <media:statistics views="32914"/>
    </media:community>
   </media:group>
  </entry>
@@ -399,7 +399,7 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
     <media:starRating count="463" average="5.00" min="1" max="5"/>
-    <media:statistics views="18804"/>
+    <media:statistics views="18828"/>
    </media:community>
   </media:group>
  </entry>
@@ -424,7 +424,7 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
     <media:starRating count="81" average="5.00" min="1" max="5"/>
-    <media:statistics views="4491"/>
+    <media:statistics views="4497"/>
    </media:community>
   </media:group>
  </entry>
@@ -479,8 +479,8 @@ Chapters:
 50:00 Transparent open-source training codebases
 52:00 Build a Reasoning Model From Scratch</media:description>
    <media:community>
-    <media:starRating count="1346" average="5.00" min="1" max="5"/>
-    <media:statistics views="34206"/>
+    <media:starRating count="1352" average="5.00" min="1" max="5"/>
+    <media:statistics views="34244"/>
    </media:community>
   </media:group>
  </entry>
@@ -527,7 +527,7 @@ Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-
 36:39 Poster, future updates, and wrap-up</media:description>
    <media:community>
     <media:starRating count="795" average="5.00" min="1" max="5"/>
-    <media:statistics views="17639"/>
+    <media:statistics views="17650"/>
    </media:community>
   </media:group>
  </entry>
@@ -571,7 +571,7 @@ Chapters:
 #LLM #Transformers #DeepLearning #MachineLearning #Inference #MoE #GQA #MLA #SWA #KVCache</media:description>
    <media:community>
     <media:starRating count="687" average="5.00" min="1" max="5"/>
-    <media:statistics views="20302"/>
+    <media:statistics views="20306"/>
    </media:community>
   </media:group>
  </entry>
@@ -611,7 +611,7 @@ This video covers the most important open-weight LLM architectures released in 2
 01:19:04 11. GLM-4.5</media:description>
    <media:community>
     <media:starRating count="1756" average="5.00" min="1" max="5"/>
-    <media:statistics views="45733"/>
+    <media:statistics views="45744"/>
    </media:community>
   </media:group>
  </entry>
@@ -658,7 +658,7 @@ Building a User Interface to Interact With the Instruction Finetuned GPT Model, 
 Evaluating Instruction Responses Using the OpenAI API and Ollama, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation</media:description>
    <media:community>
     <media:starRating count="833" average="5.00" min="1" max="5"/>
-    <media:statistics views="48159"/>
+    <media:statistics views="48194"/>
    </media:community>
   </media:group>
  </entry>
@@ -706,7 +706,7 @@ Building a User Interface to Interact With the GPT-based Spam Classifier,
 https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/04_user_interface</media:description>
    <media:community>
     <media:starRating count="667" average="5.00" min="1" max="5"/>
-    <media:statistics views="30593"/>
+    <media:statistics views="30611"/>
    </media:community>
   </media:group>
  </entry>
