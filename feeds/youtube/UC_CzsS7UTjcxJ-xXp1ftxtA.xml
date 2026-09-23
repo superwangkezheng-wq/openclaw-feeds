@@ -11,6 +11,33 @@
  </author>
  <published>2012-02-21T04:08:32+00:00</published>
  <entry>
+  <id>yt:video:tfBT22RWYww</id>
+  <yt:videoId>tfBT22RWYww</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>What is an agent harness?</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/tfBT22RWYww"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-09-23T12:00:20+00:00</published>
+  <updated>2026-09-23T12:00:20+00:00</updated>
+  <media:group>
+   <media:title>What is an agent harness?</media:title>
+   <media:content url="https://www.youtube.com/v/tfBT22RWYww?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tfBT22RWYww/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The reasoning model is the engine, and the agent harness is the software around it. Using a go-kart analogy, I explain how they fit together and why understanding the underlying LLM still matters.
+
+An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1
+
+Article on coding an agent harness: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent</media:description>
+   <media:community>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="104"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:ENkJawv5vCk</id>
   <yt:videoId>ENkJawv5vCk</yt:videoId>
   <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
@@ -30,8 +57,8 @@
 
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="197"/>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="257"/>
    </media:community>
   </media:group>
  </entry>
@@ -82,8 +109,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="110" average="5.00" min="1" max="5"/>
-    <media:statistics views="7477"/>
+    <media:starRating count="119" average="5.00" min="1" max="5"/>
+    <media:statistics views="8924"/>
    </media:community>
   </media:group>
  </entry>
@@ -108,7 +135,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="2438"/>
+    <media:statistics views="2471"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +192,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="187" average="5.00" min="1" max="5"/>
-    <media:statistics views="15813"/>
+    <media:starRating count="188" average="5.00" min="1" max="5"/>
+    <media:statistics views="15968"/>
    </media:community>
   </media:group>
  </entry>
@@ -229,8 +256,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="207" average="5.00" min="1" max="5"/>
-    <media:statistics views="15552"/>
+    <media:starRating count="211" average="5.00" min="1" max="5"/>
+    <media:statistics views="15699"/>
    </media:community>
   </media:group>
  </entry>
@@ -301,8 +328,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1187" average="5.00" min="1" max="5"/>
-    <media:statistics views="118831"/>
+    <media:starRating count="1189" average="5.00" min="1" max="5"/>
+    <media:statistics views="119047"/>
    </media:community>
   </media:group>
  </entry>
@@ -352,8 +379,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="668" average="5.00" min="1" max="5"/>
-    <media:statistics views="32914"/>
+    <media:starRating count="675" average="5.00" min="1" max="5"/>
+    <media:statistics views="33210"/>
    </media:community>
   </media:group>
  </entry>
@@ -398,8 +425,8 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
-    <media:starRating count="463" average="5.00" min="1" max="5"/>
-    <media:statistics views="18828"/>
+    <media:starRating count="464" average="5.00" min="1" max="5"/>
+    <media:statistics views="18882"/>
    </media:community>
   </media:group>
  </entry>
@@ -423,8 +450,8 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
-    <media:starRating count="81" average="5.00" min="1" max="5"/>
-    <media:statistics views="4497"/>
+    <media:starRating count="83" average="5.00" min="1" max="5"/>
+    <media:statistics views="4541"/>
    </media:community>
   </media:group>
  </entry>
@@ -479,8 +506,8 @@ Chapters:
 50:00 Transparent open-source training codebases
 52:00 Build a Reasoning Model From Scratch</media:description>
    <media:community>
-    <media:starRating count="1352" average="5.00" min="1" max="5"/>
-    <media:statistics views="34244"/>
+    <media:starRating count="1354" average="5.00" min="1" max="5"/>
+    <media:statistics views="34348"/>
    </media:community>
   </media:group>
  </entry>
@@ -526,8 +553,8 @@ Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-
 33:20 Kimi Linear, Ling 2.5, and Nemotron
 36:39 Poster, future updates, and wrap-up</media:description>
    <media:community>
-    <media:starRating count="795" average="5.00" min="1" max="5"/>
-    <media:statistics views="17650"/>
+    <media:starRating count="797" average="5.00" min="1" max="5"/>
+    <media:statistics views="17700"/>
    </media:community>
   </media:group>
  </entry>
@@ -571,7 +598,7 @@ Chapters:
 #LLM #Transformers #DeepLearning #MachineLearning #Inference #MoE #GQA #MLA #SWA #KVCache</media:description>
    <media:community>
     <media:starRating count="687" average="5.00" min="1" max="5"/>
-    <media:statistics views="20306"/>
+    <media:statistics views="20314"/>
    </media:community>
   </media:group>
  </entry>
@@ -610,8 +637,8 @@ This video covers the most important open-weight LLM architectures released in 2
 01:14:57 10. Grok 2.5
 01:19:04 11. GLM-4.5</media:description>
    <media:community>
-    <media:starRating count="1756" average="5.00" min="1" max="5"/>
-    <media:statistics views="45744"/>
+    <media:starRating count="1761" average="5.00" min="1" max="5"/>
+    <media:statistics views="45810"/>
    </media:community>
   </media:group>
  </entry>
@@ -626,7 +653,7 @@ This video covers the most important open-weight LLM architectures released in 2
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2025-04-11T17:17:37+00:00</published>
-  <updated>2026-09-19T14:04:35+00:00</updated>
+  <updated>2026-09-23T03:36:24+00:00</updated>
   <media:group>
    <media:title>Build an LLM from Scratch 7: Instruction Finetuning</media:title>
    <media:content url="https://www.youtube.com/v/4yNswvhPWCQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -657,56 +684,8 @@ Building a User Interface to Interact With the Instruction Finetuned GPT Model, 
 
 Evaluating Instruction Responses Using the OpenAI API and Ollama, https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation</media:description>
    <media:community>
-    <media:starRating count="833" average="5.00" min="1" max="5"/>
-    <media:statistics views="48194"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:5PFXJYme4ik</id>
-  <yt:videoId>5PFXJYme4ik</yt:videoId>
-  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
-  <title>Build an LLM from Scratch 6: Finetuning for Classification</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=5PFXJYme4ik"/>
-  <author>
-   <name>Sebastian Raschka</name>
-   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
-  </author>
-  <published>2025-04-04T19:19:37+00:00</published>
-  <updated>2026-09-19T14:04:35+00:00</updated>
-  <media:group>
-   <media:title>Build an LLM from Scratch 6: Finetuning for Classification</media:title>
-   <media:content url="https://www.youtube.com/v/5PFXJYme4ik?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/5PFXJYme4ik/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Links to the book: 
-- https://amzn.to/4fqvn0D (Amazon)
-- https://mng.bz/M96o (Manning)
-
-Link to the GitHub repository: https://github.com/rasbt/LLMs-from-scratch
-
-This is a supplementary video explaining how to finetune an LLM as a classifier (here using a spam classification example) as a gentle introduction to fine-tuning, before instruction finetuning the LLM  in the next video.
-
-00:00 6.2 Preparing the dataset
-26:49 6.3 Creating data loaders
-42:50 6.4 Initializing a model with pretrained weights
-52:56 6.5 Adding a classification head
-1:08:28 6.6 Calculating the classification loss and accuracy
-1:30:54 6.7 Finetuning the model on supervised data
-2:04:25 6.8 Using the LLM as a spam classifier
-
-You can find additional bonus materials on GitHub:
-
-Additional experiments finetuning different layers and using larger models, 
-https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/02_bonus_additional-experiments
-
-Finetuning different models on 50k IMDB movie review dataset,
-https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/03_bonus_imdb-classification
-
-Building a User Interface to Interact With the GPT-based Spam Classifier,
-https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/04_user_interface</media:description>
-   <media:community>
-    <media:starRating count="667" average="5.00" min="1" max="5"/>
-    <media:statistics views="30611"/>
+    <media:starRating count="835" average="5.00" min="1" max="5"/>
+    <media:statistics views="48254"/>
    </media:community>
   </media:group>
  </entry>
