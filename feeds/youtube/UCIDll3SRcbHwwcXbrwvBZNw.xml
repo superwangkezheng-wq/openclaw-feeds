@@ -11,6 +11,117 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:y__TqFuY7ho</id>
+  <yt:videoId>y__TqFuY7ho</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>Space Bunny Alpha 现身 OpenRouter与OpenCode；Google 发布 Gemini 3.8 Flash TTS 和 Flash-Lite TTS【AI 早报 2026-</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=y__TqFuY7ho"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-09-24T01:46:16+00:00</published>
+  <updated>2026-09-24T01:47:09+00:00</updated>
+  <media:group>
+   <media:title>Space Bunny Alpha 现身 OpenRouter与OpenCode；Google 发布 Gemini 3.8 Flash TTS 和 Flash-Lite TTS【AI 早报 2026-</media:title>
+   <media:content url="https://www.youtube.com/v/y__TqFuY7ho?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/y__TqFuY7ho/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+“stealth”模型 Space Bunny Alpha 现身 OpenRouter与OpenCode 00:10
+https://openrouter.ai/stealth/space-bunny-alpha
+https://x.com/opencode/status/2102767716666941864
+
+谷歌发布 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 00:21
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/
+https://aistudio.google.com/generate-speech?model=gemini-3.8-flash-tts
+https://deepmind.google/models/model-cards/gemini-3-8-audio/
+
+OpenAI升级ChatGPT Voice，支持插件及GPT-6系列模型 00:41
+https://x.com/OpenAI/status/2102808325742322002
+
+Claude Code云端会话功能正式开放，订阅用户可领试用额度 00:55
+https://x.com/ClaudeDevs/status/2102871550974427462
+https://claude.ai/code/claim-credit/10
+
+千问发布Qwen-Audio-3.1五款模型，四款API已上线 01:11
+https://mp.weixin.qq.com/s/MW6wBdCJEdgGYX1DE9FzXQ
+
+科大讯飞发布Spark-ASR-2.0，逐步上线讯飞输入法 01:32
+https://iflytekresearch.iflytek.com/experience/spark-asr
+https://mp.weixin.qq.com/s/4PJFklNPGSJ7UsQDufeL4w
+
+阿里巴巴开源Logics-Parsing-V3，支持跨页解析长文档 01:46
+https://github.com/alibaba/Logics-Parsing
+https://huggingface.co/Logics-MLLM/Logics-Parsing-V3
+https://mp.weixin.qq.com/s/CRkel8-DQR0eqXmwA_zeiw
+
+Fireworks推出Ember-1，同步推出定制训练支持 01:59
+https://fireworks.ai/blog/ember-1
+
+Black Forest Labs发布开放权重机器人模型FLUX 3 Action 02:13
+https://bfl.ai/models/flux-3-action
+https://huggingface.co/collections/black-forest-labs/flux-3-action
+
+英伟达开源说话人分离模型 Nemotron 3 Diarization 02:26
+https://huggingface.co/blog/nvidia/nemotron-diarization
+https://huggingface.co/nvidia/Nemotron-3-Diarization
+
+Fish Audio 推出 Drama 3 预览版，支持自然语言控制语音 02:41
+https://x.com/FishAudio/status/2102805658005635294
+
+Claude 手机应用现已支持多个账号 02:54
+https://x.com/RobertJBye/status/2102455638643388631
+
+Google称Gemini新增13项应用连接，开始逐步推出 03:05
+https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/
+https://x.com/GeminiApp/status/2102790841270210746
+
+Google Flow 推出六款创作者工具 03:22
+https://blog.google/innovation-and-ai/models-and-research/google-labs/six-new-tools-built-by-creatives/
+https://flow.google.com/
+
+Google 向所有账号用户免费开放Google Vids视频生成 03:41
+https://blog.google/products-and-platforms/products/workspace/gemini-omni-in-google-vids/
+https://vids.new
+
+Anthropic公布Claude发现噬菌体新酶系统 03:51
+https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
+https://x.com/AnthropicAI/status/2102824959827742916
+https://x.com/DarioAmodei/status/2102831170299834652
+
+Anthropic披露Claude辅助性能优化方法，两周合并超3000项改动 04:23
+https://claude.dev/blog/how-we-made-claude-ai-faster/
+https://x.com/ClaudeDevs/status/2102839691154427983
+
+Anthropic员工谈Opus 5.5写作调整：平衡模型理解与人类阅读 04:39
+https://x.com/JacksonKernion/status/2102437423670325581
+https://x.com/JacksonKernion/status/2102460100732711186
+https://x.com/JacksonKernion/status/2102557190913720696
+
+DeepSeek披露Agent训练沙盒平台DSec技术细节 04:57
+https://arxiv.org/pdf/2609.22978
+
+罗福莉公布MiMo-V3新架构核心HySparse2 05:15
+https://x.com/_LuoFuli/status/2102766365190901957
+https://arxiv.org/pdf/2609.26368
+
+OpenAI推出开放心理健康对话评测基准MentalHealthBench 05:35
+https://openai.com/index/introducing-mentalhealthbench/
+https://x.com/OpenAI/status/2102837574092161102
+
+Anthropic披露Claude用于刚果（金）埃博拉疫情应对 05:49
+https://www.anthropic.com/features/ebola-response
+
+澳大利亚称OpenAI智能体未经授权访问政府医疗统计门户 06:01
+https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/</media:description>
+   <media:community>
+    <media:starRating count="17" average="5.00" min="1" max="5"/>
+    <media:statistics views="1142"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Cdg5449Oid0</id>
   <yt:videoId>Cdg5449Oid0</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -21,7 +132,7 @@
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-09-23T01:42:29+00:00</published>
-  <updated>2026-09-23T01:44:02+00:00</updated>
+  <updated>2026-09-24T06:08:14+00:00</updated>
   <media:group>
    <media:title>Anthropic 发布 Claude Opus 5.5；OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna【AI 早报 2026-09-23】</media:title>
    <media:content url="https://www.youtube.com/v/Cdg5449Oid0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -97,8 +208,8 @@ https://x.com/testingcatalog/status/2102324410468245529
 https://www.qianwenai.com/product/qwenbook
 https://www.ithome.com/1/005/658.htm</media:description>
    <media:community>
-    <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2164"/>
+    <media:starRating count="26" average="5.00" min="1" max="5"/>
+    <media:statistics views="3319"/>
    </media:community>
   </media:group>
  </entry>
@@ -153,7 +264,7 @@ Qwen：用户保留Qwen-Image-2.1生成内容权利 03:10
 https://x.com/QwenDevs/status/2101917379785838660</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="1382"/>
+    <media:statistics views="1397"/>
    </media:community>
   </media:group>
  </entry>
@@ -204,7 +315,7 @@ https://mp.weixin.qq.com/s/Y0X4FqYFYQDsTLGyLl0dzQ
 https://mp.weixin.qq.com/s/e7kLxQKhkOrLdsmgyF5U0Q</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="2468"/>
+    <media:statistics views="2433"/>
    </media:community>
   </media:group>
  </entry>
@@ -278,7 +389,7 @@ https://github.com/search?q=repo%3AMiniMax-AI%2Fminimax-code+minimax-m3.1&amp;ty
 月之暗面或将发布 Kimi K3.1 03:56</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="1532"/>
+    <media:statistics views="1557"/>
    </media:community>
   </media:group>
  </entry>
@@ -386,7 +497,7 @@ https://data.un.org/
 https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/</media:description>
    <media:community>
     <media:starRating count="34" average="5.00" min="1" max="5"/>
-    <media:statistics views="3259"/>
+    <media:statistics views="3288"/>
    </media:community>
   </media:group>
  </entry>
@@ -484,7 +595,7 @@ https://www.theinformation.com/articles/apple-considers-return-server-market-tal
 https://the-decoder.com/apple-is-reportedly-building-an-enterprise-ai-server-with-its-own-m8-ultra-chips/</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="3227"/>
+    <media:statistics views="3248"/>
    </media:community>
   </media:group>
  </entry>
@@ -642,7 +753,7 @@ https://thein.fo/4itEaUC
 https://www.wsj.com/tech/openai-buys-startup-developing-smartphone-camera-63590370</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="2020"/>
+    <media:statistics views="2024"/>
    </media:community>
   </media:group>
  </entry>
@@ -672,7 +783,7 @@ https://www.reuters.com/world/asia-pacific/chinas-zai-raises-5-billion-new-share
 https://huggingface.co/internlm/Intern-S2-397B</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="594"/>
+    <media:statistics views="595"/>
    </media:community>
   </media:group>
  </entry>
@@ -827,7 +938,7 @@ https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-
 https://www.bloomberg.com/news/articles/2026-09-11/nvidia-in-talks-to-invest-up-to-10b-in-anthropic-ipo-reuters</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2215"/>
+    <media:statistics views="2220"/>
    </media:community>
   </media:group>
  </entry>
@@ -961,7 +1072,7 @@ https://x.com/AndrewCurran_/status/2098083604853342688
 https://x.com/synthwavedd/status/2097971881596916185</media:description>
    <media:community>
     <media:starRating count="37" average="5.00" min="1" max="5"/>
-    <media:statistics views="3849"/>
+    <media:statistics views="3850"/>
    </media:community>
   </media:group>
  </entry>
@@ -1056,7 +1167,7 @@ https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partne
 https://www.reuters.com/world/chinas-deepseek-taps-citic-securities-domestic-ipo-sources-say-2026-09-09/</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="3895"/>
+    <media:statistics views="3897"/>
    </media:community>
   </media:group>
  </entry>
@@ -1147,65 +1258,7 @@ OpenAI 承包 Firmus 马来西亚两处 AI 工厂专用算力 04:53
 https://firmus.co/newsroom/firmus-surpasses-900-mw-contracted-capacity-adds-openai-as-anchor-customer-and-expands-into-malaysia</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="1595"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:__Sh-5pgUq4</id>
-  <yt:videoId>__Sh-5pgUq4</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>ChatGPT Work 推出个人写作风格学习功能【AI 早报 2026-09-08】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=__Sh-5pgUq4"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-09-08T00:44:42+00:00</published>
-  <updated>2026-09-18T09:15:51+00:00</updated>
-  <media:group>
-   <media:title>ChatGPT Work 推出个人写作风格学习功能【AI 早报 2026-09-08】</media:title>
-   <media:content url="https://www.youtube.com/v/__Sh-5pgUq4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/__Sh-5pgUq4/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-ChatGPT Work 推出个人写作风格学习功能 00:09
-https://x.com/ChatGPT/status/2097018264048251309
-
-Codex 负责人 Tibo 宣布所有付费订阅将迎来用量重置 00:22
-https://x.com/thsottiaux/status/2097043464538264003
-
-腾讯混元全量上线 Hy4 preview 专项优化 00:31
-
-OpenBMB 开源 MiniCPM5-2B 00:46
-https://github.com/OpenBMB/MiniCPM
-https://huggingface.co/openbmb/MiniCPM5-2B
-
-TRAE 上线高校扶持计划 00:57
-https://mp.weixin.qq.com/s/Gg68A1Ue5y-UYR-FXyYeHw
-https://mp.weixin.qq.com/s?__biz=MzkxMTY4NTAyNQ==&amp;mid=2247517573&amp;idx=1&amp;sn=dc480d2a6b2461470b19bcdc18689243&amp;scene=21#wechat_redirect
-
-腾讯 AI 开源内部工具 TeamAI-CLI 01:05
-https://github.com/Tencent-Hunyuan/Hy4-preview
-https://x.com/TencentAI_News/status/2096876836898865165
-
-Qoder 正式发布 QoderWake 1.0 01:17
-https://mp.weixin.qq.com/s/IEL__DL9hWKIAvz8MCn7FQ
-http://qoder.com/qoderwake
-https://x.com/qoder_ai_ide/status/2096838489044345248
-
-千问开放平台上新10余个金融服务类智能体 01:31
-https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ==&amp;mid=2247488663&amp;idx=1&amp;sn=ecdf8093b3022171069845a02e34a85f&amp;chksm=f193ca5eb776659b8cca1d50eded48a3566a6c48b86eb6d53204273f060b7cc6fb8bf7f46b6f#rd
-
-DeepSeek 社招资深后端及服务端工程师 01:44
-https://x.com/tianyi/status/2096975270578139273
-https://x.com/tianyi/status/2096976965819646128
-
-ChatGPT 收复网站流量份额，Gemini 回落至 25.6% 02:02
-https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/</media:description>
-   <media:community>
-    <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="2355"/>
+    <media:statistics views="1597"/>
    </media:community>
   </media:group>
  </entry>

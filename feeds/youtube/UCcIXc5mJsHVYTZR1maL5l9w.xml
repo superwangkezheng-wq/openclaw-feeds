@@ -11,6 +11,44 @@
  </author>
  <published>2017-08-22T22:27:58+00:00</published>
  <entry>
+  <id>yt:video:uRGHx-1CqBQ</id>
+  <yt:videoId>uRGHx-1CqBQ</yt:videoId>
+  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
+  <title>Building AI Assistants with On-Device Memory</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=uRGHx-1CqBQ"/>
+  <author>
+   <name>DeepLearningAI</name>
+   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
+  </author>
+  <published>2026-09-23T13:30:05+00:00</published>
+  <updated>2026-09-23T16:23:19+00:00</updated>
+  <media:group>
+   <media:title>Building AI Assistants with On-Device Memory</media:title>
+   <media:content url="https://www.youtube.com/v/uRGHx-1CqBQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/uRGHx-1CqBQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Learn More: https://bit.ly/4AlVW2n
+
+A cloud-based assistant can remember what it sees, hears, and is told, but only by staying connected and sending that data to a remote server.
+
+In our new short course, Building AI Assistants with On-Device Memory, built in partnership with Qdrant and taught by Dylan Couzon, Developer Experience Engineer at Qdrant, you'll learn to store and search an assistant's memories locally, so nothing has to leave the device.
+
+In this course, you'll learn how to:
+
+- Build a local memory system that stores, retrieves, filters, and forgets text and image memories.
+- Build an offline assistant that recalls experiences across text, voice, and images.
+- Teach an AI application to recognize new objects from stored examples without retraining a model.
+- Run the on-device AI assistant on a local machine, including Mac, Windows, and Linux.
+
+This course also includes our new AI coding lab, so you can practice building with an AI coding agent from the DeepLearning.AI mobile app.
+
+Enroll Now:https://bit.ly/4AlVW2n</media:description>
+   <media:community>
+    <media:starRating count="35" average="5.00" min="1" max="5"/>
+    <media:statistics views="4820"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:hy8UstR2NEg</id>
   <yt:videoId>hy8UstR2NEg</yt:videoId>
   <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
@@ -21,14 +59,14 @@
    <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
   </author>
   <published>2026-09-22T19:32:17+00:00</published>
-  <updated>2026-09-22T23:23:44+00:00</updated>
+  <updated>2026-09-24T07:35:38+00:00</updated>
   <media:group>
    <media:title>Full Course: Spec-Driven Development with Coding Agents</media:title>
    <media:content url="https://www.youtube.com/v/hy8UstR2NEg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
    <media:thumbnail url="https://i1.ytimg.com/vi/hy8UstR2NEg/hqdefault.jpg" width="480" height="360"/>
    <media:description>Vibe coding is fast, but it often produces code that doesn't match what you asked for. Spec-driven development is the disciplined alternative: write a clear markdown spec defining what to build, and let your coding agent implement it.
 
-Earn your certificate here: https://bit.ly/4ArdsT3
+Earn your certificate here: https://bit.ly/4hmJc2K
 
 You'll learn to:
 - Write a project constitution defining mission, tech stack, and roadmap
@@ -40,8 +78,8 @@ Spec-Driven Development with Coding Agents is built in partnership with JetBrain
 
 Recommended: basic familiarity with a programming language and experience with LLM-based coding tools.</media:description>
    <media:community>
-    <media:starRating count="607" average="5.00" min="1" max="5"/>
-    <media:statistics views="29876"/>
+    <media:starRating count="961" average="5.00" min="1" max="5"/>
+    <media:statistics views="59949"/>
    </media:community>
   </media:group>
  </entry>
@@ -70,7 +108,7 @@ Learn to build it, plus a video generation agent, in &quot;AI Agents for Image a
 Join here: https://www.deeplearning.ai/courses/ai-agents-for-image-and-video-generation</media:description>
    <media:community>
     <media:starRating count="40" average="5.00" min="1" max="5"/>
-    <media:statistics views="2887"/>
+    <media:statistics views="2926"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,7 +134,7 @@ Take the course, then come share what you build:
 https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local</media:description>
    <media:community>
     <media:starRating count="46" average="5.00" min="1" max="5"/>
-    <media:statistics views="2534"/>
+    <media:statistics views="2562"/>
    </media:community>
   </media:group>
  </entry>
@@ -133,8 +171,8 @@ LinkedIn: https://www.linkedin.com/company/deeplearningai · X: https://x.com/De
 
 #AIDev #DeepLearningAI #AndrewNg  #AIDeveloper #AIEngineering #AgenticAI</media:description>
    <media:community>
-    <media:starRating count="106" average="5.00" min="1" max="5"/>
-    <media:statistics views="15098"/>
+    <media:starRating count="108" average="5.00" min="1" max="5"/>
+    <media:statistics views="15154"/>
    </media:community>
   </media:group>
  </entry>
@@ -161,7 +199,7 @@ Paul Everitt worked both into his new course with DeepLearning.AI. Check it out:
 https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="2764"/>
+    <media:statistics views="2776"/>
    </media:community>
   </media:group>
  </entry>
@@ -202,7 +240,7 @@ By the end, you'll know how to build agents that get measurably better at the sa
 Enroll Now: https://bit.ly/4iu7p9F</media:description>
    <media:community>
     <media:starRating count="76" average="5.00" min="1" max="5"/>
-    <media:statistics views="10241"/>
+    <media:statistics views="10286"/>
    </media:community>
   </media:group>
  </entry>
@@ -228,7 +266,7 @@ Knowing how to split the work between them is the skill. Learn it in our free co
 https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local</media:description>
    <media:community>
     <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="2676"/>
+    <media:statistics views="2683"/>
    </media:community>
   </media:group>
  </entry>
@@ -254,7 +292,7 @@ Build the full workflow in AI Coding Workflows: From Cloud to Local, a free shor
 https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="2807"/>
+    <media:statistics views="2811"/>
    </media:community>
   </media:group>
  </entry>
@@ -293,7 +331,7 @@ By the end, every layer of your setup is a choice you've made.
 Enroll Now: https://bit.ly/4q6zSEc</media:description>
    <media:community>
     <media:starRating count="84" average="5.00" min="1" max="5"/>
-    <media:statistics views="5094"/>
+    <media:statistics views="5125"/>
    </media:community>
   </media:group>
  </entry>
@@ -334,7 +372,7 @@ Claude Code / CLI (Autonomous Agent Execution)
 #VoiceAI #VocalBridge #ClaudeCode #AIAgents #DatabaseManagement #BuildInPublic #Hackathon #DeveloperTools</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="3182"/>
+    <media:statistics views="3257"/>
    </media:community>
   </media:group>
  </entry>
@@ -376,7 +414,7 @@ Claude Code / CLI (Autonomous Agent Execution)
 #VoiceAI #VocalBridge #ClaudeCode #AIAgents #BuildInPublic #Hackathon #DeveloperTools #ProductStrategy</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="1172"/>
+    <media:statistics views="1189"/>
    </media:community>
   </media:group>
  </entry>
@@ -420,7 +458,7 @@ Claude Code / CLI (Autonomous Agent Execution)
 #VoiceAI #VocalBridge #ClaudeCode #AIAgents #BuildInPublic #Hackathon #DeveloperTools #CodingAgent</media:description>
    <media:community>
     <media:starRating count="57" average="5.00" min="1" max="5"/>
-    <media:statistics views="4341"/>
+    <media:statistics views="4354"/>
    </media:community>
   </media:group>
  </entry>
@@ -460,7 +498,7 @@ By the end, you'll be able to catch the security holes, missed requirements, and
 Enroll now: https://bit.ly/4pCoIqu</media:description>
    <media:community>
     <media:starRating count="95" average="5.00" min="1" max="5"/>
-    <media:statistics views="4360"/>
+    <media:statistics views="4387"/>
    </media:community>
   </media:group>
  </entry>
@@ -504,34 +542,7 @@ In this course, you'll learn how to:
 Enroll now: https://bit.ly/3Tg20Zd</media:description>
    <media:community>
     <media:starRating count="61" average="5.00" min="1" max="5"/>
-    <media:statistics views="3657"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:7D3w87YqfA8</id>
-  <yt:videoId>7D3w87YqfA8</yt:videoId>
-  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
-  <title>7-day Voice AI Build Challenge</title>
-  <link rel="alternate" href="https://www.youtube.com/shorts/7D3w87YqfA8"/>
-  <author>
-   <name>DeepLearningAI</name>
-   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
-  </author>
-  <published>2026-06-24T17:11:15+00:00</published>
-  <updated>2026-09-14T04:09:42+00:00</updated>
-  <media:group>
-   <media:title>7-day Voice AI Build Challenge</media:title>
-   <media:content url="https://www.youtube.com/v/7D3w87YqfA8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/7D3w87YqfA8/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Don’t miss a night out because you’re watching your terminal. Have your coding agent call you instead!
-
-Join the 7-Day Voice AI Builder Challenge here: https://hubs.la/Q04mvXBZ0
-
-Hurry—challenge ends June 30!</media:description>
-   <media:community>
-    <media:starRating count="43" average="5.00" min="1" max="5"/>
-    <media:statistics views="4127"/>
+    <media:statistics views="3665"/>
    </media:community>
   </media:group>
  </entry>
