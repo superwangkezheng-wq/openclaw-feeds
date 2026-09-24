@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-23T12:48:26.000Z",
+  "generatedAt": "2026-09-24T01:29:15.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-09-23T06:42:38.470Z",
-    "ageHours": 6.1
+    "ageHours": 18.78
   },
   "x": [
     {
@@ -73,17 +73,6 @@
           "replies": 4,
           "isQuote": true,
           "quotedTweetId": "2102415959378305339"
-        },
-        {
-          "createdAt": "2026-09-19T21:41:51.000Z",
-          "id": "2101426570850451914",
-          "isQuote": false,
-          "likes": 46,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 2,
-          "text": "After seeing the rush of announcements by Gemini (Google), OpenAi and Anthropic about even more agent intrusions......I take it for 100% granted that a number of of major companies have been penetrated by nation states without them knowing about it.",
-          "url": "https://x.com/adityaag/status/2101426570850451914"
         }
       ],
       "source": "x",
@@ -374,17 +363,6 @@
           "retweets": 22,
           "text": "Not really sure how @capydotai does it, but it really is able to track multi-step workflow and do large PRs faster than Codex or Claude Code on its own. My most favorite new agentic coding secret weapon in my arsenal the last week.",
           "url": "https://x.com/garrytan/status/2102095924893827501"
-        },
-        {
-          "createdAt": "2026-09-19T23:39:56.000Z",
-          "id": "2101456284482441656",
-          "isQuote": true,
-          "likes": 268,
-          "quotedTweetId": "2100645464022667727",
-          "replies": 9,
-          "retweets": 22,
-          "text": "Stop racial discrimination in the University of California system https://t.co/og9xm3Almf",
-          "url": "https://x.com/garrytan/status/2101456284482441656"
         }
       ],
       "source": "x",
@@ -467,17 +445,6 @@
           "retweets": 121,
           "text": "Literally impenetrable from agent swarms https://t.co/tg7SZ4d0xu",
           "url": "https://x.com/levie/status/2101731574668747081"
-        },
-        {
-          "createdAt": "2026-09-19T21:47:31.000Z",
-          "id": "2101427997597446636",
-          "isQuote": true,
-          "likes": 340,
-          "quotedTweetId": "2101152998894313557",
-          "replies": 48,
-          "retweets": 40,
-          "text": "Personal agents are the ultimate manifestation of “build something that agents want”.\n\nThe form factor of a product like Muse is you want to be able to hand off a task to the agent and ensure that it is fully completed end to end. To do this, the agent must be able to successfully operate with your tools or use its own to complete the task. Use your MCP or CLI, easily navigate your site, be able to transact, and more.\n\nThe new attention you need to compete for is not from the user itself but instead for the agent. This means that the tools that allow agents to order food, handle ecommerce transactions, book flights, work with the local economy, and interact with our data and information best, are the ones that will get used the most.\n\nThis will ultimately be the biggest opportunity and shakeup in consumer tech since the App Store itself.",
-          "url": "https://x.com/levie/status/2101427997597446636"
         }
       ],
       "source": "x",
@@ -582,17 +549,6 @@
           "retweets": 0,
           "text": "Jokingly thinking of starting a new cloud kitchen called “next day curry”.. \n\nWhere I order the best curries, store it overnight and serve it the next day. \n\nSaying this as I devour my leftover Manchurian. Have the exact same experience with Ramen, Indian food, Thai curry and others. \n\nMight be blasphemous to the purists but they taste so much better!",
           "url": "https://x.com/nikunj/status/2101742225906655315"
-        },
-        {
-          "createdAt": "2026-09-19T15:58:15.000Z",
-          "id": "2101340098356990058",
-          "isQuote": false,
-          "likes": 246,
-          "quotedTweetId": null,
-          "replies": 34,
-          "retweets": 11,
-          "text": "I spend ~2 hours a day programming, building side projects, tinkering obsessively, trying new repos..\n\nI get basically a DM a day asking “aren’t you a VC, why are you doing this?”\n\nUnlike other eras, things are moving SO fast that if you don’t do this, I simply don’t understand how folks will ever learn what’s coming next. \n\nFor me, it’s quite simple if you want to invest in the AI era:\n\n1) You have to understand the model capabilities to see where the next set of models will improve - still so much alpha in reading technical papers (model research)\n\n2) You need to see what tools do they need to be successful and complete even longer long horizon tasks (infra) \n\n3) You need to understand the harness capabilities that will make these models help building autonomous companies (app layer)\n\nYou can obviously learn this by talking to researchers / builders and simply betting on founders - and I do that too. But, I was never honestly good at learning without getting my hands dirty so just leaning in to what I know best. It’s also honestly so fun!\n\nSo, my push to other folks who want to learn is just get started and find time to tinker daily. Once you do it for 10 days, I’m sure you’ll be equally obsessed!",
-          "url": "https://x.com/nikunj/status/2101340098356990058"
         }
       ],
       "source": "x",
@@ -722,17 +678,6 @@
           "retweets": 4,
           "text": "Apple TV is full of bangers, canceled my Netflix.\n\nWidow's Peak, 9.5/10\nSilo season 3, 9/10\n\nWhat's next? Already seen:\n\nSeverance, 9.5/10\nSlow Horses, 8/10, gonna wait for more episodes for new season",
           "url": "https://x.com/petergyang/status/2101497327861248090"
-        },
-        {
-          "createdAt": "2026-09-19T16:06:01.000Z",
-          "id": "2101342055352201519",
-          "isQuote": false,
-          "likes": 82,
-          "quotedTweetId": null,
-          "replies": 13,
-          "retweets": 5,
-          "text": "My next podcast episode is almost guaranteed to save you some money.\n\nIt's with my friend @ebloch, product lead for ChatGPT Finances at @OpenAI.\n\nI asked him to share six practical personal finance prompts that anyone can try to:\n\n1. Find tax savings proactively\n2. Maximize credit card rewards\n3. Create interactive forecasts like your path to financial independence\n...and more\n\n📌 Subscribe to get our full episode tomorrow: https://t.co/NSTj7ijxE0",
-          "url": "https://x.com/petergyang/status/2101342055352201519"
         }
       ],
       "source": "x",
@@ -829,28 +774,6 @@
           "retweets": 16,
           "text": "https://t.co/mioa6FKIqK https://t.co/JyaI4gQMYW",
           "url": "https://x.com/rauchg/status/2101728091710341176"
-        },
-        {
-          "createdAt": "2026-09-19T21:18:37.000Z",
-          "id": "2101420720807100855",
-          "isQuote": false,
-          "likes": 84,
-          "quotedTweetId": null,
-          "replies": 8,
-          "retweets": 3,
-          "text": "“I've spoken of the shining city […] a tall, proud city built on rocks stronger than oceans, wind-swept, God-blessed, and teeming with people of all kinds living in harmony and peace; a city with free ports that hummed with commerce and creativity. And if there had to be city walls, the walls had doors and the doors were open to anyone with the will and the heart to get here. That's how I saw it, and see it still.” – 🇺🇸 Ronald Reagan (January 11, 1989)",
-          "url": "https://x.com/rauchg/status/2101420720807100855"
-        },
-        {
-          "createdAt": "2026-09-19T19:45:10.000Z",
-          "id": "2101397206595231765",
-          "isQuote": false,
-          "likes": 1177,
-          "quotedTweetId": null,
-          "replies": 109,
-          "retweets": 76,
-          "text": "The coolest thing about the recent wave of AI is that everyone is excited about building.\n\nAll short-term drama aside, this is an immeasurably good development for the world. The people want to create and ship, not just consume.",
-          "url": "https://x.com/rauchg/status/2101397206595231765"
         }
       ],
       "source": "x",
@@ -1002,25 +925,6 @@
       "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod"
     },
     {
-      "handle": "thenanyu",
-      "name": "Nan Yu",
-      "tweets": [
-        {
-          "createdAt": "2026-09-19T18:49:09.000Z",
-          "id": "2101383106372805103",
-          "isQuote": false,
-          "likes": 12,
-          "quotedTweetId": null,
-          "replies": 8,
-          "retweets": 0,
-          "text": "I’m trying to place calls with both muse and instinct and they both claim to be unable to do so… is this still rolling out?",
-          "url": "https://x.com/thenanyu/status/2101383106372805103"
-        }
-      ],
-      "source": "x",
-      "bio": "(soon) member of product staff @openai. prev head of product @linear"
-    },
-    {
       "handle": "thsottiaux",
       "name": "Thibault Sottiaux",
       "tweets": [
@@ -1067,17 +971,6 @@
           "retweets": 760,
           "text": "Ladies and gentlemen... start... your... ENGINES. We are almost Tuesday and I promised a reset for Tuesday. Among some other things. See you soon.",
           "url": "https://x.com/thsottiaux/status/2102254445082116335"
-        },
-        {
-          "createdAt": "2026-09-19T22:01:26.000Z",
-          "id": "2101431497437950458",
-          "isQuote": false,
-          "likes": 9804,
-          "quotedTweetId": null,
-          "replies": 1107,
-          "retweets": 470,
-          "text": "2026 is the year of linux desktop",
-          "url": "https://x.com/thsottiaux/status/2101431497437950458"
         }
       ],
       "source": "x",
@@ -1148,8 +1041,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 20,
-    "xTweets": 89,
-    "windowSpanHours": 85.34
+    "xBuilders": 19,
+    "xTweets": 80,
+    "windowSpanHours": 74.93
   }
 }
