@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-24T12:46:34.000Z",
+  "generatedAt": "2026-09-25T01:38:23.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-09-24T06:42:38.168Z",
-    "ageHours": 6.07
+    "ageHours": 18.93
   },
   "x": [
     {
@@ -399,17 +399,6 @@
           "retweets": 0,
           "text": "😚 https://t.co/XHmyhFqjxB",
           "url": "https://x.com/danshipper/status/2102555830080205130"
-        },
-        {
-          "createdAt": "2026-09-20T23:32:15.000Z",
-          "id": "2101816740741329218",
-          "isQuote": true,
-          "likes": 53,
-          "quotedTweetId": "2101672911757103119",
-          "replies": 5,
-          "retweets": 0,
-          "text": "highly recommend\n\nthis is my favorite book https://t.co/H4wpR6eQ5O",
-          "url": "https://x.com/danshipper/status/2101816740741329218"
         }
       ],
       "source": "x",
@@ -621,40 +610,10 @@
           "retweets": 4,
           "text": "AI agents will use software 100X more than people ever did. Even as interfaces begin to fade into the background as you primarily interact with agents, those agents still need many of the core primitives that people have used.\n\nIn fact, in many ways these core primitives become even more important when agents can take destructive actions in our systems or where the context they’re accessing with make or break the workflow. This will be true of where you house your CRM or ERP or structured or unstructured data platforms.\n\nThe platforms that can best act as the security layer and guardrails for agents, manage the data for agents and people, and orchestrate the business logic for workflows have a huge opportunity right now. This is true for brand new startups as well as existing platforms that can move fast enough.",
           "url": "https://x.com/levie/status/2102235949430354273"
-        },
-        {
-          "createdAt": "2026-09-20T17:53:50.000Z",
-          "id": "2101731574668747081",
-          "isQuote": true,
-          "likes": 2691,
-          "quotedTweetId": "2101378791184744865",
-          "replies": 111,
-          "retweets": 121,
-          "text": "Literally impenetrable from agent swarms https://t.co/tg7SZ4d0xu",
-          "url": "https://x.com/levie/status/2101731574668747081"
         }
       ],
       "source": "x",
       "bio": "ceo @box - your business lives in content. unleash it with AI"
-    },
-    {
-      "handle": "mattturck",
-      "name": "Matt Turck",
-      "tweets": [
-        {
-          "createdAt": "2026-09-20T23:46:26.000Z",
-          "id": "2101820308009206077",
-          "isQuote": false,
-          "likes": 62,
-          "quotedTweetId": null,
-          "replies": 10,
-          "retweets": 0,
-          "text": "Everyone is obsessed with Jev now, but I'm old enough to remember when people couldn't shut up about Instinct, all the way back to mid last week.  Simpler times.",
-          "url": "https://x.com/mattturck/status/2101820308009206077"
-        }
-      ],
-      "source": "x",
-      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape."
     },
     {
       "handle": "nikunj",
@@ -747,17 +706,6 @@
           "retweets": 7,
           "text": "With a few exceptions, the companies boasting about tokenmaxxing have the worst product experiences..\n\nIt’s because good products are all about curation &amp; gardening and not throwing the kitchen sink at agents expecting them to figure it out. \n\nLess is more has never more apt.",
           "url": "https://x.com/nikunj/status/2102049065504739366"
-        },
-        {
-          "createdAt": "2026-09-20T18:36:09.000Z",
-          "id": "2101742225906655315",
-          "isQuote": false,
-          "likes": 36,
-          "quotedTweetId": null,
-          "replies": 15,
-          "retweets": 0,
-          "text": "Jokingly thinking of starting a new cloud kitchen called “next day curry”.. \n\nWhere I order the best curries, store it overnight and serve it the next day. \n\nSaying this as I devour my leftover Manchurian. Have the exact same experience with Ramen, Indian food, Thai curry and others. \n\nMight be blasphemous to the purists but they taste so much better!",
-          "url": "https://x.com/nikunj/status/2101742225906655315"
         }
       ],
       "source": "x",
@@ -994,28 +942,6 @@
           "retweets": 139,
           "text": "I just gave Grok 4.7 a pretty hard problem, involving reverse-engineering a running binary. Beautifully solved. And it's so fast!",
           "url": "https://x.com/rauchg/status/2102089968860721335"
-        },
-        {
-          "createdAt": "2026-09-21T01:29:34.000Z",
-          "id": "2101846262840799251",
-          "isQuote": false,
-          "likes": 376,
-          "quotedTweetId": null,
-          "replies": 53,
-          "retweets": 19,
-          "text": "The thoroughness with which agents can test and QA software is unrivaled. I pointed out something wasn't rendering right in a mobile (in-app) browser. The thing goes to the depths of Mordor to reproduce, simulate, fix, deploy, verify. It created an ephemeral vercel deployment to throw at an iPhone simulator! The absolute grind on these things.\n\nHumans could simply never match this level of intensity. We'd run of energy, we'd extrapolate, we'd hope it'd work out. The software of the future will be of a quality and performance we've never experienced before. It's amazing to watch this shift.",
-          "url": "https://x.com/rauchg/status/2101846262840799251"
-        },
-        {
-          "createdAt": "2026-09-20T17:39:59.000Z",
-          "id": "2101728091710341176",
-          "isQuote": false,
-          "likes": 860,
-          "quotedTweetId": null,
-          "replies": 70,
-          "retweets": 16,
-          "text": "https://t.co/mioa6FKIqK https://t.co/JyaI4gQMYW",
-          "url": "https://x.com/rauchg/status/2101728091710341176"
         }
       ],
       "source": "x",
@@ -1180,28 +1106,6 @@
           "retweets": 51,
           "text": "The beauty of running a claw yourself: they cannot block you. https://t.co/WKSs0TwM8f",
           "url": "https://x.com/steipete/status/2102044040397238286"
-        },
-        {
-          "createdAt": "2026-09-20T19:02:47.000Z",
-          "id": "2101748928274419843",
-          "isQuote": true,
-          "likes": 646,
-          "quotedTweetId": "2101727325947863430",
-          "replies": 48,
-          "retweets": 30,
-          "text": "Your claw can now FaceTime you! https://t.co/bUFzBG4e7h",
-          "url": "https://x.com/steipete/status/2101748928274419843"
-        },
-        {
-          "createdAt": "2026-09-20T19:02:22.000Z",
-          "id": "2101748820237500557",
-          "isQuote": false,
-          "likes": 1358,
-          "quotedTweetId": null,
-          "replies": 98,
-          "retweets": 136,
-          "text": "New benchmark dropped https://t.co/5lFZNcDNCh",
-          "url": "https://x.com/steipete/status/2101748820237500557"
         }
       ],
       "source": "x",
@@ -1424,17 +1328,6 @@
           "retweets": 32,
           "text": "I now type \"use big pictures and few words\" several times a day",
           "url": "https://x.com/trq212/status/2102186805034635576"
-        },
-        {
-          "createdAt": "2026-09-21T01:22:18.000Z",
-          "id": "2101844435353145452",
-          "isQuote": true,
-          "likes": 627,
-          "quotedTweetId": "2101215169837691356",
-          "replies": 50,
-          "retweets": 12,
-          "text": "there is something about video games that give high stakes and responsibilities to young people who couldn’t really get them irl\n\nbut it is a fine line and at some point you need to graduate https://t.co/wwRAmV7Sce",
-          "url": "https://x.com/trq212/status/2101844435353145452"
         }
       ],
       "source": "x",
@@ -1442,8 +1335,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 21,
-    "xTweets": 115,
-    "windowSpanHours": 84.35
+    "xBuilders": 20,
+    "xTweets": 106,
+    "windowSpanHours": 76.13
   }
 }

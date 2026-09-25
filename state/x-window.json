@@ -340,17 +340,6 @@
       "name": "Dan Shipper",
       "source": "x",
       "tweets": {
-        "id:2101816740741329218": {
-          "createdAt": "2026-09-20T23:32:15.000Z",
-          "id": "2101816740741329218",
-          "isQuote": true,
-          "likes": 53,
-          "quotedTweetId": "2101672911757103119",
-          "replies": 5,
-          "retweets": 0,
-          "text": "highly recommend\n\nthis is my favorite book https://t.co/H4wpR6eQ5O",
-          "url": "https://x.com/danshipper/status/2101816740741329218"
-        },
         "id:2102555830080205130": {
           "createdAt": "2026-09-23T00:29:08.000Z",
           "id": "2102555830080205130",
@@ -551,17 +540,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2101731574668747081": {
-          "createdAt": "2026-09-20T17:53:50.000Z",
-          "id": "2101731574668747081",
-          "isQuote": true,
-          "likes": 2691,
-          "quotedTweetId": "2101378791184744865",
-          "replies": 111,
-          "retweets": 121,
-          "text": "Literally impenetrable from agent swarms https://t.co/tg7SZ4d0xu",
-          "url": "https://x.com/levie/status/2101731574668747081"
-        },
         "id:2102235949430354273": {
           "createdAt": "2026-09-22T03:18:02.000Z",
           "id": "2102235949430354273",
@@ -630,42 +608,12 @@
         }
       }
     },
-    "mattturck": {
-      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
-      "handle": "mattturck",
-      "name": "Matt Turck",
-      "source": "x",
-      "tweets": {
-        "id:2101820308009206077": {
-          "createdAt": "2026-09-20T23:46:26.000Z",
-          "id": "2101820308009206077",
-          "isQuote": false,
-          "likes": 62,
-          "quotedTweetId": null,
-          "replies": 10,
-          "retweets": 0,
-          "text": "Everyone is obsessed with Jev now, but I'm old enough to remember when people couldn't shut up about Instinct, all the way back to mid last week.  Simpler times.",
-          "url": "https://x.com/mattturck/status/2101820308009206077"
-        }
-      }
-    },
     "nikunj": {
       "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "handle": "nikunj",
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2101742225906655315": {
-          "createdAt": "2026-09-20T18:36:09.000Z",
-          "id": "2101742225906655315",
-          "isQuote": false,
-          "likes": 36,
-          "quotedTweetId": null,
-          "replies": 15,
-          "retweets": 0,
-          "text": "Jokingly thinking of starting a new cloud kitchen called “next day curry”.. \n\nWhere I order the best curries, store it overnight and serve it the next day. \n\nSaying this as I devour my leftover Manchurian. Have the exact same experience with Ramen, Indian food, Thai curry and others. \n\nMight be blasphemous to the purists but they taste so much better!",
-          "url": "https://x.com/nikunj/status/2101742225906655315"
-        },
         "id:2102049065504739366": {
           "createdAt": "2026-09-21T14:55:26.000Z",
           "id": "2102049065504739366",
@@ -902,28 +850,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2101728091710341176": {
-          "createdAt": "2026-09-20T17:39:59.000Z",
-          "id": "2101728091710341176",
-          "isQuote": false,
-          "likes": 860,
-          "quotedTweetId": null,
-          "replies": 70,
-          "retweets": 16,
-          "text": "https://t.co/mioa6FKIqK https://t.co/JyaI4gQMYW",
-          "url": "https://x.com/rauchg/status/2101728091710341176"
-        },
-        "id:2101846262840799251": {
-          "createdAt": "2026-09-21T01:29:34.000Z",
-          "id": "2101846262840799251",
-          "isQuote": false,
-          "likes": 376,
-          "quotedTweetId": null,
-          "replies": 53,
-          "retweets": 19,
-          "text": "The thoroughness with which agents can test and QA software is unrivaled. I pointed out something wasn't rendering right in a mobile (in-app) browser. The thing goes to the depths of Mordor to reproduce, simulate, fix, deploy, verify. It created an ephemeral vercel deployment to throw at an iPhone simulator! The absolute grind on these things.\n\nHumans could simply never match this level of intensity. We'd run of energy, we'd extrapolate, we'd hope it'd work out. The software of the future will be of a quality and performance we've never experienced before. It's amazing to watch this shift.",
-          "url": "https://x.com/rauchg/status/2101846262840799251"
-        },
         "id:2102089968860721335": {
           "createdAt": "2026-09-21T17:37:58.000Z",
           "id": "2102089968860721335",
@@ -1099,28 +1025,6 @@
       "name": "Peter Steinberger",
       "source": "x",
       "tweets": {
-        "id:2101748820237500557": {
-          "createdAt": "2026-09-20T19:02:22.000Z",
-          "id": "2101748820237500557",
-          "isQuote": false,
-          "likes": 1358,
-          "quotedTweetId": null,
-          "replies": 98,
-          "retweets": 136,
-          "text": "New benchmark dropped https://t.co/5lFZNcDNCh",
-          "url": "https://x.com/steipete/status/2101748820237500557"
-        },
-        "id:2101748928274419843": {
-          "createdAt": "2026-09-20T19:02:47.000Z",
-          "id": "2101748928274419843",
-          "isQuote": true,
-          "likes": 646,
-          "quotedTweetId": "2101727325947863430",
-          "replies": 48,
-          "retweets": 30,
-          "text": "Your claw can now FaceTime you! https://t.co/bUFzBG4e7h",
-          "url": "https://x.com/steipete/status/2101748928274419843"
-        },
         "id:2102044040397238286": {
           "createdAt": "2026-09-21T14:35:27.000Z",
           "id": "2102044040397238286",
@@ -1343,17 +1247,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2101844435353145452": {
-          "createdAt": "2026-09-21T01:22:18.000Z",
-          "id": "2101844435353145452",
-          "isQuote": true,
-          "likes": 627,
-          "quotedTweetId": "2101215169837691356",
-          "replies": 50,
-          "retweets": 12,
-          "text": "there is something about video games that give high stakes and responsibilities to young people who couldn’t really get them irl\n\nbut it is a fine line and at some point you need to graduate https://t.co/wwRAmV7Sce",
-          "url": "https://x.com/trq212/status/2101844435353145452"
-        },
         "id:2102186805034635576": {
           "createdAt": "2026-09-22T00:02:45.000Z",
           "id": "2102186805034635576",
