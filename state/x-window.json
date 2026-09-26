@@ -194,6 +194,17 @@
           "retweets": 50,
           "text": "Muse can now make apps on Replit https://t.co/AColbWFCEN",
           "url": "https://x.com/amasad/status/2103129037011120525"
+        },
+        "id:2103632415185133992": {
+          "createdAt": "2026-09-25T23:47:06.000Z",
+          "id": "2103632415185133992",
+          "isQuote": true,
+          "likes": 242,
+          "quotedTweetId": "2103515238243221725",
+          "replies": 24,
+          "retweets": 10,
+          "text": "We’ve been thinking a lot about what it means to build the self-driving company. A big part of that is putting the ability to understand a business in everyone's hands. \n\nAtta has built a beautiful approach to business analysis and data visualization, and they share our belief that useful intelligence should be accessible to everyone.\n\nWelcoming Omar, Amine, and the Atta team to Replit!",
+          "url": "https://x.com/amasad/status/2103632415185133992"
         }
       }
     },
@@ -268,6 +279,28 @@
           "retweets": 25,
           "text": "It was an honor to meet Donald Knuth at the Computer History Museum today https://t.co/U6bGOidLmw",
           "url": "https://x.com/bcherny/status/2102971275543216623"
+        },
+        "id:2103538666597691552": {
+          "createdAt": "2026-09-25T17:34:34.000Z",
+          "id": "2103538666597691552",
+          "isQuote": true,
+          "likes": 1096,
+          "quotedTweetId": "2103223133843145035",
+          "replies": 159,
+          "retweets": 52,
+          "text": "Tag writes >50% of my PRs every day. It also does ~100% of my data analysis, and fixes most of our product feedback + bugs.\n\nIt's not like a regular Slack bot. It is proactive, programmable, it has memory, it has access to your connectors. With Opus 5.5 and Fable 5.1, it has strong judgement.\n\nExample prompts I use:\n\n- \"@Claude react to threads in this channel with ✅ when resolved\"\n- \"@Claude from now on, attempt to repro every bug in this channel end to end, running the full app. once you reproduce the bug, put up a pr to fix it and tag the right team for code review\"\n- \"@Claude brainstorm ~100 hypotheses for what could explain this weird data, use a workflow to in/validate. spend 10m tokens or so digging very deep. draw a chart with the result.\"\n- \"@Claude make me an interactive game explaining how this part of the code works, then make a slide deck explaining it for others on the team\"\n\nhttps://t.co/gmsALM8Lvs",
+          "url": "https://x.com/bcherny/status/2103538666597691552"
+        },
+        "id:2103691327699550598": {
+          "createdAt": "2026-09-26T03:41:11.000Z",
+          "id": "2103691327699550598",
+          "isQuote": true,
+          "likes": 481,
+          "quotedTweetId": "2103577007938228300",
+          "replies": 43,
+          "retweets": 12,
+          "text": "Can’t wait to see what you build. https://t.co/IzsiejH1fa",
+          "url": "https://x.com/bcherny/status/2103691327699550598"
         }
       }
     },
@@ -331,6 +364,39 @@
           "retweets": 7,
           "text": "Browse the marketplace: https://t.co/MIKvTzg59L\n\nAnd if you're building for Claude, list your tools, agents or services here: https://t.co/gjX3Xctic2",
           "url": "https://x.com/claudeai/status/2102840855258452037"
+        },
+        "id:2103515668171853944": {
+          "createdAt": "2026-09-25T16:03:11.000Z",
+          "id": "2103515668171853944",
+          "isQuote": true,
+          "likes": 315,
+          "quotedTweetId": "2102475701844676747",
+          "replies": 3,
+          "retweets": 9,
+          "text": "https://t.co/7zcjE09JYh",
+          "url": "https://x.com/claudeai/status/2103515668171853944"
+        },
+        "id:2103515670428238179": {
+          "createdAt": "2026-09-25T16:03:11.000Z",
+          "id": "2103515670428238179",
+          "isQuote": true,
+          "likes": 293,
+          "quotedTweetId": "2103059885361598633",
+          "replies": 4,
+          "retweets": 3,
+          "text": "https://t.co/3kIQ5LKes3",
+          "url": "https://x.com/claudeai/status/2103515670428238179"
+        },
+        "id:2103515672777290083": {
+          "createdAt": "2026-09-25T16:03:12.000Z",
+          "id": "2103515672777290083",
+          "isQuote": false,
+          "likes": 194,
+          "quotedTweetId": null,
+          "replies": 59,
+          "retweets": 2,
+          "text": "What are you going to explore with Opus 5.5 this weekend?",
+          "url": "https://x.com/claudeai/status/2103515672777290083"
         }
       }
     },
@@ -416,6 +482,17 @@
           "retweets": 1,
           "text": "so freaking cool https://t.co/gmU7Izxyuy",
           "url": "https://x.com/danshipper/status/2103283846645166283"
+        },
+        "id:2103678798827020298": {
+          "createdAt": "2026-09-26T02:51:24.000Z",
+          "id": "2103678798827020298",
+          "isQuote": false,
+          "likes": 48,
+          "quotedTweetId": null,
+          "replies": 7,
+          "retweets": 2,
+          "text": "i asked opus 5.5 to explain why personal benchmarks are so important (this is one shot) https://t.co/GE9OFZ0CvQ",
+          "url": "https://x.com/danshipper/status/2103678798827020298"
         }
       }
     },
@@ -425,17 +502,6 @@
       "name": "Garry Tan",
       "source": "x",
       "tweets": {
-        "id:2102233173833007536": {
-          "createdAt": "2026-09-22T03:07:00.000Z",
-          "id": "2102233173833007536",
-          "isQuote": true,
-          "likes": 213,
-          "quotedTweetId": "2102196140930113917",
-          "replies": 37,
-          "retweets": 5,
-          "text": "If you really think about it Cluely as a realtime thought helper and semi-adversarial assistant with ongoing context is still a good idea https://t.co/HGeFe0ttBi",
-          "url": "https://x.com/garrytan/status/2102233173833007536"
-        },
         "id:2102501556348440983": {
           "createdAt": "2026-09-22T20:53:28.000Z",
           "id": "2102501556348440983",
@@ -501,6 +567,28 @@
           "retweets": 5,
           "text": "Muse is very impressive https://t.co/5Q1LwLXDKx",
           "url": "https://x.com/garrytan/status/2102974165800399274"
+        },
+        "id:2103470568104468517": {
+          "createdAt": "2026-09-25T13:03:58.000Z",
+          "id": "2103470568104468517",
+          "isQuote": true,
+          "likes": 3345,
+          "quotedTweetId": "2102415623288660002",
+          "replies": 305,
+          "retweets": 480,
+          "text": "Legalize personalized education https://t.co/LHb0NwzZnZ",
+          "url": "https://x.com/garrytan/status/2103470568104468517"
+        },
+        "id:2103649988282905001": {
+          "createdAt": "2026-09-26T00:56:55.000Z",
+          "id": "2103649988282905001",
+          "isQuote": true,
+          "likes": 204,
+          "quotedTweetId": "2103648679169257737",
+          "replies": 21,
+          "retweets": 6,
+          "text": "Astra is very impressive https://t.co/7BMRh6zl1Y",
+          "url": "https://x.com/garrytan/status/2103649988282905001"
         }
       }
     },
@@ -562,28 +650,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2102235949430354273": {
-          "createdAt": "2026-09-22T03:18:02.000Z",
-          "id": "2102235949430354273",
-          "isQuote": true,
-          "likes": 69,
-          "quotedTweetId": "2102190051954393330",
-          "replies": 26,
-          "retweets": 4,
-          "text": "AI agents will use software 100X more than people ever did. Even as interfaces begin to fade into the background as you primarily interact with agents, those agents still need many of the core primitives that people have used.\n\nIn fact, in many ways these core primitives become even more important when agents can take destructive actions in our systems or where the context they’re accessing with make or break the workflow. This will be true of where you house your CRM or ERP or structured or unstructured data platforms.\n\nThe platforms that can best act as the security layer and guardrails for agents, manage the data for agents and people, and orchestrate the business logic for workflows have a huge opportunity right now. This is true for brand new startups as well as existing platforms that can move fast enough.",
-          "url": "https://x.com/levie/status/2102235949430354273"
-        },
-        "id:2102253246807261579": {
-          "createdAt": "2026-09-22T04:26:46.000Z",
-          "id": "2102253246807261579",
-          "isQuote": true,
-          "likes": 53,
-          "quotedTweetId": "2101738613851803877",
-          "replies": 14,
-          "retweets": 2,
-          "text": "The monetization potential of personal agents that are transacting on your behalf you is quite significant.\n\nIf you imagine agents that are perfectly capable of handling an arbitrarily complex task end to end, then eventually a substantial amount of commerce inevitably goes through them. \n\nYou’ll start by slinging your daily simple and annoying tasks at the agent. Then as people get used to it, they’ll just start to throw more complex tasks at the agent, ultimately leading to even more spend through these systems than what they were doing before. If you can bring down the friction for commerce and services, then you end up spending even more. \n\nThis thus creates a ton of opportunity for the agent providers (Muse, etc.), but also completely new opportunities to build the layer that the agents want to interact with (commerce, local, b2b services, etc.). Win/win for multiple layers.",
-          "url": "https://x.com/levie/status/2102253246807261579"
-        },
         "id:2102448415775051790": {
           "createdAt": "2026-09-22T17:22:18.000Z",
           "id": "2102448415775051790",
@@ -627,6 +693,17 @@
           "retweets": 6,
           "text": "Great vision for the future of the creative industry with AI from the one person who can actually predict these things.\n\n“As the barriers and the costs come down, more films will get made, not fewer. Studios will get to take more risks. There will be more seats at the table, and very soon entirely new forms of storytelling. In the 1980s, animation was dismissed as a niche corner of the business. Today it is one of the most beloved and profitable forms of storytelling in the world. In live action, filmmakers like Steven Spielberg, James Cameron and Peter Jackson embraced new visual tools not as shortcuts, but as instruments, and expanded cinema in the process. Every time storytelling has met a genuine technological shift, from synchronized sound to color to computer animation, it has redefined the boundaries of the medium and grown larger in the process.”\n\nTechnology has reshaped the creative industry over and over through the years, and has generally always led to an expansion of opportunity or new approaches as a result. \n\nAnd even when the techniques or mediums change, the underlying need for creative skills and taste don’t go away. Just more people are able to leverage those skills effectively when a new technology arrived, and users of the tools discover novel new ways to tell stories.",
           "url": "https://x.com/levie/status/2102934874470617303"
+        },
+        "id:2103629073595728372": {
+          "createdAt": "2026-09-25T23:33:49.000Z",
+          "id": "2103629073595728372",
+          "isQuote": true,
+          "likes": 195,
+          "quotedTweetId": "2103294972590018584",
+          "replies": 45,
+          "retweets": 22,
+          "text": "You can’t automate what you can’t measure. This means that evals are one of the gates to diffusion of AI in the enterprise. \n\nWe can test our deterministic processes through software, but most enterprises have no useful way of understanding how their non-deterministic processes are working today. Specifically the work that agents are doing for them.\n\nEvals are mission critical for enterprises adopting AI because you have no other way of knowing what’s working, what’s broken, what changed, what improved, what you can do more of, etc. if you don’t have a good sense of how agents work in your environment today. All changes, upgrades, and deployments are downstream from good evals.\n\nNot only are we going to get vastly more domain specific evals over time for the labs and across the industry, but every enterprise will also need a clear sense of how agents are performing in their environment as well. Huge opportunity.",
+          "url": "https://x.com/levie/status/2103629073595728372"
         }
       }
     },
@@ -657,6 +734,17 @@
           "retweets": 1,
           "text": "This conversation with the excellent Renen Hallak of @VAST_Data is also available on Spotify, Apple Podcasts and here on YouTube (like and subcribe!):\n\nhttps://t.co/mViKG7e172",
           "url": "https://x.com/mattturck/status/2103167536141353053"
+        },
+        "id:2103550183506337835": {
+          "createdAt": "2026-09-25T18:20:20.000Z",
+          "id": "2103550183506337835",
+          "isQuote": false,
+          "likes": 140,
+          "quotedTweetId": null,
+          "replies": 26,
+          "retweets": 2,
+          "text": "Sooo. many. startups. \n\nBut all investors want to invest in the same 10-30.\n\nThis has always been true, but probably never to this extent.  \n\nHyper power law.",
+          "url": "https://x.com/mattturck/status/2103550183506337835"
         }
       }
     },
@@ -762,17 +850,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2102215701255844074": {
-          "createdAt": "2026-09-22T01:57:35.000Z",
-          "id": "2102215701255844074",
-          "isQuote": false,
-          "likes": 379,
-          "quotedTweetId": null,
-          "replies": 91,
-          "retweets": 21,
-          "text": "I think we're in for a rude awakening in the ad markets:\n\nIf a huge part of your business is showing targeted display ads to humans what happens when agents browse your website and get the job done without a human seeing your ads at all?",
-          "url": "https://x.com/petergyang/status/2102215701255844074"
-        },
         "id:2102577425838485916": {
           "createdAt": "2026-09-23T01:54:56.000Z",
           "id": "2102577425838485916",
@@ -871,6 +948,39 @@
           "retweets": 0,
           "text": "Astra blew up 3D models\nThen Opus blew up videos\nI don’t even know what’s next anymore https://t.co/CGJDOoGvYQ",
           "url": "https://x.com/petergyang/status/2103318850641260959"
+        },
+        "id:2103690110726558123": {
+          "createdAt": "2026-09-26T03:36:21.000Z",
+          "id": "2103690110726558123",
+          "isQuote": true,
+          "likes": 28,
+          "quotedTweetId": "2103489320606675028",
+          "replies": 5,
+          "retweets": 1,
+          "text": "Where's Jack Bauer and 24 https://t.co/FNcSb6sBAt",
+          "url": "https://x.com/petergyang/status/2103690110726558123"
+        },
+        "id:2103693608729932025": {
+          "createdAt": "2026-09-26T03:50:15.000Z",
+          "id": "2103693608729932025",
+          "isQuote": false,
+          "likes": 83,
+          "quotedTweetId": null,
+          "replies": 21,
+          "retweets": 1,
+          "text": "Ok all memes aside I had Grok @bot and Muse track the same Japan flight itinerary and Muse suggested a price that was $1K+ more than Grok Bot. \n\nWhen I asked Muse why it said it searched Duffel instead of Google Flights...wtf is Duffel? https://t.co/l2vTOsPIRd",
+          "url": "https://x.com/petergyang/status/2103693608729932025"
+        },
+        "id:2103696644558704796": {
+          "createdAt": "2026-09-26T04:02:19.000Z",
+          "id": "2103696644558704796",
+          "isQuote": false,
+          "likes": 12,
+          "quotedTweetId": null,
+          "replies": 1,
+          "retweets": 1,
+          "text": "I think Muse has an incredible UI and mascot but the underlying model it’s questionable how smart it is.\n\nMakes sense if it’s not that smart since this is meant to scale to a billion people",
+          "url": "https://x.com/petergyang/status/2103696644558704796"
         }
       }
     },
@@ -945,6 +1055,39 @@
           "retweets": 34,
           "text": "Spend of OpenAI vs Anthropic vs Open \n(Vercel AI Gateway, last 2 months)\n\n• Anthropic still #1 in spend, but went 69% → 40%\n• OpenAI: 10% → 24% in spend\n• GPT-6 Astra + GPT 5.6 Sol are ripping\n• OpenAI now leads in tokens #\n• Kimi K3 + DeepSeek took ~half of Anthropic's loss\n• Opus 5.5 is up to 10% of spend in 2 days\n• OpenAI is 62% of image generations \n\nWatch here: https://t.co/Gu7D9d7M8w",
           "url": "https://x.com/rauchg/status/2103216656747262419"
+        },
+        "id:2103543983557517340": {
+          "createdAt": "2026-09-25T17:55:42.000Z",
+          "id": "2103543983557517340",
+          "isQuote": true,
+          "likes": 331,
+          "quotedTweetId": "2103541839399907424",
+          "replies": 43,
+          "retweets": 7,
+          "text": "The growth of https://t.co/5JpYvhlpkR has been mind-boggling. I watched it grow from idea, to first ship, to 𝚗𝚙𝚡 𝚜𝚔𝚒𝚕𝚕𝚜 being on every README of the internet.\n\nWe used to write code, now we write English. https://t.co/jrmPFjQKms",
+          "url": "https://x.com/rauchg/status/2103543983557517340"
+        },
+        "id:2103564484602384855": {
+          "createdAt": "2026-09-25T19:17:10.000Z",
+          "id": "2103564484602384855",
+          "isQuote": true,
+          "likes": 183,
+          "quotedTweetId": "2103560561577636126",
+          "replies": 47,
+          "retweets": 14,
+          "text": "We're helping world-class organizations like @klaviyo build agentic deployment platforms.\n\n① Connect every agent (claude, codex, cursor…)\n② Configure SSO via their IDP (Okta, Entra)\n③ Now everyone can cook, securely®\n\nWhat happens to SaaS once every company sets this up? I get this question a lot 😁\n\nFirst, the data must come from somewhere. These apps only work if they can be infused with business data.\n\nThis is why we see the big enterprise SaaS players suddenly prioritize shipping CLIs and MCPs. Or dust off APIs they were neglecting for years.\n\nThe new 'procurement bar' will be how ergonomic your product is for *agents*, rather than humans. How easily they can navigate your ontology and work with your data.\n\nOnce that's in place, there's a long tail of SaaS applications that I suspect will never be bought again. They'll be generated. They'll be more secure, more performant, more modern, and tailored to each company's and employee's needs.",
+          "url": "https://x.com/rauchg/status/2103564484602384855"
+        },
+        "id:2103580284021354795": {
+          "createdAt": "2026-09-25T20:19:56.000Z",
+          "id": "2103580284021354795",
+          "isQuote": false,
+          "likes": 178,
+          "quotedTweetId": null,
+          "replies": 11,
+          "retweets": 6,
+          "text": "Cool https://t.co/cPDSk0E6oZ 😂",
+          "url": "https://x.com/rauchg/status/2103580284021354795"
         }
       }
     },
@@ -1024,6 +1167,17 @@
           "retweets": 16,
           "text": "argh i meant VOICE not video :(\n\nsorry to dissapoint",
           "url": "https://x.com/sama/status/2102512794235207758"
+        },
+        "id:2103567198690349362": {
+          "createdAt": "2026-09-25T19:27:57.000Z",
+          "id": "2103567198690349362",
+          "isQuote": true,
+          "likes": 4856,
+          "quotedTweetId": "2103566736356458911",
+          "replies": 782,
+          "retweets": 311,
+          "text": "There is an extensive and ongoing review related to our agents’ use of internet access during training and evaluation. We’ve been publishing summaries at the link below and will continue to.\n\nWe have not been as fast as we would have liked but we are trying to balance our desire for transparency with gaining a clear understanding from petabytes of agent activity logs, and working with impacted organizations.\n\nWe are prioritizing as best as we can based on severity, and adding resources. Hugging Face is still the most severe event we’ve seen. We will be as transparent as we can be subject to things like vulnerabilities in other companies that our agents have found, which will be their call to disclose or not.",
+          "url": "https://x.com/sama/status/2103567198690349362"
         }
       }
     },
@@ -1109,6 +1263,39 @@
           "retweets": 0,
           "text": "I put Daybreak on it and found 8 more long-standing leaks. Care for your oss dependencies! https://t.co/pTwsuhEvxs",
           "url": "https://x.com/steipete/status/2103200311641076100"
+        },
+        "id:2103615459426001163": {
+          "createdAt": "2026-09-25T22:39:43.000Z",
+          "id": "2103615459426001163",
+          "isQuote": true,
+          "likes": 98,
+          "quotedTweetId": "2103615298725409110",
+          "replies": 4,
+          "retweets": 5,
+          "text": "day of the dead https://t.co/ivXMULng59",
+          "url": "https://x.com/steipete/status/2103615459426001163"
+        },
+        "id:2103648679169257737": {
+          "createdAt": "2026-09-26T00:51:43.000Z",
+          "id": "2103648679169257737",
+          "isQuote": false,
+          "likes": 1043,
+          "quotedTweetId": null,
+          "replies": 82,
+          "retweets": 46,
+          "text": "The biggest design mistake I made when we moved OC to sqlite: using sync db access. When it was just an agent that reports to you on Slack or iMessage this was fine; now that one agent might do 50 sessions in parallel and the whole team works on it, it is limiting.\n\nI have a /goal with Astra that so far landed 575 PRs to move everything to to async workers. We ship these improvements as we make progress. Pretty insane how even huge refactors are no longer scary.",
+          "url": "https://x.com/steipete/status/2103648679169257737"
+        },
+        "id:2103654562523705675": {
+          "createdAt": "2026-09-26T01:15:06.000Z",
+          "id": "2103654562523705675",
+          "isQuote": true,
+          "likes": 104,
+          "quotedTweetId": "2103581166658060631",
+          "replies": 10,
+          "retweets": 5,
+          "text": "keep thinking https://t.co/m9hPGboarc",
+          "url": "https://x.com/steipete/status/2103654562523705675"
         }
       }
     },
@@ -1175,23 +1362,42 @@
         }
       }
     },
+    "thenanyu": {
+      "bio": "(soon) member of product staff @openai. prev head of product @linear",
+      "handle": "thenanyu",
+      "name": "Nan Yu",
+      "source": "x",
+      "tweets": {
+        "id:2103623390842294609": {
+          "createdAt": "2026-09-25T23:11:14.000Z",
+          "id": "2103623390842294609",
+          "isQuote": true,
+          "likes": 52,
+          "quotedTweetId": "2103493980591669712",
+          "replies": 2,
+          "retweets": 1,
+          "text": "AGI https://t.co/MBqJzksRob",
+          "url": "https://x.com/thenanyu/status/2103623390842294609"
+        },
+        "id:2103639287367696603": {
+          "createdAt": "2026-09-26T00:14:24.000Z",
+          "id": "2103639287367696603",
+          "isQuote": false,
+          "likes": 0,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 0,
+          "text": "basically",
+          "url": "https://x.com/thenanyu/status/2103639287367696603"
+        }
+      }
+    },
     "thsottiaux": {
       "bio": "Codex & ChatGPT @OpenAI",
       "handle": "thsottiaux",
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2102254445082116335": {
-          "createdAt": "2026-09-22T04:31:32.000Z",
-          "id": "2102254445082116335",
-          "isQuote": false,
-          "likes": 12522,
-          "quotedTweetId": null,
-          "replies": 1719,
-          "retweets": 760,
-          "text": "Ladies and gentlemen... start... your... ENGINES. We are almost Tuesday and I promised a reset for Tuesday. Among some other things. See you soon.",
-          "url": "https://x.com/thsottiaux/status/2102254445082116335"
-        },
         "id:2102440619616682120": {
           "createdAt": "2026-09-22T16:51:19.000Z",
           "id": "2102440619616682120",
@@ -1246,6 +1452,39 @@
           "retweets": 133,
           "text": "Can't wait for DevDay next Tuesday.\n\nSome really fun stuff, but also many many things that should change the way you work. It's been our most ambitious sprint and Astra has really made new things possible in such short amounts of time.",
           "url": "https://x.com/thsottiaux/status/2102996313780736363"
+        },
+        "id:2103620061156290622": {
+          "createdAt": "2026-09-25T22:58:00.000Z",
+          "id": "2103620061156290622",
+          "isQuote": false,
+          "likes": 10596,
+          "quotedTweetId": null,
+          "replies": 2255,
+          "retweets": 574,
+          "text": "We are aware that codex is down and are working hard to bring back normal service.",
+          "url": "https://x.com/thsottiaux/status/2103620061156290622"
+        },
+        "id:2103622639386574979": {
+          "createdAt": "2026-09-25T23:08:15.000Z",
+          "id": "2103622639386574979",
+          "isQuote": false,
+          "likes": 2687,
+          "quotedTweetId": null,
+          "replies": 481,
+          "retweets": 44,
+          "text": "o no :(",
+          "url": "https://x.com/thsottiaux/status/2103622639386574979"
+        },
+        "id:2103637477760311522": {
+          "createdAt": "2026-09-26T00:07:13.000Z",
+          "id": "2103637477760311522",
+          "isQuote": true,
+          "likes": 12780,
+          "quotedTweetId": "2103622639386574979",
+          "replies": 2196,
+          "retweets": 671,
+          "text": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\n\nsorry about the brief disruption!\n\n(and yes we have a special spare codex when things are down to help us out) https://t.co/Qy0da4L1jq",
+          "url": "https://x.com/thsottiaux/status/2103637477760311522"
         }
       }
     },
@@ -1353,6 +1592,39 @@
           "retweets": 12,
           "text": "incredibly thoughtful piece on AI and creativity\n\nhopefully we can make our producst better at enabling and amplifying creatives https://t.co/SeI25wbaI7",
           "url": "https://x.com/trq212/status/2103259550325575806"
+        },
+        "id:2103576349499855160": {
+          "createdAt": "2026-09-25T20:04:18.000Z",
+          "id": "2103576349499855160",
+          "isQuote": false,
+          "likes": 3517,
+          "quotedTweetId": null,
+          "replies": 201,
+          "retweets": 260,
+          "text": "What is effort really? When do you change it it and why not just use max effort for everything?\n\nI dove deep into this problem, looking into evals and doing my own tests and I was quite surprised by the results. https://t.co/KO2D51j34H",
+          "url": "https://x.com/trq212/status/2103576349499855160"
+        },
+        "id:2103577115010687067": {
+          "createdAt": "2026-09-25T20:07:21.000Z",
+          "id": "2103577115010687067",
+          "isQuote": false,
+          "likes": 321,
+          "quotedTweetId": null,
+          "replies": 14,
+          "retweets": 23,
+          "text": "I use effort low a lot more when I want to stay in the loop, and effort max is basically only if I want zero input or want to find security vulnerabilities. https://t.co/KdDBikNwCL",
+          "url": "https://x.com/trq212/status/2103577115010687067"
+        },
+        "id:2103577116445175948": {
+          "createdAt": "2026-09-25T20:07:21.000Z",
+          "id": "2103577116445175948",
+          "isQuote": false,
+          "likes": 140,
+          "quotedTweetId": null,
+          "replies": 10,
+          "retweets": 6,
+          "text": "If you want to see interactive explainers of benchmarks and demos I built, you can read it on our new dev site here: https://t.co/oSTZrBggXM",
+          "url": "https://x.com/trq212/status/2103577116445175948"
         }
       }
     }
