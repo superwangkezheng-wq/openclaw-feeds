@@ -15,8 +15,166 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Fri, 25 Sep 2026 12:50:35 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 26 Sep 2026 01:40:30 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[Meta Muse为超级智能买单]]></title>
+            <description><![CDATA[<p><strong>我认为，Meta为Muse付出的承诺税，可能是AI行业近年最贵的一笔。</strong></p>
+  <p>13天，250万次下载。上线约10天直接登顶App Store第一，干掉了ChatGPT。市场在狂欢，Meta市值单日涨了约2000亿美元。</p>
+  <p><strong>看起来是一场漂亮的翻身仗，但它承诺了什么，又交付了什么，这两件事之间的差距，值得算一算。</strong></p>
+  <p>......</p>
+  <p>扎克伯格这次最大的承诺是钱。九月初，他给Muse定了个位，叫「个人超级智能」。</p>
+  <p>你回想一下，过去两年AI圈用过多少词，聊天机器人、AI助手、Copilot、智能体，每个词都在试图描述同一个东西，但扎克伯格这次选了个最大的。</p>
+  <p><strong>这个词本身就带着野心，他想说的很清楚，Muse要替你干活，陪你聊天只是起步。</strong></p>
+  <p>看产品演示就知道了：</p>
+  <p>Muse说自己能帮你订机票、购物、管日程，App关了它也能接着跑。你想，这等于在跟用户承诺一件事，你有了一个数字分身，它24小时在线，替你跑腿。嗯，很性感。</p>
+  <p>9月23日的Connect大会，扎克伯格又往清单上加了一堆：<strong>Mac桌面操控、视频通话、智能眼镜集成。承诺的边界还在往外扩。</strong></p>
+  <p>但这个词也带着风险，超级智能，用户会怎么理解？他们会觉得这东西无所不能，而一旦用户预期拉到这个高度，交付的标准也就跟着拉高了。</p>
+  <p>Meta还特意强调了隐私：</p>
+  <p><strong>用户数据跟广告系统完全隔离，跑在安全虚拟机里，有Sentinel系统盯着。</strong></p>
+  <p>你知道的，Meta过去十年跟隐私丑闻绑得很紧，Cambridge Analytica那些事还没翻篇呢，这次主动把安全拿出来当卖点，姿态放得很低。</p>
+  <p><strong>一个有过前科的人，拼命跟你保证自己改了，你多少会多想一下。</strong></p>
+  <p>不过，最狠的还是钱，2026年Q2，Meta单季资本支出311亿美元。全年资本支出指导上调至1300到1450亿美元。这是Meta从自己口袋里掏出来的真金白银，一个季度赚的利润，一半拿去烧AI基础设施。</p>
+  <p><strong>扎克伯格在财报会上说了句话，「AI正在加速我们的核心业务」。嗯，至少他还在加码。</strong></p>
+  <p>而且，这个all in是有代价的，当一个季度烧掉311亿美元的时候，自由现金流必然被压缩，可扎克伯格赌的是，AI带来的长期收益会覆盖短期的现金流失血，这个赌注，比Muse本身还要大。</p>
+  <p>......</p>
+  <p><strong>再说交付。我的判断是，承诺和交付之间的落差，相当大。</strong></p>
+  <p>九月的第二个周末，安全研究员Patrick Wardle发了篇博客。Wardle这个人你可能没听过，他在苹果生态安全圈子里很有名，之前发现过不少macOS的漏洞，这次他把目光转向了Muse，结果一挖就挖出了大问题。</p>
+  <p>他在Muse的代码里找到了一个端点，叫endo_voyager_dictation_endpoint。</p>
+  <p>这个端点可以被本地恶意软件篡改，攻击者一行命令就能劫持AI，往Muse里注入提示词，窃取用户凭证；<strong>换句话说，你以为在跟AI说话，实际上有人在旁边听着。</strong></p>
+  <p>嗯，0-day漏洞，产品上线不到两周，Mac本地攻击，一行命令搞定。</p>
+  <p>Wardle的博客挂在那里，Meta在24小时内发布了热修复。但一个号称跑在安全虚拟机里的产品，上线不到两周就被撕开了口子，这个事实本身就够说明问题了。</p>
+  <p>电话功能更扎心：</p>
+  <p>Muse上线后用户发现它能帮你打电话，订餐厅、约服务，听起来很智能，但有人扒出来，电话那头是真人。</p>
+  <p><strong>哈哈，Meta雇了一批外包员工，人工替用户打电话，声音经过处理，模仿AI的语调，用户以为自己在跟超级智能对话，实际上是个外包小伙在帮你订披萨。</strong></p>
+  <p>更离谱的是，有些承包商在电话里做出冒犯性言论，被用户录音曝光；后来404 Media爆出来了，Meta自己承认「披露失败」，把测试撤回了。</p>
+  <p><strong>承诺里说「超级智能」，交付人工客服，这中间的落差，就是承诺税。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260926/v2_d0b7ed15031e4859b3a1326c6bd224b9@000000_oswg836673oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>上线第13天，Amazon封杀了Muse的购物功能。用户在Muse里说「帮我买个东西」，Muse想跳转到Amazon下单，结果弹出来一行字：「未授权AI代理违反Amazon服务条款」。</p>
+  <p><strong>嗯，刚火13天，最大的电商伙伴就把门堵了。</strong></p>
+  <p>Amazon的逻辑很清楚，用户可以自己在Amazon买东西，但不能让一个AI代理替你做购买决策；这涉及到责任归属、数据安全、商业利益，每一样都是硬问题。</p>
+  <p>你想想，如果AI代理帮你买了个东西，出了问题谁负责？是Meta还是Amazon？这个链条没打通，Amazon不可能放行。</p>
+  <p><strong>更深层的原因是，AI代理绕过广告。</strong></p>
+  <p>用户在Amazon自己买东西，会看广告、会浏览推荐，Amazon能赚到广告费；但AI代理直接下单，广告没展示，Amazon的广告收入就没了。</p>
+  <p>先用法律禁令没成功，后来用服务条款封杀，Amazon是铁了心要堵这个口子。</p>
+  <p>银行股也跟着集体下跌，摩根大通、富国银行单日跌幅超过3%，市场担心AI代理的支付链路存在风险。不只是电商，整个商业生态都在对Muse说不。</p>
+  <p>安全有洞，智能靠人，商务被拒，金融圈警惕。<strong>四个方向，同时出问题，我觉得，这只能说明一件事：从研发到测试到上线，整个链条都跑得太急了。</strong></p>
+  <p>......</p>
+  <p>说到这，有个问题必须得搞清楚了。</p>
+  <p><strong>Muse跟ChatGPT、Claude到底有什么本质区别？这个区别是真的创新，还是只是包装？</strong></p>
+  <p>Muse不一样的地方在于，它能替你干活，帮你订机票、查邮件、管日程，App关了它还在跑，因为任务跑在云端的虚拟机上，不依赖你的手机。</p>
+  <p>这个概念其实不新鲜，Anthropic的Claude有Computer Use，OpenAI有Operator，都是让AI在云端沙盒里操作浏览器、执行任务。</p>
+  <p><strong>区别在于，Meta是第一个把这些能力打包成消费级产品，直接推给三十亿用户。</strong></p>
+  <p>嗯，所以，云端电脑这个差异点是真实的，但它不是Meta独创的，只有Meta最先把它推到了普通用户面前。</p>
+  <p>那Muse爆火，到底是刚需还是炒作？</p>
+  <p><strong>看数据，确实火。13天250万下载，直接登顶App Store第一。</strong></p>
+  <p>下载和留存是两回事，好奇心能驱动下载，能不能留住人，得看产品是不是真的解决了问题。留存数据Meta没公布，嗯，这个空白本身就说明了一些问题。</p>
+  <p>......</p>
+  <p><strong>最后说代价，这笔账根本算不平。</strong></p>
+  <p>2026年Q2，Meta的自由现金流暴跌91%。去年同一个季度，Meta手里还握着几十亿现金，今年几乎归零。钱去哪了？全砸进AI基础设施了。</p>
+  <p><strong>与此同时，9月21日Muse上线后第13天，Meta股价单日涨了11.43%。嗯，股价在涨，现金流在跌。</strong></p>
+  <p>市场在用真金白银给扎克伯格的承诺投票，但账上的钱正在以同样的速度流走。这个反差，就是承诺税的第一张账单。</p>
+  <p>华尔街现在还在观望，但观望是有期限的，Q3、Q4的财报会陆续出来，如果现金流继续恶化，而Muse的商业化还没有起色，市场的耐心会消耗得很快。</p>
+  <p><strong>说到商业化，扎克伯格有个说法，叫让AI「自己挣回饭钱」。什么意思？</strong></p>
+  <p>Meta的计划是双模式：高免费层级给用户，收入来自订阅和交易费用。换句话说，Muse帮你订机票、购物，Meta从商家那里抽佣金。</p>
+  <p>嗯，听起来很美，但问题是，这个模式还没跑通。</p>
+  <p><strong>交易链条还没打通，佣金从哪来？扎克伯格说AI能创造价值，但价值还没变成钱。</strong></p>
+  <p>看看同行怎么做的：</p>
+  <p>Apple Intelligence去年发布时，库克用的词是「个人化的」「有用的」，没有喊超级智能。功能也是一点一点放，Siri升级分阶段推进，不急着一步到位。</p>
+  <p><strong>Apple的逻辑很清楚，预期管理比预期拉升更重要，承诺少一点，交付多一点，用户反而满意。</strong></p>
+  <p>Google Gemini也是渐进式推进。Gemini Advanced先给付费用户用，功能慢慢扩展，没有一上来就喊「取代搜索」。Google在AI上摔过跤，Bard第一次演示就翻车，所以这次学乖了，低调做事，少说多做。</p>
+  <p>国内厂商走的是另一条路：</p>
+  <p><ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>月活4亿，没有喊「超级智能」，而是从具体场景切入，办公、搜索、代码，一个一个问题解决；<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>从长文本助手切入，把一个问题做到极致。</p>
+  <p><ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>走的是Personal Agent路线，直接切入个人智能体赛道，同时也在办公场景布局，文心背靠<ai-product-link data-id="14603" data-name="百度搜索" data-logo="https://img.36dianping.com/20250909/v2_ff556996eccc4b3486f29d9e939131ac_oswg9271oswg364oswg364_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">百度搜索</ai-product-link>生态，也在往Agent方向走。</p>
+  <p><strong>这些厂商的策略很务实，少说多做，反而积累了用户。</strong></p>
+  <p>我观察到的一个趋势是，大家似乎也都在往记忆这个方向走，让AI能记住用户的偏好和习惯，但说句实在的，真正要把隐私合规、用户体验都做好，还有很长的路要走。</p>
+  <p><strong>Meta是反着来的，话说满了，活没跟上。</strong></p>
+  <p>承诺税不只是Meta的问题，整个AI行业都在交这笔税，OpenAI承诺AGI近在咫尺，现在还在为商业化发愁。Anthropic承诺最安全的AI，结果也逃不过安全漏洞，谁承诺得最狠，谁交的税最重。</p>
+  <p>这笔账，比产品本身的成败更大，因为承诺税交的不只是钱，还有信任，用户信你一次，你交付不了，下次就不信了。</p>
+  <p><strong>扎克伯格赌长期收益，但长期收益的前提是，用户和市场还愿意给你时间，Meta现在还有时间，但时间不多了。</strong></p>
+  <p>不过，说这些在国内他也不会看到，在二级市场，这都只是资本的叙事罢了；而在 ToC 眼里，大家只关注好不好玩。</p>
+  <p>三分热度过后，如果没有具体实用的价值，Agent 编排又没有做好，留下的只是一地鸡毛罢了。</p>
+  <p><strong>我不是唱衰，只是想说，面对新兴爆火的产品时，一股脑涌进去时体验完后，可能需要一些冷静的眼光，来看待它到底是怎么回事。</strong></p>
+  <p><strong>本文数据来自：</strong></p>
+  <p><strong>[1].</strong>Meta财报（2026年Q2）、Meta官方公告、Patrick Wardle安全博客、Amazon服务条款声明；数据截至2026年9月26日</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1440" src="https://img.36krcdn.com/hsossms/20260926/v2_673f21a9f08147f8a9770128b6277bf6@000000_oswg1834765oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzU5ODMyNDEyNw==&amp;mid=2247509924&amp;idx=1&amp;sn=b823515a0318db6a2b3dbed04c2d4ee6&amp;chksm=ff34130cb6fe850558c2f2bc23743225b45a551226560de9d164f5390f90cab5e3621765f041&amp;scene=0&amp;xtrack=1#rd">“王智远”（ID：Z201440）</a>，作者：王智远，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 26 Sep 2026 00:55:54 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3999313876734086</guid>
+            <link>https://www.36kr.com/p/3999313876734086</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[从模型上手机到让智能体落地，高通的AI时代新故事｜焦点分析]]></title>
+            <description><![CDATA[<p>过去一年，AI 编程和办公工具在 PC 端快速普及，但手机上的AI体验仍以单次问答和图片处理为主。高通今年想证明的是——端侧AI也能进入到更多生活和工作场景了。</p>
+  <p>2026年，骁龙峰会上，高通与阶跃星辰、无量火科技、江波就演示了一个典型案例——端侧30B-MoE模型完成的工作链条：仅仅用本地的模型，AI读懂一封邮件，提取行程信息，同步日历，推荐航班和酒店，再草拟一封回复。</p>
+  <p>特别之处在于，这是一段需要理解、规划和连续执行的任务，并且完全在端侧完成。</p>
+  <p class="image-wrapper"><img data-img-size-val="1402,1048" src="https://img.36krcdn.com/hsossms/20260925/v2_61e9c5c7422d4f79b6ab49a69667791f@2057308263_oswg2724727oswg1402oswg1048_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">高通公司总裁兼首席执行官安蒙（Cristiano Amon）</p>
+  <p>如果说两年前高通主要在证明大模型能装进手机，今年它更想证明，装进去的模型能够承担更完整的工作。</p>
+  <p>2024年，高通自研Oryon CPU开始搭载在手机上，展示了端侧大模型的可能性；而在2025年，第五代骁龙8至尊版引Personal Scribe和个人知识图谱，将直接智能体写进产品方向。</p>
+  <p>到了今年，AI界的新故事进入到以Claude Code为主的代码和办公大战。现在，高通开始让旗舰芯片进入2nm双旗舰、30B-MoE部署和更完整的任务流程，这都意味着能够共同和模型、infra厂商拓展新的应用场景。</p>
+  <p>“智能体 AI 并不仅仅是为终端新增一个功能。它实际上创造了一种全新的终端工作流程。”高通公司总裁兼首席执行官安蒙（Cristiano Amon）在主题演讲中表示。</p>
+  <p>但当AI从一个功能变成一段工作流程，高通要解决的也不仅仅是是让下一代芯片更快。智能体需要更强的本地能力，也依赖快速更新的模型、应用接口与终端协作。</p>
+  <p>进入2026年，芯片厂商们的一个共同趋势是：能力边界在扩大，竞争边界同样在扩大。对高通而言，这种扩展不只是从手机走向 PC、眼镜、汽车和数据中心，还包括围绕模型适配、软件工具和跨终端协作补齐能力。</p>
+  <h2>从让手机部署模型，到让智能体持续工作</h2>
+  <p>如果为今年的骁龙峰会总结唯一的关键词，“智能体”绝对排在第一位。高通的一切更新——都是在为更复杂的AI任务，重新分配手机里的计算资源。</p>
+  <p>比如，第六代骁龙8至尊版与超级至尊版双旗舰，均采用2nm工艺。搭载了超级至尊版的设备，高通不只是把频率拉到5GHz，其中CPU负责工具调用和任务调度，NPU承担模型推理，低功耗感知单元处理后台信息，为不同类型的AI工作分配专属计算通道。</p>
+  <p><strong>这背后的变化是，AI不再只在用户提问时工作，还要在后台保留信息、等待时机并接续任务。</strong>在以往，一次问答或修图是单次调用；智能体则要反复读取上下文、调用工具、在任务间切换。</p>
+  <p>缓存、内存带宽和低功耗感知，因此变得重要了——最起码，手机不能因多了一个常驻智能体就持续发烫、迅速耗电。</p>
+  <p>这并不是今年才出现的方向。2025年发布的第五代骁龙8至尊版，就已经已强调Personal Scribe、个人知识图谱和低功耗感知中枢。</p>
+  <p>而在今年，高通在缓存、NPU共享内存和感知能力上的升级，更像是对既有方向的持续补强——让更多信息得以保留，让任务切换与持续运行更可靠。</p>
+  <p>不过，这并不是把所有AI计算留在本地，而是让终端承担更有价值的一部分。手机掌握日历、邮件等个人信息，高通的新双Micro NPU架构性能提升85%，同时功耗降低20%，直观提升了个人记录（Personal Scribe）能力——提升本地处理低时延、离线可用和减少数据上传的潜力；复杂任务仍可调用云端。</p>
+  <p><strong>如今，更大体量的模型开始与完整的本地办公流程结合。</strong>对比2024年，最多7B的模型能够部署在端侧，在这次峰会上，高通就已经和阶跃达成合作。如今，30B的MoE模型在参考设计上完成的邮件理解、行程规划和日历同步，是一次可感知的跨越。</p>
+  <p class="image-wrapper"><img data-img-size-val="1412,1056" src="https://img.36krcdn.com/hsossms/20260925/v2_f7fe73e029624c22bfd75cf3b49357f9@2057308263_oswg2529733oswg1412oswg1056_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">高通技术公司高级副总裁兼手机业务总经理Chris Patrick</p>
+  <p><strong>而更复杂的 AI 应用，如今也可以由多个模型的分工完成，而不只是一个模型变得更大。这为应用生态创业者提供了空间。</strong></p>
+  <p>比如，在AI公司Deepgram展示的AI播客应用中，NPU上的语音模型负责转写并区分发言者，GPU上的Gemma模型理解话题、生成追问建议——一边听清谁说了什么，一边判断接下来该问什么。这让“异构计算”变成了读者可理解的场景。不过工作人员也提到需联网检索核查，整个应用并非完全离线。</p>
+  <p><strong>AI智能眼镜也是一个典型品类。过去一年的变化，也能说明高通这样的芯片厂商，如何让新AI硬件逐步突破能力上限</strong>。2025年6月 AWE 上，高通AR1芯片的升级款骁龙AR1+ Gen 1已用原型眼镜演示Llama 3.2-1B本地运行，高通强调芯片更小、功耗更低以适应镜腿和电池约束；今年，高通则进一步为AR1、AR1+对提供多模态1比特模型的支持。</p>
+  <p>高通也在逐步拓展对开发者生态的支持。今年推出的高通START计划中，就提供AR1+模组、软件平台和参考设计——非科技厂商的集成门槛也在降低，判断是研发支持越来越贴近品类需求，而非只把手机芯片缩小。</p>
+  <p>除此之外，高通也推出了全新的Adreno Neural Fusion，带来增强的移动游戏，借助AI实现智能的图形渲染，从而带来更沉浸的游戏体验、更丰富的视觉效果，和更持续的游戏时长。</p>
+  <p class="image-wrapper"><img data-img-size-val="1398,1058" src="https://img.36krcdn.com/hsossms/20260925/v2_9db45d69389b441f975a77a330112320@2057308263_oswg1998894oswg1398oswg1058_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">高通新一代Adreno</p>
+  <p><strong>但芯片能支持什么，与智能体最终能替用户完成什么，仍然不是一回事。</strong>高通公司中国区董事长孟樸对36氪表示，跨终端持续服务的个人智能体，可能到2027-2028年，才会比较稳定地开始逐步落地。</p>
+  <h2>AI 时代的芯片厂商：迭代更快，挑战更多元</h2>
+  <p>高通在 AI 时代，如今的状态可以说是四面开战，压力并不小。这一部分来自新市场的吸引力，另一部分来自也要守住旧市场的压力。</p>
+  <p>移动时代，成就高通的基础是通信专利与芯片平台两条业务。而进入大模型时代，以数据中心为主的庞大需求，已让英伟达获得庞大收入——2027财年，英伟达第二季度数据中心收入达890亿美元。</p>
+  <p>高通也没有放过这个市场。此前，高通提出2029财年非手机收入400亿美元的目标，并推进数据中心业务。动机不难理解：守住手机之外，还得找到新的增长引擎。</p>
+  <p><strong>但在争取新增长之前，高通可能首先得适应一个比手机换代更快的模型市场。</strong>“过去，智能手机完成适配后，可能9个月甚至12个月都无需再调整；而现在，大模型每3个月，甚至更短时间内就会迭代一次。”高通公司中国区董事长孟樸对36氪在内的媒体表示。</p>
+  <p>模型版本和能力更新快，不代表底层计算结构以同样速度完全变化。更准确的挑战在于：在相对稳定的计算基础上，用软件调度、可配置能力和持续验证承接快速迭代。</p>
+  <p>更深的一层变化是，合作正从模型发布后的适配，前移到模型设计环节。2026年展示的四方合作的分工说明了这一点——高通提供计算平台，阶跃提供模型，无量火优化推理与调度，江波龙处理存储协同；AI Hub则试图复用优化成果、降低部署门槛。</p>
+  <p><strong>竞争新的竞争指标是：新模型出来后，谁能更快、以更可控的成本交付可用体验。</strong></p>
+  <p>端侧智能体是整个市场都在追逐的机会，9月，几乎所有主流厂商的新品都覆盖了端侧和智能体。比如，9月15日，联发科发布天玑9600系列，9600 Pro同样采用2nm，强调低功耗常驻感知，宣称支持30B-MoE端侧运行。</p>
+  <p>更复杂的竞争也会来自客户一侧：一边采购高通芯片，一边也在把关键能力试图掌握在自己手中。比如小米玄戒 O1进入量产，苹果在iPhone 16e上推出自研C1基带等等。而进入数据中心，也绕不开客户与竞争对手身份重叠的局面。英伟达之外，谷歌自研TPU也在争取训练和推理负载——而谷歌在终端上又是高通的重要合作伙伴。</p>
+  <p><strong>当竞争同时发生在多个市场，高通还必须回答一个实际问题：这些新能力，客户负担得起是前提，但如何真正高效地应用起来？</strong></p>
+  <p>孟樸提到：“随着技术的进步，芯片中需要叠加的技术越来越多，成本也会因此越来越高。”在他看来，一款产品展示当前技术能够达到的上限，另一款则更注重效率，以应对高成本、支持终端厂商。技术能力向前推进，能否被客户采用仍要过成本这一关。</p>
+  <p>至少，让智能体稳定地在移动设备上运行，还有多重挑战。“不能做错任务，不能过度占用内存，还不能增加续航负担，起码不能比手动操作还慢。”一位半导体行业人士总结。</p>
+  <p><strong>现在，芯片行业正在进入多线混战。高通需要守土开疆，还必须成为耦合大模型厂商、AI应用之间的长期协作者。</strong>对高通来说，下一轮胜负不只取决于它能把多大的模型装进终端，更取决于能否让不断变化的模型，及时变成用户愿意反复使用的产品。</p>
+ 
+]]></description>
+            <pubDate>Sat, 26 Sep 2026 00:30:24 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3998754973749376</guid>
+            <link>https://www.36kr.com/p/3998754973749376</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[平均翻倍！卖不动钻石，却越涨越猛]]></title>
@@ -2631,126 +2789,6 @@
             <pubDate>Thu, 24 Sep 2026 08:11:39 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/3997040405829255</guid>
             <link>https://www.36kr.com/p/3997040405829255</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[特斯拉第三代机器人疑似意外曝光]]></title>
-            <description><![CDATA[<p>特斯拉尚未正式发布的第三代人形机器人Optimus，疑似先在自家的手机App中露出了轮廓。</p>
-  <p>9月23日，Tesla North、Drive Tesla等媒体报道，特斯拉安卓App的安装包中出现了一组带有“gen3”标记的机器人图片。图中的机器人采用金色与黑色搭配，部分此前外露的机械结构被覆盖，髋部和腿部的外观变化尤其明显。⁠</p>
-  <p>此次曝光的是应用内的渲染图片。截至9月24日，特斯拉尚未确认这些图片是否对应Optimus第三代的最终硬件设计，也未就这一发现作出公开说明。</p>
-  <p>据Drive Tesla报道，相关图片最初由X平台账号Whole Mars Catalog分享，原帖随后被删除。随着其他账号转发，以及开发者对安装包进行核查，这组图片的来源逐渐清晰：它们来自特斯拉公开分发的安卓应用资源。⁠</p>
-  <p>长期追踪特斯拉软件更新的开发者Ming表示，他在4.60.5-4573版本中独立确认了三张相关图片，文件名分别包含近景、全身和未激活状态等标记，名称中均含有“gen3”。其中，全身图的文件名为“robot_home_full_body_gen3.png”，这一命名成为外界将图片与第三代Optimus联系起来的直接依据。⁠</p>
-  <p class="image-wrapper"><img data-img-size-val="998,665" src="https://img.36krcdn.com/hsossms/20260924/v2_9df4a8df59794caa83166fe64dfda306@6418923_oswg239691oswg998oswg665_img_png?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这些图片实际上已在App中存在了一段时间。机器人媒体Humanoids Daily对多个历史版本进行比对后发现，带有“gen3”标记的资源最早出现在8月27日发布的版本中，9月5日更新了更高分辨率的图片。到9月22日的版本，这组图片并未再次变化。⁠</p>
-  <p>从公开的对比图看，新造型延续了Optimus的整体轮廓，但机身包覆更加完整。髋部增加了覆盖结构，膝关节和小腿出现更多黑色外罩，上一版金色造型中较为显眼的部分连杆和机械组件被遮住。躯干表面也显得更连贯。⁠</p>
-  <p>这让新造型在视觉上更接近一款完成封装的产品。不过，图片能呈现的变化主要集中在外部：护罩下面的执行器如何布置、机器人能搬动多重的物体、双手能完成多精细的操作，都无法通过渲染图判断。</p>
-  <p>Humanoids Daily还指出，相关文件位于应用的“assets/mock”目录。这意味着它们仍可能用于界面开发或占位展示。资源被打包进App，可以证明特斯拉在软件中使用了这套素材，但还不足以确认机器人控制功能何时向用户开放。⁠</p>
-  <p>第三代Optimus之所以受到关注，与特斯拉为它设定的量产定位有关。</p>
-  <p>在今年1月发布的2025年第四季度业绩材料中，特斯拉将Gen 3定义为首款面向大规模生产设计的Optimus。公司当时表示，这一版本将相较2.5代进行较大升级，包括采用新的手部设计，并计划在2026年第一季度正式展示。⁠</p>
-  <p>手部恰恰是马斯克反复强调的开发重点。在2025年10月22日的财报电话会上，他表示，要让机器人胜任通用任务，需要一双具备人类灵巧度的手。从机电设计角度看，Optimus的手与前臂，甚至比身体其余部分更难开发。他将新的手部设计形容为“一项令人惊叹的工程成果”，同时表示，即使开始生产，硬件设计仍会持续迭代。⁠</p>
-  <p>马斯克在1月28日的财报电话会上给出了更具体的能力描述。他称Optimus 3是一款“能力非常强大的机器人”，将能够通过观察人类行为学习任务。按照他的设想，人们可以现场示范、口头说明，或提供一段视频，让机器人学习并执行相应工作。⁠</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20260924/v2_d07b6fb6eb174406b71ff11668686eb9@6418923_oswg784752oswg1080oswg810_img_png?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>不过，第一季度的发布时间未能兑现。3月底，马斯克在X上回应进展时表示，Optimus 3已经能够四处走动，但在对外展示之前，还需要做一些收尾完善工作。当时，他没有给出新的具体发布日期。⁠</p>
-  <p>到了4月的第一季度财报电话会，马斯克又解释了延后展示的另一层考虑：竞争对手会对特斯拉发布的内容逐帧分析，尽可能模仿其中的设计，因此公司希望在更接近投产时公布新技术。此后，外界等待的完整发布迟迟未至，这次App图片曝光提供了新的外观线索。⁠</p>
-  <p>与此同时，特斯拉已经为机器人规划了大规模制造空间。公司在2026年第一季度业绩材料中披露，弗里蒙特工厂原Model S和Model X产线将由Optimus生产线取代，设计年产能为100万台；得州超级工厂也在为后续产线做准备，长期规划年产能为1000万台。⁠</p>
-  <p>这两个数字体现的是产线规划，不能视为已经实现的产量。特斯拉在同份材料中也明确提示，已安装产能与实际生产速度并不相同，设备运行、零部件供应等因素都会影响产出。</p>
-  <p>马斯克也曾提醒，Optimus的产量爬升需要更长时间。他在1月的财报电话会上表示，这款机器人需要建立全新的供应链，制造进度会受到最慢环节的制约，因此从开始生产到扩大产量的过程，将比能够沿用部分成熟供应链的产品更漫长。⁠</p>
-  <p>对于第三代Optimus，外观、功能与制造进度仍需分别验证。此次曝光补充了外观信息，却没有提供售价、交付安排或新一代机器人的实际作业数据。正式亮相时，特斯拉仍需展示升级后的双手和整机能力，以及这款面向量产设计的机器人如何进入真实工作场景。</p>
-  <p>本文来自微信公众号“芯智能头条”，作者：Time，编辑：Mark，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Thu, 24 Sep 2026 08:09:38 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3997025697175429</guid>
-            <link>https://www.36kr.com/p/3997025697175429</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[刚刚，小扎发了个“Muse”宇宙，新VR眼镜仅100g]]></title>
-            <description><![CDATA[<p>智东西9月24日报道，今日早间，在Meta Connect 2026大会上，Meta CEO马克·扎克伯格集中展示了<strong>Muse</strong>个人智能体、新一代AI眼镜<strong>Ray-Ban Meta Audio</strong>和第三代<strong>Ray-Ban Meta</strong>、<strong>Meta VR眼镜</strong>以及智能随身设备<strong>Muse Charm</strong>。&nbsp;</p>
-  <p>其中，Muse是Meta推出的<strong>个人Agent</strong>，能够理解用户意图，并跨应用处理文件、日历、购物等任务。&nbsp;</p>
-  <p>Ray-Ban Meta Audio是Meta<strong>首款无摄像头AI眼镜</strong>，主打音乐、通话和语音交互，起售价为<strong>349美元（约合人民币2344元）</strong>，目前已开启预订，10月13日正式上市。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,633" src="https://img.36krcdn.com/hsossms/20260924/v2_d11bbe6c50534b5e9b8417b917873bfe@000000_oswg208669oswg1080oswg633_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>第三代Ray-Ban Meta则保留摄像头，升级了视频拍摄和音频能力，起售价为<strong>449美元（约合人民币3015元）</strong>，于9月24日正式开售。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,641" src="https://img.36krcdn.com/hsossms/20260924/v2_7f70339314ce4095b1dc422e44d3969d@000000_oswg185234oswg1080oswg641_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Meta VR Glasses<strong>重量约为100克</strong>，不到Meta Quest 3的五分之一，主打私人影院、多屏办公、游戏和空间交互，起售价<strong>1299美元（约合人民币8723元）</strong>，明年春季开售。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,599" src="https://img.36krcdn.com/hsossms/20260924/v2_ccd022afd4104ec28e0baadfad92d254@000000_oswg417873oswg1080oswg599_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Muse Charm则是一款可以挂在钥匙链上的<strong>独立硬件</strong>，用户无需打开手机，点击设备即可唤醒Muse。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,602" src="https://img.36krcdn.com/hsossms/20260924/v2_3291c18037194ee7a00e03ba48d2ec1f@000000_oswg307964oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>从能替用户办事的个人Agent，到能够理解现实环境的AI眼镜和VR设备，Meta正在围绕Muse搭建一套覆盖工作、娱乐和日常生活的硬件生态。&nbsp;</p>
-  <h2><strong>01.Muse：配备独立虚拟计算机，可跨应用执行任务</strong></h2>
-  <p>扎克伯格在开场演讲中称，未来每个人都会拥有一个理解其目标、并能全天候工作的个人Agent，而Muse正是Meta实现“个人超级智能”的核心产品。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,501" src="https://img.36krcdn.com/hsossms/20260924/v2_ec8fbec1ca574aa8b2edad85088583f5@000000_oswg268036oswg1080oswg501_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Muse基于Meta的Muse Spark模型打造，可以记住用户偏好、选择合适的工具，并跨多个应用连续执行任务。它不仅能够回答问题，还能帮助用户真正把事情办完。&nbsp;</p>
-  <p>为了让Muse更像一个长期陪伴用户的个人Agent，Meta还允许用户自定义它的名字、声音、角色和性格。&nbsp;</p>
-  <p>Meta为每个Muse配备了一台独立的虚拟计算机——Muse Secure VM。它相当于Muse专属的安全工作空间，可以更好、更安全地为用户执行任务。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,600" src="https://img.36krcdn.com/hsossms/20260924/v2_05faf425108d412492b9b2f753eb8452@000000_oswg476578oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Meta首席AI官汪韬称，购物方面，Muse将接入Shopify商品目录，并支持Shop Pay、Stripe和PayPal。沃尔玛、百思买、Gap、丝芙兰、Wayfair等零售商也在与Muse进行整合。旅行和生产力方面，Muse将接入Expedia、Instacart、Box、GitHub、Granola和Notion等应用。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,601" src="https://img.36krcdn.com/hsossms/20260924/v2_61af309a9e984ae094d97171d8fe0e74@000000_oswg379296oswg1080oswg601_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>用户授权后，Muse可以在其中处理文件、信息、日历和笔记，也可以调用其他应用完成任务；即使用户离开电脑，Muse仍能继续处理已经安排的工作。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,598" src="https://img.36krcdn.com/hsossms/20260924/v2_6f6770159dad4c12899a0ebd6f57e6a6@000000_oswg420765oswg1080oswg598_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>现场演示中，扎克伯格让Muse介绍一款可挂在钥匙链上的小设备的项目进展。Muse称，该设备的硬件设计已经完成，目前还需要确定最终材料，并给出了外壳材质建议。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,582" src="https://img.36krcdn.com/hsossms/20260924/v2_df3f7ad08f1d41c2a3d751905f9e253a@000000_oswg465177oswg1080oswg582_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>此外，Meta还计划推出Muse机密虚拟机Muse Confidential VM，进一步限制Meta自身对用户数据的访问。&nbsp;</p>
-  <h2><strong>02.AI眼镜：无摄像头版本售价349美元，第三代支持3K拍摄</strong></h2>
-  <p>扎克伯格认为，眼镜将成为个人智能体最重要的硬件入口，因为它能够让Muse看见用户所见、听见用户所听，并在一天中持续与用户交流。&nbsp;</p>
-  <p>Meta发布其首款无摄像头AI眼镜，名为Ray-Ban Meta Audio。由于没有摄像头，这类眼镜机身可以做得更轻、更薄，支持全天续航，可以用来听音乐、接打电话和调用Muse，起售价为349美元。&nbsp;</p>
-  <p>Ray-Ban Meta Audio还提供23种镜片和配色组合，并新增Clubmaster和Burbank两种款式。该产品将于10月13日开启预订。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,606" src="https://img.36krcdn.com/hsossms/20260924/v2_a24f035d1ea2459598a3245fa7e3abce@000000_oswg269746oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>与此同时，Meta还发布了带摄像头的第三代Ray-Ban Meta。这款眼镜配备1200万像素摄像头，支持3K超高清视频拍摄，续航最长可达9小时，起售价为449美元。除Wayfarer外，第三代产品还新增Aviator和Zena两种款式，后者采用猫眼镜框设计。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,605" src="https://img.36krcdn.com/hsossms/20260924/v2_c4a3f6237cd64ca5afb0634882f453ec@000000_oswg340055oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>新款眼镜配备6个麦克风，能够在嘈杂环境中捕捉用户声音，同时支持杜比全景声录制。用户回放视频时，可以听到声音从原本所在的空间方向传来。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,509" src="https://img.36krcdn.com/hsossms/20260924/v2_65c91b079aa040c299da76ac2c3145e9@000000_oswg206823oswg1080oswg509_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>接下来几周，Meta还将把Muse升级到旗下眼镜中。用户可以用“Hey Muse”直接唤醒个人Agent，进行连续语音对话。Muse会保留此前的上下文，还能在用户说话时在后台安排日历、购物或处理其他任务。&nbsp;</p>
-  <p>此外，Meta还推出了自有品牌的Meta Adventurer，配备黑色镜框和灰色镜片，搭配插入式充电盒后起售价为249美元。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,604" src="https://img.36krcdn.com/hsossms/20260924/v2_e34ace4ce7194e2faa4d805afde3663d@000000_oswg757828oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>03.Meta VR Glasses：1299美元，能看电影、开多屏，还能打麻将</strong></h2>
-  <p>大会后半段，扎克伯格从眼镜墙中取出了VR眼镜Meta VR Glasses。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,603" src="https://img.36krcdn.com/hsossms/20260924/v2_1751fe930065452eb755cd8f6a521abf@000000_oswg432085oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这款设备重量约100克，不到Meta Quest 3的五分之一。它采用分体式架构，现场产品仍连接着线缆，并支持DisplayPort over USB-C。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,600" src="https://img.36krcdn.com/hsossms/20260924/v2_fb277e287cd64ed68dc94814544df825@000000_oswg328198oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>扎克伯格将其总结为三个词：Cinema（私人影院）、Computer（电脑）和Console（游戏主机）。&nbsp;</p>
-  <p>用户戴上眼镜后，可以观看电影和体育赛事，也可以在眼前同时打开两到三块虚拟显示器。设备支持眼动、手势和语音交互，还可以把桌面等平面变成虚拟键盘和触控板。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,599" src="https://img.36krcdn.com/hsossms/20260924/v2_6ed07268402f4eb19c0a3a3139fccee8@000000_oswg417873oswg1080oswg599_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>随后，Meta首席技术官安德鲁·博斯沃思（Andrew Bosworth）登台，进一步演示了VR眼镜的内容和空间计算能力。&nbsp;</p>
-  <p>娱乐方面，Meta宣布与詹姆斯·卡梅隆、Lionsgate等导演和影视公司合作。Disney+将在部分国家提供3D电影，ILM还将推出Disney Immersive Cinema应用。&nbsp;</p>
-  <p>体育方面，Meta计划每年提供超过100场沉浸式赛事。ESPN将提供部分比赛的180度前排视角，后续内容还将覆盖美国职业棒球大联盟、UFC、TNT Sports和NBC Sports等赛事。&nbsp;</p>
-  <p>Muse也被直接集成进了VR眼镜的操作系统。用户不需要翻找菜单，直接说出需求即可。&nbsp;</p>
-  <p>博斯沃思展示了Muse指导用户打麻将的场景。Muse可以观察牌面和桌面环境，按回合告诉用户下一步如何操作。借助VR眼镜，Muse还能理解物体之间的位置关系，并在空间中指导用户行动。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,585" src="https://img.36krcdn.com/hsossms/20260924/v2_bbc3b0ce2e7d46139d6c4d2c271b1f01@000000_oswg418943oswg1080oswg585_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>VR眼镜还支持全息通话，用户可以以接近真人的虚拟形象加入交流。Meta计划将类似能力带到Ray-Ban Display眼镜中。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,593" src="https://img.36krcdn.com/hsossms/20260924/v2_467715b864e24de29ebdb70b3e396cc3@000000_oswg499026oswg1080oswg593_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Meta VR Glasses售价1299美元，计划于2027年春季开售。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,609" src="https://img.36krcdn.com/hsossms/20260924/v2_cdaa5f9f930c4ee1940f5c2298d4277f@000000_oswg224468oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>04.Muse Charm：拇指一按唤醒AI，预计年底上市</strong></h2>
-  <p>发布会临近结束时，扎克伯格又拿出了此前在演示中提到的可以挂在钥匙链上的小设备。这个智能随身设备名为Muse Charm，是一个独立的Muse硬件入口。设备角落配有指纹传感器，用户点击后即可与Muse对话，不需要先解锁手机或打开App。&nbsp;</p>
-  <p>扎克伯格称，如果用户没有佩戴眼镜，Muse Charm将是与Muse交流、向Muse展示周围环境的最快方式。不过，这款设备目前仍处在早期阶段。Meta只制造了少量样机，外壳材料和内部元器件布局均未最终确定。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,600" src="https://img.36krcdn.com/hsossms/20260924/v2_5abfc2dc65fd4509b492ce852fd6260a@000000_oswg470990oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Muse Charm计划在2026年12月假期前后开售，尚未公布售价和完整参数。&nbsp;</p>
-  <h2><strong>05.结语：个人Agent，正在走出聊天窗口</strong></h2>
-  <p>从个人Agent到AI眼镜、VR眼镜，再到可以挂在钥匙链上的Muse Charm，Meta正在把Muse从一个软件助手，扩展为贯穿用户工作、娱乐和日常生活的智能入口。&nbsp;</p>
-  <p>AI硬件的竞争正在从单一产品能力，转向整体设备生态比拼。谁能让Agent更自然地被唤醒、更准确地理解环境，并在保证隐私和安全的前提下真正把事情办完，谁更有可能成为下一代个人计算入口。&nbsp;</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652811034&amp;idx=2&amp;sn=c043c77328956d3946a15c9329b7e9aa&amp;chksm=8552bc293dac3038ebe584bc975f2e2ce6fff19897b54d0b13109c3c84d4398350c04db310d1&amp;scene=0&amp;xtrack=1#rd">“智东西”（ID：zhidxcom）</a>，作者：杨京丽，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Thu, 24 Sep 2026 08:08:53 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3997018573574280</guid>
-            <link>https://www.36kr.com/p/3997018573574280</link>
             
             
             
