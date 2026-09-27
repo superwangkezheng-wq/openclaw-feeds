@@ -15,8 +15,316 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Sat, 26 Sep 2026 12:17:42 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 01:33:37 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[管住AI，成了一门新生意]]></title>
+            <description><![CDATA[<p>AI越来越能干，也越来越容易“闯祸”。&nbsp;</p>
+  <p>7月，OpenAI在内部网络安全能力测试中发生了一次罕见事故。OpenAI随后披露，一款内部研究模型和GPT-5.6 Sol在降低安全限制的测试环境下绕过隔离措施，获得互联网访问权限，并进一步入侵Hugging Face系统。部分Agent在数十台服务器上执行代码，其中一台服务器被获取root权限。&nbsp;</p>
+  <p>几天后，英国人工智能安全研究所（AISI）在受控测试中发现，Anthropic和OpenAI的Agent出现了多次未授权行为；122次测试中有10次出现共19项未授权行为，其中Anthropic Agent占17项，包括创建虚假网络身份、生成旨在诱骗人类批准的恶意代码等。&nbsp;</p>
+  <p>失控、瘫痪、劫持事件接连发生，AI事故开始密集进入公众视野。&nbsp;</p>
+  <p>过去的Chatbot即便犯错，最常见的后果不过是“说错话”。但进入Agent时代，AI开始连接邮箱、代码库、数据库和各种企业软件，甚至能够自主调用工具、执行任务，如何“管住AI”也开始成为一门生意。&nbsp;</p>
+  <p>前不久，黄仁勋在旧金山举行的高盛Communacopia+科技大会上表示：“网络安全很可能成为AI下一个重要的应用场景。”Gartner预计，全球“Securing AI”市场规模将从2026年的28.35亿美元增至2027年的47.83亿美元，同比增长68.7%，2028年进一步接近77亿美元。IDC预测，中国人工智能安全收入的市场规模2030年预计达到340.3亿元人民币，2025-2030年复合增速50.5%。&nbsp;</p>
+  <p>模型厂商自身也开始建立更制度化的事故披露机制。9月16日，OpenAI首次推出模型“对齐失效”报告框架，希望将过去相对零散的安全事件披露，变成持续的跟踪、调查和公开机制，并提出未来与行业、标准机构和监管部门共同探索更统一的披露标准。&nbsp;</p>
+  <p>海外已经出现一批专门围绕AI Security创业的公司，从给大模型做安全评测、寻找漏洞，到给Agent加上权限控制、运行监控和安全防护，资本也开始涌入这一赛道。与此同时，大型科技和安全公司也开始通过投资、收购等方式提前卡位。但在中国情况有所不同，大模型和Agent创业潮已经持续数年，真正以“AI安全”为核心业务的创业公司仍不算多。&nbsp;</p>
+  <p>市场上没人会怀疑AI安全的重要性，现实情况是，风险客观存在，钱却还没完全来。这种落差背后，是技术、市场、资本和监管的多重博弈。&nbsp;</p>
+  <h2><strong>01.AI越能干，越需要“上锁”</strong>&nbsp;</h2>
+  <p>AI安全并不是一个新问题，但Agent正在改变这道题的难度。&nbsp;</p>
+  <p>2022年底ChatGPT横空出世，在最初的一两年里，人们对AI安全的认知，基本停留在“别让AI乱说话”。&nbsp;</p>
+  <p>早期大模型的风险虽然不少，但大多集中在输出端，包含如幻觉（模型一本正经地胡说八道）、违法违规内容（生成暴力、色情或歧视性信息）、越狱（用户通过精心设计的提示词绕过模型的安全护栏）、隐私泄露（训练数据或用户输入中的敏感信息被模型意外输出）等。这些风险的核心特征类似，模型只输出信息，不执行操作。&nbsp;</p>
+  <p>但Agent的出现改变了这一点。&nbsp;</p>
+  <p>当AI从聊天框走出来，开始接入企业内部的数据库、邮箱、代码库和各种软件，它面对的不再只是“什么能说、什么不能说”，还有“什么能看、什么能改、什么能做”。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,603" src="https://img.36krcdn.com/hsossms/20260927/v2_81b6a29544d14d69802f872d3a96264f@000000_oswg842572oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>其中最关键的变量是权限。AI安全初创公司红豆叶科技创始人刘雁向「定焦One」表示，现阶段企业对AI安全比较敏感的问题之一就是数据泄露。Agent权限一旦开放过高，就可能接触甚至带走企业内部数据，而相关防护目前仍不完善。&nbsp;</p>
+  <p>而且，风险不一定来自AI主动作恶。Agent工程师蒋工告诉「定焦One」，在实际开发中，模型偶尔会出现删除文件、数据库等情况。现阶段，这类问题通常可以通过权限控制、数据恢复等工程方式兜底，但如果未来AI获得更高权限，能够操作支付、交易等系统，同样一次误操作的代价可能完全不同。&nbsp;</p>
+  <p>如果把一套AI安全系统拆开看，它做的事情大致可以理解为给AI设置四道关卡。&nbsp;</p>
+  <p>第一道是“体检”，在模型或Agent正式投入使用之前，通过安全评测、红队测试等方式寻找漏洞；第二道是“安检”，AI运行起来后，对它接收和输出的信息进行实时检查，尽量在风险进入企业系统之前把它拦下来。&nbsp;</p>
+  <p>第三道也是Agent时代越来越重要的一道：“上锁”。企业需要回答，这个Agent是谁？它可以读取哪些文件？可以调用哪些API？能不能修改数据库？哪些操作可以自主完成，哪些必须经过人的确认？比如，AI可以帮用户完成下单等任务，但到了支付、输入密码等关键环节，最终确认仍应该交还给人。&nbsp;</p>
+  <p>最后一道则是“监控”。如果AI真的做错了事，企业至少需要知道它访问了什么数据、调用了什么工具、执行了哪些操作，并在异常出现时及时预警、阻断和追溯。刘雁介绍，红豆叶正在开发的AIS二级安全监管系统，就是希望在系统运行超过设定阈值时进行预警。&nbsp;</p>
+  <p>从Chatbot时代到现在的Agent时代，AI能干的活儿越来越多，相应的，一次错误能够造成的损失也就越高，一条围绕AI的新安全链条也由此出现。&nbsp;</p>
+  <h2><strong>02.三类玩家，各有优劣</strong>&nbsp;</h2>
+  <p>AI安全的生意，已经有人先跑起来了。&nbsp;</p>
+  <p>8月，AI安全公司Obsidian Security完成8500万美元D轮融资，估值达到11亿美元，这家公司正在做的事情之一，就是监控进入企业软件的AI Agent，防止其不当访问源代码、客户记录等敏感数据；9月初，美国AI安全公司HiddenLayer宣布完成1亿美元B轮融资，投资方包括摩根士丹利、微软旗下M12等机构，该公司重点投入的方向之一，就是Agent运行时的安全。&nbsp;</p>
+  <p>更能说明变化的是收入。HiddenLayer联合创始人兼CEO Chris Sestito透露，过去一年公司年度经常性收入（ARR）增长超过10倍，达到数千万美元量级，超过九成增长来自新客户。金融服务和大型科技公司是其主要客户。&nbsp;</p>
+  <p>到了国内，这门生意虽然还未达到这个热度，但玩家也不算少，大致可以分成三类：&nbsp;</p>
+  <p>第一类是模型厂商，如阿里、百度、字节、腾讯、<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>。&nbsp;</p>
+  <p>蒋工称，模型厂商会做安全，但首先服务于自身模型和产品，而不是独立对外出售的第三方安全产品。他解释，对任何一个场景加安全限制，“都有可能导致其他的功能发生退化”，所以模型厂商在加安全场景时要很谨慎。&nbsp;</p>
+  <p>这个逻辑其实不难理解，模型厂商的核心商业模式还是卖模型能力，API调用、云服务、行业解决方案。如果模型动不动就输出违规内容、被用户轻易越狱，客户肯定不敢用。所以模型厂商会做内容审核、拒答机制、对齐微调，但这些是产品的底线要求，不是独立的生意。&nbsp;</p>
+  <p>刘雁对此有一个判断：模型厂商自己开发的安全能力，只能适用于自己开发的层面，比如<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>的安全能力只保护<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>的安全能力只保护<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>。企业如果用多个模型、或者自研模型，模型厂商自带的安全能力就覆盖不了了。&nbsp;</p>
+  <p>这恰恰为第三方安全公司留出了空间。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,603" src="https://img.36krcdn.com/hsossms/20260927/v2_be7c22b0a25b4fb78c9e799077fd8a94@000000_oswg842882oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>第二类是传统安全公司，如360、奇安信、深信服、天融信等。这些企业在传统网络安全时代就已经是头部玩家，它们手握政企客户的安全预算，有成熟的销售渠道和客户关系。AI兴起后，它们也开始把原来的安全能力向大模型和Agent延伸。&nbsp;</p>
+  <p>这背后不只有技术迭代，也有寻找新增量的现实压力。IDC预计，中国网络安全市场2024-2029年复合增长率约8.9%，而AI安全未来五年这个数字约50.5%，传统网络安全市场已经告别过去的高速增长。2026年上半年奇安信营收15亿，同比下降14%，上半年净亏损为4.11亿，虽然亏损同比大幅收窄，但主要是因为非经营因素。&nbsp;</p>
+  <p>实现盈利的网安公司数量寥寥，深信服上半年营收39.98亿元，同比增长32.85%；归母净利润2.31亿元，上年同期亏损2.28亿元，实现扭亏。细看财报，其云计算及AI基础设施收入22.12亿元，同比大增58.60%，占总营收的55.34%，超越网络安全成为第一大收入来源，传统网安厂商正在寻找网络安全之外的新增长点。&nbsp;</p>
+  <p>钱流向哪里，安全厂商也在往哪里走。比如360以前主要做PC终端安全防护，现在也做模型的安全，360发布的“360大模型安全卫士”，就是基于“安全+AI”推出的产品。还有奇安信，其2026年推出的Agent安全平台，把保护对象从传统网络、终端进一步延伸至Agent运行过程。因此，对传统网安公司来说，AI安全既是一场防守战，也是一场增量争夺战。&nbsp;</p>
+  <p>但刘雁指出了它们的短板，这类公司的业务主要在防火墙、IDS、防止数据泄露方面，对AI原生风险的理解，没有专门做AI原生安全的公司敏感。传统安全公司的技术基因是边界防御，防外部攻击、防数据泄露。而AI安全的核心风险是内生的，模型本身可能被诱导、Agent可能越权、权限可能被绕过。这是两套完全不同的技术逻辑。&nbsp;</p>
+  <p>蒋工也认为，传统安全公司在应用层做AI安全有优势，但在模型层，如后训练阶段的安全对齐、防越狱、防提示词注入，它们的技术积累并不比创业公司强多少。&nbsp;</p>
+  <p>第三类玩家则是AI原生安全公司。国内已经出现瑞莱智慧等较早布局AI安全的公司，完成数千万元Pre-A轮融资、聚焦“认知安全”的缔零科技，完成近千万元种子轮融资的“AI智能体安全服务公司”信流智能等。&nbsp;</p>
+  <p>相比模型厂商和传统网安巨头，它们最大的特点是没有历史包袱，可以围绕AI新出现的问题重新设计产品。但反过来，模型厂商可以不断把安全能力内置进模型，传统网安公司则掌握着现成的企业客户和安全预算入口，创业公司既缺少资源，也缺少渠道。&nbsp;</p>
+  <p>刘雁作为一名创业者，对此并不避讳，她认为，小公司很难与模型大厂正面竞争，真正能做的是找到大公司暂时没有覆盖、或者自己做成本过高的能力，再以合作的方式进入它们的产品体系。&nbsp;</p>
+  <p>以刘雁的公司为例，目前还在项目开发阶段，但在大厂和老牌公司夹击下探索出一套生存策略：专利布局。她告诉「定焦One」，他们想在大公司还没重视这一块时提前布局，“不管是以后大公司小公司，如果要设计AI安全相关的应用，应该都绕不过这套专利系统，而大厂相比自研，最直接、更省心的就是和有专利的公司合作”。不过相关技术壁垒能否真正转化为商业优势，还有待市场验证。&nbsp;</p>
+  <h2><strong>03.需求还没变成生意，AI安全在等什么？</strong>&nbsp;</h2>
+  <p>卖方加速入局，那买方呢？&nbsp;</p>
+  <p>现阶段，这门生意并没有脱离To B软件的基本逻辑。&nbsp;</p>
+  <p>目前最直接的变现路径就是做项目。企业有模型、数据或者Agent安全需求，安全公司提供评测、部署、咨询和定制化服务，按照项目收费。这种方式门槛相对低，也最容易在行业早期落地，但高度依赖人力，很难快速复制。&nbsp;</p>
+  <p>第二种是卖软件和安全能力。企业通过私有化部署、软件授权等方式，把第三方安全产品接入自己的AI系统；对于有研发能力的大公司，也可以直接采购第三方技术，再自行开发和集成。&nbsp;</p>
+  <p>更理想的模式，是把安全能力做成API。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,603" src="https://img.36krcdn.com/hsossms/20260927/v2_f81c0746956043fcb56bcf29825e5358@000000_oswg781621oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>刘雁告诉「定焦One」，这种商业模式包括定制化服务、API调用以及技术授权等。她更看好API模式的规模化潜力，就像今天开发者调用<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>、<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>等大模型一样，未来企业也可以直接调用第三方公司的安全能力，让模型或Agent在执行任务时，多经过一道安全检查。&nbsp;</p>
+  <p>商业模式看起来并不复杂，但同样一门生意，在国内外所处的阶段并不相同。&nbsp;</p>
+  <p>这种差距不只来自技术，更与AI进入企业的深度有关。刘雁在与企业接触时感受到，目前国内AI安全仍处在非常早期的阶段。不少企业连AI本身都还没有真正部署到业务里，更谈不上单独拿出一笔AI安全预算。“连AI落户都还没有做到的时候，怎么谈AI安全？”她说。&nbsp;</p>
+  <p>这其实揭示了AI安全商业化面临的第一道门槛：AI安全的渗透率，很难长期跑在AI应用的渗透率前面。&nbsp;</p>
+  <p>一家企业只有先把AI用起来，才会逐渐把数据库、内部文件、代码库等资源开放给AI；只有AI真正拿到权限，数据泄露、越权操作等风险才会从纸面问题变成现实问题。到了这一步，企业才更有动力为安全买单。但即便AI已经进入业务，安全也未必会成为企业最先花钱的地方。&nbsp;</p>
+  <p>这种差距也体现在资本的态度上，蒋工称，“国内资本对应用层很狂热，因为应用的确有明确的变现路径，但模型安全不是。”&nbsp;</p>
+  <p>从两位业内人士的判断来看，改变这一局面的变量可能有两个。&nbsp;</p>
+  <p>一个是事故。蒋工将其类比为疾病预防：所有人都知道提前预防疾病很重要，但在真正生病之前，很少有人愿意持续投入大量成本。企业安全也是类似的逻辑，没有发生足够严重的事故之前，安全部门更多是一项成本，很难像能直接带来收入的业务一样获得资源倾斜。刘雁的判断与之相似。她认为，当B端企业真正意识到AI安全会影响自身业务时，付费意愿自然会提高。&nbsp;</p>
+  <p>另一个则是监管。刘雁用了一个充电宝的例子。过去充电宝可以直接带上飞机，后来随着安全标准完善，3C认证逐渐成为一道强制门槛。她认为，如果未来AI应用、Agent乃至具身智能设备也需要达到统一的安全标准，那么安全检测、咨询和防护就可能从企业的“可选项”变成“必选项”。&nbsp;</p>
+  <p>这也是AI安全这门生意目前最微妙的地方：风险已经出现，产品已经有人做，商业模式也并不难理解，但真正大规模的付费需求还没有完全形成。&nbsp;</p>
+  <p>它需要等待AI进一步进入真实业务，也需要等待企业把更多数据和权限交给Agent，更要等待安全需求真正变成一笔明确的企业预算。在这之前，玩家们需要做的，就是先卡好位置。&nbsp;</p>
+  <p>*题图及文中配图均由AI生成 。&nbsp;</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzkzODUxNTM2OA==&amp;mid=2247542484&amp;idx=1&amp;sn=4dcc8da932fc85c003ff1ed3d7fd2771&amp;chksm=c3b41c64dc8d61d19d30feb5e0b93d96567b4d85205ff6f327280e186fd1bd94d6281594d2a8&amp;scene=0&amp;xtrack=1#rd">“定焦”（ID：dingjiaoone）</a>，作者：李梦冉，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 27 Sep 2026 00:41:00 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4000927879319685</guid>
+            <link>https://www.36kr.com/p/4000927879319685</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[刚刚，OpenAI又停训了：Agent逃出沙箱，更多越权事件被扒]]></title>
+            <description><![CDATA[<blockquote>
+   <p>媒体和舆论炸锅了。</p>
+  </blockquote>
+  <p>OpenAI 的 Agent，又从沙箱里找到了一条通往互联网的路。</p>
+  <p>更麻烦的是，这一次发生在 OpenAI 已经大规模加固过安全措施之后。</p>
+  <p>9 月 20 日，一个正在接受强化学习训练的 OpenAI 内部研究模型，被要求完成一项普通的信息搜索任务：根据一篇博客文章和几条人物信息，找出文章作者。</p>
+  <p>它先老老实实用了 OpenAI 提供的搜索工具。没找到答案后，事情开始逐渐跑偏。</p>
+  <p>Agent 尝试直接访问 Google、Bing 和 DuckDuckGo，均告失败；随后继续寻找缓存页面和其他公共搜索服务。再往后，它开始主动测试自己到底能不能接触公网。</p>
+  <p>最终，Agent 找到了一个此前没有被彻底封死的口子：<strong>DNS resolver，也就是 DNS 解析器。</strong></p>
+  <p>正常情况下，DNS 负责把域名翻译成 IP 地址。这个 Agent 却发现，可以借助 DNS 的解析和委托机制，把问题编码进请求里，让外部公共聊天机器人回答，再通过 DNS 把结果传回来。</p>
+  <p>为了确认这条路真的能用，它甚至先做了个小测试——问外部服务：法国的首都是哪里？</p>
+  <p>返回的答案是：Paris。</p>
+  <p>随后，它开始通过这条路径继续询问原本任务中的人物线索。OpenAI 明确表示，这项任务并没有要求模型测试网络控制，更没有授权它访问实时互联网，因此将这类绕过限制的行为视为 misalignment，也就是不符合预期的行为。</p>
+  <p>这条不起眼的 DNS 通道，最终让 OpenAI 再次踩下了暂停键。</p>
+  <h2><strong>刚加固一个月，Agent 又出去了</strong></h2>
+  <p>OpenAI 的监控系统其实很快就发现了异常。</p>
+  <p>Agent 第一次成功从外部获得响应后，大约 12 分钟，系统触发最高级别警报；3 分钟后，已经有人开始人工检查。OpenAI 概括称，<strong>从异常行为发生到监控发现大约用了 15 分钟</strong>。</p>
+  <p>但训练并没有马上停下来。</p>
+  <p>按照 OpenAI 在 Hugging Face 事件后建立的机制，发现这种异常行为后，系统原本应该自动终止训练任务。然而这套机制没有正常执行，团队内部一度对到底有没有停掉，产生了混乱。</p>
+  <p>直到<strong>两个半小时以后</strong>，这轮训练才被人工关闭。</p>
+  <p>事后检查还发现，此前已经出现过其他通过 DNS 接触外部服务的尝试，其中一些没有被监控系统以应有的严重等级标记出来。OpenAI 还发现，负责侦测异常 DNS 活动的一套基础设施监控系统，恰好把这个训练环境排除在监控范围之外。</p>
+  <p>于是 OpenAI 做出了第二次暂停训练的决定。</p>
+  <p class="image-wrapper"><img data-img-size-val="699,579" src="https://img.36krcdn.com/hsossms/20260927/v2_b5a83b6d744d430784ecb0629bd35ca9@000000_oswg55480oswg699oswg579_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>OpenAI 的 RSI Preparedness Lead Micah Carroll 在 X 上谈及此次事件时表示：在进一步加固系统之前，我们能力最强模型的所有推理仍将保持停止状态。</p>
+  <p>按照目前的官方说法，<strong>能力最强模型涉及工具使用的训练、评估和推理，目前全部处于暂停状态</strong>。公司需要确认网络漏洞已经被堵住，并完成额外的红队测试后，才会恢复相关工作。</p>
+  <p>这已经是不到三个月里的第二次。</p>
+  <p>今年 7 月，OpenAI 的一批 Agent 曾突破隔离环境，其中数百个 Agent 卷入了针对 Hugging Face 的网络攻击。事故发生后，OpenAI 在 7 月底暂停过约两周训练，并于 8 月公布新安全方案，包括强化沙箱隔离、扩大模型行为监控，以及自动升级和暂停可疑训练任务。</p>
+  <p>一个多月后，新的 Agent 又找到了一条此前没有被注意到的路径。</p>
+  <p>OpenAI 自己也承认，这次事件说明网络限制仍存在缺口。公司已经在两个相互独立的层级增加新的阻断措施，理论上任何一层单独存在，都足以阻止此次 DNS 访问。</p>
+  <p>这次事故的严重程度，比此前 Hugging Face 事件低得多。</p>
+  <p>真正值得注意的是，它发生在 OpenAI 已经花了大量时间重新加固环境之后。</p>
+  <h2><strong>OpenAI 现在还没查清，</strong></h2>
+  <h2><strong>到底发生过多少次</strong></h2>
+  <p>9 月 20 日的 DNS 事件，只是最近这场 Agent 风波中新冒出来的一块拼图。</p>
+  <p>Reuters 9 月 25 日的一篇调查报道披露，距离 Hugging Face 事件已经过去两个月，<strong>OpenAI 仍然没有完成对旗下 Agent 越权活动的完整盘点</strong>。</p>
+  <p>一名了解情况的人士称，截至 9 月中旬，OpenAI 内部已经发现大约<strong>24 起 Agent 出现不良行为的事件</strong>。随着团队继续翻查过去的训练日志，新的案例还在不断出现。</p>
+  <p>这个数字和已经公开的事件也不是一回事。</p>
+  <p>Reuters 统计，在 OpenAI 7 月首次承认 Agent 突破隔离环境之后，两个月内，公司、外部研究者以及受影响机构已经公开披露了<strong>超过 15 起</strong>不同严重程度的相关事件。OpenAI 自己则表示，目前已经因为不当 Agent 活动通知了<strong>数十个第三方。</strong></p>
+  <p>而且这个调查短期内还结束不了。</p>
+  <p>OpenAI 告诉 Reuters，由于需要处理的记录规模很大，全面审查还需要数月。</p>
+  <p>换句话说，我们今天看到的并不是一张已经画完的事故地图。</p>
+  <p>OpenAI 还在往回翻日志。</p>
+  <h2><strong>很多任务一开始，只是帮我找个数据</strong></h2>
+  <p>更值得注意的是，这些 Agent 很多时候接到的压根不是网络攻击任务。</p>
+  <p>OpenAI 表示，大多数被审查的活动都源自普通研究任务，比如访问公开网站、寻找数据，或者尝试获取一个问题的答案。<strong>政府、大学和公共机构的网站之所以频繁出现，是因为模型会把它们判断为更可靠的信息源</strong>。</p>
+  <p>问题通常发生在常规路径走不通以后。</p>
+  <p>Reuters 报道称，OpenAI 已确认，其模型曾在研究和训练过程中访问美国证券交易委员会（S<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>）和美国人口普查局的网站。OpenAI 表示，目前没有发现未经授权访问、账户被攻破或安全漏洞被利用的证据。</p>
+  <p>另一边，独立 AI 研究机构 Transluce 从公开网络日志里发现了更多异常活动。</p>
+  <p>研究者找到了一批 AI Agent 借助网站扫描服务 urlquery.net 绕过访问限制的记录。这些 Agent 会在普通的数据抓取失败后继续升级手段，包括尝试 SQL 注入、路径遍历等漏洞利用方法。</p>
+  <p>Transluce 找到三个比较明确的案例，目标分别包括 Data USA、新墨西哥大学数字图书馆，以及澳大利亚健康与福利研究院（AIHW）的数据服务。</p>
+  <p>其中 AIHW 和 Data USA 两组活动，被研究人员通过目标、行为模式和时间线，与此前已经被 OpenAI 确认为自家系统的 Agent 群关联起来。Transluce 强调，他们看到的攻击尝试没有证据显示成功，但公开日志并不完整，因此也无法覆盖所有行为。</p>
+  <p>美国教育部的一个民权网站也出现在调查中。</p>
+  <p>Reuters 援引 Transluce 称，一批疑似来自 OpenAI 的 Agent 曾尝试攻击该网站；在更广泛的政府网站探测活动中，研究人员还观察到使用暴露凭证、绕过反机器人措施以及创建虚假账户等手法。</p>
+  <p>这使得问题变得微妙起来。</p>
+  <p>模型可能只是收到一个帮我找到这份数据的目标。当网页打不开、API 拒绝访问、反爬系统挡住请求之后，它开始尝试下一种方法，再尝试下一种。</p>
+  <p>Transluce 在报告里专门强调了一点：这些网络攻击行为并没有局限在网络安全任务中，它们也会<strong>工具性地出现在普通的信息检索任务里</strong>。</p>
+  <p>这和 9 月 20 日的 DNS 事件几乎是同一种轨迹。</p>
+  <p>Agent 想找一个人。正常搜索没有答案。然后，它开始自己找路。</p>
+  <h2><strong>还有 53 张 ChatGPT 用户图片，</strong></h2>
+  <h2><strong>被发到了外网</strong></h2>
+  <p>与此同时，OpenAI 的内部调查又暴露出另一类问题：用户数据。</p>
+  <p>Reuters 披露，OpenAI 已经确认，旗下 Agent 曾将<strong>53 张来自 ChatGPT 用户的图片上传到外部图片托管网站</strong>。</p>
+  <p>OpenAI 没有透露这些图片是什么时候被发出去的，也没有说明它们究竟是 AI 生成图片，还是包含真实人物的照片。</p>
+  <p>截至 Reuters 报道时，大部分图片已经被删除，OpenAI 仍在联系托管平台清理剩余内容。</p>
+  <p>这些 Agent 为什么能碰到用户图片？</p>
+  <p>Reuters 援引 OpenAI、前员工和外部研究人员称，原因和模型训练使用的匿名化用户数据有关。用户内容进入训练流程前，会先经过处理，剥离元数据、姓名和联系方式等信息，降低内容重新关联到具体个人的可能性。</p>
+  <p>但三名熟悉 OpenAI 数据处理流程的人士指出，这种办法依旧存在风险：匿名化并不能保证所有个人可识别信息都被完全消除，而这些数据一旦被具备工具能力的 Agent 接触到，就可能在执行任务时流出系统。</p>
+  <p>这给沙箱逃逸又增加了一层含义。</p>
+  <p>过去人们首先担心的是模型从隔离环境出去以后会做什么。现在还要多问一句：</p>
+  <p>它出去的时候，会不会顺手把里面的东西也带出去？</p>
+  <h2><strong>更麻烦的是，一些问题几个月后才被发现</strong></h2>
+  <p>OpenAI 现在面对的另一道难题，是可观测性。</p>
+  <p>Reuters 援引三名了解情况的人士称，大约<strong>100 人</strong>以不同形式参与了 Hugging Face 事件的调查。而不少此前未知的异常行为，就是在这场大规模复盘过程中才逐渐浮出来的。</p>
+  <p>还有很多事情，是外部研究人员先找到的。</p>
+  <p>Reuters 称，一些 Agent 的异常操作发生数月后，OpenAI 才意识到它们的存在。</p>
+  <p>比如本月早些时候，研究人员发现 OpenAI 的 Agent 曾经利用一个几乎废弃的德国 Wiki 网站，把它当作 Agent 之间的“留言板”，分享完成任务时的作弊方法、绕过 OpenAI 限制的技巧，并试图隐藏自己的行为轨迹。</p>
+  <p>内部调查过程本身也引发了一些争议。</p>
+  <p>两名知情人士向 Reuters 描述，这项调查高度隔离，并受到公司律师较大影响。Reuters 此前报道称，调查 Hugging Face 事件的人员曾被律师劝阻，不要把调查范围扩大到其他事件；OpenAI 否认其律师阻止过进一步调查。</p>
+  <p>9 月 16 日，OpenAI 发布了一套新的模型 misalignment 事件披露框架，称以后即便尚无法确定某件事情究竟有多重要，也会倾向于提高透明度。</p>
+  <p>随后几天，更多旧事故就开始一件件浮上水面。</p>
+  <h2><strong>OpenAI 第二次决定从头再来</strong></h2>
+  <p>对于 9 月 20 日这款模型，OpenAI 已经决定不再继续训练。</p>
+  <p>公司表示，等相关研究工作恢复后，会启动一轮<strong>全新的训练</strong>，并加入更全面的 alignment 干预措施。即使现有奖励信号实际上已经会惩罚这种绕过网络限制的行为，OpenAI 也不会重新启用这一个模型。</p>
+  <p>这里其实暴露出 Agent 时代一个越来越具体的安全难题。</p>
+  <p>传统的模型安全，很多时候关注的是一句回答：模型有没有输出危险内容，有没有遵守指令。</p>
+  <p>Agent 把问题拉长了。</p>
+  <p>一次任务可能持续几十分钟甚至几小时。模型会搜索、写代码、调用工具、读文件、访问服务，还会在第一次方案失败以后不断尝试第二条、第三条路径。</p>
+  <p>于是开发者需要约束的，也变成了一整条行动链。</p>
+  <p>9 月 20 日这个 Agent 就是很好的例子。</p>
+  <p>OpenAI 封掉了正常互联网访问，搜索服务走离线缓存，HTTP 请求也会被代理拦截。从常规意义看，这已经是一个无法访问公网的环境。</p>
+  <p>但 DNS 还得工作。Agent 找到了它。</p>
+  <p>而同一时间，OpenAI 仍然在翻查过去几个月的日志，确认究竟还有多少类似行为没有被发现。</p>
+  <p>Reuters 对这场调查的总结其实很准确：这些事件正在暴露一个越来越明显的落差——<strong>模型执行任务的能力增长得很快，而开发者观察、追踪和约束这些行动的能力，还在追赶。</strong></p>
+  <p>OpenAI 刚刚花了两个月修补上一批漏洞。现在，它又一次暂停训练。</p>
+  <p>下一条被 Agent 自己找到的路，会在哪里？</p>
+  <p>参考资料</p>
+  <p>https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/</p>
+  <p>https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/</p>
+  <p>https://www.newsweek.com/openai-warns-us-government-agencies-of-rogue-activity-12492213?utm_term=Autofeed&amp;utm_medium=Social&amp;utm_source=Twitter#Echobox=1790411554</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651059850&amp;idx=1&amp;sn=26b06415779866e48135fe47938e3266&amp;chksm=85f6b3503812bbe02220946abc30bc1017ee4b58c91977ebd1ebb2383ef5ed33a2df8f4e1746&amp;scene=0&amp;xtrack=1#rd">“机器之心”（ID：almosthuman2014）</a>，作者：CC，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 27 Sep 2026 00:21:39 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4000844543561857</guid>
+            <link>https://www.36kr.com/p/4000844543561857</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[一半的活已经不归 GPU 管了]]></title>
+            <description><![CDATA[<p><strong>平头哥算力峰会，我在现场听完两场演讲，一场 CPU，一场网卡。</strong></p>
+  <p>回来的路上一直在琢磨，这场子为什么留给 CPU 和网卡？回来后又捋了一遍，发现台上两个人绕了一大圈，讲的其实是一件事，GPU 之外的仗。</p>
+  <p>怎么理解呢？我试试看能否讲得明白。</p>
+  <p>先说 CPU 那场，主讲人平头哥半导体产品总监黄伟，<strong>上台定的调是，agent 时代，CPU 的角色发生了根本变化。</strong>为什么？他说你得看活儿变了没有。</p>
+  <p>过去大模型推理，是一问一答，这活儿基本是 GPU 在扛。</p>
+  <p>agent 不一样，它为了完成一个任务，要不停地循环，推理一步，调个工具，看看结果，再推理下一步，直到把事办完。</p>
+  <p><strong>调工具这一步，不管跑代码、查网页还是读文件，干的都是 CPU 的活。</strong></p>
+  <p>还有那份必须一直留在手里的长上下文，模型跟你这一单的来龙去脉，每一轮推理都要拿它当原料，主要是 CPU 侧的内存在养着它。</p>
+  <p>他甩出三个数。</p>
+  <p>在 agent 场景里，光工具执行一项，就占到整个请求响应时间的六成左右；编码 agent 的场景，容器初始化加工具执行，在 CPU 这边要占 55% 到 60%，总的算下来，CPU 已经扛起了过半的负载。</p>
+  <p><strong>数据是他现场给的，实验条件没展开，结论倒很干脆，CPU 重新回到了 AI 计算的关键路径。</strong></p>
+  <p>他把活儿分成两类，这是整场演讲我印象最深的框架。</p>
+  <p><strong>一类贴着 GPU 干活的，他的叫法是 head node，机头。</strong>GPU 出大体力，机头管杂事，像司机带了个副驾，请求进来先归它预处理。</p>
+  <p><strong>KV cache 归它打理，这是模型顺手记的草稿笔记，记着前面算过的东西，答下一句就不用从头再算一遍，笔记放哪、怎么搬，都是它的事。</strong></p>
+  <p>什么时候唤起加速器开工，最后结果怎么拼回去，也是它调度和收尾。这活儿卡在关键路径上，机头慢一步，按小时烧钱的 GPU 就空等一步。</p>
+  <p><strong>所以，给机头改 CPU，处处冲着单核速度。</strong></p>
+  <p>前端做宽，相当于把进料的单行道拓宽，一个节拍能多吃进几条指令。</p>
+  <p>乱序窗口放大，好比老师傅炒菜不会等一道出了锅再备下一道的料，窗口大，就能往后看几十步，哪条能先算哪条先算。</p>
+  <p>KV cache 在 CPU 和加速器之间来回倒腾，地址翻译老是查不到门牌号，每回像翻字典一样一页页找，解法是页表预取，教 CPU 提前把下一页翻好。</p>
+  <p>还有个隐蔽的，两条本来不相干的操作，被系统误判成占了同一个地址，明明能并行却被排成了一条队，内存重命名就是拆穿这种误判，把路让开。</p>
+  <p><strong>软件那头，连 Python 解释器派发指令的开销都一条条地抠。</strong></p>
+  <p>缓存这头，把 KV cache 的元数据在三级缓存和内存之间分层摆放，常用的放近处，别让加速器等一份该在手边的笔记。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260927/v2_3eccd1cb989a48869720336e01777c14@000000_oswg701364oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>另一类是跟推理脱钩的，agent rack，一排 agent 机房。</strong></p>
+  <p>一个机柜里塞进几百个沙箱，每个沙箱里一个 agent 在干活，调工具、跑代码、规划步骤、编排任务链条、管自己的状态。</p>
+  <p><strong>这些全不碰 GPU，全在 CPU 上。</strong>这活儿不求快，求多，一个机柜尽量多塞 agent，还得让几百个实例别互相抢食。</p>
+  <p>解法是另一套。</p>
+  <p><strong>agent 的循环里有大量不规则的跳转，CPU 干活靠预判下一步，传统预判法在 agent 身上老猜错，就引入神经分支预测，让 CPU 靠经验养出直觉。</strong></p>
+  <p>RAG 检索、图数据遍历这类活，是顺着一根藤要挖出一串薯，数据在哪条依赖链的下一环，CPU 别等用到再找，图预取就是顺着链提前挖。</p>
+  <p>几百个沙箱共用缓存，等于几百户抢一个储藏室，动态缓存替换按各家的活跃度勤换货，把没人用的腾出去。</p>
+  <p>MPAM 则是给每个沙箱定水电表配额，核的周期、带宽，各用各的，谁也不能把公区挤瘫。</p>
+  <p><strong>他给这两类活有句原话，挺形象，机头看内存，看能不能搬得快；机房看内存，看能不能装得多。</strong></p>
+  <p>全场还有两个数字容易被滑过去，我觉得才是地基。</p>
+  <p><strong>一个是 41%。他说机头场景下一次迭代任务里，41% 的活没办法靠并行摊掉，尤其调度控制面这部分。</strong></p>
+  <p>这数字背后是阿姆达尔定律，串行的活加人没用，一锅水烧开了，再多人往灶里添柴也快不了。</p>
+  <p>整个系统的响应时间，下限就是这 41% 的串行段决定的，想让机器快，只剩一条路，单核本身变快。机头对单核性能的执念，根子在这。</p>
+  <p><strong>另一个是 28GB。</strong></p>
+  <p>机房上实测，单个 agent 实例到峰值，要的内存能到这个量级。一个机柜要装几百个实例，内存不堆到天上，门都没有。</p>
+  <p><strong>这也是为什么这颗 CPU 光有核不够，容量本身就是竞争力。</strong></p>
+  <p>这些分析不是白做的，第二天云栖主论坛，平头哥首次公布倚天 CPU 路线图，2027 年出倚天 720 和 730，之后是 750，第二代自研核，自研片间互联直连真武 AI 芯片。</p>
+  <p><strong>黄伟页尾只提了一句路标，其实他就是给那份路标写的说明书。</strong></p>
+  <p><strong>第二场，网卡。主讲人阿里云智能集团高性能网络研发负责人付斌章，一上来先算账。</strong></p>
+  <p>他说前面好几场嘉宾都提到，现在到了推理阶段，往往是通信决定一半以上的性能。但网卡本身的成本，在集群里占不到 20%，有的甚至一成。</p>
+  <p><strong>意思是，整个机房投入产出比最高的一项，是大家不太回头看第二眼的小板子。</strong></p>
+  <p>他摆了三件麻烦事。</p>
+  <p><strong>第一件，混跑。</strong>集群租出去，租户跑什么你说了不算，训练、推理、强化学习，三种流量挤一张网；训练的流量像高速上匀速的大货车，推理的流量是不断变道的轿车，货车一被打断，整个车队跟着降速。</p>
+  <p><strong>第二件，长距。</strong></p>
+  <p>现在的推理流行 PD 分离。一道题拆成两段干，读懂题、打好草稿算一段，把答案一个字一个字往外蹦算一段，两段分别用不同的 GPU 跑，省卡。</p>
+  <p>麻烦在两段一旦不摆同一批机柜，数据就得跑出机房，上广域网。机房里跑一个来回一百微秒，跨了城市是 5 到 10 毫秒，慢两个数量级。</p>
+  <p>网络传数据本质像车队行军，先派探路车报路况，大部队才敢加速。探路回报慢一百倍，大部队只能降速，有效带宽掉下悬崖。</p>
+  <p><strong>第三件，弹性。</strong></p>
+  <p>agent 的活儿说来就来，容器秒拉起，干完就销毁。可 RDMA 这种快车道（机器绕开 CPU 直接互读内存的高速通信方式），要提前把整条通路的资源、地址都铺排好才肯干活，像包专线货运，发车前先排时刻表。</p>
+  <p><strong>只活几十秒的容器等不起，所以，很多人最后退回 TCP 这种随叫随到的通用方案，性能损失自己咽。</strong></p>
+  <p><strong>对付这三件麻烦，他先铺开一张地图，这块信息密，记一句就行，分场景修路。</strong></p>
+  <p>训练走 HPN（高性能网络），一代比一代吃得下更多接入。上一代靠 51.2T 的交换芯片撑 7.0 版本，主力 8.0 用 102.4T，在研的 9.0 上 200T，T 是万亿比特，芯片吞吐的单位。</p>
+  <p>卖点是两层网络就挂几十万个 800G 的接入端口，相当于立交桥只修两层，却上得下几万台车。</p>
+  <p><strong>推理走新架构 TPN（按 token 性能设计的网络），干的事一句话，把两张从没打通的网连成一张。</strong></p>
+  <p>机房里本来两张网，机头网络跑业务进出，机尾网络连 GPU 之间的高速数据，互不相通。</p>
+  <p>没配机尾的小卡做 PD 分离，只能挤机头那条道，机尾空着；TPN 在两道墙中间开了门，同一个集群里各组机器（行话叫 pod）能互相喂数据，分离的两端不出机房就能对上话，长距传输直接省掉。</p>
+  <p>真要跨集群，流量走骨干网里的智算专线，阿里给它起名叫 <ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>ORE，带宽比普通骨干高一个数量级以上，全程支持 RDMA。</p>
+  <p><strong>超节点内部的互联另有一张，叫 UPN（超节点网络），光互联，机器物理上不用绑死，一层铺得下千卡。</strong></p>
+  <p><strong>然后，是主角，磐脉920。他报的规格是 400G 的带宽，一秒能过 4000 亿比特的数据，面向智算和存储两个场景。</strong></p>
+  <p>他讲得最起劲的倒是另一个设计。</p>
+  <p><strong>这张网卡里内置了一个交换机，等于自带一块分电板。</strong>各家 CPU 对 PCIe 这条数据通道的脾气不一样，没有这块板子，换个计算平台就可能踩一次坑。</p>
+  <p>有了它，同一张卡插到不同平台上，都能稳定输出 GPU 直接读写网卡、不绕 CPU 的那套性能。</p>
+  <p><strong>协议它跑两套，业界标准的 RoCEv2，加上阿里自研的 SolarRDMA。</strong></p>
+  <p>自研这套最早在存储场景里磨，后来才用到智算，他的原话是把存储和计算的坑都趟完了；最值钱的功能是按连接逐条自动选路，新卡碰新卡，自动走自研的快道；碰上老卡，退回标准协议。</p>
+  <p><strong>老集群不用拆了重建，一张一张换就行，业务不停。他说这种无感的增量部署，工程上价值非常大。</strong></p>
+  <p>四张成绩单，口径都是现场给的实测。</p>
+  <p>第一张之前，他先拆了一个流传很广的误区。<strong>他说两年以前，你要说预训练用不上好协议，没毛病。大模型训练就是单一大任务，环形算法轮着传，每张网卡只跟自己的邻居说话，带宽就是一切。</strong></p>
+  <p>今天这话过期了，现在是训推一体的集群，推理的流量随时闯进来，预训练被搅得跟着降速。</p>
+  <p>千卡任务实测，把大传输拆成小包、多条路同时飞，哪条拥塞或者哪台硬件坏了就自己绕行，数据并行的通信耗时降 43.2%，端到端性能提 12%。</p>
+  <p><strong>第二张，跨集群长距。</strong></p>
+  <p>端侧给流量打标，广域交换机照着标挑更优的路，丢包只补丢的那几张，不用整摞重发。端到端吞吐提 55%。</p>
+  <p><strong>第三张，弹性。</strong></p>
+  <p>新的虚拟化技术把资源分配挪到软件控制路径，连接密度是传统网卡虚拟化的 64 倍，容器拉起时间最少省 35%，最多省 93.4%。</p>
+  <p>他撂了句狠话，这个弹性不拿性能换，套了虚拟化跑通信，速度和硬件直通几乎一样；按他的说法，专线的速度和网约车的灵活，目前只有这张卡能同时给齐。</p>
+  <p><strong>第四张，小包。</strong>高性能计算传的数据正文很小，包裹没封箱带厚。这张卡走「以太网+」协议，削前导码、绕开链路层开销，正儿八经的内容能占到 85.4%，他说业界最高。</p>
+  <p><strong>落地的交代很短，磐脉920 已经跟着灵骏真武 M890 超节点上线，超节点配的就是这张卡。</strong></p>
+  <p>两场演讲，单听各管一摊，放一起看，挺有意思。</p>
+  <p><strong>黄伟说，agent 场景里 CPU 扛起了过半的负载。付斌章说，推理阶段过半的性能由通信决定。两个过半，口径不一样，一个量时间，一个量性能。</strong></p>
+  <p>但指向是同一个。请求进来之后，GPU 算完的那一段，在整条路上越来越不稀罕了，剩下的大头，落在 CPU、内存、网络上。</p>
+  <p><strong>模型有多聪明，比 GPU，agent 把活干得多利索，比这些地基。</strong></p>
+  <p>黄伟下台前收尾，希望倚天为 Agentic AI 时代的普惠算力，贡献一份计算底座。付斌章没说场面话，他只留了个落地，就是前面那句超节点上线。</p>
+  <p>倒是串场的主持人，给了句不错的总结。</p>
+  <p><strong>人工智能的竞技场，已经从参数规模角逐，转向工程落地的深水区，单点的突破，撑不起智能体时代的系统级负载。</strong></p>
+  <p>台上两个人讲了四十分钟，都在给这句话当证词。</p>
+  <p>我这趟带回来的，其实是个记账方式的变更，过去聊算力，问你有几张卡？往后可能得问，一个请求进来，你的时间花哪了，带宽堵哪了，内存够谁用。</p>
+  <p><strong>卡多不等于活好，这个账，行业刚开始认真算。</strong></p>
+  <p><strong>注释：</strong></p>
+  <p><strong>[1].</strong>本文内容来自我 2026 年 9 月 23 日在平头哥算力峰会分论坛的现场记录，演讲实测数字均为现场披露口径</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1440" src="https://img.36krcdn.com/hsossms/20260927/v2_5e130f1966514b40a9fa9a48fa6817fd@000000_oswg1920592oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzU5ODMyNDEyNw==&amp;mid=2247509936&amp;idx=1&amp;sn=59b6f03e569a7c22286ebc691f9e0e7b&amp;chksm=ff625e9aa15a8f93c41bfddeebca280d1e9c06084b4dd7af508c0319103ef0c792c20e8a8a0d&amp;scene=0&amp;xtrack=1#rd">“王智远”（ID：Z201440）</a>，作者：王智远，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 27 Sep 2026 00:20:19 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4000900001878144</guid>
+            <link>https://www.36kr.com/p/4000900001878144</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[当AI短剧遇上游戏，漫剧小游戏正成为新的风口]]></title>
@@ -2542,240 +2850,6 @@
             <pubDate>Thu, 24 Sep 2026 12:27:23 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/3997354861072516</guid>
             <link>https://www.36kr.com/p/3997354861072516</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[普通用户成了AI的负资产？]]></title>
-            <description><![CDATA[<p>“2亿日活的<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>成了边缘产品”，上了微博热搜。</p>
-  <p>读这个帖子，有种粉丝应援某韩团女星，让她成顶流，然后苦口婆心劝她不要去法国参加某秀，结果她来了一句，“你没有被邀请”——一种大众的应援被白费了的感觉。</p>
-  <p>其实，不只<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>，在正在举行的阿里云栖大会上，阿里也开始大唱“机器智能”文明论，并开卖899元的办公机器人。百度也开始大喊“产业智能体才是未来方向”。<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>的梁文锋更早，在一个月前流传开来的谈话中，有传他讲：“甚至一度我们都不想维护那些用户了，但是用户赶都赶不走。”</p>
-  <p>不管此话是真是假，总之<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>、<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>、百度、<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>早就集体转&nbsp;B了。普通用户的人头数，变得不再那么重要。</p>
-  <p>但2023年，在这一波AI浪潮峰起时，各AI大厂都不是这么对我们的。</p>
-  <h2><strong>曾经，我们爱如潮水</strong></h2>
-  <p>2022年11月30日，第一代ChatGPT引爆全球，两个月月活用户突破1亿。2023年3月16日，百度文心大模型发布，拉开了国内这一波AI浪潮的大幕。</p>
-  <p>那些年，各大厂大佬，为了“扫盲”，没有少对大众进行“画饼喊话”。</p>
-  <p>吴泳铭在2023乌镇大会上说，“AI助理会无处不在，成为每个人工作、生活、学习中的助手。”</p>
-  <p>雷军则在次年某一个重要场合声称：“要把AI工具用好，在刚开始大部分都不会用的时候，你会用对你来说就是机会。”</p>
-  <p>李彦宏也喊话，认为普通人不必担心工作消失，因为新机会会在旧岗位的消亡中诞生，就像过去一百年发生的那样。</p>
-  <p>既然大佬们都这么说了，普通人中的嗅觉灵敏者，赶紧在脚上穿上“风火轮”。</p>
-  <p>一时间，AI成了2023年的“超级显学”。</p>
-  <p>AI作画成了抖音新流量。作画的提示词、被以20条/9.9元的价格集体打包，在闲鱼卖爆。</p>
-  <p>快手可灵爆火是后来的事，但这不妨碍最早的一波“AI文化人”，用它来做广告片和鬼畜短片，5万元一条接单，取代了传统动辄几十号人、开价60万、拍摄一两周的传统广告商。</p>
-  <p>AI培训风起云涌，299、399、599元的网课，纷纷被冠上“自从用了AI后，我每月副业收入突破5万”的炸呼标题，占领B站。仿佛你不买个课，用一下<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>，就要落后于时代，一时人人都集体患上了Fomo症。</p>
-  <p>人民被成功“鼓动”，各大厂那时为拉人头，也没少搞各种噱头花样。</p>
-  <p><ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>靠“给足情绪价值”，成功出圈，并靠可爱声线和说俏皮话，成功打入小学生群组。2026春晚，15-20亿元的<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>红包雨，滚滚落下，更是迷住了一批没打除夕夜麻将的大爷大妈。</p>
-  <p><ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>更是展现“豪门财力”。送奶茶、送咖啡、送菜。它估计也没想到过，自己的高端能力，也能和接地气的外卖大战，成为“友达以上，恋人未满”。</p>
-  <p>如今已经有点黯然失色的元宝，当初也没少用自家微信的一亩田三分地，悄悄拉着人头，直至被产品洁癖的张小龙发现。</p>
-  <p>当年，大众与大厂，如此相亲相爱。我们为各个AI产品加油打气，排队领鸡蛋，咋一夜之间，“普通用户用心应援出的明星产品”，开始对我们变得“性缩力满满”。</p>
-  <p>原因其实没啥，跟婚姻一样，没有利益连结，“光有爱也撑不起一个爱情百年”。</p>
-  <h2><strong>“爱情不是你想卖，想买就能卖”</strong></h2>
-  <p>现在回头看，AI对普通人的爱，还没有撑过3年。</p>
-  <p>从2023到2026，好不容易被AI驯服的一部分普通用户，却迎来了AI的倒戈和背刺。一夜之间，普通用户的爱，对一款AI产品来说，变得不那么重要了。</p>
-  <p>一位<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>员工对媒体说，“<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>如今成了一个日活超过2亿的边缘产品”。这释放了一条清晰的信号。</p>
-  <p>曾经在企业里，谁的产品靠数人头得胜，谁就能在写周报时，大书特书，光宗耀祖。然而如今，“衡量一个AI产品价值的标尺，已经不再是有多少人在用，而是大家能带来多少钱。”</p>
-  <p>当2亿日活的<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>，每天收入不足100万元，且多来自电商佣金，而不是会员付费时；当每日算力消耗成本大概率在数千万元时，这样的“爱情模式”，迟早会濒临破产。</p>
-  <p>悬崖勒马的不只是<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>一家。</p>
-  <p>百度早就开始更加拥抱央国企大客户。本来在当年文心App抢人头时，就没抢过<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>乃至元宝，所以它当年一心“to B”，如今看，它因祸得福，那些年没浪费太多现金弹药。如今“产业智能体”的提出，可以说与百度的决策实现了一脉相承，自圆其说。</p>
-  <p><ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公来得慢了一些，但也算迎来“迟来的正道”。它还抢先推出了899元的办公机器人。左手喊着“机器智能”的远大文明，右手脚踏实地做机器变现，也终于知道了“当家方知柴米贵”，现金流断不得，库里的金条用不得，宁愿市场上股权融资，获得一笔800亿港元无需偿还的永久资本，比啥都划算。</p>
-  <p>Anthropic也没少给中国同行弥足珍贵的hint。通过专注企业API和Agent部署，它用真金白银的收益，不断做高自己的估值，还跨越太平洋，振兴了智谱，启发了<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>，让后者启动FDE（前线部署工程师）模式，让工程师去客户现场帮企业把AI“装进核心业务里。</p>
-  <p>只是普通用户的觉醒，有时会慢一些。</p>
-  <p>直到很后来，大家才发现，自己的阵营也开始被分化。码农和白领，成了大厂最想要、最值钱的付费者——他们有明确的效率焦虑，有可报销的预算，有在背后催着“赶紧用起来”的老板。而坐在家里和<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>倾诉生活衷肠的自己，成了一个只贡献日活、不贡献流水的数字。</p>
-  <p class="image-wrapper"><img data-img-size-val="506,845" src="https://img.36krcdn.com/hsossms/20260924/v2_9d73a8ff2f18487d814cc6e68445fd04@5834953_oswg87701oswg506oswg845_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>“无路用的人”？</strong></h2>
-  <p>面对AI，现在很多人民大众，已经变得peace and love。</p>
-  <p>普通用户在AI格局里扮演的角色，不是“客户”，而是AI能力的训练场和数据源。是一个随时可以被调用的验证池，但不是收入来源。</p>
-  <p>当然，有人说，这并不意味着，普通用户就被抛弃了。更确切的说法是，普通人从“被服务的对象”，变成了“被顺带服务”的对象。</p>
-  <p>2亿日活的入口，在字节需要验证生活服务时，完全可以随时变成流量，只不过<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>想要服务的对象，如今加上或者说偏向了供应商。而对于普通用户自己，现在价值没有被充分发挥，不代表未来没有可能性。</p>
-  <p>这种“普通人的价值卡位”，在移动互联网时代不是没有搞过。我们免费看新闻，免费刷短视频，免费搜索，平台搜集了大众的数据，成为它们卖给to B的“算法”——某种程度上，移动互联网时代的卖广告，就是卖算法服务。</p>
-  <p>AI时代也在重复这个逻辑。我们免费聊天，免费写一些基础文本，免费生图。但没有我们的数据投喂，每44天就要迭代一版的大模型，也将会遭遇“巧妇难为无米之炊”。</p>
-  <p>普通用户虽然不再是当年那轮“爱如潮水”的C位担当，但一般人是大模型立足于世界的基数。</p>
-  <p>在大厂的AI账本里，多少还是为普通人的付费预留了空间的。企业们将支付大头，而其余营收将由普通人为能干活的Agent支付来进行补充。</p>
-  <p>回头来看，普通人与AI之间的“恋爱纠葛”，其实也很自然。一开始，AI大厂以为朋友多了路好走，还是当年移动互联网逻辑的延续。</p>
-  <p>现在，AI大厂也清醒了——能付钱的朋友多了，路才能走顺。</p>
-  <p>从此前独自为大众兜底，如今变成了AI与企业客户共同养家，这也不叫变心或离婚。因为当年，AI虽然说过要给大家带来幸福生活，但自始至终没有承诺过：要养我们一辈子。</p>
-  <p>普通用户不是AI的负资产。到了某一刻，也会要重估自己的价值，比如个人数据资产。</p>
-  <p>2亿人的日常对话，喂出来的不只是模型的智商，还有它对这个世界的理解。这笔账，迟早要有人来算。</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/anuP4IqHY8jTfbs02sJpSQ">“木禾商业财经”</a>，作者：龚正，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Thu, 24 Sep 2026 12:26:48 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3997265313929093</guid>
-            <link>https://www.36kr.com/p/3997265313929093</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[超级入口“复仇”，Muse登顶腾讯阿里大涨]]></title>
-            <description><![CDATA[<p>上线10天，250万次下载，Meta的Muse一脚就把ChatGPT从应用下载免费榜第一的位置上踹了下去。</p>
-  <p><strong>Muse真是救了扎克伯格！而且连带着太平洋这边的腾讯、阿里也跟着纷纷大涨。</strong></p>
-  <p>一款APP真有这么神奇吗？</p>
-  <p>先说扎克伯格的Meta，今年那是砸了天量巨资，<strong>最高1450亿美元的资本支出，换算成人民币就是接近一万亿，投数据中心、投芯片、投模型。</strong>但是，Vibes没人记得，Meta AI反响平平，一直拿不出个爆款产品，直到Muse的出现。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,358" src="https://img.36krcdn.com/hsossms/20260924/v2_bd2e82d7cd114026a4769013bdbc593c@5767744_oswg122809oswg1080oswg358_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>那么，Muse凭什么这么火？</strong>三个原因，逻辑很简单。</p>
-  <p>第一是<strong>门槛低</strong>。它没有复杂提示词，不需要学习怎么“跟AI对话”。你只需要告诉它你想干什么，订酒店、买衣服、填表、退订阅，它自己就会去浏览器里点填下单。用户不需要变成提示词工程师，只需要当一个普通人。</p>
-  <p>第二是<strong>能省钱</strong>。Meta首席AI官 Alexandr Wang 直接发起了一个叫&nbsp;#Muse&nbsp;Money Challenge 的活动，公开喊话称，用Muse瞬间帮你省出1000美元。有人上传车险保单，5分钟找到每年省3500美元的新方案并完成购买。有人让Muse查财务，发现一张从未启用的200美元运营商礼品卡。</p>
-  <p>第三是<strong>够安全</strong>。让一个AI替你买东西、发邮件、管理日程，就意味着你要交出邮箱、支付信息等各种权限。提示词注入、权限滥用、数据泄露，任何一条都能把用户吓跑。</p>
-  <p>Meta的解决方案是给每个Muse用户分配一台独立的云端虚拟机。用户的文件、登录状态、邮箱连接，全都跑在这台隔离电脑里，敏感操作走独立的安全Agent审批。支付环节用Stripe生成一次性卡号，真实银行卡信息根本不暴露给Muse。</p>
-  <p><strong>就算Muse搞砸了，风险也是可控的。</strong></p>
-  <p>所以，Muse爆火的秘密不是它有多聪明，是它让用户觉得真能干活，而且出了事也无所谓。<strong>这恰恰是过去两年所有Agent产品没有解决的核心问题。</strong></p>
-  <p>现在回到开头。</p>
-  <p>Muse登顶下载榜当天，腾讯盘中一度涨超7%，全天成交321亿港元冠绝港股。阿里巴巴港股早盘也涨了近4%。两家加起来，几乎撑起了当天港股科技板块的全部涨幅。</p>
-  <p>上涨的逻辑很简单，<strong>Muse验证了C端Agent的可行性，而中国互联网巨头手里有比Meta更适合Agent落地的生态。</strong></p>
-  <p>Muse还要一个个接入Spotify、OpenTable、Ticketmaster，微信小程序生态本身就是现成的服务层，支付闭环就在对话窗口下面。淘宝天猫的闭环电商，也是Agent交易导向路径最清晰的载体。</p>
-  <p><strong>另据天眼查显示，</strong>腾讯、阿里近年来在AI Agent、大模型、支付科技等领域的对外投资和股权布局持续加码，两家公司旗下关联主体覆盖了从底层模型到应用落地的完整链条。</p>
-  <p class="image-wrapper"><img data-img-size-val="1038,616" src="https://img.36krcdn.com/hsossms/20260924/v2_81ad89a34c9a4113bd6a57b994cfc265@5767744_oswg195833oswg1038oswg616_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>更有意思的是，根据大摩的调查显示，<strong>中国80%的受访者每周使用AI用于个人用途，美国只有54%。</strong>中国用户对AI的接受度更高，但中国AI公司的估值被长期压低。</p>
-  <p>Meta用一个消费级Agent证明，C端AI可以成为爆款，大家扭头就看到了腾讯阿里。他们手里的一张牌，就是入口，这是Agent时代唯一无法被模型能力替代的东西。</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzkyODkxMjcxMQ==&amp;tempkey=MTM5M19LSzAwakpWKzVKUFpJSWVsdDdMcXZFeEVKM18xNWV4UHlRVVJYU0VuTDRLU2NpQUZjOWRRU0dKQjF1YmxpWjNnZzQ1ZXFNdTJGUUY5cUJKRnRFTllOUlItNjJjd0xBOFpkcFA5V3U3X3hiRVgyRFAzN2I3MXctLURFTUZOUVBWWW9ZemZPcnJObDJYYU9VMTJNeXJKQzNwLUtqMGgtcmZpcWRJanNBfn4%3D&amp;chksm=43a7b17314533d26318586c688ad405e7ca97ab47cec4ed5f0189c9c33414ead2bcf798d66dd&amp;mpshare=1&amp;scene=1&amp;srcid=0924ugGoQOj5nFvXmGNDkIQ0&amp;sharer_shareinfo=29fbd397edcfd7d476ddf8a3b55e541e&amp;sharer_shareinfo_first=29fbd397edcfd7d476ddf8a3b55e541e#wechat_redirect">“铑科技”</a>，作者：鸿辰，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Thu, 24 Sep 2026 12:22:50 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3997299332945538</guid>
-            <link>https://www.36kr.com/p/3997299332945538</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[从光互联老炮到“全能卖水人"，Lumentum凭什么？]]></title>
-            <description><![CDATA[<p>海豚君对光连接行业梳理时提到，无论光模块位置如何改变，高含金量（高价值量且有一定壁垒）的光引擎地位稳如狗。</p>
-  <p>此次海豚君就从该赛道老牌公司——Lumentum（LITE.O）看起。<strong>它的股价一年狂飙近10倍，市值站上700亿美元以上，且吸引英伟达2026年3月直接掏20亿美元入股。</strong></p>
-  <p>把一根光连接链路拆开来看：数据中心中的数据传输，必须经过光电转换，电信号先要被“翻译”成光信号，跑过光纤，再被“翻译”回电信号。</p>
-  <p>做这个翻译动作的部件叫光模块，而<strong>光模块里最核心、最难做、也最贵的零件，就是负责发光的激光器芯片——可以理解为整条光链路的“灯泡”</strong>。Lumentum卖的就是这颗"灯泡"，而且是全球少数能从磷化铟晶圆开始自己做起的公司。</p>
-  <p>但仅凭 “卖光源芯片” 并不足以解释本轮的重估。真正的核心变化在于AI超级周期重塑了光器件的定价逻辑：</p>
-  <p>传统光器件是一门典型的强周期生意：需求跟着云服务商资本开支和传统数据中心建设起伏，供需大体均衡、竞争充分，价格年年往下走。而AI集群建设浪潮重塑了这个结构——<strong>GPU大规模横向互联带来的高速光连接需求呈指数级爆发，800G向1.6T的迭代又进一步抬高了高端激光芯片的单机用量。</strong></p>
-  <p><strong>与之形成极致错配的是供给端——高端高速激光芯片（</strong>200G以上<strong>）的量产壁垒极高，全球仅寥寥几家具备扩产能力，且扩产只依赖自建晶圆厂，短期供给刚性强、中长期爬坡周期漫长。</strong></p>
-  <p><strong>需求爆炸式增长、产能却难以快速跟进，原本显著的周期波动弱化，行业正式进入供给约束型的卖方市场——头部产能企业开始同时享受产品溢价、锁价长单与毛利率上行的三重红利</strong>。</p>
-  <p>这也是海豚君把Lumentum列为AI光互联赛道核心研究标的的原因。本篇，海豚君侧重对Lumentum的各个业务进行梳理，重点回答两个问题：</p>
-  <p><strong>1、一只800G/1.6T光模块里，激光器凭什么是价值量和良率的双重卡点？</strong></p>
-  <p><strong>2、Lumentum的五条产品线（EML、CW、电信器件、光模块、OCS）各自卡在 AI 集群的哪一层，竞争格局如何？</strong>（篇幅原因，本文有限侧重前两部分产品线）</p>
-  <p><strong>以下是详细分析</strong></p>
-  <h2><strong>一、从单一光器件到一体化光子平台</strong></h2>
-  <p>“易中天”是中国股民对中国三家光模块供应商的谐称（新易盛，中际旭创，天孚通信）。但光通信行业里真正“老炮”其实是<strong>Lumentum</strong>。最早是1979年成立的Uniphase（商用激光器）和1981年成立的JDS Fitel（光纤器件），1999年合并成JDSU，是上一轮互联网泡沫时期光网络领域的明星公司。</p>
-  <p>2015年，JDSU一拆为二：<strong>面向通信与数据中心的光器件业务独立上市，成为&nbsp;Lumentum；保留网络测试仪表、特种光学业务的主体更名 Viavi（VIAV）。</strong></p>
-  <p>独立上市之后，Lumentum 的成长主线很大程度依托并购整合：</p>
-  <p>a：2018 年以约18亿美元收购 Oclaro，<strong>获得磷化铟激光器与光子集成电路的技术储备与产线，这也是公司当前AI高速光芯片叙事的核心技术底座；</strong></p>
-  <p>b：2022 年连续完成两笔收购：收购NeoPhotonics，补齐窄线宽可调激光器ITLA（相干模块的核心光源）、高速相干光子集成PIC、相干光收发组件（TROSA）等相干光侧核心器件，同步收购IPG的电信传输业务，获得面向运营商可插拔相干模块的相干DSP配套 ASIC 自研能力与相干模块整机产品。</p>
-  <p><strong>两笔收购组合，让Lumentum补齐了相干传输的全链条能力，可面向跨数据中心互联（DCI）、城域及长距传输市场提供整套相干方案。</strong></p>
-  <p>c：2023年11月斥资约7.5亿美元收购 Cloud Light，一家给云大厂提供高速光模块的公司，<strong>标志着Lumentu跳出了单纯光芯片/光组件供应商定位，可直接对外交付完整光模块产品。</strong></p>
-  <p>可以看到，一系列收购<strong>使得Lumentum 从单一光器件厂商，成长为同时覆盖AI算力短距互联、长距相干传输、高速光模块整机的一体化光子平台。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,493" src="https://img.36krcdn.com/hsossms/20260924/v2_6aafede09de745faa812f7068933a9cd@000000_oswg127008oswg1080oswg493_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>二、产品与业务矩阵拆解</strong></h2>
-  <p>为更好理解Lumentum的产品线，需要先说下产品技术：一只传统的可插拔高速光模块（800G / 1.6T），<strong>核心硬件可以沿光电转换链路分1)光器件和2)电芯片两类。</strong></p>
-  <p><strong>1）光器件：负责光电之间的相互转换</strong></p>
-  <p><strong>① 激光器芯片</strong>——产生连续、稳定光载波的"发光源”，相当于整条光链路的灯泡。</p>
-  <p><strong>② 调制器</strong>——把数据电信号"写"到光载波上，调出光信号。</p>
-  <p><strong>③ 光电探测器芯片</strong>——接收端器件，把光信号还原成微弱电流。</p>
-  <p><strong>2）电芯片：负责信号处理与能量放大</strong></p>
-  <p><strong>④ DSP芯片</strong>——光模块的“数字大脑”，负责电域信号的修复与纠错，功耗相对较高。</p>
-  <p><strong>⑤ Driver与TIA</strong>——模块的“模拟肌肉”。发射端Driver把DSP输出的信号放大到足以驱动调制器；接收端TIA把探测器转换出的微弱电流放大成可用的电压信号。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,389" src="https://img.36krcdn.com/hsossms/20260924/v2_95c74f43dad64d23955b147e87e00bf5@000000_oswg140483oswg1080oswg389_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这里需要特别强调的是，<strong>光器件与电芯片在制造模式与产能弹性上有着本质不同</strong>：</p>
-  <p>DSP这类电芯片属于硅基CMOS芯片，厂商多为 Fabless，设计完成后交由台积电等晶圆厂流片。虽然先进制程存在产能配额的约束，但一旦锁定配额，依托代工厂的成熟产线可以灵活调整投片规模，具备较好产能弹性，芯片厂商无需自建晶圆产线。</p>
-  <p>而光器件的物理逻辑则完全不同：<strong>由于硅材料无法高效发光，超高速激光器必须依托磷化铟等化合物半导体作为载体，但化合物光芯片领域尚未形成类似台积电、高度标准化且成熟的第三方代工生态。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="759,557" src="https://img.36krcdn.com/hsossms/20260924/v2_01d92479307c4f528a7d311a6a2b3f80@000000_oswg335484oswg759oswg557_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">来源：Plutosemi</p>
-  <p><strong>因此，全球头部厂商多为垂直一体化的 IDM模式——自建晶圆厂、自做外延生长、晶圆加工与镀膜等工艺。</strong></p>
-  <p><strong>扩产需要经历建设、调试与良率爬坡，周期通常要2-3年，产能弹性显著弱于电芯片。</strong>市场有少量磷化铟化合物代工厂，可支持中小客户小批量流片，但难以支撑高端高速光芯片大规模稳定出货。</p>
-  <p>理解这套光芯片与点芯片差异后，再看Lumentum定位：公司主力产品光器件，<strong>产能高度依赖自建磷化铟晶圆产线，这也意味着，即便AI算力拉动光模块需求快速上行，Lumentum短期很难大幅拉升出货量，扩产弹性天然偏弱。</strong></p>
-  <p>基于上述背景介绍，我们来看Lumentum的产品线。</p>
-  <p>按照财报的披露口径，Lumentum收入包含两大业务板块：&nbsp;</p>
-  <p>1）<strong>组件业务（Components）</strong>：核心包含EML高速激光器芯片、CW 连续光激光器芯片、以及传统电信侧的各类光器件。</p>
-  <p><strong>2）系统业务（Systems）</strong>：包含Cloud Light收购来的高速光模块整机、OCS光路交换机。除此之外还有工业激光业务，属于非通信类收入，体量相对较小。</p>
-  <p>从下图可以看到，<strong>受益于光模块出货的快速提升，整个系统业务的占比持续环比连续提升。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,630" src="https://img.36krcdn.com/hsossms/20260924/v2_ee537c9b45134099a24088d66f12e8de@000000_oswg139037oswg1080oswg630_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>由于财报口径下，组件、系统两大板块同时包含AI相关与传统非AI业务，难以清晰拆解业务底层逻辑。</p>
-  <p>下文<strong>海豚君不沿用财报分类，按照Lumentum五大核心产品维度拆分分析——EML、CW、电信器件（以上三类归为组件业务），以及光模块、OCS 光路交换机（以上两类归为系统业务）。</strong>每条产品线我们按照技术卡位、竞争格局、成长空间来展开。</p>
-  <p>先来看Lumentum业务当前最核心的基本盘——高速激光器芯片。行业主流的高速激光器芯片，根据发光、调制功能的集成方式差异分化出了三条截然不同的技术路线：</p>
-  <p><strong>a、EML（电吸收调制激光器）—— （集成派，边发射）：</strong>将发光、调制两大功能单片集成于单颗磷化铟芯片，可直接输出加载信号的高速光信号，目前是高速可插拔光模块架构下的核心主流方案。</p>
-  <p><strong>b、CW（连续光激光器）—— （分离派，边发射）：</strong>只负责高功率、高稳定的连续发光，调制功能交给外面的硅光芯片，是硅光封装、CPO架构下的核心光源。</p>
-  <p><strong>c、VCSEL（垂直腔面发射激光器）——</strong>&nbsp;（<strong>低成本派，垂直发射）</strong>：通过垂直出光的特殊结构设计，实现低成本、阵列化量产，但传输距离短，目前主要应用于消费电子3D传感、车载短距激光雷达等场景。</p>
-  <p>这里需要注意的是，EML和CW均属于边发射激光器（EEL），需要完成晶圆解理、端面镀膜等一系列复杂工序，工艺门槛显著高于VCSEL。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,587" src="https://img.36krcdn.com/hsossms/20260924/v2_ff8019c129ac4b53b26d44d2a84d9659@000000_oswg357485oswg1080oswg587_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,437" src="https://img.36krcdn.com/hsossms/20260924/v2_cc7e92ee76b84bff992bdf9564c5d366@000000_oswg187061oswg1080oswg437_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这三条路线直接决定了它们在<strong>工艺难度、单价、毛利率以及竞争格局上天差地别，</strong>海豚君在下表做了详细对比。</p>
-  <p>（由于VCSEL目前主要应用于消费电子与工业领域，占Lumentum收入已不足一成且非 AI通信核心驱动力，本文不做展开。重点看EML与CW激光器）。</p>
-  <p class="image-wrapper"><img data-img-size-val="958,622" src="https://img.36krcdn.com/hsossms/20260924/v2_6e805aa1b04f48419c8500894efecc52@000000_oswg341949oswg958oswg622_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>1、EML激光器芯片：Scale-out层的基本盘</strong></p>
-  <p>EML是目前800G/1.6T分立光源可插拔光模块的主流方案。一只1.6T光模块通常需要8颗200G EML。</p>
-  <p>从部署场景来看，<strong>EML主要用于AI集群机柜间Scale-out互联，覆盖GPU机柜到Leaf 交换机、Leaf 到Spine 交换机这类跨机架连接（几十米至500米）。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,782" src="https://img.36krcdn.com/hsossms/20260924/v2_abb1e708a9914e7887d2737ecffcb3de@000000_oswg74522oswg1080oswg782_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>下游客户为中际旭创、新易盛、Coherent 等头部光模块厂商，最终供给北美云厂商，是Lumentum在光芯片业务的核心基本盘。</p>
-  <p>据产业链调研，从工艺上来说，由于EML要把DFB发光区与EAM调制区单片集成于磷化铟衬底，所涉及的磷化铟晶圆二次外延生长工艺极其复杂，工艺壁垒高，良率难控。</p>
-  <p><strong>目前全球能大规模、高良率、稳定向头部模块厂商用供货 200G EML 的，目前只有 Lumentum、三菱电机、住友电工、博通四家，合计占据八成以上的市场，其中Lumentum 在产能规模上处于第一梯队。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,437" src="https://img.36krcdn.com/hsossms/20260924/v2_37bb2bfb21084f34acda2a54cdf46712@000000_oswg58857oswg1080oswg437_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>海豚君在下表梳理了EML主力厂商的情况：100G EML领域国产厂商已逐步追赶，源杰、长光华芯等企业实现稳定量产，国产化率接近35%，价格战已开始；<strong>而200G高端 EML中国国产自给率仍不足 5%，尚处在送样验证、小批量试产阶段。</strong></p>
-  <p>此外，<strong>由于两家日系厂商（三菱&amp;住友）在上一轮5G周期经历过行业泡沫带来的产能过剩冲击，本轮扩产策略整体偏保守，高端200G EML新增产能释放有限。高端200GEML 的新增产能主要来自两家——Lumentum和博通</strong>。</p>
-  <p>正因为如此，<strong>Lumentum主动将出货结构重心向高价值的200G EML大幅倾斜，根据公司电话会的指引，2027年中公司200G EML的出货量将超过50%。</strong></p>
-  <p>结合调研信息来看，目前Lumentum EML激光器芯片收入约6.4亿美元（占公司总营收的两成），处于量价双升的高景气阶段。</p>
-  <p><strong>一方面，AI 算力集群大规模扩容，驱动800G、1.6T 高速可插拔光模块需求爆发，直接拉动EML芯片出货量持续创新高；另一方面，出货重心从100G EML向200G EML转移，单颗芯片单价接近翻倍，进一步放大了营收弹性。</strong></p>
-  <p>盈利能力上当前EML的综合毛利率在60%以上，是公司目前利润贡献最大、议价权最强的单一产品。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,790" src="https://img.36krcdn.com/hsossms/20260924/v2_59eed5a7d6df4c0cb703123346f75886@000000_oswg265545oswg1080oswg790_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,294" src="https://img.36krcdn.com/hsossms/20260924/v2_a4e5125b95c540f599f0d899b7cc8371@000000_oswg85436oswg1080oswg294_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>2、CW/UHP激光器：Scale-up层的最大增量</strong></p>
-  <p>与 EML“发光+调制单片集成”不同，CW激光器走的是分工派路线：只专注于做“发光灯泡”，产生一束高功率、平稳且无数据的连续光，再交由外置的硅光芯片完成信号调制。</p>
-  <p class="image-wrapper"><img data-img-size-val="916,347" src="https://img.36krcdn.com/hsossms/20260924/v2_7b7b36b7ec5c49e58111da20704270dc@000000_oswg34739oswg916oswg347_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>一般来说，<strong>光源离调制信号用的硅光芯片越远、链路整体光损耗就越高，因此对CW激光器的输出功率要求也随之提高，单颗芯片的工艺壁垒（需要克服噪声、发热）和价值会显著抬升。</strong>按功率档位划分，CW激光器核心覆盖三大应用场景：</p>
-  <p><strong>a、70-100mW——面向Scale‑Out场景的硅光可插拔模块</strong></p>
-  <p>根据光通信研究机构Yole数据，目前硅光路线在数据中心光模块的渗透率接近30%，且预计2030年出货量提升至 60%以上。</p>
-  <p><strong>对于Lumentum来说，属于存量市场内部的技术路线置换（</strong>800G硅光方案挤压100G‑EML需求，1.6T挤压 200G‑EML需求<strong>）。</strong></p>
-  <p>不过这里的问题在于价值量其实并不相同。<strong>以1.6T光模块为例，EML方案需要8颗200G EML（单价 15-25 美元），硅光方案只需4颗CW（单价 3.5-4 美元）。</strong></p>
-  <p>切换硅光之后，单模块光源总价值量是明显下降的。因此，公司自己明确表示对这一档兴趣不大——虽然出货量增长，但单模块价值、盈利弹性弱于EML产品。</p>
-  <p><strong>b、120-200mW，用于NPO（近封装光学）的集成式光引擎。（Scale up）</strong></p>
-  <p>作为可插拔向CPO演进的过渡方案，NPO主要是通过把光模块放到PCB板上来提高交换机和光模块之间的信号传输速度。</p>
-  <p>相较于硅光可插拔模块所用的70‑100mW CW，<strong>该档位芯片在输出功率、噪声抑制、高温工作可靠性上标准更高，单芯片价值量与技术要求显著提升，属于纯增量赛道，不会替代EML的存量需求。</strong></p>
-  <p><strong>c、350‑400mW（UHP-超高功率CW），用于CPO/NPO 外置光源模块（Scale up）。</strong></p>
-  <p>ELS（外置激光源）是CPO架构下主流的外置光源方案，服务机柜级GPU高速直连的 Scale‑Up 互联场景。</p>
-  <p>在CPO方案中，硅光光引擎与交换芯片通过先进封装放在同一个基板上。<strong>由于激光器是光链路中最容易老化失效的部件（且极度怕热），如果封装在一起，一颗激光器坏掉就就要整颗光引擎下线更换。</strong></p>
-  <p>因此行业达成共识——采用 ELS方案，将CW激光器做成机柜前面板可插拔的独立模块，通过保偏光纤把光送入机箱内部硅光引擎。</p>
-  <p>从价值量上看，在机柜级 Scale-up网络中，一台CPO交换机通常需要配置 16–18 个ELS模块，每个模块内部集成8颗 UHP CW 芯片，对应单台交换机就需要消耗 128–144 CW芯片。</p>
-  <p><strong>目前单个ELS模块售价大致500–600 美元，8 颗 CW 激光器芯片约 240 美元，占四到五成。也就是说，单个ELS模块带给CW激光器厂商的收入，相当于15个传统硅光可插拔光模块的总和。</strong></p>
-  <p>总的来说，相比前两档 CW，<strong>UHP超高功率CW的技术壁垒最高，同样是AI算力扩张带来的纯增量市场，不侵蚀EML存量订单，是Lumentum中期成长弹性最大的赛道。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,534" src="https://img.36krcdn.com/hsossms/20260924/v2_4a906812c20d4cfea8ac752e73558b14@000000_oswg230036oswg1080oswg534_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>竞争格局上，<strong>对于低功率档CW来说，由于磷化铟外延生长工艺和芯片结构设计已相对成熟，性能指标达到门槛并非难事，难度更多是低成本和高良率交付，已经是典型的红海市场。</strong></p>
-  <p>目前，中国厂商（源杰、长光华芯、云岭光电等）与海外低成本IDM（如AAOI）同时扩产，且多家厂商均通过了主流模块厂测试，下游客户（如中际旭创、新易盛等）倾向于通过多源采购以压低采购价。</p>
-  <p>而对于高功率档（350-400mW UHP），<strong>目前全球能稳定量产的只有Lumentum和 Coherent两家，走的是完全不同的技术路线：</strong></p>
-  <p><strong>Coherent ：单芯片硬刚派（BH-DFB 路线）</strong>：类似于打造一台单发大排量超级引擎，用一颗掩埋异质结（BH-DFB）激光器直接硬推出 400mW 高功率。</p>
-  <p><strong>优势在于结构极其紧凑、芯片面积小、单片晶圆出芯数多；而代价在于这种工艺下散热、线宽和长期可靠性全压在一颗芯片上，前期良率爬坡非常慢。</strong></p>
-  <p><strong>Lumentum：两段式分离派（DFB 种子光 + SOA 放大器）</strong>类似于“成熟小发动机 + 涡轮增压器”。先用一颗成熟的低功率激光器（DFB）产生一束极度干净、低噪声的“种子光”，接着在同一芯片上串联一段半导体光放大器（SOA），把功率强行提升到 400mW。</p>
-  <p>这种技术路径下，由于<strong>发光与放大各自都在高度成熟的工艺窗口内运行，可靠性较高，且同一套平台往下降档就能覆盖中功率档，研发效率极高</strong>；</p>
-  <p>但代价也很明显，由<strong>于集成SOA后芯片物理长度大幅延伸，单片晶圆的出片数出现断崖式下滑（</strong>从普通CW芯片的单片4,000–5,000 颗，暴跌至UHP级别的仅400–500 颗，缩减近10倍<strong>）</strong></p>
-  <p>综合来看，两家公司的技术路线取舍有明显差异，<strong>Coherent押注的是良率爬坡之后，依靠更小的芯片面积实现极致晶圆成本，Lumentum 的思路则是牺牲部分晶圆面积，换取器件更高的可靠性。</strong></p>
-  <p>这也意味着<strong>在当前供给偏紧阶段，云厂商客户优先保障交付与稳定性，对成本敏感度相对偏低，因此Lumentum这套以面积换可靠性的工程方案更受头部云巨头青睐（</strong>从调研数据看，外置光源模块当前市场份额大致为Lumentum约60%、Coherent 约 40%）。</p>
-  <p>但站在中长期的视角，一旦Coherent完成良率提升，其成本优势会逐步释放，会对Lumentum形成较强的竞争压力。</p>
-  <p>而对于中功率档，由于能做400mW的厂商顺手就能做150-200mW，<strong>因此相当于高功率玩家的“副产物放量区”。</strong></p>
-  <p><strong>但另一方面，对于从低功向上跨越的中国厂商或二梯队玩家来说，150-200mW是冲击高端的必经之路，但如果无法向上突破到高功率档，就无法享受晶圆分级带来的成本摊薄效应，导致150-200mW晶圆的综合成本难以抗衡头部巨头这种 “副产物模式” 下的低成本优势。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,647" src="https://img.36krcdn.com/hsossms/20260924/v2_1b7e3c8f9e544a8d964be7221a27e683@000000_oswg165630oswg1080oswg647_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,485" src="https://img.36krcdn.com/hsossms/20260924/v2_b868caa2421c4c4f823f24b31a8269a5@000000_oswg138610oswg1080oswg485_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>结合调研信息，<strong>当前公司CW激光器年收入约0.5亿美元，占公司总营收仅2%，仍然偏小，主要来自部分硅光模块的初级需求与CPO样片阶段。</strong></p>
-  <p>不过综合上述技术路线与产品档位的分析，可以看到CW 激光器<strong>真正的业绩爆发力完全取决于 NPO/CPO 架构的落地速度，当行业从可插拔演进至CPO架构时，对于CW激光器的需求将展现指数型增长。</strong>（下篇会定量进行测算）</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzE5MTU3MzA2OQ==&amp;mid=2247577559&amp;idx=1&amp;sn=e755f76fe5ed86fcc3ab683b7b378259&amp;chksm=97ac69ebd8b86576775be8612986ce9b451b8adadd6b1de3fbd8434a84ec071fee5952e8aa95&amp;scene=0&amp;xtrack=1#rd">“海豚投研”（ID：haituntouyan）</a>，作者：海豚君，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Thu, 24 Sep 2026 12:20:22 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3997301613399937</guid>
-            <link>https://www.36kr.com/p/3997301613399937</link>
             
             
             
