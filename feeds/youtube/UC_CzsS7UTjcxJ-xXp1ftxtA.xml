@@ -11,6 +11,52 @@
  </author>
  <published>2012-02-21T04:08:32+00:00</published>
  <entry>
+  <id>yt:video:TVMyOJ_3Gxo</id>
+  <yt:videoId>TVMyOJ_3Gxo</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build A Reasoning Model From Scratch 5: Inference Scaling 2 (Logprob Scoring, Self-Refinement)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TVMyOJ_3Gxo"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-09-26T13:15:07+00:00</published>
+  <updated>2026-09-26T13:15:07+00:00</updated>
+  <media:group>
+   <media:title>Build A Reasoning Model From Scratch 5: Inference Scaling 2 (Logprob Scoring, Self-Refinement)</media:title>
+   <media:content url="https://www.youtube.com/v/TVMyOJ_3Gxo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TVMyOJ_3Gxo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This second video on inference-time scaling, introduces different scoring functions to break ties in majority voting and also introduces self-refinement. 
+
+- Reasoning playlist: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs
+- Reasoning Book: https://amzn.to/4aAKiFY
+- Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
+
+- LLMs from Scratch book: https://amzn.to/4fqvn0D
+- LLMs from Scratch repo: https://github.com/rasbt/LLMs-from-scratch
+- LLMs from Scratch playlist: https://www.youtube.com/watch?v=yAcWnfsZhzo&amp;list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11&amp;index=1
+
+00:00 Introduction and inference-time scaling recap
+05:02 Loading the pretrained LLM
+08:00 Comparing and scoring model answers
+10:18 Building a rule-based scorer
+17:53 Token probabilities and sequence likelihood
+26:47 Computing token probabilities in PyTorch
+30:12 Token indexing and shifted targets
+37:27 Log probabilities and numerical stability
+45:57 Scoring answers with average log probabilities
+56:24 How self-refinement works
+59:07 Generating critiques and revised answers
+1:01:00 Implementing the self-refinement loop
+1:05:57 MATH-500 evaluation results
+1:07:35 Takeaways and next steps</media:description>
+   <media:community>
+    <media:starRating count="66" average="5.00" min="1" max="5"/>
+    <media:statistics views="4023"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Zx5AfEg-T2Y</id>
   <yt:videoId>Zx5AfEg-T2Y</yt:videoId>
   <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
@@ -30,8 +76,8 @@
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="753"/>
+    <media:starRating count="82" average="5.00" min="1" max="5"/>
+    <media:statistics views="2061"/>
    </media:community>
   </media:group>
  </entry>
@@ -57,8 +103,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 Article on coding an agent harness: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent</media:description>
    <media:community>
-    <media:starRating count="112" average="5.00" min="1" max="5"/>
-    <media:statistics views="4135"/>
+    <media:starRating count="135" average="5.00" min="1" max="5"/>
+    <media:statistics views="4654"/>
    </media:community>
   </media:group>
  </entry>
@@ -83,7 +129,7 @@ Article on coding an agent harness: https://magazine.sebastianraschka.com/p/comp
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="441"/>
+    <media:statistics views="461"/>
    </media:community>
   </media:group>
  </entry>
@@ -134,8 +180,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="140" average="5.00" min="1" max="5"/>
-    <media:statistics views="10886"/>
+    <media:starRating count="144" average="5.00" min="1" max="5"/>
+    <media:statistics views="11153"/>
    </media:community>
   </media:group>
  </entry>
@@ -160,7 +206,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="2551"/>
+    <media:statistics views="2559"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,8 +263,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="192" average="5.00" min="1" max="5"/>
-    <media:statistics views="16362"/>
+    <media:starRating count="194" average="5.00" min="1" max="5"/>
+    <media:statistics views="16503"/>
    </media:community>
   </media:group>
  </entry>
@@ -281,8 +327,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="218" average="5.00" min="1" max="5"/>
-    <media:statistics views="16041"/>
+    <media:starRating count="223" average="5.00" min="1" max="5"/>
+    <media:statistics views="16168"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,8 +399,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1195" average="5.00" min="1" max="5"/>
-    <media:statistics views="119625"/>
+    <media:starRating count="1197" average="5.00" min="1" max="5"/>
+    <media:statistics views="119791"/>
    </media:community>
   </media:group>
  </entry>
@@ -404,8 +450,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="694" average="5.00" min="1" max="5"/>
-    <media:statistics views="33932"/>
+    <media:starRating count="703" average="5.00" min="1" max="5"/>
+    <media:statistics views="34305"/>
    </media:community>
   </media:group>
  </entry>
@@ -451,7 +497,7 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
     <media:starRating count="468" average="5.00" min="1" max="5"/>
-    <media:statistics views="19021"/>
+    <media:statistics views="19064"/>
    </media:community>
   </media:group>
  </entry>
@@ -475,8 +521,8 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
-    <media:starRating count="86" average="5.00" min="1" max="5"/>
-    <media:statistics views="4668"/>
+    <media:starRating count="88" average="5.00" min="1" max="5"/>
+    <media:statistics views="4712"/>
    </media:community>
   </media:group>
  </entry>
@@ -531,8 +577,8 @@ Chapters:
 50:00 Transparent open-source training codebases
 52:00 Build a Reasoning Model From Scratch</media:description>
    <media:community>
-    <media:starRating count="1359" average="5.00" min="1" max="5"/>
-    <media:statistics views="34579"/>
+    <media:starRating count="1361" average="5.00" min="1" max="5"/>
+    <media:statistics views="34666"/>
    </media:community>
   </media:group>
  </entry>
@@ -579,7 +625,7 @@ Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-
 36:39 Poster, future updates, and wrap-up</media:description>
    <media:community>
     <media:starRating count="803" average="5.00" min="1" max="5"/>
-    <media:statistics views="17807"/>
+    <media:statistics views="17856"/>
    </media:community>
   </media:group>
  </entry>
@@ -623,47 +669,7 @@ Chapters:
 #LLM #Transformers #DeepLearning #MachineLearning #Inference #MoE #GQA #MLA #SWA #KVCache</media:description>
    <media:community>
     <media:starRating count="691" average="5.00" min="1" max="5"/>
-    <media:statistics views="20369"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:rNlULI-zGcw</id>
-  <yt:videoId>rNlULI-zGcw</yt:videoId>
-  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
-  <title>The Big LLM Architecture Comparison</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=rNlULI-zGcw"/>
-  <author>
-   <name>Sebastian Raschka</name>
-   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
-  </author>
-  <published>2025-09-10T10:01:33+00:00</published>
-  <updated>2026-09-18T00:19:12+00:00</updated>
-  <media:group>
-   <media:title>The Big LLM Architecture Comparison</media:title>
-   <media:content url="https://www.youtube.com/v/rNlULI-zGcw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/rNlULI-zGcw/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Article: https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
-Reasoning from scratch book: https://mng.bz/Nwr7
-LLMs from Scratch repo: https://github.com/rasbt/LLMs-from-scratch
-
-This video covers the most important open-weight LLM architectures released in 2025, along with their architectural design decisions.
-
-00:00:00 The Big Architecture Comparison
-00:01:52 1. DeepSeek V3/R1
-00:24:50 2. OLMo 2
-00:35:07 3. Gemma 3 
-00:44:31 4. Mistral Small 3.1
-00:48:04 5. Llama 4
-00:50:03 6. Qwen3
-00:58:07 7. SmolLM3
-01:05:03 8. Kimi 2
-01:08:19 9. GPT-OSS
-01:14:57 10. Grok 2.5
-01:19:04 11. GLM-4.5</media:description>
-   <media:community>
-    <media:starRating count="1762" average="5.00" min="1" max="5"/>
-    <media:statistics views="45985"/>
+    <media:statistics views="20376"/>
    </media:community>
   </media:group>
  </entry>

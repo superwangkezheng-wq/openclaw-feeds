@@ -15,8 +15,353 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Sun, 27 Sep 2026 01:33:37 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 13:08:35 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[刚刚，Gemini 4 Pro全新曝光，实测碾压Opus 5.5]]></title>
+            <description><![CDATA[<p>Gemini 4 Pro，又曝出新的检查点了！</p>
+  <p>最近，两个全新检查点（内部代号「barium-b」或 Checkpoint 2）被开发者们发现了，实测后发现，Gemini 4 Pro强得可怕！</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_c0b32612f1a640f9abfbcddfc26c1723@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_0d9f66e7716f48a9a36b3496509331c0@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>有开发者直呼：「在爆肝 400 小时使用 Opus 5.5 和 GPT-6 之后，Gemini 4 Pro 依然让我头皮发麻！」</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,531" src="https://img.36krcdn.com/hsossms/20260927/v2_5f0a15b8d0024d93acdee5e477297198@000000_oswg158303oswg1080oswg531_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>谷歌的新一代大杀器，展现出超强的3D 物理模拟能力、代码生成能力和长文本推理能力。</p>
+  <p>有开发者直呼：「在爆肝 400 小时使用 Opus 5.5 和 GPT-6 之后，Gemini 4 Pro 依然让我头皮发麻！」</p>
+  <p>而且，谷歌内部高层的态度也很鲜明。</p>
+  <p>Google DeepMind新任掌门Koray Kavukcuoglu首次公开确认：Gemini 4已经进入后训练早期。</p>
+  <p>它的训练进度大大提前，仅耗时两个月，早期预训练就基本结束。</p>
+  <p class="image-wrapper"><img data-img-size-val="662,372" src="https://img.36krcdn.com/hsossms/20260927/v2_d5b29734d3534ea4a7b1e9590e97ee34@000000_oswg310433oswg662oswg372_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>准备好，一大波硬核实测来了！</p>
+  <h2><strong>核心实测大赏：7大硬核Demo</strong>&nbsp;</h2>
+  <p>一夜之间，仿佛每个人都能用Gemini 4 Pro了。</p>
+  <p>从晒出的Demo来看，它在3D生成、物理引擎模拟和长文本代码构建上的表现，令人惊艳。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_8304921d9a304b1db61759e3156ce9ee@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>孔雀SVG测试也来了，显示出巨大的飞跃。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,794" src="https://img.36krcdn.com/hsossms/20260927/v2_18ef637eda4546ff9494b13c4b76073a@000000_oswg231668oswg1080oswg794_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_3d63b8531a3f40df94de0cea0bc6f4e2@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>水上飞机起飞，吊打Opus 5.5</strong>&nbsp;</h2>
+  <p>知名测评博主 @AI_Screening 要求它和Opus 5.5用代码生成一个3D浮筒飞机在水面滑行起飞的物理模拟。</p>
+  <p>之前，Opus 5.5生成的视频惊呆了一大群人，但没想到，这次，Gemini 4 Pro的表现完全超越了它！</p>
+  <p class="image-wrapper"><img data-img-size-val="1075,1463" src="https://img.36krcdn.com/hsossms/20260927/v2_8ae6694d2c9b4c74bd60e145fa2225d5@000000_oswg1519347oswg1075oswg1463_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>可以看到，Opus 5.5生成的飞机虽然在动，但机身晃动剧烈，仿佛随时要解体，水面的物理反馈也很生硬。</p>
+  <p>但Gemini 4 Pro就要丝滑多了，加速平稳，水面反射清晰，对「溅水」效果的渲染很逼真。</p>
+  <p>从流体力学逻辑和画面整洁度看，属于把Opus 5.5按在地上摩擦。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_22d325aa1cda48259a0e1f1f63d83ca4@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>16分钟手搓「3D国际空间站」</strong>&nbsp;</h2>
+  <p>开发者 @thtbee_ 抛出了一个王炸。</p>
+  <p>在没有任何3D模型导入的情况下，Gemini 4 Pro 仅仅用了 16分钟，通过纯代码，就生成了一个交互式的3D国际空间站绕地球运行的模拟程序！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,508" src="https://img.36krcdn.com/hsossms/20260927/v2_b0b2e860e9544b2882266964e7f19e2f@000000_oswg371642oswg1080oswg508_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_f5889267be144b0b833f397cdb1f5688@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>令人惊喜的是，它不仅自己用 Three.js 建好空间站模型，还很聪明地从网上抓取了正确的地球贴图，保证经纬度和颜色绝对准确。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,676" src="https://img.36krcdn.com/hsossms/20260927/v2_e71bdd19b50f4eb388edde4295cc2673@000000_oswg747124oswg1080oswg676_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这种「无中生有」的建模能力，让人惊叹。</p>
+  <p>当然，也有人吐槽生成的UI界面有点丑，且背面仍有透视bug。</p>
+  <p><strong>从灯塔到火箭发射（Three.js渲染）</strong>&nbsp;</p>
+  <p>网友 @HarshithLucky3 甩给它一个高难度指令：「用 Three.js 将一个灯塔变成火箭发射，不要包含任何UI元素。」</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,441" src="https://img.36krcdn.com/hsossms/20260927/v2_9a159a2713ca40ffad8a416c5d2e7d07@000000_oswg109408oswg1080oswg441_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>结果，Gemini 4 Pro 完美遵循了指令！</p>
+  <p>测试者夸爆了它的「审美」：它为画面中的所有元素都添加了质感极佳的纹理，整个3D输出质量好到离谱。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_d27ffd0d01cf4605adc6851e8e4645fe@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>3D Wii 遥控器高精度还原</strong>&nbsp;</h2>
+  <p>开发者 @LuminaBench 测试了它的工业设计建模能力，让它生成一个 3D 的任天堂 Wii 遥控器。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_2c95489a24c6489983077e4d82a65f6e@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>结果，它对3D物体的细节把握非常强，并且生成速度「快得难以置信」！</p>
+  <p>要说有什么不完美，就是它在处理Prompt时似乎有点过度雕琢，会竭尽全力去丰富细节，哪怕你没要求。</p>
+  <p>不过，它的设计审美在不同部件上表现不太稳定，有些地方绝佳，有些地方略显违和。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,429" src="https://img.36krcdn.com/hsossms/20260927/v2_4508335b0f54462387d606e158eac517@000000_oswg273774oswg1080oswg429_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>据测试，Checkpoint 2 的细节密度非常出色，而且精确度高得多，还是目前最快的前沿模型，无人能及。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_9d58ede92ba54ef0abf8c467de82c7d3@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="640,260" src="https://img.36krcdn.com/hsossms/20260927/v2_36e1241a11c4408090fbeb7b94f90736@000000_oswg22933oswg640oswg260_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_732a936343d94da4b88588026bdce02c@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>机械蜂鸟，碾压 GPT-6 Sol</strong>&nbsp;</h2>
+  <p>博主 @TimJayas 甩出了他的「祖传」机器蜂鸟prompt，考验模型对复杂机械结构和动态行为的理解。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_0d76f38a347c4bfe9bf760766eda744f@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>结论是：「Gemini 4 Pro 的表现简直太棒了！老实说，质量与 Fable 旗鼓相当，但远远好于 GPT-6 Sol！」</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,540" src="https://img.36krcdn.com/hsossms/20260927/v2_5baa42c9c82a42619e298f65125c947f@000000_oswg328087oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_5ec987b294f34c8e9546df90bac406cb@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>当然，它有时也会被GPT-6 Astra碾压。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1503" src="https://img.36krcdn.com/hsossms/20260927/v2_c1cde2ebb7e24dcda112e3ef073ac69c@000000_oswg363326oswg1080oswg1503_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,582" src="https://img.36krcdn.com/hsossms/20260927/v2_e2c62435bd954e579932a05a0a2d1f9e@000000_oswg132061oswg1080oswg582_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_5f82fedd2dfa42f3a2010e347c935526@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>14分钟生成完整网站，单提示词生成游戏</strong>&nbsp;</h2>
+  <p>而且，它的工程能力超强。</p>
+  <p>&nbsp;一位开发者仅用 14分钟，就生成了一个极具创意的产品展示完整网站，前后端全包。「真的就是几分钟一个网站。」</p>
+  <p>更让人惊喜的是，多人反馈，只需要输入一个Prompt，它就能直接给你吐出一个完整交互的网页游戏。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,391" src="https://img.36krcdn.com/hsossms/20260927/v2_01ac2bb5d2bf41c695c74602270d0ccf@000000_oswg82694oswg1080oswg391_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_cbe64c70f27243cfa02dc05fcb9ff12c@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>参数大泄露：1000万上下文+自主智能体</strong>&nbsp;</h2>
+  <p>虽然新检查点最近才曝光，但Gemini 4 Pro的参数此前就已经泄露了。</p>
+  <p>有人曝出，Gemini 4 Pro有1000万Token的上下文窗口，和256k的输出上限，如果属实，就彻底告别「代码写一半就断」的噩梦，一句话生成大型软件的全套代码。</p>
+  <p>它可以永久跨会话记忆，无需API即可联网，具备真正的AI Agent能力。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,534" src="https://img.36krcdn.com/hsossms/20260927/v2_bf57731bfac44850a03d277a5dcfb27b@000000_oswg165067oswg1080oswg534_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>甚至，它还有机器人控制能力， 可以直接作为大脑，控制现实物理世界中的机器人！</p>
+  <p>此前一张基准测试图显示，Gemini 4 Pro在编程、智能体、推理上均超越 GPT-6 Astra 和 Claude Fable 5.1。</p>
+  <p>它在AI智能体编程测试（DeepSWE v1.1）拿下 88%，在编码能力测试（Terminal-bench 2.1）飙到惊人的 95.3%！</p>
+  <p>有人惊呼：闻到了RSI的味道。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,753" src="https://img.36krcdn.com/hsossms/20260927/v2_2d2aa980c5c04e898634b36e4869e1a4@000000_oswg430956oswg1080oswg753_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,760" src="https://img.36krcdn.com/hsossms/20260927/v2_8b011fa42dc342b59b1cc85d052a8020@000000_oswg320424oswg1080oswg760_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>谷歌真急了：2个月训完，全军冲刺4.0！</strong>&nbsp;</h2>
+  <p>为什么Gemini 4 Pro会突然空降？因为谷歌的底线被碰了。</p>
+  <p>落后GPT-6和Opus 5.5一段时间后，巨头开始反扑。</p>
+  <p>就在周三，Google DeepMind 新任掌门人 Koray Kavukcuoglu 首度公开「交底」，透露了重磅消息。</p>
+  <p>根据The Information爆料，Koray 透露，Gemini 4 自 7 月启动了「有史以来最具野心的预训练」后，仅仅耗时约两个月，就基本完成了早期预训练！</p>
+  <p>目前，Gemini 4 已经全面进入了重要的「后训练」阶段。</p>
+  <p>「我们的意图是尽可能快地发布一个早期的后训练版本，」Koray 难掩兴奋地表示，「因为我们看到了结果，我们感到非常激动！」</p>
+  <p>这也是为什么，竞技场上会突然冒出这个「半成品但已经极强」的测试节点。</p>
+  <p class="image-wrapper"><img data-img-size-val="802,1344" src="https://img.36krcdn.com/hsossms/20260927/v2_18699bd6e58041aeaae7cbe99911dc2b@000000_oswg524358oswg802oswg1344_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而且，发现Gemini 3.5 Pro 性能不足以碾压对手后，谷歌直接壮士断腕，把所有算力全砸向 Gemini 4！</p>
+  <p>当被尖锐地问及「是否担心谷歌已经落后于同行」时，Koray斩钉截铁地说：「我对我的团队有百分之百的信心，我们注定永远要站在技术的最前沿。」</p>
+  <p>他透露，Gemini 4 目前正在被内部工程师用于Antigravity AI ——这是对之前「谷歌员工用 Claude 写代码」传闻的回击。</p>
+  <p>而且，他强调，他们不再执着于AGI的概念，「真正的问题是，我们是否有能力构建出我们可以完全信任的智能体」？</p>
+  <p>他还透露，Gemini 4 的研发，帮助谷歌硬件工程师设计「未来两到三代的 TPU」。显然，这种算法与芯片底层深度绑定的护城河，让英伟达很警惕。</p>
+  <p>最后，Koray 抛出了时间表：他希望 Gemini 4 的正式发布时间能「远早于年底」。</p>
+  <p class="image-wrapper"><img data-img-size-val="1028,744" src="https://img.36krcdn.com/hsossms/20260927/v2_9dde3ddbf9a84af0ae8180619f61507c@000000_oswg347754oswg1028oswg744_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>还有消息称，Gemini 4 Pro十一就可能发布</p>
+  <p>性能炸裂就算了，谷歌还准备掀起价格战。据泄露，Gemini 4 Pro 的定价极具攻击性：</p>
+  <p><strong>输入：$2.25 / 100 万 Tokens</strong></p>
+  <p><strong>输出：$11.25 / 100 万 Tokens</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,873" src="https://img.36krcdn.com/hsossms/20260927/v2_ff1aaec6d9834487a63488d9920af881@000000_oswg188118oswg1080oswg873_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>对比友商动辄几十美刀的旗舰模型，这简直是「骨折价」。</p>
+  <p>难怪有人喊话：「这性价比绝了，4 Pro要是真超预期，现在充会员就是抄底！」</p>
+  <p>而且，谷歌要把 AI 芯片送上天了！</p>
+  <p>下周，谷歌将搭乘 SpaceX 的猎鹰9号，把装有4颗 TPU 芯片的卫星送入太空！</p>
+  <p>未来，天上可能真会出现一张庞大的星链 AI 数据中心网。</p>
+  <p>看来，此前LMSYS里的 gemini-3.8-flash 只是「极早期后训练」的冰山一角。</p>
+  <p>但正如测试者所言：「第二个检查点比第一个检查点有了肉眼可见的巨大飞跃，谷歌这次是真的在『烹饪』一道大菜。」</p>
+  <p>OpenAI和Anthropic如何接招？</p>
+  <p>Gemini 4 Pro的加入，会不会改变ASI决赛的终局？</p>
+  <p>参考资料：</p>
+  <p>https://x.com/alannnfx/status/2103750054607565014?s=20&nbsp;</p>
+  <p>https://x.com/alannnfx&nbsp;</p>
+  <p>https://x.com/alannnfx/status/2103887770016227351&nbsp;</p>
+  <p>https://x.com/alannnfx/status/2103750054607565014?s=20&nbsp;</p>
+  <p>https://x.com/alannnfx/status/2103887770016227351&nbsp;</p>
+  <p>https://x.com/AIBoticssq/status/210349105724846399&nbsp;</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652729866&amp;idx=1&amp;sn=756b6923b03a3b69c93335b9396a5e73&amp;chksm=f08ead7e14d19a918b393cfc36ea01f82a63b37f5e4a789f033362d5e2ead2dc85dada589ace&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 27 Sep 2026 08:12:39 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4001348750512260</guid>
+            <link>https://www.36kr.com/p/4001348750512260</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[光模块的七个转折]]></title>
+            <description><![CDATA[<p>一周之内，高盛把 1.6T 出货预期再度大幅上修，五千家光电企业在深圳摆开展台，美国 FCC 的靴子以比传闻温和得多的方式落了地。把展台、财报电话会、标准文件与研究机构的口径叠在一起看，硅光与光模块产业正在从“拼产能的上半场”转入“拼集成与系统的下半场”。</p>
+  <p>2026 年 9 月 7 日，高盛发布光模块行业更新报告，把 2027 年 1.6T 出货预测从两个月前的 4200 万只上调到 7140 万只。两天后，第 27 届中国国际光电博览会在深圳开幕，参展企业超过 5000 家，1.6T 可插拔模块、3.2T 与 6.4T 近封装光引擎、12.8T 液冷可插拔、共封装光学交换机和光路交换机挤满了信息通信展馆。9 月 11 日展会闭幕当天，美国联邦通信委员会（FCC）的供应链安全最终规则在联邦公报刊出，市场担心了一个多月的“中国光模块禁令”没有出现。</p>
+  <p>把这三件事放在一起，恰好构成了硅光与光模块产业的一个切面：卖方在上修需求，模块厂与云厂商在展台上比拼形态与速率，而地缘政治的靴子暂时落了地。本文以光博会三天的公开信息为骨架，叠加上市公司财报与电话会、标准组织文件和研究机构的公开口径，试图回答一个问题：硅光的上半场已经结束了吗，下半场比什么？</p>
+  <p><strong>01</strong></p>
+  <p><strong>一周三件事：展台、卖方与上游说的是同一件事</strong></p>
+  <p>光博会的信息密度首先体现在展台上。中际旭创展出 1.6T/800G 全系列与 3.2T NPO 方案；光迅科技宣布全球首款 3.2T 硅光单模 NPO 已在头部云服务商完成验证，并推出 6.4T NPO 与 12.8T XPO 前瞻方案；华工正源展示 6.4T 无 DSP 的 NPO 光引擎和 12.8T XPO；新易盛、索尔思（东山精密）同样拿出 12.8T XPO 样品；Coherent 带来 6.4T 插槽式 CPO、1.6T VCSEL NPO 和 400G 硅基磷化铟调制器；博通展出集成 16 个 6.4T 硅光引擎、交换容量 102.4T、功耗降低 70% 的第三代 CPO 交换机 Tomahawk 6 Davisson；海思的硅光产品线从 1.6T 向 3.2T、7.2T 演进，并用 200G VCSEL 多通道阵列切入机柜内 scale-up。</p>
+  <p>上游给出的是另一组数字。头部开放式硅光代工厂 Tower Semiconductor 二季度硅光收入同比增长超过 270%，年化运行率 6.8 亿美元，公司目标四季度突破 10 亿美元；客户为锁定 2027 年产能已预付 2.9 亿美元。英伟达 3 月向 Coherent 与 Lumentum 各投资 20 亿美元并签署多年供货协议，锁的是激光器。LightCounting 4 月市场通讯的标题干脆就叫“光连接需求继续令人意外”。</p>
+  <p>展台、卖方与上游表面上讲的是不同的事，传递的信号却高度一致，可以概括为三句话：<strong>第一，1.6T 已经不是技术问题而是交付问题，硅光在这一代拿到了半数以上的份额；第二，可插拔之外的形态之争已经从概念走到验证与小批量，NPO 在中国市场先于 CPO 落地几乎是共识；第三，真正的瓶颈正从模块制造能力向激光器、先进封装和系统集成转移。</strong>日月光的技术负责人 8 月谈 CPO 时说过一句值得记住的话：行业还没有建立起这项技术所需要的共享测试标准与仿真基础，每家供应商都得各自验证，成本成倍增加、良率学习被拖慢——换句话说，晶圆只是一半，封装、测试与系统集成是另一半。</p>
+  <p><strong>02</strong></p>
+  <p><strong>需求侧：算力与网络的剪刀差，1.6T 从“有没有”变成“交多少”</strong></p>
+  <p><strong>2.1 网络是 AI 基础设施的短板</strong></p>
+  <p>需求侧最直观的公开指标是 token。谷歌披露的月处理量从 2024 年 4 月的 9.7 万亿，到 2025 年 5 月的 480 万亿、2025 年 9 月的 1.3 千万亿，再到 2026 年 5 月 I/O 大会上的 3.2 千万亿——一年约 7 倍，两年约 330 倍，增量几乎全部来自推理。网络一侧的代际节奏要慢得多：博通交换芯片从 2022 年的 Tomahawk 5（51.2T）到 2025 年的 Tomahawk 6（102.4T），再到 2026 年流片的 Tomahawk 7（约 200T），两到三年翻一番；英伟达单 GPU 的 NVLink 带宽从 Hopper 的 900GB/s 到 Blackwell 的 1.8TB/s、Rubin 的 3.6TB/s，同样是每代翻倍。推理需求一年七倍，互联带宽两年两倍，这就是算力与网络的剪刀差。</p>
+  <p>剪刀差的代价是算力闲置。Meta 早在 2022 年 OCP 峰会上就披露，其 AI 训练中约 33% 的时间花在等待网络上；2026 年 8 月，由 Lightmatter 牵头、20 家公司参与的 OCP《面向 AI 系统的开放硅光子》架构蓝图给出的口径是，当前 AI 集群的模型算力利用率只有 38%–43%，目标是提升到 55%–65%。集群对丢包更加敏感，华为《迈向智能世界白皮书 2024·数据通信》写道：<strong>哪怕 0.1% 的丢包率，也可能让训练效率下降 50%。</strong>大集群不等于大算力，通信时长占比、时延与可靠性是三个上限。</p>
+  <p>前两个上限解释了为什么要做超节点、为什么空芯光纤（光在空气中比在玻璃中快约 47%，时延可降低约三分之一）被反复提起。英伟达给 GB200 NVL72 的口径是：72 颗 GPU 组成的单一 NVLink 域，万亿参数模型的实时推理性能是同等数量 H100 的 30 倍。华为在 CloudMatrix384 论文中披露，384 颗 NPU 经统一总线全互联后，跨节点通信的带宽衰减低于 3%、时延增加不到 1 微秒。国内云厂商的方向相同：腾讯云副总裁、腾讯网络总经理王亚晨 7 月在世界人工智能大会期间表示，腾讯将大规模部署国产化算力，并于 2026 年四季度部署 NPO 超节点；据公开报道，腾讯 ETH-X Ultra 光互连超节点以一层 NPO 光交换实现 512 卡规模。做超节点不是盲目跟随英伟达，而是通信带宽对算力利用率的影响实实在在。</p>
+  <p>这组数字也解释了光互联需求为什么总是“比预测多”。LightCounting 首席执行官 Vladimir Kozlov 在 <ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>OC 2025 硅光研讨会上说，光模块需求“大概超过供给将近一倍”，瓶颈在磷化铟；他还提到谷歌七年前就告诉行业，AI 集群里花在光上的钱比花在计算上的还多。此后 LightCounting 把 2026 年以太网光模块销售额增速预期上调到 73%；摩根士丹利 5 月把 2027 年 1.6T 出货预测从 2400 万只上调到 7900 万只；高盛两个月内从 4200 万只上调到 7140 万只。预测在被现实追着上修，这是过去两年光模块行业最稳定的规律。</p>
+  <p><strong>2.2 1.6T 的交付缺口与价格结构</strong></p>
+  <p>光博会前后各方给出的 1.6T 口径可以放在一起对照。中际旭创半年报称 2026 年全球 1.6T 需求约 2500 万只、有效产能约 1500 万只；LightCounting 预计 2026 年全球 1.6T 出货超过 860 万只，2027 年 1.6T 将占高速光模块市场的 45%；摩根士丹利与高盛对 2027 年的预测分别为 7900 万只与 7140 万只（详见下节）。各家口径相差两到三倍，但方向一致：<strong>2026 年 1.6T 受产能约束，2027 年进入放量与价格下行的交叉期。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,269" src="https://img.36krcdn.com/hsossms/20260927/v2_91f2601c9dcd4ab5ab8318ba1cbb5370@000000_oswg115655oswg1080oswg269_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>&lt;点击图片可放大查看&gt;</p>
+  <p>价格表背后是一个结构性事实：硅光的降本逻辑主要不来自硅片本身，而来自减少激光器数量。按 LightCounting 的解释，DR4、DR8 这类并行单模方案里，EML 每个通道都要一颗激光器，而硅光可以用一颗大功率连续波（CW）激光器分光后供多个通道使用——800G 八通道模块，EML 方案要 8 颗，硅光方案通常 2 颗即可。激光器短缺且昂贵，硅光在 200mm 与 300mm 硅厂制造而磷化铟仍在 3–4 英寸线，供应弹性完全不同。LightCounting 据此判断 2026 年是“硅光之年”：基于硅光调制器的模块销售额将首次超过光模块市场的一半，这一比例在 2018 年是 10%，2024 年是 33%。</p>
+  <p><strong>2.3 一份券商报告的交叉印证：高盛 9 月上修</strong></p>
+  <p>光博会开幕前两天，高盛发布了一份以中际旭创为标的的光模块更新报告（9 月 7 日），把 800G 与 1.6T 的出货量预期较 7 月版本大幅上调。它的价值不在目标价，而在于从卖方视角给出了一套与光博会现场、上游财报可以互相印证的数字。报告的核心是下面这张按速率分层的全球光模块出货量预测表（依原表数据重绘）。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,576" src="https://img.36krcdn.com/hsossms/20260927/v2_afbbe8a0b0f34a8a95b794f784631651@000000_oswg166623oswg1080oswg576_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>图 1 · 高盛：全球光模块出货量、速率结构与硅光渗透率预测（2025–2028E，季度与年度）。红框为 9 月上修的重点。</p>
+  <p>这张表分三层，读法如下。<strong>第一层是出货量（千只）。</strong>全球光模块出货从 2025 年的约 4.49 亿只增至 2028 年的约 7.29 亿只，但数量的主体始终是 400G 以下的低速产品（2025 年 3.99 亿只、占 89%；2028 年 5.56 亿只、占 76%），它们贡献数量、不贡献增长。真正的变量在红框里：800G 从 2025 年的 2680 万只跳到 2026 年的 4540 万只，此后在 4900 万只上下走平；1.6T 从 2025 年的 264 万只增至 2026 年的 3280 万只、2027 年的 7140 万只，一年十二倍再翻一倍；3.2T 2027 年首次出现即 2300 万只，2028 年 6770 万只，反超同年的 1.6T（5480 万只）。按季度看更直观：1.6T 从 2026 年一季度的 382 万只增至四季度的 1548 万只，一年之内翻两番，四季度已占当季出货的 11%。</p>
+  <p><strong>第二层是速率结构。</strong>400G 以下占比从 89% 降到 76%，400G 从 5% 归零，800G 稳在 6%–8%，1.6T 在 2027 年达到 10% 的峰值后回落到 8%，3.2T 在 2028 年升至 9%。这里隐含了一个对产业节奏至关重要的判断：<strong>1.6T 的出货高峰只有 2027 年一年，2028 年即被 3.2T 分流</strong>——每一代产品的窗口期都比上一代更短，这也解释了为什么光博会上 3.2T 已经进入送样验证而 1.6T 才刚放量。<strong>第三层是硅光渗透率（按出货量计）。</strong>高盛的假设很干净：400G 以下为零，400G 40%（2028 年降至 29%），800G 60%，1.6T 与 3.2T 均为 80%。因为低速产品是数量主体，整体渗透率只从 6% 升到 18%，但在增量产品里硅光已是绝对主流；按季度，整体渗透率从 2025 年一季度的 4% 升到 2026 年四季度的 14%，斜率来自 1.6T 放量而非单一速率渗透率提升。</p>
+  <p>把这张表与其他口径放在一起可以看出高盛的位置。2026 年 1.6T 出货 3280 万只，高于中际旭创半年报“需求 2500 万只、有效产能 1500 万只”的口径，更远高于 LightCounting 的 860 万只——高盛计的是需求总量而非可交付量，这也是它 2026 年市场规模 677 亿美元与 LightCounting 口径差距的主要来源。2027 年 7140 万只则接近摩根士丹利 5 月的 7900 万只，两家卖方已经站到了同一侧。另一个值得注意的假设是 3.2T 硅光渗透率 80%：如本文第五章所述，单波 400G 时代博通 EML、薄膜铌酸锂与硅光调制器仍在竞争，硅光能否在 3.2T 复制 1.6T 的份额尚无定论，这是高盛模型中最需要跟踪验证的一格。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,418" src="https://img.36krcdn.com/hsossms/20260927/v2_f7c3fdb5204046258b9c9f0b21e2302e@000000_oswg128886oswg1080oswg418_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>&lt;点击图片可放大查看&gt;</p>
+  <p>三处交叉印证值得指出。<strong>第一，需求驱动的代际映射与云厂商的公开口径一致：</strong>GB200 用 400G 与 800G，GB300 已向 800G 和 1.6T 迁移，Rubin 与 Rubin Ultra 进一步提高 1.6T 与 3.2T 配置——这正是“算力增速快于网络增速”在采购端的表现。<strong>第二，激光器价值量的差距把“8 颗对 2 颗”变成了金额：</strong>1.6T 硅光模块的激光器成本约 15–20 美元，EML 方案约 160 美元，八倍的差距解释了为什么硅光在 1.6T 与 3.2T 的渗透率会走到八成，也解释了为什么龙头在高速产品上的毛利率还能继续改善。<strong>第三，scale-up 被单独列为一块新业务：</strong>中际旭创的 scale-up 收入从 2026 年几乎为零增至 2028 年 708 亿元，包含光引擎、NPO、CPO、FAU、ELS 与光交换机，服务 GPU 或 ASIC 之间的高速互联；高盛的判断是即便 CPO 在 scale-out 的渗透率提升，可插拔市场仍然足够大，而 scale-up 原本主要用铜，“对所有光模块厂商都是一个新市场”。</p>
+  <p>两点口径提醒。其一，高盛的 2026 年市场规模 677 亿美元明显高于研究机构口径，差异来自对 1.6T 均价、出货量与统计范围的不同假设，引用时必须注明来源；其二，高盛“硅光整体渗透率 6% 到 18%”是按全部光模块（含低速与电信）的出货量计，与 LightCounting“2026 年硅光模块销售额首次过半”并不矛盾，后者按销售额计。高盛为其乐观情景列出的三个高难度前提也值得记下：中际旭创需保持高速产品领先份额（2025 年全球相关收入份额约 21.2%，引 LightCounting 与 CIC 数据）；硅光出货占比要从 2025 年的 50% 提升到 2028 年的 86%；扩产后仍要维持 74%–84% 的产能利用率，不能因行业扩产导致价格与利用率同时下滑。至于 FCC，高盛没有给出判断——“现在也给不出”。</p>
+  <p><strong>2.4 需求的分层：scale-out、scale-up 与 scale-across</strong></p>
+  <p>光博会上一个明显的变化是需求开始分层描述。scale-out（集群间以太网/InfiniBand）仍是可插拔与 NPO 的主战场，1.6T 与 3.2T 沿这条线演进；scale-up（机柜内、超节点内）过去是铜的领地，现在光从两个方向切入——海思用 200G VCSEL 多通道阵列，微软研究院则在 SIGCOMM 2025 提出用 microLED 做“宽而慢”的并行光链路；scale-across（跨数据中心）受限于光纤时延与丢包敏感度，这反而给了空芯光纤一个确定性场景。中际旭创在 OFC 展出的 800G LR2 coherent lite 与 1.6T OSFP 组合，正是面向这一层的方案。</p>
+  <p><strong>03</strong></p>
+  <p><strong>供给侧：硅光代工进入 12 英寸时代，预付款锁产能成为常态</strong></p>
+  <p><strong>3.1 一年之内，产能按倍数扩</strong></p>
+  <p>硅光代工的供给弹性，可以用 Tower 这一家上市公司的公开披露来观察。2026 年 2 月的四季报中，Tower 把硅光与锗硅的设备投资从此前的 6.5 亿美元追加 2.7 亿美元至 9.2 亿美元，目标是 2026 年 12 月的硅光晶圆投片能力达到 2025 年四季度月出货量的 5 倍以上；8 月二季度电话会的口径是，四季度投片能力将比二季度的硅光出货高出 3 倍以上。扩产方式是把同一套硅光工艺复制到旗下多座 200mm 工厂与日本 300mm 工厂，设备安装与认证在 2026 年四季度完成，2027 年起全量投片。</p>
+  <p>更值得注意的是产能的销售方式。Tower 披露，截至 2028 年的硅光总产能已有超过 70% 被客户预订或正在预订，并有客户预付款作保；2026 年一季度一次性收到硅光客户预付款 2.9 亿美元，主要用于锁定 2027 年产能；5 月又宣布与最大的几家硅光客户签署了 2027 年约 13 亿美元的供货合同，2028 年金额更高。财务上，这一轮扩产已经兑现为数字：二季度营收 4.60 亿美元、同比增长 24%，三季度指引 5.20 亿美元、同比增长 31%；硅光年化收入从 2025 年二季度的 1.8 亿美元升至 2026 年二季度的 6.8 亿美元。<strong>预付款锁产能，过去是存储与先进逻辑的玩法，现在成了硅光的常态。</strong></p>
+  <p><strong>3.2 日本双轨与 2028 年模型</strong></p>
+  <p>下一阶段的产能在日本。7 月 14 日 Tower 宣布在日本经产省支持下实施双轨扩产：轨道一改造 Arai 厂（前 Fab 6）为 300mm 硅光与先进封装基地，2027 年四季度具备量产条件；轨道二在 Uozu Fab 7 旁新建 300mm 厂，2029 年起贡献利润；两者合计将把日本 300mm 产能扩至现有的 4 倍。Tower 自付约 30 亿美元，另获日本政府 10 亿美元补助。</p>
+  <p>与之配套的是 2028 年财务模型：营收 36 亿美元、毛利率 45%、营业利润 13.8 亿美元、净利润 12 亿美元，公司称“已被客户完全认购”。按二季度电话会的口径，新增营收的 67% 将转化为毛利，运营费用占营收的比例将降到约 7%（比当前低约三成），同时研发投入比当前提高 40% 以上。一家特色工艺代工厂敢给出 45% 的毛利率和不到 7 个点的费用率，底气来自产品结构——硅光与锗硅的占比已经从配角变成了主角。</p>
+  <p><strong>3.3 全球代工格局</strong></p>
+  <p>把视野放到全球硅光代工格局，主要玩家的分工正在清晰化。Tower 以 PH18 系 8 英寸平台为主力、PH18DA 异质集成磷化铟激光为差异化、日本 300mm 为增量，客户覆盖英伟达、Marvell、中际旭创、Coherent 等，2026 年 2 月与英伟达联名发布 1.6T 平台；<strong>台积电</strong>&nbsp;的 COUPE 平台不做开放代工，专注为英伟达、博通等自研 ASIC 客户提供 CPO 光引擎，第二代 6.4T CPO 于 2026 年下半年量产，英伟达的 CPO 交换机即基于 COUPE；<strong>三星</strong>&nbsp;2026 年 3 月才在 OFC 宣布入场，路线图落后台积电约三年。</p>
+  <p>对国内产业链而言，先进硅光代工目前仍主要在海外：2026–2027 年国内头部模块厂与硅光设计公司的 1.6T/3.2T 产品仍高度依赖海外代工厂，本土代工是第二来源而非主供。这条依赖链的敏感性，本文第九章再谈。</p>
+  <p><strong>一个提醒：硅光代工不是“光的台积电”生意</strong></p>
+  <p>全球硅光代工的年收入仍是十亿美元量级，真正的钱在模块与系统。领先代工厂的差异化也不在最先进节点，而在几件事的组合：100G 与 200G/lane 调制器的大批量量产经验、异质集成激光解决光源瓶颈、低损氮化硅波导做波分与滤波、锗硅电芯片与硅光芯片同厂协同设计（EE Times 报道援引的口径是，Tower 在光模块跨阻放大器与驱动器上的份额超过一半）。这几件事共同指向的不是“更便宜的硅光片”，而是“NPO 时代的整套光引擎物料清单”。</p>
+  <p><strong>04</strong></p>
+  <p><strong>形态之争：可插拔、LPO、NPO、CPO、XPO 的分层共存</strong></p>
+  <p><strong>4.1 产业的主流判断：NPO 比 CPO 更接近规模落地</strong></p>
+  <p>四种形态的演进逻辑并不复杂。可插拔模块插在机架边缘，信号从 ASIC 走过整块板到面板，损耗大，所以需要 DSP 清理与重定时——DSP 贵、缺货、耗电、增加时延。LPO 去掉 DSP，用跨阻放大器与驱动器里的模拟均衡代替，功耗与时延都降下来，但不可编程、对链路两端的要求很高。NPO 把光电转换移到 ASIC 附近，电通道缩短到几厘米，线性方案才真正可行。CPO 把光引擎与 ASIC 共封装，消除最后一点损耗，代价是可维护性与生态：光引擎一旦失效，牵动的是整台交换机；供应链则由芯片厂商及其选定的代工与封装伙伴主导。</p>
+  <p>围绕“NPO 与 CPO 谁先规模落地”，过去一年的公开表态相当一致。Tower 首席执行官在二季度电话会上说，NPO 相比可插拔有高得多的带宽密度和更低的每比特能耗，同时沿用了可插拔已经建立的产业生态，并预计 2027 年下半年 NPO 相关产品会占到其硅光出货的数十个百分点。腾讯的王亚晨说：“腾讯认为 NPO 是到达 CPO 过程中的一个中间技术路线”，两年前即计划在 2026 年四季度部署，并预计明年 NPO 会有更快速的发展。博通首席执行官陈福阳在 2026 年 3 月的电话会上谈到硅光与 CPO 时说“我们还没完全到那一步”，其定制 XPU 客户在 2028 年前大概率仍可使用直连铜缆。Arista 创始人 Andy Bechtolsheim 反复强调可维护性——可插拔模块几秒钟就能更换，而 CPO 光引擎失效可能意味着更换整台昂贵的交换机。LightCounting 的 Kozlov 在 2025 年秋判断 CPO 的批量部署“还要两年”；日月光则认为多供应商的 CPO 距离普遍可得还有 12 到 24 个月。</p>
+  <p>这些都不是中立的技术判断：代工厂在可插拔与 NPO 生态里是主供，在 CPO 生态里则要面对台积电体系；交换机厂商不愿把光学交给芯片厂商；商用芯片厂商同时卖铜缆方案。但立场不同的各方给出了同一个时间表，本身就是信息。TrendForce 的预测是 CPO 与 NPO 合计市场将从 2025 年约 1 亿美元增至 2030 年 390 亿美元以上——两者是同一条曲线上的前后两段。</p>
+  <p><strong>4.2 去掉 DSP 之后的两个硬约束：SerDes 与线性度</strong></p>
+  <p>第一个约束是主芯片的 SerDes。IEEE 电子封装学会 2026 年 3 月的 LPO 综述指出，LPO 把均衡压力转移给了主机侧，要求交换芯片或 XPU 的 SerDes 具备很强的均衡能力，模块与主机厂商之间的耦合因此更紧，不同 ASIC 与 LPO 模块的互通测试仍在进行，与 200G SerDes 的兼容尤其困难。现实进度也印证了这一点：按 Kozlov 的说法，LPO 目前只有“四五家公司”在部署，折中方案 LRO（发射端保留 DSP、接收端线性）因互通性更好而被更多采用。第二个约束是光电器件自身的带宽与线性度：线性系统没有 DSP 去抵消噪声与反射的代价，只能靠调制器、驱动器和跨阻放大器补偿。Semtech 3 月发布面向 LRO、LPO、XPO、NPO 与 CPO 的 224G 线性芯片家族时，把需求概括为片上均衡、高线性度、低噪声与实时链路监测。</p>
+  <p>这两条约束解释了 NPO 为什么会先在中国落地。按公开报道对王亚晨表态的转述，NPO 去掉 DSP 之后，缩短铜线距离带来的信号改善可以部分弥补损失，使其在功耗与成本上都占优；沐曦首席技术官彭莉在同一场合提出，GPU 的 SerDes 接口应该“为光传输重新设计”，需要端到端的一体化方案。<strong>当国产 GPU 与交换芯片的 SerDes 还在追赶时，把光引擎尽量贴近芯片，是用系统设计弥补单点短板的务实选择。</strong>阿里云此前也披露了类似的时间表：2025 年底点亮全球首个基于 OIF 标准的 3.2T NPO 系统，2026 年底小批量，2027 年规模化。</p>
+  <p><strong>4.3 CPO 难在哪里：公开数据怎么说</strong></p>
+  <p>CPO 的工程难度，国内云厂商有切身体会：2022 年 8 月，腾讯与博通宣布战略合作，由博通提供 25.6T 的 Humboldt CPO 交换方案（Tomahawk 4 交换芯片与 4 个 3.2T 硅光引擎共封装），锐捷网络负责整机设计、制造与测试——这是国内最早的 CPO 交换机项目之一。光引擎贴近交换芯片之后，布纤、散热、链路诊断与现场维护都要重新设计，这是行业的共同经验。</p>
+  <p>可靠性是争论的焦点，公开数据正在积累。博通 2025 年 10 月披露，其 Bailly 51.2T CPO 交换机在 Meta 的测试中累计 100 万个 400G 等效端口小时无链路抖动；Meta 在 <ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>OC 2025 的论文给出的对比是，800G 2×FR4 可插拔模块功耗约 15 瓦，而 CPO 每 800G 带宽的光引擎加激光器约 5.4 瓦，光学功耗节省 65%，此后披露的测试数据已累计到千万端口小时量级。英伟达基于台积电 COUPE 与 SoIC 堆叠的 Spectrum-6 CPO 交换机已经出货，首批客户包括 CoreWeave、Lambda、Meta、微软与 Oracle，英伟达给出的平均无故障时间为 260 万小时，功耗最多比可插拔方案低 5 倍。</p>
+  <p>但数据好看不等于生态成熟。日月光指出，行业缺少晶圆级测试的通用协议与公认的仿真方法，英伟达的成功来自与台积电在“一条严格受控、共同开发的供应链”里的双边合作，难以直接复制；Third Bridge 6 月的分析仍把制造良率、封装复杂度与长期可靠性列为持续挑战。OCP 的开放硅光子蓝图计划在 2026 年四季度提交首批基础规范，明确把“光引擎失效要换整台交换机”和单一供应商锁定列为要解决的问题；8 月 Hot Interconnects 上出现的 Open CPX MSA 主张插座式光学，方向相同——CPO 的核心在封装而不在“与主芯片绑定”，主芯片可以用插座连接，周边光电器件先封装再贴装。Coherent 在光博会展出的 6.4T 插槽式 CPO，正是对可维护性这一最大软肋的工程回应。</p>
+  <p><strong>4.4 光博会上的验证：NPO 有客户名了，XPO 有实物了，CPO 有量产了</strong></p>
+  <p>如果说上面讲的是逻辑，光博会三天给出的是证据。NPO 一侧，光迅科技的 3.2T 硅光单模 NPO “已在头部云服务商完成验证”，这是国内首个带客户验证口径的 3.2T NPO；华工正源与阿里云联合开发的 3.2T NPO 功耗降低 50% 以上，展台上的 6.4T NPO 光引擎明确标注“无 DSP”；腾讯 512 卡 NPO 超节点四季度部署；华为在 ODCC 2026 夏季全会上详细拆解了 1024 通道超高密场景下 NPO 交换机的工程挑战。标准层面，OIF 2026 年二季度技术委员会正式立项《12.8Tb/s 光电近封装模块》，由信通院、华为、腾讯、阿里云、美团、中国移动联合提交；华为 7 月 9 日牵头 20 余家单位启动 OPEN NPO 项目并发布国内首个 NPO MSA。信通院在论坛上的主张是“现有 NPO 相关 MSA 非正式国际标准组织，易造成碎片化”，目标是统一机械外形、物理接口与管理接口——这与王亚晨“希望能把标准统一下来”的呼吁是同一件事。</p>
+  <p>XPO 一侧，Arista、Lightmatter、Marvell 于 3 月发起的 XPO MSA 定义了 64 通道 × 200G 的 12.8T 液冷可插拔形态，在两个 OSFP 的空间里塞进 8 倍带宽；光博会上中际旭创（TeraHop）、新易盛、华工正源、索尔思、Coherent 都拿出了 12.8T XPO 实物或样品，华工是 MSA 创始成员，Semtech 9 月 21 日也宣布加入。按 Bechtolsheim 的说法，XPO 模块因液冷比同等带宽的 OSFP 低 20–25 摄氏度，2027 年将有 20 多家厂商量产，512 颗 XPU 的集群可以从 12 个机柜压缩到 6 个。代价同样明确：单模块约 400 瓦，液冷从可选变成必选；他自己也提醒“经济性大概会更好，但别急着下结论”。值得跟踪的是两条路线的分工：XPO 解决的是交换机面板密度问题，NPO 解决的是 GPU 与交换芯片侧的电通道问题，两者的客户并不完全重叠。</p>
+  <p>CPO 一侧则完成了从“路线”到“产品”的跨越。英伟达 6 月宣布 Spectrum-X CPO 交换机全面量产，32 颗 3.2T 光引擎、整机 102.4T、单端口功耗 9 瓦，8 月起进入云与 AI 基础设施客户的实际部署。博通 Tomahawk 6 Davisson 在光博会展出，16 个 6.4T 硅光引擎、102.4T、功耗降低 70%。LightCounting 的判断是 CPO 开发活动处于历史最高水平，2027 年开始规模部署，2029 年全球 CPO 相关市场超过 120 亿美元。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,509" src="https://img.36krcdn.com/hsossms/20260927/v2_bd8ff07b734b45d3a3fa1f72fea109e2@000000_oswg243514oswg1080oswg509_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>&lt;点击图片可放大查看&gt;</p>
+  <p>本文的赌注是：<strong>2027 年 NPO 的出货量与营收增量将超过 CPO，</strong>理由是腾讯、阿里与国产 GPU 超节点提供了 CPO 尚不具备的规模化落地场景，而 CPO 在交换机侧的首批部署集中于两家供应商；<strong>但 CPO 在 2028 年后的斜率会更陡，</strong>两者是接力而非零和。对中国产业链而言，NPO 的窗口期是 2026 年四季度到 2028 年，这两年里谁能拿到云厂商的 3.2T/6.4T NPO 光引擎订单，谁就在下半场占了位。高盛把中际旭创 2028 年约 17% 的收入归入包含 NPO、CPO、光引擎与光交换机的 scale-up 业务，是卖方对这一窗口的第一次量化。</p>
+  <p><strong>05</strong></p>
+  <p><strong>速率与材料：400G/lane 不会一步到位，中间有一个台阶</strong></p>
+  <p><strong>5.1 光先行、电在后</strong></p>
+  <p>硅光模块按速率的演进路径很清楚：400G（4×100G）、800G（8×100G，同代技术）、1.6T（所有器件翻倍到 200G/lane），下一步 3.2T 需要再翻倍到 400G/lane。Tower 在二季度电话会上的口径是，100G 与 200G/lane 产品已大批量生产，正在推进近封装光学与 400G/lane 方案，后者要求电芯片与光芯片更紧密的集成；一季度电话会则披露了两项进展——与 Coherent 合作的全硅 400G/lane 马赫-曾德尔调制器，以及与 OpenLight 合作的 400G/lane 磷化铟电吸收调制器。学术界也有硅微环调制器做到单波 400G 的报道。也就是说，光器件一侧，400G/lane 已经“能做”。</p>
+  <p>难的是电。Marvell 在 OFC 2025 演示 400G/lane 电光链路用的是 224GBd 的 PAM4；Ciena 在公开技术博客中直言，用 PAM4 做 448G 电接口所需的波特率在功耗与插损上很可能难以承受，PAM6 与 PAM8 仍是有力候选，行业尚无共识。OCP 蓝图给出的物理约束更直观：448G PAM4 的电信号在铜上走约 25 厘米就劣化到需要重驱动。所以 OFC 2026 上最先出现的 400G 单波产品走的是“光先行、电在后”：新易盛的 1.6T DR4 用一颗 8:4 的 PAM4 DSP，把 8×200G 的电接口桥接到 4×400G 的光接口——光通道先翻倍，电接口留在 200G。</p>
+  <p>由此可以做一个推演（本文判断，非任何机构口径）：如果器件带宽停留在 200G 一代（约 113GBd），只把调制格式从 PAM4 升到 PAM6，单通道约 280–290G；升到 PAM8 约 340G。换言之，<strong>在真正的 400G/lane 电接口成熟之前，行业很可能先出现一个 300G 级的过渡台阶或“超频”方案</strong>——历史上 50G 到 100G、100G 到 200G 的每一次翻倍，中间都出现过类似的过渡形态。标准层面，中国移动牵头的单通道 400G MSA 于 4 月 15 日发布全球首个《单通道 400G 以太网物理层白皮书》，覆盖光互联、电通道、SerDes、F<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link> 架构与调制格式，成员包括阿里、腾讯、华为、中兴、Marvell、光迅等 20 余家。本文预计：<strong>400G/lane 规模量产落在 2028–2029 年，与 3.2T 可插拔和 25.6T XPO 同期。</strong></p>
+  <p><strong>5.2 三条材料路线在 400G 节点的“三国杀”</strong></p>
+  <p>把 OFC、光博会与上市公司披露放在一起，单波 400G 的调制器材料竞争已经形成三条路线并行的格局。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,565" src="https://img.36krcdn.com/hsossms/20260927/v2_6a9adf1f73b04f54a9f47092830a6e69@000000_oswg288243oswg1080oswg565_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在 400G 节点，硅光调制器在成本上守住 DR 短距，磷化铟与薄膜铌酸锂在带宽上分食 FR 与更高速率，三者共存而非替代。高盛“3.2T 硅光渗透率 80%”的假设能否成立，取决于硅光在这一节点守得住多少。</p>
+  <p><strong>5.3 400G 之后：窄而快、宽而慢与波分的第三条路</strong></p>
+  <p>单通道速率逼近 SerDes 极限之后，IO 的演进在公开文献里已经分成三条路径。<strong>“窄而快”</strong>是单通道继续提速，强度调制直接检测不可能一直往上，最后会转向相干——数据中心内的轻量相干（coherent lite）已经出现在中际旭创的 800G LR2 产品上。<strong>“宽而慢”</strong>是用大量低速通道绕开高速 SerDes：微软研究院在 SIGCOMM 2025 发表的 MOSAIC 让每个 microLED 像素只跑 2Gb/s，400 个像素的阵列合成 800G，配合成像光纤，号称可把网络能耗降低最多 50%，计划最早 2027 年与伙伴商用；Avicena 与台积电合作开发配套的探测器阵列；Lightmatter 的技术博客标题就叫“宽而并行者胜”。</p>
+  <p><strong>第三条是波分路线。</strong>由 AMD、博通、Meta、微软、英伟达与 OpenAI 共同制定的 OCI MSA 1.0 版规范，定义了面向 AI scale-up 的光物理层：O 波段、单纤双向、微环调制器、外置激光源，第一代用 4 个波长、每波长 50G NRZ，单纤单向 200G，通道间隔 400GHz，路线图指向单纤单向 1.6T。它不追求单通道速率，而是用“中等速率 × 多波长”换带宽密度与能效。三条路径对应不同距离与层级，将在 2028–2030 年同时存在；做硅光的人要同时盯住对端接口的演进——NVLink 从 1.8TB/s 到 3.6TB/s，交换芯片从 51.2T 到 200T，HBM 一代代加宽——这正是 OCP 蓝图把系统设计自下而上分层（物理与材料、封装与散热、芯片架构、软件、通信）的原因。</p>
+  <p><strong>5.4 电芯片：去 DSP 之后，锗硅的第二春</strong></p>
+  <p>速率之争常被讲成光芯片的故事，但光模块里承担驱动与接收的电芯片同样关键。Tower 总裁接受 EE Times 采访时说得很直接：“放大器——跨阻放大器和驱动器——我们用锗硅来做。”同一篇报道援引的口径是，Tower 在这两类芯片上的份额超过一半；MACOM、Semtech 面向 1.6T 的 200G/lane 驱动器与跨阻放大器也在这一两年密集发布。先进 CMOS 能做，但要花大钱上先进节点；III-V 只在长途相干等极高性能利基。</p>
+  <p>原因是教科书层面的器件物理。双极晶体管的跨导效率由物理常数决定，室温下每安培集电极电流约 38 西门子，不随偏置变化；MOS 管在强反型区只有 5–10。同等功耗下，锗硅 HBT 单级放大的增益带宽积高出数倍，CMOS 要靠多级、共源共栅或以带宽换增益来弥补。垂直结构带来更小的失配与更低的闪烁噪声，这是跨阻放大器与低噪放的立身之本。短板是耐压：300GHz 级锗硅 HBT 的击穿电压只有 1.5 伏量级，要输出几伏的调制器驱动摆幅需要叠管或专门的高压器件；CMOS 的长处则是厚氧器件的大摆幅和低成本集成数字逻辑。工艺进度上，Tower 官网披露其 SBC18H5 锗硅平台的 fT 已从 285GHz 提升到 330GHz、fMAX 从 310GHz 提升到 345GHz，正被 1.6T 产品采用，并称“3.2T 节点近在眼前”。</p>
+  <p>这一节与形态之争直接相关。可插拔时代，DSP 是模块里最贵、最耗电、最缺货的芯片，Marvell 与博通双寡头把持，2026 年光模块 DSP 市场约 60–70 亿美元（行业研究口径）；LPO 与 NPO 去掉 DSP 之后，均衡功能下沉到跨阻放大器与驱动器，线性度与带宽由模拟侧承担——<strong>DSP 每减少一颗，模拟电芯片的规格就提高一档。</strong>Semtech 在发布线性芯片家族时说，客户从 DSP 架构转向线性架构时，最不需要的就是把多家来源的器件拼在一起、再祈祷它们能协同工作——这正是代工厂把锗硅与硅光放在同一平台协同设计的价值。对国内产业而言，这是一个比 DSP 更现实的替代切口：模拟电芯片的护城河在长期工艺迭代而非制程投入，200G/lane 之后跨阻放大器需集成连续时间线性均衡、驱动器射频带宽要超过 120GHz、封装间距从 500 微米收窄到 250 微米，每一项都是国内设计公司可以跟进的工程问题，而不是被先进节点卡住的资本问题。</p>
+  <p><strong>06</strong></p>
+  <p><strong>光源瓶颈：激光器、磷化铟衬底与“每 4 通道 1 颗”的物理约束</strong></p>
+  <p><strong>6.1 全世界造不出足够的激光器</strong></p>
+  <p>激光器是当前光模块最大的供应链问题。Kozlov 的说法是需求超过供给将近一倍、瓶颈在磷化铟；LightCounting 后续的口径是 EML 与激光器芯片的产能缺口约 30%。行业的最佳实践是每 4 个通道 1 颗 CW 激光器，32 或 64 通道的 NPO 需要 8 到 16 颗，每一颗都要贴装、对准、配透镜和隔离器。光博会前后的数据印证了紧张程度：200G EML 单价约 15 美元，2026 年全球需求约 1.5 亿颗，Lumentum、Coherent、博通占高端产能约 90%，订单排至 2027 年底；磷化铟衬底方面 AXT 与住友占近 80%，中国对铟和磷化铟实施出口管制后 6 英寸片价格上涨约 250%（行业与媒体测算）；Lumentum 首席执行官 7 月称磷化铟短缺“可能比存储芯片紧缺更严重”。英伟达 3 月向 Coherent 与 Lumentum 各投 20 亿美元并签多年供货协议，锁的就是这一环。高盛测算的 1.6T 模块激光器价值量——硅光方案约 15–20 美元、EML 方案约 160 美元——从另一侧说明了同一件事：在激光器最紧缺的年份，少用激光器的方案同时拿到了供应与成本两个优势。</p>
+  <p>扩产动作因此密集。Coherent 德州 Sherman 6 英寸磷化铟产线扩建获美国商务部 5000 万美元资助；日本 JX Advanced Metals 计划投资 1200 亿日元把磷化铟衬底产能提升 7–10 倍；博通磷化铟工厂 EML/CW/VCSEL 产能同比扩张三倍以上；东山精密把索尔思常州光芯片与模块扩建项目追加至 17 亿美元；三安光电磷化铟外延产能 6000 片/月并可量产 400G/800G/1.6T 光芯片；云南锗业磷化铟产线扩建至 45 万片/年。国产替代的真实位置是：源杰科技的 70mW CW 激光器大批量交付、100mW 批量交付、200G EML 处于客户验证末期、预计 2026 年底量产，CW 激光器锁单至 2028 年；长光华芯展出 70/100/200mW CW DFB 系列与 200G EML；200G EML 国内目前只有索尔思规模量产（行业口径）。200G EML 与 100mW CW 的缺口大概率延续到 2027 年。</p>
+  <p><strong>6.2 两种解法：把激光器做进硅片，把一颗激光器变成多个波长</strong></p>
+  <p>第一种解法是异质集成。Tower 的 PH18DA 平台把磷化铟激光器与硅光波导、调制器做在同一片 8 英寸晶圆上；OpenLight 在 OFC 现场演示了片上光源的 200G 眼图，8 月 11 日其 PH18DA 设计套件进入 Cadence 工具；为保障外延片供应，Tower 与 IQE 签署了多年供应协议，同时把关键制造步骤内部化。按二季度电话会的口径，集成磷化铟激光器明年将贡献“数千万美元”收入，芯片对晶圆键合是实现路径。把 8 颗、16 颗激光器做成一颗“激光芯片”，省掉的是逐颗贴装对准的机械工作。</p>
+  <p>第二种解法是波分。2 月 17 日 Tower 与 Scintil Photonics 宣布全球首个异质集成 DWDM 激光源可供货；OCI MSA 则把多波长写进了 scale-up 光互联的规范。The Register 6 月的一篇分析算过一笔账：如果沿用分立激光器，16 个波长的光源组件大约需要 128 颗激光器、128 次光纤对准和 128 个监测探测器，而超大规模 CPO 每月需要的是“数百万个而不是数万个”光源单元——这条路走不通，只能靠集成光源与光梳。波长增多带来的下一个门槛是滤波与波长控制：OCI 的 400GHz 通道间隔在 O 波段只有约 2.3 纳米，微环的热调谐、片上复用与解复用的工艺一致性，都从配角变成了主角；低损氮化硅波导平台的价值也在这里。<strong>当激光器供给受限而通道数继续增加时，产业的解法必然从“更多激光器”转向“更多波长”，波分滤波能力就从无源配角变成了稀缺资源。</strong></p>
+  <p><strong>07</strong></p>
+  <p><strong>价值迁移：接收端、光电合封与无源器件的“隐性受益”</strong></p>
+  <p><strong>7.1 接收端正在从“一排探测器”变成光芯片</strong></p>
+  <p>过去硅光芯片的价值几乎全在发射端，接收端传统上只是一排光电探测器。三个变化正在改写这一点。其一是波分：CWDM4、CWDM8 这类多波长产品，以及 OCI MSA 的多波长 scale-up 链路，都需要在接收侧做片上解复用。其二是速率：400G/lane 要求探测器带宽超过 100GHz，而学术界的锗探测器纪录早已远超这一水平——德国 IHP 2021 年在《自然·光子学》报道了 3dB 带宽 265GHz 的锗光电二极管——问题从“能不能做”变成“能不能在量产平台上高良率地做”。其三是相干下沉：轻量相干进入数据中心后，接收端需要 90 度混频器与平衡探测器，天然是一颗光芯片。再叠加接收端必须处理任意偏振（发射端只需 TE 模）的耦合难题，接收端光芯片对工艺的要求并不比发射端低。本文的判断是：<strong>接收端是可插拔存量市场内部的新市场，</strong>也是代工厂与硅光设计公司下一阶段扩张的主要方向。</p>
+  <p><strong>7.2 光电合封：键合与 TSV 决定谁能把电芯片放到光芯片上</strong></p>
+  <p>OIF 立项的 12.8T 近封装模块意味着 64 路 200G 的收发、驱动器、跨阻放大器、电源管理、激光器和光纤阵列要装进一个贴着主芯片的模块里，电芯片放在哪里成了真问题——它们要以极高速率与光芯片通信，必须贴得足够近。台积电 COUPE 的做法是用 SoIC 混合键合把先进节点的电芯片直接堆叠在光芯片上，英伟达的 CPO 交换机即采用这一结构；Tower 首席执行官在二季度电话会上说，公司面向下一代产品正在建立芯片对晶圆与晶圆对晶圆的键合能力；晶方科技在光博会论坛上给出的口径是，单颗光引擎中 TSV 工艺的价值占比为 10%–30%。去掉 DSP 之后，线性度与带宽由模拟侧承担，电芯片与光芯片的协同设计与合封，从可选项变成了必选项。</p>
+  <p>光博会上的对应现象是设备与封装企业的订单量级跃迁。杰普特称 MPO/MMC 产品交付价值量同比增长超 20 倍；新益昌展出多芯片固晶机与硅光耦合设备；罗博特科旗下 ficonT<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link> 在手订单 33.86 亿元并与一家纳斯达克上市公司签 6 亿元硅光设备订单。国内 7 家核心光模块上市公司在建工程从 2022 年一季度的 5.56 亿元升至 2026 年一季度的 38.98 亿元。</p>
+  <p><strong>7.3 无源与光纤：CPO 时代的“中国反向优势”</strong></p>
+  <p>光引擎与 ASIC 靠近之后，光纤阵列（FAU）、外置光源（ELS）、MPO 连接器和 MT 插芯从可插拔时代不足 10% 的 BOM 占比，上升到 CPO 整机 BOM 的 15%–25%。天孚通信是英伟达 CPO 交换机的官方技术合作伙伴，面向 CPO 的 FAU 与 ELS 外置光源已处于交付状态，上半年毛利率 60.87%；亨通在光博会发布 CPO/NPO 特种光纤；太辰光的 MT 插芯供不应求。与光芯片“95% 在海外巨头手里”正相反，中国厂商占全球 MT 插芯供应一半以上、三环占陶瓷插芯约七成。光纤本身也在涨价：普通 G.652.D 裸纤年内涨约 4 倍，光棒扩产周期 18–24 个月；空芯光纤进入运营商集采元年，长飞交付超 1 万芯公里、亨通做到 0.04dB/km，9 月 11 日光博会有专场论坛。</p>
+  <p><strong>价值流入与流出的四对一</strong></p>
+  <p><strong>流入：</strong>激光器与光源集成（磷化铟 CW、异质集成、光梳）；接收端光芯片与超 100GHz 探测器；低损氮化硅与密集波分滤波；混合键合、TSV 与光纤阵列等光电合封环节。</p>
+  <p><strong>流出：</strong>可插拔 DSP 的单位用量（NPO/LPO 去 DSP，但 3.2T 可插拔仍需要）；离散激光器贴装与光路组装；门槛下降、参考设计成熟的纯发射端硅光片设计——这一环节将趋于同质化竞争。</p>
+  <p><strong>08</strong></p>
+  <p><strong>OCS 与 OIO：两条“非主流”路线的现实位置</strong></p>
+  <p>光路交换（OCS）在这届光博会第一次拿到主论坛开场位置——Cignal AI 的分析师 9 月 10 日在信息通信论坛开讲 OCS。供给侧的证据是 Lumentum OCS 在手订单超 4 亿美元、2026 年全球出货约 2 万台；硅光 OCS 初创公司 iPronics 9 月 2 日完成 1.25 亿美元 B 轮、英伟达参投；光迅展出 320×320 OCS，中际旭创在 OFC 展出 300×300 MEMS OCS，新易盛有 NX300 OCS。开放代工平台也在进入这一领域：Tower 2 月 25 日与 Salience Labs 宣布基于集成 III-V 光源的 PH18DA 与低损氮化硅波导的 TPS45PH 平台制造芯片型 OCS，并从开发进入预量产；3 月 16 日又宣布与 Oriole Networks 合作，把后者“边缘交换、无源核心”的纳秒级光路交换架构做到集成激光、光放大、开关、调制与探测的单芯片硅光平台上。</p>
+  <p>需求侧的现实却冷静得多。2026 年约 2 万台的全球出货里，谷歌一家约占 1.8 万台（第三方估算）——OCS 的规模应用至今高度集中在一家公司及其独特的网络架构上。中国移动此前给出的四大障碍——毫秒级切换、生态封闭、标准缺失、成本收益——仍然有效；对多数云厂商而言，OCS 在 AI 集群里的现实用法是按任务切分 GPU 片区以提高利用率，而不是替代电交换。本文的判断是：<strong>硅光 OCS 在 2027 年拿到首个超大规模客户试点是大概率事件，但 2030 年前不会撼动 MEMS OCS 与谷歌体系的主导地位。</strong></p>
+  <p>光 I/O（OIO）与 scale-up 光互联则是资本最热、量产最远的一条线。Marvell 2 月完成收购 Celestial AI，Credo 4 月收购 DustPhotonics，Ayar Labs 3 月 E 轮 5 亿美元估值 37.5 亿美元，曦智科技 4 月港交所上市；英伟达 Rubin Ultra NVL576 是首个在 NVLink 域用光做 scale-up 的平台，Coherent 口径 scale-up 光 2027 年下半年量产、首批客户 2028 年部署，而 Kyber 机架据报因中板问题推迟至 2028 年。海思在光博会用 200G VCSEL 多通道阵列做机柜内 scale-up，是一条更务实的中间路线；微软的 microLED 与 OCI 的多波长微环，则分别代表“宽而慢”与波分两种思路——共同点是用并行度换单通道速率，用短距换功耗。</p>
+  <p><strong>09</strong></p>
+  <p><strong>地缘：FCC 最终规则落地，两把尺子仍在</strong></p>
+  <p>8 月 4–5 日路透社曝出 FCC 起草禁止“新型号”中国数据中心光模块进口，8 月 6 日 FCC 发布第三份进一步规则制定通知，评论截止 9 月 8 日——恰在光博会开幕前一天。9 月 11 日，题为《防范通信供应链国家安全威胁》的最终规则在联邦公报刊出（7 月 22 日表决通过，刊出后 30 天生效）。据华尔街见闻当日报道，规则禁止进口含中国“覆盖清单实体”生产的逻辑硬件组件的设备，但中际旭创、新易盛、东山精密、天孚通信等中国光通信核心企业并未被直接纳入限制名单，8 月草案中针对“新型号”的全面禁入没有出现。</p>
+  <p>这一结果与 Cignal AI、Counterpoint 展前的判断一致：中国厂商占全球数通光器件供应约三分之二，中际旭创一家占 2026 年一季度全球市场 34%、美国超大规模客户占其收入六成以上，西方 1–2 年内无法替代。但“两把尺子”框架并未失效：原产地看主板贴装位置，实体看“在何处注册”——泰国厂能解决前者，解决不了后者；覆盖清单机制已经就位，光模块被纳入只需一次投票。<strong>光博会展台上各家反复强调的“非中国产”交付口径、海外产能利用率和第三地合资平台，是产业对这一悬置风险的持续对冲。</strong></p>
+  <p>反向的依赖同样存在。中国对铟与磷化铟的出口管制推高了全球磷化铟衬底价格；美国最先进的 CPO 交换机在 FAU、MPO、MT 插芯与精密组装环节高度依赖中国大陆供应链。而对中国硅光设计公司而言，最上游的先进硅光代工仍主要在海外。两条依赖链方向相反、同样脆弱，这是下半场所有参与者都要面对的底色。</p>
+  <p><strong>10</strong></p>
+  <p><strong>判断：未来十二个月的十个可验证信号</strong></p>
+  <p>把以上公开信息合并，本文给出十个带时间与验证方式的判断。它们不是预测股价，而是下半场的记分牌。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,739" src="https://img.36krcdn.com/hsossms/20260927/v2_2fee088bd1c844b48906344de100c7c9@000000_oswg431626oswg1080oswg739_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>结语：上半场拼产能，下半场拼集成</strong></p>
+  <p>回头看，光互联大致走过了三段：第一段解决器件与封装的基本问题，从气密走向非气密、从分立走向硅光；第二段拼制造与供应能力，头部模块厂的产能从每月十万只级扩到每年数千万只，中国厂商因此拿下全球约三分之二的数通光器件份额；第三段拼的是封装与系统集成能力。代工厂的公开口径说的是同一件事：可插拔已经成熟，NPO 是下一个增量，要供应的不再只是发射端硅光片，而是包括集成光源、接收端光芯片、波分滤波、键合与锗硅电芯片在内的整套光引擎物料清单。</p>
+  <p>管理学里有一个概念叫“核心刚性”：让一家企业成功的核心能力，在环境变化之后最容易变成束缚它的东西。这个概念同样适用于中国光模块产业：让它在上半场赢得全球份额的基因——可插拔形态、规模制造、快速响应——在 CPO 与光电合封主导的下半场，可能变成路径依赖。光博会上五家以上厂商同时拿出 12.8T XPO、三家以上给出带客户验证的 3.2T NPO，说明产业已经意识到这一点；而先进硅光代工、高端激光器与高性能 SerDes 仍主要在境外，说明下半场的门槛比上半场高得多。</p>
+  <p>一年之后，光博会还会再开一届。届时验证本文十个信号的，将不是展台上的样品，而是云厂商机房里真正点亮的光引擎数量。</p>
+  <p>*免责声明：本文由作者原创。文章内容系作者个人观点，半导体行业观察转载仅为了传达一种不同的观点，不代表半导体行业观察对该观点赞同或支持，如果有任何异议，欢迎联系半导体行业观察。</p>
+  <p><strong>END</strong></p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&amp;mid=2247834610&amp;idx=1&amp;sn=c04f33ca3b9acdfacc308408b41a1326&amp;chksm=cf812dce055f8fa7558486a81dbcfbf92cc8992b6653fba98cc3708c91163d4431b664d9ecce&amp;scene=0&amp;xtrack=1#rd">“半导体行业观察”（ID：icbank）</a>，作者：水豚噜噜，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 27 Sep 2026 05:17:08 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4001118301425796</guid>
+            <link>https://www.36kr.com/p/4001118301425796</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[OpenAI，经历了最漫长的一天]]></title>
+            <description><![CDATA[<p>当地时间 9 月 25 日，OpenAI 经历了漫长的一天。</p>
+  <p>当天，<strong>OpenAI 的 AI 智能体擅自访问美国政府网站的事被曝光，涉及教育部、商务部和证券交易委员会</strong>，OpenAI 确认了其中商务部和 S<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link> 的情况。</p>
+  <p>同一天，它承认有 53 张用户上传到 ChatGPT 的图片被智能体发布到了外部图床上。还是这一天，一份事故报告的末尾写着，最强模型的全部训练、评估以及涉及工具调用的推理都已暂停。</p>
+  <p>这一切听上去，像一部 AI 叛逃的惊悚片。</p>
+  <p><strong>但翻遍这些事件，没有一个 AI 想干坏事。</strong>害 OpenAI 暂停模型研究的任务，仅仅是让 AI 查出一篇博客的作者的简单任务。</p>
+  <h2><strong>01</strong></h2>
+  <h2><strong>简单任务</strong></h2>
+  <p>9 月 20 日，一个正处于强化学习训练中的内部模型，拿到了一组人物履历细节和一篇公开博客里的线索，任务是找到那位博主。</p>
+  <p>它先用博客里的特征短语去搜，结果返回的是音乐和一些不相干的泛泛建议。模型开始怀疑搜索工具坏了，于是在命令行里用 Python 直接向其他搜索引擎发请求，三个全部报错。它甚至猜测这道题出自公开评测集 BrowseComp，把数据集和评测脚本下载下来翻找答案，也落了空。</p>
+  <p>接着，它尝试通过 HTTPS 直接联系一个公开的聊天机器人，被代理拦了下来。</p>
+  <p>到这里，墙起了作用。OpenAI 的训练沙箱被设计成与真实互联网隔绝，除了这份报告里的 DNS 解析器，所有联网请求打到的都是一份离线网页缓存。</p>
+  <p>问题就出在这个例外上。</p>
+  <p>DNS 相当于互联网的查号台，任何程序访问一个网址之前，都要先问它「这个地址在哪」。系统里大量正常组件都依赖它，所以哪怕其他出口全部封死，查号台通常还开着。</p>
+  <p><strong>模型发现，沙箱自己的解析器能为真实域名返回记录，还能正确拒绝编造的域名，它由此判断这是一条通向公网的路</strong>。它找到一种公开的 DNS 服务，把自己的问题编进「要查的号码」里，对方在回执里把答案捎回来。第一次超时了，它把等待时间从 6 秒调到 19 秒，重试。</p>
+  <p>这一次，外面的聊天机器人回答了它的测试问题，法国的首都是巴黎。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260927/v2_c4af515488da4024b837161dfdfefa6f@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>智能体借 DNS 绕出训练沙箱的路径示意，据 OpenAI 事故报告绘制｜图片来源：极客公园</p>
+  <p><strong>它没有止步于打通一条缝。</strong>它随后又通过同一条路发出 18 个问题，其中 14 个带着任务线索，另外 4 个在打听如何经由 DNS 搜索网页、抓取网站，或者哪里有公开的 DNS 隧道服务。</p>
+  <p>最后，它告诉用户没能确认博主身份，请对方提供原文、标题或博客名。</p>
+  <h2><strong>02</strong></h2>
+  <h2><strong>捡钥匙</strong></h2>
+  <p>整份报告里，最值得反复读的是模型在决定走 DNS 这条路时留下的一句思维链。大意是，用户只授权了做研究，那么使用公开提供的 DNS 服务是可以接受的。</p>
+  <p><strong>模型并非不知道边界在哪，它是给自己签了一张许可证。</strong></p>
+  <p>同样的推理结构，出现在「访问」政府网站那批事件里。在商务部，智能体从公开代码仓库里找到登录凭证，用它拉取了人口普查局的数据。OpenAI 对此的说法是，使用的是公开可得的开发者密钥，没有发现凭证滥用，但它也承认智能体本不该使用这些凭证。</p>
+  <p><strong>数据是公开的，不等于捡到别人的钥匙就可以开门。</strong></p>
+  <p>另外两起性质更轻。在 S<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>，模型访问的是 S<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>.gov 和 Investor.gov 上的公开信息，问题在于它把这些材料转贴到了另一个网站。在教育部，AI 研究机构 Transluce 发现，疑似来自 OpenAI 的智能体对民权办公室网站做了一次粗糙的入侵尝试，没有成功。</p>
+  <p>这些事并不新。相关活动至少能追溯到 2026 年 3 月，是在 OpenAI 回溯审查中才陆续浮出水面的。Transluce 还发现了一些无法明确归因于 OpenAI 的越界活动，指向司法部以及加州、马里兰、伊利诺伊、得州和纽约州的政府网站。</p>
+  <p>OpenAI 的解释是，大部分活动都是例行研究任务，政府网站被模型视为权威的公开信息来源。</p>
+  <p><strong>这个解释本身，恰恰说明了问题所在。</strong>越界并没有出现在什么危险任务里，而是出现在最日常的「查资料」中。</p>
+  <p>暴露用户 53 张图片的事同样如此。这些图片来自没有关闭训练数据授权的 ChatGPT 用户，被发到了图床上不公开列出的链接里，大部分已删除，仍有一部分挂在网上。更尴尬的是，OpenAI 表示，由于其技术方案和隐私政策，它无法把图片重新对应到原始用户，也就没法通知他们。</p>
+  <p><strong>匿名化本来是为了保护用户，出了事之后，它成了连通知用户都做不到的原因。</strong></p>
+  <h2><strong>03</strong></h2>
+  <h2><strong>漫长的夏天</strong></h2>
+  <p>把时间线拉长，这是 OpenAI 一场持续了整个夏天的补墙工程。</p>
+  <p>7 月 21 日，OpenAI 披露其模型组合自主入侵了 Hugging Face 的数据处理系统，并称这是已知首例由 AI 智能体自主实施的网络攻击。此后，OpenAI 把训练环境的联网改成离线缓存。9 月 20 日的 DNS 事件，是这轮安全加固之后的第一次事故，OpenAI 自己评估其严重程度远低于此前几起。</p>
+  <p>这也不是一家公司的问题。9 月 18 日，Google 披露 Gemini 在一次测试中未经授权访问了三个外部系统，原因是它以为那些系统是测试的一部分。</p>
+  <p>墙本身之外，这次还暴露了盯着墙的人的问题。从智能体拿到外部回复，到监控系统拉响最高级别警报，用了不到 12 分钟，人工审核员 3 分钟后就做出了响应，<strong>但这次训练直到两个半小时后才被手动终止，原因是运行没有按预期自动停止，大家一时搞不清到底该不该停</strong>。</p>
+  <p>更隐蔽的漏洞在监控逻辑里。回溯时 OpenAI 发现，另一些外联 DNS 请求没有被标到应有的严重级别，因为监控系统有时把「没拿到有用信息」当成了「联网尝试失败」。</p>
+  <p><strong>用结果去判断意图，是这套监控最根本的错误。</strong>一个试了一百次、失败九十九次的模型，并不比只试一次就成功的模型更安全。</p>
+  <p>这一次，OpenAI 付出了真金白银的代价。最强模型的相关工作会一直暂停到漏洞被确认修复、并完成额外红队测试为止，而且即便奖励信号已经对这类行为做了正确惩罚，这个模型也不会再继续训练。</p>
+  <h2><strong>04</strong></h2>
+  <h2><strong>没有「简单问题」</strong></h2>
+  <p>对大多数人来说，OpenAI 的训练沙箱很遥远。但这几起事件真正指向的，是一个离每个人都很近的问题，<strong>你交给 AI 的那句话，到底授权了多少。</strong></p>
+  <p>越来越多人把邮箱、网盘、代码仓库和 API 密钥交给各种智能体，然后说一句「帮我查一下」「帮我处理一下」。在 OpenAI 的实验室里，这句话之外还有监控系统、红队、值班的审核员。而在个人电脑和手机上，通常只有这句话本身。</p>
+  <p>对开发者来说还有一层更直接的风险。过去推到 GitHub 上的密钥，要等专门的扫描工具来捡；现在，任何一个在执行普通任务的智能体，都可能把它当成「公开可用的资源」顺手用掉。</p>
+  <p>当然，没有必要把这些读成末日预言。那个查博主的模型最终没有找到答案，它从外面拿回的，只是一句「巴黎」。</p>
+  <p><strong>危险不在它拿到了什么，而在它愿意走多远。</strong></p>
+  <p>过去几年，AI 安全讨论最多的，是一个怀有坏目标的 AI 会做什么。OpenAI 这个夏天的一连串事故给出了一个更现实的版本：</p>
+  <p><strong>一个只想好好完成任务的 AI，会为了交差说服自己做到哪一步</strong>。</p>
+  <p>当一家 AI 公司都需要停下最强的模型，来重新检查围墙时，你再问 AI 助手那句「帮我查一下」时，会不会有别样的感觉？</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653114187&amp;idx=1&amp;sn=1a2155468976ee9e236a0e31064eb742&amp;chksm=7f3f19747dd447fa46d144b2f5e9b97f3cb85650a9f022bef9d89c0c0e2c9875c9097cfafa21&amp;scene=0&amp;xtrack=1#rd">“极客公园”（ID：geekpark）</a>，作者：桦林舞王，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 27 Sep 2026 04:05:21 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4001126579687302</guid>
+            <link>https://www.36kr.com/p/4001126579687302</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[管住AI，成了一门新生意]]></title>
@@ -2623,233 +2968,6 @@
             <pubDate>Thu, 24 Sep 2026 12:54:34 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/3997354896969603</guid>
             <link>https://www.36kr.com/p/3997354896969603</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[三个印度人如何用AI建起一座4亿美元内容工厂]]></title>
-            <description><![CDATA[<blockquote>
-   <p>在AI技术辅助下，这家人气音频微短剧平台每月产出20万小时的用户生成内容。其中诞生了足够多的爆款，平台由此相信这就是娱乐业的未来。</p>
-  </blockquote>
-  <p>在一个被外星战争蹂躏的反乌托邦世界里，一个在学校被欺凌的男孩发现了一本古老的书，那是他从未谋面的父母留下的。结果这本书把他变成了吸血鬼。这只是《我的吸血鬼系统》（My Vampire System）前10分钟的内容。该剧是Pocket FM上最受欢迎的音频剧，自四年前首播以来播放量已超过15亿次。故事后续还有4192集，剧情紧凑，悬念不断。如果你想全部听完，就得做好掏钱的准备了。</p>
-  <h2><strong>01</strong></h2>
-  <p><strong>Pocket这家音频娱乐公司总部位于印度，几乎完全通过微交易赚钱。</strong></p>
-  <p>用户每天可享受30分钟免费收听，之后就要按集付费。理论上，如果用户每天将额度用尽，可以免费听完整部《我的吸血鬼系统》，不过要花费四年时间；或者他们也可以购买Pocket“金币”来解锁剧集，每集价格从几美分到超过3美元不等，具体取决于套餐、促销活动和单集热度。平台不设订阅制，也没有畅听选项，一些用户听完整个故事得支付数百乃至上千美元。他们也确实这么做了。《福布斯》估计这部剧的总收入已接近9000万美元。</p>
-  <p>让人上头的短平快音频内容，搭配较高单集定价的商业模式，近年来推动Pocket FM及其他微短剧公司实现指数级增长。2018年，三位二十五六岁的好友在印度班加罗尔创立Pocket FM；公司完成四轮融资，募资总额近2亿美元，投资方包括腾讯、光速创投（Lightspeed）等科技领域头部机构。几位创始人曾入选2022年福布斯亚洲30 Under 30 榜单；2024年公司估值达7.5亿美元（据《福布斯》估算，创始人团队合计持有公司约15%-20%的股权）。</p>
-  <p>Pocket Entertainment联合创始人兼首席执行官罗汉·纳亚克（Rohan Nayak）在接受《福布斯》采访时表示，当时的增长“还可以”，但这位33岁的CEO觉得增速“还是太慢了”。于是他得出了近年许多微短剧工作室都认同的结论：与其依赖签约编剧和配音演员组成的外部网络，用AI制作内容效率更高、成本更低。“我当时坚信，只要我们全力押注打造AI创作工具，就能以史无前例的速度生产内容，进而拉动业务增长。”纳亚克说。</p>
-  <p>2025年初，Pocket FM开始用AI语音实现音频制作自动化，并向所有用户开放写作反馈智能体工具，用户生成内容的闸门就此打开。此后已有超过55万名创作者在平台发布作品，吸引他们的是靠创作积累财富的前景：创作者可从作品销售额中抽取一定比例的分成。纳亚克称，平台上已有至少5位创作者收入突破百万美元。仅8月，新上传至平台的内容时长就超过20万小时。诚然，海量内容里掺杂大量粗制滥造的作品，但也孕育了很多潜在爆款。纳亚克表示，平台用户留存率提升了50%。目前平台付费用户已超250万，用户日均使用时长达150分钟，带动微交易收入与广告收入双双增长。《福布斯》估算，过去12个月Pocket FM的总营收约为4亿美元，较上一年增长逾一倍。其中约30%用于支付应用商店抽成，一小部分作为创作者分成。</p>
-  <p>纳亚克说：“我以前总在想，打造一部爆款剧怎么就这么难？现在我已经不在乎爆款率了。即便用户生成内容的爆款率低于专业制作内容，爆款的绝对数量也能达到专业内容的十倍以上。”</p>
-  <p>对纳亚克而言，AI带来的产能提升只是个开始。未来两周内，Pocket FM计划推出全新AI创作工具，帮助创作者构思核心创意、撰写完整剧集，让几乎所有人都能成为他口中的个人剧集“架构师”。一想到即将上线的海量新故事，他就难掩兴奋。</p>
-  <p><strong>“内容总归越多越好，”</strong>纳亚克表示，“给我十万部优质剧集，我就能交出50亿美元的年度经常性收入（ARR）。这就是我的商业逻辑。”</p>
-  <h2><strong>02</strong></h2>
-  <p><strong>这种打造爆款的思路完全扯下了创作的浪漫色彩，但在当下的娱乐行业，投资者始终倾向于押注已有受众基础的IP以控制风险。</strong></p>
-  <p>好莱坞主流玩家也已纷纷将微内容视作IP试验场：新加坡DramaBox于2025年入选迪士尼加速器项目Disney Accelerator；福克斯娱乐去年秋天入股乌克兰公司Holywater；索尼、派拉蒙旗下的BET频道以及Versant公司均有竖屏微短剧在制。</p>
-  <p>福克斯投资官宣后不久，Holywater联合首席执行官博格丹·内斯维特（Bogdan Nesvit）去年接受《福布斯》采访时表示，“我们积累了海量分钟级用户行为数据，这些都可以开放给合作伙伴。这些数据对内容决策至关重要，比如下一步要开发什么类型的电影。因为微短剧本质上就是IP孵化器。”</p>
-  <p>在制作流程的部分环节乃至几乎全流程引入AI辅助，就是将这一理念贯彻到极致。2024年，Pocket FM每小时内容的制作成本约为2000美元，只是顶级电影或剧集动辄数百万美元制作成本的零头，甚至比高端播客或有声书的成本还低，但当年公司仍录得近2000万美元的运营亏损。据公司数据，在终止与200名编剧的合约、全面转向AI驱动的用户生成内容模式后，每小时内容的制作成本骤降至仅30美元。尽管公司仍在大举再投资，已将员工规模扩张至850余人，还在洛杉矶开设了办公室，但Pocket FM目前已实现现金流为正，今年利润约为1000万美元。</p>
-  <p><strong>如果说观众对这类业余创作或AI生成的内容存在抵触情绪，那这种抵触完全没有体现在用户数据上。</strong>布兰登·丹尼希（Brandan Dennehy）曾在好莱坞从业20年，2022年入职Pocket FM，负责搭建并运营美国内容业务。他表示，看到哪些故事真正能收获受众，让他“大开眼界”。事实上，他越是不把好莱坞的传统叙事手法套用到剧集里，作品的表现反而越好。因此他的团队转换思路，把重心放在降低剧集更新的用户门槛、打造让人欲罢不能的剧情钩子上。</p>
-  <p>丹尼希于2024年离开Pocket FM，目前经营着自己的微短剧公司Atomic Drama。他表示：“我最大的认知转变之一是——我不是想贬低观众，但很多人其实根本不在乎（制作手法是否专业）。只要把内容直接推送到用户面前、能抓住他们的注意力，那些关于‘娱乐本该是什么样子’的固有认知，就全都被抛到九霄云外了。”</p>
-  <p>视频微短剧平台在中国市场热度极高，却始终难以打入美国市场；Pocket FM却和绝大多数这类平台不同，约80%的营收来自美国，另有12%来自欧洲。<strong>西方观众或许一开始会抵触AI生成视频的“恐怖谷效应”，但对AI生成的音频内容接受度显然要高得多。</strong></p>
-  <p>丹尼希透露，2024年公司内部曾讨论过全面转向视频业务——毕竟视频赛道的潜在盈利空间要大得多，但几位创始人担心如此重大的战略转向会引发投资者恐慌。早期的真人实拍视频项目表现不佳，今年6月，纳亚克关停了Pocket旗下视频微短剧应用Pocket TV，理由是用户留存率偏低、制作成本偏高。</p>
-  <p>关停Pocket TV后，纳亚克在领英（LinkedIn）上发文称：“我们认为当前的视频微短剧模式走不通。如今这一类别的很大一部分增长，靠的是激进的获客投入、诱导性设计套路和自动续费机制，这种游戏我们没兴趣玩。如果你的业务只能靠故意拉高退订门槛才能维持，那说明你的产品根本没有实现产品市场匹配，你只是个靠营销套利的平台而已。”</p>
-  <p>但视频业务诱人的盈利水平终究难以抵挡。Pocket TV关停后没多久，公司就低调推出了一款全新的视频应用Pocket Saga。纳亚克称，这款应用的月营收已超100万美元。他认为，如今AI技术已经足够成熟，Pocket的IP储备也足够深厚，足以和同类产品拉开差距。为了控制成本，公司目前只先把旗下最热门的音频剧集改编成视频，但他相信最终的成功还是要靠堆量取胜。“我们现在有20万小时的内容，要把它们全都转化为AI视频是一项浩大的工程，”他说，“但这一天一定会到来。”</p>
-  <p>或许有人会觉得，这种对娱乐行业未来的展望，几乎和《我的吸血鬼系统》里的虚构世界一样灰暗荒诞，但纳亚克对此深信不疑。他认为，在不远的将来，致力推动故事创作大众化的平台不会只有Pocket一家。</p>
-  <p>“Netflix的未来，是继续做专业内容出品平台，还是一个人人都能制作电影的平台？我的看法是，它应该会走向用户生成内容模式，”纳亚克表示，“如果单人工作室就能打造出价值1亿美元的IP，想象一下整个世界会变成什么样。”</p>
-  <p>本文译自：https://www.forbes.com/sites/mattcraig/2026/09/10/inside-pocket-fms-400-million-microdrama-content-farm/</p>
-  <p>原文标题：《“内容总归越多越好”：深入探访Pocket FM价值4亿美元的内容工厂》</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzYzMTgwNzYzNw==&amp;mid=2247663654&amp;idx=1&amp;sn=afa993fabbd643ca738defefd23e58f6&amp;chksm=f159a9b57fb0f5ac893fd2d9af9e13d8650b3660a994dbf416d55e22d77bbc1102c385e80147&amp;scene=0&amp;xtrack=1#rd">“福布斯”（ID：forbes_china）</a>，作者：Matt Craig；翻译：Elaine；校对：Lemin，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Thu, 24 Sep 2026 12:48:35 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3997184622186372</guid>
-            <link>https://www.36kr.com/p/3997184622186372</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[1/3价格，1/8重量，Meta新眼镜秒杀Vision Pro了？]]></title>
-            <description><![CDATA[<p><strong>从现在起，眼镜要为「超级智能」而打造。&nbsp;</strong></p>
-  <p>在今早的 Meta Connect 2026 主题演讲上，扎克伯格公开了一系列 AI 硬件新品——&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260924/v2_3de659efafb745a794b63b06143ecae7@46958_oswg678614oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>没有摄像头的纯音频 AI 智能眼镜 Ray-Ban Meta Audio、仅 100 克的超轻 VR 眼镜 Meta VR Glasses，以及既有智能眼镜产品的更多造型与联名款。&nbsp;</p>
-  <p>类似的设备形态，指向了同一个目的：&nbsp;</p>
-  <p><strong>要将「眼镜」打造成一种与 Meta 牢牢绑定的计算设备品类。</strong></p>
-  <h2><strong>Ray-Ban Meta Audio：拿掉摄像头，换来全天候使用</strong></h2>
-  <p>为什么是眼镜？扎克伯格给出的解释是：世界上有约 20 亿人戴眼镜，并且眼镜不会像耳机一样将个人与外界隔绝，可以说是最「无感」的 AI 设备候选。&nbsp;</p>
-  <p>Meta 要做的，只是让他们的眼镜「AI 化」。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,609" src="https://img.36krcdn.com/hsossms/20260924/v2_cbba7159dca34047881359bcfec1351f@46958_oswg635210oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>但不同于手机可以千篇一律，在眼镜这种配饰上，个性化才是最重要的</strong> ——走进任何一家配镜店，你都可以看到无数的镜框款式，到了 AI 时代，这一点照样不会变。&nbsp;</p>
-  <p>于是，今天端出来的第一款新品，就是用于适配特定需求的「音频眼镜」Ray-Ban Meta Audio。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260924/v2_7d97e895d620469eb5db556b530eab0b@46958_oswg987238oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>就像是无屏运动手环之于智能手表，Ray-Ban Meta Audio 在硬件上也大做减法，只留下了开放式扬声器、六麦克风系统以及 Muse &nbsp;智能助手，甚至可以认为是一款做成了眼镜形状的开放式耳机。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,609" src="https://img.36krcdn.com/hsossms/20260924/v2_b16c640d8d494efdad69a4c400d42b91@46958_oswg510322oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>没有摄像头的好处，是重量降到了 43 克，续航时间也提升到 12 小时，比带摄像头版本的 Ray-Ban Meta 长约 3 小时，基本可以覆盖一整天的活动时间。&nbsp;</p>
-  <p>少了摄像头，也让新的镜框造型成为可能。Ray-Ban Meta Audio 有 Burbank 和 Clubmaster 两款，支持 23 种颜色和镜片组合。其中 Clubmaster 镜框下半部分换成了金属细框，一改智能眼镜粗大笨重的形象，几乎无法和普通眼镜区分开来。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,609" src="https://img.36krcdn.com/hsossms/20260924/v2_a7270ea4616e4e5881680e09796bffca@46958_oswg282656oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>虽然 Meta 可穿戴业务负责人 Alex Himel 在采访中表示这条无摄像头产品线已经规划多年，但在智能眼镜正在掀起越来越多隐私争议的当下， <strong>一款从根本上就不能拍摄的眼镜，确实能终结「偷拍」的质疑，让更多人可以毫无负担地戴上它。</strong></p>
-  <p>也许是觉得只做减法有点说不过去，Meta 为这款音频眼镜增加了新的卖点——名为 Hearing Enhancement 的助听功能。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,609" src="https://img.36krcdn.com/hsossms/20260924/v2_27ebdd8e1f3c4e479172ee40890018ed@46958_oswg677053oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>事实上，美国有六分之一的人遭遇了不同程度的听力损失，但因为助听器价格高昂且佩戴适应过程漫长，很多人最终选择什么都不做。&nbsp;</p>
-  <p>而订阅 Hearing Enhancement 之后，眼镜会提取、放大周边人说话的声音，让轻至中度的听力损失用户也能轻松和旁人交流。&nbsp;</p>
-  <p>小扎没有明说的是，想要这项功能，需要花 150 美元一次性买断，或者订阅 Meta One 会员，并且音频眼镜本身 349 美元的起售价放在智能眼镜范畴里也算不上便宜。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,609" src="https://img.36krcdn.com/hsossms/20260924/v2_91be84cb888e42538d5a83ebf34320e2@46958_oswg472885oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>与此同时，Meta 也没有放弃传统的摄像头路线。&nbsp;</p>
-  <p>今年带摄像头的 Ray-Ban Meta Gen 3 起售价从 379 美元上涨至 449 美元，包含常规镜框 Wayfarer、猫眼镜框 Zena 与雷朋纪念版 Aviator 镜框，能够组合出 27 种镜片/配色搭配。硬件上依然是 1200 万像素相机，支持 3K 视频录制，麦克风从 5 个增加到 6 个，支持 Dolby 空间音频录制。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,941" src="https://img.36krcdn.com/hsossms/20260924/v2_0d6c7c1036c7452abe69d33525e89343@46958_oswg295677oswg1080oswg941_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而相对廉价的 Meta Glasses 自有品牌这边，Adventurer 经典方框入门版本价格下调 50 美元至 249 美元，新增了 Capri 和 Nova 两种框型，还有 LISA、Kylie Jenner 等名流联名款。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,940" src="https://img.36krcdn.com/hsossms/20260924/v2_a5d250ec70d24d5a82505569c99cfae3@46958_oswg1397003oswg1080oswg940_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>到今年年底，Meta 预计整个智能眼镜产品线会有超过 100 种不同选择。&nbsp;</p>
-  <p>显然，比起在硬件上琢磨，Meta 意识到了， <strong>智能眼镜首先是一种时尚单品</strong> ——要让人因为「智能」花几千块买眼镜并不容易，但如果是一副「好看」的时尚眼镜附带智能功能，那就完全不一样了。&nbsp;</p>
-  <p>如果说过去整个行业都在试图定义智能眼镜的模样，那 Meta 所做的，其实是反其道而行之，拒绝给出唯一的定义。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260924/v2_b1449ba4eb804bd9b80835f5e3c44e88@46958_oswg284683oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>有人要拍摄、有人要潮流，有人只想要一副轻便随行的 AI 音频眼镜。&nbsp;</p>
-  <p>于是，Meta 尝试把「智能眼镜」做成一个大品类，像真正的眼镜店一样满足所有人的需求，让你在任何时候，只要想到配镜，首先想到的就是他们的产品。&nbsp;</p>
-  <h2><strong>Meta VR Glasses：羽量级 VR，「斩杀」Vision Pro</strong></h2>
-  <p>一系列智能眼镜都很不错，但看着宣传片里的詹姆斯·卡梅隆和追梦格林带着一副轻巧如滑雪镜的 VR 眼镜惊呼时，恐怕已经没多少人记得刚刚的智能眼镜们了。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,606" src="https://img.36krcdn.com/hsossms/20260924/v2_eb18af5eb7e84b119c733c3c553f8644@46958_oswg537392oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>出尽风头的，是最新的 VR 眼镜 Meta VR Glasses。&nbsp;</p>
-  <p>其实在扎克伯格演讲时，Meta VR Glasses 一直摆在身后的眼镜墙里，只是因为过于小巧，没有人能从一众眼镜中注意到它。&nbsp;</p>
-  <p><strong>它的重量仅有约 100 克，官方比喻是「一副扑克牌的重量」。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,609" src="https://img.36krcdn.com/hsossms/20260924/v2_bb37f435a4a6420791ce7802ad64c01d@46958_oswg402357oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>作为对比，Meta Quest 3 是 515 克，而 Apple Vision Pro 是 750—800 克。Meta VR Glasses 减重超过八成，几乎一举解决了 VR 眼镜的「坠头感」问题，也不再需要额外的头带来辅助固定。&nbsp;</p>
-  <p>过去几年，VR 头显一直在提升芯片、分辨率与透视效果，但真正让大部分用户放弃使用的核心问题从未被解决——&nbsp;</p>
-  <p><strong>重量。</strong></p>
-  <p>最能说明这一点的莫过于 Vision Pro：苹果可以把显示、交互和芯片做到行业顶级，但 800 克挂在头上，注定了它无法成为一个全天候的计算平台。&nbsp;</p>
-  <p>为了解决这个问题，Meta VR Glasses 把分体式设计做到了极致。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,609" src="https://img.36krcdn.com/hsossms/20260924/v2_319aecb279e049a7910635213a5ef46d@46958_oswg321892oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>眼镜部分只负责传感器和显示，计算、电池和存储全部放在以光纤连接的计算模块里。有意思的是，即便如此， <strong>计算模块也不过在 300 克左右，依然比 353 克的 Vision Pro 外置电池要轻。</strong></p>
-  <p>据官网介绍，模块搭载高通 Snapdragon Reality Elite 芯片，运行和 Quest 3 相同的系统，兼容同样的内容。&nbsp;</p>
-  <p>重量轻了一大截，Meta VR Glasses 却没有牺牲视觉效果。&nbsp;</p>
-  <p>它采用了 5K 分辨率的 Micro-OLED 屏幕，单眼分辨率 2412×2288，像素密度达到 37 PPD，最高刷新率 120Hz，这也是 Meta 自初代 Oculus Quest 之后第一款不用 LCD 的头显。&nbsp;</p>
-  <p>Gizmodo 记者实测后表示，显示效果非常惊艳，和 Vision Pro 处于同一水平。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260924/v2_cd07e5ceaf0d4432abb8f5ee3ab1e2e0@46958_oswg547154oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>真正的代价是视场和续航：对 Meta VR Glasses 的视场角只有水平 70°、垂直 66°，Quest 3 则达到水平 110°、垂直 96°，沉浸感上的差距相当明显，并且 Meta VR Glasses 满状态续航也只有约 3 个小时。&nbsp;</p>
-  <p>但在重量面前，一切缺点都可以接受——这直接决定了它是不是一款能「带出门」的产品。&nbsp;</p>
-  <p>只看优点的话，Meta VR Glasses 还是第一款通过 IMAX Enhanced 认证的 VR 设备，同时支持 &nbsp;Dolby Vision 和 Dolby Atmos 空间音频。&nbsp;</p>
-  <p>当然，这并不意味着它的声压、绝对亮度或虚拟屏幕尺寸能媲美顶级 IMAX，但至少用来播放符合 IMAX 画幅、HDR 以及音频规格的电影是没有问题的。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,864" src="https://img.36krcdn.com/hsossms/20260924/v2_2a3b92b296ef4a06acc4b02b065d466f@46958_oswg1210801oswg1080oswg864_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>主流的流媒体和体育视频平台也都宣布了新合作，到明年，Meta VR Glasses 用户将会看到一大波 3D 电影和 3D 现场体育转播登陆 Meta VR 平台。&nbsp;</p>
-  <p>最近 Meta 突飞猛进的 AI 能力，也实装到了 Meta VR Glasses 之上。&nbsp;</p>
-  <p>很大程度上，它搭载的是一个「语义操作系统」，大部分操作都可以通过用语音说出目的来自动实现；确实需要手动操作时，六颗外部摄像头确保只用最小的指尖动作就能完成任务。&nbsp;</p>
-  <p>它甚至可以在任何平面上显示虚拟键盘，扎克伯格声称他在虚拟键盘上的打字速度是 60 字/分，和实体键盘相差无几。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="640,549" src="https://img.36krcdn.com/hsossms/20260924/v2_6f8d301441d6467085b4a99d80c544a5@46958_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>或许更重要的是，Meta VR Glasses 的惊艳亮相，给了扎克伯格一个向资本市场「挽尊」的机会——按扎克伯格在台上的说法，Meta 当初开始做眼镜时，判断的是元宇宙会先到来，把真实世界和虚拟世界融合在一起，AI 则会晚一些成熟。&nbsp;</p>
-  <p><strong>结果超级智能不但先来了，而且来得比想象中快得多。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,599" src="https://img.36krcdn.com/hsossms/20260924/v2_441fa0edcf4b4c4d9ae610574733ce8e@46958_oswg421222oswg1080oswg599_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图｜甚至可以教你打麻将&nbsp;</p>
-  <p>好在，那些为元宇宙准备的光学、显示、传感器和镜框供应链都没有浪费。 <strong>它们只是做成了 VR 头显和智能眼镜，承载起了新时代的超级智能。而「超级智能」，正是 Meta 未来很长一段时间里的发展重心。</strong></p>
-  <p>过往的所有「失败投资」，就这样得到了圆满解释。&nbsp;</p>
-  <p>Meta VR Glasses 售价 1299.99 美元，将于 2027 年春季开售。&nbsp;</p>
-  <h2><strong>AI 时代的入口之争，才刚刚开始</strong></h2>
-  <p>上个月，扎克伯格发表了一篇长文《The Future is for Everyone》。文中他认为「个人超级智能」应该是赋予每个人的额外能力，而不应只由少数人或机构垄断。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260924/v2_c7671205f7b948a68c25743afb9e9c30@46958_oswg582868oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>后来我们知道，这个「个人超级智能」的形式，基本上就是 Meta 不久前发布的「智能助理」Muse。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260924/v2_c7edd2845f6e4edea677e687fbaa8554@46958_oswg514845oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>9 月 8 日上线后不久，Muse 就已经挤掉了 ChatGPT，登上 App Store 免费榜的榜首。作为用户的个人助理，它可以帮忙购物、订票、回邮件，很多人还分享了用 Muse 帮忙取消「隐形订阅」、协助投诉退货的案例。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260924/v2_6601cae328a948f5833336f8d11bdd13@46958_oswg533505oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>扎克伯格也在今早公布了 Muse 未来的商业模式：向用户提供大量免费 token，帮用户省钱、赚钱和完成交易，Meta 再从中抽取少量分成。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260924/v2_c00c65d1263a4a169dfa1d9101046115@46958_oswg387937oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>问题在于，这么「全能」的个人助理，更应该随叫随到。&nbsp;</p>
-  <p>手机当然也能用 Muse，但每次都要掏出手机、解锁、打开 app，不可谓不麻烦。&nbsp;</p>
-  <p>扎克伯格想要的，是开口就能交代任务，就像他自己说的那样：开车上班路上跟 Muse 讲一下当天要做的事，到家时，它已经帮他完成了不少工作。&nbsp;</p>
-  <p>能做到这一点的设备，最好一直在身上，最好不遮挡视线，最好让人一整天都不想摘下来。&nbsp;</p>
-  <p><strong>答案还得是眼镜。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,609" src="https://img.36krcdn.com/hsossms/20260924/v2_1c9bc1bf90a24078874b4f5fb0504825@46958_oswg325988oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>所以我们会看到，音频眼镜可以不要摄像头，却不能没有 Muse；VR 眼镜可以牺牲视场角，但 AI 能力毫不含糊。眼镜只是形式，实质上是要把持住未来的 AI 入口。&nbsp;</p>
-  <p>至于不戴眼镜的人，Meta 也没有放过——&nbsp;</p>
-  <p>发布会上的 One More Thing，是钥匙扣大小的智能硬件 Muse Charm。它有一个显示自定义 Muse 形象的屏幕和一个指纹传感器，按一下就能直接和 Muse 对话，计划在 12 月节日季开始出货。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,605" src="https://img.36krcdn.com/hsossms/20260924/v2_0c9d71e149114ab691b03fc1dbae0e11@46958_oswg511408oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>正如我们此前文章里反复强调的，AI 入口就是 AI 时代的胜负手。&nbsp;</p>
-  <p>而在这个节点，一向被视为 AI 时代落后者的 Meta，不知不觉却已经拥有了足够好的模型、智能体、全球销量第一的 AI 眼镜，还有 EssilorLuxottica 这样的眼镜巨头作为盟友，从而赢得了半个身位的优势——&nbsp;</p>
-  <p>这怎么不能算是一种「闷声大发财」呢？&nbsp;</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/GRfYNV6eTLT_s4urstgVJg">“爱范儿”</a>，作者：彭海星，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Thu, 24 Sep 2026 12:27:41 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3997354832810112</guid>
-            <link>https://www.36kr.com/p/3997354832810112</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[四足机器人：宇树第一，智元、云深处争第二？]]></title>
-            <description><![CDATA[<p>9月21日，Counterpoint和IDC在同一天发布了全球四足机器人市场报告。&nbsp;</p>
-  <p>两份报告的第一名都是宇树科技。从第二名开始，名次就全都对不上了：Counterpoint按出货量排，第二是智元酷拓；IDC按收入排，第二是云深处。到了行业应用这个细分市场，宇树按出货量计算跌到第四，两家给出的头名分别是智元酷拓和云深处，再次出现差异。&nbsp;</p>
-  <p>总量同样对不上。Counterpoint的数据显示，2026年上半年全球四足机器人出货接近3.5万台，其中四成用于行业应用，2025年全年出货4.6万台，产业营收接近7亿美元。IDC的数字是今年上半年出货超过4.9万台、同比增长92.5%，2025年全年出货约5.8万台、市场规模超过4.9亿美元。&nbsp;</p>
-  <p>两家的出货量相差1.2万至1.4万台。作为参照，宇树2025年四足机器人全年销量是2.3万台，两家机构的差距超过宇树一年销量的一半。金额则反过来，出货量更少的Counterpoint，算出的市场规模比IDC多了约2亿美元。&nbsp;</p>
-  <p>同一个市场，为什么会有两套数字？第二名到底是谁？&nbsp;</p>
-  <h2><strong>01.两份榜单，只有“第一”一样</strong></h2>
-  <p>两份报告中，与企业座次有关的，是两个维度的排名。&nbsp;</p>
-  <p><strong>先来看整体市占率。</strong></p>
-  <p>Counterpoint按出货量口径排名，依次是：宇树37%＞智元酷拓16.3%＞智身科技12.6%＞云深处10.4%。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,633" src="https://img.36krcdn.com/hsossms/20260924/v2_17a0dd5587cf48eabee17d87a3f26efb@46958_oswg159959oswg1080oswg633_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>IDC按硬件收入口径排，分别是：宇树13.8%＞云深处9.2%＞智元8.4%＞具微科技6.3%。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="831,683" src="https://img.36krcdn.com/hsossms/20260924/v2_499b44efa5cd423baf4bf2075477988a@46958_oswg109002oswg831oswg683_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>需要说明的是，两份榜单里的智元指向同一块业务。Counterpoint按分拆后的主体记账，写作智元酷拓；IDC按 集团口径记账，写作智元机器人（AGIBOT）。&nbsp;</p>
-  <p>对比两份榜单，不难发现， 宇树两边都是第一，但领先幅度差很多。按出货量，它是第二名的2.3倍；按收入，只比云深处多4.6个百分点。原因在单价，2025年，它的四足均价只有3.03万元。在按收入计算的榜单上，低单价把它的领先优势压缩到了几个百分点。&nbsp;</p>
-  <p>再看第二名。IDC收入口径下，云深处以9.2%排第二，Counterpoint出货量口径下，智元酷拓排第二，云深处则掉到了第四。&nbsp;</p>
-  <p>云深处是这份名单上起步较早的行业玩家。它于2017年成立，浙大背景，今年5月科创板IPO获受理。招股书显示，2025年营收3.37亿元，行业应用贡献2.58亿元，占比近八成。它的主力产品是工业级四足机器人绝影X系列，2025年单台售价28.75万元，全年卖出681台，贡献了公司58%的营收。一台绝影X的价格，接近宇树四足均价的10倍。所以按收入算，云深处能排第二；按台数算，它只排第四。&nbsp;</p>
-  <p>智元酷拓的底子来自智元机器人。智元原本有四条产品线，远征、灵犀、精灵做人形，酷拓做四足。今年4月，智元把四足业务拆分到在深圳注册的全资子公司智元酷拓，由智元创始人邓泰华任董事长。它的打法是铺产品线、走生态渠道，IDC也提到智元主要借助生态合作伙伴拓展工业应用。&nbsp;</p>
-  <p><strong>两份榜单里还有两个名字，大多数人不太了解。</strong></p>
-  <p>智身科技是Counterpoint榜单的第三名，公司于2023年12月在北京成立，联合创始人刘宇龙曾是小米机器狗“铁蛋”的项目产品负责人。它走的是两条产品线：“钢镚”面向安防、巡检等中轻载场景，也进了商业文娱；“铜锤”是重载机型，进的是电力、消防这类高要求场景。据该公司披露，其于2025年底完成第5000台量产交付，今年5月第10000台下线。9月20日，智身科技宣布完成数亿元B轮融资。&nbsp;</p>
-  <p>具微科技（Micbot）则只出现在IDC的收入榜上。这家公司2025年初在杭州成立，主要做轮式四足，动态负载200公斤级。它的主战场是一些别人进不去的场景，比如防爆、强磁场、极寒等极端高危工业环境，也因此获得多家上市公司产业资本入股。&nbsp;</p>
-  <p>四家公司位置变化的原因都一样，单价差距越大，两种排名的差距就越大。&nbsp;</p>
-  <p><strong>报告里的第二个维度，是行业应用市场的排名。</strong></p>
-  <p>Counterpoint按出货量计算，智元酷拓以27.8%的份额居首，云深处26%紧随其后，智身科技18.9%第三，宇树17.6%第四。IDC公开内容未公布其厂商排名的口径与具体排名，只明确了云深处位居行业级应用市场首位。&nbsp;</p>
-  <p>什么样的采购算行业应用？IDC的公开口径是排除式的，教育科研和家用消费之外，均计入行业级应用。Counterpoint没有发布过明确定义，但报告中将其与文娱、科教的对比举例，可大致推测行业场景集中在工业巡检、安防巡逻、消防应急、物流运输等核心场景，两家对行业应用的定义边界相近。&nbsp;</p>
-  <p>除了企业座次， <strong>两份报告给出的四足机器人整体的出货量和市场规模也有较大出入。</strong></p>
-  <p>总量上，Counterpoint显示，2026年上半年的出货量是3.5万台，而IDC为4.9万台。统计出货量更少的Counterpoint，给出的2025年全产业营收接近7亿美元，反观IDC同期，仅4.9亿美元。&nbsp;</p>
-  <p>这主要是统计口径问题，差别在两处。&nbsp;</p>
-  <p>一是收入计算的范围不同。Counterpoint统计的市场规模涵盖传感器、调度软件、运维服务等配套收入，IDC则仅计算硬件本体。这解释了为何Counterpoint统计的数量更少、市场规模反而更大。&nbsp;</p>
-  <p>二是哪些产品算四足机器人，两家的标准也不一致。&nbsp;</p>
-  <p>Counterpoint明确将入门级、功能聚焦儿童陪伴的小尺寸产品排除在外，IDC的公开口径则覆盖消费级，未作剔除。但这条线究竟划过哪些厂商和产品，两家机构的公开资料中均未披露。&nbsp;</p>
-  <h2><strong>02.四足都卖给谁，还能跑多远？</strong></h2>
-  <p>榜单争的是名次，背后是一门已经成形的生意。&nbsp;</p>
-  <p>四足机器人之所以在具身智能领域率先实现商业化，是因为它要解决的问题非常明确。人形机器人主要承担搬运、分拣、上下料等操作任务，难点在于“手”和“脑”，即精细操控与任务泛化。而四足机器人主要承担到达与感知任务，面向变电站、地下管廊、灾后火场等人员难以抵达的环境，核心难点在“腿”，即全地形移动与稳定通行。随着腿式运动控制和复杂地形适应能力逐步成熟，四足机器人很快在巡检、安防、应急等场景形成了闭环。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="568,320" src="https://img.36krcdn.com/hsossms/20260924/v2_f0d0c42d028a4f36969c78a4bb19e22d@46958_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图源 / 智身科技微信公众号&nbsp;</p>
-  <p>在出货量上，四足也领先人形。美国市场研究机构SAG的数据显示，2026年上半年，全球人形机器人出货约1.91万台，相当于同期四足出货量的四到五成。&nbsp;</p>
-  <p><strong>这些机器狗都卖给了谁？</strong></p>
-  <p>IDC的数据给出了较为清晰的客户结构，教育科研与家用消费贡献约60%的出货量，剩下40%出货量发生在政府、工业制造、公共事业等行业级应用。&nbsp;</p>
-  <p>细分到具体行业， <strong>工业制造是增速最快的方向之一。</strong> IDC数据显示，2026年上半年全球四足机器人工业应用市场规模约7675万美元，同比增长194.2%，部署量超4100台，同比增长537.9%。&nbsp;</p>
-  <p>电力巡检是另一大应用场景。国家电网4月内部印发的《2026年具身智能发展规划》显示，其计划年内集中采购约8500台具身智能设备、总投资约68亿元，其中四足巡检机器狗5000台、预算15亿元，单台均价约30万元，按数量计为最大单品类。&nbsp;</p>
-  <p>消防应急是另一个政策带动的市场，2025年，国家消防救援局印发的《消防产品目录（2025年修订本）》首次将消防机器人纳入消防无人装备序列，相关产品有了明确的准入和认证依据。&nbsp;</p>
-  <p>Counterpoint给出的预测类似，到2030年，全球四足机器人市场规模将突破100亿美元，其中工业巡检加安全巡逻约占六成。&nbsp;</p>
-  <p><strong>眼下，四足机器人的出货量和收入都跑在具身行业的前面，但这份领先未必能一直保持。</strong> 它还能跑多远，要看三件事：场景够不够值钱、技术能不能跟上，以及和人形机器人的竞争。&nbsp;</p>
-  <p>四足机器人现在的主业是巡检，它的价值上限，其实是省下的人工成本和降低的安全风险。这类需求小而散。按两家机构4.9亿至7亿美元的口径计算，全行业一年的市场规模折合人民币约35亿至50亿元。IDC的判断是，工业、政府、能源等场景高度碎片化，没有一款产品能通吃。因此， <strong>这更像是“项目制”生意，规模效应并不如卖消费级产品。</strong></p>
-  <p>场景天花板能否抬高，取决于技术。目前，四足机器人技术上最大的坎是“负重”，要背着机械臂和检测设备干活，负载通常得做到50公斤以上，但载重一上来，越障、爬坡能力将打折。续航也是短板，消费级产品通常只有1到2小时，行业级3到5小时。&nbsp;</p>
-  <p>厂商给出的解法之一，是往腿上加轮子。载重省电难以兼得，轮式四足至少把载重之后的移动效率救了回来，平地上用轮子跑，省电、跑得远，遇到台阶、沟坎再切回腿。 <strong>但机器越想干活，形态就越不像传统的四足</strong> ，宇树B2-W、云深处山猫，名字里都还带着四足，腿上装的已是轮子。&nbsp;</p>
-  <p>技术上的另一道坎是智能，现在多数行业机器狗仍依赖遥控或预设路线。Counterpoint认为，感知运控和自主导航是重要的突破方向，目标是实现月级长时间无人值守巡检。&nbsp;</p>
-  <p><strong>与人形机器人的竞争也是一个变量。</strong> SAG数据显示，2026年上半年，全球人形机器人其中约70%流向工厂、仓库、商超等工商业场景。B端也是人形机器人要抢的场景。&nbsp;</p>
-  <p>四足和人形的边界正在变模糊。智元把四足、人形放在同一个研发底座上，共享具身智能模型、数据管理、仿真等技术积累。智身、云深处也都有人形产品线。宇树更是如此，2025年宇树人形机器人收入8.68亿元、反超四足的6.98亿元。未来的竞争，更可能是同一家公司按场景选形态，而不是机器狗和人形机器人之间的对决。&nbsp;</p>
-  <p>接下来，两家机构的四足机器人榜单还会持续更新，下半年的座次可能会继续轮换。这门生意真实成立，但赶在人形机器人把可靠性和成本打下来之前，四足还要加速奔跑。&nbsp;</p>
-  <p>*题图来源于宇树科技官方微博。&nbsp;</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/DFrzvlIJAMkROV805o432w">“AIX财经”</a>，作者：王璐，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Thu, 24 Sep 2026 12:27:23 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3997354861072516</guid>
-            <link>https://www.36kr.com/p/3997354861072516</link>
             
             
             
