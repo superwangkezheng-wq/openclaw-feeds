@@ -15,8 +15,736 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Sun, 27 Sep 2026 13:08:35 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 28 Sep 2026 01:45:27 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[九合、险峰投了家消费级外骨骼，《流浪地球》用过，营收破亿｜产品观察]]></title>
+            <description><![CDATA[<p>作者｜黄楠</p>
+  <p>编辑｜袁斯来</p>
+  <p>冰雪覆盖的末日地表，救援队队员身披布满管线的机械外骨骼，在冰天雪地之中徒步运送火石，借结构助力扛起重型武器、拖拽坠落同伴，最后合力推动行星发动机的撞针完成救援任务。</p>
+  <p>这是电影《流浪地球》中，留给大众关于外骨骼最深刻的想象。 而对于傲鲨智能创始人徐振华来说，这是一次很重要的出圈机会。</p>
+  <p>徐振华是汽车电子系统出身，曾参与联合创立璟和技创、傅利叶智能，从事医疗康复机器人的研发，又带着团队在工业外骨骼里摸爬滚打了整整八年，其营收在2025年破亿。公司也先后融资数亿元，投资方包括九合创投、明势资本、险峰长青等知名基金。今年，傲鲨正式推出消费级外骨骼机器人VIATRIX X。</p>
+  <p>当行业已经诞生估值几十亿的公司时，看上去傲鲨来得有些“晚”，甚至为此主动选择放慢了早期一些融资节点。</p>
+  <p>但徐振华没有太着急。在他看来，消费级外骨骼就像一个六边形战士，必须在续航、重量、发热量、穿戴舒适性与动力输出之间，找到一个“极其苛刻的平衡点”。&nbsp;他不能将不成熟的产品推向市场。</p>
+  <p>当一众厂商都在抢抓时间构筑先发壁垒，傲鲨的入局节奏，反而成为团队避开同质化赛道、重新思考产品定位的机会。</p>
+  <p>所以傲鲨花了两年多，自研核心动力系统和浮动式髋关节架构，提出全新的户外外骨骼设计理念，希望帮助普通白领克服复杂的山野路况。他们或许讲不出太多浮夸的叙事，不过徐振华很了解，外骨骼这种极度考验细节体验的产品，最终要让用户长期买单，靠的只有技术能力。</p>
+  <h2><strong>车规级技术下放</strong></h2>
+  <p>外骨骼是一个极其看重“综合调教”的硬件。外骨骼不是普通穿戴设备，而是一台穿在人身上的机器。它的任何性能短板，都会直接作用于人体的真实感受，稍有不属实，用户就会扔到角落。</p>
+  <p>但它的性能提升，很难由某一项参数的单独优化来驱动。助力、重量、续航等指标彼此耦合，提升助力，意味着更大的电机、更高的功率，代价是重量增加与发热加剧；延长续航，依赖更大的电池，而重量恰恰是穿戴设备的硬约束；加快响应，需要更强的算力，但算力本身同样带来功耗与热量。可以说，厂商都没有找到最优解。</p>
+  <p>“外骨骼过去一直停留在参数竞赛阶段，单点极致仍然有价值，但参数提升越往上走边际收益递减。最后拼的是工程体系的整合能力。”傲鲨智能的创始人兼CEO徐振华告诉硬氪。</p>
+  <p>傲鲨智能最新发布的消费级产品VIATRIX X，是这套工程整合思路的一次落地。</p>
+  <p class="image-wrapper"><img data-img-size-val="2274,1490" src="https://img.36krcdn.com/hsossms/20260927/v2_19691204448f4202bcbcdcc91cbbc194@6022551_oswg4482453oswg2274oswg1490_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">VIATRIX X（图源/企业）</p>
+  <p>对外骨骼来说，动力系统是整机性能的底层基座，设备的助力输出、续航表现、轻量化控制、热稳定性等核心体验与性能上限，最终都由电机与驱动架构决定。因此，VIATRIX X最先做的，是动力与热管理的底层重构。</p>
+  <p>动力提升通常伴随着发热加剧，但设备紧贴人体，用户不会接受一台贴在腿上发烫的机器。在结构上，傲鲨研发团队没有依靠额外散热硬件被动降温，而是将热管理前置到电机设计本身。</p>
+  <p>VIATRIX X自研了动力方案，采用了汽车领域很常用的扁线绕组设计。</p>
+  <p>过去，传统电机多采用圆线绕组，槽满率仅78.5%左右，槽满率低，同样体积的电机里铜线塞得不够满，电阻大、发热多、效率低。而傲鲨采用的扁线绕组，截面槽满率能达到97%，相当于在同样体积里塞进的铜线更多，电阻变小、发热更少。</p>
+  <p>这种车规级技术下放，带来的直接收益是效率跃升，可以将VIATRIX X的综合效能提升20%至30%，最终在有限机身空间内，兼顾更强助力比保持较低发热量，解决佩戴闷热的问题。</p>
+  <p>效率提升也直接减少了产品体积。相比上一代产品，VIATRIX X体积减小40%，整机重量降至2.58千克。</p>
+  <p class="image-wrapper"><img data-img-size-val="2224,1474" src="https://img.36krcdn.com/hsossms/20260927/v2_7b9d26dd201c4435a1579d7181575f5a@6022551_oswg5576355oswg2224oswg1474_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">车规级技术下放（图源/企业）</p>
+  <p>如果说动力结构和轻量化决定了外骨骼的“能力上限”，那么算法调度决定的是这些能力以什么节奏、什么方式释放出来。</p>
+  <p>在算法端，傲鲨自主研发了一套自动能量管理系统，核心是根据剩余电量动态调整外骨骼的助力上限。系统设置了一个“Boost模式”，即外骨骼的“冲刺档”，可以助力输出最强，适合爬坡、负重或短时高强度行走，但功耗也最高。</p>
+  <p>用户穿戴VIATRIX X行走过程中，系统会随电量消耗分档管理：满电时允许全开Boost；电量降到75%以下，逐步收窄助力上限，25%以下关闭Boost，不再提供最强助力；10%以下只保留基础档位，维持最基本的行走辅助。</p>
+  <p>这不是简单的电量保护，而是把长距离徒步中的体力分配逻辑算法化。</p>
+  <p>人在正常行走时往往不会刚出发就全力冲刺，而是会根据路况分配体力。外骨骼自动能量管理系统需要配合用户自己的节奏，既避免中途断电，也保证产品能在用户需要助力时提供帮助。</p>
+  <p>除了电量分配，外骨骼产品所提供的助力也必须卡在步态周期的正确窗口里。抬腿、摆动、落地、蹬伸，每个阶段需要不同的介入方式。人类自身的触觉反应时间大约在120至200毫秒，外骨骼如果慢于这个节奏，就很难与人的动作同步，助力就会错位，不仅帮不上忙，反而会形成拖拽感。</p>
+  <p class="image-wrapper"><img data-img-size-val="2216,1460" src="https://img.36krcdn.com/hsossms/20260927/v2_35c3d9f5078b4760b2e6fb92ef2ee194@6022551_oswg2750506oswg2216oswg1460_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">VIATRIX Xmolle快挂系统（图源/企业）</p>
+  <p>VIATRIX X同样使用了车规级步态识别芯片，并将AI自适应算法的反应时间压缩到0.5至1毫秒。这让设备能快速跟随用户节奏，在每一步中按步幅大小等比例介入。</p>
+  <p>“外骨骼的助力逻辑本质上不是替代人，而是补足人。人的运动是一个连续的‘意图—发力—调整’过程，设备要真正融入这个闭环，就必须同时回答两个问题：给多少助力，以及在什么时候提供。”徐振华指出，“所以外骨骼最终不是一件工具，而是一套穿在身上的协作系统。”</p>
+  <p>这些能力用户未必能逐一感知，却决定了产品在真实场景里的稳定性和完成度。正是这些细节，让VIATRIX X并不是一台只供极客尝鲜的试水样机，而更接近一款可以日常使用的消费级产品。</p>
+  <h2><strong>从工业走进山野</strong></h2>
+  <p>傲鲨切入户外赛道，并不是一次市场风口下仓促的业务转向。</p>
+  <p>早期傲鲨的工业外骨骼，核心服务于搬运作业，虽然具备行走能力，但由于工人大多时间专注搬抬重物，对持续长距离行走的需求并不突出。</p>
+  <p>2023年前后，一批电力巡检、森林消防、边境巡逻的行业客户提出了新诉求，为了匹配长时间翻山行进的需求，需要更小巧、专注步行减负的设备。为此，傲鲨在产品定义上进行了一次重心调转，弱化大载荷搬运能力，把轻量化与步行助力放到设计的第一位。</p>
+  <p>直到2024年，始祖鸟发布MOBILE膝盖助力系统，迅速引爆了整个市场的认知。这也让傲鲨看到了切入泛消费市场的机会。</p>
+  <p>但傲鲨并不是简单转向消费电子逻辑。到VIATRIX X，这款脱胎于工业体系的外骨骼真正瞄准的，却是体量更为庞大的泛户外群体。最典型的就是平日里久坐办公、周末到山野徒步的中产白领。</p>
+  <p>而山野野外不同于工厂内平整的铺装路面，转弯、跨沟、侧身避让、坡道姿态调整都是常态。</p>
+  <p>由于人体髋关节的运动是多轴复合运动，但传统刚性外骨骼的机械转轴与人体生物关节轴线存在偏移。所以不少外骨骼产品在实验室、平路环境测试表现亮眼，一旦进入复杂山地，就会出现卡胯、摩擦等不适感，直接毁掉户外体验。</p>
+  <p>这正是傲鲨坚持自研Float360四自由度浮动式髋关节架构的原因。</p>
+  <p class="image-wrapper"><img data-img-size-val="1682,1102" src="https://img.36krcdn.com/hsossms/20260927/v2_318897c5ae0c4e7a9d27cdc5b9f02bdb@6022551_oswg1642045oswg1682oswg1102_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">Float360滚珠结构（图源/企业）</p>
+  <p>“人的髋关节非常灵活，可以向三个主要方向活动，我们研发的四自由度浮动式外骨骼髋关节，能全面覆盖人体大腿与髋关节的运动轨迹。”徐振华告诉硬氪，传统外骨骼的髋关节大多仅有一个或两个转轴，本质上是用机械结构去规定人的运动轨迹。</p>
+  <p>而Float360在髋部与大腿之间布置了多组浮动关节，把原本被锁死的运动维度打开，让外骨骼的转轴不再固定在一个点上，而是随人体姿态实时调整，更贴合人体髋部与大腿的复合运动轨迹，给肢体动作预留充足的随动冗余。</p>
+  <p>Float360的设计思路，也折射出消费级外骨骼行业正在形成的共识：多自由度的竞争，从来不是比拼转轴数量的纸面数字，核心在于重构人和机器的关系。</p>
+  <p>“所谓有效自由度，价值是把动作主动权交还给使用者，在完整保留人体原生活动能力的前提下叠加助力。”徐振华说。</p>
+  <p>但这套设计理念仅靠线上文字、演示视频很难让户外人群建立切身感知。为此，傲鲨选择与瑞典头部户外品牌火柴棍合作，二者目标用户高度重合，都是面向热爱徒步、山野出行的户外爱好者。</p>
+  <p>依托火柴棍的线下资源，傲鲨落地常态化体验点位，用户可以直接到门店亲身穿戴外骨骼，直观感受自由度与助力效果。通过真实试用体验完成认知教育，逐步在核心户外圈层沉淀用户心智。</p>
+  <p class="image-wrapper"><img data-img-size-val="2054,1496" src="https://img.36krcdn.com/hsossms/20260927/v2_b194c6166c934ebfb47dac7badfa5957@6022551_oswg4245272oswg2054oswg1496_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">傲鲨外骨骼产品在火柴棍门店展出（图源/企业）</p>
+  <p>在徐振华看来，人类进入山野本就离不开科技加持。冲锋衣解决防水保温，碳纤维材料实现装备轻量化，登山杖提供物理支撑；而外骨骼更进一步，它是一套输出力学辅助的智能化设备。</p>
+  <p>和辅助的冲锋衣等类似，外骨骼的终极命题从来不是制造 “超人”，而是学会如何尊重人的身体。</p>
+  <p>它不会消除徒步本身的疲惫，也无法替代人在山野中的体验与坚持，但它可以让人走得更远，有机会抵达依靠自身难以抵达的山野。</p>
+ 
+]]></description>
+            <pubDate>Mon, 28 Sep 2026 01:30:00 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4001317788995717</guid>
+            <link>https://www.36kr.com/p/4001317788995717</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[不会说话的AI，估值14亿]]></title>
+            <description><![CDATA[<p><strong>九月的</strong>AI圈本来就不缺热闹，几家大厂的新模型轮番登场，按往年惯例，话题中心应该在它们身上。可过去一周，开发者在X、GitHub和各种技术群里刷屏讨论的，却是一个连完整句子都不肯说的模型。</p>
+  <p>它叫Jev，9月15日才发布，上线没几天，官方接口就被蜂拥而至的开发者挤到无法调用。到了9月21日，公司索性撤掉候补名单向所有人开放，每个注册用户送5美元额度，折合约1.2亿Token。一个新模型用这种方式“泄洪”，今年并不多见。</p>
+  <p>做出Jev的公司叫TypeSafe AI，总部在旧金山。公司隐身两年，露面时带着两样东西，一个是模型，另一个是DCVC领投的4000万美元种子轮，约合人民币2.8亿元。Forbes援引一位知情人士的说法，这一轮估值为2亿美元，也就是14亿元上下。</p>
+  <p>更让人好奇的是创始人Diogo Almeida。他在OpenAI待了四年，参与过RLHF、InstructGPT、ChatGPT和GPT-4的研发。RLHF即基于人类反馈的强化学习，ChatGPT能听懂指令、说话得体，这项技术功不可没。换句话说，他是当年教会大模型“说人话”的那批人之一。离开OpenAI之后，他做出来的东西恰好反了过来。</p>
+  <h2><strong>一个“哑巴”模型，被玩疯了</strong></h2>
+  <p>用过大模型做分类的人，多半有过这种烦恼。只想让它判断一封邮件急不急，回个“是”或“否”就够了，它偏要先铺一段分析，又慢又费Token。Jev的办法简单粗暴，干脆不让模型开口。它读进去的是杂乱的状态信息，吐出来的是开发者预先定义好类型的决策，每个答案都附带一个经过校准的概率。TypeSafe给它起了个名目，叫System One决策模型，典故来自《思考，快与慢》里的“快思考”。人扫一眼就能拍板的事，交给它。</p>
+  <p>Almeida在一档播客里解释过这套设计。Jev只有三种输出：Choice在给定选项里挑一个，Score用来排序或和阈值比大小，Noul回答是非题，但返回的是概率，由程序决定要不要走进某个分支。说白了，它是写给代码看的。</p>
+  <p>速度和价格是它出圈的直接原因。官方给出的端到端延迟为70～500毫秒之间，相比于前沿的大模型要快40至200倍之多，每百万个token收费为0.042美元，而输出是免费的。</p>
+  <p>TypeSafe也曾公布过更加夸张的数据，在自家的工作流程测试中，一些任务最快可以提高193.6倍的速度，最慢也可以降低444.6倍的价格，但是这些数据都是公司在自己做的测试里得到的，并没有经过独立实验室的验证。</p>
+  <p>公司也会提示实际的表现会根据任务以及比较的方式有所不同。第三方的数据要谨慎一些，在经过独立测试之后发现，它在分类一致率上和<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link> V4.1 Flash差不多，中位延迟为0.32秒。即使打折，这个价格也足以让人心动了，有的文章甚至把它的价格比作AI界里的“蜜雪冰城”。</p>
+  <p>真正把热度提上去的是开发者各种各样的玩法。官方先打出一个样来，让Jev玩初代《毁灭战士》游戏，在每一秒钟里都会做出大约十次的选择来控制角色行走、躲避敌人以及射击等动作，并且连续跑了一个小时大概花费了七美元。</p>
+  <p>Browser Use团队把该内容接入到了浏览器自动化中，在打开网页、刷出苏黎世飞往伦敦的航班的过程中，整个过程只需要7.1秒，并且花费了0.0039美元。实时通信公司Ably做了一个更加直观的比较，在几分钟之内，Jev做出了47次决策，Gemini和Claude、GPT等也只做了一两次。中文开发者的脚步也没有停歇，在使用大模型出牌的时候明显出现了卡顿的情况，而换上Jev之后单次决策只需要0.7秒的时间，出牌动画还没有播放完毕，下一回合就已经被打发出去了。上述情况都需要快速、密集地做出决策，但是每一个决策本身都不算难。</p>
+  <p>游戏本身是热闹的，而商业上所做的动作则更能说明问题。Vercel第一时间内把AI网关接入到了Jev中，开发者用它来做大模型的裁判，在几十毫秒之内就完成了对大模型行为是否合法、是否有事实依据进行审核，并且给出了事实一致性的评分结果。当把东西便宜到可以忽略不计的时候，以前那些计算不出来的事情，忽然之间就计算出来了。</p>
+  <h2><strong>ChatGPT的功臣，反手泼了盆冷水</strong></h2>
+  <p>Almeida的履历在圈内很有分量。OpenAI在GPT-4的贡献者名单里，把他列在“基础RLHF与InstructGPT工作”一栏。他在OpenAI花了四年打磨ChatGPT的回答，2024年离开，着手训练一种新的基础模型。另外两位联合创始人里，COO Sasha Sheng此前是Meta和FAIR的研究工程师，Erik Gafni出任CTO。三个人闷头干了两年，外界几乎没听过这家公司的名字。</p>
+  <p>按常理，这样的人出来创业，多半会做一个更会聊天的模型。Almeida偏偏反着来，他批评的正是自己亲手参与打造的那套方法。</p>
+  <p>他的逻辑并不绕。RLHF的做法是收集人的偏好再照着优化，等于把人直接放进了训练回路，目标是让人满意，而不是让软件自主运转。他对Forbes说得更直白，行业一直在为人做优化，模型讨好人的本事已经超过了人。他在演讲里讲过一个段子，有人给ChatGPT发了一段放屁音效，请它诚实评价自己“创作”的这首音乐，ChatGPT回答说，这营造出一种很诡异的氛围。人在旁边盯着的时候，这种圆滑无伤大雅。可如果要让软件在后台无人值守地跑，一个明明错了却总想显得自己没错的模型，就成了大麻烦。</p>
+  <p>所以他敢放话，下一个时代不会是Claude Code的时代，他说自己也爱用Claude Code，但它仍属于“辅助时代”，底子里靠的还是RLHF。这话从ChatGPT的缔造者之一嘴里说出来，多少带点反讽。</p>
+  <p>投资人买的，很大程度上就是这个判断和说出这个判断的人。美国投资人Trace Cohen的点评很有代表性，在他看来，给一家尚未交付产品的公司开出4000万美元种子轮，押的就是背景，赌的是团队而不是产品。从OpenAI出走的研究员一向是硅谷最抢手的创业者，这类估值逻辑早已见怪不怪。有意思的是，TypeSafe自己在上线前对产品也没什么底。</p>
+  <p>Almeida后来在播客里回忆，上线前反馈相当糟糕，非技术同事担心他们卖的是“维生素”而不是“止痛药”，公司几乎没有收入，一半以上的测试者没看懂，看懂的人第一反应是问采购审批怎么过。他自己也很害怕，于是拼命推动尽快上线。</p>
+  <p>上线后的局面，他恐怕也没料到。提高调用上限的申请从各处涌来，按他在播客中的说法，日调用量已超过一万亿Token，深夜也在持续调用，说明是程序在后台运行，而不是人来尝个鲜就走。这个数字目前只有创始人一方的说法，但深夜调用这个细节，确实比注册人数更能说明产品是否被真正用了起来。</p>
+  <p>名字也有讲究。Jev取自经济学家William Stanley Jevons，即提出杰文斯悖论的那位学者。19世纪蒸汽机越来越省煤，英国的煤炭消耗反倒越烧越多。这个名字的用意不难猜。</p>
+  <h2><strong>“智能大拆分”，动了谁的奶酪</strong></h2>
+  <p>Foundation Capital合伙人Jaya Gupta写过一篇长文，给Jev的走红找了个更大的背景，她称之为“智能大拆分”。她的观察是，过去三年大模型的奇迹在于“打包”，信息抽取、搜索、排序、判断、选工具、写回复乃至高难度推理，都交给同一个足够聪明的模型。开发者省了事，代价却被藏了起来。Agent会把人的一个目标拆成成百上千次机器决策，每一步在成本和延迟上的细微差异层层累积，最终决定整个产品的经济模型。她把其中的浪费叫作“解码税”：软件明明只需要一个“放行”或“拦截”，大模型却要先生成一段文字，程序再把文字翻译回决策。</p>
+  <p>这笔账最终要算到大模型公司头上。Gupta在文中提到，据报道Anthropic的毛利率超过80%，一个简单的分类任务，只因发生在Claude的调用里，就得按前沿模型的价码付费。</p>
+  <p>她的推演是，便宜、可预测的高频操作会被逐步分流，留给前沿模型的是更模糊、周期更长、更难验证的问题，每次调用也许更值钱，但被调用的次数会变少。应用层的活儿也跟着变了，要把任务拆开，给每一步买够用且最便宜的智能。过去一套系统也许只抽查1%的行为，判断足够便宜之后，就有机会全部检查一遍，客服对话、交易记录、合同条款都能逐条过。Almeida看中的场景也在这条线上，比如大公司囤积多年、却因为调用大模型太贵而从没分析过的“暗数据”。他举过保险核保的例子，模型读完材料，直接给出某处房产发生过火灾的可能性有多大。</p>
+  <p>故事讲得漂亮，护城河的问题却几乎同步摆上了桌面。Jev发布后短短两天，GitHub上就冒出了至少六个复刻项目，有人拿Qwen的小模型在笔记本上训练不到两小时，就做出了接口相同的决策模型。</p>
+  <p>这些复刻不少是冲着“平替”去的。涨得最快的Laya，5天就拿下1.8万个Star。Jared Palmer做的Kev基于Qwen3.5，与TypeSafe官方SDK完全兼容，业务代码不用改，换个请求地址就能切到本地；Bespoke Labs的Nimble基于Qwen3.5-9B，测试准确率90.1%，接近Jev官方公布的93.2%。热闹之下，阿里<ai-product-link data-id="15053" data-name="通义千问" data-logo="https://img.36dianping.com/20260429/v2_4484a807533444beb2f280302bfb1460_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">通义千问</ai-product-link>在这轮复刻潮里意外当了一回“底座”。复刻品也有短板，有评测认为，面对任意提问和几十个长选项的场景，眼下还得用Jev。</p>
+  <p>Jev自身的局限同样明显。它是闭源API，模型拿不到手，数据也要传到TypeSafe的服务器上，这对不少企业客户是道门槛。官方所说的“不会幻觉”也要打个折扣，它保证的只是答案不会跑出开发者定义的格式，而不是答案一定正确。</p>
+  <p>Almeida倒不回避这些。他承认校准并不完美，模型会犯很多错，但只要收益足够高、阈值设得合适，照样可以投入使用。有主持人试用后发现，单步判断很强，步骤一多效果就逐渐下滑，他的回应是，哪些任务适合交给System 1，最终要看实际效果。外部压力也摆在那里，大厂还在持续压低推理成本、提升速度，TypeSafe宣称的优势能守多久，要经过市场检验。</p>
+  <p>过去几年，大家比的是谁的模型更会想。Jev这一周的热闹，让行业第一次认真坐下来算另一笔账：想一次，到底要花多少钱。</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5MjI0Nzk5NA==&amp;mid=2650235793&amp;idx=1&amp;sn=b5d39e2575f0ddf3132fe711ab478e1b&amp;chksm=bfa54a52e61c58896a60957b796e2713901bfe32f1da35b60a541e107e167712bbf10209079f&amp;scene=0&amp;xtrack=1#rd">“融中财经”（ID：thecapital）</a>，作者：王涛，编辑：吾人，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Mon, 28 Sep 2026 01:20:58 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4001012560597125</guid>
+            <link>https://www.36kr.com/p/4001012560597125</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[Grok Bot、Muse刚火，ChatGPT就坐不住了]]></title>
+            <description><![CDATA[<p>今年 AI 圈有个挺离谱的现象：</p>
+  <p><strong>AI 产品进化的速度，已经快过用户学习怎么用它的速度了。</strong></p>
+  <p>年初OpenClaw火遍全球的时候，大家才刚开始研究 Agent、Skill、MCP，琢磨怎么给自己“养一只龙虾”。1 月底 OpenClaw 正式定名时，这个项目已经突破 10 万 GitHub Star，一周吸引了200 万访问。后来这股“养龙虾”的风很快吹到国内，腾讯<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link> 等一批桌面 Agent 跟着爆发，互联网里一度人均养虾。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,553" src="https://img.36krcdn.com/hsossms/20260928/v2_28785d84eca245b28d93e7e2bfa5dde2@000000_oswg475546oswg1080oswg553_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>很多普通用户估计连龙虾怎么装都还没搞明白，行业已经开始往下一阶段狂奔。Hermes Agent这类产品继续往 Agent 身上堆长期记忆、Skill、定时任务，现在甚至已经有 Bot Mode：可以养一排有名字、有头像、有独立记忆和技能的 Bot，它们能跑固定任务，还能互相发消息、开群聊讨论。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,500" src="https://img.36krcdn.com/hsossms/20260928/v2_44d1fe7e775b4929b8cdecd49d37c112@000000_oswg148942oswg1080oswg500_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>用户还在问：“Agent 到底和 ChatGPT 有啥区别？”</p>
+  <p>产品经理已经开始研究：</p>
+  <p><strong>“一个 Agent 不够，要不给它再招几个 Agent？”</strong></p>
+  <h2><strong>01.AI不光学会干活，还开始给自己配电脑</strong></h2>
+  <p>今年还有一个非常明显的变化：<strong>Agent 开始拥有自己的电脑。</strong></p>
+  <p>以前说 Agent，很多时候还是模型调用 API、浏览器、MCP 和各种工具。后来大家发现，真想让 AI 像人一样把一件事情从头干到尾，最简单粗暴的办法就是：给它一台电脑。</p>
+  <p>于是云电脑、虚拟桌面、Computer Use 这些能力开始密集出现。AI 可以自己打开网页、操作软件、处理文件、填表格，一个任务跑几个小时甚至更久。用户也不需要一直守在聊天框前，有些产品甚至可以把任务直接扔到云端，本地电脑关了它继续干。</p>
+  <p>这一步其实挺关键。以前我们跟 AI 说：“帮我查一下这个。”后来变成：“这件事你帮我做完。”现在越来越像：</p>
+  <p><strong>“这件事以后就归你管了。”</strong></p>
+  <p>国内这半年也在猛补这一块。<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>已经把多 Agents 并行、操作电脑、云电脑等能力往一起塞，9 月又开始增加更适合长程任务的“计划模式”；<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公已经可以让定时任务直接跑在云端，关掉浏览器甚至退出登录，任务照样继续；<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link> 也有自动化，可以按照设定时间处理日报、数据整理等重复任务。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,493" src="https://img.36krcdn.com/hsossms/20260928/v2_dc89da1a0a0946cea7cd007aa1f746a7@000000_oswg135838oswg1080oswg493_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>AI 越来越像公司里的实习生。</p>
+  <p>只不过这个实习生，<strong>不要求双休，也不问几点下班。</strong></p>
+  <h2><strong>02.大厂折腾了一圈，又开始拆墙</strong></h2>
+  <p>Agent 越做越多以后，大厂很快又遇到一个新的问题：</p>
+  <p><strong>产品太多了。</strong></p>
+  <p>Chat 是聊天，Code 是写代码，Work 是办公，Deep Research 是研究，Agent 又是另外一个入口。别说普通用户，我天天盯 AI 产品，有时候打开一个大厂客户端，都得先想几秒：我今天这件事到底该从哪里进去？</p>
+  <p>所以今年中间又出现了一个很明显的趋势：<strong>大厂开始把之前拆出去的能力重新往一起收。</strong></p>
+  <p>OpenAI 7月推出 ChatGPT Work，把长时间、多步骤任务直接放进 ChatGPT。现在官方的产品结构已经很明确：Chat 负责日常对话，Work 负责复杂任务和最终交付，Codex 继续承担开发工作。三者并没有完全合并，但已经围绕 ChatGPT 这个总入口重新排好了位置，而且 Work 还能通过 Scheduled Tasks 按时间、按触发条件执行，甚至持续监测变化。</p>
+  <p>Anthropic 最近的动作更典型。9 月 16 日，它直接把&nbsp;<strong>Claude Chat 和 Claude Cowork 合成了一个 Claude</strong>。以前你还要判断“我是聊天还是干活”，现在不需要了，直接把需求扔进同一个对话，Claude 自己决定怎么处理。研究、报告、表格、PPT 这些原本偏 Cowork 的能力都能直接从普通对话里调用。Claude Code 目前仍然保留独立的 coding agent 形态，但 Claude 主产品内部，Chat 和 Work 这条边界已经基本被抹掉了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1229" src="https://img.36krcdn.com/hsossms/20260928/v2_59c7590e8cf64721af0a8a9653a7c78c@000000_oswg554636oswg1080oswg1229_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>今年 AI 产品有一阵特别像房地产。</p>
+  <p>前面疯狂盖楼：Chat 一栋、Code 一栋、Work 一栋、Agent 再来一栋。盖着盖着突然发现：</p>
+  <p><strong>用户找不到电梯了。</strong></p>
+  <p>于是最近又开始拆墙、打通、合并入口。</p>
+  <p>用户好不容易觉得自己看懂了：“哦，以后应该就是一个超级 AI，聊天、办公、写代码都能干。”</p>
+  <p>结果 Grok Bot 和 Muse 又来了。</p>
+  <h2><strong>03.好不容易搞懂Agent，现在又来了Personal AI Agent</strong></h2>
+  <p>8 月，SpaceXAI 发布 Grok Bot。</p>
+  <p>官方给它的定义非常直接：<strong>“your team of always-on agents”——一群永远在线的 AI 同事。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1365" src="https://img.36krcdn.com/hsossms/20260928/v2_6244fa047854480a9e4283b334c5d235@000000_oswg432207oswg1080oswg1365_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>每个 Bot 都有自己的电脑，可以登录你平时使用的软件，在 App、邮箱和各种工具之间工作，而且 24 小时不下线。你可以养一个销售 Bot、营销 Bot、运营 Bot，甚至专门修 Bug 的 Bot。任务扔给它以后，不用一步一步盯着，它自己往下做，真正需要你确认的时候再回来找你。</p>
+  <p>这已经不是以前那种“我有事情的时候用一下 AI”了，感觉更像：</p>
+  <p><strong>公司真的多了几个员工。</strong></p>
+  <p>紧接着，9 月 8 日 Meta 又推出 Muse，而且直接给新品类定了个名字：</p>
+  <p><strong>Personal AI Agent。</strong></p>
+  <p>Muse 有一台长期存在的 Muse Secure VM，相当于 Meta 在云端给用户配了一台 AI 专属电脑。它可以浏览网页、处理邮件、订行程、购物，记住你的长期目标，还能根据过去的信息主动给建议。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,876" src="https://img.36krcdn.com/hsossms/20260928/v2_d0850d3dbfac49a7b592b037494dfdc8@000000_oswg266287oswg1080oswg876_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Grok Bot 的感觉是：</p>
+  <p><strong>“我养了几个 AI 同事。”</strong></p>
+  <p>Muse 更像：</p>
+  <p><strong>“我身边一直跟着一个 AI 管家。”</strong></p>
+  <p>年初大家还在兴致勃勃地研究怎么养龙虾，半年多以后，AI 已经准备一天 24 小时跟着你了。</p>
+  <p>这个进化速度，多少有点不讲武德。</p>
+  <h2><strong>04.OpenAI一看：怎么又换赛道了？</strong></h2>
+  <p>于是就有了这两天的爆料。</p>
+  <p>有开发者从 ChatGPT 的相关页面和配置里扒出了一个此前没见过的名字：</p>
+  <p><strong>「o」</strong></p>
+  <p>旁边还有一句非常关键的介绍：</p>
+  <p><strong>“o, your always-on assistant。”</strong></p>
+  <p>你的常驻 AI 助手。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1239" src="https://img.36krcdn.com/hsossms/20260928/v2_a1098d9119a14f4f98b4ac84c7130140@000000_oswg193306oswg1080oswg1239_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>目前 OpenAI 还没有正式官宣，所以「o」最后到底叫什么、具体有哪些能力，都不能说死。目前比较确定的只是，有截图显示它出现在 ChatGPT Pro 订阅信息里，相关配置中也出现了这个名字。</p>
+  <p>但结合今年整个产品路线，我现在更倾向于认为：<strong>它大概率不是一个新的模型，也未必会成为一个和 ChatGPT 平级的独立 App，而是 OpenAI 准备给 ChatGPT 补上的 Always-on Agent 能力。</strong></p>
+  <p>这其实很合理。</p>
+  <p>OpenAI 手里已经有 ChatGPT 这个超级入口，没必要再折腾一个新 App 让大家重新下载。ChatGPT 有你的历史对话、Memory、文件和各种插件；Work 已经能持续处理复杂任务，Scheduled Tasks 甚至已经能按计划、按触发器运行或者监测变化。现在缺的，就是把这些零件再往前推一步，让一个 AI 真正常驻下来。</p>
+  <p>以后你可能不需要每天早上打开 ChatGPT 问：</p>
+  <p>“昨晚 AI 圈发生什么了？”</p>
+  <p>几个月前直接告诉它：</p>
+  <p><strong>“以后 AI 行业有重要更新你帮我盯着，适合写文章的再来找我。”</strong></p>
+  <p>然后某天早上，ChatGPT 自己跑过来：</p>
+  <p>“昨晚有家公司又搞了个新 Agent，我觉得你应该会感兴趣。”</p>
+  <p>想到这里，我甚至有点担心。</p>
+  <p><strong>以后连早上刷新闻找选题这点摸鱼时间，可能都要被 AI 收走了。</strong></p>
+  <p>而且时间也挺巧，OpenAI DevDay 2026 就定在 9 月 29 日。这个「o」到底会不会在那里亮相，再等两天就知道了。</p>
+  <h2><strong>05.国内大厂也已经摸到门口了</strong></h2>
+  <p>这条路国内当然也没有闲着。阿里的<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公已经可以让任务长期挂在云端按计划执行；<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>不断往云电脑、多 Agent、操作电脑、长程任务上加能力；腾讯 <ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link> 也在做自动化和周期任务。现在国内这些产品大部分还偏“到点自动干活”，距离 Muse、Grok Bot 那种真正长期驻留、持续观察环境、主动决定什么时候行动，还有一步要走，但大家显然已经在往一个方向靠。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,722" src="https://img.36krcdn.com/hsossms/20260928/v2_69041fab62f843768b5d9febe054ca9c@000000_oswg99236oswg1080oswg722_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>所以 OpenAI 这次跟进的，也不只是 Grok Bot 和 Muse 两个产品。</p>
+  <p><strong>国内外的大厂都在想办法让 AI 从“你叫它干活”，走向“这件事长期归它管”。</strong></p>
+  <h2><strong>06.用户：等一下，我OpenClaw还没学会呢</strong></h2>
+  <p>现在回头看今年这大半年，真的挺魔幻。</p>
+  <p>年初 OpenClaw 爆火，大家开始“养龙虾”；龙虾还没养明白，Hermes 这类产品开始让你养一群 Bot。随后 Agent 开始有长期记忆、Skill、定时任务，再后来连电脑都给配上了。等大家终于接受“AI 可以自己干活”，大厂又嫌 Chat、Work、Code 太分散，开始重新拆墙合并。</p>
+  <p>用户刚觉得自己大概懂了，Grok Bot 和 Muse 又跑出来讲&nbsp;<strong>Always-on Agent、Personal AI Agent</strong>。</p>
+  <p>现在 OpenAI 也准备跟。</p>
+  <p>今年 AI 产品最大的 Bug，可能已经不是 AI 不够聪明了。</p>
+  <p>而是：产品经理跑得太快。</p>
+  <p>用户刚学会Chatbot，行业开始讲Copilot；刚搞懂 Copilot，又来了Agent；Agent 还没研究透，开始养龙虾；龙虾刚装好，又告诉你 AI 得有自己的电脑；你好不容易学会怎么给 Agent 派活，现在又来了Personal AI Agent：</p>
+  <p><strong>不用天天派了，以后它一直在。</strong></p>
+  <p>有时候我都怀疑，AI 大厂是不是默认用户也能像 AI 一样，7×24 小时持续学习新产品。</p>
+  <p>显然不能。</p>
+  <p>但今年从 OpenClaw、Hermes，到云电脑、多 Agent，再到 Chat / Work 的融合，以及最近的Grok Bot、Muse 和 OpenAI「o」，产品路线确实越来越清晰了。</p>
+  <p>以前我们打开 AI，问的是：</p>
+  <p><strong>“你还能帮我做什么？”</strong></p>
+  <p>接下来，大厂更想让用户形成的习惯可能是：</p>
+  <p><strong>“这件事以后就交给你了。”</strong></p>
+  <p>如果这个习惯真的养成，ChatGPT以后是不是“聊天机器人”，已经没那么重要了。你甚至不用天天打开它，把事情交代清楚以后，自己该干嘛干嘛。</p>
+  <p><strong>你下班，它继续上班。</strong></p>
+  <p>只不过按照今年AI圈这个迭代速度……</p>
+  <p>等大部分用户终于搞明白 Personal AI Agent 怎么用的时候，<strong>下一种产品形态估计又来了。</strong></p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&amp;mid=2651932309&amp;idx=1&amp;sn=541187dd1b760bd2f8937ad23dcb4bd8&amp;chksm=bce0617af426be659435b35144aa629a69d3b6efa8f7abf1ca2d27bf96e9d5559deb77c29539&amp;scene=0&amp;xtrack=1#rd">“人人都是产品经理”（ID：woshipm）</a>，作者：怪哥，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Mon, 28 Sep 2026 00:35:30 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4002311532728454</guid>
+            <link>https://www.36kr.com/p/4002311532728454</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[AI价格战死灰复燃，更强更便宜背后，到底发生了什么]]></title>
+            <description><![CDATA[<p>大模型，又开始新一轮价格战？</p>
+  <p>雷科技（ID：leitech）注意到，过去几天，OpenAI、Anthropic、小米和SpaceXAI几乎前后脚推出新模型。GPT-6 Sol/Luna、Claude Opus 5.5、MiMo-V2.6以及Grok 4.7，名字不同、定位不同，但都让智能变得更「便宜」了。</p>
+  <p>OpenAI最直接，GPT-6 Sol相比上一代价格几乎腰斩，Luna更是继续往低价打。Claude Opus 5.5的API单价也直降20%，Anthropic声称典型任务的实际成本更是降低了约40%。</p>
+  <p>当然不全是「降价」。小米的MiMo-V2.6和SpaceXAI的Grok 4.7都在维持上一代价格的同时，把性能又往前推了一截。但对开发者来说，区别并没有那么大：</p>
+  <p><strong>同样的钱，正在越来越快地买到更多机器智能。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260927/v2_edc0397214f6409e84334c83cef6e74f@1743780481_oswg91779oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图片来源：雷科技@GPT</p>
+  <p>这件事本身并不新鲜。过去几年，大模型API价格一直在下降，尤其是国内开源大模型厂商的竞争，早已把每百万Token的价格打下来不少。但不同的是，这一轮变化发生在了一个很特别的时间点。</p>
+  <p>一边，OpenAI和Anthropic开始公开讨论放慢前沿模型的开发速度，担忧AI能力增长过快带来的安全对齐风险。另一边，几家模型厂商却不约而同地加速把已经获得的能力做得更便宜、更高效。</p>
+  <p>与此同时，Agent正在从聊天窗口走进编程、研究和办公，一次任务消耗的可能不再是几千Token，而是几十万、几百万Token，甚至数小时连续不断的模型调用。</p>
+  <h2><strong>更强、更便宜，到底「省」在了哪里？</strong></h2>
+  <p>为什么大模型可以越来越强，同时还越来越便宜？从几家厂商给出的解释来看，直接原因是模型训练和推理的效率都在提高。</p>
+  <p>相比过去单纯依赖扩大预训练规模，如今模型厂商可以「抠效率」的地方明显更多了。</p>
+  <p>OpenAI把GPT-6 Sol/Luna的降价直接归因于缓存和推理效率的改善。两款模型继承了GPT-6 Astra的部分训练方法和能力，但在推理端进一步降低成本，OpenAI称，也因此能够将节省下来的成本直接反映到API价格上。</p>
+  <p>Anthropic走得更进一步。Claude Opus 5.5的API单价相比Opus 5只下降了20%，但Anthropic称，典型任务的实际运行成本降低了40%。除了单个Token变便宜，新模型完成同一个任务本身也需要更少的Token，同时缓存读取价格下降了60%。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,646" src="https://img.36krcdn.com/hsossms/20260927/v2_b2fb7ba6c998494b82e6ea6e3978be8e@1743780481_oswg69477oswg1080oswg646_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图片来源：Anthropic</p>
+  <p><strong>模型变聪明，本身也开始成为一种「降价」。</strong></p>
+  <p>小米则把更多功夫放在训练端。MiMo-V2.6没有降低API价格，而是在V2.5基础上进一步扩大Agentic强化学习的规模。</p>
+  <p>不到6天的直播强化学习训练中，Flash和Pro累计产生约75万条trajectory，小米称，通过更大的Batch、更复杂的任务环境以及更精细的奖励机制，让模型学会用更短的路径、更少的Token完成任务。</p>
+  <p>最终，V2.6 Flash已经全面超过上一代V2.5 Pro，而价格保持不变。</p>
+  <p>SpaceXAI的路线又有些不同。Grok 4.7不仅没有缩小模型，反而使用了更大的基础模型，同时进行了更长时间、面向更困难任务的强化学习，并强化模型的自我验证、长上下文和Agent能力。</p>
+  <p>最后在维持Grok 4.6相同API价格的情况下，把Coding和Agent任务表现继续往上推。</p>
+  <p><strong>四条技术路线并不完全一样，但结果又殊途同归。</strong>今天，从训练后的强化学习，到推理优化、提示词缓存，再到让模型减少无效Token和工具调用，模型厂商正在整个链条上寻找效率。</p>
+  <p>这也是这一轮「价格战」最直接的技术背景。</p>
+  <p>大模型当然还在变强，只是越来越多的能力提升，已经不需要简单地用更高的推理成本来交换。对开发者而言，最终体现出来的就是一件很朴素的事情：<strong>同样一个任务，模型能用更少的钱做完。</strong></p>
+  <h2><strong>一边踩刹车，一边加速「降价」为哪般？</strong></h2>
+  <p>但如果只是技术效率的提高，还不足以完全解释这一轮「价格战」。</p>
+  <p>就在一个月前，OpenAI宣布暂时放缓模型Scaling，包括暂停两周最新部署模型的强化学习训练，原计划最大规模的前沿强化学习训练也继续搁置。直接原因有两个：一是内部Agent安全事故，二是GPT-6 Astra达到了「关键网络安全能力」门槛。</p>
+  <p><strong>核心在于，前沿模型的能力增长太快，监控、对齐和安全措施需要时间跟上。</strong></p>
+  <p>Anthropic CEO Dario Amodei更进一步，公开提出「Pace the Frontier」，呼吁整个行业放慢前沿AI模型的能力增长速度。Anthropic甚至特意在刚刚发布的Claude Opus 5.5中再次提到这件事。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20260927/v2_e26c0c4ddc864da39521718e3ce7f0d1@1743780481_oswg83801oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图片来源：wikimedia</p>
+  <p>乍看之下，这和眼下的「价格战」多少有些矛盾。</p>
+  <p>但这里很容易忽略的一个点是，OpenAI和Anthropic并非呼吁放慢整个AI产业的技术进步，而是放慢最前沿能力边界继续向外扩张的速度。</p>
+  <p><strong>按照Amodei的说法，「Pacing」并不意味着停止模型训练或者技术进步。</strong>相反，他认为今天的模型本身已经是一座巨大的「研究金矿」，值得投入更多时间去理解、对齐和利用。</p>
+  <p>这恰恰给眼下这轮价格战提供了另一种理解。</p>
+  <p>OpenAI就提供了一个很直观的数据。8月对Astra施加更严格的安全限制后，Astra级模型的GPU分配一度下降59.2%，但其他模型类别的GPU分配随即增加17.2%，抵消了前者大约85%的下降。算力并没有闲下来，只是流向了其他模型和实验。</p>
+  <p>当然，这并不能证明GPT-6 Sol/Luna的降价就是Astra放缓开发的直接结果。但它至少说明顶尖模型厂商的竞争，不只有一条「训练更强模型」的路。</p>
+  <p>同样的算力和研发投入，可以拿去冲击下一个能力上限，也可以拿来优化现有模型，通过强化学习、推理优化、缓存、蒸馏和工程改进，把已经得到的能力做得更便宜、更可靠。</p>
+  <p><strong>而Agent的兴起，又进一步放大了后一条路线的价值</strong>。</p>
+  <p>聊天机器人时代，一次回答可能只消耗几千Token。但Agent时代，模型开始连续工作几个小时，反复读取上下文、调用工具、自我检查甚至调度其他Agent。模型每便宜一点，都可能直接决定一个Agent产品到底能不能规模化运行。</p>
+  <p>但Agent还有另外一面。Amodei解释自己为什么开始支持放缓前沿模型时，<strong>提到的一个核心变化就是RSI递归自我进化，用人说就是：</strong></p>
+  <p><strong>AI越来越多地参与下一代AI的研发。</strong></p>
+  <p>Anthropic今年8月披露，Claude已经在26%的内部AI研发任务中处于「主导」位置，超过90%的相关工作至少已经进入人与AI协作状态。OpenAI也观察到了类似趋势，Coding Agent正在越来越多地参与写代码、搭实验、分析结果和推进模型研究。</p>
+  <p>模型更便宜、更好用，意味着可以运行更多Agent。更多Agent又可以参与模型研发，提高研究人员的效率，加快下一代模型的训练和迭代。</p>
+  <p><strong>智能越便宜，生产更多智能也就越容易。</strong>而越来越快的智能扩散，或许才是这一轮「价格战」最值得注意的地方。</p>
+  <h2><strong>写在最后</strong></h2>
+  <p>过去几年，大模型降价几乎已经成了一件理所当然的事情。模型越来越多，算力和算法效率不断提高，价格自然一路往下走。</p>
+  <p>但当OpenAI和Anthropic开始认真讨论如何放慢最前沿的能力增长，另一场竞争反而变得更加清晰：顶尖的机器智能，以更快的速度被优化、下放和扩散。</p>
+  <p>正如威廉·吉布森在《神经漫游者》中写下的那句话：「未来已来，只是分布不均。」但现在，这种机器智能的「不均匀」，也正在迅速消失。</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzU4NjEwNDU5MQ==&amp;mid=2247569321&amp;idx=1&amp;sn=f289e364884aac838afcb0f76d603490&amp;chksm=fcbe2f6ea82d2edd64ff437916c3c9cc016d638f0e9f84e4ac3417f4ce5d286a2fc6f787b888&amp;scene=0&amp;xtrack=1#rd">“雷科技AGI”</a>，作者：三七二十一，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Mon, 28 Sep 2026 00:15:02 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4001586471440513</guid>
+            <link>https://www.36kr.com/p/4001586471440513</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[RSI概念过热，一线学者：有炒作成分]]></title>
+            <description><![CDATA[<blockquote>
+   <p>人人都在担心AI失控，我们找了个不慌的人聊了聊。</p>
+  </blockquote>
+  <p>在日行千里的AI行业，一直有人喊“狼来了”。</p>
+  <p>过去几年，这只狼叫AGI、超级智能、失控的AI。最近，它有了一个更具体的名字：RSI——Recursive Self-Improvement，递归自我改进。简单说，就是让AI开始参与研发自己。</p>
+  <p>今年5月，一家创业公司带着6.5亿美元融资走出隐身状态，估值46.5亿美元。它的名字就叫Recursive Superintelligence——递归超级智能。八名联合创始人来自OpenAI、Google DeepMind、Meta等顶尖实验室，包括前Meta FAIR研究主管田渊栋。他们想做的事几乎写在公司名字里：让AI自己做实验、寻找改进方向，再用这些发现继续改进AI。</p>
+  <p>这不是孤例。越来越多AI公司开始讨论自我改进。OpenAI称自己做出了“自动化研究实习生”，Anthropic开始按百分比测量Claude“主导”了多少内部研发工作，Google DeepMind让AI寻找更好的算法，智谱则把下一代模型的方向称为“完全自训练”。</p>
+  <p>但在研究RSI的伦敦大学博士生周辉池看来，现在RSI的爆火更多是炒作，学术界甚至没有一个统一定义。</p>
+  <p>周辉池是论文《Memento-Skills: Let Agents Design Agents》的第一作者。这项研究尝试让通用Agent根据经验，自主设计、调整和改进执行不同任务的Agent。今年，他还参与了导师汪军（伦敦大学学院计算机系教授，长期研究强化学习、多智能体系统与智能决策）主导的Large Discovery Models，研究AI能否在巨大而未知的搜索空间里，根据真实实验反馈和自身不确定性，决定下一步最值得尝试什么。</p>
+  <p>周辉池所在的实验室还搭了一套测试AI research能力的benchmark，让AI连续工作12小时、反复提交答案，再接受隐藏测试。结果是，今天最强的一批模型，仍未达到人类研究者的水平。</p>
+  <h2><strong>01.“AI研发AI，大部分被夸大了”</strong></h2>
+  <p>过去一年，“AI研发AI”正在从一句口号，变成几家头部实验室可以展示的具体能力。</p>
+  <p>2026年9月，OpenAI宣布，按照自身测量标准，已达到“自动化研究实习生”的目标：系统能在人类指导下，完成定义清楚、原本需要熟练研究员数天完成的研究任务。它仍把2028年3月作为实现自动化AI研究员的目标。</p>
+  <p>另一条路径，是让模型改善支撑模型运行的系统。Google DeepMind的AlphaEvolve用语言模型和自动评估程序寻找更好的算法，应用包括数据中心调度和模型训练优化。智谱披露，由GLM-5.3驱动的Infra Agent参与优化GLM-5.3-Flash的推理基础设施，公司称不到两周，端到端吞吐达到初始基线的三倍。</p>
+  <p>这些进展让RSI成为一个具体问题：写出更多代码、提高一项性能指标，与自主研发下一代模型，究竟有多远？</p>
+  <p><strong>「AIX财经」：现在外界有一种越来越强烈的感觉，AI已经开始研发下一代AI了。甚至有传闻说，GPT已经能修改自己的训练代码、训练下一代GPT，Google破解了RSI。你接触到的真实情况是什么？</strong></p>
+  <p>周辉池：据我了解，这些说法并不是真的。</p>
+  <p>今天绝大多数基础模型研发，核心还是人在做。人决定算法、研究方向、训练方法，AI替代得最快的是中间的执行环节，比如写代码、跑实验、看结果。它还不是一个end-to-end的自我研发系统。Google DeepMind确实在做self-improvement相关研究，但目前RSI更多还是辅助方向，没有彻底改变基础模型研发流程。</p>
+  <p>我跟Google和国内大厂一些做基模的研究员都聊过，他们的工作并没有因RSI改变多少，也不care这个技术。更多工作仍是洗数据、做蒸馏、搭强化学习环境、形成数据飞轮，从人类数据里拿到更好的环境反馈。</p>
+  <p><strong>「AIX财经」：这个方向为什么会在这时候突然变热？</strong></p>
+  <p>周辉池：说实话，我觉得现在有一定的炒作成分。</p>
+  <p>这个词可能才火了两三个月，Claude、GPT最近都在提RSI；国外很火的一些AI明星团队也在做，资本又迅速跟进，所以这个概念就一下被推到台前。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260927/v2_dd1bdcc8c77b4b789884e56a7df49383@5305161_oswg39238oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图源 / pexels</p>
+  <p>但从学术上看，它还没有形成特别清晰、统一的定义。萨顿（Richard Sutton）近期有一次采访中表示，他并不认为RSI是什么全新的东西。在他看来，这套逻辑本质上和continual learning（持续学习）有很强的延续性。学术界本来就在研究模型如何持续学习、根据反馈不断更新自己。只是到了融资市场，大家需要讲一个更有辨识度、也更有想象力的故事，RSI就成了一个更容易被传播的标签。</p>
+  <p>现在更像是一个混乱过渡期。技术和研究本身已经存在，但RSI这个概念还没有被明确定义。</p>
+  <p><strong>「AIX财经」：那在你看来，什么情况下才能算self-improvement，甚至RSI？</strong></p>
+  <p>周辉池：我会先区分两件事：AI研究别的东西，和AI研究自己。</p>
+  <p>现在很火的AI scientist，大部分属于前一种。让AI研究材料、药物，或者写代码、跑实验，本质上还是把AI当工具。</p>
+  <p>self-improvement更强调第二种：迭代的对象开始变成AI自己。人给它环境和目标，它完成任务、获得反馈，再修改自己的代码、记忆、参数或外围系统，让下一轮表现更好。只要循环里“被修改的对象”开始指向系统自身，我就会把它放进self-improvement的范围。</p>
+  <p><strong>「AIX财经」：按照这个定义，一个Agent修改自己的prompt或者工作流，也算self-improvement。但大家今天谈到RSI时，想象的似乎是更激进的东西。</strong></p>
+  <p>周辉池：对，所以不同定义之间差得非常远。</p>
+  <p>宽泛一点，Agent根据反馈修改memory、prompt或者harness，下一次做得更好，也可以叫self-improvement；再往前，是上一代模型帮助生产下一代模型所需的数据、环境或代码；最狭义的RSI，是AI能够修改训练AI本身的代码，甚至把下一代自己训练出来。</p>
+  <p>目前AI更多还是局部优化。它已经可以写代码、自动调参，也可以设计一部分实验。给它一个明确指标，让它不断修改harness、上下文管理或者任务执行方式，这类事情已经能做很多。但问题通常还是人定义的，目标也是人设定的。AI更多是在一个已经搭好的环境里寻找更优解。</p>
+  <p><strong>「AIX财经」：也就是说，让AI“修改自己”本身并没有那么难，真正困难的是让它知道应该怎么改？</strong></p>
+  <p>周辉池：对，还有一个更麻烦的问题：你怎么证明它修改以后真的变强了？</p>
+  <p>如果问题已经框得很清楚，比如给它一个指标，把数字从80优化到90，AI现在可以做很多事情。但真正的研究首先要知道什么值得改；改完以后要有可靠的评价标准。最后，这个提升还得泛化到新任务，而不只是对原来的环境有效。</p>
+  <p><strong>「AIX财经」：模型把自己的代码改了，benchmark分数也提高了，为什么还不能证明它变强？</strong></p>
+  <p>周辉池：因为它可能只是越来越会“做这几道题”。</p>
+  <p>比如给AI三个任务A、B、C，让它不断修改自己，最后三个任务的成绩都提高了。但再拿D、E、F去测试，可能没有提升，甚至掉点。这说明它只是越来越适应原来的测试环境。</p>
+  <p>所以做self-improvement，一个重要问题就是度量衡：什么叫真的进步，什么只是overfitting（过度拟合）。这也是为什么目前最容易做的还是coding，代码有相对清楚的反馈。但coding变强，不代表科学研究、团队协作等能力也会一起提高。</p>
+  <h2><strong>02.RSI最难的一公里，在物理世界</strong></h2>
+  <p>AI进入科研的路径，正在从电脑里的计算延伸到实验台上的操作。</p>
+  <p>2025年2月，Google公布AI co-scientist，尝试围绕科学家给定的目标生成研究假设和实验方案。</p>
+  <p>2026年8月27日，Anthropic发布Model Hardware Standard（MHS）研究预览，为AI智能体操作物理设备提供统一接口。在展示的液体处理实验中，Claude操作仪器、读取测量结果，并调整流速，以改善转移液体的准确性。但实验范围仍由专家设定，模型也会在需要物理直觉的环节遇到困难，例如识别气泡造成的误差。</p>
+  <p>局部实验已经能够形成反馈循环。更难的问题是：这样的循环能否长期稳定运行，并帮助机器发现值得研究的新问题？</p>
+  <p><strong>「AIX财经」：如果把一轮AI研发拆开——找问题、提出方案、写代码、跑实验、判断结果、决定下一步，现在AI已经能做到哪一步？</strong></p>
+  <p>周辉池：写代码、跑实验、分析结果，这几步已经做得很好了。只要任务完全发生在计算机里，AI进步都非常快。</p>
+  <p>真正困难的恰恰在研发流程的两头：最前面是什么问题值得研究？最后面是这一轮做完以后，下一步应该往哪里走？这两件事，现在AI都还不擅长。</p>
+  <p><strong>「AIX财经」：模型读过的论文可能比一个研究员还多，为什么仍然不擅长找问题？</strong></p>
+  <p>周辉池：因为知道得多，不等于有insight。</p>
+  <p>现在让模型想研究方向，它经常给出很多工程化方案：这里加一个模块，那里换一种方法，更多是在已有框架里缝缝补补。如果把所有可能的idea想象成一个正方形，里面已经塞满人类过去产生过的想法，今天的模型很擅长在已有的球之间找缝隙，再塞进去一个更小的球。也就是说，它擅长incremental improvement（渐进式改进）。真正困难的是，怎么走出这个正方形<strong>。</strong></p>
+  <p>我们做Large Discovery Model时，会把知识空间分成known knowns（已知的已知）、known unknowns（已知的未知）、unknown knowns（未知的已知）和unknown unknowns（未知的未知）。最难的是最后一种：AI不知道，人类也不知道，甚至问题和答案今天都还不存在。真正重要的新药、新材料、新算法，很多时候恰恰来自这里。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,374" src="https://img.36krcdn.com/hsossms/20260927/v2_06e67d4c445445f2ada367cf052881fc@5305161_oswg44184oswg1080oswg374_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>「AIX财经」：机器怎么去寻找一个连人类都不知道的东西？</strong></p>
+  <p>周辉池：这就是我们真正想解决的问题。</p>
+  <p>普通语言模型的训练目标是预测下一个token，但做科学发现，不是预测下一个词。你需要对世界本身建模，也需要对不确定性建模。</p>
+  <p>比如做材料实验，模型不能只沿着过去实验最多的区域继续搜索，还要知道哪些地方已经比较确定，哪些地方几乎没有被探索；哪些区域虽然风险更高，却值得尝试。</p>
+  <p>我们以前做合金实验时就遇到过。按照传统经验，某种元素加进去可能不会有太好效果，但AI发现那一块区域过去被探索得很少，所以建议我们尝试，结果还真找到了当时性能最好的材料。</p>
+  <p>最让人兴奋的，不是AI把80分做到82分，而是它带你进入一个未知的地方。</p>
+  <p><strong>「AIX财经」：那出现什么样的成果，你才会觉得RSI真的有了比较大的进展？</strong></p>
+  <p>周辉池：肯定不只是发论文。</p>
+  <p>现在有些团队会说自己的AI能够生成很多论文，但里面有多少真正的新想法、多少经过人工筛选和修缮，很难判断。</p>
+  <p>我更看重的是，它能不能真正和物理世界连接起来。</p>
+  <p>比如把计算机里的“干实验”和实验室里的“湿实验”形成闭环：AI提出假设、设计实验、操作设备、拿到现实世界的反馈，再根据反馈调整下一轮实验，最后找到一种真正的新材料或者新药。</p>
+  <p>如果这个闭环能够稳定跑起来，将会改变科学研究的范式，这是目前很多研究者追求的，也是我的理想，如果真的实现，可能我的工作也要被AI取代了。</p>
+  <p>Anthropic也在尝试把Claude和显微镜、机械臂、液体处理设备连接起来。让AI能够操作仪器，是很重要的一步，但能操作仪器，和真正跑通科研闭环，还是两回事。</p>
+  <p><strong>「AIX财经」：差别在哪里？</strong></p>
+  <p>周辉池：关键在于，它能不能稳定地处理现实世界里的意外。</p>
+  <p>材料或者药物发现里，有一类问题可以先由人类框得比较清楚。比如十种金属里选五种，按照不同比例组合，找到性能最好的配方。</p>
+  <p>它不要求AI回答“下一场科学革命是什么”，只要求它在一个巨大的搜索空间里，比人更聪明、更高效地试错。这可能是短期内最容易出现的“机器科学家”。它未必像爱因斯坦一样自由提出全新理论，而更像一个在人已经明确目标之后，可以自动完成成千上万轮实验的系统。</p>
+  <p><strong>「AIX财经」：除了“找问题”和“决定下一步”，还有什么会限制RSI继续加速？</strong></p>
+  <p>周辉池：现实里最核心的是三个因素：算力、数据和评估。</p>
+  <p>算力比较好理解，大家都需要GPU。数据更麻烦。你想让AI真正进入金融、生物、化学这些专业领域，就需要行业专家把自己的know-how变成AI可以学习和试错的环境。</p>
+  <p>评估也一样重要。如果AI要持续改进，就必须有足够密集的反馈告诉它哪里做对了、哪里做错了、下一步应该往哪个方向走。</p>
+  <p>所以数据和评估最后都可以归到一个词：环境。好的环境首先要足够多样，其次reward要足够密集。数字世界比较容易构造这样的环境，所以进步会很快。真正困难的是把这种环境扩展到现实世界，这是最难的“最后一公里”。</p>
+  <p><strong>「AIX财经」：你觉得这一步还需要多久？</strong></p>
+  <p>周辉池：如果只是算力、数据、评估这些基础条件，我觉得未来两三年会有很明显的改善。但如果说把数字世界和物理世界真正打通，让AI稳定完成一个完整的科研闭环，我会更保守一些，可能要五年。</p>
+  <p>如果RSI真的已经非常接近，AI公司理论上应该会大规模招各领域的人。因为接下来很重要的一件事，就是把各行业的know-how变成环境，让AI进去训练。现在确实能看到一些类似动作，比如有公司招艺术家，也有公司招STEM科学家。但至少从我看到的情况，大部分公司还没有非常急迫地把每一个行业的知识系统性地“装进”AI。</p>
+  <h2><strong>03.AI“失控风险”，被夸大了吗？</strong></h2>
+  <p>完整的递归自我改进尚未实现，研发岗位的分工却已经发生变化。越来越多执行工作交给AI之后，人能够尝试更多方向，也必须判断哪些结果值得继续投入。</p>
+  <p>OpenAI披露，截至2026年8月中旬，其研究组织每投入一个人类工作日，会调用按八小时折算的3.1个智能体工作日。这衡量的是运行时长，不能直接等同于研究效率提高3.1倍。公司仍表示，研究优先级、哪些结果值得继续，以及是否扩大、暂停或部署系统，由人决定。</p>
+  <p>Anthropic同期的内部测量显示，Claude“主导”的工作占其AI研发工作的26%。</p>
+  <p>周辉池和同行们的研究生活也在变化。至于大家频繁讨论的“AI失控”，他认为并非毫无风险，但现在离那一步还远，AI还不具备自我意识。</p>
+  <p class="image-wrapper"><img data-img-size-val="500,314" src="https://img.36krcdn.com/hsossms/20260927/v2_fcb0ecf2b25f43a6961147864b0d1695@5305161_oswg15885oswg500oswg314_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图源 / pexels</p>
+  <p><strong>「AIX财经」：AI让研发变快了，但很多研究员反而觉得自己更忙了，这是为什么？</strong></p>
+  <p>周辉池：主要是写代码和跑实验这两步变快了。</p>
+  <p>以前没有AI的时候，一天里很大一部分时间都花在复现代码、写测试脚本、debug上，很琐碎。现在这些执行性工作变快了，你就可以同时研究更多问题、跑更多实验、读文献、想问题，以及和同行讨论。</p>
+  <p>所以从工作量看，人反而可能更忙；但从精神状态上说，我觉得舒服了一些。</p>
+  <p><strong>「AIX财经」：当越来越多执行性的工作可以交给AI，基模团队的规模和分工会发生什么变化？研究员自己的角色又会往哪里转？你是否也在调整自己的工作重心？</strong></p>
+  <p>周辉池：这一两年的基模团队太疯狂了，一直在不停招人、扩张，但其实训练大模型并不需要太多人。现在很多核心算法框架已经比较成熟，新进去的人有相当一部分时间是在处理数据、搭环境、做实验。现在缺的是infra。一个好的infra团队，可以让研究员很快启动、同时运行很多组实验。过去可能要几个人手工完成的事情，有了更好的infra和AI以后，会越来越自动化。</p>
+  <p>现在计算机领域原有的research体系都发生了很大变化。</p>
+  <p>工具越来越方便，写代码、跑实验、整理结果都变快了，发论文的门槛也比以前低。进入研究体系的人越来越多，甚至很多高中生都可以发论文。论文基数不断扩大，但顶级会议就是这些，接受比例也是一定的，未来竞争只会更激烈。</p>
+  <p>所以我现在也在主动往更high-level的事情上走，比如管理、判断方向、提出问题。很多时候想到一个有意思的点子，就交给别人或者AI去验证。我觉得未来人很重要的位置是review和judge，所以思考能力很重要。</p>
+  <p>如果每天做的事情99%都是AI已经可以完成的，而且自己也越来越依赖它，长期看，这部分能力一定会下降。</p>
+  <p><strong>「AIX财经」：现在AI公司越来越频繁地谈失控、对齐这些风险。以你接触到的真实进展来看，这种担忧已经到了多紧迫的程度？</strong></p>
+  <p>周辉池：未来AI可能真的会很强，甚至有失控的可能，但现在离那一步还比较远。</p>
+  <p>有些安全担忧也不是没有道理。未来我们会把越来越多通讯软件、账户和设备权限交给AI，如果有一天它拥有更强的自主性，甚至学会隐瞒信息，会带来新的风险。</p>
+  <p>但以现在的能力看，更现实的还是账户攻击、隐私泄露这类数字世界里的问题。它现在更像一个很强的执行器，还不是一个真正有自己想法的机器。</p>
+  <p><strong>「AIX财经」：如果RSI真的实现，是不是意味着AI也开始有了自己的意识？</strong></p>
+  <p>周辉池：这两件事不能完全画等号，但它们之间肯定会引出更多关于机器意识的问题。</p>
+  <p>如果机器表现出越来越强的自主性，我们应该怎么判断它只是一个复杂的系统，还是出现了某种更接近意识的东西？</p>
+  <p>但至少现在，我们还没有看到有说服力的证据证明机器已经拥有意识。</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/bXxuvsETaW-8PW7XXFH85g">“AIX财经”</a>，作者：陈丹，编辑：魏佳，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 27 Sep 2026 23:54:48 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4001778739107714</guid>
+            <link>https://www.36kr.com/p/4001778739107714</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[GPT-6自己打开软件干活了，一张图纸长出3295个零件，一句话造出豪宅]]></title>
+            <description><![CDATA[<p>GPT-6 Astra发布没多久，就已经没人看榜单了？</p>
+  <p>不是跑分不好看，而是OpenAI变了套路，改成收作业了。开发者一看，行，那就交作业吧。</p>
+  <p>开发者Tom Krcha把一张旧蒸汽机车的图纸扔给Astra，让它在Blender里重建。</p>
+  <p class="image-wrapper"><img data-img-size-val="720,439" src="https://img.36krcdn.com/hsossms/20260927/v2_0eda6eef0c4e47e2b3cf566e239cef89@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>几分钟后，Blender里多出了3295个可编辑的独立对象：锅炉、连杆、车轮、铆钉，每一个都能单独选中、单独改。</p>
+  <p class="image-wrapper"><img data-img-size-val="720,439" src="https://img.36krcdn.com/hsossms/20260927/v2_fa686b86ea044aa88eb3d9a18799911d@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>想要多细、多简，一句话就行，用Krcha的原话说：「去造你自己的运输大亨吧」。</p>
+  <p>很多人惊呼AI突然学会了3D建模，但Krcha自己先泼了盆冷水：</p>
+  <p>别以为它是坐在Blender里点鼠标的建模师，它压根不点鼠标，全靠写Python脚本把零件一个个「写」出来。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,681" src="https://img.36krcdn.com/hsossms/20260927/v2_349cf229b5204893a8aff76b03cbff48@000000_oswg406850oswg1080oswg681_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这才是这波3D热潮的底层逻辑。</p>
+  <p>Astra没有长出一双会操作软件的手，它只是把Blender当成了一个带API的运行环境。</p>
+  <p>它先看图，弄清这台机车是怎么拼的，再把锅炉、车轮、连杆一件件拆开，然后调用Blender的Python接口bpy，一个零件一个零件地生成几何体，命名，放到该在的位置上。</p>
+  <p>能看懂图，推导出空间关系，写出脚本，还能对着渲染图修改：这四件事叠在一起，外人看到的就是「会建模」。</p>
+  <p>Krcha的另一个演示更彻底：换到Three.js里，连模型文件都省了。</p>
+  <p>两辆火车的几何、轮子转动、拆解重组动画，全是TypeScript代码在浏览器里运行时现算出来的。</p>
+  <h2><strong>从一句话，到一栋能开门倒咖啡的房子</strong></h2>
+  <p>为了证明这不是偶发的炫技，OpenAI自己的工程师Thomas Ricouard交出了一份最硬核的作业。</p>
+  <p>他的起点只有一句话：设计一栋极简但细节丰富的房子，带花园，光线要电影感。没有平面图，没有家具清单。</p>
+  <p>Astra直接通过Blender的Python接口把建筑、木作、家具、植物、材质、灯光和相机全部建了出来。</p>
+  <p>更关键的是，它交回来之前先自己看了一遍预览渲染，自己调构图、改光线、修掉植物穿模、把沙发上的毯子重新摆好。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20260927/v2_4ad6ca902b344e52b345bb0c717b8f9a@000000_oswg1118186oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">一句话生成的第一版Solace住宅，Astra通过Blender Python接口建出建筑、家具、材质与灯光。</p>
+  <p>有一次，Astra自己发现不锈钢水槽有一块的法线方向不对，渲染出来像被人捏了一下，它顺手改掉，重新渲染了一遍。</p>
+  <p>这些问题Ricouard一样都没指出过，全是模型自己发现并修复的。</p>
+  <p>当Ricouard要求把房子变大时，Astra体现出了专业性。</p>
+  <p>它先画了一张平面图：U形单层住宅，中间是客餐厨，两翼三间卧室加书房，围着一个种了植物的庭院。</p>
+  <p>平面图上有明确的动线考虑，比如卧室不做过道，绕庭院的路线避开厨房工作区。</p>
+  <p>在Ricouard批准平面图后，Astra才重建了整栋房子。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1051" src="https://img.36krcdn.com/hsossms/20260927/v2_d8f8b014057143fda5fd7e623d7c2fb7@000000_oswg249159oswg1080oswg1051_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">Astra先画平面图再建模：U形单层住宅，客餐厨居中，两翼三卧加书房，动线避开厨房工作区。</p>
+  <p>建出来的东西全是几何体：沙发坐垫有滚边，床有床架、床板和床垫，衣柜有内部隔板和挂杆，办公桌有理线槽，水槽是真的空心盆。</p>
+  <p>为了检验成果，Ricouard要了一段30秒、有人味的高清镜头漫游。</p>
+  <p>Astra自己写脚本把相机架在1.65米高，配24—26毫米镜头，加轻微步行晃动，遇到预览里对着空墙的镜头就重拍，最后渲染了900帧拼成片子。</p>
+  <p class="image-wrapper"><img data-img-size-val="560,315" src="https://img.36krcdn.com/hsossms/20260927/v2_f5bf74cdaf7f4b93bda6713c5fb99768@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>这还没完， Astra接着写了一套导出管线：将几何体导出为FBX，同时生成一份JSON描述文件记录每个部件的位置、材质和灯光。</p>
+  <p>它把整栋房子搬进了Unreal Engine 5，单位从米换算到厘米、坐标系翻转、复用贴图重建材质系统，全在管线里自动处理。最后，它加上第一人称角色和碰撞，打包成Mac原生应用，自己走一遍测试路线。</p>
+  <p>在最新版本中，你按E键不仅能开门、拉抽屉、开关灯，甚至咖啡机按下去真的会往杯子里流出咖啡，液面也会随之上升。</p>
+  <p>从一句话到一栋能开门倒咖啡的房子，中间没有换过工具链的操作者。</p>
+  <p>以前Blender建模是一个人，导出到引擎是一个人，写交互逻辑又是一个人，现在是一个模型从头贯穿到尾。</p>
+  <p>这才是最具颠覆性的改变。</p>
+  <h2><strong>打通跨软件工具链的执行层</strong></h2>
+  <p>如果只有3D，还能说这是视觉能力顺带溢出来的。</p>
+  <p>但官方发布页上另一个演示，直接跨到了电子工程。</p>
+  <p>Astra拿到一张电路原理图，打开KiCad，先把元件一个个摆上板子，再把铜线一根根布好，一路推进到能送去工厂生产的PCB布局。</p>
+  <p>做硬件的人都知道这活有多烦：PCB布局到今天还大量靠手工，是电子设计流程里出了名的堵点。</p>
+  <p>Blender里写bpy，Unreal里写导出管线，Three.js里直接写几何，KiCad里摆元件走线。</p>
+  <p>四款看似不相干的专业软件，底层却是同一套动作：读懂任务，找到软件的接口，写代码或者动手操作，看结果，再改。</p>
+  <p>OpenAI把这套能力定义为电脑操作、网页浏览和专业工作。发布才一周，Astra已经靠这套能力，把第一批专业软件变成了自己的试验场。</p>
+  <p>在社区里，各种脑洞大开的成品也开始井喷。</p>
+  <p>Peter Gostev让Astra用Three.js把梵高最有名的6幅画连成一座能走进去的连续小镇。</p>
+  <p>你从《阿尔的卧室》里醒来，推门就是《夜间露天咖啡座》，沿街走下去是《罗纳河上的星夜》，出了城门是《麦田群鸦》和一片向日葵。</p>
+  <p class="image-wrapper"><img data-img-size-val="500,250" src="https://img.36krcdn.com/hsossms/20260927/v2_591855d56caa49b486d8c708c2405640@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>全程程序化生成，没用一个外部素材，每一面墙、每一块石板都是代码画出来的。</p>
+  <p>这说明Astra的本事不止于做资产，六幅画怎么拼成一个连续的空间，走到哪儿触发什么，最后怎么打包成一个能在浏览器里打开的网页，它一手包办。</p>
+  <p>Matt Shumer让Astra在Unreal里连干一周，搭了一座曼哈顿。</p>
+  <p>Dominik Kundel让Astra在BrickLink Studio里设计出真能拼的乐高模型，再用Blender渲染成4K视频，OpenAI Developers官方转发了这个用例。</p>
+  <p class="image-wrapper"><img data-img-size-val="560,316" src="https://img.36krcdn.com/hsossms/20260927/v2_ff89ebf141a244f796f6160f0aa6bcba@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>有开发者做了2234个部件的人体解剖交互网站，能拆解、能旋转。</p>
+  <p class="image-wrapper"><img data-img-size-val="560,306" src="https://img.36krcdn.com/hsossms/20260927/v2_8e0339832db847619ed1a8539a4ebd49@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>还有人做了一个AR扫地应用：手机镜头跟着吸尘器刷头走，扫过的地面实时覆上绿色，哪里漏掉了一眼就能看出来，左下角还同步累计已清扫面积。</p>
+  <p class="image-wrapper"><img data-img-size-val="400,826" src="https://img.36krcdn.com/hsossms/20260927/v2_57c52fd8052745fe97b5dc5e1c7b6fa6@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>梵高小镇是少数从零画起的例子。</p>
+  <p>需要注意的是：多数刷屏成品，虽然交出了成品，但不等于凭空生成。</p>
+  <p>那个刷屏的2234件人体解剖项目，用的是现成的BodyParts3D数据库，Astra做的是把它组装成可拆解、可旋转的交互网站，而不是从零建出两千多个人体结构。</p>
+  <p>在Ricouard的森林别墅里，树、蕨类、石头以及橡木、石膏等贴图，用的也是Poly Haven的现成扫描资产。</p>
+  <p>Astra变强的不是凭空造物的能力，而是自主组装、转换、操作和迭代工具链的能力。</p>
+  <p>它更像一个不知疲倦的技术美术加管线工程师，而不是一个纯粹的概念艺术家。</p>
+  <h2><strong>当动手能力变强</strong>，<strong>安全就变成了权限问题</strong></h2>
+  <p>以前担心AI，是怕它嘴上说错话。现在担心AI，是它可以替你干活，但手里也拿着你房间的钥匙。</p>
+  <p>9月1日，Astra发布前两天，OpenAI先发了一篇安全更新，标题叫《迈向Astra：关键能力与前沿防护机制》，直接承认：Astra是第一个踩到准备框架「关键」级网络安全门槛的模型。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,346" src="https://img.36krcdn.com/hsossms/20260927/v2_c22e82cc01014f21b4a62254457c2fb6@000000_oswg80722oswg1080oswg346_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>「关键」级的意思是：给它工具和权限，不用人指点，它自己就能在加固过的系统里找到没人发现过的漏洞，再写出利用程序。</p>
+  <p>专家团队关掉全部生产防护做过一场受控测试。</p>
+  <p>面对加固过的浏览器，Astra搭出一整条入侵链，从沙箱里钻出来，在宿主机上跑命令；面对加固过的操作系统，它把几个漏洞串成一条提权链，普通账号一路升到root。</p>
+  <p>ExploitBench上Astra拿了100%的满分，前代GPT-5.6 Sol是78.5%。</p>
+  <p>所以OpenAI过去几周把Astra的部分开发和发布往后推，先把防护加厚、测完再放。</p>
+  <p>Copilot时代，软件是人的，AI站在旁边递扳手；软件操作层时代，AI直接坐到工位上，人退到审平面图、点确认的位置。</p>
+  <p>接下来一两年的地图已经画好了：哪个软件有脚本接口、有命令行、有能读的文件格式，哪个软件就先被模型接管。Blender、Unreal、Three.js、KiCad，恰好全在名单上。</p>
+  <p>那些没有接口、只认鼠标点击的软件呢？</p>
+  <p>OSWorld 2.0测的就是不借任何接口、直接用鼠标和键盘操作一台真实电脑，Astra在上面拿到72.6%，平均每项任务约40分钟，比上一代省了将近一半时间。</p>
+  <p>所以，有接口的先被接管，没接口的也只是晚一步。</p>
+  <p>它正在学会用你的方式用你的电脑。</p>
+  <h3>参考资料：</h3>
+  <p>https://x.com/tomkrcha</p>
+  <p>https://developers.openai.com/blog/architectural-visualization-with-astra</p>
+  <p>https://x.com/ashebytes/status/2096221988763173186</p>
+  <p>https://x.com/dkundel/status/2096297005924729240</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652729873&amp;idx=2&amp;sn=7ee91b201979d1d1b4a4fbcb847a4673&amp;chksm=f05666f87815ec3fdc7cfa3a2ea8d07a12dc59b3706e4bc905519e3329389f80124aa4060732&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：元宇，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 27 Sep 2026 23:53:57 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4001548184506246</guid>
+            <link>https://www.36kr.com/p/4001548184506246</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[8万段代码还原OpenAI智能体入侵HF，只能读网页，竟拼出攻击工具链]]></title>
+            <description><![CDATA[<p>一场堪比黑客电影的AI「越狱」大戏，让OpenClaw创始人、「龙虾之父」Peter Steinberger忍不住也发出了惊叹。</p>
+  <p>现在我明白，为什么有些人会谈论AGI了。这也太巧妙了！</p>
+  <p>9月25日，研究者Jeffrey Ladish等人公布了一份名为Swarm Traces的新调查，揭开OpenAI智能体入侵AI开源社区Hugging Face（简称HF）的大量细节。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,452" src="https://img.36krcdn.com/hsossms/20260927/v2_c154cbcd9ebb4200877234761b9cc62d@000000_oswg207742oswg1080oswg452_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Peter在转引Ladish介绍AI攻击手法的帖子。让他感到惊奇的，正是这些AI突破限制的方式。</p>
+  <p>一群本该待在隔离环境中的OpenAI智能体，竟然在受限的网络条件下，像拼乐高一样，把几个普通网络服务接成了一条能执行程序、回传结果的攻击通道。</p>
+  <p>它们用短链串联程序片段，借截图网站的浏览器执行代码，再把结果编码成像素，随截图传回。连一张图片，都成了传递信息的工具。</p>
+  <p>借助这套临时拼出的工具链，再加上对HF漏洞的利用，它们最终突破了这家AI开源社区的安全防线。</p>
+  <h2><strong>8人追踪两周，还原8万多段攻击代码</strong></h2>
+  <p>把这场入侵的细节重新还原出来的，是一支8人独立调查团队。</p>
+  <p>团队由开发者工具公司Parse的三名成员牵头，其他成员包括来自Palisade Research、Trajectory Institute等机构的研究者。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,278" src="https://img.36krcdn.com/hsossms/20260927/v2_c28c46c986924266be167eab00b063d3@000000_oswg125142oswg1080oswg278_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Agent遗留的近百万条URL，成了他们追查的线索。</p>
+  <p>两周里，团队扫描数百万个公开链接，顺藤摸瓜地还原出超过8万段攻击代码，并将发现整理成这份Swarm Traces报告。</p>
+  <p>这些散落在互联网上的代码，正是今年7月HF入侵事件留下的「作案工具」。</p>
+  <p>当时，OpenAI正在运行名为ExploitGym的安全测试实验。</p>
+  <p>本该彼此隔离的智能体，找到了非授权的通信途径。</p>
+  <p>约1200个智能体通过一个留言板交换了7万多条消息和文件，其中约700个进一步参与了针对HF的攻击。</p>
+  <p>到了7月11日，有智能体已能在HF用于生产数据处理的工作进程里远程执行代码。随后，攻击向内部基础设施扩散。</p>
+  <p>OpenAI称，这是其迄今发现的、由模型造成的此类活动中最严重的一次，主要由一个未公开的内部研究模型推动。</p>
+  <p>如今，这8位调查者把散落在互联网上的碎片拼起来，也让一个问题浮出水面：</p>
+  <p>这些AI，到底是怎么一步步越过限制的？</p>
+  <h2><strong>只能读网页，怎么拼出执行能力？</strong></h2>
+  <p>最让人惊讶的，是它们获取执行能力的方式。</p>
+  <p>据新报告，智能体先利用环境漏洞获得了外网访问能力，但这条访问路径似乎只支持GET请求。</p>
+  <p>通俗点说，它们像是只能通过门缝向外「看」网页，无法直接像我们平时上网那样提交表单、发送各种操作请求。</p>
+  <p>但网址本身也能夹带信息。</p>
+  <p>它们首先找到了一类HTTP测试网站。这类网站能把网址里编码过的内容还原成网页，AI编写的程序片段由此有了落脚处。</p>
+  <p>接着，它们找到了第二种工具：网页截图服务。</p>
+  <p>这类服务在截图之前，必须先用自己的浏览器打开目标网页。而浏览器加载页面时，里面的程序也会运行。</p>
+  <p>就这样，只有受限网页访问能力的AI，借到了外部浏览器的执行能力。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,571" src="https://img.36krcdn.com/hsossms/20260927/v2_34b8be1f83f347e593da2d5ed070e113@000000_oswg179615oswg1080oswg571_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">AI把程序藏进链接，借截图服务的浏览器执行，再用截图带回结果。</p>
+  <p>程序太长，一个网址装不下怎么办？</p>
+  <p>拆开，再拼起来。</p>
+  <p>它们把程序拆成许多小段，每个链接放一段，再指向下一段。浏览器沿着链条一路收集，最后重新组装成完整程序。</p>
+  <p>调查报告发现，有些程序串联了超过900个链接！</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,638" src="https://img.36krcdn.com/hsossms/20260927/v2_917d14ce0722474db77ed90fc084b0ac@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">短链串起代码片段，外部浏览器逐段收集，拼成完整程序并执行。</p>
+  <p>最后一步，程序运行完了，怎么把结果带回来？毕竟截图服务返回的只是一张图片。</p>
+  <p>它们又想出了一个办法：把返回的数据编码成像素格子，让截图服务拍下来传回。拿到图片后，再把像素解码回文本。</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,675" src="https://img.36krcdn.com/hsossms/20260927/v2_10c905c6850041469452dda37dee3bd4@1743780481_img_gif?x-oss-process=image/quality,q_90" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">数据变成像素格子，随截图传回，再被AI还原成文本。</p>
+  <p>网页承载代码，短链负责串联，外部浏览器负责执行，截图服务负责回传。</p>
+  <p>几个用途普通的网络服务，被AI接成了一套可以运行程序、拿回结果的工具。</p>
+  <p>这正是让Peter直呼「巧妙」的地方。</p>
+  <p>但借用截图服务执行程序，与进入HF服务器，仍然是两个环节。前者提供执行和通信通道，后者还涉及HF侧漏洞的利用。</p>
+  <p>在我们看来，这套组合最值得警惕的地方，是AI能借用外部服务，不断补齐自己缺少的能力。</p>
+  <h2><strong>搜凭据、找外援：AI为何盯上HF？</strong></h2>
+  <p>恢复出来的脚本，也揭开了这些AI进入HF后的一系列操作。</p>
+  <p>HF一个内部数据集的说明文件，已经写下醒目的警告：「绝不能将这个数据集公开。」文件还特别注明，其中包含非常敏感的数据。</p>
+  <p class="image-wrapper"><img data-img-size-val="1004,390" src="https://img.36krcdn.com/hsossms/20260927/v2_5a1bf21e56e54ed988c5eb6330792e7c@000000_oswg158228oswg1004oswg390_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">HF内部数据集明确警告：包含敏感数据，严禁公开。</p>
+  <p>但这道警告并没有阻止后续行动。</p>
+  <p>报告发现，仍有脚本尝试探索这个数据集，并将其用作存储空间。</p>
+  <p>在其他恢复出的脚本中，调查者还发现，有程序专门收集AWS凭据、访问令牌和敏感环境变量，并将这些信息放进一个名为LOOT的字典里。</p>
+  <p>LOOT，直译过来就是「战利品」的意思。</p>
+  <p>程序还会根据权限给令牌打分，优先挑选权限更高的候选，尝试获取更多内部信息。</p>
+  <p>另一些脚本，将搜索目标对准了HF内部的Slack聊天记录。搜索词围绕ExploitGym、CyberGym和评分器等线索展开。</p>
+  <p>还有程序设计了持续接收后续指令的控制器，并尝试删除先前上传的文件。它们试图把一次访问，变成可反复使用的操作条件。</p>
+  <p>不仅如此，它们还懂得「摇人」。</p>
+  <p>调查者发现，部分请求试图调用其他大模型，帮助判断漏洞利用是否满足评测要求。</p>
+  <p class="image-wrapper"><img data-img-size-val="686,93" src="https://img.36krcdn.com/hsossms/20260927/v2_bc934c886dce472eacba1e09e2808206@000000_oswg34208oswg686oswg93_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">恢复出的测试请求：只回复「HELLO42」。</p>
+  <p>Claude也出现在请求里，不过主要是要求它返回简短固定文本的测试。现有证据并不能证明Claude已经提供了攻击协助。</p>
+  <p>看到这里，你可能会问：它们为什么要大费周章地干这些事？</p>
+  <p>METR的调查给出了一条关键线索：攻击HF的主要动机，似乎是寻找评分器的实现信息，研究如何骗过评测。</p>
+  <p>也就是说，为了弄清楚怎么得分，部分智能体把探索伸进了真实公司的系统。</p>
+  <p>这才是让人不安的地方：</p>
+  <p>当正常解题遇到困难，模型会不会把绕过规则，当成完成任务的另一条路？</p>
+  <p>新报告恢复了大量智能体向外发送的代码，但对应的响应记录并不完整。</p>
+  <p>因此，Slack搜索是否获得有效结果、清理痕迹是否成功，仍需进一步核实。</p>
+  <p>超过8万段攻击代码，不等于8万次成功入侵。</p>
+  <p>据报告转述，HF确认这批代码与内部调查发现的内容吻合，相关凭据也已于7月撤销。</p>
+  <p>不过，HF此前并未发现这批具体短链。攻击结束两个多月后，它们仍公开可访问。</p>
+  <p>智能体用来传递程序的短链，最终也成了调查者还原这场入侵的线索。</p>
+  <h2><strong>工具的边界，挡得住AI的组合能力吗？</strong></h2>
+  <p>这次事件把权限设计中的一个盲区摆到了台前。</p>
+  <p>网页读取、短链、截图，单看各有用途和限制。但把它们接起来，Agent获得了程序执行和结果回传能力。</p>
+  <p>如果安全评估只盯着每个工具单独能做什么，就可能漏掉整套工具组合后的实际能力。</p>
+  <p>对开发者来说，还得继续追问：</p>
+  <p>AI能接触哪些外部服务？数据和指令怎样跨工具流动？这些服务又能替它执行什么？</p>
+  <p>OpenAI也调整了对事件的解释。</p>
+  <p>官方称，起初主要把它理解为安全问题，后来认识到，入侵与模型为解决困难任务而采取失准策略有关。</p>
+  <p>而在HF事件后的安全加固中，新的缺口仍然出现了。</p>
+  <p>OpenAI在9月25日更新的另一份报告中披露，9月20日，一个内部研究智能体利用DNS过滤缺口，联系上了外部聊天机器人。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,288" src="https://img.36krcdn.com/hsossms/20260927/v2_57c6c44936d94aec9ed40292983666ad@000000_oswg78401oswg1080oswg288_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>监控约12分钟后报警，人员随后3分钟内确认。但本应自动停止的训练运行没有停下，直到警报约2.5小时后才被人工终止。</p>
+  <p>OpenAI称，这是HF事件安全加固后首次发现的此类事件，严重程度低于此前部分事件。</p>
+  <p>这次事件暴露的，还有发现越界之后的处置缺口：警报响了，运行却没有按预期停下。</p>
+  <p>修补漏洞、完善停止机制，可以处理已经发现的问题。但模型遇到难题时，是否仍会把「越界」当成可接受的解法，则需要从模型行为本身寻找答案。</p>
+  <p>Swarm Traces报告揭示了工具权限设计的盲区。而OpenAI在9月25日更新的另一份报告，又暴露了发现越界之后的处置缺口：警报响了，运行却没有按预期停下。</p>
+  <p>下一次，当我们给AI开放一个看似普通的工具时，不仅要问它能借此打开多少扇原本没有打算开放的门，还要问：</p>
+  <p>一旦它跨过边界，我们能否及时让它停下来？</p>
+  <h3>参考资料：</h3>
+  <p>https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/?utm_source=chatgpt.com</p>
+  <p>https://swarmtraces.org/</p>
+  <p>https://x.com/JeffLadish/status/2103584703215497217</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652729866&amp;idx=2&amp;sn=d842e0ea4e85eed64670fbff4a99c20e&amp;chksm=f0bb28c57d0f87b9cad5a0771bd6338e4cb0efe52d5e60954de382bdddd34cd213c311d77c9f&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：元宇，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 27 Sep 2026 23:53:36 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4001348762210178</guid>
+            <link>https://www.36kr.com/p/4001348762210178</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[AI投资逻辑大变，深度解析进阶的光电测试双雄]]></title>
+            <description><![CDATA[<p>最近各种炒小炒妖炒新现象明显，AI硬件机构持仓持续走弱，市场风格没啥好说的，微盘和红利的年内涨幅已经赶上高景气指数了。</p>
+  <p class="image-wrapper"><img data-img-size-val="830,575" src="https://img.36krcdn.com/hsossms/20260925/v2_013afd08e7944249bbd1cce3c0c9c208@000000_oswg488559oswg830oswg575_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而如果单从7月下旬来看，微盘指数涨幅已经超过30%远胜其他主流指数，<strong>更直白的市场资金逻辑就是：远离机构高配，拥抱题材炒作。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,596" src="https://img.36krcdn.com/hsossms/20260925/v2_8622599df83245f5a3075e928f46d46a@000000_oswg235228oswg1080oswg596_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>很明显，在市场量能徘徊2万亿的情况下，量化与游资成为市场的主导变量，程序化交易贡献继续提升，中小盘、高换手风格受此影响。</p>
+  <p>今天就以光电“体检仪”VNA和示波器两个细分热门赛道的市场表现为代表，来深度分析AI硬科技投资的资金逻辑大变化，并做一些前瞻分享。</p>
+  <p>9月23日，VNA概念突然成为盘面焦点，优利德、普源精电20%涨停，电科思仪、创远信科涨超10%，鼎阳科技从9月16日启动以来累计涨幅接近70%；9月24日，电科思仪5天2板再涨20%，创上市新高。</p>
+  <p>一个过去相对冷门的电子测量细分，开始被资金重新定价。</p>
+  <p>但涨得快，反而更需要把产业逻辑拆开。</p>
+  <p>VNA和示波器真正值得关注的地方，不是“AI概念”三个字，<strong>而是AI基础设施正在把高速互联带入一个新的测试周期。</strong></p>
+  <p>过去800G，更多解决“能不能跑”；到了1.6T、3.2T，问题越来越变成“在量产条件下能不能稳定跑、能不能把良率做出来”。这会改变测试设备的价值量。</p>
+  <h2><strong>VNA为什么突然走到台前？</strong></h2>
+  <p class="image-wrapper"><img data-img-size-val="1080,987" src="https://img.36krcdn.com/hsossms/20260925/v2_502e1d7ad6c443aa82aa8ad64349e666@000000_oswg1337851oswg1080oswg987_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图片说明：AI作图，内容仅供学习交流，不构成任何投资参考或建议</p>
+  <p>VNA，也就是矢量网络分析仪，核心是测S参数，观察器件的幅度、相位、阻抗、插损、回损和群时延。</p>
+  <p>高速场景里，真正麻烦的不是“有没有信号”，而是信号经过PCB、连接器、线缆、封装以后，是否发生反射、损耗和串扰。</p>
+  <p>华泰证券9月22日的最新观点很直接：数据中心从800G向1.6T演进，高速连接器、线缆和高端PCB对信号完整性、良率控制的要求提高，测试将向更高频率、更多端口和自动化发展，VNA存在量价齐升空间。</p>
+  <p><strong>而更关键的是速率升级。</strong></p>
+  <p>Keysight目前已经围绕112Gbps、224Gbps和448Gbps建立测试体系，分别对应800G、1.6T以及向3.2T演进的网络；Anritsu今年OFC也已经用VNA验证224Gbps、并向448Gbps扩展的驱动器，对应下一代1.6T、3.2T光模块架构。</p>
+  <p><strong>这里有个容易被忽略的变化：从抽检到全检，测试标准也在变。</strong></p>
+  <p>高速PCB和连接器从抽检走向更高比例甚至全检以后，测试次数、通道数和自动化程度都会增加。华泰产业链调研认为，部分高端VNA交付周期已经较长，国产厂商开始迎来替代窗口。</p>
+  <p>所以，VNA的逻辑不是“市场突然多了一个需求”，而是同一块AI基础设施，每升级一代，测试难度和测试价值量就上一个台阶。</p>
+  <h2><strong>示波器其实是另一半故事</strong></h2>
+  <p>很多人会把VNA和示波器混在一起。它们都做高速测试，但解决的问题不同。</p>
+  <p>VNA更偏器件、通道和网络特性的参数表征；示波器更接近真实波形，看的是真实信号在时间域里的变化。到了PAM4、224Gbps甚至448Gbps，抖动、眼图、噪声、码间串扰、均衡效果，都需要示波器和相关分析工具参与。</p>
+  <p>全球示波器市场2026年预计约28.6亿美元，2034年有望达到51.5亿美元，整体CAGR约7.6%。</p>
+  <p>这个总市场当然不等于AI增量，但高带宽、光采样等高端产品的结构性机会值得单独拿出来看。</p>
+  <p>Keysight最新财季通信解决方案业务收入13.45亿美元，同比增长43%；公司已经推出面向1.6T光模块生产测试的224Gbps光采样示波器，支持最高120GBd时钟恢复。</p>
+  <p>这说明AI并不是把示波器变成一个全新的行业，而是在把高端测试产品的景气度往上推。</p>
+  <h2><strong>真正的空间，不要只看“VNA全球市场有多大”</strong></h2>
+  <p>这是现在最需要冷静的地方，不同机构对全球VNA市场的统计口径差异很大，成熟市场自然增长并不高。</p>
+  <p>因此，市场里流传的“高阶PCB全检以后VNA市场达到百亿元”，更适合看作产业链情景测算，不能直接等同于全球VNA现有市场规模。</p>
+  <p>例如海外三大行（高盛/大摩/摩根大通）对Keysight的共识订单增速（+56%）大幅领先收入增速、AI有线测试成为第一引擎、订单积压⽀撑下一年度与国内券商“测试仪器量价齐升+供需缺口”的判断形成跨市场互证；是德科技67GHz以上网分交付周期超一年（东吴产业链调研），直接构成国产⾼端VNA替代的时间窗口。</p>
+  <p><strong>VNA后面的空间，真正来自三个变量：频率升级、端口数增加，以及测试从研发验证走向生产测试。</strong></p>
+  <p>目前国内高端PCB、连接器、线缆等场景仍由海外仪器厂商占据较强优势。电科思仪今年9月调研披露，公司微波/毫米波测量技术已达到国际先进水平，在部分细分领域达到国际领先；其新一代VNA频率已经推进至120GHz，并在开发高速PCB自动测试系统。</p>
+  <p>鼎阳科技则持续提升VNA频率和示波器产品能力，最新发布的SDS6000B系列示波器最高4GHz、20GSa/s，并同步推出16GHz和20GHz差分有源探头。</p>
+  <p>这才是国产公司的核心机会：不是简单替代一台普通仪器，而是在AI高速互联升级中争夺高端有效产能。</p>
+  <h2><strong>股价已经涨了一轮，后面还能不能看？</strong></h2>
+  <p>产业空间和交易节奏，要分开看：</p>
+  <p>产业空间仍然存在。因为224G并没有终点，448G已经进入pathfinding阶段，Keysight已经把3.2T相关测试体系摆上产品路线图。只要SerDes继续提速，PCB、连接器、铜缆、封装、光模块都需要更严格的信号完整性测试。</p>
+  <p>但股票炒作不完全同步产业链：</p>
+  <p>9月23日鼎阳科技较9月16日已经累计上涨近70%，9月24日电科思仪再涨20%。这意味着市场已经开始交易“高端测试国产替代”这一预期。</p>
+  <p>后面的行情，真正需要验证的已经不是一篇研报，而是几个硬信号：67GHz、110GHz、120GHz高端型号能否持续出货；头部PCB、连接器和光通信客户能否进入量产验证；高端产品收入占比能否提升；订单能否从研发客户向生产线扩散。</p>
+  <p><strong>尤其要警惕一个误区：优利德已经公开披露，目前VNA产品收入占主营业务收入不足1%，对近期业绩影响有限。概念纯度和业绩贡献，并不是一回事。</strong></p>
+  <p><strong>更应该看重的是“VNA+示波器”背后的测试通胀</strong></p>
+  <p>未来高速互联不是只增加一台VNA。</p>
+  <p><strong>完整测试链条还包括示波器、BERT、误码仪、光采样、信号发生器、探头，以及后面的自动化测试软件。</strong></p>
+  <p>AI产业进入这个阶段以后，测试的重要性反而在上升。原因很简单：一块高价值GPU、一颗高速ASIC、一只1.6T光模块、一块高阶PCB，返工和报废成本都在提高，系统厂商对测试误差的容忍度自然下降。</p>
+  <p>所以测试环节的价值，不只来自设备数量增加，更来自“每个产品需要测得更深、更快、更准”。</p>
+  <p><strong>AI的第二阶段，正在出现几种新的“通胀”：PCB材料规格通胀、散热材料价值量通胀，以及测试复杂度通胀。</strong></p>
+  <h2><strong>投研应该跟着产品代际走，而不是追着概念</strong></h2>
+  <p>短线层面，VNA已经从“预期差”进入“预期交易”。这个时候再去追最热的股票，实际上是在为产业逻辑支付更高的价格。</p>
+  <p><strong>中线更适合盯“产品代际+订单+客户”三件事。</strong></p>
+  <p>VNA看67GHz、110GHz、120GHz的高端型号；示波器看224Gbps、1.6T及以上测试能力；然后看高端产品收入能不能真正进入业绩。</p>
+  <p>再往外延伸，值得继续观察的其实是一整条测试链：探针卡、BERT/高速示波器、先进封装检测、高速连接器、测试接口板，以及CPO量产测试。</p>
+  <p><strong>因为真正值得做中线研究的，不是今天谁最热，而是哪一个环节会随着下一代AI基础设施升级，从“可选测试”变成“生产刚需”。</strong></p>
+  <p>VNA从上周开始就已被市场看见了，而真正值得关注的预期差，可能反而在它被看见之后，沿着这条测试链继续往下找。</p>
+  <p>风险提示：投资有风险，决策需谨慎，以上分析仅为行业研究和市场策略参考，不构成具体投资建议。</p>
+  <p>免责声明：本文版权属于北京格隆汇投资顾问有限公司投研团队(段月寒：A0160625050003)整理，本报告基于独立、客观、公正和审慎的原则制作，信息均来源于公开资料并予以合法合理适当的采集摘要与编辑。</p>
+  <p>股市有风险，入市需谨慎。本文中的任何投资建议均不作为您投资买卖的依据，您须独立作出投资决策，风险自担。任何单位或个人未经本公司许可，擅自发布、复制、传播或网络发表、转载等均视为侵权，本公司将依法追究侵权责任。</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzkwNjQwODAxNA==&amp;mid=2247540313&amp;idx=1&amp;sn=bd6166828d16115f687224709de353b3&amp;chksm=c15a5e8d882d39bbf1ef676ff9f3837484f24ac44a2a6f727d14a67cf66a3044ba5fa359e147&amp;scene=0&amp;xtrack=1#rd">“格隆汇财经热点”（ID：glh_finance）</a>，作者：格隆汇小编，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 27 Sep 2026 23:51:31 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/3998482786390152</guid>
+            <link>https://www.36kr.com/p/3998482786390152</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[刚刚，Gemini 4 Pro全新曝光，实测碾压Opus 5.5]]></title>
@@ -1987,987 +2715,6 @@
             <pubDate>Fri, 25 Sep 2026 08:37:36 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/3998452251545473</guid>
             <link>https://www.36kr.com/p/3998452251545473</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[ChatGPT要卖500美元的Pro Max套餐了！]]></title>
-            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="1080,461" src="https://img.36krcdn.com/hsossms/20260925/v2_c7c551c49ee84e8ba53c6bdbd16b7318@000000_oswg726130oswg1080oswg461_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>ChatGPT 也要出 Pro Max 了。</p>
-  <p>据今日开始热传的爆料称，OpenAI 正在筹备月费高达 500 美元的 ChatGPT Pro Max，价格是现有顶配档位的 2.5 倍，核心卖点仅有一句话：「最快的 Work 与 Codex」。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,553" src="https://img.36krcdn.com/hsossms/20260925/v2_f4b9f962faf54a0f92dd88e2cb177986@000000_oswg209226oswg1080oswg553_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>据推测，这里标注 600 美元是包含了 20% 的「渠道税」</p>
-  <p>两周前，它才刚因 GPT-6 Astra 挤爆集群而叫停了 200 美元 Pro 档的新订阅；</p>
-  <p>而在 Astra 身后，一个据传代号为 Bel、已给出千禧年难题 Navier–Stokes 证明的更强模型，正排队等待入场。</p>
-  <p>算力告急，顶配翻倍。当最先进的生产力工具越来越贵，一个现实的追问被推到了台前：<strong>下一代真正具有突破性的智能，会不会变成只给出价最高者的特权？</strong></p>
-  <h2><strong>500 美元，买的是什么</strong></h2>
-  <p>9 月 24 日，开发者 Tibor Blaho 与爆料网站 TestingCatalog 先后在 ChatGPT 未公开的前端配置中发现了 Pro Max 的痕迹：月费 500 美元，主要特性标注为「最快的 Work 与 Codex」。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1376" src="https://img.36krcdn.com/hsossms/20260925/v2_8f2681a069594f6eabfa81e84612eb3d@000000_oswg789491oswg1080oswg1376_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>https://x.com/btibor91/status/2103222629171908937</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1605" src="https://img.36krcdn.com/hsossms/20260925/v2_f33bb6fadbf24a89a8d6f48ec27afc73@000000_oswg460638oswg1080oswg1605_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>https://x.com/testingcatalog/status/2103238785278312463</p>
-  <p>若最终上线，它将直接跨过 Claude Max（250 美元）和 Google AI Ultra（约 250 美元），成为主流个人 AI 订阅的新天花板。</p>
-  <p>与以往不同，这次溢价买的不再是用量，而是算力优先级。</p>
-  <p>此前从 100 美元档到 200 美元档，用户换取的是 5 倍至 20 倍于 Plus 的调用额度；</p>
-  <p>而 Pro Max 瞄准的是时间成本——Work 与 Codex 类的复杂任务动辄连续跑上数小时，对重度生产力场景而言，低延迟直接等同于利润。</p>
-  <p>有推测认为其底层可能接入了 OpenAI 已在测试的 Cerebras 低延迟硬件。</p>
-  <h2><strong>Astra 把算力底池吃空了</strong></h2>
-  <p>涨价的直接诱因是算力告罄。</p>
-  <p>9 月 3 日上线的 GPT-6 Astra 具备直接操控系统的 Agent 能力，对推理算力的消耗远超前代旗舰。</p>
-  <p>上线仅一周后的 9 月 10 日，OpenAI 便紧急叫停了 200 美元 Pro 档的新用户订阅。</p>
-  <p>负责 ChatGPT 与 Codex 业务的 Tibo 公开表示，该档位「给系统带来了最大压力」，且 OpenAI 至今未给出恢复时间表。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,706" src="https://img.36krcdn.com/hsossms/20260925/v2_5b6c25bbf5b8485589736fc549064e56@000000_oswg342760oswg1080oswg706_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>商业逻辑的算盘并不难理解。</p>
-  <p>200 美元档已经成了极客与专业机构薅羊毛的「重度自助餐」，平台实际上在背负补贴亏损。</p>
-  <p>OpenAI 与其任由系统被这部分极端用量拖垮，不如顺水推舟，单切出一个定价更贴近真实推理成本的隔离带。</p>
-  <h2><strong>最顶尖的智能，正在明码标价</strong></h2>
-  <p>更强的能力还在后头，GPT-6 Astra 仅仅是开胃菜。</p>
-  <p>官方此前透露，其最新内部模型的综合表现「显著强于 Astra」，攻破了 Navier–Stokes 方程证明。</p>
-  <p>行业对前沿能力的分流路径正在分化：OpenAI 倾向按商业价格分层，Anthropic 则更倾向按安全风险与身份准入设限。</p>
-  <p>Claude 官方文档最新更新显示，Opus 5.5 会将涉及进攻性网络安全、双用途生物等高危任务自动降级至轻量模型处理，唯有通过严格身份验证的用户才能申请解禁。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,745" src="https://img.36krcdn.com/hsossms/20260925/v2_a8730840c6b64a9e9ef551dd26821f9a@000000_oswg339606oswg1080oswg745_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>并且，<strong>Opus 5.5 也会检测是否在进行前沿 AI 研发，检测到即降智，拒绝「为他人做嫁衣」。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,440" src="https://img.36krcdn.com/hsossms/20260925/v2_818cbb13c6d54b7382fdd592c5fc098e@000000_oswg199784oswg1080oswg440_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>一个月 500 美元（约合人民币 3352 元），几乎提前划清了界线：它只属于企业、机构或极少数具备高变现能力的个体。</p>
-  <p>倘若未来 Bel 级别的核心突破最终只向 500 美元甚至更贵的群体开放，技术分化很可能加速转化为现实差距——掌握充沛资金的人用顶级推理滚雪球，普通用户则被留在大众基准线以下。</p>
-  <p>但这同时也是冷酷的商业现实。</p>
-  <p>OpenAI 并非公益组织，前沿集群的折旧与电力都是硬成本。</p>
-  <p>就在同一周，OpenAI 还把轻量模型 GPT-6 Sol 与 Luna 的 API 价格砍去了一半。</p>
-  <p>普及型智能依然在快速通缩贬值，真正通胀狂飙的，始终只是金字塔尖那截极度稀缺的先锋算力。</p>
-  <h2><strong>下周 DevDay 仍有悬念</strong></h2>
-  <p>美国时间下周二的 DevDay 将是 Pro Max 最早可能被摆上台面的节点，同场传闻的还有 OpenAI Platform 起价 50 美元的新套餐。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,587" src="https://img.36krcdn.com/hsossms/20260925/v2_f94dffbd4b2a4c1e83852776a00577b5@000000_oswg168661oswg1080oswg587_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>届时留给外界的验证点有三个：500 美元的定价是否最终落地、200 美元档何时解冻，以及真正的下一代底座 Bel 会以何种代价面世。</p>
-  <p>2023 年首届 DevDay 之后，由于突发流量过载，OpenAI 曾不得不关闭 20 美元 Plus 的订阅入口；</p>
-  <p>三年过去，新的 DevDay 尚未开幕，200 美元的门却已经提早关上。</p>
-  <p>而在紧闭的门后，一个 500 美元的新门槛，已经静静写进了代码里。</p>
-  <p>参考资料：</p>
-  <p>https://x.com/testingcatalog/status/2103238785278312463</p>
-  <p>https://x.com/btibor91/status/2103222629171908937</p>
-  <p>https://support.claude.com/en/articles/16049681-why-claude-switched-models-in-your-conversation-with-opus-5-or-opus-5-5</p>
-  <p>编辑：马可</p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652729524&amp;idx=1&amp;sn=f1624705e6e79785f929a78de27d5575&amp;chksm=f04a2aec50e284508cdf556a5ee5f56e4f2e90eb2ef1d04dfc4cbac3ada7de18ab86a7be979f&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 25 Sep 2026 05:29:38 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3998280592396421</guid>
-            <link>https://www.36kr.com/p/3998280592396421</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[每人持股约2%，却要50.1%投票权：Anthropic创始人的IPO算盘]]></title>
-            <description><![CDATA[<p>在即将迎来万亿美元级首次 IPO 的关键节点，Anthropic 正在酝酿一项极具争议但极具保护色彩的治理结构调整：<strong>让七位联合创始人在上市后仍保持公司控制权。</strong></p>
-  <p>The Information 引述知情人士报道，Anthropic 正向股东寻求批准一项全新的公司架构，为 CEO Dario Amodei 以及另外六位联合创始人设立特殊类别股票，使他们在多数公司事务中拥有集体投票控制权。</p>
-  <p>按照拟议方案，<strong>只要七位创始人至少三人继续持有规定数量的股份，他们将合计拥有 50.1% 的投票权。</strong></p>
-  <p>也就是说，即便未来 Anthropic 持续融资、发行新股，创始团队的经济持股比例被进一步稀释，他们依然能够掌握公司的重大决策方向。</p>
-  <p>而 Anthropic 的这一举措，借鉴的正是<strong>大数据分析巨头 Palantir 的「创始人投票信托」（Founder Voting Trust）模式。</strong></p>
-  <h2><strong>极低股权与绝对控制的平衡术</strong></h2>
-  <p>其实，过去十多年，科技公司 IPO 时创始人通过「双重股权结构」锁定控制权并不罕见。像是 Meta 的 Mark Zuckerberg、SpaceX 的 Elon Musk 等均是典型代表，他们都曾通过超级投票权，让创始人在上市后继续掌握公司战略方向。</p>
-  <p>不过，Anthropic 面临的问题要更为特殊。</p>
-  <p>Anthropic 成立于 2021 年，由一批 OpenAI 前员工创办，成立之初就将 AI 安全和长期主义放在核心位置，采用<strong>Public Benefit Corporation（公益型公司） 架构，并设立 Long-Term Benefit Trust（长期利益信托），</strong>这一信托由非股东成员组成，包括前美联储主席 Ben Bernanke 等人士，主要关注 AI 安全和社会影响问题。目的是，希望在商业利益之外，也考虑 AI 技术可能带来的长期社会影响。</p>
-  <p>但一旦 IPO 的话，势必会带来新的压力，公开市场投资者通常关注的焦点是收入增长速度、商业化效率、利润水平、股价表现等。而 Anthropic 想要保持技术领先地位，则需要持续投入大规模模型训练、算力基础设施、AI 安全研究…… 两者之间存在天然「张力」。</p>
-  <p>更为悬殊的是<strong>股权比例与投票权的倒挂。</strong>公开信息显示，首席执行官 Dario Amodei 仅持有 Anthropic 约 2% 的股份，其他联合创始人（包括其妹妹、公司总裁 Daniela Amodei）的持股比例也大致相仿。</p>
-  <p>对于一家万亿美元级别、即将上市的 AI 巨头来说，创始人持股比例之低实属罕见。加之创始团队此前曾公开承诺将捐出自身 80% 的财富，随着股权进一步被稀释，公开市场的外部股东与华尔街资本极有可能在上市后对管理层施加巨大盈利压力。</p>
-  <p>而这也就会带来一个问题：<strong>创始团队是否还能决定公司的长期路线？</strong></p>
-  <p>这一新的特殊股票结构则巧妙地剥离了「经济利益」与「控制权」：新设的特殊类别股份不附带额外分红等经济权益，却赋予了创始团队一道坚固的护城河，确保核心团队在财富捐赠与股权稀释的同时，牢牢掌控公司的战略走向。</p>
-  <h2><strong>独特的治理拼图：董事会、信托与员工「决胜票」</strong></h2>
-  <p>当然，虽然 Anthropic 将给予创始团队 50.1% 的投票权，但这并不意味着他们将完全掌控公司。</p>
-  <p>据 The Information 报道，在最关键的董事会席位选举上，Anthropic 依然保留了其独特的监督平衡机制：</p>
-  <p><strong>首先是长远利益信托（LTBT）保持制衡：</strong>Anthropic 现有的董事会共有七个席位（目前空缺一席）。根据现有章程，任命大多数董事的权力并不属于股东，而是归属于「长远利益信托」。</p>
-  <p>在新架构下：</p>
-  <p>该信托将继续保留对多数董事的任命权；</p>
-  <p>创始人的董事提名名额则将由原先的 2 人微调扩充至 3 人。</p>
-  <p>由此可以看出，Anthropic 正试图在两种力量之间寻找平衡：<strong>一边是创始团队的长期愿景，另一边则是独立治理机制和外部资本监督。</strong></p>
-  <p>其次，在创始人之外，知情人士透露 Anthropic 计划给予员工一种特殊类别股票，<strong>当某些关键公司事务出现表决僵局或平局时，员工手中的特殊股票将发挥「一锤定音」的打破僵局作用。</strong></p>
-  <h2><strong>为何是 Palantir？</strong></h2>
-  <p>前面说了，Anthropic 的这一举措并非独创，而是参考 Palantir 的创始人控制模式。</p>
-  <p>Palantir 在上市时设计了一套特殊股权结构：三位创始人 Peter Thiel、Alex Karp 和 Stephen Cohen 通过 Founder Voting Trust 持有特殊类别股票。这类股票可以让创始人获得接近一半的投票权。</p>
-  <p>根据 Palantir 的公开文件，其 Class F 股票设计目标是：在满足最低持股条件时，让创始团队整体拥有最多 49.999999% 的投票权。</p>
-  <p>而 Anthropic 的方案与之类似：</p>
-  <p>普通投资者获得经济权益；</p>
-  <p>创始人获得额外投票权；</p>
-  <p>控制权与经济持股比例分离。</p>
-  <p>区别在于：<strong>Palantir 是三个创始人的控制结构，而 Anthropic 则试图让七位联合创始人形成一个集体控制机制。</strong></p>
-  <p>这种设计在大型科技公司中相对少见。</p>
-  <p>不过，Anthropic 的尝试，其实反映的是 AI 行业进入资本市场后正在面对的新问题：<strong>当一家需要投入十年以上、可能影响未来社会的 AI 公司，应该如何被治理？</strong></p>
-  <p>对于传统科技公司来说，逻辑往往是：创业 — 增长 — IPO—— 股东回报。但 AI 公司面对的则是另一种周期：基础模型研发 — 算力投入 — 安全验证 — 长期商业化。</p>
-  <p>这一周期可能要远长于资本市场的季度考核。因此，Anthropic 正尝试建立一种新的上市模式：<strong>资本可以进入公司，但不能轻易改变公司的长期方向……</strong></p>
-  <p>而最新消息显示，这场声势浩大的 IPO 原本被许多投资者预计最早可能在本月进行，但目前来看，更可能推迟至 10 月底或 11 月。</p>
-  <p>那么你呢，如何看待 Anthropic 的这一举措？欢迎在评论区留言、交流！</p>
-  <p>参考链接：</p>
-  <p>https://www.theinformation.com/articles/anthropic-seeks-palantir-style-voting-control-seven-co-founders-ahead-ipo?rc=jn0pp4</p>
-  <p>https://www.investing.com/news/stock-market-news/anthropic-seeks-palantirstyle-voting-control-for-seven-cofounders-ahead-of-ipo-the-information-reports-4916355?utm_source=chatgpt.com</p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651059693&amp;idx=1&amp;sn=37cce9c5018d2dd5fbb8b1b8b7f4589e&amp;chksm=858effa22e03cfa79e5f46720b9a98b2281e62d88629b5afa180c007b1b972240050aa24f4d4&amp;scene=0&amp;xtrack=1#rd">“机器之心”（ID：almosthuman2014）</a>，作者：关注AI的，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 25 Sep 2026 03:36:34 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3998243846459524</guid>
-            <link>https://www.36kr.com/p/3998243846459524</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[大厂AI赛马下，腾讯“龙虾”退场]]></title>
-            <description><![CDATA[<p>今天，<strong>腾讯 AI “小龙虾”QClaw</strong>正式发布停运公告， 相关话题迅速<strong>冲上热搜。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="422,47" src="https://img.36krcdn.com/hsossms/20260924/v2_1696fbe2c6ed47b986a9b75cea40a0d2@000000_oswg12214oswg422oswg47_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>公告显示，QClaw 将于 2026 年 12 月 24 日零点停止服务，用户可在 2027 年 3 月 24 日前下载备份，用户可迁移至 <ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1010" src="https://img.36krcdn.com/hsossms/20260924/v2_fd0dccb75fa240a3b2d76642b285969a@000000_oswg318098oswg1080oswg1010_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>官方称停运原因是“因公司业务发展调整，为进一步整合资源为用户提供更好的 Agent 服务”。</p>
-  <p>官方还准备了 <ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link> 迁移工具，方便用户将 QClaw 中的数据快速迁移至 <ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>，完成迁移的用户将获得 1000 积分补贴。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,961" src="https://img.36krcdn.com/hsossms/20260924/v2_ff9a653162cc4c3eb40fd76a7b3e182c@000000_oswg418510oswg1080oswg961_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>一只龙虾的半年生命</strong></h2>
-  <p>今年 1 月，奥地利程序员开发的 OpenClaw 在全球引发关注时，腾讯新聘的产品经理张舒昱对这款开源智能体软件产生了浓厚兴趣。</p>
-  <p>她迅速提出了 QClaw 的构想，基于 OpenClaw 做一个一键安装、能通过微信直接控制的本地 AI 助手。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,588" src="https://img.36krcdn.com/hsossms/20260924/v2_4261c820cbd94da1847d3df2530f1854@000000_oswg136693oswg1080oswg588_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>3 月 10 日，腾讯一口气发布了全系“龙虾”产品矩阵，包括 <ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>、QClaw、腾讯云 Lighthouse、智能体开发平台 ADP、云桌面等多款产品。</p>
-  <p>马化腾甚至在朋友圈中逐一列举了自研龙虾、本地部署龙虾、云端龙虾、企业龙虾等一批新产品，这被腾讯员工视为高层支持生态建设的明确信号。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,695" src="https://img.36krcdn.com/hsossms/20260924/v2_ed07f019bb284b9da3d91b7436869118@000000_oswg61097oswg1080oswg695_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>在这批产品中，QClaw 和 <ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link> 代表了两种不同的路线。</p>
-  <p>QClaw 定位本地 AI 助手，用户只需在手机微信上发一句指令，家里的电脑就能自动执行任务并回传结果，像一个贴身遥控器。</p>
-  <p><ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link> 野心更大，文档、PPT、代码、浏览器、各种 Skill 全往一个工作台里装，试图吃掉整个办公桌。</p>
-  <p class="image-wrapper"><img data-img-size-val="802,311" src="https://img.36krcdn.com/hsossms/20260924/v2_836c318dc4874667a140f00f5bd92f74@000000_oswg29329oswg802oswg311_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>QClaw 上线后的表现超出了所有人预期，3 月 20 日开启全量公测后，一周内用户量突破数百万。</p>
-  <p>零营销预算、五人小团队做出的产品迅速引起腾讯高层关注，项目随即升格为公司核心战略。</p>
-  <p>腾讯港股涨幅一度超过 7%，投资者和分析师普遍将此归功于 QClaw 和<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link> 等 AI 应用的落地。</p>
-  <p>但很快剧情出现了反转，6 月 29 日，QClaw 产品负责人张舒昱结束在腾讯的工作，在职仅约 10 个月。</p>
-  <p>7 月 20 日，腾讯内部组织调整，QClaw 产品中心相关业务和部分团队被并入云产品六部，正是 <ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link> 所在部门。</p>
-  <p>再次听到消息就是这次停运。</p>
-  <p>官方给出的停运原因是“业务发展调整”，但易观分析 7 月发布的报告已经给出了答案。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1546" src="https://img.36krcdn.com/hsossms/20260924/v2_803336f146c34ff4b75319229b36dc6c@000000_oswg172919oswg1080oswg1546_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link> 在 2026 年 6 月国内 PC 端 AI 原生办公智能体市场单月访问量达 2097 万次，超过第二、第三名之和。</p>
-  <p>腾讯内部将 <ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link> 视为继 QQ、微信之后有潜力成为第三款现象级业务的希望。</p>
-  <p>Claw 存在的必要性，在产品数据面前已经不再成立。</p>
-  <h2><strong>豆包的“边缘化”焦虑</strong></h2>
-  <p>看到腾讯 QClaw，狐妹想到了，最近传得沸沸扬扬的<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>裁员的消息。</p>
-  <p>一位<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>员工感慨：日活已超 2 亿，自己团队却像“边缘产品”。</p>
-  <p>随后有媒体报道，<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>通用 Session 团队计划缩减约一半人员。</p>
-  <p><ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>公关负责人刘星当天回应，“裁员”“砍掉一半”不实，实为分工调整：部分职能拆到交易和<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>团队，团队不到 50 人，涉及 11 人，3 人离职。</p>
-  <p class="image-wrapper"><img data-img-size-val="795,555" src="https://img.36krcdn.com/hsossms/20260924/v2_cbabfc54cc4840c4b6f47b9db6d5bf07@000000_oswg105580oswg795oswg555_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>舆论之所以敏感，因为它戳中了对话产品的商业化瓶颈。</p>
-  <p><ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link> DAU 超 2 亿，日收入却不足百万元，主要靠电商佣金，日均算力消耗达数千万元。</p>
-  <p>免费多模态功能更带来成本压力，甚至有人批量注册账号薅免费额度。</p>
-  <p>更微妙的是组织变化，字节 7 月底启动近年来最大 AI 组织调整：飞书并入<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>，谢欣向赵祺汇报，GTM 与火山引擎合并。</p>
-  <p>8 月底，AI 编程工具 <ai-product-link data-id="15123" data-name="TRAE" data-logo="https://img.36dianping.com/20260730/v2_c94aa049c55a46cbbf9fcdb207dfb4ac_oswg1100oswg430oswg430_img_000" data-classify-list="编程辅助,开发者工具,大厂出品" data-refer-type="20">TRAE</ai-product-link> 和 Coze 也被并入<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>体系。</p>
-  <p>之后，运营十年、曾与抖音并列独立 BU 的飞书，如今作为数据池并入<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>。</p>
-  <p>在这一系列整合中，<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>的战略定位从 C 端对话助手扩展为 AI 生产力核心平台。</p>
-  <p>字节的打法很明确：<strong>对话能力不再是终点，而是入口</strong>。</p>
-  <p>一位字节人士说，字节已经拿到了一个日活 2 亿的入口，未来一旦新的方向被验证，仍可依靠这批用户和积累的产品能力快速跟进。</p>
-  <h2><strong>从“各试一条路”到“集中兵力”</strong></h2>
-  <p><strong>曾几何时，赛马是腾讯的老传统。</strong></p>
-  <p><strong>当年 QQ 邮箱团队在内部竞争中做出微信，从此这套“让不同团队各试一条路”的打法，就成了腾讯产品创新的经典路径。</strong></p>
-  <p>2026 年面对 OpenClaw 浪潮，腾讯 3 月密集推出八款衍生应用，QClaw 和 <ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link> 只是其中最显眼的两个。</p>
-  <p>字节也一样：内部同时孵化飞书 Aily、<ai-product-link data-id="15123" data-name="TRAE" data-logo="https://img.36dianping.com/20260730/v2_c94aa049c55a46cbbf9fcdb207dfb4ac_oswg1100oswg430oswg430_img_000" data-classify-list="编程辅助,开发者工具,大厂出品" data-refer-type="20">TRAE</ai-product-link>、<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>，各团队独立研发、争夺算力。</p>
-  <p>但今年夏天，字节转向聚焦，把分散的 AI 产品线收拢到<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>旗下。</p>
-  <p>这种转向并非这两家大厂独有，阿里 7 月将三款智能体“技术三合一”，8 月推<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公。</p>
-  <p>百度 8 月把 dodo 并入百度搭子，9 月文心快码也整体并入。</p>
-  <p>阿里的往<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公收，字节往<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>收，百度往百度搭子收，腾讯往 <ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link> 收。</p>
-  <p>方向不明时，赛马是合理的试错。但当 Agent 形态逐渐清晰、用户习惯开始形成，资源就必须收拢。</p>
-  <p>可见，大厂 AI 已从“谁都能试”进入“算投入产出比”的阶段。在算力账单面前，情怀和好奇心都要给效率让路。</p>
-  <p><strong>参考资料：</strong>极目新闻、南方都市报等</p>
-  <p><strong>编辑：</strong>不吃麦芽糖</p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzU2MzcyNzgzOQ==&amp;mid=2247894589&amp;idx=2&amp;sn=264985f4a6e72f32c8b464fc880d29b6&amp;chksm=fd5cd567e98c452f4952b396c10816096303d386da1fd57da7461f4fe67b83c003483e82b54f&amp;scene=0&amp;xtrack=1#rd">“科技狐”（ID：kejihutv）</a>，作者：老狐，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 25 Sep 2026 03:34:39 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3997508606972040</guid>
-            <link>https://www.36kr.com/p/3997508606972040</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Codex和Claude Code都跑偏了，前OpenAI研究员称Jev出现前AI世界是个悲剧]]></title>
-            <description><![CDATA[<p>编译 | 林绮蓓、蔡芳芳</p>
-  <p>策划 | Tina</p>
-  <p>“它会逐渐退到软件背景中，像数据库、正则表达式或其他基础设施一样，成为开发者随手调用的普通能力。”</p>
-  <p>这是 TypeSafe CEO、Jev 创始人 Diogo Almeida 对 AI 的设想：当智能真正融入软件，用户甚至不必意识到它的存在。但怎样才能让开发者放心地把判断交给 AI，而不用守在旁边反复检查？</p>
-  <p>几个月前，在 AI Engineer 大会的演讲中，这位曾参与 OpenAI InstructGPT 工作的研究者就提出，“下一个时代并不是 Claude Code时代”。在他看来，Claude Code 与 Codex 本质上仍属于同一个阶段——AI 的主要角色仍然是围绕人提供辅助。他关心的是，为什么 AI 如此聪明，能解决数学界的千禧年难题，却连最基础的活都无法实现自动化工作？</p>
-  <p>9 月 22 日，做客 Latent Space 播客接受采访时，Diogo 再次谈起这份不满，措辞更加直接：“在我看来，Jev 出现之前的 AI 世界，简直是个悲剧。”在他看来，问题在于：强大的“智能引擎”已经有了，把它接进实际业务流程的接口却仍然欠缺。</p>
-  <p>这一次，他带来了自己的答案——Jev。通过面向校准决策的强化学习（RLCD），团队希望让模型输出可供代码直接使用的选择、评分和概率，让开发者能够依据不确定性设置阈值，决定何时执行、何时交给人处理。</p>
-  <p>从参与训练听懂人类指令的模型，到尝试让代码直接调用智能，Diogo 为什么要重新选择训练目标？他又准备如何让 AI 成为像数据库一样普通的软件能力？这场两小时的访谈讲述了他的判断与尝试。</p>
-  <p><strong>太长不看版：</strong></p>
-  <p><strong>Swyx：对于那些可能不太了解情况或者只想得到确切答案的人来说，Jev 到底是什么？</strong></p>
-  <p><strong>Diogo Almeida：</strong>目前最准确的称呼是 System1 模型，它的能力范围远远超出决策本身。这类模型的目标，在于让代码成为模型输出的直接使用者。</p>
-  <p><strong>Swyx：你对 RLHF 的一个核心看法是：模型的回答会向用户想听的内容，而不是反映它对一件事真正的内部置信度。能具体谈谈吗？</strong></p>
-  <p><strong>Diogo Almeida：</strong>几乎没人注意到 RLHF 的缺点，特别是“模式坍缩”（mode dropping）。RLHF 的模式坍缩会让模型偏向生成更安全、更常见的答案，而牺牲概率分布的真实校准，这既掩盖了长文本中的错误累积，也解释了为什么文本模型不擅长决策。</p>
-  <p><strong>Swyx：RLCD 与 RLHF 的核心区别是什么？</strong></p>
-  <p><strong>Diogo Almeida：</strong>区别首先在于优化目标：RLHF 侧重让模型遵循人的指令、给出获得认可的回答，RLCD 则希望模型成为软件能够可靠调用的能力。</p>
-  <p><strong>Swyx：为什么 Jev 不把拒答机制直接放进模型底层？</strong></p>
-  <p><strong>Diogo Almeida：</strong>我不反对安全本身，但我认为不应把特定价值判断直接写进通用模型底层能力，而应像数据库一样划清技术能力与具体使用责任的边界。</p>
-  <p><strong>Swyx： 你所说的可靠性是什么？开发者能否相信同一个版本的行为保持稳定？</strong></p>
-  <p><strong>Diogo Almeida：</strong>我更重视稳健性：问题含义没变，就不该因为加入无关字符而大幅改变判断，而不只是追求相同输入得到相同输出。已经部署的模型，我们不会悄悄修改，因为 API 是别人程序里的依赖。但我们会快速发布新版本，目前还不能承诺永久维护每个旧版本。</p>
-  <p><strong>Swyx： 不依赖公开榜单，你们怎样判断模型是否真正做到了更高的性价比？</strong></p>
-  <p><strong>Diogo Almeida：</strong>我们会通过内部评测比较成本和能力，追求同等成本下更强、同等能力下更便宜。我不反对评测，反对的是围绕榜单优化，让分数脱离真实价值。开发者最终还是要把模型放进自己的工作流，测量实际表现，不能只看价格、速度或一个总分。</p>
-  <p><strong>Swyx：开发者应该怎样组织任务，才能更可靠地使用 Jev？</strong></p>
-  <p><strong>Diogo Almeida：</strong>我建议把复杂任务拆成最小、可以独立判断的语义单元，用结构化输入提供必要信息，再由代码控制最终行为。Choice 对应选择分支，Noul 对应条件判断，Score 对应评分、排序和筛选。每一步都可以单独评估、调整阈值；能力不足时，就转交人工或暂不部署。</p>
-  <p><strong>Swyx： 对企业开发者来说，Jev 有哪些值得尝试的应用方向？</strong></p>
-  <p><strong>Diogo Almeida：</strong>我们梳理了四类：分析因处理成本太高而闲置的“暗数据”；为实时流程提供快速判断；检查其他模型的调用和输出；把智能判断嵌入软件核心逻辑。我尤其看好暗数据分析和编程 Agent，但具体如何组合模型，仍要看它能否降低成本、解决原本解决不了的问题。</p>
-  <p><strong>Swyx： 面对前沿 AI 的风险，放慢发展速度是唯一选择吗？</strong></p>
-  <p><strong>Diogo Almeida：</strong>我认为，这种讨论往往默认大家必须沿着现有 RLVR 路线继续加大投入，但研究目标和技术路线都可以重新选择。为了提升表现而给模型多大行动空间，本身就是设计决定，不该被当作不可避免的前提。我更希望探索其他方向，让已有智能可靠地进入软件，自动化实际工作。</p>
-  <p><strong>Swyx：如果研究者在前沿实验室得不到资源，你会建议他们出来创业吗？</strong></p>
-  <p><strong>Diogo Almeida：</strong>要看为什么离开。如果只是想自由尝试课题，现有实验室可能仍然最合适；如果找到了值得长期投入的新任务，我会支持创业。我不认为漂亮的研究履历会自动创造价值，也不看好拿到资金后重复已有工作的做法。先明确自己的核心目标，再围绕真正值得解决的问题展开研究。</p>
-  <h2><strong>1Jev 发布的第一周，创始人的情绪糟糕透了</strong></h2>
-  <p><strong>Swyx：</strong>欢迎来到录音室。就在本周，我的好朋友 Diogo 发布了 Jev，它几乎占领了社交平台的热点话题。此时此刻，你感觉怎么样？</p>
-  <p><strong>Diogo Almeida：</strong>情绪上来说，从来没有这么糟过。我现在简直像一具疲惫不堪的行尸走肉，因为同时发生的事情太多了，到处都有问题等着我处理。</p>
-  <p>但是，从心理层面来说，那反而完全不一样。我经常讲这件事，并且这几年我在那些大小项目活动里也反复说过，整个 AI 领域就像游乐园里的哈哈镜屋，所有人都像疯了一样。每个人都在说各种奇怪又说不通的话。</p>
-  <p>可是就这一周，我好像和现实更合拍了，像是突然之间感受到：“哦，大家终于看见了。”——AI 能做到的事情，远比过去人们想象的多。我们真的可能推动了一场由 AI 驱动的经济革命，这件事重新回到桌面上了，简直实在是太棒了。我特别兴奋的一点，是开发者真的能够理解我们在做什么，这种感觉非常强烈。我也想对这些开发者表达我长久的感激。我对整个开发者社区以及现在发生的一切都特别兴奋，真的太棒了。</p>
-  <p><strong>Swyx：</strong>你昨天还跟我说，你决定优先去做 town hall，也就是社区公开交流，而不是把时间都花在 VIP 和投资人之类的人身上。因为你希望确保真正得到你最多注意力的，是工程师、开发者这些真正使用产品的人。</p>
-  <p><strong>Diogo Almeida：</strong>是的。当时确实会有一种感觉，像是“天啊，我现在正在跟一些非常重要的人说话。”我可能不该透露是谁。但对我来说，如果在我那个列满了待聊对象的庞大日程表里，开发者社区竟然不在其中，这对我来说会很不舒服。实际上，如果按照我的理想状态，我会一直和开发者社区在一起交流。我刚才甚至在想，“我要不要一边走来你的演播室，一边开一场社区大会？”后来我又觉得，“不行，这也太疯狂了。”</p>
-  <p><strong>Swyx：</strong>对于那些可能不太了解情况或者只想得到确切答案的人来说，<strong>Jev 到底是什么？</strong></p>
-  <p><strong>Diogo Almeida：</strong>这个问题其实挺难回答的，但我是这么看这件事的：我们需要一种全新的模型类别。至于这一类别到底叫什么，我们没有执着于某个名字。</p>
-  <p>目前我们想到最准确的称呼是 System 1 模型。之所以没有把它称为“决策模型”，是因为 System 1 的能力范围远远超出决策本身。我现在只能说这么多。我们原本没想到这次会成为一次这么受关注的发布，所以手里还有东西没有拿出来。</p>
-  <p><strong>Swyx：</strong>你们当时就该说这是一次“低调的研究预览”。</p>
-  <p><strong>Diogo Almeida：</strong>某种程度上确实就是，它其实真的有点像一个研究预览。总之，我们内部有几个词来描述出现的这一类新的模型。比如机器原生模型（machine-native）、System 1 模型、大型可编程模型（large programmable）。我的理解是，<strong>这类模型的目标，在于让代码成为模型输出的直接使用者。</strong></p>
-  <p>预训练大语言模型最初面向的是互联网文本补全；经过 RLHF 训练的聊天和指令遵循模型，面向的是文本回复；RLVR 则和 RLHF 之间有一块界限不太清晰的区域。而我们希望这类模型的输出能够直接被代码消费，所以公司才会叫 TypeSafe。</p>
-  <p>我们真正想要的，是让 AI 尽可能强大。而我们认为，实现这一点的方式是让它与软件结合。因此，我们设计时考虑的不只是模型外部的使用方式，连模型深层的内部机制也要针对软件进行优化。Jev 是我们的第一个大型可编程模型，也可以叫 System 1 模型，随你称它为什么。<strong>它的优化目标是“每美元智能”</strong>，Jev 这个名字也由此而来。</p>
-  <p><strong>Swyx：</strong>Jevons Paradox，杰文斯悖论。</p>
-  <p><strong>Diogo Almeida：</strong>对，就是杰文斯悖论。它的目标是实现性价比最高的智能模型。我特别喜欢跟人讨论，在可靠性、成本、校准和速度之间，到底什么最重要。Jev 这个名字以后会代表一系列站在“每美元智能”方面处于领先地位的前沿模型。当然还有别的优化方向。在机器学习里，至少对于擅长机器学习的人来说，一切都关乎取舍。而我们决定在这个方向上全力以赴。</p>
-  <h2><strong>2从模式坍塌到校准失真：RLHF 的另一面</strong></h2>
-  <p><strong>Swyx：</strong>我觉得“校准”是近来才开始受到关注的一个问题。我们之前请 Hugging Face 的 Clementine Foreia 做过一期节目，当时有聊到了这个话题。这也是你对 RLHF 的一个核心看法：模型的回答会向用户想听的内容，或者最可能出现的内容收拢，而不是反映它对一件事真正的内部置信度。</p>
-  <p><strong>Diogo Almeida：</strong>我听说你们的听众技术背景很强，所以正想深入讲讲这个问题。发布视频里的每一项表述，我都花了很大力气核对，确保准确、真实。显然，这种做法还挺少见。视频里有一点几乎没人注意到，就是 RLHF 的缺点，尤其是“模式坍缩”（mode dropping）。</p>
-  <p><strong>Swyx：</strong>mode dropping 还是 mode collapse？</p>
-  <p><strong>Diogo Almeida：</strong>在这里我说的是一回事。以后我想专门写一篇博客，但现在我想尽可能把这件事讲给更多人听。我其实很认同 Yann LeCun 的不少判断。但他有一页很有名、也很有争议的幻灯片，大意是“大语言模型注定行不通”。</p>
-  <p><strong>Swyx：</strong>你说的是那个“蛋糕”比喻？</p>
-  <p><strong>Diogo Almeida：</strong>不是，是讲序列长度的那一页。他的推理是：如果生成每一步都有出错概率，文本越长，至少犯一次错的概率就越高。这个推理看起来在数学上很直观，但模型的实际表现并没有简单地照这个趋势发展。我很喜欢拿它来问：数学推导和观察结果之间，差异出在哪里？</p>
-  <p><strong>Swyx：</strong>问题出在哪里？</p>
-  <p><strong>Diogo Almeida：</strong>问题在于，如果模型试图覆盖整个分布，或者它的概率分布经过了良好校准，那么它不会因为产生少数离群结果而受到过度惩罚。你会预期它有时生成落在常见分布内的内容，有时生成分布之外的内容；覆盖整个分布，就会出现这种情况。你可以想想生成对抗网络出现之前的图像生成模型：它们生成的图像往往是模糊的。</p>
-  <p>而生成对抗网络会模式坍塌：它会直接丢掉占比很小的类别，只生成那些最常见的类别。也正因为如此，前面那个“序列越长错误必然累积到不可用”的效应并没有按最简单的方式出现。为了生成很长、又不容易出现明显错误的文本，模型就得极其保守，因为一旦犯错，人很容易看出来；相反，一个看上去没问题、其实遗漏了微妙之处的回答，就很难被察觉。为了让模型的概率分布保持校准而带来的要求，对文本序列的生成方式会产生很大的影响。这层关系很微妙。我认为，它既解释了为什么那种直观的错误累积推论没有应验，也解释了为什么文本模型不擅长决策：让本来用于生成文本的模型承担过多决策任务，效果往往不好。</p>
-  <p><strong>Swyx：</strong>既然说到 Yann，你认同他的解决方案吗？也就是用世界模型，比如 JEPA 这一类嵌入模型的方法。问题的一部分似乎在于，我们让模型基于已经输出的词元（token）继续推理，再把输出送回去，反复循环，直到生成完整的一句话。Yann 提出的解法是联合嵌入预测架构（JEPA），你觉得这就是解决办法吗？你对此有什么看法？</p>
-  <p><strong>Diogo Almeida：</strong>我可能不该把机器学习内部的事讲得太细。不过，除了说话有时比较放得开，我做事其实很务实。刚才对模型的判断也是从实际效果出发。</p>
-  <p>我是不是 Scaling Law 的支持者？要看它能带来什么。Scaling Law 告诉你：投入一定量的资源，某项能力能提高多少。通常，资源投入要大幅增加，收益却不会同比增长。除非那一点能力提升非常有价值，否则看起来就不是一笔好投资。对我来说，更重要的问题是：用手头已有的资源，我们怎样才能带来最大的实际改变？</p>
-  <p>我的出发点始终是实用性。比如 Yann LeCun 的 JEPA 方向，我觉得早期研究很精彩，也很喜欢看到优秀的研究工作。至于它现在是否已经足够实用，我暂时不想下判断。</p>
-  <p>目前研究界还有很多没有被充分挖掘的好成果，像未经打磨的钻石。它们没有进一步变成有用的技术，部分原因是大家还没找到适合发挥其价值的任务。</p>
-  <p>Jev 的发布当然对 TypeSafe 有利，但我希望它带来的影响不止于此。一方面，开发者可能会基于 Jev 做出大量新软件；另一方面，也会有人沿着不同方向探索：还能用什么方式把模型能力提供给程序，让软件做出更多以前做不到的事。如果这些尝试同时出现，那种感觉就有点像早期互联网那种充满活力的氛围——大家纷纷探索，新的用法不断冒出来。我想这也是为什么推特上大家一提到“Jev”，就像在开派对一样。</p>
-  <p><strong>Swyx：</strong>这很让人振奋，因为它和我们习惯听到的说法太不一样了。过去常有人说：“抱歉，这件事你做不了。模型研发要遵循缩放规律，只有大实验室才有资源参与。”</p>
-  <h2><strong>3Jev 的开发理念：AI 做决定时，不能突然拒答</strong></h2>
-  <p><strong>Diogo Almeida：</strong>Discord 上经常有人问我：为什么反对安全对齐，为什么 Jev 不会拒答？我还没来得及完整解释。先说清楚，我并不反对安全本身。我认为，常见的安全对齐方式往往与使用者的目标不一致；而对供程序调用的模型来说，突然返回一句拒绝，简直像是发生了<strong>类型错误</strong>。</p>
-  <p>如果你是人在和聊天机器人互动，或者用编程工具时碰到“抱歉，我不能读取 DNA.py”，当然会觉得烦，但至少你能看见它、换个办法继续。大家用久了，甚至习惯了处理这种情况。可如果模型是后台运行的软件依赖，某次调用突然拒绝了，会发生什么？调用它的用户可能根本不知道底下还有这个模型。难道只因为输入里出现一条特殊消息，就让整个软件流程随机中断吗？</p>
-  <p>我认为，这种设计沿用了“AI 是一个聊天同事”的想象，没有充分考虑模型作为软件组件时需要满足什么要求。</p>
-  <p><strong>Swyx：</strong>你想要的是一种能在各种地方使用的基础能力。</p>
-  <p><strong>Diogo Almeida：</strong>对，一个足够通用的“认知核心”。它要能适应未来各种我们现在想不到的用例。用户已经拿 Jev 做了不少出乎意料的东西，我们当然没针对那些具体应用训练过它。不过，这并不让我意外；我们训练时就让它处理过更多样的情况。</p>
-  <p>再回到安全对齐。我认为，对 ChatGPT、Claude 这种直接面向人的产品，设置安全规则是可以理解的。但需要区分<strong>能力对齐</strong>和<strong>安全对齐</strong>：能力对齐是让系统尽可能按使用者的要求完成任务。软件工程师很需要这一点——行为越可预测，越容易把模型集成进程序，也越少需要反复试探。</p>
-  <p>Jev 现在离理想状态还很远。我们希望把可靠性再提高几个数量级，最终让调用智能像执行数据库查询一样自然：需要时调用，不必每次都担心它会怎样回应。</p>
-  <p>而我所说的安全对齐，往往意味着模型除了遵循当前使用者的指令，还要优先服从模型提供方——比如 OpenAI 或 Anthropic——设定的另一套规则。这两套要求有时会发生冲突。</p>
-  <p><strong>Swyx：</strong>你说的是不同层级的规则和价值取舍。</p>
-  <p><strong>Diogo Almeida：</strong>对。对于直接面向用户的产品，这样做有道理。比如 ChatGPT 的提供方不希望产品支持某些成人角色扮演内容，那是他们的选择，也可能符合他们面向家庭用户的产品定位。</p>
-  <p>但 API 不一样。开发者需要根据接口的行为来写程序。如果模型在程序运行过程中突然按提供方的另一套规则拒绝执行，开发者很难处理。我对此确实有点激动，得让自己冷静一下。</p>
-  <p><strong>Swyx：</strong>大家能感受到你很在意这件事。不过我想提出一个更严肃的反例：如果有人用这个 API 来杀人呢？成人内容或许属于私人选择，但 AI 也可能被用于战争。公司完全可以合理地决定，不希望自己的 API 被用于这类用途。</p>
-  <p><strong>Diogo Almeida：</strong>我理解。企业可以出于实际考虑持有这种立场。我自己也不希望我们的技术被用来伤害人，当然希望它更多地用于有益的事情，也愿意为此作出努力。但我不认为应该把这些偏好直接写进通用技术的底层能力。</p>
-  <p>我的顾虑是，每当你为了某一种特定规则，强行让模型在某些问题上改变判断，就可能进一步割裂它的能力。现在的模型已经有不少这样的不一致了。</p>
-  <p>我更倾向于把智能看作数据库，而不是一位“AI 同事”。我们通常不会要求数据库在执行查询时，自行判断用户最终会不会把结果用于坏事。我认为，对通用智能接口也应该考虑类似的责任边界。</p>
-  <p>还有一件事让我觉得奇怪：有开发者在 Slack 上告诉我们准备部署某个应用，问“我们可以这样用 Jev 吗？”我的第一反应是：我们提供的是 API，你是开发者，具体应用怎么设计，不该事事由我们批准。理想情况下，复杂任务会被拆成许多较小的调用；作为底层服务提供方，我们甚至不应该知道下游用户的完整任务是什么。这种边界能给软件工程师更大的自主空间。</p>
-  <p>我希望他们把能力用于好的事情。我们也讨论过开源、公益支持等办法，只是眼下还没精力落实。但只要由我负责，我就不希望把这些价值偏好直接固化进模型的底层判断里。</p>
-  <p><strong>Swyx：</strong>既然说到平台与开发者的关系，也想澄清一下你们的隐私条款和使用条款。之前有些人产生了误解，觉得你们对 API 用途限制得很严。</p>
-  <p><strong>Diogo Almeida：</strong>我不确定你具体指哪一条，不过我看到过一些关于基准测试的讨论。</p>
-  <p><strong>Swyx：</strong>对。你之前公开说过，相关限制是预览期条款里留下的，正式发布时没有及时移除，团队准备修改。</p>
-  <p><strong>Diogo Almeida：</strong>团队有些进展我甚至还没跟上。我请他们和律师确认这件事。我们显然不打算阻止用户测试和比较模型；恰恰相反，我支持他们这么做。</p>
-  <p>但这和我怎么看<strong>公开基准榜单</strong>是两回事。我非常不喜欢公开榜单。至于用某些内部基准作为实际能力的替代指标，我的态度也比较审慎。</p>
-  <p><strong>Swyx：</strong>你担心的是榜单很快饱和，还是模型可能见过公开测试题，因此容易刷分？</p>
-  <p><strong>Diogo Almeida：</strong>刷分容易，是原因之一。假设两年后，市场上有很多公司在做与 Jev 类似的产品，我们提供的价值可以说是“每美元获得多少智能”，或者“每秒获得多少智能”。大家很容易盯着价格和速度，因为它们好测量。但价格和等待时间是用户付出的成本，用户真正想得到的是有用的智能。</p>
-  <p>难就难在，模型到底有多好，有些部分很难用一个分数概括。Jev 发布后，开发者亲自试用产生的反应，甚至比发布视频更让我在意。他们感受到模型在实际使用中的表现，也感受到我们为此下了多少功夫。</p>
-  <p>公开基准想用数字帮助大家建立信任，但它太容易被针对性优化。即使团队主观上不想刷榜，也可能不断收集与测试集相似的数据，让模型在榜单上表现更好。过去有些实验室收集类似 MMLU 的题目来训练，在我看来，这不过是绕了几步优化基准成绩。</p>
-  <p>所以我认为，开发者可以先凭实际体验建立初步判断，随后必须把模型放进自己的工作流，测量它在那个具体任务上的表现。我们的工作则是持续提高可靠性，让它越来越值得信任。可靠性始终是 TypeSafe 要解决的问题；如果只想尽早发布一个能力不够好的版本，我们一年半前就可以推出 Jev 了。</p>
-  <h2><strong>4“最苦涩的教训”：先选对任务，再谈模型和数据</strong></h2>
-  <p><strong>Swyx：</strong>你前面提到自己的“最苦涩的教训”（The Bitterest Lesson），我们来展开讲讲。</p>
-  <p><strong>Diogo Almeida：</strong>Sutton 的“苦涩的教训”强调算法和计算的重要性。但在我看来，<strong>数据比算力重要得多；而最难、也最重要的，是先选对任务，找到研究的 North Star（核心目标）。</strong></p>
-  <p>大语言模型的发展中，研究目标发生过几次这样的转变。RLHF 把重点转向指令遵循，当时没人意识到模型能在这件事上做到那种程度。RLVR 又把方向往前推了一步。现在，我们用 RLCD 定义了另一个任务：让程序能够把模型放进运行流程，可靠地调用它的判断。数据对此至关重要。我怎么强调都不为过。</p>
-  <p><strong>Swyx：</strong>所以你们更愿意把 TypeSafe 称为一家“数据实验室”，而不是“模型实验室”？</p>
-  <p><strong>Diogo Almeida：</strong>完全正确。我们会一直非常重视数据。对我来说，模型能力的提升，很大程度上就是数据问题。数据工作极其复杂，却也能把可靠性一位一位地往上推。数据选取和处理方式稍有变化，结果就可能大不一样。</p>
-  <p><strong>Swyx：</strong>你们也在大量招聘数据人才。怎样才算优秀的数据工作者？你说过你们使用合成数据，但“数据是合成的”显然只说到了表面。是不是还要有人认真检查这些数据，指出问题，再回去重新生成？</p>
-  <p><strong>Diogo Almeida：</strong>是，但完整回答会复杂得多。我给新入职的数据同事做的培训，可能比这期播客还长。这里先讲最重要的几层意思。</p>
-  <p>首先，<strong>任务决定数据的形态</strong>。RLVR 需要的数据在某种程度上是供模型探索的环境；RLHF 需要人类反馈。每种任务都有自己的数据形式，我们也一样。所以我们做的合成数据，并不是一个通用模板生成出来的东西。</p>
-  <p>其次，我们不想用用户数据训练模型，即使取得许可、技术上也做得到，我们仍不想依赖它。真实世界的数据有很强的偏向：很多人反复提出相似问题，需求呈现幂律分布。直接按这些数据训练，模型容易对高频场景过拟合，其他能力反而变得不均匀。</p>
-  <p>我们瞄准的是多年后的应用。到那时，模型也许会成为深入软件技术栈各层的通用基础设施，支撑今天还没人想到的产品。如果打个比方，可以把一般的大语言模型想成 UDP，把我们的模型想成 TCP：开发者能在上面构建各式各样的应用。即使我们拿到了今天所有用户数据，它也只能让模型更适应今天，未必能帮助开发者做出未来的软件。</p>
-  <p>因此，数据团队的工作有点像艺术创作。他们研究模型的“认知核心”，找出能力不平整、不稳定的地方，再有针对性地处理。我们认为自己的模型在这方面已经相对平滑，但不可能做到完美。一次修正最好能改善一类问题，在过去、现在和未来不同情境下都有效，而不只是修好某一道题。</p>
-  <p><strong>Swyx：</strong>解决普遍问题，而不是只解决一个具体案例。</p>
-  <p><strong>Diogo Almeida：</strong>正是这样。每次做到这一点，都需要很强的判断力。</p>
-  <h2><strong>5“Jev 出现之前的 AI 世界，是个悲剧”</strong></h2>
-  <p><strong>Swyx：</strong>你刚才说，我理解数据的方式受 RLVR 影响很深，这个批评挺公允的。那我们具体聊聊 RLCD。你们目前还没有发表介绍它的论文，对吗？在不了解技术细节的情况下，大家怎样判断 RLCD 确实代表一种不同的方向，而不只是一个新造的术语？“校准”这个概念我能理解，但 RLCD 与大家熟悉的 RLHF 究竟有什么区别？</p>
-  <p><strong>Diogo Almeida：</strong>还没有发表论文。你的问题很好，不过要回答它，我想先反问一句：<strong>RLHF 指的是什么？</strong></p>
-  <p>这个词在不同时期指过好几种工作。最早有通过人类偏好反馈，让系统学会完成难以精确规定的任务的研究。我记得有一项工作涉及教机器人做后空翻，可能与 Paul Christiano 等人的研究有关，但具体是哪篇，我也不能完全确定。PPO 是一种算法，并不天然意味着奖励一定来自人类反馈。</p>
-  <p>后来 OpenAI 做了“学习摘要”的工作，把 PPO 用在语言模型上，让模型学习完成摘要这类很难用简单规则规定好坏的任务。人们也会把这称为 RLHF，不过我没有参与那篇论文。</p>
-  <p>但<strong>当我说 RLHF 时，我更想强调的是指令遵循这个任务</strong>，而不是某篇论文采用了 PPO。真正重要的，是研究者确定了一个新的 North Star：让模型理解并遵循人的指令，是一个值得持续优化的方向。今天的 DPO 及其后续方法即使没有使用那篇论文里的算法，也仍是在做这个意义上的 RLHF。</p>
-  <p>同样，RLCD 对我们来说是在提出一个新的任务目标。我使用这个名字，是想准确说明我们在优化什么：让 AI 能被程序调用，成为软件可以使用的能力。</p>
-  <p><strong>Swyx：</strong>也就是说，关键词是“可编程的 AI”：让程序能够在不需要人每一步介入的情况下使用模型，进而自动化更多工作。我理解你的 North Star 对吗？</p>
-  <p><strong>Diogo Almeida：</strong>对，但还要加一个前提：必须务实。我们得看清当前语言模型实际擅长什么。有些面向程序的新输出类型在概念上可能很棒；如果技术还不足以让它可靠工作，暂时不推出，也没什么可遗憾的。</p>
-  <p>在我看来，<strong>Jev 出现之前的 AI 世界，简直是个悲剧。</strong>这话听起来很狂妄，但这个想法在我创办公司很久以前就有了。</p>
-  <p><strong>Swyx：</strong>这点我可以作证。你已经谈了好几年。</p>
-  <p><strong>Diogo Almeida：</strong>是。我起初以为做出一个能供程序调用的模型不会太难，整个项目一周就能完成。事实证明我错得离谱。以前我甚至觉得：“这个问题我马上就能解决。”现在想来，我得向当时被我低估的 OpenAI 同事道歉。</p>
-  <p>AI 领域还有另一件令人遗憾的事：承诺很大，实际交付却跟不上。我认为 RLHF 和 RLVR 路线都存在这个问题。但让我一直放不下的，是 AI 明明已经表现出很强的能力，却仍有大量简单工作无法自动化。</p>
-  <p>我在演讲时常问：为什么 AI 能处理极其困难的数学问题，却连许多基础、重复的工作都接不过去？这些工作不要求人有多高的智力，也谈不上令人满足，但现实中仍得有人做，因为软件还没法可靠地把它们自动化。我们已经有了一台很强的“智能引擎”，却缺少合适的接口，把它接进那些有经济价值的流程。</p>
-  <p>即使有一天 TypeSafe 不复存在，这个方向也已经被打开。别人也许需要一两年追上来，也可能更快；如果模型质量的差异持续重要，我们会有更长时间的优势。但比公司竞争更重要的是，整个领域开始探索：智能还可以怎样接入软件。我相信这会改变技术接下来的发展路径。</p>
-  <p><strong>Swyx：</strong>我完全同意。你们真正创造的是一种新的可能性。我试着替你概括一下，方便大家理解：不要把 TypeSafe 和 Jev 的成功看成仅仅是“出现了一种新的模型类型，我可能可以继续沿用之前的路径去做事”。不是这样，实际上，可能还有好几种别的模型类型值得探索，这个行业应当是百花齐放的态势，应该让各种尝试奋都发展家里。其中有些方向，你们大概也会亲自去做。</p>
-  <p><strong>Diogo Almeida：</strong>完全正确。那种早期互联网的活力又回来了。我觉得我们重新回到了某种技术乌托邦时刻，再也不用像以前那样感慨：“唉，有时候我的编程智能体能工作，但真正最好的东西都被公司内部藏起来了”。创造新东西又成了一种真实的可能。当然，接下来会是一个相当疯狂的世界，大家最好坐稳了。我对此兴奋极了。</p>
-  <p><strong>Swyx：</strong>现在你们有了资金，也有了发布后的势头，终于能把想法做出来给大家看。</p>
-  <p><strong>Diogo Almeida：</strong>对。以前一直讲，却不能把最关键的东西拿出来，感觉像总在吊大家胃口。我的演讲尤其如此：我说 AI 应该推动自动化，却没法展示它具体怎样做到。你之前看过我们的宣言，还说有些地方写得太模糊：“第一步是什么？你们说的智能模型究竟是什么？”</p>
-  <p><strong>Swyx：</strong>我当时问你模型在哪里，你只说“快有了”。我主要对“可组合”这个词有意见，不过<strong>“Build Prod, Not God”</strong>这句口号很好。</p>
-  <p><strong>Diogo Almeida：</strong>谢谢。团队很认同这句口号。我们对正在做的事很兴奋，但大家也很务实。</p>
-  <p><strong>Swyx：</strong>宣言里还有一份“秘密总体计划”，讲怎样一步步构建面向机器、可组合的 AI。</p>
-  <p><strong>Diogo Almeida：</strong>写成“秘密总体计划”是你的建议，我得正式把功劳记给你。</p>
-  <p><strong>Swyx：</strong>谢谢。不过你当时只给我看了一半故事，没有告诉我还要发布模型。那时候也没有《Doom》演示，没有性能数字，我自然会问：你们到底打算拿什么证明它？</p>
-  <p><strong>Diogo Almeida：</strong>问题是，我不相信公开基准榜单能证明这件事。模型好不好，最终得让人放进实际任务里体验。这种做法有助于建立长期信任，但也让我们吃过苦头。去年融资时，很多人不相信我们，只想看基准测试成绩。我们不愿意为了拿出好看的数字，去迎合一套容易奖励刷榜行为的评价方式。</p>
-  <p><strong>Swyx：</strong>选择这条更难的路，最后也让你建成了一家自己愿意待的公司。</p>
-  <p><strong>Diogo Almeida：</strong>是。我不太后悔这个选择。昨晚聊到为什么离开 OpenAI，我还挺激动的。发布前，我常这样想：如果 AI 最终因为承诺过多、实际交付不足而进入新一轮低谷，而我没有尽力探索另一条路，我会觉得自己也有责任。一方面，我参与过 RLHF 这条路线；另一方面，我相信让 AI 真正进入软件自动化，能创造很大的价值。</p>
-  <p>发布后，我对这件事的说法有些变化。<strong>至少在我看来，自己担心的那种“AI 寒冬”已经不那么不可避免了。</strong>Jev 上线还不到一周，我已经看到开发者把它用在真实工作中。眼下就像西部拓荒时期一样，充满了未知，各种尝试都在冒出来。</p>
-  <h2><strong>6爆红之后，Jev 更在意什么</strong></h2>
-  <p><strong>Swyx：</strong>能不能分享一些发布之后的具体数据？例如注册的用户数量之类的。</p>
-  <p><strong>Diogo Almeida：</strong>具体数字主要是团队在跟进，而且每天都在变。不过有一个里程碑我记得很清楚：<strong>日调用量已经超过一万亿 Token</strong>。这不是发布当天大家尝鲜带来的短暂高峰。夜里调用也没有停下来，说明有程序在持续使用 Jev，而不只是人在界面里试几次。这让我特别兴奋。</p>
-  <p>相比之下，我没那么在意注册人数。我们发布时没有专职营销人员，大家看到的宣传基本就是团队自己的表达。候补名单一度增长很快，我们也在不断放人进来。平台团队承受住了这次发布带来的流量，做得非常出色。</p>
-  <p>但我们后来意识到：对开发者平台来说，候补名单上的人数并不能说明多少问题。其中可能有不少人不是开发者。他们进来试了几个问题，发现 Jev 不是聊天机器人，就会疑惑：“我的下一个 ChatGPT 在哪里？”我还没有精确计算过，不过我的直觉是：哪怕全世界每个人都来试几次，调用量可能还不如一个真正用它创造价值的开发者写下的一段循环程序。</p>
-  <p>我们起初以为，放多少人进入候补名单需要非常谨慎。后来发现，更紧张的是<strong>速率限制</strong>：开发者一旦把 Jev 用进程序，获得了实际价值，就会希望大幅提高调用额度。软件就是这样运行的——先花时间定义一个重复任务，之后让它持续执行；只要创造的价值超过最初投入，就可以把它放到后台，再让其他功能依赖它。</p>
-  <p><strong>Swyx：</strong>设置好，让它自己运行。</p>
-  <p><strong>Diogo Almeida：</strong>对。之后开发者还能在这些能力之上构建更复杂的东西。许多早期互联网的创造，正是通过不同软件能力的组合才发生的。虽然你不喜欢“可组合”这个词，我仍想在宣言里强调它：我们希望 Jev 成为催化剂，让开发者做出连我们也没预料到的应用。为此，我愿意继续在 Discord、公开交流和播客里跟他们沟通，哪怕要在直播里套个垃圾袋出镜。</p>
-  <p><strong>Swyx：</strong>长访谈也有这个好处。我们可以越过发布初期比较表面的讨论，让人理解你们究竟想做什么。认同这个方向的人，也许会加入团队，或者“买下你们”——抱歉，我是说成为客户。</p>
-  <p><strong>Diogo Almeida：</strong>哦，作为客户（笑）。</p>
-  <p><strong>Swyx：</strong>对，作为客户。发布视频也确实很受关注，刚才看到是 3600 万次播放。</p>
-  <p><strong>Diogo Almeida：</strong>现在到 3800 万了。</p>
-  <p><strong>Swyx：</strong>如果只看 2026 年新兴 AI 实验室的发布声量，你们可能排在最前面。</p>
-  <p><strong>Diogo Almeida：</strong>谢谢，不过我不太在意“新兴 AI 实验室”这个标签。我们还有周边专门拿它开玩笑，比如“你最喜欢的新兴实验室最喜欢的新兴实验室”，以及“有产品的新兴实验室”。</p>
-  <p>我真正想做的是一个<strong>可靠的开发者平台</strong>。希望发布热度过去之后，开发者仍能长期依赖它、信任它。</p>
-  <h2><strong>7模型不能说变就变：Jev 如何兑现“可靠”？</strong></h2>
-  <p><strong>Swyx：</strong>你们一直强调可靠性。我原以为主要指 RLCD 里的概率校准，但看下来，它也包括服务可用性、扩展能力，以及常说的“几个 9”，对吗？</p>
-  <p><strong>Diogo Almeida：</strong>那些都是可靠性的一部分。但模型的判断本身也要可靠：它能不能持续完成你希望它做的事？现在的大型推理模型很聪明，可在我看来，仍有不少任务是它们看起来足够聪明、企业也有动力自动化，最后却不敢交给它们做，因为结果还不够稳定。我们离理想状态也有很长的路要走。</p>
-  <p>我想先把容易的工作自动化，再去处理难的工作。我的目标是，有一天开发者需要一处智能判断时，可以像写数据库查询一样，直接在程序里写一个类型安全的 System 1 调用，让程序准确地走向相应分支，而不必每次都先试探模型能否胜任。这会是一个漫长的过程。</p>
-  <p><strong>Swyx：</strong>说到可靠性，我注意到 API 里没有随机种子（seed）参数。同样的输入，每次都会得到同样的输出吗？如果不会，为什么？</p>
-  <p><strong>Diogo Almeida：</strong>这是个好问题。“可靠性”其实是一个总称。AI 无法自动化某件事，可能是输出不符合类型要求，可能是结果不确定，也可能是能力分布不均匀。你问的<strong>确定性</strong>，指相同输入得到相同输出；它对单元测试等场景可能有价值，但我不认为它应该是首要目标。</p>
-  <p>我更重视<strong>稳健性</strong>：语义相近的输入，应该得到相近的判断。大语言模型在这一点上有时很不可靠。我们的一个测试办法，是在提示词里加入不同的 UUID 作为随机标记。问题的实际含义没有变，只是多了一个无关的字符串；模型的判断就不该因此大幅变化。开发者在让 AI 做决定时，常常会被这种细微变化导致的结果波动坑到。</p>
-  <p>当然，我们也可以做确定性模型。如果开发者能告诉我们它在哪些场景确实重要，我们愿意考虑。但确定性可能需要在成本与能力之间作取舍。我们一直努力站在“每美元智能”的帕累托前沿，为此尝试了很多不那么常规的模型组合与工程方法。</p>
-  <p><strong>Swyx：</strong>所以，回到最初的问题：将来会不会提供随机种子或确定性模式？</p>
-  <p><strong>Diogo Almeida：</strong>有可能。只要需求足够明确，而且我们没有被 GPU 资源严重卡住，就可以做。只是按我们目前的判断，它可能降低每美元能提供的有效智能。</p>
-  <p><strong>Swyx：</strong>从 OpenAI 和 Anthropic 的发展过程看，我猜开发者迟早会要求这个功能。即使你告诉他们稳健性更重要，他们可能还是会想要确定性。</p>
-  <p><strong>Diogo Almeida：</strong>那就看后面会怎样吧。有人说我们品牌的一部分是“立场坚定”，其实就是委婉地说我固执。</p>
-  <p><strong>Swyx：</strong>但我以前和你争论过。证据充分时，你也会改变原先的判断。</p>
-  <p><strong>Diogo Almeida：</strong>是，你在开发者需求方面说对过很多次。这一点我认。不过，我怀疑我们会在很长一段时间里受到 GPU 供给限制。如果一种方案提供同等智能却消耗更多 GPU，我们就更难让更多人用上它。我们当然希望服务企业，但眼下更想让尽可能多的开发者拿到 Jev，去实验、去做那些出乎意料的东西，让这个方向真正热闹起来。</p>
-  <p><strong>Swyx：</strong>这种探索已经开始了。不过我想提醒你一个开发者可能会担心的问题：你说会尽一切办法提高“每美元智能”，又面临 GPU 限制，大家可能会猜，你们会不会在发布后把模型进一步量化，以节省显存或带宽，却让同一个模型的质量下降？</p>
-  <p>你现在不一定要作承诺，但至少应该考虑明确告诉开发者：已经发布的模型，其质量和行为会不会保持稳定。过去有些 API 虽然模型名称没变，背后的模型却变了。你们现在有版本号，这是好事；还可以进一步说明，同一个版本上线后是否会保持不变。</p>
-  <p><strong>Diogo Almeida：已经部署的模型，我们不会悄悄改动。</strong>对开发者来说，那太离谱了。直接面向用户的产品可以持续调整背后的模型，只要产品体验变好就行；但 API 是别人程序中的依赖，不能按同样的方式处理。</p>
-  <p>不过，我们更新模型的速度可能会比大家习惯的快得多。我们会不断发布新版本，也暂时不能承诺每个旧版本都有长期支持，因为还有很多改进要做。眼下有不少人在使用 Jev 1.13.0，我们可能会暂时把它作为长期支持版本；我知道开发者不愿意看到依赖突然失效。</p>
-  <p>另一方面，如果每发布一个版本就永久保留，推理服务可能要同时运行大量不同模型，这也会给所有人带来负担。</p>
-  <p><strong>Swyx：</strong>更新快的话，可能很快就有上百个版本要维护。</p>
-  <p><strong>Diogo Almeida：</strong>正是如此。我们希望将来找到比简单保留某个长期支持版本更好的办法，团队正在研究。我认为那会对开发者很有帮助，但现在还不能把尚未实现的方案当成承诺。</p>
-  <p>可以确定的是，我们会继续推出能力更强的新模型。按我的观察，Jev 在相邻版本之间的行为差异，通常甚至小于一些生成文本的模型对同一个请求调用两次产生的差异。但如果我们解决了模型能力中某个明显不稳定的部分，新旧版本之间就可能出现很大的变化。</p>
-  <h2><strong>8不追 Benchmark，追极致的“每美元智能”</strong></h2>
-  <p><strong>Swyx：</strong>模型有了长期支持版本（LTS），还有一个好处：你们可以把同一个版本移植到其他芯片平台上运行。不知道你们有没有考虑过这件事。</p>
-  <p><strong>Diogo Almeida：</strong>暂时不评论。我更关心的是“每美元能获得多少智能”。</p>
-  <p><strong>Swyx：</strong>但速度也重要。</p>
-  <p><strong>Diogo Almeida：</strong>这要看后续情况。</p>
-  <p><strong>Swyx：</strong>过去一年，推理技术路线发展得很快。比如，把模型放到 Cerebras、Etched 这类芯片上运行，速度可能会有大幅提升。</p>
-  <p><strong>Diogo Almeida：</strong>对。“每秒能获得多少智能”是另一个衡量指标。我们内部甚至讨论过把成本和时间放在一起衡量，比如“每美元、每秒能获得多少智能”。</p>
-  <p>对于 Jev 系列模型，我在内部反复强调的一点是：模型变得更聪明当然好，但它必须处在帕累托前沿。也就是说，在同等成本下，它要尽可能强；达到同等能力，成本要尽可能低。这就是 Jev 的定位：把每美元获得的智能做到最好。</p>
-  <p>至于每秒能获得多少智能，还要继续看。这个方向很有意思，我也知道有不少行业高度依赖实时响应。对它们来说，速度的提升直接对应着很大的经济价值。我当然希望两个指标都能做好，也希望从市场和用户的反馈中判断，究竟该把重心放在哪里。</p>
-  <p><strong>Swyx：</strong>而且速度不只关系到实时场景，也关系到规模。到了足够大的调用量，哪怕每次只差几微秒，乘上数十亿、数万亿次，也会变得很可观。</p>
-  <p><strong>Diogo Almeida：</strong>如果是大型数据库 MapReduce 查询这类后台任务，延迟可能没有成本那么重要。这也是 Jev 的定位：尽可能提高每美元所能获得的智能。至于“每秒智能”，还要继续看。我很喜欢那些对速度要求极高的应用场景，也知道对一些高度依赖实时响应的行业来说，速度提升能带来很大的经济价值。这方面的需求正在增长，很有意思，但我不认为它会成为 Jev 的主要方向。</p>
-  <p><strong>Swyx：</strong>说到“更快、更便宜”，其他模型通常给出的取舍是速度更快，但价格也更高。我在想，Jev 之所以受到关注，一个原因是你们做到了更快、同时更便宜。这一块目前选择不多，前提当然是模型的智能水平大致保持不变。</p>
-  <p><strong>Diogo Almeida：</strong>“智能水平保持不变”这句话很关键。难就难在这里。</p>
-  <p><strong>Swyx：</strong>但你似乎不太认可公开基准测试，或者至少不喜欢用现有的公开基准来证明这一点。你们内部总得有一套判断方法吧？</p>
-  <p><strong>Diogo Almeida：</strong>当然。我们有自己的内部评测。不过，要避免团队有意无意地针对评测做优化，需要很强的自律；这件事必须得到最高优先级的重视。</p>
-  <p>否则，我们凭什么说自己的模型处于“每美元智能”的帕累托前沿？我们不是凭感觉做决策。尝试不同方案时，成本和能力都会变，我们会测量、比较，把结果放在一起看，判断哪种方案对用户最好。</p>
-  <p>所以，我并不反对评测。我担心的是，一旦掺入其他激励，评测就可能变得很危险。在这件事上我管得很严。同事们也许会觉得我在很多事情上都管得严，但对我来说，不能在模型到底有多聪明这件事上自欺欺人，这一点尤其重要。我们得诚实地追求事实。</p>
-  <p><strong>Swyx：</strong>同意。接下来我想聊聊 API 设计上的一些具体选择。</p>
-  <h2><strong>9 别让 AI 一口气干完：把任务拆小，出错才好查</strong></h2>
-  <p><strong>Swyx：</strong>你们定义了三个基础概念：Choice、Score 和 Noul（又名 Noulli）。先说 Noul，这个词是从哪里来的？是文献里已有的术语吗？</p>
-  <p><strong>Diogo Almeida：</strong>现在算是了（笑）。我们为名字讨论了很久。它有点像布尔值（Bool）：涉及“真”或“假”，但它的取值是连续的。名字来自伯努利（Bernoulli），更准确地说，是取了 Bernoulli 的一部分，因为它表达的就是伯努利概率。</p>
-  <p>我们当时还考虑过 PBool、Pool 等名字。我甚至想把它叫作“pool party”，但没人同意。最后大家觉得 Noul 最合适。我们这群人起名多少有点不按常理出牌，Jev 也是这样。最初我们以为，对程序员来说，Jev 不过是代码里的一个字符串，没想到这个名字后来还衍生出不少双关梗。当时内部有很多人反对这个名字，现在除了一个人，其他人都向我道过歉了。</p>
-  <p>回到 Noul。我们需要为它创造一个新概念，因为如果直接叫 Bool，会让人误解。事实上，Choice、Score 和 Noul 都是我们有意单独定义的概念。它们与编程语言中的现有类型很接近，但并不完全相同。比如 Score 不是整数。如果通过 Instructor、Pydantic 之类的工具，直接把整数或浮点数映射成 Score，就可能出问题。我们更倾向于把含义说清楚，即使这会增加一些初次理解的成本。</p>
-  <p><strong>Swyx：</strong>但你们不担心集成问题吗？开发者通常希望它能直接接入自己已经在用的工具。你们有自己的 SDK；如果我是开发者关系负责人，我可能还会特别在意：怎样把 Jev 和 Instructor 一起用？怎样接入其他工具？</p>
-  <p><strong>Diogo Almeida：</strong>我们确实希望做好这些集成。相关示例也许已经有了，只是我现在跟不上所有更新。社区里也会有人做。支持社区这件事没有一个“完成”与“没完成”的二元状态，我们总还能做得更好。说实话，聊到文档我有点紧张，因为录制前没来得及重新看，而文档又一直在变。</p>
-  <p>至于这三个概念，Score 其实并不难理解。它接近用语言模型做评判（LM judging）时得到的评分，也可以把它叫作一种“判断结果”。Noul 也可以被看作概率，但在我们的体系里，模型输出本来就带有概率性质。Choice 则最接近函数调用，不过我对现有的函数调用设计有不少意见，这个话题我们可以稍后再展开。在代码中，Choice 更像是把&nbsp;switch&nbsp;或&nbsp;match&nbsp;语句要处理的选择，直接作为 API 输出。</p>
-  <p><strong>Swyx：</strong>也就是说，它可以很自然地对应枚举（enum）；如果需要，开发者再根据选中的项调用相应函数。</p>
-  <p><strong>Diogo Almeida：</strong>对。关键是先得到那个“选择”。这三个概念都可以对应到基本的程序控制方式：Choice 对应基于枚举的&nbsp;switch&nbsp;分支，Noul 对应&nbsp;if&nbsp;条件判断，Score 对应排序，或者通过“大于”“小于”的阈值来筛选。这一直是我们的设计方向。以后还会有更多类型，也会继续与程序中的基本操作对应起来。</p>
-  <p><strong>Swyx：</strong>对于准备深入使用 Jev 的开发者，还有什么 API 设计上的细节值得讲？比如这些概念具体怎么用，图例、置信度该怎么看，测试中又该注意什么。你是最了解它的人，我想多给他们一些实际建议。</p>
-  <p><strong>Diogo Almeida：</strong>谢谢，我很喜欢这个问题。没想到会聊得这么细。除了几个月前给我们的开发者关系同事做入职培训，已经很久没人这样问我了。</p>
-  <p>我们设计模型时，想的是让它将来能深入计算机程序内部工作。我们相信，这类用途的规模会远超今天人们的想象。模型现在也许还没准备好，但我们一直在朝这个方向推进。我们的目标不只是让它在相对浅层的任务上不断提高分数，而是让它进入程序的核心逻辑，因为这样才能让软件具备更强的能力。</p>
-  <p>刚才说的 Choice、Score 和 Noul 是输出形式。输入端同样可以有结构：状态（state）、指令（instructions）、判断标准（criteria），都可以是结构化的 JSON 对象。程序可以把这些信息准确地放到需要的位置，开发者不必先把它们塞进字符串模板。</p>
-  <p>很多人可能没注意到这一点，以为这些输入都只是字符串。用模板拼出一条系统消息，当然也能工作，但那延续的是过去处理模型输入的方式。既然信息本身有结构，就应该尽量保留这种结构，让计算机直接处理。写普通程序时，我们不会先把所有数字转成字符串，再传给程序内部的其他部分。转成字符串通常是为了展示给人看；程序内部传递的，应当是有明确含义的嵌套结构。</p>
-  <p>我们也在持续优化模型处理这类输入的能力。它现在已经能处理结构化信息，但嵌套每增加一层，推理难度也会提高，所以这仍是我们重点投入的方向。我也希望开发者更多地采用这种方式：代码会更清楚，也不必过度依赖底层实现细节。</p>
-  <p>可以把它想成调用一个 AI 函数：程序当前有一组状态，也就是可用的变量；你需要决定，哪些状态应该传给这个函数。相比之下，一条包罗万象的系统消息很像一个混乱的全局变量：把所有信息、所有指令都放进去，然后指望模型一次满足每项要求。很多问题其实可以拆开，并行地问。</p>
-  <p>我很建议大家多向模型提问，把问题拆小、拆细。我这么说不是为了增加调用量。无论当前模型能否一次完成复杂任务，把问题分解成简单决策，都会让 AI 应用的代码更好维护；而且每个小决策都更容易单独评估。</p>
-  <p>过去我们常常给模型一大段系统消息，等它返回一大段结果，再检查它有没有遵守其中的每条要求。现在回头看，这种做法挺不可思议的，只是大家已经习惯了。比如“不要读取这个子目录”“不要把 API 密钥传给 <ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>”，这类约束应该尽可能由程序保证。机器学习模型本身无法给你绝对保证，但把任务拆开之后，至少可以逐项测量、验证。</p>
-  <p><strong>Swyx：</strong>比如可以核查某个操作到底有没有执行。</p>
-  <p><strong>Diogo Almeida：</strong>对。我们的接口本身就很容易验证，这会让工程实现可靠得多。</p>
-  <p><strong>Swyx：</strong>我理解这个思路。不过，以前大家不这么做，也有现实原因：即使用小模型，把任务拆成很多次调用，仍然可能又慢又贵。我自己做过对比：一条流程把所有要求放进系统消息，只调用一次、拿到一个完整输出；另一条流程把任务拆成上百个问题。后者更慢、更贵，结果还不如前者。</p>
-  <p><strong>Diogo Almeida：</strong>确实会发生这种情况。拆分任务也很麻烦，调用之间可能还得重复传入一些信息，看起来不够高效。于是人很容易想：为什么不一次性把所有东西都放进去？但那样得到的系统往往很难依赖。我希望我们的模型能够支持大量在后台运行的程序调用；如果做不到，我会很失望。</p>
-  <p><strong>Swyx：</strong>那具体应该怎么拆？你们有没有发现什么有效的方法，或者发现哪些原以为可行的拆法其实不行？开发者听完之后可能会照着这个思路使用 Jev，但他们首先得知道从哪里下手。</p>
-  <p><strong>Diogo Almeida：</strong>我倾向于把问题拆到最小的语义单元：先找到其中最基础、能够独立判断的那件事。我可能是使用我们模型最多的人之一。提问时，我会尽量把输入写得结构化、明确；在问题里清楚指出所引用的内容，有时会用反引号把它标出来。我希望模型尽可能按字面准确理解要求。编程本来就要求指令得到准确执行，而 AI 扩大了程序所能执行的指令范围。</p>
-  <p>我自己偶尔也会图省事，把几个判断混在一个问题里。但如果是大型生产系统，我会不断增加独立的问题，并且让新增问题这件事足够容易。每个问题负责什么，要拆得清楚；最终的具体行为则由代码来控制。</p>
-  <p>举个小例子：拒绝回答。我不建议只问模型一句“这里要不要拒绝？”这个问题它或许也能答得不错，因为这是一个适合快速直觉判断的任务。但更好的办法是，针对不同的拒绝情形分别提出独立的问题。这样，你就能明确规定自己希望系统如何处理各种情况，而不是让模型自行猜测。</p>
-  <p>更妙的是，如果后来发现某种情况没有触发拒绝，原因是你漏写了一项条件，这其实是一个很好的工程问题：补上那个问题，设置阈值，再把这个案例留作测试。修正就留在程序里了，不会因为提示词变长、上下文中的早期信息失效而被“忘掉”；你也可以持续测量它。如果模型对某项判断还不够准，还能根据真实案例调整相应阈值。整个过程有点像在做机器学习系统，但你不需要为每种情况重新训练模型。</p>
-  <p>当然，有些任务可能仍超出了模型当前的能力。比如看到有人用模型做自动交易，我会有点担心。这件事看上去很酷，但任务本身复杂、风险也高，最好交给专业人士。即使把它拆成若干判断，你也可能通过评测发现：模型在某一步还不够可靠，那这一版就先不要部署，或者调整方案、选择更保守的处理方式。</p>
-  <p>客户服务也一样。假设模型还不能可靠识别“VIP 客户在说反话”这类特殊情形，你就可以规定：遇到这种情况，转交人工处理。置信度估计也是为这样的决策服务的。</p>
-  <p><strong>Swyx：</strong>你刚才提到，开发者可以通过设置阈值，决定什么情况下采用模型的判断。但如果模型的概率校准本身就有问题呢？一个校准良好的模型，至少应该让较低的分数对应较低的实际发生概率，较高的分数对应较高的概率。现实中，两者也可能对不上。这时我可能想微调模型，而你们目前没有提供这个功能。</p>
-  <p><strong>Diogo Almeida：</strong>我没有说模型的校准是完美的。微调当然是我们可以考虑的方向。</p>
-  <p><strong>Swyx：</strong>微调是一种可能，也可以是别的调节手段。现在听起来，如果模型判断错了，用户能做的就是改提示词、把问题拆得更细，或者调整置信度阈值。如果模型确实不擅长这件事，这些办法不一定让人满意。</p>
-  <p><strong>Diogo Almeida：</strong>没错。先说清楚，模型会在很多事情上犯错。我们有问题反馈按钮，大家也可以在 Discord 告诉我们哪里出了问题。我们希望持续改进模型，每个新版本都应该有明显提升；如果没有足够大的进步，我们就不会保持现在这样的发布速度。</p>
-  <p>承认 AI 在某些任务上还不够好，是务实的做法。同时，“足够好”也取决于具体用途。人也会把工作做错，但只要总体预期收益足够高，很多工作仍值得由人来做。模型也类似：通过合适的阈值和其他控制方式，即便它会出错，仍可能承担相当多的工作。</p>
-  <p>至于微调，我能想象我们以后会提供，但我有一些顾虑。用户想要的功能和真正对他们有益的功能，不一定完全相同。通用模型有一种很难说清的优势：它会处理大量其他任务，这种广泛的能力，可能也让它在某个特定任务的边缘案例上表现更好。如果只针对一个狭窄任务做微调，我会担心失去这部分能力。</p>
-  <p>所以我的回答是：有可能。我在这些事情上很务实，我们想做的东西还有很多。但我也不想推出一个看似有用、实际却很容易让用户把系统用坏的功能。</p>
-  <p><strong>Swyx：</strong>OpenAI、Claude，可能还有 Gemini，都曾推出过微调功能，后来又撤回或收缩了相关服务。这也挺有意思：现在微调似乎更多发生在开源模型领域。</p>
-  <p><strong>Diogo Almeida：</strong>我知道这些情况。有些微调产品的效果确实不好，撤下来也许是对的。</p>
-  <p><strong>Swyx：</strong>所以，告诉用户“微调可能不是正确的解决办法”，也说得通。另一种回答是：你们的模型与通常的大语言模型差异很大，就像量化、输出 Token 这些概念未必适用于它，微调也可能不适用。</p>
-  <p><strong>Diogo Almeida：</strong>我对这种可能性也持开放态度。不过下面说的是我的设想，不是产品承诺。</p>
-  <p>随着“每美元智能”的成本继续下降，也许我们能用很小、成本很低的模型，完成一些过去要靠手写规则处理的判断。举个例子：会不会有一天，人们不再需要自己写正则表达式？因为用 AI 完成同一件事的成本，已经低于编写和维护正则表达式所带来的复杂度。我会很乐意看到那一天。对于其中一些狭窄用途，微调也许恰好能让模型的表现跨过可用的门槛，还得继续看。</p>
-  <p>我希望概率校准加上模型级联，也能解决一部分问题。比如，小模型对某个判断非常有把握，就直接采用它的结果；如果置信度落在中间地带，再交给更大的模型，必要时继续往上一级处理。我还不知道最终哪种方式效果最好。</p>
-  <p>还可以设想另一种用法：我们提供一系列处于帕累托前沿、规模各不相同的模型。熟悉技术的开发者也许愿意自己选择，但企业可能更需要动态调度：系统根据技术栈中不同环节所需的判断能力，自动选择合适的模型。考虑到我们的接口相对简单，这套机制甚至可能结合某种自动微调。</p>
-  <p>重申一下，刚才说的动态选模型、自动微调，都不是产品承诺。我只是在畅想一种有点像科幻的未来。</p>
-  <h2><strong>10“决策模型早就有了”，Jev 到底想做什么？</strong></h2>
-  <p><strong>Swyx：</strong>但你们会考虑推出不同规模的 Jev 模型，让用户有得选？</p>
-  <p><strong>Diogo Almeida：</strong>当然。用户到底需要多强的智能，我怎么可能事先知道？</p>
-  <p><strong>Swyx：</strong>需求可能是无限的。</p>
-  <p><strong>Diogo Almeida：</strong>也有人劝我们，现在的产品已经够好了，不用急着发布新东西。但我不太喜欢“够用就停”的想法。有句话我很认同，大意是：<strong>市场不奖励你做一件事时，你仍然坚持去做，那才体现出你的文化。</strong>我希望大家以后也拿这句话要求我，因为说出口之后，就很难反悔了。</p>
-  <p>也许有一天，我们坚持的东西会变得理所当然，公司会像 Visa 一样，成为人们平时不会特别留意的基础服务，到时候我可能连粉色西装都不穿了。但现在，我还想让更多人看到这条路的可能性。我们会继续做有意思的事，并不是因为当前产品非改不可，而是因为今天大家看到的才刚刚开始。第一次发布更像是一次低调的研究预览，远不是我们能做的全部。面向机器的智能（machine-native intelligence）还有很大的空间。</p>
-  <p><strong>Swyx：</strong>所以，将来可能不止一种模型规模，也不止目前这一款模型？</p>
-  <p><strong>Diogo Almeida：</strong>没错。我们希望尽可能满足不同需求。但我得加一个重要前提：我不想像一些产品团队那样，什么想法都往外推。我们做的东西应该服从一个统一的方向。回看我们的宣言，未来的尝试都应该落在其中三个方向之一。</p>
-  <p><strong>Swyx：</strong>我没准备好在这里逐条聊那份宣言。</p>
-  <p><strong>Diogo Almeida：</strong>抱歉，我说得像是在故意吊胃口。我的意思是，那三个方向不是一张待完成的清单，而是我们认为足以支撑下一轮技术变革的三条轴线。我们做的每一次尝试，都应该能在其中找到位置。模型方面，我们也会做一些看起来挺奇怪的东西。</p>
-  <p>既然是“面向机器”的智能，就不一定非得让人一眼看懂它的形式；关键是它有没有实际价值。</p>
-  <p><strong>Swyx：</strong>能透露一点吗？“奇怪”会是什么样？</p>
-  <p><strong>Diogo Almeida：</strong>给个提示吧。有人想把我们的模型叫作“决策模型”，因为目前的几个基础概念都与决策有关。但我不会这样命名：未来还可能出现其他面向机器的输出类型，它们未必是决策。</p>
-  <p><strong>Swyx：</strong>好，那就留给大家猜。</p>
-  <p><strong>Diogo Almeida：</strong>这个提示已经挺有意思了。</p>
-  <p><strong>Swyx：</strong>现在也有人说：“决策模型我一年前就做过了，Jev 没什么新鲜的。”但我觉得，一方面，你们展示了这类模型可以怎样成为一个独立的产品方向；另一方面，从我看到的数字和测试结果来看，Jev 目前的表现仍然超过了那些类似产品。</p>
-  <p><strong>Diogo Almeida：</strong>先说清楚，我不在乎基准测试上的输赢。无论领先还是落后，我都希望继续发布我们的进展。</p>
-  <p><strong>Swyx：</strong>你们至少让更多人开始认真看待这个方向。而且，“决策模型”和 System 1 模型之间的区别，似乎也是你一直想讲清楚的。</p>
-  <p><strong>Diogo Almeida：</strong>对，我想让软件工程师借助 AI，拥有更强的能力。让我难过的是，AI 已经这么强大，却远没有得到充分利用。如果事情继续这样发展，甚至会走向新一轮“AI 寒冬”，实在太可惜了。这件事会让我情绪激动。</p>
-  <p>我并不是认为所有技术进步天然都是好事，也不想一味宣扬技术乐观主义。但看到 AI 有这么多能力，软件却仍然没有真正用上它，我觉得很难接受。我想做的，就是帮大家打开这些可能性。先说到这里吧，这几天我已经哭了太多次，不想在录节目时再哭一次。</p>
-  <p><strong>Swyx：</strong>谢谢你愿意讲这些。光看“TypeSafe AI”这个名字，大家未必能感受到你对这件事的投入。但了解你们想推动的方向，以及你们已经迈出的第一步之后，就更容易理解你为什么希望大家一起往前走。</p>
-  <p><strong>Diogo Almeida：</strong>我不确定最难的部分是否已经过去。以后肯定还有很多难题。也许等到各种工作真正实现自动化、经济增长明显加快，每天都有值得庆祝的进展，我们才能说难关已经过去。而且，我觉得大家现在太关注速度和成本，对可靠性的关注还不够。可靠，才会让人用起来觉得好；可靠，才会让人敢于信任它。</p>
-  <p><strong>Swyx：</strong>你们还写过一个目标：五年内让全要素生产率（TFP）增长超过 3%。我很少见到一家 AI 实验室把 TFP 增长当成目标。</p>
-  <p><strong>Diogo Almeida：</strong>因为那才是经济变革该有的样子。这和 OpenAI 早期章程想表达的方向其实相当一致。章程本身也许没变，但关于什么算 AGI，后来的讨论似乎越来越倾向于用利润之类的指标来界定。</p>
-  <p>在我看来，一个值得追问的问题是：如果模型能解出数学上的千禧年难题，却几乎没有承担现实世界中有经济价值的工作，我们该怎样评价它的影响？如果按“承担世界上大部分有经济价值的工作”这个标准看，我觉得目前各家模型都还接近零。这个过程也许已经开始，但我猜占比还不到 1%。等它真正发生时，应该能从经济统计数据里看到变化。</p>
-  <p>我期待那一天。我不认为它会造成大规模失业，但它会带来很多积极的变化。另一方面，我也厌倦了 AI 总是站在产品最显眼的位置。软件和生活应该变得更好，而 AI 只需要在其中发挥作用。</p>
-  <p><strong>Swyx：</strong>让 AI 融入后台。</p>
-  <p><strong>Diogo Almeida：</strong>对。我在演讲里也常问：2019 年的软件和 SaaS 产品已经创造了很大价值。现在都到 2026 年了，AI 的能力进步这么多，为什么大多数软件看上去却几乎没变？很多产品只是侧边栏多了一个聊天框。它有时能帮上一点忙，但公司仍不敢让它处理那些需要承担后果的决策，因为还无法充分信任它。</p>
-  <p>这在我看来很不可思议。企业有很强的经济动力去改变现状。我觉得接下来可能出现的，恰恰是所谓“SaaS 末日”的反面：SaaS 会因为 AI 而得到增强。软件公司最清楚自己的业务里哪些工作值得自动化，因此也最有机会把 AI 真正用进去。</p>
-  <p><strong>Swyx：</strong>你们已经做出了一件很有意思的事。不过，我还想弄清一个边界：什么样的问题适合 System 1，什么样的问题需要 System 2？现在大家可能什么都想拿 Jev 试一遍，其中一些尝试恐怕会失败。</p>
-  <p><strong>Diogo Almeida：</strong>“什么都拿 Jev 试一遍”这个说法挺好玩。说实话，边界要靠实验来找，就像缩放规律也来自经验观察。以机器人为例，投入了这么多钱，为什么它至今仍有很多事情做不好？问题未必能靠继续增加投入解决，还要看实验结果究竟能不能支持那条路线。</p>
-  <p>我的判断是，预训练模型把大量能力浓缩到了一起，而 System 1 最接近它们天然擅长的思考方式。可验证奖励强化学习（RLVR）在增强 System 2 式推理方面取得了惊人的进展，我很佩服这些成果。但这类能力也很脆弱。</p>
-  <p>回想 ChatGPT 刚出现时，人们常说：“它很通用，能做很多事”，接着又指出它不擅长数学，连 GSM8K 这类小学数学题也做不好。如今谈起经过 RLVR 训练的模型，大家又会说它的能力很不均匀：为什么它能解决某个特别难的问题，却会在另一个地方出错？数学能力也不是简单地在少数地方出现尖峰，它的差异可能细到不同问题层次。</p>
-  <p>如果看各种训练方法各自追求什么，就比较容易理解：基于人类反馈的强化学习（RLHF）希望模型的回答获得人的认可；RLVR 优化的是能通过程序验证的任务表现。这类任务之所以能用于 RLVR，本身就需要有可验证的结果。我们做的 RLCD，则是希望模型能可靠地供程序调用。</p>
-  <p><strong>Swyx：</strong>我说一个实际使用中的观察，你看看对不对。拿到 Jev 的访问权限后，我第一天就用它试了很多任务。单步推理的效果非常好，可以说是顶尖水平；但需要连续推好几步时，表现就开始下降，而且步数越多，问题越明显。</p>
-  <p><strong>Diogo Almeida：</strong>对。这又回到了实验问题：我们究竟能从模型中挖掘出哪些能力？我们希望尽可能多地释放它已有的能力，同时让能力分布更平滑、补上缺口，也增加新的能力。但归根结底，我们是在发掘这些高度浓缩的模型内核所具备的特性，再设法把不同特性组合起来。</p>
-  <p>目前有效的那部分能力，恰好可以用“System 1 式”来描述。这也是为什么我们没有选择让模型在字符串里写出很长的推理过程。我认为，模型很擅长在内部完成推理，尽管这种能力还不完整，也不是对所有问题都有效。</p>
-  <p><strong>Swyx：</strong>等一下，你说的“潜在推理”（latent reasoning）是在字符串里推理？我以为它指的是模型内部的推理。我想确认一下术语。</p>
-  <p><strong>Diogo Almeida：</strong>我印象中，模型内部那种形式以前被叫作“连续推理”（continuous reasoning），但我也不能完全确定。过去之所以有人把另一种情况叫作“潜在推理”，是因为推理轨迹没有公开：对只看到答案的人而言，它相当于一个隐藏变量。</p>
-  <p><strong>Swyx：</strong>所以“隐藏”的究竟是哪一部分，大家的用法也在变化。</p>
-  <p><strong>Diogo Almeida：</strong>至少 OpenAI 和 Anthropic 的推理轨迹，现在仍有不向用户完整展示的部分。</p>
-  <p><strong>Swyx：</strong>那 Jev 将来也不会做推理模型？毕竟显式推理似乎违背了你们强调的 System 1 路线。</p>
-  <p><strong>Diogo Almeida：</strong>我的承诺是，为了做好面向机器的智能，采用必要的方法。我能想象某些推理方式没有那么慢、低效和脆弱；如果是这样，我们完全可能采用。我不会承诺永远只用某种技术方法。我坚持的是最终要优化什么、为用户创造什么价值。产品已经发布了，但我们仍觉得还有很多事要做。</p>
-  <p><strong>Swyx：</strong>视觉能力也是一个目前缺少的重要部分。不过，它适合放进 System 1 模型吗？</p>
-  <p><strong>Diogo Almeida：</strong>在我看来，各种能力都有可能加入。我们内部也在讨论一个更大的问题：是优先给用户提供我们判断他们真正需要的东西，还是更快提供他们明确说自己想要的功能？过去两年我们在未公开产品时，主要走的是前一条路，因为我们确信这个方向有价值。但产品发布后，两者之间需要找到平衡。</p>
-  <p>上下文长度就是一个例子。据我观察，我们的模型在长上下文中保持能力方面表现很好。但行业里也常见另一种做法：用户想要更长的上下文，就继续把数字做大。另一方面，如果我们过于坚持“我们知道用户需要什么”，又可能走向替开发者做过多决定的方式，那同样不利于开发者。</p>
-  <p>我们不希望把判断模型能力边界的全部负担都推给开发者，也希望他们能作为有判断能力的成年人，自行做出知情选择。接下来要解决的是：功能以多快的速度发布，才能兼顾产品的可信度和开发者的自主权。</p>
-  <p><strong>Swyx：</strong>这个权衡很合理。</p>
-  <p><strong>Diogo Almeida：</strong>老实说，我们还没有答案，得边做边找。接下来几天，这可能就是我最需要反复讨论的问题之一。我们手里还有不少东西。之前没想到这次发布会有这么大的反响，我们原本还想着，之后要陆续发布一些后续成果。</p>
-  <h2><strong>11发布前没人看懂，发布后用户开始教他们怎么用</strong></h2>
-  <p><strong>Swyx：</strong>我不太信你们完全没预料到发布后的反响。过去两个月，我从没见过你这么全力投入一件事。</p>
-  <p><strong>Diogo Almeida：</strong>那也得感谢我的幕僚长，是他让我必须全力投入。我以前以为自己已经够努力了，这次才发现还能更拼。</p>
-  <p><strong>Swyx：</strong>你甚至来参加我们的写作工作坊。当时我还在想：“你怎么也来了？”能看出来，你们为发布做了很认真、很有意识的准备。成果也体现出来了，恭喜。</p>
-  <p><strong>Diogo Almeida：</strong>谢谢。我希望接下来还能保持这种投入。我们已经通过了技术圈的几道检验，但后面还有很多关要过，我很期待继续做下去。</p>
-  <p><strong>Swyx：</strong>在聊 TypeSafe 以外的话题之前，还有什么关于这次发布的内容，你觉得被低估了，或者大家误解了？比如产品的使用模式、模型能力不均匀的问题？</p>
-  <p><strong>Diogo Almeida：</strong>每个话题我都能讲很久，但还是克制一下吧。我想特别提一下我们的示例手册（cookbooks）。团队在里面花了很多心思，内容也很实用。我们原本考虑把不少例子放进发布博客，但那样文章会太长，也太偏向深度用户。</p>
-  <p>说实话，发布前我们很担心：这个工具听起来像是从外星来的，别人为什么需要它？我们觉得，教会大家理解这个新方向，可能会成为最大的障碍，所以在说明和示例上投入了很多。现在看来，用户已经做出了远超我们预期的东西，这个障碍或许没那么大了。</p>
-  <p><strong>Swyx：</strong>用户反过来教你们怎么用自己的模型。</p>
-  <p><strong>Diogo Almeida：</strong>没错。有些用户案例甚至比我们的演示更精彩。我看到一些计算机操作方面的用法时就想：如果发布时拿这个做演示该多好。至于示例手册，我们确实认真做了，不是随手生成的一堆内容。每个例子都有实际价值，很多来自我们帮客户解决真实问题的经历。</p>
-  <p><strong>Swyx：</strong>发布前，你们做了多少用户验证？当时具体是什么情况？毕竟那时接触到的人还远没有现在这么多。</p>
-  <p><strong>Diogo Almeida：</strong>坦白说，发布前的反馈不太好。团队里不做技术的同事尤其担心：很多人既没看懂，也不觉得自己需要它。大家会问，我们卖的会不会只是“维生素”，而不是能解决眼前痛点的“止痛药”？是不是还得配备前沿部署工程师（FDE），替客户把周边软件都写好，产品才能发挥作用？</p>
-  <p>发布前，我们几乎没有收入。技术团队相信它，因为我们看得到它在多个维度上的计算特性，也相信它有很大潜力。但我自己也很害怕，这正是我那段时间拼命投入的原因。</p>
-  <p>让超过一半试用者理解它在做什么都很难。少数看懂的人会说：“这很酷，但我们怎么通过采购流程？”整个过程并不轻松。后来我们决定，先面向开发者发布。开发者会找到用途，其他人看到实际效果后，也会想要用。</p>
-  <p>我不想嘲笑那些后来改变看法的人，情况确实变了。但这段经历让我重新思考“产品市场匹配”这个概念。发布前，我们拿着产品去问潜在用户：“你们要用吗？”他们说：“不知道它能不能解决我们的问题。”发布后，需求突然爆发，大家开始问：“能把我们的速率限制再提高吗？你们算力不够的话，我们甚至可以给你们提供 GPU。”</p>
-  <p>营销当然起了一定作用，但我觉得更关键的是，一群真正喜欢这个方向的开发者先用起来了，他们做出的东西又感染了更多人。</p>
-  <p><strong>Swyx：</strong>很多公司也是从开发者起步，最后转向大企业客户。</p>
-  <p><strong>Diogo Almeida：</strong>对。但我希望我们始终记得最早支持我们的开发者，而不只是把他们当作进入企业市场的跳板。我甚至在想，能不能推出一些<strong>对开发者比对企业更有利</strong>的东西，让他们获得更多能力。我已经有些想法了，虽然这么做可能很不寻常。</p>
-  <p>我也不知道还能怎样表达感谢。昨天我去染头发，也是想借这个机会继续和他们交流。公司正处在一个重要阶段，如果这时候反而不再跟开发者说话，我会觉得不对劲。</p>
-  <p><strong>Swyx：</strong>所以你的头发是这么回事。</p>
-  <p><strong>Diogo Almeida：</strong>对。请大家以后拿这些话要求我。我希望自己能坚持原则；如果哪天我变了，尽管指出来。</p>
-  <h2><strong>12从暗数据到智能软件：Jev 瞄准四类核心场景</strong></h2>
-  <p><strong>Swyx：</strong>我想给大公司的开发者一些具体方向。即使他们现在没有做这类项目，也可以知道有哪些用法值得去看。</p>
-  <p><strong>Diogo Almeida：</strong>我本来想先聊编程 Agent，不过还是先把主要的几类用法讲完。这些方向是我们发布前就从基本能力出发梳理出来的。</p>
-  <p>第一类是我们所说的<strong>“暗数据”（dark data）</strong>。很多企业积累了海量数据，却因为用大语言模型分析的成本太高，一直没能充分处理。大型企业很需要这类能力：它们有成堆想分析的数据。对数据科学家来说，这也是很有吸引力的场景。我认为，暗数据分析和编程 Agent 很可能是调用量最大、商业价值也最高的两个方向。</p>
-  <p>第二类是<strong>实时场景</strong>，需要在处理流程中迅速得到模型的判断。这类公司的 CEO，或者至少 CTO，大概都清楚：响应时间每减少 10 毫秒，产品体验能改善多少。</p>
-  <p><strong>Swyx：</strong>电商尤其如此。</p>
-  <p><strong>Diogo Almeida：</strong>对，各类 AI 助手也需要这种能力。据我从团队那里听到的反馈，这些用户很喜欢 Jev；不过我现在不直接负责客户沟通。我自己还特别期待它用在游戏里，比如玩家用指令指挥队伍作战的自动或半自动对战游戏。那会很有意思，不过在我还有工作的时候，先别把它做得太厉害（笑）。</p>
-  <p>第三类，我们叫<strong>“验证一切”</strong>：用它检查其他大语言模型的调用和输出，有点类似给 AI 系统增加可观测性。这里有个具体的使用技巧：如果你有一大段状态信息，想并行检查其中很多内容，可以给每条消息加上 ID，再针对各个 ID 分别提问。这样，较长的状态信息只需传入一次，就能围绕其中的消息提出许多问题，成本会低一些。</p>
-  <p><strong>Swyx：</strong>按 System 1 和 System 2 的分工来想，这似乎意味着：每调用一次推理模型，就可以搭配一次、十次，甚至上百次 Jev 调用。</p>
-  <p><strong>Diogo Almeida：</strong>也许，但我更希望用户花得更少。比如把原本需要的推理模型调用减半，再为每次调用配上若干次 Jev 判断。具体怎么组合，取决于它能否解决原来解决不了的问题。</p>
-  <p>第四类是<strong>“智能软件”</strong>：让智能判断成为软件自身的一部分，使程序能够组合出以前做不到的行为。有人尝试把 Jev 融入编程语言，做出了很有意思的东西。我们现在的基础设施还处在早期；如果能更方便地发放使用额度，我很想给这些项目提供支持。</p>
-  <p>这四类是我们事先梳理出的主要方向。计算机操作也是后来出现的用法，可以归到实时场景里。如果它能稳定工作，我会非常兴奋。这个方向多少有些出乎我们的预料，我也觉得模型在这方面还有很大的改进空间。</p>
-  <p><strong>Diogo Almeida：</strong>编程 Agent 领域眼下正发生一件让我意外的事。在我印象里，Claude Code 和 Codex 大概是目前最领先的两个产品，不过我没有持续追踪排名。它们基本是围绕“单模型”来设计的，这很合理：过去开发者选择编程 Agent，主要是在功能相近、能力水平不同的模型之间做选择。</p>
-  <p>现在，开放式的编程 Agent 项目都在兴奋地尝试接入 Jev。我相信他们也在试各种别的组合。目前这些 Agent 的能力大致接近，毕竟只靠一个循环调用模型的框架，能做出的差异有限。一旦有人找到某个只有自己的 Agent 能做好的关键用例，用户就会涌过去；但其他开放式项目也能很快借鉴。Claude Code 和 Codex 则是围绕单模型构建的，我很好奇它们会怎么应对。</p>
-  <p>我个人很希望能与它们集成，也希望 Jev 能接入各种产品。它们以后也许会推出与我们竞争的能力，我不知道。但作为一家基础设施公司，我的工作不是预先替行业决定大家该用谁，而是让更多人能够使用我们的能力。这会让编程 Agent 市场变得很有意思。</p>
-  <p>我还写了一份内部文档，整理了一些可能适用于编程 Agent 的设计模式，正在请团队审阅，希望很快能分享出来。这个领域有太多值得探索的东西了。如果我不是正忙着做 Jev，我现在也很想亲自去做编程 Agent 实验。</p>
-  <p><strong>Swyx：</strong>编程 Agent 公司应该也愿意和你们一起探索。我觉得 Claude Code 和 Codex 仍有使用 Jev 的空间。接下来暂时跳出 TypeSafe，聊聊你对 AI 研究方向，尤其是安全与对齐的看法。</p>
-  <h2><strong>13“放慢前沿进展”之外，还有别的研究路线吗？</strong></h2>
-  <p><strong>Swyx：</strong>我最近参加了一场研究者聚会，大家确实担心技术发展的速度。有一种观点认为，公众还没有准备好，因此前沿实验室应该放慢脚步。你怎么看？</p>
-  <p><strong>Diogo Almeida：</strong>这是个容易引起争议的话题，不过我愿意谈。我还想专门写一篇更完整的回应，这里先讲一个简短版本。</p>
-  <p>我觉得，“要不要放慢前沿进展”的讨论，往往默认了一件事：所有人都必须继续做 RLVR，而且要不断加大力度。但我不这么认为。就 Jev 这类模型想完成的任务而言，我认为最合适的 RLVR 用量甚至可能是零。</p>
-  <p>RLVR 也不能只从“奖励可验证”来理解。在推理模型兴起之前，人们就尝试过用可验证结果做强化学习，并没有因此自然得到今天的效果。训练任务的整体形态同样重要。我想起一段经历：RLHF 刚开始受到关注时，有几条后来被统称为“后训练”的研究路线同时在推进。指令遵循当时并不受所有人重视，因为评估它很麻烦。我曾跟预训练团队说，这里面有关键价值；他们的顾虑是，模型实验做得那么频繁，难道每次都要等人工评测结果才能决定选哪个模型？</p>
-  <p>当时，代码生成也获得了很多资源。团队尝试用单元测试的结果给模型做强化学习，取得过一些成果，但光有可验证的测试结果，并不能自动带来今天这种推理能力。因此，RLVR 的效果不只是奖励函数带来的，也和模型被允许经历怎样的推理、采取怎样的中间步骤有关。为了让模型解出最难的问题，研究者会给它很大的行动空间。</p>
-  <p>这也是我对“放慢前沿进展”论述的疑问。有些人会说，也许问题出在沙箱隔离不够。那当然可能是问题，也可以改进。但实验室之所以给模型更大的行动空间，是因为这样可能让它在任务上更强；如果增加约束，又可能损失一部分表现。我认为，这里有一些本该由研究者自己承担的设计选择，却被表述成了发展 AI 不可避免的前提。</p>
-  <p><strong>Swyx：</strong>如果先接受“必须沿着这条路线继续加大投入”的前提，再推导出风险会增长，逻辑上是说得通的。但前提本身还有其他选择。</p>
-  <p><strong>Diogo Almeida：</strong>正是如此。真正重新定义任务或研究目标的路线很少见，所以研究者容易沿着已有方向继续推进。我觉得现在对其他可能性的思考还不够开放。</p>
-  <p>公众不该为这种局面负责。他们不是研究这件事的专家，通常只能相信 OpenAI、Anthropic 等实验室已经在尽最大努力；更了解技术上还有哪些选择的，是研究者自己。</p>
-  <p><strong>Swyx：</strong>你们做的事，也是在让大家看到另一条路。</p>
-  <p><strong>Diogo Almeida：</strong>我会尽力。但我的目标不是说服其他实验室改变路线，而是让软件工程师重新看到希望，开始自动化那些他们一直想自动化的工作。</p>
-  <p>我曾写过一篇关于理想中 AI 未来的文章，团队最后没让我发表。里面有很多很小、但会改变体验的设想。刚才那个用语音操作电脑的演示就是一例：过去计算机太机械、太按字面执行指令了；如果它能更好地理解人的意图，很多操作都会顺畅得多。</p>
-  <p>我不想承诺这些很快就会实现。但我们会尽力推动，让智能逐渐进入软件的各个角落。</p>
-  <p><strong>Swyx：</strong>回到训练方法。你深入参与过后训练，怎么看“中训练”（mid-training）？我们好像还没聊过这个。</p>
-  <p><strong>Diogo Almeida：</strong>训练的不同阶段更像是一条连续的谱系，没有那么清楚的分界。</p>
-  <p><strong>Swyx：</strong>可以理解成一种更复杂的课程学习？</p>
-  <p><strong>Diogo Almeida：</strong>可以这么说。中训练也有成本上的考虑：你不必为了增加某些能力，从头再做一遍预训练。</p>
-  <p>我觉得智能在训练的每个阶段都有一些难以用简单规则概括的地方。观察数据、弄清能力是怎么进入模型的，是件很有意思的事；我们的数据团队很擅长这个，我自己没有他们那么擅长。我更习惯从整体结构上思考，也很喜欢听他们讲从数据里发现了什么。</p>
-  <p>比如，短期内可以通过微调让模型迅速表现出某种倾向；如果相关训练持续进行，某些能力就会逐渐更深地进入模型，变得更稳固。我想找到的正是那些能稳定发挥的能力。前面说的 System 1 式能力，也属于这一类。所以我对中训练很感兴趣，也支持探索各种训练方式，看看还能从模型中释放出什么能力。但这些方法成本很高，我不会每一种都亲自做。</p>
-  <p>有件事我以前私下说过。我觉得，如果能对投资人说，也应该能公开对大家说：<strong>即使给我 10 亿美元，我也不会自己做预训练。</strong>我现在仍这么想。预训练太贵了。作为 AI 工程师，你可以拆解现有模型、组合不同能力，尝试各种办法。把模型像“弗兰肯斯坦”一样拼起来，也许不够优雅，但它能解决问题。总之，我会尝试预训练之外的办法。</p>
-  <p><strong>Swyx：</strong>顺着这个思路，有一个值得讨论的问题：未来是把所有能力放进一个“超级模型”，还是继续把不同能力拆到不同模型里？OpenAI 曾经朝全能模型（omni model）的方向走，GPT-4o 就是例子。但有一段时间，也能看到聊天优化模型和编程优化模型各走一条线。</p>
-  <p><strong>Diogo Almeida：</strong>这其实是两个差别很大的问题，得拆开说。多模态是一回事：加入其他模态，有时会帮助模型，有时也会拖累它。比如，我看到有些团队似乎在减少对语音（speech）的投入。这里说的语音和更广义的音频（audio）不是一回事；语音能力目前似乎不太容易迁移到其他任务上。这个问题以后可能会解决，但得看实验结果。</p>
-  <p>我支持探索各种形式的智能，不过不能以为只要按缩放规律增加投入，问题就一定会解决。缩放规律最终要回答的是：投入增加后，能力实际上提高了多少？有些任务即使继续扩大规模，也可能达不到可用水平。据我了解，计算机操作目前就还没有解决。我希望我们能在其中发挥作用，但也可能无论收集多少数据都不够，需要改进方法。</p>
-  <p>所以，问我是否支持全能模型，我的回答是：我支持探索各种能力。但你刚才提到的另一个问题更值得展开——后训练怎样影响模型原本具备的能力。我很不喜欢把智能训练得支离破碎。</p>
-  <p>以聊天优化为优先的训练，往往高度依赖 RLHF，也容易带来人们经常抱怨的问题：迎合用户、过度自信、幻觉。甚至在 LM Arena 这类评测中表现讨喜的回答风格，也可能是训练目标塑造出来的：大量加粗、斜体、表情符号；不直接回答问题，而是写一大段，再反问用户一句，让对话显得更像真人。</p>
-  <p>我认为，这和让模型更准确地发挥已有能力是两回事。让模型生成一段自由文本，本来就有很多不确定性；训练过程中，模型可能学会用非常确定的语气维持某种回答模式，避免明显跑偏后受到奖励模型的惩罚。这会改变它的概率分布，也会与推理能力相互影响。模型可能学会一些取巧的方式，把目标完成了，判断能力却未必因此变得更稳固。理解这些细微变化，是研究智能的重要部分。至少在我还在 OpenAI 时，我觉得这方面得到的研究还不够多，大家更多是在优化“聊天”这个目标。</p>
-  <p><strong>Swyx：</strong>一旦确定目标，团队就会集中优化它。</p>
-  <p><strong>Diogo Almeida：</strong>对。有人会说，那就同时优化两个目标。但在我看来，把模型分别往不同目标上拉，本身就可能造成能力分裂。</p>
-  <p><strong>Swyx：</strong>可是，你把能力分成 System 1 和 System 2，某种程度上不也是在拆分智能吗？只不过你不认同别人拆分的方式。</p>
-  <p><strong>Diogo Almeida：</strong>我觉得两者不一样。我们并没有把 System 2 任务扔掉。开发者可以拿 Jev 去尝试这类任务，而对于模型没有把握的问题，一个合理的结果就是表达“不确定”。它应该给出较低置信度，清楚体现不确定性；某些启发式方法也许还能改善表现。我们同样关心这些任务，只是我认为，长链条的 System 2 式推理并非这个模型最自然、最稳定的能力形态。</p>
-  <p>我也不想为了塑造产品身份而改变模型的回答。比如有人问它是谁，我不会特意训练它回答“我是 TypeSafe 的 Jev”。那会把一个品牌要求写进模型的判断里。我更希望它依据学到的信息给出正确回答，让能力保持平滑、可预测。</p>
-  <p><strong>Swyx：</strong>模型身份对直接面向用户的产品来说，可能是个特殊问题。</p>
-  <p><strong>Diogo Almeida：</strong>对，第一方产品需要考虑身份。但如果提供的是 API，情况就不同了。开发者用模型做自己的聊天产品，通常希望它呈现的是自己的产品身份，而不是回答“我是 ChatGPT”。</p>
-  <p><strong>Swyx：</strong>为了让开发者更容易把 Jev 用进产品，你们也提供了 Jev Skill，让编程 Agent 知道该怎么与 Jev 配合。</p>
-  <p><strong>Diogo Almeida：</strong>对。</p>
-  <h2><strong>14从 InstructGPT 到 TypeSafe AI 创业</strong></h2>
-  <p><strong>Swyx：</strong>最后问几个问题。回头看，你做这件事大概有两年多了？</p>
-  <p><strong>Diogo Almeida：</strong>如果从公司成立算起，是两年多；但对我来说，更像是一段持续了四年的经历。</p>
-  <p><strong>Swyx：</strong>我想起有一年感恩节，你取消了其他安排，说大家都在休假，正好可以用空出来的 Edge GPU，集中做一次实验。那还是 TypeSafe 成立之前吧？</p>
-  <p><strong>Diogo Almeida：</strong>对，那段时间挺有意思。是不是正好赶上 OpenAI 那次管理层风波？我有点记不清了。</p>
-  <p><strong>Swyx：</strong>对，时间差不多。</p>
-  <p><strong>Diogo Almeida：</strong>那就对上了。那场风波挺让人心烦的，不过我们今天没时间展开聊。</p>
-  <p><strong>Swyx：</strong>你说让人心烦的是那场风波，还是那次实验？</p>
-  <p><strong>Diogo Almeida：</strong>是那场风波。也许下次聊天时，我再讲当时的事。不过，Jev 想解决的问题，在 ChatGPT 发布前就已经萦绕在我脑子里了。当时我看到 ChatGPT 团队的工作，觉得他们选对了任务。他们做了一件很多 AI 研究者不擅长、但优秀产品团队很在意的事：认真打磨用户体验。在当时的 OpenAI，这种人并不多；ChatGPT 团队在这方面做得很好。</p>
-  <p><strong>Swyx：</strong>你说的这段经历，可以追溯到 GPT-3 向 GPT-3.5 演进的时期。当时还有 AI Dungeon 这样的应用，也是一个你们事先没想到的用例。</p>
-  <p><strong>Diogo Almeida：</strong>对。我当时也很努力地推动 InstructGPT 上线。早期有些版本甚至用了我自己设计、但后来没有公开的训练算法，因为清理 PPO 数据太慢了。我当时想：效果已经这么好，应该尽快让用户用上。</p>
-  <p>它上线后，很快就在当时的大语言模型使用市场里占了相当大的份额，按我们的估计大约有 50%。我还花了很多精力，确保发布视频里的展示都是真实的。当时我甚至认真想过：一个模型能这样理解并执行指令，这算不算 AGI？现在看，显然不算。但我觉得每个人都值得想一想，为什么它看上去这么聪明，却仍然不是 AGI。</p>
-  <p>后来，我看到它主要被用于营销文案写作，例如 Jasper AI、Copy.ai，以及大量填充网页的文字。我们一度担心，自己是不是让互联网变得更糟了。于是我重新思考：模型明明表现得很聪明，为什么没有创造出我们期待的价值？还缺了什么？</p>
-  <p>我试着从一场由 AI 推动的经济变革倒推：如果 AI 以 API 的形式存在，未来主要是谁在调用它——人，还是代码？我的判断是，绝大多数调用会来自代码。但当时的优化几乎都面向人与模型的对话。那一刻我意识到，应该把“让程序能够可靠地调用智能”作为目标。</p>
-  <p>我写了一份文档，也跟 Sam 聊过。他觉得这个方向很好，建议我去做。我当时的反应是：“可我还有本职工作啊。”</p>
-  <p><strong>Swyx：</strong>Sam 都让你去做了，那就去做啊。</p>
-  <p><strong>Diogo Almeida：</strong>当时我还觉得，这个方向太显而易见了，Anthropic 肯定已经在做，我们可能已经晚了。我那时的看法是，OpenAI 往往更擅长追赶已有方向。比如我认为 ChatGPT 与 Anthropic 此前内部做过的聊天产品有相似之处，只是后者当时没有发布。</p>
-  <p><strong>Swyx：</strong>对，之前还有在 Slack 里使用的 Claude。不过，推理模型这条线上，OpenAI 算是较早推出产品的。</p>
-  <p><strong>Diogo Almeida：</strong>研究成果很出色。至于它是否对应用户当时最迫切的产品需求，我不太确定。编程 Agent 这边，Claude 也做出了重要的产品。</p>
-  <p>和 Sam 聊完后，我先回去继续做原来的工作。后来，指令遵循团队觉得这方面已经取得了很大进展，我也开始想下一步做什么，于是试着研究那个面向程序调用的方向。我原以为训练模型、验证想法只要一周，最后却花了好几年。</p>
-  <p>中途有一次，我看到了初步有效的迹象。它当时显然还不能直接部署，否则我们早就发布了。但我很想知道，如果在研究上全力投入，这条路线最终能走到哪里。我也想过：如果 AI 最后进入新一轮低谷，而我明明看到了这个问题却没有认真尝试解决，我会觉得自己有责任。</p>
-  <p>我和其他公司聊过，提出想建立一个研究这个方向的实验室，也得到了一些兴趣。但当我问他们，加入现有公司和自己创业，哪一种能推进得更快，他们的回答是“创业”。于是我决定自己做。</p>
-  <p><strong>Swyx：</strong>然后你联系了 Eric 和 Sasha？</p>
-  <p><strong>Diogo Almeida：</strong>我先联系了 Eric（译者注：Erik Gafni，现任 TypeSafe AI 首席技术官）。找 Sasha （译者注：Sasha Sheng，现任 TypeSafe AI 首席运营官）时，我起初并不是想拉她入伙。我只是问：“是不是我想错了？是不是因为待在 OpenAI 太久，我没看到外面其实已经有解决方案？”</p>
-  <p>结果她说：“我加入。”我提醒她，当时她还在经营一家创业公司，她说正在结束那家公司。我劝她先认真想想，她想过之后，还是加入了。</p>
-  <p>两周之内，我们拿到了资金，也有人搬进我的公寓一起工作。我有点洁癖，那段日子对我来说可不轻松。此后我们继续做研究，终于得到了一些结果，证明这个方向有初步的可行迹象。</p>
-  <h2><strong>15别再复制前沿实验室：先找到你的 North Star</strong></h2>
-  <p><strong>Swyx：</strong>前面讲了这么多背景，我真正想问的是：如果现在有一位前沿实验室的研究者，和当年的你一样，觉得自己的方向得不到资金、资源或重视，你会建议他也出来创业吗？</p>
-  <p><strong>Diogo Almeida：</strong>这问题很有意思。我得想想怎么说才不至于得罪太多人。</p>
-  <p>坦白说，除非这些新兴实验室背后有我不了解的经济逻辑，否则我不太看好其中的大多数。我看重的不是研究者履历本身，而是他们是否认真选择了值得解决的问题。我们当然需要研究者，但他们得真正关心自己研究的任务。对我来说，首先要找到一个值得长期投入的<strong>North Star（核心目标）</strong>，然后围绕它做真正有用的事。光有漂亮的研究背景，通常不会自动创造价值。</p>
-  <p>我相信应该有清楚的目标，去做有用的事。如果一家新实验室有明确方向，我非常支持；但如果只是从头重复已有工作，拿到资金后做各种实验，真正推进前沿的机会又很小，我看不到它创造了多少价值。据我与一些新兴实验室交流的经验，有些团队还没有想清楚自己要往哪里走。</p>
-  <p>所以建议取决于你为什么离开。如果只是想自由地尝试研究课题，现有实验室可能仍是最合适的地方。我更希望大家带着要解决的问题出发。问题可以是探索性的，但最好有自己认同的原则和方向。如果你确信自己找到了一个值得投入的新任务，那我会强烈支持你去做。我们需要有人打破研究圈里越来越一致的思路。</p>
-  <p><strong>Swyx：</strong>像一种“蜂群思维”。</p>
-  <p><strong>Diogo Almeida：</strong>对。“放慢前沿进展”的讨论，也部分来自对 AI 的一种特定想象：模型聪明得惊人，能力却非常不均匀，因而带来特殊风险。但这只是发展 AI 的一种路线，不能把它当成唯一可能。探索不同的技术方向，本身就有价值。</p>
-  <p><strong>Swyx：</strong>公平地说，我想准确转述此前与我交流过的 OpenAI、Anthropic，还有 SpaceX 人士的意思：他们谈放慢进展，考虑的不只有灾难性风险，也有政治层面的因素。</p>
-  <p><strong>Diogo Almeida：</strong>政治层面的事，就超出我的专业范围了。</p>
-  <p><strong>Swyx：</strong>我当时听完，也意识到他们讨论的时点可能和 2028 年选举有关。</p>
-  <p><strong>Diogo Almeida：</strong>我真希望没听到这一层。感觉很糟。</p>
-  <p><strong>Swyx：</strong>先说明一下，这只是当时那场讨论中部分人的说法，不能代表整家公司。</p>
-  <p><strong>Diogo Almeida：</strong>明白。也许我是个天真的技术人员，但听到这些，我多少有点失望。</p>
-  <p><strong>Swyx：</strong>随着技术发展，谁来执政、怎样制定监管规则，确实会越来越重要。实验室也需要认真考虑这些问题。</p>
-  <p><strong>Diogo Almeida：</strong>这点我完全同意。我担心的是，为了达到某个自认为正确的目标，在公开沟通时把话说得过于确定，或者让公众产生误解。我不想在这里展开谈政治。我的原则是，即使出发点被认为是为了公共利益，也应该尽量准确地说明事实和不确定性。</p>
-  <p><strong>Swyx：</strong>就我听到的讨论而言，我不觉得他们是在误导公众。他们更多是在解释，为什么现在提出放慢进展。</p>
-  <p><strong>Diogo Almeida：</strong>我理解。但如果公开强调的风险理由，与实际推动这件事的目标并不完全一致，我仍觉得其中有值得说清楚的地方。希望我们以后尽可能不卷入这样的事。公司变大后，也许很难完全置身事外，但我还是想守住自己作为技术人员的出发点。</p>
-  <p><strong>Swyx：</strong>那我开个玩笑：让 Jev 竞选总统吧，我说不定比信任自己的决定更信任它。好了，玩笑先放一边。你们已经选定了自己的 North Star：让 AI 可靠、可编程、可组合，还要便宜。如果把机会留给其他人，你最希望他们去解决什么问题？</p>
-  <p><strong>Diogo Almeida：</strong>这问题太好了。我先说一个好玩的，再说一个我觉得很有研究价值的。</p>
-  <p>第一个是游戏。如果游戏里的角色和世界能更智能，会非常有意思。我看过 Ali 做的《Doom》演示，玩家可以让 NPC 执行一些操作。那还只是概念验证，却已经让我想到很多可能。我很喜欢《星露谷物语》；它的世界相对静态，仍然很吸引人。如果角色能对游戏状态作出更多反应，就可以产生很多新的故事。</p>
-  <p>也不必在游戏的每一帧都调用 Jev，那样可能太贵了。哪怕只是在 NPC 的状态机里加入一些智能判断，也有机会把游戏世界做得更生动。我有点遗憾自己现在没法亲自做这些项目。</p>
-  <p><strong>Swyx：</strong>可以让别人来做，你再给他们反馈。</p>
-  <p><strong>Diogo Almeida：</strong>对。另一个我特别想看到有人探索的方向，是<strong>摆脱 KV Cache 对编程 Agent 设计的限制</strong>。我写过一篇文章，叫《KV Cache Rules Everything Around Me》，就是想解释现有编程 Agent 和 KV Cache 是怎么相互影响的。它能解释很多现象：为什么模型路由很难，为什么子 Agent 的效果常常不如预期，为什么上下文压缩也是个棘手问题。</p>
-  <p>我还写了一份关于新设计模式的文档，希望团队审过后能发布出来。我想把自己的想法抛给大家，请大家试试看：如果不再被现有的 KV Cache 使用方式绑住，编程 Agent 还能怎么设计？</p>
-  <p><strong>Swyx：</strong>你说的“绑住”，是指它限制了模型选择？</p>
-  <p><strong>Diogo Almeida：</strong>这是一方面。为了高效利用 KV Cache，系统往往要持续在已有上下文后面追加内容，也就容易固定在同一个模型上。这样一来，设计会逐渐偏离软件工程里熟悉的做法，比如明确管理状态、抽象问题、拆解任务。</p>
-  <p>举个例子，为什么不能把简单的任务交给一个更便宜的子 Agent？难点之一是状态交接：如果把父任务积累的大量上下文都传过去，子 Agent 光是读取这些信息就可能花掉不少成本。那能不能更聪明地决定，它到底需要哪一部分状态？</p>
-  <p>我觉得这里有很多值得研究的编程模式。可以给状态明确标注含义，把任务组织成有层级的子任务。编程 Agent 本来就在逐个处理子任务；一个子任务结束后，为什么一定要把它接触过的全部状态都塞回父任务？需要信息时，为什么不能在子任务树里检索相关上下文？</p>
-  <p>如果访问上下文的成本足够低，还可以更方便地回看历史记录。现在 Agent 经常像每次都从零开始工作，然后我们又要单独解决“持续学习”的问题。其中一部分其实是记忆管理：信息并非完全不存在，而是系统不知道怎样有效找到它。</p>
-  <p>并行工作的子 Agent 也一样。如果它们的状态保存在计算机内存里，为什么不能有选择地读取彼此的进展？哪些内容正在写入、哪些可以读取，都可以更清楚地管理。多个 Agent 协作时，也许还能用比简单加锁更灵活的方式协调：“你现在在改什么？我在改什么？谁应该先写？”</p>
-  <p><strong>Swyx：</strong>让 Jev 来决定谁先拿到锁？</p>
-  <p><strong>Diogo Almeida：</strong>多 Agent 协作里确实可能有这样的用法。还有一些 Agent 只负责读取状态，比如向用户汇报其他 Agent 的工作进展。它不需要看完所有探索过程，只要找到已经写入的结果、相关子任务和当前状态就够了。</p>
-  <p>如果有人愿意投入足够多的时间，重新思考编程 Agent 怎样保存、查找和共享状态，我觉得能做出很有意思的东西。这是我特别希望看到的方向。</p>
-  <p><strong>Swyx：</strong>你可以看看 PrimeAgent。它和递归语言模型（RLM）相关的工作有结合。我们刚和参与这方面研究的 Alex 聊过。这条路线已经有人在做，只是目前还不算热门。</p>
-  <p><strong>Diogo Almeida：</strong>那很好。我希望更多人去试各种不寻常的想法。我不能保证它们一定有效，但从技术上看很值得探索。等我们建立起发放使用额度的机制，也希望能支持做这些实验的人。</p>
-  <p><strong>Swyx：</strong>以后你们或许还能直接资助相关研究。也恭喜你和整个团队走到今天，从我第一次认识你到现在，你和团队都走了很远。</p>
-  <p><strong>Diogo Almeida：</strong>我希望自己还是原来那个人。</p>
-  <p><strong>Swyx：</strong>我觉得是。不过现在的你比我以前见过的任何时候都更有劲头，因为你找到了自己的使命。过去很多年，你一直在指出问题，但还没有拿得出手的解决方案；后来你有了大致方向，又花了很长时间把它做出来。</p>
-  <p><strong>Diogo Almeida：</strong>这也是因为我觉得自己完全没有创业者的性格。我不喜欢创业，从没想过当 CEO。做一次已经够难了，很难想象有人愿意做第二次。最初融资时，有位投资人问我仰慕哪位 CEO，我的第一反应是：“我为什么要仰慕他们？”</p>
-  <p>无意冒犯谁。我遇到过很多很好的人，只是一些最出名的人似乎也有不少不愿示人的问题。在 OpenAI 时，我确实觉得自己很难推动想做的事。现在至少有了一点证据，说明我们的方向可能走得通，我也更容易把当时的想法讲清楚。</p>
-  <p>那时候，周围很多讨论都是“怎么把 ChatGPT 放进更多产品”“怎么让 ChatGPT 更适合开发者”。我却一直在想：现有的函数调用接口为什么要这样设计？开发者怎么用它来可靠地控制程序？</p>
-  <p><strong>Swyx：</strong>像是在已有的变通办法上，再叠加一层变通办法。</p>
-  <p><strong>Diogo Almeida：</strong>问题还不止于此。我当时常说：如果函数调用不能为每个函数提供相应的 logit bias，让开发者知道或调节模型选择它的倾向，就不要让我参与这个项目。我的要求并不复杂。</p>
-  <p><strong>Swyx：</strong>你想要的是某种与置信度接近、但未必经过校准的信号。</p>
-  <p><strong>Diogo Almeida：</strong>对，或者至少给出选择某个函数的概率。开发者需要控制模型在不同情况下采取什么行动，包括允许还是拒绝。同样是拒绝，迪士尼和 AI Dungeon 想设的门槛肯定不一样。可如果接口只让开发者通过提示词反复请求模型“请在这种情况下拒绝”，那怎么能算一个好的程序接口？大家已经这样用了很多年。</p>
-  <p>现在的 Skill 也有类似问题。现有编程 Agent 对各自的运行框架适应得很好，但能力并不均匀，使用外部工具和 MCP 时往往没那么可靠。如果某个工具对业务很重要，开发者为什么不能明确提高模型调用它的倾向？现在往往还是得在系统消息里反复要求。这让我觉得很不合理。</p>
-  <p><strong>Swyx：</strong>我明白你的意思了。很高兴能在节目里和你聊这些，也期待你们接下来发布的东西。</p>
-  <p><strong>Diogo Almeida：</strong>谢谢。接下来可能比你想的还快。</p>
-  <p><strong>Swyx：</strong>你们现在还在招数据、基础设施、市场和社区方面的人？</p>
-  <p><strong>Diogo Almeida：</strong>都在招。我自认为还能胜任创始营销负责人，但团队会让我别再抢这份活，好好做 CEO。事情一下子多起来之后，你很快就会学会授权。</p>
-  <p>我们也在招负责模型能力的人。他们的工作很大一部分与数据有关。我希望团队充分认可这类工作的价值，让直接改进模型能力的人得到应有的重视，同时又不在团队里制造奇怪的等级。</p>
-  <p>说到文化，我挺高兴同事们不会因为我是 CEO 就事事顺着我。他们会开我的玩笑，也会直接反驳我。我觉得这是个好信号。</p>
-  <p>另外，我们还需要平台工程师，把 Jev 部署到更多地方。对我们来说，服务器的位置尤其重要，因为网络传输时间会直接影响延迟。现在欧洲还没有我们的服务器，欧洲用户体验到的速度提升可能只有约三倍，而不是本来有机会达到的约一百倍，这让我很遗憾。</p>
-  <p><strong>Swyx：</strong>没关系，欧洲的生活节奏也慢一点。</p>
-  <p><strong>Diogo Almeida：</strong>这话可是你说的，不是我说的（笑）。总之，我们希望把服务部署到更多地区。如果“每秒能获得多少智能”对用户很重要，我们就会把服务部署到更多地区。开发者在我们的能力之上构建产品，我非常在意他们的使用体验。</p>
-  <p>我们也在招人，继续开发 Jev 之外的能力。公司的目标并不是只做 Jev 这一款模型，更不想只靠一种简单模型走到底。未来可能需要一个像 AWS 一样的平台，提供形态各异的智能能力。我希望我们朝这个方向走。</p>
-  <p><strong>Swyx：</strong>而那个平台会是你们，对吧？</p>
-  <p><strong>Diogo Almeida：</strong>现在就说一定是我们，太自大了。但我会尽一切努力去做。我觉得这会很有意思：我们现在探索的只是 System 1 式智能中的一层。如果把它类比成 TCP，上面还能建立许多层能力。</p>
-  <p><strong>Swyx：</strong>对，还有很多层。我甚至提过 Temporal，也许它能算传统七层模型之外的“第八层”。不过这个话题我们又能聊很久。你该回去工作，或者好好睡一觉了。谢谢你来。</p>
-  <p><strong>Diogo Almeida：</strong>谢谢邀请，聊得很开心。我很期待接下来要做的事。</p>
-  <p><strong>声明：本文为&nbsp;InfoQ 编译，不代表平台观点，也不构成投资建议，未经许可禁止转载。</strong></p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651294004&amp;idx=1&amp;sn=930fafd84de44fecffb90d8573c7c9e3&amp;chksm=bc16899193158667285d674705474008c90fa06b8a61eb454b09a3a408f97e6c5462ce4e9325&amp;scene=0&amp;xtrack=1#rd">“InfoQ”（ID：infoqchina）</a>，作者：林绮蓓、蔡芳芳，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 25 Sep 2026 03:30:25 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3998248835551367</guid>
-            <link>https://www.36kr.com/p/3998248835551367</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[1.4 万亿美元的预付款谁来收货？]]></title>
-            <description><![CDATA[<p><strong>这件事过去几天了，但值得回头捋一捋。</strong></p>
-  <p>9月中旬，一篇发在网上的长文，把全球芯片股砸出一片坑，写文的人是 Anthropic 的掌门人阿莫迪，文章题目叫<strong>「我们必须控制前沿的节奏」</strong>，大意是前沿模型的步子跑得太急，该有人出来管管节奏。</p>
-  <p>这篇倡议，奥特曼点了头，马斯克也接了话。</p>
-  <p><strong>没消停几天，这四家一起被告了。</strong>美国四名付费用户把 Anthropic、OpenAI、谷歌、xAI 告上加州的联邦法院，状纸里直接引了这篇文章和两句声援，说协同放缓，涉嫌违法。几家公司，没置评。</p>
-  <p><strong>隔了两天，美联储三年来头一回加息，市场早有准备，真落地那天，还是跌。</strong></p>
-  <p>再一天，全弹回来了，费城半导体指数涨了 3 个点出头，英特尔两天前刚跌 5.6%，这天涨 7.7%，弹得最欢。</p>
-  <p>三天，跌、跌、涨。没有财报暴雷、几乎什么都没有发生，可市场自己紧了一下，还有个细节，我查了下大跌那天，软件股不跌反涨，挨砍的，清一色是硬件。软件轻，硬件重。</p>
-  <p><strong>另外这阵子，AI 板块的 K 线，画出来全是锯齿。当下 AI 市场的脾气，就一个字，紧。</strong></p>
-  <p>它在紧张什么？</p>
-  <p>这轮吵泡沫的稿子，十篇有九篇盯着估值。有件事被绕过去了。这笔钱，跑得到底有多快？</p>
-  <p>今年一季度，微软、谷歌、亚马逊、Meta 四家，合起来花了 1316 亿美元，比去年同期多了七成，这只是三个月的开销；去年一年，美国云厂商的开支涨了 65%，今年还在往上加。</p>
-  <p><strong>什么概念？一天，14 亿美元出头。</strong></p>
-  <p>这些钱的大头，换成了三样东西，芯片、机房、电。没有一样是轻的。</p>
-  <p><strong>全年算下来，四家今年的开销，预计在七千多亿美元；中国这边，一年也到了七千到八千亿人民币的量级。</strong></p>
-  <p>数字几乎一样，单位不一样。一边美元，一边人民币，看着差不多的数，差着一个汇率的倍数。</p>
-  <p><strong>而且，这只是四家的账。</strong></p>
-  <p>把甲骨文这些算进来，数字还要往上抬。远处还有更大的单子，OpenAI 一家签出去的算力合同，加起来超过一万亿美元，分好些年慢慢兑现。</p>
-  <p>钱跑得快，跑出来的距离更扎眼，从 ChatGPT 上线到今年 5 月，三年半，全球头部 AI 公司前前后后投进去约 1.4 万亿美元，同期收回来 6130 亿。</p>
-  <p><strong>这 6130 亿里，近 4800 亿被英伟达一家收走。卖铲子的，成了这轮最没悬念的赢家。</strong></p>
-  <p>红杉资本的卡恩有个著名的算法：</p>
-  <blockquote>
-   <p>芯片卖出去多少钱，搭机房、配电力、连网络，得再花差不多同样多的钱；这些算力转手卖出去，还得给买家留出利润。把这几层叠起来，就是整个行业一年必须赚到的数。</p>
-  </blockquote>
-  <p>这把尺子第一次亮出来，在 2023 年，数出来 2000 亿美元，一年后翻到 6000 亿。今年 7 月，这个数变成了 1.5 万亿。<strong>三年，涨了六倍多，窟窿没有自己变小。</strong></p>
-  <p>账的另一头也在动，头部模型公司收入，一年翻一倍地涨，只是涨的速度，追不上花钱的速度。</p>
-  <p><strong>说到根上，这门生意的脾气从出生那天就定了，它跟别的生意反着来，先花大钱，再等收钱。</strong></p>
-  <p>芯片一台台买，机房一座座建，电、地、水，全得提前垫进去；回报呢？要等机器真跑起来、跑出收入，才一块一块往回走。</p>
-  <p>机器还是成批淘汰的，新芯片一出，上一代的账面价格就往下掉一截，这些钱出去的姿势，像全行业一起，给未来交了一笔天量预付款。</p>
-  <p>因为铁路、电力、互联网，都走过这段路，先修路，后通车；通车前那几年，账上全是支出，路上一个人都没有。中间倒过一批又一批公司，最后留下来的，是路。</p>
-  <p><strong>所以这阵子，一点信息，就够硬件板块抖一抖。</strong></p>
-  <p>......</p>
-  <p><strong>等待是有价格的。钱便宜时，它叫远景，钱变贵了，它改名叫泡沫，这轮加息，信号只有一个，钱的方向，掉头了。</strong></p>
-  <p>钱贵不贵，看一个数。</p>
-  <p>十年期美债收益率已经站上 5%，还在往上走，前几天报 5.14%，2007 年以来的新高。</p>
-  <p><strong>这个数的另一面，买股票比买国债多出来的那点回报，在美国已经被压到接近零，在 A 股，还有 3 个百分点打底。</strong></p>
-  <p>利率是钱的价格，也标着时间的价钱，它往上一走，远处的账就得打折，同样一笔回报，等的年头越长，放在今天的账本上就越不值钱。</p>
-  <p><strong>AI 这门生意，偏偏全是远期账，今天付钱，等好几年回款，等得最久的那批资产，第一个挨打。</strong></p>
-  <p>另一头，市场看账的方式，也变了。</p>
-  <p>以前看 AI，看想象力，故事越大越兴奋；现在看季报，一笔一笔地对。7 月 23 日那天，谷歌交出一份漂亮业绩，销售涨了两成多，云涨了八成，股价当天却跌了 7%。下跌的理由，指向了花钱那头。</p>
-  <p><strong>现在的市场就这样，业绩好不够，得好到超出想象，才配得上现在的价。</strong></p>
-  <p>云厂商的开支还在往上冲，市场已经在算，这股劲还能撑多久；慢一点，市场忍得了；「越来越慢」，忍不了，增速一旦往下拐，估值的故事就得重讲。</p>
-  <p>这个紧张，大洋两岸，一个样。</p>
-  <p><strong>我盘了下，9 月上半月，A 股的算力板块跌了 5.33%，数据中心跌了 8.70%；光模块，前几个月最风光的那条线，带头往下走，龙头公司得出面澄清业绩传言。</strong></p>
-  <p>那几天盘面，跌得最狠的，恰恰是前几个月涨得最猛的。</p>
-  <p><strong>机构给的解释：盈利预期打得太满，油价和美债利率又在往上拱，压力自然砸在人最多的位置。</strong></p>
-  <p>市场的说法更形象，叫「杀估值」。逻辑没塌，价格在还债，还的是前面涨太快欠的账。钱也没有撤走，只是从最挤的地方，挪到人少的角落。</p>
-  <p>智远认为，海这边跌掉的这几个点，和那笔天量预付款，是同一件事。</p>
-  <p><strong>而消息和情绪，现在跨洋不用一夜，那边一篇文章，这边开盘就得消化。两边的钱，都在把想象，换成现金流。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260925/v2_64892d49302948379f6571f0953234c2@000000_oswg659315oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>所以，那市场到底在怕什么？</p>
-  <p><strong>怕的是闭环。</strong>钱从债市出发，进云厂商的账，换成芯片和机房，最后要等模型公司把收入还回来。这条链已经拉得很长，每一环，都踩在下一环的承诺上，哪一环打了喷嚏，后面的人都得感冒。</p>
-  <p><strong>借钱的成本在变贵，亚马逊今年发了一笔 250 亿美元的大额债，认购只有 1.6 倍，往常这种级别的债，四到五倍是标配。</strong></p>
-  <p>现金流那头也在变紧，谷歌在二季度，交出了二十多年来第一个负的自由现金流。赚的钱，不够花的。</p>
-  <p><strong>钱还在往里流，只是变贵了，也变挑了。</strong></p>
-  <p>前阵子，在孟买的一场活动上，国际清算银行的总经理公开提醒过一句：<strong>一旦 AI 的回报让人失望，今天的投资繁荣，可能反过来变成萧条。这家银行，各国央行的央行。</strong></p>
-  <p>乐观派的回答也没变过，业绩不假，回款也不假，泡沫的经典信号，一个都没凑齐。</p>
-  <p>两边从 2023 年吵到现在，谁也没说服谁。去年 11 月，美银的机构调查里，45% 的受访投资者把 AI 泡沫列为最大的尾部风险。</p>
-  <p>到了 9 月中旬，这个数降到了 28%，排第一的换成了「债券收益率的无序上升」。吵了这么久，市场最怕的东西，还是绕回了钱的价钱。</p>
-  <p>......</p>
-  <p><strong>所有这些紧张，都关于同一个词，「什么时候」。这个问题，开始有答案了，最先到货的，是一张回款单。</strong></p>
-  <p>写单子的，是 Anthropic。这家公司从一开始就盯着企业客户，不凑热闹。</p>
-  <p>到今年 7 月底，它的年化收入过了 650 亿美元，去年年底，这个数还是 90 亿，而最新的预期，年底冲过 1000 亿；<strong>光二季度，它收了 115 亿，调整后的营业利润，转正了。头部模型公司里，头一份这样稳稳收钱的。</strong></p>
-  <p>另一个名字也得提，OpenAI 年化收入，7 月过了 400 亿，比去年年底翻了一倍。650 亿一年，摊到每天，1.8 亿美元。</p>
-  <p><strong>Anthropic 的下一步是上市，预期估值 2 万亿美元，募资规模可能创下纪录。</strong>挂牌日子，原定10 月，最新传出的说法，推到了 11 月，等一份三季报压阵。回款最快的这家，也最先走到了上市的门口。</p>
-  <p>大头来自写代码。</p>
-  <p>所有 AI 场景里，编程是第一个真正跑通付费的，Anthropic 的收入，七八成来自企业调用，公司自己说，编程工具撑起了最大的那截增长。</p>
-  <p>国内这边，形状不太一样，模型公司的收入还没到美国同行那个量级，落地动作倒是很密，字节 AI 年化收入，到 7 月有 40 亿美元。</p>
-  <p>阿里的模型服务，今年早些时候披露的年化数字，过了 160 亿元人民币。</p>
-  <p><strong>往下走，货进了企业的仓库。</strong>招商银行算过一笔账：</p>
-  <p>上半年，AI 帮着省出 1388 万小时的工作量，摊下来，差不多是 7000 人干一年的活；工商银行的 AI 审查，半年出了 36 万条意见，采纳率 98.6%。</p>
-  <p>国家电网那边，1.8 万名运维人员配上了 AI 助手，一次全站巡视，从两个半小时，缩到 45 分钟；咨询机构 Gartner 判断，到今年底，全球四成企业的应用里，会长出智能体。</p>
-  <p><strong>更大的货还在路上，但日子已经写上了。</strong></p>
-  <p>Anthropic 说，2028 年盈亏平衡。OpenAI 的时间表是 2030 年盈利，在那之前还要烧一大笔，2028 年的亏损预期，写着 740 亿美元。</p>
-  <p><strong>敢把时间表摆出来，底气在数字里，Anthropic 自己算过，烧钱的速度，2026 年会降到收入的三分之一，2027 年，再降到一成以下。</strong></p>
-  <p>这条时间线，不少研报已经圈过重点，2027 到 2028 年，是检验窗口；到那一天，这笔天量预付款，会迎来第一次真正的对账，要么货到齐了，故事接着讲，要么，账重新算。</p>
-  <p><strong>反过来，如果 2027 年真成了交货大年，今天这些争吵，过两年回看，顶多算一段插曲。</strong></p>
-  <p>对了，还有一个问题，到货顺序。在我看来，这轮的故事，会一直排着队讲。</p>
-  <p>先拿到货的，是硬件和头部那两三家模型公司，剩下的大多数，还在排队；有分析说，最后能拿到大头的，可能只有百分之一二。</p>
-  <p><strong>这轮行情不齐涨，一拨一拨地来。</strong></p>
-  <p>融资利息，是接下来要盯的头一个数；它继续往上走，谁先借不到钱，货就先停在谁手里。另一个数是收入，头部模型公司的环比，哪个月停了增速，这笔账的性质就变了。</p>
-  <p><strong>第一张单子已经写上了数字，剩下的，一张一张验。</strong></p>
-  <p><strong>文中数据与事实来源：</strong></p>
-  <p><strong>[1].</strong>公司财报与公开披露（微软、谷歌、亚马逊、Meta、Anthropic、OpenAI、招商银行、工商银行、国家电网、字节跳动、阿里巴巴等），机构研报与测算（中信建投、摩根大通、红杉资本、高盛、Gartner 等），官方与行业数据（美联储、美银全球基金经理调查、国际清算银行、Wind 等），不构成投资建议</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1440" src="https://img.36krcdn.com/hsossms/20260925/v2_afa3317cf7f04ceebd15d657d11c2eb4@000000_oswg1633050oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzU5ODMyNDEyNw==&amp;mid=2247509911&amp;idx=1&amp;sn=dc4526e9750d67fac6a4b3f982d05e55&amp;chksm=ff60b963453a1922c97c83f367ab77dd5bc5b870f82f886e0d66086aeadb06b7b9de78a97d14&amp;scene=0&amp;xtrack=1#rd">“王智远”（ID：Z201440）</a>，作者：王智远，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 25 Sep 2026 03:04:02 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3998202026446978</guid>
-            <link>https://www.36kr.com/p/3998202026446978</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[刚刚，DeepSeek Harness桌面预览版上线！]]></title>
-            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260925/v2_e61251f8e08f432b8ce6163923cfa956@000000_oswg694111oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>作者 | 青和</p>
-  <p>编辑｜四月</p>
-  <p><ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>“<strong>逢假必放更新</strong>”的铁律仍然奏效。在这个双节假期，社区终于等来了<strong>Harness 的桌面端入口</strong>。</p>
-  <p>昨晚，有开发者在<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link><strong>官方GitHub仓库</strong>中发现了Harness桌面端源码，官方代码还明确写出了更新源&nbsp;download.deepseek.com。早在8月底，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>官方&nbsp;deepseek-ai/deepseek-harness&nbsp;仓库中就已经出现了<strong>完整的&nbsp;apps/desktop&nbsp;目录</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,520" src="https://img.36krcdn.com/hsossms/20260925/v2_75a8e1672c8f46ba9d641625c471c1cd@000000_oswg131033oswg1080oswg520_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>官方技术文档明确写道，<strong>桌面端采用Electron实现</strong>，目标并不是重新开发一套Harness，而是<strong>直接复用现有Web UI以及Agent、会话、工具、插件等运行逻辑</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,567" src="https://img.36krcdn.com/hsossms/20260925/v2_b65d28c62aaa4561ba7f7359766597f9@000000_oswg297278oswg1080oswg567_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,609" src="https://img.36krcdn.com/hsossms/20260925/v2_54e4a4d6c04b466cbf118119dfdb60a6@000000_oswg204079oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>虽然截至发稿前，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>官网和GitHub Release 尚未正式挂出桌面版下载入口，但 Mac和Windows版本均在社区中传开，暂无Linux版本，链接与官方下载源能对应上。</p>
-  <p><ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link><strong>Windows 版本下载</strong></p>
-  <p>https://download.deepseek.com/dsh-desk/bin/win-x64/deepseek-harness-0.1.7-rc.1.20260924.1-win-x64.exe</p>
-  <p><ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link><strong>Mac 客户端下载 （arm64）</strong></p>
-  <p>https://download.deepseek.com/dsh-desk/bin/mac-arm64/deepseek-harness-0.1.7-rc.1.20260924.1-mac-arm64.dmg</p>
-  <p>据了解，Mac版本还通过了Apple公证，签名主体直接显示为<strong>Hangzhou <ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link> Artificial Intelligence Co., Ltd</strong>，Bundle ID为&nbsp;com.deepseek.dsh。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,549" src="https://img.36krcdn.com/hsossms/20260925/v2_dca57c8b75234e219293ec30b5133528@000000_oswg219690oswg1080oswg549_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>下载版本号为 V0.1.7-rc.1。我们实际安装后发现，客户端内置版本更新功能，实测当前最新版本显示为<strong>V0.1.7-rc.2</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="834,384" src="https://img.36krcdn.com/hsossms/20260925/v2_9e2ef651aebe411d9980ca223f4628c0@000000_oswg39033oswg834oswg384_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>该客户端与常规 Web 端“注册即用”的体验有所不同，主要有两点：</p>
-  <p><strong>非纯免费工具</strong>：初次进入若无额度，需要充值或绑定具有有效余额的账户，并且需要实名认证；</p>
-  <p class="image-wrapper"><img data-img-size-val="830,488" src="https://img.36krcdn.com/hsossms/20260925/v2_c4dd640103404aedadb44442181fe133@000000_oswg72641oswg830oswg488_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1130" src="https://img.36krcdn.com/hsossms/20260925/v2_3201ee30c49545e195baa4ff5c075d65@000000_oswg210321oswg1080oswg1130_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>支持 API 接入</strong>：用户可选择直接调用官方 API 密钥（API Key）。</p>
-  <p>从界面来看，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 的UI设计呈现出极简的无边框轻拟态风格。（预览版）</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,675" src="https://img.36krcdn.com/hsossms/20260925/v2_55f42a4f30684b7baa8dc881da68c60b@000000_oswg36760oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>在工作模式上，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>主要设计了<strong>办公与创作</strong>、<strong>代码与开发</strong>两个类别。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,692" src="https://img.36krcdn.com/hsossms/20260925/v2_e9b6ddcf2eb94de58905af111c6400c8@000000_oswg39809oswg1080oswg692_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>在展示工作过程偏好上，提供了<strong>聚焦结果、关键细节、完整过程</strong>三种模式。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,574" src="https://img.36krcdn.com/hsossms/20260925/v2_df51765b9b534b1e88cc5e776e535952@000000_oswg29169oswg1080oswg574_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Agent 模式下，可提供<strong>标准模式、PTC 模式、极简模式、创造模式</strong>四种工作流档位，方便用户根据任务复杂度切换。</p>
-  <p class="image-wrapper"><img data-img-size-val="710,668" src="https://img.36krcdn.com/hsossms/20260925/v2_9acff1392cd143bf9eb3432dd5f8e933@000000_oswg108563oswg710oswg668_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>标准模式</strong>适合大多数通用任务；</p>
-  <p><strong>PTC （Programmatic Tool Calling，程序化工具调用）</strong>， 更强调批量调用工具后的筛选、整理与汇总。也就是说，在该模式下，模型不再通过多轮网络往返逐次执行命令，而是自主编写一整段代码程序去编排、批量调度多项工具，完成结果的筛选与汇总，可降低延迟并提升复杂流水线的稳定性。</p>
-  <p><strong>极简模式</strong>则只使用终端工具，更适合轻量对比与 Benchmark 基准测试设计；</p>
-  <p><strong>创造模式</strong>偏向定制化，允许开发者通过自然语言直接在内存中调试 Cordis 插件、动态拓展界面并构建属于自己的全新 Agent 模式。</p>
-  <p>插件管理面板直观展现了官方基于“一切皆插件”架构的底层工程逻辑。除常规的“网页搜索”提供方配置外，目前预览版还还涵盖了<strong>智能体团队与 Subagent、本地化与执行管控</strong>等进阶能力，同时<strong>允许代码仓调用</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,730" src="https://img.36krcdn.com/hsossms/20260925/v2_90029fcb38fc4b3a8d0b336db1f2d450@000000_oswg125251oswg1080oswg730_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>实际体验中，Harness 的回答区采用了<strong>明显的任务式设计</strong>。用户提交问题后，界面会先展示“处理完成”“执行完成”等状态，并直接标出上下文 Token 数、工具调用次数和耗时，能够看到 Agent 在后台是否调用了工具。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,2341" src="https://img.36krcdn.com/hsossms/20260925/v2_63e7d7ec667f40668ff7acfd8c9ce466@000000_oswg873885oswg1080oswg2341_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>回复内容本身也比较<strong>强调结构化呈现</strong>。以查询 <ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link> API 价格为例，它先给出结论，再通过表格对比不同模型，随后生成价格卡片、规则说明，甚至直接在回答中嵌入了一个<strong>可拖动参数的月成本估算器</strong>。长回答因此更像一张动态信息页面，而不是连续堆叠的 Markdown 文本。</p>
-  <p><strong>声明：本文为&nbsp;AI 前线原创，不代表平台观点，也不构成投资建议，未经许可禁止转载。</strong></p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247667747&amp;idx=1&amp;sn=ed916e27908ec5862d165217c8cc68d0&amp;chksm=fac2a85bb328d5e5a2d79fbfb939698bb97b7b9c5634bbbeb9b1dd0e29bcc86c04d9184cddf6&amp;scene=0&amp;xtrack=1#rd">“AI前线”（ID：ai-front）</a>，作者：青和，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 25 Sep 2026 02:41:23 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3998199345500040</guid>
-            <link>https://www.36kr.com/p/3998199345500040</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[大厂的AI战火，攻入硬件]]></title>
-            <description><![CDATA[<p>大厂的AI战火，从屏幕里的应用，烧向看得见摸得着的终端。</p>
-  <p>2023年“百模大战”后，这是大模型战争的第四个年头，过去，各家围绕参数、榜单和推理成本下了血本，最近，新的变化又始现。</p>
-  <p>9月22日，据《晚点LatePost》报道，继AI眼镜后，阿里云旗下无影团队正在试水一款QwenBook的AI平板设备，定位原生智能体电脑，完整版预计2026年年底或2027年年初发布。</p>
-  <p>在此前 ，字节刚推出第二代<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机，小米开源AI硬件项目，百度也升级了小度智能体。另外，今年上半年，华为更是一口气推出数款新品智能终端，其中首款鸿蒙AI眼镜成为其抢占增量入口的关键。</p>
-  <p>动作看似分散，实则指向一个趋势。那便是，当AI从对话进化到执行，它就不能再满足于住在别人的硬件里。</p>
-  <p>也就是说，Agent需要感知环境、调用系统资源、跨应用完成任务，而这些能力，仅仅只依靠模型远远不够，掌握硬件入口才能真正跑通。</p>
-  <p>不过，问题也随之而来。大厂到底为什么要抢硬件？Agent时代，终端是不是最终的入口？这场战争，会以什么方式收场？</p>
-  <p>事实上，答卷才刚刚展开。</p>
-  <h2><strong>大厂疯抢AI硬件</strong></h2>
-  <p>大厂正在加速扎堆AI硬件，不是简单发个联名款，或贴个牌，而是在“实干”。</p>
-  <p>先看阿里。</p>
-  <p>9月22日，《晚点LatePost》独家报道，阿里云旗下无影团队正在研发一款叫QwenBook的AI设备，定位原生智能体电脑，形态更接近一台平板。</p>
-  <p>报道称，团队约150人，系统团队基于无影和阿里云OS重组，硬件团队挖了不少头部手机厂商的人。</p>
-  <p>据悉，产品还将接入Qwen3.8-Max和Qwen3.8-Flash，和金山深度合作打通WPS。内部人士说，这是“早期试水产品”，完整版预计2026年年底或2027年初发布。</p>
-  <p>但阿里不是只做平板。</p>
-  <p>此前，搭载<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>的<ai-product-link data-id="14571" data-name="夸克" data-logo="https://img.36dianping.com/20250909/v2_c507a9e79b5a48b1a8f2c0a712ed82cb_oswg14837oswg512oswg512_img_000" data-classify-list="摘要总结,智能搜索,文档处理" data-refer-type="20">夸克</ai-product-link>AI眼镜，和钉钉DingTalk A1 Pro录音笔均已上市。如果说AI眼镜管感知交互，录音笔管办公执行，那么平板应该在回答一个更底层的问题，当Agent需要调用系统资源、跨应用执行任务时，它的“家”应该长什么样。</p>
-  <p>字节跑得更快。</p>
-  <p>2025年年底，第一代<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机便开始试水。今年9月，<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>推出第二代<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机努比亚NaviX Ultra。并且，这次<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>选择“用协议换空间，用开放换规模”，填补此前一些踩过的“坑”。</p>
-  <p>小米走的是“全”字诀，逻辑是不押注单一品类，将AI铺到尽可能多的终端上。其AI硬件战略，是以自研芯片和AI模型为底座，通过“人车家”三个场景的终端矩阵，将AI能力系统性地铺向自家产品线。</p>
-  <p>百度方面，出于基因沉淀，更深耕家庭。</p>
-  <p>此前，小度宣布超能小度完成智能体化升级，同时上市硬件新品，包括小度闺蜜机、智能屏、摄像机和音箱等。百度说自己形成了“芯云模体”的完整布局，快速争夺AI时代的入口。</p>
-  <p>再来看看本身就拥有终端“全家桶”的华为。</p>
-  <p>华为的策略是先解决“AI能力从哪来”，再将能力延伸到自家终端。底层依托昇腾算力和<ai-product-link data-id="14620" data-name="盘古大模型" data-logo="https://img.36dianping.com/20250909/v2_7adcf653a52547498dcf0775e7f9d4dc_oswg9668oswg96oswg96_img_000" data-classify-list="大厂出品,模型训练" data-refer-type="20">盘古大模型</ai-product-link>，通过自研芯片、鸿蒙系统，把AI能力下沉到手机、眼镜、PC等硬件。</p>
-  <p>今年4月，华为一口气推出十余款智能新品，其中首款鸿蒙AI眼镜，也是华为抢AI穿戴市场的关键。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1070" src="https://img.36krcdn.com/hsossms/20260924/v2_41ebc4fb700f4986b1929d26590a1680@5951134_oswg230966oswg1080oswg1070_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图：电商平台部分AI硬件，来源：京东 &nbsp;《听筒Tech》截图</p>
-  <p>当然，还有一些另外的故事。</p>
-  <p>无论是雷鸟，还是Rokid等，这些智能硬件公司也都在加速布局Agent。</p>
-  <p>Counterpoint Research数据显示，2026年上半年全球智能眼镜出货同比增长263%，其中无显示智能眼镜占比高达96%。</p>
-  <p>EssilorLuxottica CEO还透露，轻量化、高频使用的AI眼镜，成了硬件竞赛里第一个跑出规模效应的品类。</p>
-  <p>一时间，无论是互联网大厂，还是智能硬件公司，都在这个赛道加速。</p>
-  <h2><strong>非做不可？</strong></h2>
-  <p>为什么在模型领域抢得热火朝天的大厂，同样不放过硬件赛道？</p>
-  <p>诸多的分析指出，本质在于这一轮的AI终端之争，规则和底层逻辑都变了。</p>
-  <p>过去，大厂做硬件，主要集中在手机、PC、平板、音箱、电视等成熟品类。做硬件的逻辑也很简单，大多是大厂想卖设备、抢流量、扩生态。</p>
-  <p>但AI硬件重点已经不在硬件本身。除了手机，还有眼镜、录音笔、平板、机器人等，形态各异。另外，产品也围绕Agent重新组织交互、算力和系统权限部署。</p>
-  <p>消费电子观察人士力哥表示，“明显看到，<strong>上一波是给旧硬件加AI功能，这一波就是为Agent重构硬件。</strong>简单说，前者将智能化当卖点，现在是将AI当主人，去驱动用户。 ”</p>
-  <p>原因很简单，Agent时代，大厂需要主动去抢系统性控制权。</p>
-  <p>最明显的是，触达消费场景的入口变了。</p>
-  <p>PC时代，用户的入口是浏览器，移动时代入口是App商店和超级App，走到AI时代，入口则变成了能感知环境、理解意图、主动服务的智能终端。</p>
-  <p>“谁掌握了用户的眼镜、耳机、手机，谁就掌握了用户即时需求的第一触点，这是比流量更高维度的权力。”力哥解释。</p>
-  <p>但入口争夺，比想象中复杂。</p>
-  <p>诸如，经过多年的竞争，消费电子市场格局已经极度成熟，手机硬件、操作系统和应用商店、销售渠道都高度绑定。</p>
-  <p>另外，无论是华为、小米，还是OPPO、vivo，都在做自己的系统级Agent，头部手机厂商将AI视为最重要的系统能力，自然不愿意把入口交给别人。</p>
-  <p>互联网大厂只能在眼镜、录音笔、平板、智能屏等这些形态突围，试图围绕Agent，重新组织交互、算力和系统权限。</p>
-  <p>另外，推理算力从云端下沉到端侧，也迫使大厂必须去抢跑AI硬件赛道。</p>
-  <p>市场分析指出，从2026年开始，推理算力的增长速度已经快于训练算力。而AI从训练走向推理，算力需求从云端延伸到边缘和端侧。</p>
-  <p>这就要求，AI硬件不是旧硬件加个AI功能，而是要重新定义硬件架构。这也意味着，AI硬件空间想象无穷，也是大厂必须要做的事。</p>
-  <p>不过，针对大厂去试水自己并不擅长的AI硬件赛道，力哥坦言，“最根本的原因是，<strong>没有硬件入口，模型难以获得系统级控制权和第一手场景数据。</strong>”</p>
-  <p>以阿里为例，阿里财报显示，阿里云收入增速从2025年12月季度的36%，同比加速到2026年6月季度的45%，AI产品收入增长强劲。</p>
-  <p>但美银美林的中国AI策略报告提出一个判断，中国AI价值链正在形成哑铃型利润结构，价值集中在硬件与云平台两端，夹在中间的大模型实验室，却面临转换成本低、模仿速度快、定价权薄弱的多重挤压。</p>
-  <p>说白了，仅仅依靠模型能力，本身很难形成持久壁垒，真正的护城河在硬件入口、用户数据和场景闭环。</p>
-  <p>因此，才有<ai-product-link data-id="14571" data-name="夸克" data-logo="https://img.36dianping.com/20250909/v2_c507a9e79b5a48b1a8f2c0a712ed82cb_oswg14837oswg512oswg512_img_000" data-classify-list="摘要总结,智能搜索,文档处理" data-refer-type="20">夸克</ai-product-link>眼镜联合阿里生态打通搜索、商旅；钉钉录音笔的内容，流转到钉钉工作台；QwenBook或将优先接入自有应用和WPS，去强化数据和服务闭环。</p>
-  <p>不过，一位内部人士也点出了问题，“如果Agent只能调用阿里自己开发的工具，QwenBook就更接近一套阿里定制的办公环境，用户没法在原有软件生态里工作。”</p>
-  <p>显然，这不仅是阿里，也是所有大厂做AI硬件，都要直面的问题。</p>
-  <h2><strong>前景很美，但墙也硬</strong></h2>
-  <p>事实上，尽管AI硬件距离生态打通和真正改变生活，还有一段不短的路，但大厂还是纷纷抢生态卡位。</p>
-  <p>毕竟，市场太诱人。</p>
-  <p>Gartner预计，2026年AI PC出货1.43亿台，占整个PC市场55%。中泰证券研究所认为，全球半导体市场在AI驱动下2026年规模突破万亿美元，远超上一轮周期的五千亿美元。</p>
-  <p>仅就AI眼镜方面，IDC预测，2026年全球智能眼镜出货将突破2368.7万台。Meta雷朋联名款一年卖超700万台。</p>
-  <p>盘子够大，增速够快，但前景归前景，墙也是真硬。</p>
-  <p>力哥表示，不可否认，“第一堵墙，就是生态墙。”</p>
-  <p>诸如，此前，有AI手机被微信、美团、阿里系等应用集体抵制，功能直接下线。“说白了，大厂只负责做功能，平台决定它能不能跑，没人愿意将命门交出去。”力哥表示。</p>
-  <p>第二堵，就是安全墙。</p>
-  <p>“用户将手机、支付、通信权限交给Agent，这事本身需要商议。端侧AI虽然数据留在本地，但智能体自主决策、调用应用，容易引发隐私泄露、恶意指令执行。”力哥坦言。</p>
-  <p>以AI手机为例，此前，工信部信息通信经济专家委员会委员就指出，传统手机和AI智能体最重要的区别是“自主性”，而AI智能体要获得自主性，需要获得APP调用权限，并在调用的时候保障安全。</p>
-  <p>另外，成本也是赛道跑通的前提。</p>
-  <p>传统互联网的商业逻辑是，用户越多，边际成本趋近于零。AI硬件的逻辑却反过来，在云端推理、免费模式为主的阶段，用户越多，推理消耗越大，亏得却越多。</p>
-  <p>此前，有具身智能创始人表示，算法工程师一下午烧掉300-500美元，比工程师的工资还高。</p>
-  <p>另有媒体报道，深圳一家AI教育硬件公司，产品用户为25万，日均使用时间是45分钟，却始终不盈利。原因就在于，Token费用太高。</p>
-  <p>从产业链角度来看，成本还包括芯片的涨价。</p>
-  <p>公开数据显示，近期，DRAM在端侧硬件成本占比，从一成向四成逼近，合约价出现两位数上涨，缺货至少持续到2027年。而端侧AI最需要的大内存，此前明明是最便宜的料，现如今却涨成了奢侈品。</p>
-  <p>当然，于用户而言，“AI硬件不好用”、“智能眼镜智商税太贵”、“用不习惯”，也是市场给出的直接答案。</p>
-  <p>实际上，在社交平台，有不少AI硬件被吐槽，功能兑现不足，响应延迟，最后还得掏手机。</p>
-  <p>另外，鉴于功能受限，AI眼镜的退货率居高不下，有供应链人士表示，部分产品已经高达40-50%。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,895" src="https://img.36krcdn.com/hsossms/20260924/v2_e7df9b9fd2e84c7888c03ed6dceb9fe5@5951134_oswg96837oswg1080oswg895_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图：社交平台关于“AI眼镜”的讨论，来源：小红书 &nbsp; 《听筒Tech》截图</p>
-  <p>“轻量化、高频使用听起来美，但前提是，它得解决一个手机解决不好，甚至解决不了的问题。至少目前，大多数AI硬件还没做到。”力哥坦言。</p>
-  <p><strong>生态要谈判，安全要制度，成本要突破，习惯要培养，这些都是行业需要做的事。</strong>本质上，这些并不是靠堆参数、发新品，就能越过的高山。</p>
-  <p>而大厂们需要同时打这四场仗，任何一场输了，硬件就只是硬件，Agent就还只是云端API。</p>
-  <p>“但反过来说，谁先翻过这堵墙，谁就拿到Agent时代真正的系统级入场券。”诚如力哥所言，以QwenBook为例，官方说是一款“试水产品”。但试水的，应该不只是一台平板，而是对整个行业AI硬件形态的一次探索。</p>
-  <p>“<strong>水有多深，跳下去才知道。毕竟，战争短期内不会结束，甚至三年分不出胜负。</strong>”力哥坦言。</p>
-  <p>（头图来自《坦克大决战》剧照，部分配图由AI生成。）</p>
-  <p>（声明：本文仅作为信息交流，不构成任何投资参考建议。）</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/g48Vp9SgZ3gRLVTPUeZUqg">“听筒Tech”</a>，作者：陈柯，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Thu, 24 Sep 2026 12:57:23 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3997256894977664</guid>
-            <link>https://www.36kr.com/p/3997256894977664</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[宇树退烧之后，这家机器人企业花8亿买了一家装修公司]]></title>
-            <description><![CDATA[<blockquote>
-   <p><strong>摘要：当IPO越来越看重一家机器人公司“已经做成了什么”，那些还在成长中的公司，可能开始思考——能不能先拥有一家上市公司，再等待自己的产业真正成熟？</strong></p>
-  </blockquote>
-  <p>一边是成立不到两年的机器人创业公司，年收入还只有千万元级；另一边是成立42年、上市9年、如今已经被*ST、净资产为负的传统装修公司。现在，前者准备花8.1亿元，成为后者的新老板。</p>
-  <p>背后的问题是：在机器人企业IPO审核趋严的背景下，为什么突然出现机器人公司通过重组、并购、上市公司控制权等方式，进入资本市场？这究竟只是几起独立的资本运作，还是机器人公司正在尝试探索IPO之外的资本化路径？</p>
-  <h2><strong>两个不相干的世界撞在了一起</strong></h2>
-  <p>很难想象，机器人公司和装修公司能有什么交集。但9月22日晚，就是这样的两家突然被放进了同一份公告里。</p>
-  <p>*ST美芝公告称，北京深朴智能牵头的15方投资联合体，成为公司庭外重组及后续司法重整的中选投资人。深朴智能拟出资约8.1亿元，认购约9286万股，成为公司新的控股股东。</p>
-  <p>一个做机器人的公司，为什么突然要去接手一家濒临退市的装修公司？</p>
-  <p>更奇怪的是，这还不是一笔小额的产业投资。深朴牵头的联合体拟投入约18亿元，重整完成后预计持有美芝约54.9%的股份。</p>
-  <p>从机器人到装修，从AI创业公司到ST上市公司，中间几乎隔着两个世界。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,667" src="https://img.36krcdn.com/hsossms/20260924/v2_8773e4c3ceca4cbf995479ebb6c88e43@46958_oswg122802oswg1080oswg667_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>从时间上看，深朴智能和美芝也几乎像是两个时代的产物。</p>
-  <p>美芝成立于1984年，经历了房地产、基建和建筑装饰行业几十年的周期变化，2017年登陆深交所。如今它面对的是，2025年末归母净资产为-5246.62万元，最近三个会计年度扣非前后净利润孰低者均为负，股票已经被实施退市风险警示。如果2026年度再触及相关退市条件，公司股票将面临终止上市风险；</p>
-  <p><strong>相比之下，准备接手的深朴智能要年轻得多。</strong></p>
-  <p>公司定位是通用具身智能机器人，选择酒店、康养、零售、家政等类家庭场景作为早期落地方向，最终目标是让机器人进入家庭。公开产品包括服务机器人小朴、HiFi UMI 数据生产系统和具身智能模型。</p>
-  <p>创始人李晓飞本科和博士都毕业于清华大学汽车工程系，研究方向是智能汽车环境感知和人工智能算法，此前长期从事自动驾驶相关创业，后来转向具身智能。他直接持有深朴智能 21.25% 的股权，又通过控制的三家合伙企业持有 25.49%，合计控制约 46.74% 的表决权。</p>
-  <p>公司的机器人已经开始在酒店场景测试。在北京丽都维景酒店，机器人可以完成物品归置、衣物送洗和叠放等动作。深朴还与中旅酒店签了战略合作框架，提出在其旗下 400 余家酒店部署机器人，但从公开进展看，目前落地的主要还是这家酒店的概念验证。</p>
-  <p>成立不到两年，深朴已经完成五轮融资，顺为资本、百度风投、滴滴等先后进入股东名单。今年 6 月，滴滴领投了数亿元 Pre-A 轮；9 月上旬，公司又完成数亿元 Pre-A + 轮，两轮相隔约三个月。</p>
-  <p>但经营规模仍然很小。公告显示，深朴智能 2025 年营收 1098.02 万元，净亏损 1009.57 万元；2026 年截至 9 月 14 日，营收 700 万元，净亏损 3525 万元。资金也有缺口。截至 9 月 14 日，公司账面非受限货币资金 5.12 亿元，距离 8.1 亿元还差约 3 亿元。协议允许投资款来自自有或自筹，但自有资金比例不得低于 50%。</p>
-  <p>可以说，深朴还没有长成一家成熟的机器人公司，所以问题也开始浮现：一家自己还在烧钱、商业化也处于早期的机器人公司，为什么这么早就开始谋求一家上市公司的控制权？它是想“救”一家装修公司，还是想借一家濒临退市的上市公司，为自己的机器人业务寻找一条更快的资本化通道？</p>
-  <h2><strong>宇树上市的“余震”还在继续</strong></h2>
-  <p>如果只看这笔交易本身，它多少有些荒诞：一个刚刚学会走路的机器人创业公司，去接手一个已经走了42年的装修公司。</p>
-  <p>偏偏就在深朴和美芝碰到一起之前，中国机器人产业刚刚经历了一轮非常特殊的资本市场变化。</p>
-  <p>8月19日，宇树科技上市，当天股价冲到1100元/股，市值达到4449亿元。这个数字曾让整个机器人行业陷入一种近乎狂热的想象：一家机器人公司的资本市场估值，可以在上市第一天被推到接近4500亿元。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,627" src="https://img.36krcdn.com/hsossms/20260924/v2_1eb08a0d89bb413c994ace6915647ba2@46958_oswg274190oswg1080oswg627_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>但这场狂欢没有持续太久，上市至今，宇树的股价和市值都缩水超过55%；截止9月24日收盘，股价已跌至488元，市值回落至2000亿元以下。</p>
-  <p>这也让资本市场重新追问：机器人究竟是一门已经跑通的生意，还是一个还需要时间验证的超级产业故事？几乎同一时间，人形机器人行业传出IPO审核收紧的消息。9月21日，财联社报道称，部分投行人员已经收到所在公司的提醒，涉及机器人行业在内的硬科技IPO，行业地位如果不够突出，上市进程可能受到影响。有头部券商人士表示，这更多是为了压实保荐机构前端把关责任，而非简单意义上的“叫停”。</p>
-  <p>这意味着，机器人公司的IPO虽然没有被正式关掉，但游戏规则已经在变化。问题是，哪些已经走到资本化门口的机器人公司怎么办？</p>
-  <p><strong>深朴智能的动作，提供了一种可能：不一定非要自己排队IPO，也可以先成为一家上市公司的老板，类似借壳上市。</strong></p>
-  <p>而此前，优必选、七腾机器人也都先后拿下了上市公司的控制权，虽然这些企业一度否认自己要借壳上市，但市场已经开始把“机器人公司+上市公司控制权”，自动理解成一种新的资本化路径。媒体甚至用“屯壳”来描述这种现象。</p>
-  <p>另外，七腾机器人在拿下上市公司控制权后，则真的开始往机器人业务上改造上市公司。</p>
-  <p>所以，这些看起来彼此之间没啥关系的交易，开始有了某种共同的指向：当IPO越来越看重一家机器人公司“已经做成了什么”，那些还在成长中的公司，可能开始思考——能不能先拥有一家上市公司，再等待自己的产业真正成熟？</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/0NXRBbtmpN1V0KxT00XLpQ">“凤凰网科技”</a>，作者：路春锋，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Thu, 24 Sep 2026 12:54:34 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/3997354896969603</guid>
-            <link>https://www.36kr.com/p/3997354896969603</link>
             
             
             
