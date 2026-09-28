@@ -11,6 +11,31 @@
  </author>
  <published>2012-02-21T04:08:32+00:00</published>
  <entry>
+  <id>yt:video:hLWiGBqUjg0</id>
+  <yt:videoId>hLWiGBqUjg0</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>How tokenizers turn text into numbers</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/hLWiGBqUjg0"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-09-28T12:00:19+00:00</published>
+  <updated>2026-09-28T12:00:21+00:00</updated>
+  <media:group>
+   <media:title>How tokenizers turn text into numbers</media:title>
+   <media:content url="https://www.youtube.com/v/hLWiGBqUjg0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hLWiGBqUjg0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A tokenizer splits text into tokens and maps them to numeric IDs. I walk through this process with the Qwen3 tokenizer, then show how decoding reconstructs the original text.
+
+An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="9"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:TVMyOJ_3Gxo</id>
   <yt:videoId>TVMyOJ_3Gxo</yt:videoId>
   <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
@@ -51,8 +76,8 @@
 1:05:57 MATH-500 evaluation results
 1:07:35 Takeaways and next steps</media:description>
    <media:community>
-    <media:starRating count="66" average="5.00" min="1" max="5"/>
-    <media:statistics views="4023"/>
+    <media:starRating count="82" average="5.00" min="1" max="5"/>
+    <media:statistics views="5477"/>
    </media:community>
   </media:group>
  </entry>
@@ -67,7 +92,7 @@
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-25T11:50:14+00:00</published>
-  <updated>2026-09-25T20:07:34+00:00</updated>
+  <updated>2026-09-27T16:50:01+00:00</updated>
   <media:group>
    <media:title>Why learn with &quot;from-scratch&quot; code?</media:title>
    <media:content url="https://www.youtube.com/v/Zx5AfEg-T2Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -76,8 +101,8 @@
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="82" average="5.00" min="1" max="5"/>
-    <media:statistics views="2061"/>
+    <media:starRating count="125" average="5.00" min="1" max="5"/>
+    <media:statistics views="2835"/>
    </media:community>
   </media:group>
  </entry>
@@ -103,8 +128,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 Article on coding an agent harness: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent</media:description>
    <media:community>
-    <media:starRating count="135" average="5.00" min="1" max="5"/>
-    <media:statistics views="4654"/>
+    <media:starRating count="139" average="5.00" min="1" max="5"/>
+    <media:statistics views="4955"/>
    </media:community>
   </media:group>
  </entry>
@@ -129,7 +154,7 @@ Article on coding an agent harness: https://magazine.sebastianraschka.com/p/comp
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="461"/>
+    <media:statistics views="472"/>
    </media:community>
   </media:group>
  </entry>
@@ -180,8 +205,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="144" average="5.00" min="1" max="5"/>
-    <media:statistics views="11153"/>
+    <media:starRating count="150" average="5.00" min="1" max="5"/>
+    <media:statistics views="11418"/>
    </media:community>
   </media:group>
  </entry>
@@ -206,7 +231,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="2559"/>
+    <media:statistics views="2563"/>
    </media:community>
   </media:group>
  </entry>
@@ -263,8 +288,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="194" average="5.00" min="1" max="5"/>
-    <media:statistics views="16503"/>
+    <media:starRating count="198" average="5.00" min="1" max="5"/>
+    <media:statistics views="16663"/>
    </media:community>
   </media:group>
  </entry>
@@ -327,8 +352,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="223" average="5.00" min="1" max="5"/>
-    <media:statistics views="16168"/>
+    <media:starRating count="229" average="5.00" min="1" max="5"/>
+    <media:statistics views="16352"/>
    </media:community>
   </media:group>
  </entry>
@@ -399,8 +424,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1197" average="5.00" min="1" max="5"/>
-    <media:statistics views="119791"/>
+    <media:starRating count="1200" average="5.00" min="1" max="5"/>
+    <media:statistics views="120026"/>
    </media:community>
   </media:group>
  </entry>
@@ -450,8 +475,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="703" average="5.00" min="1" max="5"/>
-    <media:statistics views="34305"/>
+    <media:starRating count="720" average="5.00" min="1" max="5"/>
+    <media:statistics views="34665"/>
    </media:community>
   </media:group>
  </entry>
@@ -496,8 +521,8 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
-    <media:starRating count="468" average="5.00" min="1" max="5"/>
-    <media:statistics views="19064"/>
+    <media:starRating count="470" average="5.00" min="1" max="5"/>
+    <media:statistics views="19110"/>
    </media:community>
   </media:group>
  </entry>
@@ -522,7 +547,7 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
     <media:starRating count="88" average="5.00" min="1" max="5"/>
-    <media:statistics views="4712"/>
+    <media:statistics views="4762"/>
    </media:community>
   </media:group>
  </entry>
@@ -577,8 +602,8 @@ Chapters:
 50:00 Transparent open-source training codebases
 52:00 Build a Reasoning Model From Scratch</media:description>
    <media:community>
-    <media:starRating count="1361" average="5.00" min="1" max="5"/>
-    <media:statistics views="34666"/>
+    <media:starRating count="1363" average="5.00" min="1" max="5"/>
+    <media:statistics views="34761"/>
    </media:community>
   </media:group>
  </entry>
@@ -624,52 +649,8 @@ Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-
 33:20 Kimi Linear, Ling 2.5, and Nemotron
 36:39 Poster, future updates, and wrap-up</media:description>
    <media:community>
-    <media:starRating count="803" average="5.00" min="1" max="5"/>
-    <media:statistics views="17856"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:lONyteDR4XE</id>
-  <yt:videoId>lONyteDR4XE</yt:videoId>
-  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
-  <title>LLM Building Blocks &amp; Transformer Alternatives</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=lONyteDR4XE"/>
-  <author>
-   <name>Sebastian Raschka</name>
-   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
-  </author>
-  <published>2025-10-27T15:27:11+00:00</published>
-  <updated>2026-09-18T08:13:52+00:00</updated>
-  <media:group>
-   <media:title>LLM Building Blocks &amp; Transformer Alternatives</media:title>
-   <media:content url="https://www.youtube.com/v/lONyteDR4XE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/lONyteDR4XE/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Resources:
-- Understanding and Coding the KV Cache in LLMs from Scratch: https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms
-- The Big Architecture Comparison: https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
-- Beyond Standard LLMs: Linear Attention Hybrids, Text Diffusion, Code World Models, and Small Recursive Transformers
-- Reasoning From Scratch book: https://mng.bz/Nwr7
-
-Description:
-Learn the core components of modern transformer-based large language models (LLMs) and the practical techniques that make inference faster and cheaper.
-We walk through Grouped-Query Attention (GQA), Multi-Head Latent Attention (MLA), and Sliding Window Attention (SWA), show where Mixture of Experts (MoE) fits into today’s architectures, and finish with a look at promising alternatives and hybrid models beyond standard transformers.
-
-Chapters:
-
-00:00 Intro
-01:13 Main theme: bigger models and cheaper inference
-02:13 Grouped-Query Attention (GQA)
-05:44 Multi-Head Latent Attention (MLA)
-09:51 Sliding Window Attention (SWA)
-13:57 Mixture of Experts
-17:01 LLM and transformer alternatives
-
-
-#LLM #Transformers #DeepLearning #MachineLearning #Inference #MoE #GQA #MLA #SWA #KVCache</media:description>
-   <media:community>
-    <media:starRating count="691" average="5.00" min="1" max="5"/>
-    <media:statistics views="20376"/>
+    <media:starRating count="804" average="5.00" min="1" max="5"/>
+    <media:statistics views="17881"/>
    </media:community>
   </media:group>
  </entry>
