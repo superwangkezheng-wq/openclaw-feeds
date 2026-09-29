@@ -1,5 +1,43 @@
 {
   "handles": {
+    "_catwu": {
+      "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "handle": "_catwu",
+      "name": "Cat Wu",
+      "source": "x",
+      "tweets": {
+        "id:2104639552170377399": {
+          "createdAt": "2026-09-28T18:29:06.000Z",
+          "id": "2104639552170377399",
+          "isQuote": true,
+          "likes": 423,
+          "quotedTweetId": "2104633115620823187",
+          "replies": 39,
+          "retweets": 8,
+          "text": "Sonnet 5.5 is here! In Claude Code, users get ~30% more tasks done compared to Sonnet 5. It's smarter, so it needs fewer tokens for the same work.\n\nHere it rakes a yard of leaves using tool calls. 24s faster than Sonnet 5, with 6K fewer tokens. It leaves her extra time to read :) https://t.co/X5RHENqRjS https://t.co/xlyQigZW57",
+          "url": "https://x.com/_catwu/status/2104639552170377399"
+        }
+      }
+    },
+    "alexalbert__": {
+      "bio": "Research @AnthropicAI. Opinions are my own!",
+      "handle": "alexalbert__",
+      "name": "Alex Albert",
+      "source": "x",
+      "tweets": {
+        "id:2104633937280811010": {
+          "createdAt": "2026-09-28T18:06:47.000Z",
+          "id": "2104633937280811010",
+          "isQuote": true,
+          "likes": 729,
+          "quotedTweetId": "2104633115620823187",
+          "replies": 46,
+          "retweets": 11,
+          "text": "Sonnet 5.5 has the same feel I liked about Opus 5.5. It writes clearly, it's very fast, and it's a major capabilities jump over Sonnet 5. Really great model to iterate with. https://t.co/g3jF3djPRv",
+          "url": "https://x.com/alexalbert__/status/2104633937280811010"
+        }
+      }
+    },
     "amandaaskell": {
       "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
       "handle": "AmandaAskell",
@@ -98,6 +136,17 @@
           "retweets": 12,
           "text": "Can’t wait to see what you build. https://t.co/IzsiejH1fa",
           "url": "https://x.com/bcherny/status/2103691327699550598"
+        },
+        "id:2104638725317923228": {
+          "createdAt": "2026-09-28T18:25:49.000Z",
+          "id": "2104638725317923228",
+          "isQuote": true,
+          "likes": 4835,
+          "quotedTweetId": "2104633115620823187",
+          "replies": 227,
+          "retweets": 173,
+          "text": "Sonnet 5.5 fixing a bug with Claude Code.\n\n30% faster and 30% less usage. https://t.co/Vt1K1ubcFd https://t.co/d6QCsCd1gi",
+          "url": "https://x.com/bcherny/status/2104638725317923228"
         }
       }
     },
@@ -139,6 +188,39 @@
           "retweets": 2,
           "text": "What are you going to explore with Opus 5.5 this weekend?",
           "url": "https://x.com/claudeai/status/2103515672777290083"
+        },
+        "id:2104675000787603486": {
+          "createdAt": "2026-09-28T20:49:57.000Z",
+          "id": "2104675000787603486",
+          "isQuote": false,
+          "likes": 167,
+          "quotedTweetId": null,
+          "replies": 4,
+          "retweets": 2,
+          "text": "Pixel-art forest creatures by @measure_plan, every frame drawn in code. https://t.co/jPGx50oMNS",
+          "url": "https://x.com/claudeai/status/2104675000787603486"
+        },
+        "id:2104675003673325732": {
+          "createdAt": "2026-09-28T20:49:58.000Z",
+          "id": "2104675003673325732",
+          "isQuote": false,
+          "likes": 177,
+          "quotedTweetId": null,
+          "replies": 8,
+          "retweets": 3,
+          "text": "Bouncing-ball physics tests by @forwardeditor from the same prompt, Sonnet 5 vs Sonnet 5.5. https://t.co/IoYJ2w2gEp",
+          "url": "https://x.com/claudeai/status/2104675003673325732"
+        },
+        "id:2104675005090923000": {
+          "createdAt": "2026-09-28T20:49:58.000Z",
+          "id": "2104675005090923000",
+          "isQuote": false,
+          "likes": 142,
+          "quotedTweetId": null,
+          "replies": 37,
+          "retweets": 1,
+          "text": "What are you exploring with Sonnet 5.5?",
+          "url": "https://x.com/claudeai/status/2104675005090923000"
         }
       }
     },
@@ -191,6 +273,39 @@
           "retweets": 7,
           "text": "industry built on modeling humans as rational agents panics as humans adopt rational agents https://t.co/GYx8lXBURY",
           "url": "https://x.com/danshipper/status/2104302924251951553"
+        },
+        "id:2104636728992776510": {
+          "createdAt": "2026-09-28T18:17:53.000Z",
+          "id": "2104636728992776510",
+          "isQuote": true,
+          "likes": 203,
+          "quotedTweetId": "2104633115620823187",
+          "replies": 17,
+          "retweets": 12,
+          "text": "SONNET 5.5 IS OUT! \n\nIt has dramatically improved writing even versus Opus 5.5 in my testing for @every. Astra is still my favorite for writing, but this model beats it at revision tasks.\n\nIt's faster and cheaper than Opus 5.5, so it's @kieranklaassen's preferred model for quick iterative coding and design work. \n\nBut both @kplikethebird and @hammer_mt feel like they don't have room in their stack for mid-tier models anymore.\n\nFull vibe check coming on @every! \n\nUntil then you can see Sonnet's scores vs. Opus and Astra on my personal benchmark, drawn from my real work: https://t.co/SpeDq9gVu6",
+          "url": "https://x.com/danshipper/status/2104636728992776510"
+        },
+        "id:2104662550138994746": {
+          "createdAt": "2026-09-28T20:00:29.000Z",
+          "id": "2104662550138994746",
+          "isQuote": false,
+          "likes": 3,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 0,
+          "text": "@every @kieranklaassen full vibe check here: https://t.co/aS6cePaQcz",
+          "url": "https://x.com/danshipper/status/2104662550138994746"
+        },
+        "id:2104662907716050988": {
+          "createdAt": "2026-09-28T20:01:54.000Z",
+          "id": "2104662907716050988",
+          "isQuote": true,
+          "likes": 52,
+          "quotedTweetId": "2104651136699609518",
+          "replies": 7,
+          "retweets": 2,
+          "text": "i've been to every dev day since 2023\n\nthis is by far the most launches @OpenAI has ever had\n\nrsi? https://t.co/omm9gjdLXB https://t.co/c8esVxyR7C",
+          "url": "https://x.com/danshipper/status/2104662907716050988"
         }
       }
     },
@@ -200,17 +315,6 @@
       "name": "Garry Tan",
       "source": "x",
       "tweets": {
-        "id:2103470568104468517": {
-          "createdAt": "2026-09-25T13:03:58.000Z",
-          "id": "2103470568104468517",
-          "isQuote": true,
-          "likes": 3345,
-          "quotedTweetId": "2102415623288660002",
-          "replies": 305,
-          "retweets": 480,
-          "text": "Legalize personalized education https://t.co/LHb0NwzZnZ",
-          "url": "https://x.com/garrytan/status/2103470568104468517"
-        },
         "id:2103649988282905001": {
           "createdAt": "2026-09-26T00:56:55.000Z",
           "id": "2103649988282905001",
@@ -287,6 +391,47 @@
           "retweets": 14,
           "text": "Anti-bot is for losers tbh https://t.co/kFAhqE1cCB",
           "url": "https://x.com/garrytan/status/2104402742517420517"
+        },
+        "id:2104559514699837634": {
+          "createdAt": "2026-09-28T13:11:03.000Z",
+          "id": "2104559514699837634",
+          "isQuote": false,
+          "likes": 401,
+          "quotedTweetId": null,
+          "replies": 53,
+          "retweets": 48,
+          "text": "Karma isn’t a thing that happens, it’s a choice you can make now https://t.co/Hw1hhIwDtG",
+          "url": "https://x.com/garrytan/status/2104559514699837634"
+        },
+        "id:2104771351009702168": {
+          "createdAt": "2026-09-29T03:12:49.000Z",
+          "id": "2104771351009702168",
+          "isQuote": true,
+          "likes": 190,
+          "quotedTweetId": "2104721766690222087",
+          "replies": 22,
+          "retweets": 7,
+          "text": "Codegen meets WhatsApp actually makes a ton of sense https://t.co/n6KUOfMm0s",
+          "url": "https://x.com/garrytan/status/2104771351009702168"
+        }
+      }
+    },
+    "joshwoodward": {
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "handle": "joshwoodward",
+      "name": "Josh Woodward",
+      "source": "x",
+      "tweets": {
+        "id:2104616392297451882": {
+          "createdAt": "2026-09-28T16:57:04.000Z",
+          "id": "2104616392297451882",
+          "isQuote": true,
+          "likes": 102,
+          "quotedTweetId": "2104584502358220874",
+          "replies": 4,
+          "retweets": 2,
+          "text": "Having just come back from Yosemite recently, this is awesome! https://t.co/YqW48K3Gch",
+          "url": "https://x.com/joshwoodward/status/2104616392297451882"
         }
       }
     },
@@ -317,6 +462,17 @@
           "retweets": 19,
           "text": "Interesting to think about all the implications in a world where agents begin to make the best or most efficient choice for their users.\n\nOn one hand, there is some subset of the economy that benefits from the friction customers traditionally have changing something about their habits. In those parts of the market, switching costs will come down and competition is going to increase dramatically until some equilibrium is reached between the disruptive alternatives and the incumbents.\n\nOn the other hand, there are lots of markets that are hurt by a significant amount of friction, where agents will begin to unlock all kinds of economic activity by making it far easier to buy products or services that were too frictionful before. Healthcare, travel, local services, certain information services, and other entirely new markets probably are net beneficiaries of agents as a result.\n\nNo matter what, a future meaningfully mediated by agents that work tirelessly for us and our goals can’t possibly function exactly the same as today. Going to be wild.",
           "url": "https://x.com/levie/status/2104350592290406849"
+        },
+        "id:2104648654074343480": {
+          "createdAt": "2026-09-28T19:05:16.000Z",
+          "id": "2104648654074343480",
+          "isQuote": true,
+          "likes": 146,
+          "quotedTweetId": "2104633115620823187",
+          "replies": 36,
+          "retweets": 13,
+          "text": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Agent, and Sonnet 5.5 is another strong jump from Sonnet 5 on knowledge work with enterprise content.\n\nAcross the board we saw a 4 pt overall improvement on our hardest tests, but it was roughly 2.4× faster to a finished deliverable on 12% fewer tokens. We also saw major wins in key verticals, like a +18 percentage point improvement in Financial Services, +7 pt in Legal, +8 pt in Life Sciences, and +7 pt in the Public Sector. \n\nHere are some specific wins on certain tasks that show the power of Sonnet 5.5:\n\n* Financial services (+48 points): a due-diligence review of a trading-tool acquisition, where the deal book's arithmetic doesn't hold up. Sonnet 5.5 caught the miscalculated interest totals and the mispriced options and flagged them, and it also finished this work about 61% faster.\n\n* Legal (+14 points): a commercial lease review. Sonnet 5.5 refused to invent a \"standard\" market benchmark for renewal terms and notice periods, and instead flagged what the lease was genuinely missing.\n\n* Life sciences (+22 points): writing up a field trial from the raw measurement data. Sonnet 5.5 got the sample standard deviations right across both treatment groups. Sonnet 5 missed nearly all of them. And Sonnet 5.5 did it about 41% faster.\n\n* Public sector (+11 points): a report on a math intervention program. Sonnet 5.5 pulled the right student progress-monitoring figures out of the underlying data, about 71% faster.\n\nCustomers will be able to build AI agents with Sonnet 5.5 in the Box AI Studio shortly.",
+          "url": "https://x.com/levie/status/2104648654074343480"
         }
       }
     },
@@ -356,17 +512,6 @@
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2103360292973633770": {
-          "createdAt": "2026-09-25T05:45:47.000Z",
-          "id": "2103360292973633770",
-          "isQuote": true,
-          "likes": 4,
-          "quotedTweetId": "2102395699895677325",
-          "replies": 0,
-          "retweets": 0,
-          "text": "“we believe that every small business owner, specifically for us in the trades, will have bespoke software, \n\nand that last mile is actually where differentiation can become, where you can provide a unique experience to your customers, to your employees” https://t.co/WhBtmHmGqZ https://t.co/IIQ90vD7mZ",
-          "url": "https://x.com/nikunj/status/2103360292973633770"
-        },
         "id:2104030951370322145": {
           "createdAt": "2026-09-27T02:10:44.000Z",
           "id": "2104030951370322145",
@@ -410,6 +555,39 @@
           "retweets": 0,
           "text": "Astra is absurd.. \n\nGive it decently hard verifiable end to end tasks with the right tools and watch it just fly 😅 https://t.co/SGOlvOxoNP",
           "url": "https://x.com/nikunj/status/2104444216017637575"
+        },
+        "id:2104566122549063756": {
+          "createdAt": "2026-09-28T13:37:19.000Z",
+          "id": "2104566122549063756",
+          "isQuote": false,
+          "likes": 111,
+          "quotedTweetId": null,
+          "replies": 13,
+          "retweets": 4,
+          "text": "Where are all the “distribution is a moat and hence raise a lot of money” investors today..\n\nwhen the *checks notes* incumbents are flexing their distribution muscle.\n\nIt’s SO important to stay first principles on what matters. Find your unfair advantages. Build a great product with high retention and ideally network effects. Use capital as a weapon to compound and not as destiny. And, finally figure out how to be a self sustaining business because this money spigot will dry. \n\nAnd, that is so freaking hard. It’s never been easy - especially not now. \n\n(PS: This is not a subtweet on any company, but more so on the investors who’ll dole out terrible advice and move to the next company in their portfolio when that one crashes and burns)",
+          "url": "https://x.com/nikunj/status/2104566122549063756"
+        },
+        "id:2104704157106180341": {
+          "createdAt": "2026-09-28T22:45:49.000Z",
+          "id": "2104704157106180341",
+          "isQuote": false,
+          "likes": 93,
+          "quotedTweetId": null,
+          "replies": 11,
+          "retweets": 5,
+          "text": "https://t.co/gIng6z5pUP",
+          "url": "https://x.com/nikunj/status/2104704157106180341"
+        },
+        "id:2104758141128974358": {
+          "createdAt": "2026-09-29T02:20:20.000Z",
+          "id": "2104758141128974358",
+          "isQuote": true,
+          "likes": 14,
+          "quotedTweetId": "2104704157106180341",
+          "replies": 0,
+          "retweets": 0,
+          "text": "If you prefer video, this was one shot by Opus 5.5 💥 https://t.co/uJ1i8TwpWq https://t.co/NLKRpVALgH",
+          "url": "https://x.com/nikunj/status/2104758141128974358"
         }
       }
     },
@@ -419,17 +597,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2103318850641260959": {
-          "createdAt": "2026-09-25T03:01:06.000Z",
-          "id": "2103318850641260959",
-          "isQuote": true,
-          "likes": 12,
-          "quotedTweetId": "2102801274173587569",
-          "replies": 2,
-          "retweets": 0,
-          "text": "Astra blew up 3D models\nThen Opus blew up videos\nI don’t even know what’s next anymore https://t.co/CGJDOoGvYQ",
-          "url": "https://x.com/petergyang/status/2103318850641260959"
-        },
         "id:2103690110726558123": {
           "createdAt": "2026-09-26T03:36:21.000Z",
           "id": "2103690110726558123",
@@ -528,6 +695,39 @@
           "retweets": 0,
           "text": "Notice how almost nobody has fond memories of SaaS or business software that they used back in the day but everyone remembers their favorite games. \n\nGames really are the software that has the longest staying power in our memories.\n\nLLM models are probably the inverse of that 😂",
           "url": "https://x.com/petergyang/status/2104414495376564517"
+        },
+        "id:2104736498151256303": {
+          "createdAt": "2026-09-29T00:54:19.000Z",
+          "id": "2104736498151256303",
+          "isQuote": true,
+          "likes": 80,
+          "quotedTweetId": "2104636927190446196",
+          "replies": 6,
+          "retweets": 5,
+          "text": "I built a working StarCraft level with Sonnet 5.5.\n\nYou play Terran, defending your base against the Zerg:\n\n→ Build Marines, Siege Tanks, and Battlecruisers\n→ Use SC2 models from Sketchfab (by Catholomew)\n→ Music generated with Suno\n\n📌 Play it here: https://t.co/U9QI2VD3HQ\n\nSonnet also made the sizzle reel below. Check out my latest tutorial on Sonnet here: https://t.co/yH28RpYWH2",
+          "url": "https://x.com/petergyang/status/2104736498151256303"
+        },
+        "id:2104781373433377030": {
+          "createdAt": "2026-09-29T03:52:39.000Z",
+          "id": "2104781373433377030",
+          "isQuote": false,
+          "likes": 80,
+          "quotedTweetId": null,
+          "replies": 12,
+          "retweets": 0,
+          "text": "My very first @OpenAI dev day is tomorrow. \n\nIf you're going I hope to see you there!",
+          "url": "https://x.com/petergyang/status/2104781373433377030"
+        },
+        "id:2104809410040336784": {
+          "createdAt": "2026-09-29T05:44:03.000Z",
+          "id": "2104809410040336784",
+          "isQuote": false,
+          "likes": 53,
+          "quotedTweetId": null,
+          "replies": 14,
+          "retweets": 2,
+          "text": "Folks on X are so fickle about “omg openai is getting mogged by Claude 5.5” or just a few months ago “anthropic is so cooked by codex.”\n\nI’m just glad there are 2 (and soon more) competitors pushing the frontier so we can all benefit.",
+          "url": "https://x.com/petergyang/status/2104809410040336784"
         }
       }
     },
@@ -602,6 +802,69 @@
           "retweets": 15,
           "text": "I¹ ported my Mini web browser to Rust & Swift. It's faster, more secure, and shockingly, nicer to iterate on than Electron + Bun.\n\nI always wanted Safari-like UX but… Chrome 😁. Thanks to the 𝚌𝚎𝚏 crate, I can bundle up-to-date Chromium.\n\n𝚏𝚡 𝚊𝚌𝚙 lets me embed an agent without bloating the app. It talks to my local fx CLI over ACP. fx can then manage the browser via an MCP server².\n\nBy ditching Electron, I was able to get Liquid Glass, faster boots, and a more Mac-native feeling. Little things like fine-grained focus and input control, which are nightmare fuel in JS, just work®.\n\nNative is the future, both on the desktop and in the cloud. I suspect the entire software world will \"nativify\" faster than people realize, as DHH hinted at Rails World. Excited that Vercel's bet on Fluid will help support this, whether you choose to go Rust, Go, Zig, scriptc…\n\n¹ Built on https://t.co/OL0LzGsXKY with Opus 5.5 and Sol 6\n² In the process I learned about https://t.co/sJoQWFreGF, which I'm now really excited about. This will allow a more secure and direct way to expose MCP tools",
           "url": "https://x.com/rauchg/status/2104428800134013205"
+        },
+        "id:2104660502723072281": {
+          "createdAt": "2026-09-28T19:52:21.000Z",
+          "id": "2104660502723072281",
+          "isQuote": true,
+          "likes": 429,
+          "quotedTweetId": "2104653657216012791",
+          "replies": 47,
+          "retweets": 13,
+          "text": "We migrated https://t.co/ftag8z6AlW with as little intervention as possible, setting out to prove just how much faster @vercel is. ~70% faster builds and ~75% faster paints. \n\nWe derived two AI skills from the migration that we'll be sharing back. It was a mature workload with a lot of \"$formerProvider-isms\", and yet the net of the work was done in under a week.\n\nIf it's [built / rendered / shipped] fast, it's on Vercel.",
+          "url": "https://x.com/rauchg/status/2104660502723072281"
+        },
+        "id:2104686719685853226": {
+          "createdAt": "2026-09-28T21:36:31.000Z",
+          "id": "2104686719685853226",
+          "isQuote": false,
+          "likes": 33,
+          "quotedTweetId": null,
+          "replies": 5,
+          "retweets": 1,
+          "text": "Nice viz by @marcosnils: https://t.co/ztIcLnG8ay\nChoose ▲ if you want to win.\nYou know what to choose if you want third place! https://t.co/BUevLsWi9w",
+          "url": "https://x.com/rauchg/status/2104686719685853226"
+        },
+        "id:2104764419305796094": {
+          "createdAt": "2026-09-29T02:45:16.000Z",
+          "id": "2104764419305796094",
+          "isQuote": true,
+          "likes": 213,
+          "quotedTweetId": "2104730184687681663",
+          "replies": 47,
+          "retweets": 6,
+          "text": "You can now search @vercel domains without auth.\nEspecially great if you're an agent. https://t.co/NpIfj1DAjO https://t.co/WV4DTMF7Ef",
+          "url": "https://x.com/rauchg/status/2104764419305796094"
+        }
+      }
+    },
+    "ryolu_": {
+      "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "handle": "ryolu_",
+      "name": "Ryo Lu",
+      "source": "x",
+      "tweets": {
+        "id:2104546417281020315": {
+          "createdAt": "2026-09-28T12:19:01.000Z",
+          "id": "2104546417281020315",
+          "isQuote": true,
+          "likes": 185,
+          "quotedTweetId": "2104520483668390261",
+          "replies": 8,
+          "retweets": 4,
+          "text": "what i’ve been doing:\ni love youbike 💛 https://t.co/PbT9PIvnYn",
+          "url": "https://x.com/ryolu_/status/2104546417281020315"
+        },
+        "id:2104546903807660224": {
+          "createdAt": "2026-09-28T12:20:57.000Z",
+          "id": "2104546903807660224",
+          "isQuote": false,
+          "likes": 11,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 1,
+          "text": "try it in all cities with youbike in taiwan\n\ndocks, navigation, live turn-by-turn directions with voice\nhttps://t.co/YMBxkDIsfO",
+          "url": "https://x.com/ryolu_/status/2104546903807660224"
         }
       }
     },
@@ -621,6 +884,17 @@
           "retweets": 311,
           "text": "There is an extensive and ongoing review related to our agents’ use of internet access during training and evaluation. We’ve been publishing summaries at the link below and will continue to.\n\nWe have not been as fast as we would have liked but we are trying to balance our desire for transparency with gaining a clear understanding from petabytes of agent activity logs, and working with impacted organizations.\n\nWe are prioritizing as best as we can based on severity, and adding resources. Hugging Face is still the most severe event we’ve seen. We will be as transparent as we can be subject to things like vulnerabilities in other companies that our agents have found, which will be their call to disclose or not.",
           "url": "https://x.com/sama/status/2103567198690349362"
+        },
+        "id:2104661956879913457": {
+          "createdAt": "2026-09-28T19:58:07.000Z",
+          "id": "2104661956879913457",
+          "isQuote": true,
+          "likes": 8097,
+          "quotedTweetId": "2104576086101426620",
+          "replies": 656,
+          "retweets": 411,
+          "text": "Pretty excited for DevDay tomorrow.\n\nWe have found a new thing. https://t.co/YUjwTlec2t",
+          "url": "https://x.com/sama/status/2104661956879913457"
         }
       }
     },
@@ -684,6 +958,17 @@
           "retweets": 14,
           "text": "Same. @useblacksmith has been an amazing sponsor but we need to distribute the load. \n\nMy plan is to let codex decide which tests actually need to run and drastically nix CI and run tests hourly. https://t.co/Yo4PYOT2cI",
           "url": "https://x.com/steipete/status/2104305554760114488"
+        },
+        "id:2104702088626557384": {
+          "createdAt": "2026-09-28T22:37:36.000Z",
+          "id": "2104702088626557384",
+          "isQuote": true,
+          "likes": 48,
+          "quotedTweetId": "2104677852172210516",
+          "replies": 9,
+          "retweets": 3,
+          "text": "See ya there! https://t.co/4BtgyOXBSv",
+          "url": "https://x.com/steipete/status/2104702088626557384"
         }
       }
     },
@@ -693,16 +978,16 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2103361254433993165": {
-          "createdAt": "2026-09-25T05:49:36.000Z",
-          "id": "2103361254433993165",
+        "id:2104741800393253322": {
+          "createdAt": "2026-09-29T01:15:24.000Z",
+          "id": "2104741800393253322",
           "isQuote": true,
-          "likes": 23,
-          "quotedTweetId": "2103360502059679780",
-          "replies": 12,
-          "retweets": 0,
-          "text": "In Jan this year I called my content strategy shot: \"Scaling without Slop\". \n\nIt's finally starting to work. It took us 3 years to reach our first 100k on youtube. It only took 1.2 months for the next 100k. Similar other metrics on AEO/SEO/subscriber traction and have a lot of New Media ideas that I'm excited to pursue.\n\nofficially giving notice of the next phase of Latent Space, AINews, and what the rest of swyx inc has been cooking below",
-          "url": "https://x.com/swyx/status/2103361254433993165"
+          "likes": 198,
+          "quotedTweetId": "2104651136699609518",
+          "replies": 42,
+          "retweets": 2,
+          "text": "oai designers have to be trolling us https://t.co/r6EsTOAtva https://t.co/SLOaPyhkRP",
+          "url": "https://x.com/swyx/status/2104741800393253322"
         }
       }
     },
@@ -818,6 +1103,39 @@
           "retweets": 168,
           "text": ". . . . . .",
           "url": "https://x.com/thsottiaux/status/2104383749723128052"
+        },
+        "id:2104465709384491519": {
+          "createdAt": "2026-09-28T06:58:18.000Z",
+          "id": "2104465709384491519",
+          "isQuote": false,
+          "likes": 4105,
+          "quotedTweetId": null,
+          "replies": 502,
+          "retweets": 72,
+          "text": "Sunday vibes. See you at Fort Mason soon 🎮👩‍💻 https://t.co/dIBCN92aS0",
+          "url": "https://x.com/thsottiaux/status/2104465709384491519"
+        },
+        "id:2104467346945675347": {
+          "createdAt": "2026-09-28T07:04:49.000Z",
+          "id": "2104467346945675347",
+          "isQuote": false,
+          "likes": 481,
+          "quotedTweetId": null,
+          "replies": 82,
+          "retweets": 5,
+          "text": "Taken by none other than the incredible @ah20im",
+          "url": "https://x.com/thsottiaux/status/2104467346945675347"
+        },
+        "id:2104823812042940713": {
+          "createdAt": "2026-09-29T06:41:17.000Z",
+          "id": "2104823812042940713",
+          "isQuote": false,
+          "likes": 697,
+          "quotedTweetId": null,
+          "replies": 196,
+          "retweets": 73,
+          "text": "Hi,\n\nTomorrow we are re-opening the Pro $200 subscriptions to new subscribers, but together with it we are also changing how we calculate the usage for it. In effect, if you do the math, it will net out at half the dollar in API spend compared to the old Pro $200 plan. \n\nNow that it's said, let me explain why this is happening and why you will still get more work done than if you were on the Pro $200 subscription one month ago.\n\n(a) We didn't want to compromise in other ways and are committing to not reintroducing the 5h limit, so that you can fully use the weekly usage when you want.\n(b) On the subscription, we guarantee that over time you always get more work done and with an increasing level of quality. This means that you will continue to get more value per dollar spent as a result of models getting more efficient and us passing down the improvements in the form of API price reductions.\n(c) We don't want to put an incentive on ourselves to artificially inflate the API list prices to make it look like you are getting a lot (and workaround it through discounts, etc). Instead we want to continue to both rapidly reduce prices and increase capabilities of models on the API. This week we introduced GPT-6 Sol and GPT-6 Luna at 50% of their previous price. Over time, we see prices go low enough that it makes sense for most to buy usage as needed without there being a significant gap between what you get in a subscription and what you get in the API for a dollar spent.\n(d) Tomorrow, we are adding more things to the subscription that won't draw on the usage, I won't reveal what that is yet.\n\nI wanted to be transparent before all the big announcements tomorrow. Lots of new exciting things are coming to the subscriptions that will make it super compelling, but I wanted to make sure to share this change ahead of time so you can all understand it before we shower you with good news.\n\nCodexingly,\nTibo",
+          "url": "https://x.com/thsottiaux/status/2104823812042940713"
         }
       }
     },
@@ -892,6 +1210,39 @@
           "retweets": 1,
           "text": "dating myself with neopets I fear https://t.co/Dz5CMnfLd8",
           "url": "https://x.com/trq212/status/2104403711699423680"
+        },
+        "id:2104608785696440510": {
+          "createdAt": "2026-09-28T16:26:50.000Z",
+          "id": "2104608785696440510",
+          "isQuote": false,
+          "likes": 4265,
+          "quotedTweetId": null,
+          "replies": 275,
+          "retweets": 143,
+          "text": "it's basically impossible for someone to just \"show you their prompt\" now, because everything is about references, skills and examples\n\nI often ask my agent to look at 3 other repos I've made first, search the web for references, use other AI APIs, etc.",
+          "url": "https://x.com/trq212/status/2104608785696440510"
+        },
+        "id:2104660926373023830": {
+          "createdAt": "2026-09-28T19:54:02.000Z",
+          "id": "2104660926373023830",
+          "isQuote": true,
+          "likes": 1691,
+          "quotedTweetId": "2104633115620823187",
+          "replies": 127,
+          "retweets": 40,
+          "text": "A lot of times when I talk about higher level abstractions like projects, claude tag and dynamic workflows, I hear concerns about token cost.\n\nWith Sonnet + Opus 5.5 I think this sort intelligence is should be very available.\n\nTry Sonnet 5.5 in particular when making workflows. https://t.co/Vu3OB7FYhd",
+          "url": "https://x.com/trq212/status/2104660926373023830"
+        },
+        "id:2104702728270471594": {
+          "createdAt": "2026-09-28T22:40:08.000Z",
+          "id": "2104702728270471594",
+          "isQuote": false,
+          "likes": 2698,
+          "quotedTweetId": null,
+          "replies": 144,
+          "retweets": 48,
+          "text": "I just told Claude \"can you help me think through this problem step by step\"",
+          "url": "https://x.com/trq212/status/2104702728270471594"
         }
       }
     },
@@ -922,6 +1273,17 @@
           "retweets": 22,
           "text": "People who ask “why do you keep posting without monetizing your content” don’t understand that:\n\n1. Self-expression is an innate human instinct that requires no justification or utilitarian motive\n2. Influence is so much more valuable than money",
           "url": "https://x.com/zarazhangrui/status/2104253882025341231"
+        },
+        "id:2104689580045979811": {
+          "createdAt": "2026-09-28T21:47:53.000Z",
+          "id": "2104689580045979811",
+          "isQuote": false,
+          "likes": 180,
+          "quotedTweetId": null,
+          "replies": 71,
+          "retweets": 1,
+          "text": "Hello, I'm looking to chat with some of my followers!\nIf you're\n- building web-based/frontend experiences with AI but have a hard time making it look beautiful/not AI slop\n- seeing all these cool demos on X built with latest models but have no idea how to replicate them\n- are creating these cool demos yourself and would like to share your creation process/tips\nWould love to have a chat; DM me or comment below!",
+          "url": "https://x.com/zarazhangrui/status/2104689580045979811"
         }
       }
     }

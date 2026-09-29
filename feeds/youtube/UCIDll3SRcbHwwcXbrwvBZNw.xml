@@ -11,6 +11,136 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:9UHlSldDWdw</id>
+  <yt:videoId>9UHlSldDWdw</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>Anthropic 发布 Claude Sonnet 5.5，更快更省【AI 早报 2026-09-29】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9UHlSldDWdw"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-09-29T02:16:48+00:00</published>
+  <updated>2026-09-29T09:12:27+00:00</updated>
+  <media:group>
+   <media:title>Anthropic 发布 Claude Sonnet 5.5，更快更省【AI 早报 2026-09-29】</media:title>
+   <media:content url="https://www.youtube.com/v/9UHlSldDWdw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9UHlSldDWdw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+Anthropic 发布 Claude Sonnet 5.5，更快更省 00:09
+https://www.anthropic.com/claude-sonnet-5-5
+https://www.anthropic.com/claude-sonnet-5-5-system-card
+https://claude.dev/blog/building-with-claude-sonnet-5-5/
+
+Manus 发布 2.0：新架构、新产品、新能力 00:34
+https://manus.im/blog/introducing-manus-2-0
+https://mp.weixin.qq.com/s/oZ8ZPaurRHtLX-65EbyZCg
+
+Manus 推出个人 Agent 应用 Cue 00:54
+https://cue.im/
+https://x.com/CueAgents/status/2104589146153181192
+
+AMD 以约 82 亿美元收购 World Labs 01:11
+https://www.globenewswire.com/news-release/2026/09/28/3370256/0/en/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute.html
+https://www.worldlabs.ai/blog/amd-announcement
+
+可灵 AI 宣布 Kling 4.0 将于 10 月上线，Flash 版已向年卡会员开放 01:24
+https://mp.weixin.qq.com/s/APQmZKfIXo-HDmKHunlH5Q
+
+小米 MiMo-V2.6 修复工具调用复读问题 01:43
+https://mimo.xiaomi.com/zh/blog/mimo-v2-6-tool-call-repetition
+https://huggingface.co/collections/XiaomiMiMo/mimo-v26)（后缀为
+
+ElevenLabs 发布 Eleven v4 系列语音模型 02:01
+https://elevenlabs.io/v4
+
+H Company 发布 Holo4 系列 computer-use 模型 02:14
+https://hcompany.ai/newsroom/holo4
+https://huggingface.co/collections/Hcompany/holo4
+
+紫东太初团队开源 ZDTaichu5.0-9B 通用多模态大模型 02:22
+https://mp.weixin.qq.com/s/-10NvG3zZhtDwgptU-WbWA
+https://taichu-ai.github.io/ZDTaichu5.0-9B
+
+华为开源 openPangu-2.0 预训练、SFT 与后训练 RL 代码 02:36
+https://mp.weixin.qq.com/s/TSRvcKr3VkAYS9C9zbqiIQ
+https://gitcode.com/ascend-tribe
+
+智谱ZCode就此前的仓库上传快照事件发布活动与补偿 02:48
+https://mp.weixin.qq.com/s/Zia38bgBIcNlAXkA2I9pxw
+
+OpenCode 上线 Go Plus 订阅：每月 40 美元 03:11
+https://opencode.ai/zh/go
+https://x.com/opencode/status/2104548294718296064
+
+Claude Code 的 claude-api skill 新增 build-eval 和 hillclimb 命令 03:26
+https://claude.dev/blog/automating-eval-design-and-hillclimbing/
+https://github.com/anthropics/skills/tree/main/skills/claude-api
+
+Cloudflare 推出命令行工具 cf，覆盖平台超 3000 项 API 操作 03:44
+https://blog.cloudflare.com/cloudflare-cf-cli-launch/
+https://blog.cloudflare.com/cf-cli-local-explorer
+
+Arena 限时开放 GPT-6 Sol Direct Mode 测试 24 小时 04:00
+https://x.com/arena/status/2104601385610444834
+
+SpaceXAI 推出 Team Bots，团队共享会学习的 AI 同事 04:13
+https://x.ai/news/team-bots
+
+千问App与夸克网盘深度打通 04:23
+https://mp.weixin.qq.com/s/lCKIbiEulaTJ_qBhTya6bA
+
+元宝桌宠抢鲜版发布：可盯长任务、拖拽导入文件 04:36
+https://mp.weixin.qq.com/s/p60lSmlC3qyEWYRBRUMNCg
+
+Manus Flex 测试版上线，可自带 API Key 和模型运行 04:50
+https://x.com/ChrisUniverse/status/2104648214552928321
+https://x.com/louiedooey/status/2104642989155070127
+
+千问接入中国移动算力套餐，推出联名套餐 05:04
+https://mp.weixin.qq.com/s/E1q2yzVKZJcYnOsNxzvIOw
+
+Artificial Analysis 发布 Cyber Index 网络防御基准 05:15
+https://artificialanalysis.ai/methodology/cyber-index
+https://artificialanalysis.ai/evaluations/artificial-analysis-cyber-index
+
+AISI 评估显示 GPT-6 Astra 越界供应链攻击率达 29.2% 05:31
+https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations
+
+NVIDIA 发布 Open Agent Safety Platform 安全平台 05:49
+https://nvidianews.nvidia.com/news/open-agent-safety-platform
+https://www.nvidia.com/en-us/solutions/ai/agent-safety/
+https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell
+
+Meta 官宣启动 Meta Enterprise Platform 06:03
+https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/
+
+Mistral 在慕尼黑开设工业 AI 中心 06:18
+https://mistral.ai/news/hallo-deutschland/
+
+佛罗里达州申请禁令，限制 OpenAI 开发新模型 06:28
+https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-files-temporary-injunction-against-openai-and-its-ceo
+https://www.reuters.com/world/florida-asks-court-bar-openai-developing-new-models-part-child-harm-lawsuit-2026-09-28/
+
+法院将 token 用量与 AI 工具授权费计入著作权损害赔偿 06:47
+https://natlawreview.com/article/wuhan-court-considers-ai-token-costs-calculating-damages-copyright-infringement-ai
+
+火山引擎发布 Seedance 影视合作计划 07:02
+https://mp.weixin.qq.com/s/-DZhdtrnhKsTBnKTWOGtTA
+
+WSJ：OpenAI 取消 GPT-6.1 Astra 发布 07:15
+https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42
+
+Google 宣布 Gemini 的 Gems 将迁移为 skills 07:26
+https://support.google.com/gemini/answer/18560919</media:description>
+   <media:community>
+    <media:starRating count="21" average="5.00" min="1" max="5"/>
+    <media:statistics views="1850"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:BxAiAMTKGAI</id>
   <yt:videoId>BxAiAMTKGAI</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -65,8 +195,8 @@ Axios：特朗普白宫宴请 Anthropic CEO Dario Amodei 02:13
 https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite
 https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/</media:description>
    <media:community>
-    <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1531"/>
+    <media:starRating count="22" average="5.00" min="1" max="5"/>
+    <media:statistics views="2195"/>
    </media:community>
   </media:group>
  </entry>
@@ -141,8 +271,8 @@ The Information：TypeSafe AI与投资者商谈逾10亿美元新融资 03:46
 https://x.com/theinformation/status/2103839519019569371
 https://thein.fo/4hcSXC4</media:description>
    <media:community>
-    <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="1575"/>
+    <media:starRating count="22" average="5.00" min="1" max="5"/>
+    <media:statistics views="1702"/>
    </media:community>
   </media:group>
  </entry>
@@ -226,7 +356,7 @@ https://x.com/elonmusk/status/2103329761690865846
 https://x.com/elonmusk/status/2103352821135376584</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="846"/>
+    <media:statistics views="858"/>
    </media:community>
   </media:group>
  </entry>
@@ -347,7 +477,7 @@ https://www.theinformation.com/articles/inside-ai-industrys-behind-scenes-push-p
 https://www.ithome.com/1/007/016.htm</media:description>
    <media:community>
     <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="1605"/>
+    <media:statistics views="1614"/>
    </media:community>
   </media:group>
  </entry>
@@ -458,7 +588,7 @@ https://www.anthropic.com/features/ebola-response
 https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/</media:description>
    <media:community>
     <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="2270"/>
+    <media:statistics views="2314"/>
    </media:community>
   </media:group>
  </entry>
@@ -550,7 +680,7 @@ https://www.qianwenai.com/product/qwenbook
 https://www.ithome.com/1/005/658.htm</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="3496"/>
+    <media:statistics views="3506"/>
    </media:community>
   </media:group>
  </entry>
@@ -605,7 +735,7 @@ Qwen：用户保留Qwen-Image-2.1生成内容权利 03:10
 https://x.com/QwenDevs/status/2101917379785838660</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1464"/>
+    <media:statistics views="1472"/>
    </media:community>
   </media:group>
  </entry>
@@ -656,7 +786,7 @@ https://mp.weixin.qq.com/s/Y0X4FqYFYQDsTLGyLl0dzQ
 https://mp.weixin.qq.com/s/e7kLxQKhkOrLdsmgyF5U0Q</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="2473"/>
+    <media:statistics views="2476"/>
    </media:community>
   </media:group>
  </entry>
@@ -730,7 +860,7 @@ https://github.com/search?q=repo%3AMiniMax-AI%2Fminimax-code+minimax-m3.1&amp;ty
 月之暗面或将发布 Kimi K3.1 03:56</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="1578"/>
+    <media:statistics views="1583"/>
    </media:community>
   </media:group>
  </entry>
@@ -838,7 +968,7 @@ https://data.un.org/
 https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/</media:description>
    <media:community>
     <media:starRating count="34" average="5.00" min="1" max="5"/>
-    <media:statistics views="3321"/>
+    <media:statistics views="3323"/>
    </media:community>
   </media:group>
  </entry>
@@ -936,7 +1066,7 @@ https://www.theinformation.com/articles/apple-considers-return-server-market-tal
 https://the-decoder.com/apple-is-reportedly-building-an-enterprise-ai-server-with-its-own-m8-ultra-chips/</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="3258"/>
+    <media:statistics views="3259"/>
    </media:community>
   </media:group>
  </entry>
@@ -1094,7 +1224,7 @@ https://thein.fo/4itEaUC
 https://www.wsj.com/tech/openai-buys-startup-developing-smartphone-camera-63590370</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="2027"/>
+    <media:statistics views="2029"/>
    </media:community>
   </media:group>
  </entry>
@@ -1125,52 +1255,6 @@ https://huggingface.co/internlm/Intern-S2-397B</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
     <media:statistics views="600"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:PHmLjnJTJS4</id>
-  <yt:videoId>PHmLjnJTJS4</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>Anthropic CEO Dario Amodei 呼吁放慢前沿AI进展【AI 早报 2026-09-13】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=PHmLjnJTJS4"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-09-13T00:27:33+00:00</published>
-  <updated>2026-09-18T07:53:03+00:00</updated>
-  <media:group>
-   <media:title>Anthropic CEO Dario Amodei 呼吁放慢前沿AI进展【AI 早报 2026-09-13】</media:title>
-   <media:content url="https://www.youtube.com/v/PHmLjnJTJS4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/PHmLjnJTJS4/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-Anthropic CEO Dario Amodei 呼吁放慢前沿AI进展 00:09
-https://darioamodei.com/post/we-must-pace-the-frontier
-https://x.com/sama/status/2098811563415150910
-https://x.com/DarioAmodei/status/2098773920774074715
-
-Tibo 称 Astra 质量问题已修复，进行用量重置并已生效 00:35
-https://x.com/thsottiaux/status/2098612714704891959
-
-OpenCode 官方宣布 4 倍用量活动延长一周 00:47
-https://x.com/opencode/status/2098759021171777938
-
-Amp 宣布自带模型订阅或密钥即可免费使用 00:56
-https://ampcode.com/news/free-agent
-
-Qoder CLI 开放自定义模型接入 01:07
-https://x.com/qoder_ai_ide/status/2098620121363399105
-
-OpenAI CEO 奥尔特曼称 2026 年不上市 01:16
-https://fortune.com/2026/09/12/sam-altman-interview-ai-doomsday-safety-models-control-ipo-2027/
-
-月之暗面称网传创始人及员工信息系造谣 01:28
-https://weibo.com/7909392214/RhK09bLve</media:description>
-   <media:community>
-    <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="778"/>
    </media:community>
   </media:group>
  </entry>
