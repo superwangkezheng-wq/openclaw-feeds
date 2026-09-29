@@ -1,31 +1,12 @@
 {
-  "generatedAt": "2026-09-28T15:38:11.000Z",
+  "generatedAt": "2026-09-29T02:36:17.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-09-28T06:57:29.581Z",
-    "ageHours": 8.68
+    "ageHours": 19.65
   },
   "x": [
-    {
-      "handle": "adityaag",
-      "name": "Aditya Agarwal",
-      "tweets": [
-        {
-          "createdAt": "2026-09-24T21:08:51.000Z",
-          "id": "2103230206005612661",
-          "isQuote": false,
-          "likes": 7,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 2,
-          "text": "It was great speaking with @SteveHiltonx at @spc for a conversation on California's future.\n\nWe have more work to do. Onwards. https://t.co/tEXWt8Xfhd",
-          "url": "https://x.com/adityaag/status/2103230206005612661"
-        }
-      ],
-      "source": "x",
-      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad"
-    },
     {
       "handle": "AmandaAskell",
       "name": "Amanda Askell",
@@ -215,28 +196,6 @@
           "retweets": 2,
           "text": "i asked opus 5.5 to explain why personal benchmarks are so important (this is one shot) https://t.co/GE9OFZ0CvQ",
           "url": "https://x.com/danshipper/status/2103678798827020298"
-        },
-        {
-          "createdAt": "2026-09-25T00:42:00.000Z",
-          "id": "2103283846645166283",
-          "isQuote": true,
-          "likes": 44,
-          "quotedTweetId": "2103281698305937693",
-          "replies": 3,
-          "retweets": 1,
-          "text": "so freaking cool https://t.co/gmU7Izxyuy",
-          "url": "https://x.com/danshipper/status/2103283846645166283"
-        },
-        {
-          "createdAt": "2026-09-24T17:01:59.000Z",
-          "id": "2103168077102043373",
-          "isQuote": false,
-          "likes": 10,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 0,
-          "text": "LIVE: Write-along https://t.co/Y2BfQMlLC4",
-          "url": "https://x.com/danshipper/status/2103168077102043373"
         }
       ],
       "source": "x",
@@ -339,36 +298,6 @@
       "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop"
     },
     {
-      "handle": "joshwoodward",
-      "name": "Josh Woodward",
-      "tweets": [
-        {
-          "createdAt": "2026-09-24T17:59:50.000Z",
-          "id": "2103182638085501182",
-          "isQuote": false,
-          "likes": 5,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "https://t.co/qd50Usegxo",
-          "url": "https://x.com/joshwoodward/status/2103182638085501182"
-        },
-        {
-          "createdAt": "2026-09-24T17:59:50.000Z",
-          "id": "2103182635992514569",
-          "isQuote": false,
-          "likes": 149,
-          "quotedTweetId": null,
-          "replies": 16,
-          "retweets": 5,
-          "text": "Dreambeans is one of our newer experiments in @GoogleLabs. It has a growing cult following. \n\nIt’s simple: a fixed number of “beans” brew every morning. They point you at the real world, with real people, doing things you care about together.\n\nGive it a try! https://t.co/cUVgf5wn5b",
-          "url": "https://x.com/joshwoodward/status/2103182635992514569"
-        }
-      ],
-      "source": "x",
-      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio"
-    },
-    {
       "handle": "levie",
       "name": "Aaron Levie",
       "tweets": [
@@ -423,28 +352,6 @@
           "retweets": 2,
           "text": "Sooo. many. startups. \n\nBut all investors want to invest in the same 10-30.\n\nThis has always been true, but probably never to this extent.  \n\nHyper power law.",
           "url": "https://x.com/mattturck/status/2103550183506337835"
-        },
-        {
-          "createdAt": "2026-09-24T16:59:50.000Z",
-          "id": "2103167536141353053",
-          "isQuote": false,
-          "likes": 18,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 1,
-          "text": "This conversation with the excellent Renen Hallak of @VAST_Data is also available on Spotify, Apple Podcasts and here on YouTube (like and subcribe!):\n\nhttps://t.co/mViKG7e172",
-          "url": "https://x.com/mattturck/status/2103167536141353053"
-        },
-        {
-          "createdAt": "2026-09-24T16:59:49.000Z",
-          "id": "2103167531917721866",
-          "isQuote": false,
-          "likes": 19,
-          "quotedTweetId": null,
-          "replies": 9,
-          "retweets": 8,
-          "text": "In Jensen's 5 layer cake analogy for AI (energy, chips, infrastructure, models, applications), the middle layer (esp the software infra part) is much less understood - and thats where @VAST_Data became a $30B company few people know about, powering @SpaceXAI, @CoreWeave, @nebiusai, @MistralAI, @nscale etc\n\nMy conversation with Renen Hallak, CEO:\n\n00:00 Intro\n00:51 The hidden software layer in NVIDIA's AI stack 02:28 What actually makes an \"AI factory\"?\n05:13 Should Walmart and Goldman build their own AI?\n06:20 \"We infer during the day, fine-tune at night\"\n13:16 Announcement: frontier models & sensitive data\n15:32 From P vs. NP to founding VAST Data\n17:32 OpenAI, Navier–Stokes and 10,000 agents\n20:25 The pre-transformer insight behind VAST\n21:55 DASE: VAST's \"shared everything\" architecture \n25:18 \"Storage was where startups go to die\"\n27:39 Trillions of vectors: why old databases break\n29:01 Are S3, Snowflake and Databricks ready for AI\n31:29 Data gravity, vendor lock-in and zero churn\n33:13 Training vs. inference: why the infrastructure changes\n34:46 Model routing, KV caches, RAG & agent memory\n36:59 Identity, permissions and security for AI agents 40:27 Can multi-agent systems unlock scientific discovery?\n41:55 DataEnclave: how confidential AI protects data and weights\n45:16 Who should be AI's trust layer?\n46:37 \"Sometimes it scares me\": 500 petabytes to 2 exabytes\n50:08 Is circular AI financing creating systemic risk\n51:32 Why VAST is profitable when AI infra isn't\n53:24 What separates the winning neoclouds?\n55:06 \"Their lunch is being eaten\": why hyperscalers lag\n59:10 Where will the trillions accrue across the AI stack\n1:01:18 NVIDIA: \"There's no legal document between us\"\n1:03:59 What VAST learned from xAI and @elonmusk \n1:05:36 \"Bad things loudly and often\": building at AI speed\n1:06:53 More change in 10 years than the previous 1,000?\n1:08:39 VAST's endgame: all the data in the world",
-          "url": "https://x.com/mattturck/status/2103167531917721866"
         }
       ],
       "source": "x",
@@ -508,28 +415,6 @@
           "retweets": 0,
           "text": "“we believe that every small business owner, specifically for us in the trades, will have bespoke software, \n\nand that last mile is actually where differentiation can become, where you can provide a unique experience to your customers, to your employees” https://t.co/WhBtmHmGqZ https://t.co/IIQ90vD7mZ",
           "url": "https://x.com/nikunj/status/2103360292973633770"
-        },
-        {
-          "createdAt": "2026-09-25T00:12:28.000Z",
-          "id": "2103276414187548791",
-          "isQuote": true,
-          "likes": 31,
-          "quotedTweetId": "2102899862127943985",
-          "replies": 1,
-          "retweets": 4,
-          "text": "This is the way.. https://t.co/hwQIqAUlBC https://t.co/36ToP9fUlB",
-          "url": "https://x.com/nikunj/status/2103276414187548791"
-        },
-        {
-          "createdAt": "2026-09-24T20:23:10.000Z",
-          "id": "2103218709234172252",
-          "isQuote": false,
-          "likes": 9,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 0,
-          "text": "We are in that stage of the \"revenue\" lifecycle.. https://t.co/2uEqADj9un",
-          "url": "https://x.com/nikunj/status/2103218709234172252"
         }
       ],
       "source": "x",
@@ -648,28 +533,6 @@
           "retweets": 0,
           "text": "Astra blew up 3D models\nThen Opus blew up videos\nI don’t even know what’s next anymore https://t.co/CGJDOoGvYQ",
           "url": "https://x.com/petergyang/status/2103318850641260959"
-        },
-        {
-          "createdAt": "2026-09-25T02:33:42.000Z",
-          "id": "2103311956639973774",
-          "isQuote": true,
-          "likes": 39,
-          "quotedTweetId": "2103034450908979441",
-          "replies": 2,
-          "retweets": 0,
-          "text": "😂 this is love https://t.co/xUgorFN8IG",
-          "url": "https://x.com/petergyang/status/2103311956639973774"
-        },
-        {
-          "createdAt": "2026-09-25T02:28:22.000Z",
-          "id": "2103310612864569388",
-          "isQuote": false,
-          "likes": 17,
-          "quotedTweetId": null,
-          "replies": 9,
-          "retweets": 0,
-          "text": "This is called stroking the AI's ego and it works https://t.co/CpSvOv3kmF",
-          "url": "https://x.com/petergyang/status/2103310612864569388"
         }
       ],
       "source": "x",
@@ -744,17 +607,6 @@
           "retweets": 7,
           "text": "The growth of https://t.co/5JpYvhlpkR has been mind-boggling. I watched it grow from idea, to first ship, to 𝚗𝚙𝚡 𝚜𝚔𝚒𝚕𝚕𝚜 being on every README of the internet.\n\nWe used to write code, now we write English. https://t.co/jrmPFjQKms",
           "url": "https://x.com/rauchg/status/2103543983557517340"
-        },
-        {
-          "createdAt": "2026-09-24T20:15:01.000Z",
-          "id": "2103216656747262419",
-          "isQuote": false,
-          "likes": 635,
-          "quotedTweetId": null,
-          "replies": 114,
-          "retweets": 34,
-          "text": "Spend of OpenAI vs Anthropic vs Open \n(Vercel AI Gateway, last 2 months)\n\n• Anthropic still #1 in spend, but went 69% → 40%\n• OpenAI: 10% → 24% in spend\n• GPT-6 Astra + GPT 5.6 Sol are ripping\n• OpenAI now leads in tokens #\n• Kimi K3 + DeepSeek took ~half of Anthropic's loss\n• Opus 5.5 is up to 10% of spend in 2 days\n• OpenAI is 62% of image generations \n\nWatch here: https://t.co/Gu7D9d7M8w",
-          "url": "https://x.com/rauchg/status/2103216656747262419"
         }
       ],
       "source": "x",
@@ -837,39 +689,6 @@
           "retweets": 5,
           "text": "day of the dead https://t.co/ivXMULng59",
           "url": "https://x.com/steipete/status/2103615459426001163"
-        },
-        {
-          "createdAt": "2026-09-24T19:10:04.000Z",
-          "id": "2103200311641076100",
-          "isQuote": false,
-          "likes": 19,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 0,
-          "text": "I put Daybreak on it and found 8 more long-standing leaks. Care for your oss dependencies! https://t.co/pTwsuhEvxs",
-          "url": "https://x.com/steipete/status/2103200311641076100"
-        },
-        {
-          "createdAt": "2026-09-24T15:52:04.000Z",
-          "id": "2103150483062014436",
-          "isQuote": true,
-          "likes": 317,
-          "quotedTweetId": "2102746052256322006",
-          "replies": 58,
-          "retweets": 14,
-          "text": "Afghanistan is more excited about AI than we are? https://t.co/rbkSf8pUkM",
-          "url": "https://x.com/steipete/status/2103150483062014436"
-        },
-        {
-          "createdAt": "2026-09-24T15:43:58.000Z",
-          "id": "2103148444701610233",
-          "isQuote": false,
-          "likes": 316,
-          "quotedTweetId": null,
-          "replies": 12,
-          "retweets": 10,
-          "text": "If you just tell the agent to clean up, it will stop far too early. Give it an ambitious goal. Try \"remove 20% of the least useful tests while maintaining code coverage within 2%\"",
-          "url": "https://x.com/steipete/status/2103148444701610233"
         }
       ],
       "source": "x",
@@ -889,17 +708,6 @@
           "retweets": 0,
           "text": "In Jan this year I called my content strategy shot: \"Scaling without Slop\". \n\nIt's finally starting to work. It took us 3 years to reach our first 100k on youtube. It only took 1.2 months for the next 100k. Similar other metrics on AEO/SEO/subscriber traction and have a lot of New Media ideas that I'm excited to pursue.\n\nofficially giving notice of the next phase of Latent Space, AINews, and what the rest of swyx inc has been cooking below",
           "url": "https://x.com/swyx/status/2103361254433993165"
-        },
-        {
-          "createdAt": "2026-09-24T20:42:07.000Z",
-          "id": "2103223477130129726",
-          "isQuote": false,
-          "likes": 504,
-          "quotedTweetId": null,
-          "replies": 45,
-          "retweets": 29,
-          "text": "more conferences could implement this. so much high value time wasted without thought https://t.co/jn93l7JyoH",
-          "url": "https://x.com/swyx/status/2103223477130129726"
         }
       ],
       "source": "x",
@@ -1089,39 +897,6 @@
           "retweets": 260,
           "text": "What is effort really? When do you change it it and why not just use max effort for everything?\n\nI dove deep into this problem, looking into evals and doing my own tests and I was quite surprised by the results. https://t.co/KO2D51j34H",
           "url": "https://x.com/trq212/status/2103576349499855160"
-        },
-        {
-          "createdAt": "2026-09-24T23:05:28.000Z",
-          "id": "2103259550325575806",
-          "isQuote": true,
-          "likes": 518,
-          "quotedTweetId": "2102774995315245469",
-          "replies": 24,
-          "retweets": 12,
-          "text": "incredibly thoughtful piece on AI and creativity\n\nhopefully we can make our producst better at enabling and amplifying creatives https://t.co/SeI25wbaI7",
-          "url": "https://x.com/trq212/status/2103259550325575806"
-        },
-        {
-          "createdAt": "2026-09-24T19:56:43.000Z",
-          "id": "2103212052391354794",
-          "isQuote": false,
-          "likes": 137,
-          "quotedTweetId": null,
-          "replies": 13,
-          "retweets": 0,
-          "text": "this should let you customize the plan mode prompt, create + share your own modes or just ignore it and rebind shift+tab to something else all together",
-          "url": "https://x.com/trq212/status/2103212052391354794"
-        },
-        {
-          "createdAt": "2026-09-24T19:56:43.000Z",
-          "id": "2103212051065921632",
-          "isQuote": true,
-          "likes": 1654,
-          "quotedTweetId": "2102813194196758746",
-          "replies": 193,
-          "retweets": 29,
-          "text": "lots feedback here, many of you are planning yourself &amp; don't need plan mode\n\nothers prefer the UX of entering a mode where Claude is just thinking &amp; brainstorming with you\n\nmy plan is to:\n- make plan mode into a built-in mod\n- allow mods to add new modes or override shift+tab https://t.co/SL1IzLvb17",
-          "url": "https://x.com/trq212/status/2103212051065921632"
         }
       ],
       "source": "x",
@@ -1159,8 +934,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 20,
-    "xTweets": 90,
-    "windowSpanHours": 85.82
+    "xBuilders": 18,
+    "xTweets": 71,
+    "windowSpanHours": 74.53
   }
 }

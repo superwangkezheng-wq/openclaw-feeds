@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-28T12:00:19+00:00</published>
-  <updated>2026-09-28T12:00:21+00:00</updated>
+  <updated>2026-09-28T22:24:06+00:00</updated>
   <media:group>
    <media:title>How tokenizers turn text into numbers</media:title>
    <media:content url="https://www.youtube.com/v/hLWiGBqUjg0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -31,7 +31,7 @@
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="9"/>
+    <media:statistics views="49"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,8 +76,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 1:05:57 MATH-500 evaluation results
 1:07:35 Takeaways and next steps</media:description>
    <media:community>
-    <media:starRating count="82" average="5.00" min="1" max="5"/>
-    <media:statistics views="5477"/>
+    <media:starRating count="83" average="5.00" min="1" max="5"/>
+    <media:statistics views="5884"/>
    </media:community>
   </media:group>
  </entry>
@@ -101,8 +101,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="125" average="5.00" min="1" max="5"/>
-    <media:statistics views="2835"/>
+    <media:starRating count="146" average="5.00" min="1" max="5"/>
+    <media:statistics views="3089"/>
    </media:community>
   </media:group>
  </entry>
@@ -128,8 +128,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 Article on coding an agent harness: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent</media:description>
    <media:community>
-    <media:starRating count="139" average="5.00" min="1" max="5"/>
-    <media:statistics views="4955"/>
+    <media:starRating count="140" average="5.00" min="1" max="5"/>
+    <media:statistics views="5026"/>
    </media:community>
   </media:group>
  </entry>
@@ -154,7 +154,7 @@ Article on coding an agent harness: https://magazine.sebastianraschka.com/p/comp
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="472"/>
+    <media:statistics views="475"/>
    </media:community>
   </media:group>
  </entry>
@@ -205,8 +205,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="150" average="5.00" min="1" max="5"/>
-    <media:statistics views="11418"/>
+    <media:starRating count="151" average="5.00" min="1" max="5"/>
+    <media:statistics views="11525"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +231,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="2563"/>
+    <media:statistics views="2565"/>
    </media:community>
   </media:group>
  </entry>
@@ -288,8 +288,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="198" average="5.00" min="1" max="5"/>
-    <media:statistics views="16663"/>
+    <media:starRating count="199" average="5.00" min="1" max="5"/>
+    <media:statistics views="16734"/>
    </media:community>
   </media:group>
  </entry>
@@ -353,7 +353,7 @@ Other resources mentioned in the video:
 01:35:32 Recap and next steps</media:description>
    <media:community>
     <media:starRating count="229" average="5.00" min="1" max="5"/>
-    <media:statistics views="16352"/>
+    <media:statistics views="16418"/>
    </media:community>
   </media:group>
  </entry>
@@ -424,8 +424,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1200" average="5.00" min="1" max="5"/>
-    <media:statistics views="120026"/>
+    <media:starRating count="1203" average="5.00" min="1" max="5"/>
+    <media:statistics views="120177"/>
    </media:community>
   </media:group>
  </entry>
@@ -476,7 +476,7 @@ https://magazine.sebastianraschka.com/</media:description>
 41:50 Questions and what comes next</media:description>
    <media:community>
     <media:starRating count="720" average="5.00" min="1" max="5"/>
-    <media:statistics views="34665"/>
+    <media:statistics views="34769"/>
    </media:community>
   </media:group>
  </entry>
@@ -522,7 +522,7 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
     <media:starRating count="470" average="5.00" min="1" max="5"/>
-    <media:statistics views="19110"/>
+    <media:statistics views="19161"/>
    </media:community>
   </media:group>
  </entry>
@@ -547,7 +547,7 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
     <media:starRating count="88" average="5.00" min="1" max="5"/>
-    <media:statistics views="4762"/>
+    <media:statistics views="4793"/>
    </media:community>
   </media:group>
  </entry>
@@ -603,7 +603,7 @@ Chapters:
 52:00 Build a Reasoning Model From Scratch</media:description>
    <media:community>
     <media:starRating count="1363" average="5.00" min="1" max="5"/>
-    <media:statistics views="34761"/>
+    <media:statistics views="34809"/>
    </media:community>
   </media:group>
  </entry>
@@ -650,7 +650,7 @@ Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-
 36:39 Poster, future updates, and wrap-up</media:description>
    <media:community>
     <media:starRating count="804" average="5.00" min="1" max="5"/>
-    <media:statistics views="17881"/>
+    <media:statistics views="17904"/>
    </media:community>
   </media:group>
  </entry>
