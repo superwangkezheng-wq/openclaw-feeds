@@ -74,17 +74,6 @@
       "name": "Amjad Masad",
       "source": "x",
       "tweets": {
-        "id:2103632415185133992": {
-          "createdAt": "2026-09-25T23:47:06.000Z",
-          "id": "2103632415185133992",
-          "isQuote": true,
-          "likes": 242,
-          "quotedTweetId": "2103515238243221725",
-          "replies": 24,
-          "retweets": 10,
-          "text": "We’ve been thinking a lot about what it means to build the self-driving company. A big part of that is putting the ability to understand a business in everyone's hands. \n\nAtta has built a beautiful approach to business analysis and data visualization, and they share our belief that useful intelligence should be accessible to everyone.\n\nWelcoming Omar, Amine, and the Atta team to Replit!",
-          "url": "https://x.com/amasad/status/2103632415185133992"
-        },
         "id:2104344877798719516": {
           "createdAt": "2026-09-27T22:58:10.000Z",
           "id": "2104344877798719516",
@@ -115,17 +104,6 @@
       "name": "Boris Cherny",
       "source": "x",
       "tweets": {
-        "id:2103538666597691552": {
-          "createdAt": "2026-09-25T17:34:34.000Z",
-          "id": "2103538666597691552",
-          "isQuote": true,
-          "likes": 1096,
-          "quotedTweetId": "2103223133843145035",
-          "replies": 159,
-          "retweets": 52,
-          "text": "Tag writes >50% of my PRs every day. It also does ~100% of my data analysis, and fixes most of our product feedback + bugs.\n\nIt's not like a regular Slack bot. It is proactive, programmable, it has memory, it has access to your connectors. With Opus 5.5 and Fable 5.1, it has strong judgement.\n\nExample prompts I use:\n\n- \"@Claude react to threads in this channel with ✅ when resolved\"\n- \"@Claude from now on, attempt to repro every bug in this channel end to end, running the full app. once you reproduce the bug, put up a pr to fix it and tag the right team for code review\"\n- \"@Claude brainstorm ~100 hypotheses for what could explain this weird data, use a workflow to in/validate. spend 10m tokens or so digging very deep. draw a chart with the result.\"\n- \"@Claude make me an interactive game explaining how this part of the code works, then make a slide deck explaining it for others on the team\"\n\nhttps://t.co/gmsALM8Lvs",
-          "url": "https://x.com/bcherny/status/2103538666597691552"
-        },
         "id:2103691327699550598": {
           "createdAt": "2026-09-26T03:41:11.000Z",
           "id": "2103691327699550598",
@@ -156,39 +134,6 @@
       "name": "Claude",
       "source": "x",
       "tweets": {
-        "id:2103515668171853944": {
-          "createdAt": "2026-09-25T16:03:11.000Z",
-          "id": "2103515668171853944",
-          "isQuote": true,
-          "likes": 315,
-          "quotedTweetId": "2102475701844676747",
-          "replies": 3,
-          "retweets": 9,
-          "text": "https://t.co/7zcjE09JYh",
-          "url": "https://x.com/claudeai/status/2103515668171853944"
-        },
-        "id:2103515670428238179": {
-          "createdAt": "2026-09-25T16:03:11.000Z",
-          "id": "2103515670428238179",
-          "isQuote": true,
-          "likes": 293,
-          "quotedTweetId": "2103059885361598633",
-          "replies": 4,
-          "retweets": 3,
-          "text": "https://t.co/3kIQ5LKes3",
-          "url": "https://x.com/claudeai/status/2103515670428238179"
-        },
-        "id:2103515672777290083": {
-          "createdAt": "2026-09-25T16:03:12.000Z",
-          "id": "2103515672777290083",
-          "isQuote": false,
-          "likes": 194,
-          "quotedTweetId": null,
-          "replies": 59,
-          "retweets": 2,
-          "text": "What are you going to explore with Opus 5.5 this weekend?",
-          "url": "https://x.com/claudeai/status/2103515672777290083"
-        },
         "id:2104675000787603486": {
           "createdAt": "2026-09-28T20:49:57.000Z",
           "id": "2104675000787603486",
@@ -315,17 +260,6 @@
       "name": "Garry Tan",
       "source": "x",
       "tweets": {
-        "id:2103649988282905001": {
-          "createdAt": "2026-09-26T00:56:55.000Z",
-          "id": "2103649988282905001",
-          "isQuote": true,
-          "likes": 204,
-          "quotedTweetId": "2103648679169257737",
-          "replies": 21,
-          "retweets": 6,
-          "text": "Astra is very impressive https://t.co/7BMRh6zl1Y",
-          "url": "https://x.com/garrytan/status/2103649988282905001"
-        },
         "id:2103932595956506885": {
           "createdAt": "2026-09-26T19:39:54.000Z",
           "id": "2103932595956506885",
@@ -441,17 +375,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2103629073595728372": {
-          "createdAt": "2026-09-25T23:33:49.000Z",
-          "id": "2103629073595728372",
-          "isQuote": true,
-          "likes": 195,
-          "quotedTweetId": "2103294972590018584",
-          "replies": 45,
-          "retweets": 22,
-          "text": "You can’t automate what you can’t measure. This means that evals are one of the gates to diffusion of AI in the enterprise. \n\nWe can test our deterministic processes through software, but most enterprises have no useful way of understanding how their non-deterministic processes are working today. Specifically the work that agents are doing for them.\n\nEvals are mission critical for enterprises adopting AI because you have no other way of knowing what’s working, what’s broken, what changed, what improved, what you can do more of, etc. if you don’t have a good sense of how agents work in your environment today. All changes, upgrades, and deployments are downstream from good evals.\n\nNot only are we going to get vastly more domain specific evals over time for the labs and across the industry, but every enterprise will also need a clear sense of how agents are performing in their environment as well. Huge opportunity.",
-          "url": "https://x.com/levie/status/2103629073595728372"
-        },
         "id:2104350592290406849": {
           "createdAt": "2026-09-27T23:20:52.000Z",
           "id": "2104350592290406849",
@@ -482,17 +405,6 @@
       "name": "Matt Turck",
       "source": "x",
       "tweets": {
-        "id:2103550183506337835": {
-          "createdAt": "2026-09-25T18:20:20.000Z",
-          "id": "2103550183506337835",
-          "isQuote": false,
-          "likes": 140,
-          "quotedTweetId": null,
-          "replies": 26,
-          "retweets": 2,
-          "text": "Sooo. many. startups. \n\nBut all investors want to invest in the same 10-30.\n\nThis has always been true, but probably never to this extent.  \n\nHyper power law.",
-          "url": "https://x.com/mattturck/status/2103550183506337835"
-        },
         "id:2104331402385002831": {
           "createdAt": "2026-09-27T22:04:37.000Z",
           "id": "2104331402385002831",
@@ -737,39 +649,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2103543983557517340": {
-          "createdAt": "2026-09-25T17:55:42.000Z",
-          "id": "2103543983557517340",
-          "isQuote": true,
-          "likes": 331,
-          "quotedTweetId": "2103541839399907424",
-          "replies": 43,
-          "retweets": 7,
-          "text": "The growth of https://t.co/5JpYvhlpkR has been mind-boggling. I watched it grow from idea, to first ship, to 𝚗𝚙𝚡 𝚜𝚔𝚒𝚕𝚕𝚜 being on every README of the internet.\n\nWe used to write code, now we write English. https://t.co/jrmPFjQKms",
-          "url": "https://x.com/rauchg/status/2103543983557517340"
-        },
-        "id:2103564484602384855": {
-          "createdAt": "2026-09-25T19:17:10.000Z",
-          "id": "2103564484602384855",
-          "isQuote": true,
-          "likes": 183,
-          "quotedTweetId": "2103560561577636126",
-          "replies": 47,
-          "retweets": 14,
-          "text": "We're helping world-class organizations like @klaviyo build agentic deployment platforms.\n\n① Connect every agent (claude, codex, cursor…)\n② Configure SSO via their IDP (Okta, Entra)\n③ Now everyone can cook, securely®\n\nWhat happens to SaaS once every company sets this up? I get this question a lot 😁\n\nFirst, the data must come from somewhere. These apps only work if they can be infused with business data.\n\nThis is why we see the big enterprise SaaS players suddenly prioritize shipping CLIs and MCPs. Or dust off APIs they were neglecting for years.\n\nThe new 'procurement bar' will be how ergonomic your product is for *agents*, rather than humans. How easily they can navigate your ontology and work with your data.\n\nOnce that's in place, there's a long tail of SaaS applications that I suspect will never be bought again. They'll be generated. They'll be more secure, more performant, more modern, and tailored to each company's and employee's needs.",
-          "url": "https://x.com/rauchg/status/2103564484602384855"
-        },
-        "id:2103580284021354795": {
-          "createdAt": "2026-09-25T20:19:56.000Z",
-          "id": "2103580284021354795",
-          "isQuote": false,
-          "likes": 178,
-          "quotedTweetId": null,
-          "replies": 11,
-          "retweets": 6,
-          "text": "Cool https://t.co/cPDSk0E6oZ 😂",
-          "url": "https://x.com/rauchg/status/2103580284021354795"
-        },
         "id:2103939888513274147": {
           "createdAt": "2026-09-26T20:08:53.000Z",
           "id": "2103939888513274147",
@@ -874,17 +753,6 @@
       "name": "Sam Altman",
       "source": "x",
       "tweets": {
-        "id:2103567198690349362": {
-          "createdAt": "2026-09-25T19:27:57.000Z",
-          "id": "2103567198690349362",
-          "isQuote": true,
-          "likes": 4856,
-          "quotedTweetId": "2103566736356458911",
-          "replies": 782,
-          "retweets": 311,
-          "text": "There is an extensive and ongoing review related to our agents’ use of internet access during training and evaluation. We’ve been publishing summaries at the link below and will continue to.\n\nWe have not been as fast as we would have liked but we are trying to balance our desire for transparency with gaining a clear understanding from petabytes of agent activity logs, and working with impacted organizations.\n\nWe are prioritizing as best as we can based on severity, and adding resources. Hugging Face is still the most severe event we’ve seen. We will be as transparent as we can be subject to things like vulnerabilities in other companies that our agents have found, which will be their call to disclose or not.",
-          "url": "https://x.com/sama/status/2103567198690349362"
-        },
         "id:2104661956879913457": {
           "createdAt": "2026-09-28T19:58:07.000Z",
           "id": "2104661956879913457",
@@ -904,39 +772,6 @@
       "name": "Peter Steinberger",
       "source": "x",
       "tweets": {
-        "id:2103615459426001163": {
-          "createdAt": "2026-09-25T22:39:43.000Z",
-          "id": "2103615459426001163",
-          "isQuote": true,
-          "likes": 98,
-          "quotedTweetId": "2103615298725409110",
-          "replies": 4,
-          "retweets": 5,
-          "text": "day of the dead https://t.co/ivXMULng59",
-          "url": "https://x.com/steipete/status/2103615459426001163"
-        },
-        "id:2103648679169257737": {
-          "createdAt": "2026-09-26T00:51:43.000Z",
-          "id": "2103648679169257737",
-          "isQuote": false,
-          "likes": 1043,
-          "quotedTweetId": null,
-          "replies": 82,
-          "retweets": 46,
-          "text": "The biggest design mistake I made when we moved OC to sqlite: using sync db access. When it was just an agent that reports to you on Slack or iMessage this was fine; now that one agent might do 50 sessions in parallel and the whole team works on it, it is limiting.\n\nI have a /goal with Astra that so far landed 575 PRs to move everything to to async workers. We ship these improvements as we make progress. Pretty insane how even huge refactors are no longer scary.",
-          "url": "https://x.com/steipete/status/2103648679169257737"
-        },
-        "id:2103654562523705675": {
-          "createdAt": "2026-09-26T01:15:06.000Z",
-          "id": "2103654562523705675",
-          "isQuote": true,
-          "likes": 104,
-          "quotedTweetId": "2103581166658060631",
-          "replies": 10,
-          "retweets": 5,
-          "text": "keep thinking https://t.co/m9hPGboarc",
-          "url": "https://x.com/steipete/status/2103654562523705675"
-        },
         "id:2103883264054505493": {
           "createdAt": "2026-09-26T16:23:53.000Z",
           "id": "2103883264054505493",
@@ -997,28 +832,6 @@
       "name": "Nan Yu",
       "source": "x",
       "tweets": {
-        "id:2103623390842294609": {
-          "createdAt": "2026-09-25T23:11:14.000Z",
-          "id": "2103623390842294609",
-          "isQuote": true,
-          "likes": 52,
-          "quotedTweetId": "2103493980591669712",
-          "replies": 2,
-          "retweets": 1,
-          "text": "AGI https://t.co/MBqJzksRob",
-          "url": "https://x.com/thenanyu/status/2103623390842294609"
-        },
-        "id:2103639287367696603": {
-          "createdAt": "2026-09-26T00:14:24.000Z",
-          "id": "2103639287367696603",
-          "isQuote": false,
-          "likes": 0,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "basically",
-          "url": "https://x.com/thenanyu/status/2103639287367696603"
-        },
         "id:2104424388309496182": {
           "createdAt": "2026-09-28T04:14:07.000Z",
           "id": "2104424388309496182",
@@ -1038,39 +851,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2103620061156290622": {
-          "createdAt": "2026-09-25T22:58:00.000Z",
-          "id": "2103620061156290622",
-          "isQuote": false,
-          "likes": 10596,
-          "quotedTweetId": null,
-          "replies": 2255,
-          "retweets": 574,
-          "text": "We are aware that codex is down and are working hard to bring back normal service.",
-          "url": "https://x.com/thsottiaux/status/2103620061156290622"
-        },
-        "id:2103622639386574979": {
-          "createdAt": "2026-09-25T23:08:15.000Z",
-          "id": "2103622639386574979",
-          "isQuote": false,
-          "likes": 2687,
-          "quotedTweetId": null,
-          "replies": 481,
-          "retweets": 44,
-          "text": "o no :(",
-          "url": "https://x.com/thsottiaux/status/2103622639386574979"
-        },
-        "id:2103637477760311522": {
-          "createdAt": "2026-09-26T00:07:13.000Z",
-          "id": "2103637477760311522",
-          "isQuote": true,
-          "likes": 12780,
-          "quotedTweetId": "2103622639386574979",
-          "replies": 2196,
-          "retweets": 671,
-          "text": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\n\nsorry about the brief disruption!\n\n(and yes we have a special spare codex when things are down to help us out) https://t.co/Qy0da4L1jq",
-          "url": "https://x.com/thsottiaux/status/2103637477760311522"
-        },
         "id:2103911959544610829": {
           "createdAt": "2026-09-26T18:17:54.000Z",
           "id": "2103911959544610829",
@@ -1145,39 +925,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2103576349499855160": {
-          "createdAt": "2026-09-25T20:04:18.000Z",
-          "id": "2103576349499855160",
-          "isQuote": false,
-          "likes": 3517,
-          "quotedTweetId": null,
-          "replies": 201,
-          "retweets": 260,
-          "text": "What is effort really? When do you change it it and why not just use max effort for everything?\n\nI dove deep into this problem, looking into evals and doing my own tests and I was quite surprised by the results. https://t.co/KO2D51j34H",
-          "url": "https://x.com/trq212/status/2103576349499855160"
-        },
-        "id:2103577115010687067": {
-          "createdAt": "2026-09-25T20:07:21.000Z",
-          "id": "2103577115010687067",
-          "isQuote": false,
-          "likes": 321,
-          "quotedTweetId": null,
-          "replies": 14,
-          "retweets": 23,
-          "text": "I use effort low a lot more when I want to stay in the loop, and effort max is basically only if I want zero input or want to find security vulnerabilities. https://t.co/KdDBikNwCL",
-          "url": "https://x.com/trq212/status/2103577115010687067"
-        },
-        "id:2103577116445175948": {
-          "createdAt": "2026-09-25T20:07:21.000Z",
-          "id": "2103577116445175948",
-          "isQuote": false,
-          "likes": 140,
-          "quotedTweetId": null,
-          "replies": 10,
-          "retweets": 6,
-          "text": "If you want to see interactive explainers of benchmarks and demos I built, you can read it on our new dev site here: https://t.co/oSTZrBggXM",
-          "url": "https://x.com/trq212/status/2103577116445175948"
-        },
         "id:2103897226154328502": {
           "createdAt": "2026-09-26T17:19:21.000Z",
           "id": "2103897226154328502",
