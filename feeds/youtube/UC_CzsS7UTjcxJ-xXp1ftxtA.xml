@@ -11,6 +11,31 @@
  </author>
  <published>2012-02-21T04:08:32+00:00</published>
  <entry>
+  <id>yt:video:L0JQMS89qlY</id>
+  <yt:videoId>L0JQMS89qlY</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Where verifiable rewards for reasoning model training come from</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/L0JQMS89qlY"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-09-30T14:00:04+00:00</published>
+  <updated>2026-09-30T14:00:04+00:00</updated>
+  <media:group>
+   <media:title>Where verifiable rewards for reasoning model training come from</media:title>
+   <media:content url="https://www.youtube.com/v/L0JQMS89qlY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/L0JQMS89qlY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A calculator gives us a reference answer to check an LLM’s response. In this example, a matching final answer receives a reward of 1, and a mismatch receives 0.
+
+An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="371"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:hLWiGBqUjg0</id>
   <yt:videoId>hLWiGBqUjg0</yt:videoId>
   <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
@@ -30,8 +55,8 @@
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="156"/>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="228"/>
    </media:community>
   </media:group>
  </entry>
@@ -76,8 +101,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 1:05:57 MATH-500 evaluation results
 1:07:35 Takeaways and next steps</media:description>
    <media:community>
-    <media:starRating count="90" average="5.00" min="1" max="5"/>
-    <media:statistics views="6810"/>
+    <media:starRating count="94" average="5.00" min="1" max="5"/>
+    <media:statistics views="7200"/>
    </media:community>
   </media:group>
  </entry>
@@ -92,7 +117,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-25T11:50:14+00:00</published>
-  <updated>2026-09-27T16:50:01+00:00</updated>
+  <updated>2026-09-30T19:31:29+00:00</updated>
   <media:group>
    <media:title>Why learn with &quot;from-scratch&quot; code?</media:title>
    <media:content url="https://www.youtube.com/v/Zx5AfEg-T2Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -102,7 +127,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="156" average="5.00" min="1" max="5"/>
-    <media:statistics views="3459"/>
+    <media:statistics views="3479"/>
    </media:community>
   </media:group>
  </entry>
@@ -128,8 +153,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 Article on coding an agent harness: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent</media:description>
    <media:community>
-    <media:starRating count="145" average="5.00" min="1" max="5"/>
-    <media:statistics views="5184"/>
+    <media:starRating count="146" average="5.00" min="1" max="5"/>
+    <media:statistics views="5249"/>
    </media:community>
   </media:group>
  </entry>
@@ -154,7 +179,7 @@ Article on coding an agent harness: https://magazine.sebastianraschka.com/p/comp
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="483"/>
+    <media:statistics views="489"/>
    </media:community>
   </media:group>
  </entry>
@@ -169,7 +194,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-19T13:16:32+00:00</published>
-  <updated>2026-09-19T13:22:03+00:00</updated>
+  <updated>2026-09-30T16:08:55+00:00</updated>
   <media:group>
    <media:title>Build A Reasoning Model From Scratch 4: Inference Scaling 1 (Temperature, Top-p, Self-Consistency)</media:title>
    <media:content url="https://www.youtube.com/v/t5y-kS9nNxU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -205,8 +230,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="152" average="5.00" min="1" max="5"/>
-    <media:statistics views="11734"/>
+    <media:starRating count="155" average="5.00" min="1" max="5"/>
+    <media:statistics views="11853"/>
    </media:community>
   </media:group>
  </entry>
@@ -231,7 +256,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="2576"/>
+    <media:statistics views="2577"/>
    </media:community>
   </media:group>
  </entry>
@@ -288,8 +313,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="201" average="5.00" min="1" max="5"/>
-    <media:statistics views="16874"/>
+    <media:starRating count="202" average="5.00" min="1" max="5"/>
+    <media:statistics views="16961"/>
    </media:community>
   </media:group>
  </entry>
@@ -352,8 +377,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="232" average="5.00" min="1" max="5"/>
-    <media:statistics views="16600"/>
+    <media:starRating count="233" average="5.00" min="1" max="5"/>
+    <media:statistics views="16704"/>
    </media:community>
   </media:group>
  </entry>
@@ -424,8 +449,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1209" average="5.00" min="1" max="5"/>
-    <media:statistics views="120468"/>
+    <media:starRating count="1211" average="5.00" min="1" max="5"/>
+    <media:statistics views="120676"/>
    </media:community>
   </media:group>
  </entry>
@@ -475,8 +500,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="728" average="5.00" min="1" max="5"/>
-    <media:statistics views="35121"/>
+    <media:starRating count="730" average="5.00" min="1" max="5"/>
+    <media:statistics views="35269"/>
    </media:community>
   </media:group>
  </entry>
@@ -521,8 +546,8 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
-    <media:starRating count="471" average="5.00" min="1" max="5"/>
-    <media:statistics views="19205"/>
+    <media:starRating count="470" average="5.00" min="1" max="5"/>
+    <media:statistics views="19245"/>
    </media:community>
   </media:group>
  </entry>
@@ -547,7 +572,7 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
     <media:starRating count="88" average="5.00" min="1" max="5"/>
-    <media:statistics views="4823"/>
+    <media:statistics views="4853"/>
    </media:community>
   </media:group>
  </entry>
@@ -602,55 +627,8 @@ Chapters:
 50:00 Transparent open-source training codebases
 52:00 Build a Reasoning Model From Scratch</media:description>
    <media:community>
-    <media:starRating count="1366" average="5.00" min="1" max="5"/>
-    <media:statistics views="34974"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:CepbWmGie0E</id>
-  <yt:videoId>CepbWmGie0E</yt:videoId>
-  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
-  <title>A Visual Tour of Modern LLM Architectures</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=CepbWmGie0E"/>
-  <author>
-   <name>Sebastian Raschka</name>
-   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
-  </author>
-  <published>2026-03-28T00:12:06+00:00</published>
-  <updated>2026-09-17T23:50:28+00:00</updated>
-  <media:group>
-   <media:title>A Visual Tour of Modern LLM Architectures</media:title>
-   <media:content url="https://www.youtube.com/v/CepbWmGie0E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/CepbWmGie0E/hqdefault.jpg" width="480" height="360"/>
-   <media:description>LLM Architecture Gallery: https://sebastianraschka.com/llm-architecture-gallery/
-
-In this video, I take you on a visual tour of modern LLM architectures and walk through the key ideas behind models like DeepSeek, Qwen3-Next, Kimi, Sarvam, Ling 2.5, and Nemotron.
-
-We look at what actually changed in recent LLM design, including grouped-query attention (GQA), sliding-window attention, multi-head latent attention (MLA), DeepSeek sparse attention, and hybrid linear attention.
-
-The goal of the gallery is to make it easier to compare architectures side by side, connect the diagrams back to papers, configs, and code, and get a clearer intuition for how today’s language models differ under the hood.
-
-Poster: https://www.redbubble.com/i/poster/LLM-Architecture-Gallery-by-Ahead-of-AI/179274487/flk2
-Articles / newsletter: https://magazine.sebastianraschka.com/p/visual-attention-variants
-
-00:00 Intro
-00:55 Why I built the gallery
-01:16 Overview of the LLM Architecture Gallery
-04:17 Comparing models side by side
-05:41 Benchmarks and the Artificial Intelligence Index
-07:03 GPT2 XL as the baseline architecture
-10:22 Grouped-Query Attention (GQA)
-14:51 Sliding-Window Attention
-18:40 Multi-Head Latent Attention (MLA)
-25:31 Sarvam 30B vs 105B
-27:41 DeepSeek Sparse Attention
-30:24 Hybrid Attention and Qwen3-Next
-33:20 Kimi Linear, Ling 2.5, and Nemotron
-36:39 Poster, future updates, and wrap-up</media:description>
-   <media:community>
-    <media:starRating count="804" average="5.00" min="1" max="5"/>
-    <media:statistics views="17948"/>
+    <media:starRating count="1367" average="5.00" min="1" max="5"/>
+    <media:statistics views="35022"/>
    </media:community>
   </media:group>
  </entry>
