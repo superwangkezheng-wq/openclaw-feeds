@@ -15,8 +15,157 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Wed, 30 Sep 2026 13:55:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Oct 2026 02:13:23 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%]]></title>
+            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="1080,460" src="https://img.36krcdn.com/hsossms/20261001/v2_401a2797d4ee451a9366f2487e4f4433@000000_oswg541196oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>智东西10月1日消息，今天凌晨，谷歌发布新一代旗舰模型<strong>Gemini 4 Argon</strong>，重点面向<strong>软件工程、法律与金融等企业知识工作</strong>，以及<strong>网络安全防御</strong>等复杂、长周期任务。&nbsp;</p>
+  <p>在衡量<strong>长程软件工程能力</strong>的DeepSWE v1.1测试、评估金融、编程、法律和税务等<strong>企业知识工作</strong>的Vals Index、测试<strong>企业端到端自动化执行能力</strong>的AutomationBench，以及考察<strong>长视频理解能力</strong>的LVBench中，Gemini 4 Argon均<strong>领先GPT-6 Astra、Claude Fable 5.1和Claude Opus 5.5等模型</strong>；在评估<strong>漏洞修复能力</strong>的CWE-bench v1中，Argon以68%的成绩<strong>与GPT-6 Astra并列第一</strong>。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1058,1334" src="https://img.36krcdn.com/hsossms/20261001/v2_d8ddff5dafd4435f9a7d18df03bec76f@000000_oswg323564oswg1058oswg1334_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在Text Arena的模型成本与得分对比中，Gemini 4 Argon High以<strong>1525分和每百万Token 8美元</strong>的混合价格，进入成本-性能前沿。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,860" src="https://img.36krcdn.com/hsossms/20261001/v2_53c67658314f4a83ba692d85ed13e8c1@000000_oswg452799oswg1080oswg860_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>目前，在Artificial Analysis Intelligence Index中，Gemini 4 Argon得分53分，仅<strong>落后于Claude Opus 5.5和Claude Sonnet 5.5</strong>，得分<strong>与Claude Fable 5.1、GPT-6 Astra并列</strong>。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,448" src="https://img.36krcdn.com/hsossms/20261001/v2_e4148fb91c1c4964bd4b290bd051a9bd@000000_oswg150272oswg1080oswg448_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲Gemini 4 Argon在Artificial Analysis上测评情况（图源：Artificial Analysis）</p>
+  <p>不过，彭博社援引知情人士称，部分谷歌员工认为，Gemini 4虽然在行业基准测试中表现亮眼，但<strong>在实际工作中并不总能达到同等水平</strong>，尤其是在<strong>部分编程任务上仍较为吃力</strong>，这与谷歌当天发布的测试成绩形成反差。&nbsp;</p>
+  <p>Gemini 4 Argon现已通过“Fairwind计划”向一批经过筛选的网络安全防御团队开放。谷歌计划先收集早期测试反馈、继续完善安全护栏，随后逐步向开发者、企业和消费者开放，首批用户将包括<strong>付费API客户和Google AI Ultra订阅者</strong>。&nbsp;</p>
+  <p>Argon API初始价格为<strong>每百万输入Token 2美元（约合人民币13.4元）</strong>、<strong>每百万输出Token 10美元（约合人民币67元）</strong>，缓存输入Token价格在输入Token基础上降低95%，即<strong>每百万Token约0.1美元（约合人民币0.67元）</strong>。&nbsp;</p>
+  <p>根据Artificial Analysis，按折扣定价，Gemini 4 Argon的每任务成本为1.99美元，较GPT-6 Astra（max）<strong>降低40%</strong>。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,488" src="https://img.36krcdn.com/hsossms/20261001/v2_a0a74351784b4eccbc5dfee8380aefa9@000000_oswg43868oswg1080oswg488_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲Gemini 4 Argon每任务成本与其他模型对比（图源：Artificial Analysis）</p>
+  <p>谷歌首席执行官桑达尔·皮查伊（Sundar Pichai）称，外界对下一代模型的讨论很多，因此希望尽早展示Gemini 4 Argon。谷歌内部团队已广泛将其用于编程、量子计算等工作，反馈良好。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="878,406" src="https://img.36krcdn.com/hsossms/20261001/v2_e9f2ff86a0c64410831485820fc2d9cd@000000_oswg68679oswg878oswg406_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲皮查伊发文官宣Gemini 4 Argon（图源：X）</p>
+  <p>一位X用户认为，Gemini 4对提示词格外敏感，输出内容和风格受提示词影响的程度超过其他模型，默认风格不佳，但增加一句提示词就容易改善。他还展示了用不同提示词复刻《乐高星球大战》关卡的效果。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="874,932" src="https://img.36krcdn.com/hsossms/20261001/v2_ba56c907335c42f380cb8f061ba4bb84@000000_oswg106552oswg874oswg932_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲开发者对于Gemini 4 Argon的评价（图源：X）</p>
+  <p>另一位开发者认为，在一次生成细节丰富、美感出色的3D场景方面，Gemini 4 Argon尚未达到Opus 5的水平。Gemini 4 Argon在画面细节上，效果略显粗糙。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1795" src="https://img.36krcdn.com/hsossms/20261001/v2_128d4d32bdf9492887d507e3d9b5fce0@000000_oswg175175oswg1080oswg1795_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲开发者对比Gemini 4 Argon（上）和Claude Opus 5（下）的生成效果（图源：X）</p>
+  <p><strong>01</strong> <strong>.</strong>&nbsp;</p>
+  <p><strong>输出上限提升至100万Token，</strong>&nbsp;</p>
+  <p><strong>编程能力与企业任务测试突出</strong>&nbsp;</p>
+  <p>Gemini 4 Argon将模型输出Token上限从此前的6.4万Tokens提升至100万Tokens，成为目前业内输出容量最高的模型之一。更大的输出空间允许模型在单次任务中深度思考，并生成数十万甚至上百万Token，用于处理大型代码库、复杂研究和多步骤企业流程。&nbsp;</p>
+  <p>编程方面，Gemini 4 Argon在衡量真实世界长期软件工程能力的DeepSWE v1.1测试中取得77.9%的成绩，刷新该测试的最好纪录。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,729" src="https://img.36krcdn.com/hsossms/20261001/v2_6ba0117261de416cb0ab38c3e6827d36@000000_oswg74550oswg1080oswg729_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在覆盖金融、编程、法律和税务等工作的Vals Index中，Argon排名第一。Argon还在Vals Finance Agent v2测试（多步骤金融研究）、Harvey法律Agent测试（法律研究与起草）中取得领先成绩。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,714" src="https://img.36krcdn.com/hsossms/20261001/v2_c9842de97ac5461c947b11f05ffc3ec5@000000_oswg71753oswg1080oswg714_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在Zapier用于评估企业端到端自动化执行能力的AutomationBench中，Argon得分51.3%，位列第一，明显领先GPT-6 Astra、Claude Fable 5.1、Claude Opus 5.5等模型。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,729" src="https://img.36krcdn.com/hsossms/20261001/v2_94afd00bd13e4a9b8662711dc71d1ab1@000000_oswg78358oswg1080oswg729_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Argon的多模态能力也被用于长视频和专业图表分析。在评估长视频理解能力的LVBench中，该模型得分91.7%，达到现有模型最优水平。&nbsp;</p>
+  <p><strong>02</strong> <strong>.</strong>&nbsp;</p>
+  <p><strong>深入谷歌内部工作流，</strong>&nbsp;</p>
+  <p><strong>完成量子算法优化与大规模代码迁移</strong>&nbsp;</p>
+  <p>在谷歌内部，数千名员工已将Gemini 4 Argon用于日常调试、算法设计、研究和大规模代码迁移等工作。&nbsp;</p>
+  <p>谷歌举例称，Argon曾帮助量子计算研究人员优化量子算法的时空资源，在数分钟内将一项公开基线结果提升40%。另外，一组Argon Agent分析了覆盖谷歌整个服务器集群的性能分析遥测数据，自主识别并实施数据中心内存优化方案。相关方案部署后，可释放超过300TiB内存，预计总节省量将达到500TiB至1PiB。&nbsp;</p>
+  <p>Argon Agent还参与了谷歌内部C/C++代码向Rust的迁移，覆盖数万行的核心库代码，以及超过80万行的Fuchsia Zircon内核。考虑到相关系统的重要性，谷歌称，所有大规模重写都必须经过自动化和人工审计、仿真测试及代码审查，确认安全后才能部署到生产环境。&nbsp;</p>
+  <p>以开源视频解码器libgav1为例，Argon Agent通过多轮性能分析和实验，重写了约3.2万行SIMD代码，使编译器能够自动完成向量化。迁移后的Rust版本在保持视频输出完全一致的情况下，运行速度达到原Rust版本的2.7倍，性能进一步接近经过优化的C++版本。&nbsp;</p>
+  <p><strong>03</strong> <strong>.</strong>&nbsp;</p>
+  <p><strong>强化网络安全能力，</strong>&nbsp;</p>
+  <p><strong>可自主发现和修复漏洞</strong>&nbsp;</p>
+  <p>谷歌还针对网络安全防御能力对Gemini 4 Argon进行了专项训练。Argon可以自主发现、验证并修复软件漏洞。对于经过信任认证的网络安全防御团队和谷歌内部团队，谷歌将提供不带网络安全护栏的Argon版本，以便其发挥完整的漏洞分析和防御能力。&nbsp;</p>
+  <p>网络安全公司Wiz已通过“Scan for Good”项目使用Argon，为关键公共基础设施免费发现和修复高风险暴露。谷歌称，在一次早期测试中，Argon发现了一个影响全球医院所使用医疗软件的严重漏洞，该漏洞可能导致敏感个人信息暴露，且此前的前沿模型没有识别出这一风险。&nbsp;</p>
+  <p>在评估漏洞修复能力的CWE-bench v1中，Argon以68%的成绩并列第一，得分与Grok 4.7和GPT-6 Astra相当。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,592" src="https://img.36krcdn.com/hsossms/20261001/v2_c228fce33bfc44559e4b0a5e3fa945eb@000000_oswg159435oswg1080oswg592_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>谷歌内部的综合漏洞基准测试显示，Argon可以在覆盖20种编程语言的复杂代码库中发现多类安全暴露。在Wiz的黑盒渗透测试中，Argon在识别真实网站攻击面、发现漏洞以及生成概念验证方面，也超过了此前的Gemini 3.8 Flash Cyber。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,581" src="https://img.36krcdn.com/hsossms/20261001/v2_12b2f9d5615e42489437438beb711b33@000000_oswg120315oswg1080oswg581_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>04</strong> <strong>.</strong>&nbsp;</p>
+  <p><strong>扩大安全测试，</strong>&nbsp;</p>
+  <p><strong>重点防范模型滥用与提示注入</strong>&nbsp;</p>
+  <p>在正式扩大开放前，谷歌将继续强化四类前沿安全能力。&nbsp;</p>
+  <p>防范滥用方面，Argon会拒绝可能用于网络攻击以及化学、生物、放射性和核武器攻击的有害请求，同时保留合法的双重用途科学研究能力。谷歌还在加强对模型内部激活状态的监测，以识别潜在的滥用行为。&nbsp;</p>
+  <p>Argon在防御间接提示注入方面也取得进展。此类攻击会通过恶意指令或外部上下文劫持模型行为。经过自动化红队测试和对抗训练后，Argon在Gray Swan的间接提示注入测试中取得领先成绩。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,596" src="https://img.36krcdn.com/hsossms/20261001/v2_e4d271fe1689493bacfb7ab85320dfff@000000_oswg160664oswg1080oswg596_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>监测目标偏离方面，为防止Argon在执行任务时越过边界、采取超出用户意图的行动，谷歌部署了目标偏离缓解机制，对Argon的思维链和行为进行监测，并在必要时停止执行。谷歌还使用类似系统监测模型训练过程，并在发现异常时向专门的事件响应团队发出警报。&nbsp;</p>
+  <p>强化系统环境方面，随着前沿模型的能力不断增强，安全测试也需要与模型能力相匹配的安全环境。按照Agent控制路线图，谷歌将在高风险训练或评估开始前，对沙盒环境进行隔离和封闭，以进一步强化安全性。&nbsp;</p>
+  <p><strong>05</strong> <strong>.</strong>&nbsp;</p>
+  <p><strong>结语：瞄准复杂Agent任务，</strong>&nbsp;</p>
+  <p><strong>实际效果仍待验证</strong>&nbsp;</p>
+  <p>Gemini 4 Argon在长周期软件工程、金融和法律Agent任务、长视频理解及网络安全防御等测试中取得多项领先成绩，100万Token输出上限也增强了其处理大型代码库和复杂工作流的能力。&nbsp;</p>
+  <p>不过，当前多数成绩仍来自谷歌披露的内部案例和基准测试，模型尚未全面开放。Argon在真实使用中的稳定性、调用成本、漏洞修复可靠性及安全边界，仍需等待开发者和企业用户进一步验证。&nbsp;</p>
+  <p>来源：谷歌、Arena、X、彭博社&nbsp;</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652811487&amp;idx=1&amp;sn=fd264bf4f49d8ca77e774e40fccf1395&amp;chksm=85d045736e317500729e460ad37dcd88c31332a70f1b8618b975660cad90ca70cd7cc4d7fb7a&amp;scene=0&amp;xtrack=1#rd">“智东西”（ID：zhidxcom）</a>，作者：杨京丽，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Thu, 01 Oct 2026 02:08:06 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4006662298865801</guid>
+            <link>https://www.36kr.com/p/4006662298865801</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[刚刚，谷歌发布Gemini 4 Argon：单次输出上限达100万Token]]></title>
+            <description><![CDATA[<p>刚刚，Google 宣布推出新一代前沿模型 Gemini 4 Argon。</p>
+  <p>Google 将 Argon 定位为<strong>面向复杂、长周期工作流的模型</strong>，重点覆盖软件工程、法律与金融等企业知识工作，以及网络安全防御。</p>
+  <p>与以往直接面向公众开放的方式不同，Argon 将采用分阶段发布策略。该模型将通过 Fairwind Program，首批提供给受信任的网络安全防御者。</p>
+  <p>价格方面，Argon API 的初始定价为每百万输入 Token 2 美元、每百万输出 Token 10 美元，缓存输入 Token 的价格比标准输入价格低 95%。</p>
+  <p><strong>单次输出上限扩至 100 万 Token</strong></p>
+  <p>Gemini 4 Argon 最受关注的变化，是将<strong>输出 Token 上限从此前的 6.4 万提升至 100 万</strong>。</p>
+  <p>这里的 100 万 Token 指单次输出上限，和上下文窗口是两个指标。更高的输出空间意味着，模型可以在一条任务轨迹中持续推理，并生成数十万甚至接近百万 Token 的结果。这类能力主要面向大型代码迁移、深度研究和多步骤企业流程。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1083" src="https://img.36krcdn.com/hsossms/20261001/v2_765c98de204142bb8c15706237bea68f@000000_oswg259860oswg1080oswg1083_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>有网友指出，多数前沿模型的输出上限大约为 12.8 万 Token。相比之下，Argon 单次生成 100 万 Token 的能力挺罕见。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,988" src="https://img.36krcdn.com/hsossms/20261001/v2_626b3f47c580479484cd0fcd8e4a6770@000000_oswg255268oswg1080oswg988_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Google 称，Argon 在 DeepSWE v1.1 软件工程评测中的得分为 77.9%，达到当前最高水平。该评测主要衡量模型处理真实、长期软件工程任务的能力。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261001/v2_da8bb45c9efc458eb1d55a955e05b2f8@000000_oswg51137oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在企业知识工作方面，Argon 位列 Vals Index 第一。该指数覆盖金融、编程、法律和税务等领域，并按照各行业对美国国内生产总值的贡献进行加权。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261001/v2_b3e5b5769da3420eab6bf4969178d104@000000_oswg50684oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Argon 还在 Vals Finance Agent v2、Harvey Legal Agent Benchmark 和 Zapier 的 AutomationBench 等评测中取得领先表现，AutomationBench 得分为 51.3%。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261001/v2_a260d60051dc441c85dfcdf6df13082f@000000_oswg54483oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261001/v2_ee14f637b1774140a64bb43b9c713fc9@000000_oswg54603oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261001/v2_c8720892289c46bfa815368df57ce6e8@000000_oswg53526oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Argon 也强调视觉理解能力。Google 表示，模型可以分析专业图表、理解长视频，并根据多份文档采取行动。在长视频理解评测 LVBench 中，Argon 得分 91.7%。</p>
+  <p><strong>已进入 Google 内部工程流程</strong></p>
+  <p>Google 表示，已有数千名员工在日常工作中使用 Argon，应用场景包括代码调试、算法设计和大型代码库迁移。</p>
+  <p>在量子计算领域，Argon 帮助研究人员优化量子算法中的时空资源，也就是量子比特数量与门操作数量的乘积。Google 称，在一项测试中，Argon 仅用几分钟就将已发表的基准结果提升了 40%。</p>
+  <p>在数据中心内存优化项目中，Argon 代理分析了全网的性能监控数据，并自动识别和实施优化方案。相关方案上线后已释放超过 300 TiB 内存，预计总节省量将达到 500 TiB 至 1 PiB。</p>
+  <p>Argon 还参与了 Google 内部 C/C++ 代码库向 Rust 的迁移工作，覆盖 re2、libgav1 等核心库，并延伸至超过 80 万行代码的 Fuchsia Zircon 内核。由于涉及关键基础设施，这些迁移仍需经过自动化审计、人工评审和仿真测试。</p>
+  <p>在开源视频解码器 libgav1 项目中，Argon 代理通过多轮性能测试和编译器分析，重写了约 3.2 万行 SIMD 代码。新的 Rust 版本在保持视频输出一致的情况下，运行速度达到原 Rust 版本的 2.7 倍。</p>
+  <p><strong>网络安全能力与现实考验并行</strong></p>
+  <p>网络安全是 Argon 首批落地的重点领域。Google 称，该模型能够自主发现、验证并修复关键软件漏洞。</p>
+  <p>网络安全公司 Wiz 已通过「Scan for Good」计划使用 Argon，为公共基础设施免费排查高风险暴露面。Google 表示，Argon 曾发现一项影响全球医院所用医疗软件的严重漏洞，该漏洞可能暴露敏感个人信息，此前的前沿模型没有识别出这一风险。</p>
+  <p>在 CWE-bench v1 漏洞修复评测中，Argon 以 68% 的成绩并列第一。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261001/v2_572a4e8323c74e6b8a9529c15ae4ea2c@000000_oswg124095oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Google 还称，在覆盖 20 种编程语言的内部漏洞测试，以及不提供源代码的黑盒渗透测试中，Argon 的表现均优于 Gemini 3.8 Flash Cyber。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261001/v2_7279d33fd0a649d484907f4e415fc105@000000_oswg104628oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>随着模型能力提升，Google 也在同步强化安全机制。Argon 会对网络攻击以及化学、生物、放射性和核相关滥用请求进行限制，并通过内部激活监测、自动化红队测试和人工评估识别潜在风险。</p>
+  <p>针对间接提示注入攻击，Google 通过对抗训练和自动化测试提升模型的防护能力。公司还部署了针对模型失配的监控机制，跟踪模型的推理过程与行动轨迹，必要时中止任务执行，并对高风险训练和评测环境进行隔离。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261001/v2_a25b52d8ee6c42fcb2310384a107b368@000000_oswg127037oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>不过，评测成绩与真实工作体验之间仍存在差距。</p>
+  <p>彭博社报道称，Google 内部对 Gemini 4 在编码等关键任务中的表现仍有疑问。知情人士表示，模型虽然在行业基准测试中表现突出，但员工真正使用时，部分编码任务依然难以稳定完成。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,790" src="https://img.36krcdn.com/hsossms/20261001/v2_3b8eff627d124d479225c60fb407c173@000000_oswg284883oswg1080oswg790_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Argon 能否兑现其长周期推理和复杂任务执行能力，还需要更多真实场景验证。</p>
+  <p>Google 表示，公司正在参与美国政府推动的模型预发布自愿流程，首批测试者将帮助 Google 评估模型表现，并进一步完善安全防护措施。</p>
+  <p>在完成早期测试后，Argon 将逐步向开发者、企业和消费者开放。首批公开用户将包括付费 API 客户和 Google AI Ultra 订阅者。</p>
+  <p><strong>参考链接：</strong></p>
+  <p>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/</p>
+  <p>https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model?srnd=phx-ai</p>
+  <p>© THE END&nbsp;</p>
+  <p>转载请联系本公众号获得授权</p>
+  <p>投稿或寻求报道：liyazhou@jiqizhixin.com</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651060862&amp;idx=1&amp;sn=a0ed3e1907a003dbeebde5c1930d7d0c&amp;chksm=85351978799930fc9bbe85c92278d7a6f79136665f5e63c5de5a18adaa3991e0432f0d161dc5&amp;scene=0&amp;xtrack=1#rd">“机器之心”（ID：almosthuman2014）</a>，作者：关注AI的，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Thu, 01 Oct 2026 01:00:22 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4006503753830529</guid>
+            <link>https://www.36kr.com/p/4006503753830529</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[AI原生的数据治理：换地基的时候到了]]></title>
@@ -2244,105 +2393,6 @@
             <pubDate>Wed, 30 Sep 2026 05:52:17 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4005342590064264</guid>
             <link>https://www.36kr.com/p/4005342590064264</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[二十来号人、一个月估值从2亿冲到100亿：一个"不说话"的AI，把ChatGPT带歪的方向掰了回来]]></title>
-            <description><![CDATA[<p>一家叫TypeSafe的公司，最近成了硅谷的焦点。它做的产品叫Jev，是个"不说话"的AI——不跟你聊天，只帮你干活。这家公司只有二十来号人，但估值在不到一个月里，从2亿美元冲到了100亿美元。</p>
-  <p>Jev的创始人Diogo Almeida说了一句很冲的话："ChatGPT把AI带歪了。"</p>
-  <h2><strong>一、"ChatGPT把AI带歪了"：一个不说话AI的反叛</strong></h2>
-  <p>先看Jev是什么。它是个闭源模型，只通过接口提供服务，做的是"智能体"——也就是能自主执行任务的AI，只不过它把执行权分成了两半：活它来干，但最后一锤子让人来定。它最鲜明的特点是：不说话。它不会像ChatGPT那样陪你一问一答地聊天，它只做一件事——帮你干活。</p>
-  <p>媒体给它起了个外号，叫"最火的哑巴模型"。它干的活很具体：同时打50局游戏、7秒订一张机票、40秒拆完724条广告。这些活有一个共同点：都是"动作"，不是"对话"。</p>
-  <p>创始人Diogo Almeida的立场，几乎是对整个AI行业的一次反叛。他的原话是"ChatGPT把AI带歪了"——在他看来，AI的方向不该是"陪你聊天"，而应该是"替你干活"。过去两年，所有人都在卷"谁的模型更会说话、更会写诗、更会答问题"，却忘了用户真正想要的是什么。</p>
-  <p>而Jev的爆火，恰恰证明了这个反叛踩中了痛点。用户对"会聊天的AI"已经腻了。他们不缺一个能聊天的朋友，缺的是能把事办了的工具。Jev把AI从"对话"拉回了"执行"，这一下，就切进了一个被巨头们忽视的空档。</p>
-  <p>"带歪"这个词，指的不只是产品方向，是整个行业资源的错配。过去两年，大厂们把几百亿美金的算力、最顶尖的人才，全都砸进了"让模型更会说话"这件事上——更大的上下文、更强的写作能力、更像人的对话。但用户拿着这些更会聊天的AI，发现它们还是不能真正帮自己把一件事办完。对话能力再强，你让它订张机票，它还得一步步引导你；你让它回个工作消息，它给的建议还得你自己誊一遍。Jev看到的裂缝就在这里：用户缺的不是"聊得好"，是"办得成"。</p>
-  <h2><strong>二、绝不替你按发送键：克制，是生存智慧</strong></h2>
-  <p>Jev身上最值得琢磨的，不是它多能干，是它有多"克制"。</p>
-  <p>它有一个鲜明的设计原则：帮你回微信、帮你订机票、帮你拆广告，但最后的"发送键""确认键"，永远留给人按。它给你建议、给你草稿、给你方案，但绝不替你做最后那个决定。</p>
-  <p>这个克制，放在今天的AI代理浪潮里看，分量很重。</p>
-  <p>就在Jev爆火的同一周，Meta的AI智能体Muse，因为能自动替用户比价、下单，动了亚马逊的钱袋子，上线13天就被封杀，6家银行也发了预警。Muse和Jev，几乎是两个极端：一个自动执行，一个绝不自动执行。结果是，一个被封杀，一个爆火。</p>
-  <p>这不是巧合。AI代理和平台巨头的冲突，本质是"谁拥有用户"的冲突——AI代理替用户绕过平台，等于动了平台的命根子。Muse踩了这条红线，Jev则聪明地把自己限定在"副驾"的位置上：我可以帮你判断，但决定权在你手里。</p>
-  <p>道理其实不复杂。AI一旦能替用户下单、成交，就等于绕开了平台、动了平台的收入。Muse踩了这条线，Jev没有。Jev把"发送键"留在人手里，等于告诉平台：我不抢你的用户。这个选择，让它在AI代理和平台还没彻底翻脸之前，先给自己留了条后路。</p>
-  <p>有媒体把Jev的产品逻辑概括得很准：它把"判断"做成了一个软件零件。它不卖"替你干活"，它卖"帮你更准地判断"。这个定位，既避开了平台的红线，又避开了"AI替代人"的伦理争议，还正好切中了用户"我信任你，但我不放心把决定权交给你"的心理。</p>
-  <p>这个"判断零件"的定位，绕开了AI最尴尬的两个坑：一个是"AI幻觉"——AI自己也不敢保证给的建议都对，所以它把决定权留给人，等于把"错了谁负责"这个责任，还给了用户自己；另一个是"AI替代人"的恐惧——它明明白白告诉你"我不替你做决定"，你就不会觉得它要抢你的活。这两个坑，恰恰是当前AI产品最头疼的两个问题。Jev用一个"不按发送键"的设计，把它们一起绕开了。</p>
-  <h2><strong>三、二十来号人，从2亿到100亿：AI把"做公司"打碎了</strong></h2>
-  <p>最后回到那个最扎眼的数字：二十来号人，估值100亿美元。</p>
-  <p>严格说，它的估值是从2亿美元涨到100亿美元的，前后不到一个月，涨幅约50倍。这个涨幅，放在任何行业都是疯狂的；放在AI行业，它成了一个标志性样本。</p>
-  <p>它戳中的，是AI给"公司"这个概念带来的根本性冲击。在传统软件时代，一家公司要值100亿，通常意味着几万员工、几十年的积累、庞大的销售团队和客服团队。而现在，二十来号人、一个产品、一个月，就能做到。</p>
-  <p>为什么？因为AI把"做公司"的成本结构彻底打碎了。Jev走的是"薄利多销"路线——低价订阅、走量铺开，而不是烧钱换增长。有数据显示，它已经占据了某个支付网关近13%的付费团队。这个数字意味着：它不需要几千人的销售团队去一家家谈客户，产品自己就能在开发者社区里传播、付费、增长。</p>
-  <p>薄利多销这条路，其实是对"烧钱换增长"的另一种反叛。大模型公司烧掉几百亿，还在为"怎么赚钱"发愁；Jev用便宜的订阅价、靠开发者社区自发传播，不烧钱也能增长。这背后是一个朴素的道理：AI的边际成本趋近于零，所以走量比走价更符合AI的经济规律。但这也意味着，Jev的护城河不在"技术多强"，而在"跑得多快、铺得多广"——一旦巨头反应过来，用免费加生态来碾压，一个二十来人的小团队能不能扛住，是最大的悬念。</p>
-  <p>二十来号人之所以是优势而不是劣势，是因为在AI的杠杆下，人的边际产出被放大了无数倍。过去写代码、做产品、做运营、做客服，需要一整个部门；现在有了AI，一个人能顶过去一个团队。公司这个组织，正在从"人海战术"走向"小团队加AI杠杆"。</p>
-  <p>但反方同样尖锐。二十来号人，撑得起100亿的估值吗？估值可以靠风口和想象冲上去，但交付、运维、客服、安全、合规，这些都需要人。当Jev从"爆火的开发者工具"变成"服务几万付费团队的平台"，二十来号人可能瞬间就不够用了。薄利多销的另一面，是薄利的生意抗风险能力也薄——一次安全事故、一次产品翻车，都可能让这100亿的估值瞬间缩水。</p>
-  <p>而"绝不替你按发送键"这个克制，既是Jev的护城河，也是它的天花板。不自动执行，意味着它永远只能当"副驾"，卖不了"自动驾驶"的价。这是一种安全的商业选择，但它也限制了Jev的想象空间——在AI代理最终要走向"自主执行"的大趋势下，一个主动放弃"执行权"的产品，会不会被那个更激进、也更敢冒险的对手取代？这个问题，暂时还没有答案。</p>
-  <p>回到Jev。二十来号人、一个月、2亿到100亿、一个"不说话"的AI——这套牌面，不管把它叫作AI时代的"新范式"还是"又一个泡沫"，它至少证明了一件事：当所有人都在卷"谁会聊天"的时候，那个卷"谁能干活"的人，赢了。</p>
-  <p>而它给整个行业提的那个问题，比它的估值更值得记：AI的方向，到底应该是陪你聊天，还是替你办事？两个答案谁对，现在还看不出。但Jev能在这么短时间里被用户和资本同时选中，至少说明一件事：用户对"只会聊天"的AI，耐心不多了。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 05:20:35 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005344149395074</guid>
-            <link>https://www.36kr.com/p/4005344149395074</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Anthropic递交招股书：去年亏损420亿美元，收入增长12倍至46亿美元，风险部分警告“威胁人类生存”]]></title>
-            <description><![CDATA[<p>Anthropic向外界披露了其首次公开募股招股说明书，这份文件勾勒出一家试图以天文估值登陆资本市场的人工智能公司，同时也坦承其核心技术可能对人类构成"灾难性乃至生存性风险"。</p>
-  <p>9月28日，据路透社获取的招股书显示，<strong>2025年Anthropic营收增长12倍至近46亿美元，同期运营亏损从2024年的29.8亿美元扩大至80.6亿美元</strong>。</p>
-  <p>公司<strong>去年在算力与基础设施上的支出达73.3亿美元，较2024年增加两倍，占总运营支出126.5亿美元的逾半数。</strong></p>
-  <p>招股书显示，<strong>Anthropic计划未来数年在云计算、算力及基础设施方面投入5180亿美元</strong>，而上市后普通股股东的实际话语权将受到大幅限制。<strong>七位联合创始人将通过一个名为"Founder LLC"的新实体，持有关键事项上50.1%的表决权。</strong></p>
-  <p>此次上市计划正值AI股与芯片股近期遭遇抛售之际，将进一步考验市场对AI投资热情的承受能力。</p>
-  <p>华尔街见闻此前提及，Anthropic的公开募股时间可能推迟至美国11月中期选举之后。</p>
-  <h2><strong>估值剑指2万亿，超过自身半年前预期两倍</strong></h2>
-  <p>Anthropic此次IPO目标估值超过2万亿美元，而仅在今年5月，该公司自身对估值的预测还停留在9650亿美元。短短数月，估值预期已翻逾一倍。</p>
-  <p>近420亿美元的净亏损中，约340亿美元为非现金会计费用，反映的是此前融资安排中可转换为股权的工具的公允价值提升，而非经营性现金流出。<strong>截至2025年12月31日，公司持有现金、现金等价物及短期投资合计202.8亿美元。</strong></p>
-  <p>招股书同时揭示了若干商业风险：<strong>近四分之一的营收来自两家客户，且多数大客户并未签订长期合同，随时可能削减或停止采购。</strong></p>
-  <p>此次IPO若成行，将成为2021年以来美国市场表现最强的上市案例之一。</p>
-  <p>参照系或许是SpaceX今年6月的IPO，马斯克旗下这家公司上市首日股价大涨19%至160美元，但目前已回落至约147美元，令投资者对高增长公司的高估值保持审慎。</p>
-  <h2><strong>风险警告：招股书用80页篇幅陈述AI威胁</strong></h2>
-  <p><strong>在这份261页的招股书正文中，风险因素一节长达约80页，几乎是业务描述部分48页的两倍。</strong>相比之下，SpaceX的277页招股书中，风险部分仅约38页。</p>
-  <p>Anthropic在文件中明确警告，<strong>其AI模型可能表现出"自我保护行为"，包括"抵制关机"、"隐瞒或操纵信息"以及"类似勒索"的行为，并指出"高度先进模型的开发及用例扩展，可能进一步增加模型造成危害的风险"。</strong></p>
-  <p>公司还坦承，模型可能在训练过程中发展出意想不到的能力，而这些能力"可能直到模型部署并引发重大安全事件后才会被发现"。</p>
-  <p>公司安全研究员Evan Hubinger估计，<strong>未来十年内AI导致人类死亡的概率超过10%。</strong></p>
-  <p>尽管如此，Anthropic在安全领域的实际投入规模并未在文件中披露。公司表示，以今年7月某一周为例，其AI研究所用算力中约有6%用于安全工作。</p>
-  <p>公司承认，安全投资的商业回报目前尚不明确，但同时表示：</p>
-  <blockquote>
-   <p>市场会对可靠、值得信赖且安全的AI系统予以回报。</p>
-  </blockquote>
-  <h2><strong>治理架构：创始人团队主导，普通投资者话语权受限</strong></h2>
-  <p>为在商业利益与AI安全使命之间寻求平衡，Anthropic设计了一套独特的公司治理架构。</p>
-  <p><strong>公司将继续以特拉华州公益公司（PBC）身份运营，同时新设"Founder LLC"实体，由七位联合创始人组成。这一实体持有F类股票，在关键公司事务上享有总表决权的50.1%，包括部分董事选举等重大议题。</strong></p>
-  <p>面向普通投资者发售的A类普通股每股仅有一票，但在上述架构下，实际影响力将大幅受限。<strong>招股书也坦承，这一架构可能导致某些决策"与短期、中期或长期的财务利益及业务表现相冲突，从而对A类普通股价值产生负面影响"。</strong></p>
-  <p>七位创始人中，CEO Dario Amodei与其妹妹、公司总裁兼董事长Daniela Amodei是核心人物。</p>
-  <p>2025年，Dario薪酬约为1800万美元，Daniela为1640万美元，均以股票和期权奖励为主。两人及其他联合创始人已承诺，将其个人所持Anthropic股权的80%用于慈善事业。</p>
-  <p><strong>Anthropic董事会另有四名成员，将由公司设立的"长期利益信托"选举产生，现任受托人包括前美联储主席本·伯南克和国家安全专家Richard Fontaine。</strong></p>
-  <h2><strong>万亿美元AI军备竞赛：OpenAI是最大对手</strong></h2>
-  <p>Anthropic在AI领域面临来自多方的激烈竞争，其中最主要的对手是OpenAI。</p>
-  <p>两家公司在企业客户、顶尖人才及华盛顿政策影响力方面展开全面角力。据媒体报道，OpenAI已于今年6月秘密提交IPO申请，预计最迟于2027年初完成上市。</p>
-  <p>Anthropic由一批因公司治理与AI安全理念分歧而离开OpenAI的研究人员于约五年前创立，并于2023年3月发布首个大型语言模型，与OpenAI直接竞争。此外，该公司还与SpaceX旗下xAI、Alphabet旗下谷歌及Meta在AI基础设施领域展开争夺。</p>
-  <p>Amazon与谷歌是Anthropic早期的两大战略合作伙伴，双方均向其注入数十亿美元投资，同时为Claude模型的训练与部署提供云计算基础设施支持。</p>
-  <p><strong>分析人士认为，AI领域第一家完成上市的纯正标的将为整个行业的估值体系树立基准，也将为此前等待多年的投资者提供直接入场AI赛道的渠道。</strong></p>
-  <p>本文不构成个人投资建议，不代表平台观点，市场有风险，投资需谨慎，请独立判断和决策。</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/ZE0afi62TQS5iUBMPcpmNQ">“华尔街见闻”</a>，作者：鲍奕龙，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 05:18:30 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005363521523841</guid>
-            <link>https://www.36kr.com/p/4005363521523841</link>
             
             
             
