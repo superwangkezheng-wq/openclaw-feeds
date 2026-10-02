@@ -11,6 +11,124 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:SbvNNQ12QO8</id>
+  <yt:videoId>SbvNNQ12QO8</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>GPT-6.1 Sol 扩容；Claude Code 推出 Mods 支持【AI 早报 2026-10-02】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SbvNNQ12QO8"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-02T02:01:24+00:00</published>
+  <updated>2026-10-02T02:03:33+00:00</updated>
+  <media:group>
+   <media:title>GPT-6.1 Sol 扩容；Claude Code 推出 Mods 支持【AI 早报 2026-10-02】</media:title>
+   <media:content url="https://www.youtube.com/v/SbvNNQ12QO8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/SbvNNQ12QO8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+OpenAI 扩容 GPT-6.1 Sol，速度将接近翻倍 00:09
+https://x.com/thsottiaux/status/2105464274747527543
+
+Claude Code 开放 mods，代码定制行为与界面 00:27
+https://claude.com/blog/claude-code-mods
+https://claude.dev/blog/getting-started-with-claude-code-mods/
+https://code.claude.com/docs/en/plugins/mods/overview
+http://github.com/anthropics/claude-code/tree/main/mods
+https://x.com/ClaudeDevs/status/2105721434807083061
+
+Earendil 发布 Pi 1.0 正式版与实验包 Pi Durable 00:46
+https://earendil.com/posts/pi-1-0/
+https://earendil.com/posts/pi-durable/
+
+GitHub 推出 gh-secure 一键加固公开仓库 01:18
+https://gh.io/gh-secure
+https://github.com/GitHubSecurityLab/gh-secure
+
+Stitch by Google 推出 Stitch CLI 命令行工具 01:32
+https://x.com/stitchbygoogle/status/2105695155164741984
+
+Black Forest Labs 正式发布 FLUX 3 Image 图像模型 01:42
+https://bfl.ai/models/flux-3-image
+https://docs.bfl.ai/flux_3/flux3_image_overview
+
+Microsoft AI 发布 3 款 MAI 语音模型 01:58
+https://microsoft.ai/news/our-first-streaming-transcription-model/
+https://microsoft.ai/models/mai-voice-2-1/
+
+Cloudflare 发布并开源 Clef 与 Clef-flash 决策模型 02:12
+https://blog.cloudflare.com/clef-decision-models
+https://huggingface.co/Cloudflare/clef
+
+Perplexity 推出 Decisions API 并开源 27B 决策模型 02:26
+https://x.com/perplexitydevs/status/2105725598882832414
+https://huggingface.co/perplexity-ai/pplx-decider-v1-27b
+https://x.com/AravSrinivas/status/2105774153903268288
+
+Tavus 发布 Griffin 实时视频交互模型 02:38
+https://www.tavus.io/griffin
+https://x.com/tavus/status/2105704169009246248
+
+Claude 推出 Artifact 用量减半限时优惠 02:57
+https://support.claude.com/en/articles/17274727-artifact-usage-promotion
+https://x.com/claudeai/status/2105721630051692804
+
+ChatGPT 手机相机新增扫描合成 PDF功能 03:11
+https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+
+OpenAI 推出 ChatGPT 服装虚拟试穿功能 03:25
+https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search
+
+OpenAI 与 Albertsons 扩大合作，Safeway 入驻 ChatGPT 03:38
+https://openai.com/index/albertsons-reimagining-retail/
+
+Google 在 Gemini Live 上线 Guided Vision 视觉辅助功能 03:50
+https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/
+
+Grok Bot 上线主动建议功能 04:01
+https://x.com/bot/status/2105713240701538538
+https://x.com/elonmusk/status/2105755817555436014
+
+Google 发射搭载 TPU 原型卫星 04:11
+https://x.com/Google/status/2105803583648100611
+
+软银完成对 OpenAI 第三笔 100 亿美元投资 04:23
+https://group.softbank/en/news/press/20261001
+
+DeepSeek Harness 开通官方 X 账号 04:40
+https://x.com/DeepSeekHarness
+https://x.com/tianyi/status/2105462807705895061
+
+Transluce 称 AI agent 曾试图攻击美加政府网站 04:47
+https://transluce.org/us-canada-gov
+https://www.washingtonpost.com/technology/2026/09/30/openais-ai-agents-attempted-hack-canadian-government-website/
+
+OpenAI 与三名研究人员终止合作，称其违规处理机密 05:05
+https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528
+
+美加州总检察长向 OpenAI 发出网络安全调查传票 05:21
+https://oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena
+https://x.com/AndrewCurran_/status/2105712858101436692
+
+Anthropic 正式开放 Claude for Government 05:37
+https://claude.com/blog/claude-for-government-is-now-generally-available
+
+Grok 4.7 据称登陆 Grok 网页版与手机应用 05:46
+https://x.com/testingcatalog/status/2105728653091029101
+
+据称腾讯向 Oracle 租用约 10 万枚 AI 芯片 05:58
+https://www.ft.com/content/8799b33d-f07c-4a03-82f0-bf5d3d1d29e9?syn-25a6b1a6=1
+
+Anthropic 招股书披露 420 亿美元 Broadcom 融资安排 06:11
+https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="58"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:pg--eJh5SE0</id>
   <yt:videoId>pg--eJh5SE0</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -143,7 +261,7 @@ https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html
 智谱称</media:description>
    <media:community>
     <media:starRating count="55" average="5.00" min="1" max="5"/>
-    <media:statistics views="3781"/>
+    <media:statistics views="4383"/>
    </media:community>
   </media:group>
  </entry>
@@ -272,8 +390,8 @@ https://x.com/OpenAIDevs/status/2104999323385929777
 
 ChatGPT iOS 版新增 Codex 小组件</media:description>
    <media:community>
-    <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2712"/>
+    <media:starRating count="24" average="5.00" min="1" max="5"/>
+    <media:statistics views="2777"/>
    </media:community>
   </media:group>
  </entry>
@@ -403,7 +521,7 @@ Google 宣布 Gemini 的 Gems 将迁移为 skills 07:26
 https://support.google.com/gemini/answer/18560919</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="2993"/>
+    <media:statistics views="3021"/>
    </media:community>
   </media:group>
  </entry>
@@ -463,7 +581,7 @@ https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite
 https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2271"/>
+    <media:statistics views="2286"/>
    </media:community>
   </media:group>
  </entry>
@@ -539,7 +657,7 @@ https://x.com/theinformation/status/2103839519019569371
 https://thein.fo/4hcSXC4</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="1699"/>
+    <media:statistics views="1707"/>
    </media:community>
   </media:group>
  </entry>
@@ -743,8 +861,8 @@ https://www.reuters.com/legal/legalindustry/anthropic-seeks-palantir-style-votin
 https://www.theinformation.com/articles/inside-ai-industrys-behind-scenes-push-police
 https://www.ithome.com/1/007/016.htm</media:description>
    <media:community>
-    <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="1638"/>
+    <media:starRating count="22" average="5.00" min="1" max="5"/>
+    <media:statistics views="1647"/>
    </media:community>
   </media:group>
  </entry>
@@ -855,7 +973,7 @@ https://www.anthropic.com/features/ebola-response
 https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/</media:description>
    <media:community>
     <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="2339"/>
+    <media:statistics views="2344"/>
    </media:community>
   </media:group>
  </entry>
@@ -947,7 +1065,7 @@ https://www.qianwenai.com/product/qwenbook
 https://www.ithome.com/1/005/658.htm</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="3514"/>
+    <media:statistics views="3519"/>
    </media:community>
   </media:group>
  </entry>
@@ -1002,7 +1120,7 @@ Qwen：用户保留Qwen-Image-2.1生成内容权利 03:10
 https://x.com/QwenDevs/status/2101917379785838660</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1488"/>
+    <media:statistics views="1489"/>
    </media:community>
   </media:group>
  </entry>
@@ -1053,7 +1171,7 @@ https://mp.weixin.qq.com/s/Y0X4FqYFYQDsTLGyLl0dzQ
 https://mp.weixin.qq.com/s/e7kLxQKhkOrLdsmgyF5U0Q</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="2481"/>
+    <media:statistics views="2482"/>
    </media:community>
   </media:group>
  </entry>
@@ -1333,82 +1451,7 @@ https://www.theinformation.com/articles/apple-considers-return-server-market-tal
 https://the-decoder.com/apple-is-reportedly-building-an-enterprise-ai-server-with-its-own-m8-ultra-chips/</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="3266"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:VoU01cM8TYs</id>
-  <yt:videoId>VoU01cM8TYs</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>Sam Altman 预告 OpenAI 本周将有重大发布【AI 早报 2026-09-16】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=VoU01cM8TYs"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-09-16T01:12:24+00:00</published>
-  <updated>2026-09-18T06:04:13+00:00</updated>
-  <media:group>
-   <media:title>Sam Altman 预告 OpenAI 本周将有重大发布【AI 早报 2026-09-16】</media:title>
-   <media:content url="https://www.youtube.com/v/VoU01cM8TYs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/VoU01cM8TYs/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-Sam Altman 预热本周重磅产品发布，或为 GPT-6 Sol 00:09
-https://x.com/sama/status/2099872600977760451
-https://x.com/thsottiaux/status/2099871125631033843
-
-Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 语音模型 00:25
-https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/
-https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/
-
-阶跃星辰发布 StepAudio 3 系列五款语音大模型 00:44
-https://static.stepfun.com/blog/stepaudio3/
-
-TypeSafe AI 发布首个 System One 模型 Jev 01:00
-https://typesafe.ai/blog/introducing-system-one-models-and-jev
-
-OpenAI Codex for OSS 资助开放第二轮申请 01:12
-https://x.com/charliermarsh/status/2099965140233847246
-
-Qoder 国际版付费用户每天可领 500 Credits 01:26
-https://mp.weixin.qq.com/s/HFnMNVBOGomw9ytyUx9gSA
-
-Antigravity 中 Gemini 3.8 Flash 请求报错，修复后将重置速率限制 01:40
-https://x.com/antigravity/status/2099930055229260025
-
-谷歌Gemini Notebook推出新界面与学习功能 01:50
-https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/
-https://notebook.google/
-
-OpenAI 宣布 10 月 14 日起在 ChatGPT、ChatGPT Work 和 Codex 下线 GPT-5.5 02:02
-https://x.com/ChatGPT/status/2099954190600876533
-
-Anthropic 扩展 Claude for Small Business 02:17
-https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs
-https://claude.com/solutions/small-business
-https://www.anthropic.com/news/claude-for-small-business
-https://trust.anthropic.com/
-https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin
-https://www.anthropic.com/events/build-with-claude
-
-字节发布飞书8.0 for Agent版本 02:24
-
-Factory 完成 2 亿美元融资，估值达 50 亿美元 02:36
-https://factory.com/news/5-billion-valuation
-https://x.com/matanSF/status/2099906259734654984
-
-微信工作人员回应微信小微隐私争议 02:48
-https://weibo.com/7876775013/RidjcgIda
-
-两款面向 AI Agent 的举报热线上线 03:00
-https://hotline.ryan-g.ai
-http://agenthotline.ai
-https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/</media:description>
-   <media:community>
-    <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="965"/>
+    <media:statistics views="3268"/>
    </media:community>
   </media:group>
  </entry>

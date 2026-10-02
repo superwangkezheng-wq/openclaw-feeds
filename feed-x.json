@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-01T14:35:29.000Z",
+  "generatedAt": "2026-10-02T02:19:23.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-10-01T06:46:31.245Z",
-    "ageHours": 7.82
+    "ageHours": 19.55
   },
   "x": [
     {
@@ -65,36 +65,6 @@
       "bio": "Research @AnthropicAI. Opinions are my own!"
     },
     {
-      "handle": "AmandaAskell",
-      "name": "Amanda Askell",
-      "tweets": [
-        {
-          "createdAt": "2026-09-27T17:48:16.000Z",
-          "id": "2104266890726309908",
-          "isQuote": false,
-          "likes": 104,
-          "quotedTweetId": null,
-          "replies": 17,
-          "retweets": 1,
-          "text": "Admittedly I'm averse to a lot of smells, but I like things like the smell of a fresh orange. The perfumes that are supposed to be realistic and citrusy smell at best like orange layered over skunk.",
-          "url": "https://x.com/AmandaAskell/status/2104266890726309908"
-        },
-        {
-          "createdAt": "2026-09-27T17:26:33.000Z",
-          "id": "2104261424625381528",
-          "isQuote": false,
-          "likes": 869,
-          "quotedTweetId": null,
-          "replies": 166,
-          "retweets": 14,
-          "text": "I wanted to know if I only hate perfume because I've never owned a nice one. So I researched a bunch of the fanciest and most well reviewed perfumes and bought a tiny sample bottle of each. I can now confidently confirm that all perfume smells disgusting.",
-          "url": "https://x.com/AmandaAskell/status/2104261424625381528"
-        }
-      ],
-      "source": "x",
-      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data."
-    },
-    {
       "handle": "amasad",
       "name": "Amjad Masad",
       "tweets": [
@@ -130,17 +100,6 @@
           "retweets": 5,
           "text": "Cool to see Replit being popular at Chan-Zuckerberg household! https://t.co/JbuFL0HN3m",
           "url": "https://x.com/amasad/status/2104428789417857436"
-        },
-        {
-          "createdAt": "2026-09-27T22:58:10.000Z",
-          "id": "2104344877798719516",
-          "isQuote": true,
-          "likes": 55,
-          "quotedTweetId": "2103891491404013900",
-          "replies": 5,
-          "retweets": 4,
-          "text": "Love to see it 😂 https://t.co/wzKM5TseSi https://t.co/4cHj9x5f2M",
-          "url": "https://x.com/amasad/status/2104344877798719516"
         }
       ],
       "source": "x",
@@ -330,17 +289,6 @@
           "retweets": 12,
           "text": "SONNET 5.5 IS OUT! \n\nIt has dramatically improved writing even versus Opus 5.5 in my testing for @every. Astra is still my favorite for writing, but this model beats it at revision tasks.\n\nIt's faster and cheaper than Opus 5.5, so it's @kieranklaassen's preferred model for quick iterative coding and design work. \n\nBut both @kplikethebird and @hammer_mt feel like they don't have room in their stack for mid-tier models anymore.\n\nFull vibe check coming on @every! \n\nUntil then you can see Sonnet's scores vs. Opus and Astra on my personal benchmark, drawn from my real work: https://t.co/SpeDq9gVu6",
           "url": "https://x.com/danshipper/status/2104636728992776510"
-        },
-        {
-          "createdAt": "2026-09-27T20:11:27.000Z",
-          "id": "2104302924251951553",
-          "isQuote": true,
-          "likes": 156,
-          "quotedTweetId": "2104291953127092489",
-          "replies": 22,
-          "retweets": 7,
-          "text": "industry built on modeling humans as rational agents panics as humans adopt rational agents https://t.co/GYx8lXBURY",
-          "url": "https://x.com/danshipper/status/2104302924251951553"
         }
       ],
       "source": "x",
@@ -426,28 +374,6 @@
           "retweets": 14,
           "text": "Anti-bot is for losers tbh https://t.co/kFAhqE1cCB",
           "url": "https://x.com/garrytan/status/2104402742517420517"
-        },
-        {
-          "createdAt": "2026-09-27T19:13:32.000Z",
-          "id": "2104288345547591747",
-          "isQuote": false,
-          "likes": 16,
-          "quotedTweetId": null,
-          "replies": 4,
-          "retweets": 0,
-          "text": "\"Oh I can do this with CDP\" Haha you have not actually hit any real anti-bot then",
-          "url": "https://x.com/garrytan/status/2104288345547591747"
-        },
-        {
-          "createdAt": "2026-09-27T15:25:59.000Z",
-          "id": "2104231083701420282",
-          "isQuote": true,
-          "likes": 446,
-          "quotedTweetId": "2103534482930491441",
-          "replies": 31,
-          "retweets": 20,
-          "text": "Do not nerf\n\nMade in San Francisco https://t.co/m4XDmQKaZW",
-          "url": "https://x.com/garrytan/status/2104231083701420282"
         }
       ],
       "source": "x",
@@ -538,17 +464,6 @@
           "retweets": 13,
           "text": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Agent, and Sonnet 5.5 is another strong jump from Sonnet 5 on knowledge work with enterprise content.\n\nAcross the board we saw a 4 pt overall improvement on our hardest tests, but it was roughly 2.4× faster to a finished deliverable on 12% fewer tokens. We also saw major wins in key verticals, like a +18 percentage point improvement in Financial Services, +7 pt in Legal, +8 pt in Life Sciences, and +7 pt in the Public Sector. \n\nHere are some specific wins on certain tasks that show the power of Sonnet 5.5:\n\n* Financial services (+48 points): a due-diligence review of a trading-tool acquisition, where the deal book's arithmetic doesn't hold up. Sonnet 5.5 caught the miscalculated interest totals and the mispriced options and flagged them, and it also finished this work about 61% faster.\n\n* Legal (+14 points): a commercial lease review. Sonnet 5.5 refused to invent a \"standard\" market benchmark for renewal terms and notice periods, and instead flagged what the lease was genuinely missing.\n\n* Life sciences (+22 points): writing up a field trial from the raw measurement data. Sonnet 5.5 got the sample standard deviations right across both treatment groups. Sonnet 5 missed nearly all of them. And Sonnet 5.5 did it about 41% faster.\n\n* Public sector (+11 points): a report on a math intervention program. Sonnet 5.5 pulled the right student progress-monitoring figures out of the underlying data, about 71% faster.\n\nCustomers will be able to build AI agents with Sonnet 5.5 in the Box AI Studio shortly.",
           "url": "https://x.com/levie/status/2104648654074343480"
-        },
-        {
-          "createdAt": "2026-09-27T23:20:52.000Z",
-          "id": "2104350592290406849",
-          "isQuote": true,
-          "likes": 174,
-          "quotedTweetId": "2104213040937812262",
-          "replies": 47,
-          "retweets": 19,
-          "text": "Interesting to think about all the implications in a world where agents begin to make the best or most efficient choice for their users.\n\nOn one hand, there is some subset of the economy that benefits from the friction customers traditionally have changing something about their habits. In those parts of the market, switching costs will come down and competition is going to increase dramatically until some equilibrium is reached between the disruptive alternatives and the incumbents.\n\nOn the other hand, there are lots of markets that are hurt by a significant amount of friction, where agents will begin to unlock all kinds of economic activity by making it far easier to buy products or services that were too frictionful before. Healthcare, travel, local services, certain information services, and other entirely new markets probably are net beneficiaries of agents as a result.\n\nNo matter what, a future meaningfully mediated by agents that work tirelessly for us and our goals can’t possibly function exactly the same as today. Going to be wild.",
-          "url": "https://x.com/levie/status/2104350592290406849"
         }
       ],
       "source": "x",
@@ -568,17 +483,6 @@
           "replies": 22,
           "isQuote": true,
           "quotedTweetId": "2104940023015690748"
-        },
-        {
-          "createdAt": "2026-09-27T22:04:37.000Z",
-          "id": "2104331402385002831",
-          "isQuote": false,
-          "likes": 53,
-          "quotedTweetId": null,
-          "replies": 16,
-          "retweets": 5,
-          "text": "It continues to be notable how many AI researchers (who understand how AI actually works) believe in neither AI doom nor massive uncontrollable acceleration, while non AI researchers (who have limited knowledge) have very definite and certain views on the topic.",
-          "url": "https://x.com/mattturck/status/2104331402385002831"
         }
       ],
       "source": "x",
@@ -686,28 +590,6 @@
           "retweets": 0,
           "text": "Astra is absurd.. \n\nGive it decently hard verifiable end to end tasks with the right tools and watch it just fly 😅 https://t.co/SGOlvOxoNP",
           "url": "https://x.com/nikunj/status/2104444216017637575"
-        },
-        {
-          "createdAt": "2026-09-27T17:28:43.000Z",
-          "id": "2104261968043663591",
-          "isQuote": false,
-          "likes": 6,
-          "quotedTweetId": null,
-          "replies": 4,
-          "retweets": 1,
-          "text": "Asked ChatGPT for book recommendations after a long back and forth of books I tend to like.. if you have others to add, let me know 👋\n\nCurrently reading:\n\n&gt; White Mirror by @TinkeredThinker \n&gt; Challenger by @HigginbothamA https://t.co/lfwXz4IgEb",
-          "url": "https://x.com/nikunj/status/2104261968043663591"
-        },
-        {
-          "createdAt": "2026-09-27T16:58:19.000Z",
-          "id": "2104254321131245653",
-          "isQuote": false,
-          "likes": 1,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "This is the larger one (13.3”) with Renaissance art https://t.co/19fCrtQUgN",
-          "url": "https://x.com/nikunj/status/2104254321131245653"
         }
       ],
       "source": "x",
@@ -1111,17 +993,6 @@
           "retweets": 3,
           "text": "See ya there! https://t.co/4BtgyOXBSv",
           "url": "https://x.com/steipete/status/2104702088626557384"
-        },
-        {
-          "createdAt": "2026-09-27T20:21:55.000Z",
-          "id": "2104305554760114488",
-          "isQuote": true,
-          "likes": 571,
-          "quotedTweetId": "2104094039805174164",
-          "replies": 90,
-          "retweets": 14,
-          "text": "Same. @useblacksmith has been an amazing sponsor but we need to distribute the load. \n\nMy plan is to let codex decide which tests actually need to run and drastically nix CI and run tests hourly. https://t.co/Yo4PYOT2cI",
-          "url": "https://x.com/steipete/status/2104305554760114488"
         }
       ],
       "source": "x",
@@ -1366,17 +1237,6 @@
           "retweets": 72,
           "text": "Sunday vibes. See you at Fort Mason soon 🎮👩‍💻 https://t.co/dIBCN92aS0",
           "url": "https://x.com/thsottiaux/status/2104465709384491519"
-        },
-        {
-          "createdAt": "2026-09-28T01:32:38.000Z",
-          "id": "2104383749723128052",
-          "isQuote": false,
-          "likes": 6512,
-          "quotedTweetId": null,
-          "replies": 1630,
-          "retweets": 168,
-          "text": ". . . . . .",
-          "url": "https://x.com/thsottiaux/status/2104383749723128052"
         }
       ],
       "source": "x",
@@ -1495,17 +1355,6 @@
           "retweets": 1,
           "text": "dating myself with neopets I fear https://t.co/Dz5CMnfLd8",
           "url": "https://x.com/trq212/status/2104403711699423680"
-        },
-        {
-          "createdAt": "2026-09-27T18:13:31.000Z",
-          "id": "2104273243599405395",
-          "isQuote": false,
-          "likes": 4322,
-          "quotedTweetId": null,
-          "replies": 474,
-          "retweets": 92,
-          "text": "I am most afraid of us eating the productivity gains of agents by just becoming lazier.",
-          "url": "https://x.com/trq212/status/2104273243599405395"
         }
       ],
       "source": "x",
@@ -1536,17 +1385,6 @@
           "retweets": 1,
           "text": "Hello, I'm looking to chat with some of my followers!\nIf you're\n- building web-based/frontend experiences with AI but have a hard time making it look beautiful/not AI slop\n- seeing all these cool demos on X built with latest models but have no idea how to replicate them\n- are creating these cool demos yourself and would like to share your creation process/tips\nWould love to have a chat; DM me or comment below!",
           "url": "https://x.com/zarazhangrui/status/2104689580045979811"
-        },
-        {
-          "createdAt": "2026-09-27T16:56:35.000Z",
-          "id": "2104253882025341231",
-          "isQuote": false,
-          "likes": 354,
-          "quotedTweetId": null,
-          "replies": 33,
-          "retweets": 22,
-          "text": "People who ask “why do you keep posting without monetizing your content” don’t understand that:\n\n1. Self-expression is an innate human instinct that requires no justification or utilitarian motive\n2. Influence is so much more valuable than money",
-          "url": "https://x.com/zarazhangrui/status/2104253882025341231"
         }
       ],
       "source": "x",
@@ -1554,8 +1392,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 24,
-    "xTweets": 123,
-    "windowSpanHours": 86.59
+    "xBuilders": 23,
+    "xTweets": 109,
+    "windowSpanHours": 75.22
   }
 }

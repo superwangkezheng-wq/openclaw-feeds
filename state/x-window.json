@@ -57,53 +57,12 @@
         }
       }
     },
-    "amandaaskell": {
-      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
-      "handle": "AmandaAskell",
-      "name": "Amanda Askell",
-      "source": "x",
-      "tweets": {
-        "id:2104261424625381528": {
-          "createdAt": "2026-09-27T17:26:33.000Z",
-          "id": "2104261424625381528",
-          "isQuote": false,
-          "likes": 869,
-          "quotedTweetId": null,
-          "replies": 166,
-          "retweets": 14,
-          "text": "I wanted to know if I only hate perfume because I've never owned a nice one. So I researched a bunch of the fanciest and most well reviewed perfumes and bought a tiny sample bottle of each. I can now confidently confirm that all perfume smells disgusting.",
-          "url": "https://x.com/AmandaAskell/status/2104261424625381528"
-        },
-        "id:2104266890726309908": {
-          "createdAt": "2026-09-27T17:48:16.000Z",
-          "id": "2104266890726309908",
-          "isQuote": false,
-          "likes": 104,
-          "quotedTweetId": null,
-          "replies": 17,
-          "retweets": 1,
-          "text": "Admittedly I'm averse to a lot of smells, but I like things like the smell of a fresh orange. The perfumes that are supposed to be realistic and citrusy smell at best like orange layered over skunk.",
-          "url": "https://x.com/AmandaAskell/status/2104266890726309908"
-        }
-      }
-    },
     "amasad": {
       "bio": "ceo @replit. civilizationist",
       "handle": "amasad",
       "name": "Amjad Masad",
       "source": "x",
       "tweets": {
-        "id:2104344877798719516": {
-          "createdAt": "2026-09-27T22:58:10.000Z",
-          "id": "2104344877798719516",
-          "isQuote": true,
-          "likes": 55,
-          "quotedTweetId": "2103891491404013900",
-          "replies": 5,
-          "retweets": 4,
-          "text": "Love to see it 😂 https://t.co/wzKM5TseSi https://t.co/4cHj9x5f2M",
-          "url": "https://x.com/amasad/status/2104344877798719516"
-        },
         "id:2104428789417857436": {
           "createdAt": "2026-09-28T04:31:36.000Z",
           "id": "2104428789417857436",
@@ -227,17 +186,6 @@
       "name": "Dan Shipper",
       "source": "x",
       "tweets": {
-        "id:2104302924251951553": {
-          "createdAt": "2026-09-27T20:11:27.000Z",
-          "id": "2104302924251951553",
-          "isQuote": true,
-          "likes": 156,
-          "quotedTweetId": "2104291953127092489",
-          "replies": 22,
-          "retweets": 7,
-          "text": "industry built on modeling humans as rational agents panics as humans adopt rational agents https://t.co/GYx8lXBURY",
-          "url": "https://x.com/danshipper/status/2104302924251951553"
-        },
         "id:2104636728992776510": {
           "createdAt": "2026-09-28T18:17:53.000Z",
           "id": "2104636728992776510",
@@ -345,28 +293,6 @@
       "name": "Garry Tan",
       "source": "x",
       "tweets": {
-        "id:2104231083701420282": {
-          "createdAt": "2026-09-27T15:25:59.000Z",
-          "id": "2104231083701420282",
-          "isQuote": true,
-          "likes": 446,
-          "quotedTweetId": "2103534482930491441",
-          "replies": 31,
-          "retweets": 20,
-          "text": "Do not nerf\n\nMade in San Francisco https://t.co/m4XDmQKaZW",
-          "url": "https://x.com/garrytan/status/2104231083701420282"
-        },
-        "id:2104288345547591747": {
-          "createdAt": "2026-09-27T19:13:32.000Z",
-          "id": "2104288345547591747",
-          "isQuote": false,
-          "likes": 16,
-          "quotedTweetId": null,
-          "replies": 4,
-          "retweets": 0,
-          "text": "\"Oh I can do this with CDP\" Haha you have not actually hit any real anti-bot then",
-          "url": "https://x.com/garrytan/status/2104288345547591747"
-        },
         "id:2104402742517420517": {
           "createdAt": "2026-09-28T02:48:06.000Z",
           "id": "2104402742517420517",
@@ -501,17 +427,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2104350592290406849": {
-          "createdAt": "2026-09-27T23:20:52.000Z",
-          "id": "2104350592290406849",
-          "isQuote": true,
-          "likes": 174,
-          "quotedTweetId": "2104213040937812262",
-          "replies": 47,
-          "retweets": 19,
-          "text": "Interesting to think about all the implications in a world where agents begin to make the best or most efficient choice for their users.\n\nOn one hand, there is some subset of the economy that benefits from the friction customers traditionally have changing something about their habits. In those parts of the market, switching costs will come down and competition is going to increase dramatically until some equilibrium is reached between the disruptive alternatives and the incumbents.\n\nOn the other hand, there are lots of markets that are hurt by a significant amount of friction, where agents will begin to unlock all kinds of economic activity by making it far easier to buy products or services that were too frictionful before. Healthcare, travel, local services, certain information services, and other entirely new markets probably are net beneficiaries of agents as a result.\n\nNo matter what, a future meaningfully mediated by agents that work tirelessly for us and our goals can’t possibly function exactly the same as today. Going to be wild.",
-          "url": "https://x.com/levie/status/2104350592290406849"
-        },
         "id:2104648654074343480": {
           "createdAt": "2026-09-28T19:05:16.000Z",
           "id": "2104648654074343480",
@@ -553,17 +468,6 @@
       "name": "Matt Turck",
       "source": "x",
       "tweets": {
-        "id:2104331402385002831": {
-          "createdAt": "2026-09-27T22:04:37.000Z",
-          "id": "2104331402385002831",
-          "isQuote": false,
-          "likes": 53,
-          "quotedTweetId": null,
-          "replies": 16,
-          "retweets": 5,
-          "text": "It continues to be notable how many AI researchers (who understand how AI actually works) believe in neither AI doom nor massive uncontrollable acceleration, while non AI researchers (who have limited knowledge) have very definite and certain views on the topic.",
-          "url": "https://x.com/mattturck/status/2104331402385002831"
-        },
         "id:2105261211906384132": {
           "createdAt": "2026-09-30T11:39:21.000Z",
           "id": "2105261211906384132",
@@ -583,28 +487,6 @@
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2104254321131245653": {
-          "createdAt": "2026-09-27T16:58:19.000Z",
-          "id": "2104254321131245653",
-          "isQuote": false,
-          "likes": 1,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "This is the larger one (13.3”) with Renaissance art https://t.co/19fCrtQUgN",
-          "url": "https://x.com/nikunj/status/2104254321131245653"
-        },
-        "id:2104261968043663591": {
-          "createdAt": "2026-09-27T17:28:43.000Z",
-          "id": "2104261968043663591",
-          "isQuote": false,
-          "likes": 6,
-          "quotedTweetId": null,
-          "replies": 4,
-          "retweets": 1,
-          "text": "Asked ChatGPT for book recommendations after a long back and forth of books I tend to like.. if you have others to add, let me know 👋\n\nCurrently reading:\n\n&gt; White Mirror by @TinkeredThinker \n&gt; Challenger by @HigginbothamA https://t.co/lfwXz4IgEb",
-          "url": "https://x.com/nikunj/status/2104261968043663591"
-        },
         "id:2104444216017637575": {
           "createdAt": "2026-09-28T05:32:54.000Z",
           "id": "2104444216017637575",
@@ -1052,17 +934,6 @@
       "name": "Peter Steinberger",
       "source": "x",
       "tweets": {
-        "id:2104305554760114488": {
-          "createdAt": "2026-09-27T20:21:55.000Z",
-          "id": "2104305554760114488",
-          "isQuote": true,
-          "likes": 571,
-          "quotedTweetId": "2104094039805174164",
-          "replies": 90,
-          "retweets": 14,
-          "text": "Same. @useblacksmith has been an amazing sponsor but we need to distribute the load. \n\nMy plan is to let codex decide which tests actually need to run and drastically nix CI and run tests hourly. https://t.co/Yo4PYOT2cI",
-          "url": "https://x.com/steipete/status/2104305554760114488"
-        },
         "id:2104702088626557384": {
           "createdAt": "2026-09-28T22:37:36.000Z",
           "id": "2104702088626557384",
@@ -1263,17 +1134,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2104383749723128052": {
-          "createdAt": "2026-09-28T01:32:38.000Z",
-          "id": "2104383749723128052",
-          "isQuote": false,
-          "likes": 6512,
-          "quotedTweetId": null,
-          "replies": 1630,
-          "retweets": 168,
-          "text": ". . . . . .",
-          "url": "https://x.com/thsottiaux/status/2104383749723128052"
-        },
         "id:2104465709384491519": {
           "createdAt": "2026-09-28T06:58:18.000Z",
           "id": "2104465709384491519",
@@ -1381,17 +1241,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2104273243599405395": {
-          "createdAt": "2026-09-27T18:13:31.000Z",
-          "id": "2104273243599405395",
-          "isQuote": false,
-          "likes": 4322,
-          "quotedTweetId": null,
-          "replies": 474,
-          "retweets": 92,
-          "text": "I am most afraid of us eating the productivity gains of agents by just becoming lazier.",
-          "url": "https://x.com/trq212/status/2104273243599405395"
-        },
         "id:2104403711699423680": {
           "createdAt": "2026-09-28T02:51:57.000Z",
           "id": "2104403711699423680",
@@ -1510,17 +1359,6 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2104253882025341231": {
-          "createdAt": "2026-09-27T16:56:35.000Z",
-          "id": "2104253882025341231",
-          "isQuote": false,
-          "likes": 354,
-          "quotedTweetId": null,
-          "replies": 33,
-          "retweets": 22,
-          "text": "People who ask “why do you keep posting without monetizing your content” don’t understand that:\n\n1. Self-expression is an innate human instinct that requires no justification or utilitarian motive\n2. Influence is so much more valuable than money",
-          "url": "https://x.com/zarazhangrui/status/2104253882025341231"
-        },
         "id:2104689580045979811": {
           "createdAt": "2026-09-28T21:47:53.000Z",
           "id": "2104689580045979811",
