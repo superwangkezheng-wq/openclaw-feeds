@@ -11,6 +11,31 @@
  </author>
  <published>2012-02-21T04:08:32+00:00</published>
  <entry>
+  <id>yt:video:L2PUqHhB-ig</id>
+  <yt:videoId>L2PUqHhB-ig</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>How top-p filters tokens</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/L2PUqHhB-ig"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-10-02T13:06:03+00:00</published>
+  <updated>2026-10-02T13:06:08+00:00</updated>
+  <media:group>
+   <media:title>How top-p filters tokens</media:title>
+   <media:content url="https://www.youtube.com/v/L2PUqHhB-ig?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/L2PUqHhB-ig/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Top-p sampling keeps the most likely tokens until their cumulative probability reaches a chosen threshold. I walk through an example with p = 0.8, then renormalize the retained probabilities so they sum to one.
+
+An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="24"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:L0JQMS89qlY</id>
   <yt:videoId>L0JQMS89qlY</yt:videoId>
   <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
@@ -30,8 +55,8 @@
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="371"/>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="497"/>
    </media:community>
   </media:group>
  </entry>
@@ -56,7 +81,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="228"/>
+    <media:statistics views="248"/>
    </media:community>
   </media:group>
  </entry>
@@ -71,7 +96,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-26T13:15:07+00:00</published>
-  <updated>2026-09-26T13:15:07+00:00</updated>
+  <updated>2026-10-02T08:25:21+00:00</updated>
   <media:group>
    <media:title>Build A Reasoning Model From Scratch 5: Inference Scaling 2 (Logprob Scoring, Self-Refinement)</media:title>
    <media:content url="https://www.youtube.com/v/TVMyOJ_3Gxo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -101,8 +126,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 1:05:57 MATH-500 evaluation results
 1:07:35 Takeaways and next steps</media:description>
    <media:community>
-    <media:starRating count="94" average="5.00" min="1" max="5"/>
-    <media:statistics views="7200"/>
+    <media:starRating count="96" average="5.00" min="1" max="5"/>
+    <media:statistics views="7397"/>
    </media:community>
   </media:group>
  </entry>
@@ -126,8 +151,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="156" average="5.00" min="1" max="5"/>
-    <media:statistics views="3479"/>
+    <media:starRating count="157" average="5.00" min="1" max="5"/>
+    <media:statistics views="3491"/>
    </media:community>
   </media:group>
  </entry>
@@ -154,7 +179,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 Article on coding an agent harness: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent</media:description>
    <media:community>
     <media:starRating count="146" average="5.00" min="1" max="5"/>
-    <media:statistics views="5249"/>
+    <media:statistics views="5275"/>
    </media:community>
   </media:group>
  </entry>
@@ -179,7 +204,7 @@ Article on coding an agent harness: https://magazine.sebastianraschka.com/p/comp
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="489"/>
+    <media:statistics views="492"/>
    </media:community>
   </media:group>
  </entry>
@@ -230,8 +255,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="155" average="5.00" min="1" max="5"/>
-    <media:statistics views="11853"/>
+    <media:starRating count="156" average="5.00" min="1" max="5"/>
+    <media:statistics views="12029"/>
    </media:community>
   </media:group>
  </entry>
@@ -256,7 +281,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="2577"/>
+    <media:statistics views="2579"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,8 +338,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="202" average="5.00" min="1" max="5"/>
-    <media:statistics views="16961"/>
+    <media:starRating count="203" average="5.00" min="1" max="5"/>
+    <media:statistics views="17044"/>
    </media:community>
   </media:group>
  </entry>
@@ -378,7 +403,7 @@ Other resources mentioned in the video:
 01:35:32 Recap and next steps</media:description>
    <media:community>
     <media:starRating count="233" average="5.00" min="1" max="5"/>
-    <media:statistics views="16704"/>
+    <media:statistics views="16801"/>
    </media:community>
   </media:group>
  </entry>
@@ -449,8 +474,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1211" average="5.00" min="1" max="5"/>
-    <media:statistics views="120676"/>
+    <media:starRating count="1212" average="5.00" min="1" max="5"/>
+    <media:statistics views="120842"/>
    </media:community>
   </media:group>
  </entry>
@@ -500,8 +525,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="730" average="5.00" min="1" max="5"/>
-    <media:statistics views="35269"/>
+    <media:starRating count="733" average="5.00" min="1" max="5"/>
+    <media:statistics views="35420"/>
    </media:community>
   </media:group>
  </entry>
@@ -546,8 +571,8 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
-    <media:starRating count="470" average="5.00" min="1" max="5"/>
-    <media:statistics views="19245"/>
+    <media:starRating count="472" average="5.00" min="1" max="5"/>
+    <media:statistics views="19296"/>
    </media:community>
   </media:group>
  </entry>
@@ -572,63 +597,7 @@ Check out my website for more articles and resources on LLMs: https://sebastianr
 This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
    <media:community>
     <media:starRating count="88" average="5.00" min="1" max="5"/>
-    <media:statistics views="4853"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:TXzQ7PGpO6w</id>
-  <yt:videoId>TXzQ7PGpO6w</yt:videoId>
-  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
-  <title>What I Learned From Implementing LLM Architectures From Scratch (And How to Get Started)</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=TXzQ7PGpO6w"/>
-  <author>
-   <name>Sebastian Raschka</name>
-   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
-  </author>
-  <published>2026-05-12T23:27:35+00:00</published>
-  <updated>2026-09-18T05:44:41+00:00</updated>
-  <media:group>
-   <media:title>What I Learned From Implementing LLM Architectures From Scratch (And How to Get Started)</media:title>
-   <media:content url="https://www.youtube.com/v/TXzQ7PGpO6w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/TXzQ7PGpO6w/hqdefault.jpg" width="480" height="360"/>
-   <media:description>LLM Architecture Gallery: https://llm-gallery.com
-
-In this talk, I discuss what we can learn from implementing LLM architectures from scratch in Python and PyTorch.
-
-The main idea is that to really understand how modern LLMs work, it helps to inspect the actual implementation details: attention variants, normalization layers, configuration files, KV cache optimizations, and the small architectural choices that often make a model work correctly.
-
-I also walk through how I approach new open-weight models, how I compare them against reference implementations, and what broader architecture trends emerge from looking at many recent LLMs.
-
-
-Chapters:
-00:00 Introduction
-01:15 Running LLMs locally in Python
-02:30 What &quot;Python&quot; means in practice: PyTorch and hardware backends
-04:45 The LLM ecosystem: training and inference tools
-07:25 Why implementation details matter
-09:35 From model releases to architecture diagrams
-12:00 Reading model cards and config files
-15:50 Debugging architecture implementations
-18:00 Comparing against Hugging Face Transformers
-20:30 A Gemma 3 RMSNorm example
-24:00 A 12-step workflow for understanding new architectures
-25:15 The LLM Architecture Gallery
-26:10 Architecture trends across recent LLMs
-27:30 KV cache motivation
-29:40 Grouped-query attention
-32:30 Multi-head latent attention
-36:40 Sliding window attention
-40:00 Sparse and selective attention trends
-42:00 KV cache quantization
-43:30 LLMs inside agentic software harnesses
-46:10 Getting started with LLMs from scratch
-48:00 When to use libraries instead of from-scratch code
-50:00 Transparent open-source training codebases
-52:00 Build a Reasoning Model From Scratch</media:description>
-   <media:community>
-    <media:starRating count="1367" average="5.00" min="1" max="5"/>
-    <media:statistics views="35022"/>
+    <media:statistics views="4891"/>
    </media:community>
   </media:group>
  </entry>
