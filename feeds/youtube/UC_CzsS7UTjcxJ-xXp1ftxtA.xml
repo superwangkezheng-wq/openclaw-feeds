@@ -11,6 +11,64 @@
  </author>
  <published>2012-02-21T04:08:32+00:00</published>
  <entry>
+  <id>yt:video:237Hf7Q3lgg</id>
+  <yt:videoId>237Hf7Q3lgg</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build A Reasoning Model From Scratch 6: Reinforcement Learning 1 (Implementing GRPO for RLVR)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=237Hf7Q3lgg"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-10-03T12:06:29+00:00</published>
+  <updated>2026-10-03T12:06:29+00:00</updated>
+  <media:group>
+   <media:title>Build A Reasoning Model From Scratch 6: Reinforcement Learning 1 (Implementing GRPO for RLVR)</media:title>
+   <media:content url="https://www.youtube.com/v/237Hf7Q3lgg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/237Hf7Q3lgg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video covers a from-scratch implementation of Reinforcement Learning with Verifiable Rewards (RLVR) using the Group Relative Policy Optimization (GRPO) algorithm in Python to train a small reasoning model.
+
+- Reasoning playlist: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs
+- Reasoning Book: https://amzn.to/4aAKiFY
+- Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
+
+- LLMs from Scratch book: https://amzn.to/4fqvn0D
+- LLMs from Scratch repo: https://github.com/rasbt/LLMs-from-scratch
+- LLMs from Scratch playlist: https://www.youtube.com/watch?v=yAcWnfsZhzo&amp;list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11&amp;index=1
+
+00:00 Introduction
+01:54 What makes a reasoning model different?
+04:25 Reasoning traces and model capability
+08:29 Accuracy and format rewards
+11:34 Aha moments and DeepSeek-R1 training
+14:41 Reasoning effort and answer length
+18:38 RLHF and RLVR
+23:04 GRPO vs. PPO
+26:40 GRPO explained with a cooking analogy
+31:43 The KL term and simplified GRPO
+35:04 Loading the pretrained model
+36:07 Loading the MATH training data
+39:26 Sampling model responses
+46:30 Computing verifiable rewards
+49:55 Computing advantages
+51:54 Token and sequence log probabilities
+55:29 Implementing sequence log probabilities
+57:37 Fixing the inference-mode error
+1:02:24 Computing the GRPO loss
+1:04:37 Putting the GRPO step together
+1:09:19 The GRPO training loop
+1:12:57 Training settings, logging, and checkpoints
+1:17:24 Running training and inspecting outputs
+1:19:28 Loading and evaluating checkpoints
+1:22:33 MATH-500 results and training stability
+1:24:05 Memory requirements and next steps</media:description>
+   <media:community>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="94"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:L2PUqHhB-ig</id>
   <yt:videoId>L2PUqHhB-ig</yt:videoId>
   <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
@@ -30,8 +88,8 @@
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="24"/>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="362"/>
    </media:community>
   </media:group>
  </entry>
@@ -55,8 +113,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="497"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="560"/>
    </media:community>
   </media:group>
  </entry>
@@ -71,7 +129,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-28T12:00:19+00:00</published>
-  <updated>2026-09-28T22:24:06+00:00</updated>
+  <updated>2026-10-02T22:17:44+00:00</updated>
   <media:group>
    <media:title>How tokenizers turn text into numbers</media:title>
    <media:content url="https://www.youtube.com/v/hLWiGBqUjg0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -81,7 +139,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="248"/>
+    <media:statistics views="262"/>
    </media:community>
   </media:group>
  </entry>
@@ -126,8 +184,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 1:05:57 MATH-500 evaluation results
 1:07:35 Takeaways and next steps</media:description>
    <media:community>
-    <media:starRating count="96" average="5.00" min="1" max="5"/>
-    <media:statistics views="7397"/>
+    <media:starRating count="98" average="5.00" min="1" max="5"/>
+    <media:statistics views="7625"/>
    </media:community>
   </media:group>
  </entry>
@@ -152,7 +210,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="157" average="5.00" min="1" max="5"/>
-    <media:statistics views="3491"/>
+    <media:statistics views="3498"/>
    </media:community>
   </media:group>
  </entry>
@@ -178,8 +236,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 Article on coding an agent harness: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent</media:description>
    <media:community>
-    <media:starRating count="146" average="5.00" min="1" max="5"/>
-    <media:statistics views="5275"/>
+    <media:starRating count="147" average="5.00" min="1" max="5"/>
+    <media:statistics views="5317"/>
    </media:community>
   </media:group>
  </entry>
@@ -204,7 +262,7 @@ Article on coding an agent harness: https://magazine.sebastianraschka.com/p/comp
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="492"/>
+    <media:statistics views="497"/>
    </media:community>
   </media:group>
  </entry>
@@ -255,8 +313,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="156" average="5.00" min="1" max="5"/>
-    <media:statistics views="12029"/>
+    <media:starRating count="158" average="5.00" min="1" max="5"/>
+    <media:statistics views="12177"/>
    </media:community>
   </media:group>
  </entry>
@@ -281,7 +339,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="2579"/>
+    <media:statistics views="2585"/>
    </media:community>
   </media:group>
  </entry>
@@ -338,8 +396,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="203" average="5.00" min="1" max="5"/>
-    <media:statistics views="17044"/>
+    <media:starRating count="206" average="5.00" min="1" max="5"/>
+    <media:statistics views="17113"/>
    </media:community>
   </media:group>
  </entry>
@@ -402,8 +460,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="233" average="5.00" min="1" max="5"/>
-    <media:statistics views="16801"/>
+    <media:starRating count="238" average="5.00" min="1" max="5"/>
+    <media:statistics views="16879"/>
    </media:community>
   </media:group>
  </entry>
@@ -474,8 +532,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1212" average="5.00" min="1" max="5"/>
-    <media:statistics views="120842"/>
+    <media:starRating count="1213" average="5.00" min="1" max="5"/>
+    <media:statistics views="120971"/>
    </media:community>
   </media:group>
  </entry>
@@ -525,8 +583,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="733" average="5.00" min="1" max="5"/>
-    <media:statistics views="35420"/>
+    <media:starRating count="736" average="5.00" min="1" max="5"/>
+    <media:statistics views="35580"/>
    </media:community>
   </media:group>
  </entry>
@@ -572,32 +630,7 @@ This video explains how Anthropic's text watermarking for Claude works. In parti
 Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
    <media:community>
     <media:starRating count="472" average="5.00" min="1" max="5"/>
-    <media:statistics views="19296"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:7KDW-VOEUOI</id>
-  <yt:videoId>7KDW-VOEUOI</yt:videoId>
-  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
-  <title>Build A Reasoning Model (From Scratch), Page 198</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=7KDW-VOEUOI"/>
-  <author>
-   <name>Sebastian Raschka</name>
-   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
-  </author>
-  <published>2026-07-19T16:33:50+00:00</published>
-  <updated>2026-09-17T22:36:16+00:00</updated>
-  <media:group>
-   <media:title>Build A Reasoning Model (From Scratch), Page 198</media:title>
-   <media:content url="https://www.youtube.com/v/7KDW-VOEUOI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/7KDW-VOEUOI/hqdefault.jpg" width="480" height="360"/>
-   <media:description>In listing 6.5 on page 198 of Build a Reasoning Model (From Scratch), torch.manual_seed(0) should be torch.manual_seed(5).
-
-This correction is needed to reproduce the generated response and the corresponding log-probability outputs later in Chapter 6. Future printings will include the correction.</media:description>
-   <media:community>
-    <media:starRating count="88" average="5.00" min="1" max="5"/>
-    <media:statistics views="4891"/>
+    <media:statistics views="19322"/>
    </media:community>
   </media:group>
  </entry>
