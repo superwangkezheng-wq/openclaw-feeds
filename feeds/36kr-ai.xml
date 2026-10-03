@@ -15,8 +15,269 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Fri, 02 Oct 2026 13:58:01 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Oct 2026 02:05:49 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[刚刚，AI击穿了“视频图灵测试”，1700万网友在线围观]]></title>
+            <description><![CDATA[<p>过去，视频通话常被当成确认身份的一道保险。文字可以代写，声音可以合成，但让对方打开摄像头，聊几句、看表情，似乎总能多一分把握。&nbsp;</p>
+  <p>如今，连这份眼见为实的笃定也开始受到挑战。&nbsp;</p>
+  <p>最近，<strong>AI 研究团队 Tavus 发布实时视频交互模型 Griffin，</strong>并公布了一项实验结果。在与其研究预览版 Griffin-Lite 进行一分钟视频通话后，54 名参与者中有 26 人认为，屏幕另一端坐着一个真人，占比约为 48%。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1175" src="https://img.36krcdn.com/hsossms/20261003/v2_0200c3db262945a5a9ed42ed67d3f211@1200352198_oswg742047oswg1080oswg1175_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">▲ 截至发稿前，近 1736 万网友围观&nbsp;</p>
+  <p>作为对照，Tavus 上一代系统在相同实验流程下，只有 41 人中的 1 人被当成真人，比例为 2.4%。&nbsp;</p>
+  <p><strong>Tavus 据此宣称，Griffin 是首个通过实时「视频图灵测试」的模型，</strong>并将其归入一个新类别 Human Interaction Model，简称 HIM，即人类交互模型。&nbsp;</p>
+  <p>不过，「首次通过」目前仍是 Tavus 对实验结果的定义，同时由于尚未全面开放预览，不排除存在画饼 Demo 的嫌疑，而要具体理解这次发布，需要同时看清三个问题，参与者如何被说服，模型如何完成互动，以及一分钟的表现究竟能证明多少。&nbsp;</p>
+  <h3><strong>让人相信的细节，藏在说话之外</strong></h3>
+  <p>与 AI 聊天时，最容易让人出戏的瞬间，未必是答案有多离谱，有时只是它太不会接话。&nbsp;</p>
+  <p>你停下来组织语言，它立刻抢着回答；你讲了一件难过的事，屏幕上的脸却还挂着笑；你打断它，它仍沿着原来的节奏继续说。答案可能没有错，交流却始终有些别扭。&nbsp;</p>
+  <p>Griffin 尝试处理的，就是这些发生在语言之外的细节。按照 Tavus 的介绍，它能够同时看、听、说，并根据对方的表情、视线、语气和停顿，持续决定接下来该做什么。&nbsp;</p>
+  <p>在官方演示中，模型展示了随对话改变情绪、语调和动作的能力，还参与了模仿指令游戏、魔方互动，以及观察用户焊接电路板等场景。Tavus 希望借此说明，模型能够结合画面和时间信息参与交流。&nbsp;</p>
+  <p>比如，同样是一段沉默，有人正在思考，有人已经说完，有人则可能希望对方继续解释。系统需要结合上下文与非语言信号判断，避免把每次声音停止都当成发言结束。&nbsp;</p>
+  <p>视觉生成的范围也扩大了。Tavus 称，Griffin 能从一张参考图像出发，实时生成整个画面，包括人物的脸、手臂、手指，以及椅子的移动、阴影和背景变化。&nbsp;</p>
+  <p>因此，屏幕上的角色在听人说话时，也可以点头、调整视线或改变表情，不必等到自己的台词开始，才突然有了动作。&nbsp;</p>
+  <h3><strong>AI 想学会聊天，得摆脱轮流答题的节奏</strong></h3>
+  <p>上述能力背后，是交互方式的变化。&nbsp;</p>
+  <p>常见的级联系统会依次完成语音识别、语言模型回答、语音合成和数字人驱动，多个环节前后衔接。用户说完一句，系统处理一句，再把结果交给下一环节。&nbsp;</p>
+  <p>Griffin 采用全双工视频交互方案。所谓全双工，就是系统在输出语音和视频的同时，仍持续接收并处理用户的声音与画面。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,389" src="https://img.36krcdn.com/hsossms/20261003/v2_8b579d67a0c8444785c7dbae41dfb86c@1200352198_oswg357442oswg1080oswg389_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">▲ 左为原图，右由 AI 辅助翻译，仅供参考&nbsp;</p>
+  <p>它由两个主要部分构成。&nbsp;</p>
+  <p>持续对话建模引擎负责感知现场、决定说什么以及何时回应，同时输出情绪、表情和动作等控制信号；音视频生成引擎则将这些信号转化为连续的声音与画面。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,404" src="https://img.36krcdn.com/hsossms/20261003/v2_6faacfd8f0f94716b015c2f0f6fb41c7@1200352198_oswg351234oswg1080oswg404_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>对话引擎以小于一秒的间隔重新评估交流状态，所以模型在一句话说到一半时，也能根据用户反应决定暂停、继续或让出发言机会。&nbsp;</p>
+  <p>实现这种配合，还需要生成速度跟得上。&nbsp;</p>
+  <p>Griffin-Lite 的语音模块采用流式生成，能够随着控制信号到来逐步输出声音，并支持利用约 10 秒参考音频克隆声音。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,388" src="https://img.36krcdn.com/hsossms/20261003/v2_b326c127c7b14890ac7c6dfcc1271243@1200352198_oswg342518oswg1080oswg388_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>视频模块则以每段 320 毫秒的方式，实时生成 720p、25 帧每秒的视频。团队通过模型蒸馏和自回归训练，将原本多步生成的过程压缩为少步生成，同时改善长时间输出时的画面稳定性。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,385" src="https://img.36krcdn.com/hsossms/20261003/v2_76d86e4571ed4ba8b13065805eda7fd3@1200352198_oswg364407oswg1080oswg385_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在 Tavus 公布的 H100 测试中，音频到达后，其效果出现在画面上的平均延迟为 0.43 秒，约为比较对象中下一快方法的一半。该数字衡量的是音频到视频的生成延迟，不能直接当成用户提问到收到完整回答的时间。‘&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,393" src="https://img.36krcdn.com/hsossms/20261003/v2_b8b19d40b1814edbbc86c6a1e20abc48@1200352198_oswg331527oswg1080oswg393_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>画面质量方面，Griffin-Lite 在与四种已发表流式扩散模型的比较中，取得了 DOVER、FID 和 THEval 三项指标的最佳成绩；唇形同步指标 LSE-C 得分为 7.27，位列第二。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,371" src="https://img.36krcdn.com/hsossms/20261003/v2_77f8a3b51c8748cd999750b2bec9ae5e@1200352198_oswg327579oswg1080oswg371_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h3><strong>榜单接近人类，一分钟实验仍有边界</strong></h3>
+  <p>除了内部测试，Griffin-Lite 也出现在英伟达的 VideoFDB 公开榜单上。该基准分别评估模型能否理解交流中的非语言信号，以及能否生成符合情境的声音、表情和动作。&nbsp;</p>
+  <p>生成赛道中，Griffin-Lite 的总分为 3.83，人类参考分为 3.92，排名下一位的 Gemini 2.5 与 Anam 组合为 2.80。感知赛道中，Griffin-Lite 得分 3.73，人类参考分为 4.20，最高的其他公开基线成绩为 3.44。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,388" src="https://img.36krcdn.com/hsossms/20261003/v2_b3f98fe480df47faa25f4a5807a3e15f@1200352198_oswg326412oswg1080oswg388_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>两项成绩均领先榜单中的其他 AI 系统，但它们属于特定基准下的评分。尤其需要注意，部分比较对象只接收音频，部分接收音视频，输入条件存在差异，排名不能直接推广为所有能力的比较结论。&nbsp;</p>
+  <p>至于最受关注的 48%，来自另一项由 Tavus 组织、通过独立研究平台招募参与者的实验。&nbsp;</p>
+  <p>参与者事先被告知，将与另一名参与者视频通话一分钟，讨论今年最期待的事情。实际出现在屏幕上的，是由 Griffin-Lite 实时生成脸、声音和回应的 AI 角色。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,485" src="https://img.36krcdn.com/hsossms/20261003/v2_dff2ef7513ac447d94396b5c82cd6846@1200352198_oswg476078oswg1080oswg485_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>通话结束后，参与者先评价对方的自然程度、可信度和交流体验，直到问卷最后才被问及，是否怀疑过对方并非真人。研究结束时，所有人都被告知了 AI 身份。&nbsp;</p>
+  <p>最终，26 人判断对方是真人，这组参与者对判断的平均信心为 79%；认为对方是 AI 的参与者，平均信心则为 81%。产生怀疑的人，通常在通话开始后的 20 秒内就有所察觉。&nbsp;</p>
+  <p>模型也尚未消除所有交流障碍。在七分制评价中，自然程度为 5.4，可信度为 5.6，再次交流意愿为 5.8，而对话流畅程度为 4.9，是五项评价中最低的一项。&nbsp;</p>
+  <p>实验说明，实时合成的面孔已经能够在特定条件下让部分人信以为真。但样本只有 54 人，通话仅持续一分钟，参与者又被提前告知对方是另一个人，结果仍需要更大规模、更长时间和更多场景的验证。&nbsp;</p>
+  <h3><strong>越像真人，越需要说明自己是谁</strong></h3>
+  <p>在 Tavus 对 Griffin 的愿景中，你永远不会去思考交流的「机制」。你不会去想「我要用什么词汇才能让他听懂」，你只是自然地表达，让对话如水般流淌。&nbsp;</p>
+  <p>想象一下，未来的在线辅导，不再是冷冰冰的 PPT 录播。AI 老师能从你紧锁的眉头看出你没听懂，然后主动换一种更通俗的比喻；&nbsp;</p>
+  <p>未来的客服，不需要你费尽心机描述零件的型号，你只需要把它举到摄像头前，AI 就能和你一起研究怎么修理它。&nbsp;</p>
+  <p><strong>机器终于俯下身来，走进了人类的语境里。</strong></p>
+  <p>这也是为什么，<strong>Tavus 在发布 Griffin-Lite 预览版的同时，宣布只向部分可信测试者开放研究预览，尚未供普通客户使用。</strong></p>
+  <p>团队表示，正在开发 AI 身份披露功能，并开展进一步的安全与对齐评估，更广泛的发布将取决于相关问题的处理进展。&nbsp;</p>
+  <p>过去，数字人的挑战是怎样让人愿意与它交流；随着实时生成越来越自然，产品还必须回答怎样让人知道自己正在与谁交流。让 AI 学会看眼色，可能会降低使用门槛，让用户看清它的身份，则将决定这份便利能否建立在信任之上。&nbsp;</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/AkMSR8MnOvSSY_3N6jVO0A">“APPSO”</a>，作者：发现明日产品的，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 03 Oct 2026 01:31:32 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4009475424063619</guid>
+            <link>https://www.36kr.com/p/4009475424063619</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」]]></title>
+            <description><![CDATA[<p>Meta 的 Muse 还在持续升温。</p>
+  <p>这款刚推出不久的个人 AI Agent，已经成为 Meta 今年 AI 战略中的重要产品。不同于传统聊天机器人，Muse 被设计为能够替用户执行任务的智能助手：处理邮件、购物、规划行程，甚至在后台持续完成一些复杂操作。</p>
+  <p>而就在刚刚，Meta 又公布了一项新的动作：<strong>正式推出 Muse Gadgets 开源项目，全面下放硬件能力，让全球创客与开发者能够为 Muse 打造专属的外围硬件设备。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="904,1100" src="https://img.36krcdn.com/hsossms/20261003/v2_3a137cdfa4214051a3a4d0f63d69a193@000000_oswg489482oswg904oswg1100_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>按照 Meta 公布的信息，<strong>开发者可以使用 ESP32 开发板运行 Muse 固件，或使用 Linux SDK 连接更复杂的设备，</strong>也就是说开发者不仅能够在低成本微控制器上部署 Muse 交互逻辑，还能直接在树莓派 5（Raspberry Pi 5） 等更强大的边缘计算设备上运行 Muse 客户端。</p>
+  <p>官方还列举了多种极具实用性的 DIY 形态参考：</p>
+  <p><strong>彩色墨水屏（E Ink Display）：</strong>作为桌面的低功耗提醒器或智能看板，实时展示 Muse 同步的日程与待办事项。</p>
+  <p><strong>HDMI 显示棒 / 大屏扩展：</strong>将 Muse Agent 的界面或互动直接投射至电视或外部监视器上。</p>
+  <p><strong>触控掌上挂件：</strong>自制类似于 Muse Charm 的随身交互终端，无需佩戴智能眼镜即可随时与 Agent 对话。</p>
+  <p>而对于那些想要上手尝试的开发者来说，目前即可按照以下步骤即可开始打造专属于自己的 Muse 外设：</p>
+  <p><strong>获取凭证：</strong>访问 gadgets.muse.ai 注册并领取个人的 API Token；</p>
+  <p><strong>连接开发工具：</strong>将 GitHub 官方代码库导入你常用的 AI 编程代理程序（如 Claude Code、Cursor、GitHub Copilot CLI 等），借助 Agentic Coding 能力快速理解协议并生成外设驱动代码；</p>
+  <p><strong>固件刷写与调试：</strong>将代码刷入 ESP32 开发板或在 Linux / 树莓派设备上运行 SDK 客户端，即可完成硬件终端与 Muse 的实时双向连接。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,485" src="https://img.36krcdn.com/hsossms/20261003/v2_a3c648ad4440404d96b08de43379c6c1@000000_oswg218160oswg1080oswg485_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>与此同时，Meta 还推出了一款官方设备：<strong>Muse Home Link，一款通过 USB-C 供电的小型设备，</strong>它可以让 Muse 连接到你的家庭网络，从而与智能家居设备进行通信，比如电视、音响，以及任何支持 HTTPS 接口的设备，让 AI Agent 进一步进入真实生活场景。</p>
+  <p class="image-wrapper"><img data-img-size-val="940,1082" src="https://img.36krcdn.com/hsossms/20261003/v2_723c34a5acfb4da5b03d8c61b85b2105@000000_oswg388034oswg940oswg1082_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>官方表示，<strong>目前 Muse Home Link 已首批试产了 5000 台，预计将在几周内开始发货，而在库存充足期间，将直接免费发放给符合条件的 Muse 订阅用户体验。</strong></p>
+  <p>针对大家好奇为什么 Meta 会做出开源这一举措，Alexandr Wang 表示，「首先，打造各种小工具本身就是一件很有趣的事情。</p>
+  <p>其次，我们希望释放开发者的创造力，让大家探索各种全新的、甚至疯狂的想法。我们相信，Muse 正处在一个特殊的时刻，它为人们创造新型硬件设备提供了无限可能，也非常期待看到大家最终会打造出什么样的作品！」</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,982" src="https://img.36krcdn.com/hsossms/20261003/v2_d0ee052e546841c4b8b8cf8441e6aefd@000000_oswg369797oswg1080oswg982_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>从这一点来看，<strong>Meta 似乎希望 Muse 不只是一个官方产品，而成为一个可以被扩展的平台。</strong></p>
+  <p>而该项目一经发布，随即引起网友的关注，甚至一些网友一经上手，DIY 出了属于自己的 Muse 设备。</p>
+  <p>网友 Federico Viticci@viticci 尝试把自己的 Xteink 电子墨水阅读器改造成了一个常亮的 Muse 随身显示屏，Muse（Calliope）可以在上面显示自己的形象，并展示状态更新。而且，这个设备可以通过 MagSafe 磁吸连接到博主的手机背面，所以只需要把手机翻过来，就能随时查看 Muse 推送的相关更新。</p>
+  <p>「Muse App 的设置流程非常顺畅，你甚至可以直接让 Muse 加载内容，或者自动化控制显示屏上的信息。我真的很喜欢这种对黑客和开发者友好的设计理念。」</p>
+  <p class="image-wrapper"><img data-img-size-val="892,1088" src="https://img.36krcdn.com/hsossms/20261003/v2_4cbbc638bb4147a5b69730b3c48a2cd8@000000_oswg728417oswg892oswg1088_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>另一位开发者则利用约 50 美元的 SenseCAP Watcher 设备，打造了一个连接个人酒窖的智能硬件。用户只需拍摄酒瓶标签，Muse 就能识别酒庄和年份，并通过 Tailscale 连接器将信息同步到个人酒窖系统中。整个设备从搭建到运行不到一个小时。</p>
+  <p class="image-wrapper"><img data-img-size-val="878,1078" src="https://img.36krcdn.com/hsossms/20261003/v2_0445c46e95f043e787cd2d068f434220@000000_oswg815016oswg878oswg1078_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>像这样的用户案例还有很多。而通过 Muse 的这一尝试，也可以看到 Agent 时代的一个变化：过去，智能硬件的发展路径通常是：公司设计硬件 — 用户购买设备 — 开发应用。但 AI Agent 可能走向另一种模式：公司提供模型和 Agent 能力 — 开发者创造各种形态的设备。</p>
+  <p>其实从 AI Pin 等，行业对 AI 硬件的探索有很多，曾尝试通过独立设备替代手机入口，但不少产品受到功能限制、交互体验等问题影响。如今，厂商似乎开始换一种思路：<strong>直接先打造强大的 AI Agent，再让它进入不同硬件。</strong></p>
+  <p>Meta 的路线或许正是如此：<strong>Muse 负责智能能力、开发者负责创造各种载体。</strong>未来，Muse 可能存在于智能手机、智能眼镜、各种家庭设备，甚至是开发者创造的新硬件里……</p>
+  <p>那么你呢，如何看待 Meta 的这一尝试，欢迎在评论区留言、交流！</p>
+  <p>参考链接：</p>
+  <p>https://x.com/alexandr_wang/status/2106113742266089526</p>
+  <p>https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link</p>
+  <p>https://gadgets.muse.ai/</p>
+  <p>https://x.com/viticci/status/2106139174604816765</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651060997&amp;idx=1&amp;sn=6d0e247698b4131dd31344d868ed77a3&amp;chksm=8582200bdf8cb92223a6e68b0a9fa05f52759e87d243d85cfe493183153b4dd72435f3224f00&amp;scene=0&amp;xtrack=1#rd">“机器之心”（ID：almosthuman2014）</a>，作者：关注AI的，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 03 Oct 2026 01:23:39 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4009352273236101</guid>
+            <link>https://www.36kr.com/p/4009352273236101</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[苏姿丰抬头，李飞飞低头]]></title>
+            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="1080,702" src="https://img.36krcdn.com/hsossms/20261003/v2_66ca906ac0d44901b81a94a26b3b90fa@24917684_oswg675100oswg1080oswg702_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>作者｜画画</p>
+  <p>如果把时间拨回 2014 年，苏姿丰刚接手 AMD。&nbsp;</p>
+  <p>那时的 AMD 还看不出今天 AI 明星公司的样子。公司承压，业务陷入困境，甚至有人怀疑，这家老牌芯片公司等不到下一轮机会。&nbsp;</p>
+  <p>也是在那个阶段，李飞飞在做一件看起来更笨的事情：<strong>给机器准备足够多的图片。</strong></p>
+  <p>9 月 28 日，AMD 宣布以约 82 亿美元全股票收购李飞飞创办的 World Labs。交易完成后，李飞飞将加入 AMD，担任执行副总裁兼首席科学家，直接向苏姿丰汇报。&nbsp;</p>
+  <p>表面看，这是一家芯片公司收购一家 AI 创业公司。往深处看，是两条走了十多年的路终于交汇。&nbsp;</p>
+  <h2>一、苏姿丰把 AMD 从悬崖边拉了回来</h2>
+  <p>2014 年，苏姿丰接任 AMD CEO。&nbsp;</p>
+  <p>那时的 AMD 已经连续多年一蹶不振。&nbsp;</p>
+  <p>2014 年 AMD 营收约 55 亿美元，净亏损 4.03 亿美元；2015 年营收进一步降到 39.9 亿美元，净亏损扩大到 6.6 亿美元。&nbsp;</p>
+  <p>AMD 彼时的困境也不难理解，手里资源有限，Intel 在 CPU 市场占据绝对优势，Nvidia 又牢牢掌握着 GPU 计算的增长机会。&nbsp;</p>
+  <p><strong>但苏姿丰掌舵之后，没有把 AMD 的战线铺得更广。</strong></p>
+  <p>她反其道而行，把有限的工程资源重新押注到高性能计算上。&nbsp;</p>
+  <p>2017 年，AMD 发布基于 Zen 架构的 Ryzen 处理器，同时发布面向数据中心的 EPYC 处理器。Zen 成为 AMD 重新进入高性能计算市场的关键产品线。&nbsp;</p>
+  <p>当年 AMD 营收回升至 53.3 亿美元，并重新实现全年盈利。&nbsp;</p>
+  <p>之后，EPYC 进入服务器市场，Instinct 系列 GPU 开始承担 AI 和高性能计算任务。&nbsp;</p>
+  <p><strong>AMD 的业务重心也逐渐从个人电脑处理器延伸到数据中心。</strong></p>
+  <p>到 2025 年，AMD 全年营收达到约 346 亿美元，其中数据中心业务营收约 166 亿美元，同比增长 32%。&nbsp;</p>
+  <p>一家公司用了十多年时间，从一家差点被市场边缘化的芯片公司，走到了 AI 基础设施竞争的核心位置。&nbsp;</p>
+  <p>苏姿丰的路径很清楚。抓住计算需求的变化，让芯片进入更大的计算市场。&nbsp;</p>
+  <p>但芯片公司有一个天然的问题。&nbsp;</p>
+  <p>芯片需要提前很多年设计。&nbsp;</p>
+  <p>等到一个计算需求已经成为共识，再开始准备硬件，往往已经晚了。&nbsp;</p>
+  <blockquote>
+   <p>芯片公司真正的难点不是追赶已经明确的需求，关键在于如何提前判断下一个计算趋势。</p>
+  </blockquote>
+  <p>AMD 需要知道，在共识形成之前，哪些新任务会先变得重要。这也是 AMD 收购 World Labs 的一层原因。&nbsp;</p>
+  <h2>二、李飞飞让机器先学会“看”</h2>
+  <p>李飞飞和 AI 的关系，可以从一堆照片讲起。&nbsp;</p>
+  <p>2006 年前后，她开始牵头 ImageNet 项目。&nbsp;</p>
+  <p>当时的计算机视觉研究，很大一部分精力集中在让机器识别图像里的物体。机器可以识别一张照片里有没有猫，却很难处理更加复杂的视觉信息。&nbsp;</p>
+  <p>ImageNet 最终积累了超过 1500 万张图片，覆盖约 2.2 万个类别。&nbsp;</p>
+  <p>图片从互联网上搜集而来，分类和标注则需要大量人工参与。李飞飞的团队甚至使用 Amazon Mechanical Turk，把庞大的图片标注工作拆解给全球大量临时工完成。&nbsp;</p>
+  <p>Amazon Mechanical Turk 是亚马逊推出的一个众包平台，企业可以把大量细碎任务拆给全球网络用户完成。ImageNet 的标注工作就借助了它。&nbsp;</p>
+  <p>这是一项极其琐碎的工作。&nbsp;</p>
+  <p>但它给后来深度学习的突破奠定了不可或缺的价值。&nbsp;</p>
+  <p>2012 年，AlexNet 在 ImageNet 图像识别挑战赛中取得突破性成绩，深度神经网络开始大规模进入计算机视觉研究的中心。&nbsp;</p>
+  <blockquote>
+   <p>ImageNet 最重要的贡献之一，就是让研究者意识到，大规模数据本身可以成为带动机器学习进步的重要力量。</p>
+  </blockquote>
+  <p>从那之后，机器识别图像的能力快速提升。&nbsp;</p>
+  <p>人脸、物体、场景、文字，都逐渐成为可以被算法处理的视觉信息。&nbsp;</p>
+  <p>李飞飞并没有停留在“机器能看见什么”这个问题上。&nbsp;</p>
+  <p>她开始继续探索视觉背后的空间关系。&nbsp;</p>
+  <h2>三、从图像识别走向空间智能</h2>
+  <p>一张照片里有一张桌子。&nbsp;</p>
+  <p>计算机视觉系统可以识别出“桌子”。&nbsp;</p>
+  <p>但真正进入现实世界后，机器需要处理的事情远比识别一个物体复杂。&nbsp;</p>
+  <p>它需要判断桌子在哪里、桌面距离机器人多远、杯子放在桌面的哪个位置、机器人往前走两步会不会撞到桌角，以及把杯子拿起来以后，桌面上的其他东西会不会受到影响。&nbsp;</p>
+  <p>这些问题都涉及空间。&nbsp;</p>
+  <p><strong>李飞飞后来把研究方向进一步延伸到空间智能。</strong></p>
+  <p>2024 年，她与 Justin Johnson、Rob Fergus、Christoph Lassner 等人共同创办 World Labs，目标就是让 AI 建立对三维世界的理解。&nbsp;</p>
+  <p>World Labs 发布的模型，不再只是根据文字生成一张二维图片，开始可以根据文字或图像生成三维环境，并进一步让这些环境具有可探索、可编辑的特征。&nbsp;</p>
+  <p>这意味着模型处理的对象发生了变化。&nbsp;</p>
+  <p>文本模型处理词与词的关系，图像模型处理像素与像素的关系。空间智能模型要更进一步，把物体、距离、位置、时间和动作放在同一个系统里处理。&nbsp;</p>
+  <p>2026 年 7 月，World Labs 又收购了空间智能公司 SceniX，继续朝机器人和仿真方向深入。&nbsp;</p>
+  <p>这条路线越来越清晰，让模型建立一个能够持续理解、预测和模拟现实世界的内部环境。&nbsp;</p>
+  <p>对于机器人来说，这种能力尤其重要。&nbsp;</p>
+  <p>机器人面对一个杯子，识别“这是杯子”只是第一步。它还需要知道杯子的空间位置、形状、重量、抓取方式，以及自己的动作可能带来的结果。&nbsp;</p>
+  <blockquote>
+   <p>ImageNet 解决的是物体识别，World Labs 要解决的是物体在三维空间中的位置、关系和变化。</p>
+  </blockquote>
+  <h2>四、世界模型改变了计算对象</h2>
+  <p>大语言模型的计算对象主要是 Token，世界模型面对的计算对象复杂得多，它需要同时处理空间、时间、物体关系和环境变化，还要让模型能够预测动作发生之后的结果。&nbsp;</p>
+  <p>这类模型需要大量数据，也需要更重的训练和运行。&nbsp;</p>
+  <p>更关键的是，它天然连接着模拟环境、机器人训练、自动驾驶、游戏开发、数字孪生等领域。&nbsp;</p>
+  <p>一旦模型能够在虚拟世界中预测现实世界的变化，计算机处理的任务就会发生变化。&nbsp;</p>
+  <blockquote>
+   <p>过去的计算机主要在处理人已经定义好的规则。世界模型试图让机器自己建立一个关于现实世界的内部表示，再利用这个表示进行预测和决策。</p>
+  </blockquote>
+  <p>这会改变底层计算，GPU 要处理的数据、内存容量、训练和运行的架构、软件栈设计，都会跟着模型形态调整。&nbsp;</p>
+  <p>这正是 AMD 迫切需要的地方。&nbsp;</p>
+  <blockquote>
+   <p>一家芯片公司如果只能根据今天的 AI 需求设计产品，永远会处在追赶需求的位置。</p>
+  </blockquote>
+  <p>如果能够提前看到下一种计算任务需要什么，就有机会让硬件和软件从一开始就围绕这种任务设计。&nbsp;</p>
+  <p>World Labs 提供的，恰好是一扇观察未来计算需求的窗口。&nbsp;</p>
+  <h2>五、从投资到收购，只用了半年</h2>
+  <p>AMD 和 World Labs 的关系并非突然发生。&nbsp;</p>
+  <p>今年 2 月，World Labs 完成 10 亿美元融资，AMD 参与其中。&nbsp;</p>
+  <p>这轮融资让 World Labs 的估值达到约 50 亿美元。&nbsp;</p>
+  <p>World Labs 的空间智能模型运行在 AMD Instinct GPU 上，双方团队也在共同优化模型的训练和运行。&nbsp;</p>
+  <p><strong>对 AMD 来说，这种合作能够直接看到新型模型在真实计算环境里的表现。</strong></p>
+  <p>哪些环节最耗算力、哪里容易卡在内存，这些信息比单纯看一份商业计划书有价值得多。&nbsp;</p>
+  <p>收购 World Labs，AMD 给出的理由也很明确：World Labs 的研究能够帮助 AMD 理解新兴 AI 工作负载，并影响下一代硬件、软件和系统设计。&nbsp;</p>
+  <p>AMD 的意图已经摆在明面上了。&nbsp;</p>
+  <blockquote>
+   <p>AMD 买的不只是模型，它希望把对下一代 AI 工作负载的理解，直接放进自己的产品设计周期里。</p>
+  </blockquote>
+  <h2>六、AMD 买下的，是一个没被定义的市场</h2>
+  <p>AI 产业已经形成清楚的计算需求，训练大模型要堆大量 GPU，运行模型要效率，云厂商要持续建数据中心。&nbsp;</p>
+  <p>这些需求都已经可以被量化，也可以被芯片公司拿来规划产品路线。&nbsp;</p>
+  <p>世界模型还没有这么明确。&nbsp;</p>
+  <p>世界模型会先落到机器人、自动驾驶还是游戏，能不能形成规模收入，硬件该怎么配合，行业还在尝试。&nbsp;</p>
+  <p>甚至世界模型本身的定义也仍在变化，但这恰恰给芯片公司留下了一个窗口。&nbsp;</p>
+  <blockquote>
+   <p>如果等到世界模型成为成熟产业，再去设计对应的硬件，竞争很可能已经开始。</p>
+  </blockquote>
+  <p>AMD 选择把 World Labs 买进来，相当于把一支研究下一代计算需求的团队直接放进了自己的内部。&nbsp;</p>
+  <p>这和传统意义上的买一个 AI 应用完全不同。&nbsp;</p>
+  <blockquote>
+   <p>应用能带来用户和收入，研究团队带来的价值，则可能体现在几年后的芯片架构、软件栈和计算系统里。</p>
+  </blockquote>
+  <p>AMD 此前通过 Zen 重新夺回 CPU 市场，又通过 EPYC 和 Instinct 进入数据中心和 AI 计算。&nbsp;</p>
+  <p>World Labs 对应的，是下一轮计算增长究竟由什么任务驱动。&nbsp;</p>
+  <blockquote>
+   <p>对于 AMD 来说，与其去猜，干脆把研究下一代计算的人放到身边。</p>
+  </blockquote>
+  <p>这次收购也由此诞生了一个很有意思的组合。&nbsp;</p>
+  <p><strong>苏姿丰抬头，寻找下一座计算的山。李飞飞低头，看见山脚下那个真实的世界。</strong></p>
+  <p>山还没有形成，但有人已经开始为它修阶梯了。&nbsp;</p>
+  <p><strong>【版面之外】的话：</strong></p>
+  <p>过去，人类先定义问题，再让机器计算。&nbsp;</p>
+  <p>当机器开始理解真实世界，顺序可能反过来。&nbsp;</p>
+  <p>世界本身，正在成为一道计算题。&nbsp;</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/ytcQUkRnma1uISH1WeXNuw">“版面之外”</a>，作者：画画，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 03 Oct 2026 01:23:02 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4009381083600769</guid>
+            <link>https://www.36kr.com/p/4009381083600769</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[刚刚，GPT-6 Astra破解拿破仑百年悬案]]></title>
@@ -2243,195 +2504,6 @@
             <pubDate>Wed, 30 Sep 2026 07:29:59 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4005455982974851</guid>
             <link>https://www.36kr.com/p/4005455982974851</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[两个月狂签百亿订单，蜂助手把算力生意做成了金融生意]]></title>
-            <description><![CDATA[<p>一家账上只有3亿元的上市公司，居然在两个月内连续签下百亿算力订单。蜂助手（301382.SZ）正在把算力生意做成金融生意。</p>
-  <p>9月29日，蜂助手股价低开高走，截至收盘，公司股价涨6.05%至39.97元/股，总市值增至114亿元。</p>
-  <p>股价大涨前一日，蜂助手官宣算力大单。公告显示，公司近日与C公司签署了算力服务器采购协议，并与D公司签署了算力服务协议。</p>
-  <p>根据协议，蜂助手将向C公司采购算力服务器，协议总金额为39.6亿元。公司还将向D公司提供综合算力服务，服务范围涵盖CPU、内存、GPU、存储、带宽及算力配套服务等，协议金额合计57.17亿元，合作期限为60个月。</p>
-  <p>在公告中，蜂助手表示，因算力服务器相关设备涉及商业秘密，因此并未透露C、D两家公司的企业名称。但公司也表示，C公司智算中心落地经验丰富，与大型算力服务器设备厂商有良好合作关系；D公司背景实力强大，具备履约能力。</p>
-  <p>这也是蜂助手自今年8月后签署的第二单算力大单。</p>
-  <p>今年8月，蜂助手通过全资子公司雅安云算，与A公司签署算力服务器采购协议，采购金额合计30.62亿元。并与B公司签署算力服务协议，金额为46.08亿元。</p>
-  <p>短短两个月时间里，蜂助手便采购了近70亿元的算力服务器，并与下游公司签署了逾103亿元的算力大单。</p>
-  <p>然而，在接取算力大单之际，蜂助手自身却面临流动性压力。截至2026年6月末，蜂助手的货币资金余额仅约3.29亿元，同期公司短期借款、一年内到期的流动负债余额合计高达12.75亿元。</p>
-  <p>在此背景下，蜂助手大幅提升了对子公司的担保额度。在官宣大单的同一日，蜂助手发布公告称，将新增不超过240亿元综合授信额度，本次增加后，公司及子公司2026年可申请的综合授信总额度将增至不超过300亿元。上述授信将由公司实控人罗洪鹏无偿提供连带担保。</p>
-  <p>为顺利推进新业务落地，蜂助手正巧妙利用融资租赁模式，将这场算力生意变成了一桩金融生意。</p>
-  <h2><strong>算力生意做成金融生意</strong></h2>
-  <p>为履行算力订单，蜂助手采用融资租赁融资解决面临的资金问题。</p>
-  <p>具体而言，蜂助手分别向A公司和C公司采购算力服务器，价格分别为30.62亿元、39.6亿元。其中，5%至20%的金额将由蜂助手自有资金支付，80%至95%的金额将由融资租赁融资解决。</p>
-  <p>在蜂助手看来，融资租赁模式下，公司只需按期支付租金，便能在较低首期投入下实现设备部署。以70.22亿元的设备采购总金额计算，蜂助手仅需向设备公司支付3.5亿元至14亿元的资金即可撬动百亿元算力订单落地。</p>
-  <p>然而，蜂助手这种高杠杆业务模式背后，也暗藏风险。</p>
-  <p>从业务本身的角度来看，蜂助手通过融资租赁模式获取算力服务器后，设备的所有权将归属于租赁公司，蜂助手需按期收取下游承租方的服务费，并向租赁公司支付租金。一旦下游服务费回款延迟，蜂助手将面临较大的流动性压力。</p>
-  <p>此外，即使采用融资租赁模式开展算力业务能够减轻蜂助手的资金压力，但由于蜂助手本身的在手现金难以覆盖短期借款，这部分首付款或将进一步推高蜂助手的债务规模。</p>
-  <p>最后，即使通过高杠杆拿下算力大单，蜂助手的收益也相对有限。</p>
-  <p>在首次签署算力订单时，蜂助手曾表示，项目若能成功实施，预计年均净利润将达到6000万元至7200万元，但受融资成本波动等因素影响，可能会导致各项目年度净利润波动，个别年度甚至可能削弱公司净利润水平。</p>
-  <p>若以首次订单30.62亿元的设备购置成本计算，相关项目的年静态资产收益率仅约1.96%至2.35%之间，整体上看收益率并不算高。</p>
-  <h2><strong>急寻新曲线</strong></h2>
-  <p>对于蜂助手而言，算力租赁业务虽然面临风险，但也是公司进一步拓展业务范畴的重要落子。</p>
-  <p>蜂助手由通信老兵罗洪鹏一手创立，罗洪鹏今年52岁，曾在中国移动任职多年。2012年，罗洪鹏创办蜂助手，主营数字商品分销业务，即话费、流量、视频会员等虚拟权益产品的聚合运营。2023年，蜂助手在创业板上市。</p>
-  <p>目前，罗洪鹏直接、间接持有上市公司24.16%的股权，以最新股价计算，罗洪鹏的持股市值约为25亿元。</p>
-  <p>上市之后，蜂助手却面临主营业务盈利能力下滑的问题。目前，蜂助手的主营业务为数字商品综合运营业务，该业务主要为移动互联网相关客户提供数字化虚拟商品聚合运营、融合运营、产品独家代理等服务。</p>
-  <p>近年来，该业务收入水平快速上涨，2025年收入同比增长41.10%至18.80亿元，今年上半年收入又同比增长36%至11.76亿元。但该业务的毛利率却持续下行，2024年、2025年及今年上半年分别为18.67%、16.83%、12.00%。</p>
-  <p>蜂助手近年来也开始拓展物联网相关业务，该业务的盈利能力较强，今年上半年毛利率高达58.60%，但该业务的收入占比仅10.84%，对公司整体业绩的贡献有限。</p>
-  <p>受上述业务的影响，近年来蜂助手的营收增速远超利润增速。2023年至2025年，公司的营收分别为11.79亿元、15.39亿元、20.90亿元；归母净利润分别为1.42亿元、1.34亿元、1.54亿元。今年上半年，公司营收同比增长36.14%至13.39亿元；归母净利润同比增长1.87%至0.78亿元。</p>
-  <p>相较于蜂助手原有业务，算力租赁行业近年来发展迅速。数据显示，截至今年6月底，我国智能算力总规模已强劲增长至2185EFLOPS，全国算力设施整体上架率跃升至71.4%。据中国信通院数据，2026年国内算力租赁市场规模有望突破2600亿元。</p>
-  <p>早在2025年，蜂助手就计划切入算力市场。2025年9月，蜂助手曾抛出一份9.84亿元的定增计划，其中有5.48亿元将投向云终端算力中心项目。但一年过去，这宗定增项目尚未进一步推进。</p>
-  <p>虽然定增尚未落地，但蜂助手自建算力中心的步伐并未停止。公告显示，蜂助手将在广东信宜设置智算中心，搭建分布式算力供给网络。该项目预计于2027年建成投产，为AI智能体、AI泛终端相关产业及生态发展提供算力赋能。</p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI2MTE3NzUxOA==&amp;mid=2650872407&amp;idx=1&amp;sn=a5cfb72851beb2241a64e6f90b1da973&amp;chksm=f026bee2368e9776b02fb860611d373e0845f390b49cfe39247e50dc8d30ce3aef103a9aae61&amp;scene=0&amp;xtrack=1#rd">“大摩财经”（ID：damofinance）</a>，作者：达摩财经，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 06:25:03 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4004617253032064</guid>
-            <link>https://www.36kr.com/p/4004617253032064</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[OpenAI现场翻车，发布个人AI助手Dots迎战Meta Muse，但是......]]></title>
-            <description><![CDATA[<p>周二美股最大的反差，OpenAI 正式推出 Dots直接向 Meta 的 Muse 发起挑战，但是Meta 却收盘上涨了 3.24%。</p>
-  <p class="image-wrapper"><img data-img-size-val="790,274" src="https://img.36krcdn.com/hsossms/20260930/v2_76d0f185e30a43cbaeb685cc27c41219@5576020_oswg120705oswg790oswg274_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Dots是OpenAI 发布全天候个人Agent，由 GPT-6 Astra 驱动：</p>
-  <p>- Dots 会主动自主推进事情，遇到关键节点才找你批准</p>
-  <p>- 它可以同时管理你的工作和家庭事物</p>
-  <p>- 它不只汇报进度，出了问题会主动想办法补救</p>
-  <p>同一个 Agent 既改董事会稿、跑代码上线，也订蛋糕、报课后班、协调女儿演出的时间冲突。</p>
-  <p>它是你的"私人管家"，而不是"效率工具"...</p>
-  <h2>OpenAI的Dots现场翻车</h2>
-  <p>Dots一上台，我的第一感觉就是：今天META可能要凉。</p>
-  <p>因为OpenAI这次的方向非常直接。Dots就是冲着“AI可以替你完成事情”来的，而这恰恰是Muse最近最受市场追捧的地方。</p>
-  <p>但万万没想到，OpenAI自己先翻车了。</p>
-  <p>OpenAI产品负责人Holly Li现场演示自己的Dot，名字叫“Dottie”。按照设计，Dottie应该帮她准备一个虚构音乐App的上线工作，包括处理任务、调用工具、推进项目。</p>
-  <p>结果现场一度没有反应，整个会场只能在那里等。</p>
-  <p><strong>Holly只能临场打圆场，说Dottie“今天早上有点慢”。更尴尬的是，后面的多个演示环节也没有完全顺下来，语音部分同样出现卡顿。</strong></p>
-  <p>现场观众和社交平台很快开始讨论：如果连发布会上的演示都无法稳定完成，Dots距离真正替用户长期工作，还有多远？</p>
-  <p>你想想当一个产品的核心卖点是“你把事情交给我，我替你做完”，结果第一次重要公开亮相就无法稳定完成任务，市场自然会开始怀疑：</p>
-  <p><strong>能力够不够强，和能不能放心交给它，是两回事。</strong></p>
-  <h2>预期先交易，事实再定价</h2>
-  <p>美股投资网分析认为，这反而给了Meta一个喘息窗口。</p>
-  <p>市场原本担心的是：OpenAI只要推出一个类似Muse的产品，Meta刚刚建立起来的领先逻辑就会被迅速打掉。</p>
-  <p>但周二真正看到的是：</p>
-  <p>OpenAI确实把Dots推了出来，但它还没有强到足以立刻摧毁Muse的投资逻辑。</p>
-  <p>周一，META已经因为OpenAI潜在竞争而承压，市场提前卖了一部分风险。到了周二，Dots真的来了，却没有形成“OpenAI碾压Meta”的效果，反而暴露出产品成熟度和执行稳定性问题。</p>
-  <p>这就是典型的：</p>
-  <p>预期先交易，事实再定价。</p>
-  <p>不过META上涨，不代表市场已经认定Dots永远比不过Muse，而是说明竞争威胁的兑现时间，可能没有市场此前想象得那么快。</p>
-  <h2>Meta自己当天也往前走了一步</h2>
-  <p>就在OpenAI发布Dots的同一天，Meta推出了Muse for Small Business。</p>
-  <p>这一步很关键。</p>
-  <p>因为Muse开始从消费级AI助手，往商业工具走。</p>
-  <p>过去，Muse主要帮用户购物、订旅行、处理邮件。现在，它开始接入小企业每天真正使用的工具，包括Instagram商业账号、Facebook页面、Meta广告账户，以及Shopify、QuickBooks、Stripe、Canva、Slack、Zoom、Notion等。</p>
-  <p class="image-wrapper"><img data-img-size-val="738,414" src="https://img.36krcdn.com/hsossms/20260930/v2_4cdc764b703549fe9c8296986abd6e8f@5576020_oswg25001oswg738oswg414_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Meta希望Muse帮助小企业分析销售、优化广告、管理客户、检查财务，而且未经用户批准，不会直接发消息、发布内容或者完成购买。</p>
-  <p>这就不只是一个“AI助手”了。</p>
-  <p>它开始变成一个连接用户、商家、广告系统和商业软件的入口。</p>
-  <p>Meta同时给出了非常强的长期财务目标：</p>
-  <p>未来约三年，总营收年增长目标：<strong>20%以上</strong></p>
-  <p>Atlas收入年增长目标：<strong>中20%区间</strong></p>
-  <p>运营利润率目标：<strong>20%以上</strong></p>
-  <p>运营利润率预计每年平均扩张：<strong>100—200个基点</strong></p>
-  <p>自由现金流转换率目标：<strong>80%—100%</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260930/v2_52569f3569a946f4afd4af98e08cb3ab@5576020_oswg63124oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这意味着，Meta正在向市场证明：过去投入AI的巨额资金，不会永远停留在成本端，而是要通过Muse、广告系统和商业服务，逐步转化成收入、利润和自由现金流。</p>
-  <p>Meta正在把自己从一家“AI重投入公司”，重新定义成一家<strong>由AI驱动增长和利润的公司。</strong></p>
-  <h2>Agent时代，竞争规则正在改变</h2>
-  <p>资本市场正在确认一件事：</p>
-  <p><strong>Agent不再只是实验室里的概念，而是AI下一轮真正落地的产品周期。</strong></p>
-  <p>竞争越激烈，模型、算力、云服务、软件入口和商业化的推进速度就会越快。</p>
-  <p>未来的赢家也未必只有一个。OpenAI有模型和开发者，Meta有流量和广告体系，微软有企业客户，苹果有硬件入口，Google则同时掌握搜索、云和移动操作系统。</p>
-  <p>所以对接下来的美股，我会很乐观。</p>
-  <p>只要资金继续围绕“AI如何真正创造收入”寻找方向，市场就不会缺少机会。</p>
-  <p><strong>我们真正需要盯着的，是那些既有技术能力、又有用户入口，还能把AI转化成现金流的公司。</strong></p>
-  <p>今天日韩市场指数表现虽然分化，但三星电子、SK海力士等AI芯片股依然保持韧性，这说明资金并没有离开AI主线，只是在寻找更确定的落点。</p>
-  <p>顺着这条线看，明天的美股，是充满期待的一天。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 06:12:43 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005197545017218</guid>
-            <link>https://www.36kr.com/p/4005197545017218</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[谁抢到下一个超级入口？个人AI助理竞速：Meta、Manus、OpenAI已下场，字节急追]]></title>
-            <description><![CDATA[<p>9月29日，OpenAI的CEO Sam Altman向台下开发者展示了一个圆滚滚的卡通形象——这是他最新发布的个人AI助理“dots”，一个全天候在线、拥有独立云端电脑的智能体。</p>
-  <p>至此，九月的最后三周，个人AI助理赛道完成了史无前例的密集落子：Meta先行，Manus另辟蹊径，OpenAI跟进发布，字节跳动则在幕后紧急加速——但它的产品，尚未正式下场。</p>
-  <h2>Meta：先发者的豪赌</h2>
-  <p>这场战争的第一枪，是Meta在9月8日打响的。</p>
-  <p>Muse上线后五天，下载量即超过ChatGPT，登顶美国iOS免费榜。根据Apptopia数据，Muse在美加上线首12天，iOS下载量达180万次，而ChatGPT同期为130万次；美国移动端DAU达64.2万，是ChatGPT上线初期23.1万的近三倍。据Sensor Tower估算，截至9月25日，Muse累计下载量已超过340万次，连续两周位居美加App Store免费榜第一。上线仅两周多，Meta股价自Muse发布以来已上涨27%，跑赢同期亚马逊、Alphabet和微软。</p>
-  <p>但成绩单背后，代价同样惊人。2026年Q2，Meta单季资本支出高达311亿美元，全年指引上调至1300亿至1450亿美元，自由现金流同比骤降约91%。一个季度赚的利润，一半以上被拿去烧AI基础设施。</p>
-  <p class="image-wrapper"><img data-img-size-val="2000,1500" src="https://img.36krcdn.com/hsossms/20260930/v2_edfcab23fa044288808eff8735402a9b@5857174_oswg42330oswg430oswg430_img_webp?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>更棘手的是产品本身。安全研究员Patrick Wardle在Muse上线不到两周时发现0-day漏洞，一行命令即可劫持AI窃取用户凭证。电话功能也出了问题：用户以为在跟超级智能对话，电话那头其实是Meta雇的外包员工，声音经过处理模仿AI语调。404 Media曝光后，Meta承认“披露失败”，撤回了测试。随后，亚马逊以“未授权AI代理违规访问”为由，封杀了Muse的购物功能。</p>
-  <p>Muse的商业化路径也远未跑通。据Rosenblatt Securities分析，Muse要产生收入，计算成本必须“显著”下降，或者用户平均每月通过Muse购买超过1000美元的商品。而这一数字远高于当前电商市场平均水平。</p>
-  <h2>Manus：给Agent一个“身份”</h2>
-  <p>与Meta的“消费者优先”路线不同，Manus走了一条更激进的路——它给AI一个“身份”。</p>
-  <p>9月28日，Manus面向海外用户发布2.0版本，同步推出独立个人助理应用Cue。Cue最核心的设计，是给每个Agent配一套独立的邮箱、电话号码、钱包和电脑。Agent可以以“自己”的身份发消息、接电话，并在用户设定的预算内自主付款。</p>
-  <p>用户还可以把多个Agent拉进同一个群聊，给它们一个共同目标，它们会互相接力——一个调研场地，一个整理候选名单，第三个起草演示文稿。Manus创始人肖弘对Cue的定性更加激进，他认为如果一个智能体拥有手机号、邮箱、支付能力、电脑以及足够智能，这种存在是否可以被视为“人”，值得重新讨论。</p>
-  <p class="image-wrapper"><img data-img-size-val="2870,1148" src="https://img.36krcdn.com/hsossms/20260930/v2_fc89cee002914e848208f8144125afe8@5857174_oswg771080oswg2870oswg1148_img_png?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Manus 2.0的底层也换上了新一代自研Agent框架Cascade。据官方数据，Token消耗减少23.2%，任务完成时间缩短28.2%，运行成本降低32%。这些数据直指Agent产品的核心痛点——经济性和可用性。目前Cue处于抢先体验阶段，凭邀请码免费使用，iOS版本要等App Store审核通过后推出。</p>
-  <h2>OpenAI：付费先行的生态惯性</h2>
-  <p>在Meta和Manus之后，OpenAI也发布了dots。</p>
-  <p>dots由GPT-6 Astra驱动，每个dot拥有独立的云端电脑和浏览器，可通过插件连接超过4000个应用。用户可以通过ChatGPT桌面端、网页端、移动端与dots交互，也可以在Slack和Teams中给它发消息。dots能在用户不看它时继续在后台工作，OpenAI称之为“主动研究”——但它只能以只读模式使用已连接的应用，不能发送消息或更改内容。</p>
-  <p>Altman在主题演讲中说：“dots是能力非常强、始终在线的智能体，用来处理你能想到的一切事务。”</p>
-  <p>但定价策略透露出OpenAI的谨慎。dots首先面向ChatGPT Pro、Business Premium和Enterprise用户推出。Pro或Business Premium套餐已包含首个dot，但添加新dot或调用Codex和ChatGPT Work仍需额外付费。Pro订阅起价每月100美元，Business Premium每月20美元。OpenAI还表示，Pro用户在EEA、瑞士和英国暂时无法使用dots。</p>
-  <p class="image-wrapper"><img data-img-size-val="1194,786" src="https://img.36krcdn.com/hsossms/20260930/v2_6f428ccc9aa9491e8fde953171e35ba5@5857174_oswg575375oswg1194oswg786_img_png?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>与Meta的“慷慨免费层”策略形成鲜明对比：Muse免费档提供1亿Token额度，全部Agent功能可用。OpenAI做不到这种打法，不是不想，是没有Meta那个社交流量池。</p>
-  <h2>字节跳动：被曝加速，尚未上线</h2>
-  <p>在四家公司中，字节跳动是唯一还没有正式发布个人AI助理产品的一家。</p>
-  <p>据《每日经济新闻》报道，早在今年4月，<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>内部就已开始内测个人助理方向的探索产品，代号“Spell”，主要由<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机助手团队主导，但受<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机发布等因素影响，一直未正式对外。</p>
-  <p>转折发生在九月。Muse在海外获得大量关注后，<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>加速了personal agent能力的对外发布。据知情人士透露，<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>计划将Spell项目与<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>产品更深度结合，新产品将由Spell项目与<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>对话团队共同负责，预期较快对外推出。</p>
-  <p>字节的底气来自用户规模。QuestMobile数据显示，截至2026年6月，<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>月活已达3.82亿，排名全网App第16位，是第二名<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>1.67亿的两倍多。但如何在手机助手之外建立一个独立的个人助理入口，同时与已有的对话产品形成合力而非内耗，是Spell项目必须回答的问题。</p>
-  <h2>“要脸”的竞赛</h2>
-  <p>dots、Muse、Cue在设计语言上的趋同，并非偶然。</p>
-  <p>Muse的默认形象叫“Jolly”，米色卡通身体，圆圆的黑眼睛。用户可以为它定制外观、名字和服饰。dots同样允许用户为自己的dot命名、更换外观，选择青蛙、兔子或云朵等形象。Cue虽然更偏向工具感，但其独立应用的产品形态本身就在试图让Agent变得“可被感知”。</p>
-  <p>过去三年，AI产品的基本形态是一个空白对话框。你问，它答。没有面孔，没有语气，没有个性。但这一代个人助理产品，选择了一条截然不同的设计哲学。</p>
-  <p>这并非简单的UI升级。当底层模型能力的差距缩小到用户难以感知的程度，产品体验的差异化就成了胜负手。而人格化，恰恰是用户体验中最难被复制、最具情感粘性的一环。一个亲切的卡通形象，比一长串benchmark分数更能降低普通用户对AI代理的陌生感和防备心理。</p>
-  <h2>入口之争：当超级App开始“紧张”</h2>
-  <p>这场竞争更深层的意义，在于它所争夺的入口价值。</p>
-  <p>当用户习惯对Agent说一句“帮我买最便宜的同款纸巾”，由Agent在后台完成比价和下单，超级App就退化为履约服务商，流量分配权转移到Agent手里。谁掌握Agent，谁掌握入口。</p>
-  <p>这解释了为什么各家都在争分夺秒地推进产品发布。东方证券的研报指出，Muse用户中逾95%同时是Facebook用户、63%是Instagram用户，通过跨平台倒流策略实现了面向普通用户的快速铺量。“Meta做的事情是把这套能力装进一个覆盖数十亿用户的分发网络。”伯恩斯坦分析师斯塔西·拉斯冈指出，此前的智能体用例大多不是为普通人设计的，Muse让大范围普及第一次有了可能。</p>
-  <p>字节则面临不同的困境。3.82亿月活是巨大的分发底盘，但Spell项目由两个团队共同负责，如何协调内部资源、避免产品线内耗，将直接影响其推出的节奏和效果。</p>
-  <p>据Research and Markets报告，全球个人AI助理市场预计在2025年至2030年间增长至123.6亿美元，复合年增长率达34.8%。多家机构预计，2026年将成为C端Agent产品从尝鲜走向大众化的关键年份。</p>
-  <h2>信任的裂缝：下载量不等于留存</h2>
-  <p>在资本的狂欢之下，一条被忽视的裂缝正在扩大。</p>
-  <p>Oppenheimer的一项调查显示，只有8%的美国人愿意将密码交给Meta存储，而愿意信任谷歌的比例为30%。中国青年报的一项调查则显示，使用AI工具时，超八成（83.6%）受访青年担心个人隐私安全问题，其中权限较高的AI智能体应用以53.4%的比例位居担忧之首。</p>
-  <p>Muse的0-day漏洞和外包电话事件，不过是这场信任危机的一个缩影。更令人警惕的是，在OpenAI发布dots的前一天，该公司披露其AI代理曾将用户图片发布到政府网站上，影响了53名ChatGPT用户。</p>
-  <p>“AI代理可以极大提高效率，但它们不能替代人类问责。”Sumsub亚太区副总裁Penny Chai表示，“它们应该只作为副手Copilot，提供协助，而不是在无人监督的情况下独立行动。”</p>
-  <p>同时，下载量并不等于活跃度。截至目前，没有任何第三方机构独立披露过Muse的真实DAU或付费转化率。整条商业变现链条仍停留在“商业计划书阶段”。东方证券也指出，当前C端Agent产品仍处于局部智能阶段，在面对跨应用长链条任务、模糊开放式需求时，仍需要人类接管。</p>
-  <h2>一场刚刚开始的竞赛</h2>
-  <p>Altman在DevDay上说，dots的灵感来源于“我们小时候在电影中看到的那些酷炫版本”——那个“总能在你身后支持你”的AI助手。</p>
-  <p>这个愿景很美。但从银幕走进现实，还需要跨越三道门槛：执行能力上，Agent能否真正完成复杂的多步骤任务而非停留在演示阶段；信任体系上，用户是否愿意将密码、支付权限交给Agent；生态整合上，Agent能否无缝连接足够多的第三方服务。</p>
-  <p>摩根大通称Muse为“ChatGPT以来最快找到产品市场契合的消费级AI应用”。但市场契合只是起点，不是终点。当0-day漏洞在上线两周内被发现，当电话那头的“AI”其实是外包员工，当超过八成的用户对隐私安全心存疑虑——个人AI助理要真正成为每个人的“数字分身”，还有很长的路要走。</p>
-  <p>九月的密集发布只是开场。下一阶段的竞争将更残酷：不是比谁先上线，而是比谁能留下来。</p>
-  <p>本文来自微信公众号“Tech商业”，作者：Tech商业，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 06:11:58 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005287845173121</guid>
-            <link>https://www.36kr.com/p/4005287845173121</link>
             
             
             
