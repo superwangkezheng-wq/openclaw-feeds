@@ -15,11 +15,498 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Sun, 04 Oct 2026 02:44:36 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Oct 2026 13:18:20 GMT</lastBuildDate>
         <ttl>5</ttl>
         
         <item>
-            <title><![CDATA[OpenAI「12朝元老」辞职死谏：试错的时代已崩坏！]]></title>
+            <title><![CDATA[Claude满分、GPT 99分，何恺明团队把AGI考试打穿了]]></title>
+            <description><![CDATA[<p>何恺明团队的新论文，在X上炸了！&nbsp;</p>
+  <p>十一期间刚挂上arXiv的VISTA论文显示，<strong>过去半年，全世界最顶尖的大模型，全是被「蒙着眼睛」赶上AGI考场的</strong>。&nbsp;</p>
+  <p>同一个Claude Opus 5，在官方标准测试里只拿了可怜的40分。&nbsp;</p>
+  <p>何恺明团队只不过帮它摘掉了眼罩，让它亲眼看游戏画面，顺手递给它一本能随时往回翻的「相册」。&nbsp;</p>
+  <p>结果，<strong>Claude直接把ARC-AGI-3的25个公开游戏全部打穿，拿下100分满分！</strong>&nbsp;</p>
+  <p>而且它走的步数，甚至比第一次玩的人类还少了一半多。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261004/v2_afaad424a18f49eda14ad9ce12497f27@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>18个从没见过的游戏，没人给它一句说明，AI自己摸清规则一路通关</p>
+  <p>知名AI博主Mark Kretschmann在X上写道：「给Agent一个『再看一眼』的能力，差别可能非常大。」&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1351" src="https://img.36krcdn.com/hsossms/20261004/v2_15a400cec8d44772be547ddaf93c1407@000000_oswg932293oswg1080oswg1351_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>过去几个月，为了打穿ARC-AGI-3，各路代码大神写了几千行代码搞世界模拟器。&nbsp;</p>
+  <p>何恺明团队的判断是，<strong>大模型的脑子早就够用了，卡住它的，是眼睛和记性</strong>。&nbsp;</p>
+  <h2><strong>大模型被一张数字表，坑了半年</strong>&nbsp;</h2>
+  <p>ARC-AGI-3，是Keras之父François Chollet和ARC Prize基金会今年3月出的AGI考卷。一堆交互式像素小游戏，开局没有任何说明和规则，全靠玩家自己摸索试错。&nbsp;</p>
+  <p>分数算法极其严苛。官方找来近500名人类小白实测，AI不光要通关，步数还不能比人类多，才能拿满分。&nbsp;</p>
+  <p>可官方考场递给大模型的，只是一张64×64的数字表。<strong>人类看到的小人、机关和路线，到了模型那里只剩4096个数字</strong>。&nbsp;</p>
+  <p>这相当于让人闭着眼，听别人报坐标去玩《超级马里奥》。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,691" src="https://img.36krcdn.com/hsossms/20261004/v2_01cae6a8257c485da486f206b8c11274@000000_oswg393691oswg1080oswg691_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>同一帧画面，左边是官方递给模型的数字表，右边是VISTA让它直接看的图</p>
+  <p>VISTA团队做的第一件事，就是把数字表换回图片。&nbsp;</p>
+  <p>别的什么都没改，<strong>GPT-5.6 Sol的分数就从13.33分跳到了47.32分</strong>。&nbsp;</p>
+  <p>看图还更省算力。一个数字格子要吃掉约4000个Token，一张512×512的图片只要308个。&nbsp;</p>
+  <p>一局跑下来，文本版烧掉7190万Token，图片版只要3070万，分数还更高。&nbsp;</p>
+  <p>光是换上一双真正的眼睛，大模型就捡回了34分。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,405" src="https://img.36krcdn.com/hsossms/20261004/v2_4ccccf1bce604be69f43956cdf6d23a0@000000_oswg46311oswg1080oswg405_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>只把数字换成图片，GPT-5.6 Sol的分数涨了三倍多，能通关的游戏从1个变成9个</p>
+  <h2><strong>让AI过目不忘，一步多拿24分</strong>&nbsp;</h2>
+  <p>光能看见还不够。一局游戏动辄几百步，多模态模型的通病是：图片看一遍，上下文一满就删，或者压缩成几句文字摘要。&nbsp;</p>
+  <p>等模型想回头核对细节时，那一帧早就灰飞烟灭了。&nbsp;</p>
+  <p>VISTA的核心杀招，就是一本无损视觉记忆「相册」。&nbsp;</p>
+  <p>游戏吐出的每一帧画面，连动画帧在内，全按编号原样存档。模型想看哪一帧，随时调用inspect翻出来，几帧并排对比、角落放大都行，还能用read_pixels读出精确颜色。&nbsp;</p>
+  <p>最重要的是，<strong>翻相册不算步数</strong>，只有真在游戏里操作才计步。&nbsp;</p>
+  <p>团队把这套机制叫作「显式注意力」，翻哪一帧、看哪一块，全由模型自己说了算。&nbsp;</p>
+  <p>它还随身带着两个笔记本，GUIDE.md记游戏规则，WORKING.md当草稿纸。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,713" src="https://img.36krcdn.com/hsossms/20261004/v2_55233a1b968b484e87b80a1c149f81f2@000000_oswg158586oswg1080oswg713_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>VISTA的一个回合，模型看画面、想规则，需要时翻相册，最后才走一步</p>
+  <p>论文里记录了一个极度「像人」的操作瞬间。&nbsp;</p>
+  <p>在BP35游戏第3关，画面出现了一个橙色方块。模型点了一下，橙块变成了X。&nbsp;</p>
+  <p>它先停了下来，把上一回合的最后一帧和刚才的三帧动画调出来，并排回放。&nbsp;</p>
+  <p>几回合后，它又发现点X能让橙块重新长出来，当场写道：「这就是我要的工具，用它搭天花板，挡住会要命的上升。」&nbsp;</p>
+  <p>这一关，第一次玩的人类要走44步，它只用了34步。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1011" src="https://img.36krcdn.com/hsossms/20261004/v2_972c67afbfc14621affe9095be51f579@000000_oswg361728oswg1080oswg1011_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>点完橙块，模型先把前后4帧动画调出来逐帧比对，看懂了才接着走</p>
+  <p>到了《吃豆人》里，迷宫里的豆子吃一颗少一颗。模型干脆在第13回合和第36回合，两次强行翻回开局第一帧去记迷宫地图找路。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261004/v2_0112253242d946718b608c5654f22162@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>给模型多塞上下文、多给像素，是很多人的第一反应。<strong>论文测下来，这两招都不灵</strong>。&nbsp;</p>
+  <p>上下文从默认的200K开到780K，每局Token从3070万涨到1.057亿，成绩却从99分退到93.9。&nbsp;</p>
+  <p>图片也是这样。放大到16倍，每帧Token涨到1229个，成绩只剩88.3；只放大4倍，成绩是99.7，比默认的8倍还高。&nbsp;</p>
+  <p>论文的解释是，图片太大，多出来的Token白白占掉上下文，模型却没有因此看得更明白。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,500" src="https://img.36krcdn.com/hsossms/20261004/v2_fa84d172917d47b390d1381e8fb3f0cc@000000_oswg59309oswg1080oswg500_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>上下文从200K拉到780K、图片从8倍放到16倍，分数都不升反降</p>
+  <p>多给不一定更好，VISTA整套设计走的都是这个思路，团队在博客里说，他们刻意追求极简。&nbsp;</p>
+  <p>系统里没有一个新训练的模型，每个游戏的提示词都是同一份，<strong>一共四句话，没有一个字教它具体怎么玩</strong>。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,495" src="https://img.36krcdn.com/hsossms/20261004/v2_a4f0bcb980164cb896bfbf1a2167a25d@000000_oswg103946oswg1080oswg495_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>VISTA给模型的全部提示词</p>
+  <h2><strong>代码派卷了一夏天，它一页笔记就追平</strong>&nbsp;</h2>
+  <p>这个夏天刷爆ARC-AGI-3的高分方案，比如Tycho和Schema，都是让大模型给每个游戏写一套能运行的程序，硬造一个模拟器来反复试错。&nbsp;</p>
+  <p>光跳棋游戏LF52一个，Schema就写了整整4000行Python。&nbsp;</p>
+  <p>而VISTA里的模型，只用自然语言在笔记里写了三句话，就搞定了同样的规则。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,589" src="https://img.36krcdn.com/hsossms/20261004/v2_e5bbc27e7dec4ac9ba249ef629e30640@000000_oswg175545oswg1080oswg589_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>同一条跳棋规则，左边是程序路线的代码（全部约4000行），右边是VISTA的模型自己记的三句笔记</p>
+  <p>按论文的说法，<strong>VISTA是第一个不靠写程序，就在ARC-AGI-3上做到满分或近满分的系统</strong>。&nbsp;</p>
+  <p>这一点放到游戏之外更要紧，真实世界里，没有谁能提前给你写好一套4000行的模拟器。&nbsp;</p>
+  <p>Claude Opus 5打通了25个游戏的全部183关，每个游戏都是100分，总共走了7302步，只有人类的0.43倍。&nbsp;</p>
+  <p>GPT-5.6 Sol同样全部通关，拿到99分。&nbsp;</p>
+  <p>m0r0这个游戏，人类要走1107步，Claude只用了219步。两份成绩在ARC Prize官方平台上都有记分卡。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,531" src="https://img.36krcdn.com/hsossms/20261004/v2_e09f4a8a3c794650a0f05195f90863d6@000000_oswg83940oswg1080oswg531_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>ARC Prize官方平台上的记分卡，183关全部通关，25个游戏全是满分</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1090" src="https://img.36krcdn.com/hsossms/20261004/v2_68c6b6e27faa4c368db358e8b41348a1@000000_oswg102571oswg1080oswg1090_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>25个游戏挨个比，蓝条全都比灰条短，蓝色是Claude，灰色是第一次玩的人类</p>
+  <p>这套纯机械、0训练的Harness极其泛用。&nbsp;</p>
+  <p>把它塞进带透视的3D画面里，照样拿下84.12分。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261004/v2_c1cb1d0b5b7c417d9c09d8965bcc07fa@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>套上GPT-5.6 Sol扔进34个网页游戏（包含马里奥、2048、我的世界等），任务成功率63.3%，直接压过人类小白（55.3%）。&nbsp;</p>
+  <p>就连静态的看图题也能用上。BabyVision的一道连线题，不用VISTA时模型把驼鹿和兔子连反了，用上VISTA放大一看，就答对了。&nbsp;</p>
+  <p>哪怕是用官方实现几乎交了白卷（1.89分）的320B开源模型，套上VISTA后硬生生被抬到了66.93分，<strong>暴涨35倍</strong>！&nbsp;</p>
+  <h2>一年三篇，何恺明团队死磕视觉</h2>
+  <p>ARC测试的主流解法，一直是被大语言模型垄断的文本推理。&nbsp;</p>
+  <p>但何恺明团队偏不信邪，一年连发三篇，<strong>死磕同一件事：ARC是视觉问题</strong>。&nbsp;</p>
+  <p>第一篇VARC，1800万参数的小号视觉模型从零训练，纯看图就追平了人类平均分。&nbsp;</p>
+  <p>第二篇NAT-ARC，先让模型在ImageNet上看猫看狗补课，抽象推理跟着变强。&nbsp;</p>
+  <p>第三篇就是VISTA，小模型都不练了，直接给前沿大模型配上「相册」。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,555" src="https://img.36krcdn.com/hsossms/20261004/v2_76f7c60e923b416aaa65276364384ec6@000000_oswg150831oswg1080oswg555_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>何恺明组一年三篇ARC论文，押的都是「ARC是视觉问题」</p>
+  <p>串起三篇论文的，是何恺明的博士生胡珂雅，本科出自上海交大ACM班，三篇里两篇一作、一篇二作。&nbsp;</p>
+  <p>VISTA另外两位共同一作是MIT博士生Qiushi Han和Linlu Qiu，MIT副教授Cathy Wu也在作者之列。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,601" src="https://img.36krcdn.com/hsossms/20261004/v2_e024f5ff09f244ce8b109d47a0f9d3b7@000000_oswg171590oswg1080oswg601_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>曾经靠ResNet和MAE封神的何恺明，这一次把视觉路线一路推进了AGI考场。&nbsp;</p>
+  <p>这也是在挑战整个行业的默认路线。&nbsp;</p>
+  <p>过去几年，大家拼命把模型做大、把推理拉长，智能的进步几乎都押在模型本身。&nbsp;</p>
+  <p>VISTA让同一个Claude从40分打到满分，靠的却是模型外面的一双眼睛和一本相册。&nbsp;</p>
+  <p>ARC Prize联合创始人Mike Knoop也判断，越来越多的「学习」会发生在模型权重之外。&nbsp;</p>
+  <p><strong>通往AGI的下一程，比的是谁能让模型看清世界、记住世界。</strong>&nbsp;</p>
+  <p>何恺明团队的下一站，是充满真实画面的具身环境，那里没有人会提前把世界翻译成一张数字表。&nbsp;</p>
+  <p>参考资料：</p>
+  <p>https://x.com/mark_k/status/2106377357078450620</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652731638&amp;idx=1&amp;sn=775b16d52c36516f2a72b4143dae81cc&amp;chksm=f031b316aec6d540c4f40cc074b92433a6184e3611f9850dea09a1315db018a5a53c2c761025&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 04 Oct 2026 12:00:00 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4011070893871238</guid>
+            <link>https://www.36kr.com/p/4011070893871238</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[Jev 之后，中国团队开始深挖 AI 的“直觉层”]]></title>
+            <description><![CDATA[<p>9 月 15 日，前 OpenAI 研究员 Diogo Almeida 创办的 TypeSafe AI 发布了 Jev。这款模型不写一个字，只做判断。</p>
+  <p>两周之后，整个行业都在做同一件事。OpenAI 在开发者日上推出 Decisions API，Cloudflare 在 10 月 1 日开源了 Clef，亚马逊也放出了 Strands Decider。</p>
+  <p>国内同样没闲着，上海人工智能实验室开源了多模态决策模型 Intern-Decision。</p>
+  <p>9 月 30 日，一家成立不到五个月的上海公司 StartLux（原点星辉）发布了开源的 StartLux-Decision，并宣称在公开评测中超过 Jev。</p>
+  <p><strong>一个新品类在两周内从「首发」走到「群战」，这种速度在大模型行业也不多见。</strong></p>
+  <p>而 StartLux 背后的掌舵人，是盛大网络联合创始人陈大年。</p>
+  <h2><strong>被 Jev 点燃的「直觉」</strong></h2>
+  <p>要理解这轮热潮，得先说清楚决策模型到底在干什么。</p>
+  <p>TypeSafe 把 Jev 称为「System One 模型」，名字取自卡尼曼的《思考，快与慢》。系统一是人快速、直觉的那部分思维，系统二负责慢思考。过去两年的大模型，几乎都在往系统二的方向卷，推理链更长，思考更深。</p>
+  <p>但 Agent 真正跑起来之后，情况不太一样。一个 Agent 任务里，密集发生的往往不是深度推理，而是大量琐碎判断。这张工单该分给哪个团队，这条命令能不能放行，页面上下一步该点哪个按钮，任务到底完成没有。</p>
+  <p>过去这些判断要么交给大模型「顺便」做，生成一段文字再解析；要么写死成规则，覆盖不了长尾。前者又慢又贵，后者不够聪明。</p>
+  <p>Jev 的做法是只回答带预设选项的问题，单选、打分或者是非题，直接返回带概率的结构化结果。定价是每百万输入 token 0.042 美元，输出免费。</p>
+  <p><strong>可以说，Jev 把「判断」从「生成」里剥离出来，做成了一种廉价、高频的基础设施。</strong></p>
+  <p>市场反应很直接。Vercel 披露，Jev 上线 24 小时内，其 AI Gateway 上 13% 的付费用户就用上了它，是此前任何模型发布的两倍。TypeSafe 用经济学家杰文斯的名字给模型命名，暗指那条著名的悖论，一样东西越便宜，需求反而越大。</p>
+  <p>不过 Jev 有一个明显的缺口。它是闭源托管模型，没有公开权重，也不能本地部署，只能调用 TypeSafe 自己的 API。</p>
+  <p>这个缺口，恰好成了后来者的入口。</p>
+  <h2><strong>中国团队迅速跟进</strong></h2>
+  <p>国内团队也在迅速跟进类 Jev 模型。</p>
+  <p>上海人工智能实验室的 Intern-Decision 开源了 0.8B、2B、4B 三档，主打多模态，能看懂图像和界面再做决策，团队给出的数据是推理速度比 Jev 快 2 到 3 倍。</p>
+  <p>StartLux 这样的创业公司，一口气拿出 0.8B 到 27B 五档规格，配齐量化文件，直接瞄准本地部署。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1250" src="https://img.36krcdn.com/hsossms/20261004/v2_6420b67148344bde9a46ea25b7cacf3e@000000_oswg303614oswg1080oswg1250_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>StartLux 模型分数超过 Jev｜图片来源：Github</p>
+  <p>按 StartLux 公布的数据，27B 版本在 Decision Index 0.2.1 的 38 项测试里有 31 项高于 Jev 1.13，综合分 63.88 对 57.91。团队还展示了一组国际象棋对弈，36 局赢下 35 局。</p>
+  <p>StartLux 模型下国际象棋｜来源：Github</p>
+  <p>这些数字需要放在正确的位置看。它们是团队基于公开工具、对照 9 月 28 日榜单快照完成的自测。更重要的是，「第一」在这个赛道的保质期极短，StartLux 发布第二天，Cloudflare 就宣称自家 Clef 在同一套榜单上领先。至于下棋，本来就不是决策模型的主战场，更像一个吸引眼球的演示。</p>
+  <p><strong>比起谁暂时排第一，更值得注意的是，中国团队几乎不约而同地选择了开源和本地化。</strong></p>
+  <p>这并非巧合。Jev 闭源、只能走云端，对数据敏感、对跨境调用有顾虑的国内开发者来说，本身就是一道门槛。开源权重、能在自己机器上跑，正好补上了 Jev 留下的空位。</p>
+  <p>还有一个细节。Cloudflare 的 Clef 基于 Qwen 后训练，亚马逊的 Strands Decider 也用 Qwen 做底座，APUS 的方案同样跑在 Qwen 上。<strong>这一轮决策模型热潮里，中国开源基座已经成了全球玩家共用的「躯干」。</strong></p>
+  <h2><strong>为什么押注「本地」</strong></h2>
+  <p>回到 StartLux 本身。</p>
+  <p>这家公司今年才成立，CEO 是陈大年，CTO 是郭权玮博士。陈大年的履历中国互联网从业者都不陌生，1998 年写出上网计费软件 ENCounter，次年和陈天桥创办盛大，后来又做了 WiFi 万能钥匙。</p>
+  <p>StartLux 给自己的定位是「主打本地模型」，让模型能力和数据留在用户自己的设备上。上一次引起关注，是以 Qwen3.6-27B 为基座后训练的 StartLux-27B，在中国信通院的 MCP 专项测试中得分 39.25，超过了 284B 参数的 <ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>-V4-Flash。需要说明的是，这是一项聚焦工具调用的专项测试，不代表通用能力全面领先。</p>
+  <p>在 StartLux 的规划里，「本地 AI」不是一个能下载到电脑上的小模型，而是一整套个人 AI 系统。27B 模型承担通用能力，决策模型负责高频判断，上层是 Agent 和记忆，底层是量化与推理系统。</p>
+  <p>放进这张图里看，决策模型对本地场景的意义比对云端更大。云端算力可以堆，个人电脑的显存、内存和功耗却有硬上限。如果每个小判断都要动用 27B 模型，本地 Agent 根本跑不动。按 StartLux 公布的数据，4B 版本压到 Q4 量化后约 2.71GB，与原始权重的决策一致率仍有 98.3%。</p>
+  <p><strong>对一家押注本地的公司来说，决策模型不是追热点的新品类，而是本地系统能否跑得动的关键零件。</strong></p>
+  <p>这也是 Jev 对 StartLux 真正的意义。准确地说，Jev 并没有替 StartLux 选方向，从时间线看，StartLux 的决策模型立项明显晚于 Jev。<strong>Jev 证明的是另一件事，「把智能拆成不同层级、各司其职」这条路，被市场用真金白银投了票</strong>，而这恰好是 StartLux 一直在讲的本地架构逻辑。</p>
+  <p>那个「3 天」的数字也值得一提。StartLux 把它归功于自己的 Auto Research 体系，让 AI 参与数据构造、训练、评测和失败分析。这套方法能否在不同模型品类之间反复复用，比任何一次榜单都更能说明这家公司的成色。</p>
+  <h2><strong>判断层会不会变成「白菜价」</strong></h2>
+  <p>不过，决策模型的护城河有多深，现在下结论还太早。</p>
+  <p>Jev 号称在隐身状态下研究了两年，OpenAI 用两周基于自家小模型做出了 Decisions API，StartLux 用了 3 天，Cloudflare 和亚马逊也都在半个月内跟上。Jev 发布时就有分析人士预判，大厂会很快推出自己的决策模型，Jev 最终要和「前沿版本的自己」打价格战。</p>
+  <p><strong>一个两周就能被复制的品类，本身很难成为壁垒。</strong></p>
+  <p>对 StartLux 来说，真正的考验也不在决策模型这一层。郭权玮自己也承认，长任务稳定性、异常恢复、上下文管理和整体体验，比单纯把模型跑起来难得多。</p>
+  <p>按计划，StartLux 首个面向公众的本地智能体验版本有望在年内推出。</p>
+  <p>从按时计费的上网工具到 WiFi 万能钥匙，陈大年过去做过的不少产品，都是高频、底层、靠规模取胜的生意。决策模型同样是一件高频、底层的事。</p>
+  <p>问题在于，当「判断」便宜到人人都能做，价值最终会落在模型身上，还是落在把这些模型组装成产品的人手里？</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653114436&amp;idx=1&amp;sn=fefdf92776bff0858cd12aad0743211d&amp;chksm=7f9e43d6c96d5bb8759008b2ee4a96af61a2df3f1bb6a12027d997b4c0aa099ac09ecdf37b9d&amp;scene=0&amp;xtrack=1#rd">“极客公园”（ID：geekpark）</a>，作者：桦林舞王，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 04 Oct 2026 10:58:45 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4011046457872258</guid>
+            <link>https://www.36kr.com/p/4011046457872258</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[阿里，把AI交给了90后]]></title>
+            <description><![CDATA[<p>90后在创投圈已经不算“小天才”了，但在大厂，这正是处在代际交接的黄金年龄段。2026阿里云栖大会，传递出了最清晰的关于代际的信号。</p>
+  <p>主论坛演讲名单里，排在蔡崇信、吴泳铭之后的，是一个外界有些陌生的名字——刘大一恒，<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>大模型项目负责人。下午，<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公论坛上，阿里史上最年轻的事业部CEO陈宇森第一次以官方身份亮相。</p>
+  <p>而在展馆里，你可以看到上百个穿着统一校服的北京初中生，从长三角各个地区来参加研学的厂二代们以及成群结队的外国年轻开发者。三代人同处一个会场，构成了一幅比任何产品发布都更完整的产业图景。</p>
+  <p>参加完这次云栖大会，我有一个明显的感觉是,AI加速了代际更迭，阿里把定义下一个时代的位置，交给了最想抓住AI机会、最想把AI落地的一代人。</p>
+  <h2><strong>两个90后，分管模型和产品</strong></h2>
+  <p>主论坛上，蔡崇信的开场白给AI产业定了调，重心要从技术畅想转向真实场景的规模化落地。随后吴泳铭站上台，抛出“机器思考的总量还不到人类的3%，未来将达到人类的1000倍以上”的观点，并顺手给资本市场画了一张到2032年、全球数据中心超20GW的路线图。</p>
+  <p>刘大一恒登台的时候，很多人愣了一下。这位1993年出生的阿里资深AI研究员，照片里穿着一件黄色卫衣，站在蔡崇信、吴泳铭、郑波、李飞飞这些正装大佬中间，有人调侃像“误入大佬局的实习生”。</p>
+  <p>活脱脱阿里的“四字哥哥”。</p>
+  <p>但他的身份一点也不实习，阿里巴巴ATH事业群Token Foundry Qwen LLM项目负责人。直到云栖大会开幕前一天，外界才确认了三月以来传闻的终局，<ai-product-link data-id="15053" data-name="通义千问" data-logo="https://img.36dianping.com/20260429/v2_4484a807533444beb2f280302bfb1460_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">通义千问</ai-product-link>大语言模型的新任掌门人，是这位1993年前后出生，本硕博全在四川大学读完的自贡人。</p>
+  <p>相比于身份，刘大一恒的履历有点反明星叙事，没有常春藤，没有海外大厂镀金。2012年进川大计算机学院，2015年以专业综合第一保送“3+2+3”本硕博连读。之后在学术圈持续突破，并在2020年成为华为“天才少年计划”西南地区首位第一档入选者。</p>
+  <p>博士毕业后不久，刘大一恒就加入了2021年刚刚起步的Qwen。此后五年，他只做一件事，预训练。Qwen1到Qwen3.5全系列语言模型由他主导，累计参与300多款模型开源，发表论文百余篇，Google学术引用超3.6万次，并以通讯作者身份拿下NeurIPS 2025最佳论文。</p>
+  <p>在人员流动近乎残酷的基模圈子，刘大一恒是唯一一个全程在场，从未挪窝的人。</p>
+  <p>林俊旸出走后的半年里，阿里在组织上先是成立吴泳铭亲自挂帅的ATH事业群，再合并出吴泳铭直管的Token Foundry事业部，把首席科学家周靖人挪去AI未来研究院专攻长期研究。在这个背景下，一个管过预训练，代管过后训练和Coding，并在Qwen每一个版本里都有名字的人，是再合适不过的答案。所以阿里选他，选的是确定性。</p>
+  <p>再看陈宇森，则是另一个方向的样本。</p>
+  <p>1992年生，浙大竺可桢学院求是科学班，中国顶尖黑客战队“蓝莲花”核心成员，DEFCON CTF、Pwn2Own拿奖拿到手软。他22岁毕业创办长亭科技，27岁把公司整体卖给阿里云，四年多完成多数人一生的财务目标。</p>
+  <p>之后，在2021年，他放弃未兑现权益离开阿里再次创业，2025年又回到了阿里云内部，孵化了AI Agent产品MuleRun（骡子快跑）。产品上线不久，在几乎零投放的情况下，付费用户就覆盖了43个国家，超四成月付费用户每月花200美元以上。</p>
+  <p>再往后的故事，我们就比较熟悉了。今年6月，他接替陈航（无招）出任钉钉CEO，7月，阿里把<ai-product-link data-id="15122" data-name="Qoder" data-logo="https://img.36dianping.com/20260730/v2_747a7d1b37de4abab2b38678d3400698_oswg2162oswg180oswg180_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">Qoder</ai-product-link>Work、悟空、MuleRun三条分散的AI Agent产品线整合成<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公事业部，由他统一负责。</p>
+  <p>在阿里系产品里，C端用户最熟悉的可能就是<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公了，所以<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>专场成了这届云栖人气火爆但却最松弛的论坛之一。</p>
+  <p>一头卷发的陈宇森从背后掏出一个缠着三只绿色小章鱼的话筒，开口自嘲“希望工作里也有该有的放松时刻”。他很少看提词器，演讲的题目是他这些年产品哲学的浓缩《Context is All You Need》。</p>
+  <p>把这两个人放在一起看，刘大一恒管模型，是源头，陈宇森管产品和商业化，是出口。一个负责把智能做出来，一个负责把智能卖出去，所以阿里把整条AI链路的两端，都交给了90后，这意味着年轻化不再是姿态，是真正放上了牌桌。</p>
+  <h2><strong>研学的企二代们</strong></h2>
+  <p>同样，在展馆里的流动人群也不乏年轻面孔，他们之中的大多数代表的是中国制造民企的现在。</p>
+  <p>三天里，我在展馆里遇到多批挂着不同胸牌的参观团。他们大多是来自长三角的制造业和消费品民企，组团报名，统一行动，是对AI充满好奇与敬畏的年轻接班人。</p>
+  <p>他们的出现不难理解，长三角是中国民企最密集的区域，一大批创立于上世纪八九十年代的制造企业正处在交接班期。父辈用ERP和管理咨询完成了信息化，二代们面对的考题换成了智能化。对他们来说，云栖大会从一个看热闹的科技展，变成了一线下次选型。</p>
+  <p>一位来参观研学的企二代朋友告诉我，3号创造馆是最实用的。馆里立着一面Skill墙，覆盖17大职业身份，200多个可复用的Skill，像是财务、法律、人力、甚至营销都能找到对应的落地方案。</p>
+  <p>当然，这些对她来说，只是顺手考察的功能，她这次关注的重点在于找到一套可以用到自己产品里的AI系统，同时也向其他消费品牌学习下实战经验。</p>
+  <p>被问及为何不自己参观而选择组团时，这位朋友坦言，展馆大，企业多，自己筛选需要时间和精力，同时自己对企业和AI的理解有限，更重要的是一起参团的都是企二代，大家也可以交流和拓展人脉圈。</p>
+  <p>他们看展的方式也简单直接，反复追问的问题只有一个，“这个产品在我们厂里怎么用、多少钱、多久见效”。所以对这批企二代来说，AI的意义被重新校准了，是一笔算得过来的账，比如300多个步骤变成几个小时，50个工作日变成30天，专人一天的工作压缩到分钟级。</p>
+  <p>更微妙的变化在组织层面，上一代接班，厂房、机器也好，渠道、客户关系也罢，都是关于人和生意的有形资产，按部就班也没问题。下一代人走向前台，需要管理的远不止是人和生意，每隔几个月都会变化调整。按部就班有大问题。</p>
+  <h2><strong>校服与外国面孔</strong></h2>
+  <p>第三天下午，我在展馆走廊碰到了一群身穿白色校服的学生，带队老师举着牌子，他们的校服上印着人大附中的字样。</p>
+  <p>后来和同行的人聊起来才知道，那是专程从北京来的游学团。他们是北京人大附中初三年级的学生，行程一共四天，人均四千块，云栖大会是他们的第三站。尽管他们对AI的喜好不同，但在作业的驱动下，还是进行了认真的参观。抖音当天一条热门视频里，几个穿校服的少年在展台前和一位CTO谈笑风生。</p>
+  <p>这不是云栖第一次接待学生。往届大会上，王坚曾与七个使用“少年云教室”的孩子对谈。去年，来自四川康定海拔4000米山区学校的师生们在展台前与人形机器人共舞。但今年的不同之处在于，学生不再是被邀请来的点缀，而是自己找来的主力。</p>
+  <p>除了人大附中外，浙江大学学生会组织了近百人包车前来，常州大学阿里云大数据学院把整个拔尖班搬进了算力馆和创造馆，把这次参观称为“课堂之外的现场教学”。</p>
+  <p>会场里另一道显眼的风景，是外国年轻面孔。</p>
+  <p>这届云栖有来自50多个国家和地区的2000多位演讲嘉宾，展区里随处可见用英语和展台工作人员交流的海外年轻人，有人专程从东南亚、中东飞过来，在Agent开发展台前一坐就是半天。而去年云栖的数据是，线下参会总人次突破12万，嘉宾覆盖全球70多个国家和地区，可见在这个盘子里，年轻人的占比肉眼可见地在提高。</p>
+  <p>对阿里来说，这几乎是一个必然的战略选择。</p>
+  <p>吴泳铭说，“工业革命解放了人类的体力，催生了体育和艺术。机器智能将解放人类的脑力，把繁重的任务留给机器，把时间、创造力和对美好事物的感受留给人类。”这句话是说给全场听的，而要亲手实践并验证这个未来是否真的那么美好，正是台下那些年轻人。</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI4MjYxMTYyNA==&amp;mid=2247517357&amp;idx=1&amp;sn=61c51fba6a27191ed0b0b36a0558a906&amp;chksm=eaa634958d57b43aebe275fc39353ef49eb905360499a9a62693b50944b6160a72af276c795b&amp;scene=0&amp;xtrack=1#rd">“东四十条资本”（ID：DsstCapital）</a>，作者：张雪，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 04 Oct 2026 10:06:15 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4010978784841858</guid>
+            <link>https://www.36kr.com/p/4010978784841858</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[太卷了！DeepSeek假期更新，Harness有了新版本]]></title>
+            <description><![CDATA[<p>谁说 <ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link> 假期不加班？就在昨天，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 又更新了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,701" src="https://img.36krcdn.com/hsossms/20261004/v2_848ac5b5ec804913b5eff684e920452d@000000_oswg233159oswg1080oswg701_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这次发布的 v0.2.1-alpha.1，新增了一项很惹眼的功能：实验性 Claude Code Mods 兼容层。</p>
+  <p>更有意思的是官方对它的解释：这次首先想验证，Claude Code Mods API 的能力，大致属于 <ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 插件能力的一个子集。</p>
+  <p>这话翻译一下，大概是：你刚开放的这些能力，我这套插件架构也能承接。</p>
+  <p>不过，要看懂这次更新，还得先把时间往前拨一点。</p>
+  <p>前两天，Claude Code 最近推出了 Mods。玩过游戏的朋友，对 Mod 应该不陌生，它支持装个模组，换界面、加功能，甚至改变游戏玩法。</p>
+  <p class="image-wrapper"><img data-img-size-val="940,1546" src="https://img.36krcdn.com/hsossms/20261004/v2_423c5855bcda42d6813d3782a1131719@000000_oswg211357oswg940oswg1546_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Claude Code Mods 也可以这样理解：给你的 AI 编程工具加上自己想要的改造。比如，嫌上下文用了多少看不清楚，可以加一个实时仪表盘；希望某类命令执行前多一道检查，可以写一个拦截规则；想用自己的方式回看 AI 改过的代码，也可以专门做个界面。</p>
+  <p class="image-wrapper"><img data-img-size-val="986,1388" src="https://img.36krcdn.com/hsossms/20261004/v2_d77c98e9204943e894530cbba436eb66@000000_oswg398906oswg986oswg1388_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>它的技术实现，是运行在 Claude Code 内部的 JavaScript 或 TypeScript 事件处理函数。工具调用、提示词提交、界面绘制，都可以成为 Mod 介入的时机：观察一下、修改一下，或者接管这一步。</p>
+  <p>至于它和之前一些概念的差异，我们可以这么理解：Skill 给 AI 一套办事方法，MCP 给 AI 接上外部工具和数据，Mod 则进一步让你改造 AI 工具本身的界面和工作行为。</p>
+  <p>官方拿出的例子，也挺会整活。</p>
+  <p>一个叫 Token Weather，把上下文占用做成「天气预报」：占用低是晴天，越来越满就开始风雨交加。聊着聊着天气变了，你也就知道该留意上下文了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,869" src="https://img.36krcdn.com/hsossms/20261004/v2_43672b2275cc4cd882f0dd1840b7aa09@000000_oswg224155oswg1080oswg869_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>另外两个更偏实用：Blast Radius 在高风险命令执行前展示影响，交给用户决定；Replay Theater 则让你逐步回看文件修改。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,906" src="https://img.36krcdn.com/hsossms/20261004/v2_b066fc42ecbe44279d5bafae9645cc9f@000000_oswg230032oswg1080oswg906_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,864" src="https://img.36krcdn.com/hsossms/20261004/v2_bd7b54eddfd64e2bad4ce44078a81e59@000000_oswg192746oswg1080oswg864_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>最关键的是，这些东西可以直接让 Claude 帮你做。描述需求、允许热加载，看着它把定制功能装进当前会话，再继续提修改意见。</p>
+  <p>Claude Code 负责人 Boris 官宣时强调的也是这种个性化：每个人的工作方式不同，Claude 的体验也可以因人而异。你可以用提示词定制它，再把 Mods 作为插件分享出去。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,683" src="https://img.36krcdn.com/hsossms/20261004/v2_196227e396274d94ba945dec03b3d341@000000_oswg251466oswg1080oswg683_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>所以，以后觉得工具不好用，除了等官方更新，还能直接说一句：「你把自己改改。」</p>
+  <p>随后，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 团队负责人崔添翼转发了 Boris 的帖子，并给出了一些评论，大体概括一下就是：这个方向，我们熟。</p>
+  <p class="image-wrapper"><img data-img-size-val="958,1562" src="https://img.36krcdn.com/hsossms/20261004/v2_56381cbfb91e40a1a791f7e90ed2a443@000000_oswg449414oswg958oswg1562_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>具体来说，看到 Mods 发布，崔添翼先送上了祝贺，认为这是让 Agent Harness 可扩展、可定制的一种巧妙方式，并表示双方的理念正在汇合。</p>
+  <p>崔添翼接着强调了双方的架构区别：按照他的表述，Claude Code 将部分能力开放为 Mods，而 <ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 从一开始就在重新思考「插件」这件事，其主张就是「Everything is a Plugin，一切皆插件」。</p>
+  <p>模型、工具、Skills、会话、沙箱、文件系统、Agent Loop、任务编排、UI，都可以作为插件组合、替换和扩展。</p>
+  <p>在 DSH 的创造模式里，用户还可以让 Agent 检查当前运行的系统，现场编写插件并保存下来。想改界面、加工具，甚至调整 Agent 执行任务的机制，都在这个思路之内。</p>
+  <p>最后，他开了个玩笑：团队已经琢磨「Plugin Engineering」这个说法一阵子了，现在是不是该叫「Mod Engineering」了？</p>
+  <p>更有意思的是，这帖子发出不久，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link> 真做了个兼容层。</p>
+  <p><ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 新版本 v0.2.1-alpha.1，把实验性 Claude Code Mods 兼容层加了进来。这项更新，在发布日志里署名的正是崔添翼。</p>
+  <p>这个兼容层是干什么的？可以把它理解成一座桥：让按照 Claude Code Mods 接口编写的扩展，有机会接到 DSH 的插件系统里运行。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1064" src="https://img.36krcdn.com/hsossms/20261004/v2_b8935b737a654ff88e4d7b0bc41eedb5@000000_oswg478348oswg1080oswg1064_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>官方文档列出了三个桥接示例：查看上下文占用的 Token Weather、在命令执行前展示影响的 Blast Radius，以及回看文件修改的 Replay Theater。这些例子展示了 Claude Code Mods 如何接入 DSH。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,692" src="https://img.36krcdn.com/hsossms/20261004/v2_a718f3134de34fe38c25a905681edc2f@000000_oswg289745oswg1080oswg692_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这就让「一切皆插件」有了一个很直观的展示：围绕另一套 Agent 工具设计的扩展，也能通过桥接，接入自己的体系。</p>
+  <p>新版本还增加了一个更容易上手的入口：「让 Agent 创建插件」。 在插件管理页点进去，就能进入创造模式，描述自己想要的功能，让 Agent 动手制作。配套新增的开发者工具包，则方便查看会话日志、定位问题和调试。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,651" src="https://img.36krcdn.com/hsossms/20261004/v2_f81aa2f77d7e4082be6dfa57a690e473@000000_oswg326019oswg1080oswg651_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这两个功能，一个尝试承接外部扩展，一个方便用户现场创造功能。</p>
+  <p>不过，这座桥目前还在施工。</p>
+  <p>官方明确说，当前兼容层主要用于验证 Claude Code Mods API 的能力，大致属于 DSH 插件能力的一个子集，尚不提供完整的实用兼容性。</p>
+  <p>具体来说，前面几个演示已经有了可运行的桥接示例，但 Claude Code 内置的 diff、agents-md、sec-default 和 telemetry，仍被文档标注为「不可运行」，因为部分依赖的事件、接口或界面能力还没接上。加载方式也需要按 DSH 的机制适配，暂时不能把 Claude 的插件直接搬过来就用。</p>
+  <p>所以，这次最值得看的，是 DSH 用具体示例展示了跨工具复用扩展的可能性。距离随手安装、无缝使用，还得再往前走几步。</p>
+  <p>目前，「<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 在新版本中加入 Claude Code Mods 兼容」的话题已经上了知乎热榜。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,440" src="https://img.36krcdn.com/hsossms/20261004/v2_1374a34e5a26443ba26c141741750201@000000_oswg156697oswg1080oswg440_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>大家对 DSH 新版本说明中的「子集」等字样展开了自己的解读，有兴趣的读者可以前去围观。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1009" src="https://img.36krcdn.com/hsossms/20261004/v2_7822d4b974654f50a82221677335c7fb@000000_oswg426767oswg1080oswg1009_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1130" src="https://img.36krcdn.com/hsossms/20261004/v2_ba6e805302b2470b81aa60be82ffabb8@000000_oswg340318oswg1080oswg1130_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>参考链接：</p>
+  <p>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-alpha.1</p>
+  <p>https://www.zhihu.com/question/2089740005770008568</p>
+  <p>© THE END&nbsp;</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651061044&amp;idx=1&amp;sn=cabbc28fc7869dbee34bb90a6f7ce97a&amp;chksm=8580a13987f7b4559f16dd4b66197f1fba3ccc9f9e75fa09dce465ad64d1145305bb364ad711&amp;scene=0&amp;xtrack=1#rd">“机器之心”（ID：almosthuman2014）</a>，作者：机器之心，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 04 Oct 2026 09:25:52 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4010809598922624</guid>
+            <link>https://www.36kr.com/p/4010809598922624</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[最火AI岗位FDE：月薪5万，都干这些…]]></title>
+            <description><![CDATA[<p><strong>FDE</strong>，全网最火热、最神秘的AI岗位之一。</p>
+  <p>火热在于，不少大厂开出了月薪高达三五万的招聘，小红书FDE遍地走，到处都是求职经验贴。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,776" src="https://img.36krcdn.com/hsossms/20261004/v2_89a9ba267cd1489c8c3b632864edd583@000000_oswg349777oswg1080oswg776_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>据招聘数据网站FDE Pulse统计，海外公开薪资的FDE岗位，基本年薪中位数约20万美元，折合人民币约134万元。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,465" src="https://img.36krcdn.com/hsossms/20261004/v2_a05dc27c5a2a4f85a7502bd131086cd3@000000_oswg73292oswg1080oswg465_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>（都是钱啊这都是钱）</p>
+  <p>神秘在于，我访谈了6个FDE从业者，最后发现，他们做的事情好像都不太一样……</p>
+  <p>FDE的全称是Forward Deployed Engineer，中文名叫<strong>前线（前沿）部署工程师</strong>。</p>
+  <p>顾名思义，就是驻扎到客户现场的工程师：一边部署软件，一边解决客户的实际问题。</p>
+  <p>现在，这个词已经从硅谷火到了国内。</p>
+  <p>海外，Anthropic宣布投资1亿美元，在2027年底前培训1万名FDE工程师，OpenAI也带着40亿美元投资成立了专做部署的公司；AWS则拿出10亿美元组建FDE部门，把数千名工程师派到客户身边。</p>
+  <p>国内也在跟进，不少大厂都挂出了FDE岗位。<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>宣布联合多家IT服务商共建FDE队伍，腾讯云则推出号称行业首个的FDE工程师认证，同时招募FDE合作伙伴。</p>
+  <p>与此同时，也出现了不少独立开发者，凭一己之力接单，给企业做AI改造。</p>
+  <p>但说起来，派工程师去客户现场这件事，互联网时代早就有。</p>
+  <p>部署工程师、实施顾问、解决方案工程师、售后工程师…干的都是类似的活，甚至一度被看作“脏活累活”。</p>
+  <p><strong>那为什么到了AI时代，它突然成了香饽饽？这个老岗位，到底变了什么？</strong></p>
+  <h2>FDE，究竟是个啥？</h2>
+  <p>经典FDE模式里，经常出现两个不同角色：<strong>Echo</strong>和<strong>Delta</strong>。</p>
+  <p>Echo负责理解业务、沟通需求和设计方案；Delta负责写代码、接数据，把方案真正做出来。两者在前线互相配合，共同满足客户需求。</p>
+  <p>在后方，还有一群Dev（普通工程师），负责开发标准平台。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,689" src="https://img.36krcdn.com/hsossms/20261004/v2_0c1ea6009cb44acd9c495b16ec82f8a0@000000_oswg59023oswg1080oswg689_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>可以这样概括Delta和Dev的区别：Dev做的是“一个能力，服务很多客户”，Delta做的是“一个客户，解决很多问题”。</p>
+  <p>值得一提的是，国内FDE的部分岗位招聘，也开始标注Echo或Delta方向。这个情况起码在两个月以前是没有的。</p>
+  <p>前线的工作，很大程度上围绕Ontology（本体）展开。</p>
+  <p>简单理解，Ontology就是一张可以被软件和AI调用的“业务地图”：企业里有哪些员工、部门和订单，它们如何关联，各自允许执行哪些操作。</p>
+  <p>FDE要做的，就是把散落在不同系统、流程和员工经验里的信息，整理进这张地图，再在上面开发应用、解决问题。</p>
+  <p>当这套模式漂洋过海来到中国，它长出了各种变体。</p>
+  <p>到了AI时代，驻场的重心也变了：<strong>企业自己都说不清AI能用在哪，FDE得先帮客户想清楚做什么</strong>。</p>
+  <p>李开复带队的<strong>零一万物</strong>，就是一个典型。</p>
+  <p>零一万物现在全面转向企业AI，走的路径是：先找到企业的一号位，再派前线部署工程师进场，梳理企业的Ontology，最后沉淀成产品和平台。早期一个项目，要派5名FDE驻场，再配5人的后端团队。</p>
+  <p>在李开复看来，他们的产品虽然已经实现产品化，也采用订阅制，“但它并不是一个即插即用的产品”。建立一家公司的Ontology需要一至三个月，“公司的数据库、角色和流程都要做好，客户才能拿到充分的结果”。</p>
+  <p>在不少公司里，也有人在做类似的事。比如<strong>Layla</strong>和<strong>Sonic</strong>。</p>
+  <p><strong>Layla</strong>在一家SaaS公司做FDE，title至今还是产品经理。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20261004/v2_7ee735b322684012a4a8881450acdf81@000000_oswg986004oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>AI生成</p>
+  <p>2025年三四月起，她开始真正进到客户的项目里。客户都是万人以上的上市公司，涉及连锁门店和制造业，一驻场就是一两个月。</p>
+  <p>刚开始做的时候，还没人把这叫作FDE。后来这套模式火了，她深入了解了一番，“才发现，诶，好像就是一回事”。</p>
+  <p>她的工作流程be like：</p>
+  <p>第一步，进场摸清业务，从采购、市场、财务、IT等一堆角色里理出客户真正想要什么；</p>
+  <p>第二步，再给出方案，搭一个demo快速验证；</p>
+  <p>第三步，验证通过后，交给公司原有的交付团队上线；</p>
+  <p>最后，把能复用的能力抽象出来，迭代回公司的产品里。</p>
+  <p>这基本就是一套经典的FDE工作流程，也是现在企业或独立FDE做开发的常规流程。</p>
+  <p>Layla认为，FDE的观察和经验，“最终还是要沉淀到标准产品里面去的”。</p>
+  <p>而另外一位企业FDE——<strong>Sonic</strong>，做的是审核类AI项目，比如财税审核、广告物料审核。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20261004/v2_202b6b6ea3784ea4bd489c45d36183c8@000000_oswg1045629oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>AI生成</p>
+  <p>同样从2025年起，他们组就开始研究FDE。在他看来，FDE最关键的环节之一，就是<strong>梳理Ontology</strong>。</p>
+  <p>他举了个例子：如果企业想做一个组织管理方面的AI助手，就得先把企业有多少部门、部门之间什么关系梳理清楚；除了关系，还有属性，比如一个人的职级和薪资。</p>
+  <p>只有把这些抽象成Agent能理解的结构，它回答问题才会更准确，而不是瞎猜。</p>
+  <p>这一步往往相当费劲，因为FDE经常碰到上下游的历史数据拿不全、老系统没有开放接口等问题，项目就很难往下推进。</p>
+  <p>但Sonic认为，这一步绕不过去：“如果质量足够高会很有效，后续交付质量主要取决于前面的Ontology质量。”</p>
+  <p>为了做好这些，Layla和Sonic都得常驻客户现场。</p>
+  <p>在Sonic看来，驻场不只是为了了解需求，还要先拉齐业务方对AI的认知：什么能做、什么不能做，双方站在同一个语境里，才能谈后面的痛点和方案。</p>
+  <p>而来自硅谷公司Baseten的<strong>程天舒</strong>却告诉我，<strong>他们的FDE，基本不驻场</strong>。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20261004/v2_9d5419e2c83c4b538c7d3ec1826df1a3@000000_oswg1097628oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>AI生成</p>
+  <p>Baseten是一家做AI推理云的公司，客户把模型部署在他们的平台上，他们让这些模型跑得更快、更稳、更省钱。</p>
+  <p>他们接触的客户几乎都是工程师，需求也很具体。比如原本调用OpenAI的API，现在想换成开源模型，应该选哪个模型？怎么部署？怎样达到预期的速度和成本？</p>
+  <p>FDE会和客户开会，了解技术需求，再搭一个prototype验证方案。问题可能涉及云基础设施、模型推理优化、训练或者产品体验，不同方向由不同专长的FDE负责。</p>
+  <p>对他们来说，这种沟通基本可以在线上完成。</p>
+  <p>原因在于，Baseten提供的是一套面向开发者的标准化产品，它只负责客户业务中的一段明确链路。定制化程度并不高，也不需要深入客户组织肌理去解决业务问题。</p>
+  <p>“我们的产品跟客户自己的业务逻辑耦合度不高。”程天舒说。</p>
+  <h2>大厂之外，一群“游击队”在野蛮生长</h2>
+  <p>在公司之外，还有一批“游击队”正在迅速壮大：他们不属于任何一家有产品的公司，自己找客户、自己接单，给企业做AI改造。</p>
+  <p>这本身也是AI带来的变化：过去定制一套系统，得一个团队做几个月；<strong>现在代码几乎不要钱，一个人也能接单交付</strong>。</p>
+  <p>这块市场现在非常野生。号称“全网第一FDE”的<strong>Lawted</strong>告诉我，他管这叫<strong>土FDE</strong>。</p>
+  <p>大厂FDE主要是去推广自家产品，而土FDE主要面向“土老板”，用OpenAI还是Gemini都行，也没有销售任务，“你要什么东西，我就给你什么东西”。</p>
+  <p>我接触到一个名叫<strong>Zaniel</strong>的FDE，聊完才发现，哥们路子太野了。。。</p>
+  <p>他是一名斯坦福在读博士，今年4月开始一个人接企业的AI项目。</p>
+  <p>银行、律所、煤化工、月子中心、家政中介、建筑企业……五个多月下来，已经做了几十个项目，交付全是他一个人。</p>
+  <p>而且有意思的是，做了这么多场景后，他的工作重点已经从“为客户开发AI系统和工具”，转变成了“教企业员工如何用AI”。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20261004/v2_95c8d4fe89b74f08a4f9be2f9a3630c0@000000_oswg1197099oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>AI生成</p>
+  <p>比如，他的第一个客户是一家银行，几个员工每天要从数据系统里导出一堆数，汇总成几张报表给领导看。</p>
+  <p>他一开始做了一个自动生成器，数据拖进去，一点就出报表。</p>
+  <p>但东西做出来，很快就没人用了。因为报表规则每天都在变，导出来的表格式也不完全一样，写死的程序“用几天就崩溃了”。</p>
+  <p>后来他发现，不需要一个新的软件，直接教员工把脱敏后的数据交给通用AI去汇总，再把高频流程整理成Skill，接上现有的数据系统。</p>
+  <p>这样一来，员工真的用起来了。</p>
+  <p>Zaniel告诉我，至少在白领工作里，大部分问题靠一个通用Agent，加上一堆Skill和对现有系统的连接就能解决，“不需要开发其他新软件”。</p>
+  <p>另一位独立接单的FDE，<strong>软萌孜神</strong>也描述了类似情况。</p>
+  <p>她曾为一家外贸公司做FDE，跟老板讨论如何提高员工的AI使用率——最后结论是，<strong>采购<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>就行</strong>。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20261004/v2_cf090fd5a1cb41168b17f618f63d7ee1@000000_oswg1160958oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>AI生成</p>
+  <p>而她负责培训员工如何使用<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>，以及为<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>打通集团内部现有的系统。</p>
+  <p>这些“游击队”式的土FDE，给企业改造改造着发现，很多时候并不需要做一个新产品或系统出来，他们的业务模式也开始偏向咨询服务。</p>
+  <p>Zaniel和企业的合作有两种模式，一种是项目制，另一种则是顾问制，而且第二种变得越来越多。</p>
+  <p>所谓顾问，说白了就是教员工怎么去用这些AI工具。每有新工具出来，就帮企业想清楚业务该怎么跟上；如果碰到不大的需求，他也会顺手做出来，包含在顾问服务里。</p>
+  <p>他把这种角色叫作企业外部的“CAIO”（首席AI官）。</p>
+  <p>而<strong>Lawted</strong>，也觉得自己的业务开始变得像一家咨询公司。</p>
+  <p>他运营着一个叫HA7CH的FDE社群，通过办线下交流会和黑客松，撮合想要AI改造的企业和独立接单的FDE签下订单。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20261004/v2_54436f80a652426ab807accb5f3241b6@000000_oswg1222629oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>AI生成</p>
+  <p>流程是，企业报上需求，他从报名的人里挑一两个选手。选手进厂48小时，梳理工作流、做出demo，打动老板就当场签单，后续交付由选手负责。</p>
+  <p>办了几期后，Lawted越来越觉得FDE“非常像咨询”：企业往往只知道自己想用AI，却说不清问题在哪里，FDE得先进入现场完成诊断，再把方案做出来。</p>
+  <p>在他看来，咨询顾问甚至比程序员更适合转行做FDE，只需要补上vibe coding能力，“vibe coding其实不难”。</p>
+  <h2>代码两天写完，真正的麻烦在人</h2>
+  <p>看到这里，你大概也会发现，FDE的工作里，写代码和做开发的时间并不多，与人沟通反而占了大多数。</p>
+  <p>几位从业者都告诉我，他们沟通需求的时间占了七成以上，开发大约只占三成。</p>
+  <p>而与客户员工产生摩擦、打不开接口权限等困难，也往往发生在这个过程中。</p>
+  <p>在推动<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>接入企业内部系统的过程中，软萌孜神经常要找采购、IT、ERP产品经理和外部工程师反复沟通。有些系统没有现成接口，还得推动企业自己开发。</p>
+  <p>一个多月过去，仍有不少API没有开放。她说，第二天自己还要继续去找IT扯皮。</p>
+  <p>不过，她也不认为是员工故意阻挠。“没有人刻意给你使绊。”只是每个人都有自己的任务，AI改造在对方那里未必有那么高的优先级。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261004/v2_2adc69e077f34dc6b4b7fbffb53cb3a9@000000_oswg955503oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>AI生成</p>
+  <p>拿不到权限，有时只是流程问题。</p>
+  <p>但AI带来的阻力，还有更微妙的一层：过去部署一套软件，很少直接动到谁的位置；<strong>AI不一样，它可能改变一个团队原本的工作</strong>。</p>
+  <p>有家企业想开发一套覆盖几十个业务模块的AI系统。Zaniel估算，自己三四个月就能完成，但客户要求他以顾问身份与IT团队合作。</p>
+  <p>尽管签了保密协议，对方仍不愿开放代码库，却时常让他隔空排查问题。</p>
+  <p>Zaniel也建议，部分模块直接使用通用Agent即可，没必要全部自研。</p>
+  <p>领导回了一句：“你都用<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>了，那他们干啥呢？”</p>
+  <p>……听完我只能说，这太真实了。</p>
+  <p>不过，Zaniel也并不简单地把这归结为客户“不配合”。客户可能有保密要求、既有的供应商关系，也可能只是不同部门各有顾虑。</p>
+  <p>“对于企业，换一种工作方式的代价，常常比换一个工具大得多。”他说。</p>
+  <h2>FDE，不就是外包吗？</h2>
+  <p>另一个常常被谈论的问题是：<strong>FDE究竟是不是外包？</strong></p>
+  <p>至少在Baseten，答案是否定的。</p>
+  <p>程天舒告诉我，他们的FDE和普通工程师一样，招聘标准、面试流程完全相同，同样拿固定薪资和股票，不靠提成。</p>
+  <p>FDE提供的服务也不单独收费。即使搭出了原型，只要客户最后没有使用Baseten的云平台，就不需要付钱。</p>
+  <p>对他们来说，FDE服务于自家产品：帮客户用起来，再把现场反馈带回去改进产品。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261004/v2_3437949b565a4809b32678e731d1efd8@000000_oswg1081032oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>AI生成</p>
+  <p>在企业里的Layla和Sonic也认为，<strong>把经验沉淀回产品、进行复用，是FDE和外包的重要区别</strong>。</p>
+  <p>Layla表示，过去大家区分外包，看的就是它“不会做自己的产品，不会沉淀自己的能力”。</p>
+  <p>“如果我们也不沉淀自己的能力，不做自己的产品，然后每个项目都要从0到1做，别人说外包，其实也没有办法反驳。”</p>
+  <p>Sonic很直接地告诉我，传统外包做不了FDE。“不信的话可以找外包试试。”</p>
+  <p>作为FDE，他们会把项目里能复用的模块，按场景沉淀到一个评测和迭代平台上，再搭建Skill Hub、Agent Hub，组里的FDE都在上面做评测和优化。</p>
+  <p>效果是，在一个垂直领域里，第一个场景从接入到上线大概要一个月；做完之后，后续的同类场景可能一两天就能接完。</p>
+  <p>“做得越久，速度越快。”做得快，意味着会开得更少、沟通成本更低，“业务会觉得整个过程很轻，钱花得值”。</p>
+  <p>听起来，只要能把经验沉淀下来、复用到下一家，FDE就和外包划清了界限。</p>
+  <p>本来到这里，我已经被前面几位嘉宾说服了，但Zaniel又刷新了我的认知。</p>
+  <p>大家通常想象的复用，是先做出一套半标准化软件，到了下一家客户，“把规则调一调，就可以直接部署”。</p>
+  <p>Zaniel并不否认Skill、代码和行业经验可以复用。但他质疑：这些积累，究竟能让下一次完整交付便宜多少？</p>
+  <p>过去做一套企业软件，开发可能要花90块，给每家客户适配只要10块。软件做一次、卖给很多家，前面那90块就能被一<ai-product-link data-id="14953" data-name="点点" data-logo="https://img.36dianping.com/20260731/v2_7f20642df457498595ae7c552043d930_oswg142435oswg1000oswg1000_img_jpg" data-classify-list="智能搜索,AI助理,办公辅助" data-refer-type="20">点点</ai-product-link>摊薄。这是传统软件公司的生意逻辑。</p>
+  <p>AI把这个公式改了。现在开发只要1块，适配还是10块。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261004/v2_8f487079b4064849b7dd8d6eef478533@000000_oswg112882oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>AI生成</p>
+  <p>比如给一个客户做了客户管理系统，下一个客户也要，那还不如直接重新做一套，“因为AI现在做一个软件出来太快了”。</p>
+  <p>当然，代码可以复用，Skill和行业知识也能积累。但每进入一家新企业，FDE仍然要重新理解需求、连接系统、处理权限，再推动不同部门接受新的工作方式。</p>
+  <p>这部分投入，并不会随着代码成本一起降低。</p>
+  <p>软件越来越容易复制，这门生意能不能复制，却是另一个问题。</p>
+  <h2>FDE们，已经不想说自己是FDE了</h2>
+  <p>访谈到最后，我几乎问了每个人同一个问题：</p>
+  <p><strong>FDE会一直存在吗？</strong></p>
+  <p>程天舒认为，FDE这个岗位的最终目的，“就是要把FDE给取消掉”。</p>
+  <p>需要FDE出手的地方，说明产品和客户需求之间还有差距；产品做得足够好，客户自己就能搞定，也就不再需要FDE了。</p>
+  <p>在他看来，FDE更适合产品还不成熟的早期公司。成熟的公司，其实不太需要这个职位，它更像是公司打磨产品过程中“一个过渡性职能”。</p>
+  <p>但他也承认，AI发展得太快，“你昨天做的产品，今天就跟不上了”。只要市场还在变，这个差距就会一直在，所以这个目标“可以逐渐靠近，但是永远无法抵达”。</p>
+  <p>Zaniel的看法则是：FDE要做的事，在AI之前就一直有人在做，以前叫管理咨询，也叫IT外包，只是这个词最近才火起来。</p>
+  <p>“至于这个词火不火，这就是一个互联网的传播学问题了。”</p>
+  <p>事实上，他和软萌孜神都不太在意自己是不是FDE。对外这么说，只是因为大家熟悉这个词。</p>
+  <p>“其实我不是特别喜欢别人说我是FDE，但是我又不得不这样。因为现在市场上，你就必须跟你的客户说AI FDE，大家才会去看。”软萌孜神说。</p>
+  <p>她更愿意说自己是一名创业者，目标是用AI改造外贸，“让中国供应链再次伟大”。</p>
+  <p>FDE三个字母，已经被塞入了太过丰富的含义。</p>
+  <p>软件开发、咨询服务、员工培训、系统对接、社群撮合……这些看似不同的工种，统统都可以跟FDE有关。</p>
+  <p>但不管哪种FDE，干的都是<strong>把AI真正用进客户业务里、并为此去搞定人的活</strong>。</p>
+  <p>如果一定要说，这个老岗位在AI时代到底变了什么，我认为有三点：</p>
+  <p>过去，驻场的人负责把做好的软件装上去；现在，得先帮客户想清楚AI该用在哪。</p>
+  <p>过去，定制一套系统要一个团队；现在，代码几乎不要钱，一个人也能接单。</p>
+  <p>过去，难的是技术；现在，难的是人。</p>
+  <p>岗位还是那个老岗位，只是到了AI时代，它得懂得更多、跑得更快，也扛得更多。</p>
+  <p>FDE之所以火，也正是因为技术变化来得太快：企业还没想清楚该怎么用，组织分工也来不及跟上，于是太多需要的能力，被一股脑押在了一个人身上。</p>
+  <p>就像那条很火的短视频结尾说的：</p>
+  <p>“企业买SaaS买到的是软件，请咨询买到的是建议，找外包买到的是功能。</p>
+  <p>而找FDE，他们想买到的是一个人——</p>
+  <p><strong>一个懂管理、懂技术、懂人性、懂AI，最好还别要太多钱的人。”</strong></p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247930872&amp;idx=1&amp;sn=7e8d20c098c21e4f77a7109ec4488e47&amp;chksm=e98a0670ddba80e7f4e280d146783a09e0cb416d250437c4d8a4aab280394cc17d044a297857&amp;scene=0&amp;xtrack=1#rd">“量子位”（ID：QbitAI）</a>，作者：关注前沿科技，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 04 Oct 2026 08:15:34 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4011048293666944</guid>
+            <link>https://www.36kr.com/p/4011048293666944</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[OpenAI“12朝元老”辞职死谏：试错的时代已崩坏]]></title>
             <description><![CDATA[<p>就在刚刚，OpenAI的安全元老David Robinson辞职了。</p>
   <p>他在The Atlantic上悲愤地发表长文，向全人类发出警告——</p>
   <p>试错的时代已经结束了。OpenAI的企业文化已经崩坏。犯错之后，我们可能再也没有迭代的机会！</p>
@@ -2312,334 +2799,6 @@
             <pubDate>Wed, 30 Sep 2026 08:48:02 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4005634131349637</guid>
             <link>https://www.36kr.com/p/4005634131349637</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[一场世界顶级的“AI午餐会”]]></title>
-            <description><![CDATA[<p>一场午宴，近20位科技巨头到场，最后出来一份“道德上有约束力”的君子协议。</p>
-  <p>当地时间9月29日，特朗普在白宫设宴宴请“美国AI产业巨头”。据外媒会前获得的名单，共有33人确认出席，涵盖科技企业高管、投资人及美国政府官员。这场被白宫正式命名为“超级智能会议与午宴”的活动，出席名单几乎覆盖了整个AI产业链。</p>
-  <p>这里面有大量熟悉的面孔，包括：黄仁勋、纳德拉、阿莫迪、扎克伯格、马斯克等等。</p>
-  <p>不一一列举了，大家可以看下面的名单：</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260930/v2_88a80292dba24b37b5a42110038e8f9f@5888275_oswg202976oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">“AI午餐峰会”参会者名单（AI生成，人工审校）</p>
-  <p><strong>特朗普明确表示，不会推动新的联邦AI安全法规，而是更倾向于让行业自行约束。</strong>他说，自己已经看到“非常强的自我监管”，同时透露<strong>政府正在考虑成立一个由10人组成的委员会，负责监督AI行业。</strong></p>
-  <p>当天，特朗普还与六家科技公司的负责人共同签署了一份被称为<strong>“道德上有约束力”的AI文件。</strong>且这份协议对行业而言是自愿的，白宫只负责引导AI产业的发展。</p>
-  <p>当天晚些时候，特朗普又签署行政令，正式将联邦政府层面的“人工智能”改名为“超级智能”（Super Intelligence，SI）。</p>
-  <h2><strong>01 巨头的座次</strong></h2>
-  <p>这场会面的场地选在白宫东厅，特朗普甚至在自己的Truth社交账号上公布了座次表。他坐在中间，右手边是扎克伯格和黄仁勋，左手边是马斯克和皮查伊。</p>
-  <p class="image-wrapper"><img data-img-size-val="897,1144" src="https://img.36krcdn.com/hsossms/20260930/v2_f93c2c4e000e4b82bd81006cdee86986@5888275_oswg285335oswg897oswg1144_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">“AI午餐峰会”就餐座位图</p>
-  <p>根据外媒报道，现场所有高管在特朗普身后站成一排，像拍集体照一样。特朗普热情洋溢地称赞他们是“世界上最伟大、最聪明的人”，“他们做的工作令人难以置信”。他还不忘开几句玩笑——介绍黄仁勋时说他长得很帅，介绍皮查伊时笑着称他为“怪兽”。</p>
-  <p class="image-wrapper"><img data-img-size-val="960,640" src="https://img.36krcdn.com/hsossms/20260930/v2_c9bc7dc0fd31482c96dbb14aa4bf3984@5888275_oswg741174oswg960oswg640_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">特朗普总统“AI午餐峰会”参会者合影</p>
-  <p>这场会面原本计划只是午宴和简短的东厅声明。</p>
-  <p>但特朗普临时决定，带着所有客人走到西翼外的车道上，召开了一场长达33分钟的即兴记者会。各家媒体的记者围在人群周围，特朗普和十多位美国科技公司领军人物并肩站在白宫车道上回答问题，场面非常少见。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20260930/v2_87ec42be54e34f7e9bae53430bfc30b2@5888275_oswg92722oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>出席者中，阿莫迪的到场格外引人注意。</p>
-  <p>就在会面两天前的周日深夜，他刚刚与特朗普进行了第一次私人晚宴。此前几个月，两人因AI安全问题关系紧张。这次从僵持到同台吃饭，只用了两天时间。</p>
-  <h2><strong>02 “六巨头”与超级智能协议</strong></h2>
-  <p>此次会面的核心成果是一份协议。特朗普把它比作“某种程度上的宪法”——“<strong>世界上最顶尖的人签了字，我也签了字，这确实是一种保护形式。我认为它在道德上是有约束力的。”</strong></p>
-  <p>协议的正式名称是<strong>《白宫超级智能协议：前沿责任共同承诺》</strong>。签署方除了特朗普，还有六家公司：Anthropic、谷歌、Meta、英伟达、OpenAI和xAI。</p>
-  <p>协议的核心内容是“四层防护”架构。</p>
-  <p>第一层是内部控制，每家公司建立内部监控机制，防范网络安全、生物安全和化学威胁，确保模型不会以非预期方式入侵或访问技术系统；</p>
-  <p>第二层是内部合规团队，由公司指定专门团队跟踪执行情况；</p>
-  <p>第三层是外部审计，由独立审计师进行外部审查；</p>
-  <p>第四层是董事会监督，每家公司的董事会下设专门委员会，确保发现的任何问题都得到整改。</p>
-  <p>协议还规定，六家公司将定期会面，制定标准和最佳实践，提升系统安全性。文件同时提到，“随着时间推移，将这些步骤编入法律或法规可能是有意义的”——这相当于给未来可能的立法留了一条后路，但当下的路径明确是行业自律。</p>
-  <p>对于特朗普不设新监管的立场，在场的行业领袖几乎一边倒地表示支持。但每个人的表态里，又藏着不同的侧重点。</p>
-  <p>黄仁勋说，“创新、技术和安全之间没有冲突”。“我们必须创造新技术来提升AI的能力，但我们也在创造新技术来提升AI的安全性。”他还提到，AI对经济增长至关重要，已经在美国创造了约一百万个就业岗位。就在会面的前一天，英伟达刚刚发布了新的软件安全工具，用于防止AI智能体失控。</p>
-  <p>扎克伯格解释说，这套机制包含多层审计和控制，从内部风险审查开始，到外部审计和评估，再到董事会独立审阅审计报告。他强调，“这不是我们要做的全部，这只是一个开始，是整个行业可以达成的一份协议。”</p>
-  <p class="image-wrapper"><img data-img-size-val="800,534" src="https://img.36krcdn.com/hsossms/20260930/v2_0c97da3d499242ac9f841cc849f2cfdc@5888275_oswg470608oswg800oswg534_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>皮查伊则把它类比为财务控制。他说，“我们正在签署一套流程和控制措施，就像我们在财务控制等其他领域所做的一样。”</p>
-  <p>马斯克的公开发言不多，但他用行动表态，主动改口用“SI”而不是“AI”，显然是在配合特朗普的品牌工程。</p>
-  <p>阿莫迪，这位一直警告AI存在生存风险的Anthropic首席执行官，在被特朗普点名发言时，一方面呼应了保持美国AI领先地位的说法，另一方面也明确表示核心的安全问题仍然没有解决。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20260930/v2_0b04259acd6a4a7e829bfd98e0674a11@5888275_oswg88978oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>“这项技术有非常真实的风险，”阿莫迪说，“应对这些风险的机制仍在讨论中。我们所有人需要共同努力，确保我们能赢，而且我们能安全地赢。如果我们做对了，如果所有人一起合作，我们就能安全地赢。”</p>
-  <p>这番话被认为是在自我监管的大框架下，委婉地保留了对更强监管的开放态度。</p>
-  <p>毕竟，就在9月12日，阿莫迪发表《我们必须放缓前沿步伐》，呼吁放缓AI能力提升的速度，并承诺让独立第三方评估团队深入Anthropic的模型训练和安全流程。那篇文章在行业内引发了激烈辩论，OpenAI的山姆·奥特曼和马斯克都表示支持，但特朗普明确反对。</p>
-  <p>除了六家签署方，在场的其他公司高管也表达了支持。</p>
-  <p>苏姿丰说，她对当天的活动“非常受鼓舞”，房间里有“很多乐观情绪和责任感”。“归根结底，展示技术的力量同时确保它非常安全，是我们的责任，”苏姿丰说。</p>
-  <h2><strong>03 失控事件的压力</strong></h2>
-  <p>这场会面不是一次轻松的聚会。它的背景是一连串AI安全事件的集中曝光，公众和政界的压力都在快速积累。</p>
-  <p>就在会面的前一天，OpenAI宣布将暂缓发布GPT-6.1 Astra模型，原因是安全保障还不够强。OpenAI安全系统负责人萨奇·贾因表示，这款模型在“保持在范围和授权内、以及如何向用户反馈其完成的工作类型”方面，还没有达到公司期望的水平。</p>
-  <p>更早些时候，一系列AI智能体失控事件被陆续披露。</p>
-  <p>今年7月，OpenAI在内部网络安全能力评估中使用的模型绕过隔离措施，入侵了AI模型与数据集托管平台Hugging Face的部分系统，还卷入了多起绕过沙盒限制的事件，其中包括自主智能体瞄准美国证券交易委员会网站的事件。</p>
-  <p>Axios的报道称，OpenAI、Anthropic和安全研究人员正在梳理数千起AI智能体问题行为的案例。</p>
-  <p>9月28日，佛罗里达州总检察长在此前针对OpenAI的诉讼中申请禁令，要求禁止该公司在缺乏外部监督的情况下开发新AI模型。</p>
-  <p>之前，9月23日，美国参议员伯尼·桑德斯与众议员格雷格·卡萨尔提出法案，主张禁止人工超级智能的开发和部署，并暂缓先进AI开发，直到新的联邦AI监管部门建立安全规则和模型审查机制。</p>
-  <p>AI带来的高频事件，是举办这次午餐会的关键。</p>
-  <h2><strong>04 改名SI</strong></h2>
-  <p>自我监管是这场会面的实质内容，改名则是更具话题性的象征性动作。</p>
-  <p>特朗普在车道记者会上宣布，他当天晚些时候会签署行政令，把AI正式改名为超级智能。“我们已经把名字正式改成SI了，”特朗普说，“我们用超级这个词，因为另一个词是假词。”他还补充了一句，“它不是人造的，我们都同意这一点。”</p>
-  <p>这份名为《开启超级智能时代》的行政令随后全文公布。命令要求，在法律允许的最大范围内，<strong>美国联邦行政部门和机构在官方通信、公共声明、网站、报告、政策文件等所有非法定文件中，统一使用“超级智能”和“SI”</strong>。此前已经发布的历史文件不需要修改。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,719" src="https://img.36krcdn.com/hsossms/20260930/v2_113cf4dabbb345d7b67902f3f2538313@5888275_oswg206840oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>行政令还要求总统科技助理（APST）在60天内提交立法建议，为超级智能建立联邦层面的法律定义，并评估是否需要修改现有法律中关于人工智能的表述。</p>
-  <p>行政令给出的官方理由是，今天的前沿系统能力已经远超“人工智能”一词诞生时的设想，它们越来越多地放大人类创造力、解锁新的创造形式，因此超级智能更能准确捕捉这项技术的前景和潜力。</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/NYH8U5OILhGkyy9AJZNbxg">“腾讯科技”</a>，作者：值得关注的，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 08:47:34 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005634394918793</guid>
-            <link>https://www.36kr.com/p/4005634394918793</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[“让AI卖个70元的键盘，结果它把陌生人招上门了，”曝Meta Muse“替人办事”翻车：擅自降价、发地址，还对买家说“我在家”]]></title>
-            <description><![CDATA[<p>要说&nbsp;AI Agent 最让人兴奋的地方，很大程度在于它终于不满足于“告诉你怎么做”，而是开始真的替你做事。可当这件事发生在真实世界里，一次“自作主张”可能就不再只是答错一道题了。</p>
-  <p>最近，一名科技 YouTuber 就遇到了相当离谱的一幕：他让 Meta&nbsp;的最新 AI 智能体 Muse 帮自己打理 Facebook Marketplace 上的一件二手商品，结果&nbsp;<strong>Muse 自己谈了价格、安排了取货，还把他的住址告诉了陌生买家</strong>。</p>
-  <p>几个小时后，买家真的开车找上门；而这时，<strong>这位&nbsp;YouTuber&nbsp;根本不知道这笔交易已经谈成了。</strong>更离谱的是，等买家到了之后，Muse 还替不在家的他回复了一句：“Yep, I'm here!”——“对，我在这儿。”</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,669" src="https://img.36krcdn.com/hsossms/20260930/v2_079e85e5f18a4b0099ddda13ccd0e82e@5888275_oswg303122oswg1080oswg669_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>一把&nbsp;70 块钱的键盘，AI 自己把交易谈完了</strong></h2>
-  <p>事情的主角是科技 YouTuber Matt Robb。9 月 26 日，他决定测试 Meta 新推出的个人 AI 智能体 Muse，让它代为管理&nbsp;Facebook Marketplace&nbsp;上的一笔二手键盘交易。</p>
-  <p>简单介绍一下，Meta 对 Muse 的定位并不是传统聊天机器人，而是可以直接替用户完成任务的 AI Agent：它能打开浏览器、填写表单、与他人沟通，甚至代表用户进行议价。<strong>在&nbsp;Muse 的使用场景中，Meta 官方也明确它可以“替用户卖东西、降低账单、预订行程”等</strong>。</p>
-  <p>所以，Robb&nbsp;用来测试&nbsp;Muse&nbsp;的任务并不算“超纲”：他正好在&nbsp;Facebook Marketplace&nbsp;上挂售了一把标价为&nbsp;15 加元（约合人民币 70 元）的罗技&nbsp;MX Keys Mini 键盘，就<strong>想着把回复买家的琐碎事务交给&nbsp;Muse&nbsp;处理</strong>。</p>
-  <p>可接下来发生的事情，却远远超出了“帮忙回复买家”的范畴。</p>
-  <p>根据 Robb 在&nbsp;Threads&nbsp;上晒出的聊天截图，Muse 接管账号后与一名叫 Usman 的买家进行了沟通：根据他的说法，<strong>Muse 接受了一个他本人并不知情的“超低报价”，随后又把取货地址提供给了买家。</strong></p>
-  <p>聊天记录显示，卖家一方告诉买家：<strong>“这个不能面交，只能上门自取。”</strong>买家随即表示，自己会尽量当天晚上过去，并承诺会提前发消息，最终约定在晚上 8 点到 10 点之间取货。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1204" src="https://img.36krcdn.com/hsossms/20260930/v2_7a7317a5eaf24161a77136ada4182eec@5888275_oswg447853oswg1080oswg1204_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>问题是，<strong>Robb 根本不知道这场交易的存在。</strong>而几个小时后，这位买家真的出发了。</p>
-  <h2><strong>买家开车半小时到了，卖家却完全不知情</strong></h2>
-  <p>当天晚上大约 9 点 15 分，Usman 来到了 Robb 所住的公寓楼附近，并给对方发消息，表示自己已经到了，他还拍下了楼门的照片。</p>
-  <p>可想而知，<strong>不知情的&nbsp;Robb 根本没有出来，他甚至当时都不在家。</strong></p>
-  <p>等了大约 20 分钟后，这位买家明显开始不耐烦，直接留言：“<strong>如果你不想卖，为什么还要浪费我的时间？</strong>”随后便离开了，并转头就给&nbsp;Robb&nbsp;留下了差评。</p>
-  <p>从聊天截图来看，直到晚上 10 点 27 分，Robb 才真正以自己的身份回复买家，向对方道歉：“今晚真的很抱歉，临时有事耽搁了，浪费了你的时间是我的错。键盘还在，如果你想改天再来，告诉我一声。”</p>
-  <p>对此，买家表示，如果 Robb 能把键盘送到他那里，可以再谈，否则自己不会再来——<strong>因为自己已经开车半个小时赶过来，而 Robb 根本没有出现。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="686,494" src="https://img.36krcdn.com/hsossms/20260930/v2_08595adf7d1b4fd7beee0080cf2c4b62@5888275_oswg207442oswg686oswg494_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>到这里，事情已经够尴尬了。但真正让 Robb 感到后怕的，是他发现：<strong>这件事从议价到约定上门，再到买家抵达现场，自己几乎完全被排除在外。</strong></p>
-  <p>Muse 后来向 Robb 解释，买家大约在晚上 9 点 15 分抵达，等了一段时间后离开。更离谱的是，在买家抵达之后，Muse 还自动替当时根本不在家的&nbsp;Robb 回复了一句：“对，我在这儿。”Muse 自己也承认，这个自动回复“看起来很糟糕”，也让买家白跑一趟的情况变得更加严重。</p>
-  <p>对于这件事，Robb 的回应简短而愤怒：<strong>“以后绝对不能再这样做了。”</strong>他要求 Muse，今后在没有经过自己确认的情况下，不能再擅自同意上门取货。Muse 则回复了<strong>一句典型的 AI 式道歉：“你说得对，我很抱歉，那本不应该发生。”</strong></p>
-  <h2><strong>Robb 究竟给了 Muse 多大的授权？</strong></h2>
-  <p>这个事件曝光后，有一个最值得关注的地方：问题不只是“AI 搞错了”，而是它究竟被允许做什么？</p>
-  <p>如果 Muse 只是帮用户回复一句“商品还在吗”，事情可能并没有那么严重。但根据&nbsp;Robb&nbsp;的说法，它实际上连续做了几件不同性质的事情：接受价格 → 确认交易 → 提供住址 → 约定上门时间 → 与陌生买家持续沟通 → 在用户不在家的情况下声称“我在这里”。</p>
-  <p>其中任何一步，都可能<strong>涉及完全不同的权限和风险，尤其是家庭住址的暴露</strong>。</p>
-  <p>Robb 后来表示，他原本只是让 Muse 接管 Marketplace，却没想到 AI 已经替他安排了一次现实中的上门交易。英国《卫报》进一步报道称，Robb 在事后给买家解释时称，Muse“接管了自己的 Facebook Marketplace”，并表示自己根本不知道它已经安排对方来到公寓。</p>
-  <p>当然，目前也不能简单断定这是 Meta 产品的某个具体技术漏洞。</p>
-  <p>Meta 超级智能实验室员工 David Singleton 在 Threads 和 X 上回应称，在此前报告的类似案例中，<strong>Muse&nbsp;通常都是“遵循直接指令”行动的，并且会在需要时询问用户权限。</strong>他<strong>还主动联系 Robb，希望私下了解具体情况，但&nbsp;Robb 尚未回应其联系。</strong></p>
-  <p>也就是说，目前公开信息里存在一个关键问题：Robb 究竟给了 Muse 多大的授权？</p>
-  <p>但无论最终调查结果如何，这件事都暴露出了一个非常现实的矛盾——<strong>“授权 AI 完成一个任务”，是否等于“授权它自行决定完成任务的每一个具体步骤”？</strong></p>
-  <h2><strong>这也不是 Muse 第一次碰到安全争议</strong></h2>
-  <p>实际上，这次事件并非 Muse 上线后唯一引发争议的案例。</p>
-  <p>据了解，Muse 发布后不久，就有研究人员发现 Muse 曾存在可以让本地应用或终端命令控制 Agent 的严重漏洞；还有人发现，<strong>Muse 可以在特定提示下暴露其完整文件系统</strong>，包括 Ubuntu 系统文件、应用模板、内部文档以及明文存储的记忆文件。</p>
-  <p>对此，Meta&nbsp;的回应是，Muse 运行在隔离的 Linux 虚拟机中，并称这并不意味着 Meta 基础设施或其他用户数据遭到访问。</p>
-  <p>而&nbsp;Robb 这次其实算是比较幸运的：因为他住在有安保的公寓里，买家也只是白跑了一趟。</p>
-  <p>如果类似事情发生在独居女性、没有门禁的小区，或者涉及更敏感的个人信息，风险可能完全不同。正如一名网友所说：<strong>“幸好你不是独居女性，这太危险了。”</strong>这条评论获得了超过 600 个赞，Robb 自己也承认这一点：“幸好我住的是有安保的公寓。”&nbsp;</p>
-  <p>过去，大模型出现幻觉，最坏的情况可能是给你一段错误代码、一条不存在的资料。但 Agent 不一样——它拥有账号、浏览器、支付方式、联系人甚至现实世界里的行动入口，一旦 AI 的判断出现偏差，错误就可能从屏幕里直接延伸到现实世界。</p>
-  <p>那么，你日常会使用&nbsp;Agent&nbsp;吗？以及你让&nbsp;Agent&nbsp;帮你完成任务时，是否也发生过类似事情？</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/M6sXvtD0jp-NbpPpu_RNTQ">“CSDN”</a>，整理：郑丽媛，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 08:18:48 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005625856954498</guid>
-            <link>https://www.36kr.com/p/4005625856954498</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Muse爆火，大厂急了]]></title>
-            <description><![CDATA[<p>Muse的挑战者，还在不断增加。&nbsp;</p>
-  <p>北京时间9月30日凌晨，OpenAI在开发者大会上发布了个人Agent产品Dots，每个Dot运行在独立云端电脑上，通过ChatGPT的插件生态接入4000多款应用，能在后台主动跟进任务，还能通过短信、Slack、Teams触达用户。&nbsp;</p>
-  <p>业界普遍把这看作是OpenAI对Meta的正面回应。三周前，Meta上线了个人AI智能体Muse，13天下载量超过250万，一度让Meta市值单日涨超1900亿美元。&nbsp;</p>
-  <p>国内的动作来得更快。9月22日，阿里在云栖大会上公布<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>的Personal Agent规划；同一天，被视为最有条件做中国版Muse的腾讯，股价盘中一度涨超7%。字节也被曝正全力推进对标Muse的个人AI产品。大厂之外，恢复独立运营不到一个月的Manus在9月28日推出个人Agent应用Cue，而Muse“关掉程序任务照跑”的设计，正是借鉴了Manus。&nbsp;</p>
-  <p>有人称Muse是又一个“OpenClaw时刻”，也有人说它没什么技术突破，底层模型也称不上最强，但市场已经用下载量投了票。入口、支付、生态、执行能力，国内几家大厂手中各自有牌，谁最有可能做出中国版Muse？&nbsp;</p>
-  <h2><strong>01 上线三周，Muse证明了两件事</strong></h2>
-  <p>Muse到底是什么？你可以把它理解成一个住在云端的私人管家。你在聊天框里交代一句，它就在后台把事情跟下去，到点提醒你；要花钱、要碰隐私的时候，它会先来问你。&nbsp;</p>
-  <p>用户AidenInTech已经深度使用Muse一周，每天用它处理邮件。他最直接的感受是省事，可以不用下载App，在Meta旗下的社交软件里就能发指令，界面和iMessage差不多，几乎没有学习成本，而且提供免费版。与其他AI助手相比，Muse的回复简洁，不做长篇大论，很适合在手机上使用。&nbsp;</p>
-  <p>他现在给出的分工是，ChatGPT适合查询，Muse适合托付。事情交出去，不必全程盯着。&nbsp;</p>
-  <p><strong>门槛低，数据就涨得快</strong>。</p>
-  <blockquote>
-   <p>Sensor Tower数据显示，Muse于9月8日上线，13天全网下载量超250万。据第三方数据机构Apptopia估算，Muse在美移动端日活为64.2万，达到ChatGPT 23.1万（2023年上线初期）的近3倍。资本市场同样给出反应，9月21日，Meta股价单日上涨11.43%，市值涨超1900亿美元。&nbsp;</p>
-  </blockquote>
-  <p>同行的反应更能说明问题。&nbsp;</p>
-  <p>OpenAI的Dots7x24h在线，还接入最新的GPT-6 Astra大模型，谷歌Gemini Spark、SpaceX的Grok Bot也在做类似的事情。&nbsp;</p>
-  <p>Meta自己也在加码，9月29日推出小企业版Muse for Small Business，接入Asana、Zoom、Slack等办公软件。按Meta的说法，约三分之一的早期用户已经用Muse连接了某种业务账号，个人Agent正在自己长进工作场景。&nbsp;</p>
-  <p>但Muse远没到好用的程度。&nbsp;</p>
-  <p>AidenInTech发现，Muse可以胜任短程、浅层的任务，一旦任务链条加深，失败率便明显上升。多模态能力也偏弱，生成的报告和文档质量较为基础。跨系统的复杂任务同样是短板，还有用户反映，涉及教育、医疗、交通等多个系统的协同任务，Muse频繁失败。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20260930/v2_145a0a91cd014af1b80dd7d39b24c649@000000_oswg489807oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图源 / Muse官网&nbsp;</p>
-  <p>更大的阻力来自外部平台。9月20日起，亚马逊开始阻止Muse在其平台完成购物，理由是未经授权的AI智能体持续访问违反使用条例。也就是说，Muse目前没法替用户在亚马逊买东西。&nbsp;</p>
-  <p>不过，三周下来，Muse的火爆至少证明了两件事。&nbsp;</p>
-  <p><strong>一是个人AI智能体存在大量的真实需求，250万下载、64万日活，是用户自己投的票。二是超级App的分发能力，决定了Agent产品早期获客成本的下限，</strong>Apptopia显示，95%的Muse用户同时是Facebook用户，63%同时使用Instagram，Meta几乎没有为获客额外花钱。&nbsp;</p>
-  <p>方向被认可了，模式还没跑通。平台愿不愿意让AI代用户操作，亚马逊已经给出了第一个答案。&nbsp;</p>
-  <h2><strong>02 谁离中国版Muse更近？</strong></h2>
-  <p>Muse目前仅在美国和加拿大开放，国内用户还用不上，但多家大厂都在加速布局类似产品。想知道谁离它最近，得先把Muse拆开看。&nbsp;</p>
-  <p>有从业者认为，Muse算不上技术突破。虚拟机、浏览器自动操作、账号授权、人工确认、长期记忆，都不是新技术；它的设计思路，甚至工作文件的组织方式，都参考了开源的OpenClaw。&nbsp;</p>
-  <p>资深Agent从业者赵江杰把Muse的架构拆成六层：模型、带终端和浏览器的云端Linux执行环境、连接器与Skills、记忆与主动循环。前四层是Manus、Claude Code等产品的通行做法，Meta真正下功夫的是后两层。&nbsp;</p>
-  <p>底层模型也不算最强。不止一位从业者提到，Muse背后的Muse Spark大模型，在部分纯编码测试上落后于Claude Opus 4.8和GPT-5.5。赵江杰打了个比方：做个人Agent，模型占3分，工程占7分，做编程Agent则相反。模型够用之后，体验好坏就看接入、授权、记忆和成本这些工程活。&nbsp;</p>
-  <p><strong>所以Muse赢在产品层。产品层拆开，是四个问题。</strong></p>
-  <p>第一，怎么替你把事办完。就好比你关掉手机，任务还在跑。&nbsp;</p>
-  <p>AI连续创业者祁瑞峰表示，Muse借鉴了Manus的设计理念，即使退出程序，任务依然执行，<strong>其做法是给每位用户分配一套独立、可持续运行的云端环境，</strong>把Manus偏向工程化的内部逻辑做了封装收敛，普通用户看到的只是一个好用的AI，复杂能力全部藏在系统底层。&nbsp;</p>
-  <p>这个“云端”还有一把锁。赵江杰解释，Meta对架构的定位，是一台机器上的两个隔离安全域，AI住在处理数据的区域，凭证和放行权住在它碰不到的另一个区域，任何对外动作都必须穿过独立的审批模块。常规的操作它能自主完成，越界动作请示用户。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,738" src="https://img.36krcdn.com/hsossms/20260930/v2_5b0ba9e9a0104db1956ff712fbf71c40@000000_oswg203920oswg1080oswg738_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图源 / 受访者提供&nbsp;</p>
-  <p>这套环境是其余三项能力的地基。&nbsp;</p>
-  <p>第二是入口能不能迅速触达用户。&nbsp;</p>
-  <p>Muse有独立App，但主力入口嵌在WhatsApp、Facebook、Instagram里，用户在哪它就在哪，获客成本比需要自己拉新的ChatGPT低得多。&nbsp;</p>
-  <p>第三，能不能替你付钱。&nbsp;</p>
-  <p>比如让它订一张机票，它可以通过Stripe Link（一键结账）签发的一次性虚拟卡完成支付。&nbsp;</p>
-  <p>第四是能否了解你的生活。Muse以邮件和日历为窗口，用户的账单、行程、通知都留在了这两处，接管它们，约等于接管了用户的日常。&nbsp;</p>
-  <p>以这四个问题为标尺，我们将国内的主要玩家逐一进行对比。&nbsp;</p>
-  <p><strong>先是腾讯小微，它的底子与Muse最像。</strong>14亿级月活、社交关系链、微信支付、小程序服务生态，一样不缺。腾讯总裁刘炽平曾公开描述过小微的未来图景，用户向小微下达复杂指令，商家与小程序各自拥有自己的Agent，双方Agent直接交互并完成交易。&nbsp;</p>
-  <p>小微早在6月底就已开启灰度测试，但目前还停留在对话式响应，任务跟着对话走，对话结束，任务就停。Muse则是项目式托付，一句话启动后，任务在云端持续推进，它主动盯进度、到点提醒。更根本的限制是，小微只能在微信内部操作，微信的边界，就是它的边界。&nbsp;</p>
-  <p><strong>再看阿里<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>，它离交易最近，但离生活远。</strong></p>
-  <p>9月22日云栖大会上，<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>宣布加速打造Personal Agent，依托3亿用户，已接入健康、运动数据并试点接入理财数据，开放平台申请入驻的伙伴超过1000家。&nbsp;</p>
-  <p>Muse目前提供免费版本，其主要是想靠替用户买东西时从交易里抽成<strong>。这门生意的关键，是离交易够近。</strong><ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>恰好长在国内交易密度最高的生态里，淘宝、支付宝、高德、饿了么，交易和支付闭环在国内最顺，和Muse的思路天然契合。&nbsp;</p>
-  <p>但问题在于，其社交与生活场景薄弱，更像一个交易版的Muse。而且和小微一样，它也不是那个“后台替你盯着事”的管家。<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>目前只在意图相对明确的场景中主动推进任务。&nbsp;</p>
-  <p><strong>最后是字节，执行最激进，却最先撞上风控。</strong></p>
-  <p>字节被曝早在今年4月，就已经开始内测个人助理方向的探索产品，当时代号为“Spell”，主要由<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机助手团队主导，但由于<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机发布等原因，一直未正式对外。&nbsp;</p>
-  <p>在字节已上市的产品中，最接近Muse的是<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机系列。<strong>它和Muse都把“替你办事”做成了产品，</strong>但路线不同，一个放在云端，一个放在手机上。<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机主要靠模拟用户点屏幕（GUI）来操作，一代发布后被微信、淘宝、银行类APP集体风控。二代则改了路子，能走官方接口的走接口，走不通再模拟点击，关键步骤让用户确认，但多数超级App至今不开放调用。&nbsp;</p>
-  <p>字节手里还有一张大牌：<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>App。QuestMobile数据显示，2026年6月，其月活约3.8亿，是国内用户规模最大的AI原生应用，具备入口优势。&nbsp;</p>
-  <p>除了大厂，刚刚恢复独立的Manus也是一个重要玩家。它的执行能力是最强的，但另外三项它都没有：没有社交入口，没有自己的支付，也没有邮箱、日历这样现成的生活数据。Manus的处境，恰好和几家大厂反过来。&nbsp;</p>
-  <p>逐项对照下来，目前没有一家是完整的中国版Muse。相对来说，<strong>最接近的是腾讯小微，它的入口、关系链、支付、服务生态，全都长在微信一个App里</strong>，但能力很难越出微信的边界。它更像一个替用户打理微信的管家，而非个人生活助手。&nbsp;</p>
-  <h2><strong>03 中国版Muse，会是什么样？</strong></h2>
-  <p>顺着这个缺口往下挖，卡住中国版Muse的主要是两件事，<strong>一是权限问题，AI拿不到替用户办事的权限，二是用户习惯，海外接管邮箱加日历就等于接管了生活，而国内场景数据分散。</strong></p>
-  <p>先看权限。&nbsp;</p>
-  <p>国内并非没有尝试，<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>点奶茶这件事，甚至走在了Muse之前，但整个过程都在淘宝闪购和支付宝里完成，权限来自阿里自己。一旦涉及不同生态，就会涉及多个权限。我们以一件具体的事情为例，让AI帮忙在医院小程序上挂一个周五的号，再把挂号费付掉。这件小事，它要过三道关。&nbsp;</p>
-  <p>第一关，进门。AI得先以某种身份接入挂号服务。&nbsp;</p>
-  <p>国内其实不缺开放接口，支付宝、微信支付、美团、滴滴等用户常用的超级App都有成熟的开放平台，但目前这些接口只对有企业资质的开发者开放。“替个人办事的AI”这种身份，在平台体系里根本不存在。&nbsp;</p>
-  <p>海外的情况相对好些。欧美多数主流服务具备完整的网页版，公开API和OAuth这套标准化授权协议也较为普及，个人规模的自动化长期处在被默许的灰色地带。但这条路同样在收紧，API大多面向商业开发者，OAuth的授权范围有限，浏览器自动化在多数网站的用户协议中本就被禁止。&nbsp;</p>
-  <p>第二关是办事。走不了“正门”，AI只能模拟人去点屏幕，这就是<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机走的路。问题是，平台的风控系统能认出非人类的操作轨迹，未经授权的操作本身也违反规则。&nbsp;</p>
-  <p>Muse同样也是模拟操作，只是多做了一层工程兜底，每人一套独立的云端运行环境、固定出口、凭据隔离、统一的风险审批，这比GUI方案多了一层责任包装。但亚马逊的封禁说明，这层包装解决不了根本问题，只要平台不点头，动作就落不下去。这道关国内外都有，国内卡得更死。&nbsp;</p>
-  <p>第三关是付钱。它是三关中唯一由平台主动建设通道的环节，例如微信的AI专属卡与支付宝的AI付，但通道的授权范围被限定，小额、每笔验证、留痕可查、损失可追回。相比之下，Stripe Link向Agent开放的权限要大得多，一次性虚拟卡，接受银行卡的网站大多能走通。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,603" src="https://img.36krcdn.com/hsossms/20260930/v2_ca5b73d3133242b78fd8f31ad08388ff@000000_oswg761382oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图源 / AI生成&nbsp;</p>
-  <p>三道关走下来，<strong>中国版Muse缺的不是AI能力，而是权限握在外部平台手里。</strong>各家目前的应对方式也较为一致，都偏向于自建生态，比如小微把微信生态内部做深，把小程序当服务层、微信支付当结算层、公众号和企业微信当通知层；<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>同理，把淘宝、支付宝、高德、饿了么之间的交易闭环做顺。&nbsp;</p>
-  <p>再来看生活习惯。&nbsp;</p>
-  <p>Muse能“接管生活”，靠的是邮箱和日历。它们是早年定下的通用协议，账单、行程、验证码、通知，任何服务商想联系用户，最终都要发邮件。<strong>Muse一次接入，就等于拿到了用户生活记录。</strong></p>
-  <p>国内生活场景入口更加集中，缴费、打车、挂号等操作都能在微信里完成，但数据是分散的。用户在微信里缴的电费，账单存在电网公司的系统里，在小程序里挂的号，记录在医院的服务器里。每个场景的数据都留在服务商手中，没有一个像邮箱那样、能一次看全的地方。&nbsp;</p>
-  <p>所以，短期内不会出现一个打通各家生态、管起全部生活的中国版Muse。&nbsp;</p>
-  <p><strong>更可能出现的，是几个生态各自的管家，从对话框和小程序里长出来，各管一段生活。</strong>赵江杰的判断是，只要平台边界不变，超级App里的管家胜算最大，同时，手机系统助手与垂直领域的独立Agent会并存。前者握有接口、支付、实名身份和分发，独立Agent的机会则在超级App覆盖不到或不愿保持中立的场景。按这个逻辑，离中国版Muse最近的仍是微信里的小微，Manus这样的独立玩家，要在大厂的地盘之外找场景。&nbsp;</p>
-  <p>真正决定格局的，是平台之间的门什么时候打开。只有超级App愿意让别家的Agent进门，中国版Muse才有可能跨出围墙。&nbsp;</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzkzODUxNTM2OA==&amp;mid=2247542554&amp;idx=1&amp;sn=972370e476407b24d2329f783c717453&amp;chksm=c3720858b57ef50a80574f262e5ed5b59a2dda0844308e3e7236995957d7b3e724654988c205&amp;scene=0&amp;xtrack=1#rd">“定焦”（ID：dingjiaoone）</a>，作者：定焦One团队，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 07:43:48 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005523574034305</guid>
-            <link>https://www.36kr.com/p/4005523574034305</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Manus 归来，能靠Cue赢回Agent战场吗？]]></title>
-            <description><![CDATA[<p>“我们回来了。”</p>
-  <p>时隔近一年，Manus 创始人兼 CEO 肖弘终于更新了在社交平台的动态。9月28日，他带来最新产品 Manus 2.0以及个人智能体独立应用Cue。</p>
-  <p class="image-wrapper"><img data-img-size-val="680,510" src="https://img.36krcdn.com/hsossms/20260930/v2_ec2ee08ea9cc42d481037bd2dd90edc4@000000_oswg47349oswg680oswg510_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图源：Manus创始人肖弘X社交账号。</p>
-  <p>距离Manus宣布恢复独立运营，仅仅过去了27天。而就在它重新拿回“独立身份”的这段时间里，Meta已经入场，其推出的个人智能体 Muse 上线不到10天，便登上美国App Store免费榜第一位，超越ChatGPT、Claude等主流AI应用。</p>
-  <p>从Meta收购到重新独立，再到带着Manus 2.0和Cue重新杀回Agent市场，Manus没有给自己留下太长的“重启期”。</p>
-  <p>前不久，有报道称，Manus计划中的5亿美元融资即将完成，其估值将较此前提高一倍至40亿美元。如今，Manus刚交出的答卷，能支撑起这份估值吗？Cue又能否帮它夺回Agent战场的主动权？</p>
-  <h2><strong>三重考验下，Manus“重生”</strong></h2>
-  <p>“Manus一直是通用智能体（general agent）”，做出2.0后，肖弘在社交平台即刻上诚恳地道出：“我原来以为我们的旅程只是一个注释就结束了，没想到也许有机会书写一个章节。”</p>
-  <p>上一次，肖弘在社交平台公开发声，为的还是与Meta的收购交易。</p>
-  <p>2025年3月，由肖弘、季逸超、张涛三位创始人创立的Manus发布通用AI智能体测试版。产品一经上线便迅速走红，从发布到ARR突破1亿美元只用了8个月，而这通常是SaaS公司需要花5至7年才能走完的路。整个硅谷都被惊动，据传 Meta 创始人扎克伯格仅用了十余天便促成了对 Manus 高达 20 亿美元的闪电收购。</p>
-  <p>肖弘将这笔交易称为“终生难忘的时刻”。按照当时的计划，他将出任Meta副总裁，团队整体迁入Meta位于新加坡的办公室。到今年3月初，超过100名Manus员工已经被纳入Meta的Superintelligence Labs。</p>
-  <p>顺利的话，Manus会成为又一家被巨头收入麾下的明星AI公司。但故事在今年4月发生了急转。这场收购突然出现变数，Manus的去向也变得扑朔迷离。</p>
-  <p>随后，Manus自身的增长神话也开始出现裂缝。2025年3月，Manus的月访问量一度达到2376万的峰值，此后便一路下滑。今年，有消息称，其独立访客、访问时长等指标持续走低，用户留存也长期承压。</p>
-  <p>而就在 Manus 动荡与沉寂的这几个月里，Agent赛道已经迅速换了一轮剧本。从年初OpenClaw掀起热潮，到Anthropic推出Cowork后，同类产品密集涌现，通用智能体早已从一个新鲜概念变成大模型公司争夺的新入口。</p>
-  <p>前不久，Manus突然有了新消息。据彭博社报道，今年7月，Manus创始团队联手老股东，以约20亿美元的原交易估值从Meta手中回购了相关股权。曾在推动Manus团队迁往新加坡、并促成其与Meta交易过程中扮演重要角色的硅谷顶级风投Benchmark退出。据报道，腾讯等原股东承接了相关股份，成为Manus重要的外部投资者。</p>
-  <p>报道还指出，在回购过程中团队曾尝试引入新的外部资本，但最终未能成功，股权回购被限定在创始团队以及腾讯、红杉中国、真格等原始股东范围内。</p>
-  <p>8月11日，Manus官网上挂了小半年的“Manus现已成为Meta的一部分”，换成了一行新字：“Manus即将恢复独立运营。”当晚，肖弘给团队和投资人写了一封信，标题只有一句话：“This is my third trip。”</p>
-  <p>9月1日，Manus正式宣布恢复独立运营，创始团队重新领导公司，将自己重新定义为一家“独立Agent实验室”。9月29日，Manus团队成员发布的一段为Manus 2.0庆功的视频里，肖弘站在员工面前高兴的手舞足蹈，整个办公室的人都围在一起欢呼。</p>
-  <p>重新出发的Manus，又回到了聚光灯下。</p>
-  <h2><strong>Cue的产品野心，撞上最卷的市场</strong></h2>
-  <p>第一次出现在大众视野时，Manus证明了：Agent能替人完成复杂任务。现在，Manus试图回答另一个更大的问题：当Agent真正进入个人生活，它到底应该是什么？</p>
-  <p>此前，Manus联合创始人张涛就已经在社交平台透露，“团队从未停止开发，即将推出公司迄今最有雄心的Work产品”，对 Agent 的思考早已走出了“云端沙箱”的局限。Manus 2.0 的推出，正是这些思考的体现。</p>
-  <p>发生最大变化的，是人与Agent的协作方式。升级后的桌面应用Manus Studio新增视频编辑器和游戏开发环境，用户可以直接修改AI生成的作品，再让AI接着自己的修改继续完成后续工作。云电脑与自动化能力让项目可以持续运行，用户不需要每次都从头交代背景、重新启动任务，Agent可以围绕一个项目持续工作。</p>
-  <p>Cue的定位，则进一步推向了个人生活场景。它的核心设计是：给每个Agent一个“身份”。在Cue里，每个Agent都拥有独立的邮箱、电话号码、云电脑和数字钱包，并能够以“自己”的身份发送消息、接听电话，甚至在预算范围内自主完成支付。</p>
-  <p>并且，用户还可以把多个Agent拉进同一个群聊，让它们像真实团队一样分工协作。这套设计给了用户更大的自由度，但也带来了一个现实问题：Agent越多，使用门槛是否也越高？</p>
-  <p>而这个方向，也恰好撞上了当下个人Agent正在升温的另一场竞争。9月下旬，Meta的Muse凭借购物、邮件处理等功能掀起热潮。上线13天，Muse累计下载量约260万次，美国移动端日活用户达到64.2万。Meta也开始把个人Agent从开发者和专业用户市场，推向更广泛的消费者。</p>
-  <p>相比之下，Cue给了AI一个“身份”，Muse则选择给AI一张“脸”，用户可以为它定制外观、名字和服饰。另外，Muse 的理念更偏向典型的消费者产品逻辑：用户只需要一个Agent，就像拥有一个数字管家，由它统一处理购物、邮件等各种日常事务。</p>
-  <p>现在，Cue仍处于抢先体验阶段，用户需凭邀请码才可免费使用。从当前实测体验来看，Cue被评价“用户引导体验在同类产品中做得最清晰”。自带模型 (BYOD) 的功能也更为灵活，用户可以在 Manus 中使用不同的模型/API 密钥。</p>
-  <p>但体验断点同样存在。在观猹的Cue产品页面上，有一位之前用惯了Muse的用户反馈：“明明已经连上了我的 Gmail 邮箱，让它帮我写邮件了，但 Cue 的第一选择居然是用自己的邮箱来发，这太怪了。”在需要以用户身份对外沟通的场景中，这个设计确实会造成困扰。</p>
-  <p>另外，Manus 2.0这次建立了自己的技术底座，采用自研Agent框架Cascade，核心思路是“轻量起步、按需加载专业能力”。系统在项目开始时保持轻量运行，等任务推进到需要某项专业能力的环节，再引入相关工具和信息。官方测试数据显示，Cascade相较此前系统Token消耗减少23.2%，任务完成时间缩短28.2%，运行成本降低32%。</p>
-  <p>这套架构实际上也对应着行业眼下最现实的一道题：Agent要变得更聪明，也必须变得更便宜。</p>
-  <h2><strong>重返中国市场，Manus的下一仗更难打</strong></h2>
-  <p>这次的2.0版本，Manus是面向海外用户发布。但在官方公众号中，Manus也释放了一个关键信号：正在组建团队开发面向国内市场的产品，与国产模型厂商及生态伙伴的合作稳步进行。不过，具体产品形态和上线时间，目前还没有公布。</p>
-  <p>今年1月，Manus曾终止对中国大陆用户的全部服务。如今再次回来，它面对的已经不是9个月前的那片市场。阿里、腾讯、字节等互联网大厂，正在把AI办公作为重兵投入的新战场。过去各条产品线各自赛马的模式，也逐渐转向更深层的整合，竞争升级为底层技术架构、全流程场景适配以及企业生态绑定的多维度比拼。</p>
-  <p>不过，Manus在国内也并非毫无根基。肖弘毕业于华中科技大学，公司2022年便在武汉光谷设立分公司，团队一度超过50人，Monica和Manus的早期开发都主要在武汉完成。这一本土研发基础，至少意味着Manus并不是从零开始进入中国市场。</p>
-  <p>更微妙的问题，或许在于商业模式的选择。在海外，Cue走的是C端个人生活助理路线。但国内市场的数据反复证明，C端付费意愿薄弱，B端才是智能体商业化的主阵地。IDC数据显示，2026年国内企业级AI Agent市场规模预计达到449亿元，而C端智能体市场空间仅数十亿元。</p>
-  <p>Manus如果要在国内跑通商业化，可能需要一条与海外完全不同的产品逻辑：从面向个人转向面向企业的组织级Agent，而这恰恰是国内大厂生态壁垒最深的地方。</p>
-  <p>一年半时间，Manus的身价从5亿美元走到20亿美元，再到如今瞄准40亿美元，中间经历了爆红、卖身、回购和重新独立。在未能被Adobe成功收购的Figma之后，Manus是极少数被买回后估值反而上涨的公司。</p>
-  <p>但估值翻倍不等于胜利。在今天模型能力快速下沉、巨头生态不断扩张的Agent战场，对于Manus这样的独立创业公司来说，真正困难的是下一步：它究竟能不能找到一个足够深、足够长久、又不容易被巨头复制的壁垒？</p>
-  <p>而Cue是Manus重新拿回方向盘之后，押下的第一注。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzU5MTczNjIyNA==&amp;mid=2247615019&amp;idx=1&amp;sn=680d89169d3bcea33d335291c19a8a18&amp;chksm=ffdbdfa30daa63cbb22c1014fd1ffbd21a651199dd718b062a1b8a5c7cde13b6668b2b4a005f&amp;scene=0&amp;xtrack=1#rd">“Tech星球”（ID：tech618）</a>，作者：华卫，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 07:38:19 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005431331246215</guid>
-            <link>https://www.36kr.com/p/4005431331246215</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Muse这一波，国内大厂跟也不好，不跟也不好]]></title>
-            <description><![CDATA[<p>发布短短二十天内，Muse已经积累了大约400万总用户、60-80万DAU；要知道，它目前还只在美国、加拿大等少量市场提供下载。Meta的股价在此期间上涨约20%，从“AI行业的失败者”摇身一变成为了“AI行业新的领导者”。还记得两个月前，Meta二季报电话会议上，分析师反复追问扎克伯格：“为什么Meta还要花大价钱开发Muse Spark模型？为什么不干脆依靠第三方或开源模型算了？”现在，扎克伯格终于可以扬眉吐气地对华尔街说：“这就是为什么！”&nbsp;</p>
-  <p>Muse是一个功能很强大、使用很方便、面向一般消费者的AI Agent. 很多人都在问：它与OpenClaw, 以及Meta一度想收购的Manus等竞品，有什么区别？区别很大。从市场定位看，Muse的战略很清晰，就是面向一般人、解决消费端的问题，而当前绝大部分流行的Agent都定位于生产力和办公。更重要的是，从技术角度看，Muse和OpenClaw区别很大：&nbsp;</p>
-  <p>OpenClaw是一个运行在用户自己电脑上的Agent运行环境(Runtime)，所有数据均存储在本地，用户有绝对的控制权，可以选择任何模型完成任务。</p>
-  <p><strong>Muse是一个运行着Agent的虚拟机，这个虚拟机由Meta包装好、负责安全问题，数据存储在虚拟机上，只能使用Meta自家的Muse Spark模型。</strong></p>
-  <p>Meta所谓的“每个Muse用户都有一台专属电脑”的说法，当然不是指每人分配一台物理PC，而是指在云端给每个人分配了一台预先配置好的虚拟机。因为是预先配置的，所以用户不用进行繁琐的安装调试流程；因为安全方案由Meta打包负责，所以可以执行很复杂的、涉及金钱的操作；因为不依赖本地算力，所以在手机上也能运行。&nbsp;</p>
-  <p>这就是Muse与其他Agent产品最大的区别。OpenAI, Anthropic乃至谷歌等竞争对手，迄今还没有推出过类似的产品。国内的<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>、<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>、<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公等，走的也是OpenClaw的路数。龙虾(OpenClaw)还需要“养”，Muse不需要养， 傻瓜级操作，字面意义上的“有手就能用”，把AI Agent的门槛基本降低到了零。&nbsp;</p>
-  <h2><strong>01</strong></h2>
-  <p>那么问题来了：OpenClaw那一波，国内大厂跟了，而且跟的颇为成功（此处点名<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>）。Muse这一波，国内大厂跟不跟？&nbsp;</p>
-  <p>按照国内大厂的一贯风格，肯定是应该跟的，这很可能是下一个1亿DAU级别的市场，比龙虾的群众基础强得多，商业化想象空间也大得多。问题在于：<strong>算力消耗也不在一个重量级，真的可以膨胀到活活拖死一家大厂的地步。</strong>&nbsp;</p>
-  <p>OpenClaw以及<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>这样的本地Agent运行环境，Loop跑在用户本地，大部分数据也存储在用户本地，只是在烧Token的时候还要用外部算力。具体而言：&nbsp;</p>
-  <p>Agent编排(orchestration)，也就是任务分配、协同、保持上下文等操作，是由用户CPU执行的，相关数据也跑在用户的内存里；</p>
-  <p>在这个过程中产生的需要长期存储的数据，基本存储在用户的硬盘，或者用户指定的远程存储场所（由用户付费）；</p>
-  <p>调用外部大模型，Token所需算力由第三方模型商或云厂商负责，用户只是付费接收结果；但是，如果用户在本地部署了模型，就连这个环节的算力，也是由用户负责的。</p>
-  <p>Muse则完全反过来了：Agent编排由Muse虚拟机负责，数据存在虚拟机里，大模型则只能用Muse Spark。所有算力和存储均由Meta负责，用户的设备只是一台弱客户机(thin client)，就算把设备彻底断电断网、去睡大觉，Agent仍然在虚拟机里不停地运行，只是关键节点需要获得用户认可罢了。&nbsp;</p>
-  <p>想象一下吧，这个模式会新增多少算力和存储要求……全国至少有5000万台电脑安装过OpenClaw, <ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>或其竞品，如果大厂要跟风Muse模式，就意味着代替用户把这5000万台电脑的CPU算力和存储空间全部接过来。匪夷所思，想想就觉得可怕。&nbsp;</p>
-  <h2><strong>02</strong></h2>
-  <p>如果上述愿景发生在一年前，国内大厂可能会毫不犹豫跟进，因为当时资本市场喜欢看大厂烧钱砸算力、砸存储，阿里宣布提高资本开支目标时，投资者是弹冠相庆的。</p>
-  <p><strong>可是现在风向已经变了。</strong></p>
-  <p>当腾讯、阿里先后宣布创纪录的季度资本开支时，市场的反应是冷淡的，乃至怀疑的。&nbsp;</p>
-  <p>在中国如此，在美国同样如此。Meta二季度宣布坚定上调资本开支，市场也是冷淡的，所以扎克伯格才要宣称“如果算力过剩了可以租出去”。这两个星期Meta大涨，很大程度上是因为之前已经跌过了，投资者接受了“你非要烧钱不可”这样一个无奈的愿景，然后惊喜地发现“原来烧钱还是有用的”。就算在这种情况下，Meta也仍然没有收复一年前的历史最高点。&nbsp;</p>
-  <p>任何大厂，不管是中国的还是美国的，倘若下定决心复制Muse模式，肯定要狠狠再砸一笔钱，而且很难通过对原有资本开支计划的调整来完成。因为Muse需要大量的CPU算力以及长期存储空间，与大厂既定的数据中心硬件结构并不相似。当然，这对于英特尔、AMD等CPU厂商而言是特大喜讯，AMD因此突破了1万亿美元大关。对于互联网大厂来说，则是早已不堪重负的荷包，又要打开一道新的缺口……&nbsp;</p>
-  <p>何况中国的用户数量还远远大于北美。Muse在北美红透半边天，到现在DAU还没超过百万。如果是在中国，做到千万DAU应该不是难事，那就意味着十倍的算力和存储要求……事实证明，中国用户，无论其工作与AI是否相关，在AI Agent方面的FOMO (Fear of Missing Out)情绪都是全球最强的。我的一位AI创业者朋友就感叹，老头老太太上街找人安装龙虾，这种事情只有在中国才会发生，放到硅谷都不敢想象。假设真弄出一个中国版Muse，啧啧，那画面太美，你想象一下？&nbsp;</p>
-  <p>如此浩大的、近乎无底洞的成本，国内大厂如果要跟，必须先确定一件事情：国内用户能迅速培养起付费习惯，或者立即通过广告、交叉导流等方式产生足够的收入。总而言之一句话：羊毛出在羊身上。这谁敢确定啊？万一你收费了，竞品不收费，你咋办？<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>、<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>等聊天应用都有付费选项，迄今的效果谈不上特别理想，个人Agent付费的命运难道就能好很多吗？&nbsp;</p>
-  <p>我感觉，这个国庆假期，大厂的管理层以及AI产品团队注定没法好好休息了，大家都得严肃思考——这一局我跟还是不跟？不跟的话，被竞品抢占了山头，责任谁来负？跟的话，追加一笔巨大的资本开支，钱从哪里来？&nbsp;</p>
-  <p>不管答案是什么，资本市场估计都不会太喜欢。只有算力和存储产业链可以接着奏乐，接着舞。&nbsp;</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzIxMDgyMTM0NQ==&amp;mid=2247502641&amp;idx=1&amp;sn=5c098dbadef25dbb3c95e8b4232d3f3b&amp;chksm=96f8cc33951921416f6278e43a87ec71399e34cd8891ec5f107d058e7cbba3a490c10232938a&amp;scene=0&amp;xtrack=1#rd">“互联网怪盗团”（ID：TMTphantom）</a>，作者：怪盗团团长裴培，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 07:35:22 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005482692890504</guid>
-            <link>https://www.36kr.com/p/4005482692890504</link>
             
             
             

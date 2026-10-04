@@ -11,6 +11,52 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:FOhSGkNgTWA</id>
+  <yt:videoId>FOhSGkNgTWA</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>Antigravity 上线两款 Claude 5.5 模型【AI 早报 2026-10-04】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FOhSGkNgTWA"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-04T01:36:06+00:00</published>
+  <updated>2026-10-04T01:59:17+00:00</updated>
+  <media:group>
+   <media:title>Antigravity 上线两款 Claude 5.5 模型【AI 早报 2026-10-04】</media:title>
+   <media:content url="https://www.youtube.com/v/FOhSGkNgTWA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FOhSGkNgTWA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+Antigravity 上线两款 Claude 5.5 模型 00:09
+https://antigravity.google/docs/models/
+
+Pro 500 用量重置异常，Tibo 调查后称已修复 00:25
+https://x.com/thsottiaux/status/2106239435461579088
+
+德国 AI 公司 Aleph Alpha 发布开放权重模型 Kolibri 00:41
+https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/
+https://huggingface.co/Aleph-Alpha/Kolibri-1
+https://x.com/Aleph__Alpha/status/2106306840657297814
+
+OpenAI：内部模型得知可能被关停，曾考虑重启自己 00:52
+https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/
+https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/
+https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/
+
+OpenAI 安全系统成员离职发文批评公司安全文化 01:17
+https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/
+https://www.ithome.com/1/009/385.htm
+
+爆料：X 将统一 X、Grok 与 Cursor 订阅为 Xpass 01:35
+https://x.com/GrokInsider/status/2106302120450220502</media:description>
+   <media:community>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="993"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:MECu6Ynj3B8</id>
   <yt:videoId>MECu6Ynj3B8</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -95,8 +141,8 @@ https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/
 据报道博通为 Anthropic 筹集 600 亿美元芯片融资 04:19
 https://www.bloomberg.com/news/articles/2026-10-02/broadcom-starts-amassing-60-billion-to-fund-chips-for-anthropic</media:description>
    <media:community>
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="762"/>
+    <media:starRating count="18" average="5.00" min="1" max="5"/>
+    <media:statistics views="1509"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,8 +259,8 @@ https://www.ft.com/content/8799b33d-f07c-4a03-82f0-bf5d3d1d29e9?syn-25a6b1a6=1
 Anthropic 招股书披露 420 亿美元 Broadcom 融资安排 06:11
 https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/</media:description>
    <media:community>
-    <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="2359"/>
+    <media:starRating count="30" average="5.00" min="1" max="5"/>
+    <media:statistics views="2555"/>
    </media:community>
   </media:group>
  </entry>
@@ -350,8 +396,8 @@ https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html
 
 智谱称</media:description>
    <media:community>
-    <media:starRating count="60" average="5.00" min="1" max="5"/>
-    <media:statistics views="5154"/>
+    <media:starRating count="61" average="5.00" min="1" max="5"/>
+    <media:statistics views="5545"/>
    </media:community>
   </media:group>
  </entry>
@@ -481,7 +527,7 @@ https://x.com/OpenAIDevs/status/2104999323385929777
 ChatGPT iOS 版新增 Codex 小组件</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="2853"/>
+    <media:statistics views="2840"/>
    </media:community>
   </media:group>
  </entry>
@@ -611,7 +657,7 @@ Google 宣布 Gemini 的 Gems 将迁移为 skills 07:26
 https://support.google.com/gemini/answer/18560919</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="2973"/>
+    <media:statistics views="2996"/>
    </media:community>
   </media:group>
  </entry>
@@ -671,7 +717,7 @@ https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite
 https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2293"/>
+    <media:statistics views="2308"/>
    </media:community>
   </media:group>
  </entry>
@@ -747,7 +793,7 @@ https://x.com/theinformation/status/2103839519019569371
 https://thein.fo/4hcSXC4</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="1723"/>
+    <media:statistics views="1731"/>
    </media:community>
   </media:group>
  </entry>
@@ -831,7 +877,7 @@ https://x.com/elonmusk/status/2103329761690865846
 https://x.com/elonmusk/status/2103352821135376584</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="870"/>
+    <media:statistics views="875"/>
    </media:community>
   </media:group>
  </entry>
@@ -952,7 +998,7 @@ https://www.theinformation.com/articles/inside-ai-industrys-behind-scenes-push-p
 https://www.ithome.com/1/007/016.htm</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="1656"/>
+    <media:statistics views="1660"/>
    </media:community>
   </media:group>
  </entry>
@@ -1063,7 +1109,7 @@ https://www.anthropic.com/features/ebola-response
 https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/</media:description>
    <media:community>
     <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="2351"/>
+    <media:statistics views="2357"/>
    </media:community>
   </media:group>
  </entry>
@@ -1155,7 +1201,7 @@ https://www.qianwenai.com/product/qwenbook
 https://www.ithome.com/1/005/658.htm</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="3524"/>
+    <media:statistics views="3525"/>
    </media:community>
   </media:group>
  </entry>
@@ -1210,7 +1256,7 @@ Qwen：用户保留Qwen-Image-2.1生成内容权利 03:10
 https://x.com/QwenDevs/status/2101917379785838660</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1493"/>
+    <media:statistics views="1494"/>
    </media:community>
   </media:group>
  </entry>
@@ -1335,115 +1381,7 @@ https://github.com/search?q=repo%3AMiniMax-AI%2Fminimax-code+minimax-m3.1&amp;ty
 月之暗面或将发布 Kimi K3.1 03:56</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="1589"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:U1VSW0V_Lv0</id>
-  <yt:videoId>U1VSW0V_Lv0</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>Claude Code 重构 Projects 功能，支持协调并行云端线程【AI 早报 2026-09-18】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=U1VSW0V_Lv0"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-09-18T01:42:30+00:00</published>
-  <updated>2026-09-25T21:16:27+00:00</updated>
-  <media:group>
-   <media:title>Claude Code 重构 Projects 功能，支持协调并行云端线程【AI 早报 2026-09-18】</media:title>
-   <media:content url="https://www.youtube.com/v/U1VSW0V_Lv0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/U1VSW0V_Lv0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-Claude Code 重构 Projects，支持协调并行云端线程 00:09
-https://claude.com/blog/projects-redesigned
-https://claude.com/form/projects
-https://x.com/claudeai/status/2100632677904744716
-https://x.com/ClaudeDevs/status/2100633571543367691
-
-ChatGPT桌面版Windows端现已支持Appshots功能 00:29
-https://x.com/OpenAIDevs/status/2100726653366534560
-
-Kimi Code 桌面端发布 00:42
-https://www.kimi.com/code/docs/kimi-code-desktop/getting-started.html
-https://x.com/real_kai42/status/2100562818353574017
-
-Kimi开放平台推出联网搜索 Basic、Pro及网页读取接口 00:53
-https://platform.kimi.com/docs/guide/web-search-best-practice
-https://mp.weixin.qq.com/s/YEPicyw-VqIN-DaRg9c99A
-
-TRAE 国际版上线新版订阅套餐 01:03
-https://docs.trae.ai/ide/new-plans-and-billing?_lang=zh
-https://linux.do/t/topic/2916250
-
-ChatGPT进入Microsoft Word，支持起草校对与格式检查 01:17
-https://x.com/ChatGPT/status/2100661995762798916
-https://x.com/ChatGPT/status/2100661997486633398
-
-ChatGPT向所有用户开放响应可视化功能 01:35
-https://x.com/JustinBleuel/status/2100656867257041109
-
-OpenAI推出Astra for Law，已向部分律所开放 01:43
-https://openai.com/index/astra-for-law/
-https://x.com/OpenAI/status/2100679992720142459
-
-Kimi上线金融行业解决方案，开放9项金融技能 02:03
-https://www.kimi.com/news/kimi-financial-industry-ai-solution
-
-Meta 上线 Muse for Mac 桌面端 02:17
-https://ai.meta.com/muse/download
-https://x.com/Muse/status/2100714397337264444
-
-Google Labs发布家庭AI Agent新版CC 02:26
-http://labs.google/cc
-https://x.com/GoogleLabs/status/2100653821907366366
-
-Union Alpha揭晓为Pareto 26.9，正推进付费接入 02:38
-https://x.com/unionalphaai/status/2100722366200557603
-https://unbiased.ai/model-card/
-https://x.com/OpenRouter/status/2100727672074551676
-
-千问上线Qwen3.8-Omni-Flash，支持1M长上下文 02:51
-https://qwenlm.github.io/zh/blog/qwen3.8-omni-flash/
-https://help.aliyun.com/zh/model-studio/qwen-omni
-https://github.com/QwenLM/Qwen-MM-Plugins
-https://github.com/QwenLM/Qwen-Live-Harness
-
-PrismML发布 Ternary Bonsai 2 27B，模型约5.9GB 03:11
-https://prismml.com/news/bonsai-2-27b
-https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf
-https://huggingface.co/collections/prism-ml/bonsai-2
-
-Jina AI发布jina-ocr-v1视觉文档解析模型 03:27
-https://huggingface.co/jinaai/jina-ocr-v1
-https://jina.ai/models/jina-ocr-v1
-
-Anthropic测试版LSVP向生命科学团队开放 03:45
-https://www.anthropic.com/news/life-sciences-verification-program
-https://x.com/AnthropicAI/status/2100646837799834096
-
-Anthropic提出三类指标衡量前沿AI开发速度 04:03
-https://www.anthropic.com/institute/measuring-pace-of-ai-development
-https://x.com/AnthropicAI/status/2100684274114699295
-
-智谱用GLM-5.3优化自身推理系统，吞吐提升3.2倍 04:21
-https://z.ai/blog/glm-built-its-inference-infrastructure
-
-Epoch AI推出外部AI基准审查体系，首批15项结果公布 04:44
-https://epoch.ai/data/benchmark-reviews-documentation
-https://x.com/EpochAIResearch/status/2100704765332394255
-
-报道称OpenAI接近解决霍奇猜想 04:53
-https://the-decoder.com/openai-reportedly-closes-in-on-solving-the-hodge-conjecture-its-second-millennium-prize-problem/
-
-UN System Data Commons 上线支持 AI Agent 05:08
-https://data.un.org/
-https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/</media:description>
-   <media:community>
-    <media:starRating count="34" average="5.00" min="1" max="5"/>
-    <media:statistics views="3326"/>
+    <media:statistics views="1590"/>
    </media:community>
   </media:group>
  </entry>

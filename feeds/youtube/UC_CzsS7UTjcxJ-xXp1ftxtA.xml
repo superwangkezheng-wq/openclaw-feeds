@@ -11,6 +11,31 @@
  </author>
  <published>2012-02-21T04:08:32+00:00</published>
  <entry>
+  <id>yt:video:WnjnqVxD6Ho</id>
+  <yt:videoId>WnjnqVxD6Ho</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>How majority voting works for LLMs</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/WnjnqVxD6Ho"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-10-04T11:03:12+00:00</published>
+  <updated>2026-10-04T11:03:14+00:00</updated>
+  <media:group>
+   <media:title>How majority voting works for LLMs</media:title>
+   <media:content url="https://www.youtube.com/v/WnjnqVxD6Ho?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WnjnqVxD6Ho/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Generate several responses to the same prompt, then select the most frequent final answer. I walk through a simple example and explain why this is easier for numeric answers than for free-form text.
+
+An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="21"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:237Hf7Q3lgg</id>
   <yt:videoId>237Hf7Q3lgg</yt:videoId>
   <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
@@ -21,7 +46,7 @@
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-10-03T12:06:29+00:00</published>
-  <updated>2026-10-03T12:06:29+00:00</updated>
+  <updated>2026-10-03T13:16:49+00:00</updated>
   <media:group>
    <media:title>Build A Reasoning Model From Scratch 6: Reinforcement Learning 1 (Implementing GRPO for RLVR)</media:title>
    <media:content url="https://www.youtube.com/v/237Hf7Q3lgg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -63,8 +88,8 @@
 1:22:33 MATH-500 results and training stability
 1:24:05 Memory requirements and next steps</media:description>
    <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="94"/>
+    <media:starRating count="142" average="5.00" min="1" max="5"/>
+    <media:statistics views="7710"/>
    </media:community>
   </media:group>
  </entry>
@@ -88,8 +113,8 @@
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="362"/>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="495"/>
    </media:community>
   </media:group>
  </entry>
@@ -113,8 +138,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="560"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="602"/>
    </media:community>
   </media:group>
  </entry>
@@ -138,8 +163,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="262"/>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="264"/>
    </media:community>
   </media:group>
  </entry>
@@ -184,8 +209,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 1:05:57 MATH-500 evaluation results
 1:07:35 Takeaways and next steps</media:description>
    <media:community>
-    <media:starRating count="98" average="5.00" min="1" max="5"/>
-    <media:statistics views="7625"/>
+    <media:starRating count="101" average="5.00" min="1" max="5"/>
+    <media:statistics views="7835"/>
    </media:community>
   </media:group>
  </entry>
@@ -210,7 +235,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="157" average="5.00" min="1" max="5"/>
-    <media:statistics views="3498"/>
+    <media:statistics views="3508"/>
    </media:community>
   </media:group>
  </entry>
@@ -225,7 +250,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-23T12:00:20+00:00</published>
-  <updated>2026-09-25T16:54:30+00:00</updated>
+  <updated>2026-09-28T00:07:16+00:00</updated>
   <media:group>
    <media:title>What is the relationship between LLMs, Reasoning Models, and Agent Harnesses?</media:title>
    <media:content url="https://www.youtube.com/v/tfBT22RWYww?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -236,8 +261,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 Article on coding an agent harness: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent</media:description>
    <media:community>
-    <media:starRating count="147" average="5.00" min="1" max="5"/>
-    <media:statistics views="5317"/>
+    <media:starRating count="149" average="5.00" min="1" max="5"/>
+    <media:statistics views="5365"/>
    </media:community>
   </media:group>
  </entry>
@@ -262,7 +287,7 @@ Article on coding an agent harness: https://magazine.sebastianraschka.com/p/comp
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="497"/>
+    <media:statistics views="502"/>
    </media:community>
   </media:group>
  </entry>
@@ -313,8 +338,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="158" average="5.00" min="1" max="5"/>
-    <media:statistics views="12177"/>
+    <media:starRating count="161" average="5.00" min="1" max="5"/>
+    <media:statistics views="12306"/>
    </media:community>
   </media:group>
  </entry>
@@ -339,7 +364,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="2585"/>
+    <media:statistics views="2587"/>
    </media:community>
   </media:group>
  </entry>
@@ -396,8 +421,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="206" average="5.00" min="1" max="5"/>
-    <media:statistics views="17113"/>
+    <media:starRating count="210" average="5.00" min="1" max="5"/>
+    <media:statistics views="17225"/>
    </media:community>
   </media:group>
  </entry>
@@ -460,8 +485,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="238" average="5.00" min="1" max="5"/>
-    <media:statistics views="16879"/>
+    <media:starRating count="240" average="5.00" min="1" max="5"/>
+    <media:statistics views="17027"/>
    </media:community>
   </media:group>
  </entry>
@@ -532,8 +557,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1213" average="5.00" min="1" max="5"/>
-    <media:statistics views="120971"/>
+    <media:starRating count="1214" average="5.00" min="1" max="5"/>
+    <media:statistics views="121121"/>
    </media:community>
   </media:group>
  </entry>
@@ -583,54 +608,8 @@ https://magazine.sebastianraschka.com/</media:description>
 39:35 Fixing CUDA and PyTorch issues
 41:50 Questions and what comes next</media:description>
    <media:community>
-    <media:starRating count="736" average="5.00" min="1" max="5"/>
-    <media:statistics views="35580"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:tLv7qRWFMlw</id>
-  <yt:videoId>tLv7qRWFMlw</yt:videoId>
-  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
-  <title>How Claude's Text Watermarking Works</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=tLv7qRWFMlw"/>
-  <author>
-   <name>Sebastian Raschka</name>
-   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
-  </author>
-  <published>2026-08-19T01:41:04+00:00</published>
-  <updated>2026-09-18T01:20:24+00:00</updated>
-  <media:group>
-   <media:title>How Claude's Text Watermarking Works</media:title>
-   <media:content url="https://www.youtube.com/v/tLv7qRWFMlw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/tLv7qRWFMlw/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Link to transcript: https://magazine.sebastianraschka.com/p/claude-watermarking
-Link to the slides: https://sebastianraschka.com/pdf/slides/2026-08-18-claude-watermarking.pdf
-
-This video explains how Anthropic's text watermarking for Claude works. In particular, it explains how the next-token sampling process in LLMs work, and how this is modified to implement the watermarking technique. A thorough understanding of the watermarking is useful because it helps us understand the implementation shortcomings as well.
-
-0:00 How Claude's Text Watermarking Works
-5:38 How LLM Text Generation Works
-11:39 How Next-Token Sampling Works
-16:19 From Sampling to Watermarking
-18:23 Random Seeds and Deterministic Sampling
-20:03 How the Watermarking Key Works
-24:45 Where the Watermark Is Applied
-26:13 How Watermark Detection Works
-28:00 How to Remove a Watermark
-30:17 How the Watermark Scoring Function Works
-31:18 SynthID Text and Tournament Sampling
-34:33 Random Watermarking Functions
-36:36 Tournament Sampling Step by Step
-39:18 Detecting Watermarks Without Rerunning the LLM
-43:26 Watermarking Summary and Limitations
-44:34 What This Means for AI-Generated Text
-47:13 Final Thoughts
-
-Check out my website for more articles and resources on LLMs: https://sebastianraschka.com</media:description>
-   <media:community>
-    <media:starRating count="472" average="5.00" min="1" max="5"/>
-    <media:statistics views="19322"/>
+    <media:starRating count="757" average="5.00" min="1" max="5"/>
+    <media:statistics views="36029"/>
    </media:community>
   </media:group>
  </entry>
