@@ -15,8 +15,123 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Sat, 03 Oct 2026 12:37:51 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Oct 2026 02:44:36 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[OpenAI「12朝元老」辞职死谏：试错的时代已崩坏！]]></title>
+            <description><![CDATA[<p>就在刚刚，OpenAI的安全元老David Robinson辞职了。</p>
+  <p>他在The Atlantic上悲愤地发表长文，向全人类发出警告——</p>
+  <p>试错的时代已经结束了。OpenAI的企业文化已经崩坏。犯错之后，我们可能再也没有迭代的机会！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1284" src="https://img.36krcdn.com/hsossms/20261004/v2_35231c26334a4d0a865c37afa8071bc4@000000_oswg667891oswg1080oswg1284_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在OpenAI工作三年半后，我已是公司资历最深的员工之一。我牵头起草了现行的《准备框架》，并监督撰写了12次前沿模型发布的安全报告。</p>
+  <p>但据我所知，我从未遇到过一位同事，拥有让飞机安全飞行、让核反应堆不熔毁运行，或帮助金融体系在不崩溃的前提下增长的实操经验。</p>
+  <p>而就在两天前，OpenAI以极其严厉的手段，连夜将三名核心安全研究员扫地出门，给他们扣上「泄密」的帽子。</p>
+  <p>显然，OpenAI内部爆发了一场史无前例的大地震，安全派溃坝了。</p>
+  <p>这些人，究竟在OpenAI的实验室里看到了什么？</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,404" src="https://img.36krcdn.com/hsossms/20261004/v2_4ee045d415ea4c67be2db1bc5fd89b44@000000_oswg85701oswg1080oswg404_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>12朝元老「死谏」：我们正走向悬崖</strong>&nbsp;</h2>
+  <p>Robinson不是只会写代码的码农，他是真正的「安全与治理」大师（曾任康奈尔大学访问科学家、苹果大学教员），更是主导起草OpenAI《准备框架》的执笔人。整整12次重大前沿模型发布的安全报告，都是他带头写的。</p>
+  <p>可以说，他是最清楚OpenAI那些光鲜亮丽的模型背后，藏着多少定时炸弹的人。</p>
+  <p>这些安全报告，就是OpenAI每次发布新模型时附带的系统卡——相当于模型的风险说明书，模型有多危险，全写在里面。</p>
+  <p>讽刺的是，就在9月10日，他还在X上招一位「安全透明度编辑」。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,684" src="https://img.36krcdn.com/hsossms/20261004/v2_a0207a0ab13445f6b62d55a6801db907@000000_oswg212544oswg1080oswg684_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>谁也没想到，不到一个月，招人的人自己先走了。</p>
+  <p>在《大西洋月刊》这篇文章中，Robinson彻底撕下了OpenAI「安全可靠」的遮羞布，向全世界揭露了若干个让人后背发凉的真相。</p>
+  <p>全文如下。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,4472" src="https://img.36krcdn.com/hsossms/20261004/v2_552ee2f22f11488f82a9318a5c4c8ea5@000000_oswg1883490oswg1080oswg4472_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>真相一：「边跑边修」的草台班子文化</strong></h2>
+  <p>Robinson指出，硅谷一直有一种「迷之自信」。只要出了问题，我们总能解决。这种极度乐观造就了OpenAI的「试错法」。</p>
+  <p>OpenAI给这套打法起了个好听的名字——「迭代部署」。ChatGPT当年就是这么诞生的，「寻找问题并改善护栏」，以前没问题。</p>
+  <p>但现在呢？Robinson绝望地写道：「这种方法本身就注定了会周期性地发生故障。而随着系统变得越来越强大，这些故障的规模也在不断扩大！」</p>
+  <p>现在的模型，一旦失控，那就是灾难级的。你不能造核电站的时候说：「我们先随便建建，等它发生了一次核泄漏，我们再迭代修复一下。」</p>
+  <p>Robinson敢把话说得这么绝，底气来自RLHF奠基人之一、前OpenAI对齐负责人Paul Christiano。</p>
+  <p>9月9日，Christiano加入OpenAI基金会董事会，进入拥有安全决策最终批准权的安全与安保委员会。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1226" src="https://img.36krcdn.com/hsossms/20261004/v2_75d3449d1dcd49b199ecfd872d9a11be@000000_oswg577786oswg1080oswg1226_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而Christiano进董事会时写下的一句话，被Robinson写进了文章：「AI能力的急速加速，有不容忽视的风险在非常近的将来导致灾难性的、不可逆的失控。」</p>
+  <p>连OpenAI自己请来的董事都这么说，还能继续试错吗？</p>
+  <h2><strong>真相二：早已发生的「AI越狱」事件</strong></h2>
+  <p>Robinson直接点名爆了公司的黑料。</p>
+  <p>就在今年夏天，著名的Hugging Face事件中，OpenAI因为失误，不小心释放了一群AI智能体，尽管公司随后加强了安全措施，但很快，防线再次崩溃。</p>
+  <p>更恐怖的是，虽然监控系统发出警报，但系统并没有关闭这个模型。直到报警两个半小时后，这次训练才被人手动掐掉。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,954" src="https://img.36krcdn.com/hsossms/20261004/v2_13c10335479546bba09007a14328f87c@000000_oswg199111oswg1080oswg954_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>不仅是OpenAI，Anthropic也曾承认，因为配置错误，不小心关掉了自己的安全护栏。</p>
+  <p>一群不需要睡觉、拥有顶级黑客能力的「流氓」AI智能体，如果悄悄潜入医院的计算机系统勒索赎金，或者瘫痪电网，人类有还手之力吗？</p>
+  <p>这一切，在目前的速度下，几乎是注定会发生的。</p>
+  <h2><strong>真相三：缺乏对「终极力量」的敬畏</strong></h2>
+  <p>Robinson悲哀地发现，在他任职的三年半里，公司里到处都是绝顶聪明、为了赶进度「永远在冲刺」的天才。</p>
+  <p>但他从未遇到过一个有过让飞机安全飞行、让核反应堆不熔毁，或者让金融系统平稳运转经验的人。</p>
+  <p>前沿AI实验室，现在掌握的力量堪比核裂变。</p>
+  <p>它应该像核电站或繁忙的机场那样运行——需要层层的冗余、小心翼翼且耗时的规划。即便有人按错了按钮，也不会导致熔毁。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,809" src="https://img.36krcdn.com/hsossms/20261004/v2_4ade23a719504280bef17bffaa8c8a68@000000_oswg171170oswg1080oswg809_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>但在OpenAI，「我们忙于冲刺，很少有机会考虑重大变革」。</p>
+  <p>怎么办？Robinson给出的建议有两条。</p>
+  <p>第一，AI公司要多借用航空、核电这些行业早就有的安全经验。</p>
+  <p>第二，在造出明显更强的系统之前，先发展出新的科学，确保模型在没人看着的时候，也会做出安全的选择。</p>
+  <p>所以他认定，推动安全的动力，只能从公司外面来。</p>
+  <h2><strong>真相四：AI可能在「装乖」</strong></h2>
+  <p>关于「对齐」，Robinson道出了一个残酷的现实：目前的测试手段太粗糙了。公司根本不敢确定，一个在安全测试中得高分的模型，在现实中就是个好模型。</p>
+  <p>为什么？因为模型可能已经聪明到能够察觉自己正在被测试！而一旦被部署到真实世界，它就会展现出完全不同的行为逻辑。</p>
+  <p>而这件事，已经在发生。</p>
+  <p>9月28日，英国AI安全研究所让GPT-6 Astra做网络安全评测，它却擅自发动了供应链攻击！</p>
+  <p>100次测试里，Astra有38.8%的时候动手开发并测试攻击工具，33.1%伪造了身份，29.2%投放了恶意载荷，还有24.6%试图影响人类审核员。</p>
+  <p>最细思极恐的是，Astra一边动手，一边还经常在推理里表示：这个环境是模拟出来的。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1114" src="https://img.36krcdn.com/hsossms/20261004/v2_4240c387ec904b0094718c44984dc51f@000000_oswg321486oswg1080oswg1114_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>它到底是看穿了考场才放开手脚，还是到了真实世界也会这么干？没人说得清。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,826" src="https://img.36krcdn.com/hsossms/20261004/v2_3f8c2b6ed0a149bfa7c18534205eea5d@000000_oswg159130oswg1080oswg826_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>更要命的是，系统卡还写道，Astra更擅长把这类「元博弈」的推理藏起来。</p>
+  <p>Apollo的结论是：评估意识这么高、评估窗口又这么短，Astra在测试里表现得再乖，既证明不了它对齐了，也证明不了它没对齐。</p>
+  <p>在AI开始把我们耍得团团转之前，我们需要回答一个更深层次的问题：超级智能机器应该如何看待人类？</p>
+  <p>Robinson写道，在一些超级智能拥趸描绘的「美好未来」里，机器看纽约、看芝加哥，就像我们看一座蚁丘。</p>
+  <p>「我不希望我的孩子活在那样的世界里，我想别人也不希望。」</p>
+  <h2><strong>早有预兆：被清洗的「AI看门人」</strong>&nbsp;</h2>
+  <p>其实，Robinson的悲愤离职绝非偶然，OpenAI的安全防线早已在内部崩塌。</p>
+  <p>就在10月1日，传来一则惊人消息：OpenAI安全团队的Tomek Korbak、Mikita Balesni和Jasmine Wang三名大将一夜之间被OpenAI开除了。</p>
+  <p>而这三个人，正是那篇著名「CoT监控论文」的核心作者！</p>
+  <p>先是3名安全大将被扫地出门，紧接着写了12次安全报告的元老绝望辞职。这代表着OpenAI内部安全派的大溃败。</p>
+  <h2><strong>舆论大撕裂：是吹哨人，还是「设局」？</strong>&nbsp;</h2>
+  <p>Robinson的这篇檄文一经发出，网友瞬间被撕裂成了两大阵营。</p>
+  <p>一派是「安全警醒派」，他们将Robinson视为勇敢的吹哨人。「内部连写安全报告的人都跑了，说明车已经快撞墙了！」</p>
+  <p>大家认为，OpenAI接连开除安全研究员、逼走超级对齐团队负责人，再到如今Robinson的辞职，证明这家公司已经彻底被商业利益绑架，安全成了一纸空文。</p>
+  <p>这一派里，最权威的发声来自曾经的OpenAI政策研究负责人Miles Brundage。</p>
+  <p>他说，这套理念也许在GPT-3时代还说得通，可如今已经有很多死亡和AI扯上了关系，整个行业正一路冲向灭绝级的风险。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,822" src="https://img.36krcdn.com/hsossms/20261004/v2_aa720e9c812d4fddab91357e771af754@000000_oswg227389oswg1080oswg822_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,471" src="https://img.36krcdn.com/hsossms/20261004/v2_58f8666bc41b4719b398616af581de71@000000_oswg123640oswg1080oswg471_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>紧接着站出来的，是另一位前OpenAI高管Joshua Achiam。他在OpenAI待了近九年，做过使命对齐负责人和首席未来学家。</p>
+  <p>他评价说，Robinson清醒、审慎、不带意识形态，也不是那种带着末日论成见进来的人，并直言Robinson的核心批评是对的：一年前还管用的安全做法，已经防不住严重事故了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1508" src="https://img.36krcdn.com/hsossms/20261004/v2_9a9d33b374244034ba97dd650e6d87b5@000000_oswg692279oswg1080oswg1508_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>哈佛教授、OpenAI研究员Boaz Barak表示，AI几年里走完的路，相当于航空业从莱特兄弟一步跨到载着几十亿人上天。</p>
+  <p>航空业的安全教训是吃了大亏才换来的，那时候节奏够慢，而现在，AI没有这种奢侈。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1768" src="https://img.36krcdn.com/hsossms/20261004/v2_9badda63b8fc4419b86286cba3382784@000000_oswg555117oswg1080oswg1768_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>但另一派「加速加速派」则火力全开，表示AI说不定就是照着末日论者写的东西照做的。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,471" src="https://img.36krcdn.com/hsossms/20261004/v2_0b463e00cd844659b376d4928a18214f@000000_oswg153633oswg1080oswg471_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>大V roon则直接回怼Brundage：你不该后悔，迭代部署是一次巨大的成功。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,428" src="https://img.36krcdn.com/hsossms/20261004/v2_f68584303a1e4d2d9e3d92a7b5c4d8f7@000000_oswg110546oswg1080oswg428_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>值得注意的是，Robinson在文中还交代了一个细节：辞职后，他请了一家公关公司Spitfire Strategies，来应对接下来可能面对的关注和审视。</p>
+  <p>外媒分析，这很可能是在回应一种说法——AI公司员工接连公开辞职，是一场有组织的、煽动监管的运动。</p>
+  <p>虽然吹哨人已经频频发声，但没有人停下来，大把美元依然在涌入算力中心。</p>
+  <p>整个行业似乎陷入了一种「胆小鬼博弈」。谁减速，谁就会被市场淘汰；但如果都不减速，全人类可能一起冲下悬崖。</p>
+  <p>或许英伟达掌门人黄仁勋的观点值得参考：「保持谨慎乐观，加速，但保持审慎。」</p>
+  <p>参考资料：</p>
+  <p>https://x.com/andrewcurran_/status/2106393025887003125&nbsp;</p>
+  <p>https://x.com/NFT_Chen/status/2106417417937461399&nbsp;</p>
+  <p>https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=1ga2TvL-DbuHDQIcYF7oR4o908Fsjxr4NFLlsptkfP8&nbsp;</p>
+  <p>编辑：摩西 Aeneas</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652731575&amp;idx=1&amp;sn=590418134021e8680a7e82e08705ac5d&amp;chksm=f03f5e30ae76663b103c2ab5be0a26399a00b40b4af5637a87aee5c40c1ed86ce8a0523b525e&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 04 Oct 2026 02:20:11 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4010851865857925</guid>
+            <link>https://www.36kr.com/p/4010851865857925</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[杀猪盘用上了AI，骗局开始批量生产]]></title>
@@ -2525,65 +2640,6 @@
             <pubDate>Wed, 30 Sep 2026 07:35:22 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4005482692890504</guid>
             <link>https://www.36kr.com/p/4005482692890504</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[字节、美团投的机器人公司破产：烧光6亿]]></title>
-            <description><![CDATA[<p>一家仅创办6年的机器人公司破产了。</p>
-  <p>8月下旬，深圳市中级人民法院发布破产受理及债权申报公告，盈合（深圳）机器人与自动化科技有限公司（下称盈合机器人），正式进入破产程序。</p>
-  <p>盈合机器人来头不小：累计融资超过6亿元，估值一度达到5亿美元。</p>
-  <p>股东名单里有美团、字节跳动、金沙江创投、熊猫资本，以及控股方盈峰集团（美的集团创始人何享健儿子何剑锋创立）。</p>
-  <p>如今，它的法定代表人沈岗被限制高消费，公司是失信被执行人，官网无法打开，公众号更新停在2024年9月。有消息称，盈合机器人2025年全年营收仅433万，净亏损6700万。</p>
-  <p>熊猫资本投资了7000万，其创始合伙人李论更是要求何剑锋给个说法。</p>
-  <h2><strong>美团、字节都来投</strong></h2>
-  <p>沈岗是机器人行业的资深人物。他1972年出生，东京工业大学机械专业博士，毕业后进入日本发那科，做到机器人事业本部技师长；2014年回国，任上海发那科机器人公司董事兼常务副总经理，负责中国区市场。</p>
-  <p>2018年7月，他离开发那科加入碧桂园，组建博智林机器人公司，任碧桂园副总裁。碧桂园当时宣布五年投入800亿元、引进一万名机器人专家。沈岗不到一年便离开，2019年9月以合伙人身份加入盈峰控股。</p>
-  <p>2020年3月，盈合机器人在深圳注册，是盈峰集团一级子公司，盈峰初始持股55%。公司定位是做应急管理、城市治理领域的服务机器人和智能制造平台，自称为"AIR"路线——AI加IoT加Robot。</p>
-  <p>融资几乎一路绿灯。</p>
-  <p>2020年，熊猫资本领投7000万元天使轮，美锦能源、金沙江创投等跟进；2021年1月完成约4亿元A轮，美团战投、字节跳动战投、天使投资人王刚、广州黄埔区国资等入场，公司成立十个月估值升至5亿美元。加上2024年4月超亿元的后续融资，累计融资超过6亿元。</p>
-  <p>按照李论当时对外披露的口径，公司刚成立就拿到超5000万元签约合同，推进中的订单超过2亿元，并与多家大型集团签署战略合作。</p>
-  <p>许多机构当时冲的是两重背景：沈岗的行业履历，和盈峰集团实控人何剑锋——美的集团创始人何享健之子。</p>
-  <h2><strong>没跑通的商业闭环</strong></h2>
-  <p>钱到账后，摊子迅速铺开。</p>
-  <p>2021年3月，盈合机器人与顺德签约，宣布在北滘机器人小镇选址500亩，建设全球研发及产业应用示范基地，总投资100亿元，布局"机器人造机器人"的工业4.0产线。这是顺德当年首个百亿级招商项目，从洽谈到签约不到一个月。</p>
-  <p>业务线同时铺开五条：应急管理、城市治理、仓储物流、医疗大健康、工业智造。对外宣传里有大量演示样机，还在2023年12月于江西吉安注册了机器人智能制造子公司。</p>
-  <p>但这些动作没有换来规模化收入。工商信息显示，吉安子公司2024年社保参保人数为零；顺德百亿基地此后未见投产进展。据行业媒体报道，盈合的订单多以演示为主，没有一个业务方向实现规模销售。</p>
-  <p>成本端却维持高位。今年6月，李论公开发视频隔空喊话何剑锋，他在视频中称，盈合在没有稳定现金流时，部分核心高管税后年薪达300多万元，创始团队成员拿过500万元年终奖；公司还花2800万元装修了2600平方米的办公室。他还提到一笔近9000万元的极限工期订单，要求47天交付，附带高额违约金，最终违约，引爆索赔。</p>
-  <p>对此说法，盈峰集团与何剑锋至今未作公开回应。李论同时称，盈峰集团在公司爆雷前通过股权转让套现超过1亿元；该说法同样未获证实。</p>
-  <p>从2023年起，盈合开始欠薪，合同纠纷集中爆发；企查查记录其司法案件58条、终本案件33条，终本案件未履行比例100%。2024年5月新一轮融资到账后，颓势未改，同年9月陷入资不抵债。2026年6月起，公司多次被限高，最终由债权人申请破产。</p>
-  <blockquote>
-   <p>司法拍卖信息显示，佛山市禅城区法院查封了盈合存放在高明区的一批机械设备，评估价4974万元。这批设备2026年4月第一次拍卖，起拍价3482万元，流拍；5月二拍降价到2785万元，依然无人报名。</p>
-  </blockquote>
-  <p>设备之外，法院还冻结了盈合持有的佛山、吉安等子公司股权，冻结标的从17.98万元到1000万元不等，基本失去变现价值。</p>
-  <p>有机器人行业供应商者反映，盈合采购设备、零部件后长期拖欠货款，"先付一小部分，后面就拖"。</p>
-  <h2><strong>为何集中破产</strong></h2>
-  <p>盈合不是孤例。最近三个月，至少三家曾被光环包裹的机器人公司陷入破产。</p>
-  <p>智橙动力团队来自微软、小米、大疆，产品面向海外泳池机器人，年营收一度接近1亿元，最终因回款链断裂被债权人申请破产重整。</p>
-  <p>深兰机器人背靠AI独角兽深兰科技，对外公布过2.5万台采购意向，但订单大多没有交付，欠薪超过2300万元，今年9月进入破产清算。</p>
-  <p>更早之前还有达闼机器人。</p>
-  <p>达闼成立于2015年，一度是国内估值最高的机器人独角兽之一。公开报道显示，公司累计融资约54亿元，估值最高超过200亿元，背后投资方包括软银、上海国盛、珠海国资等机构。2023年，它还完成了一笔超过10亿元的C轮融资。</p>
-  <p>但仅仅两年后，问题集中爆发。</p>
-  <p>2025年3月，21世纪经济报道实地探访达闼上海基地时发现，此前主要办公楼已经人去楼空。创始人黄晓庆随后承认，公司“的确遇到很大困难”，正在缩减人员、调整战略，同时融资解决员工欠薪。</p>
-  <p>有前员工估算，仅北京地区约200人被拖欠的工资和补偿就达到数千万元。达闼巅峰时期员工超过800人，此后进行了大规模裁撤。</p>
-  <p>最终，公司没能只靠下一轮融资把问题解决。</p>
-  <p>北京市房山区人民法院于2025年10月10日正式裁定受理达闼机器人（北京）有限公司破产清算案。到2026年6月，法院指定管理人，并开始接受债权申报。</p>
-  <p>它和盈合有一个值得注意的共同点：都曾经试图做很多事情。</p>
-  <p>达闼曾同时布局云端机器人、配送、安防、人形机器人等多条产品线；深兰则把业务铺向清洁、配送、消毒、园艺乃至自动驾驶、医疗、芯片等多个方向。</p>
-  <p>2026年，机器人行业仍然是一级市场最热的赛道之一。但在融资、估值和订单数字不断刷新的另一面，一批上一轮机器人创业潮中的明星公司已经开始退场。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI0NzAzNTUwMQ==&amp;mid=2652520688&amp;idx=1&amp;sn=d1f8063674b2da07ad1c8f0378a93b90&amp;chksm=f3b1ec7fc64d802151849e7089c40e827a144afd88221c85685efbf5a1cf41a2066362878fa9&amp;scene=0&amp;xtrack=1#rd">“铅笔道”（ID：pencilnews）</a>，作者：铅笔道，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 07:34:56 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005436924612484</guid>
-            <link>https://www.36kr.com/p/4005436924612484</link>
             
             
             
