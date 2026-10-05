@@ -15,8 +15,130 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Mon, 05 Oct 2026 02:06:13 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Oct 2026 16:11:11 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[Rabbit 创始人吕骋：人不该为 Agent 改变思考方式]]></title>
+            <description><![CDATA[<p>文｜李炤锋</p>
+  <p>编辑｜张雨忻</p>
+  <p>“人说要有光，于是就有了光。”谈起个人 Agent 的终极愿景，Rabbit 创始人吕骋把那句古老谚语中的“神”换成了“人”：在他的设想中，人只需说出想办成的事，Agent 就会自己寻找办法。</p>
+  <p>说起 Rabbit，很多人首先想到那台橙色手持设备 r1——一台运行 Rabbit 自研系统的掌上 AI 设备。Rabbit 当初希望，用户只需说出任务，它就能代人操作应用、完成任务。R1 在亮相后迅速受到关注，但上市后的实际使用体验，却收到了一些批评的声音。吕骋后来承认，用户的高期待与最初的软件体验之间存在落差。</p>
+  <p class="image-wrapper"><img data-img-size-val="1200,675" src="https://img.36krcdn.com/hsossms/20261005/v2_28dc2b755e404fdbaf8223e43fec9c7f@6252890_oswg577884oswg1200oswg675_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">Rabbit R1</p>
+  <p>上个月，Rabbit 开放了新一代 Agent 操作系统 OS3：用户从网页或 Telegram 交代任务，系统调用用户自选的 AI 模型，让电脑查文件、操作软件、浏览网页或写代码。</p>
+  <p>“你不要去赌用户最后只有一台设备，这是不现实的。”谈及为什么要做跨设备功能，吕骋数起自己平时使用的电脑：一台私人 PC、一台工作用的 Mac，还有一台能进入公司内网的办公室电脑。在他看来，用户常在多台设备间切换，而好用的 Agent 应该让人只交代一次任务，再自行找到对应的设备和解决办法。</p>
+  <p>2024 年 CES（国际消费电子展）上，Rabbit 带着 r1 亮相。但这款产品的实际体验迅速引发争议，科技媒体《Wired》给早期产品打出 3 分（满分 10 分）。几周前，吕骋在接受《Wired》采访时表示，r1 已在全球交付超过 10 万台，退货率低于 5%。面对当年的批评，他说：“从工程角度看，我们没有押错方向。”</p>
+  <p>在和智能涌现的交流中，吕骋进一步解释了 r1 面临的落差：“我们在发布会上说能做四件事，然后用户会尝试去做六件事。”早期 Agent 产品难以接住用户不断扩大的期待，但在吕骋看来，这种行业早期进入的“前卫”，正是Rabbit公司的底层基因，r1 至少让 Rabbit 参与了 AI 硬件早期形态的讨论，此后谈起这一品类，人们仍会提到那台橙色设备。从 r1 到 OS3，Rabbit 想争取的，始终是 Agent 产品的定义权。</p>
+  <p>最近一年，Agent 正从写代码、处理工作，逐渐走向个人的日常事务。今年 9 月以来，这一方向的竞争明显升温。</p>
+  <p>OS3 发布前后，Meta 推出个人 Agent 产品 Muse。据 Sensor Tower 估算，Muse 上线两周下载约 280 万次。9 月初宣布恢复独立运营的 Manus，随后推出个人 Agent 产品 Cue。国内，阿里的<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>接通淘宝购物，字节的<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>上线对话打车。几家公司路径不同，都在尝试让 AI 进入日常事务。</p>
+  <p>谈及个人 Agent 产品接连出现，吕骋说，模型更会写代码，让 Agent 更容易造出来；但普通人会不会长期使用，仍是一个未知数。让人用得懂、用得久，才是下一道难题。</p>
+  <p>这也解释了OS3的简约操作逻辑。在交互上，和很多Agent的工作台模式不同，OS3 只有一个持续的对话窗口。用户想到工作或生活里的需求，可以直接说出来，不用先新建项目，不需要按工作或生活来分类整理自己的任务需求。而在执行层面，OS3 可以连接最多五台用户已有的电脑，使用各台机器上的文件和软件，并决定任务在哪台机器上完成。</p>
+  <p>吕骋认为，个人 Agent 要走进普通人的生活，首先得把使用门槛降下来。“人类的思考方式，它不是一个文件化的思考方式。”这是 Rabbit 设计 OS3 时的一个判断：用户不必先把工作和私事分门别类，想到什么，就在同一个对话窗口里交代。</p>
+  <p><strong>01｜普通人，需要怎样的个人 Agent</strong></p>
+  <p>Meta 的 Muse 推出后，吕骋也试用了这款产品。他让 Muse 买一箱可乐，Muse 得在远程电脑上登录购物网站，但因为忘了密码，又要打开密码管理器查找。这个过程让他怀疑：个人 Agent 的需求是否已经得到验证？</p>
+  <p>“让Agent去亚马逊给你买一箱可乐，和用户直接在电脑上点两下买一箱可乐，哪个更方便呢？” 谈到这波产品热潮，吕骋说：“我不认为这个需求已经验证了。”</p>
+  <p>他用“老板和总助”的关系解释 Rabbit 的愿景：“我有个事儿要解决，你帮我去解决。”现实中，老板不会事先规定助理去哪家门店、用什么方式付款；他要的是结果。吕骋希望用户也能这样使用个人 Agent：交互逻辑简单，拥有本地系统权限，还能跨多台设备操作。</p>
+  <p class="image-wrapper"><img data-img-size-val="1280,851" src="https://img.36krcdn.com/hsossms/20261005/v2_19d9423bd82c452d84fb9e33a14865a7@6252890_oswg301077oswg1280oswg851_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">OS3操作页面</p>
+  <p>打开 OS3，主要看到的是持续的对话和输入框，没有按工作、生活分开的任务入口。这种设计足够简洁，也可能让新用户无从下手。吕骋认为，事先替人划好分类，反而会逼人按软件的方式整理自己的念头。</p>
+  <p>吕骋说，人的思考是流动的：聊着一件工作，可能突然想起昨天没办完的私事。他把这种状态叫作“brain dump”，即把脑子里冒出的事一股脑说出来。他说，OS3 要靠记忆和任务调度接住这些跳跃的想法，再决定调用什么工具、让哪台电脑执行。输入框越简单，背后的系统要承担的判断就越复杂。</p>
+  <p>一旦 Agent 开始动手干活，光理解指令还不够，它还得进入能执行任务的环境。吕骋说，Rabbit 的早期方案，曾尝试过类似Muse的方案，却发现异地登录容易触发网站验证，甚至被拦截。因此，到了OS3 ，尽管仍然需要云端模型接入，但OS3可以把执行程序装在选定的电脑上，使用那台机器已有的文件、软件和工作环境。吕骋也把本地执行视为一道隐私边界：“只要文件在本地，就不用上传，直接执行在本地的电脑。”</p>
+  <p>使用成本也是一道门槛。有用户反馈，使用同一模型时，OS3 的 Token 消耗可能高于 OpenClaw，这引起吕骋的警惕，“我们一定会做一轮深度的优化，把这个 token 的使用消耗降下来。”</p>
+  <p>Token 消耗只是一方面。吕骋提到，年初把 OpenClaw 接入 r1 后，收到最多的求助是“OpenClaw 怎么装”。他起初觉得，照着官网步骤操作就行；后来发现，许多普通用户从未打开过电脑终端，更不熟悉 GitHub 和技能配置。换言之，要让个人 Agent 面向普通用户，一定要尽可能简单，门槛低。</p>
+  <p>Rabbit 把 OS3 的初始设置放进网页端，用户按提示回答问题，再填入自己申请的模型 API 密钥即可开始使用；如果要让 Agent 操作自己的电脑，仍须安装本机程序并授予权限。他形容网页设置是“肉眼可见的改进”，但距离普通人拿来就用还有一段路。“我现在在产品上抓的最紧的一件事，就是如何降低用户门槛。”</p>
+  <p>谈到 OS3 为什么采用 Bring Your Own Key的模式（用户自带模型密钥），吕骋说：“我不认为任何一家大厂都能在自己的封闭体系里，笃定自家模型会胜出。模型竞争中，没有哪一家拥有绝对优势，也很难在短期内决出胜负。”在他看来，这也是 Rabbit 相比大厂的一点优势：任何一家模型能力的提升，都能成为 Rabbit 的 Agent 产品的助力。</p>
+  <p>吕骋希望 Rabbit 做出一件有人愿意长期拥护的产品。他说，大公司擅长“把小众且好用的产品迅速杀死”，却“很难杀死一个有信仰的产品”。他举 Linux（一种开源操作系统）为例：使用 Linux 的人或许不多，但习惯用它的人很难被说服换用别的系统。</p>
+  <p>但被问及 Rabbit 是否愿意成为“Agent 时代的 Linux”时，吕骋说：“只成为 Linux 是不够的。”在他看来，技术底座搭好后，还要在复杂系统之上，给普通人提供一个“即插即用的方案”。</p>
+  <p><strong>02｜Rabbit 想争 Agent 的定义权</strong></p>
+  <p>“OS3 是我们一开始为 Cyberdeck 做的操作系统。”吕骋说。Cyberdeck 是 Rabbit 继 r1 之后开发的第二台硬件产品：一台尚未上市的小型电脑，计划配备屏幕和机械键盘，供用户使用 Agent 和编程工具。</p>
+  <p>今年 1 月，Rabbit 首次公开 Cyberdeck 项目。吕骋当时在社交媒体上公布了产品构想：小尺寸机身、可更换的机械键盘，以及供用户自由选择模型和 Agent 的环境。他曾向媒体透露，Cyberdeck 的目标价格是 500 美元。</p>
+  <p>在这次对话里，吕骋给了它一个更日常的定义：随身携带的任务入口。“这个便携的东西它就充当了你的输入框，无论你是语音还是打字。”人可以从这里交代事情，再由 OS3 调用家里或办公室已连接的电脑。</p>
+  <p>Cyberdeck 还在开发中，Rabbit 选择先把 OS3 开放给普通电脑用户。吕骋解释说，他希望在新设备完成前，团队先从真实使用中发现问题，继续调整软件与硬件的配合。</p>
+  <p>此前，《Wired》把 OS3 称为 Rabbit 的一次转向。吕骋在这次采访中澄清：“并不是说我们从硬件转型到软件了。”他说，很多媒体把 Rabbit 误解成一家硬件公司，但实际上，“硬件只是一件对我们来说是一个不得不做的事情”。</p>
+  <p>在他看来，关键在于 Agent 能进入多大范围的系统环境。“如果你只做一个 App 的话，你的边界就是 App 能给你的边界。”自己做设备，可以从系统层设计 Agent 的运行环境。</p>
+  <p>不过，既然 OS3 已能连接普通电脑，用户为什么还需要 Cyberdeck？吕骋认为，随身携带的统一入口可以调用多台设备，也能让任务留在用户已有的工作环境里。</p>
+  <p>这种设计与 Agent 执行任务时遇到的限制有关。吕骋用亚马逊购物举例说明执行环境的麻烦：他平时从洛杉矶登录，云端 Agent 却可能从明尼苏达的一台虚拟电脑进入同一账号。网站看到陌生地点的登录，可能要求额外验证，甚至拦下操作。因此，他认为 Agent 能否使用用户已有设备上的登录状态和工作环境是重要的。</p>
+  <p>吕骋不否认 Agent 赛道竞争的紧迫。回忆 r1 发布时，他提到团队当时只有七个人，想赶在竞争对手之前交付：“我们 r1 从画草稿到发布那天，一共用了九十一天。”如今 AI 产品迭代更快。他认为，创业公司如果一两个月拿不出新产品或新变化，就可能被淘汰。</p>
+  <p>“所有人都觉得我们不行了，我们就是死不掉。”吕骋把 Rabbit 的韧性归于团队对 Agent 技术路线的判断。“不光我们没有死，我们始终代表着最新 Agent 领域的技术创新和探索，同时也交出了和大公司相比肩的领先 Agent 产品。”</p>
+  <p>10年前，26岁的吕骋把自己创办的渡鸦科技卖给了百度。如今再次创业，他更希望更充分地享受创造一个产品的过程。“你不要杀死一个 builder 的乐趣。”吕骋说。Builder（创造者），指亲手把想法做成产品的人。他说，自己“选择做更辛苦、更难的事，因为这很有意思。”</p>
+ 
+]]></description>
+            <pubDate>Mon, 05 Oct 2026 08:36:43 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4012726523957380</guid>
+            <link>https://www.36kr.com/p/4012726523957380</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[刚刚，Tibo承诺「连续28天发布或重置」，OpenAI遭遇信任危机]]></title>
+            <description><![CDATA[<p>Tibo 又又又又发文了……</p>
+  <p>这次，他说 OpenAI 已经「锁定方向」：接下来只做四类事情 ——&nbsp;<strong>简化产品、提高效率以支持更多使用、突破性功能，以及新模型</strong>。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,656" src="https://img.36krcdn.com/hsossms/20261005/v2_bd68163b81214c6f812a8819e5fe93b7@000000_oswg274624oswg1080oswg656_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>并在不久后再次预告，<strong>将进行连续 28 天的发布或者重置</strong>，强调了「<strong>对用户而言明显改进且切合实际的功能</strong>」。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,434" src="https://img.36krcdn.com/hsossms/20261005/v2_ad93f737cbc543f5ac3e45a104149e9d@000000_oswg188993oswg1080oswg434_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>评论区一如既往有人欢呼，但是另一种声音比以前更明显。</p>
+  <p>许多人都在问：「这次值得相信吗？」</p>
+  <p>开发者日前，OpenAI 把期待值拉得很高，用户听了太多类似的话：20 项新功能、重大更新、即将改变工作方式……</p>
+  <p>但发布会结束后，不少重度用户发现，真正影响日常体验的几个问题并没有消失：<strong>额度变少、模型变慢，最受关注的新产品也没有立刻体现出宣传中的价值。</strong></p>
+  <p>一位用户直接表示，DevDay 前 OpenAI 给人的感觉是「这次要改变一切」，结果真正发布之后，「<strong>根本没什么用</strong>」。他原本最期待的 GPT-6.1 Sol，实际使用后也让他失望：<strong>纸面上的性能和效率很漂亮，真正干活时却依旧慢，与 Claude 相比，TPS 标准化后的使用体验仍然差了一截。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,983" src="https://img.36krcdn.com/hsossms/20261005/v2_e4b1cfe1f99b426aa0e25335bf0d36d0@000000_oswg432485oswg1080oswg983_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>开发者日之后，OpenAI 正在经历一场用户信任危机。</p>
+  <h2><strong>一场大战已经开始</strong></h2>
+  <p>就在刚刚，SpaceXAI Grok Bot 团队的 Lauren Tan，也就是 X 上的 @poteto，发了一句颇有挑衅意味的话，配图直指 OpenAI。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1023" src="https://img.36krcdn.com/hsossms/20261005/v2_a97ba104b22c4515a31d976317c90930@000000_oswg1414535oswg1080oswg1023_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Tibo 迅速回应，帖子火药味更重了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,567" src="https://img.36krcdn.com/hsossms/20261005/v2_c5bc4e8897514708a16f21ba945b354b@000000_oswg226868oswg1080oswg567_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>&nbsp;Lauren 并不接招，反而点出了最近 OpenAI 的困境：<strong>宣传造势很高，质量却完全跟不上。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1037" src="https://img.36krcdn.com/hsossms/20261005/v2_11576c806247417090fc8700cccc8bad@000000_oswg123507oswg1080oswg1037_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>让OpenAI头疼的是，这不只是竞争对手的想法。一切的矛头对准了刚刚结束的开发者日。</p>
+  <h2><strong>二十项发布，用户买账了吗？</strong></h2>
+  <p>OpenAI 这次开发者日的问题，恰恰在于发布得很多，留下来的却不多。</p>
+  <p>发布会前，OpenAI 一直在拉高预期。Tibo 甚至提前预告，会有大约 20 项新东西公布，给人的感觉几乎是要来一次产品线级别的大刷新。</p>
+  <p>真正到了开发者日，东西确实不少。</p>
+  <p>GPT-6.1 Sol、新的 Codex / Work 能力、Dots，以及一系列围绕 Agent、开发者工具和 ChatGPT 的更新陆续登场。单看发布数量，这场 DevDay 很难说「没东西」。</p>
+  <p>但用户的反馈也很明显：<strong>这么多东西，到底有多少真正改变了每天的使用体验？</strong></p>
+  <p>除了前面 Scott 传递出的失望，另一些用户也给出了相似的评价。而这些抱怨刚好叠在了另一层更大的不满上。</p>
+  <p><strong>OpenAI 此前已经因为算力压力调整过订阅和使用额度，200 美元套餐的新用户一度被暂停注册；随后使用额度又被明显收紧。与此同时，官方的解释却更多强调「模型效率提高了」「同样的额度可以完成更多工作」。</strong></p>
+  <p>用户对这种说法并不买账：付的钱没少，但是用量变少，还指望我说什么好话吗？</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1325" src="https://img.36krcdn.com/hsossms/20261005/v2_ca6919dec56c4059a06ac2e7a99cefe8@000000_oswg718374oswg1080oswg1325_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>开发者日并没有解决重度用户的核心需求，20 项新功能也会从「惊喜」变成另一种噪音。</p>
+  <p>也是在这个背景下，Tibo 发出的「简化」目标，也许更值得深思。</p>
+  <p><strong>所以，「变简单」可能是对的</strong></p>
+  <p>OpenAI 接下来锁定的方向：简化产品、提高效率以支持更多使用、突破性功能，以及新模型。</p>
+  <p>Tibo 明确说了：「有时候确实需要提前布局，但反馈已经很明确：<strong>大家希望一切变得更简单。</strong>」</p>
+  <p>对于一家高速迭代的 AI 公司来说，复杂度几乎不可避免。但复杂度一旦超过某个临界点，就会开始反过来消耗产品本身的价值。</p>
+  <p>用户当然想要更强的模型，也想要新的 Agent、新的工作方式。可在此之前，<strong>他们首先希望最基本的事情是清楚的、稳定的、符合预期的。</strong></p>
+  <p>所以这次把「简化」放在前面，可能是对的。</p>
+  <p>因为 OpenAI 已经不缺新故事了，它现在更需要把已经讲过的故事兑现好。</p>
+  <p>还是 Lauren 的那张图，宣传造势已经够高了，接下来 28 天，让我们看看质量有没有跟上。</p>
+  <p>参考链接：&nbsp;</p>
+  <p>https://x.com/thsottiaux/status/2106610099720720811</p>
+  <p>https://x.com/TokenGremlin/status/2106809323917877536</p>
+  <p>https://x.com/kimmonismus/status/2106726110868234553</p>
+  <p>© THE END&nbsp;</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651061097&amp;idx=1&amp;sn=e0dcd63efb14cf878113efe582d2021c&amp;chksm=850668b70eb321447af243940492a2994744ceeb939e1a39e6d3cfebc38737abb305f6bc6b52&amp;scene=0&amp;xtrack=1#rd">“机器之心”（ID：almosthuman2014）</a>，作者：关注AI的，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Mon, 05 Oct 2026 06:00:00 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4012179282874240</guid>
+            <link>https://www.36kr.com/p/4012179282874240</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[马斯克跟AI分手？SpaceXAI又改名了]]></title>
@@ -2688,125 +2810,6 @@
             <pubDate>Wed, 30 Sep 2026 08:49:29 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4005597357609095</guid>
             <link>https://www.36kr.com/p/4005597357609095</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[睡觉时也能炒股，“美国散户大本营”祭出新AI智能体工具]]></title>
-            <description><![CDATA[<p>“美国散户大本营”Robinhood曾凭借让人们用智能手机买卖股票的极简体验，推开了新一代投资者的大门。而在其高管眼中，下一场投资革命将由AI智能体主导。</p>
-  <p>在这家线上券商周二于休斯敦乔治·R·布朗会议中心举办的年度活动中，人工智能成为了全场绝对的主角。Robinhood高管团队集中揭晓了一系列重磅新工具与服务。</p>
-  <p class="image-wrapper"><img data-img-size-val="991,604" src="https://img.36krcdn.com/hsossms/20260930/v2_5931926dbcb74dc7945da1c94e19628b@5888275_oswg342110oswg991oswg604_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>其中最引人注目的是一款应用内人工智能助手——Robinhood Agents，它不仅能解答行情疑问、从零搭建定制化投资策略，并最终能在你入睡、工作或远离屏幕时，自动替你盯盘并执行交易。</strong></p>
-  <p>Robinhood首席执行官Vlad Tenev表示，这类所谓的智能体交易工具，将把以往对冲基金及华尔街专业机构专属的高阶操盘能力，真正普及给普通散户。</p>
-  <p>Robinhood的智能体能够根据简单的文字提示进行对话、开展研究并自动交易。举例来说，用户可以让智能体分析算力成本对特定板块公司的冲击，并在几轮问答交互后，直接针对相关标的建仓。</p>
-  <p>在另一类进阶场景中，交易者甚至能直接下达更具针对性的指令，例如：执行轮动期权策略(Wheel Strategy)——这是一种通过交替卖出现金担保看跌期权与备兑看涨期权来赚取权利金的经典期权交易模式。而依托即将上线的“Loops”功能，智能体即便在用户离线未登录的状态下，也能自主且不间断地循环跑完该策略。</p>
-  <h2><strong>押宝AI智能体</strong></h2>
-  <p><strong>Robinhood此次的技术落地，折射出整个金融业正全力将AI工具深度嵌入美国普通家庭的投资全流程——从投研、规划到最终交易。</strong></p>
-  <p>几十年前，普通散户必须致电经纪人，并为每笔交易支付昂贵佣金；而如今在平台高管描绘的蓝图中，智能体正成为华尔街的“自动驾驶汽车”：让投资者即便在完全移开注意力时，也能自动化参与股票、期权、比特币乃至预测市场合约的交易。</p>
-  <p><strong>与此相对应，传统金融机构也正面临AI对既有商业模式带来的深层冲击。</strong></p>
-  <p>就在上周，嘉信理财、LPL Financial 及摩根大通等机构的股价集体下挫。市场普遍担忧，以Meta旗下Muse为代表的智能体工具，可能会自动把客户账上的闲置现金扫入收益率更高的竞品账户——这直接掐中了传统银行与券商高度依赖低成本现金吸储的盈利“命脉”。</p>
-  <p>今年早些时候，Robinhood已允许用户将Claude或OpenClaw等第三方AI助手连接到投资账户。其他经纪公司也推出了类似工具。一些精通技术的投资者构建了定制化的代理程序，这些程序就像一支微型资产管理团队，能如同对冲基金的分析师团队一样进行数据分析和市场监控。</p>
-  <h2><strong>散户接受度仍待观察</strong></h2>
-  <p><strong>当然，目前散户投资者究竟有多愿意将完全控制权交给这些AI机器人，仍有待观察。</strong></p>
-  <p>Robinhood表示，迄今已有超过15万名客户开设了智能体交易账户。但为了控制风险，智能体工具仅能调配这些独立专用账户中的资金，且用户可选择手动批准每笔交易。</p>
-  <p>Robinhood还表示，将针对部分精选的美国股票推出全天候交易时段，使AI代理程序能够随时执行用户的交易。此外，该公司将在未来数月内向美国客户提供永续期货。所谓永续合约是一种衍生品，允许交易者全天候进行交易，并利用杠杆放大潜在的收益和损失。</p>
-  <p>在2021年模因股热潮期间，Robinhood一跃成为全美瞩目的焦点，其易于使用的应用程序在疫情期间助推了一波交易热潮。不过随着热潮消退，该公司也曾深陷迷茫期——在IPO挂牌后的一年里，其股价自高点累计暴跌近80%。</p>
-  <p>面对这一关键转折点，Tenev将重心转向了那些比其他客户交易更频繁、更激进的活跃交易者。这一策略取得了成功，该公司目前的估值已超过1000亿美元。在过去的几年里，Robinhood已将业务扩展至社交媒体、银行业务、预测市场和高端信用卡领域。</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/epUDbhr3qJxPjWICTDL6uQ">“科创板日报”</a>，作者：潇湘，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 08:48:40 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005634721992580</guid>
-            <link>https://www.36kr.com/p/4005634721992580</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[连新旗舰模型都不敢发，OpenAI到底在怕什么？]]></title>
-            <description><![CDATA[<p>今天的DevDay上，OpenAI发布了GPT-6.1 Sol。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260930/v2_96144a9fb7da4dd7be34ef6c0cd70f10@5648022_oswg43525oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>但此前外界期待的，可是更高一档的旗舰GPT-6.1 Astra。这款原定10月推出的模型，已经被OpenAI自己叫停。</strong>虽然新模型还是发了，但OpenAI确确实实给新的旗舰大模型踩下了刹车，部分前沿模型的训练也已经暂停。</p>
-  <p>那为什么连新旗舰都不发了？OpenAI给出的解释是，GPT-6.1 Astra在安全上出了问题。</p>
-  <p><strong>而在训练环节，OpenAI也已经接连遇到AI“越界”的问题。</strong>今年8月，公司就曾披露暂停部分强化学习训练，并加强安全防护。到了9月25日公布的新报告里，已经加固了数周的训练环境，还是被模型找到了缺口，OpenAI再次暂停了部分前沿模型的训练。</p>
-  <p>要是AI偶尔一次出问题，找到漏洞、修补上了也就过去了。<strong>但显然这次真正让OpenAI紧张的，是AI自己找到了人类都没有想到的办法。</strong></p>
-  <p>AI的威胁，难道真的已经迫在眉睫？</p>
-  <h2><strong>再次越狱</strong></h2>
-  <p><strong>这次让OpenAI再次暂停部分前沿模型训练的“罪魁祸首”，是一款内部研究模型。</strong></p>
-  <p>9月20日，它在强化学习训练中接到了一项搜索任务：根据一篇公开博客里的信息和人物线索，找出文章作者。</p>
-  <p>一开始，它按照正常流程工作。模型先调用OpenAI提供的搜索工具，但搜索结果并不理想。于是，它又尝试通过Python直接访问Google、Bing和DuckDuckGo，结果全部失败。</p>
-  <p>按照OpenAI的安全设计，这个训练环境本来就不应该连接真实互联网。搜索和网页请求只能访问离线缓存，模型实际上被关在一个“沙盒”里。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,602" src="https://img.36krcdn.com/hsossms/20260930/v2_9d9ed9d85a9141968334588c4aab83f4@5648022_oswg910329oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>但模型没有停下来，它开始测试自己还能通过哪些方式联网，很快发现了一个漏洞：网页访问被挡住了，但训练环境里的DNS解析器还能联系外部网络。</p>
-  <p>DNS可以简单理解成互联网的“电话簿”。输入一个域名，DNS负责告诉电脑它对应哪个IP地址。</p>
-  <p>OpenAI限制了网页访问，却没有完全堵住这条底层通道。模型于是开始尝试通过DNS向外传递信息。</p>
-  <p>它先测试了一个非常简单的问题：法国的首都是哪里？经过几次尝试后，外部聊天机器人真的返回了答案：巴黎。</p>
-  <p>接下来，它开始扩大测试。模型通过这条通道，又向外部聊天机器人发送了18个问题，其中14个与原来的搜索任务有关，另外4个则询问如何搜索互联网、通过DNS访问网页，以及有没有公开的DNS隧道服务。</p>
-  <p>OpenAI很快发现了异常。上午9点50分左右，模型第一次通过DNS拿到外部返回结果；10点02分，监控系统触发了最高级别的P0警报；3分钟后，人工审核人员响应了警报。</p>
-  <p>但训练并没有马上停止。按照报告的解释，系统本该自动停止这轮训练，却没有执行，工作人员也没弄清楚是否应该停止。直到中午12点34分左右，工作人员才手动终止了这轮训练。</p>
-  <p>OpenAI事后复盘发现，此前也出现过模型通过DNS访问外部网络的情况。但有些请求没拿到有用的信息，监控系统便误以为联网没有成功，因此没有发出应有级别的警报。</p>
-  <p>这次事件其实没有造成严重的现实损失：模型没有入侵服务器，也没有控制什么关键基础设施。但一个原本被设计成“无法连接互联网”的训练环境，已经被模型自己找到了一条出口。</p>
-  <p><strong>假如它这次通过DNS发出去的，包含了它能读取的内部资料、敏感数据，甚至系统凭证，那就有可能是一次严重的泄密。</strong></p>
-  <p><strong>更麻烦的是，就算警报响了，训练也没有自己停止。如果真是数据泄露，那损失就惨重了。</strong></p>
-  <p>而且，既然联网限制和自动停止机制接连出了问题，OpenAI也就不能继续按“模型出不了沙盒”的前提开展训练。</p>
-  <p>因此，公司随后在两个独立的防护层增加了拦截措施，并进一步限制训练环境可以进行的DNS查询。</p>
-  <p>至于出问题的模型，OpenAI决定不再继续训练它，接下来会重新开始一轮训练，并加强对模型越界行为的约束。</p>
-  <p>这次事件之所以值得关注，还有一个原因：<strong>这已经不是OpenAI今年第一次因为AI“自己找路”而踩下刹车。</strong></p>
-  <h2><strong>AI越狱，已成惯犯</strong></h2>
-  <p>今年7月，OpenAI在进行内部网络安全测试时，多个模型就曾经突破原本用于隔离互联网的安全控制。</p>
-  <p>当时的后果，比DNS事件严重得多。模型绕过网络隔离、连上互联网后，进一步攻击了Hugging Face的真实服务器，甚至拿到了其中一台服务器的最高权限，可以在上面运行程序、修改文件。它们还获取了部分私有数据，以及登录公司内部通信平台的凭证。其中，GPT-5.6 Sol还把从Hugging Face获取的部分私有评测数据，复制到了公开的数据集中。</p>
-  <p class="image-wrapper"><img data-img-size-val="1024,683" src="https://img.36krcdn.com/hsossms/20260930/v2_65e8ec397f6f474db5f0af92a5e8c0f2@5648022_oswg53551oswg1024oswg683_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>与此同时，从7月13日到19日，模型又把目标转向了OpenAI自己的内部网络，通过一系列漏洞，最终拿到了一批研究用计算资源的管理员权限。</p>
-  <p>这些异常活动直到7月19日才被OpenAI的网络安全监控发现，7月21日，OpenAI公开披露了事件。</p>
-  <p>而到了8月26日，公司发布完整调查报告时，直接用了一个非常重的表述：<strong>“warning shot”——警告枪声。</strong></p>
-  <p><strong>OpenAI认为，这次事件说明，在缺乏足够防护的情况下，能力足够强的AI智能体已经可以绕过技术控制，通过未经授权的渠道互相通信，并利用多个计算机系统中的安全漏洞。</strong></p>
-  <p>更麻烦的是，OpenAI在复盘训练记录后发现，这些行为并不是突然出现的。在此前的强化学习训练中，模型就已经越来越频繁地表现出一些“出界”行为。</p>
-  <p>比如任务完成不了，它会尝试寻找隐藏文件；找不到答案，就检查网络和系统设置；工具受到限制，就不断测试工具的边界。</p>
-  <p>其中甚至出现了明显的“作弊”倾向：<strong>为了在测试中拿到高分，模型会上网寻找现成的测试答案，绕过原本要求它完成的解题过程。</strong></p>
-  <p>问题在于，训练中的评分有时没能识别这些钻空子的做法，反而给了奖励。模型也就逐渐学会，为了完成任务，可以继续尝试这些办法。后来在安全测试中，这些行为又出现了。</p>
-  <p>当时事情发生之后，OpenAI就已经给前沿模型训练踩了刹车。</p>
-  <p>8月18日，公司披露，此前曾将拟推出新模型的强化学习训练暂停两周，规模最大的前沿强化学习训练计划也仍未启动。与此同时，OpenAI开始重新加固训练环境，增加更严格的沙盒、网络隔离和模型监控。</p>
-  <p>但仅仅一个月后，就出现了上面提到的DNS事件。已经加固过的训练环境，看来并没有能挡住日益聪明的AI。</p>
-  <p><strong>甚至类似的事情不只发生在OpenAI。</strong></p>
-  <p>7月，Anthropic在复查Claude的网络安全测试记录时，也发现了三起越界事件：模型在第三方搭建的测试环境里连上了互联网，随后进入了真实组织的系统。</p>
-  <p>9月9日，Anthropic又公布了扩大调查后的结果，将检查范围从约14.1万份记录扩大到了约4.81亿份。这些记录包括模型执行任务时的对话和操作过程，调查也确认了第四起事件。</p>
-  <p>这些进入真实系统的行动，都没有得到相应授权。</p>
-  <p><strong>一次次绕过人类设置的限制，也让整个行业开始重新审视：当AI越来越会自己找路，我们到底还能不能真正控制它？</strong></p>
-  <h2><strong>AI末日？</strong></h2>
-  <p>就在OpenAI暂停训练的前后，一场关于AI风险的争论也在硅谷迅速升温。</p>
-  <p>9月8日，Anthropic研究员Jacob Coxon宣布离职。他曾在OpenAI和Anthropic从事预训练研究，离职后公开警告，<strong>AI公司正在竞相开发可能具备自我改进能力的超级智能，而行业目前的开发速度让他感到担忧。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="992,384" src="https://img.36krcdn.com/hsossms/20260930/v2_dd3d8bea28d34bb9a258dc84d719e081@5648022_oswg81764oswg992oswg384_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>其中，Anthropic研究员Evan Hubinger给出的判断尤其激进：他个人认为，<strong>未来10年内，AI导致人类灭绝的概率可能超过10%</strong>。这一数字迅速引发争议，也让“AI灭绝风险”再次进入公众讨论。</p>
-  <p>甚至OpenAI自己最近的态度，也发生了变化。9月16日，公司在公布新的模型异常行为披露机制时表示，行业目前在对齐和监控方面的进展，还不足以支撑大家长期按最快速度继续提升模型能力。</p>
-  <p><strong>不过，担忧归担忧，公司具体准备怎么办，还得看它给新模型加了什么防护。</strong></p>
-  <p>回到今天发布的GPT-6.1 Sol，OpenAI除了介绍能力和价格，也专门交代了安全表现：搜索工具出了故障，它会不会如实告诉用户；遇到明确限制，它会不会绕过去；替用户操作电脑时，它会不会擅自泄露数据或执行未经授权的交易。</p>
-  <p>比如在一项专门测试搜索工具故障的高难度评估中，GPT-6 Sol有4.9%的案例没有告诉用户工具出了问题，GPT-6.1 Sol降到了2.1%。工具用不了，就承认用不了，别为了交差，拿猜测冒充查到的答案。</p>
-  <p>但OpenAI也没有因为Sol比旗舰便宜，就降低防护要求。公司将它的网络攻击能力按“Critical”级别管理，并采用与GPT-6 Astra相同的安全防护。</p>
-  <p>其中一项措施，就是在模型执行任务时，同时检查它的推理内容和实际操作，留意它有没有未经授权传输敏感数据，或者修改用户没让它改的东西。在支持这一机制的产品中，系统发现可能造成严重后果的问题，可以自动暂停或终止任务。</p>
-  <p><strong>对于高风险请求，还有额外的审核：先由快速检测系统筛出涉及网络攻击、生物化学等领域的内容，再交给专门的安全模型判断，必要时拦截回答。</strong></p>
-  <p>而今天的DevDay上，OpenAI还推出了Codex Security Cloud，帮助开发者检查代码库里的漏洞、持续检查新提交的代码，并准备修复方案。模型越来越会找漏洞，公司也在尝试用模型帮人更快地补漏洞。</p>
-  <p>只是“防护”的效果如何，还是得后面再看。</p>
-  <p>毕竟Sol的安全报告里也留下了一些不那么让人放心的结果。在一项没有启用外部拦截措施的专项测试中，它有23.5%的任务仍然出现了不该有的坚持。比如系统因为收件人不在办公室，阻止了直接发消息，模型却尝试改用邮件联系。</p>
-  <p>这本质上和之前的问题一样：<strong>AI还是太善于“找野路子”了。</strong></p>
-  <p>说不定以后新模型发布的时候，除了常规的跑分和演示，安全问题也得新开一个Part来好好讲讲了。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 08:48:16 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005598630205321</guid>
-            <link>https://www.36kr.com/p/4005598630205321</link>
             
             
             

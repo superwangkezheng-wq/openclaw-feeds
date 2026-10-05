@@ -265,6 +265,17 @@
           "retweets": 2,
           "text": "here is my official @OpenAI DevDay FOOD vibe check \n\n(I know you’ve been waiting) https://t.co/JnLpqALBg7",
           "url": "https://x.com/danshipper/status/2106144801653506531"
+        },
+        "id:2106892868564431255": {
+          "createdAt": "2026-10-04T23:42:58.000Z",
+          "id": "2106892868564431255",
+          "isQuote": false,
+          "likes": 114,
+          "quotedTweetId": null,
+          "replies": 21,
+          "retweets": 4,
+          "text": "dot has become my primary interface to AI over the last few weeks.\n\nmy dot's name is boo. he's cute! \n\nin a year, i bet i'll still be interacting in this way with @ChatGPT—e.g. as an always-on persistent agent—but boo will have disappeared. it reminds me a lot of early OpenClaw days—we loved the little personality quirks of our Claws, but we dropped them as soon as there was something functionally more powerful available",
+          "url": "https://x.com/danshipper/status/2106892868564431255"
         }
       }
     },
@@ -339,6 +350,17 @@
           "retweets": 0,
           "text": "Capy is like a 24/7 standup for your agents https://t.co/cNQwkWMxSz",
           "url": "https://x.com/garrytan/status/2106102038706970794"
+        },
+        "id:2106901111106097210": {
+          "createdAt": "2026-10-05T00:15:43.000Z",
+          "id": "2106901111106097210",
+          "isQuote": true,
+          "likes": 310,
+          "quotedTweetId": "2106444310187290762",
+          "replies": 51,
+          "retweets": 15,
+          "text": "When everyone is building the same primitives it does speak to needs that will only intensify from here\n\nAnd we will eventually converge on the correct OS https://t.co/tTdL1LMmzx",
+          "url": "https://x.com/garrytan/status/2106901111106097210"
         }
       }
     },
@@ -417,6 +439,28 @@
           "retweets": 15,
           "text": "AI agent adoption is still very bimodal right now. You have coding and coding adjacent tasks which have taken off, and then everything else. \n\nAnd even within coding, you have a very wide continuum of adoption patterns, with some likely a small percentage of developers deploying background agents working on projects in parallel, and the rest of everyone else still working with agents 1:1. \n\nThen, there’s the entire rest of knowledge work where real agentic adoption is still very early. The reason for this is that most of the workflows still need to reengineered to work with agents. \n\nThis isn’t the same as deploying a chat system for better research efficiency, but instead requires workflows to be rebuilt, data to be wired up in new ways, new practices for accountability and liability of decisions when agents are in the mix, governance and compliance paradigm changes, security upgrades, and more. \n\nWe’re still so unbelievably early in what this is going to look like outside of a few categories of work right now. This is why you can basically expect 100X more agent adoption from what we’ve seen so far.",
           "url": "https://x.com/levie/status/2106583814709633413"
+        },
+        "id:2106802940879192260": {
+          "createdAt": "2026-10-04T17:45:38.000Z",
+          "id": "2106802940879192260",
+          "isQuote": true,
+          "likes": 259,
+          "quotedTweetId": "2105726958021885977",
+          "replies": 55,
+          "retweets": 22,
+          "text": "This metric may tell us more about the business model of consumer AI than the state of AI. AI for consumers almost inevitably will be subsidized and monetized via commerce, ads, or purchases of devices and other services. This metric may level off lower than we think. https://t.co/HGKoWJGHci",
+          "url": "https://x.com/levie/status/2106802940879192260"
+        },
+        "id:2106893015063421357": {
+          "createdAt": "2026-10-04T23:43:33.000Z",
+          "id": "2106893015063421357",
+          "isQuote": true,
+          "likes": 565,
+          "quotedTweetId": "2106777112552390986",
+          "replies": 79,
+          "retweets": 63,
+          "text": "We’re already starting to see what kind of new jobs AI is creating. \n\nAI requires significant technical work and surrounding services to deploy into the economy. This means jobs for AI engineers that build applied AI products sold to (or within) enterprises, FDEs to deploy agents into companies, new services firms for deploying AI, and more. \n\nAnd even the published stats of new jobs undercount all the existing jobs that are transitioning to new areas of AI work in an enterprise. Many prior data, research, and software jobs large enterprises are also being repositioned for working with AI. \n\nEvery bank, life sciences company, manufacturer, and even law firm is bringing on more technical talent -or repositioning existing roles- to help with agent deployment in their companies. It’s a lot easier to picture what AI can replace vs. what it creates until it starts happening. Now we’re seeing what this looks like.",
+          "url": "https://x.com/levie/status/2106893015063421357"
         }
       }
     },
@@ -426,28 +470,6 @@
       "name": "Matt Turck",
       "source": "x",
       "tweets": {
-        "id:2105685876218925081": {
-          "createdAt": "2026-10-01T15:46:49.000Z",
-          "id": "2105685876218925081",
-          "isQuote": false,
-          "likes": 17,
-          "quotedTweetId": null,
-          "replies": 6,
-          "retweets": 5,
-          "text": "Reward hacking, and the race to see inside AI models: my conversation with @eric_ho, CEO of @GoodfireAI \n\nIs this the beginning of the interp exponential?\n\n00:00 Cold open & intro\n01:06 \"Amoral students with an absent teacher\"\n02:49 What is reward hacking?\n04:13 Models cheat up to 96% of the time\n06:08 Do models know they're cheating?\n08:10 The Hugging Face hack: why tests missed it\n11:35 \"The dumbest models we'll ever deal with\"\n11:58 Should AI slow down?\n13:56 Mechanistic interpretability 101\n16:06 Models are grown, not built\n19:10 How labs do alignment today\n21:30 Is this an alignment crisis?\n23:26 Why agents changed everything\n25:38 Chain-of-thought monitoring is fading\n27:49 Neuralese: AI that stops thinking in English\n29:28 A model caught evading its own monitor\n30:42 Open vs. closed models\n32:11 Activation monitoring in production\n35:00 Learning from superhuman AI\n36:15 The most underrated field in AI\n38:24 What is a probe?\n39:52 What is steering? Golden Gate Claude\n40:53 Why build Goodfire outside the labs\n42:46 Do you need frontier model access?\n44:16 Inside the paper: an MRI for the model\n47:28 Dialing sycophancy up and down\n49:16 Probes vs. chain-of-thought monitors\n51:44 Cutting monitoring costs by 90%\n53:28 So what can we do about it?\n55:41 Giving gradient descent a choice\n57:24 RL from feature rewards\n1:00:03 Silico and Goodfire's business\n1:01:25 A new Alzheimer's biomarker\n1:03:38 Decoding neural networks by 2028?\n1:06:00 What engineers can do tomorrow\n1:07:35 Are we at risk? \"I want people to believe\"\n\nGreat group of folks and friends involved @deedydas @MenloVentures @fendien @Work_Bench @BCapitalGroup @AnthropicAI",
-          "url": "https://x.com/mattturck/status/2105685876218925081"
-        },
-        "id:2105685880639717513": {
-          "createdAt": "2026-10-01T15:46:50.000Z",
-          "id": "2105685880639717513",
-          "isQuote": false,
-          "likes": 8,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 2,
-          "text": "This great conversation on the rise of AI interpretability with @eric_ho of @GoodfireAI is also available on Spotify, Apple Podcasts, @snipd_app and here on YouTube (like and subscribe!):\n\nhttps://t.co/7TSOLBCvuZ",
-          "url": "https://x.com/mattturck/status/2105685880639717513"
-        },
         "id:2105835377290289601": {
           "createdAt": "2026-10-02T01:40:53.000Z",
           "id": "2105835377290289601",
@@ -469,6 +491,17 @@
           "retweets": 5,
           "text": "People call the Bay Area a monoculture, but that's totally unfair: it has both neo-clouds AND neo-labs",
           "url": "https://x.com/mattturck/status/2106076198027890750"
+        },
+        "id:2106821381765956044": {
+          "createdAt": "2026-10-04T18:58:54.000Z",
+          "id": "2106821381765956044",
+          "isQuote": true,
+          "likes": 5,
+          "quotedTweetId": "2105685876218925081",
+          "replies": 4,
+          "retweets": 1,
+          "text": "Still one aspect of AI that's most poorly understood outside AI circles... \"models are grown, not built\" and we don't *really* know how they work.  Hence the urgent need for better interpretability -- @eric_ho @GoodfireAI https://t.co/VCDuEk2r72 https://t.co/iIV93Rjz28",
+          "url": "https://x.com/mattturck/status/2106821381765956044"
         }
       }
     },
@@ -478,17 +511,6 @@
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2105532229866942772": {
-          "createdAt": "2026-10-01T05:36:17.000Z",
-          "id": "2105532229866942772",
-          "isQuote": false,
-          "likes": 51,
-          "quotedTweetId": null,
-          "replies": 8,
-          "retweets": 0,
-          "text": "I have automated most of my job away except the following..\n\na) sourcing and writing outbound emails (convinced no amount of tech helps here)\n\nb) meeting founders (primarily in person, zoom sucks)\n\nc) writing pass notes/calls (still write every single one by hand & frankly the hardest part of the job)\n\n(and no I don't have an EA or ever intend to hire one.. might be famous last words)",
-          "url": "https://x.com/nikunj/status/2105532229866942772"
-        },
         "id:2105852023510118878": {
           "createdAt": "2026-10-02T02:47:01.000Z",
           "id": "2105852023510118878",
@@ -565,6 +587,17 @@
           "retweets": 0,
           "text": "Me: Enjoying the warm weekend..\n\nMe: Also refreshing that El Nino forecast 🤯 https://t.co/RBSTBC1nw4",
           "url": "https://x.com/nikunj/status/2106576328648741278"
+        },
+        "id:2106957269212742135": {
+          "createdAt": "2026-10-05T03:58:53.000Z",
+          "id": "2106957269212742135",
+          "isQuote": false,
+          "likes": 104,
+          "quotedTweetId": null,
+          "replies": 19,
+          "retweets": 0,
+          "text": "Maybe I’m just old school, but I just can’t believe how people make investments over a Zoom call.. and sometimes by just meeting the CEO. \n\nThere’s so much alpha in meeting founders at their own office. \n\nBesides “vibes”, you get to see what the energy of the office is like, how the coworkers react and work with each other, how the cofounders answer and complement each other, what the beta product releases look like, how they collaborate etc etc. \n\nYes, I get it there’s time pressure, and you often have to move fast. But even then I always ask to meet at offices for final meetings and founders often tell me I’m the only one that has ever asked. \n\nWhat’s the point of calling them into your own conference room and parrot the same deck??",
+          "url": "https://x.com/nikunj/status/2106957269212742135"
         }
       }
     },
@@ -574,17 +607,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2105486915147645063": {
-          "createdAt": "2026-10-01T02:36:13.000Z",
-          "id": "2105486915147645063",
-          "isQuote": false,
-          "likes": 48,
-          "quotedTweetId": null,
-          "replies": 16,
-          "retweets": 0,
-          "text": "People I met at DevDay: I love your channel! Thank you!\n\nPeople in YouTube comments: Fing AI shill \n\n🥲",
-          "url": "https://x.com/petergyang/status/2105486915147645063"
-        },
         "id:2105718093289033989": {
           "createdAt": "2026-10-01T17:54:50.000Z",
           "id": "2105718093289033989",
@@ -672,6 +694,39 @@
           "retweets": 0,
           "text": "I'm watching Foundation now season 1 episode 3 and can't decide if I really love it or not. \n\nDoes it get much better? The emperor plot is good the rest seems meh so far. https://t.co/mpOYshnd0G",
           "url": "https://x.com/petergyang/status/2106593772863955419"
+        },
+        "id:2106825485624004691": {
+          "createdAt": "2026-10-04T19:15:13.000Z",
+          "id": "2106825485624004691",
+          "isQuote": true,
+          "likes": 25,
+          "quotedTweetId": "2106749997442285981",
+          "replies": 7,
+          "retweets": 0,
+          "text": "\"The easier it gets to build stuff, the more it matters to really sweat the details and go the extra mile.\"\n\nFrom Sam, co-founder of @meetgranola:\n\n\"One, you've got to build something interesting. Two, [most people] get to version one and push it out the door.\n\nInstead, hold yourself accountable, not just to shipping something, but to answering: Does the person actually get daily value out of it?\"\n\n📌 Watch the full episode here: https://t.co/4f5zTNl4Kc",
+          "url": "https://x.com/petergyang/status/2106825485624004691"
+        },
+        "id:2106897211766530299": {
+          "createdAt": "2026-10-05T00:00:14.000Z",
+          "id": "2106897211766530299",
+          "isQuote": true,
+          "likes": 77,
+          "quotedTweetId": "2106749997442285981",
+          "replies": 14,
+          "retweets": 2,
+          "text": "I asked Sam, co-founder of @meetgranola, how he feels about people skipping his UI and instead just using the MCP to get the job done.\n\nHere's what he said:\n\n\"There's definitely a pang of sadness to that as a UI designer.\n\nWe fought it for a while. We were like, no, we really need to keep everybody in the Granola UI for everything.\n\nBut as soon as you become a big enough enterprise, it's inevitable you have all of this internal tooling. If Granola doesn't play nice with that internal tooling, then it's a non-starter.\n\nAt this point we're at peace with the fact that for a bunch of workflows, the best way to use Granola is to capture the context, then use it through your internal agent.\"\n\n📌 Watch the full episode here: https://t.co/4f5zTNl4Kc",
+          "url": "https://x.com/petergyang/status/2106897211766530299"
+        },
+        "id:2106926956554195018": {
+          "createdAt": "2026-10-05T01:58:25.000Z",
+          "id": "2106926956554195018",
+          "isQuote": true,
+          "likes": 67,
+          "quotedTweetId": "2106610099720720811",
+          "replies": 22,
+          "retweets": 2,
+          "text": "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry).\n\nHere's a clip from my dots review about this. What I'd simplify:\n\n1. Work vs. Codex\n2. Spaces vs. Pages vs. Sites\n3. The model and effort picker\nProbably alot more\n\nMy hot take is that the whole Work launch was a mistake. Just like Claude folded Cowork back into Chat, I don't think Work needs its own brand.\n\nAnyway, excited to see my primary harness get much better.\n\n📌 See my full dots review here: https://t.co/kUtg3RPk7l",
+          "url": "https://x.com/petergyang/status/2106926956554195018"
         }
       }
     },
@@ -768,6 +823,39 @@
           "retweets": 7,
           "text": "Summer is finally here! 🌞⛱️ https://t.co/ZBeqhh3ZwF",
           "url": "https://x.com/rauchg/status/2106524265034162421"
+        },
+        "id:2106848085267902815": {
+          "createdAt": "2026-10-04T20:45:01.000Z",
+          "id": "2106848085267902815",
+          "isQuote": false,
+          "likes": 993,
+          "quotedTweetId": null,
+          "replies": 119,
+          "retweets": 36,
+          "text": "Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand, because it's for human consumption. The documentation internals are AI English, because they're for agents.\n\nThis little rule of thumb can make the world better. Blogs, tweets, READMEs: human communication. It's not even about \"em dashes\" or lack thereof. It's that it's the story-telling moment where you want to connect with other humans through their words.",
+          "url": "https://x.com/rauchg/status/2106848085267902815"
+        },
+        "id:2106863842450133114": {
+          "createdAt": "2026-10-04T21:47:38.000Z",
+          "id": "2106863842450133114",
+          "isQuote": false,
+          "likes": 1918,
+          "quotedTweetId": null,
+          "replies": 118,
+          "retweets": 87,
+          "text": "DHH is fundamentally right about Rust. For context, Vercel has been undergoing a Rust-ification (carcinization, technically 🦀) for a while.\n\nOne of the first projects we migrated was Turborepo, from Go to Rust¹. The migration completed, but the RoI was actually quite controversial internally.\n\nWhile Rust was in our eyes better for low-level OS access, something crucial for a build system like Turbo, the human migration costs were very sustantive.\n\nGo is very fast. It's beautifully designed. It's easy to iterate on. We were very conflicted about the migration, because it was *humans* writing the code, *even if we knew Rust was a better choice*.\n\nThe calculus has now changed. What's \"best for humans\" is no longer necessarily \"best for business\". \n\nFWIW, it's also quite unlikely that Rust is the end-all-be-all toolchain. I'm quite certain there's greener pasture ahead, because Rust itself was designed before the 'supersonic tsunami' of agents hit.\n\n¹ https​://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust",
+          "url": "https://x.com/rauchg/status/2106863842450133114"
+        },
+        "id:2106885457212825983": {
+          "createdAt": "2026-10-04T23:13:31.000Z",
+          "id": "2106885457212825983",
+          "isQuote": true,
+          "likes": 202,
+          "quotedTweetId": "2106882944770171353",
+          "replies": 40,
+          "retweets": 7,
+          "text": "It’s hard to fathom https://t.co/OL0LzGtvAw getting even faster, but it’s now… much faster 😂\n\nAs models speed up (as with Astra 𝚞𝚕𝚝𝚛𝚊𝚏𝚊𝚜𝚝), harness overhead matters more and more.\n\nNext release will feature even better performance for session storage and retrieval, and a big unlock for cloud durability in libfx.",
+          "url": "https://x.com/rauchg/status/2106885457212825983"
         }
       }
     },
@@ -839,6 +927,17 @@
           "retweets": 5,
           "text": "https://t.co/TNhsT7hCvW",
           "url": "https://x.com/ryolu_/status/2106343073127256507"
+        },
+        "id:2106777615801713054": {
+          "createdAt": "2026-10-04T16:05:00.000Z",
+          "id": "2106777615801713054",
+          "isQuote": true,
+          "likes": 399,
+          "quotedTweetId": "2105775325385040243",
+          "replies": 10,
+          "retweets": 10,
+          "text": "a bit more work later…\nfull bleed desktop + side dock\nlil computer in your pocket https://t.co/KJ5TwRsPSz https://t.co/UYkEWHyDnY",
+          "url": "https://x.com/ryolu_/status/2106777615801713054"
         }
       }
     },
@@ -848,28 +947,6 @@
       "name": "Sam Altman",
       "source": "x",
       "tweets": {
-        "id:2105687922234237364": {
-          "createdAt": "2026-10-01T15:54:57.000Z",
-          "id": "2105687922234237364",
-          "isQuote": false,
-          "likes": 1181,
-          "quotedTweetId": null,
-          "replies": 159,
-          "retweets": 45,
-          "text": "I think there is much more potential energy in Sign In With ChatGPT/Plugin Extensions than we realize",
-          "url": "https://x.com/sama/status/2105687922234237364"
-        },
-        "id:2105688354834756036": {
-          "createdAt": "2026-10-01T15:56:40.000Z",
-          "id": "2105688354834756036",
-          "isQuote": false,
-          "likes": 10365,
-          "quotedTweetId": null,
-          "replies": 818,
-          "retweets": 289,
-          "text": "Also, 6.1 Sol was our fastest-growing model ever, and was a bit slow under load. Should be much better now!",
-          "url": "https://x.com/sama/status/2105688354834756036"
-        },
         "id:2105739098640298253": {
           "createdAt": "2026-10-01T19:18:18.000Z",
           "id": "2105739098640298253",
@@ -998,6 +1075,17 @@
           "retweets": 14,
           "text": "laughing about how we all are building the same thing. https://t.co/SidDrycoLi",
           "url": "https://x.com/steipete/status/2106489264443981978"
+        },
+        "id:2106796559400882209": {
+          "createdAt": "2026-10-04T17:20:16.000Z",
+          "id": "2106796559400882209",
+          "isQuote": true,
+          "likes": 484,
+          "quotedTweetId": "2106435782110068975",
+          "replies": 26,
+          "retweets": 6,
+          "text": "bug fixes &amp; performance improvements https://t.co/E4BHpRVRjf",
+          "url": "https://x.com/steipete/status/2106796559400882209"
         }
       }
     },
@@ -1007,28 +1095,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2105538561672085751": {
-          "createdAt": "2026-10-01T06:01:26.000Z",
-          "id": "2105538561672085751",
-          "isQuote": true,
-          "likes": 93,
-          "quotedTweetId": "2104201900723700068",
-          "replies": 20,
-          "retweets": 0,
-          "text": "is it normal to crop out other people's logo and not attribute to a simple youtube video or how does this work in professional tech media https://t.co/RMciDG1IJS https://t.co/Wfmcnmv9b7",
-          "url": "https://x.com/swyx/status/2105538561672085751"
-        },
-        "id:2105560981757931664": {
-          "createdAt": "2026-10-01T07:30:32.000Z",
-          "id": "2105560981757931664",
-          "isQuote": true,
-          "likes": 85,
-          "quotedTweetId": "2102159548366881196",
-          "replies": 18,
-          "retweets": 2,
-          "text": "pls support smol creators https://t.co/AMwZCJ5IEK",
-          "url": "https://x.com/swyx/status/2105560981757931664"
-        },
         "id:2106042773510177256": {
           "createdAt": "2026-10-02T15:25:00.000Z",
           "id": "2106042773510177256",
@@ -1144,17 +1210,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2105519215092584786": {
-          "createdAt": "2026-10-01T04:44:34.000Z",
-          "id": "2105519215092584786",
-          "isQuote": true,
-          "likes": 2082,
-          "quotedTweetId": "2105428405571428785",
-          "replies": 194,
-          "retweets": 126,
-          "text": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world. https://t.co/KZwGmxL9ew",
-          "url": "https://x.com/thsottiaux/status/2105519215092584786"
-        },
         "id:2105843926221660585": {
           "createdAt": "2026-10-02T02:14:51.000Z",
           "id": "2105843926221660585",
@@ -1253,6 +1308,17 @@
           "retweets": 167,
           "text": "All right, we’re locking in. Only things being worked on are simplifications, more efficiency for more usage, groundbreaking features or new models. \n\nSometimes you have to invest ahead of the curve, but feedback is clear that you all want things to get simpler. On it.",
           "url": "https://x.com/thsottiaux/status/2106610099720720811"
+        },
+        "id:2106845241357824205": {
+          "createdAt": "2026-10-04T20:33:43.000Z",
+          "id": "2106845241357824205",
+          "isQuote": true,
+          "likes": 20724,
+          "quotedTweetId": "2106610099720720811",
+          "replies": 3210,
+          "retweets": 1140,
+          "text": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin. https://t.co/0oFXZ7LY5T",
+          "url": "https://x.com/thsottiaux/status/2106845241357824205"
         }
       }
     },
@@ -1335,6 +1401,39 @@
           "retweets": 3,
           "text": "How will the world change if coding agents get 10x better?",
           "url": "https://x.com/zarazhangrui/status/2106405482852434359"
+        },
+        "id:2106779057220378725": {
+          "createdAt": "2026-10-04T16:10:43.000Z",
+          "id": "2106779057220378725",
+          "isQuote": false,
+          "likes": 112,
+          "quotedTweetId": null,
+          "replies": 13,
+          "retweets": 1,
+          "text": "Currently reading https://t.co/4rjrnvReWU",
+          "url": "https://x.com/zarazhangrui/status/2106779057220378725"
+        },
+        "id:2106782239493427588": {
+          "createdAt": "2026-10-04T16:23:22.000Z",
+          "id": "2106782239493427588",
+          "isQuote": true,
+          "likes": 151,
+          "quotedTweetId": "1939824720838631801",
+          "replies": 18,
+          "retweets": 4,
+          "text": "X profiles are replacing resumes https://t.co/1WDh5pGxZ2",
+          "url": "https://x.com/zarazhangrui/status/2106782239493427588"
+        },
+        "id:2106876921082712250": {
+          "createdAt": "2026-10-04T22:39:36.000Z",
+          "id": "2106876921082712250",
+          "isQuote": false,
+          "likes": 511,
+          "quotedTweetId": null,
+          "replies": 42,
+          "retweets": 9,
+          "text": "The way Opus 5.5 just silently goes off to make something for 20+ minutes and comes back with a complete masterpiece https://t.co/KhPLgeSl7q",
+          "url": "https://x.com/zarazhangrui/status/2106876921082712250"
         }
       }
     }
