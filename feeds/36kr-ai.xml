@@ -15,8 +15,167 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Mon, 05 Oct 2026 16:11:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Oct 2026 03:07:18 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[90后站上C位：姚顺雨、罗福莉、刘大一恒、陈宇森、周畅们接管国产大模型]]></title>
+            <description><![CDATA[<p>2026年9月，国产大模型公司密集交出了一份成绩单。</p>
+  <p>9月21日，阿里巴巴在云栖大会开幕前一天确认，1993年出生的刘大一恒担任ATH事业群TokenFoundry Qwen大语言模型项目负责人，主论坛演讲排序仅在阿里集团主席蔡崇信、CEO吴泳铭之后。</p>
+  <p>9月22日，同一场大会上，1992年出生的陈宇森以阿里巴巴集团副总裁、<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公CEO身份首次公开亮相。</p>
+  <p>此前，他从长亭科技创始人变成钉钉CEO，再变成<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公事业部负责人，职级从P10升到P11（M6）。</p>
+  <p>同一天，小米也在这天发布MiMo-V2.6系列，同时内部晋升名单传出：1995年出生的罗福莉升到22级，小米职级体系的最高点。她负责的MiMo-V2.6-Pro在Artificial Analysis综合智能指数拿到46分，成为该榜单全球开源权重模型第一。</p>
+  <p>另一端，1990年出生的周畅从阿里离开后，加入字节，负责着Seedream、Seedance和世界模型。</p>
+  <p>两代人在同一张组织图上交替出现。一边是用十年、二十年才爬到一号位的技术老兵，一边是把履历压缩到五年，甚至十年的90后们。</p>
+  <p>“在Transformer（AI 大模型的底层架构）问世不到十年、ChatGPT爆发不到五年”这个技术周期里，“论资排辈”这个运行了几十年的变量，似乎失去了约束力。</p>
+  <p>但90后真正接管的，不只是职位，还有尚未解决的技术债、商业化压力和追赶风险。交棒已经发生，考试才刚刚开始。</p>
+  <h2><strong>01</strong></h2>
+  <h2><strong>刘大一恒和陈宇森：一条通向底座，一条通向生意</strong></h2>
+  <p>把刘大一恒和陈宇森放在同一场云栖大会的两天里，正好能看出两种截然不同的90后主管大模型的路径。</p>
+  <p>刘大一恒2012年进四川大学计算机学院，2015年以综合排名第一保送连读，2020年拿到博士学位。</p>
+  <p>他第一次进入公众视野是2019年在ACL上发了一篇论文，成为川大在读研究生首次在ACL发表成果。</p>
+  <p>同年他参加谷歌Natural Questions全球长期公开竞赛，同场竞争者包括谷歌AI和IBM Research，他所在的团队提交时取得世界第一并保持三个月。</p>
+  <p>2020年他成为华为“天才少年计划”第一档中西南地区唯一入选者，2021年1月加入阿里达摩院。</p>
+  <p>2026年3月9日，他负责手Qwen预训练，同时代管后训练和Coding团队，向代管Qwen一号位的阿里云CTO周靖人汇报。这个任命在阿里内部半年前就开始流传，直到9月才对外明确。</p>
+  <p>他公布的技术路线里，递归式自我改进（RSI）最激进：让模型从真实任务中发现不足、构造训练数据，再评价和修正结果。</p>
+  <p>陈宇森走到<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公负责人的位置，路径是先技术，再做产品。</p>
+  <p>1992年生，本科毕业于浙江大学竺可桢学院求是科学班计算机专业，联合创办企业级网络安全公司长亭科技，2017年入选福布斯中国30岁以下精英榜。2019年长亭科技被阿里云全资收购，他随之进入阿里；后来离开创业，项目停止后又重返阿里云。</p>
+  <p>今年6月11日陈宇森接任钉钉CEO，成为阿里历史上最年轻的事业部CEO；7月，三条原本分散的Agent产品线整合为“<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公”事业部，他兼任CEO。</p>
+  <p>两人都是明星负责人的继任者。刘大一恒接棒林俊旸留下的Qwen 底座负责人空位，陈宇森则接过无招（陈航）的接力棒， 后者2010年便加入阿里，是钉钉初代掌舵人。</p>
+  <p>但他们承接的命题完全不同。</p>
+  <p>刘大一恒要解决的，是基础大模型的能力上限问题。底座研发的核心挑战，是持续压缩模型的能力天花板与成本之间的矛盾。</p>
+  <p>陈宇森的课题，则落在大模型的商业化落地与整合。把大模型能力嵌入钉钉原有工作流，找到企业客户愿意买单的价值点，完成从技术能力到规模化业务收入的转化。</p>
+  <p>一个通向底座，一个通向生意。这两条线共同构成了阿里大模型体系的一体两面。</p>
+  <h2><strong>02</strong></h2>
+  <h2><strong>三张硬成绩单：开源、多模态与智能体</strong></h2>
+  <p>罗福莉、周畅和姚顺雨，分别站在开源大模型、多模态生成和AI Agent三个方向上。他们的履历证明，在一个技术范式快速变化的行业里，一次足够关键的成果，可能比多年按部就班的晋升更有说服力。</p>
+  <p>罗福莉的故事，最直接地体现了大模型行业的晋升速度。</p>
+  <p>2025年11月她正式加盟小米，全面负责MiMo大模型业务。约10个月后，即 2026年9月，她晋升至小米22级，也就是小米职级体系的最高点。小米13至22 级共10档，副总裁对应21至22级，雷军本人不在这个体系内。</p>
+  <p>这次晋升并非只靠传闻和头衔。</p>
+  <p>毕业后，罗福莉曾进入阿里达摩院，主导多语言预训练模型V<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>O；2022年进入幻方量化，随后加入<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>担任深度学习研究员，成为MoE大模型<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>-V2的核心开发者之一。</p>
+  <p>到了小米，她的成绩单更加直接：MiMo-V2-Pro总参数超1万亿，在Artificial Analysis榜单上按品牌排名全球第五，反超xAI的Grok；MiMo-V2.6-Pro拿到 46分，成为全球开源权重模型第一。</p>
+  <p>周畅的故事则更像一次跨公司的能力迁移。</p>
+  <p>2017年7月，他校招进入阿里达摩院，花名“钟煌”。在阿里最初几年，他做的是电商推荐算法，与大模型无关。</p>
+  <p>后来，他主导了“通义-M6”“<ai-product-link data-id="15053" data-name="通义千问" data-logo="https://img.36dianping.com/20260429/v2_4484a807533444beb2f280302bfb1460_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">通义千问</ai-product-link>” 的模型架构设计。离职前夕发布的Qwen2，两小时就冲上Hugging Face开源榜首，超过Llama 3-70B，也超过当时国内一众闭源模型。</p>
+  <p>后来，阿里随后以违反竞业协议为由提起劳动争议仲裁，这起纠纷一度让“竞业墙”成为行业公共话题。</p>
+  <p>2024年下半年，周畅低调加入字节Seed，职级4-2。入职不到一年，他接管 Seedream、Seedance和世界模型团队，后来周畅的管理边界进一步延伸至具身智能领域。</p>
+  <p>真正让他进入公众视野的，是2026年2月的Seedance 2.0。该产品2月7日内测，2月12日正式发布；其间，A股短剧概念股曾在集体涨停。</p>
+  <p>周畅用一个多模态产品，为字节的追赶叙事打开了突破口。</p>
+  <p>姚顺雨则是先在学术阶段定义了Agent时代的关键方法，再进入顶级AI公司参与产品落地，最后加入腾讯，同时掌管模型与基础设施。</p>
+  <p>从普林斯顿毕业后，姚顺雨在2024年加入OpenAI，参与AI Agent和任务执行系统方向开发。2025年12月，腾讯升级大模型研发架构，姚顺雨出 CEO/总裁办公室首席AI科学家，同时兼任AI Infra部和大语言模型部负责人。</p>
+  <p>AI Infra决定大模型如何训练、如何推理、如何提高效率；大语言模型部决定混元的能力上限和迭代方向。腾讯把这两部分同时交给姚顺雨，意味着他既要负责前沿模型能力，也要负责支撑模型能力的工程底座。</p>
+  <p>加入腾讯后，姚顺雨用Hy3完成了一场反击。这款总参数只有300B、激活参数21B的中型模型，在多项能力上表现出了优于GLM5.1的表现。</p>
+  <p>而Hy3上线后，腾讯的<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>上主动选择Hy3的用户数增长了 6 倍，日均文字处理量较预览版增长20倍。</p>
+  <p>罗福莉、周畅和姚顺雨的共同之处在于，他们是在一个新范式里先做出结果，再被组织赋予更大的权限。</p>
+  <h2><strong>03</strong></h2>
+  <h2><strong>交棒已完成，大考才开始</strong></h2>
+  <p>“90后接管”在2026年大模型市场被反复提及，但它并不是一个已经完成的结果。</p>
+  <p>已经完成的是职位交接：刘大一恒管Qwen模型，陈宇森管<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公，罗福莉管 MiMo，周畅管字节多模态，姚顺雨管腾讯大语言模型和AI Infra。</p>
+  <p>还没有完成的是能力验证。</p>
+  <p>刘大一恒面对的，是基础模型的能力上限与成本约束。底座研发的难点，不只是把参数继续做大，而是在长文本、推理、代码、智能体能力上持续突破，同时控制预训练和后训练所需的巨大算力与数据成本。</p>
+  <p>陈宇森面对的，是商业化落地和组织整合。<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公要把分散的Agent 能力、钉钉生态和Qwen底座能力打包成用户可感知的产品。</p>
+  <p>真正的难点不是演示一个会对话、会调用工具的Agent，而是让它进入会议、文档、审批、协同等真实工作流，解决 “演示惊艳、日常难用” 的问题，并找到企业客户愿意持续付费的价值点。</p>
+  <p>罗福莉面对的，是开源成绩能否转化为可持续范式。</p>
+  <p>她完整展示强化学习训练全过程，并公开成本：MiMo-V2.6-Pro 后训练用时6 天，使用约75万条真实任务轨迹，总训练成本347万美元，每天约合400万元人民币。</p>
+  <p>这个数字引发讨论。同济大学电子与信息工程学院副教授李王明卉对媒体表示，关键不是“便宜”，而是它把强化学习后训练变成了一种可计量的服务能力；但这取决于环境搭建、工具执行、结果验证的边际成本能否被摊薄。</p>
+  <p>如果这些异构环境能够被工程化、标准化、复用化，它可能成为一种新的服务定价范式；否则，347万美元只是一次漂亮的标杆。</p>
+  <p>周畅和字节面对的，则是追赶者如何补基础能力的课。</p>
+  <p>Seedance 2.0让周畅负责的多模态业务打出了声量，但这并不意味着追赶已经结束。视频生成之后，还有世界模型、实时交互、成本控制、规模化商用等一系列难题。</p>
+  <p>姚顺雨面对的，是能力走向组织体系的考验。腾讯并不缺少场景：社交、内容、会议、文档、云、企业服务，但场景本身不会自动变成能力，必须通过工具接入、数据回流、真实评估和基础设施建设，把它们转化为模型可理解、可执行、可迭代的系统。</p>
+  <p>这正是90后接管的另一面：他们进入的是更快的决策循环、更大的资源盘子，也是更高的风险敞口。职位可以在一次组织调整中完成交接，但能力必须通过一轮又一轮的模型、产品、收入和成本来验证。</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzU5MTczNjIyNA==&amp;mid=2247615120&amp;idx=1&amp;sn=37e1d1670425a0f768ae72d2d85adf00&amp;chksm=ffb158a4d75fdbf03ea4b1dabecbfdb12ca177b40c82ab5cf6aaf344ffed9ad02ebdee810a6a&amp;scene=0&amp;xtrack=1#rd">“Tech星球”（ID：tech618）</a>，作者：任雪芸，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 06 Oct 2026 01:56:46 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4012967999852425</guid>
+            <link>https://www.36kr.com/p/4012967999852425</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[刚刚，ChatGPT 推出文字水印，GPT-6 提速 50%]]></title>
+            <description><![CDATA[<p>很少有 AI 厂商笃信发布的产品能够「以数量换质量」，OpenAI 偏偏是其中之一。&nbsp;</p>
+  <p>一如之前连开 12 天发布会的豪举，昨天，OpenAI Codex 负责人 Thibault Sottiaux（也就是大家熟悉的 Tibo）宣布了一项持续 28 天的承诺：&nbsp;</p>
+  <p><strong>接下来的每一天，团队要么发布一项对大多数 Codex 或 ChatGPT Work 用户有明显价值的更新，要么执行一次完整额度重置。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,696" src="https://img.36krcdn.com/hsossms/20261006/v2_f8d8aff3fcbe473290213e6a719eb2e4@6100851_oswg255957oswg1080oswg696_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>活动来到 Day 1，OpenAI 交出的答卷是提速</strong>。通过订阅使用 GPT-6 Astra 和 GPT-6.1 Sol，默认速度将提高约 50%，用户无需调整设置。&nbsp;</p>
+  <p>同一天，OpenAI 还公布了两项方向完全不同的变化。<strong>ChatGPT 和 Codex 的部分文字输出将开始加入不可见水印，ChatGPT 的广告业务则准备引入更直观的图片展示形式。</strong></p>
+  <p>放在一起看，几项更新很能说明 OpenAI 目前的处境。它需要让付费用户觉得订阅更值，也需要向监管解释 AI 内容从哪里来，同时还得让越来越大的用户规模，成为广告主愿意买单的生意。&nbsp;</p>
+  <p>模型之外，AI 平台要面对的日常事务，正在越来越接近我们熟悉的互联网。&nbsp;</p>
+  <h2><strong>每天都要更新，用户期待一份可用的改进</strong></h2>
+  <p>Tibo 的承诺有一个值得留意的限定，每天发布的改进，需要与大多数 Codex 或 Work 用户相关，而且效果足够明显。&nbsp;</p>
+  <p>换句话说，一项藏在角落里的小功能，很难满足用户对这份承诺的期待。对于每天使用 AI 工作的人，等待时间、操作是否方便、额度够不够用，都会直接影响他们愿不愿意继续付费。&nbsp;</p>
+  <p>Day 1 的提速，正好回应了这种需求。&nbsp;</p>
+  <p><strong>按照 Tibo 的说明，GPT-6 Astra 和 GPT-6.1 Sol 的默认速度优化覆盖 OpenAI 的订阅产品，也覆盖支持 Sign in with ChatGPT 的合作伙伴，包括 OpenCode、Pi、Amp 和 Devin。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,489" src="https://img.36krcdn.com/hsossms/20261006/v2_91085dcab8d049fc891491617fa4d921@6100851_oswg157564oswg1080oswg489_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>用户通过 ChatGPT 账号在这些工具里使用订阅能力，也在此次调整的范围内。他表示，变化会在公告发布后的两小时内逐渐被用户感受到。&nbsp;</p>
+  <p>随后，Tibo 又给出了一个更具体的数字，生成速度从每秒 30 token 提升到每秒 50 token。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,386" src="https://img.36krcdn.com/hsossms/20261006/v2_b47772f53cf74ee5af387368405070a0@6100851_oswg117353oswg1080oswg386_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>对于需要连续与模型交互的工作，提速仍然有实际意义。写代码需要反复读取文件、修改、测试和纠错，整理资料也可能经过多次搜索与生成，单次等待缩短后，累积下来的体验差异会更明显。&nbsp;</p>
+  <p><strong>不过，比起提速，或许重置额度来的更实在些，</strong>我们也期待这 28 天能看到多几次。&nbsp;</p>
+  <h2><strong>给文字留下水印，也要承认水印的局限</strong></h2>
+  <p>提速让用户更容易使用 AI，文字水印则回应了另一个问题。当生成内容进入邮件、文章、报告和公共讨论，外界还能不能识别它与 AI 的关系？&nbsp;</p>
+  <p>同样是今天，OpenAI 公布了应对欧盟文字来源规则的方案。按照其公告，欧盟《AI Act》要求生成式 AI 提供商，让生成文字能够以机器可读的方式被识别。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,781" src="https://img.36krcdn.com/hsossms/20261006/v2_b2715ed5fb4244478ac1e603f6113fe6@6100851_oswg312889oswg1080oswg781_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>全球 API 客户从当天起，可以为部分模型主动开启文字水印，默认状态仍然关闭。</strong></p>
+  <p><strong>未来几周，OpenAI 会在欧盟范围内，为符合条件的 ChatGPT 和 Codex 文字输出加入不可见水印，覆盖各类套餐，但首发阶段不会将它设为全球默认功能。</strong></p>
+  <p>OpenAI 将这项技术称为 textGrain。它会在模型选择词语时加入不可见的统计信号，检测工具再寻找这些信号，判断一段文字是否含有 OpenAI 水印。OpenAI 还计划将技术开源。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,391" src="https://img.36krcdn.com/hsossms/20261006/v2_7c01b7f871274065a37c27f8e8bbb77a@6100851_oswg148529oswg1080oswg391_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>难点在于，文字太容易被改动，而可供模型选择的表达方式，也因内容而异。&nbsp;</p>
+  <p>在目标误报率为 1% 的测试条件下，对于心理学等内容，检测工具能识别约 80% 的 200-token 水印文本，长度增加到 400 token 时，识别率约为 95%。数学内容的表达空间更小，检测表现明显更低。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,788" src="https://img.36krcdn.com/hsossms/20261006/v2_e54c0aad54204d0398305f9b4588a8f4@6100851_oswg103159oswg1080oswg788_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>编辑也会削弱信号。在另一组 400-token 文本测试中，将 10% 的词语替换为同义词，检测率会从约 92% 降至 66%；替换比例达到 25% 后，检测率只剩 17%。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,841" src="https://img.36krcdn.com/hsossms/20261006/v2_c6631c47d4414a4bb824f0f3663207a6@6100851_oswg129061oswg1080oswg841_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>几组数字说明，文字水印能提供线索，但距离可靠判断一篇文章的创作过程，还有相当大的距离。OpenAI 也表示，在其用于评估 Astra 的基准测试中，没有观察到加入水印前后存在有意义的性能差异，不过这些测试仍然不能覆盖所有实际写作场景。&nbsp;</p>
+  <p>更关键的边界，是<strong>水印无法衡量人类贡献。</strong></p>
+  <p>一个人自己完成文章，再让 AI 调整表达，和让 AI 生成全文，都可能涉及模型对文字的处理。检测到水印，无法说明作者投入了多少判断、编辑与创意，也不能据此判定版权、责任或内容真假。&nbsp;</p>
+  <p>水印同样不会关联具体用户、账号、提示词或对话。反过来，没有检测到水印，也无法证明文字由人类独立完成，文本过短、经过编辑或翻译、来自不支持水印的模型，都可能让信号无法被识别。&nbsp;</p>
+  <p><strong>由于误报和漏报仍然存在，OpenAI 暂时只向获批的研究人员和专业机构开放检测工具的申请，没有在上线时向公众全面开放。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1254" src="https://img.36krcdn.com/hsossms/20261006/v2_5453d604acb34e7a9a99069973dbda2b@6100851_oswg991780oswg1080oswg1254_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>当 ChatGPT 每周触达 12 亿人，广告开始长出熟悉的样子</strong></h2>
+  <p>比起水印，视觉广告更容易让普通用户感受到产品的变化。&nbsp;</p>
+  <p>OpenAI 在同日公告中称，ChatGPT 每周触达 12 亿人。对于这样规模的平台，订阅之外的商业收入，已经成为产品发展的一部分。&nbsp;</p>
+  <p>此次公布的新广告形式，将通过图片展示产品灵感、使用方式或相关体验。首批测试计划在本月晚些时候于美国启动，<strong>与一组初始广告主合作，展示场景选在 ChatGPT 生成图片的过程中。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,540" src="https://img.36krcdn.com/hsossms/20261006/v2_247752119f864ec5a2fb7c0e11682900@6100851_oswg344888oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>按照 OpenAI 的说明，广告会被明确标注，并与正在生成的图片保持分离，广告也不会影响 ChatGPT 提供的回答。</strong></p>
+  <p>选择图片生成作为测试场景，有它的商业逻辑。&nbsp;</p>
+  <p>用户在构思房间布置、活动方案或生活方式时，图片能让商品的使用场景变得更直观，也更容易让品牌进入用户的考虑范围。当然，是否能带来足够好的体验，还要等测试给出答案。&nbsp;</p>
+  <p>OpenAI 同时扩充了广告效果衡量工具，与 Hightouch、Tealium、LiveRamp 等平台合作，方便广告主将已有系统中的转化数据传回 ChatGPT Ads，并引入更多归因和效果评估伙伴。&nbsp;</p>
+  <p>对广告主而言，真正需要回答的问题是，用户看过广告之后，是否产生了购买，以及这些购买有多少原本就会发生。&nbsp;</p>
+  <p>OpenAI 公布了几组合作伙伴提供的早期结果。&nbsp;</p>
+  <p>DV Rockerbox 称，WeightWatchers 在 ChatGPT Ads 上的归因获客成本，比其综合付费搜索基准低 15.3%；WorkMagic 称，健康品牌 Dose 的增量购买中，67% 来自全新客户；Triple Whale 则称，Portland Leather 从 ChatGPT Ads 获得的访问者中，93% 是新访客。&nbsp;</p>
+  <p>此外，广告展示的位置，也需要新的规则。OpenAI 表示，会评估对话是否适合展示广告，避免在情绪脆弱、敏感或其他不适宜的语境中投放，并与 DoubleVerify、Integral Ad Science 探索品牌适配评估。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261006/v2_12f7f5d1087e45748d566f5c6a4ea449@6100851_oswg719627oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>按照公告，这些合作方将在受控测试环境中评估相关保护机制，不会访问真实用户的私人对话。&nbsp;</p>
+  <p>传统网站的广告通常围绕页面内容，ChatGPT 的广告则出现在一段持续变化的对话旁边。平台越能理解用户当前想做什么，商业机会就越具体；同样，用户也会更在意，自己得到的建议究竟受到什么影响。&nbsp;</p>
+  <p>OpenAI 承诺广告不影响回答，未来我们也将拭目以待。&nbsp;</p>
+  <p>28 天更新承诺才刚开始，接下来每天会交出什么，仍然值得关注。不过，首日的几项变化已经让竞争的范围更清楚了，OpenAI 同时要经营付费用户的效率、生成内容的透明度，以及广告主的商业回报。&nbsp;</p>
+  <p><strong>AI 平台越来越成熟，也越来越需要回答一个熟悉的问题。当它既是帮你做决定的助手，又是商家争取你注意力的地方，用户凭什么持续相信它？</strong></p>
+  <p><strong>附上参考资料：</strong></p>
+  <p><strong>https://openai.com/index/eu-text-provenance/</strong></p>
+  <p><strong>https://openai.com/index/new-chatgpt-ads-format-and-measurement/</strong></p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/ryfaFekrRjJQYaHKaC2D-A">“APPSO”</a>，作者：发现明日产品的，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 06 Oct 2026 01:08:25 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4013699052588937</guid>
+            <link>https://www.36kr.com/p/4013699052588937</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[Rabbit 创始人吕骋：人不该为 Agent 改变思考方式]]></title>
@@ -2596,220 +2755,6 @@
             <pubDate>Wed, 30 Sep 2026 09:18:53 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4005646517964932</guid>
             <link>https://www.36kr.com/p/4005646517964932</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[估值泡沫还是真实需求？具身智能数采中心真相调查]]></title>
-            <description><![CDATA[<p>具身智能的数据采集的基础设施，正在政策与市场的双重推力下急速扩张。</p>
-  <p>作为产业冷启动阶段诞生的新型基础设施，数采中心原本承担着采集机器人视觉、力控、动作轨迹等真机数据的职能，成为国内具身模型迭代的重要数据源。<strong>但随着产业发展，一套“国资采购机器人本体、企业回购采集数据”的闭环交易模式快速流行，一些具身智能企业大干快上的数采中心项目也开始引发外界关注和争议。</strong></p>
-  <p>真正将质疑推向台前的，是9月9日梅卡曼德机器人创始人邵天兰的一条朋友圈。他直指部分”名气很大、估值很高”的具身智能企业，借“数采中心”与地方政府、投资方、供应商的关联交易，制造虚假、不可持续的收入，以此冲刺上市。具身智能企业、地方政府、虚增收入——三个关键词叠加，让这个原本只在闭门讨论中流传的话题被放在了聚光灯下。</p>
-  <p><strong>政策要“实景实训”，市场在挤泡沫，资本在重估收入质量。三股力量交汇之下，遍布全国的数采中心，正迎来一场关于真实性与持续性的拷问。</strong></p>
-  <h2><strong>“卖设备—回购数据”的生意经</strong></h2>
-  <p>数采中心，即具身智能数据采集中心，是近两年伴随人形机器人热潮兴起的新型基础设施。操作员通过手柄或VR设备远程操控机器人，在样板间内反复执行抓取、分拣、搬运等任务，逐帧记录视觉、关节角度与力控反馈数据。</p>
-  <blockquote>
-   <p>根据相关机构统计，截至2026年8月，全国已建成106家集中式具身数采中心，其中84家投运，但尚未形成稳定的商业闭环。更引发外界担心的是，在长三角与珠三角外，一些具身智能企业与一些地方政府共建的数采中心，落子在明显不具备具身智能产业基础与地利优势。</p>
-  </blockquote>
-  <p>它们的共同特征是：<strong>由地方国资平台出资建设，向机器人企业采购本体设备，再由企业回购数据。</strong></p>
-  <p>邵天兰批评的核心，正是这套结构——“机器人卖给地方国资主导的数采中心，再通过租赁公司等渠道把数据买回来，收入就做出来了”。</p>
-  <p>这套“卖设备—回购数据”的模式，在行业内到底有多普遍？</p>
-  <p>“几乎绝大多数数采中心都在使用。”灵御智能联合创始人兼CEO金戈在接受《科创板日报》采访时坦言。灵御智能的商业路径是“卖本体—卖数据—卖能力”三步走，今年6月开始出货自研机器人本体，月均出货近百台，累计已超过300台。其中，宜宾西南具身智能训练中心项目采购了30台本体，签约方宜宾发展产城投资有限公司是当地国资平台——该订单占其总出货量不到10%。</p>
-  <p>金戈提供的客户结构颇具代表性：数采中心客户台数占比近50%，京东七鲜超市这类实景场景客户占30%，科研机构及其他模型企业合计占20%。从收入贡献看，数采中心和实景场景客户合计贡献70%至80%的订单收入。其本体定价在11.99万至19.99万元区间。</p>
-  <p class="image-wrapper"><img data-img-size-val="554,648" src="https://img.36krcdn.com/hsossms/20260930/v2_63eadee6bd2749099f6cf8a38c5f4bc6@5888275_oswg442813oswg554oswg648_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">京东全球数采中心实景</p>
-  <p>他称，两班倒每日工作16小时的情况下，客户回本约需八九个月，“但行业内几乎没有客户真正做到三班倒。”</p>
-  <p>对于模式本身，金戈认为应与“刷单”区分。他以订单农业作比：机器人是生产数据的工具，国资平台承担重资产，利用地方低成本要素生产数据；企业不自建数采工厂，以低于市场的价格回购数据，商业逻辑本身成立。回购数据有两个去向——企业自用训练模型，或对外销售给大模型企业。</p>
-  <p>“<strong>被市场诟病的刷单，指的是高价回购没有实际使用价值的数据，单纯做高账面收入</strong>。这才是邵天兰批评的核心，并非全盘否定这套商业模式。”金戈认为。</p>
-  <p>松延动力创始人姜哲源划出了另一条界限。近日，他在接受媒体采访时表示，公司今年没有任何一笔来自数采的订单。他的判断标准更为直接：“如果对方只买机器人做数据采集，那是真实订单。但如果对方购买机器人的同时，要求机器人公司回购数据，那就不真实。”</p>
-  <h2><strong>数采中心关键在于后续运营</strong></h2>
-  <p>水木资本董事长唐劲草曾投出他山科技等知名具身智能项目。他告诉《科创板日报》记者，此类安排在行业闭门讨论中“有所耳闻”，邵天兰的公开挑明，“可能说明相关问题已经积累到了一定程度，行业内实际发生的情况，大概率比外界看到的要多”。</p>
-  <p>但唐劲草也强调，<strong>地方国资数采需求有真实成分。</strong>“数据采回来主要服务于模型训练、策略优化和产品迭代，这个链条在行业早期有合理性，地方也有产业布局和招商诉求。关键在于后续运营：设备是否持续开机、数据是否有真实的外部买家，各中心差异很大。”</p>
-  <p>“如果企业收入明显依赖这类一次性采购，预算收缩的冲击会相当直接。因为缺乏工厂客户那样的自然续单能力。”唐劲草向《科创板日报》记者表示。</p>
-  <p>灵御智能联合创始人兼CEO金戈同样承认风险：“一旦地方财政预算收缩，高度依赖这类订单的企业，营收会出现断崖式下滑。”</p>
-  <p>他援引邵天兰的机器人L0—L10分级体系指出，具备长期价值的收入应来自L8—L10的真实终端业务，而当下行业很多订单停留在L0—L3，“大多只是演示Demo，但市场却按照成熟阶段给估值，造成明显的估值和现实错位，绝大多数企业甚至连L3都尚未实现。”</p>
-  <p>如何判别数采模式是否具备可持续性？北京石景山区具身智能训练中心方面对《科创板日报》记者给出了明确的行业参照：核心标准在于数据飞轮能否真正转动。可持续的数采模式具备三个核心特征：</p>
-  <p>第一，有真实产业牵引，数据从真实需求中来、回到真实场景中去，与制造业伙伴形成"真实场景、真实需求、数据回流"的闭环；第二，拥有高维数据资产，而非仅靠2D动作轨迹数据，通过构建4D世界模型形成统一数据底座，数据越积越厚形成长期壁垒；第三，训练与验证形成全闭环，打通"采集—建模—训练—验证—回流"全链条，包含失败样本采集与自主恢复能力训练。</p>
-  <p class="image-wrapper"><img data-img-size-val="554,337" src="https://img.36krcdn.com/hsossms/20260930/v2_9f42d89cbfb54fdd966424b5f7fc0e88@5888275_oswg234155oswg554oswg337_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">石景山数采训练基地实景</p>
-  <p>上述训练中心负责人认为，仅靠设备堆叠和动作演示、没有统一数据底座、只采集"怎么做"的二维数据、数据不回流迭代的模式，很容易陷入"展厅演示"困境，难以长期留住企业、形成产业生态。</p>
-  <h2><strong>具身智能企业估值回归“硬指标”</strong></h2>
-  <p>争议之后，资本对具身智能企业的的评估标准正在重构。</p>
-  <p>唐劲草向记者透露，<strong>这轮争论之后，投资机构的出手节奏明显放慢，评估标准更加侧重收入质量和真实运营数据。</strong></p>
-  <p>“以前市场热的时候，订单量、出货量、收入增速很容易直接推高估值，现在大家会追问这些收入是谁贡献的，设备有没有真正用起来，客户明年还买不买。”</p>
-  <p>在尽调环节，机构已经建立起多维度的验证方法。唐劲草介绍，主要从设备端、资金端、客户关系几个角度交叉验证：设备端看开机率、耗电量、维保记录，“这些硬指标比合同和验收单更能说明问题”；资金端看回款方是谁，中间有没有隔贸易公司或租赁平台；再核查客户与股东、投资方之间有没有关联关系，定价是否公允。</p>
-  <p>对于数采中心相关收入的占比，机构并没有设定一刀切的红线。“客户完全独立、设备正常在跑、数据有外部买家，这种收入占比高一些也没什么问题。”唐劲草表示，真正值得警惕的是几个信号同时出现：增长特别快，客户和投资方关系很近，设备利用率低，数据最后主要被企业自己买回去。</p>
-  <p>“最坏的情况，直接不把这块收入算进核心估值。”唐劲草同时判断，随着IPO审核对客户独立性、收入持续性、现金流追问得越来越细，“产品同质化严重、收入又主要靠政府单子和数采中心撑着”的企业会最先出局。</p>
-  <p>金戈把数采中心定义为“行业早期冷启动的必要过渡形态”，同时不讳言泡沫的存在：“部分企业把过渡阶段的数采收入用来冲刺上市，如果上市之后依旧找不到真实终端客户，风险最终会由二级市场股民承担。”</p>
-  <p>多名业内资深人士告诉《科创板日报》记者，数采中心不会消失——真机数据在后训练阶段仍不可或缺。但这个由地方政府、国资平台、机器人企业共同搭建的过渡性装置，正在从估值故事的主角，退回它本来的位置：一块产业起步期的垫脚石，而非通往资本市场的跳板。</p>
-  <p>对那些寄希望于它做高收入的企业而言，潮水退去的速度，可能比想象中更快。</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/XHSNiSu_Qs_39v6QjAbXOw">“科创板日报”</a>，作者：李明明田野李佳怡，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 08:54:54 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005634581155970</guid>
-            <link>https://www.36kr.com/p/4005634581155970</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元]]></title>
-            <description><![CDATA[<p>GPT-6 Astra一发布，3D圈已经坐不住了…</p>
-  <p>它能用Blender盖出这样一栋房子，再直接导进Unreal Engine 5，变成能走进去逛的漫游场景：</p>
-  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260930/v2_da0096cbd1864fd684c1c64aea721989@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>社交媒体上，网友很快玩出了更多新花样。</p>
-  <p>有人通过Blender MCP，仅凭文字提示，就让Astra从零搭出一整条医院走廊：</p>
-  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260930/v2_e049de55402f44789e7c2cbfdfc4e686@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>好好好，的确很惊艳。</p>
-  <p>But，我们把同一张参考图，分别交给Astra和专门做AI 3D生成的<strong>Meshy</strong>，结果却变成了这样……</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20260930/v2_352426ec765c45e6b60282eab35b81fc@000000_oswg1623147oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,443" src="https://img.36krcdn.com/hsossms/20260930/v2_1deb5d659c1941df854043371fc160c0@000000_oswg327301oswg1080oswg443_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>同一个金发剑士，Meshy生成的发丝根根分明、五官清楚，斗篷、皮带和护甲保留了明显的层次，盾牌上的叶片纹样也还原出来了。</p>
-  <p>右边的Astra，画风显然抽象多了……</p>
-  <p>头发是一整块「头盔」，脸是圆眼卡通风，身体像几段几何体拼起来的，站在Blender视窗里，更像一个刚搭完基础结构的手办。</p>
-  <p>呃，差距确实有点明显。</p>
-  <p>GPT-6 Astra刷屏之后，3D圈里最受关注的那个问题，也因此变得更微妙了：</p>
-  <h2><strong>通用模型都能建模了，还需要专门的AI 3D模型吗？</strong></h2>
-  <p>如果只看那些惊艳的演示，答案似乎已经呼之欲出。</p>
-  <p>可一旦把任务推进到具体资产，尤其是角色、复杂道具这些对比例、结构和细节要求更高的对象上，两条路线的差异就会迅速显现。</p>
-  <p>更有意思的是，通用模型能力一路狂飙的这两年，Meshy的生意并没有被挤压，反而增长得相当凶猛。</p>
-  <p>据Meshy披露，<strong>其ARR从100万美元增长至1亿美元，用时不到两年</strong>。</p>
-  <p>ARR，即年度经常性收入，是将企业当前可持续、可重复的订阅或合同收入按年折算，一次性收入通常不计在内。</p>
-  <p>它衡量的并非一款产品有多少人围观，而是目前已经形成了多大规模的持续付费收入，这也是它被视为SaaS公司核心指标的原因。</p>
-  <p>那么，不到两年从100万美元做到1亿美元，是什么速度？</p>
-  <p>放在传统软件行业，即便是最优秀的SaaS公司，这段路通常要走至少五年以上。</p>
-  <blockquote>
-   <p>历史可追溯至1911年、早期投资过Shopify、LinkedIn的著名风投机构Bessemer Venture Partners在《The State of AI 2025》中，总结了两类高速增长的AI公司：</p>
-  </blockquote>
-  <p>一类是「新星」，平均约4年达到1亿美元ARR，同时保持约60%的毛利率；另一类是增长更为爆发的「超新星」，达到1亿美元ARR平均只需约1.5年，但这类公司更为少见。</p>
-  <p>仅从增长的时间尺度看，Meshy不到两年完成ARR百倍扩张，已经显现出接近「超新星」式增长的爆发力。</p>
-  <p>再拿AI时代的代表性公司做参照，比如ElevenLabs和HeyGen。估值110亿美元的语音生成公司ElevenLabs，从首款产品上线到1亿美元ARR用了约20个月；华人团队打造的AI视频明星公司HeyGen，从100万美元ARR增长至1亿美元用了29个月。</p>
-  <p>Meshy不到两年的用时，比HeyGen更快。</p>
-  <p>而3D恰恰是这些模态里最难做成生意的一种。声音、视频生成出来基本就能用，3D资产还得过拓扑、贴图、尺寸这几关，才能进游戏引擎、上打印机。</p>
-  <p>视频和语音的创作者遍布全球，数以几十亿计；3D创作者目前还远没到这个量级。在这样的起点上跑出相近的速度，并不容易。而随着门槛不断降低，3D也正在从少数专业人士的工具，走向数以亿计的普通用户。</p>
-  <p>难度更高，速度却不显逊色。一次爆款Demo可以带来围观，ARR计算的却是真金白银的持续付费。</p>
-  <p>这条曲线背后，是两股力量在同时推动：在B端，AI生成的3D资产越来越可用，已经成为游戏开发、3D打印等行业日常运转中不可或缺的生产环节；在C端，创作门槛一再降低，越来越多原本不会建模的人，开始走进3D创作。</p>
-  <h2><strong>最强基础模型带火3D，专业3D模型更稀缺了</strong></h2>
-  <p>Astra之所以能在3D圈刷屏，拆开看并不神秘：</p>
-  <p>Computer Use让它能操作Blender，Coding让它把一句需求变成脚本，空间理解让它判断物体的结构和位置。</p>
-  <p>因此，Astra最擅长的，是那些可以拆解成几何关系的任务，比如CAD、参数化建模和程序化生成。墙体、楼梯、门窗，都能通过一行行代码搭建出来。</p>
-  <p>但开头那位金发剑士，恰恰超出了这套方法最舒服的范围。</p>
-  <p>发丝的走向、斗篷的褶皱、盾牌上的纹样，很难写成几条几何规则。它们是概念图里的设计本身，要靠模型从大量真实资产里学会形状和细节该长什么样。</p>
-  <p>这正是Meshy这类专业3D模型所解决的问题：输入文字或图片，直接生成带形状和纹理的3D资产。</p>
-  <p>北京大学OpenDCAI团队做过一个开源框架，叫3AGameFactory。它让AI编程智能体自己拆解游戏需求，再逐项判断每件资产应该现场生成、通过程序搭建，还是从开源素材库中获取。</p>
-  <p>其中，角色和关键道具交给了Meshy。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,533" src="https://img.36krcdn.com/hsossms/20260930/v2_6bd16d00f3274263b695efca8bfac36f@000000_oswg850594oswg1080oswg533_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>生成之后，资产还要经过网格清理和尺寸校验；角色还需完成骨骼绑定与动作处理，才能真正进入游戏。</p>
-  <p>项目负责人、博士生Bohan Zeng将其中最大的困难概括为：「看起来正确」与「真正可用」之间，仍然隔着一道鸿沟。不少问题只有在资产被放进可玩场景之后才会暴露。</p>
-  <p>Meshy与Astra协作搭建废墟场景的演示，也呈现了类似分工：通用模型拆解场景、准备参考图，再通过API调用Meshy，逐件生成所需资产。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260930/v2_16fdd00c37d34c8c8989ebdcca7a41c6@000000_oswg395452oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这些资产随后被导入Blender，完成摆放、尺寸调整和灯光布置。</p>
-  <p>规划和调度可以交给通用模型，但真正决定画面质感的那几件资产，出自Meshy。</p>
-  <p>这也是我们的判断：<strong>Agent降低的是3D创作的门槛，也让资产质量成为更关键的门槛</strong>。</p>
-  <p>能发起项目的人越多，角色和道具的需求就越大。创作者接下来要解决的，是如何稳定获得符合设计、能够进入生产流程的资产。</p>
-  <p>Agent越会干活，资产就越成为瓶颈。能把「看起来对」变成「真正能用」的专业3D模型，正是这条生产线上最难被替代的一环。</p>
-  <h2><strong>3D专业模型的壁垒都在哪里？</strong></h2>
-  <p>Meshy在这套协作中的价值，最终还是要落到资产质量上：形状准不准，细节够不够，颜色和图案对不对。</p>
-  <p><strong>第一道壁垒，是形状。</strong></p>
-  <p>比如这只机械猫头鹰，参考图中的多层甲片、胸腔齿轮和雕花底座，在生成结果中都保留了独立结构，没有糊成一整块鸟形轮廓。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,827" src="https://img.36krcdn.com/hsossms/20260930/v2_6703de846f8841a78d72b9351f98e274@000000_oswg669913oswg1080oswg827_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>对美术师来说，这意味着拿到手的模型更接近原设计，后续修改可以从一个有结构的资产开始。</p>
-  <p>在Meshy自建的3D几何对齐基准中，Meshy 7在单张图片输入下，造型比例、空间分布和表面细节三项指标均领先其他受测模型。</p>
-  <p>其中，表面细节得分59.8%，其他模型约为49%至55%，上一代Meshy 6 Lite为52.7%。</p>
-  <p><strong>第二道壁垒，是细节。</strong></p>
-  <p>Meshy 7.1生成的兽人角色，护臂绳结有清晰起伏，裙摆边缘还能看见编织和磨损痕迹。这些细节存在于几何结构中，可以在无纹理渲染下直接看到。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,541" src="https://img.36krcdn.com/hsossms/20260930/v2_a91a8a9d321a4456b9a954252e1810bc@000000_oswg488786oswg1080oswg541_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>据Meshy披露，7.1将几何生成分辨率从2048³提升至4096³；在其Detail Richness基准的4K渲染条件下，得分23.1%，高于其他受测模型。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20260930/v2_5cbc82769a6c43189fe3d0c35d1584d5@000000_oswg648273oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>更高的分辨率意味着模型可以表达更细的凹槽、褶皱和表面纹理，同时也对训练、推理和网格提取提出了更高要求。</p>
-  <p><strong>第三道壁垒，是颜色和图案。</strong></p>
-  <p>这台老式收音机真正难处理的并非方形外壳，而是铭牌上的英文、旋钮旁的数字刻度，以及面板上不同材质的变化。用Meshy转成3D模型后，两处铭牌文字仍可辨认，刻度也保留了分段和数字。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1136" src="https://img.36krcdn.com/hsossms/20260930/v2_014e61f2dd004220b36f16f58139bb5d@000000_oswg1354184oswg1080oswg1136_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>在Meshy发布的端到端纹理对齐测试中，Meshy 7综合得分66.2%，高于其他受测方案。</p>
-  <p>这些提升背后，是专业模型围绕3D资产持续优化。Meshy 7改进图像编码器与训练数据，让输入图片和目标几何更准确地对应；Meshy 7.1则扩大几何生成规模，并改进网格提取，使更细的结构落到可交付的Mesh上。</p>
-  <p>团队还在探索直接生成网格。采用Flow Matching路线的Meshy T2，能够生成顶点及连接关系，并按预算控制网格复杂度，兼顾速度与资产结构。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20260930/v2_c1a476e1014b4288bf7e706f8c3a9920@000000_oswg1270062oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <p>不过，技术指标再高，最终仍要回答一个商业问题：<strong>谁会为它付钱？</strong></p>
-  <p>专业用户追求的从来不是「偶尔惊艳一次」，他们需要的是连续生成十次、百次，结果依然八九不离十。还原越准，返工越少，AI 3D才有机会从偶尔试用尝鲜的工具，进入每天都要运转的生产流程。</p>
-  <p>目前，至少有两个付费场景已经相当明确。</p>
-  <p><strong>第一个是游戏。</strong></p>
-  <p>要知道，3D资产原本就是游戏开发中的一笔大开销。</p>
-  <p>按照游戏美术外包公司Juego Studios公布的价格区间，一件风格化3D道具约为300至2000多美元，一个3A品质角色则可能超过5000美元。成本之外，更直接的压力来自工期。角色和道具一多，3D美术很快就会成为项目进度的瓶颈。</p>
-  <p>三七互娱已经把Meshy接入了自己的生产流程：遇到复杂的角色和怪物，团队先用Meshy分别生成头、肢体等部件，再将它们导入3D软件完成组装、精修。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,182" src="https://img.36krcdn.com/hsossms/20260930/v2_b4fe522879b241038155cb6abe6ae296@000000_oswg145214oswg1080oswg182_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这种方式可以在人工雕刻开始前，先获得完成度超过60%的高模基础。在复杂的次世代和古风项目中，基础模型阶段的雕刻工作量减少30%至40%。</p>
-  <p>简单道具和角色则可以直接生成完整模型，清理后继续加工。在部分休闲和移动游戏项目中，一件资产的建模时间从5天缩短至约2.5天。</p>
-  <p>对动辄需要几十、上百件资产的游戏项目，效率会被持续放大，也让美术师有更多时间处理风格和最终精修。</p>
-  <p><strong>第二个是3D打印。</strong></p>
-  <p>想要自己动手打印的人，正在迅速增加。拓竹披露，截至2025年底，MakerWorld全球站和中国站合计注册用户约5000万，月活达到千万量级。</p>
-  <p>与之相比，平台活跃创作者只有约30万，优质模型接近200万个。</p>
-  <p>这意味着，平台上浏览、下载和打印模型的人数，远远多于能够原创模型的人。</p>
-  <p>打印机卖得越多，这道内容供给缺口就越明显。大多数人可以买到一台好用的打印机，却依然不会建模；想打印一个真正属于自己的手办，往往只能先等别人把模型做好。</p>
-  <p>Meshy瞄准的正是这一环：让不会建模的人，也能把自己的想法变成可打印的3D模型。</p>
-  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260930/v2_e132a216a1334c0bb8a98ba0bf716038@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>随着Meshy将多色3D打印能力做进产品，拓竹、创想三维、Elegoo、FlashForge、xTool等打印品牌，也陆续进入其客户名单。</p>
-  <p>把这些案例放在一起，也就能看出Meshy的增长从哪里来：</p>
-  <p><strong>第一层是个人订阅。</strong>独立开发者、教师和打印爱好者，可以用文字或图片生成模型，不再需要先学会专业建模软件。</p>
-  <p><strong>第二层是企业API。</strong>三七互娱、网易游戏和Nexon等游戏公司将生成能力接入原有管线后，需求便不再止于偶尔生成一个模型。一个项目需要几十甚至上百件资产，项目越多，API调用量也会随之增加。</p>
-  <p>而放眼全球市值与估值排名前十的企业，其中半数已经将Meshy放入生产链条的关键位置。</p>
-  <p><strong>第三层是硬件生态。</strong>Meshy进入3D打印品牌的用户链路后，模型生成需求又可能随着打印机销量和活跃用户规模继续增长。</p>
-  <p>在我们看来，<strong>企业API和硬件生态，才是Meshy收入能够持续放大的关键。</strong></p>
-  <p>这些，最终都写进了收入曲线，也解释了Meshy为什么能在不到两年时间里，将ARR从100万美元推至1亿美元。</p>
-  <p>Meshy增长快的关键，在于它跨过了「生成出来」与「投入使用」之间的距离。</p>
-  <p>模型质量越高，返工越少，进入的生产流程就越多；进入的生产流程越多，用户的生成需求就越容易从一次尝试，变成持续高频发生的调用。</p>
-  <p>因此，1亿美元ARR证明的并不只是有人愿意为AI 3D付费。它意味着Meshy已经初步建立起一套商业循环：<strong>模型能力推动实际使用，实际使用带来持续收入，收入再支持模型与工程投入。</strong></p>
-  <p>专业3D模型的壁垒，也就不只存在于参数和Benchmark里，还存在于它已经进入了多少真实生产流程。</p>
-  <h2><strong>AI 3D究竟是一个怎样的赛道？</strong></h2>
-  <p>不到两年做到1亿美元ARR，证明AI 3D已经是一门成立的生意。</p>
-  <p>但今天的收入，主要仍来自「帮助人完成3D工作」。游戏美术、建模师和设计师愿意为效率付费，却终究是一个有限的人群。</p>
-  <p>如果AI 3D想继续增长，下一个问题便是：<strong>除了帮助专业人士生产资产，它能不能让更多普通人直接创造和消费3D内容？</strong></p>
-  <p>这正是Meshy从AI for Work走向AI for Fun的原因。</p>
-  <p>Meshy新推出的实时互动多模态内容架构Mora，就是对这条路的一次尝试。</p>
-  <p>在Mora里，你可以走进一个房间，和场景互动，找出解开空间谜题的路径：</p>
-  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260930/v2_9cb6dc13162f473aa32825747ff8dcde@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>也可以走进拳击场，把老板的照片放到拳击台上，然后重拳出击！</p>
-  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260930/v2_d74053f894d54adaa5530aa7d0d46bc8@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这些互动能够实时发生，靠的是一套分层架构。</p>
-  <p>Coding Agent负责搭建游戏结构、编写运行逻辑；Meshy生成空间和3D资产，同时向实时视频模型输出控制信号；视频模型根据这些信号，实时生成画面和声音。</p>
-  <p>其中，3D是撑起整个世界的骨架。</p>
-  <p>这两年，「世界模型」成了AI圈最热的方向之一。谷歌DeepMind发布的Genie 3，已经可以根据文字实时生成可探索的场景。</p>
-  <p>但纯粹依靠视频生成的世界，空间一致性仍然是一道难题。玩家走远之后再回来，原本放在桌上的东西，可能已经换了位置，甚至直接消失。</p>
-  <p>Mora的思路，是先用3D固定空间，再让实时视频模型负责画面表现。</p>
-  <p>房间在哪里，门通向哪里，物体摆在什么位置，都由3D结构确定。玩家推开的每一扇门，放上拳击台的每一张照片，也都对应着空间中真实存在、可以持续交互的对象。</p>
-  <p>到了这里，3D已经从生产流程中的一项资产，变成了可玩世界的地基。</p>
-  <p>这条路线真正打开的，是AI 3D的用户边界。</p>
-  <p>过去，一个点子要变成能玩的游戏，中间隔着建模、编程、美术和游戏引擎。每一道门槛，都需要专业人员和大量时间。</p>
-  <p>Mora把这些工作都分给了不同模型，普通人不需要掌握完整的游戏开发流程，也有机会把一句话、一个念头，变成可以走进去的世界。</p>
-  <p>在我们看来，这才是AI for Fun真正抬高AI 3D天花板的地方：</p>
-  <p><strong>AI 3D的市场规模，不再只取决于世界上有多少3D美术，还取决于有多少人想玩，多少人想创造自己的世界。</strong></p>
-  <p>Mora还有一个关键设计原则：它会随着Coding Agent的进步一起成长。</p>
-  <p>像Astra这样的通用模型越擅长理解空间、编写逻辑，就越能设计出复杂的关卡和互动；Meshy的3D生成能力，则负责把这些玩法变成稳定、可进入的场景。</p>
-  <p>至此，开头那个问题也有了答案：<strong>通用模型都能建模了，市场还需要专门的AI 3D模型吗？</strong></p>
-  <p>在生产端，通用模型越能干活，能够发起的项目就越多，高质量3D资产的需求也会随之增长。</p>
-  <p>到了互动内容这一端，Coding Agent越强，能够设计的玩法越复杂，对稳定3D空间的需求同样越大。</p>
-  <p>前者负责理解意图、组织任务，后者负责生成真正可用、可控、可交互的3D世界。通用模型越强，专业3D模型能够承接的需求反而越多。</p>
-  <p>这也解释了Meshy为什么要继续向实时互动内容、向AI for Fun进军。从一件能用的资产，到一个能玩的世界，Meshy想覆盖的已经不只是3D生产工具的市场。</p>
-  <p>它站在通用模型与专业3D生成的交汇处，也把AI 3D面向的下一批用户，从会建模的人，推向了每一个想创造、也想亲自走进这个世界的人。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247928275&amp;idx=1&amp;sn=05b091d20dfde1ed7659c01d15ecccfe&amp;chksm=e97f076df860b4fd2f3cff138842164bcf787087d3f0c70a724b605caa12660bf51b12f6207f&amp;scene=0&amp;xtrack=1#rd">“量子位”（ID：QbitAI）</a>，作者：关注前沿科技，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 08:49:29 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005597357609095</guid>
-            <link>https://www.36kr.com/p/4005597357609095</link>
             
             
             
