@@ -29,7 +29,7 @@
    <media:description>Increasingly complex chip designs require more test data than those developed at older nodes and on single planar dies. The challenge is moving all of that data through the system without slowing down the testing process. Vidya Neerkundar, director of DFT product management for Siemens EDA's Tessent Division, talks with Semiconductor Engineering about the different test options, which ones work best where, and how different standards impact the test process.</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="1098"/>
+    <media:statistics views="1106"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>Increasingly capable natural language processing is changing how audio systems are designed, integrated, and perceived. Voice has been used to navigate through menus for the better part of two decades, but the addition of AI has transformed it from often annoying and highly limited responses to numbers to a much more interactive human-machine interface. Amol Borkar, group director of product management and marketing for Tensilica DSPs at Cadence, talks with Semiconductor Engineering about how this technology will improve even further in the future, why the focus isn't just about faster processors, and why this is so important for edge systems.</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="900"/>
+    <media:statistics views="902"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>The rapid build-out of AI on the edge marks a fundamental shift in where intelligence is located, how much is included in devices, and the speed at which that intelligence can be applied to everyday problems. While the cloud will still be used for training large language models, the edge will include a collection of smaller, much more targeted language models. Nigel Drego, CTO and co-founder of Quadric, talks with Semiconductor Engineering about how edge AI will interact with the cloud in co-optimized systems, how the proliferation of edge AI will improve response time and reduce privacy concerns, and how quickly this market is expanding. [According to recent estimates, 100 billion models are being run locally on edge devices today.]</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="639"/>
+    <media:statistics views="641"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>The use of AI agents in chip design has been limited to small portions of the design flow. Engineers have been proceeding cautiously to understand how agents work, how to ensure they are delivering consistent results, and how different agents work together. The next step is to extend their role beyond just gluing together coding and tooling functions. Mehir Arora, head of engineering at ChipAgents, talks with Semiconductor Engineering about what happens when the role of AI agents is expanded to include semantics and physics, what's happens when agents work in parallel on different engineering problems, and what's needed to achieve a 10X or greater improvement in productivity.</media:description>
    <media:community>
     <media:starRating count="45" average="5.00" min="1" max="5"/>
-    <media:statistics views="2004"/>
+    <media:statistics views="2013"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>Moving from large language models in the cloud to small language models at the edge is much more complicated than just slimming down the algorithms. It requires changes in both hardware and software, and the constraints can vary greatly from one market segment to another. Daniel Firu, CPO and co-founder of Quadric, and Ravi Chakaravarthy, vice president of software at the company, talk with Semiconductor Engineering about how to optimize NPUs for different applications, how to build in enough flexibility to keep designs from becoming obsolete too quickly, and how to leverage the benefits of open-source while still adding value.</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="738"/>
+    <media:statistics views="742"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description>If one AI agent can solve a problem in a certain amount of time, can multiple agents solve it faster? The answer is yes, but only if the agents have well-defined roles and targets. This is where orchestrators fit in, and why they are so critical to agentic AI. Kexun Zhang, head of research at ChipAgents, talks with Semiconductor Engineering about what exactly AI agents are, how they can be used to solve big problems that would require many experienced engineers, and how to parse a problem to maximize the effectiveness of those agents.</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="1902"/>
+    <media:statistics views="1903"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description>The demand for performance in an AI data center is causing a huge spike in the amount of power being consumed. Within a rack are a half-dozen SoC components housed in different types of advanced packages and connected with an assortment of blazing-fast interface IP and optical signaling. Manmeet Walia, director of product management for mixed-signal PHY IP in the Synopsys Solutions Group, talks with Semiconductor Engineering about the unprecedented changes underway to enable faster training and inferencing, and the collection of new technologies needed to make this all work, from 3.5D and 3D-ICs to the disaggregation of memory into tiered structures.</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="1150"/>
+    <media:statistics views="1153"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description>Since it was released in March 2022, the Universal Chiplet Interconnect Express (UCIe) has grown from a basic way of connecting two dies together into a comprehensive specification that can ensure the handoff of data between various components in an advanced package, as well as validate the chiplets within that package. Mayank Bhatnagar, director of product marketing at Cadence, talks with Semiconductor Engineering about the physical elements in UCIe, the logical view of how it appears to design engineers, and how this can be customized for anything from a simple connection to a complex collection of chiplets that can come from multiple foundries and operate at different speeds.</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="1190"/>
+    <media:statistics views="1202"/>
    </media:community>
   </media:group>
  </entry>
@@ -351,7 +351,7 @@
    <media:description>The number of defects detected through inspection is exploding at each new process node. There are now millions of defects being identified on each wafer, but only a fraction of those can cause problems. Prasad Bachiraju, senior director of business development at Onto Innovation, talks with Semiconductor Engineering about the different types of images being captured using different illumination modes at different touch points, how that data gets classified, and how AI and machine learning at the edge can be used to identify critical errors and separate out the nuisance errors that may be caused by process variation and neighborhood noise.</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="865"/>
+    <media:statistics views="866"/>
    </media:community>
   </media:group>
  </entry>
