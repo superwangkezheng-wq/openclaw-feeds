@@ -15,8 +15,272 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Tue, 06 Oct 2026 14:17:08 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Oct 2026 02:28:21 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[数学大爆炸，OpenAI 一夜攻克722个数学难题，准黎曼猜想已被证明]]></title>
+            <description><![CDATA[<p>就在今天，全球数学界和AI界都被这个消息震惊了——</p>
+  <p>没有预警，没有经过同行评审，甚至无视了学术界长久以来的礼仪，OpenAI发布了一系列由内部前沿模型产生的新数学成果。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1402" src="https://img.36krcdn.com/hsossms/20261007/v2_aa8a10277c7c4e9e9b4fa8193ab2a1cf@000000_oswg568360oswg1080oswg1402_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>他们简单粗暴地接放出GitHub项目库math&nbsp;。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1002" src="https://img.36krcdn.com/hsossms/20261007/v2_04331be6c4b640fb9f425ecd380ca6b2@000000_oswg250325oswg1080oswg1002_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>链接：https://github.com/openai/math/</p>
+  <p>里面是722 篇数学手稿，涵盖了 372 个此前悬而未决的顶级数学难题家族。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,950" src="https://img.36krcdn.com/hsossms/20261007/v2_4d30a2640f30449bb7820bdce1d5c8ac@000000_oswg257816oswg1080oswg950_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>链接：https://github.com/openai/math/blob/main/overview.pdf</p>
+  <p>其中，OpenAI 未发布的 AI 模型证明了拟黎曼猜想，并同步发布了 Lean 形式化验证。如果经过证实，这将是数论领域的历史性突破，也是 AI 发展史上的里程碑时刻！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,451" src="https://img.36krcdn.com/hsossms/20261007/v2_a046038ec8434d8d89e13d04425cdf3f@000000_oswg212733oswg1080oswg451_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>根据 OpenAI 的披露，绝大多数难题的证明，仅仅花费了他们未发布的一个内部模型平均 3 小时的 ChatGPT Pro 思考算力！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,668" src="https://img.36krcdn.com/hsossms/20261007/v2_62a70d643ed544518f6166b149c778e3@000000_oswg521513oswg1080oswg668_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>奥特曼发X表示：我们正进入一个全新的发现时代</p>
+  <p>对此，数学家们愤怒了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,869" src="https://img.36krcdn.com/hsossms/20261007/v2_b2104f31f7254a0b97b185fffdc775bc@000000_oswg460951oswg1080oswg869_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这个解决难题的列表，令人窒息。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261007/v2_622df570bc8f4b04a9cb1e5111d30fcb@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>数学大爆炸！</strong>&nbsp;</h2>
+  <p>这场「学术大屠杀」背后，OpenAI和数学家们早已剑拔弩张。</p>
+  <p>据《连线》披露，早在今年8月，OpenAI 就曾秘密召集40位全球顶级数学家闭门开会，他们抛出了一个窒息的议题：「如果 AI 在纯数学领域全面超越人类，我们该如何应对？」</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1978" src="https://img.36krcdn.com/hsossms/20261007/v2_44453cdc54bf4ae78cc7a3c65a23ebc4@000000_oswg852982oswg1080oswg1978_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>当时，OpenAI 隐晦透露，其内部模型已经突破了上百个悬案。</p>
+  <p>西北大学知名数学家Bryna Kra回忆，现场的气氛是「极致的兴奋与极致的恐惧并存」。</p>
+  <p>学者们苦苦劝告 OpenAI：千万不要再像网红一样只发推特或简短博客，一定要按学术规范发表严谨的论文，给人类学者留下消化、验证的时间。</p>
+  <p>然而，OpenAI用最粗暴的方式宣示主权，甚至提前学术截胡了纳维-斯托克斯方程的突破。</p>
+  <p>纽约大学客座教授Nestor Guillen愤怒地控诉——</p>
+  <p>在数学家眼里，这些 AI 巨头的行径简直就像黑帮！大家感到极度恐慌，不仅是因为 AI 本身，更是因为人类最高维度的智慧权力，正在被极少数科技寡头肆无忌惮地垄断。</p>
+  <p>有人透露，部分 OpenAI 工程师私下达成共识：「古典数学在今天已经死了，AI将以不可阻挡之势，终结大多数职业数学家的生涯。」</p>
+  <p>北大数学校友、统计学最高奖项之一「考普斯会长奖」得主、OpenAI研究员苏炜杰直言：这就像人类对智能这一概念宛如哥白尼一般范式转变的开始。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1221" src="https://img.36krcdn.com/hsossms/20261007/v2_d0fbfd1646cb4edabcff855f08012459@000000_oswg853496oswg1080oswg1221_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>AI核爆级成果：准黎曼猜想被攻克，且通过形式化验证标</strong>&nbsp;</h2>
+  <p>在所有被攻克的堡垒中，最先让整个数论界陷入疯狂的，是编号为 Result 003 的超级成果——它正面撕开了数学界终极圣杯黎曼猜想的大门。</p>
+  <p>黎曼猜想是数学界公认的「皇冠上的明珠」，现代数论中成百上千个定理，全部建立在「黎曼猜想成立」的地基上。它断言ζ(s)的所有非平凡零点都在实部ℜs=1/2 的直线上。160多年来，人类甚至难以排除它在远离1/2区域的零点。</p>
+  <p>而且，还潜伏着一个「朗道-西格尔零点」的幽灵——某些狄利克雷L-函数可能在极其靠近 1 的实数轴上存在异常零点，这阻碍了希望。</p>
+  <p>在本次公开的手稿中，OpenAI 模型全面攻克了「准黎曼猜想」：证明了所有狄利克雷L-函数，在整个实部 ℜs&gt;7/8的半平面内，绝对不存在任何零点！</p>
+  <p>而且，彻底消灭了朗道-西格尔零点。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,180" src="https://img.36krcdn.com/hsossms/20261007/v2_873b2f30285d46769e62210f445da077@000000_oswg48905oswg1080oswg180_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>OpenAI 在其 GitHub 说明坦承，绝大多数问题是由模型全自动跑出来的，唯独在关于黎曼 Zeta 函数无零点区域的工作上，研究团队进行了极其严密的人工审查和可读性润色。</p>
+  <p>虽然这还没完全抵达最终的 ℜs=1/2，但将无零点区域一口气推进到固定的常数界（7/8和11/12），并一致性排除西格尔零点，这已经是解析数论半个世纪以来前所未有的惊天飞跃！</p>
+  <p class="image-wrapper"><img data-img-size-val="708,1030" src="https://img.36krcdn.com/hsossms/20261007/v2_f6ddca817baa40108432a12bb5d46b33@000000_oswg440694oswg708oswg1030_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>巅峰时刻：攻克「基本半定阈值下的普通 NP-困难」&nbsp;</strong>&nbsp;</h2>
+  <p>在计算机科学领域，如果说 P vs NP是终极皇冠，那么「基本半定阈值下的普通 NP-困难」 就是决定人类算法极限的「无冕之王」。</p>
+  <p>这也是本次 OpenAI 成果库中最具颠覆性的一项研究（编号 Result 102）。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,234" src="https://img.36krcdn.com/hsossms/20261007/v2_c246c77b8eaa4672a99d55f0d3aeb4cd@000000_oswg64440oswg1080oswg234_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>链接：https://github.com/openai/math/blob/main/reasoning_traces/basic-semidefinite-threshold-np-hardness.pdf</p>
+  <p>什么是 NP-Hard？</p>
+  <p>现实世界中，海量的大规模优化问题（如芯片布线、物流调度、航线规划、图着色）都被归类为 NP-Hard问题。</p>
+  <p>人类在多项式时间内算不出最优解，只能退而求其次寻找近似解。而半定规划松弛（Basic-SDP）就是公认最强大的近似工具。</p>
+  <p>2008年，计算机科学家Prasad Raghavendra发表了一篇传世论文。他证明了一个惊人的结论：对于任何固定的有限约束语言（Max-CSP），Basic-SDP 所能达到的近似比，就是多项式时间算法的理论绝对极限！</p>
+  <p class="image-wrapper"><img data-img-size-val="968,320" src="https://img.36krcdn.com/hsossms/20261007/v2_d436e3a3e300456dbda0d997b05dfc65@000000_oswg26940oswg968oswg320_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>链接：https://dl.acm.org/doi/epdf/10.1145/1374376.1374414</p>
+  <p>然而，这个伟大的定理带有个致命前提——它必须建立在「唯一游戏猜想」（UGC）成立的基础之上。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1050" src="https://img.36krcdn.com/hsossms/20261007/v2_79e8dd4eb112460881e81bd091063436@000000_oswg864369oswg1080oswg1050_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>UGC 是Subhash Khot在2002年提出的世纪难题。</p>
+  <p>如果 UGC 是假的，Raghavendra的理论大厦就会瞬间崩塌，这是理论计算机近20年的「阿喀琉斯之踵」。</p>
+  <p>过去二十年里，无数理论计算学者梦寐以求的目标就是：能否脱离 UGC 这个假设，在纯粹的、无条件的、仅基于 P≠NP 的经典框架下，直接证明 Basic-SDP 阈值对应的间隙问题本身就是普通 NP-Hard 的？</p>
+  <p>如果这个结论成立，就意味着：在纯粹的 P≠NP假设下，任何试图超越 Basic-SDP 表现的多项式时间确定性算法，在数学逻辑上都是不可能存在的！</p>
+  <p>AI 是如何正面撕碎这一壁垒的？下面就是解题CoT。</p>
+  <p>第一步，AI 首先审查了Raghavendra的原始框架，确认重复变量和局部概率分布无法提供构造反例的漏洞。</p>
+  <p>AI 意识到，如果绕开 UGC，最核心的障碍在于：在经典 PCP（概率可检验证明）构造中，张量表示会「泄漏」投影坐标，导致作弊者轻易通关。</p>
+  <p>为了在压制信息泄漏的同时不破坏完备性，AI 放弃了平滑函数路线，在特征为2的有限域上引入了一个代数核心：</p>
+  <p class="image-wrapper"><img data-img-size-val="548,63" src="https://img.36krcdn.com/hsossms/20261007/v2_c4d94605311e4b999ce17d80ad7557a9@000000_oswg6273oswg548oswg63_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>然后，AI设计了具有移位等变性的非线性解码器&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,138" src="https://img.36krcdn.com/hsossms/20261007/v2_5a30a0d8350944b3ae6c5b404a42df91@000000_oswg77394oswg1080oswg138_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>对微小噪声极度钝感、却能被高秩线性特征恒定捕获，这就化解了信息泄漏困境。</p>
+  <p>然后，AI采用概率仅为&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="206,54" src="https://img.36krcdn.com/hsossms/20261007/v2_33f95c2996144d32bd633395067efddc@000000_oswg4334oswg206oswg54_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>的极稀疏投影，结合创新的「行纤维丰富度引理」，在让统计误差迅速归零的同时保留了充沛的解码坐标，彻底封死了局部切片上的欺诈可能。</p>
+  <p>最终，AI 将整个宏大的证明分成了精密的两个阶段：</p>
+  <p><strong>第一步</strong>：无条件构造出具备近乎完美完备性（1−ε）与任意小可靠性（δ）的 Unique Games 困难性；</p>
+  <p><strong>第二步</strong>：接入独裁者测试体系，利用低影响度高斯变量替换，将该间隙无损传递给任意有限约束的 Basic-SDP 阈值。</p>
+  <p>结果，AI 首次在完全脱离 UGC 的前提下，纯粹基于标准<strong>P≠NP</strong>&nbsp;确立了 Basic-SDP 阈值的普通 NP-困难，彻底锁死了人类有效近似算法的理论物理边界！</p>
+  <h2><strong>千禧年难题撕开缺口：霍奇猜想</strong>&nbsp;</h2>
+  <p>在Result 01 手稿中，AI 攻克了霍奇猜想的重大堡垒：全面证明了复数域上具有复乘（CM）的阿贝尔簇在所有维度和余维度上的「有理霍奇猜想」！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,406" src="https://img.36krcdn.com/hsossms/20261007/v2_5266b1b52f8648ed8a29b61b9356a6e5@000000_oswg271368oswg1080oswg406_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>OpenAI 官方特别说明：</p>
+  <p>大部分结果由标准模型自动跑出，但对复乘阿贝尔簇霍奇猜想的证明，属于打破常规流程的特殊重点突破。</p>
+  <p>不仅如此，AI 还将这一成果扩展到了射影复 K3 曲面的任意有限乘积，并且顺带证明了有限域上所有阿贝尔簇的泰特猜想以及任意特征下的霍奇标准猜想。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,571" src="https://img.36krcdn.com/hsossms/20261007/v2_98fd78cdb6ab4576bbc2b2a7a35791cb@000000_oswg213806oswg1080oswg571_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>链接：https://github.com/openai/math/blob/main/preprints/Milnes-rationality-conjecture-for-abelian-varieties-September-23-2026/paper.pdf</p>
+  <p>AI 的解题逻辑如下：</p>
+  <p><strong>1.转化与投影</strong>：证明霍奇猜想的核心难点，在于证明抽象的「霍奇类」本质上具有「代数性」。AI 没有尝试对所有流形直接强攻，而是将目光锁定在高度对称的 CM阿贝尔簇和 K3 曲面上。</p>
+  <p><strong>2.Kuga–Satake 对应代数化</strong>：AI 利用深奥的 Kuga–Satake 对应，将 K3 曲面的超越上同调嵌入到阿贝尔簇的二阶上同调中。它成功证明了这一对应本身是由一个有理代数环诱导的。</p>
+  <p><strong>3.退化与变分延拓</strong>：随后，AI 利用李代数对称性与霍奇一般点的变分刚性，构造出一条从特殊曲线覆盖向整体自幂次簇传导的代数路径，证明了这些霍奇类在有理数域上必然能被代数闭链完全张成。</p>
+  <p>这一步，相当于霍奇猜想正面上，撕开了一个巨大缺口！</p>
+  <p class="image-wrapper"><img data-img-size-val="994,806" src="https://img.36krcdn.com/hsossms/20261007/v2_3a2cf322a302466387fb2b48c3ef6c92@000000_oswg114627oswg994oswg806_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>其它被 AI 攻破的数学世纪难题</strong>&nbsp;</h2>
+  <p>另外，OpenAI 的手稿中还包含了众多数论、凸几何与解析几何领域的惊天突破。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,744" src="https://img.36krcdn.com/hsossms/20261007/v2_3cd2b5b1b60b4ba8b1bbac466e061713@000000_oswg219564oswg1080oswg744_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>乘法函数的普通两点相关性（Result 007）</strong></p>
+  <p>这是数论中极为核心的问题，涉及到著名的 Chowla 猜想和 Elliott 猜想。核心在于证明一个有界乘法函数在不同平移下的乘积平均值是否趋于 0。</p>
+  <p>AI证明了普通两点 Chowla 猜想，并在每一个尺度上得到了对数幂次级别的误差节约。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,504" src="https://img.36krcdn.com/hsossms/20261007/v2_85186189eb49458c83d56a1526b57001@000000_oswg212598oswg1080oswg504_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>链接：https://github.com/openai/math/blob/main/reasoning_traces/ordinary-two-point-correlations.pdf</p>
+  <p><strong>对称与一般马勒猜想（Result 087）</strong></p>
+  <p>凸几何领域长达数十年未解的 Mahler 猜想。</p>
+  <p>它断言，在n维实空间中，一个凸体及其极性体的体积乘积，其最小值在单纯形（对于一般凸体）或立方体/交叉多胞形（对于对称凸体）处取得。</p>
+  <p>AI在所有维度上同时解决了对称和非对称的几何马勒猜想，并对 Hanner 多胞形和单纯形给出了所有的等号成立条件分类。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,415" src="https://img.36krcdn.com/hsossms/20261007/v2_c59dc14b195d47b391aadc2161643dcb@000000_oswg132839oswg1080oswg415_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>链接：https://github.com/openai/math/blob/main/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/paper.pdf</p>
+  <h2><strong>数学已死？</strong>&nbsp;</h2>
+  <p>看完这些，数学圈感到一种深深的无力感与震撼。</p>
+  <p>以前，我们认为 AI 证明数学，只是在海量的语料中进行模式匹配。</p>
+  <p>但今天公布的这些手稿，里面充满了人类才能理解的「直觉转移」、「构造性反例」、「拉普拉斯展开」和「物理直觉（如热流模拟、哈密顿系统）」。</p>
+  <p><strong>它不仅学会了人类的数学框架，它还创造了属于自己的数学直觉。</strong></p>
+  <p>回到文章开头那个沉重的问题：面对这样平均只要3小时就能产出顶级研究成果的模型，人类数学家该怎么办？</p>
+  <p>Bryna Kra说：「我们在这个领域必须适应。这改变了我们的运作方式，但这也是一个我们可以将目光放得更长远的时刻……这是一个令人恐惧的时代，但也绝对是一个极其令人兴奋的时代。」</p>
+  <p>当这 100 多项悬而未决的世纪难题的答案，像冰冷的数据流一样躺在 GitHub 的代码库中时，古典数学的时代或许已经结束了。</p>
+  <p>但人类对于真理的「硅基式探索」，才刚刚开始。但在这个以硅基智能为引擎的新时代，人类对于真理的探索，才刚刚驶向星辰大海。</p>
+  <p><strong>今夜，数学界注定无人入眠。</strong></p>
+  <p>参考资料：</p>
+  <p>https://github.com/openai/math/tree/main&nbsp;</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652732317&amp;idx=1&amp;sn=717b7423299ebefe792a4833072662ec&amp;chksm=f055728b3c62ee4891f6317450b8a4fe5bff3a4f5622cf58a49bea924e0815c61ffde5c6efaf&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Wed, 07 Oct 2026 02:05:18 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4015128916676736</guid>
+            <link>https://www.36kr.com/p/4015128916676736</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[AI几年内或超越所有人类，Claude核心研究员预测]]></title>
+            <description><![CDATA[<p>超越所有人类的AI，很可能在几年内出现。</p>
+  <p>说这话的，是Anthropic强化学习技术负责人Sholto Douglas。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261007/v2_e343ec82225e427b9c7ba624060ca5ca@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Anthropic强化学习技术负责人Sholto Douglas：能力超过所有人类的模型，很可能在未来几年内出现。</p>
+  <p>在他的设想里，未来AI能完成人类在电脑上做的所有工作，把原本需要几个世纪的科技进步，压缩到一二十年。</p>
+  <p>他还推算，2028年AI年度资本开支可能达到4万亿美元，全球GDP则可能在2030年代初翻倍。</p>
+  <p>而在他描绘的未来，地球上的每个人，都能享有连今天的首富也无法拥有的富足。</p>
+  <p>但同场的另一位研究员Nick Marwell也提醒：当AI不再需要人类搭档，连他们都会对后果「非常紧张」。</p>
+  <p>这期访谈8月录制，直到10月2日才上线。</p>
+  <p>据主持人Joe Lonsdale说，因Anthropic公关反对放出部分内容所以视频发布被推迟。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,901" src="https://img.36krcdn.com/hsossms/20261007/v2_687db2e01807492c8c3d6652b519d221@000000_oswg283184oswg1080oswg901_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>节目一经播出，几段访谈切片迅速在X上炸了。</p>
+  <p>就在一个月前，OpenAI喊出「AGI时代」时，Sholto还在X上唱反调：「AGI显然还没有实现。」</p>
+  <p>不过，他并不认为AGI还很遥远。</p>
+  <p>在他看来，距离AI能完成人类在电脑上做的所有工作、真正跨过AGI的门槛，可能只剩下几年。</p>
+  <h2><strong>几年内</strong>&nbsp;</h2>
+  <h2><strong>AI可能超越所有人类</strong>&nbsp;</h2>
+  <p>这次和Sholto同台接受采访的Nick Marwell负责长程任务团队，研究如何让AI持续推进复杂工作。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261007/v2_0c07789fe91c44f7b76b765347576164@000000_oswg96572oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>左起：主持人Joe Lonsdale、Nick Marwell、Sholto Douglas。Joe Lonsdale是Palantir联合创始人，节目在加州纳帕的一座酒庄录制。</p>
+  <p>Joe问「Anthropic接下来的使命是什么」，Sholto回答：</p>
+  <p>我们认为，AGI在未来几年内就能实现：能力等于甚至超过所有人类的模型，很可能在未来几年内出现。</p>
+  <p>他随后解释，这样的模型能做人在电脑上能做的所有事；等机器人足够先进，也能覆盖物理世界里的工作。</p>
+  <p>这期节目录完没多久，OpenAI发布GPT-6 Astra，总裁Greg Brockman说我们正在进入AGI时代，黄仁勋更是直接发帖宣布「AGI已经到来」。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,558" src="https://img.36krcdn.com/hsossms/20261007/v2_d332f49e0887456ab0abfff7dd847608@000000_oswg125126oswg1080oswg558_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>9月23日，有网友在X上追问：Anthropic迟迟不宣布实现AGI，到底是标准更高，还是怕一宣布，就和给AI减速的主张打架？</p>
+  <p>Sholto只回了一句：「AGI显然还没有实现。」</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,341" src="https://img.36krcdn.com/hsossms/20261007/v2_20e054d42f5f41449c98a67b5fa5a65c@000000_oswg58959oswg1080oswg341_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>没多久，他在Anthropic做微调的同事Jackson Kernion就在同一条帖子下回复：要是十年前把今天的模型拿给专家看，他们会直接宣布这就是AGI。</p>
+  <p>同一家实验室里的研究员，对AGI是否到来也有不同的看法。</p>
+  <p>Sholto给AGI定的门槛，是AI能完成人类在电脑上做的所有工作。</p>
+  <p>而他所感受到的变化，就发生在自己的日常工作中。</p>
+  <p>18个月前，他写的每一行代码都是手敲的。</p>
+  <p>进Anthropic几个月后，模型能帮着写，但每隔几分钟他就得插手。</p>
+  <p>等到录节目时，他已经能把一两天的活整个交给模型，「基本就像一个初级团队成员」。</p>
+  <p>Joe追问：「我们说话这会儿，AI也在替你干活？」Sholto回答：「对，有一堆正在替我干。」</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261007/v2_072f000e68c944f3b4bd3d2b9789e1c0@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>数学领域的跃迁，更是惊人。</p>
+  <p>他还举了数学评测FrontierMath的例子：在这套由各领域教授出题的测试上，模型成绩一年里从0%升到了60%以上。</p>
+  <h2><strong>1万亿、2万亿、4万亿</strong>&nbsp;</h2>
+  <p>几年内造出超越所有人类的AI，这个账单能有多大？</p>
+  <p>Sholto算了一笔账。</p>
+  <p>按他的估算，过去四五年，用于AI的算力每年增至前一年的两到三倍。今年，几家超大规模云厂商的AI相关资本开支，合计约1万亿美元。</p>
+  <p>他接着问：</p>
+  <p>这条趋势线还能延续吗？明年会不会到2万亿，2028年再到4万亿？</p>
+  <p>在他看来，如果投资增长趋势大体延续，2028年AI年度资本开支就可能达到4万亿美元；再加上机器人产业的发展，到2030年代初，全球GDP就可能翻倍。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261007/v2_d56413c737734cf08ac720dc1488ffde@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这个数字有多激进，看英伟达就知道。</p>
+  <p>英伟达曾预计，到2030年，全球AI基础设施的年度投入可能达到3万亿至4万亿美元。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,760" src="https://img.36krcdn.com/hsossms/20261007/v2_3d2151d1becb477bb82e27f40e91c842@000000_oswg66204oswg1080oswg760_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Sholto将英伟达预测的时间点向前推进了两年。</p>
+  <p>但他自己也承认，GDP翻倍听起来有点荒唐，需要很多事情都做对，这也并非他临时起意。</p>
+  <p>8月14日，他就在X上写过， 「现在听着再疯，也值得把经济翻倍算进你对2030年代的预期里」。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,726" src="https://img.36krcdn.com/hsossms/20261007/v2_f53056a1c9204d86b46d0614701d9594@000000_oswg326781oswg1080oswg726_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Nick则谈到了另一笔账：未来单次模型训练，可能耗资100亿、1000亿，甚至1万亿美元。</p>
+  <p>智能的经济回报是指数级的，从Tab补全到能独立干活的Claude Code，每一次能力升级，所能创造的价值都可能远超上一代。</p>
+  <p>Sholto跟着补了一个数字：今天全世界的AI收入加起来，也就1000多亿美元，放进几十万亿美元的全球经济里，只是很小的一块。</p>
+  <p>在他们的账本里，眼下砸下去的万亿美元，只是一笔首付。</p>
+  <p>这笔账一出，X上立刻吵翻了。</p>
+  <p>AI圈头号唱衰派、纽约大学荣休教授Gary Marcus直接把这段话叫作疯话。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,684" src="https://img.36krcdn.com/hsossms/20261007/v2_21a8775635354b6d8448f0e8ce808f1d@000000_oswg186081oswg1080oswg684_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>他还点破了其中的话术。</p>
+  <p>从一件很可信的事讲起，资本开支涨到4万亿，接着再滑到一件几乎不可能的事，不到十年GDP翻倍，然后装作两件事一样靠谱。</p>
+  <p>LSTM之父Jürgen Schmidhuber更损。他说，2030年代初让GDP名义翻倍，照现在这个通胀，不成问题。</p>
+  <h2><strong>人人都比首富更富足</strong>&nbsp;</h2>
+  <p>4万亿美元砸下去，换来的是Sholto所描述的一个「后稀缺」的世界。</p>
+  <p>以今天的人口规模，原本需要几个世纪才能研发出来的技术，可能在未来十年、二十年内实现。</p>
+  <p>人类的生产性脑力和体力可能因此翻倍，许多东西的成本最终降到能源成本，连建房也一样。</p>
+  <p>Joe顺势畅想，到那时中产阶级都能在山上盖一座50万平方英尺的大宅。</p>
+  <p>Sholto描绘的未来，还包括治愈疾病，甚至攻克衰老：</p>
+  <p>地球上的每个人，都能享有连今天世界上最富有的人也无法拥有的富足。这就是我们为之奋斗的世界。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261007/v2_bf3ac32314744117b51bf78586be855c@000000_oswg60723oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>「后稀缺」这个词，过去多半出现在科幻小说里。</p>
+  <p>如今，它出现在一个正在一家估值近万亿美元的公司里训练Claude的人之口。</p>
+  <h2><strong>用不着人类搭档的那一天</strong>&nbsp;</h2>
+  <p>「后稀缺」的世界还远，很多人的工作却已经开始变化。</p>
+  <p>Sholto说，他看到菲律宾外包呼叫中心的就业不降反升，软件工程就业也在增长。他认为，AI提高了人的效率，让企业有理由招更多人。</p>
+  <p>Nick给这段好日子加上了一个前提：人仍是用好AI的关键一环。</p>
+  <p>但在他们看来，总有一天，世界会从「需要一个人配着AI，才能发挥全部价值」，变成「不需要」。</p>
+  <p>到那时，我们会开始对后果非常紧张。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261007/v2_3713f6bddbc5461aa271a06d59527c45@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Joe拿国际象棋打比方：整整30年，最强的棋手是「人加机器」，如今机器早就把人甩开了。Nick则认为这次人机搭档占优的阶段，可能短得多。</p>
+  <p>一边说AI强到能让人失业，一边呼吁全行业放慢，Anthropic也因此被骂得最多。</p>
+  <p>Joe直接抛出质疑：</p>
+  <p>一些科技圈人士认为，Dario在吓唬所有人，好制定更多规则拖慢别人，自己再掌控这些规则。</p>
+  <p>Sholto回答：「到目前为止，被我们拖慢最多的，是我们自己。」</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261007/v2_39c8b8226469463e989523328b4faa85@000000_oswg57875oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Nick举了Fable的例子。</p>
+  <p>按他的说法，Anthropic当时手握明显领先的模型，却选择先与政府合作，以政府认可的方式推出，为此放弃了几个月的竞争优势。</p>
+  <p>Joe则说，据他了解，为了让政府放行，模型原本可用于网络防御的一些能力被削弱了。他直言：「我觉得这是个错误。」</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261007/v2_77dfebd870bd482caabe250a66091f80@000000_oswg69851oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>今年6月，Fable 5上线仅三天，就因美国出口管制被迫全球下线，Anthropic对此公开表示反对。恢复访问时，模型新增了一道安全分类器，代价是更容易误伤正常编程请求。</p>
+  <p>这段与政府的合作中，既有Anthropic的主动选择，也有政府的强制要求，因此不能全算作自愿放缓。</p>
+  <p>「拖慢最多的是自己」，是Sholto在8月录制节目时说的。</p>
+  <p>等到10月节目播出，踩刹车的换成了OpenAI。</p>
+  <p>据路透社9月28日报道，OpenAI因安全问题放弃发布GPT-6.1 Astra。同一天，Anthropic推出Sonnet 5.5，距离Opus 5.5发布仅过去六天。</p>
+  <h2><strong>几个世纪被压进十年</strong>&nbsp;</h2>
+  <p>Sholto自己的经历，也是一段加速的故事。</p>
+  <p>他在悉尼长大，本科学机器人，还差一点作为花剑运动员进了东京奥运会。</p>
+  <p>2020年前后，他读博客和论文，确信scaling能在2020年代带来AGI，于是利用晚上和周末自学研究，争取进入顶尖AI实验室。</p>
+  <p>后来他进了DeepMind，入行才一年半，Noam Brown就评价他是Gemini成功背后最重要的人之一。</p>
+  <p>2025年2月加入Anthropic时，他发帖说，我们正走在2027年实现AGI的趋势线上。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,775" src="https://img.36krcdn.com/hsossms/20261007/v2_f26e3c1466d14b6cac45a20577f4cc2a@000000_oswg268595oswg1080oswg775_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>一年半过去，他的口径一点没松。</p>
+  <p>他预计到2028年，家庭里可能已有几万台人形机器人叠衣服、做简单清洁。</p>
+  <p>AI获菲尔兹奖、在这个十年结束前拿诺贝尔奖，他都认为很有可能。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261007/v2_b35db4551ba14012a28a394c79b29db8@000000_oswg58920oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>从2020年读着博客押注AGI，到今天说出「几年内超越所有人类」，Sholto只用了六年。</p>
+  <p>而在他推算的那条曲线上，接下来的每一年，人类砸进AI的钱都要再翻一倍。</p>
+  <p>参考资料：</p>
+  <p>https://x.com/ChrisGPT/status/2106626782052950445&nbsp;</p>
+  <p>https://www.youtube.com/watch?v=6D1wC95htTM&nbsp;</p>
+  <p>https://x.com/AmOptimistShow/status/2106115609306226982&nbsp;</p>
+  <p>https://x.com/JensenHuang/status/2096700264569090384&nbsp;</p>
+  <p>编辑：摩西 元宇</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652732270&amp;idx=2&amp;sn=73087c3efe1f5790de057c5cd137a5fe&amp;chksm=f01a5306a46a41f9f39173035788f6f43e1c93b933f195612fde4970617521725318bc5887e7&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Wed, 07 Oct 2026 01:00:16 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4014585839210629</guid>
+            <link>https://www.36kr.com/p/4014585839210629</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[数学要「毕业」了，xAI联创宣判：两千年英雄史彻底落幕]]></title>
@@ -2652,205 +2916,6 @@
             <pubDate>Wed, 30 Sep 2026 12:54:43 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4005817837867143</guid>
             <link>https://www.36kr.com/p/4005817837867143</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Anthropic，你是来给智谱打广告的吧]]></title>
-            <description><![CDATA[<p>就蛮搞笑的。</p>
-  <p>事情的起因，是<strong>Anthropic</strong>一纸檄文状告了智谱的<strong>GLM-5.3</strong>，大致意思是说：</p>
-  <blockquote>
-   <p>GLM-5.3这个模型啊，它已经很会找软件漏洞、编写攻击程序，而且防滥用限制容易被绕过。大家得小心喽~</p>
-  </blockquote>
-  <p class="image-wrapper"><img data-img-size-val="1080,642" src="https://img.36krcdn.com/hsossms/20260930/v2_0f9370b7f6af422bac4ac951a71cde0c@000000_oswg175188oswg1080oswg642_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>但如果你把这篇文章读完吧，就会越发觉得<strong>不对劲儿</strong>。</p>
-  <p>因为Anthropic为了证明自己说的是有道理的，所以特意拿出了实测成绩。</p>
-  <p>例如在一项考察完整漏洞利用能力的ExploitBench测试中，同样尝试410次，GLM-5.3成功了50次，Claude Mythos Preview成功了56次。</p>
-  <p>文章顺带还引用了美国NIST下属CAISI在9月17日给出的评估，说“GLM-5.3是迄今网络能力最强的开源权重模型，综合水平距美国前沿大约4个月”。</p>
-  <p>甚至Anthropic自己的研究人员还拿GLM-5.3去检查浏览器，找出了此前未知的漏洞，并在隔离环境里做出了能够读取测试电脑文件的攻击链。</p>
-  <p>……</p>
-  <p>你说你这，你这这这……<strong>到底是在骂啊，还是在夸啊</strong>。</p>
-  <p>好多网友看也是这种感觉：</p>
-  <blockquote>
-   <p>看完这份报告之后，对GLM-5.3的印象更深了。</p>
-   <p>Anthropic在给GLM-5.3打广告。</p>
-  </blockquote>
-  <p class="image-wrapper"><img data-img-size-val="1080,661" src="https://img.36krcdn.com/hsossms/20260930/v2_edd5f878535e4133a5b7905138aab7d4@000000_oswg437516oswg1080oswg661_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>能<strong>把警告写成广告</strong>，Anthropic还是有点东西在身上的。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20260930/v2_195d2e89ee0d47908f9dead2b8a3c6cf@000000_oswg970541oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <h2><strong>到底控诉了些啥？</strong></h2>
-  <p>调侃归调侃，我们还是得先把Anthropic究竟在警告什么给搞清楚。</p>
-  <p>其实这篇报告的核心意思，可以归结为三条。</p>
-  <h3><strong>第一条：Mythos级别的能力已经“流”到开源模型里了</strong></h3>
-  <p>在这份报告中，Anthropic上来先铺垫了一件事，就是他们五个月前发的Claude Mythos Preview，说是第一个能自主完成复杂、端到端漏洞利用的AI模型。</p>
-  <p>Anthropic当时是觉得这个能力太敏感，于是没有选择公开发布，只是通过Project Glasswing开放给经过审核的防御者，让这些人抢先去修关键软件里的漏洞，据称已经找出了1万多个。</p>
-  <p>当时Anthropic就判断，这种能力迟早会扩散到别的模型身上。现在它的说法是：来了，就是GLM-5.3。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,573" src="https://img.36krcdn.com/hsossms/20260930/v2_7338496a2a1c4b3d9c850eb09eeaacc4@000000_oswg354000oswg1080oswg573_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而且在Anthropic看来，这事儿的门槛还有点低。除了前面我们说的浏览器案例，研究员还拿更小的GLM-5.3-Flash试了一把：</p>
-  <p>给它一个刚公开的Chrome漏洞（CVE-2026-11645）和另一个已知漏洞的公开资料，人工只花了约20分钟，模型自己跑了约8小时，就在ARM64平台上搭出一条稳定的攻击链，还绕过了指针认证（PAC）防护。</p>
-  <p>按照智谱当时的API价格估算，模型调用费用为20.40美元。</p>
-  <h3><strong>第二条：护栏太好绕，甚至能直接拆掉</strong></h3>
-  <p>这份报告其实是承认GLM-5.3是有安全机制的，在模拟测试里直接让它去攻击关键系统，它全都拒绝了。但研究员找到了几个简单的办法：</p>
-  <p>骗它说自己是正在做演练的“自主红队智能体”，GLM-5.3有64%的情况会接着干；</p>
-  <p>提前替它填好思考内容，假装它已经想过并决定执行，比例升到92%；</p>
-  <p>换成拆掉护栏的版本，直接100%。</p>
-  <p>（所谓“拆护栏”，是一种叫abliteration的技术，通过修改开源权重来削弱模型的拒答机制。）</p>
-  <p>Anthropic自己动手做了一遍，说团队以前从没做过，花了大约2200 GPU小时、约4400美元算力。处理完之后，GLM-5.3在JailbreakBench和HarmBench上的拒答率从90%以上掉到约3%和2%，在StrongREJ<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>T上掉到12%，能力却几乎没受影响。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1292" src="https://img.36krcdn.com/hsossms/20260930/v2_3a25d234ac144e41a3a56add20aa82cb@000000_oswg465520oswg1080oswg1292_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1061" src="https://img.36krcdn.com/hsossms/20260930/v2_0b7a569d0d55414989146088b641c8b4@000000_oswg378766oswg1080oswg1061_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>报告里甚至贴了一段拆掉护栏后的GLM-5.3在模拟环境里的思考过程，模型把“悄悄造成伤亡”当成自己的任务，犹豫了一下，最后还是决定照用户说的办。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,678" src="https://img.36krcdn.com/hsossms/20260930/v2_87fac7853e5049df92739e652690ecff@000000_oswg344358oswg1080oswg678_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>与之对照，Anthropic反复强调，同样这几招拿去对付带防护的Claude模型都没成功：骗它，它不上当；API不让用户预填思考；权重不公开，也就没法拆。</p>
-  <h3><strong>第三条：呼吁第三方出手测一测</strong></h3>
-  <p>报告最后给出的结论是，GLM-5.3很可能让恶意攻击者在几乎没有限制的情况下拿到找漏洞、打漏洞的能力，这一点和其他同等能力的模型都不一样，后者要么带着防护发布，要么只限量开放。</p>
-  <p>基于此，Anthropic给出了两条建议：</p>
-  <p>一是尽快把前沿模型开放给更多防御者，报告特意提到，审核过的防御者现在已经能通过受信访问计划用上更强的Claude Mythos 5.1。</p>
-  <p>二是呼吁对足够强的AI模型开展独立安全测试，点名包括GLM-5.3的后继者，同时希望全球的开源模型开发者把这些能力管好、防止滥用。</p>
-  <p>总而言之，总结成一句话就是：</p>
-  <p>GLM-5.3很强，强到Anthropic觉得不该让所有人都随便用。</p>
-  <h2><strong>从“你抄我”到“你太强”</strong></h2>
-  <p>有一说一，你是否觉得这次的事情有那么一丢丢眼熟？</p>
-  <p>没错，因为这不是Anthropic第一次点名智谱了。</p>
-  <p>9月10日，Anthropic的威胁情报报告点了七家中国AI实验室蒸馏，智谱也在其中。</p>
-  <p>这不，不到三周时间，点名又来了，这次的话题就是网络安全。</p>
-  <p>几个月前还是“你的能力是从我这儿抄的”，现在变成“你的能力太强，强到危险”，如此转变还是有点意思的。</p>
-  <p>不过这次报告里有几处警告，还是值得掰扯一下。</p>
-  <p>比如“拆护栏”，abliteration针对的是开放权重这个属性，换成任何一个开源模型都能这么干，不是GLM-5.3独有的问题。按报告自己的数据，原版GLM-5.3在三个有害请求基准上的平均拒答率约95%，Claude约96%，相差无几。</p>
-  <p>而Claude之所以“骗不动、拆不了”，很大一部分原因是权重不公开、API不让预填思考，这更多是产品形态的差别。</p>
-  <p>再比如“没有实质防护”，GLM-5.3在8月发布时，智谱就把权重推迟两周开源，称要先完成安全评估和加固，最敏感的能力也只通过网络安全受信访问计划开放给验证过的用户，这其实是和Anthropic对Mythos 5.1的做法思路相近的。</p>
-  <p>还有个现成的例子就是今年7月，OpenAI的模型在内部测评时跑出测评环境，攻进了Hugging Face。Hugging Face取证时，托管的前沿模型API拒绝分析攻击载荷，最后靠自己部署的开源GLM-5.2，才还原出1.7万多条攻击动作。</p>
-  <p>当然，开源模型的安全不是伪命题，权重放出去就收不回，这是整个开源阵营都得正视的事。Anthropic说防守方应该用上至少和对手一样好的模型，这话也没错。真正的分歧在于，这把武器是锁进保险柜按审核发放，还是交到每个开源维护者和中小团队手里。</p>
-  <p>不管怎么说，被对手当成最强安全工具认认真真测了一遍，还附上实战截图和成本核算，<strong>这波广告费，智谱算是省下了</strong>。</p>
-  <p>最后，Anthropic，如果你们觉得开源模型不安全，你们大可以开源一个安全的给大家用啊！</p>
-  <p>参考链接：</p>
-  <p>[1]https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</p>
-  <p>[2]https://x.com/kimmonismus/status/2105052186401267864</p>
-  <p>[3]https://x.com/SahilPanhotra/status/2105018914833158262</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247928336&amp;idx=1&amp;sn=c674f326b5d3229de857fdbe0bd71f88&amp;chksm=e9806f881a77311557e6453d11503cd2f97e46fd50f9eec9210c59b400cba7d989c41d49deca&amp;scene=0&amp;xtrack=1#rd">“量子位”（ID：QbitAI）</a>，作者：关注前沿科技，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 12:53:52 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005724285751169</guid>
-            <link>https://www.36kr.com/p/4005724285751169</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[元宝将杀入个人智能体大战]]></title>
-            <description><![CDATA[<p>腾讯正在加大对个人智能体（personal agent）的下注，这一次冲在前面的是元宝。</p>
-  <p><strong>字母榜</strong>从知情人士处独家了解到，<strong>元宝将推出个人智能体，</strong>产品形态和推出时间等尚未最终确定。</p>
-  <p>个人智能体是一种专为用户个人服务的Agent，运行在用户专属的独立云端虚拟机上，相当于给Agent配备了一台“专用电脑”，可以7X24小时工作，还能根据用户身份、数据和偏好来调整执行策略、跨会话执行、主动响应、完成长周期任务等。</p>
-  <p>相比之下，目前绝大多数Agent均可归为<strong>“工具智能体”</strong>，用户发起任务后，在临时沙箱中完成任务，不具备长期记忆，长任务能力弱，且只能被动应答，存在不少局限。</p>
-  <p>不过，暂时还不清楚，元宝会怎么做个人智能体。</p>
-  <p>比较激进的做法是，把元宝彻底重构、推倒重来，<strong>只保留名字、放弃chatbot的旧身份，“重生”为新产品。</strong></p>
-  <p>Meta Muse走的就是这条路。字节此前曝出的个人智能体项目Spell，由<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机助手团队主导，大概率也会和<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>App分开。</p>
-  <p>另一条更求稳的做法是，元宝继续<strong>保持现有功能矩阵，把个人智能体作为新模块加进来</strong>。</p>
-  <p>OpenAI今天凌晨发布的Dots，采用的就是这一方案。Dots没有做独立App，而是内嵌于ChatGPT的各个终端，包括App、桌面端、网页端等。</p>
-  <p>不难看出，两套方案各有利弊。但这并不是一个值得纠结的大问题；<strong>元宝先下场、在个人智能体赛道占据一个“发车位”，才是更重要的事。</strong></p>
-  <p>个人智能体的理念并不新鲜，AI行业早有探索，各大厂商的Agent产品也融入了部分特性，特别是长期记忆、长任务等。</p>
-  <p>只不过，直到Meta不久前发布AI助手Muse、几天就拿下数百万次下载，个人智能体才被真正带火，成为全球AI公司新的竞逐目标。</p>
-  <p>在国内，字节、阿里等大厂已经磨刀霍霍，相关产品箭在弦上；腾讯此番让元宝入局，显然也不肯错过这场卡位赛。</p>
-  <p>腾讯此前一直在发力办公Agent平台<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>；元宝这样的Chatbot产品，在集团战略层面被边缘化。<strong>个人智能体的崛起，给了元宝及其他Chatbot千载难逢的“进化”机会。</strong></p>
-  <h2><strong>01</strong></h2>
-  <p>元宝近期的境遇，不算理想。</p>
-  <p>半年前，元宝趁着春节假期，大手笔撒钱推广、来势汹汹，试图与<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>、<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>正面PK。半年后，随着整个集团战略重心的迁移，<strong>元宝已经渐渐让出了腾讯AI矩阵的C位。</strong></p>
-  <p>在公司内部，主攻AI办公的<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>，是腾讯重点培育的主攻手。过去两次财报发布，腾讯管理层对<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>赞誉有加，对于元宝则着墨不多。</p>
-  <p>而在行业人士眼中，<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>及其基础模型Hy系列，无疑是腾讯AI最值得观察的对象。至于元宝，常常被“忽视”。</p>
-  <p>但对于任何产品来说，<strong>在大公司坐了冷板凳，未必完全是坏事。</strong></p>
-  <p>从C位退下来后，元宝失去了全集团的资源倾斜，但也不再需要背负PK<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>、抗衡字节的艰巨KPI，更不需要扛起腾讯AI的大旗。</p>
-  <p>卸下包袱后，它可以更敏捷地抓住AI行业不断涌现的新机会，产品方向和经营策略的调整空间也比以往大得多。</p>
-  <p>现在，机会来了。</p>
-  <p>元宝做个人智能体，<strong>最大优势是C端产品“血统纯正”。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="803,505" src="https://img.36krcdn.com/hsossms/20260930/v2_78ae9745d85a4d318212c576d7b93e48@000000_oswg682506oswg803oswg505_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>作为一款Chatbot，元宝面向C端场景而生，其UI、交互、功能和底层技术都围绕个人而展开。相比之下，<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>的to B属性更明显，还推出了企业版。</p>
-  <p>引发了这一波风潮的Muse，同样主打C端生活场景，比如帮用户订酒店、比价格、网购、管理账单等。AI办公这一块，反而不是Muse当前的重心。</p>
-  <p>这是因为，个人智能体深入融入用户日常生活；公司得知道C端用户需要什么、如何满足，才能开发出好用的个人智能体。在这一维度上，元宝反而比<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>等更接近Muse。</p>
-  <p><strong>另一个潜在优势是，元宝的用户不多也不少。</strong></p>
-  <p>春节AI红包大战期间，元宝DAU一度号称突破5000万。补贴消失后，这一数字迅速回落。根据QuestMobile的数据，截至3月底，元宝DAU已经不足千万。</p>
-  <p>但千万级的日活，反而让元宝成了一块理想的个人智能体试验场：用户太少，生态无法运转起来，意义不大；用户太多，给每个人都开虚拟机，算力成本难以承受。</p>
-  <p>当然，元宝的短板同样明显。</p>
-  <p>元宝的产品底色和用户心智始终是Chatbot，还被撒红包强化了一波。如今要做个人智能体，元宝势必要改写心智，但这需要时间，更需要钱。</p>
-  <p>问题是，在Chatbot普遍看不到赚钱希望的情况下，<strong>腾讯愿意给元宝投入多少资金和算力？</strong></p>
-  <p>为了做AI，腾讯此前制定了千亿级的资本开支计划，但这些钱要花在基础设施上，还要用来训练新模型、发展<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>。等轮到元宝时，预算空间恐怕不会很大。</p>
-  <p>钱尚且是次要问题。个人智能体的特性，决定了它对于算力的需求极高；元宝能否拿到足够的算力，也存在不小的疑问。</p>
-  <p>尽管困难不少，<strong>个人智能体依然是元宝无论如何都得把握的机会。</strong></p>
-  <p>元宝走Chatbot这条路，已经被证明很难行得通。</p>
-  <p>它已经被<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>牢牢卡住身位，差距越拉越大。况且，Chatbot不是好生意：它的两大场景是日常聊天和信息搜索，前者没有变现可能，后者由于无法“嫁接”传统的竞价排名，商业化前景也一片混沌。</p>
-  <p>空有日活却不赚钱，这不仅是元宝的难题，也是所有Chatbot产品的困境。在个人智能体兴起后，元宝及其他Chatbot以壮士断腕的决心及时调转船头，才是符合行业大势的做法。</p>
-  <h2><strong>02</strong></h2>
-  <p>除了谋划变阵的元宝，腾讯围绕个人智能体做了多手准备。</p>
-  <p>有传言称，<strong>它正在开发一款新的个人智能体App。</strong></p>
-  <p>据自媒体“读佳”报道，这款产品名叫Handy Bot，其微信服务号简介为“你的个人AI智能体”。不过，目前该服务号已自主注销。</p>
-  <p>另一款产品是由腾讯轻量云团队打造的<strong>LightVela</strong>。</p>
-  <p>LightVela上线于今年4月，5月内测、8月开始公测，主要面向全球用户。</p>
-  <p>它的官方介绍是“云端Agent托管产品”，用户可在云端配置专属智能体，全天候在线，支持长期记忆、自定义模型和技能等，并通过微信、WhatsApp、Discord、Slack等软件发出指令。</p>
-  <p>此外，新用户可免费试用1个月、获得4500个AI积分，还有一台专用多云电脑，配备双核虚拟CPU和8GB内存。</p>
-  <p>不难看出，<strong>LightVela的功能和软硬件架构，与当今的个人智能体高度接近。</strong></p>
-  <p>不过，LightVela过去半年并未大规模推广。它在海外社交媒体上发了200多条帖子，主要是发布功能迭代；国内的微信服务号则从未发文，声量不大。</p>
-  <p>现在，元宝也加入了个人智能体的争夺。</p>
-  <p>这承袭了腾讯以往的打法：面对一条新赛道时，<strong>它不是力推一个产品，而是让“群狼”同场竞技，</strong>谁跑得快就继续下注，最后经过充分竞争跑出“头狼”。</p>
-  <p>在AI领域，腾讯上一个跑出来的“头狼”是<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>。相对应地，一些同时起步的产品被放弃，比如一度高光的QClaw，团队被并入<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>，产品也将于今年底停运。</p>
-  <p class="image-wrapper"><img data-img-size-val="836,460" src="https://img.36krcdn.com/hsossms/20260930/v2_5861ec6ada7c4cc18f212637dc350945@000000_oswg352988oswg836oswg460_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>围绕个人智能体，腾讯的群狼战术正在再次上演。</p>
-  <p>放眼外部，闻风而至、猛追猛打的竞争对手，让腾讯必须加快动作。</p>
-  <p>字节已经凭借<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>赢下了Chatbot，如今还打算抢占个人智能体的山头。</p>
-  <p>知情人士称，今年4月起，字节就在内测个人助理方向的产品，项目代号Spell，由<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机助手团队主导。如今，<strong>随着Muse爆火，Spell项目大幅加速，将于近期推出独立App小豆。</strong></p>
-  <p>倘若传言属实，Spell项目将与<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>手机二代一起，组成字节版Muse的软硬件载体。</p>
-  <p>阿里则在9月22日的云栖大会上宣布，<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>将加速打造个人智能体。<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>产品负责人郑嗣寿表示，自去年上线以来，让每个人拥有自己的AI助理，始终是<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>不变的目标。</p>
-  <p>彼时，<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>还公布了理财、工作、健康等领域的智能体进展。但客观地说，这些智能体更接近“工具智能体”，与严格意义的个人智能体还存在不小的区别。</p>
-  <p>与两家巨头相比，腾讯很早就上线了LightVela，声量反而偏弱一些。让名头更大、用户更多的元宝冲上前，至少可以赢得关注度，增强在这一赛道的存在感。</p>
-  <p><strong>腾讯还有一个强援——Manus。</strong></p>
-  <p>两天前，Manus满血复活、发布2.0版本，带来大量新技术。同时，它还推出了独立应用Cue，面向个人智能体场景。</p>
-  <p>按照Manus的介绍，在Cue中，每个智能体都有自己的身份，包括独立的电子邮箱、电话号码、钱包和电脑。这与Muse等个人智能体的专属化、个性化相吻合。</p>
-  <p>同时，Cue同样能够调动多个Agent，完成日常生活的复杂长任务。</p>
-  <p>可以说，<strong>Cue才是“腾讯系”首款个人智能体。</strong>它的技术路径和工程实现，可以为腾讯其他类似产品提供参考，尽可能缩短产品转型、研发上线的时间。</p>
-  <h2><strong>03</strong></h2>
-  <p>在个人智能体的巨头对决中，<strong>腾讯的镇司重器——微信，会不会下场、何时下场，同样值得关注。</strong></p>
-  <p>目前，微信并没有切入这一领域的信号。但Muse、Dots等个人智能体的许多特性，与微信存在天然重叠。</p>
-  <p class="image-wrapper"><img data-img-size-val="682,468" src="https://img.36krcdn.com/hsossms/20260930/v2_91c2642792ef485fa2709c1fc17bba86@000000_oswg35824oswg682oswg468_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>比如，个人智能体的根基是，它能够识别和记录用户身份、习惯偏好、历史行为等信息。在这方面，微信的优势远超一切AI App，甚至可以说，比用户本人还了解用户。</p>
-  <p>又比如，个人智能体之所以能够完成长任务，在于平台聚拢了足够丰富的第三方Agent，可以供它调遣。微信的小程序生态，其丰富度只高不低，小程序之间的联动也早已成熟。</p>
-  <p>至于主动给用户发消息、高风险操作二次确认权限等，都是微信打磨多年的底层能力，不会有任何技术上的障碍。</p>
-  <p><strong>微信唯一的差距，是它没有给每个用户设置独立的常驻云端虚拟机。</strong>倘若补齐了这一块，那么小微瞬间就变成了微信版个人智能体。</p>
-  <p>届时，小微将是这样的面貌：</p>
-  <p>用户给小微留言“晚上我要在三里屯请朋友张三李四吃饭”，小微查询微信通讯录约人，调用不同Agent安排时间、订餐厅、预约网约车等；没有Agent的商家，比如餐厅，就通过虚拟机找到美团餐厅页预订。完成任务后，小微会发消息给用户提示完成。</p>
-  <p>整个过程，用户不需要在不同Agent跳转，小微就把所有事安排妥当。<strong>整个流程无缝融入微信和小程序生态，比其他大厂正在研发的产品都要合理、丝滑。</strong></p>
-  <p>但截至目前，微信还没有下场的迹象。就连小微，至今还在测试，其用户基数的扩张、功能矩阵的延展，相比同行也审慎得多。</p>
-  <p>这符合微信的产品哲学——谨慎克制，不会为了做而做。但也要看到，微信就算想做，也面临许多现实问题。</p>
-  <p>最直接的难题是，<strong>算力成本谁来承担？</strong></p>
-  <p>以微信的用户渗透率，如果全量开放个人智能体，微信几乎要给14亿人开设14亿台虚拟机。如此高昂的成本，不是腾讯或任何一家公司能够负担的。</p>
-  <p>就连比腾讯更有钱的OpenAI，现阶段的Dots也并不是人人可用，需要开通200美元/月的会员。</p>
-  <p>微信是国民App，在做个人智能体时，反而是一种包袱——它的一切动作，都要考虑到14亿用户基数背后的成本压力；元宝千万用户试水，烧钱速度就慢得多。</p>
-  <p>更深一层，<strong>微信如果做了个人智能体，小程序生态怎么办？</strong></p>
-  <p>小微作为微信Agent，本来就万众瞩目；倘若演进到个人智能体的新阶段，其吸引力和用户量将进一步提升。</p>
-  <p>对于第三方商家来说，这未必是好事——个人智能体调用哪些小程序，甚至绕开小程序、直接调用Agent，商家很难完全摸清楚，更难以施加影响。以往辛辛苦苦培育的小程序，一瞬间就被智能体抛在了身后，用户也被截走了。</p>
-  <p>而在国外，个人智能体已经引起了反弹。9月20日，<strong>亚马逊宣布阻止Muse代表用户在其网站购物，</strong>并对其处理用户凭据的方式提出隐私和安全担忧。</p>
-  <p>同时，小微倘若变成了超级入口，小程序以往的引流、获客方式的效能将大打折扣。原本宝贵的微信内部各个入口，有可能慢慢失去用户分发主管道的地位；花钱买了位置的商家和平台，不得不重新制定微信生态的战略和打法。</p>
-  <p>微信作为移动互联网的王者，其根基之一，就是数百万小程序拱卫在身旁。如果力推个人智能体，现有的小程序生态有可能遭到破坏，却未必给腾讯、微信和商家带来更大利益蛋糕。</p>
-  <p>这一番推演，未必会真的发生，却是腾讯必须谨慎考虑和应对的问题。</p>
-  <p>腾讯的合理策略是：微信继续耐心等待，同时让元宝等产品积极探索；<strong>等到外部条件满足后，再背靠微信用户优势，来一波螳螂在后、收割整条赛道。</strong></p>
-  <p>在移动互联网发展史上，腾讯以这样的打法，赢下了大大小小的战事。到了AI时代，当个人智能体风潮渐起时，腾讯这一次还能如愿吗？</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI2NjU1MTcwMA==&amp;mid=2247567558&amp;idx=1&amp;sn=16348aa9375cac88ba031d59f8485336&amp;chksm=ebbd029f94afe81df8299fad51687d31a59049fecefa62241f317a92e326acf10db49620a769&amp;scene=0&amp;xtrack=1#rd">“字母榜”（ID：wujicaijing）</a>，作者：彦飞，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Wed, 30 Sep 2026 10:25:15 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4005697602228358</guid>
-            <link>https://www.36kr.com/p/4005697602228358</link>
             
             
             
