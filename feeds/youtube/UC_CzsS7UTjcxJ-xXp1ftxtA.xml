@@ -11,6 +11,31 @@
  </author>
  <published>2012-02-21T04:08:32+00:00</published>
  <entry>
+  <id>yt:video:zz3UKkyKU7o</id>
+  <yt:videoId>zz3UKkyKU7o</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>How LLM self-refinement works</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/zz3UKkyKU7o"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-10-07T05:11:11+00:00</published>
+  <updated>2026-10-07T05:11:17+00:00</updated>
+  <media:group>
+   <media:title>How LLM self-refinement works</media:title>
+   <media:content url="https://www.youtube.com/v/zz3UKkyKU7o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zz3UKkyKU7o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Self-refinement asks an LLM to generate an answer, critique it, and use that critique to revise its response. Here, I walk through the process with a simple math example.
+
+An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="93"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:WnjnqVxD6Ho</id>
   <yt:videoId>WnjnqVxD6Ho</yt:videoId>
   <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
@@ -31,7 +56,7 @@
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="347"/>
+    <media:statistics views="405"/>
    </media:community>
   </media:group>
  </entry>
@@ -88,8 +113,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 1:22:33 MATH-500 results and training stability
 1:24:05 Memory requirements and next steps</media:description>
    <media:community>
-    <media:starRating count="198" average="5.00" min="1" max="5"/>
-    <media:statistics views="12934"/>
+    <media:starRating count="212" average="5.00" min="1" max="5"/>
+    <media:statistics views="14332"/>
    </media:community>
   </media:group>
  </entry>
@@ -113,8 +138,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="704"/>
+    <media:starRating count="26" average="5.00" min="1" max="5"/>
+    <media:statistics views="746"/>
    </media:community>
   </media:group>
  </entry>
@@ -139,7 +164,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="610"/>
+    <media:statistics views="615"/>
    </media:community>
   </media:group>
  </entry>
@@ -164,7 +189,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="272"/>
+    <media:statistics views="277"/>
    </media:community>
   </media:group>
  </entry>
@@ -209,8 +234,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 1:05:57 MATH-500 evaluation results
 1:07:35 Takeaways and next steps</media:description>
    <media:community>
-    <media:starRating count="108" average="5.00" min="1" max="5"/>
-    <media:statistics views="8116"/>
+    <media:starRating count="109" average="5.00" min="1" max="5"/>
+    <media:statistics views="8250"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,7 +260,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="158" average="5.00" min="1" max="5"/>
-    <media:statistics views="3528"/>
+    <media:statistics views="3533"/>
    </media:community>
   </media:group>
  </entry>
@@ -262,7 +287,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 Article on coding an agent harness: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent</media:description>
    <media:community>
     <media:starRating count="150" average="5.00" min="1" max="5"/>
-    <media:statistics views="5431"/>
+    <media:statistics views="5455"/>
    </media:community>
   </media:group>
  </entry>
@@ -287,7 +312,7 @@ Article on coding an agent harness: https://magazine.sebastianraschka.com/p/comp
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="509"/>
+    <media:statistics views="518"/>
    </media:community>
   </media:group>
  </entry>
@@ -338,8 +363,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="163" average="5.00" min="1" max="5"/>
-    <media:statistics views="12420"/>
+    <media:starRating count="164" average="5.00" min="1" max="5"/>
+    <media:statistics views="12479"/>
    </media:community>
   </media:group>
  </entry>
@@ -354,7 +379,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-18T18:39:30+00:00</published>
-  <updated>2026-09-25T14:52:04+00:00</updated>
+  <updated>2026-10-05T00:44:05+00:00</updated>
   <media:group>
    <media:title>Different Tokens, Different Compute in LLMs</media:title>
    <media:content url="https://www.youtube.com/v/IcFX0JJcumo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -364,7 +389,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="2591"/>
+    <media:statistics views="2593"/>
    </media:community>
   </media:group>
  </entry>
@@ -421,8 +446,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="211" average="5.00" min="1" max="5"/>
-    <media:statistics views="17355"/>
+    <media:starRating count="212" average="5.00" min="1" max="5"/>
+    <media:statistics views="17427"/>
    </media:community>
   </media:group>
  </entry>
@@ -437,7 +462,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-06T11:05:33+00:00</published>
-  <updated>2026-09-19T02:12:23+00:00</updated>
+  <updated>2026-10-04T08:32:38+00:00</updated>
   <media:group>
    <media:title>Build A Reasoning Model From Scratch 2: Loading a Base Model, Text Generation, and KV Caching</media:title>
    <media:content url="https://www.youtube.com/v/BJua0yjO5dk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -486,7 +511,7 @@ Other resources mentioned in the video:
 01:35:32 Recap and next steps</media:description>
    <media:community>
     <media:starRating count="245" average="5.00" min="1" max="5"/>
-    <media:statistics views="17261"/>
+    <media:statistics views="17386"/>
    </media:community>
   </media:group>
  </entry>
@@ -501,7 +526,7 @@ Other resources mentioned in the video:
    <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
   </author>
   <published>2026-09-02T23:10:00+00:00</published>
-  <updated>2026-09-17T21:33:59+00:00</updated>
+  <updated>2026-10-04T09:16:00+00:00</updated>
   <media:group>
    <media:title>OpenAI Astra and Recurrent Depth / Looped Transformers</media:title>
    <media:content url="https://www.youtube.com/v/KT4n-z_4QJU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -557,59 +582,8 @@ Corrections:
 If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
 https://magazine.sebastianraschka.com/</media:description>
    <media:community>
-    <media:starRating count="1220" average="5.00" min="1" max="5"/>
-    <media:statistics views="121416"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Kh9mqTzjuEQ</id>
-  <yt:videoId>Kh9mqTzjuEQ</yt:videoId>
-  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
-  <title>Build A Reasoning Model From Scratch 1: Motivation &amp; Code Setup</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Kh9mqTzjuEQ"/>
-  <author>
-   <name>Sebastian Raschka</name>
-   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
-  </author>
-  <published>2026-08-30T11:30:10+00:00</published>
-  <updated>2026-10-03T13:00:33+00:00</updated>
-  <media:group>
-   <media:title>Build A Reasoning Model From Scratch 1: Motivation &amp; Code Setup</media:title>
-   <media:content url="https://www.youtube.com/v/Kh9mqTzjuEQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/Kh9mqTzjuEQ/hqdefault.jpg" width="480" height="360"/>
-   <media:description>This video explains the relationship between conventional LLMs and reasoning models (and agents), philosophizes a about &quot;from scratch&quot; approaches, and explains how to install Python &amp; PyTorch requirements with uv.
-
-- Reasoning playlist: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs
-- Reasoning Book: https://amzn.to/4aAKiFY
-- Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
-- Reasoning effort article: https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms
-
-- LLMs from Scratch book: https://amzn.to/4fqvn0D
-- LLMs from Scratch repo: https://github.com/rasbt/LLMs-from-scratch
-- LLMs from Scratch playlist: https://www.youtube.com/watch?v=yAcWnfsZhzo&amp;list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11&amp;index=1
-
-0:00 Introduction
-1:16 From conventional LLMs to reasoning models
-2:54 Reasoning models and agent harnesses
-4:00 Why implement models from scratch?
-8:23 Learning resources and books
-11:42 What this video series covers
-14:23 Controlling reasoning effort in modern LLMs
-17:19 Which video series should you start with?
-18:18 Setting up the code environment
-19:45 Cloning the GitHub repository
-20:40 Installing the dependencies with pip or uv
-27:19 Running the code in JupyterLab
-28:34 Troubleshooting Python environments
-30:33 Checking CUDA and Apple Silicon support
-32:43 Do you need a GPU?
-34:30 Using a remote GPU with VS Code
-39:35 Fixing CUDA and PyTorch issues
-41:50 Questions and what comes next</media:description>
-   <media:community>
-    <media:starRating count="764" average="5.00" min="1" max="5"/>
-    <media:statistics views="36686"/>
+    <media:starRating count="1223" average="5.00" min="1" max="5"/>
+    <media:statistics views="121706"/>
    </media:community>
   </media:group>
  </entry>
