@@ -11,6 +11,134 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:VPQ4ZwxkQAg</id>
+  <yt:videoId>VPQ4ZwxkQAg</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>Claude Haiku 5.5 发布；GPT-6 上线 Chat；Sonnet 降价；Claude Max 获赠API额度【AI 早报 2026-10-08】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=VPQ4ZwxkQAg"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-08T01:50:27+00:00</published>
+  <updated>2026-10-08T12:00:17+00:00</updated>
+  <media:group>
+   <media:title>Claude Haiku 5.5 发布；GPT-6 上线 Chat；Sonnet 降价；Claude Max 获赠API额度【AI 早报 2026-10-08】</media:title>
+   <media:content url="https://www.youtube.com/v/VPQ4ZwxkQAg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VPQ4ZwxkQAg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+Anthropic 发布 Claude Haiku 5.5：平均成本降约 75% 00:09
+https://www.anthropic.com/claude-haiku-5-5
+https://www.anthropic.com/claude-haiku-5-5-system-card
+https://platform.claude.com/docs/en/models/haiku-5-5/whats-new-haiku-5-5
+https://platform.claude.com/docs/en/models/haiku-5-5/migration-guide
+https://x.com/claudeai/status/2107894039626277339
+
+OpenAI 向全员推送 GPT-6，上线智能交互界面 00:33
+https://openai.com/index/gpt-6-for-everyone/
+https://x.com/OpenAI/status/2107894997538525580
+
+Codex 昨日按投票重置额度，今日再送手动重置次数 01:03
+https://x.com/thsottiaux/status/2107913674593644711
+https://x.com/thsottiaux/status/2107676072871600470
+https://x.com/thsottiaux/status/2107578625419866469
+
+Claude Sonnet 5.5 缓存读取价格减半 01:26
+https://x.com/claudeai/status/2107894060229034197
+
+Claude 为 Max 和 Team 订阅用户发放月度 API 额度 01:37
+https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers
+https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans
+https://x.com/ClaudeDevs/status/2107895957933408429
+
+谷歌 SynthID 检测网站面向全球用户开放 01:58
+https://synthid.com/
+https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/
+https://x.com/GoogleDeepMind/status/2107834249680499136
+https://deepmind.google/models/synthid/
+
+Claude Code 团队成员推出 html-plan skill，开放试用 02:18
+https://x.com/trq212/status/2107192901537329354
+
+Claude SDK 内置 computer use 与 browser use 工具集 02:36
+https://github.com/anthropics/claude-quickstarts/tree/main/computer-toolset
+https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-sdk
+https://x.com/ClaudeDevs/status/2107925762720326090
+
+OpenRouter 上线 ElevenLabs 全线语音模型，限时 5 折 02:44
+https://openrouter.ai/blog/announcements/elevenlabs-on-openrouter/
+https://x.com/OpenRouter/status/2107851633191436685
+
+GitHub Copilot 开放本地沙箱，混合推理将于月底预览 02:53
+https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/
+https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli/
+https://x.com/github/status/2107915368358404147
+
+微软 MXC 正式可用，为 AI 智能体划定执行权限 03:12
+https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/
+https://github.com/microsoft/mxc
+
+Liquid AI 开源决策模型 d1-3B 和 d1-omni-600M 03:28
+https://www.liquid.ai/blog/d1-open
+https://huggingface.co/LiquidAI/d1-3B
+https://huggingface.co/LiquidAI/d1-omni-600M
+https://x.com/liquidai/status/2107878924831379676
+
+Perplexity 发布两款多模态嵌入模型 03:43
+https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector
+https://huggingface.co/perplexity-ai/pplx-embed-v2-late-0.6b
+https://huggingface.co/perplexity-ai/pplx-embed-v2-late-9b
+https://x.com/perplexity_ai/status/2107866029745746177
+
+生数科技发布旗舰视频模型 Vidu Q4 Preview 03:58
+https://www.prnewswire.com/news-releases/vidu-launches-q4-preview-making-flagship-ai-video-creation-accessible-to-everyone-302901266.html
+https://platform.vidu.com/docs/api-reference/video-models/vidu-q4-preview/image-to-video
+https://x.com/ViduAI_official/status/2107856382263505219
+
+马斯克：Grok Bot 不再只用自家模型 04:11
+https://x.com/elonmusk/status/2107849623364895151
+https://x.com/elonmusk/status/2107724314451878104
+
+Grok Bot 0.68.1 发布：可制作幻灯片、发送格式化邮件 04:29
+https://x.ai/changelog/bot
+https://x.com/elonmusk/status/2107921069126672602
+
+Grok Bot 现可搜索和读取 X，全员免配置开放 04:41
+https://x.com/bot/status/2107949161878606089
+https://x.com/poteto/status/2107963437154435182
+
+Grok 团队成员：X 平台 @bot 提及功能已上线 04:56
+https://x.com/larsencc/status/2107616555685360072
+
+OpenAI 将为 ChatGPT for Teens 推出大学申请规划工具 05:06
+https://x.com/OpenAI/status/2107909792945832070
+https://openai.com/index/teens-learn-and-plan/
+
+Codex Cloud 上线即支持 Tailscale 05:16
+https://tailscale.com/blog/codex-cloud-tailscale
+https://learn.chatgpt.com/docs/environments/cloud-environments#private-networking-vpn
+
+Google推出实验性游戏生成平台Playground 05:29
+https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/
+https://playground.google/community-guidelines
+
+谷歌推出 AI Edge Foresight，Mac 端侧 AI 会议助手 05:43
+https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/
+
+DGX Station 将支持 Windows，可在本地运行万亿参数级模型 05:55
+https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/
+https://www.nvidia.com/en-us/products/workstations/dgx-station-for-windows/
+
+Surface Laptop Ultra 开启预售，2599 美元起 06:12
+https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-s</media:description>
+   <media:community>
+    <media:starRating count="34" average="5.00" min="1" max="5"/>
+    <media:statistics views="4057"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:WopoEMZAkJk</id>
   <yt:videoId>WopoEMZAkJk</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -21,7 +149,7 @@
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-07T02:22:32+00:00</published>
-  <updated>2026-10-07T11:57:59+00:00</updated>
+  <updated>2026-10-07T16:05:42+00:00</updated>
   <media:group>
    <media:title>Google 发布 Nano Banana 2.1；Mistral Large 4 上线【AI 早报 2026-10-07】</media:title>
    <media:content url="https://www.youtube.com/v/WopoEMZAkJk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -143,8 +271,8 @@ https://x.com/NousResearch/status/2107592255124951360
 https://blog.google/innovation-and-ai/technology/health/google-earth-ai/
 https://x.com/Google/</media:description>
    <media:community>
-    <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="3147"/>
+    <media:starRating count="31" average="5.00" min="1" max="5"/>
+    <media:statistics views="4403"/>
    </media:community>
   </media:group>
  </entry>
@@ -221,7 +349,7 @@ https://www.winknews.com/news/woman-arrested-after-ai-threat-against-lee-county-
 https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-reports-florida-womans-claude-diary-threat-to-shoot-up-sheriffs-office-felony-charge-follows-its-at-least-the-third-such-conversation-to-reach-police-since-august</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="2146"/>
+    <media:statistics views="2213"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +387,7 @@ https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-
 https://www.axios.com/2026/10/04/reflection-open-weight-ai</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1068"/>
+    <media:statistics views="1098"/>
    </media:community>
   </media:group>
  </entry>
@@ -274,7 +402,7 @@ https://www.axios.com/2026/10/04/reflection-open-weight-ai</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-04T01:36:06+00:00</published>
-  <updated>2026-10-04T17:58:55+00:00</updated>
+  <updated>2026-10-07T07:53:38+00:00</updated>
   <media:group>
    <media:title>Antigravity 上线两款 Claude 5.5 模型【AI 早报 2026-10-04】</media:title>
    <media:content url="https://www.youtube.com/v/FOhSGkNgTWA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -305,7 +433,7 @@ https://www.ithome.com/1/009/385.htm
 https://x.com/GrokInsider/status/2106302120450220502</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1673"/>
+    <media:statistics views="1692"/>
    </media:community>
   </media:group>
  </entry>
@@ -320,7 +448,7 @@ https://x.com/GrokInsider/status/2106302120450220502</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-03T02:03:22+00:00</published>
-  <updated>2026-10-03T11:17:22+00:00</updated>
+  <updated>2026-10-07T07:52:01+00:00</updated>
   <media:group>
    <media:title>ChatGPT 用量重置；Gemini 调整用户模型访问权限【AI 早报 2026-10-03】</media:title>
    <media:content url="https://www.youtube.com/v/MECu6Ynj3B8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -395,7 +523,7 @@ https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/
 https://www.bloomberg.com/news/articles/2026-10-02/broadcom-starts-amassing-60-billion-to-fund-chips-for-anthropic</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1655"/>
+    <media:statistics views="1651"/>
    </media:community>
   </media:group>
  </entry>
@@ -513,7 +641,7 @@ Anthropic 招股书披露 420 亿美元 Broadcom 融资安排 06:11
 https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/</media:description>
    <media:community>
     <media:starRating count="30" average="5.00" min="1" max="5"/>
-    <media:statistics views="2687"/>
+    <media:statistics views="2701"/>
    </media:community>
   </media:group>
  </entry>
@@ -650,7 +778,7 @@ https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html
 智谱称</media:description>
    <media:community>
     <media:starRating count="62" average="5.00" min="1" max="5"/>
-    <media:statistics views="5785"/>
+    <media:statistics views="5793"/>
    </media:community>
   </media:group>
  </entry>
@@ -780,7 +908,7 @@ https://x.com/OpenAIDevs/status/2104999323385929777
 ChatGPT iOS 版新增 Codex 小组件</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="2865"/>
+    <media:statistics views="2873"/>
    </media:community>
   </media:group>
  </entry>
@@ -910,7 +1038,7 @@ Google 宣布 Gemini 的 Gems 将迁移为 skills 07:26
 https://support.google.com/gemini/answer/18560919</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="3027"/>
+    <media:statistics views="3036"/>
    </media:community>
   </media:group>
  </entry>
@@ -970,7 +1098,7 @@ https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite
 https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2346"/>
+    <media:statistics views="2358"/>
    </media:community>
   </media:group>
  </entry>
@@ -1046,7 +1174,7 @@ https://x.com/theinformation/status/2103839519019569371
 https://thein.fo/4hcSXC4</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="1752"/>
+    <media:statistics views="1755"/>
    </media:community>
   </media:group>
  </entry>
@@ -1130,7 +1258,7 @@ https://x.com/elonmusk/status/2103329761690865846
 https://x.com/elonmusk/status/2103352821135376584</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="878"/>
+    <media:statistics views="880"/>
    </media:community>
   </media:group>
  </entry>
@@ -1251,7 +1379,7 @@ https://www.theinformation.com/articles/inside-ai-industrys-behind-scenes-push-p
 https://www.ithome.com/1/007/016.htm</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="1665"/>
+    <media:statistics views="1668"/>
    </media:community>
   </media:group>
  </entry>
@@ -1362,99 +1490,7 @@ https://www.anthropic.com/features/ebola-response
 https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/</media:description>
    <media:community>
     <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="2366"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Cdg5449Oid0</id>
-  <yt:videoId>Cdg5449Oid0</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>Anthropic 发布 Claude Opus 5.5；OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna【AI 早报 2026-09-23】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Cdg5449Oid0"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-09-23T01:42:29+00:00</published>
-  <updated>2026-10-02T08:42:46+00:00</updated>
-  <media:group>
-   <media:title>Anthropic 发布 Claude Opus 5.5；OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna【AI 早报 2026-09-23】</media:title>
-   <media:content url="https://www.youtube.com/v/Cdg5449Oid0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/Cdg5449Oid0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-Anthropic 发布 Claude Opus 5.5：同步调整价格与订阅额度 00:09
-https://www.anthropic.com/claude-opus-5-5
-https://anthropic.com/claude-opus-5-5-system-card
-https://claude.com/blog/what-a-task-costs-on-opus-5-5
-https://claude.dev/blog/getting-the-most-out-of-opus-5-5/
-https://support.claude.com/en/articles/16049681-why-claude-switched-models-in-your-conversation-with-opus-5-or-opus-5-5
-
-OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，下调 API 价格并改进缓存 00:51
-https://openai.com/index/introducing-gpt-6-sol-and-luna/
-https://openai.com/index/better-prompt-caching-for-gpt-6/
-https://developers.openai.com/api/docs/guides/prompt-caching/diagnostics
-
-Tibo：为 Plus、Pro 和 Business 用户发放手动重置次数 01:30
-https://x.com/thsottiaux/status/2102463847714247142
-
-智谱推出GLM Coding Plan双节畅享活动 01:40
-https://mp.weixin.qq.com/s/RQ3AAN5Z65wroZqx4Hw9EA
-
-OpenRouter推出Batch API，70多款模型支持异步批处理 02:00
-https://openrouter.ai/blog/announcements/batch-api/
-
-阶跃星辰正式开源 Step Code v0.1.0 02:13
-https://mp.weixin.qq.com/s/SEykVMq4GzK_EMMdSV61YA
-https://github.com/stepfun-ai/Step-Code
-
-腾讯混元发布专业级生图模型 Hy Image3.5 preview 02:30
-https://hy.tencent.com/research/hy-image35-preview
-https://aistudio.tencent.com/
-
-蚂蚁百灵发布Ming-Image两款60亿参数图像模型 02:51
-https://github.com/inclusionAI/Ming-Image
-https://x.com/AntLingAGI/status/2102452045374804304
-
-PixVerse公布实时世界模型R2，支持提示词控制与编辑 03:04
-https://x.com/PixVerse/status/2102404266484989983
-https://x.com/PixVerse/status/2102404808783405237
-
-Kimi Browser Extension 上线，可录制网页操作为 skill 03:16
-https://www.kimi.ai/products/kimi-browser-extension
-https://x.com/Kimi_Moonshot/status/2102372557190230244
-
-火山引擎推出 Seedance 2.5 Draft 模式 03:30
-https://mp.weixin.qq.com/s/Cq42y7dJgy92LtXevulXlA
-
-Artificial Analysis 新增九种语言语音合成榜单 03:44
-https://x.com/ArtificialAnlys/status/2102490353098260895
-https://artificialanalysis.ai/text-to-speech/leaderboard/controlled-voice?accent=zh
-
-OpenAI提出第三方安全评估重点，承诺提供深度访问 03:58
-https://openai.com/index/priorities-principles-third-party-assessments/
-https://x.com/OpenAI/status/2102447425243828347
-
-阿里云成为 Omacom 基金会创始企业赞助人 04:16
-https://zh.omarchy.org/news/2026/09/alibaba-cloud-joins-as-founding-corporate-patron/
-
-TypeSafe AI因需求激增暂停Jev新用户注册 04:27
-https://x.com/typesafeai/status/2102281508950307159
-
-千问发布Qwen Intelligence AI手机全栈方案 04:37
-https://www.qwenintelligence.com/
-https://www.qianwenai.com/agents/qwenintelligence
-
-阿里巴巴披露Qwen4路线图，多款型号即将推出 04:46
-https://x.com/testingcatalog/status/2102324410468245529
-
-阿里QwenBook演示真机亮相，官网招募100名体验官 05:06
-https://www.qianwenai.com/product/qwenbook
-https://www.ithome.com/1/005/658.htm</media:description>
-   <media:community>
-    <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="3526"/>
+    <media:statistics views="2369"/>
    </media:community>
   </media:group>
  </entry>
