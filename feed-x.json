@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-08T14:40:53.000Z",
+  "generatedAt": "2026-10-09T02:58:49.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-10-08T06:47:17.990Z",
-    "ageHours": 7.89
+    "ageHours": 20.19
   },
   "x": [
     {
@@ -476,17 +476,6 @@
           "retweets": 0,
           "text": "great article by @ArielleShipper \n\nhttps://t.co/lKTS6XBwX0",
           "url": "https://x.com/danshipper/status/2107098678141804829"
-        },
-        {
-          "createdAt": "2026-10-04T23:42:58.000Z",
-          "id": "2106892868564431255",
-          "isQuote": false,
-          "likes": 114,
-          "quotedTweetId": null,
-          "replies": 21,
-          "retweets": 4,
-          "text": "dot has become my primary interface to AI over the last few weeks.\n\nmy dot's name is boo. he's cute! \n\nin a year, i bet i'll still be interacting in this way with @ChatGPT—e.g. as an always-on persistent agent—but boo will have disappeared. it reminds me a lot of early OpenClaw days—we loved the little personality quirks of our Claws, but we dropped them as soon as there was something functionally more powerful available",
-          "url": "https://x.com/danshipper/status/2106892868564431255"
         }
       ],
       "source": "x",
@@ -561,17 +550,6 @@
           "retweets": 8,
           "text": "We should have competence and good outcomes but we can’t do that without leadership and accountability \n\nHigh speed rail has been waylaid into a bulk transfer of taxpayer dollars into special interests with no good working outcome in sight https://t.co/oQrYJdsL6R",
           "url": "https://x.com/garrytan/status/2107127940635070905"
-        },
-        {
-          "createdAt": "2026-10-05T00:15:43.000Z",
-          "id": "2106901111106097210",
-          "isQuote": true,
-          "likes": 310,
-          "quotedTweetId": "2106444310187290762",
-          "replies": 51,
-          "retweets": 15,
-          "text": "When everyone is building the same primitives it does speak to needs that will only intensify from here\n\nAnd we will eventually converge on the correct OS https://t.co/tTdL1LMmzx",
-          "url": "https://x.com/garrytan/status/2106901111106097210"
         }
       ],
       "source": "x",
@@ -651,28 +629,6 @@
           "retweets": 11,
           "text": "A decent amount of agent adoption and deployment is bottlenecked by being able to test, tune, and optimize agents on “real” work environments. The files agents need to access, the CRM environments, email, and more.\n\nIt’s impossible to know how agents are performing if you don’t understand how well they’re executing on your evals and how they’ll perform in the future with a model change or workflow upgrade. Every enterprise has to do this 1 by 1 right now, which is obviously slow and tedious.\n\nEvery enterprise is going to have someone managing evals, infrastructure for building and running evals and simulated environments, and more. Huge space.",
           "url": "https://x.com/levie/status/2107283615247999257"
-        },
-        {
-          "createdAt": "2026-10-04T23:43:33.000Z",
-          "id": "2106893015063421357",
-          "isQuote": true,
-          "likes": 565,
-          "quotedTweetId": "2106777112552390986",
-          "replies": 79,
-          "retweets": 63,
-          "text": "We’re already starting to see what kind of new jobs AI is creating. \n\nAI requires significant technical work and surrounding services to deploy into the economy. This means jobs for AI engineers that build applied AI products sold to (or within) enterprises, FDEs to deploy agents into companies, new services firms for deploying AI, and more. \n\nAnd even the published stats of new jobs undercount all the existing jobs that are transitioning to new areas of AI work in an enterprise. Many prior data, research, and software jobs large enterprises are also being repositioned for working with AI. \n\nEvery bank, life sciences company, manufacturer, and even law firm is bringing on more technical talent -or repositioning existing roles- to help with agent deployment in their companies. It’s a lot easier to picture what AI can replace vs. what it creates until it starts happening. Now we’re seeing what this looks like.",
-          "url": "https://x.com/levie/status/2106893015063421357"
-        },
-        {
-          "createdAt": "2026-10-04T17:45:38.000Z",
-          "id": "2106802940879192260",
-          "isQuote": true,
-          "likes": 259,
-          "quotedTweetId": "2105726958021885977",
-          "replies": 55,
-          "retweets": 22,
-          "text": "This metric may tell us more about the business model of consumer AI than the state of AI. AI for consumers almost inevitably will be subsidized and monetized via commerce, ads, or purchases of devices and other services. This metric may level off lower than we think. https://t.co/HGKoWJGHci",
-          "url": "https://x.com/levie/status/2106802940879192260"
         }
       ],
       "source": "x",
@@ -725,17 +681,6 @@
           "retweets": 2,
           "text": "The guy who thought he was too late to crypto investing  https://t.co/U7lCDqMnOQ",
           "url": "https://x.com/mattturck/status/2107182105201696858"
-        },
-        {
-          "createdAt": "2026-10-04T18:58:54.000Z",
-          "id": "2106821381765956044",
-          "isQuote": true,
-          "likes": 5,
-          "quotedTweetId": "2105685876218925081",
-          "replies": 4,
-          "retweets": 1,
-          "text": "Still one aspect of AI that's most poorly understood outside AI circles... \"models are grown, not built\" and we don't *really* know how they work.  Hence the urgent need for better interpretability -- @eric_ho @GoodfireAI https://t.co/VCDuEk2r72 https://t.co/iIV93Rjz28",
-          "url": "https://x.com/mattturck/status/2106821381765956044"
         }
       ],
       "source": "x",
@@ -928,39 +873,6 @@
           "retweets": 7,
           "text": "I built an AI language learning app that teaches me Japanese via live voice calls.\n\nHere's my new tutorial that shows you exactly how I built this, including:\n\n→ Using my spec skill to create key designs\n→ Setting up Gemini Live APIs for voice\n→ Creating diorama art with Nano Banana\n\nYou can follow along to build your own app to learn 100 phrases for any language before a trip.\n\n📌 Watch now: https://t.co/A0awOYADST",
           "url": "https://x.com/petergyang/status/2107108755699900459"
-        },
-        {
-          "createdAt": "2026-10-05T01:58:25.000Z",
-          "id": "2106926956554195018",
-          "isQuote": true,
-          "likes": 67,
-          "quotedTweetId": "2106610099720720811",
-          "replies": 22,
-          "retweets": 2,
-          "text": "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry).\n\nHere's a clip from my dots review about this. What I'd simplify:\n\n1. Work vs. Codex\n2. Spaces vs. Pages vs. Sites\n3. The model and effort picker\nProbably alot more\n\nMy hot take is that the whole Work launch was a mistake. Just like Claude folded Cowork back into Chat, I don't think Work needs its own brand.\n\nAnyway, excited to see my primary harness get much better.\n\n📌 See my full dots review here: https://t.co/kUtg3RPk7l",
-          "url": "https://x.com/petergyang/status/2106926956554195018"
-        },
-        {
-          "createdAt": "2026-10-05T00:00:14.000Z",
-          "id": "2106897211766530299",
-          "isQuote": true,
-          "likes": 77,
-          "quotedTweetId": "2106749997442285981",
-          "replies": 14,
-          "retweets": 2,
-          "text": "I asked Sam, co-founder of @meetgranola, how he feels about people skipping his UI and instead just using the MCP to get the job done.\n\nHere's what he said:\n\n\"There's definitely a pang of sadness to that as a UI designer.\n\nWe fought it for a while. We were like, no, we really need to keep everybody in the Granola UI for everything.\n\nBut as soon as you become a big enough enterprise, it's inevitable you have all of this internal tooling. If Granola doesn't play nice with that internal tooling, then it's a non-starter.\n\nAt this point we're at peace with the fact that for a bunch of workflows, the best way to use Granola is to capture the context, then use it through your internal agent.\"\n\n📌 Watch the full episode here: https://t.co/4f5zTNl4Kc",
-          "url": "https://x.com/petergyang/status/2106897211766530299"
-        },
-        {
-          "createdAt": "2026-10-04T19:15:13.000Z",
-          "id": "2106825485624004691",
-          "isQuote": true,
-          "likes": 25,
-          "quotedTweetId": "2106749997442285981",
-          "replies": 7,
-          "retweets": 0,
-          "text": "\"The easier it gets to build stuff, the more it matters to really sweat the details and go the extra mile.\"\n\nFrom Sam, co-founder of @meetgranola:\n\n\"One, you've got to build something interesting. Two, [most people] get to version one and push it out the door.\n\nInstead, hold yourself accountable, not just to shipping something, but to answering: Does the person actually get daily value out of it?\"\n\n📌 Watch the full episode here: https://t.co/4f5zTNl4Kc",
-          "url": "https://x.com/petergyang/status/2106825485624004691"
         }
       ],
       "source": "x",
@@ -1024,39 +936,6 @@
           "retweets": 107,
           "text": "Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript.\n\ngdp-ts is a library, linter and AI skill for safer API design. Under this contract, sensitive functions require 'proofs' that the caller performed an authorization check.\n\nThe typechecker verifies these proofs at compile time, preventing your team and agents from shipping catastrophic security (and other kinds of) bugs.\n\nWhile these patterns have existed for quite some time, especially in ecosystems like Haskell, ① human code review and ② cognitive and syntactic overhead made these solutions niche.\n\nThe situation is now inverted. Agents are writing more code than we can review, and they *thrive* in tight loops with hard constraints that would frustrate us. We see this with the rise of Rust, borrow checker, code aesthetics debate and all.\n\nThe README and examples model a real-world Vercel API product constraint: changing the password on a Project requires a proof of a certain role + a certain entitlement. Thanks to Matt Noonan and Ollie Charles for their research in this space.\n\nhttps://t.co/eRWdiMvQ2V",
           "url": "https://x.com/rauchg/status/2107119811444748555"
-        },
-        {
-          "createdAt": "2026-10-04T23:13:31.000Z",
-          "id": "2106885457212825983",
-          "isQuote": true,
-          "likes": 202,
-          "quotedTweetId": "2106882944770171353",
-          "replies": 40,
-          "retweets": 7,
-          "text": "It’s hard to fathom https://t.co/OL0LzGtvAw getting even faster, but it’s now… much faster 😂\n\nAs models speed up (as with Astra 𝚞𝚕𝚝𝚛𝚊𝚏𝚊𝚜𝚝), harness overhead matters more and more.\n\nNext release will feature even better performance for session storage and retrieval, and a big unlock for cloud durability in libfx.",
-          "url": "https://x.com/rauchg/status/2106885457212825983"
-        },
-        {
-          "createdAt": "2026-10-04T21:47:38.000Z",
-          "id": "2106863842450133114",
-          "isQuote": false,
-          "likes": 1918,
-          "quotedTweetId": null,
-          "replies": 118,
-          "retweets": 87,
-          "text": "DHH is fundamentally right about Rust. For context, Vercel has been undergoing a Rust-ification (carcinization, technically 🦀) for a while.\n\nOne of the first projects we migrated was Turborepo, from Go to Rust¹. The migration completed, but the RoI was actually quite controversial internally.\n\nWhile Rust was in our eyes better for low-level OS access, something crucial for a build system like Turbo, the human migration costs were very sustantive.\n\nGo is very fast. It's beautifully designed. It's easy to iterate on. We were very conflicted about the migration, because it was *humans* writing the code, *even if we knew Rust was a better choice*.\n\nThe calculus has now changed. What's \"best for humans\" is no longer necessarily \"best for business\". \n\nFWIW, it's also quite unlikely that Rust is the end-all-be-all toolchain. I'm quite certain there's greener pasture ahead, because Rust itself was designed before the 'supersonic tsunami' of agents hit.\n\n¹ https​://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust",
-          "url": "https://x.com/rauchg/status/2106863842450133114"
-        },
-        {
-          "createdAt": "2026-10-04T20:45:01.000Z",
-          "id": "2106848085267902815",
-          "isQuote": false,
-          "likes": 993,
-          "quotedTweetId": null,
-          "replies": 119,
-          "retweets": 36,
-          "text": "Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand, because it's for human consumption. The documentation internals are AI English, because they're for agents.\n\nThis little rule of thumb can make the world better. Blogs, tweets, READMEs: human communication. It's not even about \"em dashes\" or lack thereof. It's that it's the story-telling moment where you want to connect with other humans through their words.",
-          "url": "https://x.com/rauchg/status/2106848085267902815"
         }
       ],
       "source": "x",
@@ -1117,17 +996,6 @@
           "retweets": 29,
           "text": "made a lil thing for language learners:\nwatch Netflix with subtitles in any two languages, plus pronunciation guides for Japanese, Chinese, and Korean. customizable styles, hand-picked defaults.\nenjoy 🍿 https://t.co/JFw0cfcBOW",
           "url": "https://x.com/ryolu_/status/2107146629338042853"
-        },
-        {
-          "createdAt": "2026-10-04T16:05:00.000Z",
-          "id": "2106777615801713054",
-          "isQuote": true,
-          "likes": 399,
-          "quotedTweetId": "2105775325385040243",
-          "replies": 10,
-          "retweets": 10,
-          "text": "a bit more work later…\nfull bleed desktop + side dock\nlil computer in your pocket https://t.co/KJ5TwRsPSz https://t.co/UYkEWHyDnY",
-          "url": "https://x.com/ryolu_/status/2106777615801713054"
         }
       ],
       "source": "x",
@@ -1221,17 +1089,6 @@
           "retweets": 4,
           "text": "I hooked up our team claw to X to trigger work faster. Unassigned sessions are for anyone to grab. Our agent looks who worked on the related code last and pings people on the server.\n\nWhole thing was a prompt and team server extended itself since plugins are now hot reloadable. https://t.co/jFGqOBS7pR",
           "url": "https://x.com/steipete/status/2107697554448421160"
-        },
-        {
-          "createdAt": "2026-10-04T17:20:16.000Z",
-          "id": "2106796559400882209",
-          "isQuote": true,
-          "likes": 484,
-          "quotedTweetId": "2106435782110068975",
-          "replies": 26,
-          "retweets": 6,
-          "text": "bug fixes &amp; performance improvements https://t.co/E4BHpRVRjf",
-          "url": "https://x.com/steipete/status/2106796559400882209"
         }
       ],
       "source": "x",
@@ -1399,17 +1256,6 @@
           "retweets": 25,
           "text": "Sergio is cooking up magic with collaborative space right in ChatGPT. Improving leaps and bounds every day. https://t.co/9fgjS3jjGC",
           "url": "https://x.com/thsottiaux/status/2107200530477101461"
-        },
-        {
-          "createdAt": "2026-10-04T20:33:43.000Z",
-          "id": "2106845241357824205",
-          "isQuote": true,
-          "likes": 20724,
-          "quotedTweetId": "2106610099720720811",
-          "replies": 3210,
-          "retweets": 1140,
-          "text": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin. https://t.co/0oFXZ7LY5T",
-          "url": "https://x.com/thsottiaux/status/2106845241357824205"
         }
       ],
       "source": "x",
@@ -1580,39 +1426,6 @@
           "retweets": 0,
           "text": "Cool! https://t.co/kKbN8ESOQV",
           "url": "https://x.com/zarazhangrui/status/2107357316844802298"
-        },
-        {
-          "createdAt": "2026-10-04T22:39:36.000Z",
-          "id": "2106876921082712250",
-          "isQuote": false,
-          "likes": 511,
-          "quotedTweetId": null,
-          "replies": 42,
-          "retweets": 9,
-          "text": "The way Opus 5.5 just silently goes off to make something for 20+ minutes and comes back with a complete masterpiece https://t.co/KhPLgeSl7q",
-          "url": "https://x.com/zarazhangrui/status/2106876921082712250"
-        },
-        {
-          "createdAt": "2026-10-04T16:23:22.000Z",
-          "id": "2106782239493427588",
-          "isQuote": true,
-          "likes": 151,
-          "quotedTweetId": "1939824720838631801",
-          "replies": 18,
-          "retweets": 4,
-          "text": "X profiles are replacing resumes https://t.co/1WDh5pGxZ2",
-          "url": "https://x.com/zarazhangrui/status/2106782239493427588"
-        },
-        {
-          "createdAt": "2026-10-04T16:10:43.000Z",
-          "id": "2106779057220378725",
-          "isQuote": false,
-          "likes": 112,
-          "quotedTweetId": null,
-          "replies": 13,
-          "retweets": 1,
-          "text": "Currently reading https://t.co/4rjrnvReWU",
-          "url": "https://x.com/zarazhangrui/status/2106779057220378725"
         }
       ],
       "source": "x",
@@ -1621,7 +1434,7 @@
   ],
   "stats": {
     "xBuilders": 24,
-    "xTweets": 129,
-    "windowSpanHours": 86.61
+    "xTweets": 112,
+    "windowSpanHours": 74.71
   }
 }
