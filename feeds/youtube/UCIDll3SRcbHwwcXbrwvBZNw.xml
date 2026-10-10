@@ -11,6 +11,135 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:7kWdPa5konQ</id>
+  <yt:videoId>7kWdPa5konQ</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>OpenAI dot 更新：手机端可创建并接管 Codex【AI 早报 2026-10-10】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7kWdPa5konQ"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-10T01:49:50+00:00</published>
+  <updated>2026-10-10T02:20:21+00:00</updated>
+  <media:group>
+   <media:title>OpenAI dot 更新：手机端可创建并接管 Codex【AI 早报 2026-10-10】</media:title>
+   <media:content url="https://www.youtube.com/v/7kWdPa5konQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7kWdPa5konQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+OpenAI dot 更新：手机端可创建并接管 Codex 00:08
+https://learn.chatgpt.com/docs/whats-new/dots-october-9-2026
+https://x.com/ChatGPT/status/2108636748217770180
+https://x.com/ChatGPT/status/2108636745915052037
+
+OpenAI 为 Codex 推出下一条消息预测测试版 00:24
+https://help.openai.com/en/articles/20001601-composer-predictions-in-codex
+https://x.com/OpenAIDevs/status/2108624138369929725
+
+TraeWork 与 TraeCode 统一为 TRAE 00:40
+https://docs.trae.cn/ide_traework-to-traecode-data-migration
+
+阶跃星辰将增加 Step Plan 供应并调整权益 00:53
+https://linux.do/t/topic/3000890
+
+Claude Code Projects 候补用户全部获准加入 01:06
+https://x.com/ClaudeDevs/status/2108621476538781878
+https://claude.com/resources/articles/projects-redesigned
+
+Claude Design独立版站点12月14日关闭 01:15
+https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude
+https://x.com/nateparrott/status/2108278741088833608
+
+Claude Managed Agents 动态工作流公测 01:21
+https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration
+https://x.com/ClaudeDevs/status/2108591328732856655
+
+Grok Bot 推出用户专属邮箱 01:32
+https://x.com/bot/status/2108607640318206037
+https://x.com/elonmusk/status/2108612939842511217
+
+豆包新增生活缴费：语音打字即可唤出缴费卡片 01:45
+https://mp.weixin.qq.com/s/L3YD7w1CB3qk1QzS7UEuYQ
+
+豆包工作新增画布功能，同步更新两款模型 02:00
+https://mp.weixin.qq.com/s/5gAQiVgI2WQs9vlh-SpVzw
+
+Perplexity 上线免费百科网站 Alexandria 02:18
+https://alexandria.pplx.app
+https://x.com/AravSrinivas/status/2108570766279356838
+
+LM Studio 发布新版提供决策模型 API 02:32
+https://lmstudio.ai/changelog/lmstudio/lmstudio-v0.4.26
+
+阿里Qwen发布Qwen-Image-2.1-Turbo 02:45
+https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo
+https://x.com/QwenDevs/status/2108551276242018731
+https://modelstudio.console.alibabacloud.com/ap-southeast-1/model/market/detail/qwen-image-2.1-turbo?serviceSite=international&amp;ref=list
+
+腾讯优图开源多模态解析模型 Youtu-Parsing-Omni 02:58
+https://github.com/TencentCloudADP/youtu-parsing?ref=explainx
+https://huggingface.co/tencent/Youtu-Parsing-Omni
+
+Underdog AI 发布 Saluki 27B，7.9GB 保留约 96% 基准性能 03:14
+https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0
+https://x.com/UnderdogAI/status/2108021482983133395
+
+微软发布 Microsoft-Decision-1 决策模型 03:29
+https://commandline.microsoft.com/microsoft-decision-1-model-foundry/
+https://x.com/satyanadella/status/2108627923888754862
+
+Epoch AI 新评测：前沿模型难复现论文级创新 03:37
+https://epoch.ai/publications/innovationeval
+
+Project Beacon：推理层实时监控开放模型安全 03:53
+https://www.baseten.co/blog/safe-open-models-baseten-goodfire/
+https://www.goodfire.com/blog/goodfire-baseten-partnership
+
+Google 开源端侧 GPU 推理引擎 ML Drift 04:08
+https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/
+https://github.com/google-ai-edge/ml-drift
+
+Anthropic：将更频繁发布模型行为报告 04:21
+https://www.anthropic.com/research/investigating-unintended-model-actions
+https://x.com/AnthropicAI/status/2108680150556737819
+
+Anthropic 模型向费城警方提交虚假凶案线索 04:38
+https://www.forth.news/lists/philapd/Cfs1w2A22JiL3fWSzA8Nx
+
+Anthropic 暂停 Claude 初创计划两项优惠 04:55
+https://x.com/claudeai/status/2108404561413349695
+https://x.com/sarahzorah/status/2108401845563806150
+
+OpenAI回应解雇研究员：认定违反敏感信息政策 05:04
+https://x.com/OpenAINewsroom/status/2108441580806025712
+
+Deno 团队整体加入 Cloudflare 05:18
+https://blog.cloudflare.com/deno-joins-cloudflare
+https://deno.com/blog/cloudflare
+
+TypeSafe AI 完成 8.7 亿美元 A 轮融资 05:31
+https://typesafe.ai/blog/series-ai
+https://a16z.com/announcement/investing-in-typesafe-ai/
+
+特朗普向六位科技界人士颁发美国国家奖章 05:44
+https://www.whitehouse.gov/releases/2026/10/president-trump-presents-national-medals-of-science-and-national-medals-of-technology-and-innovation/
+https://www.whitehouse.gov/wp-content/uploads/2026/07/Science-A-New-Golden-Age.pdf
+
+新思科技拟联手中国 AI 实验室，定制 AI 芯片设计工具 05:58
+https://asia.nikkei.com/business/tech/semiconductors/synopsys-looks-to-work-with-chinese-ai-labs-to-speed-up-chip-design
+
+AI巨头高管被曝推演灾难性AI事件后预案 06:15
+https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack
+
+Kimi 第三方客户端思维链调整，据用户反馈已回滚 06:35</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="102"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:OZFVYSNM1BE</id>
   <yt:videoId>OZFVYSNM1BE</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -132,8 +261,8 @@ https://mp.weixin.qq.com/s/cmjfJ40G8ZSr9vyPLLy37g
 
 Arena 完成</media:description>
    <media:community>
-    <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1819"/>
+    <media:starRating count="19" average="5.00" min="1" max="5"/>
+    <media:statistics views="2061"/>
    </media:community>
   </media:group>
  </entry>
@@ -261,7 +390,7 @@ Surface Laptop Ultra 开启预售，2599 美元起 06:12
 https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-s</media:description>
    <media:community>
     <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="5355"/>
+    <media:statistics views="5417"/>
    </media:community>
   </media:group>
  </entry>
@@ -399,7 +528,7 @@ https://blog.google/innovation-and-ai/technology/health/google-earth-ai/
 https://x.com/Google/</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="4654"/>
+    <media:statistics views="4684"/>
    </media:community>
   </media:group>
  </entry>
@@ -476,7 +605,7 @@ https://www.winknews.com/news/woman-arrested-after-ai-threat-against-lee-county-
 https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-reports-florida-womans-claude-diary-threat-to-shoot-up-sheriffs-office-felony-charge-follows-its-at-least-the-third-such-conversation-to-reach-police-since-august</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="2228"/>
+    <media:statistics views="2231"/>
    </media:community>
   </media:group>
  </entry>
@@ -514,7 +643,7 @@ https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-
 https://www.axios.com/2026/10/04/reflection-open-weight-ai</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1114"/>
+    <media:statistics views="1117"/>
    </media:community>
   </media:group>
  </entry>
@@ -560,7 +689,7 @@ https://www.ithome.com/1/009/385.htm
 https://x.com/GrokInsider/status/2106302120450220502</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1700"/>
+    <media:statistics views="1705"/>
    </media:community>
   </media:group>
  </entry>
@@ -650,7 +779,7 @@ https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/
 https://www.bloomberg.com/news/articles/2026-10-02/broadcom-starts-amassing-60-billion-to-fund-chips-for-anthropic</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1661"/>
+    <media:statistics views="1663"/>
    </media:community>
   </media:group>
  </entry>
@@ -768,7 +897,7 @@ Anthropic 招股书披露 420 亿美元 Broadcom 融资安排 06:11
 https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/</media:description>
    <media:community>
     <media:starRating count="30" average="5.00" min="1" max="5"/>
-    <media:statistics views="2709"/>
+    <media:statistics views="2714"/>
    </media:community>
   </media:group>
  </entry>
@@ -905,7 +1034,7 @@ https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html
 智谱称</media:description>
    <media:community>
     <media:starRating count="62" average="5.00" min="1" max="5"/>
-    <media:statistics views="5804"/>
+    <media:statistics views="5808"/>
    </media:community>
   </media:group>
  </entry>
@@ -1165,7 +1294,7 @@ Google 宣布 Gemini 的 Gems 将迁移为 skills 07:26
 https://support.google.com/gemini/answer/18560919</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="3041"/>
+    <media:statistics views="3043"/>
    </media:community>
   </media:group>
  </entry>
@@ -1225,7 +1354,7 @@ https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite
 https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2362"/>
+    <media:statistics views="2366"/>
    </media:community>
   </media:group>
  </entry>
@@ -1386,127 +1515,6 @@ https://x.com/elonmusk/status/2103352821135376584</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
     <media:statistics views="880"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:jUiIW9CN_qI</id>
-  <yt:videoId>jUiIW9CN_qI</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>ChatGPT 或新增每月 500 美元的 Pro Max 订阅方案【AI 早报 2026-09-25】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=jUiIW9CN_qI"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-09-25T01:40:07+00:00</published>
-  <updated>2026-10-02T09:16:13+00:00</updated>
-  <media:group>
-   <media:title>ChatGPT 或新增每月 500 美元的 Pro Max 订阅方案【AI 早报 2026-09-25】</media:title>
-   <media:content url="https://www.youtube.com/v/jUiIW9CN_qI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/jUiIW9CN_qI/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-ChatGPT 或新增每月 500 美元的 Pro Max 订阅方案 00:09
-https://x.com/testingcatalog/status/2103259620592542102
-https://x.com/btibor91/status/2103222629171908937
-
-豆包再送30天免费订阅权益，电脑版用户可领取 00:28
-https://mp.weixin.qq.com/s/o9pcVdE06AFVyuJefmemYA
-https://www.doubao.com/work
-
-谷歌将 Colab 高级权益纳入 Google AI 订阅方案 00:39
-https://developers.googleblog.com/colab-is-now-part-of-your-google-ai-plan/
-https://colab.research.google.com/
-
-WorkBuddy上线微信小程序生成与发布能力 00:52
-https://mp.weixin.qq.com/s/27g4HBkMqfPGn40_rYBmKA
-
-DeepSeek Harness Desktop 版安装包被发现 01:04
-https://github.com/deepseek-ai/deepseek-harness/releases
-https://download.deepseek.com/dsh-desk/bin/win-x64/deepseek-harness-0.1.7-rc.2-win-x64.exe
-https://download.deepseek.com/dsh-desk/bin/mac-arm64/deepseek-harness-0.1.7-rc.2-mac-arm64.dmg
-
-硅基流动上线三款开源快速决策模型 API，10 月 8 日前免费调用 01:25
-https://mp.weixin.qq.com/s/HPbVrM8kevJXAETXbjC6ug
-https://api-docs.siliconflow.cn/docs/api/systemone-post
-
-博查发布Bocha Jev决策模型，API限时免费测试 01:40
-https://mp.weixin.qq.com/s/P21_6xJLwFAvgziHeoxnhw
-https://jev.bocha.cn
-
-Anthropic恢复对三类回复前拦截请求收费 01:52
-https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback
-https://x.com/ClaudeDevs/status/2103170368794185758
-
-Claude Code Projects新增本地支持，线程可在用户电脑运行 02:05
-https://x.com/ClaudeDevs/status/2102893178273874102
-https://claude.com/form/projects
-
-OpenRouter推出服务器工具市场，提供搜索、命令行等工具 02:15
-https://openrouter.ai/tools
-https://x.com/OpenRouter/status/2103157607762698444
-
-谷歌 Gemini 3.8 Live 视频形象功能在企业平台正式开放 02:29
-https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/
-
-Claude Code 拟将 plan mode 改为内置 mod 02:41
-https://x.com/trq212/status/2102813194196758746
-https://x.com/trq212/status/2103212051065921632
-https://x.com/steipete/status/2103197966697976022
-
-Odyssey发布Agora-2：最多20名人类与Agent共享实时模拟世界 02:51
-https://odyssey.systems/introducing-agora-2
-https://agora-2.odyssey.systems/agora-2.pdf
-https://x.com/odysseyml/status/2103146841378586820
-
-腾讯Hy翻译APP上线，支持33种语言互译 03:05
-https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ==&amp;mid=2247498660&amp;idx=1&amp;sn=ee2ec0ab958eb1fed8e59076391e89ec&amp;chksm=c17cf527a4db12f2454e84a7c30ebf69f997af749487e28ae6255c278ac9f69aadb14f9be2eb#rd
-
-Arena.ai上线新版排行榜总览 03:20
-https://x.com/arena/status/2103215982210859218
-
-腾讯 QClaw 将于 12 月 24 日停运，开放退款和数据迁移 03:32
-https://qclaw.qq.com/
-
-Meta 推进 Muse 接入 Mac、邮件及更多购物服务 03:44
-
-Meta展示Muse Charm随身设备，计划12月假期前出货 03:56
-https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/
-
-Meta展示三款智能眼镜，VR眼镜计划2027年春季开售 04:08
-https://finance.yahoo.com/technology/article/meta-unveils-1299-vr-glasses-camera-less-smart-glasses-at-meta-connect-235611909.html
-
-谷歌公布长篇视频生成多Agent研究框架 04:18
-https://research.google/blog/coherent-long-form-video-generation/
-
-Anthropic介绍Project Swap：Claude Agent代员工换书 04:30
-https://www.anthropic.com/research/project-swap
-
-谷歌与Planet合作发射卫星测试TPU在太空运行 04:43
-https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/
-
-DeepSeek被曝推进新一轮融资，七成以上算力用于模型训练 04:54
-https://www.reuters.com/world/asia-pacific/chinas-deepseek-annualised-revenue-hits-1-billion-information-reports-2026-09-24/
-https://zhidx.com/p/597339.html
-
-马斯克预计SpaceX两三个月内或拥有Fable或GPT-6级别模型 05:06
-https://x.com/elonmusk/status/2103160462472892536
-https://x.com/elonmusk/status/2103151040858067289
-
-谷歌透露Gemini 4进展：处于后训练初期，已用于内部编程工具 05:21
-https://www.theinformation.com/articles/google-nears-release-flagship-gemini-4-ai-model
-https://x.com/Jessicalessin/status/2102930493666898012
-
-据报Anthropic拟调整股权结构，七名联创掌握50.1%表决权 05:40
-https://www.reuters.com/legal/legalindustry/anthropic-seeks-palantir-style-voting-control-seven-co-founders-ahead-ipo-2026-09-24/
-
-消息称谷歌、OpenAI 和 Anthropic 拟组建 AI 安全标准自律组织 05:48
-https://www.theinformation.com/articles/inside-ai-industrys-behind-scenes-push-police
-https://www.ithome.com/1/007/016.htm</media:description>
-   <media:community>
-    <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="1670"/>
    </media:community>
   </media:group>
  </entry>
