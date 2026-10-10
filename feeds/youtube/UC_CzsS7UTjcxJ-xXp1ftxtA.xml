@@ -11,6 +11,66 @@
  </author>
  <published>2012-02-21T04:08:32+00:00</published>
  <entry>
+  <id>yt:video:VxfUrUrrczs</id>
+  <yt:videoId>VxfUrUrrczs</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build A Reasoning Model From Scratch 7: Reinforcement Learning 2 (Tracking, KL Terms, And More)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=VxfUrUrrczs"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-10-10T11:45:02+00:00</published>
+  <updated>2026-10-10T11:50:32+00:00</updated>
+  <media:group>
+   <media:title>Build A Reasoning Model From Scratch 7: Reinforcement Learning 2 (Tracking, KL Terms, And More)</media:title>
+   <media:content url="https://www.youtube.com/v/VxfUrUrrczs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VxfUrUrrczs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This second video on reinforcement learning adds clipped policy rations, a KL loss term, format rewards, and analyzes various training metrics. Plus, it gives additional paper references for more tips and tricks.
+
+- Reasoning playlist: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs
+- Reasoning Book: https://amzn.to/4aAKiFY
+- Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
+
+- LLMs from Scratch book: https://amzn.to/4fqvn0D
+- LLMs from Scratch repo: https://github.com/rasbt/LLMs-from-scratch
+- LLMs from Scratch playlist: https://www.youtube.com/watch?v=yAcWnfsZhzo&amp;list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11&amp;index=1
+
+00:00 Introduction and recap
+01:52 Interpreting basic GRPO training metrics
+06:34 Planned improvements to GRPO
+08:58 Running longer training jobs with Python scripts
+13:39 Running the baseline GRPO training script
+17:29 Loading and plotting training logs
+19:29 Diagnosing unstable training
+23:55 Evaluating checkpoints on MATH-500
+26:26 Downloading existing checkpoints
+30:09 Tracking advantage statistics
+34:53 Understanding entropy
+40:32 Computing entropy in PyTorch
+44:17 Interpreting entropy values
+48:58 Adding entropy tracking to GRPO
+53:36 Analyzing advantage and entropy metrics
+56:18 Stabilizing GRPO with clipped policy ratios
+1:03:27 Implementing the clipped policy loss
+1:09:39 Analyzing clipped policy training results
+1:11:25 KL divergence and reward hacking
+1:15:12 Adding a KL loss term
+1:20:34 Limitations of the simplified KL loss
+1:23:04 Format rewards and think tags
+1:25:47 Adding special tokens to the tokenizer
+1:30:29 Implementing the format reward
+1:35:56 Analyzing format reward training
+1:38:25 Rewarding format only for correct answers
+1:40:48 Further GRPO improvements from research
+1:45:43 Next steps and distillation</media:description>
+   <media:community>
+    <media:starRating count="18" average="5.00" min="1" max="5"/>
+    <media:statistics views="267"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:zz3UKkyKU7o</id>
   <yt:videoId>zz3UKkyKU7o</yt:videoId>
   <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
@@ -31,7 +91,7 @@
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="530"/>
+    <media:statistics views="548"/>
    </media:community>
   </media:group>
  </entry>
@@ -56,7 +116,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="445"/>
+    <media:statistics views="456"/>
    </media:community>
   </media:group>
  </entry>
@@ -113,8 +173,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 1:22:33 MATH-500 results and training stability
 1:24:05 Memory requirements and next steps</media:description>
    <media:community>
-    <media:starRating count="243" average="5.00" min="1" max="5"/>
-    <media:statistics views="16196"/>
+    <media:starRating count="246" average="5.00" min="1" max="5"/>
+    <media:statistics views="16425"/>
    </media:community>
   </media:group>
  </entry>
@@ -163,8 +223,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="620"/>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="621"/>
    </media:community>
   </media:group>
  </entry>
@@ -189,7 +249,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="282"/>
+    <media:statistics views="280"/>
    </media:community>
   </media:group>
  </entry>
@@ -235,7 +295,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 1:07:35 Takeaways and next steps</media:description>
    <media:community>
     <media:starRating count="112" average="5.00" min="1" max="5"/>
-    <media:statistics views="8510"/>
+    <media:statistics views="8564"/>
    </media:community>
   </media:group>
  </entry>
@@ -287,7 +347,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 Article on coding an agent harness: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent</media:description>
    <media:community>
     <media:starRating count="151" average="5.00" min="1" max="5"/>
-    <media:statistics views="5507"/>
+    <media:statistics views="5515"/>
    </media:community>
   </media:group>
  </entry>
@@ -363,8 +423,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="166" average="5.00" min="1" max="5"/>
-    <media:statistics views="12662"/>
+    <media:starRating count="167" average="5.00" min="1" max="5"/>
+    <media:statistics views="12681"/>
    </media:community>
   </media:group>
  </entry>
@@ -446,8 +506,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:23:37 Base model vs. reasoning model
 1:25:30 Summary and next steps</media:description>
    <media:community>
-    <media:starRating count="215" average="5.00" min="1" max="5"/>
-    <media:statistics views="17580"/>
+    <media:starRating count="217" average="5.00" min="1" max="5"/>
+    <media:statistics views="17609"/>
    </media:community>
   </media:group>
  </entry>
@@ -510,80 +570,8 @@ Other resources mentioned in the video:
 01:32:53 Comparing CPU and GPU performance
 01:35:32 Recap and next steps</media:description>
    <media:community>
-    <media:starRating count="250" average="5.00" min="1" max="5"/>
-    <media:statistics views="17672"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:KT4n-z_4QJU</id>
-  <yt:videoId>KT4n-z_4QJU</yt:videoId>
-  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
-  <title>OpenAI Astra and Recurrent Depth / Looped Transformers</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=KT4n-z_4QJU"/>
-  <author>
-   <name>Sebastian Raschka</name>
-   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
-  </author>
-  <published>2026-09-02T23:10:00+00:00</published>
-  <updated>2026-10-04T09:16:00+00:00</updated>
-  <media:group>
-   <media:title>OpenAI Astra and Recurrent Depth / Looped Transformers</media:title>
-   <media:content url="https://www.youtube.com/v/KT4n-z_4QJU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/KT4n-z_4QJU/hqdefault.jpg" width="480" height="360"/>
-   <media:description>A short video explaining the rumored recurrent depth (looped transformer) architectural design in OpenAI's new (upcoming) Astra model.
-
-In particular, I discuss what looped transformers are and go over the related literature.
-
-UPDATE: Expanding on the video, I also put together a longer write-up on the topic: https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and
-
-Other links and references
-
-The Information article on OpenAI Astra:
-https://www.theinformation.com/articles/secret-technique-behind-openais-astra-model-sparks-security-concerns
-
-Looped depth sharing explainer:
-https://sebastianraschka.com/llm-architecture-gallery/looped-depth-sharing/
-
-LLM Architecture Gallery:
-https://www.sebastianraschka.com/llm-architecture-gallery/
-
-Nanbeige4.2-3B technical report:
-https://arxiv.org/abs/2607.22083
-
-Mixture-of-Recursions:
-https://arxiv.org/abs/2507.10524
-
-Universal Transformers:
-https://arxiv.org/abs/1807.03819
-
-Scaling up Test-Time Compute with Latent Reasoning:
-https://arxiv.org/abs/2502.05171
-
-00:00 OpenAI Astra and the Recurrent-Depth Rumor
-01:37 Claims About Recurrent Depth
-03:02 Nanbeige4.2-3B’s Looped Transformer
-05:21 Why Reuse the Same Layers?
-07:43 Training From Scratch vs. Retrofitting
-09:47 Why Use Two Passes?
-10:35 KV-Cache Implications
-12:00 Mixture-of-Recursions and Dynamic Depth
-16:18 Validation-Loss Comparison
-18:16 Attention and KV Caching With Dynamic Depth
-19:55 Recurrent Depth and Chain of Thought
-23:26 Recursive Self-Improvement
-24:27 Universal Transformers
-25:27 Latent Reasoning With Recurrent Depth
-27:09 Summary
-
-Corrections:
-3:09 I incorrectly said that Nanbeige was developed in India. Nanbeige4.2-3B was developed by Nanbeige LLM Lab and Boss Zhipin in China. I had confused it with Sarvam AI, which is based in India.
-
-If you enjoyed this video, I also write about LLM research and model architectures in my Ahead of AI newsletter:
-https://magazine.sebastianraschka.com/</media:description>
-   <media:community>
-    <media:starRating count="1229" average="5.00" min="1" max="5"/>
-    <media:statistics views="122150"/>
+    <media:starRating count="252" average="5.00" min="1" max="5"/>
+    <media:statistics views="17721"/>
    </media:community>
   </media:group>
  </entry>

@@ -101,6 +101,17 @@
           "retweets": 0,
           "text": "@Waymo @dmitri_dolgov @spc Full conversation out now https://t.co/WcPgl3BW1P",
           "url": "https://x.com/adityaag/status/2108260509241991586"
+        },
+        "id:2108578813751791926": {
+          "createdAt": "2026-10-09T15:22:19.000Z",
+          "id": "2108578813751791926",
+          "isQuote": false,
+          "likes": 27,
+          "quotedTweetId": null,
+          "replies": 4,
+          "retweets": 2,
+          "text": "We hosted @svlevine at @spc this week. \n\nHe is perhaps the best example of clarity in action that I have seen in a long time.\n\nThank you for joining us, Sergey. https://t.co/QpBFTYyIhx",
+          "url": "https://x.com/adityaag/status/2108578813751791926"
         }
       }
     },
@@ -183,6 +194,17 @@
           "retweets": 90,
           "text": "Math was bound to fall first. The purer the field the easier it is for AI to crack. https://t.co/OETDJ1JSIz",
           "url": "https://x.com/amasad/status/2107934939287273551"
+        },
+        "id:2108597112707686552": {
+          "createdAt": "2026-10-09T16:35:02.000Z",
+          "id": "2108597112707686552",
+          "isQuote": false,
+          "likes": 353,
+          "quotedTweetId": null,
+          "replies": 236,
+          "retweets": 7,
+          "text": "Some communities are excited by AI’s impact on their field. Others are petrified. What’s the deciding factor(s)?",
+          "url": "https://x.com/amasad/status/2108597112707686552"
         }
       }
     },
@@ -460,6 +482,17 @@
           "retweets": 0,
           "text": "yup https://t.co/bQ3CAPqhnZ",
           "url": "https://x.com/danshipper/status/2108216876853596486"
+        },
+        "id:2108588611000275009": {
+          "createdAt": "2026-10-09T16:01:15.000Z",
+          "id": "2108588611000275009",
+          "isQuote": false,
+          "likes": 25,
+          "quotedTweetId": null,
+          "replies": 4,
+          "retweets": 4,
+          "text": "Working With Agents in Slack https://t.co/QkNBc5wqIs",
+          "url": "https://x.com/danshipper/status/2108588611000275009"
         }
       }
     },
@@ -534,6 +567,39 @@
           "retweets": 5,
           "text": "Logical: in the future ICs with agents will be more productive and create better outcomes than equivalent people managers from prior eras https://t.co/mzsCcyOanP",
           "url": "https://x.com/garrytan/status/2108433505038606620"
+        },
+        "id:2108756019132379586": {
+          "createdAt": "2026-10-10T03:06:28.000Z",
+          "id": "2108756019132379586",
+          "isQuote": true,
+          "likes": 35,
+          "quotedTweetId": "2108740885865467947",
+          "replies": 5,
+          "retweets": 5,
+          "text": "Only Nancy Tung has done anything to prevent ongoing misconduct and now the hard left crazies and the captured legacy media are on a witch hunt\n\nThis is politics as usual but normal voters should know it is pure dishonesty https://t.co/6pL9ZGl3EC",
+          "url": "https://x.com/garrytan/status/2108756019132379586"
+        },
+        "id:2108756335705907335": {
+          "createdAt": "2026-10-10T03:07:43.000Z",
+          "id": "2108756335705907335",
+          "isQuote": true,
+          "likes": 1,
+          "quotedTweetId": "2108740283102003438",
+          "replies": 0,
+          "retweets": 1,
+          "text": "Activism as journalism like what Eskenazi does day in and day out should be defunded\n\nThis is not c3 work. This is not journalism. This is political work. https://t.co/DtFRBIG1by",
+          "url": "https://x.com/garrytan/status/2108756335705907335"
+        },
+        "id:2108756559564242964": {
+          "createdAt": "2026-10-10T03:08:37.000Z",
+          "id": "2108756559564242964",
+          "isQuote": true,
+          "likes": 5,
+          "quotedTweetId": "2108732244995223591",
+          "replies": 0,
+          "retweets": 0,
+          "text": "Action to take https://t.co/YhkXw8J62X",
+          "url": "https://x.com/garrytan/status/2108756559564242964"
         }
       }
     },
@@ -624,6 +690,17 @@
           "retweets": 24,
           "text": "This sounds weird, but it is actually probably a good policy. \n\nEven if you don’t believe AI is conscious (I don’t), it stands to reason that you don’t want future models trained on endless content of humans being rude to models. \n\nThe models only understand the data they’ve been trained on, or what they run into in their interactions, so if you want safe and aligned models we probably want AI to have lots of good interactions in their training data. \n\nAnthropic may have more extreme beliefs than this (though even if they didn’t, you may want to word policies like this), but this is sort of an easy Pascal’s wager for AI. Just be nice to the AI.",
           "url": "https://x.com/levie/status/2108426594054533545"
+        },
+        "id:2108750943680630893": {
+          "createdAt": "2026-10-10T02:46:18.000Z",
+          "id": "2108750943680630893",
+          "isQuote": true,
+          "likes": 530,
+          "quotedTweetId": "2108308969815257427",
+          "replies": 93,
+          "retweets": 41,
+          "text": "Agents spawning other agents, agents operating in the background on every task, and agent swarms will consume 1,000X more tokens than people prompting agents 1 at a time. \n\nThe usage of AI as a chat system that can only work for you at the pace that you can prompt it will seem like a relic within a year or two. The vast, vast majority of tokens will be consumed by agents that are just doing continuous work for us in the background and in our workflows.\n\nThis is why we’re still so early in the curve of AI agent adoption right now, and how much more compute and infrastructure build out will be needed to sustain this.",
+          "url": "https://x.com/levie/status/2108750943680630893"
         }
       }
     },
@@ -633,17 +710,6 @@
       "name": "Matt Turck",
       "source": "x",
       "tweets": {
-        "id:2107455581543858206": {
-          "createdAt": "2026-10-06T12:58:59.000Z",
-          "id": "2107455581543858206",
-          "isQuote": false,
-          "likes": 797,
-          "quotedTweetId": null,
-          "replies": 10,
-          "retweets": 9,
-          "text": "My kids when I take care of home logistics https://t.co/MlZX4wuREF",
-          "url": "https://x.com/mattturck/status/2107455581543858206"
-        },
         "id:2107853622402805803": {
           "createdAt": "2026-10-07T15:20:40.000Z",
           "id": "2107853622402805803",
@@ -698,6 +764,17 @@
           "retweets": 0,
           "text": "Full transcript here:\n\nhttps://t.co/psAlOnufeY",
           "url": "https://x.com/mattturck/status/2108223142699110727"
+        },
+        "id:2108561284635480443": {
+          "createdAt": "2026-10-09T14:12:40.000Z",
+          "id": "2108561284635480443",
+          "isQuote": true,
+          "likes": 26,
+          "quotedTweetId": "2108557435640156341",
+          "replies": 7,
+          "retweets": 4,
+          "text": "One prompt to build a professional-level video for your company or product, in your style... this is 🤯  \n\nBtw, quite literally the vision that @synthesiaIO has been pursuing since the early days. Happening slowly, then all at once.  Available to everyone today. https://t.co/jxhbMOXPZ8",
+          "url": "https://x.com/mattturck/status/2108561284635480443"
         }
       }
     },
@@ -707,17 +784,6 @@
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2107468543373832463": {
-          "createdAt": "2026-10-06T13:50:30.000Z",
-          "id": "2107468543373832463",
-          "isQuote": false,
-          "likes": 123,
-          "quotedTweetId": null,
-          "replies": 28,
-          "retweets": 0,
-          "text": "Coming to New York next week for a board meeting.. who should I meet? 👋 \n\nPrioritizing founders, but open to meeting design engineers or builders who are not pacing the frontier. \n\nDMs open!",
-          "url": "https://x.com/nikunj/status/2107468543373832463"
-        },
         "id:2107606751919087701": {
           "createdAt": "2026-10-06T22:59:41.000Z",
           "id": "2107606751919087701",
@@ -783,6 +849,39 @@
           "retweets": 5,
           "text": "Met a close friend who’s also a seed stage founder today..\n\nThey have been growing but runway is dwindling and he wanted advice on what he should do next. Stellar customers, getting close to a $1M in revenue. Not a rocket ship, but not bad at all. He thinks he’s a bit early since the models haven’t caught up to the capabilities he wants but he also really feels the opportunity cost. \n\nI have this same exact  conversation at least 2x a week. \n\nIn this moment, you only have essentially three options:\n\n1) if you have intense belief in the company, be a cockroach and get to default profitable. once the capabilities get there, you feel the demand, then go raise a large round and go for the jugular. \n\n2) find an orthogonal area that is much more relevant and growing like crazy. ride the coat tails of new existing capabilities and push hard to capture them quickly using unfair advantages. and if you don’t have that, then.. \n\n3) sell / get acquihired and join a far more ambitious company that has figured out a lot of the things you haven’t. And then get back to starting a new company 1-2 years later when you find the next thing you want to build. \n\nIt’s hard but honestly those are the three options you have. And it really depends what category you’re in. The bar continues to get harder every month on how to cross the chasm from seed -> series A. The old school metrics are just not relevant anymore and in this consensus market there’s only a few categories where there’s tremendous pull on the VC front. \n\nYou could lament that this is the state of the market, but it’s better to know it’s happening than be oblivious on what is actually happening.\n\nI get to share this directly which makes me uncomfortable but at least someone has to say it out loud 🙈",
           "url": "https://x.com/nikunj/status/2108410378233549106"
+        },
+        "id:2108616889605951834": {
+          "createdAt": "2026-10-09T17:53:37.000Z",
+          "id": "2108616889605951834",
+          "isQuote": false,
+          "likes": 35,
+          "quotedTweetId": null,
+          "replies": 14,
+          "retweets": 1,
+          "text": "Founders, please ask your marketing team to exclude VCs if you decide to promote your product on X..\n\nI get 3 DMs a day asking to \"collab\" on this \"insane opportunity\" which is *cough cough* a paid partnership.\n\nShows really poor judgement and word spreads around that you are trying to buy eyeballs to cue a big raise.",
+          "url": "https://x.com/nikunj/status/2108616889605951834"
+        },
+        "id:2108620851130380610": {
+          "createdAt": "2026-10-09T18:09:21.000Z",
+          "id": "2108620851130380610",
+          "isQuote": false,
+          "likes": 4,
+          "quotedTweetId": null,
+          "replies": 3,
+          "retweets": 0,
+          "text": "And definitely DO NOT follow it up with an email as well.. what is going on people?? 🤷‍♂️ https://t.co/Bg9RNKnMfM",
+          "url": "https://x.com/nikunj/status/2108620851130380610"
+        },
+        "id:2108710061627588964": {
+          "createdAt": "2026-10-10T00:03:51.000Z",
+          "id": "2108710061627588964",
+          "isQuote": true,
+          "likes": 38,
+          "quotedTweetId": "2108209105076642227",
+          "replies": 2,
+          "retweets": 1,
+          "text": "Love this so so much. Basically how I have tried to emulate life, although Sunil’s father seems ultra special. \n\nBelieve in karma, universe finds a way to repay favors even if the people don’t. https://t.co/ajYawmSlYv",
+          "url": "https://x.com/nikunj/status/2108710061627588964"
         }
       }
     },
@@ -890,6 +989,28 @@
           "retweets": 0,
           "text": "I don't understand how Grok @bot's new email feature works. I just tagged it on a thread and it doesn't seem to reply? What are ppl using it for?",
           "url": "https://x.com/petergyang/status/2108412799684915576"
+        },
+        "id:2108624122339287335": {
+          "createdAt": "2026-10-09T18:22:21.000Z",
+          "id": "2108624122339287335",
+          "isQuote": true,
+          "likes": 285,
+          "quotedTweetId": "2108609764766908772",
+          "replies": 98,
+          "retweets": 4,
+          "text": "Pro @bot tip:\n\nIf you want your Grok Bot as a chief of staff it doesn't actually make sense to register its email as your (your-name) because it's weird to copy in yourself.\n\ne.g., \"Let me copy in Peter to find a time for us\" doesn't make alot of sense.\n\nSo I suggest picking another name for your Grok Bot email - whatever you want your chief of staff to be called.",
+          "url": "https://x.com/petergyang/status/2108624122339287335"
+        },
+        "id:2108679515681722787": {
+          "createdAt": "2026-10-09T22:02:28.000Z",
+          "id": "2108679515681722787",
+          "isQuote": false,
+          "likes": 237,
+          "quotedTweetId": null,
+          "replies": 62,
+          "retweets": 12,
+          "text": "How about let's stop building more personal assistants to manage our emails and more AI startups to manage and cure diseases",
+          "url": "https://x.com/petergyang/status/2108679515681722787"
         }
       }
     },
@@ -899,17 +1020,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2107449561451274688": {
-          "createdAt": "2026-10-06T12:35:04.000Z",
-          "id": "2107449561451274688",
-          "isQuote": false,
-          "likes": 5598,
-          "quotedTweetId": null,
-          "replies": 253,
-          "retweets": 211,
-          "text": "At this rate AI will get us GTA 7 before GTA 6",
-          "url": "https://x.com/rauchg/status/2107449561451274688"
-        },
         "id:2107606246350266469": {
           "createdAt": "2026-10-06T22:57:41.000Z",
           "id": "2107606246350266469",
@@ -953,6 +1063,28 @@
           "retweets": 20,
           "text": "Few things more enjoyable in work and life than discovering new talent. Seeing greatness in people, sometimes even before they fully see it themselves.",
           "url": "https://x.com/rauchg/status/2108399406009798764"
+        },
+        "id:2108669027363295323": {
+          "createdAt": "2026-10-09T21:20:47.000Z",
+          "id": "2108669027363295323",
+          "isQuote": true,
+          "likes": 324,
+          "quotedTweetId": "2108662483473125448",
+          "replies": 82,
+          "retweets": 17,
+          "text": "It's incredible to watch a new kind of economy be born. Agents purchasing infrastructure products and services. We've been shocked by how often they buy from our marketplace via our CLI already. We're now extending this to domains.\n\nAgents can now go full stack, from idea to online business, with a banger domain name 😁",
+          "url": "https://x.com/rauchg/status/2108669027363295323"
+        },
+        "id:2108733051283050964": {
+          "createdAt": "2026-10-10T01:35:12.000Z",
+          "id": "2108733051283050964",
+          "isQuote": false,
+          "likes": 277,
+          "quotedTweetId": null,
+          "replies": 66,
+          "retweets": 14,
+          "text": "Some interesting machine & agent Vercel traffic stats.\n\n• Across the entire Vercel network, 58.18% traffic is bot-originated (last 30d). This was 32% in Jan 2024.\n\n• 60%+ of deployments on Vercel are now agentic, up from ~3% in Jan 2026.\n\n• Up to 83% of pageviews are now coming from agents to Vercel's own documentation sites. The % reliably increases the more we optimize content for them.\n\nI expect 'direct' human internet traffic to basically become a rounding error in coming years. The web will thrive, but it will be built for and by agents.",
+          "url": "https://x.com/rauchg/status/2108733051283050964"
         }
       }
     },
@@ -972,6 +1104,17 @@
           "retweets": 36,
           "text": "There are massive startup opportunities hiding in plain sight : every layer of the computing stack will need to be rebuilt for agents.\n\nFor the last few years, most of the focus has been on making enterprise software agent-ready: APIs, connectors, MCPs.\n\nNow personal agents are forcing the same conversation for consumer products - e-commerce is an early example.\n\nThis is just the tip of the iceberg.\n\nNow think about the rest of the stack:\n\nDesktop and mobile OSes where agents are first-class users\n\nCloud infra built for agents to operate directly.\n\nidentity, permissions and security designed for thousands of agents acting on our behalf.\n\nInterfaces designed for agent and human users or both working together.\n\nIf you’re looking for startup ideas, go through each layer of the computing stack and ask: what has to change when the primary user is an agent?",
           "url": "https://x.com/realmadhuguru/status/2108236391641706813"
+        },
+        "id:2108618266776387886": {
+          "createdAt": "2026-10-09T17:59:05.000Z",
+          "id": "2108618266776387886",
+          "isQuote": true,
+          "likes": 9,
+          "quotedTweetId": "2108526656902091103",
+          "replies": 0,
+          "retweets": 0,
+          "text": "Open-weight models did not start the drop in price per unit of intelligence. They are a tailwind on a trend that was already underway.\n\nFor the last few years, a few factors have driven price drops:\n\n1/ Model builders distilling their best models into smaller ones, with cheaper inference\n\n2/ Infra efficiency\n\n3/ Competition between model providers\n\nYou can see this pattern with every model company: Version x of the mid-size model = intelligence of version x-1 of the large model.  Same intelligence for less $.",
+          "url": "https://x.com/realmadhuguru/status/2108618266776387886"
         }
       }
     },
@@ -1128,6 +1271,28 @@
           "retweets": 0,
           "text": "to paraphrase modern family, there are 5 things wrong in this tweet. the talented {role} will already have posts covering most of them \nhttps://t.co/TEtI8UL5TA",
           "url": "https://x.com/swyx/status/2108391703488958475"
+        },
+        "id:2108563331376124389": {
+          "createdAt": "2026-10-09T14:20:48.000Z",
+          "id": "2108563331376124389",
+          "isQuote": true,
+          "likes": 18,
+          "quotedTweetId": "2108424235341479984",
+          "replies": 5,
+          "retweets": 0,
+          "text": "most of you are unfortunately not qualified but there is somewhat a path https://t.co/l29L1HJVej \n\nwrote down mine in @Coding_Career 6 years ago and you can now get it free or on amazon https://t.co/P0wqju1nsk \n\ndidnt intend to relaunch CC today but eh why not",
+          "url": "https://x.com/swyx/status/2108563331376124389"
+        },
+        "id:2108780918060036335": {
+          "createdAt": "2026-10-10T04:45:24.000Z",
+          "id": "2108780918060036335",
+          "isQuote": true,
+          "likes": 21,
+          "quotedTweetId": "2108663542224498918",
+          "replies": 12,
+          "retweets": 1,
+          "text": "aie nyc tix will sell out this weekend - last call to join us to the biggest ever technical conf in New York and our first with a finance mainstage - in some ways the final unification of both my careers: from investment bank to hedgefund, from bigtech to nyc startup. cya monday! https://t.co/KIIGQgvWcZ https://t.co/sQwMDfGutk",
+          "url": "https://x.com/swyx/status/2108780918060036335"
         }
       }
     },
@@ -1169,6 +1334,28 @@
           "retweets": 0,
           "text": "huge https://t.co/TBeAH6PxED",
           "url": "https://x.com/thenanyu/status/2108354844658737637"
+        },
+        "id:2108671762984731037": {
+          "createdAt": "2026-10-09T21:31:40.000Z",
+          "id": "2108671762984731037",
+          "isQuote": true,
+          "likes": 75,
+          "quotedTweetId": "2108645667451318747",
+          "replies": 6,
+          "retweets": 2,
+          "text": "I cannot stress how much I’ve loved using this feature. \n\nFirst we wrote code by hand, then we tab-completed the code. \n\nThen we evolved to prompting agents…and now we tab-complete that too. https://t.co/xxBRKd6SxB",
+          "url": "https://x.com/thenanyu/status/2108671762984731037"
+        },
+        "id:2108671887266246730": {
+          "createdAt": "2026-10-09T21:32:09.000Z",
+          "id": "2108671887266246730",
+          "isQuote": false,
+          "likes": 3,
+          "quotedTweetId": null,
+          "replies": 2,
+          "retweets": 0,
+          "text": "Is this 🦋 recursive self-improvement?",
+          "url": "https://x.com/thenanyu/status/2108671887266246730"
         }
       }
     },
@@ -1178,17 +1365,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2107311729768353844": {
-          "createdAt": "2026-10-06T03:27:22.000Z",
-          "id": "2107311729768353844",
-          "isQuote": false,
-          "likes": 4541,
-          "quotedTweetId": null,
-          "replies": 760,
-          "retweets": 70,
-          "text": "This might have been my best day so far at oai. Ridiculous amounts of fun and intensity. Future is bright",
-          "url": "https://x.com/thsottiaux/status/2107311729768353844"
-        },
         "id:2107676072871600470": {
           "createdAt": "2026-10-07T03:35:09.000Z",
           "id": "2107676072871600470",
@@ -1276,6 +1452,39 @@
           "retweets": 486,
           "text": "Today, we are announcing ChatGPT.\n\nIt is here: https://t.co/Pgk3THSyOJ",
           "url": "https://x.com/thsottiaux/status/2108349826727588000"
+        },
+        "id:2108650026671231468": {
+          "createdAt": "2026-10-09T20:05:17.000Z",
+          "id": "2108650026671231468",
+          "isQuote": false,
+          "likes": 259,
+          "quotedTweetId": null,
+          "replies": 102,
+          "retweets": 6,
+          "text": "Send feedback to @keyanzhang and @sharifshameem !",
+          "url": "https://x.com/thsottiaux/status/2108650026671231468"
+        },
+        "id:2108773703064657936": {
+          "createdAt": "2026-10-10T04:16:44.000Z",
+          "id": "2108773703064657936",
+          "isQuote": true,
+          "likes": 1470,
+          "quotedTweetId": "2108636748217770180",
+          "replies": 561,
+          "retweets": 53,
+          "text": "Dots got a pretty big upgrade https://t.co/j54EmJMwLu",
+          "url": "https://x.com/thsottiaux/status/2108773703064657936"
+        },
+        "id:2108777962053292398": {
+          "createdAt": "2026-10-10T04:33:40.000Z",
+          "id": "2108777962053292398",
+          "isQuote": true,
+          "likes": 2528,
+          "quotedTweetId": "2108692010056188048",
+          "replies": 492,
+          "retweets": 130,
+          "text": "Your ChatGPT subscription is now also a Devin subscription https://t.co/kJE3sbq2wP",
+          "url": "https://x.com/thsottiaux/status/2108777962053292398"
         }
       }
     },
@@ -1285,17 +1494,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2107340728380870868": {
-          "createdAt": "2026-10-06T05:22:36.000Z",
-          "id": "2107340728380870868",
-          "isQuote": true,
-          "likes": 116,
-          "quotedTweetId": "2107286335052784083",
-          "replies": 6,
-          "retweets": 4,
-          "text": "if you're getting into game design, there are so many good resources out there to learn from! https://t.co/j3vAtf7nd1",
-          "url": "https://x.com/trq212/status/2107340728380870868"
-        },
         "id:2107504677143368163": {
           "createdAt": "2026-10-06T16:14:05.000Z",
           "id": "2107504677143368163",
@@ -1394,6 +1592,28 @@
           "retweets": 0,
           "text": "here's what I got today https://t.co/ua7zBXbpDP",
           "url": "https://x.com/trq212/status/2108312751202537946"
+        },
+        "id:2108689101503566319": {
+          "createdAt": "2026-10-09T22:40:34.000Z",
+          "id": "2108689101503566319",
+          "isQuote": true,
+          "likes": 852,
+          "quotedTweetId": "2108301668828004396",
+          "replies": 80,
+          "retweets": 30,
+          "text": "before I joined Anthropic, I spent about 2 weeks hacking on this as a side project with Opus 4. It used the Agent SDK so it needed a constantly running process &amp; didnt work that well\n\nbut one prompt to Opus 5.5 ported it to Claude Managed Agents &amp; made it way more reliable https://t.co/3AE65z3VqK",
+          "url": "https://x.com/trq212/status/2108689101503566319"
+        },
+        "id:2108802833986552174": {
+          "createdAt": "2026-10-10T06:12:29.000Z",
+          "id": "2108802833986552174",
+          "isQuote": true,
+          "likes": 118,
+          "quotedTweetId": "2108301668828004396",
+          "replies": 17,
+          "retweets": 1,
+          "text": "honestly pretty cool to have this on my new tab page \n\njust merged in some PRs by others too! https://t.co/OOzflxL3N7 https://t.co/3AE65z3VqK",
+          "url": "https://x.com/trq212/status/2108802833986552174"
         }
       }
     },
@@ -1403,17 +1623,6 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2107357316844802298": {
-          "createdAt": "2026-10-06T06:28:31.000Z",
-          "id": "2107357316844802298",
-          "isQuote": true,
-          "likes": 8,
-          "quotedTweetId": "2107149824189698558",
-          "replies": 1,
-          "retweets": 0,
-          "text": "Cool! https://t.co/kKbN8ESOQV",
-          "url": "https://x.com/zarazhangrui/status/2107357316844802298"
-        },
         "id:2107604881926459802": {
           "createdAt": "2026-10-06T22:52:15.000Z",
           "id": "2107604881926459802",
@@ -1457,6 +1666,28 @@
           "retweets": 0,
           "text": "I love @stripepress because I absolutely judge a book by its cover https://t.co/YMBUiprxUX",
           "url": "https://x.com/zarazhangrui/status/2108085347297161399"
+        },
+        "id:2108584212660129820": {
+          "createdAt": "2026-10-09T15:43:46.000Z",
+          "id": "2108584212660129820",
+          "isQuote": true,
+          "likes": 422,
+          "quotedTweetId": "2108047745936466373",
+          "replies": 10,
+          "retweets": 32,
+          "text": "This thread is GOLD\nNever underestimate people’s creativity https://t.co/jYeBPExlMV",
+          "url": "https://x.com/zarazhangrui/status/2108584212660129820"
+        },
+        "id:2108711659846132092": {
+          "createdAt": "2026-10-10T00:10:12.000Z",
+          "id": "2108711659846132092",
+          "isQuote": false,
+          "likes": 26,
+          "quotedTweetId": null,
+          "replies": 8,
+          "retweets": 1,
+          "text": "Somehow Astra loves to use the Claude logo when designing websites 😂 https://t.co/uc3bMhU6u9",
+          "url": "https://x.com/zarazhangrui/status/2108711659846132092"
         }
       }
     }
