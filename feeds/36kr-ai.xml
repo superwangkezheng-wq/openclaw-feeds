@@ -15,8 +15,66 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Sat, 10 Oct 2026 13:51:37 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Oct 2026 01:58:59 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[被字节开除的实习生，融资2亿：挑战李飞飞]]></title>
+            <description><![CDATA[<p>公司还没有名字，产品还没有影子，团队只有10个人，先拿到了近3000万美元（约合人民币2亿元）融资，投后估值2亿美元。</p>
+  <p>据最新报道，这笔钱投给了田柯宇创办的世界模型公司，五源资本、IDG资本等参与。</p>
+  <p>田柯宇最大的标签，就是“被字节辞退并索赔的实习生”。</p>
+  <p>一个被大厂除名的实习生，怎么在两年后带着2亿美元估值回来？他要做的"世界模型"，又凭什么让资本如此着急？</p>
+  <h2><strong>一篇论文，让行业大幅降本</strong></h2>
+  <p>田柯宇本科毕业于北京航空航天大学软件学院，研究生进入北京大学，师从王立威，研究方向是深度学习优化与生成模型。从2021年起，他在字节跳动商业化技术部门实习，做超参数优化、强化学习和视觉生成。</p>
+  <p>2024年6到7月，因为对团队内部的算力资源分配不满，他动手关掉了另一名实习生的程序，好把显卡腾给自己认可的研究。字节的说法是，他通过编写、篡改代码，恶意攻击团队研究项目的模型训练任务，造成资源损耗。</p>
+  <p>事发后田柯宇一度否认，称动手的是别的实习生，甚至报警称自己被造谣。字节认为他毫无认错之意，2024年11月正式起诉，索赔800万元。</p>
+  <p>后来，他承认行为不当。法院最终认定他违反实习合同，判赔50万元，并没收全部实习工资。</p>
+  <p>戏剧性的转折发生在起诉后第十天。2024年12月，NeurIPS把年度最佳论文颁给了田柯宇作为第一作者的成果——《视觉自回归建模：通过下一尺度预测生成可扩展图像》（VAR），论文在当届排名第六。这是中国大陆背景的学者作为第一作者，极其罕见地拿到这个奖项。</p>
+  <p>这篇论文的分量，直接决定了他今天在做什么。</p>
+  <p>在VAR之前，AI画图主要靠扩散模型——先勾勒模糊全局，再一层层修清楚，画面好但慢、贵、吃算力，架构上也和大语言模型不是一套。田柯宇和团队换了个做法：不再把图像拉成一维逐个像素预测，而是保留二维结构，从1×1的模糊轮廓开始，2×2、4×4、8×8……由粗到细一级级预测，像人画画。</p>
+  <p>结果是，这类GPT式自回归模型第一次在图像生成上超过扩散模型：在ImageNet基准上，衡量失真度的FID从18.65降到1.73，推理速度提高20倍，还第一次让视觉生成跑通了"模型越大、效果越好"的规模化规律。项目开源后在GitHub收获超过4400颗星。</p>
+  <p>田柯宇最擅长的事，就是用更省的架构，把视觉生成的成本打下来。两年后他创业，做的还是这件事，只是从图片换成了视频，从图像生成换成了世界模型。</p>
+  <h2><strong>世界模型在风口</strong></h2>
+  <p>世界模型，简单说就是让AI不只看懂一帧画面，而是理解现实世界的空间、运动和因果，能预测"下一步会发生什么"。它被看作机器人、自动驾驶、交互式视频共同的底层能力，也是李飞飞、杨立昆这些人近年全力推动的方向。</p>
+  <p>田柯宇认为人类语言根本不适合描述视频。一段猫从桌上跳下的几分钟画面，物体位置、运动轨迹、光影和碰撞，用文字写出来会丢掉绝大部分信息，还白白浪费算力。</p>
+  <p>他的方案是给AI另造一套语言。团队已经做出一本包含约20万个符号的"视觉词典"，这些符号人类无法识别，AI却能用它们来表示、压缩和预测视频。"我们首先是在为AI创造一种语言，然后向它输入1亿小时的视频。"田柯宇说。</p>
+  <p>用这套方法，生成1秒视频的成本至少降到原来的十分之一，完整模型计划2027年发布。</p>
+  <p>他选的时间点，正是这个赛道最热闹、也最微妙的时候。</p>
+  <p>9月1日，李飞飞的World Labs发布Atlas，能用图片重建3D场景、指定镜头走位，生成最长1分钟、1440p的视频。9月22日，国内的<ai-product-link data-id="14833" data-name="PixVerse" data-logo="https://img.36dianping.com/20250909/v2_48b1ac2f7835428a816c50b69a115f84_oswg9995oswg300oswg300_img_000" data-classify-list="视频编辑,视频处理,视频生成" data-refer-type="20">PixVerse</ai-product-link>发布R2，主打长时间记忆，玩家可以用文字、语音、动作实时改变正在生成的世界，剧情当场生成。海外，谷歌DeepMind的Genie 3已经能让人实时探索虚拟3D环境。</p>
+  <p>10月7日，谷歌与Unity联合公布Playground和即将推出的Unity Spark，用户用自然语言就能创建、分享小游戏。</p>
+  <p>当然，最令行业震惊的，是9月28日，AMD突然宣布以约82亿美元全股票收购World Labs。</p>
+  <p>一家有资金、有团队、刚发新模型的公司，为什么这么快选择卖掉？李飞飞的解释是：下一代AI需要模型研究、系统和芯片紧密配合，加入AMD能换来工程和硬件实力。</p>
+  <p>这件事对田柯宇是双重信号。一方面，它给世界模型投资人指了一条清晰的退出路，赛道估值被重新点燃；另一方面，连李飞飞都承认，单靠模型团队已经不够了，胜负手正在转向算力、成本和工程系统——而这恰好是田柯宇押注"便宜一个数量级"的原因。他等于用一个10人的团队，去赌AMD用82亿美元想买的同一个答案。</p>
+  <p>五源资本、IDG资本为何愿意投资一家没有产品的十人公司？一个可能的答案是，田柯宇正在尝试解决世界模型最昂贵的问题：算力成本。</p>
+  <h2><strong>世界模型开始赚钱</strong></h2>
+  <p>目前离客户最近的，是三维内容制作。</p>
+  <p>World Labs的Marble已经按月收费：标准版20美元，专业版35美元，最高一档95美元，并提供API和企业合作入口。用户输入文字或照片，就能生成可探索的三维空间，导出场景文件，继续交给设计或游戏工具加工。9月发布的新模型Atlas进一步展示了按指定镜头轨迹生成最长一分钟、1440p视频的能力，不过完整模型仍处早期访问阶段。</p>
+  <p>世界模型解决广告公司、影视工作室和游戏开发者最讨厌的返工。导演觉得镜头太高，希望降下来20厘米；美术人员希望把房间里的沙发换个位置。如果每次调整都要重生成、重新布置，AI带来的效率就会被抵消。能让同一套场景反复修改、导出、进入原有生产流程，才有机会变成软件预算。</p>
+  <p>今年8月，World Labs披露，制作公司Promise为Paramount+和CBS的节目《Harlan Coben’s Final Twist》重建了十个历史犯罪现场。部分地点已经消失，团队手里只有旧照片或历史影像。</p>
+  <p>Promise先修复图片，再用Marble生成三维环境，交给美术人员补齐缺失部分、修正细节，最后把场景放到LED摄影棚中拍摄。</p>
+  <p>而创意平台Magnific则把Marble接入3D Scenes工具。营销人员可以把参考图片变成三维环境，在里面摆放产品、调整镜头并取景。一组广告需要多个角度时，可以围绕同一个场景继续拍摄，不必每次重新描述、重新生成。</p>
+  <p>对投资人来说，更大的故事在工厂、物流和自动驾驶。机器人如果能在电脑里完成大量训练和测试，就能减少昂贵的真实设备试错。这个需求并非凭空想象。</p>
+  <p>今年3月，ABB机器人宣布将英伟达Omniverse能力接入RobotStudio工业软件，富士康正在试点相关技术，用于消费电子精密装配。ABB给出的目标是部署成本最多降低40%、产品上市时间缩短50%。</p>
+  <p>自动驾驶汽车需要测试雨雪天气、道路施工和突然出现的障碍。靠真实车辆去路上碰，既慢，也难以反复遇到同一种情况。机器人要进入不同家庭、仓库和商店，同样需要大量环境检验能力。</p>
+  <p>世界模型提供的机会，是批量生成这些环境，让企业把更多测试放进电脑。</p>
+  <p>2月6日，Waymo发布基于Google DeepMind Genie 3的世界模型。公司当时披露，其车辆已完成近2亿英里的全无人驾驶，而虚拟环境中的驾驶里程达到数十亿英里。</p>
+  <p>内容、机器人、自动驾驶，三条路都有机会，风险却完全不同。通用模型需要持续烧钱扩大领先，应用公司必须做销售和交付，被收购则取决于少数战略买家的意愿。</p>
+  <p>本文不构成任何投资建议。</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/hPJnLr7y7p6urDzNoP9oiA">“铅笔道”</a>，作者：铅笔道，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 10 Oct 2026 13:52:58 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4020002533003400</guid>
+            <link>https://www.36kr.com/p/4020002533003400</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[三周估值暴涨37倍，Jev背后公司，融资58.6亿]]></title>
@@ -2746,153 +2804,6 @@
             <pubDate>Sat, 10 Oct 2026 08:21:59 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4019764850560904</guid>
             <link>https://www.36kr.com/p/4019764850560904</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[24天，Jev估值翻至75亿美元，年度硅谷最爽逆袭了吧]]></title>
-            <description><![CDATA[<p>短短24天，融资额膨胀了近<strong>22倍</strong>，估值翻了<strong>37.5倍</strong>。</p>
-  <p>Jev掀起的风暴，已经变成真金白银了！</p>
-  <p class="image-wrapper"><img data-img-size-val="254,232" src="https://img.36krcdn.com/hsossms/20261010/v2_21ef3f03a4b4450ab6165c7bec2a4729@46958_oswg69124oswg254oswg232_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>就在今天，Jev的母公司TypeSafe AI宣布完成<strong>8.7亿美元（约63.08亿元）</strong>A轮融资，投后估值达<strong>75亿美元（约543.75亿元）</strong>。</p>
-  <p>而引爆这一切的，甚至只是一个“不会聊天、只会做决定”的AI模型——Jev。</p>
-  <p>它火的方式也挺抽象的，它不聊天、不写代码，yes or no它选择or。</p>
-  <p>简单中译中一下，就是它把传统LLM的生成功能给砍了，只专心干一件事：<strong>下判断</strong>。</p>
-  <p>而且……因为新架构实在太便宜，不好计量，于是<strong>输出token永久免费</strong>，输入每百万Token也只需<strong>0.042美元（约0.3元）</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,592" src="https://img.36krcdn.com/hsossms/20261010/v2_e99b23f5758947dd947b6b0ddc0fae45@46958_oswg34915oswg1080oswg592_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <p>更有趣的是，还有人连夜开源了一个<strong>“Jev聊天助手”</strong>，它可以帮你提前预判老板的预判、并搞清楚对象闹别扭到底是为了啥，并一键生成几条最合适的回复供你选择：</p>
-  <p class="image-wrapper"><img data-img-size-val="539,1199" src="https://img.36krcdn.com/hsossms/20261010/v2_954168ae416a4d78b154f42d558e69a6@46958_oswg333852oswg539oswg1199_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <p>这可真是太实用了。</p>
-  <p>那么这家突然杀入硅谷视野的TypeSafe AI究竟是什么来头？它所开辟的“决策模型”新赛道又是否能跑得通？</p>
-  <p>看完你就知道了。</p>
-  <h2><strong>蛰伏两年一朝爆火，Jev获资本重仓</strong></h2>
-  <p>TypeSafe AI成立于2024年，总部位于旧金山。</p>
-  <p>在Jev爆火前，它在硅谷AI圈基本处于“隐身模式”。</p>
-  <p>别说行业声量了，就连创始人兼CEO Diogo Almeida发的推特，点赞数都常年在个位数和0之间徘徊。</p>
-  <p>直到今年9月15日，TypeSafe AI才带着首个System One模型Jev走出隐身状态，并宣布完成4000万美元种子轮融资，估值来到<strong>2亿美元（约14.5亿元）</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,722" src="https://img.36krcdn.com/hsossms/20261010/v2_ee499b79dac44e8fa5ea86d021b2d75b@46958_oswg262390oswg1080oswg722_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>如今，随着Jev的全网爆火出圈，TypeSafe AI的身价也随之翻了一番。</p>
-  <p><strong>a16z</strong>、<strong>红杉资本</strong>、<strong>DCVC</strong>等资本纷纷入局，将TypeSafe AI的估值一举推到了75亿美元（约543.75亿元）。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,147" src="https://img.36krcdn.com/hsossms/20261010/v2_4261d176c5354f72b7cae02c263ae51c@46958_oswg106294oswg1080oswg147_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,103" src="https://img.36krcdn.com/hsossms/20261010/v2_30f1caba6920456eb803c408b29ccefd@46958_oswg51165oswg1080oswg103_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>与此同时，硅谷顶级风投a16z的合伙人、被业内视为基础设施投资教父的<strong>Martin Casado</strong>，也宣布亲自下场加入TypeSafe AI董事会，参与公司下一阶段的战略决策。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,502" src="https://img.36krcdn.com/hsossms/20261010/v2_b6557d6011354cbc9855ff3dc2594033@46958_oswg223533oswg1080oswg502_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而资本突然冲进来，显然不只是因为Jev在社交平台刷屏，更因为它的增长像是从服务器里直接喷出来的。</p>
-  <h2><strong>Jev 上线仅3天，日吞吐量就达到了1万亿Token</strong></h2>
-  <p>Vercel数据显示，Jev接入AI Gateway后的24小时内，就被近<strong>13%</strong>的付费团队采用，超过了此前任何一次新模型发布的两倍，成为<strong>AI Gateway史上采用速度最快的模型</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,715" src="https://img.36krcdn.com/hsossms/20261010/v2_b48d2c65b3cc45848e316a772b5214aa@46958_oswg167939oswg1080oswg715_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <p>a16z也披露，<strong>Jev上线仅3天，处理量就达到了1万亿Token</strong>。</p>
-  <p>到A轮融资官宣时，TypeSafe AI表示，已有约三分之一的《财富》500强企业开始使用或接入Jev，并为客户节省了数百万美元的生产成本。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,446" src="https://img.36krcdn.com/hsossms/20261010/v2_9e6795bc5dfd458ca8858d2027471a03@46958_oswg187067oswg1080oswg446_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这和一个聊天机器人突然出圈还不太一样。</p>
-  <p>聊天机器人的流量往往来自人类尝鲜，用几次，新鲜劲可能就过去了；</p>
-  <p>但Jev的大量调用却发生在后台：<strong>软件接入以后，会昼夜不停地让它分类、打分和做选择。</strong></p>
-  <p>TypeSafe AI的联合创始人兼CEO Diogo Almeida，也曾在Latent Space访谈中坦言：</p>
-  <blockquote>
-   <p>我们的日处理量已经突破一万亿token，而且不是昙花一现的峰值，夜间流量也在持续走高。</p>
-   <p><strong>这说明大量调用来自机器自动化，而非普通用户尝鲜。</strong></p>
-  </blockquote>
-  <p class="image-wrapper"><img data-img-size-val="1080,593" src="https://img.36krcdn.com/hsossms/20261010/v2_71c4cb5b21564b53b7e5ef5badc01d3e@46958_oswg57059oswg1080oswg593_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>人会睡觉，但代码不会。</strong></p>
-  <p>或许这才是投资人真正兴奋的地方。</p>
-  <p>而TypeSafe AI在融资公告里也延续了他们一贯实诚幽默的风格，没说多少漂亮话，只是说接下来要把开发者喜欢的东西推到极致：</p>
-  <ul>
-   <li>做更多面向机器的原生模型；</li>
-   <li>补齐构建智能软件所需的基础设施；</li>
-   <li>把企业客户催了很久的功能加上。</li>
-  </ul>
-  <p class="image-wrapper"><img data-img-size-val="1080,314" src="https://img.36krcdn.com/hsossms/20261010/v2_405ce2acf0524d10ace74ef045736f64@46958_oswg135670oswg1080oswg314_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>对此，网友们忍不住在评论区许愿：&nbsp;</p>
-  <blockquote>
-   <p><strong>或许图片功能能尽快抬上来吗？</strong></p>
-  </blockquote>
-  <p>Diogo也高深莫测的回复了一个“嘘</p>
-  <p class="image-wrapper"><img data-img-size-val="72,72" src="https://img.36krcdn.com/hsossms/20261010/v2_6ef7d2c3db20401e81512e35d02aa591@46958_oswg4660oswg72oswg72_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>”的表情；</p>
-  <p>大概意思应该是已经在努力了吧。（值得期待一波）</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,400" src="https://img.36krcdn.com/hsossms/20261010/v2_4aeb829a7de2455b81eca07c210947d8@46958_oswg121524oswg1080oswg400_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而Jev身上最有戏剧性的反差，或许还来自它的创造者Diogo Almeida。</p>
-  <h2><strong>教会AI聊天的人，反手不让AI说话</strong></h2>
-  <p>TypeSafe AI的联合创始人兼CEO&nbsp;<strong>Diogo Almeida</strong>曾先后任职于Google Brain和OpenAI，是InstructGPT论文的核心作者之一，也曾参与了RLHF、ChatGPT和GPT-4相关工作。</p>
-  <p>换句话说，<strong>他曾是教会大模型“好好和人说话”的那批人。</strong></p>
-  <p>但离开OpenAI创业后，他却越来越确信，整个行业把太多力气花在了让AI说话上。</p>
-  <p>在成立TypeSafe AI的两年间，Diogo一直在追问：</p>
-  <blockquote>
-   <p>现在模型已经聪明到会写文章、写代码、做复杂推理，甚至还能破解千禧年数学大奖难题了；</p>
-   <p>但为什么当模型进入真实工作流时，大部分关键流程依然需要人工确认，依旧无法实现自动化？</p>
-  </blockquote>
-  <p>最终，他的答案是：&nbsp;</p>
-  <blockquote>
-   <p><strong>今天的AI首先被训练成一个“讨人喜欢的助手”，而不是一个能被软件稳定调用的零件。</strong>它擅长让人觉得回答不错，却不一定适合被埋进系统后台，一天自动运行几百万次。</p>
-  </blockquote>
-  <p>这也就解释了TypeSafe AI那句很有辨识度的口号：</p>
-  <p><strong>Build Prod, Not God（造生产工具，别忙着造神）</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,635" src="https://img.36krcdn.com/hsossms/20261010/v2_b33429f5dd774d66aa33f36b2f219015@46958_oswg267060oswg1080oswg635_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Diogo对行业疯狂内卷Benchmark也没什么好感，曾在访谈中直言：</p>
-  <blockquote>
-   <p><strong>我觉得公开benchmark极其容易被操纵，即便开发者没有主动作弊，最终也可能被榜单牵着走。</strong>我们也确实有因为不卷Benchmark而不被投资人理解和重视，但我还是想继续这么做。</p>
-  </blockquote>
-  <p class="image-wrapper"><img data-img-size-val="1080,589" src="https://img.36krcdn.com/hsossms/20261010/v2_e38a64b4d4e4490b813f4ce988d9ab4c@46958_oswg56770oswg1080oswg589_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>所以最终Jev发布时，Diogo没有摆出一堵“全面碾压”的标准榜单，而是直接展示了Jev的实际用途，并表示希望开发者们把它塞进自己的工作流，看看它究竟能不能干活。</p>
-  <p>而TypeSafe AI显然也不是靠一个反叛口号临时拼起来的团队。</p>
-  <p>另外两位联合创始人中，COO&nbsp;<strong>Sasha Sheng</strong>来自Meta/FAIR，曾做过News Feed、AI产品和研究；</p>
-  <p>CTO&nbsp;<strong>Erik Gafni</strong>是连续创业者，曾创办面向DNA测序的多模态AI公司Ravel，也是Invitae和Freenome两家生物科技独角兽的早期员工。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,676" src="https://img.36krcdn.com/hsossms/20261010/v2_cc8ef6b5757d4d2c96a23fd1cf82185d@46958_oswg389286oswg1080oswg676_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>整个团队还汇集了来自OpenAI、Google Brain、Meta/FAIR等知名科技公司的成员。</p>
-  <p>他们共同押注的，是一条和“继续堆更大模型”不同的路：<strong>AI可能早就足够聪明，真正缺的是一个能让软件放心使用它的接口。</strong></p>
-  <p>而Jev的成功，也让Diogo和整个客厅AI行业看到，开发者真的愿意为另一种AI形态买单。</p>
-  <p>忙完这一切，Diogo在X上深夜发帖感慨，大意是：</p>
-  <blockquote>
-   <p><strong>每天燃烧上万亿token，整整三个星期不眠不休，我们真的要去睡觉了…（黑眼圈）</strong></p>
-  </blockquote>
-  <p class="image-wrapper"><img data-img-size-val="1080,902" src="https://img.36krcdn.com/hsossms/20261010/v2_dde942d29d624f0da321fb54520c0822@46958_oswg196738oswg1080oswg902_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>但可惜的是，同行们显然不打算让Diogo睡个安稳觉。</p>
-  <h2><strong>One More Thing</strong></h2>
-  <p>就在Diogo开开心心地宣布融资喜讯、哀嚎着说要去睡觉的两小时后；</p>
-  <p>微软的董事长兼CEO&nbsp;<strong>Satya Nadella</strong>，便带着新款决策模型<strong>Microsoft-Decision-1</strong>杀进了赛场。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,846" src="https://img.36krcdn.com/hsossms/20261010/v2_16139f37b0d34cee80cf3b2de31fb3aa@46958_oswg317524oswg1080oswg846_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>该模型基于Qwen3.5-9B进行后训练，专门处理路由、分类、优先级判断、验证和工作流控制；</p>
-  <p>面对固定选项，它会给每个答案打出概率，支持是非、多选、评分，以及对AI回答和Agent行为的评估。</p>
-  <p>看上去简直就是Jev的孪生兄妹——太像了！</p>
-  <p>而OpenAI当然也没放过这个香饽饽，他们的动作甚至更早。</p>
-  <p>10月6日，也就是Jev发布21天后，<strong>OpenAI开放了Decisions API公开测试</strong>。</p>
-  <p>它由GPT-6 Luna驱动，可以把文本和图像变成Predicate、Choice和Score三类结构化答案，OpenAI称，它的速度最高可达同模型通过Responses API调用的10倍。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,542" src="https://img.36krcdn.com/hsossms/20261010/v2_5b3f09839240477ab7e2579fa153aabd@46958_oswg191847oswg1080oswg542_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>再往前，Cloudflare早在10月1日就推出了开源决策模型<strong>Clef</strong>和<strong>Clef-flash</strong>，不但兼容Jev API，还直接把Jev摆上了对比台。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,828" src="https://img.36krcdn.com/hsossms/20261010/v2_d3241a3c4cfd4981ad85abb989c2aa3e@46958_oswg232745oswg1080oswg828_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">△</p>
-  <p><strong>而所有这些，都是在短短24天内发生的。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="232,182" src="https://img.36krcdn.com/hsossms/20261010/v2_e950f69793fe469f880792a9f8b8af17@46958_oswg38363oswg232oswg182_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而这，或许才是Jev此轮融资真正值钱的地方。</p>
-  <p>它不只是做出了一款爆款产品，更让整个行业突然意识到，<strong>AI确实不一定非要更会说，也可以更擅长闭嘴，然后老老实实在软件后台干活。</strong></p>
-  <p>而当赛道一旦成立，TypeSafe AI也就从鲜有直接对手，变成了四面迎敌。（TypeSafe AI：礼貌，你吗？）</p>
-  <p class="image-wrapper"><img data-img-size-val="250,268" src="https://img.36krcdn.com/hsossms/20261010/v2_086b3aa958794f9088aefd80bd068eb9@46958_oswg75718oswg250oswg268_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>所以Diogo这觉，大概率是真睡不了太久…</p>
-  <p>半夜醒来刷一眼X，估计都得当场被卷醒吧。（doge）</p>
-  <p>参考链接：</p>
-  <p>[1]https://typesafe.ai/blog/series-ai</p>
-  <p>[2]https://x.com/CompleteSkeptic/status/2108594987177021737</p>
-  <p>[3]https://x.com/martin_casado</p>
-  <p>[4]https://mp.weixin.qq.com/s/TYgfqz-galSfQIBgjCEvDA</p>
-  <p>[5]https://vercel.com/blog/ai-gateway-jev-model-launch</p>
-  <p>[6]https://developers.openai.com/api/reference/resources/decisions/methods/create</p>
-  <p>[7]https://developers.openai.com/api/docs/changelog[8]https://blog.cloudflare.com/clef-decision-models/</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/_sI0SQOBXgF7Diupj1HCmw">“量子位”</a>，作者：文婷，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Sat, 10 Oct 2026 08:12:48 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4019764837748872</guid>
-            <link>https://www.36kr.com/p/4019764837748872</link>
             
             
             

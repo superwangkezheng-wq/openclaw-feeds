@@ -25,28 +25,6 @@
       "name": "Aditya Agarwal",
       "source": "x",
       "tweets": {
-        "id:2107506675544682755": {
-          "createdAt": "2026-10-06T16:22:01.000Z",
-          "id": "2107506675544682755",
-          "isQuote": true,
-          "likes": 11,
-          "quotedTweetId": "2107498112977973468",
-          "replies": 0,
-          "retweets": 0,
-          "text": "I have had the distinct pleasure of collaborating with @keithmadams for almost 15 years. We worked together at Facebook and now jam on startups together.\n\nIt is such an interesting time to explore what it truly means to be a \"coder\" in today's ecosystem.\n\nSuper fun pod. https://t.co/BR3Ph6UgHC",
-          "url": "https://x.com/adityaag/status/2107506675544682755"
-        },
-        "id:2107595892849250477": {
-          "createdAt": "2026-10-06T22:16:32.000Z",
-          "id": "2107595892849250477",
-          "isQuote": false,
-          "likes": 14,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "It is wild to me that the only legally allowed form of spam is political campaigns.\n\nAnd it is also for the most intrusive channel of txt messaging.\n\nInsane,.",
-          "url": "https://x.com/adityaag/status/2107595892849250477"
-        },
         "id:2107865115831988530": {
           "createdAt": "2026-10-07T16:06:20.000Z",
           "id": "2107865115831988530",
@@ -140,17 +118,6 @@
       "name": "Amjad Masad",
       "source": "x",
       "tweets": {
-        "id:2107544111482118237": {
-          "createdAt": "2026-10-06T18:50:47.000Z",
-          "id": "2107544111482118237",
-          "isQuote": true,
-          "likes": 170,
-          "quotedTweetId": "2107023776294555745",
-          "replies": 14,
-          "retweets": 17,
-          "text": "Full conversation here: https://t.co/aKn5QFuNO3 https://t.co/yVtQjk9xIO",
-          "url": "https://x.com/amasad/status/2107544111482118237"
-        },
         "id:2107671204639465961": {
           "createdAt": "2026-10-07T03:15:48.000Z",
           "id": "2107671204639465961",
@@ -214,39 +181,6 @@
       "name": "Boris Cherny",
       "source": "x",
       "tweets": {
-        "id:2107532985897771152": {
-          "createdAt": "2026-10-06T18:06:34.000Z",
-          "id": "2107532985897771152",
-          "isQuote": false,
-          "likes": 1119,
-          "quotedTweetId": null,
-          "replies": 72,
-          "retweets": 33,
-          "text": "Prompt https://t.co/eUUYfOlppH",
-          "url": "https://x.com/bcherny/status/2107532985897771152"
-        },
-        "id:2107565388250874193": {
-          "createdAt": "2026-10-06T20:15:19.000Z",
-          "id": "2107565388250874193",
-          "isQuote": true,
-          "likes": 8943,
-          "quotedTweetId": "2107532985897771152",
-          "replies": 450,
-          "retweets": 503,
-          "text": "I am surprised that people are surprised this is how I prompt Claude.\n\nTalk to Claude the way you would a coworker. There's no secret to prompting. There's no need to be overly scaffolded or prescriptive for most tasks -- give Claude a goal, and it will figure it out.\n\nBack in the Sonnet 3.5 days, your prompt mattered a lot. Nowadays, it's much more important to communicate to the model:\n\n1. What you want it to do\n2. How much effort you want it to spend\n3. How it should verify that it did the right thing",
-          "url": "https://x.com/bcherny/status/2107565388250874193"
-        },
-        "id:2107565497680314831": {
-          "createdAt": "2026-10-06T20:15:45.000Z",
-          "id": "2107565497680314831",
-          "isQuote": true,
-          "likes": 232,
-          "quotedTweetId": "2102543349102338309",
-          "replies": 8,
-          "retweets": 7,
-          "text": "Another example, my actual prompts https://t.co/xOyjaC8xrn",
-          "url": "https://x.com/bcherny/status/2107565497680314831"
-        },
         "id:2108006118966665463": {
           "createdAt": "2026-10-08T01:26:38.000Z",
           "id": "2108006118966665463",
@@ -288,39 +222,6 @@
       "name": "Claude",
       "source": "x",
       "tweets": {
-        "id:2107522599530139767": {
-          "createdAt": "2026-10-06T17:25:18.000Z",
-          "id": "2107522599530139767",
-          "isQuote": false,
-          "likes": 947,
-          "quotedTweetId": null,
-          "replies": 15,
-          "retweets": 24,
-          "text": "In Claude, paste a Google file link or ask for a new doc, sheet, or deck, and it opens beside the chat for you and Claude to edit together. Access follows your Google sharing permissions.\n\nIn beta on all paid plans. Give it a try: https://t.co/2PehYZKjTm",
-          "url": "https://x.com/claudeai/status/2107522599530139767"
-        },
-        "id:2107574195978641911": {
-          "createdAt": "2026-10-06T20:50:19.000Z",
-          "id": "2107574195978641911",
-          "isQuote": false,
-          "likes": 1669,
-          "quotedTweetId": null,
-          "replies": 118,
-          "retweets": 93,
-          "text": "The Every team runs as much work as possible through agents. To help the whole team share skills when a new model comes out, they built a company agent on Claude Managed Agents that everyone uses in Slack.\n\nOnce it caught on internally, they released it to their subscribers. https://t.co/sKAhBei27k",
-          "url": "https://x.com/claudeai/status/2107574195978641911"
-        },
-        "id:2107574198482927900": {
-          "createdAt": "2026-10-06T20:50:20.000Z",
-          "id": "2107574198482927900",
-          "isQuote": false,
-          "likes": 96,
-          "quotedTweetId": null,
-          "replies": 5,
-          "retweets": 6,
-          "text": "Watch the full conversation with @danshipper and Willie Williams on how they built it: https://t.co/PUfvXR90Ox",
-          "url": "https://x.com/claudeai/status/2107574198482927900"
-        },
         "id:2107894054142787877": {
           "createdAt": "2026-10-07T18:01:19.000Z",
           "id": "2107894054142787877",
@@ -395,39 +296,6 @@
       "name": "Dan Shipper",
       "source": "x",
       "tweets": {
-        "id:2107507471807881262": {
-          "createdAt": "2026-10-06T16:25:11.000Z",
-          "id": "2107507471807881262",
-          "isQuote": false,
-          "likes": 49,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 4,
-          "text": "there's a pretty cool new featured app on the slack marketplace! https://t.co/1xQx11TQNy",
-          "url": "https://x.com/danshipper/status/2107507471807881262"
-        },
-        "id:2107520182789005726": {
-          "createdAt": "2026-10-06T17:15:42.000Z",
-          "id": "2107520182789005726",
-          "isQuote": true,
-          "likes": 311,
-          "quotedTweetId": "2107483793196298551",
-          "replies": 5,
-          "retweets": 0,
-          "text": "this is actually true https://t.co/jCDKEFalc5",
-          "url": "https://x.com/danshipper/status/2107520182789005726"
-        },
-        "id:2107575089441181861": {
-          "createdAt": "2026-10-06T20:53:52.000Z",
-          "id": "2107575089441181861",
-          "isQuote": true,
-          "likes": 132,
-          "quotedTweetId": "2107574195978641911",
-          "replies": 12,
-          "retweets": 10,
-          "text": "we couldn't have built the @every agent without Claude Managed Agents\n\nextremely fun to get to sit down and chat about it: https://t.co/RAsiCZwlZd",
-          "url": "https://x.com/danshipper/status/2107575089441181861"
-        },
         "id:2107827332752826790": {
           "createdAt": "2026-10-07T13:36:12.000Z",
           "id": "2107827332752826790",
@@ -502,28 +370,6 @@
       "name": "Garry Tan",
       "source": "x",
       "tweets": {
-        "id:2107630303644938505": {
-          "createdAt": "2026-10-07T00:33:16.000Z",
-          "id": "2107630303644938505",
-          "isQuote": false,
-          "likes": 9,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 1,
-          "text": "Maybe 3 more prompts got it to 35fps on 640x480 pulling from 8 CPU cores per frame https://t.co/p6lMwsseJQ",
-          "url": "https://x.com/garrytan/status/2107630303644938505"
-        },
-        "id:2107636543808840168": {
-          "createdAt": "2026-10-07T00:58:04.000Z",
-          "id": "2107636543808840168",
-          "isQuote": true,
-          "likes": 32,
-          "quotedTweetId": "2107546091009015944",
-          "replies": 4,
-          "retweets": 3,
-          "text": "Case study in activism in the guise of journalism manipulating SF politics https://t.co/3gsDEX2aE7",
-          "url": "https://x.com/garrytan/status/2107636543808840168"
-        },
         "id:2107674122612555953": {
           "createdAt": "2026-10-07T03:27:24.000Z",
           "id": "2107674122612555953",
@@ -784,17 +630,6 @@
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2107606751919087701": {
-          "createdAt": "2026-10-06T22:59:41.000Z",
-          "id": "2107606751919087701",
-          "isQuote": false,
-          "likes": 1,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "Blown away by the responses/DMs here - I'll aim to get back to most of you by tomorrow!!",
-          "url": "https://x.com/nikunj/status/2107606751919087701"
-        },
         "id:2107706522457497753": {
           "createdAt": "2026-10-07T05:36:08.000Z",
           "id": "2107706522457497753",
@@ -891,28 +726,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2107605650398462178": {
-          "createdAt": "2026-10-06T22:55:19.000Z",
-          "id": "2107605650398462178",
-          "isQuote": false,
-          "likes": 43,
-          "quotedTweetId": null,
-          "replies": 6,
-          "retweets": 2,
-          "text": "@dps not sure if this is possible but it’ll be incredible if muse can wait on a call for me then dial me in when there’s a human on the other line",
-          "url": "https://x.com/petergyang/status/2107605650398462178"
-        },
-        "id:2107639917287440537": {
-          "createdAt": "2026-10-07T01:11:28.000Z",
-          "id": "2107639917287440537",
-          "isQuote": true,
-          "likes": 19,
-          "quotedTweetId": "2107560980167459161",
-          "replies": 1,
-          "retweets": 0,
-          "text": "The flip side of this is that if you live in the boring suburbs like me a glass of wine a few days a week is totally worth it https://t.co/XaC05U710o",
-          "url": "https://x.com/petergyang/status/2107639917287440537"
-        },
         "id:2107669485549400474": {
           "createdAt": "2026-10-07T03:08:58.000Z",
           "id": "2107669485549400474",
@@ -1020,17 +833,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2107606246350266469": {
-          "createdAt": "2026-10-06T22:57:41.000Z",
-          "id": "2107606246350266469",
-          "isQuote": true,
-          "likes": 164,
-          "quotedTweetId": "2107603954091851883",
-          "replies": 42,
-          "retweets": 6,
-          "text": "“Thinking fast and s̶l̶o̶w̶ a bit less fast under a confidence threshold.”\n\nA very simple feature that I think will be extremely impactful for at-scale AI decision-making. https://t.co/ivWDKynSpm",
-          "url": "https://x.com/rauchg/status/2107606246350266469"
-        },
         "id:2107861196506595398": {
           "createdAt": "2026-10-07T15:50:46.000Z",
           "id": "2107861196506595398",
@@ -1228,17 +1030,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2107646238585950540": {
-          "createdAt": "2026-10-07T01:36:36.000Z",
-          "id": "2107646238585950540",
-          "isQuote": false,
-          "likes": 19,
-          "quotedTweetId": null,
-          "replies": 66,
-          "retweets": 0,
-          "text": "what is your default/workhorse coding agent today, Oct 2026?",
-          "url": "https://x.com/swyx/status/2107646238585950540"
-        },
         "id:2108388128390086675": {
           "createdAt": "2026-10-09T02:44:36.000Z",
           "id": "2108388128390086675",
@@ -1302,17 +1093,6 @@
       "name": "Nan Yu",
       "source": "x",
       "tweets": {
-        "id:2107506074370920796": {
-          "createdAt": "2026-10-06T16:19:38.000Z",
-          "id": "2107506074370920796",
-          "isQuote": true,
-          "likes": 25,
-          "quotedTweetId": "2107423771090915775",
-          "replies": 2,
-          "retweets": 2,
-          "text": "I worry, though, that this will cause extreme degradation in systems that no one loves to maintain, but someone has to https://t.co/SLUmGaKHjL",
-          "url": "https://x.com/thenanyu/status/2107506074370920796"
-        },
         "id:2108049498648051747": {
           "createdAt": "2026-10-08T04:19:00.000Z",
           "id": "2108049498648051747",
@@ -1494,39 +1274,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2107504677143368163": {
-          "createdAt": "2026-10-06T16:14:05.000Z",
-          "id": "2107504677143368163",
-          "isQuote": false,
-          "likes": 4206,
-          "quotedTweetId": null,
-          "replies": 224,
-          "retweets": 287,
-          "text": "working at a higher level of abstraction has always required understanding the lower level ones, I don't think coding agents changes this",
-          "url": "https://x.com/trq212/status/2107504677143368163"
-        },
-        "id:2107580785456976085": {
-          "createdAt": "2026-10-06T21:16:30.000Z",
-          "id": "2107580785456976085",
-          "isQuote": true,
-          "likes": 633,
-          "quotedTweetId": "2107340217070035425",
-          "replies": 99,
-          "retweets": 23,
-          "text": "we're increasingly going to be moving towards Claude's \"brains\" in the cloud and giving Claude \"local hands\" to operate on your computer\n\nI talked about this a bit on latent space https://t.co/m6NVHyweBp",
-          "url": "https://x.com/trq212/status/2107580785456976085"
-        },
-        "id:2107580787277340835": {
-          "createdAt": "2026-10-06T21:16:31.000Z",
-          "id": "2107580787277340835",
-          "isQuote": false,
-          "likes": 33,
-          "quotedTweetId": null,
-          "replies": 8,
-          "retweets": 0,
-          "text": "there are some tricky technical problems to figure out! \n\nif Claude can only access your files when your computer is online, it might be effectively blocked on doing work until your computer is back on, so perhaps you want some sort of sync but there are edge cases there",
-          "url": "https://x.com/trq212/status/2107580787277340835"
-        },
         "id:2107957206327173484": {
           "createdAt": "2026-10-07T22:12:16.000Z",
           "id": "2107957206327173484",
@@ -1623,17 +1370,6 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2107604881926459802": {
-          "createdAt": "2026-10-06T22:52:15.000Z",
-          "id": "2107604881926459802",
-          "isQuote": false,
-          "likes": 99,
-          "quotedTweetId": null,
-          "replies": 63,
-          "retweets": 0,
-          "text": "It's almost impossible to come up with a good product name these days\nAll the good names have been taken 🫠",
-          "url": "https://x.com/zarazhangrui/status/2107604881926459802"
-        },
         "id:2108027410256166930": {
           "createdAt": "2026-10-08T02:51:14.000Z",
           "id": "2108027410256166930",
