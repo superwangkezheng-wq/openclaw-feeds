@@ -11,6 +11,127 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:YVUOZbLuOE8</id>
+  <yt:videoId>YVUOZbLuOE8</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>Meta 发布 Muse Wonder 模型系列；SpaceXSI 推出整合订阅 The X Subscription【AI 早报 2026-10-13】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YVUOZbLuOE8"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-13T01:48:56+00:00</published>
+  <updated>2026-10-13T11:12:46+00:00</updated>
+  <media:group>
+   <media:title>Meta 发布 Muse Wonder 模型系列；SpaceXSI 推出整合订阅 The X Subscription【AI 早报 2026-10-13】</media:title>
+   <media:content url="https://www.youtube.com/v/YVUOZbLuOE8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YVUOZbLuOE8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+Meta 发布 Muse Wonder 模型系列 00:08
+https://research.meta.ai/blog/muse-wonder
+https://research.meta.ai/static/muse-wonder-model-card
+https://dev.meta.ai/docs/pricing-rate-limits
+
+The X Subscription 推出：整合Grok、Cursor 和 X Premium 00:35
+https://docs.x.ai/x-subscription/overview
+https://docs.x.ai/x-subscription/pricing
+https://docs.x.ai/x-subscription/usage-limits
+
+Codex 第 8 天安排：重置用量额度 00:57
+https://x.com/thsottiaux/status/2109812216212099456
+
+智谱推出法律模型 GLM-Legal，开放测试申请 01:06
+https://z.ai/blog/glm-legal
+https://x.com/Zai_org/status/2109678174468534511
+
+OpenBMB 发布 MiniCPM-V 4.7 系列两款模型 01:22
+https://github.com/openbmb/MiniCPM-V
+https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B
+https://huggingface.co/openbmb/MiniCPM-V-4.7-1B
+
+OpenCode Go 提供 80 美元 V4.1 Flash 额度 01:37
+https://x.com/opencode/status/2109573342584058065
+
+阶跃 Step 5 Preview 上线 WorkBuddy，独家限免两周 01:47
+https://mp.weixin.qq.com/s/VmJfCg7X7niy0m9JD6mCdg
+
+DeepSeek V4.1 Flash 在 WorkBuddy 国际版免费至 10 月 31 日 01:55
+https://x.com/WorkBuddy_AI/status/2109673559710974130
+
+ZCode 推出邀请活动，奖励最高累计 100 天 02:06
+https://mp.weixin.qq.com/s/MFWF1gyC1Jq9FFBXZOarCA
+https://zcode.z.ai
+https://x.com/zcode_ai/status/2109678026971861370
+
+OpenAI Agents API 新增沙箱预热 02:21
+https://developers.openai.com/api/docs/guides/agents-api/environments/prewarmed
+
+Karpathy：LLM 能力认知差距正在扩大 02:32
+https://x.com/karpathy/status/2109361546505966046
+
+Anthropic：小模型或数月内能实现自我复制 02:52
+https://www.anthropic.com/research/self-replicating-ai
+https://arxiv.org/abs/2606.03811
+https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/07-end-to-end-replication-light.html
+
+Anthropic 公布蒸馏攻击防御进展 03:06
+https://www.anthropic.com/research/distillation-defenses
+https://x.com/AnthropicAI/status/2109795898909950247
+
+Linus 正使用 Claude Code 优化 Linux 内核 03:18
+https://www.phoronix.com/news/Linus-Torvalds-Claude-Code
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?h=noref-filemap-read-with-llm&amp;id=4c0f3697118eb3a708ea79175f7f07c43339bfab
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?h=noref-filemap-read-with-llm
+
+Sakana AI 提出多 Agent 自监督方法 MASS 03:29
+https://pub.sakana.ai/mass/
+
+千问介绍 QwenGyre 超长程强化学习框架 03:40
+https://arxiv.org/abs/2609.33848
+https://x.com/Alibaba_Qwen/status/2109633085658808515
+
+Artificial Analysis 发布 FrontierCode 1.1 私有编码评测榜单 03:50
+https://artificialanalysis.ai/articles/frontiercode
+https://artificialanalysis.ai/evaluations/frontiercode
+https://x.com/ArtificialAnlys/status/2109703511843979391
+
+丘成桐数学与人工智能实验室联盟在清华成立 04:01
+
+微软拟将自研 Maia 扩至数千兆瓦级部署 04:16
+https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/
+https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/
+
+NVIDIA 开放 Vera Rubin 机架设计 04:32
+https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/
+
+英伟达与思科公布 USFP 光模块设计计划 04:40
+https://nvidianews.nvidia.com/news/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories
+https://blogs.cisco.com/news/cisco-and-nvidia-announce-usfp-expanding-the-path-to-ai-connectivity
+
+AMD 发布新一代锐龙 AI Halo 平台 04:50
+https://www.amd.com/en/products/processors/desktops/ryzen/ryzen-ai-halo.html
+https://www.amd.com/en/blogs/2026/meet-the-next-amd-ryzen-ai-halo.html
+
+报道称英国 AI 安全研究所恢复模型访问权限 05:05
+https://www.telegraph.co.uk/news/2026/10/11/britain-get-first-look-ai-systems-after-white-house-u-turn/
+https://www.reuters.com/legal/litigation/uk-given-access-safety-test-latest-ai-models-minister-says-2026-10-12/
+
+报道称月之暗面谣言案两人被采取刑事强制措施 05:17
+https://mp.weixin.qq.com/s/VZK_J7PW0rqAP6Ywwd0frg
+
+报道称 Sora 或以电影制作定制版回归 05:31
+https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora
+
+据报道腾讯元宝正开发独立 App 元宝助手 05:43
+https://mp.weixin.qq.com/s/gX2yV5_2tHw9kCj8ND7W2g</media:description>
+   <media:community>
+    <media:starRating count="25" average="5.00" min="1" max="5"/>
+    <media:statistics views="1140"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:PqeU66fFXU8</id>
   <yt:videoId>PqeU66fFXU8</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -44,8 +165,8 @@ https://x.com/elonmusk/status/2109012639049244981
 谷歌灰度测试新模型 Gemini 4 Argon 01:06
 https://linux.do/t/topic/3008137</media:description>
    <media:community>
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="702"/>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="955"/>
    </media:community>
   </media:group>
  </entry>
@@ -104,7 +225,7 @@ https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-bu
 https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2020"/>
+    <media:statistics views="2178"/>
    </media:community>
   </media:group>
  </entry>
@@ -233,7 +354,7 @@ https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack
 Kimi 第三方客户端思维链调整，据用户反馈已回滚 06:35</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="2399"/>
+    <media:statistics views="2467"/>
    </media:community>
   </media:group>
  </entry>
@@ -248,7 +369,7 @@ Kimi 第三方客户端思维链调整，据用户反馈已回滚 06:35</media:d
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-09T01:46:53+00:00</published>
-  <updated>2026-10-10T15:43:57+00:00</updated>
+  <updated>2026-10-12T03:31:35+00:00</updated>
   <media:group>
    <media:title>OpenAI 为 GPT-6.1 Sol 推出 Ultrafast 模式【AI 早报 2026-10-09】</media:title>
    <media:content url="https://www.youtube.com/v/OZFVYSNM1BE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -360,7 +481,7 @@ https://mp.weixin.qq.com/s/cmjfJ40G8ZSr9vyPLLy37g
 Arena 完成</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2247"/>
+    <media:statistics views="2274"/>
    </media:community>
   </media:group>
  </entry>
@@ -375,7 +496,7 @@ Arena 完成</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-08T01:50:27+00:00</published>
-  <updated>2026-10-08T12:00:17+00:00</updated>
+  <updated>2026-10-12T03:38:00+00:00</updated>
   <media:group>
    <media:title>Claude Haiku 5.5 发布；GPT-6 上线 Chat；Sonnet 降价；Claude Max 获赠API额度【AI 早报 2026-10-08】</media:title>
    <media:content url="https://www.youtube.com/v/VPQ4ZwxkQAg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -488,7 +609,7 @@ Surface Laptop Ultra 开启预售，2599 美元起 06:12
 https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-s</media:description>
    <media:community>
     <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="5495"/>
+    <media:statistics views="5522"/>
    </media:community>
   </media:group>
  </entry>
@@ -626,7 +747,7 @@ https://blog.google/innovation-and-ai/technology/health/google-earth-ai/
 https://x.com/Google/</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="4660"/>
+    <media:statistics views="4684"/>
    </media:community>
   </media:group>
  </entry>
@@ -703,7 +824,7 @@ https://www.winknews.com/news/woman-arrested-after-ai-threat-against-lee-county-
 https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-reports-florida-womans-claude-diary-threat-to-shoot-up-sheriffs-office-felony-charge-follows-its-at-least-the-third-such-conversation-to-reach-police-since-august</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="2205"/>
+    <media:statistics views="2217"/>
    </media:community>
   </media:group>
  </entry>
@@ -741,7 +862,7 @@ https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-
 https://www.axios.com/2026/10/04/reflection-open-weight-ai</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1136"/>
+    <media:statistics views="1137"/>
    </media:community>
   </media:group>
  </entry>
@@ -787,7 +908,7 @@ https://www.ithome.com/1/009/385.htm
 https://x.com/GrokInsider/status/2106302120450220502</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1728"/>
+    <media:statistics views="1742"/>
    </media:community>
   </media:group>
  </entry>
@@ -877,7 +998,7 @@ https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/
 https://www.bloomberg.com/news/articles/2026-10-02/broadcom-starts-amassing-60-billion-to-fund-chips-for-anthropic</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1675"/>
+    <media:statistics views="1678"/>
    </media:community>
   </media:group>
  </entry>
@@ -994,8 +1115,8 @@ https://www.ft.com/content/8799b33d-f07c-4a03-82f0-bf5d3d1d29e9?syn-25a6b1a6=1
 Anthropic 招股书披露 420 亿美元 Broadcom 融资安排 06:11
 https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/</media:description>
    <media:community>
-    <media:starRating count="30" average="5.00" min="1" max="5"/>
-    <media:statistics views="2724"/>
+    <media:starRating count="31" average="5.00" min="1" max="5"/>
+    <media:statistics views="2736"/>
    </media:community>
   </media:group>
  </entry>
@@ -1132,7 +1253,7 @@ https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html
 智谱称</media:description>
    <media:community>
     <media:starRating count="62" average="5.00" min="1" max="5"/>
-    <media:statistics views="5821"/>
+    <media:statistics views="5827"/>
    </media:community>
   </media:group>
  </entry>
@@ -1262,7 +1383,7 @@ https://x.com/OpenAIDevs/status/2104999323385929777
 ChatGPT iOS 版新增 Codex 小组件</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="2883"/>
+    <media:statistics views="2885"/>
    </media:community>
   </media:group>
  </entry>
@@ -1393,66 +1514,6 @@ https://support.google.com/gemini/answer/18560919</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
     <media:statistics views="3056"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:BxAiAMTKGAI</id>
-  <yt:videoId>BxAiAMTKGAI</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>MiniMax 上线 M3.1-Flash-Preview【AI 早报 2026-09-28】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=BxAiAMTKGAI"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-09-28T01:11:31+00:00</published>
-  <updated>2026-10-01T01:07:49+00:00</updated>
-  <media:group>
-   <media:title>MiniMax 上线 M3.1-Flash-Preview【AI 早报 2026-09-28】</media:title>
-   <media:content url="https://www.youtube.com/v/BxAiAMTKGAI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/BxAiAMTKGAI/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-MiniMax 上线 M3.1-Flash-Preview 00:09
-https://x.com/MiniMax_AI/status/2104256406786547800
-https://platform.minimax.cn/docs/guides/text-generation#chat
-
-OpenAI 修复 GPT-6 Sol 与 Luna 识图缺陷 00:36
-https://x.com/OpenAIDevs/status/2104252306447544447
-https://developers.openai.com/api/docs/changelog
-
-Command Code 宣布调整 DeepSeek V4.1 Flash 用量 00:50
-https://x.com/CommandCodeAI/status/2104229776210919460
-
-TypeSafe AI 宣布 Jev 重新开放注册 00:57
-https://x.com/typesafeai/status/2104337822350221795
-https://x.com/typesafeai/status/2104337824292220981
-
-ChatGPT 调整 Pro 档位名称并删除原有plus用量说明 01:06
-https://linux.do/t/topic/2957030
-https://chatgpt.com/#pricing
-
-Qwen Studio 上线积分与订阅体系 01:18
-https://chat.qwen.ai/?memberPlan=true
-
-Grok Bot推出Finance集成，可连接银行和投资账户 01:30
-https://x.com/bot/status/2103936247995752705
-
-NaiveAI 开源 Naive-N0.5-Flash 01:41
-https://naive.ai/en/research/
-https://github.com/naiveai-labs/NaiveRT
-https://huggingface.co/NaiveAI/Naive-N0.5-Flash
-
-澳大利亚参议院AI调查要求OpenAI和Anthropic CEO出席听证 01:59
-https://www.reuters.com/legal/litigation/openai-anthropic-ceos-called-appear-australian-ai-probe-2026-09-27/
-
-Axios：特朗普白宫宴请 Anthropic CEO Dario Amodei 02:13
-https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite
-https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/</media:description>
-   <media:community>
-    <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2370"/>
    </media:community>
   </media:group>
  </entry>
