@@ -6,39 +6,6 @@
       "name": "Aditya Agarwal",
       "source": "x",
       "tweets": {
-        "id:2108254520744517652": {
-          "createdAt": "2026-10-08T17:53:41.000Z",
-          "id": "2108254520744517652",
-          "isQuote": true,
-          "likes": 19,
-          "quotedTweetId": "2108232022883766415",
-          "replies": 3,
-          "retweets": 2,
-          "text": "When is an autonomous vehicle actually good enough? https://t.co/VQTbWP1Jfj https://t.co/MA8e3UAYgb",
-          "url": "https://x.com/adityaag/status/2108254520744517652"
-        },
-        "id:2108255511443542176": {
-          "createdAt": "2026-10-08T17:57:38.000Z",
-          "id": "2108255511443542176",
-          "isQuote": false,
-          "likes": 0,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "Full conversation at @spc https://t.co/5fNQdHCLwp",
-          "url": "https://x.com/adityaag/status/2108255511443542176"
-        },
-        "id:2108260509241991586": {
-          "createdAt": "2026-10-08T18:17:29.000Z",
-          "id": "2108260509241991586",
-          "isQuote": true,
-          "likes": 2,
-          "quotedTweetId": "2108232022883766415",
-          "replies": 0,
-          "retweets": 0,
-          "text": "@Waymo @dmitri_dolgov @spc Full conversation out now https://t.co/WcPgl3BW1P",
-          "url": "https://x.com/adityaag/status/2108260509241991586"
-        },
         "id:2108578813751791926": {
           "createdAt": "2026-10-09T15:22:19.000Z",
           "id": "2108578813751791926",
@@ -77,28 +44,6 @@
       "name": "Claude",
       "source": "x",
       "tweets": {
-        "id:2108271559928389679": {
-          "createdAt": "2026-10-08T19:01:24.000Z",
-          "id": "2108271559928389679",
-          "isQuote": false,
-          "likes": 868,
-          "quotedTweetId": null,
-          "replies": 20,
-          "retweets": 24,
-          "text": "Starting today, Claude Docs, Slides, and Design are out of beta and available on every plan including Free.\n\nYour team and Claude can edit the same doc, deck, or design together.",
-          "url": "https://x.com/claudeai/status/2108271559928389679"
-        },
-        "id:2108271561337606300": {
-          "createdAt": "2026-10-08T19:01:24.000Z",
-          "id": "2108271561337606300",
-          "isQuote": false,
-          "likes": 584,
-          "quotedTweetId": null,
-          "replies": 17,
-          "retweets": 19,
-          "text": "When a question needs deeper analysis, send the dashboard to your analytics tool. When an animation needs finishing touches, open it in your video editor.\n\nSee the full list of supported tools: https://t.co/9PSMNUDtDg",
-          "url": "https://x.com/claudeai/status/2108271561337606300"
-        },
         "id:2108404561413349695": {
           "createdAt": "2026-10-09T03:49:54.000Z",
           "id": "2108404561413349695",
@@ -328,17 +273,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2108279490510193078": {
-          "createdAt": "2026-10-08T19:32:55.000Z",
-          "id": "2108279490510193078",
-          "isQuote": true,
-          "likes": 99,
-          "quotedTweetId": "2108240529268039871",
-          "replies": 32,
-          "retweets": 16,
-          "text": "We built Box Mount to allow developers to mount Box as a file system directly in any agent sandbox. As agents do more complex work, they need to be able to work with files and data just like a person would. The future is headless. https://t.co/hGBx3Tv4NL",
-          "url": "https://x.com/levie/status/2108279490510193078"
-        },
         "id:2108426594054533545": {
           "createdAt": "2026-10-09T05:17:27.000Z",
           "id": "2108426594054533545",
@@ -528,17 +462,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2108285232055263734": {
-          "createdAt": "2026-10-08T19:55:44.000Z",
-          "id": "2108285232055263734",
-          "isQuote": true,
-          "likes": 18,
-          "quotedTweetId": "2108068632991256995",
-          "replies": 1,
-          "retweets": 1,
-          "text": "Just insane 😂 https://t.co/IwE5WF1sKX",
-          "url": "https://x.com/petergyang/status/2108285232055263734"
-        },
         "id:2108410706546905437": {
           "createdAt": "2026-10-09T04:14:19.000Z",
           "id": "2108410706546905437",
@@ -635,17 +558,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2108399406009798764": {
-          "createdAt": "2026-10-09T03:29:25.000Z",
-          "id": "2108399406009798764",
-          "isQuote": false,
-          "likes": 528,
-          "quotedTweetId": null,
-          "replies": 36,
-          "retweets": 20,
-          "text": "Few things more enjoyable in work and life than discovering new talent. Seeing greatness in people, sometimes even before they fully see it themselves.",
-          "url": "https://x.com/rauchg/status/2108399406009798764"
-        },
         "id:2108669027363295323": {
           "createdAt": "2026-10-09T21:20:47.000Z",
           "id": "2108669027363295323",
@@ -728,17 +640,6 @@
       "name": "Peter Steinberger",
       "source": "x",
       "tweets": {
-        "id:2108374513931165759": {
-          "createdAt": "2026-10-09T01:50:30.000Z",
-          "id": "2108374513931165759",
-          "isQuote": true,
-          "likes": 781,
-          "quotedTweetId": "2108372568843448769",
-          "replies": 66,
-          "retweets": 45,
-          "text": "WE GOT IT! .claw incoming! https://t.co/wn0a7q3FdL",
-          "url": "https://x.com/steipete/status/2108374513931165759"
-        },
         "id:2109008513855087082": {
           "createdAt": "2026-10-10T19:49:47.000Z",
           "id": "2109008513855087082",
@@ -769,39 +670,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2108388128390086675": {
-          "createdAt": "2026-10-09T02:44:36.000Z",
-          "id": "2108388128390086675",
-          "isQuote": true,
-          "likes": 15,
-          "quotedTweetId": "2107888314254815483",
-          "replies": 1,
-          "retweets": 0,
-          "text": "if you cant hire for it, my team will do oneoff consult for you, get in touch business@latent.space \n\nhttps://t.co/TrsDS8PK4l",
-          "url": "https://x.com/swyx/status/2108388128390086675"
-        },
-        "id:2108391663827849390": {
-          "createdAt": "2026-10-09T02:58:39.000Z",
-          "id": "2108391663827849390",
-          "isQuote": true,
-          "likes": 2,
-          "quotedTweetId": "2108273380298461240",
-          "replies": 0,
-          "retweets": 0,
-          "text": "to paraphrase modern family, there are 5 things wrong in this tweet. the talented {role} will already have posts covering most of them \nhttps://t.co/TEtI8ULDJ8",
-          "url": "https://x.com/swyx/status/2108391663827849390"
-        },
-        "id:2108391703488958475": {
-          "createdAt": "2026-10-09T02:58:48.000Z",
-          "id": "2108391703488958475",
-          "isQuote": true,
-          "likes": 2,
-          "quotedTweetId": "2108273380298461240",
-          "replies": 0,
-          "retweets": 0,
-          "text": "to paraphrase modern family, there are 5 things wrong in this tweet. the talented {role} will already have posts covering most of them \nhttps://t.co/TEtI8UL5TA",
-          "url": "https://x.com/swyx/status/2108391703488958475"
-        },
         "id:2108563331376124389": {
           "createdAt": "2026-10-09T14:20:48.000Z",
           "id": "2108563331376124389",
@@ -843,17 +711,6 @@
       "name": "Nan Yu",
       "source": "x",
       "tweets": {
-        "id:2108354844658737637": {
-          "createdAt": "2026-10-09T00:32:20.000Z",
-          "id": "2108354844658737637",
-          "isQuote": true,
-          "likes": 27,
-          "quotedTweetId": "2108349826727588000",
-          "replies": 2,
-          "retweets": 0,
-          "text": "huge https://t.co/TBeAH6PxED",
-          "url": "https://x.com/thenanyu/status/2108354844658737637"
-        },
         "id:2108671762984731037": {
           "createdAt": "2026-10-09T21:31:40.000Z",
           "id": "2108671762984731037",
@@ -928,28 +785,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2108275041276420573": {
-          "createdAt": "2026-10-08T19:15:14.000Z",
-          "id": "2108275041276420573",
-          "isQuote": true,
-          "likes": 8346,
-          "quotedTweetId": "2108262812489531498",
-          "replies": 1544,
-          "retweets": 268,
-          "text": "Day 4/\n\nWe have improved steering to be instant, leading to the model now reacting much faster to adjustments you make, allowing you to course-correct direction in realtime and not have the model waste effort.\n\nAlso releasing GPT-6.1 Sol ultrafast. The two work very well together.",
-          "url": "https://x.com/thsottiaux/status/2108275041276420573"
-        },
-        "id:2108349826727588000": {
-          "createdAt": "2026-10-09T00:12:24.000Z",
-          "id": "2108349826727588000",
-          "isQuote": false,
-          "likes": 19591,
-          "quotedTweetId": null,
-          "replies": 2071,
-          "retweets": 486,
-          "text": "Today, we are announcing ChatGPT.\n\nIt is here: https://t.co/Pgk3THSyOJ",
-          "url": "https://x.com/thsottiaux/status/2108349826727588000"
-        },
         "id:2108650026671231468": {
           "createdAt": "2026-10-09T20:05:17.000Z",
           "id": "2108650026671231468",
@@ -1057,39 +892,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2108301672409960922": {
-          "createdAt": "2026-10-08T21:01:03.000Z",
-          "id": "2108301672409960922",
-          "isQuote": false,
-          "likes": 92,
-          "quotedTweetId": null,
-          "replies": 5,
-          "retweets": 1,
-          "text": "and read more about how to enable the API credits for yourself here: https://t.co/dXXsfLbxH6",
-          "url": "https://x.com/trq212/status/2108301672409960922"
-        },
-        "id:2108312534222778407": {
-          "createdAt": "2026-10-08T21:44:13.000Z",
-          "id": "2108312534222778407",
-          "isQuote": true,
-          "likes": 1248,
-          "quotedTweetId": "2108301668828004396",
-          "replies": 55,
-          "retweets": 52,
-          "text": "whoops I hit send and went to a meeting, didn't realize the repo wasnt public- it is now! \n\nit's a chrome extension I use every day now https://t.co/OroAeTafj0 https://t.co/3AE65z3VqK",
-          "url": "https://x.com/trq212/status/2108312534222778407"
-        },
-        "id:2108312751202537946": {
-          "createdAt": "2026-10-08T21:45:05.000Z",
-          "id": "2108312751202537946",
-          "isQuote": false,
-          "likes": 30,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 0,
-          "text": "here's what I got today https://t.co/ua7zBXbpDP",
-          "url": "https://x.com/trq212/status/2108312751202537946"
-        },
         "id:2108689101503566319": {
           "createdAt": "2026-10-09T22:40:34.000Z",
           "id": "2108689101503566319",

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-12T16:49:41.000Z",
+  "generatedAt": "2026-10-13T03:38:30.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-10-12T07:04:13.260Z",
-    "ageHours": 9.76
+    "ageHours": 20.57
   },
   "x": [
     {
@@ -21,39 +21,6 @@
           "retweets": 2,
           "text": "We hosted @svlevine at @spc this week. \n\nHe is perhaps the best example of clarity in action that I have seen in a long time.\n\nThank you for joining us, Sergey. https://t.co/QpBFTYyIhx",
           "url": "https://x.com/adityaag/status/2108578813751791926"
-        },
-        {
-          "createdAt": "2026-10-08T18:17:29.000Z",
-          "id": "2108260509241991586",
-          "isQuote": true,
-          "likes": 2,
-          "quotedTweetId": "2108232022883766415",
-          "replies": 0,
-          "retweets": 0,
-          "text": "@Waymo @dmitri_dolgov @spc Full conversation out now https://t.co/WcPgl3BW1P",
-          "url": "https://x.com/adityaag/status/2108260509241991586"
-        },
-        {
-          "createdAt": "2026-10-08T17:57:38.000Z",
-          "id": "2108255511443542176",
-          "isQuote": false,
-          "likes": 0,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "Full conversation at @spc https://t.co/5fNQdHCLwp",
-          "url": "https://x.com/adityaag/status/2108255511443542176"
-        },
-        {
-          "createdAt": "2026-10-08T17:53:41.000Z",
-          "id": "2108254520744517652",
-          "isQuote": true,
-          "likes": 19,
-          "quotedTweetId": "2108232022883766415",
-          "replies": 3,
-          "retweets": 2,
-          "text": "When is an autonomous vehicle actually good enough? https://t.co/VQTbWP1Jfj https://t.co/MA8e3UAYgb",
-          "url": "https://x.com/adityaag/status/2108254520744517652"
         }
       ],
       "source": "x",
@@ -92,28 +59,6 @@
           "retweets": 8,
           "text": "We’ve loved seeing so many founders join the Claude Startups program. Unfortunately, we underestimated demand for the program, and we need to pause the Claude Team and $1,000 API credit offers.\n\nWith hundreds of thousands of applicants, we're re-reviewing applications so the program can serve as many startups as possible.\n\nIf you’ve already claimed the Claude offers, they’ll still remain in your account.\n\nIf you applied or were approved and haven’t claimed the offer, we're re-reviewing your application. Unfortunately, this means that some accounts who had already been approved will not get access to the offer. We know this is disappointing and we’re very sorry.\n\nAll accepted program members still have access to the Startup Stack and Applied AI office hours. If you're on a Claude Max or Team plan, your monthly API credits are available in Console as usual.\n\nWe appreciate your patience, and we're working to get you building as quickly as we can.\nhttps://t.co/cq6ce8VKlE",
           "url": "https://x.com/claudeai/status/2108404561413349695"
-        },
-        {
-          "createdAt": "2026-10-08T19:01:24.000Z",
-          "id": "2108271561337606300",
-          "isQuote": false,
-          "likes": 584,
-          "quotedTweetId": null,
-          "replies": 17,
-          "retweets": 19,
-          "text": "When a question needs deeper analysis, send the dashboard to your analytics tool. When an animation needs finishing touches, open it in your video editor.\n\nSee the full list of supported tools: https://t.co/9PSMNUDtDg",
-          "url": "https://x.com/claudeai/status/2108271561337606300"
-        },
-        {
-          "createdAt": "2026-10-08T19:01:24.000Z",
-          "id": "2108271559928389679",
-          "isQuote": false,
-          "likes": 868,
-          "quotedTweetId": null,
-          "replies": 20,
-          "retweets": 24,
-          "text": "Starting today, Claude Docs, Slides, and Design are out of beta and available on every plan including Free.\n\nYour team and Claude can edit the same doc, deck, or design together.",
-          "url": "https://x.com/claudeai/status/2108271559928389679"
         }
       ],
       "source": "x",
@@ -387,17 +332,6 @@
           "retweets": 24,
           "text": "This sounds weird, but it is actually probably a good policy. \n\nEven if you don’t believe AI is conscious (I don’t), it stands to reason that you don’t want future models trained on endless content of humans being rude to models. \n\nThe models only understand the data they’ve been trained on, or what they run into in their interactions, so if you want safe and aligned models we probably want AI to have lots of good interactions in their training data. \n\nAnthropic may have more extreme beliefs than this (though even if they didn’t, you may want to word policies like this), but this is sort of an easy Pascal’s wager for AI. Just be nice to the AI.",
           "url": "https://x.com/levie/status/2108426594054533545"
-        },
-        {
-          "createdAt": "2026-10-08T19:32:55.000Z",
-          "id": "2108279490510193078",
-          "isQuote": true,
-          "likes": 99,
-          "quotedTweetId": "2108240529268039871",
-          "replies": 32,
-          "retweets": 16,
-          "text": "We built Box Mount to allow developers to mount Box as a file system directly in any agent sandbox. As agents do more complex work, they need to be able to work with files and data just like a person would. The future is headless. https://t.co/hGBx3Tv4NL",
-          "url": "https://x.com/levie/status/2108279490510193078"
         }
       ],
       "source": "x",
@@ -620,17 +554,6 @@
           "retweets": 0,
           "text": "@poteto @thsottiaux If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
           "url": "https://x.com/petergyang/status/2108410706546905437"
-        },
-        {
-          "createdAt": "2026-10-08T19:55:44.000Z",
-          "id": "2108285232055263734",
-          "isQuote": true,
-          "likes": 18,
-          "quotedTweetId": "2108068632991256995",
-          "replies": 1,
-          "retweets": 1,
-          "text": "Just insane 😂 https://t.co/IwE5WF1sKX",
-          "url": "https://x.com/petergyang/status/2108285232055263734"
         }
       ],
       "source": "x",
@@ -683,17 +606,6 @@
           "retweets": 17,
           "text": "It's incredible to watch a new kind of economy be born. Agents purchasing infrastructure products and services. We've been shocked by how often they buy from our marketplace via our CLI already. We're now extending this to domains.\n\nAgents can now go full stack, from idea to online business, with a banger domain name 😁",
           "url": "https://x.com/rauchg/status/2108669027363295323"
-        },
-        {
-          "createdAt": "2026-10-09T03:29:25.000Z",
-          "id": "2108399406009798764",
-          "isQuote": false,
-          "likes": 528,
-          "quotedTweetId": null,
-          "replies": 36,
-          "retweets": 20,
-          "text": "Few things more enjoyable in work and life than discovering new talent. Seeing greatness in people, sometimes even before they fully see it themselves.",
-          "url": "https://x.com/rauchg/status/2108399406009798764"
         }
       ],
       "source": "x",
@@ -754,17 +666,6 @@
           "retweets": 10,
           "text": "JavaScript is not a serious language 🙃 https://t.co/7yeq9rr025",
           "url": "https://x.com/steipete/status/2109008513855087082"
-        },
-        {
-          "createdAt": "2026-10-09T01:50:30.000Z",
-          "id": "2108374513931165759",
-          "isQuote": true,
-          "likes": 781,
-          "quotedTweetId": "2108372568843448769",
-          "replies": 66,
-          "retweets": 45,
-          "text": "WE GOT IT! .claw incoming! https://t.co/wn0a7q3FdL",
-          "url": "https://x.com/steipete/status/2108374513931165759"
         }
       ],
       "source": "x",
@@ -806,39 +707,6 @@
           "retweets": 0,
           "text": "most of you are unfortunately not qualified but there is somewhat a path https://t.co/l29L1HJVej \n\nwrote down mine in @Coding_Career 6 years ago and you can now get it free or on amazon https://t.co/P0wqju1nsk \n\ndidnt intend to relaunch CC today but eh why not",
           "url": "https://x.com/swyx/status/2108563331376124389"
-        },
-        {
-          "createdAt": "2026-10-09T02:58:48.000Z",
-          "id": "2108391703488958475",
-          "isQuote": true,
-          "likes": 2,
-          "quotedTweetId": "2108273380298461240",
-          "replies": 0,
-          "retweets": 0,
-          "text": "to paraphrase modern family, there are 5 things wrong in this tweet. the talented {role} will already have posts covering most of them \nhttps://t.co/TEtI8UL5TA",
-          "url": "https://x.com/swyx/status/2108391703488958475"
-        },
-        {
-          "createdAt": "2026-10-09T02:58:39.000Z",
-          "id": "2108391663827849390",
-          "isQuote": true,
-          "likes": 2,
-          "quotedTweetId": "2108273380298461240",
-          "replies": 0,
-          "retweets": 0,
-          "text": "to paraphrase modern family, there are 5 things wrong in this tweet. the talented {role} will already have posts covering most of them \nhttps://t.co/TEtI8ULDJ8",
-          "url": "https://x.com/swyx/status/2108391663827849390"
-        },
-        {
-          "createdAt": "2026-10-09T02:44:36.000Z",
-          "id": "2108388128390086675",
-          "isQuote": true,
-          "likes": 15,
-          "quotedTweetId": "2107888314254815483",
-          "replies": 1,
-          "retweets": 0,
-          "text": "if you cant hire for it, my team will do oneoff consult for you, get in touch business@latent.space \n\nhttps://t.co/TrsDS8PK4l",
-          "url": "https://x.com/swyx/status/2108388128390086675"
         }
       ],
       "source": "x",
@@ -913,17 +781,6 @@
           "retweets": 2,
           "text": "I cannot stress how much I’ve loved using this feature. \n\nFirst we wrote code by hand, then we tab-completed the code. \n\nThen we evolved to prompting agents…and now we tab-complete that too. https://t.co/xxBRKd6SxB",
           "url": "https://x.com/thenanyu/status/2108671762984731037"
-        },
-        {
-          "createdAt": "2026-10-09T00:32:20.000Z",
-          "id": "2108354844658737637",
-          "isQuote": true,
-          "likes": 27,
-          "quotedTweetId": "2108349826727588000",
-          "replies": 2,
-          "retweets": 0,
-          "text": "huge https://t.co/TBeAH6PxED",
-          "url": "https://x.com/thenanyu/status/2108354844658737637"
         }
       ],
       "source": "x",
@@ -1031,28 +888,6 @@
           "retweets": 6,
           "text": "Send feedback to @keyanzhang and @sharifshameem !",
           "url": "https://x.com/thsottiaux/status/2108650026671231468"
-        },
-        {
-          "createdAt": "2026-10-09T00:12:24.000Z",
-          "id": "2108349826727588000",
-          "isQuote": false,
-          "likes": 19591,
-          "quotedTweetId": null,
-          "replies": 2071,
-          "retweets": 486,
-          "text": "Today, we are announcing ChatGPT.\n\nIt is here: https://t.co/Pgk3THSyOJ",
-          "url": "https://x.com/thsottiaux/status/2108349826727588000"
-        },
-        {
-          "createdAt": "2026-10-08T19:15:14.000Z",
-          "id": "2108275041276420573",
-          "isQuote": true,
-          "likes": 8346,
-          "quotedTweetId": "2108262812489531498",
-          "replies": 1544,
-          "retweets": 268,
-          "text": "Day 4/\n\nWe have improved steering to be instant, leading to the model now reacting much faster to adjustments you make, allowing you to course-correct direction in realtime and not have the model waste effort.\n\nAlso releasing GPT-6.1 Sol ultrafast. The two work very well together.",
-          "url": "https://x.com/thsottiaux/status/2108275041276420573"
         }
       ],
       "source": "x",
@@ -1094,39 +929,6 @@
           "retweets": 30,
           "text": "before I joined Anthropic, I spent about 2 weeks hacking on this as a side project with Opus 4. It used the Agent SDK so it needed a constantly running process &amp; didnt work that well\n\nbut one prompt to Opus 5.5 ported it to Claude Managed Agents &amp; made it way more reliable https://t.co/3AE65z3VqK",
           "url": "https://x.com/trq212/status/2108689101503566319"
-        },
-        {
-          "createdAt": "2026-10-08T21:45:05.000Z",
-          "id": "2108312751202537946",
-          "isQuote": false,
-          "likes": 30,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 0,
-          "text": "here's what I got today https://t.co/ua7zBXbpDP",
-          "url": "https://x.com/trq212/status/2108312751202537946"
-        },
-        {
-          "createdAt": "2026-10-08T21:44:13.000Z",
-          "id": "2108312534222778407",
-          "isQuote": true,
-          "likes": 1248,
-          "quotedTweetId": "2108301668828004396",
-          "replies": 55,
-          "retweets": 52,
-          "text": "whoops I hit send and went to a meeting, didn't realize the repo wasnt public- it is now! \n\nit's a chrome extension I use every day now https://t.co/OroAeTafj0 https://t.co/3AE65z3VqK",
-          "url": "https://x.com/trq212/status/2108312534222778407"
-        },
-        {
-          "createdAt": "2026-10-08T21:01:03.000Z",
-          "id": "2108301672409960922",
-          "isQuote": false,
-          "likes": 92,
-          "quotedTweetId": null,
-          "replies": 5,
-          "retweets": 1,
-          "text": "and read more about how to enable the API credits for yourself here: https://t.co/dXXsfLbxH6",
-          "url": "https://x.com/trq212/status/2108301672409960922"
         }
       ],
       "source": "x",
@@ -1187,7 +989,7 @@
   ],
   "stats": {
     "xBuilders": 18,
-    "xTweets": 94,
-    "windowSpanHours": 85.04
+    "xTweets": 76,
+    "windowSpanHours": 75.1
   }
 }
