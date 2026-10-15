@@ -34,15 +34,66 @@ RSSHUB_IMAGE="${RSSHUB_IMAGE:-diygod/rsshub:chromium-bundled-b4a7c36fbcb24e84452
 MIDS=(73414544 519463151 1567748478)
 MIN_BYTES=400
 
+STATUS_FILE="${BILIBILI_STATUS_FILE:-$HOME/Library/Application Support/OpenClaw/FeedRuntime/bilibili-status.json}"
+STARTED_AT="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+successful=()
+failed=()
+CAPTURE_REQUESTED=1
+[[ "${1:-}" != "--start-container" ]] || CAPTURE_REQUESTED=0
+write_capture_status() {
+  (( CAPTURE_REQUESTED )) || return 0
+  /opt/homebrew/bin/python3.11 - "$STATUS_FILE" "$STARTED_AT" "$1" "$2" "${(j:,:)successful}" "${(j:,:)failed}" <<'CAPTURE_PY'
+import json,os,sys,tempfile
+from pathlib import Path
+from datetime import datetime,timezone
+path=Path(sys.argv[1]);started=sys.argv[2];published=sys.argv[3]=='1';detail=sys.argv[4]
+ok=[x for x in sys.argv[5].split(',') if x];failed=[x for x in sys.argv[6].split(',') if x]
+try:prior=json.loads(path.read_text())
+except (OSError,ValueError):prior={}
+last=prior.get('lastFetchedAtBySource',{}) if isinstance(prior,dict) else {};since=prior.get('failedSinceBySource',{}) if isinstance(prior,dict) else {}
+last=dict(last) if isinstance(last,dict) else {};since=dict(since) if isinstance(since,dict) else {}
+now=datetime.now(timezone.utc)
+for uid in ok:last[uid]=started;since.pop(uid,None)
+for uid in failed:since.setdefault(uid,started)
+stale=[]
+for uid in failed:
+ try:
+  stamp=datetime.fromisoformat(since[uid].replace('Z','+00:00'))
+  if stamp.utcoffset() is None or (now-stamp).total_seconds()>=72*3600:stale.append(uid)
+ except (ValueError,TypeError):stale.append(uid)
+result='fail' if not published or not ok or stale else 'warn' if failed else 'ok'
+roots=[]
+if detail.startswith('credential_'):roots=['feeds/credentials']
+elif detail=='runtime_unavailable':roots=['feeds/runtime/openclaw-rsshub']
+else:
+ if not published and detail!='all_sources_failed':roots.append('feeds/publication')
+ roots.extend('feeds/source/'+uid for uid in (failed if not ok else stale))
+payload={'schemaVersion':1,'producer':'feeds-bilibili','result':result,'startedAt':started,'finishedAt':now.isoformat(),'published':published,'detail':detail,'fetchedSources':ok,'failedSources':failed,'lastFetchedAtBySource':last,'failedSinceBySource':since,'staleFailedSources':stale,'rootCauseIds':roots,'rootCauseIdsComplete':result=='fail' and bool(roots)}
+path.parent.mkdir(parents=True,exist_ok=True)
+fd,tmp=tempfile.mkstemp(prefix='.bilibili-',dir=path.parent)
+try:
+ with os.fdopen(fd,'w') as f:json.dump(payload,f,ensure_ascii=False,indent=2);f.write('\n')
+ os.replace(tmp,path)
+finally:
+ if os.path.exists(tmp):os.unlink(tmp)
+CAPTURE_PY
+}
+
 if [[ ! -r "$ENV_FILE" ]]; then
   print -u2 "FAIL credential file missing or unreadable: $ENV_FILE"
   print -u2 "     This leg cannot run without it. See the setup block at the top of this script."
   print -u2 "     Nothing was written; the previously published feeds are untouched."
+  failed=("${MIDS[@]}")
+  write_capture_status 0 credential_file_unavailable
   exit 1
 fi
 set -a; source "$ENV_FILE"; set +a
-: "${BILIBILI_UID:?FAIL BILIBILI_UID is not set in $ENV_FILE}"
-: "${BILIBILI_SESSDATA:?FAIL BILIBILI_SESSDATA is not set in $ENV_FILE}"
+if [[ -z "${BILIBILI_UID:-}" || -z "${BILIBILI_SESSDATA:-}" ]]; then
+  print -u2 "FAIL required Bilibili session fields are missing"
+  failed=("${MIDS[@]}")
+  write_capture_status 0 credential_fields_unavailable
+  exit 1
+fi
 
 if [[ "${1:-}" == "--start-container" ]]; then
   # Resolve the image before touching a serving container, and retain rollback.
@@ -99,10 +150,11 @@ fi
 if ! curl -fsS --max-time 10 "$RSSHUB_URL/" >/dev/null 2>&1; then
   print -u2 "FAIL RSSHub is not answering at $RSSHUB_URL"
   print -u2 "     Start it with: $0 --start-container"
+  failed=("${MIDS[@]}")
+  write_capture_status 0 runtime_unavailable
   exit 1
 fi
 
-failed=()
 for mid in "${MIDS[@]}"; do
   dest="$REPO/feeds/bilibili/$mid.xml"
   tmp="$(mktemp)"
@@ -123,7 +175,9 @@ for mid in "${MIDS[@]}"; do
     # HTTP failure. Overwriting a good feed with one of those is the whole risk.
     if (( size >= MIN_BYTES )) && grep -q "<item>" "$tmp"; then
       mv "$tmp" "$dest"
+      rm -f "$tmp.err"
       print "OK   $mid ($size bytes)"
+      successful+=("$mid")
       continue
     fi
     print -u2 "MISS $mid: response has no items (${size}B) -- cookie expired, or the route broke"
@@ -134,38 +188,40 @@ for mid in "${MIDS[@]}"; do
   failed+=("$mid")
 done
 
-if (( ${#failed[@]} )); then
-  print -u2 "FAIL ${#failed[@]}/${#MIDS[@]} bilibili source(s) failed: ${failed[*]}"
-  # Which diagnosis is right is decided by the other sources, not guessed. If any
-  # of them returned items the cookie demonstrably works, and blaming it would send
-  # the reader off to fix something that is not broken. A confident wrong diagnosis
-  # costs more than none.
-  if (( ${#failed[@]} == ${#MIDS[@]} )); then
-    print -u2 "     Every source failed, so the shared cause is most likely the credential:"
-    print -u2 "     refresh SESSDATA in $ENV_FILE (~1 month lifetime), then $0 --start-container && $0"
-  else
-    print -u2 "     $(( ${#MIDS[@]} - ${#failed[@]} )) other source(s) returned items, so the credential works."
-    print -u2 "     This is per-source: a cold RSSHub route, an upstream hiccup, or a space with"
-    print -u2 "     no videos. Re-run once before investigating further."
-  fi
+if (( ${#failed[@]} == ${#MIDS[@]} )); then
+  print -u2 "FAIL all bilibili sources failed; retained the previously validated feeds"
+  print -u2 "     Check the shared runtime, current session and upstream response; no credential failure is assumed."
+  write_capture_status 0 all_sources_failed
   exit 1
+elif (( ${#failed[@]} )); then
+  print -u2 "WARN ${#failed[@]}/${#MIDS[@]} sources unavailable (${failed[*]}); publishing validated sources and retaining their last good peers"
 fi
 
 cd "$REPO"
 if [[ -n "$(git status --porcelain feeds/bilibili)" ]]; then
   git add feeds/bilibili
-  git -c user.name="openclaw-feeds" -c user.email="tian1617@sohu.com" \
-    commit -q -m "chore(bilibili): refresh uploads feeds"
-  # The Actions harvester pushes to this same branch twice a day. Without a rebase
-  # the first such push makes every later run here a non-fast-forward rejection,
-  # stacking commits on a stale base until a human intervenes -- the leg would go
-  # quiet from that moment on.
-  if ! git pull --rebase --autostash -q; then
-    print -u2 "FAIL cannot rebase onto origin/main; the feeds were captured but not published"
+  if ! git -c user.name="openclaw-feeds" -c user.email="tian1617@sohu.com" commit -q -m "chore(bilibili): refresh validated uploads feeds"; then
+    write_capture_status 0 git_commit_failed
     exit 1
   fi
-  git push -q
+fi
+# A previously failed push remains pending even if this capture has no new diff.
+if ! git pull --rebase --autostash -q; then
+  print -u2 "FAIL cannot rebase onto origin/main; validated feeds retained locally"
+  write_capture_status 0 git_pull_failed
+  exit 1
+fi
+if ! pending="$(git rev-list --count '@{upstream}..HEAD')"; then
+  write_capture_status 0 git_upstream_unavailable
+  exit 1
+fi
+if (( pending > 0 )); then
+  if ! git push -q; then
+    write_capture_status 0 git_push_failed
+    exit 1
+  fi
   print "pushed"
 else
-  print "no change"
+  print "already published"
 fi
+write_capture_status 1 validated_sources_published
