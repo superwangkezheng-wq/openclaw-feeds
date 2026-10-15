@@ -28,6 +28,9 @@ ENV_FILE="${BILIBILI_ENV_FILE:-$HOME/.config/openclaw-feeds/bilibili.env}"
 RSSHUB_PORT="${RSSHUB_PORT:-1201}"
 RSSHUB_URL="${RSSHUB_URL:-http://127.0.0.1:$RSSHUB_PORT}"
 CONTAINER="${RSSHUB_CONTAINER:-openclaw-rsshub}"
+# Pin the admitted official release, including its maintained browser fallback.
+# The slim image answers homepage health checks but cannot execute browser fallbacks.
+RSSHUB_IMAGE="${RSSHUB_IMAGE:-diygod/rsshub:chromium-bundled-b4a7c36fbcb24e84452a74d772a59fd73d4588c3}"
 MIDS=(73414544 519463151 1567748478)
 MIN_BYTES=400
 
@@ -42,7 +45,23 @@ set -a; source "$ENV_FILE"; set +a
 : "${BILIBILI_SESSDATA:?FAIL BILIBILI_SESSDATA is not set in $ENV_FILE}"
 
 if [[ "${1:-}" == "--start-container" ]]; then
-  docker rm -f "$CONTAINER" >/dev/null 2>&1 || true
+  # Resolve the image before touching a serving container, and retain rollback.
+  docker image inspect "$RSSHUB_IMAGE" >/dev/null 2>&1 || docker pull "$RSSHUB_IMAGE"
+  # Functional preflight: a landing-page 200 cannot prove the browser can run.
+  docker run --rm --entrypoint /bin/sh "$RSSHUB_IMAGE" -c '
+    browser="$(sed -n "s/^CHROMIUM_EXECUTABLE_PATH=//p" /app/.env | head -n 1)"
+    test -n "$browser" && test -x "$browser" &&
+      "$browser" --headless --no-sandbox --disable-gpu --dump-dom about:blank >/dev/null 2>&1
+  '
+  previous=""
+  if docker container inspect "$CONTAINER" >/dev/null 2>&1; then
+    previous="${CONTAINER}-rollback-$(date +%Y%m%d%H%M%S)"
+    docker stop "$CONTAINER" >/dev/null
+    if ! docker rename "$CONTAINER" "$previous"; then
+      docker start "$CONTAINER" >/dev/null
+      exit 1
+    fi
+  fi
   # Bound to loopback on purpose: this service holds a session cookie and has no
   # business being reachable from anywhere but this machine.
   #
@@ -56,15 +75,23 @@ if [[ "${1:-}" == "--start-container" ]]; then
   # the same interface `docker inspect`'s Health block reports on, which is the
   # container's own network namespace. start-period 30s covers the ~20s boot this
   # script already documented above.
-  docker run -d --name "$CONTAINER" --restart unless-stopped \
+  if ! docker run -d --name "$CONTAINER" --restart unless-stopped \
     -p "127.0.0.1:$RSSHUB_PORT:1200" \
     -e "BILIBILI_COOKIE_${BILIBILI_UID}=SESSDATA=${BILIBILI_SESSDATA}" \
-    --health-cmd "curl -sf --max-time 5 -o /dev/null http://127.0.0.1:1200/ || exit 1" \
+    --health-cmd 'browser="$(sed -n "s/^CHROMIUM_EXECUTABLE_PATH=//p" /app/.env | head -n 1)"; test -n "$browser" && test -x "$browser" && curl -sf --max-time 5 -o /dev/null http://127.0.0.1:1200/'  \
     --health-interval 30s \
     --health-timeout 10s \
     --health-start-period 30s \
     --health-retries 3 \
-    diygod/rsshub:latest
+    "$RSSHUB_IMAGE"; then
+    docker rm -f "$CONTAINER" >/dev/null 2>&1 || true
+    if [[ -n "$previous" ]]; then
+      docker rename "$previous" "$CONTAINER"
+      docker start "$CONTAINER" >/dev/null
+    fi
+    exit 1
+  fi
+  [[ -z "$previous" ]] || print "rollback retained: $previous"
   print "started $CONTAINER; give it ~20s to boot, then run this script with no arguments"
   exit 0
 fi
