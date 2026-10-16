@@ -11,6 +11,144 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:ZLVlr9Jy1Gs</id>
+  <yt:videoId>ZLVlr9Jy1Gs</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>OpenAI Codex 增加算力投入；DeepSeek 补偿服务中断【AI 早报 2026-10-16】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ZLVlr9Jy1Gs"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-16T01:53:31+00:00</published>
+  <updated>2026-10-16T09:07:18+00:00</updated>
+  <media:group>
+   <media:title>OpenAI Codex 增加算力投入；DeepSeek 补偿服务中断【AI 早报 2026-10-16】</media:title>
+   <media:content url="https://www.youtube.com/v/ZLVlr9Jy1Gs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ZLVlr9Jy1Gs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+Codex 28 天活动：重置额度，增加算力投入 00:08
+https://x.com/thsottiaux/status/2110750421367287996
+https://x.com/thsottiaux/status/2110595484180214059
+
+DeepSeek 恢复服务，赠金形式补偿 API 用户 00:24
+https://status.deepseek.com/incidents/7086651324287
+https://platform.deepseek.com/usage
+https://x.com/tianyi/status/2110663080246132855
+
+Gemini 4 Argon 向正价付费 Google AI Pro 用户开放 00:43
+https://x.com/antigravity/status/2110866531932316011
+https://antigravity.google/docs/models
+https://antigravity.google/blog/gemini-4-argon-in-google-antigravity
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/
+
+Meta 发布多模态开放权重模型 Muse Spark Open 00:56
+https://research.meta.ai/blog/muse-spark-open
+https://huggingface.co/blog/meta-muse-spark-open
+https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B
+
+ChatGPT Chrome 扩展升级，可读取并控制标签页 01:14
+https://learn.chatgpt.com/docs/chrome-extension
+https://chromewebstore.google.com/detail/chatgpt/hehggadaopoacecdllhhajmbjkdcmajg
+https://x.com/ChatGPT/status/2110823738531037651
+
+ChatGPT 语音更新：新增多语言音色、改善口音 01:32
+https://x.com/OpenAI/status/2110797830361436604
+https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+
+FLUX 3 Image Klein 发布并开放权重 01:45
+https://bfl.ai/blog/flux-3-image-klein
+https://huggingface.co/black-forest-labs/flux-3-image-klein
+https://blog.comfy.org/p/flux-3-image-klein-in-comfyui-56b
+
+微软宣布 MAI-Base-2 完成预训练，2.8T总参数 02:01
+https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/
+https://microsoft.ai/pdf/Frontier-Pre-training-at-Microsoft-AI.pdf
+https://x.com/mustafasuleyman/status/2110766651344146564
+
+可灵 Kling 4.0 全量上线，接入 MCP 和 CLI 02:14
+https://mp.weixin.qq.com/s?__biz=MzU5NTkwNDU2OA==&amp;mid=2247497194&amp;idx=1&amp;sn=5ad686eba90d8332d7c49025ab39468f&amp;chksm=ff6d7094465595fa40ad92cba41a893249d223c00036fc9c097d540169441abb1aba8da7ddfc#rd
+https://x.com/Kling_ai/status/2110747537187709424
+https://kling.ai/release-note/release-notes/Kling_4
+
+阶跃 Step 5 Preview 开放模型权重 02:25
+https://github.com/stepfun-ai/Step-5-Preview
+
+PrismML 发布 Bonsai 2 系列小模型 02:37
+https://prismml.com/news/bonsai-2-family
+https://huggingface.co/prism-ml/Ternary-Bonsai-2-9B-gguf
+
+英伟达发布 Nemotron Bolt 本地模型 02:51
+https://research.nvidia.com/labs/nemotron/Nemotron-3.5-Bolt-24GB/
+https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB
+https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-Technical-Report.pdf
+
+英伟达发布 Nemotron 3.5 Super VL 03:05
+https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/
+https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16
+https://unsloth.ai/docs/models/nemotron-3.5-super-vl
+
+Mistral 发布时间序列模型 Timestral 03:19
+https://mistral.ai/news/timestral
+https://github.com/mistralai/timestral
+https://huggingface.co/collections/mistralai/timestral
+
+IBM 发布 Granite Switch 4.1 03:33
+https://huggingface.co/blog/ibm-granite/granite-switch-4-1
+https://github.com/generative-computing/granite-switch
+
+Krea 3 图像编辑模型开放测试 03:42
+https://www.krea.ai/blog/introducing-krea-3
+https://x.com/krea_ai/status/2110760037128012146
+
+OpenCode 限免 DeepSeek V4.1 Flash 03:58
+https://x.com/opencode/status/2110635747648909472
+https://opencode.ai/v2/docs/console/models/
+
+MiniMax Code 推出 MiniApp 和 MiniMax Bot 04:11
+https://x.com/Ronny_MiniMax/status/2110575910630182927
+https://github.com/MiniMax-AI/MiniMax-Code-MiniApps
+https://agent.minimax.io/docs/code/agents/miniapp-overview
+
+OpenAI 推出 Codex 硬件项目社区站点 04:27
+https://youcanjustbuildthings.openai.chatgpt.site
+https://x.com/OpenAIDevs/status/2110855363616763922
+
+Google 推出 Gemma 全新官方文档中心 04:37
+https://gemma.ai/deployment/
+https://x.com/googlegemma/status/2110790546923126890
+
+Opus 5.5 快速模式结束研究预览 04:46
+https://x.com/ClaudeDevs/status/2110825294655562048
+https://platform.claude.com/docs/en/build-with-claude/fast-mode
+
+Claude Code Review 正式开放 04:58
+https://claude.com/resources/articles/code-review-is-now-generally-available
+https://code.claude.com/docs/en/code-review
+https://x.com/ClaudeDevs/status/2110866214528716975
+
+Cognition 推出 Devin Oncall，协助诊断和解决生产事故 05:08
+https://devin.ai/blog/introducing-devin-oncall
+https://x.com/cognition/status/2110790099776749757
+
+ElevenLabs 推出视频自动配乐与音效功能 05:22
+https://elevenlabs.io/blog/introducing-instant-soundtracks
+
+Google AI 搜索更新：突出链接与来源信息 05:31
+https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/
+
+Google News AI 试点合作机构超 400 家 05:42
+https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-publishers/
+
+ChatGPT Sites 更新：企业</media:description>
+   <media:community>
+    <media:starRating count="26" average="5.00" min="1" max="5"/>
+    <media:statistics views="1545"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:nBOZma9CKwc</id>
   <yt:videoId>nBOZma9CKwc</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -21,7 +159,7 @@
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-15T01:50:37+00:00</published>
-  <updated>2026-10-15T04:47:05+00:00</updated>
+  <updated>2026-10-15T23:09:18+00:00</updated>
   <media:group>
    <media:title>Claude Code 桌面版更新优化多会话体验【AI 早报 2026-10-15】</media:title>
    <media:content url="https://www.youtube.com/v/nBOZma9CKwc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -133,8 +271,8 @@ https://apate.ai/
 DeepSeek 网页及 API 出现中断 06:21
 https://status.deepseek.com/incidents/7116348214287</media:description>
    <media:community>
-    <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="2292"/>
+    <media:starRating count="34" average="5.00" min="1" max="5"/>
+    <media:statistics views="4058"/>
    </media:community>
   </media:group>
  </entry>
@@ -260,8 +398,8 @@ https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build
 报道称字节 Seed 将成立安全与对齐部门 05:56
 https://www.thepaper.cn/newsDetail_forward_34241236</media:description>
    <media:community>
-    <media:starRating count="32" average="5.00" min="1" max="5"/>
-    <media:statistics views="4023"/>
+    <media:starRating count="33" average="5.00" min="1" max="5"/>
+    <media:statistics views="4428"/>
    </media:community>
   </media:group>
  </entry>
@@ -382,7 +520,7 @@ https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora
 https://mp.weixin.qq.com/s/gX2yV5_2tHw9kCj8ND7W2g</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="1688"/>
+    <media:statistics views="1690"/>
    </media:community>
   </media:group>
  </entry>
@@ -397,7 +535,7 @@ https://mp.weixin.qq.com/s/gX2yV5_2tHw9kCj8ND7W2g</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-12T00:42:15+00:00</published>
-  <updated>2026-10-12T13:54:23+00:00</updated>
+  <updated>2026-10-15T03:28:11+00:00</updated>
   <media:group>
    <media:title>GPT-6.1 Sol 在 Codex 中的默认上下文升至 500k【AI 早报 2026-10-12】</media:title>
    <media:content url="https://www.youtube.com/v/PqeU66fFXU8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -421,7 +559,7 @@ https://x.com/elonmusk/status/2109012639049244981
 https://linux.do/t/topic/3008137</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1020"/>
+    <media:statistics views="1033"/>
    </media:community>
   </media:group>
  </entry>
@@ -436,7 +574,7 @@ https://linux.do/t/topic/3008137</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-11T01:02:57+00:00</published>
-  <updated>2026-10-11T11:04:06+00:00</updated>
+  <updated>2026-10-14T03:44:14+00:00</updated>
   <media:group>
    <media:title>Codex 将重置；代号 MISSINGNO. 模型上线【AI 早报 2026-10-11】</media:title>
    <media:content url="https://www.youtube.com/v/YgsWfbCbgQ0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -480,7 +618,7 @@ https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-bu
 https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2222"/>
+    <media:statistics views="2218"/>
    </media:community>
   </media:group>
  </entry>
@@ -608,8 +746,8 @@ https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack
 
 Kimi 第三方客户端思维链调整，据用户反馈已回滚 06:35</media:description>
    <media:community>
-    <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="2440"/>
+    <media:starRating count="27" average="5.00" min="1" max="5"/>
+    <media:statistics views="2450"/>
    </media:community>
   </media:group>
  </entry>
@@ -736,7 +874,7 @@ https://mp.weixin.qq.com/s/cmjfJ40G8ZSr9vyPLLy37g
 Arena 完成</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2253"/>
+    <media:statistics views="2255"/>
    </media:community>
   </media:group>
  </entry>
@@ -864,7 +1002,7 @@ Surface Laptop Ultra 开启预售，2599 美元起 06:12
 https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-s</media:description>
    <media:community>
     <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="5614"/>
+    <media:statistics views="5623"/>
    </media:community>
   </media:group>
  </entry>
@@ -1002,7 +1140,7 @@ https://blog.google/innovation-and-ai/technology/health/google-earth-ai/
 https://x.com/Google/</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="4720"/>
+    <media:statistics views="4723"/>
    </media:community>
   </media:group>
  </entry>
@@ -1079,7 +1217,7 @@ https://www.winknews.com/news/woman-arrested-after-ai-threat-against-lee-county-
 https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-reports-florida-womans-claude-diary-threat-to-shoot-up-sheriffs-office-felony-charge-follows-its-at-least-the-third-such-conversation-to-reach-police-since-august</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="2221"/>
+    <media:statistics views="2224"/>
    </media:community>
   </media:group>
  </entry>
@@ -1117,7 +1255,7 @@ https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-
 https://www.axios.com/2026/10/04/reflection-open-weight-ai</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1139"/>
+    <media:statistics views="1143"/>
    </media:community>
   </media:group>
  </entry>
@@ -1371,144 +1509,7 @@ Anthropic 招股书披露 420 亿美元 Broadcom 融资安排 06:11
 https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="2740"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:pg--eJh5SE0</id>
-  <yt:videoId>pg--eJh5SE0</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>Google 发布 Gemini 4 Argon 模型，初步仅通过 Fairwind Program 开放【AI 早报 2026-10-01】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=pg--eJh5SE0"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-10-01T01:54:32+00:00</published>
-  <updated>2026-10-04T23:39:33+00:00</updated>
-  <media:group>
-   <media:title>Google 发布 Gemini 4 Argon 模型，初步仅通过 Fairwind Program 开放【AI 早报 2026-10-01】</media:title>
-   <media:content url="https://www.youtube.com/v/pg--eJh5SE0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/pg--eJh5SE0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-Google 发布 Gemini 4 Argon 00:09
-https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/
-https://deepmind.google/fairwind-program/
-https://deepmind.google/models/evals-methodology/gemini-4-argon
-
-哔哩哔哩发布并开源 Index-Translate 多语言翻译模型系列 00:55
-https://index-translate.bilibili.com/
-https://github.com/bilibili/Index-Translate
-https://huggingface.co/collections/IndexTeam/index-translate
-
-蚂蚁百灵发布 Ling-3.1-flash，开放两周免费体验 01:22
-https://chat.ant-ling.com/chat
-https://maas.antdigital.com/models/modelservice-1790229240754001388
-https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway
-https://mp.weixin.qq.com/s/-eHoHAYQXgPP-EUpkgoCcA
-
-MiniMax 上线 M Plan 订阅，Token Plan 停止新购 01:36
-https://platform.minimax.cn/docs/token-plan/announcements
-https://platform.minimax.cn/docs/m-plan/intro
-
-Space Bunny Alpha 匿名测试期延长至 10 月 5 日 02:10
-https://openrouter.ai/stealth/space-bunny-alpha
-https://x.com/OpenRouter/status/2105388935014990311
-
-Anthropic 宣布上线开发者新站点 Claude.dev 02:19
-https://Claude.dev
-https://x.com/ClaudeDevs/status/2105391694741119047
-
-Pi v0.99.0 加入 MCP 与 ChatGPT 订阅登录功能 02:30
-https://earendil.com/posts/you-said-no-mcp/
-https://github.com/earendil-works/pi/releases/tag/v0.99.0
-
-Grok Bot 更新软件开发能力，可移交任务给 Cursor 02:44
-https://x.com/bot/status/2105373767568621895
-https://x.ai/bot/marketplace/engineering
-
-Ollama 支持 Jev 类决策模型本地运行 02:55
-https://ollama.com/blog/ollama-now-supports-jev-style-decision-models
-
-WorkBuddy 两项限免延期至 10 月 31 日 03:07
-https://mp.weixin.qq.com/s/G_v9I1jO-cfJFsH4CGhX6A
-
-ChatGPT Sites 现已支持托管 MCP 服务器可转成插件 03:15
-https://x.com/OpenAIDevs/status/2105440399531577675
-
-Google 为 Gemini 推出 skills 功能 03:31
-https://x.com/GeminiApp/status/2105327839054835886
-
-豆包上线出行服务，一句话订机票火车票打车导航 03:48
-https://mp.weixin.qq.com/s/Pr_KBkhX3rr4UNmx5WBLvA
-https://www.ithome.com/1/008/646.htm
-
-Xiaomi-OCR-0 开放权重、代码与线上 Demo 04:00
-https://github.com/SeerRay-Lab/Xiaomi-OCR-0
-https://huggingface.co/collections/SeerRay-Lab/xiaomi-ocr-0
-
-Perplexity 发布 9B 上下文嵌入模型预览版 04:11
-https://x.com/perplexity_ai/status/2105373989262827915
-https://huggingface.co/perplexity-ai/pplx-embed-v2-context-9b-preview
-https://github.com/illuin-tech/contextual-embeddings
-
-Cohere 发布 Embed 5 系列 embedding 模型 04:21
-https://x.com/cohere/status/2105285142394896435
-
-HeyGen 发布通用视频模型 HeyGen Video 04:33
-https://developers.heygen.com/docs/models/heygen-video
-https://x.com/HeyGen/status/2105352603542720675
-
-Ideogram 发布 Ideogram 4.5 图像编辑模型 04:46
-https://ideogram.ai/models/4.5/
-https://x.com/ideogram_ai/status/2105327223431737780
-
-Inception 决策模型 Mercury Decide 上线 OpenRouter 04:57
-https://x.com/_inception_ai/status/2105375133003325768
-
-Inception 发布语音 Agent 专用模型 Mercury Voice 05:07
-https://www.inceptionlabs.ai/blog/introducing-mercury-voice
-https://x.com/_inception_ai/status/2104974439314321660
-
-DeepSeek 开源面向华为昇腾的基础设施组件 05:21
-https://mp.weixin.qq.com/s/X41mKH4Ds-VXUAnK6M8Eww
-https://github.com/tile-ai/tilelang
-
-Anthropic 研究称机器人可完成 74% 美国体力任务 05:38
-https://www.anthropic.com/research/what-work-can-robots-do
-
-Google DeepMind 发布 SynthID Bio 蛋白质水印技术 05:53
-https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/
-https://deepmind.google/blog/introducing-synthid-bio/
-http://www.nature.com/articles/s41586-026-10965-y
-
-Artificial Analysis 开源本地 Agent 推理测试工具 06:10
-https://github.com/ArtificialAnalysis/aa-agentperf-local
-https://artificialanalysis.ai/hardware-inference-stack/laptops-workstations
-
-Artificial Analysis 推出文生视频基准 v2.0 06:23
-https://x.com/ArtificialAnlys/status/2105291240573190370
-
-腾讯混元联合高校发布探索能力基准 ExplorationBench 06:38
-https://explorationbench.com/blog/
-
-OpenAI 与 Synopsys 合作开发芯片设计专用模型 06:49
-https://www.prnewswire.com/news-releases/openai-and-synopsys-announce-gpt-synopsys-frontier-intelligence-to-revolutionize-chip-design-302894874.html
-https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design?utm_source=linkedin&amp;utm_medium=organicsocial&amp;utm_campaign=ns_openai&amp;utm_content=zz_post_fol_nws&amp;tags=SocialMedia
-
-OpenAI 发文称称已挫败一场有组织的模型推理提取行动 07:02
-https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/
-
-FTC 对 OpenAI 等实验室启动行业调查 07:15
-https://www.semafor.com/article/09/30/2026/ftc-probes-openai-anthropic-and-metr
-https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html
-
-智谱称</media:description>
-   <media:community>
-    <media:starRating count="62" average="5.00" min="1" max="5"/>
-    <media:statistics views="5881"/>
+    <media:statistics views="2743"/>
    </media:community>
   </media:group>
  </entry>
