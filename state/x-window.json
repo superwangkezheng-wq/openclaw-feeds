@@ -118,17 +118,6 @@
       "name": "Dan Shipper",
       "source": "x",
       "tweets": {
-        "id:2109331798282915907": {
-          "createdAt": "2026-10-11T17:14:24.000Z",
-          "id": "2109331798282915907",
-          "isQuote": false,
-          "likes": 73,
-          "quotedTweetId": null,
-          "replies": 19,
-          "retweets": 4,
-          "text": "made a feed that automatically tracks the books im reading (and have read going back to 2012!)\n\nmaybe we should have a feed for everybody @every could be fun to see https://t.co/rKpU0itSMX",
-          "url": "https://x.com/danshipper/status/2109331798282915907"
-        },
         "id:2109776532503732624": {
           "createdAt": "2026-10-12T22:41:37.000Z",
           "id": "2109776532503732624",
@@ -236,39 +225,6 @@
       "name": "Garry Tan",
       "source": "x",
       "tweets": {
-        "id:2109410082769482174": {
-          "createdAt": "2026-10-11T22:25:29.000Z",
-          "id": "2109410082769482174",
-          "isQuote": true,
-          "likes": 1624,
-          "quotedTweetId": "2102061534956662818",
-          "replies": 129,
-          "retweets": 71,
-          "text": "Replacing LLM calls with deterministic code is a no brainer and also results in better code that better matches what users want https://t.co/jzOeeoHFMO",
-          "url": "https://x.com/garrytan/status/2109410082769482174"
-        },
-        "id:2109417956929327510": {
-          "createdAt": "2026-10-11T22:56:46.000Z",
-          "id": "2109417956929327510",
-          "isQuote": true,
-          "likes": 239,
-          "quotedTweetId": "2109407841358647359",
-          "replies": 22,
-          "retweets": 22,
-          "text": "If you wonder what an SF Public Bank will do for the city…\n\nFor you? Absolutely nothing. \n\nFor Jackie Fielder’s nonprofit grifter cronies? Absolutely everything. https://t.co/rIjHhK7jFI",
-          "url": "https://x.com/garrytan/status/2109417956929327510"
-        },
-        "id:2109418482953814026": {
-          "createdAt": "2026-10-11T22:58:52.000Z",
-          "id": "2109418482953814026",
-          "isQuote": true,
-          "likes": 1113,
-          "quotedTweetId": "2109361546505966046",
-          "replies": 66,
-          "retweets": 34,
-          "text": "Be part of the 5000 today. It’s amazing\n\nThe lucky thing is the price will come down and more people will see this, and get a chance to bring it to the world\n\nGreatest alpha fountain in the history of man https://t.co/0CQTE04g9m",
-          "url": "https://x.com/garrytan/status/2109418482953814026"
-        },
         "id:2109749184639488265": {
           "createdAt": "2026-10-12T20:52:57.000Z",
           "id": "2109749184639488265",
@@ -400,24 +356,6 @@
         }
       }
     },
-    "karpathy": {
-      "handle": "karpathy",
-      "name": "Andrej Karpathy",
-      "source": "x",
-      "tweets": {
-        "id:2109361546505966046": {
-          "createdAt": "2026-10-11T19:12:37.000Z",
-          "id": "2109361546505966046",
-          "isQuote": true,
-          "likes": 30115,
-          "quotedTweetId": "2042334451611693415",
-          "replies": 1357,
-          "retweets": 3852,
-          "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel.\n\n- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.\n- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract.\n- Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code.\n- And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while.\n\nThe funnel is driven by a combination of factors:\n1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel.\n2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel.\n3. Access. Free-tier, paid-tier, internal.\n\nSo this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time.",
-          "url": "https://x.com/karpathy/status/2109361546505966046"
-        }
-      }
-    },
     "levie": {
       "bio": "ceo @box - your business lives in content. unleash it with AI",
       "handle": "levie",
@@ -498,28 +436,6 @@
       "name": "Matt Turck",
       "source": "x",
       "tweets": {
-        "id:2109345191010472332": {
-          "createdAt": "2026-10-11T18:07:37.000Z",
-          "id": "2109345191010472332",
-          "isQuote": false,
-          "likes": 54,
-          "quotedTweetId": null,
-          "replies": 12,
-          "retweets": 0,
-          "text": "People were punch card operators then they were Lotus Notes admins, then they were Flash developers and Dreamweaver webmasters, then they were DevOps and Tableau analysts, and now they’re becoming agent managers and harness engineers.  It will work out just fine.",
-          "url": "https://x.com/mattturck/status/2109345191010472332"
-        },
-        "id:2109410677526065460": {
-          "createdAt": "2026-10-11T22:27:51.000Z",
-          "id": "2109410677526065460",
-          "isQuote": false,
-          "likes": 64,
-          "quotedTweetId": null,
-          "replies": 4,
-          "retweets": 1,
-          "text": "Please respect my privacy during this difficult time in the family https://t.co/qliJU9WvVY",
-          "url": "https://x.com/mattturck/status/2109410677526065460"
-        },
         "id:2110441018113904772": {
           "createdAt": "2026-10-14T18:42:03.000Z",
           "id": "2110441018113904772",
@@ -539,17 +455,6 @@
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2109428362171305984": {
-          "createdAt": "2026-10-11T23:38:07.000Z",
-          "id": "2109428362171305984",
-          "isQuote": false,
-          "likes": 20,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "🔵👼 https://t.co/fCataNatin",
-          "url": "https://x.com/nikunj/status/2109428362171305984"
-        },
         "id:2109763529276559566": {
           "createdAt": "2026-10-12T21:49:57.000Z",
           "id": "2109763529276559566",
@@ -613,39 +518,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2109433961223180517": {
-          "createdAt": "2026-10-12T00:00:22.000Z",
-          "id": "2109433961223180517",
-          "isQuote": true,
-          "likes": 24,
-          "quotedTweetId": "2109293947755651371",
-          "replies": 9,
-          "retweets": 1,
-          "text": "\"I'm not at a point where I trust the agent, especially with stuff that people are using.\"\n\nFrom Micky (@Rasmic), who's taught 100K+ people to build with AI:\n\n\"The manual review is like the final step. All the work's done, and I have as much evidence from the agent as possible.\n\nWith evidence-driven testing, before and after, and even greploop, we're trying to build trust. The agent presents evidence: This is the work that's done, and this is why it's good.\n\nFor anyone who's been a developer for any time, manual review is probably the worst part of your job. This sort of helps minimize the friction.\"\n\n📌 Watch Micky's full 4-step workflow here: https://t.co/ju9aMQKaCE",
-          "url": "https://x.com/petergyang/status/2109433961223180517"
-        },
-        "id:2109434554729824397": {
-          "createdAt": "2026-10-12T00:02:43.000Z",
-          "id": "2109434554729824397",
-          "isQuote": false,
-          "likes": 75,
-          "quotedTweetId": null,
-          "replies": 15,
-          "retweets": 4,
-          "text": "Building a @modretro game with my daughter and Codex https://t.co/78Ev7iGuG1",
-          "url": "https://x.com/petergyang/status/2109434554729824397"
-        },
-        "id:2109435203269878242": {
-          "createdAt": "2026-10-12T00:05:18.000Z",
-          "id": "2109435203269878242",
-          "isQuote": false,
-          "likes": 3,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "YouTube comments undefeated the disrespect to @Rasmic  😭 https://t.co/SiPRGxvUwc",
-          "url": "https://x.com/petergyang/status/2109435203269878242"
-        },
         "id:2109803399332213090": {
           "createdAt": "2026-10-13T00:28:23.000Z",
           "id": "2109803399332213090",
@@ -753,17 +625,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2109297685392175488": {
-          "createdAt": "2026-10-11T14:58:51.000Z",
-          "id": "2109297685392175488",
-          "isQuote": true,
-          "likes": 2659,
-          "quotedTweetId": "2108948624004526516",
-          "replies": 63,
-          "retweets": 94,
-          "text": "So cool. The future of learning https://t.co/cT6crizjKp",
-          "url": "https://x.com/rauchg/status/2109297685392175488"
-        },
         "id:2109719267344261375": {
           "createdAt": "2026-10-12T18:54:04.000Z",
           "id": "2109719267344261375",
@@ -909,17 +770,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2109365419937239158": {
-          "createdAt": "2026-10-11T19:28:00.000Z",
-          "id": "2109365419937239158",
-          "isQuote": true,
-          "likes": 36,
-          "quotedTweetId": "2069964772003770673",
-          "replies": 24,
-          "retweets": 3,
-          "text": "reupping my talk tips thread for all our lovely AIE NYC speakers. see you tmr at speaker dinner! https://t.co/1xf4Eblnil",
-          "url": "https://x.com/swyx/status/2109365419937239158"
-        },
         "id:2109772705532715166": {
           "createdAt": "2026-10-12T22:26:25.000Z",
           "id": "2109772705532715166",
@@ -1057,39 +907,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2109430343346581527": {
-          "createdAt": "2026-10-11T23:45:59.000Z",
-          "id": "2109430343346581527",
-          "isQuote": false,
-          "likes": 10608,
-          "quotedTweetId": null,
-          "replies": 1320,
-          "retweets": 454,
-          "text": "Day 7/\n\nWe have increased default context length for GPT-6.1 Sol to 500k when used through Codex & Work, up from 272k or an ~ 80% increase.\n\nWe will go higher in the future, but it helps reduce occurrence of compactions and with tasks that require keeping a lot of context and nuance over periods of time. It was carefully tested and is the new sweet spot for most of our users. You can still override it if you want to be higher our lower, with maximum context length of GPT-6.1 Sol of 1M.",
-          "url": "https://x.com/thsottiaux/status/2109430343346581527"
-        },
-        "id:2109430894604026039": {
-          "createdAt": "2026-10-11T23:48:11.000Z",
-          "id": "2109430894604026039",
-          "isQuote": false,
-          "likes": 2553,
-          "quotedTweetId": null,
-          "replies": 157,
-          "retweets": 55,
-          "text": "With this change, we are not charging long context fees for GPT-6.1 Sol when drawing usage from the subscription.",
-          "url": "https://x.com/thsottiaux/status/2109430894604026039"
-        },
-        "id:2109439315570999598": {
-          "createdAt": "2026-10-12T00:21:38.000Z",
-          "id": "2109439315570999598",
-          "isQuote": true,
-          "likes": 4625,
-          "quotedTweetId": "2109152716954222849",
-          "replies": 3319,
-          "retweets": 99,
-          "text": "The results of this poll has gotten me confused. I definitely thought it would sway much more favorably in the 2X direction across Pro 100/200/500 at the cost of bringing back 5h limits in order to smoothen the demand curve. https://t.co/zwn7kboMhT",
-          "url": "https://x.com/thsottiaux/status/2109439315570999598"
-        },
         "id:2109873287853707513": {
           "createdAt": "2026-10-13T05:06:06.000Z",
           "id": "2109873287853707513",
@@ -1175,17 +992,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2109329495341867391": {
-          "createdAt": "2026-10-11T17:05:15.000Z",
-          "id": "2109329495341867391",
-          "isQuote": true,
-          "likes": 1219,
-          "quotedTweetId": "2108992955382210632",
-          "replies": 205,
-          "retweets": 59,
-          "text": "I think Terrence Tao is directionally correct, we shouldn’t settle for a super intelligence that is opaque.\n\nA key signal of intelligence is communication. We should strive to make products and models that build understanding with humans instead of disintermediating them. https://t.co/p44dDROehA",
-          "url": "https://x.com/trq212/status/2109329495341867391"
-        },
         "id:2109717295631372628": {
           "createdAt": "2026-10-12T18:46:14.000Z",
           "id": "2109717295631372628",
