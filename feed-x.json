@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-16T12:32:36.000Z",
+  "generatedAt": "2026-10-17T01:21:31.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-10-16T06:42:13.233Z",
-    "ageHours": 5.84
+    "ageHours": 18.66
   },
   "x": [
     {
@@ -54,17 +54,6 @@
           "retweets": 30,
           "text": "At @spc, we are trying to reconcile two things:\n\n1. We have never seen technological progress this rapid or fundamental. Nothing seems impossible.\n\n2. Capital is flowing to consensus teams, in consensus markets, and with consensus terms.\n\nSo we’re running a new experiment: $200K, uncapped, to a handful of unapologetically maximalist thinkers who want to try a truly out-there idea.",
           "url": "https://x.com/adityaag/status/2110422584357478530"
-        },
-        {
-          "createdAt": "2026-10-12T20:50:14.000Z",
-          "id": "2109748501982872003",
-          "isQuote": false,
-          "likes": 42,
-          "quotedTweetId": null,
-          "replies": 8,
-          "retweets": 3,
-          "text": "There is a big delta in how frontier lab employees use AI and how even the top 1% of AI orgs use AI.\n\nThis is on public capabilities...I suspect this delta will exist for a while..\n\nI also feel like there is a company opportunity in here that is a horizontal accelerant.",
-          "url": "https://x.com/adityaag/status/2109748501982872003"
         }
       ],
       "source": "x",
@@ -251,39 +240,6 @@
           "retweets": 3,
           "text": "VIBE CHECK: GEMINI 4—GOOGLE IS BACK https://t.co/0kIFnFJoxi",
           "url": "https://x.com/danshipper/status/2110039417650024592"
-        },
-        {
-          "createdAt": "2026-10-13T00:17:27.000Z",
-          "id": "2109800647575146906",
-          "isQuote": false,
-          "likes": 16,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "NOTE: this is Muse Wonder Standard. Wonder Full is, inexplicably, not available on the API. Will have a run shortly however",
-          "url": "https://x.com/danshipper/status/2109800647575146906"
-        },
-        {
-          "createdAt": "2026-10-12T22:47:33.000Z",
-          "id": "2109778026091209087",
-          "isQuote": false,
-          "likes": 43,
-          "quotedTweetId": null,
-          "replies": 9,
-          "retweets": 1,
-          "text": "I used muse wonder to make a video explaining personal benchmarks..\n\nthis is ummm pretty rough\n\ninterestingly all of its videos so far are narrated in an Australian accent. I'll leave interpretation to the reader https://t.co/OULxzZFCxt",
-          "url": "https://x.com/danshipper/status/2109778026091209087"
-        },
-        {
-          "createdAt": "2026-10-12T22:41:37.000Z",
-          "id": "2109776532503732624",
-          "isQuote": true,
-          "likes": 10,
-          "quotedTweetId": "2109773925291085906",
-          "replies": 0,
-          "retweets": 0,
-          "text": "and it's back up! still bad https://t.co/TiYMufHUT3",
-          "url": "https://x.com/danshipper/status/2109776532503732624"
         }
       ],
       "source": "x",
@@ -391,17 +347,6 @@
           "retweets": 11,
           "text": "Yeah pro rata matters and is powerful for investors https://t.co/XeNUt0F8NB",
           "url": "https://x.com/garrytan/status/2109847735449047295"
-        },
-        {
-          "createdAt": "2026-10-12T20:52:57.000Z",
-          "id": "2109749184639488265",
-          "isQuote": false,
-          "likes": 176,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 8,
-          "text": "Nobody is coming to save you\n\nYou don’t need saving",
-          "url": "https://x.com/garrytan/status/2109749184639488265"
         }
       ],
       "source": "x",
@@ -443,17 +388,6 @@
           "retweets": 16,
           "text": "The latest Gemini model made this https://t.co/SuYGK7UTsb",
           "url": "https://x.com/joshwoodward/status/2110055636109312264"
-        },
-        {
-          "createdAt": "2026-10-12T14:06:05.000Z",
-          "id": "2109646793713786970",
-          "isQuote": true,
-          "likes": 342,
-          "quotedTweetId": "2109645848024064340",
-          "replies": 7,
-          "retweets": 15,
-          "text": "I’ve learned from Lenny for years, but we had never met. What you see is what you get with him: he’s kind, prepared, and deeply curious. Great interviewers do their homework, and you can tell he’s in that league: he took our conversation to places that I’ve never talked about in public. Enjoy the first 60 minutes of us getting to chat together. \n\nThank you @lennysan !",
-          "url": "https://x.com/joshwoodward/status/2109646793713786970"
         }
       ],
       "source": "x",
@@ -517,39 +451,6 @@
           "retweets": 18,
           "text": "At Box, we've been testing Gemini 4 Argon on our Box AI Complex Work eval for the past week. It's a huge upgrade over Gemini 3.1 Pro, jumping by 14 percentage points across all our tests, and firmly at the frontier. \n\nIn our evaluation, we give the Box Agent (using Gemini 4 Argon) a variety of complex enterprise tasks involving enterprise documents in a range of industries. These tasks approximate the kind of hard, time-consuming work that knowledge workers do every day with their enterprise content. Gemini 4 is a huge leap on effectively every dimension of this work.\n\nGemini 4 is far more capable on math, logic, analytics, and deep knowledge of a variety of business domains. It also works far harder to complete tasks fully without stopping short of the desired result. This is incredibly important for complex enterprise workflows that depend on robust task execution.\n\nHere are some example wins that we saw to put the improvements in perspective:\n\n* Financial services (+18 points): a funding-gap analysis for a family-owned company, where the brief spelled out every step of the projected statements, down to the interest on the bank loan and the overdraft for each year. Gemini 4 Argon built them exactly as specified, every line broken out and carried through to the funding gap. Gemini 3.1 Pro folded the interest into a single figure.\n\n* Healthcare (+25 points): an intensive care management plan where both models spotted a dangerous potassium level and a drug interaction. Only Gemini 4 Argon went back and pulled the offending drugs from the final regimen, so its plan actually matched its own diagnosis.\n\n* Technology (+37 points): a product performance review deciding which of two regional markets should have its cloud infrastructure optimized first. Gemini 4 Argon pulled the right month's user, retention and per-user figures for both regions and correctly flagged North America. Gemini 3.1 Pro often pulled the wrong rows, at one point reporting retention above 100%, and pointed the effort at the wrong region.\n\n* Energy (+16 points): an energy consumption report across two facilities that had to flag any gaps in the meter data. Gemini 4 Argon consistently caught that the data center's smart meter log stops in November. Gemini 3.1 Pro often missed it, at times declaring the logs complete.\n\n* Consumer products (+33 points): a product launch evaluation deciding which production expansion to fund. Gemini 4 Argon saw that existing inventory could bridge an early capacity gap, which made the smaller expansion viable with an earlier launch and a faster break-even. Gemini 3.1 Pro defaulted to the larger expansion and the later timeline.\n\nGemini 4 Argon will be available in the Box AI Studio shortly for anyone to build custom Box Agents with.",
           "url": "https://x.com/levie/status/2110046686198550539"
-        },
-        {
-          "createdAt": "2026-10-12T23:31:05.000Z",
-          "id": "2109788979952558255",
-          "isQuote": true,
-          "likes": 289,
-          "quotedTweetId": "2109420932955804040",
-          "replies": 43,
-          "retweets": 22,
-          "text": "Ok this is quite cool research and ultimately must be the eventual architecture of agents. In the limit, AI will obviously be better at determining its own harness once it sees the task at hand, than us being able to do this in advance: https://t.co/jl6ZdeUFY1 https://t.co/7UOyjCGtdD",
-          "url": "https://x.com/levie/status/2109788979952558255"
-        },
-        {
-          "createdAt": "2026-10-12T18:21:28.000Z",
-          "id": "2109711062757216738",
-          "isQuote": true,
-          "likes": 487,
-          "quotedTweetId": "2109689305073614918",
-          "replies": 41,
-          "retweets": 32,
-          "text": "What a crazy time in AI with Meta now jumping fully into the frontier. Now that there are multiple players pushing the state of the art, this is going to lead to a further acceleration of advances, as well as the lowering cost of tokens for even the highest levels of capability. https://t.co/w2p4pEMInH https://t.co/UFAnJ5Cj8c",
-          "url": "https://x.com/levie/status/2109711062757216738"
-        },
-        {
-          "createdAt": "2026-10-12T16:29:13.000Z",
-          "id": "2109682812811137061",
-          "isQuote": true,
-          "likes": 159,
-          "quotedTweetId": "2109670664009564358",
-          "replies": 38,
-          "retweets": 23,
-          "text": "Agent swarms are going to be a core part of many enterprise workflows in the future. The ability to throw compute at problems that you can massively parallelize will be too useful to not take advantage of. \n\nCyber will be one of the biggest beneficiaries of this as it’s a space where testing vast number of permutations of attacks (without getting tired or bored) is an incredibly useful property. You have a wide search space of possible risk vectors and you generally need to be able to chain together different scenarios to achieve the exploit. \n\nThis will become one of the biggest token uses in large enterprises given the range of IT systems, software, physical infrastructure, and data that needs to be protected at all times. Super interesting times in cyber.",
-          "url": "https://x.com/levie/status/2109682812811137061"
         }
       ],
       "source": "x",
@@ -665,17 +566,6 @@
           "retweets": 4,
           "text": "All my priors get shattered when I chat with @JustJake every month..\n\n&gt; how to scale\n&gt; how to sell\n&gt; how to hire\n&gt; how to build\n\n@Railway is an n of 1 company that’s because Jake runs it HIS way. \n\nThis podcast is a good listen on what makes him and the company truly special! https://t.co/5KXHfDZPzN",
           "url": "https://x.com/nikunj/status/2110137649168281871"
-        },
-        {
-          "createdAt": "2026-10-12T21:49:57.000Z",
-          "id": "2109763529276559566",
-          "isQuote": false,
-          "likes": 33,
-          "quotedTweetId": null,
-          "replies": 8,
-          "retweets": 1,
-          "text": "Random fact: for some reason, all the Suryas (@sdand @sur4js @kickingkeys) that I know are all goated eclectic individuals. \n\nwhich brings me to:\n\n1) If there are more Surya's I should meet, please holler 👋\n\n2) Also @kickingkeys & I are hosting a small builder happy hour this Thursday evening in NYC (link here to directly RSVP since I'm delinquent on DMs: https://t.co/Csk6GlA6Er)",
-          "url": "https://x.com/nikunj/status/2109763529276559566"
         }
       ],
       "source": "x",
@@ -805,17 +695,6 @@
           "retweets": 1,
           "text": "So many people’s childhoods were defined by StarCraft even Ben.\n\nStill can’t believe the new game won’t come out till 2030. \n\n@Blizzard_Ent should double down on this franchise. Make movies, TV shows, and yes a real time strategy game! https://t.co/vRnuahUusL",
           "url": "https://x.com/petergyang/status/2109820627561676970"
-        },
-        {
-          "createdAt": "2026-10-13T00:28:23.000Z",
-          "id": "2109803399332213090",
-          "isQuote": true,
-          "likes": 77,
-          "quotedTweetId": "2109656332236402703",
-          "replies": 18,
-          "retweets": 6,
-          "text": "Here's a clip of me explaining why Grok @bot is my favorite agent right now.\n\ntl;dr It’s built on personas instead of chat threads, so it really feels like hiring employees to work for you. Each owns a specific job:\n\n→ Behind the Growth owns customer support\n→ YouTube Producer owns research and prep\n→ Loving Husband owns errands for my family\n→ Health Coach keeps my workouts on track\n\n📌 Watch my latest Grok Bot video covering how I'm using its new features here (free X access, its own email, and Opus): https://t.co/eu1nBVXqyd",
-          "url": "https://x.com/petergyang/status/2109803399332213090"
         }
       ],
       "source": "x",
@@ -901,39 +780,6 @@
           "retweets": 50,
           "text": "Congrats Gemini team. Never bet against Google, the company that brought us Transformers and has overwhelming data, engineering talent, and compute.\n\nEveryone has, rightfully, pivoted back to coding. Coding agents are the killer app of AI. We're firmly at an elysium for developers and builders.\n\nIncidentally, getting Muse Wonder and Gemini Argon back-to-back is a reminder why you as an individual, and your company, should stay model agnostic and gateway-maxxx / fx-maxxx.",
           "url": "https://x.com/rauchg/status/2110044152482365747"
-        },
-        {
-          "createdAt": "2026-10-12T22:21:01.000Z",
-          "id": "2109771347064922255",
-          "isQuote": true,
-          "likes": 125,
-          "quotedTweetId": "2109765860290441469",
-          "replies": 15,
-          "retweets": 1,
-          "text": "This is amazing 😂 https://t.co/wuwbLHuLl5",
-          "url": "https://x.com/rauchg/status/2109771347064922255"
-        },
-        {
-          "createdAt": "2026-10-12T19:55:39.000Z",
-          "id": "2109734766107099312",
-          "isQuote": false,
-          "likes": 539,
-          "quotedTweetId": null,
-          "replies": 102,
-          "retweets": 27,
-          "text": "Coding CLIs keep getting more complicated. Daemons, 3 layers of TUIs, client-server architectures.\n\nThe whole point of a CLI is to deliver intelligence with zero friction, and be unix-like.\n\n💾 Try https://t.co/OL0LzGtvAw. It's 6mb, starts in milliseconds, model-agnostic. It's tastefully minimal: MCP, Skills, Subagents and ACP built-in.",
-          "url": "https://x.com/rauchg/status/2109734766107099312"
-        },
-        {
-          "createdAt": "2026-10-12T18:54:04.000Z",
-          "id": "2109719267344261375",
-          "isQuote": true,
-          "likes": 179,
-          "quotedTweetId": "2109717054303686742",
-          "replies": 28,
-          "retweets": 5,
-          "text": "Muse Wonder on Vercel AI Gateway\nTry with 𝚏𝚡 --𝚖𝚘𝚍𝚎𝚕 𝚖𝚎𝚝𝚊/𝚖𝚞𝚜𝚎-𝚠𝚘𝚗𝚍𝚎𝚛-𝟷.𝟶 https://t.co/OI8lTDKnyZ https://t.co/Ckx651xYUJ",
-          "url": "https://x.com/rauchg/status/2109719267344261375"
         }
       ],
       "source": "x",
@@ -953,28 +799,6 @@
           "replies": 34,
           "isQuote": true,
           "quotedTweetId": "2110757485275435019"
-        },
-        {
-          "createdAt": "2026-10-12T19:39:48.000Z",
-          "id": "2109730774593487009",
-          "isQuote": false,
-          "likes": 2153,
-          "quotedTweetId": null,
-          "replies": 150,
-          "retweets": 42,
-          "text": "6.1 Sol ultrafast &gt;&gt;&gt; 6 Astra\n\n~ same cost but whole different game with 250 tpm",
-          "url": "https://x.com/steipete/status/2109730774593487009"
-        },
-        {
-          "createdAt": "2026-10-12T19:15:58.000Z",
-          "id": "2109724776168300631",
-          "isQuote": true,
-          "likes": 1832,
-          "quotedTweetId": "2109317410301911551",
-          "replies": 127,
-          "retweets": 84,
-          "text": "said that last year, saying it again.\nvibes coding is a slur. https://t.co/hWBfC1e2NA",
-          "url": "https://x.com/steipete/status/2109724776168300631"
         }
       ],
       "source": "x",
@@ -1038,28 +862,6 @@
           "retweets": 0,
           "text": "@cjav_dev @aiDotEngineer @ricmac @latentspacepod our workshop writeup is live now!\n\nhttps://t.co/mSZfNrLDTS",
           "url": "https://x.com/swyx/status/2109837651893485844"
-        },
-        {
-          "createdAt": "2026-10-13T00:04:43.000Z",
-          "id": "2109797444204572880",
-          "isQuote": true,
-          "likes": 97,
-          "quotedTweetId": "2101738020630298971",
-          "replies": 19,
-          "retweets": 2,
-          "text": "one of the best parts of my job is bringing out the best in ai in each city \n\ni love new york ♥️ https://t.co/qOCz2NvARw https://t.co/P9qRPhJoYc",
-          "url": "https://x.com/swyx/status/2109797444204572880"
-        },
-        {
-          "createdAt": "2026-10-12T22:26:25.000Z",
-          "id": "2109772705532715166",
-          "isQuote": true,
-          "likes": 3,
-          "quotedTweetId": "2109656052035928481",
-          "replies": 0,
-          "retweets": 0,
-          "text": "@cjav_dev @aiDotEngineer @ricmac @latentspacepod also packed room for @arizeai @seldo workshop at #aiengineerny!!\n\n https://t.co/yDGwcBOwEC https://t.co/c1iqN6pOwz",
-          "url": "https://x.com/swyx/status/2109772705532715166"
         }
       ],
       "source": "x",
@@ -1112,17 +914,6 @@
           "retweets": 1,
           "text": "Told y’all https://t.co/6hylfBp5ZF",
           "url": "https://x.com/thenanyu/status/2110130931902353553"
-        },
-        {
-          "createdAt": "2026-10-12T23:55:37.000Z",
-          "id": "2109795153250804076",
-          "isQuote": true,
-          "likes": 55,
-          "quotedTweetId": "2109669420394311866",
-          "replies": 6,
-          "retweets": 2,
-          "text": "One. Of. Us. https://t.co/lH1Ig61Atm",
-          "url": "https://x.com/thenanyu/status/2109795153250804076"
         }
       ],
       "source": "x",
@@ -1293,17 +1084,6 @@
           "retweets": 2,
           "text": "excited to be back home https://t.co/58k27G1wa3",
           "url": "https://x.com/trq212/status/2110035114432532654"
-        },
-        {
-          "createdAt": "2026-10-12T18:46:14.000Z",
-          "id": "2109717295631372628",
-          "isQuote": true,
-          "likes": 1843,
-          "quotedTweetId": "1577059345883283456",
-          "replies": 33,
-          "retweets": 66,
-          "text": "evergreen https://t.co/vypABFN6PU",
-          "url": "https://x.com/trq212/status/2109717295631372628"
         }
       ],
       "source": "x",
@@ -1400,17 +1180,6 @@
           "retweets": 4,
           "text": "Haha great video &amp; product! https://t.co/cnJfQ2L5p0",
           "url": "https://x.com/zarazhangrui/status/2110052024637415720"
-        },
-        {
-          "createdAt": "2026-10-12T15:51:56.000Z",
-          "id": "2109673430245421415",
-          "isQuote": true,
-          "likes": 64,
-          "quotedTweetId": "2109522448161083663",
-          "replies": 16,
-          "retweets": 1,
-          "text": "I just heard the most touching AI coding story.\n\nA friend @vicyaqingyang grew up in a modest home full of cockroaches. To turn lemons into lemonade, her mom made killing them a game.\n\nWhen she told this story to another friend, that friend vibe coded a game from it. You catch cockroaches in a room and compete against Mom.\n\nShe cried while playing it.\n\nThe game isn’t technically sophisticated. Any model can build it pretty quickly now. What gives it a soul is the human story, experience, and emotion behind it.\n\nCode is the new medium for storytelling.",
-          "url": "https://x.com/zarazhangrui/status/2109673430245421415"
         }
       ],
       "source": "x",
@@ -1419,7 +1188,7 @@
   ],
   "stats": {
     "xBuilders": 18,
-    "xTweets": 115,
-    "windowSpanHours": 88.6
+    "xTweets": 94,
+    "windowSpanHours": 77.08
   }
 }
