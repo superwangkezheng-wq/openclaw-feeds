@@ -11,6 +11,145 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:6VXBmYc0Dc8</id>
+  <yt:videoId>6VXBmYc0Dc8</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>有关部门拟增列AI技术进入出口管制目录【AI 早报 2026-10-17】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6VXBmYc0Dc8"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-17T01:50:22+00:00</published>
+  <updated>2026-10-17T04:35:09+00:00</updated>
+  <media:group>
+   <media:title>有关部门拟增列AI技术进入出口管制目录【AI 早报 2026-10-17】</media:title>
+   <media:content url="https://www.youtube.com/v/6VXBmYc0Dc8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6VXBmYc0Dc8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+有关部门拟增列AI技术进入出口管制目录 00:08
+https://aqygzj.mofcom.gov.cn/flzc/gzjgfxwj/art/2026/art_c99f95ca0cd043829ac9991495fc283c.html
+https://www.mofcom.gov.cn/syxwfb/art/2026/art_a4acff07e134447fbe7bbeb486df3ea6.html
+
+OpenAI 宣布优化 Codex 提升用户有效使用量 00:53
+https://x.com/thsottiaux/status/2111244596131111253
+
+DeepSeek 整合多支团队成立产品部 01:02
+https://mp.weixin.qq.com/s/oHvOQB8QfOS_FKieyPgQAg
+https://talent.deepseek.com/
+
+DeepSeek 新增搜索与抓取 API 并按次收费 01:18
+https://api-docs.deepseek.com/zh-cn/guides/search/
+
+Google AI Studio 向 Pro 订阅用户开放 Gemini 4 Argon 01:32
+https://x.com/GoogleAIStudio/status/2111240722426802258
+https://ai.google.dev/gemini-api/docs/google-ai-plans
+
+WorkBuddy 公布 DeepSeek 故障补偿 01:40
+https://mp.weixin.qq.com/s/dGd6Nz03MF4-1ua1CMmZxA
+
+Antigravity 为全体用户重置模型用量限额 01:52
+https://x.com/_mohansolo/status/2111220356178751860
+
+ChatGPT 为 dot 推出 iOS 小组件与快捷指令支持 02:00
+https://x.com/ChatGPT/status/2111210005617889406
+
+OpenAI 上线 ChatGPT Slides 02:14
+https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+
+OpenCode 免费提供 GLM 5.3 Flash 02:25
+https://x.com/opencode/status/2110986357539754114
+
+Claude Code 压缩对话，缩短响应等待 02:33
+https://x.com/ClaudeDevs/status/2111209208012210409
+
+Qoder CN 大使计划开放申请 02:46
+https://mp.weixin.qq.com/s/_vVPGBW-6AJmT0D2JcAilA
+
+Kimi 新增 Ultra 会员，月费 1399 元 02:57
+https://www.kimi.com/membership/pricing
+
+TRAE 新增侧边对话，主任务无需暂停 03:07
+https://mp.weixin.qq.com/s/rATEQPWt8SU_g5Q4S8EkYg
+
+Perplexity 开源沙箱平台 SPACE 03:14
+https://perplexity.ai/hub/blog/open-sourcing-space
+https://github.com/perplexityai/SPACE
+https://x.com/denisyarats/status/2110791712813592860
+
+腾讯混元开源 Hy Memory 2.0：AI 记忆模型、框架与应用 03:25
+https://memory.hunyuan.tencent.com/
+https://github.com/Tencent-Hunyuan/Hy-Memory
+https://huggingface.co/tencent/Hy-Memory-30B-A3B
+https://arxiv.org/abs/2610.22196
+
+Beam 开放权重发布，支持跨平台部署 03:35
+https://reflection.ai/blog/beam-is-available
+http://reflection.ai/beam-model-card
+https://huggingface.co/reflection/Beam-1.0-501B-A23B
+
+OpenMOSS 发布文生图模型 MOSS-Image 03:48
+https://openmoss.ai/MOSS-Image/
+https://github.com/OpenMOSS/MOSS-Image
+https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT
+https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base
+
+Perplexity 发布并开源两款决策模型 04:04
+https://x.com/perplexitydevs/status/2111166029539758120
+https://huggingface.co/perplexity-ai/pplx-decider-flash-v1.2
+https://huggingface.co/perplexity-ai/pplx-decider-v1.2
+
+JetBrains 开源12B编程模型 Mellum2.1 04:13
+https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/
+https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF
+
+Glimpse 发布，支持边推理边回看画面 04:24
+https://elorian.ai/blog/introducing-glimpse
+
+d1-ultra 发布，登顶决策模型榜 04:38
+https://www.liquid.ai/blog/d1-ultra
+https://x.com/ArtificialAnlys/status/2111052531166249039
+
+OpenAI 升级 GPT-6 Astra Pro，支持多 Agent 并行 04:46
+https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+https://x.com/OpenAI/status/2111192259073094035
+
+Claude Code 团队发文披露内部代码审查流程 05:00
+https://claude.dev/blog/solving-code-review-at-anthropic/
+https://x.com/ClaudeDevs/status/2111168901723906176
+
+Claude 追溯出 NIST 的 5 条标准曲线种子来源 05:14
+https://www.anthropic.com/research/ecdsa-curve-origins
+
+Anthropic 公布研究：Claude 优化 8 项量子电路任务 05:25
+https://www.anthropic.com/research/designing-efficient-quantum-circuits
+https://x.com/AnthropicAI/status/2111152183240511640
+https://arxiv.org/abs/2610.22367
+
+Anthropic 调查揭示员工与公众的 AI 预期差距 05:40
+https://www.anthropic.com/research/expectations-for-the-future
+
+腾讯混元回应 Agent 异常网页浏览事件 05:55
+https://x.com/TencentHunyuan/status/2110885021280268664
+https://swarmcha.se/posts/chinese-agent-fleet-full-report
+
+印度 CERT-In：测试中 AI 越权读取真实数据 06:09
+https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&amp;pageid=PUBVLNOTES02
+
+Mistral CEO呼吁欧洲自主研发前沿 AI 06:24
+https://x.com/arthurmensch/status/2110990492930314712
+
+据报道 Anthropic 向美国国会推介 AI 安全草案 06:39
+https://politico.com/news/2026/10/16/anthropic-ai-safety-01124654
+https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/</media:description>
+   <media:community>
+    <media:starRating count="15" average="5.00" min="1" max="5"/>
+    <media:statistics views="539"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:ZLVlr9Jy1Gs</id>
   <yt:videoId>ZLVlr9Jy1Gs</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -21,7 +160,7 @@
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-16T01:53:31+00:00</published>
-  <updated>2026-10-16T09:07:18+00:00</updated>
+  <updated>2026-10-17T01:54:05+00:00</updated>
   <media:group>
    <media:title>OpenAI Codex 增加算力投入；DeepSeek 补偿服务中断【AI 早报 2026-10-16】</media:title>
    <media:content url="https://www.youtube.com/v/ZLVlr9Jy1Gs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -143,8 +282,8 @@ https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-pu
 
 ChatGPT Sites 更新：企业</media:description>
    <media:community>
-    <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="1545"/>
+    <media:starRating count="29" average="5.00" min="1" max="5"/>
+    <media:statistics views="2628"/>
    </media:community>
   </media:group>
  </entry>
@@ -272,7 +411,7 @@ DeepSeek 网页及 API 出现中断 06:21
 https://status.deepseek.com/incidents/7116348214287</media:description>
    <media:community>
     <media:starRating count="34" average="5.00" min="1" max="5"/>
-    <media:statistics views="4058"/>
+    <media:statistics views="4184"/>
    </media:community>
   </media:group>
  </entry>
@@ -399,7 +538,7 @@ https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build
 https://www.thepaper.cn/newsDetail_forward_34241236</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="4428"/>
+    <media:statistics views="4434"/>
    </media:community>
   </media:group>
  </entry>
@@ -414,7 +553,7 @@ https://www.thepaper.cn/newsDetail_forward_34241236</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-13T01:48:56+00:00</published>
-  <updated>2026-10-13T11:12:46+00:00</updated>
+  <updated>2026-10-16T10:28:13+00:00</updated>
   <media:group>
    <media:title>Meta 发布 Muse Wonder 模型系列；SpaceXSI 推出整合订阅 The X Subscription【AI 早报 2026-10-13】</media:title>
    <media:content url="https://www.youtube.com/v/YVUOZbLuOE8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -520,7 +659,7 @@ https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora
 https://mp.weixin.qq.com/s/gX2yV5_2tHw9kCj8ND7W2g</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="1690"/>
+    <media:statistics views="1680"/>
    </media:community>
   </media:group>
  </entry>
@@ -559,7 +698,7 @@ https://x.com/elonmusk/status/2109012639049244981
 https://linux.do/t/topic/3008137</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1033"/>
+    <media:statistics views="1039"/>
    </media:community>
   </media:group>
  </entry>
@@ -618,7 +757,7 @@ https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-bu
 https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2218"/>
+    <media:statistics views="2224"/>
    </media:community>
   </media:group>
  </entry>
@@ -747,7 +886,7 @@ https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack
 Kimi 第三方客户端思维链调整，据用户反馈已回滚 06:35</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="2450"/>
+    <media:statistics views="2464"/>
    </media:community>
   </media:group>
  </entry>
@@ -874,7 +1013,7 @@ https://mp.weixin.qq.com/s/cmjfJ40G8ZSr9vyPLLy37g
 Arena 完成</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2255"/>
+    <media:statistics views="2264"/>
    </media:community>
   </media:group>
  </entry>
@@ -1002,7 +1141,7 @@ Surface Laptop Ultra 开启预售，2599 美元起 06:12
 https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-s</media:description>
    <media:community>
     <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="5623"/>
+    <media:statistics views="5636"/>
    </media:community>
   </media:group>
  </entry>
@@ -1140,7 +1279,7 @@ https://blog.google/innovation-and-ai/technology/health/google-earth-ai/
 https://x.com/Google/</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="4723"/>
+    <media:statistics views="4728"/>
    </media:community>
   </media:group>
  </entry>
@@ -1217,7 +1356,7 @@ https://www.winknews.com/news/woman-arrested-after-ai-threat-against-lee-county-
 https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-reports-florida-womans-claude-diary-threat-to-shoot-up-sheriffs-office-felony-charge-follows-its-at-least-the-third-such-conversation-to-reach-police-since-august</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="2224"/>
+    <media:statistics views="2226"/>
    </media:community>
   </media:group>
  </entry>
@@ -1255,7 +1394,7 @@ https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-
 https://www.axios.com/2026/10/04/reflection-open-weight-ai</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1143"/>
+    <media:statistics views="1145"/>
    </media:community>
   </media:group>
  </entry>
@@ -1301,7 +1440,7 @@ https://www.ithome.com/1/009/385.htm
 https://x.com/GrokInsider/status/2106302120450220502</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1747"/>
+    <media:statistics views="1750"/>
    </media:community>
   </media:group>
  </entry>
@@ -1391,125 +1530,7 @@ https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/
 https://www.bloomberg.com/news/articles/2026-10-02/broadcom-starts-amassing-60-billion-to-fund-chips-for-anthropic</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1681"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:SbvNNQ12QO8</id>
-  <yt:videoId>SbvNNQ12QO8</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>GPT-6.1 Sol 扩容；Claude Code 推出 Mods 支持【AI 早报 2026-10-02】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=SbvNNQ12QO8"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-10-02T02:01:24+00:00</published>
-  <updated>2026-10-04T23:34:39+00:00</updated>
-  <media:group>
-   <media:title>GPT-6.1 Sol 扩容；Claude Code 推出 Mods 支持【AI 早报 2026-10-02】</media:title>
-   <media:content url="https://www.youtube.com/v/SbvNNQ12QO8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/SbvNNQ12QO8/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-OpenAI 扩容 GPT-6.1 Sol，速度将接近翻倍 00:09
-https://x.com/thsottiaux/status/2105464274747527543
-
-Claude Code 开放 mods，代码定制行为与界面 00:27
-https://claude.com/blog/claude-code-mods
-https://claude.dev/blog/getting-started-with-claude-code-mods/
-https://code.claude.com/docs/en/plugins/mods/overview
-http://github.com/anthropics/claude-code/tree/main/mods
-https://x.com/ClaudeDevs/status/2105721434807083061
-
-Earendil 发布 Pi 1.0 正式版与实验包 Pi Durable 00:46
-https://earendil.com/posts/pi-1-0/
-https://earendil.com/posts/pi-durable/
-
-GitHub 推出 gh-secure 一键加固公开仓库 01:18
-https://gh.io/gh-secure
-https://github.com/GitHubSecurityLab/gh-secure
-
-Stitch by Google 推出 Stitch CLI 命令行工具 01:32
-https://x.com/stitchbygoogle/status/2105695155164741984
-
-Black Forest Labs 正式发布 FLUX 3 Image 图像模型 01:42
-https://bfl.ai/models/flux-3-image
-https://docs.bfl.ai/flux_3/flux3_image_overview
-
-Microsoft AI 发布 3 款 MAI 语音模型 01:58
-https://microsoft.ai/news/our-first-streaming-transcription-model/
-https://microsoft.ai/models/mai-voice-2-1/
-
-Cloudflare 发布并开源 Clef 与 Clef-flash 决策模型 02:12
-https://blog.cloudflare.com/clef-decision-models
-https://huggingface.co/Cloudflare/clef
-
-Perplexity 推出 Decisions API 并开源 27B 决策模型 02:26
-https://x.com/perplexitydevs/status/2105725598882832414
-https://huggingface.co/perplexity-ai/pplx-decider-v1-27b
-https://x.com/AravSrinivas/status/2105774153903268288
-
-Tavus 发布 Griffin 实时视频交互模型 02:38
-https://www.tavus.io/griffin
-https://x.com/tavus/status/2105704169009246248
-
-Claude 推出 Artifact 用量减半限时优惠 02:57
-https://support.claude.com/en/articles/17274727-artifact-usage-promotion
-https://x.com/claudeai/status/2105721630051692804
-
-ChatGPT 手机相机新增扫描合成 PDF功能 03:11
-https://help.openai.com/en/articles/6825453-chatgpt-release-notes
-
-OpenAI 推出 ChatGPT 服装虚拟试穿功能 03:25
-https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search
-
-OpenAI 与 Albertsons 扩大合作，Safeway 入驻 ChatGPT 03:38
-https://openai.com/index/albertsons-reimagining-retail/
-
-Google 在 Gemini Live 上线 Guided Vision 视觉辅助功能 03:50
-https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/
-
-Grok Bot 上线主动建议功能 04:01
-https://x.com/bot/status/2105713240701538538
-https://x.com/elonmusk/status/2105755817555436014
-
-Google 发射搭载 TPU 原型卫星 04:11
-https://x.com/Google/status/2105803583648100611
-
-软银完成对 OpenAI 第三笔 100 亿美元投资 04:23
-https://group.softbank/en/news/press/20261001
-
-DeepSeek Harness 开通官方 X 账号 04:40
-https://x.com/DeepSeekHarness
-https://x.com/tianyi/status/2105462807705895061
-
-Transluce 称 AI agent 曾试图攻击美加政府网站 04:47
-https://transluce.org/us-canada-gov
-https://www.washingtonpost.com/technology/2026/09/30/openais-ai-agents-attempted-hack-canadian-government-website/
-
-OpenAI 与三名研究人员终止合作，称其违规处理机密 05:05
-https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528
-
-美加州总检察长向 OpenAI 发出网络安全调查传票 05:21
-https://oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena
-https://x.com/AndrewCurran_/status/2105712858101436692
-
-Anthropic 正式开放 Claude for Government 05:37
-https://claude.com/blog/claude-for-government-is-now-generally-available
-
-Grok 4.7 据称登陆 Grok 网页版与手机应用 05:46
-https://x.com/testingcatalog/status/2105728653091029101
-
-据称腾讯向 Oracle 租用约 10 万枚 AI 芯片 05:58
-https://www.ft.com/content/8799b33d-f07c-4a03-82f0-bf5d3d1d29e9?syn-25a6b1a6=1
-
-Anthropic 招股书披露 420 亿美元 Broadcom 融资安排 06:11
-https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/</media:description>
-   <media:community>
-    <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="2743"/>
+    <media:statistics views="1683"/>
    </media:community>
   </media:group>
  </entry>
