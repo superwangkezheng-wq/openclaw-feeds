@@ -11,6 +11,60 @@
  </author>
  <published>2012-02-21T04:08:32+00:00</published>
  <entry>
+  <id>yt:video:msp69FR5NZs</id>
+  <yt:videoId>msp69FR5NZs</yt:videoId>
+  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
+  <title>Build A Reasoning Model From Scratch 8: Distillation</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=msp69FR5NZs"/>
+  <author>
+   <name>Sebastian Raschka</name>
+   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
+  </author>
+  <published>2026-10-17T12:00:02+00:00</published>
+  <updated>2026-10-17T12:05:21+00:00</updated>
+  <media:group>
+   <media:title>Build A Reasoning Model From Scratch 8: Distillation</media:title>
+   <media:content url="https://www.youtube.com/v/msp69FR5NZs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/msp69FR5NZs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this final video, we look into model distillation as a more efficient alternative to reinforcement learning for developing small reasoning models.
+
+- Reasoning playlist: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs
+- Reasoning Book: https://amzn.to/4aAKiFY
+- Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
+
+- LLMs from Scratch book: https://amzn.to/4fqvn0D
+- LLMs from Scratch repo: https://github.com/rasbt/LLMs-from-scratch
+- LLMs from Scratch playlist: https://www.youtube.com/watch?v=yAcWnfsZhzo&amp;list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11&amp;index=1
+
+00:00 Introduction and series recap
+01:07 Why distill a reasoning model?
+02:51 Soft vs. hard distillation
+11:06 On-policy vs. off-policy distillation
+18:09 Preparing data for reasoning distillation
+22:35 Loading the DeepSeek R1 MATH dataset
+28:04 Inspecting reasoning traces and final answers
+31:27 Tokenization and chat templates
+35:58 Pre-tokenizing the training dataset
+39:01 Sequence lengths and the 2,048-token limit
+42:38 Creating training and validation splits
+45:32 Loading the Qwen3-0.6B base model
+46:24 Computing answer-token log probabilities
+54:10 Cross-entropy loss for distillation
+57:25 Training and validation loss helpers
+1:02:03 Implementing the distillation training loop
+1:07:26 Running the standalone training script
+1:09:41 Plotting training and validation losses
+1:11:31 Evaluating checkpoints on MATH-500
+1:14:09 Comparing teachers and distillation results
+1:16:34 Future directions for reasoning models
+1:19:41 Bonus exercises and next steps</media:description>
+   <media:community>
+    <media:starRating count="50" average="5.00" min="1" max="5"/>
+    <media:statistics views="2540"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:VxfUrUrrczs</id>
   <yt:videoId>VxfUrUrrczs</yt:videoId>
   <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
@@ -65,8 +119,8 @@
 1:40:48 Further GRPO improvements from research
 1:45:43 Next steps and distillation</media:description>
    <media:community>
-    <media:starRating count="132" average="5.00" min="1" max="5"/>
-    <media:statistics views="10604"/>
+    <media:starRating count="136" average="5.00" min="1" max="5"/>
+    <media:statistics views="10754"/>
    </media:community>
   </media:group>
  </entry>
@@ -91,7 +145,7 @@
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="648"/>
+    <media:statistics views="659"/>
    </media:community>
   </media:group>
  </entry>
@@ -116,7 +170,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="490"/>
+    <media:statistics views="497"/>
    </media:community>
   </media:group>
  </entry>
@@ -173,8 +227,8 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 1:22:33 MATH-500 results and training stability
 1:24:05 Memory requirements and next steps</media:description>
    <media:community>
-    <media:starRating count="273" average="5.00" min="1" max="5"/>
-    <media:statistics views="18361"/>
+    <media:starRating count="276" average="5.00" min="1" max="5"/>
+    <media:statistics views="18470"/>
    </media:community>
   </media:group>
  </entry>
@@ -199,7 +253,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="849"/>
+    <media:statistics views="853"/>
    </media:community>
   </media:group>
  </entry>
@@ -224,7 +278,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="651"/>
+    <media:statistics views="652"/>
    </media:community>
   </media:group>
  </entry>
@@ -249,7 +303,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="289"/>
+    <media:statistics views="292"/>
    </media:community>
   </media:group>
  </entry>
@@ -295,7 +349,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 1:07:35 Takeaways and next steps</media:description>
    <media:community>
     <media:starRating count="115" average="5.00" min="1" max="5"/>
-    <media:statistics views="8967"/>
+    <media:statistics views="8997"/>
    </media:community>
   </media:group>
  </entry>
@@ -320,7 +374,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs&amp;index=1</media:description>
    <media:community>
     <media:starRating count="159" average="5.00" min="1" max="5"/>
-    <media:statistics views="3578"/>
+    <media:statistics views="3582"/>
    </media:community>
   </media:group>
  </entry>
@@ -347,7 +401,7 @@ An excerpt from my reasoning model series: https://www.youtube.com/watch?v=Kh9mq
 Article on coding an agent harness: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent</media:description>
    <media:community>
     <media:starRating count="152" average="5.00" min="1" max="5"/>
-    <media:statistics views="5674"/>
+    <media:statistics views="5683"/>
    </media:community>
   </media:group>
  </entry>
@@ -372,7 +426,7 @@ Article on coding an agent harness: https://magazine.sebastianraschka.com/p/comp
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="558"/>
+    <media:statistics views="559"/>
    </media:community>
   </media:group>
  </entry>
@@ -423,8 +477,8 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:35:01 Accuracy and compute tradeoffs
 1:36:50 Next steps and self-refinement</media:description>
    <media:community>
-    <media:starRating count="175" average="5.00" min="1" max="5"/>
-    <media:statistics views="13001"/>
+    <media:starRating count="176" average="5.00" min="1" max="5"/>
+    <media:statistics views="13030"/>
    </media:community>
   </media:group>
  </entry>
@@ -449,7 +503,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 An excerpt from my longer video on looped transformers: https://www.youtube.com/watch?v=KT4n-z_4QJU</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="2603"/>
+    <media:statistics views="2604"/>
    </media:community>
   </media:group>
  </entry>
@@ -507,71 +561,7 @@ An excerpt from my longer video on looped transformers: https://www.youtube.com/
 1:25:30 Summary and next steps</media:description>
    <media:community>
     <media:starRating count="222" average="5.00" min="1" max="5"/>
-    <media:statistics views="17995"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:BJua0yjO5dk</id>
-  <yt:videoId>BJua0yjO5dk</yt:videoId>
-  <yt:channelId>UC_CzsS7UTjcxJ-xXp1ftxtA</yt:channelId>
-  <title>Build A Reasoning Model From Scratch 2: Loading a Base Model, Text Generation, and KV Caching</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=BJua0yjO5dk"/>
-  <author>
-   <name>Sebastian Raschka</name>
-   <uri>https://www.youtube.com/channel/UC_CzsS7UTjcxJ-xXp1ftxtA</uri>
-  </author>
-  <published>2026-09-06T11:05:33+00:00</published>
-  <updated>2026-10-04T08:32:38+00:00</updated>
-  <media:group>
-   <media:title>Build A Reasoning Model From Scratch 2: Loading a Base Model, Text Generation, and KV Caching</media:title>
-   <media:content url="https://www.youtube.com/v/BJua0yjO5dk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/BJua0yjO5dk/hqdefault.jpg" width="480" height="360"/>
-   <media:description>The second video in the Build A Reasoning Model (From Scratch) series illustrates how to load a pre-trained model, how LLM text generation works, and how to make it more efficient with KV caching. (These are the basics to get started, later videos will revisit text-generation with sampling in more detail.)
-
-- Reasoning playlist: https://www.youtube.com/watch?v=Kh9mqTzjuEQ&amp;list=PLfrHAQCRxtUs
-- Reasoning Book: https://mng.bz/Nwr7 (Manning) &amp; https://amzn.to/4aAKiFY (Amazon)
-- Reasoning GitHub repo: https://github.com/rasbt/reasoning-from-scratch
-- Reasoning From Scratch Playlist: https://www.youtube.com/playlist?list=PLfrHAQCRxtUs
-
-Other resources mentioned in the video:
-
-- LLMs from Scratch book: https://amzn.to/4fqvn0D
-- LLMs from Scratch repo: https://github.com/rasbt/LLMs-from-scratch
-- LLMs from Scratch playlist: https://www.youtube.com/watch?v=yAcWnfsZhzo&amp;list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11&amp;index=1
-
-- MPS bug article: https://scottkirila.studio.site/blog/kernel-bug
-- BPE from scratch: https://github.com/rasbt/LLMs-from-scratch/tree/main/ch02/05_bpe-from-scratch
-- KV cache from scratch https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms
-
-00:00 Introduction and reasoning model demo
-01:55 How to work through the book
-05:00 Chapter 2 overview
-08:25 Checking PyTorch and hardware support
-10:26 Apple silicon and MPS caveats
-15:00 Cloud GPU options
-16:08 Tokens and tokenization
-18:20 Qwen3 and the Reasoning From Scratch package
-23:05 Encoding and decoding text
-26:24 Downloading weights and selecting a device
-31:01 Loading the pretrained Qwen3 model
-34:32 How LLMs generate text
-36:47 Input tensors and batch dimensions
-41:48 Running the model in inference mode
-44:11 Logits and next-token predictions
-49:21 Greedy decoding with argmax
-52:28 Building a streaming text generator
-01:01:28 Generating text and handling end-of-sequence tokens
-01:06:00 Benchmarking text generation
-01:14:34 How KV caching works
-01:17:22 Adding KV caching and measuring the speedup
-01:24:31 Model compilation with torch.compile
-01:30:33 Combining compilation with KV caching
-01:32:53 Comparing CPU and GPU performance
-01:35:32 Recap and next steps</media:description>
-   <media:community>
-    <media:starRating count="266" average="5.00" min="1" max="5"/>
-    <media:statistics views="18508"/>
+    <media:statistics views="18046"/>
    </media:community>
   </media:group>
  </entry>
