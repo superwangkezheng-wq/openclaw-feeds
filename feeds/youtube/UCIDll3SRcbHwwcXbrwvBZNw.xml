@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-18T00:59:35+00:00</published>
-  <updated>2026-10-18T01:03:07+00:00</updated>
+  <updated>2026-10-18T01:42:36+00:00</updated>
   <media:group>
    <media:title>DeepSeek 更新 V4.1 Flash 模型并开放搜索接口【AI 早报 2026-10-18】</media:title>
    <media:content url="https://www.youtube.com/v/gnBmwZeitL8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -49,8 +49,8 @@ https://x.com/thsottiaux/status/2111339932614861298
 WorkBuddy 国际版接入最新 DeepSeek 模型，限时免费 01:36
 https://x.com/WorkBuddy_AI/status/2111404103402430558</media:description>
    <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="16"/>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="874"/>
    </media:community>
   </media:group>
  </entry>
@@ -189,7 +189,7 @@ https://politico.com/news/2026/10/16/anthropic-ai-safety-01124654
 https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="1094"/>
+    <media:statistics views="1305"/>
    </media:community>
   </media:group>
  </entry>
@@ -327,7 +327,7 @@ https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-pu
 ChatGPT Sites 更新：企业</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="2731"/>
+    <media:statistics views="2795"/>
    </media:community>
   </media:group>
  </entry>
@@ -454,8 +454,8 @@ https://apate.ai/
 DeepSeek 网页及 API 出现中断 06:21
 https://status.deepseek.com/incidents/7116348214287</media:description>
    <media:community>
-    <media:starRating count="34" average="5.00" min="1" max="5"/>
-    <media:statistics views="4223"/>
+    <media:starRating count="35" average="5.00" min="1" max="5"/>
+    <media:statistics views="4269"/>
    </media:community>
   </media:group>
  </entry>
@@ -582,7 +582,7 @@ https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build
 https://www.thepaper.cn/newsDetail_forward_34241236</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="4451"/>
+    <media:statistics views="4420"/>
    </media:community>
   </media:group>
  </entry>
@@ -703,7 +703,7 @@ https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora
 https://mp.weixin.qq.com/s/gX2yV5_2tHw9kCj8ND7W2g</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="1683"/>
+    <media:statistics views="1688"/>
    </media:community>
   </media:group>
  </entry>
@@ -742,7 +742,7 @@ https://x.com/elonmusk/status/2109012639049244981
 https://linux.do/t/topic/3008137</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1040"/>
+    <media:statistics views="1042"/>
    </media:community>
   </media:group>
  </entry>
@@ -801,7 +801,7 @@ https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-bu
 https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2224"/>
+    <media:statistics views="2227"/>
    </media:community>
   </media:group>
  </entry>
@@ -930,7 +930,7 @@ https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack
 Kimi 第三方客户端思维链调整，据用户反馈已回滚 06:35</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="2468"/>
+    <media:statistics views="2475"/>
    </media:community>
   </media:group>
  </entry>
@@ -1057,7 +1057,7 @@ https://mp.weixin.qq.com/s/cmjfJ40G8ZSr9vyPLLy37g
 Arena 完成</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2266"/>
+    <media:statistics views="2267"/>
    </media:community>
   </media:group>
  </entry>
@@ -1185,7 +1185,7 @@ Surface Laptop Ultra 开启预售，2599 美元起 06:12
 https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-s</media:description>
    <media:community>
     <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="5640"/>
+    <media:statistics views="5643"/>
    </media:community>
   </media:group>
  </entry>
@@ -1323,7 +1323,7 @@ https://blog.google/innovation-and-ai/technology/health/google-earth-ai/
 https://x.com/Google/</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="4729"/>
+    <media:statistics views="4730"/>
    </media:community>
   </media:group>
  </entry>
