@@ -11,6 +11,118 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:oBGE3bolg-4</id>
+  <yt:videoId>oBGE3bolg-4</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>MiniMax 正式发布 M3.1 Flash【AI 早报 2026-10-20】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=oBGE3bolg-4"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-20T01:28:50+00:00</published>
+  <updated>2026-10-20T12:24:58+00:00</updated>
+  <media:group>
+   <media:title>MiniMax 正式发布 M3.1 Flash【AI 早报 2026-10-20】</media:title>
+   <media:content url="https://www.youtube.com/v/oBGE3bolg-4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/oBGE3bolg-4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+MiniMax 正式发布 M3.1 Flash 00:08
+https://x.com/MiniMax_AI/status/2112150867868541221
+https://www.minimax.cn/blog/minimax-m31f
+
+美国下令联邦文职机构禁购并移除 DeepSeek 00:29
+https://public-inspection.federalregister.gov/2026-21447.pdf
+https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/
+
+OpenCode 更新 DeepSeek V4.1 Flash 00:43
+https://x.com/opencode/status/2112220734768779441
+
+Qoder 限时免费开放 DeepSeek 新模型 00:52
+https://mp.weixin.qq.com/s/ejQ3QP7WhuWcoZswlZlSag
+
+Command Code 上线 MiniMax M3.1 Flash 01:00
+https://x.com/CommandCodeAI/status/2112188292078952773
+
+TRAE 公布程序员节活动，设百万积分大奖 01:07
+https://mp.weixin.qq.com/s/obNwXPaKKNcr3jQbrsLiiA
+
+Devin 推出按使用效率自动提额机制 01:23
+https://devin.ai/blog/efficiency-based-cost-controls
+
+蚂蚁百灵开源 5 款 Ming-3.0 语音模型 01:34
+https://x.com/AntLingAGI/status/2112210811997540475
+https://github.com/inclusionAI/Ming-3.0-audio-flash
+https://huggingface.co/inclusionAI/Ming-3.0-audio-flash
+https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B
+
+fal 上线视频模型 FLUX 3 Max 01:50
+https://fal.ai/flux-3-max
+
+Inception 发布扩散模型 Mercury 3 02:04
+https://www.inceptionlabs.ai/blog/introducing-mercury-3
+
+Decision 3.0 多模态决策模型发布 02:18
+https://huggingface.co/collections/vllm-sr/decision-30
+
+Xing4.0-29B-Intent 开源：同时识别意图与提取参数 02:28
+https://github.com/XingChen-AGI/Xing4.0-29B-Intent
+
+Meta 发布 Muse Glimmer 技术报告 02:40
+https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/
+
+Notion 升级 AI：自动选模降成本，任务运行更久 02:47
+https://x.com/NotionHQ/status/2112269722075242887
+https://www.notion.com/blog/notion-ai-more-for-less
+
+腾讯上线 WorkBuddy 教育公益版 03:04
+https://mp.weixin.qq.com/s?new=1&amp;signature=sRBAXraEgVwh7z9QeQTN8qBVvuYW6kSLPIt-k%2ArncDeSC4S3%2ADAzV8fA7KpPshKK-Rkr43U6dLLy2d4HFGuAT7-5G3afg5SumV6TkSljlMxuf7Kyqsgehgi9fEtef1Mf&amp;src=11&amp;timestamp=1792396589&amp;ver=7035
+
+Grok Bot 支持设为 iPhone 的操作按钮功能 03:12
+https://x.com/bot/status/2112252507762368684
+
+ChatGPT 桌面端支持编辑已发送消息 03:19
+https://x.com/thsottiaux/status/2111990254408434095
+https://x.com/reach_vb/status/2112002870929473551
+
+Arena 开放 GPT-Image-2.5 Sunburst 直接测试 03:33
+https://x.com/arena/status/2112199487217434855
+
+OpenAI 称模型提升低资源语言编程能力 03:42
+https://openai.com/index/low-resource-programming-languages/
+https://github.com/openai/MultiLangBench
+
+微软扩展安全系统，动态管控企业内部 Agent 03:53
+https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/
+https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/
+
+AA-PersonalityBench 发布 04:06
+https://artificialanalysis.ai/evaluations/aa-personalitybench
+
+Meta 吉瓦级超级集群一期完工并用于训练 04:19
+https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/
+
+豆包公关负责人：字节约一成算力用于视频模型 04:34
+https://weibo.com/4013603128/RnmNqvsrV?pagetype=profilefeed
+http://static.cninfo.com.cn/finalpage/2026-06-03/1225350332.PDF
+
+火山引擎推出 AI 剧激励，单部最高 20 万元 04:46
+https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&amp;mid=2247544876&amp;idx=1&amp;sn=b12bbf0e3c265e4bc6a43f2e75ebe6fe
+
+OpenAI 员工：已协助 OpenCode 用户恢复服务 04:59
+https://x.com/thsottiaux/status/2112034063934742720
+https://x.com/opencode/status/2111519637049319818
+
+HUMXN 推免费上门服务，录制作业训练机器人 05:14
+https://humxn.io/humxn-launches-free-home-service-program</media:description>
+   <media:community>
+    <media:starRating count="28" average="5.00" min="1" max="5"/>
+    <media:statistics views="2176"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:3oA9693OIBw</id>
   <yt:videoId>3oA9693OIBw</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -44,7 +156,7 @@ https://x.com/LuminaBench/status/2111751820980678939
 https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="679"/>
+    <media:statistics views="866"/>
    </media:community>
   </media:group>
  </entry>
@@ -59,7 +171,7 @@ https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-nor
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-18T00:59:35+00:00</published>
-  <updated>2026-10-18T01:42:36+00:00</updated>
+  <updated>2026-10-19T17:35:36+00:00</updated>
   <media:group>
    <media:title>DeepSeek 更新 V4.1 Flash 模型并开放搜索接口【AI 早报 2026-10-18】</media:title>
    <media:content url="https://www.youtube.com/v/gnBmwZeitL8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -88,7 +200,7 @@ WorkBuddy 国际版接入最新 DeepSeek 模型，限时免费 01:36
 https://x.com/WorkBuddy_AI/status/2111404103402430558</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1256"/>
+    <media:statistics views="1325"/>
    </media:community>
   </media:group>
  </entry>
@@ -103,7 +215,7 @@ https://x.com/WorkBuddy_AI/status/2111404103402430558</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-17T01:50:22+00:00</published>
-  <updated>2026-10-17T04:35:09+00:00</updated>
+  <updated>2026-10-19T17:31:27+00:00</updated>
   <media:group>
    <media:title>有关部门拟增列AI技术进入出口管制目录【AI 早报 2026-10-17】</media:title>
    <media:content url="https://www.youtube.com/v/6VXBmYc0Dc8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -227,7 +339,7 @@ https://politico.com/news/2026/10/16/anthropic-ai-safety-01124654
 https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1379"/>
+    <media:statistics views="1429"/>
    </media:community>
   </media:group>
  </entry>
@@ -242,7 +354,7 @@ https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-sa
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-16T01:53:31+00:00</published>
-  <updated>2026-10-17T01:54:05+00:00</updated>
+  <updated>2026-10-18T21:46:01+00:00</updated>
   <media:group>
    <media:title>OpenAI Codex 增加算力投入；DeepSeek 补偿服务中断【AI 早报 2026-10-16】</media:title>
    <media:content url="https://www.youtube.com/v/ZLVlr9Jy1Gs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -365,7 +477,7 @@ https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-pu
 ChatGPT Sites 更新：企业</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="2804"/>
+    <media:statistics views="2832"/>
    </media:community>
   </media:group>
  </entry>
@@ -380,7 +492,7 @@ ChatGPT Sites 更新：企业</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-15T01:50:37+00:00</published>
-  <updated>2026-10-15T23:09:18+00:00</updated>
+  <updated>2026-10-18T01:08:20+00:00</updated>
   <media:group>
    <media:title>Claude Code 桌面版更新优化多会话体验【AI 早报 2026-10-15】</media:title>
    <media:content url="https://www.youtube.com/v/nBOZma9CKwc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -493,7 +605,7 @@ DeepSeek 网页及 API 出现中断 06:21
 https://status.deepseek.com/incidents/7116348214287</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="4261"/>
+    <media:statistics views="4272"/>
    </media:community>
   </media:group>
  </entry>
@@ -508,7 +620,7 @@ https://status.deepseek.com/incidents/7116348214287</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-14T01:31:04+00:00</published>
-  <updated>2026-10-14T13:26:04+00:00</updated>
+  <updated>2026-10-18T00:38:19+00:00</updated>
   <media:group>
    <media:title>Google 正式上线 Gemini 4 Argon【AI 早报 2026-10-14】</media:title>
    <media:content url="https://www.youtube.com/v/7HZOML09Vi4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -620,7 +732,7 @@ https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build
 https://www.thepaper.cn/newsDetail_forward_34241236</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="4427"/>
+    <media:statistics views="4442"/>
    </media:community>
   </media:group>
  </entry>
@@ -741,7 +853,7 @@ https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora
 https://mp.weixin.qq.com/s/gX2yV5_2tHw9kCj8ND7W2g</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="1697"/>
+    <media:statistics views="1701"/>
    </media:community>
   </media:group>
  </entry>
@@ -780,7 +892,7 @@ https://x.com/elonmusk/status/2109012639049244981
 https://linux.do/t/topic/3008137</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1046"/>
+    <media:statistics views="1048"/>
    </media:community>
   </media:group>
  </entry>
@@ -839,7 +951,7 @@ https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-bu
 https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2229"/>
+    <media:statistics views="2231"/>
    </media:community>
   </media:group>
  </entry>
@@ -968,7 +1080,7 @@ https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack
 Kimi 第三方客户端思维链调整，据用户反馈已回滚 06:35</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="2478"/>
+    <media:statistics views="2483"/>
    </media:community>
   </media:group>
  </entry>
@@ -1095,7 +1207,7 @@ https://mp.weixin.qq.com/s/cmjfJ40G8ZSr9vyPLLy37g
 Arena 完成</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2269"/>
+    <media:statistics views="2274"/>
    </media:community>
   </media:group>
  </entry>
@@ -1223,7 +1335,7 @@ Surface Laptop Ultra 开启预售，2599 美元起 06:12
 https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-s</media:description>
    <media:community>
     <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="5644"/>
+    <media:statistics views="5647"/>
    </media:community>
   </media:group>
  </entry>
@@ -1439,44 +1551,6 @@ https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-rep
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
     <media:statistics views="2226"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:eIankZvjggI</id>
-  <yt:videoId>eIankZvjggI</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>OpenAI：Codex未来28天每天更新，否则重置额度【AI 早报 2026-10-05】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=eIankZvjggI"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-10-05T01:30:39+00:00</published>
-  <updated>2026-10-09T09:29:25+00:00</updated>
-  <media:group>
-   <media:title>OpenAI：Codex未来28天每天更新，否则重置额度【AI 早报 2026-10-05】</media:title>
-   <media:content url="https://www.youtube.com/v/eIankZvjggI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/eIankZvjggI/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-Tibo 称 Codex 团队承诺 28 天每日改进或全额重置 00:09
-https://x.com/thsottiaux/status/2106845241357824205
-
-崔添翼：一切皆插件是 DeepSeek Harness 初心 00:21
-https://www.zhihu.com/question/2089740005770008568/answer/2090104616759325588
-https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-alpha.1#cn-v0.2.1-alpha.1-community
-https://github.com/deepseek-ai/deepseek-harness/blob/dsh-v0.2.1-alpha.1/docs/subsystems/claude-code-mods.zh.md
-
-马斯克回应确认SpaceXAI将更名为SpaceXSI 00:41
-https://x.com/elonmusk/status/2106665679361618173
-https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/
-
-据报道 Reflection 将发首个开放权重模型 00:56
-https://www.axios.com/2026/10/04/reflection-open-weight-ai</media:description>
-   <media:community>
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1150"/>
    </media:community>
   </media:group>
  </entry>

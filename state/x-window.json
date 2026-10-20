@@ -27,6 +27,28 @@
           "retweets": 0,
           "text": "Spots to RSVP https://t.co/XNKf12Zj8b",
           "url": "https://x.com/adityaag/status/2111162113184178631"
+        },
+        "id:2112276231731466420": {
+          "createdAt": "2026-10-19T20:14:32.000Z",
+          "id": "2112276231731466420",
+          "isQuote": false,
+          "likes": 49,
+          "quotedTweetId": null,
+          "replies": 5,
+          "retweets": 6,
+          "text": "Early @PalantirTech. Cofounder of @anduriltech. GP at @foundersfund.\n\nLast time @traestephens was at @spc was back in 2022.\n\nThe world looks a little different now.\n\nWednesday. RSVP below. https://t.co/6uZu9c7KKT",
+          "url": "https://x.com/adityaag/status/2112276231731466420"
+        },
+        "id:2112276233363030215": {
+          "createdAt": "2026-10-19T20:14:32.000Z",
+          "id": "2112276233363030215",
+          "isQuote": false,
+          "likes": 4,
+          "quotedTweetId": null,
+          "replies": 2,
+          "retweets": 0,
+          "text": "https://t.co/aEAsDgsa3u",
+          "url": "https://x.com/adityaag/status/2112276233363030215"
         }
       }
     },
@@ -210,6 +232,39 @@
           "retweets": 0,
           "text": "current (mostly) reading: https://t.co/gvZsM7SnfD",
           "url": "https://x.com/danshipper/status/2111962665987825809"
+        },
+        "id:2112230653924192274": {
+          "createdAt": "2026-10-19T17:13:25.000Z",
+          "id": "2112230653924192274",
+          "isQuote": true,
+          "likes": 60,
+          "quotedTweetId": "2112219577727992319",
+          "replies": 9,
+          "retweets": 3,
+          "text": "so proud of Quinten + Ajay and team! \n\nthey've been pushing the boundaries of creativity and storytelling with AI for years now—and one of the breakout examples of it working in consumer\n\npsyched to be a tiny investor :) https://t.co/8deaaWyuJ7",
+          "url": "https://x.com/danshipper/status/2112230653924192274"
+        },
+        "id:2112272224782856514": {
+          "createdAt": "2026-10-19T19:58:37.000Z",
+          "id": "2112272224782856514",
+          "isQuote": false,
+          "likes": 59,
+          "quotedTweetId": null,
+          "replies": 11,
+          "retweets": 0,
+          "text": "a story in 3 parts https://t.co/dabv01DAY3",
+          "url": "https://x.com/danshipper/status/2112272224782856514"
+        },
+        "id:2112308324377203182": {
+          "createdAt": "2026-10-19T22:22:03.000Z",
+          "id": "2112308324377203182",
+          "isQuote": true,
+          "likes": 6,
+          "quotedTweetId": "2112294488676696119",
+          "replies": 0,
+          "retweets": 0,
+          "text": "the ideographic &gt; the nomothetic https://t.co/DT4n8LnA4C",
+          "url": "https://x.com/danshipper/status/2112308324377203182"
         }
       }
     },
@@ -251,6 +306,17 @@
           "retweets": 23,
           "text": "Prediction: you’re all going to be using @AsideAI with your agents in a year or so https://t.co/gF7Nx30O4D",
           "url": "https://x.com/garrytan/status/2111971992769565177"
+        },
+        "id:2112278352514162834": {
+          "createdAt": "2026-10-19T20:22:58.000Z",
+          "id": "2112278352514162834",
+          "isQuote": true,
+          "likes": 243,
+          "quotedTweetId": "2112212804979880239",
+          "replies": 74,
+          "retweets": 16,
+          "text": "Multiplayer agents as group chat seems quite inevitable and Wabi's built it https://t.co/ltccTzgMLo",
+          "url": "https://x.com/garrytan/status/2112278352514162834"
         }
       }
     },
@@ -260,17 +326,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2110975373219688624": {
-          "createdAt": "2026-10-16T06:05:23.000Z",
-          "id": "2110975373219688624",
-          "isQuote": true,
-          "likes": 193,
-          "quotedTweetId": "2110913107094606330",
-          "replies": 18,
-          "retweets": 6,
-          "text": "So in fact we actually can get robots, flying cars, superintelligence, fast internet on planes, space travel, space colonies, orbital data centers, unlimited energy, likely cures for nearly every disease, and more all in our life times. Pretty great. https://t.co/jhgqv8gXhb",
-          "url": "https://x.com/levie/status/2110975373219688624"
-        },
         "id:2111312141609586862": {
           "createdAt": "2026-10-17T04:23:35.000Z",
           "id": "2111312141609586862",
@@ -303,6 +358,17 @@
           "retweets": 13,
           "text": "Here’s why agent swarms are going to be a very big deal. We can finally make compute a critical variable in a large number of important tasks in the economy which wasn’t possible before.\n\nThere’s a large amount of work in the world that is essentially only constrained by the amount of time that we put into research, data processing, discovery work, running tests, and more. All of this work is bottlenecked by our ability to plan, execute, review, and coordinate everything happening in these workflows. Which means we basically do very little of them today relative to their economic value. \n\nAgent swarms are the first real ability to parallelize this work in a way where - in theory - the only parameter that matters is how much compute you throw at the problem. Cyber security, life sciences or material science research, trading, QA testing, data processing, and many other fields are essentially compute constrained problems in the limit once models are good enough at these tasks.\n\nThe breakthrough is that in a world where agents can use tools, write code, process data, have strong domain depth, and can coordinate with each other, you can begin to solve arbitrarily complex problems by setting the right goals and applying enough tokens to the problem. This changes a lot of fields as well as even the competitive dynamics in these fields.",
           "url": "https://x.com/levie/status/2112051081014649303"
+        },
+        "id:2112404676436222170": {
+          "createdAt": "2026-10-20T04:44:56.000Z",
+          "id": "2112404676436222170",
+          "isQuote": true,
+          "likes": 83,
+          "quotedTweetId": "2112296416932479421",
+          "replies": 46,
+          "retweets": 7,
+          "text": "The big bitter lesson question in the applied AI layer is that as models get better and better, what is the best way to diffuse that intelligence into an enterprise. \n\nIronically, I’d argue that as models are getting more capable, and can handle longer running tasks and better tool use, the ability to differentiate on a domain by domain basis goes up instead of down. \n\nWhen models were quite limited in what they could do, ironically all you could be literally was a “wrapper” because you were effectively delivering tokens back to the user with a custom prompt or some limited RAG. \n\nBut in a world of agents using tools, tasks that run on for hours or days, workflows that kick off agents, agent swarms that need to be coordinated against a goal, data sources that are domain specific, model routing that requires domain-specific routing, implementation that requires real change management of the workflow instead of “just type into this chat box”, it’s very very possible that specialization of these systems goes up more. \n\nObviously this doesn’t apply to everything - the closer you are to the labs core use-cases the tougher this play gets, but I’d argue we’re going to see autonomous systems for a wide range of job functions that weren’t practical to build out before. We’ll see this in security, life sciences, healthcare, finance, manufacturing, and many other fields. Either way going to be a fun and wild couple of years.",
+          "url": "https://x.com/levie/status/2112404676436222170"
         }
       }
     },
@@ -396,6 +462,39 @@
           "retweets": 0,
           "text": "This aged relatively well.. even with the GH growth, I think people are still sleeping on @reatools. It’s truly bonkers 💥 https://t.co/G1dzcVf2mj",
           "url": "https://x.com/nikunj/status/2111986818057118160"
+        },
+        "id:2112219327881761008": {
+          "createdAt": "2026-10-19T16:28:25.000Z",
+          "id": "2112219327881761008",
+          "isQuote": true,
+          "likes": 46,
+          "quotedTweetId": "2112212804979880239",
+          "replies": 7,
+          "retweets": 6,
+          "text": "A few weeks ago, I was ranting about multiplayer AI experiences and that's when @ekuyda shared an early preview of Wabi 2.0..\n\nTruth be told, I was one of the early users of Wabi 1.0 and while the design was gorgeous, it frankly never \"stuck\" with me.\n\nBut, in moments of downloading this edition, I was immediately hooked. \n\nIt just gets the \"paradigm\" right imo. There are two types of personal agents today: 1) Singleplayer iMessage or Muse types - while useful it's hard to compartmentalize them when many things are going on 2) Build your own multiple chat Hermes agents - while that's useful and can share context, they live forever\n\nWabi has this great paradigm of orchestrator (which is the main agent) and topic specific episodic chats that are for a single purpose. You can share these individual chats with folks (for example the school one with my wife). And these are generated proactively AND don't need to stay forever (which is important).\n\nFor example, for my recent NY trip, it was generated based on a flight it saw, provided help where needed, and then after the trip was done, it was archived. Same with my 2025 taxes. \n\nMy only critique so far it's TOO proactive, the apps can be better and they need to dial both of those in, but this is a wonderful product that everyone should try!\n\n(I know it's shocking to see this in today's day and age, but this is neither paid, nor an investor, just a fan)",
+          "url": "https://x.com/nikunj/status/2112219327881761008"
+        },
+        "id:2112368222809034980": {
+          "createdAt": "2026-10-20T02:20:04.000Z",
+          "id": "2112368222809034980",
+          "isQuote": false,
+          "likes": 36,
+          "quotedTweetId": null,
+          "replies": 7,
+          "retweets": 1,
+          "text": "Waiting for someone to sell me a  peptide factory built in a data center which is also a robotics neolab that is somehow collecting first party uniquely differentiated data..\n\nAnd while we’re at it use the words tape out, memory/CPU shortage too. \n\nMake it 50/500 on a memo 🤝",
+          "url": "https://x.com/nikunj/status/2112368222809034980"
+        },
+        "id:2112422877949751491": {
+          "createdAt": "2026-10-20T05:57:15.000Z",
+          "id": "2112422877949751491",
+          "isQuote": false,
+          "likes": 12,
+          "quotedTweetId": null,
+          "replies": 1,
+          "retweets": 0,
+          "text": "Tenzing on Apple TV+ is a must watch..\n\nThe acting, the direction, the music. \n\nI can’t believe this was all shot in real environments and with zero green screens. \n\nLiteral goosebumps.",
+          "url": "https://x.com/nikunj/status/2112422877949751491"
         }
       }
     },
@@ -503,6 +602,39 @@
           "retweets": 0,
           "text": "Best comedy of the year https://t.co/jj4AxqOG1h",
           "url": "https://x.com/petergyang/status/2112016747838796200"
+        },
+        "id:2112280969382437076": {
+          "createdAt": "2026-10-19T20:33:22.000Z",
+          "id": "2112280969382437076",
+          "isQuote": true,
+          "likes": 23,
+          "quotedTweetId": "2112257806363734264",
+          "replies": 7,
+          "retweets": 0,
+          "text": "Very interesting insight into why alot of Netflix original movies and TV shows are slop. \n\nI still love a few of them (especially some of the Korean ones). https://t.co/FHES8Crisi",
+          "url": "https://x.com/petergyang/status/2112280969382437076"
+        },
+        "id:2112292347505688990": {
+          "createdAt": "2026-10-19T21:18:34.000Z",
+          "id": "2112292347505688990",
+          "isQuote": true,
+          "likes": 23,
+          "quotedTweetId": "2112212804979880239",
+          "replies": 6,
+          "retweets": 1,
+          "text": "This is super cool I love how visual it is. \n\nCan't wait to try this @ekuyda! https://t.co/UMkHxW16BB",
+          "url": "https://x.com/petergyang/status/2112292347505688990"
+        },
+        "id:2112398053185659282": {
+          "createdAt": "2026-10-20T04:18:36.000Z",
+          "id": "2112398053185659282",
+          "isQuote": false,
+          "likes": 3,
+          "quotedTweetId": null,
+          "replies": 1,
+          "retweets": 0,
+          "text": "This doesn't mean it's a good movie btw. I found it completely ridiculous",
+          "url": "https://x.com/petergyang/status/2112398053185659282"
         }
       }
     },
@@ -512,17 +644,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2110957024934858815": {
-          "createdAt": "2026-10-16T04:52:29.000Z",
-          "id": "2110957024934858815",
-          "isQuote": false,
-          "likes": 307,
-          "quotedTweetId": null,
-          "replies": 28,
-          "retweets": 6,
-          "text": "TLDR we got Vercel zeppelin and flying cars before GTA6 https://t.co/F9RpBIZZ9f",
-          "url": "https://x.com/rauchg/status/2110957024934858815"
-        },
         "id:2111274408706965898": {
           "createdAt": "2026-10-17T01:53:39.000Z",
           "id": "2111274408706965898",
@@ -599,6 +720,39 @@
           "retweets": 0,
           "text": "Tried out the new 𝚍𝚎𝚎𝚙𝚜𝚎𝚎𝚔-𝚟𝟺.𝟷-𝚏𝚕𝚊𝚜𝚑-𝟷𝟶𝟷𝟽-𝚏𝚊𝚜𝚝 on AI Gateway to make a few improvements. It added sound, better collision detection, improved the ramp, camera that follows the car, etc. I think it cost 30 cents 😂 https://t.co/zmpILvTJll",
           "url": "https://x.com/rauchg/status/2111929486661018081"
+        },
+        "id:2112194000639967590": {
+          "createdAt": "2026-10-19T14:47:47.000Z",
+          "id": "2112194000639967590",
+          "isQuote": true,
+          "likes": 285,
+          "quotedTweetId": "2112181432307294550",
+          "replies": 59,
+          "retweets": 8,
+          "text": "More free AI https://t.co/9Jd42XA7rw",
+          "url": "https://x.com/rauchg/status/2112194000639967590"
+        },
+        "id:2112247046082363821": {
+          "createdAt": "2026-10-19T18:18:34.000Z",
+          "id": "2112247046082363821",
+          "isQuote": true,
+          "likes": 1662,
+          "quotedTweetId": "2112245199808434614",
+          "replies": 149,
+          "retweets": 102,
+          "text": "We open sourced a *really fast* HTML artifact builder. It's powered by libfx, making the agent durable.\n\nBuilding the low-level plumbing for v0 to survive server crashes, flaky LLMs, function limits was a huge pain.\n\nNow it's easy, free, and OSS: https://t.co/aUP1vKeIsP.\n\nPS: I built this floating container in a few minutes… it's delightful, and it's just HTML!",
+          "url": "https://x.com/rauchg/status/2112247046082363821"
+        },
+        "id:2112256718281551955": {
+          "createdAt": "2026-10-19T18:57:00.000Z",
+          "id": "2112256718281551955",
+          "isQuote": true,
+          "likes": 255,
+          "quotedTweetId": "2112247772951052782",
+          "replies": 55,
+          "retweets": 11,
+          "text": "1,000 tokens per second btw https://t.co/BdATqYu71F",
+          "url": "https://x.com/rauchg/status/2112256718281551955"
         }
       }
     },
@@ -796,6 +950,17 @@
           "retweets": 0,
           "text": "Data engineers > AI engineers\n\nthere's a big difference between a \"RAG guy\" and a \"Data Intensive Applications\" person like in this screenshot and there's never been a starker difference in demand in my entire career in tech (aka post search engine wars)\n\nif your blog / github is full of stuff like this, I have a fantastic mission/job for you (SF preferred, can relocate u, visas ok)\n\n(if you can name who's blog this is without even checking, you definitely are in the community. bonus points if you know where he ended up also without looking)\n\njobs@latent.space and the team will reach out if you fit",
           "url": "https://x.com/swyx/status/2112073533794971941"
+        },
+        "id:2112182228977348963": {
+          "createdAt": "2026-10-19T14:01:00.000Z",
+          "id": "2112182228977348963",
+          "isQuote": true,
+          "likes": 58,
+          "quotedTweetId": "2111321176769442251",
+          "replies": 54,
+          "retweets": 1,
+          "text": "\"O Infallible one, why do the people not heed the sign we tap?\"\n\n\"My dear Parth, each believes he is the first to wish for an end to chat. On X we are cursed with the eternal September of the Thoughtless Mind.\"\n\n\"But O Govinda, they yearn for what lies beyond it, and cast their votes by the thousands. Surely the people's wants must be made.\"\n\n*a wan smile* “O son of Kunti, observe what they applaud, and what they return to. They desire the end of chat as they desire the end of desire. They desire to leave X as they return in ever greater numbers. They will announce it many times. You shall learn, as they do not, that the chief desire of the people of X is not the truth, but the new.”",
+          "url": "https://x.com/swyx/status/2112182228977348963"
         }
       }
     },
@@ -824,17 +989,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2110971985417441512": {
-          "createdAt": "2026-10-16T05:51:55.000Z",
-          "id": "2110971985417441512",
-          "isQuote": false,
-          "likes": 2774,
-          "quotedTweetId": null,
-          "replies": 899,
-          "retweets": 68,
-          "text": "Either we are out of ideas or we are cooking. Time will tell",
-          "url": "https://x.com/thsottiaux/status/2110971985417441512"
-        },
         "id:2111245052513259606": {
           "createdAt": "2026-10-16T23:57:00.000Z",
           "id": "2111245052513259606",
@@ -933,6 +1087,28 @@
           "retweets": 56,
           "text": "I bought a new domain and I’m very excited for it. Very",
           "url": "https://x.com/thsottiaux/status/2112039275344941371"
+        },
+        "id:2112268918681485431": {
+          "createdAt": "2026-10-19T19:45:28.000Z",
+          "id": "2112268918681485431",
+          "isQuote": true,
+          "likes": 4635,
+          "quotedTweetId": "2112242739198959913",
+          "replies": 2744,
+          "retweets": 147,
+          "text": "Day 15/ We're cooked https://t.co/ciJpOJlmOn",
+          "url": "https://x.com/thsottiaux/status/2112268918681485431"
+        },
+        "id:2112432076767289678": {
+          "createdAt": "2026-10-20T06:33:48.000Z",
+          "id": "2112432076767289678",
+          "isQuote": true,
+          "likes": 1460,
+          "quotedTweetId": "2112268918681485431",
+          "replies": 627,
+          "retweets": 108,
+          "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy. https://t.co/RZ9WhtI802",
+          "url": "https://x.com/thsottiaux/status/2112432076767289678"
         }
       }
     },
@@ -974,6 +1150,17 @@
           "retweets": 26,
           "text": "I've realized I often would prefer to vibe code little parts of games than actually play games these days. \n\nEspecially cerebral ones that require some thinking like League.\n\nI'm not quite sure what this really means for games but I think it's important?",
           "url": "https://x.com/trq212/status/2111945336537420259"
+        },
+        "id:2112219173288120531": {
+          "createdAt": "2026-10-19T16:27:48.000Z",
+          "id": "2112219173288120531",
+          "isQuote": false,
+          "likes": 5458,
+          "quotedTweetId": null,
+          "replies": 476,
+          "retweets": 285,
+          "text": "I think most people multi-tasking with agents could benefit from slowing down\n\nmost of the stuff you're doing wont really matter- what's your P0? what would it look like if you gave it your full attention?",
+          "url": "https://x.com/trq212/status/2112219173288120531"
         }
       }
     },
@@ -983,38 +1170,16 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2110953030200005037": {
-          "createdAt": "2026-10-16T04:36:36.000Z",
-          "id": "2110953030200005037",
+        "id:2112398939358138862": {
+          "createdAt": "2026-10-20T04:22:08.000Z",
+          "id": "2112398939358138862",
           "isQuote": true,
-          "likes": 21,
-          "quotedTweetId": "2110913438293647789",
+          "likes": 16,
+          "quotedTweetId": "2102745016041095550",
           "replies": 2,
-          "retweets": 1,
-          "text": "Here https://t.co/eGnilcXh9Q https://t.co/PziWcUIhFV",
-          "url": "https://x.com/zarazhangrui/status/2110953030200005037"
-        },
-        "id:2110984552743309530": {
-          "createdAt": "2026-10-16T06:41:52.000Z",
-          "id": "2110984552743309530",
-          "isQuote": false,
-          "likes": 1,
-          "quotedTweetId": null,
-          "replies": 0,
           "retweets": 0,
-          "text": "Had a lot of fun making this Harry Potter style newspaper where the images can come alive: The Toddler Times 👧🏻 https://t.co/jALSfh50RO",
-          "url": "https://x.com/zarazhangrui/status/2110984552743309530"
-        },
-        "id:2110994667924050128": {
-          "createdAt": "2026-10-16T07:22:03.000Z",
-          "id": "2110994667924050128",
-          "isQuote": false,
-          "likes": 6,
-          "quotedTweetId": null,
-          "replies": 5,
-          "retweets": 0,
-          "text": "DM me if you'd like to learn how to make something like this!",
-          "url": "https://x.com/zarazhangrui/status/2110994667924050128"
+          "text": "See this in a theater! One of the most interesting things about this documentary was how much &amp; when people laughed while watching it https://t.co/Q9kAdgyAoW",
+          "url": "https://x.com/zarazhangrui/status/2112398939358138862"
         }
       }
     }
