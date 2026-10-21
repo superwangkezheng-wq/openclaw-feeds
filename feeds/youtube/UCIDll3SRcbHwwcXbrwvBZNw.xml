@@ -11,6 +11,106 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:T9K0FEK1gK4</id>
+  <yt:videoId>T9K0FEK1gK4</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>DeepSeek 开源内部推理框架 DeepInfer【AI 早报 2026-10-21】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=T9K0FEK1gK4"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-21T01:20:38+00:00</published>
+  <updated>2026-10-21T08:25:39+00:00</updated>
+  <media:group>
+   <media:title>DeepSeek 开源内部推理框架 DeepInfer【AI 早报 2026-10-21】</media:title>
+   <media:content url="https://www.youtube.com/v/T9K0FEK1gK4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/T9K0FEK1gK4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+DeepSeek 开源内部推理框架 DeepInfer 00:08
+https://zhuanlan.zhihu.com/p/2095560295930508953
+https://mp.weixin.qq.com/s/5MEu2eeqNfBWXlkCKTd6sg?scene=1&amp;click_id=861294662
+https://github.com/deepseek-ai/DeepInfer
+
+ChatGPT 推出锁定聊天，可用 PIN 保护 00:32
+https://help.openai.com/en/articles/20001411-using-locked-chats-in-chatgpt
+https://x.com/ChatGPT/status/2112597766333673624
+
+Codex 改进计划第 15 天，Tibo 送上用量重置 00:46
+https://x.com/thsottiaux/status/2112432076767289678
+
+OpenAI 修复约 4 万账户额度错配问题并补偿 00:53
+https://x.com/thsottiaux/status/2112592264686149749
+https://linux.do/t/topic/3051760
+
+OpenAI API 新增 12 小时提示词缓存 01:13
+https://x.com/OpenAIDevs/status/2112603916076781778
+https://developers.openai.com/api/docs/guides/prompt-caching
+
+Google 开源原生 PyTorch 软件栈 TorchTPU 01:29
+https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus
+https://github.com/google-pytorch/torch_tpu
+
+腾讯元宝搜索对外开放，支持三种接入方式 01:39
+https://mp.weixin.qq.com/s/DHbVEwhHjiggPI5EQ5LgkQ
+
+ElevenLabs 发布两款 Eleven Realtime 实时语音模型 01:50
+https://elevenlabs.io/blog/realtime
+
+Mistral AI 发布 Voxtral 3 语音模型系列及语音 Agent SDK 02:00
+https://mistral.ai/news/voxtral-3
+
+OpenAI 为 ChatGPT 引入多人共管的定期任务 02:14
+https://help.openai.com/en/articles/20001540-creating-and-managing-team-tasks-in-chatgpt
+https://x.com/OpenAIDevs/status/2112565702552940794
+https://learn.chatgpt.com/docs/enterprise/teams
+https://help.openai.com/articles/20001541
+https://help.openai.com/en/articles/20001494-connecting-and-managing-app-accounts-in-chatgpt
+
+Google 为 Gemini 推出小企业主新工具 02:22
+https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/
+
+Google 向安卓车载推出 Gemini 个性化功能 02:37
+https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/
+
+千问 App 推出陪逛功能，共享屏幕语音问商品 02:45
+
+马斯克：X 调整时间线推荐的两类模型 02:58
+https://x.com/elonmusk/status/2112373713937084809
+
+Anthropic 研究设计蝎毒结合蛋白，17 个通过结合测试 03:13
+https://www.anthropic.com/research/claude-scorpion-toxin-binder-design
+https://x.com/AnthropicAI/status/2112579251555721573
+https://www-cdn.anthropic.com/31ac578806cffd8b3d92d8affe6edc4c04d502e1.pdf
+https://huggingface.co/datasets/Anthropic/scorpion-toxin-binder-design
+
+OpenAI 收购药物开发平台 Orchestra Bio 03:34
+https://openai.com/index/openai-to-acquire-orchestra-bio/
+https://x.com/OpenAI/status/2112607347688583586
+
+OpenAI Preparedness 团队前负责人宣布重返 OpenAI 03:52
+https://x.com/aleks_madry/status/2112231448103239998
+https://x.com/sama/status/2112652656602923366
+
+据路透社：OpenAI 洽谈约 300 亿美元融资 04:05
+https://theedgemalaysia.com/node/822425
+https://www.reuters.com/world/openai-seeks-accelerate-fundraising-ahead-anthropic-ipo-sources-say-2026-10-19/
+
+Anthropic 上市文件草案披露云容量困境 04:20
+https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1
+https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/
+
+Google：Argon 用量约为前代同期 3 倍 04:39
+https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative
+https://x.com/NewsFromGoogle/status/2112669319108927590</media:description>
+   <media:community>
+    <media:starRating count="24" average="5.00" min="1" max="5"/>
+    <media:statistics views="1393"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:oBGE3bolg-4</id>
   <yt:videoId>oBGE3bolg-4</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -21,7 +121,7 @@
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-20T01:28:50+00:00</published>
-  <updated>2026-10-20T12:24:58+00:00</updated>
+  <updated>2026-10-21T01:44:38+00:00</updated>
   <media:group>
    <media:title>MiniMax 正式发布 M3.1 Flash【AI 早报 2026-10-20】</media:title>
    <media:content url="https://www.youtube.com/v/oBGE3bolg-4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -118,7 +218,7 @@ HUMXN 推免费上门服务，录制作业训练机器人 05:14
 https://humxn.io/humxn-launches-free-home-service-program</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="2176"/>
+    <media:statistics views="3005"/>
    </media:community>
   </media:group>
  </entry>
@@ -156,7 +256,7 @@ https://x.com/LuminaBench/status/2111751820980678939
 https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="866"/>
+    <media:statistics views="868"/>
    </media:community>
   </media:group>
  </entry>
@@ -171,7 +271,7 @@ https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-nor
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-18T00:59:35+00:00</published>
-  <updated>2026-10-19T17:35:36+00:00</updated>
+  <updated>2026-10-21T08:24:57+00:00</updated>
   <media:group>
    <media:title>DeepSeek 更新 V4.1 Flash 模型并开放搜索接口【AI 早报 2026-10-18】</media:title>
    <media:content url="https://www.youtube.com/v/gnBmwZeitL8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -200,7 +300,7 @@ WorkBuddy 国际版接入最新 DeepSeek 模型，限时免费 01:36
 https://x.com/WorkBuddy_AI/status/2111404103402430558</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1325"/>
+    <media:statistics views="1353"/>
    </media:community>
   </media:group>
  </entry>
@@ -339,7 +439,7 @@ https://politico.com/news/2026/10/16/anthropic-ai-safety-01124654
 https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1429"/>
+    <media:statistics views="1458"/>
    </media:community>
   </media:group>
  </entry>
@@ -477,7 +577,7 @@ https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-pu
 ChatGPT Sites 更新：企业</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="2832"/>
+    <media:statistics views="2841"/>
    </media:community>
   </media:group>
  </entry>
@@ -605,7 +705,7 @@ DeepSeek 网页及 API 出现中断 06:21
 https://status.deepseek.com/incidents/7116348214287</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="4272"/>
+    <media:statistics views="4285"/>
    </media:community>
   </media:group>
  </entry>
@@ -732,7 +832,7 @@ https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build
 https://www.thepaper.cn/newsDetail_forward_34241236</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="4442"/>
+    <media:statistics views="4449"/>
    </media:community>
   </media:group>
  </entry>
@@ -892,7 +992,7 @@ https://x.com/elonmusk/status/2109012639049244981
 https://linux.do/t/topic/3008137</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1048"/>
+    <media:statistics views="1051"/>
    </media:community>
   </media:group>
  </entry>
@@ -1080,7 +1180,7 @@ https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack
 Kimi 第三方客户端思维链调整，据用户反馈已回滚 06:35</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="2483"/>
+    <media:statistics views="2487"/>
    </media:community>
   </media:group>
  </entry>
@@ -1207,7 +1307,7 @@ https://mp.weixin.qq.com/s/cmjfJ40G8ZSr9vyPLLy37g
 Arena 完成</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2274"/>
+    <media:statistics views="2275"/>
    </media:community>
   </media:group>
  </entry>
@@ -1335,7 +1435,7 @@ Surface Laptop Ultra 开启预售，2599 美元起 06:12
 https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-s</media:description>
    <media:community>
     <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="5647"/>
+    <media:statistics views="5650"/>
    </media:community>
   </media:group>
  </entry>
@@ -1473,84 +1573,7 @@ https://blog.google/innovation-and-ai/technology/health/google-earth-ai/
 https://x.com/Google/</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="4730"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:psMHGJZ0Ivw</id>
-  <yt:videoId>psMHGJZ0Ivw</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>OpenAI 宣布提速 GPT-6 Astra 和 GPT-6.1 Sol【AI 早报 2026-10-06】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=psMHGJZ0Ivw"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-10-06T01:43:21+00:00</published>
-  <updated>2026-10-09T09:32:34+00:00</updated>
-  <media:group>
-   <media:title>OpenAI 宣布提速 GPT-6 Astra 和 GPT-6.1 Sol【AI 早报 2026-10-06】</media:title>
-   <media:content url="https://www.youtube.com/v/psMHGJZ0Ivw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/psMHGJZ0Ivw/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-OpenAI 宣布提速 GPT-6 Astra 和 GPT-6.1 Sol 00:09
-https://x.com/thsottiaux/status/2107158998495748264
-https://x.com/reach_vb/status/2107162023129723241
-
-Reflection 介绍 501B 开放模型 Beam 00:34
-https://reflection.ai/blog/introducing-beam
-https://x.com/MishaLaskin/status/2107187101045502158
-https://x.com/reflection_ai/status/2107186849370247235
-
-Reka AI 发布全能模型 Rho-1 研究预览 00:52
-https://reka.ai/news/rho-1-collapsing-the-multimodal-stack
-https://reka.ai/labs/research/reka-inverse-dynamics-model-for-interactive-world-models
-
-Solar Mini 4 在 Nous Portal 免费开放两周 01:08
-https://x.com/NousResearch/status/2107138770088714678
-
-Claude Cowork 新任务 10 月 6 日起全面转向云端 01:17
-https://support.claude.com/zh-CN/articles/15520349-%E5%9C%A8%E7%BD%91%E9%A1%B5-%E6%A1%8C%E9%9D%A2%E5%92%8C%E7%A7%BB%E5%8A%A8%E8%AE%BE%E5%A4%87%E4%B8%8A%E4%BD%BF%E7%94%A8-claude-cowork
-https://support.claude.com/en/articles/15811196-what-to-expect-with-claude-cowork-in-the-cloud
-
-Claude Projects 云端会话可按需读写本地文件夹 01:33
-https://x.com/dfeinition/status/2107174121213722661
-
-GitHub 开源代码评审基准 ReviewBench 01:46
-https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/
-https://review-bench.ai/
-
-华为与高通达成多年期宽范围专利交叉许可协议 02:00
-https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement
-https://www.qualcomm.com/news/releases/2026/10/huawei-and-qualcomm-announce-broad-patent-license-agreement
-
-OpenAI 推出 ChatGPT 图像生成视觉广告 02:18
-https://openai.com/index/new-chatgpt-ads-format-and-measurement/
-
-OpenAI 推出文本水印，应对欧盟 AI 法案 02:38
-https://openai.com/index/eu-text-provenance/
-https://x.com/OpenAI/status/2107164650249101695
-https://cdn.openai.com/pdf/e9508624-d767-41b6-a26d-e34ca798ada6/textgrain-entropy-calibrated-watermarking-for-language-model-text.pdf
-
-Sam Altman：AI 带来的收益值得社会接受一定风险 02:56
-https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217
-https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10
-
-维基媒体基金会称平台发现 OpenAI 失控 agent 活动 03:18
-https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/
-
-据报ChatGPT生成假纽约客漫画并签真实漫画家名 03:42
-https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/
-https://x.com/woofknight/status/2092798998608331240
-
-美国女子在Claude发布威胁言论后被捕 03:55
-https://www.winknews.com/news/woman-arrested-after-ai-threat-against-lee-county-sheriffs-office-investigators/article_3d4c5915-7015-43c0-b86a-d7fa5eadf958.html
-https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-reports-florida-womans-claude-diary-threat-to-shoot-up-sheriffs-office-felony-charge-follows-its-at-least-the-third-such-conversation-to-reach-police-since-august</media:description>
-   <media:community>
-    <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="2226"/>
+    <media:statistics views="4731"/>
    </media:community>
   </media:group>
  </entry>
