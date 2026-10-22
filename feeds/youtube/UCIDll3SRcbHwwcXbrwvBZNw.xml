@@ -11,6 +11,140 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:BNy-23Nz4zY</id>
+  <yt:videoId>BNy-23Nz4zY</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>Claude Duet 开放研究预览，主动提醒并在后台办事【AI 早报 2026-10-22】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=BNy-23Nz4zY"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-22T01:23:24+00:00</published>
+  <updated>2026-10-22T02:02:47+00:00</updated>
+  <media:group>
+   <media:title>Claude Duet 开放研究预览，主动提醒并在后台办事【AI 早报 2026-10-22】</media:title>
+   <media:content url="https://www.youtube.com/v/BNy-23Nz4zY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/BNy-23Nz4zY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+Claude Duet 开放研究预览，主动提醒并在后台办事 00:08
+https://claude.com/resources/articles/claude-duet
+https://claude.com/claude-duet
+https://support.claude.com/en/articles/17631495-get-started-with-claude-duet
+https://x.com/claudeai/status/2112984664256241837
+
+Tibo 称 Codex 登录用户缓存永久保留 00:40
+https://developers.openai.com/api/docs/guides/prompt-caching
+https://developers.openai.com/api/docs/changelog
+https://x.com/OpenAIDevs/status/2112603916076781778
+https://x.com/thsottiaux/status/2112712984644784534
+https://platform.openai.com/usage?usage_section=prompt-caching
+
+PHP 两项严重漏洞获修复，OpenAI 协助发现与修复 00:58
+https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities
+
+eMudhra 因弱密钥撤销 8 枚中间证书 01:12
+https://emudhra.com/en/post/certificate-security-incident
+https://bugzilla.mozilla.org/show_bug.cgi?id=2083449
+https://blog.google/security/protecting-chrome-and-android-users-from-compromised-emudhra-intermediate-ca-certificates/
+
+LiteLLM 遭供应链攻击，恶意版本下架 01:23
+https://docs.litellm.ai/blog/security-incident-oct-21-2026
+
+Qoder 国际版新增 Lite 档，续费按档位加赠 01:38
+https://docs.qoder.cn/events/bogo
+https://docs.qoder.com/zh/release-notes/lite-launch-announcement
+
+Claude API 推出自 2023 年以来首个正式新版 01:52
+https://platform.claude.com/docs/en/release-notes/overview
+https://x.com/ClaudeDevs/status/2113013247209021918
+
+Claude Security 更新：持续扫描并跟踪修复 02:07
+https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes
+https://x.com/claudeai/status/2112962248218148878
+
+OpenCode 上线 Meta 的 Muse Wonder 模型 02:16
+https://x.com/opencode/status/2112948166228369907
+
+Recursive 发布开源编码模型 Flint 02:22
+https://recursive.com/updates/introducing-recursive-flint
+https://huggingface.co/RecursiveSI/flint
+https://docs.recursive.com/getting-started
+
+Baseten 发布并开源两款决策模型 02:36
+https://www.baseten.co/blog/the-best-decision-models-in-the-world-mammoth-1-and-elephant-1/
+https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free
+
+IBM 发布 20 亿参数语音新模型 02:46
+https://huggingface.co/blog/ibm-granite/granite-speech-5
+https://huggingface.co/ibm-granite/granite-speech-5.0-2b
+https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc
+https://huggingface.co/ibm-granite/granite-speech-4.1-2b-plus
+
+Spark-X2.6-4B 模型开源发布 03:00
+https://github.com/XHToken/Spark-X2.6
+https://huggingface.co/XHToken/Spark-X2.6-4B
+
+Cohere 发布 Rerank 5 重排序模型 03:08
+https://cohere.com/blog/rerank-5
+https://docs.cohere.com/changelog/rerank-v5.md
+https://x.com/cohere/status/2112923503100125326
+http://www.cohere.com/rerank
+https://ai.azure.com/catalog/models/Cohere-rerank-v5-pro
+https://aws.amazon.com/marketplace/pp/prodview-6hcingojlkj32
+https://docs.cohere.com/docs/integrations
+https://api.cohere.com/v2/rerank
+
+ElevenLabs 向企业开放 Eleven Realtime Translation alpha 03:16
+https://elevenlabs.io/blog/realtime-translation
+https://elevenlabs.io/realtime-translation
+
+Kling 4.0 API 开放申请，面向个人与企业 03:25
+https://mp.weixin.qq.com/s?__biz=MzU5NTkwNDU2OA==&amp;mid=2247497231&amp;idx=1&amp;sn=8940e99f4d68ac55dcff74795399334d&amp;chksm=ff2e685e9348460914dfb6f221709755e57e0619c4cd56ed3d317d2982ee122668ab93c81deb#rd
+
+Grok Bot 支持生成报告和仪表盘 03:33
+https://x.com/bot/status/2112992872857252082
+
+CarPlay 版 Google Maps 导航接入 Gemini 03:44
+https://x.com/Google/status/2112963255924674955
+
+GPT-Rosalind 提出神经退化机制新假设 03:53
+https://openai.com/index/scaling-ai-research-for-complex-biological-data
+https://biorxiv.org/content/biorxiv/early/2026/10/16/2026.10.15.759436.full.pdf
+https://x.com/OpenAI/status/2112899854569762936
+
+OpenAI 披露 ChatGPT 广告系统架构 04:08
+https://openai.com/index/building-chatgpt-ad-stack/
+
+OpenAI 披露内部编码智能体削弱对齐监控 04:26
+https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring
+
+OpenAI 模型上线 Google Cloud，将登陆 Google Antigravity 04:42
+https://openai.com/index/openai-models-google-cloud
+https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers
+
+OpenAI 更新政策：模型直连服务须经审批 04:55
+https://openai.com/index/broad-access-through-consistent-standards
+https://openai.com/policies/usage-policies
+
+OpenAI 开源资助升级至 Pro 200 05:08
+https://openai.com/form/codex-for-oss
+https://x.com/charliermarsh/status/2112961511895289886
+
+ChatGPT 广告新增 26 国，覆盖增至 89 国 05:20
+https://openai.com/index/chatgpt-ads-expands-26-new-countries
+
+Anthropic 发布年度公共利益报告 05:29
+https://www.anthropic.com/public-benefit-report
+https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf</media:description>
+   <media:community>
+    <media:starRating count="21" average="5.00" min="1" max="5"/>
+    <media:statistics views="1299"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:T9K0FEK1gK4</id>
   <yt:videoId>T9K0FEK1gK4</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -21,7 +155,7 @@
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-21T01:20:38+00:00</published>
-  <updated>2026-10-21T08:25:39+00:00</updated>
+  <updated>2026-10-21T18:56:03+00:00</updated>
   <media:group>
    <media:title>DeepSeek 开源内部推理框架 DeepInfer【AI 早报 2026-10-21】</media:title>
    <media:content url="https://www.youtube.com/v/T9K0FEK1gK4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -105,8 +239,8 @@ Google：Argon 用量约为前代同期 3 倍 04:39
 https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative
 https://x.com/NewsFromGoogle/status/2112669319108927590</media:description>
    <media:community>
-    <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="1393"/>
+    <media:starRating count="25" average="5.00" min="1" max="5"/>
+    <media:statistics views="2161"/>
    </media:community>
   </media:group>
  </entry>
@@ -217,8 +351,8 @@ https://x.com/opencode/status/2111519637049319818
 HUMXN 推免费上门服务，录制作业训练机器人 05:14
 https://humxn.io/humxn-launches-free-home-service-program</media:description>
    <media:community>
-    <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="3005"/>
+    <media:starRating count="29" average="5.00" min="1" max="5"/>
+    <media:statistics views="3076"/>
    </media:community>
   </media:group>
  </entry>
@@ -256,7 +390,7 @@ https://x.com/LuminaBench/status/2111751820980678939
 https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="868"/>
+    <media:statistics views="876"/>
    </media:community>
   </media:group>
  </entry>
@@ -300,7 +434,7 @@ WorkBuddy 国际版接入最新 DeepSeek 模型，限时免费 01:36
 https://x.com/WorkBuddy_AI/status/2111404103402430558</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1353"/>
+    <media:statistics views="1385"/>
    </media:community>
   </media:group>
  </entry>
@@ -315,7 +449,7 @@ https://x.com/WorkBuddy_AI/status/2111404103402430558</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-17T01:50:22+00:00</published>
-  <updated>2026-10-19T17:31:27+00:00</updated>
+  <updated>2026-10-20T02:36:02+00:00</updated>
   <media:group>
    <media:title>有关部门拟增列AI技术进入出口管制目录【AI 早报 2026-10-17】</media:title>
    <media:content url="https://www.youtube.com/v/6VXBmYc0Dc8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -439,7 +573,7 @@ https://politico.com/news/2026/10/16/anthropic-ai-safety-01124654
 https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1458"/>
+    <media:statistics views="1464"/>
    </media:community>
   </media:group>
  </entry>
@@ -577,7 +711,7 @@ https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-pu
 ChatGPT Sites 更新：企业</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="2841"/>
+    <media:statistics views="2849"/>
    </media:community>
   </media:group>
  </entry>
@@ -705,7 +839,7 @@ DeepSeek 网页及 API 出现中断 06:21
 https://status.deepseek.com/incidents/7116348214287</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="4285"/>
+    <media:statistics views="4293"/>
    </media:community>
   </media:group>
  </entry>
@@ -832,7 +966,7 @@ https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build
 https://www.thepaper.cn/newsDetail_forward_34241236</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="4449"/>
+    <media:statistics views="4459"/>
    </media:community>
   </media:group>
  </entry>
@@ -953,7 +1087,7 @@ https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora
 https://mp.weixin.qq.com/s/gX2yV5_2tHw9kCj8ND7W2g</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="1701"/>
+    <media:statistics views="1703"/>
    </media:community>
   </media:group>
  </entry>
@@ -992,7 +1126,7 @@ https://x.com/elonmusk/status/2109012639049244981
 https://linux.do/t/topic/3008137</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1051"/>
+    <media:statistics views="1053"/>
    </media:community>
   </media:group>
  </entry>
@@ -1051,7 +1185,7 @@ https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-bu
 https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2231"/>
+    <media:statistics views="2233"/>
    </media:community>
   </media:group>
  </entry>
@@ -1180,7 +1314,7 @@ https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack
 Kimi 第三方客户端思维链调整，据用户反馈已回滚 06:35</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="2487"/>
+    <media:statistics views="2490"/>
    </media:community>
   </media:group>
  </entry>
@@ -1307,7 +1441,7 @@ https://mp.weixin.qq.com/s/cmjfJ40G8ZSr9vyPLLy37g
 Arena 完成</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2275"/>
+    <media:statistics views="2276"/>
    </media:community>
   </media:group>
  </entry>
@@ -1435,145 +1569,7 @@ Surface Laptop Ultra 开启预售，2599 美元起 06:12
 https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-s</media:description>
    <media:community>
     <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="5650"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:WopoEMZAkJk</id>
-  <yt:videoId>WopoEMZAkJk</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>Google 发布 Nano Banana 2.1；Mistral Large 4 上线【AI 早报 2026-10-07】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=WopoEMZAkJk"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-10-07T02:22:32+00:00</published>
-  <updated>2026-10-10T06:56:33+00:00</updated>
-  <media:group>
-   <media:title>Google 发布 Nano Banana 2.1；Mistral Large 4 上线【AI 早报 2026-10-07】</media:title>
-   <media:content url="https://www.youtube.com/v/WopoEMZAkJk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/WopoEMZAkJk/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-Mistral Large 4 上线，月底开放权重 00:09
-https://mistral.ai/news/mistral-large-4/
-https://docs.mistral.ai/models/mistral-large-4-0
-https://huggingface.co/mistralai/Mistral-Large-4.0-1T05-A52B
-
-Google 发布 Nano Banana 2.1，图像生成与编辑全面升级 00:32
-https://deepmind.google/models/gemini-image/flash/
-https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1
-https://x.com/Google/status/2107501209154204148
-
-谷歌开源 EmbeddingGemma 2 多模态嵌入模型 01:01
-https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/
-https://ai.google.dev/gemma/docs/embeddinggemma
-https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2
-https://huggingface.co/google/embeddinggemma-2
-
-OpenAI 公开内部前沿模型的一批数学研究成果 01:21
-https://openai.com/index/sharing-ai-progress-in-mathematics/
-https://github.com/openai/math
-https://x.com/OpenAI/status/2107596713791767021
-https://x.com/gdb/status/2107640886482104524
-
-复旦腾讯浙大开源 Prism，原生 2K 音视频联合生成 01:43
-https://francis-rings.github.io/Prism
-https://github.com/Tencent-Hunyuan/Prism
-https://huggingface.co/FrancisRing/Prism/tree/main
-https://arxiv.org/abs/2610.05416
-
-亚马逊 AGI 团队开源发布 ALoDLM-8B 01:57
-https://alo-dlm.github.io/
-https://arxiv.org/abs/2610.04198
-https://huggingface.co/amazon/ALoDLM-8B
-
-Perplexity 发布决策模型 pplx-decider 新版本 02:15
-https://x.com/AravSrinivas/status/2107573198145663233
-https://x.com/perplexitydevs/status/2107519531711418597
-https://huggingface.co/perplexity-ai/pplx-decider-v1.1-27b
-
-EmpirioLabs发布决策模型Aplomb 1 02:29
-https://empiriolabs.ai/blog/introducing-aplomb-1
-https://huggingface.co/empiriolabsai/aplomb-1
-
-OpenAI 免费开放 Auto-review，不占订阅额度 02:42
-https://x.com/thsottiaux/status/2107368734981517634
-https://alignment.openai.com/auto-review/
-
-OpenAI 向所有开发者开放 Decisions API 公测 03:00
-https://x.com/OpenAIDevs/status/2107573382229188645
-https://developers.openai.com/api/docs/guides/decisions
-https://x.com/thsottiaux/status/2107574912349303197
-
-OpenAI 将 API 付费层级从五档精简为三档 03:14
-https://x.com/OpenAIDevs/status/2107539647392096384
-https://platform.openai.com/settings/organization/limits
-https://x.com/thsottiaux/status/2107548725359104441
-
-Space Bunny 免费期将结束，OpenCode 赞助再免费几天 03:28
-https://x.com/opencode/status/2107398361733104102
-
-Anthropic扩展CVP：三档开放高级网络能力 03:44
-https://www.anthropic.com/news/cyber-verification-program
-https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet
-https://x.com/AnthropicAI/status/2107546569654636883
-
-OpenAI dots 团队称上线一周推出一批改进 04:06
-https://x.com/TheRohanVarma/status/2107613388729974839
-
-ChatGPT 推出 Meetings 插件，自动记录会议笔记 04:31
-https://x.com/ChatGPT/status/2107567930557026653
-
-Claude 网页与桌面端悄然上线简繁中文界面 04:43
-https://linux.do/t/topic/2986222
-https://linux.do/t/topic/2987779
-
-Claude 上线 Google Workspace 插件 04:58
-https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides
-https://x.com/claudeai/status/2107522596845822135
-https://workspace.google.com/marketplace/app/claude/12459801340
-
-谷歌 Docs 与云盘原生支持 .md 文件，可实时编辑评论 05:12
-https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html
-
-ElevenLabs 发布对话式 Agent 专家 Architect 05:22
-https://x.com/ElevenLabs/status/2107503346504634463
-https://elevenlabs.io/blog/elevenagents-architect
-https://elevenlabs.io/docs/eleven-agents/operate/architect
-
-Claude Code 云端会话实战指南发布 05:32
-https://claude.dev/blog/claude-code-in-the-cloud
-https://x.com/ClaudeDevs/status/2107542087243907506
-
-Sierra 联合 Meta、Stripe 和沃尔玛等开发个人 Agent 开放标准 05:41
-https://sierra.ai/blog/introducing-personal-agent-protocol
-
-OpenAI 联手 Ironclad 用合同工作流训练 AI agent 06:00
-https://openai.com/index/advancing-computer-use-with-ironclad/
-
-GitHub 重建 Git 基础设施，面向 Agent 开发 06:13
-https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/
-
-SemiAnalysis 实测：Anthropic 订阅价值约为 OpenAI 五倍 06:28
-https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x
-https://x.com/SemiAnalysis_/status/2107204965710053510
-
-a16z 消费 AI 百强榜首次新增支出排名 06:54
-https://www.a16z.news/p/top-100-consumer-ai-apps-seventh
-
-Nous Research 发布 Hermes Index 智能体模型榜 07:14
-https://portal.nousresearch.com/bench
-https://x.com/NousResearch/status/2107592255124951360
-
-世卫非洲团队借 Google Earth AI 快速锁定埃博拉暴露区 07:26
-https://blog.google/innovation-and-ai/technology/health/google-earth-ai/
-https://x.com/Google/</media:description>
-   <media:community>
-    <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="4731"/>
+    <media:statistics views="5651"/>
    </media:community>
   </media:group>
  </entry>
