@@ -41,25 +41,6 @@
         }
       }
     },
-    "amasad": {
-      "bio": "ceo @replit. civilizationist",
-      "handle": "amasad",
-      "name": "Amjad Masad",
-      "source": "x",
-      "tweets": {
-        "id:2111494912562888939": {
-          "createdAt": "2026-10-17T16:29:51.000Z",
-          "id": "2111494912562888939",
-          "isQuote": true,
-          "likes": 415,
-          "quotedTweetId": "2111206322381185492",
-          "replies": 128,
-          "retweets": 19,
-          "text": "To clarify: Replit remains model agnostic. Our users can choose Anthropic models as well as many other supported models.\n\nWhat I meant at TC Disrupt is that OpenAI is now our preferred partner powering Agent based on performance, cost, and strength of our partnership.\n\nWe believe in giving our users model choice while optimizing the default experience for the best performance at the best price.",
-          "url": "https://x.com/amasad/status/2111494912562888939"
-        }
-      }
-    },
     "danshipper": {
       "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "handle": "danshipper",
@@ -274,17 +255,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2111525362446520466": {
-          "createdAt": "2026-10-17T18:30:51.000Z",
-          "id": "2111525362446520466",
-          "isQuote": true,
-          "likes": 806,
-          "quotedTweetId": "2111507711653564543",
-          "replies": 116,
-          "retweets": 92,
-          "text": "The biggest misread of anyone predicting the end of software engineering was imagining that the world only needed a certain amount of software, and bringing automation to the field would reduce the need for labor. \n\nExactly the opposite is happening where essentially most things are actually turning into software. Because agents can use tools, work with computers, write software on the fly, and process data like humans (but far faster), we can now throw “software” at problems that never could reasonably be digitized before.\n\nWhat that leads to is the role of engineering taking on greater importance in the economy, because we can now engineer far more systems and processes than were possible before.\n\nIf you’re a bank trying to do new forms of trading, engineers are often your first bet. If you are in life sciences, you expect more and more research and lab work to be engineering centric. If you’re in manufacturing, you’re trying to automate more of the supply chain, all that is engineering. More and more work is shaped like software problems.\n\nYes we’re not going to be coding manually in the future. But almost everything will be code, which means those that understand it are in a fantastic position.",
-          "url": "https://x.com/levie/status/2111525362446520466"
-        },
         "id:2112051081014649303": {
           "createdAt": "2026-10-19T05:19:52.000Z",
           "id": "2112051081014649303",
@@ -378,17 +348,6 @@
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2111558586421920134": {
-          "createdAt": "2026-10-17T20:42:52.000Z",
-          "id": "2111558586421920134",
-          "isQuote": true,
-          "likes": 121,
-          "quotedTweetId": "2111216236529156129",
-          "replies": 23,
-          "retweets": 4,
-          "text": "introducing the modern venture capital stack (2026): \n- pre-pre-seed\n- pre-seed\n- post-pre-seed\n- mid-seed\n- pre-post-seed\n- post-seed\n- post-post-seed(?) https://t.co/WSFA45JCLu",
-          "url": "https://x.com/nikunj/status/2111558586421920134"
-        },
         "id:2111986818057118160": {
           "createdAt": "2026-10-19T01:04:30.000Z",
           "id": "2111986818057118160",
@@ -452,28 +411,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2111496600522805624": {
-          "createdAt": "2026-10-17T16:36:33.000Z",
-          "id": "2111496600522805624",
-          "isQuote": true,
-          "likes": 225,
-          "quotedTweetId": "2111214518336708996",
-          "replies": 58,
-          "retweets": 5,
-          "text": "Have to give credit to @amorriscode and team - the Claude Code app is much faster now and arguably simpler to use than ChatGPT.\n\nThe only things missing still are better browser/computer use, remote control for all threads, and live voice. https://t.co/kWULRv1A1t",
-          "url": "https://x.com/petergyang/status/2111496600522805624"
-        },
-        "id:2111508293818671449": {
-          "createdAt": "2026-10-17T17:23:01.000Z",
-          "id": "2111508293818671449",
-          "isQuote": false,
-          "likes": 44,
-          "quotedTweetId": null,
-          "replies": 23,
-          "retweets": 7,
-          "text": "If you have way too many apps and agents (45!) connected to your Google account like me, here's a prompt to audit and remove them:\n\n\"Help me audit my Google app connections at https://t.co/5eMX9dNhLD\n\n1. Review EVERY app across all connection categories. Ask me which ones I still use rather than guessing.\n\n2. Open each app's details. Distinguish basic Google sign-in from permissions to access Gmail, Drive, Calendar, or other data.\n\n3. Suggest which to keep, disconnect, or ask me about. Explain your reasoning and what might stop working. Flag broad permissions, unfamiliar providers, and duplicate entries.\n\n4. Show me your recommendations before changing anything. Only disconnect apps I explicitly approve, then verify they're removed. Don't delete app accounts or cancel subscriptions.”",
-          "url": "https://x.com/petergyang/status/2111508293818671449"
-        },
         "id:2111663267995361287": {
           "createdAt": "2026-10-18T03:38:50.000Z",
           "id": "2111663267995361287",
@@ -849,64 +786,12 @@
         }
       }
     },
-    "thenanyu": {
-      "bio": "product, codex @openai. prev head of product @linear",
-      "handle": "thenanyu",
-      "name": "Nan Yu",
-      "source": "x",
-      "tweets": {
-        "id:2111597172840083574": {
-          "createdAt": "2026-10-17T23:16:12.000Z",
-          "id": "2111597172840083574",
-          "isQuote": true,
-          "likes": 56,
-          "quotedTweetId": "2111586045858832490",
-          "replies": 4,
-          "retweets": 2,
-          "text": "I had the same conversation reminiscing at a team offsite the other day.\n\n“What did we pay attention to before AI?”\n\n“😅 Front end JavaScript frameworks” https://t.co/sKe9X8ylhL",
-          "url": "https://x.com/thenanyu/status/2111597172840083574"
-        }
-      }
-    },
     "thsottiaux": {
       "bio": "Codex & ChatGPT @OpenAI",
       "handle": "thsottiaux",
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2111492738025959922": {
-          "createdAt": "2026-10-17T16:21:13.000Z",
-          "id": "2111492738025959922",
-          "isQuote": false,
-          "likes": 2607,
-          "quotedTweetId": null,
-          "replies": 392,
-          "retweets": 45,
-          "text": "Landing sometime today by EOD PST",
-          "url": "https://x.com/thsottiaux/status/2111492738025959922"
-        },
-        "id:2111495392559067199": {
-          "createdAt": "2026-10-17T16:31:45.000Z",
-          "id": "2111495392559067199",
-          "isQuote": false,
-          "likes": 4351,
-          "quotedTweetId": null,
-          "replies": 737,
-          "retweets": 77,
-          "text": "My work dot \"Burger\" coordinated with my personal dot \"Dorito\" over email at my personal dots request to get documents, which then coordinated with with my CPA in order to file some tax stuff. Took 20 minutes. We're still so early.",
-          "url": "https://x.com/thsottiaux/status/2111495392559067199"
-        },
-        "id:2111566005684289735": {
-          "createdAt": "2026-10-17T21:12:21.000Z",
-          "id": "2111566005684289735",
-          "isQuote": false,
-          "likes": 6188,
-          "quotedTweetId": null,
-          "replies": 1193,
-          "retweets": 120,
-          "text": "Done",
-          "url": "https://x.com/thsottiaux/status/2111566005684289735"
-        },
         "id:2112034063934742720": {
           "createdAt": "2026-10-19T04:12:15.000Z",
           "id": "2112034063934742720",
