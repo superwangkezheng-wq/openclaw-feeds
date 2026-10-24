@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-23T12:41:27.000Z",
+  "generatedAt": "2026-10-24T01:41:51.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-10-23T06:42:39.698Z",
-    "ageHours": 5.98
+    "ageHours": 18.99
   },
   "x": [
     {
@@ -106,28 +106,6 @@
           "retweets": 23,
           "text": "Call me an old hat computer scientist but the parallels between\n\nInference time scaling ---&gt; Subagents --&gt; Agent Swarms\n\nlooks an awful lot like\n\nCPU Threads --&gt; Multi-core CPUs --&gt; Multi-Node Distributed Systems\n\nHistory rhymes well.",
           "url": "https://x.com/adityaag/status/2112579526379401408"
-        },
-        {
-          "createdAt": "2026-10-19T20:14:32.000Z",
-          "id": "2112276233363030215",
-          "isQuote": false,
-          "likes": 4,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 0,
-          "text": "https://t.co/aEAsDgsa3u",
-          "url": "https://x.com/adityaag/status/2112276233363030215"
-        },
-        {
-          "createdAt": "2026-10-19T20:14:32.000Z",
-          "id": "2112276231731466420",
-          "isQuote": false,
-          "likes": 49,
-          "quotedTweetId": null,
-          "replies": 5,
-          "retweets": 6,
-          "text": "Early @PalantirTech. Cofounder of @anduriltech. GP at @foundersfund.\n\nLast time @traestephens was at @spc was back in 2022.\n\nThe world looks a little different now.\n\nWednesday. RSVP below. https://t.co/6uZu9c7KKT",
-          "url": "https://x.com/adityaag/status/2112276231731466420"
         }
       ],
       "source": "x",
@@ -366,39 +344,6 @@
           "retweets": 0,
           "text": "right it needs to ask for approval but the approval policy is never so it can't ask for approval! and it doesn't know how I can change the approval policy\n\nmakes sense! https://t.co/n6MDve1Q1e",
           "url": "https://x.com/danshipper/status/2112550542837002419"
-        },
-        {
-          "createdAt": "2026-10-19T22:22:03.000Z",
-          "id": "2112308324377203182",
-          "isQuote": true,
-          "likes": 6,
-          "quotedTweetId": "2112294488676696119",
-          "replies": 0,
-          "retweets": 0,
-          "text": "the ideographic &gt; the nomothetic https://t.co/DT4n8LnA4C",
-          "url": "https://x.com/danshipper/status/2112308324377203182"
-        },
-        {
-          "createdAt": "2026-10-19T19:58:37.000Z",
-          "id": "2112272224782856514",
-          "isQuote": false,
-          "likes": 59,
-          "quotedTweetId": null,
-          "replies": 11,
-          "retweets": 0,
-          "text": "a story in 3 parts https://t.co/dabv01DAY3",
-          "url": "https://x.com/danshipper/status/2112272224782856514"
-        },
-        {
-          "createdAt": "2026-10-19T17:13:25.000Z",
-          "id": "2112230653924192274",
-          "isQuote": true,
-          "likes": 60,
-          "quotedTweetId": "2112219577727992319",
-          "replies": 9,
-          "retweets": 3,
-          "text": "so proud of Quinten + Ajay and team! \n\nthey've been pushing the boundaries of creativity and storytelling with AI for years now—and one of the breakout examples of it working in consumer\n\npsyched to be a tiny investor :) https://t.co/8deaaWyuJ7",
-          "url": "https://x.com/danshipper/status/2112230653924192274"
         }
       ],
       "source": "x",
@@ -495,17 +440,6 @@
           "retweets": 25,
           "text": "Asset seizure tax destroying California\n\nYou can bet they will keep trying to do it because it’s all the same goal: eat the Golden Goose\n\nBetter off just enjoying unlimited golden eggs but no, gotta eat that goose https://t.co/txJv5u5ZE6",
           "url": "https://x.com/garrytan/status/2112553922753864109"
-        },
-        {
-          "createdAt": "2026-10-19T20:22:58.000Z",
-          "id": "2112278352514162834",
-          "isQuote": true,
-          "likes": 243,
-          "quotedTweetId": "2112212804979880239",
-          "replies": 74,
-          "retweets": 16,
-          "text": "Multiplayer agents as group chat seems quite inevitable and Wabi's built it https://t.co/ltccTzgMLo",
-          "url": "https://x.com/garrytan/status/2112278352514162834"
         }
       ],
       "source": "x",
@@ -843,17 +777,6 @@
           "retweets": 1,
           "text": "Waiting for someone to sell me a  peptide factory built in a data center which is also a robotics neolab that is somehow collecting first party uniquely differentiated data..\n\nAnd while we’re at it use the words tape out, memory/CPU shortage too. \n\nMake it 50/500 on a memo 🤝",
           "url": "https://x.com/nikunj/status/2112368222809034980"
-        },
-        {
-          "createdAt": "2026-10-19T16:28:25.000Z",
-          "id": "2112219327881761008",
-          "isQuote": true,
-          "likes": 46,
-          "quotedTweetId": "2112212804979880239",
-          "replies": 7,
-          "retweets": 6,
-          "text": "A few weeks ago, I was ranting about multiplayer AI experiences and that's when @ekuyda shared an early preview of Wabi 2.0..\n\nTruth be told, I was one of the early users of Wabi 1.0 and while the design was gorgeous, it frankly never \"stuck\" with me.\n\nBut, in moments of downloading this edition, I was immediately hooked. \n\nIt just gets the \"paradigm\" right imo. There are two types of personal agents today: 1) Singleplayer iMessage or Muse types - while useful it's hard to compartmentalize them when many things are going on 2) Build your own multiple chat Hermes agents - while that's useful and can share context, they live forever\n\nWabi has this great paradigm of orchestrator (which is the main agent) and topic specific episodic chats that are for a single purpose. You can share these individual chats with folks (for example the school one with my wife). And these are generated proactively AND don't need to stay forever (which is important).\n\nFor example, for my recent NY trip, it was generated based on a flight it saw, provided help where needed, and then after the trip was done, it was archived. Same with my 2025 taxes. \n\nMy only critique so far it's TOO proactive, the apps can be better and they need to dial both of those in, but this is a wonderful product that everyone should try!\n\n(I know it's shocking to see this in today's day and age, but this is neither paid, nor an investor, just a fan)",
-          "url": "https://x.com/nikunj/status/2112219327881761008"
         }
       ],
       "source": "x",
@@ -972,28 +895,6 @@
           "retweets": 0,
           "text": "This doesn't mean it's a good movie btw. I found it completely ridiculous",
           "url": "https://x.com/petergyang/status/2112398053185659282"
-        },
-        {
-          "createdAt": "2026-10-19T21:18:34.000Z",
-          "id": "2112292347505688990",
-          "isQuote": true,
-          "likes": 23,
-          "quotedTweetId": "2112212804979880239",
-          "replies": 6,
-          "retweets": 1,
-          "text": "This is super cool I love how visual it is. \n\nCan't wait to try this @ekuyda! https://t.co/UMkHxW16BB",
-          "url": "https://x.com/petergyang/status/2112292347505688990"
-        },
-        {
-          "createdAt": "2026-10-19T20:33:22.000Z",
-          "id": "2112280969382437076",
-          "isQuote": true,
-          "likes": 23,
-          "quotedTweetId": "2112257806363734264",
-          "replies": 7,
-          "retweets": 0,
-          "text": "Very interesting insight into why alot of Netflix original movies and TV shows are slop. \n\nI still love a few of them (especially some of the Korean ones). https://t.co/FHES8Crisi",
-          "url": "https://x.com/petergyang/status/2112280969382437076"
         }
       ],
       "source": "x",
@@ -1090,39 +991,6 @@
           "retweets": 201,
           "text": "AI will be able to compute the perfect delta of what you understand and don't, helping you progressively learn any idea and unravel any mystery.\n\nIf you so desire, you'll reach the maximum of your capability and intelligence. The ultimate education. For free.",
           "url": "https://x.com/rauchg/status/2112638107749355867"
-        },
-        {
-          "createdAt": "2026-10-19T18:57:00.000Z",
-          "id": "2112256718281551955",
-          "isQuote": true,
-          "likes": 255,
-          "quotedTweetId": "2112247772951052782",
-          "replies": 55,
-          "retweets": 11,
-          "text": "1,000 tokens per second btw https://t.co/BdATqYu71F",
-          "url": "https://x.com/rauchg/status/2112256718281551955"
-        },
-        {
-          "createdAt": "2026-10-19T18:18:34.000Z",
-          "id": "2112247046082363821",
-          "isQuote": true,
-          "likes": 1662,
-          "quotedTweetId": "2112245199808434614",
-          "replies": 149,
-          "retweets": 102,
-          "text": "We open sourced a *really fast* HTML artifact builder. It's powered by libfx, making the agent durable.\n\nBuilding the low-level plumbing for v0 to survive server crashes, flaky LLMs, function limits was a huge pain.\n\nNow it's easy, free, and OSS: https://t.co/aUP1vKeIsP.\n\nPS: I built this floating container in a few minutes… it's delightful, and it's just HTML!",
-          "url": "https://x.com/rauchg/status/2112247046082363821"
-        },
-        {
-          "createdAt": "2026-10-19T14:47:47.000Z",
-          "id": "2112194000639967590",
-          "isQuote": true,
-          "likes": 285,
-          "quotedTweetId": "2112181432307294550",
-          "replies": 59,
-          "retweets": 8,
-          "text": "More free AI https://t.co/9Jd42XA7rw",
-          "url": "https://x.com/rauchg/status/2112194000639967590"
         }
       ],
       "source": "x",
@@ -1320,17 +1188,6 @@
           "retweets": 0,
           "text": "https://t.co/Tv89Jzgkp3",
           "url": "https://x.com/swyx/status/2112662180105699802"
-        },
-        {
-          "createdAt": "2026-10-19T14:01:00.000Z",
-          "id": "2112182228977348963",
-          "isQuote": true,
-          "likes": 58,
-          "quotedTweetId": "2111321176769442251",
-          "replies": 54,
-          "retweets": 1,
-          "text": "\"O Infallible one, why do the people not heed the sign we tap?\"\n\n\"My dear Parth, each believes he is the first to wish for an end to chat. On X we are cursed with the eternal September of the Thoughtless Mind.\"\n\n\"But O Govinda, they yearn for what lies beyond it, and cast their votes by the thousands. Surely the people's wants must be made.\"\n\n*a wan smile* “O son of Kunti, observe what they applaud, and what they return to. They desire the end of chat as they desire the end of desire. They desire to leave X as they return in ever greater numbers. They will announce it many times. You shall learn, as they do not, that the chief desire of the people of X is not the truth, but the new.”",
-          "url": "https://x.com/swyx/status/2112182228977348963"
         }
       ],
       "source": "x",
@@ -1457,40 +1314,10 @@
           "retweets": 108,
           "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy. https://t.co/RZ9WhtI802",
           "url": "https://x.com/thsottiaux/status/2112432076767289678"
-        },
-        {
-          "createdAt": "2026-10-19T19:45:28.000Z",
-          "id": "2112268918681485431",
-          "isQuote": true,
-          "likes": 4635,
-          "quotedTweetId": "2112242739198959913",
-          "replies": 2744,
-          "retweets": 147,
-          "text": "Day 15/ We're cooked https://t.co/ciJpOJlmOn",
-          "url": "https://x.com/thsottiaux/status/2112268918681485431"
         }
       ],
       "source": "x",
       "bio": "Codex & ChatGPT @OpenAI"
-    },
-    {
-      "handle": "trq212",
-      "name": "Thariq",
-      "tweets": [
-        {
-          "createdAt": "2026-10-19T16:27:48.000Z",
-          "id": "2112219173288120531",
-          "isQuote": false,
-          "likes": 5458,
-          "quotedTweetId": null,
-          "replies": 476,
-          "retweets": 285,
-          "text": "I think most people multi-tasking with agents could benefit from slowing down\n\nmost of the stuff you're doing wont really matter- what's your P0? what would it look like if you gave it your full attention?",
-          "url": "https://x.com/trq212/status/2112219173288120531"
-        }
-      ],
-      "source": "x",
-      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab"
     },
     {
       "handle": "zarazhangrui",
@@ -1579,8 +1406,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 23,
-    "xTweets": 126,
-    "windowSpanHours": 87.97
+    "xBuilders": 22,
+    "xTweets": 111,
+    "windowSpanHours": 75.65
   }
 }

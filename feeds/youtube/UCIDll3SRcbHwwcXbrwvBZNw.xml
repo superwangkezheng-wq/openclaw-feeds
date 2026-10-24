@@ -11,6 +11,123 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:zBWMJFTphhY</id>
+  <yt:videoId>zBWMJFTphhY</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>月之暗面发布 Kimi K3.1 Pro【AI 早报 2026-10-24】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zBWMJFTphhY"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-24T01:28:59+00:00</published>
+  <updated>2026-10-24T01:31:44+00:00</updated>
+  <media:group>
+   <media:title>月之暗面发布 Kimi K3.1 Pro【AI 早报 2026-10-24】</media:title>
+   <media:content url="https://www.youtube.com/v/zBWMJFTphhY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zBWMJFTphhY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+月之暗面发布 Kimi K3.1 Pro 00:08
+https://www.kimi.ai/blog/kimi-k3-1-pro
+https://mp.weixin.qq.com/s/Q6Z-skAUH_na9g37VWbHew
+
+Codex 28 天改进改进第 18、19 天 00:32
+https://x.com/thsottiaux/status/2113492187770175603
+https://x.com/thsottiaux/status/2113770862860222611
+
+ZCode 推出限时免费 token 活动 00:49
+https://mp.weixin.qq.com/s/HlKksm48CSf6Ed-Yo04BFg
+
+Qoder 模型限免再延长 7 天 01:03
+https://mp.weixin.qq.com/s/_l2bquNPCiQ_F1hm0eNYFA
+
+Google Pro 用户反馈 Antigravity 可用 Argon 01:11
+https://antigravity.google/docs/models
+
+Cursor 新增桌面控制能力，可测试开发中的功能 01:28
+https://x.com/cursor_ai/status/2113661506634305834
+https://cursor.com/docs/cloud-agent/self-hosted/computer-use
+
+OpenAI Agents API 推出定时任务 01:37
+https://developers.openai.com/api/docs/guides/agents-api/sessions/automations
+https://x.com/stevendcoffey/status/2113725246058680602
+https://developers.openai.com/api/reference/resources/beta/subresources/agents/subresources/automations/subresources/invocations
+
+MiniMax 开放 M3.1 Flash 权重 01:45
+https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash
+https://mp.weixin.qq.com/s/uqZpu1NYy7Iwn2Aj9OKL1g
+
+Seedance 2.5 4K 上线，目前限部分企业试用 01:55
+https://bjnews.com.cn/detail/1792642976129728.html
+https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&amp;mid=2247545413&amp;idx=1&amp;sn=e19398f050105a051e35c30bb30d145f
+
+NVIDIA 发布小模型 Nemotron-3.5 02:09
+https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB
+https://unsloth.ai/docs/models/nemotron-3.5-bolt
+
+腾讯混元开源交互式视频世界模型 Hy-Nomas 02:23
+https://hy-nomas.hy.tencent.com/
+https://github.com/Tencent-Hunyuan/Hy-Nomas
+https://huggingface.co/tencent/Hy-Nomas
+
+Block 发布纯语音训练模型 Dessa 02:36
+https://block.xyz/dessa
+https://x.com/jack/status/2113697902916751661
+
+Claude 发布桌面应用界面更新 02:45
+https://x.com/meaghaneschoi/status/2113636733556535660
+
+Cognition 推出焕新版 Devin Desktop 02:56
+https://devin.ai/download
+
+Anthropic 披露模型测试越界攻击 03:04
+https://anthropic.com/research/alignment-assessment-ukaisi
+https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing
+
+OpenAI 披露前沿模型断网训练与安全加固措施 03:23
+https://openai.com/index/securing-our-frontier-model-training-environment
+https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/
+https://x.com/OpenAI/status/2113718797505036665
+https://x.com/Eric_Wallace_/status/2113718905562862065
+
+OpenAI 披露 Brotli 远程代码执行漏洞 03:41
+https://patchtheplanet.org/brotli
+https://x.com/OpenAI/status/2113766354386084338
+
+OpenAI 披露 Habitat 存储架构优化 03:54
+https://openai.com/index/scaling-storage-one-billion-users-part-two/
+
+OpenAI CEO：最强内部模型暂难开源 04:06
+https://www.youtube.com/watch?v=anAmTGcewX8
+https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/
+
+Anthropic 开放生命科学客座研究员申请 04:20
+https://anthropic.com/guest-investigator-program
+
+Flapping Airplanes 获融资 04:36
+https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round
+https://x.com/flappyairplanes/status/2112955212612919318
+
+DeepSeek、MiniMax 顺利进行了大模型技术出口相关登记 04:51
+
+有关部门：稳慎把握人工智能在劳动密集型行业应用节奏 05:05
+https://www.gov.cn/zhengce/content/202610/content_7084107.htm
+
+据报 Anthropic 对部分账号测试新额度 05:21
+https://x.com/SemiAnalysis_/status/2113383965784502444
+https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x
+
+报道称 OpenAI 下调新一轮融资目标估值 05:33
+https://ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc
+https://cnbc.com/2026/10/22/openai-funding-round-uae-investors.html</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="28"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:otqA11VZd_Y</id>
   <yt:videoId>otqA11VZd_Y</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -21,7 +138,7 @@
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-23T01:20:34+00:00</published>
-  <updated>2026-10-23T01:57:06+00:00</updated>
+  <updated>2026-10-23T15:15:52+00:00</updated>
   <media:group>
    <media:title>OpenAI 开放 Decisions API【AI 早报 2026-10-23】</media:title>
    <media:content url="https://www.youtube.com/v/otqA11VZd_Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -142,8 +259,8 @@ https://x.com/OpenAINewsroom/status/2113330753832726617
 https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in-challenge-to-leading-us-labs
 https://www.cnbc.com/2026/10/06/deepseek-funding-round.html</media:description>
    <media:community>
-    <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1443"/>
+    <media:starRating count="14" average="5.00" min="1" max="5"/>
+    <media:statistics views="1930"/>
    </media:community>
   </media:group>
  </entry>
@@ -277,7 +394,7 @@ https://www.anthropic.com/public-benefit-report
 https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2057"/>
+    <media:statistics views="2068"/>
    </media:community>
   </media:group>
  </entry>
@@ -377,7 +494,7 @@ https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative
 https://x.com/NewsFromGoogle/status/2112669319108927590</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="2229"/>
+    <media:statistics views="2251"/>
    </media:community>
   </media:group>
  </entry>
@@ -489,7 +606,7 @@ HUMXN 推免费上门服务，录制作业训练机器人 05:14
 https://humxn.io/humxn-launches-free-home-service-program</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="3169"/>
+    <media:statistics views="3186"/>
    </media:community>
   </media:group>
  </entry>
@@ -527,7 +644,7 @@ https://x.com/LuminaBench/status/2111751820980678939
 https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="880"/>
+    <media:statistics views="881"/>
    </media:community>
   </media:group>
  </entry>
@@ -571,7 +688,7 @@ WorkBuddy 国际版接入最新 DeepSeek 模型，限时免费 01:36
 https://x.com/WorkBuddy_AI/status/2111404103402430558</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1413"/>
+    <media:statistics views="1421"/>
    </media:community>
   </media:group>
  </entry>
@@ -710,7 +827,7 @@ https://politico.com/news/2026/10/16/anthropic-ai-safety-01124654
 https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1467"/>
+    <media:statistics views="1469"/>
    </media:community>
   </media:group>
  </entry>
@@ -848,7 +965,7 @@ https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-pu
 ChatGPT Sites 更新：企业</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="2858"/>
+    <media:statistics views="2862"/>
    </media:community>
   </media:group>
  </entry>
@@ -976,7 +1093,7 @@ DeepSeek 网页及 API 出现中断 06:21
 https://status.deepseek.com/incidents/7116348214287</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="4302"/>
+    <media:statistics views="4315"/>
    </media:community>
   </media:group>
  </entry>
@@ -1103,7 +1220,7 @@ https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build
 https://www.thepaper.cn/newsDetail_forward_34241236</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="4465"/>
+    <media:statistics views="4467"/>
    </media:community>
   </media:group>
  </entry>
@@ -1224,7 +1341,7 @@ https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora
 https://mp.weixin.qq.com/s/gX2yV5_2tHw9kCj8ND7W2g</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="1703"/>
+    <media:statistics views="1704"/>
    </media:community>
   </media:group>
  </entry>
@@ -1452,133 +1569,6 @@ Kimi 第三方客户端思维链调整，据用户反馈已回滚 06:35</media:d
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
     <media:statistics views="2490"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:OZFVYSNM1BE</id>
-  <yt:videoId>OZFVYSNM1BE</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>OpenAI 为 GPT-6.1 Sol 推出 Ultrafast 模式【AI 早报 2026-10-09】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=OZFVYSNM1BE"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-10-09T01:46:53+00:00</published>
-  <updated>2026-10-12T03:31:35+00:00</updated>
-  <media:group>
-   <media:title>OpenAI 为 GPT-6.1 Sol 推出 Ultrafast 模式【AI 早报 2026-10-09】</media:title>
-   <media:content url="https://www.youtube.com/v/OZFVYSNM1BE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/OZFVYSNM1BE/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-OpenAI 为 GPT-6.1 Sol 推出 Ultrafast 模式 00:08
-https://x.com/OpenAIDevs/status/2108262812489531498
-https://developers.openai.com/api/docs/guides/ultrafast-mode
-
-OpenAI 为桌面应用中的 Codex 推出更快的 steering 00:20
-https://help.openai.com/en/articles/6825453-chatgpt-release-notes
-https://x.com/thsottiaux/status/2108275041276420573
-
-阶跃星辰：Step 5 Preview 多平台免费一周 00:35
-https://x.com/StepFun_ai/status/2108182763002278158
-
-Vercel AI Gateway 上线 Glyph Cluster，匿名期免费 00:47
-https://vercel.com/changelog/glyph-cluster-is-now-available-in-stealth-for-free-on-ai-gateway
-https://vercel.com/ai-gateway/models/glyph-cluster
-
-Claude 推出 Dashboards 和 Motion 两项测试功能 01:01
-https://claude.com/resources/articles/dashboards-and-motion
-https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards
-https://support.claude.com/en/articles/17454997-get-started-with-claude-motion
-https://x.com/claudeai/status/2108271552991252810
-
-Google Cloud 发布 Gemini 工作智能体 01:22
-https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026
-https://cloud.google.com/blog/topics/startups/how-to-grow-your-small-business-using-google-gemini
-
-腾讯 WorkBuddy 上线独立文件浏览器 01:43
-https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/File-Browser
-
-JetBrains 开源 Mellum2.1，强化学习主打编程 Agent 01:59
-https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/
-https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking
-https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF
-
-Hugging Face 开源基因注释模型 Carbon-A 02:14
-https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation
-https://huggingface.co/HuggingFaceBio/Carbon-A-1.2B
-https://huggingface.co/collections/HuggingFaceBio/carbon-annotation-database
-
-LightOnAI 开源 LightOnOCR-3 02:32
-https://www.lighton.ai/research/lightonocr-3
-https://huggingface.co/blog/lightonai/lightonocr-3
-
-Odyssey 发布世界模型 Odyssey-3 02:42
-https://odyssey.systems/meet-odyssey-3
-https://x.com/odysseyml/status/2108238378751967385
-https://physics-iq-verified.anates.ai/?track=v2v&amp;listing=all&amp;score=verified&amp;sampling=all&amp;cost=normalized
-
-Grok Imagine Video 1.5 Lite 上线，1080p 每秒 0.14 美元 02:58
-https://x.com/imagine/status/2108280250673352929
-https://docs.x.ai/developers/models/grok-imagine-video-1.5-lite
-
-Ghostty 作者发布终端协议 OSC 7501 03:06
-https://mitchellh.com/writing/program-status-osc7501
-https://www.superlogical.com/rex/docs/build/program-status
-https://x.com/mitchellh/status/2107577887159386152
-
-研究称DeepSeek-V4长上下文存在周期性弱点 03:22
-https://ultimatejupiter.github.io/blog/periodic-weak-spots/
-https://arxiv.org/abs/2609.36322
-
-Epoch AI 推出真实工作评测 03:39
-https://epoch.ai/publications/can-ai-automate-epoch
-https://epoch.ai/benchmarks/epoch-automation-reports
-
-人类数学协会呼吁抵制OpenAI 03:54
-https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents/
-https://github.com/openai/math/blob/main/history.md
-
-谷歌 AMIE 研究登上《柳叶刀》 04:13
-https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/
-https://arxiv.org/abs/2603.08448
-https://x.com/sundarpichai/status/2108329198955958339
-
-新版 Claude 使用政策：持续虐待 Claude 或遭封禁 04:32
-https://www.anthropic.com/news/2026-usage-policy-update
-https://www.anthropic.com/legal/aup
-
-Anthropic 启动 Cyber Mission，守护关键基础设施与开源软件 04:48
-https://www.anthropic.com/news/anthropic-cyber-mission
-https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
-https://red.anthropic.com/oss-scanner
-https://x.com/AnthropicAI/status/2108302539498414208
-
-美国联邦科研计划 Genesis Mission 获 11 家行业伙伴 24 亿美元承诺 05:10
-https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/
-https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission
-
-报道称 OpenAI 年化营收接近 500 亿美元，比此前报道少约 200 亿 05:27
-https://news.bloomberglaw.com/artificial-intelligence/openais-annualized-revenue-nears-50-billion-ft-says
-https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a
-
-OpenAI 被解雇安全研究员发公开信否认违规 05:48
-https://mikitabalesni.com/letter/letter.pdf
-https://x.com/tomekkorbak/status/2108266859397283953
-https://x.com/j_asminewang/status/2108263312291180680
-
-OpenAI 封禁借假记者假智库散布宣传的俄伊账号 06:06
-https://openai.com/index/disrupting-ai-enabled-false-front-operations/
-
-Manus 母公司蝴蝶效应完成超 5 亿美元融资 06:18
-https://mp.weixin.qq.com/s/cmjfJ40G8ZSr9vyPLLy37g
-
-Arena 完成</media:description>
-   <media:community>
-    <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2280"/>
    </media:community>
   </media:group>
  </entry>
