@@ -123,11 +123,22 @@
           "retweets": 6,
           "text": "Ok, more math with Mr @ScottWu46. https://t.co/3A03bJSQ8w",
           "url": "https://x.com/adityaag/status/2113681343502787070"
+        },
+        "id:2114135237806760097": {
+          "createdAt": "2026-10-24T23:21:34.000Z",
+          "id": "2114135237806760097",
+          "isQuote": false,
+          "likes": 80,
+          "quotedTweetId": null,
+          "replies": 7,
+          "retweets": 2,
+          "text": "One weird effect of being max AI pilled is that I have started to really treasure IRL time with my family and my friends.\n\nPut on some techno, dance with friends, take your kids to the park. \n\nLet the agents cook (or not).\n\nBut dear god, celebrate humans.",
+          "url": "https://x.com/adityaag/status/2114135237806760097"
         }
       }
     },
     "alexalbert__": {
-      "bio": "Research @AnthropicAI. Opinions are my own!",
+      "bio": "Research @AnthropicAI",
       "handle": "alexalbert__",
       "name": "Alex Albert",
       "source": "x",
@@ -153,6 +164,39 @@
           "retweets": 0,
           "text": "if you are running a small business with claude helping you, I'd love to hear what you're doing!",
           "url": "https://x.com/alexalbert__/status/2113386456098197941"
+        },
+        "id:2114145290970357953": {
+          "createdAt": "2026-10-25T00:01:30.000Z",
+          "id": "2114145290970357953",
+          "isQuote": true,
+          "likes": 3,
+          "quotedTweetId": "2114144873041588455",
+          "replies": 1,
+          "retweets": 1,
+          "text": "@addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi https://t.co/3GqTnbWxxB @dsp_ as well!",
+          "url": "https://x.com/alexalbert__/status/2114145290970357953"
+        },
+        "id:2114145588686233612": {
+          "createdAt": "2026-10-25T00:02:41.000Z",
+          "id": "2114145588686233612",
+          "isQuote": true,
+          "likes": 4,
+          "quotedTweetId": "2114085354403975252",
+          "replies": 2,
+          "retweets": 0,
+          "text": "@addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi @dsp_ https://t.co/4ea5te3d8w @gcemaj @karbon0x for Claude Managed Agents!",
+          "url": "https://x.com/alexalbert__/status/2114145588686233612"
+        },
+        "id:2114145722320969943": {
+          "createdAt": "2026-10-25T00:03:13.000Z",
+          "id": "2114145722320969943",
+          "isQuote": false,
+          "likes": 3,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 0,
+          "text": "@addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi @dsp_ @gcemaj @karbon0x and @davidsuttonca on Duet as well!",
+          "url": "https://x.com/alexalbert__/status/2114145722320969943"
         }
       }
     },
@@ -468,6 +512,17 @@
           "retweets": 1,
           "text": "That the machine might actually win this time makes me sick to my stomach\n\nThis is someone who actively works to make our communities unsafe https://t.co/kLvPG0kTUh",
           "url": "https://x.com/garrytan/status/2113742461160046736"
+        },
+        "id:2114090740217499854": {
+          "createdAt": "2026-10-24T20:24:45.000Z",
+          "id": "2114090740217499854",
+          "isQuote": true,
+          "likes": 137,
+          "quotedTweetId": "2114067383723651210",
+          "replies": 28,
+          "retweets": 5,
+          "text": "What’s new in Gstack? https://t.co/RLLZyuDxNt",
+          "url": "https://x.com/garrytan/status/2114090740217499854"
         }
       }
     },
@@ -507,17 +562,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2112769686798832013": {
-          "createdAt": "2026-10-21T04:55:21.000Z",
-          "id": "2112769686798832013",
-          "isQuote": false,
-          "likes": 89,
-          "quotedTweetId": null,
-          "replies": 34,
-          "retweets": 6,
-          "text": "Pretty cool that we clearly have an emerging form factor for what AI might look like for the foreseeable future as autonomous systems dedicated to specific tasks or domains.\n\nThis is a huge leap past the LLM wrapper days because the new expectation is that you can finally farm out more sophisticated work to the agent to tackle for you. And you can reliably trust that work can get accomplished properly (still with a human in the loop) because of far better tool and computer use, and the general intelligence of the models improving. \n\n1) The tool and computer use capability increases in the models mean that you can provide the agent with far more granular access to external data systems and other software to operate. This means, in effect, the agent begins to execute workflows similar to how a person would have in that same function. And where there isn’t existing software, the agent just builds it itself. This is a huge unlock. \n\n2) Next, the actual capability of the models are improving in just about every vertical domain. The models can make far better judgment calls in legal, do deeper bio research, scan for security issues in code, understand supply chain processes, and more. Obviously in many of these spaces then models still have worse intuition than people, but that will only get better.\n\n3) Finally, the harnesses and surrounding infra — sandboxes, file systems, data pipelines, etc. — allows for longer running agents, agents to be able to work on arbitrarily complex or long tasks, process data at enormous scale, and more. Few of these components worked well for AI even a year ago, but we now have many of the core primitives necessary for more autonomous systems.\n\nWhen combined with the right UX, implementation, and change management for the human oversight and coordination, it’s clear that these autonomous systems will become quite powerful in a wide variety of enterprise workflows. \n\nWe’re starting to see them in IT automation, cyber operations, drug discovery, manufacturing, AI research, and more spaces. You can almost imagine one or more of these systems for every role in the economy. Quite a bit of opportunity ahead.",
-          "url": "https://x.com/levie/status/2112769686798832013"
-        },
         "id:2112964214818283917": {
           "createdAt": "2026-10-21T17:48:20.000Z",
           "id": "2112964214818283917",
@@ -561,6 +605,17 @@
           "retweets": 43,
           "text": "Agent swarms for cyber defense is about to be one of the biggest categories in AI. We are going to have agents reviewing our code and infra, testing every permutation of risk, processing gobs of data, and more. \n\nSecurity is one of the best use-cases for swarms because it’s an obvious area where more compute in equals more value out. There’s a wide range of testing that people can never get around to - or at least quickly enough - that agents have no problem going after. \n\nGoing to be a wild time in cyber.",
           "url": "https://x.com/levie/status/2113738768645808277"
+        },
+        "id:2114187326406766604": {
+          "createdAt": "2026-10-25T02:48:32.000Z",
+          "id": "2114187326406766604",
+          "isQuote": true,
+          "likes": 88,
+          "quotedTweetId": "2114072722040819849",
+          "replies": 50,
+          "retweets": 8,
+          "text": "We’ll likely have 1,000X more tokens flowing through cyber agents soon than we do today. \n\nAs the surface area of cyber risk increases, at some point soon it will be nearly impossible to keep up with the volume of new risks (we’re essentially already there). Large companies barely had the resources to pull this off before, but the vast majority of companies don’t. \n\nThere’s a never ending set of libraries to keep up with, tools to leverage, and sprawling infrastructure and code to secure. We’ll have agent swarms that can fan out, leverage any security tool, test various perpetuations of attacks, read through logs, process enterprise data for risk level, and more. \n\nThis capability only emerged in the past few months. Wouldn’t have been possible before long running agents and computer use were good enough, and models hadn’t been trained on cyber deeply. That’s all changing now.\n\nThis is a huge area of opportunity right now for every layer of the security stack across identity, firewall, network, code scanning, data protection, and more. And it’s at least one reason to be optimistic about the balance of offensive and defensive capability.",
+          "url": "https://x.com/levie/status/2114187326406766604"
         }
       }
     },
@@ -720,6 +775,39 @@
           "retweets": 0,
           "text": "Experience it by texting someone https://t.co/OdfTgavRhC",
           "url": "https://x.com/nikunj/status/2113844657637687631"
+        },
+        "id:2113994081345126486": {
+          "createdAt": "2026-10-24T14:00:39.000Z",
+          "id": "2113994081345126486",
+          "isQuote": true,
+          "likes": 36,
+          "quotedTweetId": "2113639095431815577",
+          "replies": 10,
+          "retweets": 0,
+          "text": "This describes much more eloquently what I meant what evolving from context -&gt; harnesses -&gt; judgement means..\n\nIf you have built something in this space, and want to jam on product ideas, please hit me up 👋 https://t.co/9cWnYRpSi6",
+          "url": "https://x.com/nikunj/status/2113994081345126486"
+        },
+        "id:2114091467652444625": {
+          "createdAt": "2026-10-24T20:27:38.000Z",
+          "id": "2114091467652444625",
+          "isQuote": false,
+          "likes": 75,
+          "quotedTweetId": null,
+          "replies": 5,
+          "retweets": 0,
+          "text": "Venture in a single meme 🤦 https://t.co/qyDhewpFa7",
+          "url": "https://x.com/nikunj/status/2114091467652444625"
+        },
+        "id:2114095315271942176": {
+          "createdAt": "2026-10-24T20:42:55.000Z",
+          "id": "2114095315271942176",
+          "isQuote": false,
+          "likes": 6,
+          "quotedTweetId": null,
+          "replies": 1,
+          "retweets": 0,
+          "text": "If you are a helpful angel that would invest in an infra series A and we don’t know each other, please holler!",
+          "url": "https://x.com/nikunj/status/2114095315271942176"
         }
       }
     },
@@ -805,6 +893,28 @@
           "retweets": 1,
           "text": "I think most ambitious people don't reflect and realize that at some point, their time > their money.   \n\nBeing in the sandwich generation with young kids and aging parents has made me realize this sooner than most and I'm privileged to be in a position where I can make the choice to pursue agency over my time.  \n\nBut many tech people are also in this position and just don't stop to reflect on this.\n\n📌 See my chat with Adam for more: https://t.co/qUu5y8R1GD",
           "url": "https://x.com/petergyang/status/2113672812909191292"
+        },
+        "id:2114001125636768121": {
+          "createdAt": "2026-10-24T14:28:39.000Z",
+          "id": "2114001125636768121",
+          "isQuote": true,
+          "likes": 139,
+          "quotedTweetId": "2113792338195542039",
+          "replies": 17,
+          "retweets": 2,
+          "text": "I had trouble believing this is true but shouldn’t have doubted @ArfurGrok \n\nHuge bummer for claude users. Anthony and Thariq are two of the best at listening to users. https://t.co/XwQAXb7LYE",
+          "url": "https://x.com/petergyang/status/2114001125636768121"
+        },
+        "id:2114042708105060501": {
+          "createdAt": "2026-10-24T17:13:53.000Z",
+          "id": "2114042708105060501",
+          "isQuote": false,
+          "likes": 157,
+          "quotedTweetId": null,
+          "replies": 17,
+          "retweets": 8,
+          "text": "Of all the learning apps that my 4-year-old and I have tried, @once_reading is the only one that we’ve managed to persist in following for months. \n\nIt works because:\n\n1. It builds a habit where you need to learn with your kid daily\n\n2. It has lightweight gamification like taking a silly photo with your kid after every lesson\n\n3. After 30 lessons, Once will send you books for your kid to read by themselves, giving them a big feeling of accomplishment\n\nMy kid loves reading now and will even choose her Once books over YouTube and the phone (sometimes at least) which is the highest compliment 😅\n\nThis is not sponsored or anything I just love the product. \n\nTry out Once here: https://t.co/RbDiwACYbI",
+          "url": "https://x.com/petergyang/status/2114042708105060501"
         }
       }
     },
@@ -890,6 +1000,28 @@
           "retweets": 7,
           "text": "Agents can play \"Ouija\" in the cloud.\n\nThis class of timing attacks on shared-host VMs has been known since at least 2015¹. With no full solution.\n\nThe world’s cyber infrastructure runs on “yes, that attack is theoretically possible, but who would have the ingenuity & gall to go that far!” Enter, agents.\n\nI'd describe this particular OpenAI find as a 'noisy neighbor' attack. If two agents are on the same machine, one can make enough noise (through the CPU caches!) that the other one can detect it by timing its own computation and cache accesses.\n\nThe only \"complete\" solution would be for each agent to run on its own dedicated hardware, which obviously has significant economic consequences.\n\nFor Vercel Sandbox, we've deployed every practical mitigation possible to this class of attack, complementing it with always-on monitoring and red-teaming (similar to where OpenAI arrived).\n\n¹ https://t.co/ZBhPMfnaj3 (and even further back)",
           "url": "https://x.com/rauchg/status/2113759533801877920"
+        },
+        "id:2114085432749347086": {
+          "createdAt": "2026-10-24T20:03:39.000Z",
+          "id": "2114085432749347086",
+          "isQuote": false,
+          "likes": 2087,
+          "quotedTweetId": null,
+          "replies": 275,
+          "retweets": 94,
+          "text": "There’ll be times where you over-guide the AI. It knows better than you and is more intelligent than you.\n\nThere’ll be times where you under-guide the AI. It can go off-track, have the wrong biases, or miss context.\n\nHow well you manage this superpower is the #0 skill I look for.",
+          "url": "https://x.com/rauchg/status/2114085432749347086"
+        },
+        "id:2114164830403989880": {
+          "createdAt": "2026-10-25T01:19:09.000Z",
+          "id": "2114164830403989880",
+          "isQuote": false,
+          "likes": 219,
+          "quotedTweetId": null,
+          "replies": 91,
+          "retweets": 8,
+          "text": "I oddly love the models' engineering vernacular: gate, evidence, culprit, durable, provenance, contract…\n\nA lot of these stem from most engineering being debugging and understanding existing systems, where you take on the detective / auditor roles. You do forensics.\n\nI wonder what the *minimum viable English* in fact is to be productive. ASD-STE100 Simplified Technical English contains ~900 approved words. I suspect we need far fewer.",
+          "url": "https://x.com/rauchg/status/2114164830403989880"
         }
       }
     },
@@ -912,23 +1044,53 @@
         }
       }
     },
+    "ryolu_": {
+      "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "handle": "ryolu_",
+      "name": "Ryo Lu",
+      "source": "x",
+      "tweets": {
+        "id:2114153611005702542": {
+          "createdAt": "2026-10-25T00:34:34.000Z",
+          "id": "2114153611005702542",
+          "isQuote": false,
+          "likes": 4,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 0,
+          "text": "lots more detail + my curated playlist\nplay here:\nhttps://t.co/8nOipsQ4q3",
+          "url": "https://x.com/ryolu_/status/2114153611005702542"
+        },
+        "id:2114187405251219954": {
+          "createdAt": "2026-10-25T02:48:51.000Z",
+          "id": "2114187405251219954",
+          "isQuote": false,
+          "likes": 511,
+          "quotedTweetId": null,
+          "replies": 26,
+          "retweets": 32,
+          "text": "struggle together\n\ni learned programming and design by trying, failing, and trying again.\n\nwhen i hit a wall, i figured out how to climb it. read something i barely understood. took things apart. asked someone for help. started over.\n\nwhen i began my career, i kept doing things i had never done before. trying different ways to make something work. when i stopped learning, i moved on to the next struggle.\n\nmany things i made weren’t very good. but after enough rounds, something stuck. what once took so much effort became part of how i thought. i could feel something was wrong before i knew how to explain it.\n\nit became like water.\n\ni think about what went into that. the bug i couldn’t fix. the design that looked right until someone used it. the conversation that made me realize my flaws.\n\nnow we can ask a machine.\n\ni’ve made things with these tools that i might never have made otherwise. i don’t miss every tedious task. but i wonder what happens when we remove the difficulty before we understand what it was teaching us.\n\nwe ask. something appears. it works well enough. we move on.\n\nwe learn how to get results without necessarily understanding how it works. and because the result looks complete, it becomes easy to miss the questions we never learned to ask.\n\nthere is another side to this.\n\nworking with people is uncomfortable.\n\neveryone wants something different. everyone has a history you don’t know. someone cares about a detail you think is unimportant. someone pushes back when you want to move. someone needs time when you feel certain.\n\nit takes a while to find each other.\n\nbut sometimes, after struggling together, you become a band.\n\nyou know who notices what you miss. who can pull an idea apart without killing it. when to step in, when to slow down, when to let someone else carry the rhythm.\n\nyou share something unfinished. admit you don’t know. hurt each other, apologize, try again. eventually you make something none of you could have made alone.\n\nsome of my closest friendships came from working this way. smart, caring humans who saw me confused, wrong, tired, excited. people i could be vulnerable with. people whose ideas changed mine.\n\ni worry we are making it easier to avoid that beginning.\n\nan agent is always there. patient. ready to keep going. talking to it can feel easier than reaching toward someone who might misunderstand you, disagree, or have somewhere else to be.\n\nsometimes that ease helps. but if we keep choosing it, where do the friendships begin?\n\ni picture each of us with our own agents. our own explanations. our own little worlds. making more things, with fewer reasons to leave the screen or work through a difference with another person.\n\nand these worlds aren’t entirely ours.\n\nthey run on machines in server farms, owned by companies, shaped by interests we may not see. we bring them our questions, our work, our loneliness. they become part of how we understand what is real.\n\nis that freedom?\n\nor a comfortable kind of confinement, where everything responds to us but fewer things reach us?\n\ni don’t think pain makes something good. there are struggles nobody should have to endure. but i don’t want to lose the difficulty of learning something unfamiliar, or getting to know someone who isn’t like me.\n\nmaybe we need tools that help us spend more time with the world, instead of giving us fewer reasons to enter it. tools that make it easier to find people, share something unfinished, and work through what we couldn’t figure out alone.\n\nsometimes i want to close the laptop.\n\nsit with people i love. play something we haven’t figured out yet. miss a note, lose the rhythm, listen until we find each other again.\n\nlike a jazz band. everyone bringing something different. nobody knowing where we’ll end up.\n\ni don’t want a life without struggle. i want people to struggle with. something we can feel, change, and make our own.\n\nmusic we couldn’t have made alone, instead of the silent static of the server farm.",
+          "url": "https://x.com/ryolu_/status/2114187405251219954"
+        },
+        "id:2114187660734668884": {
+          "createdAt": "2026-10-25T02:49:52.000Z",
+          "id": "2114187660734668884",
+          "isQuote": false,
+          "likes": 21,
+          "quotedTweetId": null,
+          "replies": 1,
+          "retweets": 0,
+          "text": "https://t.co/0E2zuZ5M3N",
+          "url": "https://x.com/ryolu_/status/2114187660734668884"
+        }
+      }
+    },
     "steipete": {
       "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "handle": "steipete",
       "name": "Peter Steinberger",
       "source": "x",
       "tweets": {
-        "id:2112735411688857770": {
-          "createdAt": "2026-10-21T02:39:09.000Z",
-          "id": "2112735411688857770",
-          "isQuote": false,
-          "likes": 224,
-          "quotedTweetId": null,
-          "replies": 17,
-          "retweets": 7,
-          "text": "See you at @Cloudflare Connect tomorrow! Will be chatting with @dok2001 about agents https://t.co/P4oYlOZ80s",
-          "url": "https://x.com/steipete/status/2112735411688857770"
-        },
         "id:2112913060709228764": {
           "createdAt": "2026-10-21T14:25:04.000Z",
           "id": "2112913060709228764",
@@ -959,28 +1121,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2112764130197451209": {
-          "createdAt": "2026-10-21T04:33:16.000Z",
-          "id": "2112764130197451209",
-          "isQuote": false,
-          "likes": 4,
-          "quotedTweetId": null,
-          "replies": 4,
-          "retweets": 0,
-          "text": "i tried to make codex make animated explainer videos but ngmi https://t.co/UT7xloxtXc",
-          "url": "https://x.com/swyx/status/2112764130197451209"
-        },
-        "id:2112772374823407870": {
-          "createdAt": "2026-10-21T05:06:02.000Z",
-          "id": "2112772374823407870",
-          "isQuote": true,
-          "likes": 36,
-          "quotedTweetId": "2102650014552182920",
-          "replies": 36,
-          "retweets": 3,
-          "text": "opus is great for writing... when you dont happen to have any random no-no words in your prompt.\n\njfc, @CompleteSkeptic is right, give me prod, not god. i cant build an ai media org with this in the critical path. https://t.co/U8MOOmykJO https://t.co/ORcvXeH7xz",
-          "url": "https://x.com/swyx/status/2112772374823407870"
-        },
         "id:2113012423892611493": {
           "createdAt": "2026-10-21T20:59:54.000Z",
           "id": "2113012423892611493",
@@ -1079,6 +1219,28 @@
           "retweets": 1,
           "text": "psa to all vc’s trying to slide in our dms https://t.co/99Q7g85sxQ https://t.co/Qzvln9wy1K",
           "url": "https://x.com/swyx/status/2113863570018685091"
+        },
+        "id:2114145315196711194": {
+          "createdAt": "2026-10-25T00:01:36.000Z",
+          "id": "2114145315196711194",
+          "isQuote": false,
+          "likes": 171,
+          "quotedTweetId": null,
+          "replies": 55,
+          "retweets": 5,
+          "text": "we are hiring writers, reviewers and reporters for the new @latentspacepod editorial team (hit up @ricmac and @adlinzainal) and i’m gonna put a version of this in the welcome package for everyone we hire https://t.co/fYPQURjQoy",
+          "url": "https://x.com/swyx/status/2114145315196711194"
+        },
+        "id:2114149330135519730": {
+          "createdAt": "2026-10-25T00:17:33.000Z",
+          "id": "2114149330135519730",
+          "isQuote": false,
+          "likes": 7,
+          "quotedTweetId": null,
+          "replies": 5,
+          "retweets": 0,
+          "text": "part time and oneoff guest posts welcome https://t.co/XoIbSxRbod",
+          "url": "https://x.com/swyx/status/2114149330135519730"
         }
       }
     },
@@ -1205,6 +1367,39 @@
           "retweets": 208,
           "text": "The difference between having a tool and being a tool is subtle these days and it’s easy to accidentally build yourself into being a tool. Don’t be a tool.",
           "url": "https://x.com/thsottiaux/status/2113838156193894447"
+        },
+        "id:2114200152701575656": {
+          "createdAt": "2026-10-25T03:39:31.000Z",
+          "id": "2114200152701575656",
+          "isQuote": false,
+          "likes": 6524,
+          "quotedTweetId": null,
+          "replies": 839,
+          "retweets": 369,
+          "text": "Day 20/ Rest and reset",
+          "url": "https://x.com/thsottiaux/status/2114200152701575656"
+        },
+        "id:2114200291319124163": {
+          "createdAt": "2026-10-25T03:40:04.000Z",
+          "id": "2114200291319124163",
+          "isQuote": false,
+          "likes": 1470,
+          "quotedTweetId": null,
+          "replies": 304,
+          "retweets": 48,
+          "text": "By midnight PST",
+          "url": "https://x.com/thsottiaux/status/2114200291319124163"
+        },
+        "id:2114237083652882932": {
+          "createdAt": "2026-10-25T06:06:16.000Z",
+          "id": "2114237083652882932",
+          "isQuote": true,
+          "likes": 1398,
+          "quotedTweetId": "2114200291319124163",
+          "replies": 343,
+          "retweets": 74,
+          "text": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too. https://t.co/qOrzwSeIZZ https://t.co/xKaK95EAly",
+          "url": "https://x.com/thsottiaux/status/2114237083652882932"
         }
       }
     },
@@ -1331,6 +1526,28 @@
           "retweets": 0,
           "text": "https://t.co/cPA8hDsbFj",
           "url": "https://x.com/zarazhangrui/status/2113747119924478162"
+        },
+        "id:2114013292016611442": {
+          "createdAt": "2026-10-24T15:16:59.000Z",
+          "id": "2114013292016611442",
+          "isQuote": true,
+          "likes": 13,
+          "quotedTweetId": "2108047745936466373",
+          "replies": 2,
+          "retweets": 1,
+          "text": "Lots of inspiring examples in this thread too https://t.co/uVPXovcNOo",
+          "url": "https://x.com/zarazhangrui/status/2114013292016611442"
+        },
+        "id:2114225607022412049": {
+          "createdAt": "2026-10-25T05:20:39.000Z",
+          "id": "2114225607022412049",
+          "isQuote": false,
+          "likes": 33,
+          "quotedTweetId": null,
+          "replies": 15,
+          "retweets": 1,
+          "text": "It is so much easier to give advice to other people than to apply the same advice to yourself",
+          "url": "https://x.com/zarazhangrui/status/2114225607022412049"
         }
       }
     }
