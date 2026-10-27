@@ -11,6 +11,76 @@
  </author>
  <published>2017-08-22T22:27:58+00:00</published>
  <entry>
+  <id>yt:video:CQ_Cfw6QxSk</id>
+  <yt:videoId>CQ_Cfw6QxSk</yt:videoId>
+  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
+  <title>7 AI code review best practices #deeplearningai #qodo</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/CQ_Cfw6QxSk"/>
+  <author>
+   <name>DeepLearningAI</name>
+   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
+  </author>
+  <published>2026-10-26T22:00:28+00:00</published>
+  <updated>2026-10-27T07:41:10+00:00</updated>
+  <media:group>
+   <media:title>7 AI code review best practices #deeplearningai #qodo</media:title>
+   <media:content url="https://www.youtube.com/v/CQ_Cfw6QxSk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CQ_Cfw6QxSk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A pull request can look clean and still miss a requirement or hide a security issue. When AI writes more of your code, there is often too much to check by hand.
+
+AI Code Review, built in collaboration with Qodo and taught by Nnenna Ndukwe, walks through 7 review practices with before and after examples. A few of them:
+
+🔍Run the review before you open a pull request
+🧑‍💻Use a reviewer that didn’t write the code
+📂Give the reviewer task and repository context
+⚖️Triage findings by risk
+🔁Turn good feedback into reusable standards
+
+💡The key lesson: the context you give your reviewer matters more than which model you use.
+
+🛠️You’ll also build your own review agent. Start with a context engine (chunking, embeddings, vector search), then extend it into an ensemble of specialized reviewers.
+
+📌Intermediate, about 1 hour, Python recommended.
+
+👉Enroll now: https://www.deeplearning.ai/courses/ai-code-review
+
+#DeepLearningAI #CodeReview #AIEngineering</media:description>
+   <media:community>
+    <media:starRating count="14" average="5.00" min="1" max="5"/>
+    <media:statistics views="776"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:VgF5aP0amXA</id>
+  <yt:videoId>VgF5aP0amXA</yt:videoId>
+  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
+  <title>Learn from OpenAI, Hugging Face, Andrew Ng and Yann LeCun | AI Dev NYC #aidev #shorts</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/VgF5aP0amXA"/>
+  <author>
+   <name>DeepLearningAI</name>
+   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
+  </author>
+  <published>2026-10-26T15:00:16+00:00</published>
+  <updated>2026-10-27T07:16:42+00:00</updated>
+  <media:group>
+   <media:title>Learn from OpenAI, Hugging Face, Andrew Ng and Yann LeCun | AI Dev NYC #aidev #shorts</media:title>
+   <media:content url="https://www.youtube.com/v/VgF5aP0amXA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VgF5aP0amXA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Build your AI engineering skills at AI Dev NYC. Learn from Salil Sethi (OpenAI) on turning new model capabilities into reliable production systems, and Joel Niklaus (Hugging Face) on harness optimization and synthetic data. Andrew Ng opens with a keynote on the AI Engineering Skills Map, then sits down with Yann LeCun for a fireside chat on world models.
+
+Plus speakers from Vocal Bridge, NYC Tech Talent Pipeline, Unblocked, Qdrant, Anchor Browser, Oracle, AgentField, Neo4j and Sonar, across two days of technical talks and workshops on knowledge graphs, agent memory, agent harnesses, self-improving agents, inference and security.
+
+📍 November 30–December 1, 2026 · Chelsea Piers, NYC
+
+Explore the program and get tickets: https://ai-dev.deeplearning.ai/</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="868"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:CUjHZlvQufk</id>
   <yt:videoId>CUjHZlvQufk</yt:videoId>
   <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
@@ -39,8 +109,8 @@ In this course, you'll learn:
 
 Enroll for free: https://bit.ly/4yy5iWP</media:description>
    <media:community>
-    <media:starRating count="51" average="5.00" min="1" max="5"/>
-    <media:statistics views="7529"/>
+    <media:starRating count="53" average="5.00" min="1" max="5"/>
+    <media:statistics views="7909"/>
    </media:community>
   </media:group>
  </entry>
@@ -71,7 +141,7 @@ We analyzed more than 10,000 job roles and interviewed dozens of leading AI engi
 See how our program could work for your team: deeplearning.ai/business</media:description>
    <media:community>
     <media:starRating count="37" average="5.00" min="1" max="5"/>
-    <media:statistics views="6523"/>
+    <media:statistics views="6608"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,7 +166,7 @@ See how our program could work for your team: deeplearning.ai/business</media:de
 Enroll for free: https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="2885"/>
+    <media:statistics views="2909"/>
    </media:community>
   </media:group>
  </entry>
@@ -127,8 +197,8 @@ You'll learn foundational data engineering skills while implementing modern data
 
 Enroll Now: https://bit.ly/3ViOXHF</media:description>
    <media:community>
-    <media:starRating count="166" average="5.00" min="1" max="5"/>
-    <media:statistics views="18781"/>
+    <media:starRating count="167" average="5.00" min="1" max="5"/>
+    <media:statistics views="18841"/>
    </media:community>
   </media:group>
  </entry>
@@ -165,8 +235,8 @@ This course also includes our new AI coding lab, so you can practice building wi
 
 Enroll Now:https://bit.ly/4AlVW2n</media:description>
    <media:community>
-    <media:starRating count="76" average="5.00" min="1" max="5"/>
-    <media:statistics views="12380"/>
+    <media:starRating count="77" average="5.00" min="1" max="5"/>
+    <media:statistics views="12403"/>
    </media:community>
   </media:group>
  </entry>
@@ -200,8 +270,8 @@ Spec-Driven Development with Coding Agents is built in partnership with JetBrain
 
 Recommended: basic familiarity with a programming language and experience with LLM-based coding tools.</media:description>
    <media:community>
-    <media:starRating count="4156" average="5.00" min="1" max="5"/>
-    <media:statistics views="354832"/>
+    <media:starRating count="4196" average="5.00" min="1" max="5"/>
+    <media:statistics views="358532"/>
    </media:community>
   </media:group>
  </entry>
@@ -230,7 +300,7 @@ Learn to build it, plus a video generation agent, in &quot;AI Agents for Image a
 Join here: https://www.deeplearning.ai/courses/ai-agents-for-image-and-video-generation</media:description>
    <media:community>
     <media:starRating count="49" average="5.00" min="1" max="5"/>
-    <media:statistics views="3509"/>
+    <media:statistics views="3528"/>
    </media:community>
   </media:group>
  </entry>
@@ -256,7 +326,7 @@ Take the course, then come share what you build:
 https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local</media:description>
    <media:community>
     <media:starRating count="53" average="5.00" min="1" max="5"/>
-    <media:statistics views="2960"/>
+    <media:statistics views="2966"/>
    </media:community>
   </media:group>
  </entry>
@@ -294,7 +364,7 @@ LinkedIn: https://www.linkedin.com/company/deeplearningai · X: https://x.com/De
 #AIDev #DeepLearningAI #AndrewNg  #AIDeveloper #AIEngineering #AgenticAI</media:description>
    <media:community>
     <media:starRating count="112" average="5.00" min="1" max="5"/>
-    <media:statistics views="15783"/>
+    <media:statistics views="15795"/>
    </media:community>
   </media:group>
  </entry>
@@ -321,7 +391,7 @@ Paul Everitt worked both into his new course with DeepLearning.AI. Check it out:
 https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local</media:description>
    <media:community>
     <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="3063"/>
+    <media:statistics views="3070"/>
    </media:community>
   </media:group>
  </entry>
@@ -362,7 +432,7 @@ By the end, you'll know how to build agents that get measurably better at the sa
 Enroll Now: https://bit.ly/4iu7p9F</media:description>
    <media:community>
     <media:starRating count="84" average="5.00" min="1" max="5"/>
-    <media:statistics views="11115"/>
+    <media:statistics views="11137"/>
    </media:community>
   </media:group>
  </entry>
@@ -388,7 +458,7 @@ Knowing how to split the work between them is the skill. Learn it in our free co
 https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local</media:description>
    <media:community>
     <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="2847"/>
+    <media:statistics views="2849"/>
    </media:community>
   </media:group>
  </entry>
@@ -414,87 +484,7 @@ Build the full workflow in AI Coding Workflows: From Cloud to Local, a free shor
 https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="2913"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:xUXJuPC7gz0</id>
-  <yt:videoId>xUXJuPC7gz0</yt:videoId>
-  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
-  <title>Take back control of your AI coding workflow</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=xUXJuPC7gz0"/>
-  <author>
-   <name>DeepLearningAI</name>
-   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
-  </author>
-  <published>2026-08-12T15:30:40+00:00</published>
-  <updated>2026-10-04T19:14:21+00:00</updated>
-  <media:group>
-   <media:title>Take back control of your AI coding workflow</media:title>
-   <media:content url="https://www.youtube.com/v/xUXJuPC7gz0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/xUXJuPC7gz0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Learn More: https://bit.ly/4q6zSEc
-
-AI coding agents like Claude Code and Codex give you a ready-made way to work. That convenience comes at the cost of control: over which models run, what you spend, and what leaves your machine.
-
-In our new short course, AI Coding Workflows: From Cloud to Local, built in partnership with JetBrains and taught by Paul Everitt, Developer Advocate at JetBrains, you'll take that control back one layer at a time.
-
-You'll rebuild the same Python app across setups: first from a Claude Code baseline, then with subagents that break the job into focused tasks, then with a cheaper model on the routine work. From there, you'll switch to an open-source coding agent, connect it to different inference providers, and finally run models on your own machine. At each step, you'll see how the change shifts cost, speed, and usage.
-
-In this course, you'll learn how to:
-- Split work across specialized subagents with focused context and clear specs
-- Assign different models to different tasks, keeping frontier models for the hard parts
-- Swap your coding agent and connect it to different inference providers
-- Run models locally and see how far a fully local setup can take you
-
-By the end, every layer of your setup is a choice you've made.
-
-Enroll Now: https://bit.ly/4q6zSEc</media:description>
-   <media:community>
-    <media:starRating count="87" average="5.00" min="1" max="5"/>
-    <media:statistics views="5548"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Z4PB98qZBRU</id>
-  <yt:videoId>Z4PB98qZBRU</yt:videoId>
-  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
-  <title>3rd Place Winner: Voice AI Prevents Data Loss. Coding Agent Calls Developer Before Deleting Records</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Z4PB98qZBRU"/>
-  <author>
-   <name>DeepLearningAI</name>
-   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
-  </author>
-  <published>2026-08-05T14:41:28+00:00</published>
-  <updated>2026-10-04T15:29:23+00:00</updated>
-  <media:group>
-   <media:title>3rd Place Winner: Voice AI Prevents Data Loss. Coding Agent Calls Developer Before Deleting Records</media:title>
-   <media:content url="https://www.youtube.com/v/Z4PB98qZBRU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/Z4PB98qZBRU/hqdefault.jpg" width="480" height="360"/>
-   <media:description>In this finalist demo for the 7-Day Voice AI Builder Challenge with @VocalBridgeAI, developer Sapna shows how voice escalation prevents data loss during database cleanup. 📱⚡
-
-🚨 The Scenario
-When deduplicating customer accounts for Acme Corp, the AI agent finds an old record with active orders conflicting with a new empty import. Since deletion is irreversible, the agent refuses to guess. Instead, it calls Sapna for vocal confirmation before executing the cleanup.
-
-🔥 Key Demo Highlights:
-0:00 – Task setup in Claude Code (TASK.md execution)
-0:20 – Agent detects duplicate records &amp; identifies permanent deletion risk
-0:52 – Irreversible action gate triggers @VocalBridge voice escalation
-1:15 – Inbound phone call detailing the account conflict (2021 vs. 2024)
-1:31 – Developer selects 2021 record; AI asks for explicit confirmation
-1:58 – Call ends &amp; agent executes exact database deletion script (cleanup.py)
-2:05 – Post-execution scan verifies database cleanup with zero data loss
-
-🛠️ Built With:
-@VocalBridgeAI  (Voice AI &amp; Telephone Integration)
-Claude Code / CLI (Autonomous Agent Execution)
-
-#VoiceAI #VocalBridge #ClaudeCode #AIAgents #DatabaseManagement #BuildInPublic #Hackathon #DeveloperTools</media:description>
-   <media:community>
-    <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="4698"/>
+    <media:statistics views="2916"/>
    </media:community>
   </media:group>
  </entry>

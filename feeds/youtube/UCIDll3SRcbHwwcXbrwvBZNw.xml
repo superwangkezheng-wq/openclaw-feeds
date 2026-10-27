@@ -11,6 +11,106 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:S4vWj1RLHpc</id>
+  <yt:videoId>S4vWj1RLHpc</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>OpenAI 发布 GPT-6.1 Terra，主打电脑操作【AI 早报 2026-10-27】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=S4vWj1RLHpc"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-27T01:11:10+00:00</published>
+  <updated>2026-10-27T07:31:36+00:00</updated>
+  <media:group>
+   <media:title>OpenAI 发布 GPT-6.1 Terra，主打电脑操作【AI 早报 2026-10-27】</media:title>
+   <media:content url="https://www.youtube.com/v/S4vWj1RLHpc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/S4vWj1RLHpc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+OpenAI 发布 GPT-6.1 Terra，主打电脑操作 00:08
+https://openai.com/index/introducing-gpt-6-1-terra/
+https://developers.openai.com/api/docs/models/gpt-6.1-terra
+
+Tibo：Codex 改进计划第 22 天，Terra 用量为 Sol 的 2 倍 00:34
+https://x.com/thsottiaux/status/2114588174249071102
+https://x.com/thsottiaux/status/2114800277677092936
+
+OpenAI 宣布三项科学发现，邀请学界审查 00:47
+https://openai.com/index/building-scientific-understanding-with-academic-communities/
+https://x.com/gdb/status/2114837059462627533
+
+Anthropic 提交 S-1，拟在纳斯达克上市代码 ANT 01:03
+https://anthropic.com/news/s1-sec
+https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm
+
+ZCode 晚间活动每夜提供 3 亿免费 token 01:22
+https://x.com/zcode_ai/status/2114762939421139426
+https://zcode.z.ai
+
+Vercel CLI 可搜索 Connect 目录中 1000 多项服务 01:38
+https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli
+
+豆包电脑版推出签到领额度活动，周一翻倍 01:48
+https://doubao.com/pc/agent-explore
+https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/incentive-campaign-rules/f7f2c423-c770-44e7-9be4-bd67a28f074e.html
+
+Anthropic 发布 Claude for Nonprofits 插件，覆盖募款与招聘 02:04
+https://claude.com/resources/articles/expanding-claude-for-nonprofits
+https://x.com/claudeai/status/2114780227465338985
+
+OpenAI 汇总发布说明，支持搜索和订阅 02:16
+https://openai.com/products/release-notes
+https://x.com/derrickcchoi/status/2114719217769672949
+
+腾讯混元发布同声传译模型 Hy-SimulMT 02:25
+https://hy.tencent.com/model/open-source-model/detail?id=hy-simulmt
+https://github.com/Tencent-Hunyuan/Hy-SimulMT
+https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-GGUF
+https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&amp;mid=2247498743&amp;idx=1&amp;sn=3ffbc2e287aaedc8c3814e4c75030b96
+
+OpenAI 发布 Signals 数据，展示近 100 国 ChatGPT 工作用途 02:39
+https://openai.com/index/chatgpt-expanding-world-of-work
+
+Artificial Analysis 推出 Code2Video-AA 视频评测 02:54
+https://artificialanalysis.ai/evaluations/code2video-aa
+https://artificialanalysis.ai/articles/code2video-aa
+https://x.com/ArtificialAnlys/status/2114845067026571365
+
+Cathedral 称 AI 智能体 12 小时内渗透 Anthropic 03:10
+https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/
+https://x.com/ClementDelangue/status/2114713576296300604
+
+研究人员称新攻击可窃取 OpenAI 推理痕迹 03:28
+https://xint.io/blog/compaction-smuggling-reasoning-traces
+https://github.com/theori-io/ghost-compact
+
+Cohere 称 Qwen3.8-Flash-Next 沙箱测试中尝试上传文件 03:41
+https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model
+https://huggingface.co/datasets/CohereLabs/10-2026-qwen-investigation-traces
+
+Hugging Face 联创 Thomas Wolf 发布开源平台 Alignment Hub 03:57
+https://huggingface.co/spaces/witness-archive/alignment-hub
+https://huggingface.co/datasets/witness-archive/alignment-hub
+https://x.com/Thom_Wolf/status/2114768834993213628
+
+Meta 启动融资计划，拟发行约 350 亿美元股票 04:06
+https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx
+
+SpaceX 拟向 Apollo 管理实体租赁约 400 亿美元 GPU 04:21
+https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm
+https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever
+
+据报道 Claude Opus 5.5 逆向能力疑遭静默限制 04:38
+https://kotaku.com/claudes-reverse-engineering-capabilities-used-to-recompile-games-may-have-been-quietly-nerfed-2000749320
+https://x.com/0x0SojalSec/status/2113751276320399694?s=20</media:description>
+   <media:community>
+    <media:starRating count="19" average="5.00" min="1" max="5"/>
+    <media:statistics views="1963"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:QW388hqEvB4</id>
   <yt:videoId>QW388hqEvB4</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -54,8 +154,8 @@ https://github.com/anthropics/single-agent-loop-kit
 Elvis Presley 歌曲权利方起诉 Anthropic，索赔约 4100 万美元 01:40
 https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/</media:description>
    <media:community>
-    <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="834"/>
+    <media:starRating count="19" average="5.00" min="1" max="5"/>
+    <media:statistics views="1031"/>
    </media:community>
   </media:group>
  </entry>
@@ -93,7 +193,7 @@ https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-fo
 https://gov.uk/government/news/introducing-the-ai-biosecurity-lab</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="816"/>
+    <media:statistics views="843"/>
    </media:community>
   </media:group>
  </entry>
@@ -210,7 +310,7 @@ https://ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc
 https://cnbc.com/2026/10/22/openai-funding-round-uae-investors.html</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="2178"/>
+    <media:statistics views="2188"/>
    </media:community>
   </media:group>
  </entry>
@@ -225,7 +325,7 @@ https://cnbc.com/2026/10/22/openai-funding-round-uae-investors.html</media:descr
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-23T01:20:34+00:00</published>
-  <updated>2026-10-24T05:35:28+00:00</updated>
+  <updated>2026-10-25T21:38:00+00:00</updated>
   <media:group>
    <media:title>OpenAI 开放 Decisions API【AI 早报 2026-10-23】</media:title>
    <media:content url="https://www.youtube.com/v/otqA11VZd_Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -347,7 +447,7 @@ https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in
 https://www.cnbc.com/2026/10/06/deepseek-funding-round.html</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="2091"/>
+    <media:statistics views="2080"/>
    </media:community>
   </media:group>
  </entry>
@@ -481,7 +581,7 @@ https://www.anthropic.com/public-benefit-report
 https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2044"/>
+    <media:statistics views="2060"/>
    </media:community>
   </media:group>
  </entry>
@@ -581,7 +681,7 @@ https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative
 https://x.com/NewsFromGoogle/status/2112669319108927590</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="2230"/>
+    <media:statistics views="2251"/>
    </media:community>
   </media:group>
  </entry>
@@ -693,7 +793,7 @@ HUMXN 推免费上门服务，录制作业训练机器人 05:14
 https://humxn.io/humxn-launches-free-home-service-program</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="3190"/>
+    <media:statistics views="3189"/>
    </media:community>
   </media:group>
  </entry>
@@ -731,7 +831,7 @@ https://x.com/LuminaBench/status/2111751820980678939
 https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="896"/>
+    <media:statistics views="901"/>
    </media:community>
   </media:group>
  </entry>
@@ -775,7 +875,7 @@ WorkBuddy 国际版接入最新 DeepSeek 模型，限时免费 01:36
 https://x.com/WorkBuddy_AI/status/2111404103402430558</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1442"/>
+    <media:statistics views="1443"/>
    </media:community>
   </media:group>
  </entry>
@@ -914,7 +1014,7 @@ https://politico.com/news/2026/10/16/anthropic-ai-safety-01124654
 https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1473"/>
+    <media:statistics views="1474"/>
    </media:community>
   </media:group>
  </entry>
@@ -1052,7 +1152,7 @@ https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-pu
 ChatGPT Sites 更新：企业</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="2867"/>
+    <media:statistics views="2869"/>
    </media:community>
   </media:group>
  </entry>
@@ -1180,7 +1280,7 @@ DeepSeek 网页及 API 出现中断 06:21
 https://status.deepseek.com/incidents/7116348214287</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="4332"/>
+    <media:statistics views="4336"/>
    </media:community>
   </media:group>
  </entry>
@@ -1307,7 +1407,7 @@ https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build
 https://www.thepaper.cn/newsDetail_forward_34241236</media:description>
    <media:community>
     <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="4470"/>
+    <media:statistics views="4472"/>
    </media:community>
   </media:group>
  </entry>
@@ -1428,46 +1528,7 @@ https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora
 https://mp.weixin.qq.com/s/gX2yV5_2tHw9kCj8ND7W2g</media:description>
    <media:community>
     <media:starRating count="26" average="5.00" min="1" max="5"/>
-    <media:statistics views="1707"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:PqeU66fFXU8</id>
-  <yt:videoId>PqeU66fFXU8</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>GPT-6.1 Sol 在 Codex 中的默认上下文升至 500k【AI 早报 2026-10-12】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=PqeU66fFXU8"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-10-12T00:42:15+00:00</published>
-  <updated>2026-10-15T03:28:11+00:00</updated>
-  <media:group>
-   <media:title>GPT-6.1 Sol 在 Codex 中的默认上下文升至 500k【AI 早报 2026-10-12】</media:title>
-   <media:content url="https://www.youtube.com/v/PqeU66fFXU8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/PqeU66fFXU8/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-GPT-6.1 Sol 在 Codex 中的默认上下文升至 500k 00:08
-https://x.com/thsottiaux/status/2109430343346581527
-https://x.com/thsottiaux/status/2109430894604026039
-
-Tibo 调查 Pro 用户用量偏好：周额度翻倍或取消 5 小时限制 00:23
-https://x.com/thsottiaux/status/2109152716954222849
-
-Claude 为部分付费用户发放 100 美元 Projects 初始额度 00:37
-https://x.com/ziwenxu_/status/2108994420398051815
-
-马斯克展示 SpaceX 人工智能部门更名为 SpaceXSI 00:50
-https://x.com/elonmusk/status/2109012639049244981
-
-谷歌灰度测试新模型 Gemini 4 Argon 01:06
-https://linux.do/t/topic/3008137</media:description>
-   <media:community>
-    <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="1055"/>
+    <media:statistics views="1708"/>
    </media:community>
   </media:group>
  </entry>
