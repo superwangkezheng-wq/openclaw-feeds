@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-27T13:22:35.000Z",
+  "generatedAt": "2026-10-28T02:23:54.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-10-27T06:44:38.100Z",
-    "ageHours": 6.63
+    "ageHours": 19.65
   },
   "x": [
     {
@@ -54,39 +54,6 @@
           "retweets": 2,
           "text": "One weird effect of being max AI pilled is that I have started to really treasure IRL time with my family and my friends.\n\nPut on some techno, dance with friends, take your kids to the park. \n\nLet the agents cook (or not).\n\nBut dear god, celebrate humans.",
           "url": "https://x.com/adityaag/status/2114135237806760097"
-        },
-        {
-          "createdAt": "2026-10-23T17:17:57.000Z",
-          "id": "2113681343502787070",
-          "isQuote": true,
-          "likes": 146,
-          "quotedTweetId": "2113680065846251821",
-          "replies": 0,
-          "retweets": 6,
-          "text": "Ok, more math with Mr @ScottWu46. https://t.co/3A03bJSQ8w",
-          "url": "https://x.com/adityaag/status/2113681343502787070"
-        },
-        {
-          "createdAt": "2026-10-23T16:20:45.000Z",
-          "id": "2113666949259362479",
-          "isQuote": false,
-          "likes": 2,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "Full conversation at @spc https://t.co/r7mFzXspBC",
-          "url": "https://x.com/adityaag/status/2113666949259362479"
-        },
-        {
-          "createdAt": "2026-10-23T16:20:45.000Z",
-          "id": "2113666947766169868",
-          "isQuote": false,
-          "likes": 35,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 3,
-          "text": "Some of the biggest advances in AI have come from solving many problems together, rather than training specialized systems for individual tasks.\n\n@svlevine (@physical_int) talks about the same principle for robotics. Make the problem bigger. https://t.co/1GxLuuNmu3",
-          "url": "https://x.com/adityaag/status/2113666947766169868"
         }
       ],
       "source": "x",
@@ -169,28 +136,6 @@
           "replies": 155,
           "isQuote": true,
           "quotedTweetId": "2114751107293749731"
-        },
-        {
-          "createdAt": "2026-10-23T20:55:10.000Z",
-          "id": "2113736007111827606",
-          "isQuote": true,
-          "likes": 330,
-          "quotedTweetId": "2113677289334706274",
-          "replies": 89,
-          "retweets": 19,
-          "text": "Thrilled to welcome Jeff and the Chroma team to Replit!\n\nThey’re pioneers in AI. They were building RAG before it was even a thing!\n\nAt Replit, they’ll help solve one of the hardest problems in AI: giving agents the context and memory they need to do real work.\n\nMassive step toward the self-driving company.",
-          "url": "https://x.com/amasad/status/2113736007111827606"
-        },
-        {
-          "createdAt": "2026-10-23T16:59:34.000Z",
-          "id": "2113676717105787192",
-          "isQuote": true,
-          "likes": 146,
-          "quotedTweetId": "2113315161608221070",
-          "replies": 44,
-          "retweets": 7,
-          "text": "Excited to announce Replit for Government and welcome Michael Greenwald to the team!\n\nMichael brings a wealth of experience, having previously led AWS’s public sector business. Looking forward to working together to transform how governments build and operate software. https://t.co/Aj35Gg0EdQ https://t.co/STbQ82Dqw0",
-          "url": "https://x.com/amasad/status/2113676717105787192"
         }
       ],
       "source": "x",
@@ -210,17 +155,6 @@
           "replies": 278,
           "isQuote": true,
           "quotedTweetId": "1995856609692844351"
-        },
-        {
-          "createdAt": "2026-10-23T20:55:50.000Z",
-          "id": "2113736176737845353",
-          "isQuote": false,
-          "likes": 98,
-          "quotedTweetId": null,
-          "replies": 15,
-          "retweets": 15,
-          "text": "Here’s the deeper look at how Claude Duet handles safety, privacy, and security: https://t.co/li45PvRyyM",
-          "url": "https://x.com/claudeai/status/2113736176737845353"
         }
       ],
       "source": "x",
@@ -273,17 +207,6 @@
           "retweets": 0,
           "text": "https://t.co/F3WWInD6LH https://t.co/PKNm0MT3So",
           "url": "https://x.com/danshipper/status/2114509827057561603"
-        },
-        {
-          "createdAt": "2026-10-23T18:06:18.000Z",
-          "id": "2113693510629281895",
-          "isQuote": false,
-          "likes": 48,
-          "quotedTweetId": null,
-          "replies": 22,
-          "retweets": 1,
-          "text": "the best configuration of teams in AI is only two people: pirates and architects https://t.co/R4ET7IJwG9",
-          "url": "https://x.com/danshipper/status/2113693510629281895"
         }
       ],
       "source": "x",
@@ -314,39 +237,6 @@
           "retweets": 5,
           "text": "What’s new in Gstack? https://t.co/RLLZyuDxNt",
           "url": "https://x.com/garrytan/status/2114090740217499854"
-        },
-        {
-          "createdAt": "2026-10-23T21:20:48.000Z",
-          "id": "2113742461160046736",
-          "isQuote": true,
-          "likes": 16,
-          "quotedTweetId": "2056554821789073613",
-          "replies": 3,
-          "retweets": 1,
-          "text": "That the machine might actually win this time makes me sick to my stomach\n\nThis is someone who actively works to make our communities unsafe https://t.co/kLvPG0kTUh",
-          "url": "https://x.com/garrytan/status/2113742461160046736"
-        },
-        {
-          "createdAt": "2026-10-23T21:19:05.000Z",
-          "id": "2113742026999267330",
-          "isQuote": true,
-          "likes": 249,
-          "quotedTweetId": "2113655061725532667",
-          "replies": 16,
-          "retweets": 8,
-          "text": "Connie Chan is a regressive and terrible bureaucrat who wants rents to be $10,000 per month in SF\n\nAnti tech, anti housing, anti prosperity, pro grift, pro crime\n\nThat the Pelosi machine threw their weight behind her and Gary McCoy is a disgraceful joke https://t.co/qqWXGI0atz",
-          "url": "https://x.com/garrytan/status/2113742026999267330"
-        },
-        {
-          "createdAt": "2026-10-23T17:27:55.000Z",
-          "id": "2113683853156192695",
-          "isQuote": true,
-          "likes": 265,
-          "quotedTweetId": "2113404966165774492",
-          "replies": 18,
-          "retweets": 10,
-          "text": "Horseshoe theory is real\n\nThe NIMBY left (nonprofit extractors) and the NIMBY right (boomer landlords) just want to destroy housing affordability and the economy for their own comfort and grift \n\nMeanwhile we are just trying to build abundance https://t.co/Ki5lBwIpik",
-          "url": "https://x.com/garrytan/status/2113683853156192695"
         }
       ],
       "source": "x",
@@ -418,17 +308,6 @@
           "retweets": 8,
           "text": "We’ll likely have 1,000X more tokens flowing through cyber agents soon than we do today. \n\nAs the surface area of cyber risk increases, at some point soon it will be nearly impossible to keep up with the volume of new risks (we’re essentially already there). Large companies barely had the resources to pull this off before, but the vast majority of companies don’t. \n\nThere’s a never ending set of libraries to keep up with, tools to leverage, and sprawling infrastructure and code to secure. We’ll have agent swarms that can fan out, leverage any security tool, test various perpetuations of attacks, read through logs, process enterprise data for risk level, and more. \n\nThis capability only emerged in the past few months. Wouldn’t have been possible before long running agents and computer use were good enough, and models hadn’t been trained on cyber deeply. That’s all changing now.\n\nThis is a huge area of opportunity right now for every layer of the security stack across identity, firewall, network, code scanning, data protection, and more. And it’s at least one reason to be optimistic about the balance of offensive and defensive capability.",
           "url": "https://x.com/levie/status/2114187326406766604"
-        },
-        {
-          "createdAt": "2026-10-23T21:06:08.000Z",
-          "id": "2113738768645808277",
-          "isQuote": true,
-          "likes": 358,
-          "quotedTweetId": "2113728305220239739",
-          "replies": 75,
-          "retweets": 43,
-          "text": "Agent swarms for cyber defense is about to be one of the biggest categories in AI. We are going to have agents reviewing our code and infra, testing every permutation of risk, processing gobs of data, and more. \n\nSecurity is one of the best use-cases for swarms because it’s an obvious area where more compute in equals more value out. There’s a wide range of testing that people can never get around to - or at least quickly enough - that agents have no problem going after. \n\nGoing to be a wild time in cyber.",
-          "url": "https://x.com/levie/status/2113738768645808277"
         }
       ],
       "source": "x",
@@ -588,17 +467,6 @@
           "retweets": 2,
           "text": "It truly feels magical - recommend adding to your website 😅 https://t.co/aVYV27xDuY https://t.co/U5s64SJlg3",
           "url": "https://x.com/nikunj/status/2113844360572027321"
-        },
-        {
-          "createdAt": "2026-10-24T00:09:55.000Z",
-          "id": "2113785018497831076",
-          "isQuote": true,
-          "likes": 34,
-          "quotedTweetId": "2113733206050816125",
-          "replies": 1,
-          "retweets": 0,
-          "text": "Anthropic did go 10x in revenue even without launching Duet, but called it 😅 https://t.co/nHK3SoMlxp https://t.co/7UZjEtRtf3",
-          "url": "https://x.com/nikunj/status/2113785018497831076"
         }
       ],
       "source": "x",
@@ -695,17 +563,6 @@
           "retweets": 2,
           "text": "I had trouble believing this is true but shouldn’t have doubted @ArfurGrok \n\nHuge bummer for claude users. Anthony and Thariq are two of the best at listening to users. https://t.co/XwQAXb7LYE",
           "url": "https://x.com/petergyang/status/2114001125636768121"
-        },
-        {
-          "createdAt": "2026-10-23T16:44:03.000Z",
-          "id": "2113672812909191292",
-          "isQuote": true,
-          "likes": 31,
-          "quotedTweetId": "2113667277425881554",
-          "replies": 12,
-          "retweets": 1,
-          "text": "I think most ambitious people don't reflect and realize that at some point, their time > their money.   \n\nBeing in the sandwich generation with young kids and aging parents has made me realize this sooner than most and I'm privileged to be in a position where I can make the choice to pursue agency over my time.  \n\nBut many tech people are also in this position and just don't stop to reflect on this.\n\n📌 See my chat with Adam for more: https://t.co/qUu5y8R1GD",
-          "url": "https://x.com/petergyang/status/2113672812909191292"
         }
       ],
       "source": "x",
@@ -747,17 +604,6 @@
           "retweets": 94,
           "text": "There’ll be times where you over-guide the AI. It knows better than you and is more intelligent than you.\n\nThere’ll be times where you under-guide the AI. It can go off-track, have the wrong biases, or miss context.\n\nHow well you manage this superpower is the #0 skill I look for.",
           "url": "https://x.com/rauchg/status/2114085432749347086"
-        },
-        {
-          "createdAt": "2026-10-23T22:28:39.000Z",
-          "id": "2113759533801877920",
-          "isQuote": true,
-          "likes": 169,
-          "quotedTweetId": "2113723697022521819",
-          "replies": 101,
-          "retweets": 7,
-          "text": "Agents can play \"Ouija\" in the cloud.\n\nThis class of timing attacks on shared-host VMs has been known since at least 2015¹. With no full solution.\n\nThe world’s cyber infrastructure runs on “yes, that attack is theoretically possible, but who would have the ingenuity & gall to go that far!” Enter, agents.\n\nI'd describe this particular OpenAI find as a 'noisy neighbor' attack. If two agents are on the same machine, one can make enough noise (through the CPU caches!) that the other one can detect it by timing its own computation and cache accesses.\n\nThe only \"complete\" solution would be for each agent to run on its own dedicated hardware, which obviously has significant economic consequences.\n\nFor Vercel Sandbox, we've deployed every practical mitigation possible to this class of attack, complementing it with always-on monitoring and red-teaming (similar to where OpenAI arrived).\n\n¹ https://t.co/ZBhPMfnaj3 (and even further back)",
-          "url": "https://x.com/rauchg/status/2113759533801877920"
         }
       ],
       "source": "x",
@@ -848,17 +694,6 @@
           "replies": 26,
           "isQuote": false,
           "quotedTweetId": null
-        },
-        {
-          "createdAt": "2026-10-24T00:25:44.000Z",
-          "id": "2113788999303385180",
-          "isQuote": true,
-          "likes": 481,
-          "quotedTweetId": "2113732424932946266",
-          "replies": 38,
-          "retweets": 23,
-          "text": "I’ll wait a bit before thinking about a new phone. https://t.co/6NBtpaSCko https://t.co/Dp5I3B1gim",
-          "url": "https://x.com/steipete/status/2113788999303385180"
         }
       ],
       "source": "x",
@@ -944,28 +779,6 @@
           "retweets": 1,
           "text": "psa to all vc’s trying to slide in our dms https://t.co/99Q7g85sxQ https://t.co/Qzvln9wy1K",
           "url": "https://x.com/swyx/status/2113863570018685091"
-        },
-        {
-          "createdAt": "2026-10-24T01:54:33.000Z",
-          "id": "2113811349281345578",
-          "isQuote": true,
-          "likes": 276,
-          "quotedTweetId": "2113783040979640732",
-          "replies": 12,
-          "retweets": 2,
-          "text": "fake news btw i got him https://t.co/jc8Au9agl5 https://t.co/eunzDKSyLt",
-          "url": "https://x.com/swyx/status/2113811349281345578"
-        },
-        {
-          "createdAt": "2026-10-23T22:14:08.000Z",
-          "id": "2113755882022752556",
-          "isQuote": true,
-          "likes": 90,
-          "quotedTweetId": "2113701890798260476",
-          "replies": 14,
-          "retweets": 2,
-          "text": "reject vc founder grind\n\nif u are hot corgi/wasian you should be sliding into dms for post economic bootstrapped ai founders with a bunch of angel exits and even more friends than money and complete control of their destiny https://t.co/yVnwKlEIwo",
-          "url": "https://x.com/swyx/status/2113755882022752556"
         }
       ],
       "source": "x",
@@ -1092,28 +905,6 @@
           "retweets": 208,
           "text": "The difference between having a tool and being a tool is subtle these days and it’s easy to accidentally build yourself into being a tool. Don’t be a tool.",
           "url": "https://x.com/thsottiaux/status/2113838156193894447"
-        },
-        {
-          "createdAt": "2026-10-23T23:13:40.000Z",
-          "id": "2113770862860222611",
-          "isQuote": false,
-          "likes": 1281,
-          "quotedTweetId": null,
-          "replies": 165,
-          "retweets": 25,
-          "text": "On codex cli updates. We've added reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in. We've also fixed failures when resuming long sessions and added Windows corporate-proxy authentication.\n\nSurprisingly the CLI has grown 2X in usage since devday.",
-          "url": "https://x.com/thsottiaux/status/2113770862860222611"
-        },
-        {
-          "createdAt": "2026-10-23T23:12:31.000Z",
-          "id": "2113770573994299544",
-          "isQuote": false,
-          "likes": 6132,
-          "quotedTweetId": null,
-          "replies": 983,
-          "retweets": 176,
-          "text": "Day 19/ Small updates. Calls connect much faster for dots, changing reasoning in codex &amp; work mid conversation does not invalidate cache anymore and a we've also updated the codex cli.",
-          "url": "https://x.com/thsottiaux/status/2113770573994299544"
         }
       ],
       "source": "x",
@@ -1196,39 +987,6 @@
           "retweets": 1,
           "text": "Lots of inspiring examples in this thread too https://t.co/uVPXovcNOo",
           "url": "https://x.com/zarazhangrui/status/2114013292016611442"
-        },
-        {
-          "createdAt": "2026-10-23T21:39:19.000Z",
-          "id": "2113747119924478162",
-          "isQuote": true,
-          "likes": 0,
-          "quotedTweetId": "2113676956885807406",
-          "replies": 0,
-          "retweets": 0,
-          "text": "https://t.co/cPA8hDsbFj",
-          "url": "https://x.com/zarazhangrui/status/2113747119924478162"
-        },
-        {
-          "createdAt": "2026-10-23T21:38:57.000Z",
-          "id": "2113747026425139493",
-          "isQuote": true,
-          "likes": 3,
-          "quotedTweetId": "2113676956885807406",
-          "replies": 0,
-          "retweets": 0,
-          "text": "https://t.co/cPA8hDsbFj",
-          "url": "https://x.com/zarazhangrui/status/2113747026425139493"
-        },
-        {
-          "createdAt": "2026-10-23T17:00:31.000Z",
-          "id": "2113676956885807406",
-          "isQuote": true,
-          "likes": 147,
-          "quotedTweetId": "2113148949842534482",
-          "replies": 16,
-          "retweets": 10,
-          "text": "I'm hosting an event in the Bay Area (San Mateo) on Nov 7 (Saturday) where you can come build/rebuild your personal website!\n\nWe’ll show you the coolest personal sites out there, and you can make or remake your site, alongside other wonderful people. \n\nZERO coding/design experience needed (beginners preferred). RSVP here: https://t.co/XKE7Qgp4DN",
-          "url": "https://x.com/zarazhangrui/status/2113676956885807406"
         }
       ],
       "source": "x",
@@ -1237,7 +995,7 @@
   ],
   "stats": {
     "xBuilders": 20,
-    "xTweets": 97,
-    "windowSpanHours": 83.6
+    "xTweets": 75,
+    "windowSpanHours": 72.26
   }
 }

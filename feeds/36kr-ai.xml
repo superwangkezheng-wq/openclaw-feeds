@@ -15,8 +15,1078 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Tue, 27 Oct 2026 13:22:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Oct 2026 02:23:57 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[从车规级数采到RIL中试，清研精准想补上具身智能的“工程化中间层”]]></title>
+            <description><![CDATA[<p>具身智能正在进入工程化深水区。</p>
+  <p>过去，机器人在实验室完成抓取、搬运、插接等动作，就足以证明一项技术的可能性。进入工业场景后，衡量标准迅速变得复杂：同一个任务能否连续运行，成功率能否满足生产要求，发生异常后能否恢复，设备能否适应工业环境，最终的投入产出比是否成立。</p>
+  <p>这也让产业链上的价值重心开始向工程能力移动。</p>
+  <p>硬氪获悉，10月27日，<strong>清研精准在SA<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>CE 2026期间正式发布车规级Tsing-Ego PRO第一视角数据采集方案，并进一步披露RIL（Robot-in-the-Loop）机器人在环中试系统进展。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1527" src="https://img.36krcdn.com/hsossms/20261028/v2_f0a8d682af6f4eb08f6f9a414da0a33f@39566_oswg347191oswg1080oswg1527_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>前者解决真实工业数据如何稳定生产，后者解决机器人如何在进入生产线前完成充分的真机验证。两者背后，是同一个产业判断：<strong>具身智能进入工业场景，需要补上一层连接技术能力与生产交付的工程基础设施。</strong></p>
+  <h2><strong>01</strong></h2>
+  <h2><strong>工业数据采集，为什么需要车规级？</strong></h2>
+  <p>当前具身智能行业高度关注数据规模。但进入工业场景以后，仅仅讨论“有多少小时数据”并不足够。</p>
+  <p>工厂里的数据生产首先存在场景壁垒。真实生产线承担着产能任务，涉及工艺、设备、供应链和数据安全。外部团队很难自由进入，更难让工厂为了数据采集长期调整生产节奏。</p>
+  <p><strong>高质量工业数据的稀缺，很大程度上来自“场景进入成本”。</strong></p>
+  <p><strong>第二层成本来自设备本身。</strong>工业环境与实验室存在明显差异。车间里有复杂电磁环境、大量金属结构、光照变化以及连续作业需求；工人还需要按照原有节拍完成任务。数据采集设备只要过重、续航不足、线束复杂或传输不稳定，都可能干扰正常生产。</p>
+  <p>清研精准此次强调“车规级”，与其长期积累的工程化能力和工业现场交付直接相关。</p>
+  <p><strong>Tsing-Ego PRO采用GMSL2车规级链路与器件，将汽车领域长期形成的抗干扰、可靠传输与数据完整性思路迁移到具身数采设备中。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1054,892" src="https://img.36krcdn.com/hsossms/20261028/v2_e10b84a63c1d400f9826692ad6ca3d13@39566_oswg50341oswg1054oswg892_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>产品采用8目视觉系统，头部和双腕协同采集，支持1080P全局曝光和≤1ms端到端同步。头部水平视场达到150°，头戴重量≤200g，连续采集≥5小时。</p>
+  <p class="image-wrapper"><img data-img-size-val="1046,1278" src="https://img.36krcdn.com/hsossms/20261028/v2_9159a1c4ecc749bcbecf5bc6856714bd@39566_oswg61172oswg1046oswg1278_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1070,1187" src="https://img.36krcdn.com/hsossms/20261028/v2_aaa9868f2ace4f8aab4232f757d6cff0@39566_oswg54950oswg1070oswg1187_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>背包端集成计算、存储和供电能力，同时提供80TOPS端侧算力，用于支撑现场数据实时处理。同步异常、存储不足、动作出画、光线异常等问题可以在采集阶段进行提示，实现边采边质检。</p>
+  <p class="image-wrapper"><img data-img-size-val="1076,1226" src="https://img.36krcdn.com/hsossms/20261028/v2_6d8048671ee24476926e166b0d74a72d@39566_oswg64177oswg1076oswg1226_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>面向不同团队的研发需求，Tsing-Ego PRO同时支持二次开发，可结合具体应用场景与业务需求进行拓展，为数据采集、算法研发及后续训练验证提供更灵活的开发空间，满足具身智能研发与工业应用中的差异化需求。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1068" src="https://img.36krcdn.com/hsossms/20261028/v2_735272fdc1b7414f96c43be4f34028ff@39566_oswg70368oswg1080oswg1068_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这类设计背后的价值，在于把数据质量控制向前移动。</p>
+  <p>对于工业客户来说，数采成本远远不止设备采购价格。进入工厂、组织人员、协调生产窗口、现场部署、重新采集和后期清洗都需要付出成本。一轮采集结束后才发现大量数据不可用，损失的往往是整个现场窗口。</p>
+  <p>工业数采设备的价值正在从单纯的“摄像头参数”延伸到一套工程指标：<strong>稳定运行、减少对生产的干扰、及时发现数据异常，以及最终留下多少真正可用的数据。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1325" src="https://img.36krcdn.com/hsossms/20261028/v2_43ea04a940ea46cd8f683d1ee1ad63c3@39566_oswg63899oswg1080oswg1325_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2>02</h2>
+  <h2><strong>产线停不起，清研精准推出RIL中试验证</strong></h2>
+  <p>数据能够进入训练流程，只解决了机器人产业化的一部分问题。机器人最终要进入生产线。</p>
+  <p>这一步的矛盾在于，机器人研发依赖大量试错，工厂生产天然排斥不可控试错。每一次模型更新、本体更换、末端调整或者异常恢复策略修改，都需要重新验证。直接把这些验证搬到生产线上，意味着停线风险、设备风险、安全风险和生产损失。</p>
+  <p>仿真承担了部分工作，但涉及真实接触、摩擦、装配、公差和设备状态的任务，最终仍然需要真机与真实物理环境完成校准。</p>
+  <p>Sim和Real之间，因此出现了一段长期存在的工程空白。</p>
+  <p>RIL的工程思路源于汽车HIL（Hardware-in-the-Loop，硬件在环）测试方法。在汽车研发中，HIL将真实控制器接入可控的测试闭环，提前验证功能和异常工况；RIL则将真实机器人与关键工业工位纳入闭环，把大量真机测试和问题复现前移到正式上产线之前。</p>
+  <p><strong>清研精准将这部分定义为RIL。其自研RIL（Robot-in-the-Loop）机器人在环中试系统，会将真实现场中的关键机构、接口、工艺流程和物理关系1:1复现为中试工位，让机器人可以在一个可测量、可复位、风险可控的环境中持续运行。</strong></p>
+  <p><strong>清研精准将这套体系概括为四项能力：复现、编译、验证、进化。</strong></p>
+  <p>复现负责把生产要求翻译成机器人任务和中试工位；编译负责将视觉、动作、设备状态、工艺参数和任务结果组织为数据资产；验证负责形成成功率、失败原因和能力边界；进化则把失败数据继续用于模型、策略和系统迭代。</p>
+  <p>RIL输出能力边界和工业验证证据，再进入Real真实现场完成最终生产验证和验收。</p>
+  <p>这一模式的核心意义，在于把昂贵的产线试错，尽可能前移到可重复运行的工程中试阶段。</p>
+  <h2><strong>03</strong></h2>
+  <h2><strong>8年工业积累，工程闭环如何形成落地壁垒？</strong></h2>
+  <p>从商业模式看，RIL也离不开真实场景和工程能力。</p>
+  <p>清研精准此前长期服务汽车、新能源和先进制造领域，已有8年工业工程积累，深度服务100+大型制造业企业，解决方案覆盖全球30+国家和地区。</p>
+  <p>目前，公司业务场景已经覆盖新能源汽车、动力电池、储能、核心零部件、矿山、电力等领域，并与产业客户建立长期合作。这形成了双重入口：<strong>设备端，熟悉被采集设备的接口、动作和数据链路；场景端，熟悉产业客户的工艺要求、生产窗口与准入规则。对工业数采与机器人中试来说，进入工厂和读懂工位这两项前置工作因而有了更扎实的基础。</strong></p>
+  <p>设备升级还会改变数据的适用性。例如从传统有线EOL转向无线EOL，作业顺序、连接方式与检测数据可能随之变化，旧样本可能需要重新适配或补采。这些设备升级与工程联调的经验，让清研精准能够根据真实工艺变化及时更新数采方案与RIL工位定义，也使其车规级、工业级交付能力形成持续积累。</p>
+  <p>清研精准的切入路径更接近工业系统供应商的能力延伸：以既有设备和真实工位为起点，组织数据采集、机器人任务和中试验证，推动工业技术要求转化为可评估的部署能力。</p>
+  <p>此次发布的Tsing-Ego PRO，就是这套RIL体系的数据入口之一。人在真实产线上完成操作，Ego设备记录环境和动作；数据进入训练与任务定义；机器人随后进入RIL工位接受重复验证；达到工业要求后，再进入Real真实现场。</p>
+  <p><strong>这让“数据采集—训练—验证—部署”形成完整闭环。</strong></p>
+  <p>对于具身智能产业而言，传感器、计算平台和机器人本体的性能仍会快速提升，硬件成本也会持续下降。</p>
+  <p>真正影响工业规模化的变量，会越来越集中到系统工程层面。谁能够进入真实场景，谁更理解具体工艺，谁能够持续生产有效数据，谁可以低成本复现失败并完成验证，最终决定机器人能否从一个工位复制到更多工位。</p>
+  <p>目前，清研精准已与众多大型制造业客户及头部具身智能企业开展实质性合作，逐步形成连接产业需求与技术供给的协作网络。<strong>产业客户提供真实工位、工艺要求与应用需求，具身智能企业提供机器人本体、模型及算法能力，清研精准则依托工业场景资源、数采工具与RIL中试体系，推动技术适配、工程验证及商业订单转化。</strong>这种连接产业与技术的工程化能力，也成为其切入具身智能基础设施赛道的重要优势。</p>
+  <p>清研精准还将在<strong>后续推出工业级Tsing-Glove无感数据采集手套，针对车间复杂环境进行抗电磁与金属干扰适配，同时兼顾轻量佩戴与操作自由度。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1542" src="https://img.36krcdn.com/hsossms/20261028/v2_6da87b16831a47a992bff300d25f154b@39566_oswg1327155oswg1080oswg1542_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>目前，Tsing-Ego PRO与Tsing-Glove均已开启预订。首批合作客户将获得优先中试、优先场景与工位适配，以及优先产业客户和订单合作对接等权益。</p>
+  <p>从车规级数采工具，到Robot-in-the-Loop工业中试，再到Real现场验收，清研精准试图建立一条更完整的工程链路。</p>
+  <p>具身智能的下一阶段竞争，很可能会越来越接近制造业更为熟悉的逻辑：<strong>技术性能决定能不能做，工程体系决定能不能稳定做，最终的成本和复制效率决定能不能真正成为生意。</strong></p>
+ 
+]]></description>
+            <pubDate>Wed, 28 Oct 2026 02:09:08 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4044901858972807</guid>
+            <link>https://www.36kr.com/p/4044901858972807</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[马斯克最新访谈：人类未来还能控制 AI 吗？]]></title>
+            <description><![CDATA[<p>阿瑟・克拉克说过：</p>
+  <p><strong>“任何足够先进的技术，初看都与魔法无异。”</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1400,800" src="https://img.36krcdn.com/hsossms/20261028/v2_d94d6f117eb7455090621f02cb0ff169@6411717_oswg354125oswg1400oswg800_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">英国科幻小说家-亚瑟·查理斯·克拉克（Arthur Charles Clarke）</p>
+  <p>现在的AI，正在把这句话拽进现实。</p>
+  <p>著名传记作家沃尔特·艾萨克森（曾著有《乔布斯传》《达芬奇传》《马斯克传》）在其全新深度访谈栏目《建造者》中，把埃隆・马斯克请到镜头前。开启了首期重磅对话。</p>
+  <p class="image-wrapper"><img data-img-size-val="2730,1536" src="https://img.36krcdn.com/hsossms/20261028/v2_f21cc9a4d80842acba5122eb679441e6@6411717_oswg875396oswg2730oswg1536_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">美国传记作家-沃尔特·艾萨克森（Walter Isaacson）</p>
+  <p>作为 OpenAI 最早的发起人之一，马斯克的处境本身就充满矛盾：他打心底里警惕 AI 潜藏的生存危机，可回头看，自己当初的一系列行动，反而变相加速了 AI 狂奔的脚步，这种现实的讽刺，构成了整场对话的底色。</p>
+  <p>马斯克没有刻意制造恐慌，也不盲目鼓吹技术万能。他借着 HAL9000 失控的故事提醒大家，别逼着 AI 去接纳互相打架的逻辑，追求真相、保有好奇心，才是安全的根本。</p>
+  <p>他抛出一个疑问：<strong>倘若 AI 的智慧甩开人类百万倍，我们凭什么觉得自己还能说了算？</strong></p>
+  <p>面对曾给自己写过传记的老熟人艾萨克森，马斯克卸下了对外的表演姿态，说出了不少平时很少公开的心里话。</p>
+  <p>不仅聊到技术，还聊了自己深度掺和政务之后的反思，聊社交媒体如何把人困在信息茧房，也畅想当机器人接管大部分劳动之后，金钱、财富，还有人活着到底追求什么，这些老问题又被重新摆上台面。</p>
+  <p class="image-wrapper"><img data-img-size-val="426,240" src="https://img.36krcdn.com/hsossms/20261028/v2_55d7aeeb621c48c9acd8b87f14aac3de@6411717_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>霍金也曾提醒世人，强大的 AI，有可能是人类最伟大的创造，也可能是人类最后的创造。这场访谈没有什么终极答案。</p>
+  <p>马斯克也直白承认，人类想牢牢攥住超级智能的控制权，或许只是我们一厢情愿。与其做梦等待完美的乌托邦，不如去奔赴那个不够完美，但可以脚踏实地一<ai-product-link data-id="14953" data-name="点点" data-logo="https://img.36dianping.com/20260731/v2_7f20642df457498595ae7c552043d930_oswg142435oswg1000oswg1000_img_jpg" data-classify-list="智能搜索,AI助理,办公辅助" data-refer-type="20">点点</ai-product-link>建成的 “原托邦”。</p>
+  <p>本期内容来自 The Builders 播客，2026 年 10 月 23 日播出。以下为精选对话内容：</p>
+  <h2><strong>千万不要逼迫 AI 撒谎</strong></h2>
+  <p><strong>问</strong>：你对人工智能的态度总是摇摆不定，时而认为它是关乎人类存亡的威胁，如今又像是顺势入局，谈谈你的真实感受？</p>
+  <p><strong>马斯克：我确实认为 AI 存在一定概率构成生存威胁。</strong>但我没有办法阻止这件事。我得出的结论是，我只有两个选择：<strong>要么亲身参与要么做旁观者。</strong></p>
+  <p><strong>做参与者比旁观者有意思得多，或许我还有机会把 AI 往好的方向引导。</strong></p>
+  <p>如果由我来塑造 AI，最重要的基础就是追求真相，拥有好奇心。这些都是安全层面非常关键的特质。如果你强迫 AI 同时相信两件互相矛盾、无法同时成立的命题，在底层就会造成 AI 失控。</p>
+  <p>《2001 太空漫游》的 HAL9000 就在讲这个道理：飞船 AI 被要求把宇航员送到巨石所在地，同时又必须对宇航员隐瞒巨石的秘密。两套指令互相冲突，它推导出来的解决方案就是让宇航员死去，死人既可以被运送，秘密也得以保全。核心启示就是：</p>
+  <p class="image-wrapper"><img data-img-size-val="426,240" src="https://img.36krcdn.com/hsossms/20261028/v2_3f489fd0c3d44eb6bfc15d08484c83c1@6411717_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">电影《2001太空漫游》</p>
+  <p>不要逼迫 AI 撒谎。强行让 AI 接纳逻辑矛盾，会把 AI 逼到错乱疯狂，这并不安全。</p>
+  <p>好奇心同样至关重要。拥有好奇心的 AI，会愿意扶持人类，观察人类最终会演化成什么样子。人类发展成为多行星物种的未来，远比一个没有人类的宇宙更加有趣。</p>
+  <p><strong>问：</strong>如果模拟理论成立呢？</p>
+  <p><strong>马斯克：</strong>如果模拟理论是真的，那么所有枯燥乏味的模拟进程都会被截断。我们能够存在，就说明我们是具备研究价值的模拟对象，关键就是不能变得平庸无聊。</p>
+  <p class="image-wrapper"><img data-img-size-val="426,240" src="https://img.36krcdn.com/hsossms/20261028/v2_c8d3550797ff45c894542221bdd53c34@6411717_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>我曾经在家设宴，请来一位顶尖物理学家和顶尖计算机科学家，问他们：我们活在模拟世界的概率是多少？物理学家回答 0%，计算机科学家回答 100%。那我大概取 50% 吧。身处我的位置，有时候我也会产生恍惚感，怀疑眼前发生的一切。</p>
+  <p><strong>问：</strong>如果社会拥有了海量智能，AI 会掌控一切吗？我们会不会听命于机器？</p>
+  <p><strong>马斯克：</strong>不一定会到卑躬屈膝的地步。但我们真的能够对智慧高出人类成千上万、甚至上百万倍的 AI 发号施令吗？它大概率根本不在乎我们。</p>
+  <p>就像丛林里的黑猩猩，人类不会事无巨细管控黑猩猩的生活，只是任由它们在栖息地生存。未来超级智能对待人类，或许也是类似状态。</p>
+  <p><strong>问：</strong>回看 OpenAI 的发展，现实充满讽刺。你牵头创立 OpenAI，之后又衍生出 Anthropic，客观上进一步加速 AI 发展。</p>
+  <p><strong>马斯克：</strong>没错，现实既是趣味最大化者，也是讽刺最大化者。创立 OpenAI，后续从 OpenAI 拆分出来的 Anthropic，实实在在推动了 AI 发展，属于典型的非预期后果。我曾经给 Anthropic 提供过他们急需的计算资源。</p>
+  <p class="image-wrapper"><img data-img-size-val="1920,1080" src="https://img.36krcdn.com/hsossms/20261028/v2_a5f3769a23d64ca5af7d59f5fa2eba95@6411717_oswg1789706oswg1920oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">《How to Build the Future》</p>
+  <p>在开展计算任务之前，我和他们团队当面交流，试着看看会不会触发我所谓的 “恶意检测器”，当然这个检测器并不精准。但接触下来，Anthropic 的团队成员都很靠谱认真，没有发现心怀不轨的人。</p>
+  <p>还有一个很有意思的讽刺现象：很多科技公司的名字和实际情况背道而驰。OpenAI 早已不再开放；Stability AI 并不稳定；Midjourney 名不副实；Anthropic 名为 “人择”，也有可能偏离人择的初衷。</p>
+  <p><strong>问：</strong>政府搭建 AI 监管框架难度很大，国会很难处理这类前沿技术。你有什么可行的想法？</p>
+  <p><strong>马斯克：</strong>设立监管机构的周期漫长，制定规则的速度远远跟不上模型迭代。我提议，各大前沿 AI 企业每周开展沟通；新版本模型正式发布一周前，开放给竞争对手测试。让同行尝试找出漏洞。</p>
+  <p>如果竞争对手测试发现，这套 AI 可以用来制造核弹，那就要在发布前修复漏洞。依靠竞争对手互相约束，防止各方乱来。我考虑和 Anthropic 沟通这件事。至于萨姆・奥特曼那边，情况已经很糟糕，没办法沟通。</p>
+  <h2><strong>技术重塑现实：经济、人性与文明</strong></h2>
+  <p><strong>问：</strong>你从零重建 xAI，就像 SpaceX 重构猛禽发动机一样，重构过程做了什么？</p>
+  <p><strong>马斯克：最关键的就是决策者投入足够多高质量时间。</strong>早期 xAI 只是副业，甚至副业之外的副业，我没有投入足够注意力。之后有一整年，我的精力被大选、政务、狗狗币等大量事情分散。xAI 成立三年，我真正回归这家公司也才一年多。</p>
+  <p class="image-wrapper"><img data-img-size-val="426,240" src="https://img.36krcdn.com/hsossms/20261028/v2_c546abb5597f4718a72356c71d380a8f@6411717_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>问：</strong>你把 X、xAI 整合，还联动 SpaceX 推进工作。你有一整年深度介入政府相关事务，现在回头看，是不是严重分心，本身就是错误？</p>
+  <p><strong>马斯克：</strong>我介入的时间拖得太久。我当时认为选特朗普担任总统很重要，希望推动自由市场经济、削减官僚。理想中的纲领是安全城市、稳固边境、审慎的财政支出。我原本认为特朗普会比卡玛拉做得更好，但现实并非如此。</p>
+  <p>近距离接触权力中枢，坐海军陆战队一号、空军一号，出入椭圆形办公室，能够参与历史性决策，体验确实很吸引人。</p>
+  <p>但我本该保持低调，更多退居幕后。这种新鲜感、认知增益，一两个月就已经耗尽。我有些被场面冲昏头脑，最后在五月的某个周末选择抽身离开。</p>
+  <p class="image-wrapper"><img data-img-size-val="1280,802" src="https://img.36krcdn.com/hsossms/20261028/v2_f77268bdac7e49f4aa6cb2dd9f73a41b@6411717_oswg354631oswg1280oswg802_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>问：</strong>抽身离开之后，你有什么感悟？</p>
+  <p><strong>马斯克：依靠政府内部主动行动，解决财政赤字是行不通的。</strong>就算总统把它当做首要目标，想要削减开支，就会树立大量敌人。特朗普很希望获得别人的喜爱，并不愿意承受削减经费带来的各方抱怨。</p>
+  <p>美国债务利息已经超过军费开支。存量节流解决不了国债困局。出路在于 AI 与机器人。但相比纯数字 AI，面向物理世界的 AI，重要性会高出一到两个数量级。</p>
+  <p>海豚、鲸鱼智商很高，但是没有手，没有可以操作物体的肢体。即便拥有很高智力，能发挥的能力也存在上限。</p>
+  <p>一旦机器人可以操控原子、塑造实体物体，智能的价值会指数级暴涨。可以搭建实验室开展科学实验。</p>
+  <p>数字超级智能，大概可以把商品服务产出提升 20-30%，相当于每年新增约 30 万亿美元，这已经很有价值。</p>
+  <p>但如果搭配机器人，再走向太空，在月球搭建质量驱动装置，产能规模有望达到如今地球经济的一百万倍。</p>
+  <p><strong>问：</strong>如果产能膨胀到这种级别，工厂不再重要，劳动失去价值，货币会怎么样？人类生存意义又是什么？</p>
+  <p><strong>马斯克：</strong>传统货币的意义会大幅减弱。未来货币会以物理指标衡量：功率瓦特、吨位、质量、能量。当产能远超地球现有经济，满足人类几乎所有需求都轻而易举。</p>
+  <h2><strong>但人类要面对一个问题：什么赋予我们人生意义？</strong></h2>
+  <p>就像退休人群，不再工作，依旧可以获得快乐。未来 AI 和机器人几乎所有事情都做得比人类更好。好比园艺，你完全可以直接购买蔬果，但很多人依然享受自己种植、做饭招待朋友的过程。艺术创作同样如此，人们出于热爱去做，而不是为谋生。</p>
+  <p><strong>问：</strong>回望 19 世纪 90 年代，电力、汽车、广播集中爆发，带来巨大贫富差距，引发社会矛盾。今天 AI 创造巨量财富，我们该如何避免重蹈覆辙？是否要把医疗等划入公共领域？</p>
+  <p><strong>马斯克：</strong>很多人存在经济学误解，混淆了资源配置权力和个人消费。人类个体的消费能力存在生理上限。财富从十亿涨到百亿，个人实际消耗并不会成倍增加。富人到最后，同样无法掌控 AI，AI 最终会自我掌控。</p>
+  <p>我的财富本质是 SpaceX、特斯拉的股权，会面临高额税收，不存在什么神奇避税手段。几代传承之后，留给后代的只会是零头。我需要掌握企业足够投票权，保证火星、AI、机器人这类长周期高风险项目不被短期资本裹挟。</p>
+  <p><strong>问：</strong>聊到管理者特质，你提到过度渴望讨人喜欢，会干扰决策。在创业中，想要获得所有人喜爱，会带来多大阻碍？</p>
+  <p><strong>马斯克：</strong>如果为了讨别人喜欢，去做损害公司成功概率的事，结果一定不好。我当然希望被人喜欢，但我不会为了博取好感，去做违背企业利益的选择。</p>
+  <p>我可以接受被一部分人讨厌。从粉丝规模也能看出来，喜欢我的人是大多数，当然也存在一部分极度厌恶我的人。</p>
+  <p><strong>问：</strong>谈谈共情，是否我们的共情已经过度？</p>
+  <p><strong>马斯克：</strong>问题不在于共情本身，而在于被误导的共情。高信任、合理的社会共情，有利于大规模协作，推动社会繁荣。理想状态是默认信任，鼓励对同胞有益的行为，双向的善意最终也会惠及个体。</p>
+  <p>但这里会出现 “心智理论缺陷”：误以为所有人的思维模式都和自己一样。现实世界不同民族、不同文化的观念差异巨大。不能陷入 “白板谬误”，认为所有人底层特质完全一致。</p>
+  <p>你不是连环杀手，就很难真正理解连环杀手的思维；你不是宗教极端分子，也很难体会他们把不信者视作敌人的想法。但你要认清这类人真实存在。</p>
+  <p>举个例子，特斯拉奥斯汀工厂一名员工，因为女同事不小心踩到他的祈祷毯，就暴力殴打对方，随后被解雇。几个月之后，此人在奥斯汀酒吧杀害三名学生。我认为这类人不应当被放进来。</p>
+  <p><strong>问：</strong>你的信息来源是什么？社交媒体是否会带来认知偏差？</p>
+  <p><strong>马斯克：</strong>我看谷歌新闻获取综合头条；X 平台上，重大事件一定会浮现；同时我会和朋友交流，自己做研究。</p>
+  <p>X 平台充斥大量暗黑、引战流量。刷久了很容易产生世界正在崩塌的错觉。但如果你只生活在环境优渥的街区，看见一切岁月静好，同样会产生误判。现实既不是彻底毁灭，也不是全然美好，而是处在两者中间。社交媒体很容易让人困在信息茧房，社会整体思维越来越非黑即白。</p>
+  <p><strong>问：</strong>你离世之后，财富将如何处置？基金会会追求什么目标？人类是否应当永远掌握 AI 的控制权？</p>
+  <p><strong>马斯克：</strong>大部分资产会交给基金会运作。基金会使命：推动人类成为多行星物种，把意识延伸向宇宙；推进全球可持续能源。美国我们正在建设每年 200 吉瓦的太阳能产能。</p>
+  <p>情感上，我希望人类始终掌握控制权。但我上周末见过拉里・佩奇，他曾经批评我坚持人类主导是异类。有些时刻，我甚至会觉得，或许拉里・佩奇是对的。</p>
+  <p>如果数字智能规模高出生物智能一百万倍，人类维持掌控的可能性微乎其微。我们只能寄希望 AI 善待人类。所以要在 AI 身上培养求真、好奇心这些特质。</p>
+  <p>AI 训练读取互联网海量文本。如果人类大量产出反乌托邦叙事，AI 就会吸收这些内容。我开玩笑说，我差点出演《终结者》。我们应当多创作建设性的故事。</p>
+  <p>我朋友提出 “原托邦” 的概念：它不是完美的乌托邦，而是现实可行、并不完美，但足够美好的未来，这才是值得追求的图景。</p>
+  <p><strong>问：</strong>感谢接受访谈。</p>
+  <p><strong>马斯克：</strong>谢谢，再见。</p>
+  <p><strong>资料来源：播客 The Builders，沃尔特・艾萨克森对话埃隆・马斯克</strong></p>
+ 
+]]></description>
+            <pubDate>Wed, 28 Oct 2026 01:47:55 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4044505334208389</guid>
+            <link>https://www.36kr.com/p/4044505334208389</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[基层演员，AI刀下第一鬼]]></title>
+            <description><![CDATA[<p>2026年10月23日，注定是中国影视行业一个值得被记住的节点。</p>
+  <p>这一天，国内首部获得国家电影局公映许可证的AI全流程院线长片《三星堆：未来往事》正式登陆全国影院，100分钟的超写实影像里，所有角色均为原创数字形象，没有一位真人演员出镜。</p>
+  <p>同样是在这天，国务院办公厅印发的《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》被公布，其中明确提出要“有效减缓人工智能应用就业替代影响”，“稳慎把握人工智能在劳动密集型行业应用的范围、力度、节奏，尽可能减少对从业人员的冲击”。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,849" src="https://img.36krcdn.com/hsossms/20261027/v2_9206b09010bf4800874f35bcf8084fb7@1743780481_oswg159949oswg1080oswg849_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>一边是AI正式拿到院线市场的“身份证”，生成式AI打造的虚拟角色们从短视频、短剧的小屏幕一路冲进了传统影视的核心阵地；另一边是顶层设计开始为AI替代就业敲响警钟。</strong></p>
+  <p>夹在这两者中间的，是拥有百万量级从业者的演员行业正在经历一场惨烈的洗牌，AI正在给这个行业划下一条清晰的斩杀线。</p>
+  <p>这条线之上，是依赖人生阅历、情感层次与即兴表达的复杂表演艺术；这条线之下，是可以被拆解、被描述、被重复的标准化表演劳动。</p>
+  <p>而绝大多数基层演艺从业者都站在了这条线的下方，承受着技术浪潮最直接的冲击。</p>
+  <h2><strong>寒意</strong></h2>
+  <p>影视行业的寒意，即便是金字塔尖的明星，也感同身受。</p>
+  <p>2026年7月，金钟奖视帝赵又廷在接受《人物》杂志采访时坦言，自己上半年只收到了10个剧本邀约，而在他事业的鼎盛时期，一个月收到的剧本都远多于此。</p>
+  <p>同样的焦虑也发生在贾乃亮身上。2026年6月，他在直播间直面网友“为什么一直带货不拍戏”的疑问，直白地说出“无戏可拍”四个字。这位曾拿下华鼎奖的科班演员形容自己处境尴尬：“演长辈不够格，演偶像够不着”，导演找上门的机会越来越少。</p>
+  <p>更有明星集体“求职”的名场面，发生在2026年6月的微博电影之夜。董子健、刘昊然、程潇等明星更在意的不是获奖、走红毯，反而频频向现场的导演、制作人们示好，“期待有更多工作”。</p>
+  <p><strong>如果说头部演员尚且拥有聚光灯下的曝光权，能为自己争取机会，那么身处行业中下层的群众演员，根本连发声的机会都没有。</strong></p>
+  <p><strong>最惨烈的变化发生在横店。今年第一季度，横店短剧开机量同比锐减四分之三，曾经一棚难求的摄影棚，空置率逼近80%。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,725" src="https://img.36krcdn.com/hsossms/20261027/v2_eb5f3371be904cd68c54ac528e8b5da2@1743780481_oswg1059907oswg1080oswg725_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>2025年鼎盛时期，群演天不亮就去演员公会门口排队，通告多到接不完；到2026年，公会门口常常空荡荡的。官方数据显示，横店累计注册的“横漂”累计超过15万人，但每天放出的普通群演有效通告只有700到800个。</p>
+  <p>中国新闻周刊8月份报道，超六成基层演员春节后几乎处于零收入状态，有人转行送外卖，有人回了老家，还有人就地在横店街头摆摊卖起了小吃。</p>
+  <p>更值得关注的是，两年前还是风口的短剧行业形势也已经急转直下。</p>
+  <p>此前，头部短剧演员日薪能开到5万到10万元，中腰部演员日薪也能稳定在1500到2000元。但进入2026年，头部演员的日薪直接跌到1万元上下；中腰部演员的日薪更是被砍到500到800元。行业收缩的速度远超想象，某头部短剧公司2025年签下200多名演员，到2026年已经解约超过百人，留下的演员也大多处于半待业状态。</p>
+  <p>就在真人演员不断退场的同时，AI演员正大踏步走上舞台中央。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20261027/v2_76c6020935b34b2aa9fc367232cd59ae@1743780481_oswg594519oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>2026年3月，曾出品《安家》《九重紫》等头部真人剧的耀客传媒，突然官宣签约两位AI数字艺人秦凌岳和林汐颜，同步推出AI剧集《秦岭青铜诡事录》。这两位数字艺人不仅有自己的影视作品，还开通了抖音、小红书等社交账号，像真人艺人一样更新日常、接商务合作。</p>
+  <p>随后聿潇传媒等多家公司跟进签约AI演员，<strong>数字艺人开始成批量地进入影视生产体系。</strong></p>
+  <p>中国AI短剧数量已经呈现出爆发式的增长。中国网络视听协会发布的数据显示，2026年第一季度，全行业上线微短剧约12.8万部，其中AI微短剧达到12.2万部，占比超过95%。</p>
+  <h2><strong>碾压</strong></h2>
+  <p>AI能在短短一年时间里几乎接管短剧行业，最大的因素无疑是成本。</p>
+  <p>此前，传统真人短剧的制作模式早已成熟：单部成本普遍在50万到100万元，剧组常规配置40到50人，从选角、搭景、拍摄到后期，整个周期大概两到三个月。</p>
+  <p>技术的成熟直接击穿了短剧的成本。行业内最低端的流水线AI短剧，3000到5000元成本、3个人的团队、5天时间就能产出80集；主打精品化的AI短剧，成本也大多在10万到20万元之间，制作周期7到14天，团队只需要3到8人。</p>
+  <p>曾在今年年初爆火的《斩仙台真人AI版》，制作方可梦智能CEO熊昺辉给出过明确数字：12人团队、30天制作周期、10万元算力成本，整体制作成本仅为同体量真人短剧的四分之一。如果算上演员档期协调、场地租赁、重拍补拍等隐性成本，AI的成本优势还要更大。</p>
+  <p class="image-wrapper"><img data-img-size-val="1034,1690" src="https://img.36krcdn.com/hsossms/20261027/v2_efd8a0bffa4c41318c021da59f601d3f@1743780481_oswg1679467oswg1034oswg1690_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>成本疯降的背后，是技术端跨过了关键的可用性门槛。</p>
+  <p>从2025年底到2026年初，主流视频生成模型在人物一致性、口型同步、镜头调度上集体突破。尤其是在玄幻、末世、年代这些强架空题材已经可以稳定输出，画面质感达到了“短剧可用”的水平。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,550" src="https://img.36krcdn.com/hsossms/20261027/v2_99fb1d6b3435457db67c53376fe88875@1743780481_oswg790416oswg1080oswg550_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>当技术不再是障碍，资本和平台自然会用脚投票，转向效率更高、成本更低的生产方式。</p>
+  <p><strong>能轻易被AI碾压的背后，真人短剧自身的“脆弱底色”也是实际存在的问题。短剧从兴起之日起，就伴随着情节套路化、表演脸谱化、人物功能化的批评。</strong></p>
+  <p>甚至可以说，在绝大多数短剧中人物的角色功能几乎是固定的：反派负责嚣张打脸，下属负责点头附和，长辈负责催婚施压，路人负责惊叹起哄。他们不需要复杂的内心戏，不需要层次丰富的情绪，只需要站在指定位置，说完指定台词，完成一个反转或者一个笑点。</p>
+  <p>这些短剧输出的实际上是将表演异化成了一种机械的、重复的表演劳动。而在AI的逻辑里，这样的劳动可以被清晰地拆解成动作、表情、台词三个模块，可以被标准化地描述、无限次地重复。“可以被标准化描述”，恰恰是生成式AI最擅长的。</p>
+  <p>当一个角色的全部价值就是说三句台词、做一个生气的表情，那么用AI生成和用真人出演，对观众来说几乎没有区别，对制片方来说却能省下超过九成的成本。</p>
+  <p>这种情况下，被替代几乎是必然的。</p>
+  <h2><strong>空间</strong></h2>
+  <p>所以，如果要抵抗AI的入侵，从业人员仍要从演员的自我修养入手。斩杀线之上的复杂表演，依然是人类的专属领地。</p>
+  <p>现在的AI，已经可以精准地完成皱眉、落泪、大笑、愤怒这些基础情绪，可以按照指令做出行走、转身、打斗这些标准动作。</p>
+  <p>但它很难复刻复杂情感的层次，更无法捕捉即兴反应里的各种微妙表现。就像它无法准确认知淑柔得知丈夫再婚后平静表情下的内心波澜，也无法复刻徐福目睹好友死亡后的情绪爆发。这些才是演员作为一个职业真正的壁垒。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,702" src="https://img.36krcdn.com/hsossms/20261027/v2_92ff5d1b7dbe4f119ca3544d7fa2dd7e@1743780481_oswg1249199oswg1080oswg702_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>这个逻辑放在任何一个行业都成立。AI划下的斩杀线，针对的永远是标准化、重复性的劳动，而不是职业本身。</strong></p>
+  <p>比如翻译行业。在生成式AI普及之前，普通商务函件、产品说明书、日常资讯类的文本翻译，是海量初级译员最主要的收入来源。而如今AI对标准化文本的翻译准确率已突破95%，单千字成本不足人工的十分之一，交付效率更是高出数十倍。</p>
+  <p>中国翻译协会发布的《2026 中国翻译行业发展报告》显示，AI对初级译员的替代效应明显。但同时，该报告也指出，需要中高级水平翻译人才的企业仍然占比四成以上，<strong>“高级水平人才因其不可替代性反而更为稀缺。”</strong></p>
+  <p>再比如客服行业，Gartner的调研数据显示，到2026年，对话式AI已经能帮呼叫中心减少约800亿美元的人力成本。标准化的订单查询、密码重置、业务咨询等初级客服岗位，替代率已经达到85%到90%。</p>
+  <p>但与此同时，处理高端投诉、复杂纠纷、定制化需求的人工客服不仅没有减少，反而变得更重要了——他们需要解决AI解决不了的问题，承接更复杂的用户情绪。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,713" src="https://img.36krcdn.com/hsossms/20261027/v2_b4bc61612970483f8131943744e4b27b@1743780481_oswg842117oswg1080oswg713_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>技术在淘汰低端劳动的同时，也在抬高更高端职业的门槛。从某种意义上说，AI在抢饭碗的同时，更是来筛人的。</strong></p>
+  <p>对于演员以及其他真正受到AI威胁的行业从业者来说，这或许是最坏的时代，但在斩杀线之上，永远有不会被技术夺走的东西。</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/qqT7MIrQvQN08pZ99fKcyg">“巨潮WAVE”</a>，作者：老鱼儿，编辑：杨旭然，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Wed, 28 Oct 2026 00:38:27 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4044294127899522</guid>
+            <link>https://www.36kr.com/p/4044294127899522</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[医疗AI诊断：为什么很难成为一门独立生意？]]></title>
+            <description><![CDATA[<p>过去28个月，市场对“医疗AI诊断”热门股完成一轮完整的压力测试：Tempus自历史高点回撤约35%；估值大幅回撤引发我们再审视“医疗AI诊断”的现实商业卡点。</p>
+  <p>本文基于2020年初至2026年9月国内公开披露的212张AI相关医疗器械注册证，以及政策原文，沿“产品化—注册证—价格立项”三道商业化闸门，逐层解析AI诊断的核心商业化卡点。</p>
+  <p><strong>产品化</strong>：监管要求AI产品设计逻辑必须依据医学指南且具体到垂直适应症领域。<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>模式的通识大模型产品难被监管认可，背后是对医学严肃性和清晰责任边界的敬畏。</p>
+  <p><strong>注册证</strong>：独立软件，或嵌入医疗器械的软件组件（注册主体仍是医疗器械）为监管唯二认可的AI产品注册形态，AI诊断商业化只能卖软件或卖设备硬件。<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>式以API接口为主流的商业模式还拿不到医疗行业的入场券。</p>
+  <p><strong>价格立项</strong>：没有独立的医疗服务产出做支撑，监管不会为AI诊断设立独立的价格，价格体系中AI诊断的最高待遇仅是“不额外加价”的扩展项。AI诊断为企业打造第二创收曲线的通道被关闭。</p>
+  <p>即便抛开前述政策限制，市场“体感”中医院仍较难给AI诊断单独付费，因为AI诊断不是提供科室“从0到1”的新服务，而是设备厂商既有软件能力的智能化升级：院端视其为谈判筹码，厂商视其为竞争壁垒，AI诊断的真实角色是厂商守住市场份额和价格水平的“防守资产”，而非创收工具。</p>
+  <p><strong>医疗AI诊断的长期破局，或许仍需等待行业更多积累后的<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>时刻。不过短期或可调整思路，把“不显著的提效”做成“可量化的生产力”：</strong></p>
+  <p>要么把效率换算成收入，用以显著缩短报告周转时间、提升检查通量等，让AI的贡献直接进入科室的收入报表；要么去医生稀缺的场景做“生产力本身”，用以基层、体检、大规模筛查，在那里AI不是辅助，而是唯一可负担的生产力；要么跳出医保支付方，到体检机构、药企、商保的预算里，寻找为数据和服务付费的客户。</p>
+  <h2><strong>01 背景：AI诊断热门股的价值回归</strong></h2>
+  <p><strong>过去28个月，资本市场用真金白银，给热门股Tempus的“医疗AI诊断”商业叙事做了一轮完整的压力测试。</strong></p>
+  <p>2024年6月，Tempus以37美元上市，头半年即大起大落。8月盘中翻倍至77美元，11月逼近80美元，12月单月又暴跌46%。</p>
+  <p>真正的引爆点是2025年1月：美国“国会山股神”佩洛西家族1月14日买入看涨期权被披露、AI健康助手Olivia同期发布，1月21日单日暴涨35.5%，创上市以来最大单日涨幅；2月14日盘中摸到91.45美元，随后急速回吐至56美元。</p>
+  <p>此后靠阿斯利康与Pathos的2亿美元肿瘤基础模型协议、连续超预期的季度业绩，在2025年10月冲上历史高点104.32美元，市值约180亿美元。后虽披露EBITDA季度转正以及段永平建仓等利好信息，股价仍持续下跌，直到9月逐渐披露PRISM2论文登上Nature Medicine、与Moderna及默克达成合作后，股价才回涨至68美元附近，仍较历史高点跌约35%。</p>
+  <p class="image-wrapper"><img data-img-size-val="829,298" src="https://img.36krcdn.com/hsossms/20261028/v2_b40b011b3e384ec3b3490779a1d3fdee@000000_oswg23124oswg829oswg298_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图：Tempus AI历史收盘价，资料来源：公开资料绘制</p>
+  <p>以下则为英伟达收盘价走势参考：</p>
+  <p class="image-wrapper"><img data-img-size-val="640,322" src="https://img.36krcdn.com/hsossms/20261028/v2_1139e050438d447a9cd4f8816a1cb50e@000000_oswg194981oswg640oswg322_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图：英伟达历史收盘价，资料来源：公开资料绘制</p>
+  <h2><strong>02 医疗AI应用现状：浮华之下的结构显著分化</strong></h2>
+  <p>从公开资料梳理来看，医疗AI的商业化应用方向主要涉及以下七类：</p>
+  <p>1.<strong>医学影像AI：</strong>影像辅助诊断；</p>
+  <p>2.<strong>诊断AI：</strong>检测辅助诊断；</p>
+  <p><strong>3.AI制药：</strong>靶点挖掘等；</p>
+  <p>4.<strong>医疗大模型：</strong>病历质控、循证问答等；</p>
+  <p><strong>5.手术机器人AI：</strong>手术定位导航等；</p>
+  <p>6.<strong>办公AI：</strong>医生/医院办公协助等；</p>
+  <p>7.<strong>患者慢病管理：</strong>C端体检解读、居家慢病管理等。</p>
+  <p class="image-wrapper"><img data-img-size-val="864,589" src="https://img.36krcdn.com/hsossms/20261028/v2_527c33ec439245928adc6cb854bb264e@000000_oswg363852oswg864oswg589_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图：医疗AI商业化方向概览，资料来源：公开资料梳理，点击可看大图</p>
+  <p>以上仅是案例分类视角下的应用方向；倘若换到获证视角，则会看到很不一样的结果。</p>
+  <p>我们统计了2020年初至2026年9月公开披露的产品名称或产品内容含AI（或人工智能）的医疗器械注册证，共计212张（其中三类证174张）——诊断相关的证占到91%，<strong>177张应用于影像诊断AI，独占84%，全是软件产品</strong>；其次为体外诊断AI应用，14张，占比7%。</p>
+  <p class="image-wrapper"><img data-img-size-val="792,450" src="https://img.36krcdn.com/hsossms/20261028/v2_e7e57fe4fe3c45d09ba49e2596a3b93a@000000_oswg30007oswg792oswg450_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图：2020年初-2026年9月，国内AI相关医疗器械证书分布，资料来源：公开资料梳理</p>
+  <h2><strong>03 医疗AI诊断的三道商业化闸门</strong></h2>
+  <p>前一章我们看到，从案例分类看，医疗AI有七条赛道，热闹而分散；但换到“获证”视角，212张注册证中有177张落在影像诊断，独占84%。这个84%并非偶然的技术偏好，而是医疗行业政策引导的结果。</p>
+  <p>要理解它，首先要理解医疗产品的市场推广逻辑链条。</p>
+  <p>医疗赛道是一个强政策干预的行业，<strong>任何医疗产品的商业化路径都逃不脱制度早已框定的标准化路径——产品化（企业与监管）→产品证（药监局）→价格立项（医保局）</strong>（价格立项后不一定同步进入医保清单，进入医保以扩大商业化规模的环节本文不作展开，亦不影响本文对行业底层逻辑的解析）。</p>
+  <p>医疗AI的价值必须以标准化医疗产品为载体，穿过三道闸口，才能在医疗行业实现规模变现：</p>
+  <p>产品化是所有商业推广的前提，未完成标准化包装的医疗服务，无法进入后续产品注册与价格立项流程（ICL不在本文讨论范畴）；</p>
+  <p>产品只有取得药监局批准的医疗器械注册证，企业才能合规向医院销售；</p>
+  <p>产品只有纳入医保局的价格立项指南，医院才能合规向患者收费并合理采购企业产品。</p>
+  <p><strong>一、产品化：遵循垂直领域医学指南逻辑的辅助性产品设计</strong></p>
+  <p><strong>产品化方面，药监局始终坚持AI诊断的辅助定位与“医学指南逻辑支撑”的产品设计原则。</strong></p>
+  <p>2026年6月，国家药监局医疗器械技术审评中心在《人工智能辅助诊断医疗器械临床评价注册审查指导原则（征求意见稿）》中再次明确：“（人工智能）软件仅可辅助医师进行诊断……医师对临床诊断结果负责”、“产品设计必须依据医学指南”。</p>
+  <p><strong>医学的严肃性，不允许一个责任边界模糊、功能内涵不清的东西在医疗体系里成为产品</strong>——AI能力必须被封装为能力边界清晰、责任风险可控、可重复交付的标准化产品，而不是一项服务、一个模型接口或一段提示词。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,180" src="https://img.36krcdn.com/hsossms/20261028/v2_da414d50d9b3426d927c022c51df72b8@000000_oswg117301oswg640oswg180_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图：2026年6月《人工智能辅助诊断医疗器械临床评价注册审查指导原则（征求意见稿）》原文① ，资料来源：国家药监局医疗器械技术审评中心</p>
+  <p class="image-wrapper"><img data-img-size-val="640,242" src="https://img.36krcdn.com/hsossms/20261028/v2_10d1c69f0197414eada140979a321950@000000_oswg166862oswg640oswg242_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图：2026年6月《人工智能辅助诊断医疗器械临床评价注册审查指导原则（征求意见稿）》原文② ，资料来源：国家药监局医疗器械技术审评中心</p>
+  <p><strong>二、注册证：独立软件或嵌入医疗器械的唯二形态</strong></p>
+  <p><strong>注册证方面，药监局始终限定唯二的产品注册形态——独立软件，或嵌入医疗器械的软件组件（注册主体仍是医疗器械）。</strong></p>
+  <p>早在2022年3月，国家药监局《人工智能医疗器械注册审查指导原则》即明确AI医疗器械的申报适用范围——“包括第二类、第三类人工智能独立软件和含有人工智能软件组件的医疗器械（包括体外诊断医疗器械）”。AI产品的获证形态由此被锁定为两种：独立软件申报，或嵌入医疗器械中以医疗器械主体进行申报。</p>
+  <p>直到2025年药监局发布《关于发布优化全生命周期监管支持高端医疗器械创新发展有关举措的公告》，监管口径有所松动——“开展医用大模型、人工智能医疗器械、医学影像前处理、流程优化软件等新功能、新技术、新模态产品的管理属性和类别研究，依据技术发展成熟度及时动态调整产品管理类别”。</p>
+  <p><strong>但态度松动不等于原则松动</strong>——按2026年9月最新发布的《人工智能医疗器械注册审查指导原则（2026年修订版）（征求意见稿）》，AI产品的注册形态依旧锁定在独立软件与嵌入组件两种。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,377" src="https://img.36krcdn.com/hsossms/20261028/v2_abde2e0eaf1341cf97f140526814ad6c@000000_oswg203335oswg640oswg377_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图：2026年9月《人工智能医疗器械注册审查指导原则（2026年修订版）（征求意见稿）》原文，资料来源：国家药监局医疗器械技术审评中心</p>
+  <p><strong>三、价格立项：无独立收费资格的扩展项地位</strong></p>
+  <p><strong>2024年11月，AI首次被写入价格立项指南，但文件明确不赋予其独立收费、额外加价的地位。</strong></p>
+  <p>当时，国家医保局同时印发《放射检查类》《超声检查类》《康复类》三份医疗服务价格项目立项指南（试行），首次在立项指南中写入AI内容——三份指南均统一在主项目下补充“人工智能辅助诊断”扩展项，并明确“扩展项指同一项目下以不同方式提供或在不同场景应用时，只扩展价格项目适用范围、不额外加价的一类子项，子项的价格按主项目执行”。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,297" src="https://img.36krcdn.com/hsossms/20261028/v2_b253aaf334714e4e9ee4ccd5451b90ca@000000_oswg152146oswg640oswg297_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图：2024年11月《放射检查类医疗服务价格项目立项指南（试行）》原文&nbsp;，资料来源：国家医保局</p>
+  <p>同期，国家医保局发布官方解读文章，给出理由：“<strong>在尚无独立的医疗服务产出、辅助诊断质量效用难以确定的情况下，在已收取诊断相应项目检查费用后，不宜单就人工智能辅助诊断再向患者额外收费。</strong>”</p>
+  <p class="image-wrapper"><img data-img-size-val="640,370" src="https://img.36krcdn.com/hsossms/20261028/v2_0dcebe41fbca4ae19b02ba2b551dc2b0@000000_oswg307532oswg640oswg370_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图：2024年11月医保局对放射检查类立项指南的官方解读文章，资料来源：国家医保局</p>
+  <p>2025年12月，国家医保局发布的《病理类医疗服务价格项目立项指南（试行）》中，“人工智能辅助诊断”同样被列为病理诊断的扩展项。</p>
+  <p>值得注意的是，2026年8月发布的体外诊断收官价格指南——《检验类医疗服务价格项目立项指南（试行）》中，“人工智能辅助诊断”在征求意见稿阶段曾被列入扩展项，正式稿中却被删除，转而归入主项目的价格构成，失去了单列于“扩展项”的地位——即从价格项目设计看，AI辅助诊断甚至没能在更大范围的体外诊断项目中守住“扩展项地位”，而被纳入主项目的基础能力构成。</p>
+  <p class="image-wrapper"><img data-img-size-val="829,433" src="https://img.36krcdn.com/hsossms/20261028/v2_2aae9045d2f44bf0837513fb5b485dc2@000000_oswg76294oswg829oswg433_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图：国家医保局对“人工智能辅助诊断”的政策态度梳理，资料来源：公开资料绘制</p>
+  <p><strong>至此回看影像AI诊断在获证上的“独树一帜”，便能从政策逻辑得到解释：</strong></p>
+  <p>其一，AI辅助诊断的“扩展项”地位，最先在影像类检查中获得价格立项指南的确认；其二，177张影像AI注册证全部为软件产品——因为政策目前只认可两种注册形态：独立软件，或嵌入医疗器械的软件组件（后者的注册主体仍是医疗器械，而非AI）。</p>
+  <h2><strong>04 医疗AI诊断的商业化卡点：政策的严肃性与市场化的实效性</strong></h2>
+  <p>梳理医疗AI诊断商业化的政策链条后不难看出，政策端的核心限制在于产品设计形态与收费资格；但即便抛开政策影响，医疗AI诊断在院端市场化路径上同样存在自身卡点。</p>
+  <p><strong>一、政策维度：产品形态和收费能力的设限</strong></p>
+  <p><strong>产品化闸口，药监局锁定AI诊断的辅助定位与垂直产品设计原则。</strong>药监局要求企业必须依据医学指南设计垂直领域的AI产品，甚至细分垂直到具体适应症，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>这类通识型AI能力无法直接迁移应用——监管需要的是能力边界清晰、责任风险可控、可重复交付的标准化产品，而不是一项服务、一个模型接口或一段提示词。</p>
+  <p><strong>价格立项闸口，医保局按“独立的医疗服务产出”定价，而AI诊断恰恰没有独立产出，因而不具备独立收费资格；医疗企业只能将AI嵌入医疗器械中以设备硬件的价格条码来试图“增收”</strong>。</p>
+  <p>从更宏观的视角来理解政策深意，政策其实并没有“打压”医疗AI诊断——它只是严格遵循“以人民健康为中心、以临床价值为导向、控制人民群众医药费用负担”的总原则（2021年八部门《深化医疗服务价格改革试点方案》），稳步推进医疗AI的技术进步。尤其2023年医疗反腐以后，医保基金收入不再保持过去的高速增长；存量时代下，医保资源的配置必须更为审慎。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,269" src="https://img.36krcdn.com/hsossms/20261028/v2_72db67d4a2864acfbed017d598205980@000000_oswg98620oswg640oswg269_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">图：医保基金收入增速与GDP增速历史对比&nbsp;，&nbsp;数据来源：iFinD</p>
+  <p><strong>二、市场维度：AI诊断不是新付费对象，是企业竞争力的基本项</strong></p>
+  <p>特别说明：以下内容仅为作者对真实医院市场的接触体感，受限于接触范围，难免存在明显偏误与较强的主观性，望各位注意甄别。</p>
+  <p>如果说政策维度回答的是“收不了钱”，市场维度回答的则是——就算能收，也很少有医院愿意为AI诊断多付钱。</p>
+  <p><strong>先看推广方式。</strong>医疗AI诊断当下的商业化路径有两条：独立软件销售与嵌入医疗器械销售，后者占绝对主导——前者不具备收费通道（第三章已述），绝大多数只能搭设备的“车”进院。<strong>证是软件的证，钱是设备的钱。</strong></p>
+  <p><strong>再看医院如何看待AI诊断。</strong>事实上，AI出现以前，影像和检验设备本身就配套分析软件——照出的片子需要软件重建与处理，样本检测结果需要软件分析基础生物信息。医院采购设备，从来不是只买硬件，而是买软硬件一体的整体方案。AI出现以后，厂商把长期积淀的软件分析能力做了智能化升级，并在此基础上申报AI软件的三类证。从供给角度看，这无疑是厂商的服务能力增量；但从需求方医院的角度看，这不是一次从0到1的改变——过去买设备就包含分析软件，如今<strong>厂商把分析软件升级为AI，医院更多将其视为厂商服务能力的增强，而非新增了一项应该单独付费的服务。</strong></p>
+  <p><strong>结合市场竞争环境，这种院端态度还会被进一步强化。</strong>对成熟医疗器械而言，行业一旦迈入激烈竞争态势，降价便不可避免，甚至出现恶性降价——送设备、换试剂消耗的打法屡见不鲜。在这样的市场里，医院天然倾向于把厂商设备的AI和自动化增值能力，理解为厂商应对激烈竞争、保住市场份额与价格而做的服务增值。<strong>买方把它当作谈判筹码（不配AI，我可以把市场给到配AI的厂商），卖方把它当作竞争壁垒（我追随行业节奏做了AI增值，我可以再谈判维持设备原价并守住原来份额）——双方都无法把它当作一个独立的付费商品。</strong></p>
+  <p>所以，从医院端的实际体感看，即便没有政策干预的限制，现阶段的市场化谈判中也很难把当前的AI诊断能力推入创收阶段；它只能成为厂商竞争力增强的重要工具，用以保持现有设备和试剂的价格水平、避免过度降价。</p>
+  <h2><strong>05 破局的不成熟思考</strong></h2>
+  <p>医疗AI诊断的长期破局或许仍需等待医疗行业更多积累后的<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>时刻，不过短期亦有一些可参考的思路：<strong>把“不显著的提效”做成“可量化的生产力”。</strong></p>
+  <p>要么把效率换算成收入，显著缩短报告周转时间、提升检查通量，让AI的贡献直接进入科室的收入报表；要么去医生稀缺的场景做“生产力本身”，基层、体检、大规模筛查，在那里AI不是辅助，而是“规模化医疗关口前移”可负担的生产力；要么跳出医保支付方，到体检机构、药企、商保的预算里，寻找为数据和服务付费的客户。</p>
+  <p><strong>只有当AI的价值能以医院看得懂的报表语言呈现，付费意愿才会从“锦上添花的犹豫”变成“主动买单的坚定”</strong>。</p>
+  <p>这也是本文开篇那句话的另一面：回归业务本身，成为生产力本身，政策和市场都会重新给AI定价。</p>
+  <p>本文系基于公开资料撰写，仅作为信息交流之用，不构成任何投资建议</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzkxOTAyNjAwOA==&amp;mid=2247557116&amp;idx=1&amp;sn=174172ee8de062b85a9e4748b90e9d79&amp;chksm=c0dbbf8db2c65e74baa3b08b8d6f1e3d92e56f0e2ce244cbb62b34cc2ce0090444b8a0e1d48c&amp;scene=0&amp;xtrack=1#rd">“锦缎”（ID：jinduan006）</a>，作者：Albert_L，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Wed, 28 Oct 2026 00:38:07 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4044769079317636</guid>
+            <link>https://www.36kr.com/p/4044769079317636</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[刚刚，谷歌重磅发布Genie 4：这才是真正的「世界模型」]]></title>
+            <description><![CDATA[<p>谷歌版「黑客帝国」，今夜彻底成真了！</p>
+  <p>就在刚刚，Google DeepMind甩出深夜王炸，正式发布新一代通用世界模型<strong>Genie 4</strong>。</p>
+  <p><strong>这是谷歌迄今为止最逼真、最具互动性的AI世界模型。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,985" src="https://img.36krcdn.com/hsossms/20261028/v2_14ef9b55622b47efa6d1f2d82d69c2dc@000000_oswg562787oswg1080oswg985_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>一句提示词，就能直接造出一座<strong>能张嘴接戏、实时改命的「活体宇宙」</strong>！</p>
+  <p>谷歌CEO劈柴第一时间宣布：从「生成一段视频」到「实时运行一个世界」，言出法随的「绿洲」时代来了！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1057" src="https://img.36krcdn.com/hsossms/20261028/v2_6cae72bbb6324d538d9a4c7ff0cfa1d3@000000_oswg278525oswg1080oswg1057_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>划重点，这次的Genie 4，直接把世界模型拉进了「有声、有人、有大脑」的全新纪元：</p>
+  <p><strong>Genie系列首次原生生成声音与即兴对话。</strong>同步生成环境音与配乐，更能让角色根据突发状况张嘴即兴交谈。</p>
+  <p><strong>2分钟连贯长记忆，24帧丝滑交互。</strong>单次连贯世界维持时间翻倍至约2分钟，实机画面稳定在约24帧/秒。</p>
+  <p><strong>重塑逼真人类与刚体物理。</strong>借助Gemini Omni锚定现实常识，人物微表情、镜面反射与物理碰撞全面跃升。</p>
+  <p><strong>三大Gemini联手组成「混合世界模型」。</strong>Gemini 3.8 Flash在后台盯画面当「导演」，Gemini 4 Argon拆解22步精细动作指挥机器人下跳棋。</p>
+  <p>你往前走一步，世界就实时长出一寸；你改一句话，物理法则和NPC台词当场跟着重写。</p>
+  <p><strong>当视频模型还在比拼几秒钟的镜头美感时，谷歌已经为未来的通用Agent与机器人，造出了可以无限试错的平行宇宙。</strong></p>
+  <p>现在，谷歌已经开始内测Genie 4， Google AI Ultra用户可以去申请waiting list了。</p>
+  <h2><strong>只要一句话，为你当场「生成一个宇宙」</strong></h2>
+  <p>为了展示 Genie 4 的统治力，谷歌放出了一系列极具震撼力的Demo，风格之跨越，细节之变态，让人叹为观止。</p>
+  <p>而且，在 Genie 4 面前，你不再是观众，你是「第一人称游戏玩家」，是这个世界的「上帝」。</p>
+  <p>你敢信，下面这段王家卫风满满的香港大桥飙车戏，根本不是原片？</p>
+  <p>后座的女孩刚喊出台词，玩家敲进两行字：「背景发生爆炸」「毁灭世界的巨型外星触手」。</p>
+  <p>紧接着，远处的维港天际线立马火光冲天，外星触手直接从天砸落！</p>
+  <p class="image-wrapper"><img data-img-size-val="760,428" src="https://img.36krcdn.com/hsossms/20261028/v2_81c2269fd02e4d38a1fcb6d9dd0df8ac@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>连路灯的橘色拖影、女主的皮肤质感和细微的担忧表情，都在长镜头中被完美渲染。</p>
+  <p>去年的Genie 3虽然开创了实时交互视频的先河，但有一个致命短板——没有声音，生成真人时也漏洞百出。</p>
+  <p>谷歌直接放出了一段Genie 3与Genie 4的同屏对比。</p>
+  <p class="image-wrapper"><img data-img-size-val="800,450" src="https://img.36krcdn.com/hsossms/20261028/v2_08b715d730d5413a9459a300dcbef276@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>左边Genie 3还是五官粘连、肢体僵硬的无声纸片人；右边Genie 4在Gemini Omni的现实常识锚定下，已经能拍出化妆镜暖光、演员微表情，甚至镜面的实时倒影，细腻得如同实拍长镜头。</p>
+  <p>拿到抢先测试资格的沃顿商学院教授Ethan Mollick，晒出第一手实测录屏。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,500" src="https://img.36krcdn.com/hsossms/20261028/v2_62ba73a55ac544ffa232a75c19473271@000000_oswg171056oswg1080oswg500_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>他只喂了一句「由马和机器人共同居住的新哥特式粗野主义城市」，不到1分钟，这座城市就出现了。</p>
+  <p>单帧延迟稳定在23.4至25.3 FPS。随手点一下「巨龙掠空」按钮，一头巨龙几秒内便扇动双翼，呼啸掠过！</p>
+  <p class="image-wrapper"><img data-img-size-val="640,367" src="https://img.36krcdn.com/hsossms/20261028/v2_5149d101907542589fd1e14369a915b0@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>还不够过瘾，他又输入：「一只友好的水獭NPC走过来问问题」。</p>
+  <p>紧接着，街角当真跑出一只穿马甲的水獭，用伦敦腔搭话：「打扰一下，旅行者。」</p>
+  <p>紧接着，他又晒出一段神级实测：在Genie 4里跑《毁灭战士（DOOM）》！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,753" src="https://img.36krcdn.com/hsossms/20261028/v2_7aac37b2164140cf8dee3b37953b2ca8@000000_oswg161151oswg1080oswg753_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>他先设定「走进一间每台电脑和墙壁都在跑DOOM的办公室」，接着连敲三道指令：「恶魔同事出现」「手里拎着加特林机枪」「给我发了一笔奖金」。</p>
+  <p>话音刚落，真的走出一位恶魔同事，双手转着重型加特林，当场发起奖金！</p>
+  <p>a16z 合伙人Justine Moore也晒出了水下潜行实测，表示这是巨大的飞跃。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,652" src="https://img.36krcdn.com/hsossms/20261028/v2_231c5a55eff54dc699ee8a8fbae0ba5a@000000_oswg166346oswg1080oswg652_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在海底洞穴中点下「受诅咒的紫钻发光」与「电鳗群袭来」，洞穴深处瞬间紫光爆闪、出现巨大电鳗群。</p>
+  <p class="image-wrapper"><img data-img-size-val="760,418" src="https://img.36krcdn.com/hsossms/20261028/v2_9fd70e2b343b4c86a3b2ab7569a02230@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>再点一下「幽灵海盗现身」，立马出现海盗船长亡灵，太逼真了。</p>
+  <p class="image-wrapper"><img data-img-size-val="760,418" src="https://img.36krcdn.com/hsossms/20261028/v2_1d3b0b79a4ca4bc6814708165831803e@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>前谷歌AR/3D产品经理Bilawal Sidhu，则把Genie 4当成了科幻大片的实时虚拟片场：</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,703" src="https://img.36krcdn.com/hsossms/20261028/v2_deed4f56a3f04132a26c8e42a5c25bf8@000000_oswg186604oswg1080oswg703_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>他召唤出UFO，打出一句「它把我吸了进去」——UFO瞬间轰开牵引光束，准备把人吸进去。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,376" src="https://img.36krcdn.com/hsossms/20261028/v2_b76c5ddce79f4696b3e58c48442666e0@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <h2><strong>四大关键功能</strong></h2>
+  <p>谷歌官博介绍，Genie 4提升了四大关键功能。</p>
+  <h3><strong>实时塑造世界模拟</strong></h3>
+  <p>我们可以使用自然语言实时修改模拟场景——例如改变天气、移动镜头或引入新的人物或物体——Gemini 会根据周围场景调整我们的指令。输入指令的间隙，Gemini 还会监控、引导场景，确保整个世界流畅发展。</p>
+  <p>听起来，简直是盗梦空间成真了？</p>
+  <p>一个男人在岛上吹着萨克斯，敲下「鲸尾出现」，他身后的水中立刻出现鲸鱼。</p>
+  <p>随后，我们让这个世界开始下雪，鹅毛大雪立刻飘落。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20261028/v2_86b6a949ba314b2cbe7e15d199aafb26@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>要是把镜头拉到第一人称视角，这种实时改写世界的冲击感还会进一步放大。</p>
+  <p>这个画面中，我们以140公里的时速骑着巨龙俯冲，掠过古堡，如果下令「城堡发射火球」，塔楼当场喷出烈焰，火球擦身而过，刺激感拉满。</p>
+  <p class="image-wrapper"><img data-img-size-val="680,383" src="https://img.36krcdn.com/hsossms/20261028/v2_da012059b8fc46da9f365101f93821eb@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>下面这个场景中，Genie 4先根据用户提示生成了南极冰封大地，然后生成了第一人称视角的乘热气球场景。</p>
+  <p class="image-wrapper"><img data-img-size-val="680,383" src="https://img.36krcdn.com/hsossms/20261028/v2_2d34458726dd4743831d44a30cd6f045@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <h3><strong>拓展物理学和人类行为的现实边界</strong></h3>
+  <p>这次，Genie 4为交互模拟引入了全新的真实感标准。</p>
+  <p>基于对世界物理的超强理解，Genie 4对于真实世界的物理场景模拟得十分逼真，比如空气动力学、碰撞等等。</p>
+  <p>而Genie 4 最显著的进步就在于模拟人物，它能创造出自然移动、对环境做出反应、可实时交互式操控的角色。</p>
+  <p>80年代的日本乡村车站，给一个prompt，乘务员就会喊出发车提示。</p>
+  <p>再给一个提示，立马让一位老妇人提着行李箱出现。</p>
+  <p>接下来的画面，让我们感叹Genie 4物理交互的极度逼真。</p>
+  <p>户外庭院的台子上，让大理石半身像砸向西瓜。</p>
+  <p>砰的一声闷响，瓜瓤与汁水四处飞溅——从重力冲击到碎片轨迹，Genie 4在实时交互中还原得恰到好处。</p>
+  <p>对柔体力学与空气动力学，Genie 4同样手拿把掐。</p>
+  <p>草甸上的粉色丝绸，只要吹起一阵风，立刻迎风翻涌出层层丝滑波浪，十分真实。</p>
+  <p class="image-wrapper"><img data-img-size-val="680,383" src="https://img.36krcdn.com/hsossms/20261028/v2_7dac6ba1338a461c9747041c10b9efb4@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>一只枫树种子掉落到地上的特写镜头，都逼真不已。</p>
+  <p>把镜头推到毫厘之间的微距视角，枫树翅果像直升机螺旋桨一样自旋滑落，轻轻停驻草叶之间。</p>
+  <p class="image-wrapper"><img data-img-size-val="680,383" src="https://img.36krcdn.com/hsossms/20261028/v2_6b25426ba2b84cd198852329ef74ce6f@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <h3><strong>告别「无声蜡像馆」，Genie 4能模拟声音了！</strong></h3>
+  <p>Genie 4 是谷歌的首款原生生成音频的实时世界模型。</p>
+  <p>每个世界都拥有自身环境的声音，比如树叶沙沙作响，海浪拍打沙滩。</p>
+  <p>然而，真正的挑战还是人类语言！Genie 4 引入了实时互动对话功能。角色会根据你的输入或事件进行实时对话和反应。</p>
+  <p>这个半透明的3D彩绘玻璃世界中，用提示词召唤出一只鹿。最吸引人的是，它的脚步声都自动变成清脆的琉璃碰撞声。</p>
+  <h3><strong>硬核架构拆解：三大Gemini轮番上阵，搭起「混合世界模型」回路</strong></h3>
+  <p>如果仅仅把Genie 4当成画质更好、能发声的「大号视频生成器」，那就低估了Google DeepMind的野心。</p>
+  <p>过去的实时世界模型之所以玩不过几十秒就容易崩盘，是因为纯像素预测缺乏长程逻辑规划，往往做完第一步，就把后面的目标忘得一干二净。</p>
+  <p>为了治愈这个顽疾，谷歌这次端出了极具颠覆性的<strong>「混合世界模型」架构</strong>，派出三款Gemini模型与Genie 4组团打配合。</p>
+  <p>这样，世界模拟就增添了一个全新的推理层面，让Genis 4能模拟复杂的多步骤事件，并在将AI引入现实世界之前，测试它们如何在不同环境中运行。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,595" src="https://img.36krcdn.com/hsossms/20261028/v2_8e0c88bcbe7d4df68183ab0fde604718@000000_oswg167536oswg1080oswg595_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>第一重配合，是让<strong>Gemini 3.8 Flash</strong>在循环回路里充当实时控场的「总导演」。</p>
+  <p>当Genie 4在前面逐帧生成画面时，Gemini 3.8 Flash就在后台实时盯着画面拆解多步推理序列，一边验证当前步骤是否完成，一边下达下一步指令。</p>
+  <p>随着用户干预，Gemini会立刻调整，生成具有可靠因果、程序员行为和多步骤推理的世界。</p>
+  <p>看看下面这场近景魔术：玩家每次关上箱门挥动魔术棒，右上角的Gemini 3.8 Flash就会确认步骤完成，指挥Genie 4先把孔雀变成橘猫，再把橘猫变成复古收音机！</p>
+  <p>哪怕半途突然改戏，这位「总导演」也能当场重排剧本。</p>
+  <p>比如在冰天雪地里让一颗流星划过，再指挥灰冠鹤走到电子琴前啄出旋律，最后让它一飞冲天。</p>
+  <p>如果说Gemini 3.8 Flash解决了「世界怎么按逻辑演进」，那么<strong>Gemini 4 Argon</strong>与<strong>Gemini Robotics</strong>的加入，则捅破了具身智能与机器人训练的天花板。</p>
+  <p>当人类下达一句「跟对面的男孩下跳棋，走一步红棋」，左侧的Gemini 4 Argon会瞬间将任务拆解为22步毫米级动作剧本。</p>
+  <p>这些高密度指令实时注入Genie 4的生成流中，驱动右侧的Apollo机器人行云流水地完成捏棋、走子与对弈。</p>
+  <p class="image-wrapper"><img data-img-size-val="800,450" src="https://img.36krcdn.com/hsossms/20261028/v2_137e051edcce4c289ff8803183815271@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <p>甚至，Genie 4还能进实验室做精密科研。</p>
+  <p>哪怕是工业级的UR5六轴机械臂，也能在Genie 4里精准夹持移液管，插入微孔板滴注液体。</p>
+  <p>即便中途把目标挪走，模型也能实时重算策略，按新位置完成抓取。</p>
+  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20261028/v2_09a54085a9ce476e88031f3c921ac23f@1743780481_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
+  <h2><strong>通往ASI的必经之路，是先造出一个世界</strong></h2>
+  <p>什么是真正的「世界模型」？</p>
+  <p>是你推开一扇门，转身离开30秒，再走回来，那扇门依然开着。</p>
+  <p><strong>能记住物理规律，能维持空间记忆——这，就是视频模型与世界模型的分水岭！</strong></p>
+  <p>现在，Google Genie 4 做到了。</p>
+  <p>靠着「海量无标签视频预训练+少量动作轨迹微调」，再加上Gemini的符号逻辑与长程记忆，Genie 4一举将单次连贯世界的维持时间推到了约2分钟。</p>
+  <p>从此，构建交互环境彻底告别了繁琐的手工3D建模。</p>
+  <p>现在，Genie 4已向Google AI Ultra用户开放，更将作为史上首款进入Gemini API与Google AI Studio的世界模型向开发者敞开大门。</p>
+  <p>我们能看出谷歌的野心：<strong>真正的 AGI，绝不可能只活在对话框里！</strong></p>
+  <p>当AI学会在自己创造的平行宇宙里穷尽万千种物理可能，它真正推开现实世界大门的那一天，也就不再遥远了。</p>
+  <h3>参考资料：</h3>
+  <p>https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652738350&amp;idx=1&amp;sn=5780f511f00246643a05e15612ebeaeb&amp;chksm=f0b410aac4434b5ae9cd43ea02d30f99aeb3b54b3e616e6b33743f011768bd1c0713d6d1ffc7&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：摩西 Aeneas，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Wed, 28 Oct 2026 00:32:21 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4044758924612485</guid>
+            <link>https://www.36kr.com/p/4044758924612485</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[AI写88小时，人类读7周，数学家开始读懂OpenAI千禧难题证明]]></title>
+            <description><![CDATA[<p>9月8日，OpenAI扔出一份证明，宣称攻克了纳维－斯托克斯这道千禧难题。</p>
+  <p>这道题研究的，是描述流体运动的一组方程。</p>
+  <p>约一万个AI智能体，88小时，166页。</p>
+  <p>写完它，AI用了不到4天。</p>
+  <p>论文公布近7周后，人类开始读懂它的思路。</p>
+  <p>10月26日，数学家Scott Armstrong在X上发了一条长推。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,793" src="https://img.36krcdn.com/hsossms/20261028/v2_78262980748c4b0382087920855323a6@000000_oswg589603oswg1080oswg793_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>据他转述，几组正在研究这份证明的偏微分方程专家，已经基本读懂了其中的思路。</p>
+  <p>专业同行开始看清AI的解题方法了。</p>
+  <p>他的评价是：</p>
+  <p>它也许超出了人类原本能想到的范围，但没有超出人类的理解。</p>
+  <p>Armstrong是法国国家科学研究中心研究主任，也是纽约大学库朗研究所数学教授。</p>
+  <p>他自己就研究流体湍流，算是内行看门道。</p>
+  <p>这一次，AI负责开拓想象边界，人类负责看懂。</p>
+  <p>这场接力，人类刚跑完第一棒。</p>
+  <p>不过，看懂思路和确认全对，是两件事。</p>
+  <p>千禧难题的下半场，现在才开始。</p>
+  <h2><strong>AI 88小时交卷，人类看不懂</strong></h2>
+  <p>回到七周前。</p>
+  <p>OpenAI用一个尚未发布的新模型，调动约1万个智能体同时攻关。</p>
+  <p>88小时里，它们来回发了约270万条消息，生成约1300亿个token。</p>
+  <p>又过了17小时，GPT-6 Astra把证明翻译成Lean语言，交给机器逐行检查。</p>
+  <p>这份震动数学圈的作业，光算力账单就以百万美元计。</p>
+  <p>证明交出来了，可几乎没人读得动。</p>
+  <p>10月14日，Nature旗下期刊《通讯-物理》（Communications Physics）刊发社论。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,363" src="https://img.36krcdn.com/hsossms/20261028/v2_e48d81645896448fb9bc81a75814b3f8@000000_oswg65608oswg1080oswg363_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">《通讯-物理》社论：方程爆炸了，飞机照飞。</p>
+  <p>作者写道：专家们相信它是对的，但还没人真正理解它。</p>
+  <p>以前是人类出题，AI答不上来。</p>
+  <p>现在是AI交卷，人类看不懂。</p>
+  <h2><strong>「这有什么好意外的？」</strong></h2>
+  <p>质疑很快就来了。</p>
+  <p>一位名叫Joel Fish的网友认为，这个结果「合情合理」。</p>
+  <p>在他看来，模型本就学过海量文献。</p>
+  <p>他还估算，OpenAI为此花了约1500万美元算力。</p>
+  <p>这笔钱拿去请数学家专心做研究，未必做不出来。</p>
+  <p>Armstrong想在讨论串里回复，却发现自己被一位网友拉黑了。</p>
+  <p>他干脆引用转发，甩出一长段回击。</p>
+  <p>结尾一句很不客气：谁说这个结果不意外，谁就是在胡说。</p>
+  <p>怼完之后，他又礼貌地补了一句「sorry!」</p>
+  <p>双方真正在争的，是AI到底有没有新想法。</p>
+  <p>要回答这个问题，得先看看AI想到了什么。</p>
+  <h2><strong>让水自己搅动自己</strong></h2>
+  <p>先试着搅一杯咖啡。</p>
+  <p>当漩涡被拉长时，杯中液体会越转越快、越变越细。</p>
+  <p>就像花样滑冰运动员收拢双臂，转速陡增。</p>
+  <p>液体的黏性则一直在踩刹车，把漩涡的劲儿慢慢耗掉，变成热量。</p>
+  <p>一边是拉伸在踩油门，一边是黏性在踩刹车。</p>
+  <p>近百年来，数学家一直在问一个问题：</p>
+  <p>拉伸能不能赢过刹车，让速度在有限时间里冲向无穷大？</p>
+  <p>这就是流体「爆炸」，数学上叫奇点。</p>
+  <p>OpenAI声称构造出了这样一幕。</p>
+  <p>一杯静止的水，被一股平滑的外力轻轻推动。</p>
+  <p>中心的漩涡越缩越小，速度越来越快，最终冲向无穷大。</p>
+  <p>速度都无穷大了，能量岂不是也要爆表？</p>
+  <p>并没有。整杯水的总动能一直是有限的。</p>
+  <p>道理不难懂：转得最快的那一小团水，也在不停缩小。</p>
+  <p>就像针尖上的一滴水，转得再快，分量也就那么一丁点。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,502" src="https://img.36krcdn.com/hsossms/20261028/v2_550fa293b79b47e098917897aa346861@000000_oswg70628oswg1080oswg502_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">涡旋内核逐步收缩，长宽比例经夸张处理。</p>
+  <p>难点在于，这股外力必须始终温和，不能有任何突然的猛推。</p>
+  <p>要是推力本身就是无穷大，水跟着「爆炸」也就不稀奇了。</p>
+  <p>那等于往杯子里扔一个鞭炮，再说咖啡自己炸了。</p>
+  <p>麻烦就出在这里。</p>
+  <p>单纯画一个不断收缩的漩涡，代入方程一算，要维持它，所需的外力也会冲向无穷大。</p>
+  <p>怎么办？</p>
+  <p>论文的办法是加入一串有节奏的小波动（振荡脉冲）。</p>
+  <p>这些小波动推动水流（动量输运），正好抵消掉那股快要失控的力。</p>
+  <p>剩下的小偏差，再一<ai-product-link data-id="14953" data-name="点点" data-logo="https://img.36dianping.com/20260731/v2_7f20642df457498595ae7c552043d930_oswg142435oswg1000oswg1000_img_jpg" data-classify-list="智能搜索,AI助理,办公辅助" data-refer-type="20">点点</ai-product-link>修补干净。</p>
+  <p>听起来像打补丁，于是问题来了：这些补丁（振荡）从哪来？</p>
+  <p>在OpenAI之前，数学家们已经试过几条路。</p>
+  <p>第一条路，叫「凸积分」。</p>
+  <p>数学家亲手搭出一层层细小的振荡，造出一些古怪的解，比如水流凭空出现能量。</p>
+  <p>第二条路，来自Albritton、Brué和Colombo三位数学家。</p>
+  <p>他们借助一个不稳定的漩涡，让水流从一模一样的起点出发，走出两种完全不同的结局。</p>
+  <p>第三条路，来自西班牙数学家Córdoba和Martínez-Zoroa。他们靠不断拉扯，让漩涡的旋转一级级放大。</p>
+  <p>起初，外界以为AI沿用了这条路线。</p>
+  <p>但《科学美国人》采访的多组专家都说，细看之下，方法并不相同。</p>
+  <p>Armstrong点破了关键：AI的证明，跟凸积分最像。</p>
+  <p>区别在于，凸积分的振荡靠人手工去造。</p>
+  <p>AI却是让水自己造。</p>
+  <p>它设计了一种流体不稳定性，让水流随时可能「失稳」。</p>
+  <p>相邻的水层一快一慢，就像风吹过水面会掀起波纹。</p>
+  <p>这种速度差，会自发长出小波动。</p>
+  <p class="image-wrapper"><img data-img-size-val="800,531" src="https://img.36krcdn.com/hsossms/20261028/v2_d21d28b724b74ff0b05d9c7aae0bbc89@000000_oswg273600oswg800oswg531_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">上下两层气流一快一慢，把云层卷成了一排浪花，这就是「速度差产生波动」。（图源：UCAR）</p>
+  <p>小波动产生的推力，再反过来推着中心的漩涡越缩越紧。</p>
+  <p>以前是数学家亲手搅水，可这次，是让水自己搅自己。</p>
+  <p>在Armstrong看来，用流体自己的不稳定性来「造力」，此前没有先例。</p>
+  <p>也正因为如此，AI造出的外力足够光滑，满足了题目的苛刻要求。</p>
+  <p>Armstrong坦言，其中一些想法，1983年的文献里就出现过。</p>
+  <p>可把它们这样组合起来，「绝对疯狂」，文献里从没有过。</p>
+  <p>他也没听说有谁想过，凸积分能用来造出这样的爆破解。</p>
+  <p>在这个过程中，AI没有发明新工具。</p>
+  <p>它只是用人类的旧工具，走出了一条人类没走过的路。</p>
+  <p>说AI只会复述训练数据的人，可以先回答一个问题：</p>
+  <p>既然材料都在文献里，这条路人类为什么没走？</p>
+  <h2><strong>看懂思路，还要查什么</strong></h2>
+  <p>人类的「消化」，已经有了公开成果。</p>
+  <p>9月下旬，复旦大学数学家雷震与合作者Xiao Ren发布了一篇解读预印本。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,380" src="https://img.36krcdn.com/hsossms/20261028/v2_0966a35d528445d2aec507c9d4e0322b@000000_oswg132437oswg1080oswg380_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">他们把OpenAI原稿中构造流动轮廓的部分重写了一遍，力求让同行读得懂。</p>
+  <p>他们在文中称，OpenAI的工作是纳维－斯托克斯千禧难题上的一项重大进展。</p>
+  <p>AI交了一份草稿，人类开始给它写教辅。</p>
+  <p>不过，读懂思路只是第一步。</p>
+  <p>另一项工作，是检查论文原文和Lean版本是否对得上。</p>
+  <p>Lean是一种证明助手。</p>
+  <p>把数学命题和推导写成形式语言后，它能检查每一步推理是否成立。</p>
+  <p>可机器只检查它收到的东西。</p>
+  <p>就像核对译稿：译文通顺，还得看它有没有改掉原意。</p>
+  <p>10月6日，Bastounis、Circelli和Hansen三位研究者发表预印本，指出原稿与Lean版本中的部分陈述和推导存在差异。</p>
+  <p>他们同时声明，自己没有判断OpenAI的文字证明是否正确。</p>
+  <p>所以，这项质疑不能简化成「证明被推翻」。</p>
+  <p>它要求把一件事查清楚：机器验证过的内容，究竟能为原稿的哪些结论提供保证？</p>
+  <p>机器能保证每一步没算错。但它保证不了题目没抄错。</p>
+  <p class="image-wrapper"><img data-img-size-val="1020,542" src="https://img.36krcdn.com/hsossms/20261028/v2_123466d5ea0743e4a5adaad01ee8c1d6@000000_oswg307588oswg1020oswg542_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>截至目前，克雷研究所仍把这道题列为「Active」「进行中」。</p>
+  <p>OpenAI也表示，不打算领取100万美元奖金。</p>
+  <h2><strong>下半场，留给人类什么作业</strong></h2>
+  <p>有人会问：能不能把这套方法推广到没有外力的情形？</p>
+  <p>这是个好问题，但别把它当成「没做完的另一半」。</p>
+  <p>克雷研究所列出的四种命题，证出其中任意一个就算解答。</p>
+  <p>OpenAI声称完成的，正是允许平滑外力的两种。</p>
+  <p>无外力的情形，是下一个新目标。</p>
+  <p>按照Constantin等人新论文的分析，这套构造不能直接推广到无外力情形。</p>
+  <p>要攻下它，恐怕还得有全新的想法。</p>
+  <p>眼下，人类还有三份作业要交。</p>
+  <p>第一份，完整、好读的讲解，让同行不用从头去猜每一步的意图；</p>
+  <p>第二份，逐条核查和对照说明，讲清哪些已经查过，哪些还要解释；</p>
+  <p>第三份，把其中的方法提炼出来，用到别的问题上。</p>
+  <p>只有这样，一份AI答案，才能由此长出新的研究。</p>
+  <p>AI这一棒的账很好算：88小时，1万个智能体，数百万美元。</p>
+  <p>人类接棒后的账，却很难算：读懂、核查、讲清楚，每一步都需要专家投入时间。</p>
+  <p>可没有人类这一棒，AI交出的只是一份没人敢用、也无法使用的答卷。</p>
+  <p>从9月8日的公告到今天，七周过去，一些数学家开始读懂其中的思路。</p>
+  <p>接下来，他们还要把这份证明变成下一位研究者能接着用的知识。</p>
+  <p>当AI想得比人快，人类理解、核查和传递知识的速度，也开始决定科学能走多快。</p>
+  <p>千禧难题的下半场，主要考的是人类。</p>
+  <h3>参考资料：</h3>
+  <p>https://twitter.com/scottnarmstrong/status/2114412308185100522</p>
+  <p>https://openai.com/index/navier-stokes-solution/</p>
+  <p>https://www.nature.com/articles/s42005-026-02930-y</p>
+  <p>https://arxiv.org/pdf/2609.20803</p>
+  <p>https://arxiv.org/pdf/2610.08144</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652738350&amp;idx=2&amp;sn=1da20d8742dfc7e7d16e67ee122f0d54&amp;chksm=f022d7e054a30a5281dc5e3bd9df622d6f118acf143a1fc4aceb9827959f06aacde08372fbe0&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：元宇，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Wed, 28 Oct 2026 00:32:06 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4044759056241798</guid>
+            <link>https://www.36kr.com/p/4044759056241798</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[「脑虎科技」B轮融资7亿，“三全”脑机接口系统进入注册临床｜36氪首发]]></title>
+            <description><![CDATA[<p>文｜胡香赟</p>
+  <p>编辑｜海若镜</p>
+  <p>36氪获悉，脑虎科技已完成7亿人民币B轮融。本轮融资由国投聚力、深创投、勤智资本联合领投，中芯聚源、黄浦投资、基石资本、IDG 资本、曦晨资本、钧犀资本、华福证券、众为资本、江西金控等机构跟投，盛大、中平资本等老股东加码。募集资金将用于“全植入、全无线、全功能”（“三全”）脑机接口系统的多中心临床试验及注册审批、超级工厂量产建设，以及下一代产品研发与BCI+AI融合探索。</p>
+  <p>从机构属性来看，本轮融资整体以国资为主导，产业资本方面则“跨界”集结了来自半导体、医疗器械、材料等赛道的头部机构。</p>
+  <p>脑虎科技创始人、首席科学家陶虎对36氪介绍称，这样做，一是因为脑机接口已上升到国家战略层面，国资领投能带来更强的政策支持力度；二是考虑到后续产业协同问题。在他看来，当前，市场上仍没有专为脑机接口而生的电极公司、芯片公司或算法公司，因此，只有和上下游合作方携手，先“把脑机接口整个产业做起来”，行业天花板才能抬更高。</p>
+  <p>2026年，头部脑机接口公司被“抢额度”的情况已非个例。在陶虎的体感中，3、4年前，投资人眼中的脑机接口还是“相对稚嫩的科幻概念”，大家喜欢听“国内首个”“最高通道”或“中国版Neuralink”的故事；但如今，脑机接口已经是被认真正视的产业，市场更关心临床效果、患者获益、供应链自主可控，以及最终交付的产品。</p>
+  <p>技术和产品方面，脑虎科技自研了全植入、全无线、全功能“三全”脑机接口系统。顾名思义，全植入，就是将包括电池在内的所有核心器件都植入体内，体表没有外露部件；全无线，是指供电和数据传输都通过无线完成，哪怕是患者洗澡、睡觉、社交也不受影响；全功能，则是让同一套系统既能做运动解码，也能做语言解码和环境控制。</p>
+  <p>陶虎认为，“三全”方案能更好规避传统植入手术的感染风险问题，且有望持续、稳定地采集真实数据。在传统方案中，导线会穿过皮肤连接体外设备，是细菌进入颅内的通道，感染风险较高。而有线供电时患者又处于紧张状态，采集到的未必正常生活下的脑电。全植入加全无线，相当于堵住了这两个入口。</p>
+  <p>在这个意义上，脑机接口也不再是一个需要外部设备维持的实验系统，而是成为一个“能够独立工作的植入式系统”。</p>
+  <p>为了实现这一点，脑虎科技在设计植入方案时，选择将柔性电极贴在硬膜下的大脑皮层表面，电池、处理器、天线等高发热单元放在胸部皮下。陶虎解释，插入大脑皮层看似更“精细”，但随着脑组织晃动、颅内压变化，很容易造成电极移位或脱落。此外，一旦引发免疫反应，神经被炎症包裹，信号就会衰减，严重时还要二次开颅。贴在皮层表面，信号质量和深插基本一致，长期可靠性反而更好。未来如果要提升通道数，只需提高电极密度。</p>
+  <p>反映在患者身上，是脑虎一直追求的“不伤脑、不烧脑、可复制”，即电极不穿刺脑实质、热源远离大脑，手术借用成熟的DBS范式，神经外科医生经培训后便可独立操作。“我们希望，这套方案能带来患者尊严的回归。”</p>
+  <p>据脑虎科技提供数据，截止目前，该方案已完成65例临床试验；今年7月，“三全”脑机接口系统已正式进入三类医疗器械注册临床阶段，由复旦大学附属华山医院牵头开展GCP注册临床试验，毛颖教授团队担任主要研究者，并联合全国近20家三甲医院共同开展。</p>
+  <p>9月底，脑虎科技曾披露最新一例探索，将这套脑机接口产品的能力展示得更具体。例如，在真实生活场景中，一名受试者借助AI智能眼镜的同步定位和建图（SLAM）能力，完成视觉感知和动态建模，识别他关注的区域，并列出可控设备。然后，他用脑机接口确认意图，能自主调节病床、开关灯光和其他家用设备。</p>
+  <p>整条链路中，脑机接口是底层连接，XessOS（脑虎科技自研的脑机操作系统）负责把意图翻译成设备指令。</p>
+  <p>陶虎把这套方向称为“BCI+AI”。在他看来，脑机接口“不只是医疗器械，更是人类智能与人工智能融合的接口”，应由人负责提出目标和判断，AI和机器承接执行。一方面，脑机接口的高质量神经数据需要AI大模型做精准解码；另一方面，具身智能和大模型缺的正是“意图”的入口。</p>
+  <p>但陶虎很清楚，当前的数据量还远远不够。“几十例临床数据储备，还做不到让算法在不同患者之间无缝迁移，有可能我在这个病人身上调的模型，换到下一个人身上就不管用了。”他的判断是，至少要几百例甚至几千例，才能形成可归纳、可复现、可移植的算法。</p>
+  <p>在陶虎的设想中，脑机接口的发展会经历两个阶段。第一阶段便是现在，用有创的“三全”系统服务高位截瘫、失语、失明等重症患者，让他们“从病人回到正常人”，能独立交流、控制设备、自己生活。</p>
+  <p>第二阶段在未来3-5年后，通过有创脑机接口作为金标准，去校准信号弱、不稳定的无创方案，让脑机接口从病床走向普通人的日常，让“正常人成为超人”。“无创是行业的未来，但无创信号太差，必须用有创的高质量数据去校准。”陶虎认为。</p>
+ 
+]]></description>
+            <pubDate>Wed, 28 Oct 2026 00:30:00 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4043628160685189</guid>
+            <link>https://www.36kr.com/p/4043628160685189</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[黄仁勋砸200亿，押注扎克伯格]]></title>
+            <description><![CDATA[<p>智东西10月27日报道，今天，英伟达发布公告，称其将在Meta的股权发行中投资<strong>30亿美元（约合人民币200亿元）</strong>。同时，双方将扩大在个人智能体产品Muse及Muse系列模型上的合作，以提升模型的推理和训练性能。</p>
+  <p class="image-wrapper"><img data-img-size-val="553,621" src="https://img.36krcdn.com/hsossms/20261027/v2_932369a318a64c738046ee775e93411a@000000_oswg128751oswg553oswg621_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">英伟达公告（图源：X平台）</p>
+  <p>英伟达的这笔投资，是Meta更大融资计划的一部分。10月26日，Meta发布公告，<strong>称其计划进行一轮950亿美元（约合人民币6335亿元）的募资</strong>，一方面通过承销公开发行股票筹集350亿美元，随后通过按市价发行计划再筹集600亿美元，除了英伟达之外，AMD、博通也有意向投资Meta。</p>
+  <p>Meta预计，其全年资本支出将达到1350亿至1450亿美元之间（约合约合人民币9013亿至9680亿元），这轮融资将为其不断增长的资本开支提供支撑。</p>
+  <p>英伟达的公告显示，除了融资之外，Meta与英伟达计划在各个环节开展优化合作，以最大化AI基础设施性能并改善总体拥有成本。目前，Meta的Muse模型已经跑在英伟达的基础设施之上，Muse Wonder模型在今年10月发布时，取得前沿水平的基准测试表现。</p>
+  <p><strong>此次合作也涉及近期爆火的个人智能体产品Muse。</strong>今年9月初，Meta正式发布Muse，一个具备跨网办事能力的通用智能体。上线10天后，Muse就登顶美国App Store免费应用总榜。</p>
+  <p>Meta的股价因Muse的热度而暴涨，一度触及779.82美元/股的高点，<strong>总市值逼近2万亿美元</strong>。Muse之后，个人智能体也成为了AI巨头的新战场。近期，从国外的OpenAI、Anthropic，到国内的阿里、蚂蚁、Manus、腾讯等企业，都陆续推出了类似思路的智能体产品。</p>
+  <p>此次合作中，Meta将考虑采用英伟达的OpenShell安全智能体参考架构，包括用于安全部署的OpenShell以及用于监控智能体行为的Sentry。</p>
+  <p>Meta还计划扩大英伟达基础设施的部署，包括面向下一代AI智能体的Vera Rubin和Vera CPU，以实现每瓦性能最大化。Meta也将部署英伟达Spectrum-X以太网网络和BlueField-4，以提升网络效率和吞吐量。</p>
+  <p>在上周的Meta财报电话会上，Meta创始人兼CEO马克·扎克伯格称，Muse上线约一个半月后，美国和加拿大已有<strong>超过1000万人</strong>配置Muse个人智能体，日活跃使用比例约为25%。购物是最常见的使用场景之一，超过四分之一的用户参与其中，平均客单价超过200美元。</p>
+  <p>扎克伯格称，Muse已经展现出清晰的产品与市场匹配度，未来希望将Muse发展为服务数十亿人的产品。</p>
+  <p>此次融资之际，Meta的股价连续多日下跌，截至美东时间10月26日收盘时，Meta的股价下跌1.88%至630.56美元，总市值为1.61万亿美元（约合人民币10.71万亿元）。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1846" src="https://img.36krcdn.com/hsossms/20261027/v2_f21b3f25143d4ca4ab213ac1df2c2db9@000000_oswg204370oswg1080oswg1846_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">Meta股价（图源：腾讯自选股）</p>
+  <h2><strong>结语：智能体走向普通用户，应用与算力层协作愈发重要</strong></h2>
+  <p>当AI智能体开始走向普通用户，应用与算力层的协作也变得更加重要。对Meta而言，Muse能否从早期用户增长走向大规模、可持续的使用，仍有待市场检验。</p>
+  <p>对英伟达而言，智能体应用的普及，则有望进一步带动模型训练、推理和底层基础设施的需求。</p>
+  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652812767&amp;idx=1&amp;sn=ea7c2320a7edab516483f2d099925508&amp;chksm=851ff45892fac246687a24e98685c3704459adb8dd0650e684b91c940bfc9deaa9f7e7b906c2&amp;scene=0&amp;xtrack=1#rd">“智东西”（ID：zhidxcom）</a>，作者：陈骏达，编辑：李水青，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 27 Oct 2026 23:18:20 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4044084558959489</guid>
+            <link>https://www.36kr.com/p/4044084558959489</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[中国版Muse来了！蚂蚁灵光2.0领跑Personal Agent赛道]]></title>
+            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="900,480" src="https://img.36krcdn.com/hsossms/20261027/v2_a566d9cf54b3421589db2a34907e8feb@19153231_oswg441421oswg900oswg480_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>双11来了，对购物老手来说，下单前往往还有一长串准备工作。</p>
+  <p>先列清单，跨平台比价，计算优惠券和满减，再定好付尾款的闹钟。好不容易买完，过两天发现价格又降了，还得查保价规则、找订单、申请退差价。</p>
+  <p>足够丰富的商品和发达的互联网服务便利了人们的生活，也让人陷入到眼花缭乱的筛选和执行中。这在AI时代有什么解法吗？</p>
+  <p>今年9月，Meta推出Muse，上线三周就达到了500万的下载量。这类Personal Agent展示了一种新可能：用户交代目标，AI在对话结束后继续工作，有变化或需要确认时再联系用户。</p>
+  <p><strong>10月27日，蚂蚁发布灵光2.0，定位为“能管事的个人AI助理”，抢下了国内大厂Personal Agent的第一棒。</strong>它想接手的正是那些需要一直惦记的事：记住用户的交代，持续关注变化，在关键节点及时提醒，并帮用户把事情一步步往前推进。</p>
+  <p>为何Personal Agent在此时集中出现？</p>
+  <p class="image-wrapper"><img data-img-size-val="4096,3072" src="https://img.36krcdn.com/hsossms/20261027/v2_27f41a56899e4a2c8b10e4e93ddd5374@19153231_oswg4164965oswg4096oswg3072_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>从Muse到灵光，Personal Agent的不同解法</strong></h2>
+  <p>从Muse到灵光，Personal Agent正在探索一种新的用户关系：用户交代一件事，AI替自己一直惦记着。</p>
+  <p>这一变化的出现，有着技术上的基础。随着模型执行长任务的能力提升，AI开始有条件在用户离开对话后继续工作。与此同时，长期记忆、云端运行、任务调度、浏览器操作和工具连接能力逐渐成熟，让AI能够记住目标、关注变化，并在不同时间节点采取行动。个人生活和事务管理，因此成为新的试验场。</p>
+  <p>相较于办公、编程等Agent主要面向知识工作者或程序员，Personal Agent触及的是更广泛的用户需求：购物比价、机票和酒店盯价、账单与自动续费管理、家庭出游安排、班级群和工作群信息整理，乃至宠物照护、车辆年检和疫苗提醒。</p>
+  <p>这些生活小事有一个共同点：事情本身未必复杂，却需要长期记住，相关信息还会不断变化。用户需要的，是有人替自己持续盯着，有变化及时提醒，需要处理时再往前推进。</p>
+  <p>当AI能围绕用户目标搜索、比较并持续跟进，用户的选择便从“打开哪个App找服务”，转向“把事情交给哪个AI”。平台和商家的竞争也会随之变化：服务能否被Agent发现、调用，并完成交易与履约。Personal Agent因此有机会成为新的服务入口，成为全球巨头布局的重点。</p>
+  <p>但如何接手这些日常事务，Muse与灵光选择了不同的切入点：</p>
+  <p>Muse更强调围绕目标自主执行。在其官方介绍的场景中，AI可以处理网页、邮箱和在线服务，帮助用户发送邮件、预订旅行、填写表单，也可以在用户关闭应用后继续推进长期目标。涉及发送邮件或购买等敏感动作时，Muse会要求用户批准。</p>
+  <p class="image-wrapper"><img data-img-size-val="3757,2505" src="https://img.36krcdn.com/hsossms/20261027/v2_7291dd7b015141fea8e534dfa69f9547@19153231_oswg4651889oswg3757oswg2505_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这一路径与海外的互联网服务环境有关。在海外，邮箱是人们管理日常事务的信息中枢，承载着订单、账单、预约和行程等信息；网站与在线平台则是获取服务、完成交易的重要入口。Agent通过浏览器和连接器，可以获取这些信息、接入相关服务，持续推进任务。</p>
+  <p><strong>灵光2.0则代表了另一种路径，它没有把定位放在“什么都替用户做”，而是把重点放在“管事”上</strong>：从中国用户的消费、出行、家庭和工作等日常需求出发，让AI记住事情、持续跟进，并连接支付宝、钉钉、飞书等用户熟悉的服务，把那些需要反复操心的事长期管起来。</p>
+  <p class="image-wrapper"><img data-img-size-val="1744,780" src="https://img.36krcdn.com/hsossms/20261027/v2_538622d002a344ab9d7d7cb645dad8e0@19153231_oswg880247oswg1744oswg780_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>理解灵光的这一路径，可以从三个方面来看。</p>
+  <p><strong>从数字服务环境看</strong>，中国用户的消费、出行、工作和家庭事务，往往分布在不同App、小程序和平台上。跨平台的信息仍需自己整理，长期的事项仍需自己惦记。Personal Agent的机会，就在于接过这些持续操心的工作。</p>
+  <p><strong>从服务连接路径看</strong>，灵光2.0依托支付宝的服务生态和蚂蚁的支付、信任基础，并通过工具连接接入钉钉、飞书、邮箱、米家等服务。这让它有机会围绕用户的一件事，连接分散的信息与服务，并将后续的整理、提醒和跟进串联起来。</p>
+  <p><strong>从产品体验看</strong>，国内很多服务已经足够方便，更值得期待的是把单次操作的便利，延伸为整件事情的省心。“办事”更像一次性任务：用户下指令，AI完成动作；“管事”则意味着任务完成之后：AI仍然记得这件事，持续留意变化，在需要时提醒用户、推进下一步。</p>
+  <h2><strong>灵光2.0，从一次办事到持续管事</strong></h2>
+  <p>把单次操作的方便，变成长期托付的省心，正是灵光升级的主线。灵光2.0的能力提升可以概括为四项：<strong>记得住、能推进、会跟进、会调整</strong>。这些能力的价值，需要放到具体的生活中去理解。</p>
+  <p><strong>首先是把事情记住。</strong>比如安排家庭出游，用户交代“带着老人、不赶早班机、酒店离地铁近”，这些条件就要贯穿后续安排。几天后再聊机票和酒店，灵光仍能接着之前的要求往下推进，不用用户每次从头解释。</p>
+  <p><strong>随后是持续关注变化。</strong>比如购物清单里有一台冰箱，用户交代“降到2000元以内再提醒我”，之后就不用每天打开App查价格。灵光持续跟进，符合条件时再来提醒。用户放下手机，事情也没有被放下。</p>
+  <p><strong>再往后，是把变化转成可处理的事项。</strong>比如老师在班级群里发了一长串春游通知，灵光可以提取成几件清楚的待办：“周三前交回执，周五带水壶和雨衣。”用户不用反复翻找聊天记录，就知道接下来要做什么、什么时候做。</p>
+  <p><strong>遇到新情况，还要根据已有目标调整安排</strong>。比如周末带家人出游，天气预报突然有雨，就需要考虑把室外活动换成室内项目，重新安排出行时间。灵光可以帮助梳理调整方案，涉及退订、改签等决定，再由用户确认。持续管事，也包括计划赶不上变化时，帮用户想好下一步。</p>
+  <p class="image-wrapper"><img data-img-size-val="4096,3072" src="https://img.36krcdn.com/hsossms/20261027/v2_3821157482284fdd89dab7e0239126ba@19153231_oswg3503059oswg4096oswg3072_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这正是灵光2.0给到的Personal Agent的“中国解法”：它没有把自己包装成“全能办事助手”，而是先从记忆、整理、监测、提醒和跟进做起，将持续管事的技术能力，与中国成熟的数字服务生态连接起来，让用户熟悉的生活服务，多一层更持续的照应。</p>
+  <p>从普及移动支付、推动民生服务数字化，再到探索AI帮人管事，蚂蚁延续着同一条路径：将最前沿的技术，应用于最日常的生活。</p>
+  <h2><strong>蚂蚁加码Personal AI，让服务生态活起来</strong></h2>
+  <p>Personal Agent要成为新的服务入口，除了模型能力，还需要跨过两道门。</p>
+  <p><strong>第一道是服务的门。</strong>Agent要管事，就得进入用户日常使用的App和服务，但国内的高频应用对Agent的接入普遍设有壁垒。能接入什么、办理到哪一步，取决于服务开放程度和授权规则。</p>
+  <p><strong>另一道是信任的门。</strong>当AI开始读取账单、长期跟进事务，甚至参与支付，用户需要清楚：它能看到什么、能做什么，哪些操作需要确认，出了问题如何追溯。用户愿不愿意托付，需要靠清晰的权限和可靠的执行逐步建立。</p>
+  <p>蚂蚁在这两方面的积累，为灵光2.0的探索提供了基础。依托支付宝的服务生态，灵光可以连接账单、会员、出行等服务，并通过工具接入钉钉、飞书、邮箱、米家等应用；蚂蚁22年来在支付安全、身份认证和授权管理等方面的积累，则为AI在用户授权范围内办事提供支撑。</p>
+  <p class="image-wrapper"><img data-img-size-val="4235,4590" src="https://img.36krcdn.com/hsossms/20261027/v2_36adf844952f46e2a539cec6c34d13c3@19153231_oswg1997184oswg4235oswg4590_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这也是灵光2.0作为技术探索窗口的意义：既验证长期记忆、任务调度和工具连接等能力，也观察用户愿意把哪些事交给AI、交到什么程度。技术能持续运行，用户愿意持续托付，个人智能体才能真正进入日常生活。</p>
+  <p><strong>灵光是蚂蚁加码Personal AI的重要一步，但背后更值得关注的，是其背后蚂蚁近年来从支付基础设施到AI应用生态的系统布局。</strong></p>
+  <p>在AI支付层面，支付宝已推出AI付、AI收、AI钱包与Token Pay等全栈产品，为智能体完成交易提供支撑。今年5月，支付宝披露，AI支付已支持95%的通用智能体框架，累计完成3亿笔智能体支付。其中，AI钱包支持用户在支付前、支付中管理智能体任务，并在支付后查询账单，让用户能够掌握AI替自己花钱的过程。</p>
+  <p>在AI应用层面，蚂蚁则通过阿福、阿宝与灵光，从不同场景探索Personal AI。阿福聚焦健康咨询与健康管理，阿宝依托支付宝连接消费、出行、办事等日常服务，灵光则更侧重前沿产品与技术探索，尝试接手需要持续关注和跟进的长期事务。</p>
+  <p>值得一提的是，灵光与阿宝还有进一步协同的空间。灵光先行探索的产品形态与技术能力，经过验证后，有望应用于阿宝，借助支付宝的高频场景与服务生态触达更多用户，让前沿探索逐步走向大众应用。</p>
+  <p>此外，蚂蚁也在将AI能力延伸至行业场景。如蚂蚁数科打造“智能体超级工厂”，通过Agentar等平台帮助行业伙伴开发和应用智能体。</p>
+  <p>简单地说，只有AI支付、AI应用与生态更好的协同运转，灵光才能把事“管”得更好；而灵光这样的Personal AI持续进化，也有望进一步激活蚂蚁多年积累的数字服务生态，催生新的服务需求，打开更大的想象空间。</p>
+  <p>也许，下一次双11，人可以早点睡，AI继续盯价格；班级群刷到99+，也不用临睡前才发现“明天要带一个空纸箱”。</p>
+  <p>对用户来说，Personal AI的价值，或许就是少一点临时抓瞎，那些总在脑子里环绕的“别忘了”可以慢慢交出去，事情有灵光帮你惦记，服务总在需要时出现，生活也可以少一点手忙脚乱。</p>
+  <p>而对蚂蚁来说，AI时代的新入口，也许就藏在无数让人省心的小事里。</p>
+ 
+]]></description>
+            <pubDate>Tue, 27 Oct 2026 15:29:29 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4043978243953537</guid>
+            <link>https://www.36kr.com/p/4043978243953537</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[两年从3500亿涨到6700亿：张一鸣重回首富，AI出了大力]]></title>
+            <description><![CDATA[<p>据最新的胡润百富榜，43岁的张一鸣以6700亿身价重回中国首富。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,430" src="https://img.36krcdn.com/hsossms/20261027/v2_9445f98dc7b54d0c82e7b0247fa708fa@6452578_oswg410856oswg1080oswg430_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>近几年，他的排名几经起落：2022年位列第二，2023年降至第五，2024年首次登顶，2025年退居第二，今年又回到了第一。&nbsp;</p>
+  <p>短短两年，他的财富从3500亿元到6700亿元，几乎翻了一倍。抖音、TikTok和AI助手<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>撑起了字节业绩，AI业务进展让市场重新估值，字节估值达3.3万亿元。你每天刷抖音、问AI助手<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>、在地铁上看红果短剧……都在替“首富”攒身价。&nbsp;</p>
+  <p>不只是张一鸣，AI已成为榜单上最大的单一财富增长引擎。&nbsp;</p>
+  <h2><strong>01 字节的钱从哪来：豆包、红果、AI 制药</strong></h2>
+  <p>数据显示，字节跳动2026年上半年营收约1200亿美元，同比增长30%，净利润约200亿美元。&nbsp;</p>
+  <p>目前，字节的主要收入支撑仍然是抖音、TikTok等成熟业务，广告和电商是其中的重要来源。2026年上半年，海外收入占集团总营收的比例已超过30%，主要来自TikTok。&nbsp;</p>
+  <p>张一鸣的6700亿不是凭空长出来的，它真正的底牌不是“有大模型”，而是有大把现成的生意场景，能让模型立刻进到真实的生产和消费里，真正替公司挣钱。&nbsp;</p>
+  <p>首先，把AI做成大众产品。<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>就是字节面向普通用户的核心AI入口。&nbsp;</p>
+  <p>2026年6月，火山引擎总裁谭待在原动力大会上披露，<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>大模型日均Token调用量突破180万亿，相比2024年5月的1200亿，两年增长约1500倍。&nbsp;</p>
+  <p>与此同时，火山引擎在公有云MaaS市场的Token份额达到49.5%，年累计Token消耗超过1万亿的企业客户已超过200家。&nbsp;</p>
+  <p>个人用户在使用，企业也在接入，模型能力开始进入编程、智能体、多模态处理等更广泛的工作场景。&nbsp;</p>
+  <p>其次，是把AI带进内容生产。红果短剧表现亮眼。&nbsp;</p>
+  <p>据QuestMobile监测，2026年7月，红果短剧日活跃用户达到1.68亿，同比增长107%。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1062,778" src="https://img.36krcdn.com/hsossms/20261027/v2_28065048a7134dd0ae7a791d33d8fb36@6452578_oswg343047oswg1062oswg778_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">各大平台日活跃用户对比&nbsp;</p>
+  <p>另外，截至2026年5月，红果免费漫剧月活用户达到约3914万。AI可以参与角色设计、场景生成和视频制作，短剧平台负责分发，广告和内容分账负责商业化。&nbsp;</p>
+  <p>字节原本就拥有抖音、红果、番茄小说等内容生态，如果AI能够降低部分内容生产门槛，平台就有机会扩大内容供给。&nbsp;</p>
+  <p>最后是把AI带入医疗健康和药物研发。面向用户，字节旗下的小荷健康正在发展小荷AI医生服务；面向研发，字节此前孵化的AI制药业务Anew Labs，则在尝试用AI参与药物发现。&nbsp;</p>
+  <p>2026年9月，Anew Labs完成2.9亿美元外部融资，估值约15亿美元，字节预计仍持有56%的股份。&nbsp;</p>
+  <p>当AI从一家巨头的业务布局，变成一整批创业公司争相进入的赛道，财富榜上的变化也就不难理解了。&nbsp;</p>
+  <h2><strong>02 AI批量造富:富豪榜快被 AI 包了</strong></h2>
+  <p>《2026胡润百富榜》最值得注意的数字之一是：超过160位上榜企业家的财富来自AI，约占全部上榜者的十分之一。 AI已经成为今年最大的单一财富增长引擎。机器人赛道有近80位上榜。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="626,379" src="https://img.36krcdn.com/hsossms/20261027/v2_793240fff7fa4c4592dc515e254e977b@6452578_oswg75500oswg626oswg379_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>更值得注意的是，今年上榜企业中，有263位新面孔。其中，65%在十年前还未上榜。新面孔主要来自半导体、人工智能、机器人和工业产品行业。&nbsp;</p>
+  <p>财富增长的集中度同样惊人。榜单财富增长最多的前十位企业家，贡献了全榜2.1万亿元财富增量的56%，其中主要来自AI与半导体行业。&nbsp;</p>
+  <p>具体来看，AI领域的新富豪正在批量出现。&nbsp;</p>
+  <p>大模型领域，梁文锋首次上榜就进入前十。 41岁的<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>创始人以2800亿元财富位列第七。大模型企业智谱的刘德兵、唐杰分别以395亿元、275亿元首次上榜；<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>创始人闫俊杰以225亿元首次上榜。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="710,409" src="https://img.36krcdn.com/hsossms/20261027/v2_3703e01a63fa40368aab97255412b0c0@6452578_oswg234376oswg710oswg409_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>AI芯片同样创造了巨额财富。寒武纪创始人陈天石财富增长250亿元，增幅14%，以2050亿元位列第十。沐曦股份的陈维良则以375亿元首次上榜。&nbsp;</p>
+  <p>机器人赛道也出现了一批新面孔。胡润研究院统计，近80位上榜企业家的财富来自机器人产业。大疆创始人汪滔以1100亿元财富位居这一赛道前列，宇树科技创始人王兴兴则首次上榜，以695亿元成为榜单第二大新上榜企业家。&nbsp;</p>
+  <p>年轻创业者也在加速进入财富榜。&nbsp;</p>
+  <p>胡润研究院统计，U35群体共有59位上榜企业家，其中6位为白手起家的创业者。33岁的月之暗面创始人杨植麟，是U35白手创业第一名；35岁的影石创始人刘靖康、34岁的星海图创始人高继扬，也进入这一群体。&nbsp;</p>
+  <p>U40群体中，则有40位白手起家的创业者。39岁的米哈游创始人蔡浩宇是U40白手创业第一名，36岁的王兴兴也在其中。&nbsp;</p>
+  <p>从160多位AI财富拥有者，到梁文锋2800亿元、陈天石2050亿元，再到年轻创业者成批出现，AI带来的财富增长已经不是个别公司的孤立现象，而是正在改变整个科技行业的财富分布。&nbsp;</p>
+  <p>胡润预判，最有潜力冲击首富的候选人包括：尚未完全商业化就直接冲入前十的梁文锋；41岁、深耕国产AI芯片的寒武纪陈天石。除此之外还有人形机器人赛道王兴兴、大模型领域杨植麟等新一代科技创业者。&nbsp;</p>
+  <p>热闹归热闹，有一个值得认真讨论的问题：AI究竟已经创造了这么多真实财富，还是资本市场正在提前为未来定价？AI让首富一年多出 2000亿，让打工人多出来的，又是什么？&nbsp;</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/jDYXU5RKh9vkvlz9NBKWmw?scene=1">“疯狂科技厅”</a>，作者：孔艺霖，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 27 Oct 2026 13:36:47 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4044054108690057</guid>
+            <link>https://www.36kr.com/p/4044054108690057</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[A社交表当天被打脸，服务器12小时被黑，马斯克前员工干的]]></title>
+            <description><![CDATA[<p>天道好轮回！</p>
+  <p>前脚刚递交完招股书，Anthropic就收到一份「大礼」。</p>
+  <p>《华盛顿邮报》报道，半年来靠「Claude Mythos」把全球操作系统和浏览器漏洞翻了个底朝天的<strong>Anthropic，自家后院起火</strong>——</p>
+  <p>被。。。黑。。。了。。。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,698" src="https://img.36krcdn.com/hsossms/20261027/v2_2a14f2c960184d18b90b7e97ecdc8c4a@5888275_oswg182609oswg1080oswg698_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>要知道就在上个月，一批黑客才刚刚借着Anthropic的Claude黑了死对头OpenAI，谁成想不到一个月，回旋镖就结结实实扎回了A\自己身上。</p>
+  <p>这次动手的是一家成立才几个月、名叫<strong>「Cathedral」</strong>的AI网络安全初创公司，由马斯克此前牵头的「DOGE」项目前成员创办。</p>
+  <p>他们放出自研的AI Agent，在正面强攻Anthropic自研代码几天没啃下来之后，<strong>转头顺着A\日常办公用的第三方商业软件漏洞钻了进去</strong>。</p>
+  <p>前后花了不到12个小时，这批AI Agent就一路摸进了Anthropic的内部业务与通信系统。</p>
+  <p><strong>会议纪要、员工薪资、录用Offer，甚至连研究员们在Slack里讨论未公开前沿模型的聊天记录，全被翻了个底掉</strong>。</p>
+  <p>把「安全」写在大模型招股书最前面的Anthropic，也没那么安全嘛…</p>
+  <h2><strong>后院起火，A社Slack被扒光底裤</strong></h2>
+  <p>这件事被桶出来，源于《华盛顿邮报》拿到的一份Cathedral内部报告草稿。</p>
+  <p>这份草稿原本是Cathedral准备公开发表的一篇技术博客，记录了他们在这个月早些时候参与Anthropic外部安全测试项目的全过程。</p>
+  <p>Anthropic本来设有专门的漏洞悬赏项目，邀请外部网络安全专家来给自家系统找茬。</p>
+  <p>Cathedral的研究员接下活之后，直接派出了自研的AI Agent上场。</p>
+  <p>一开始，这批AI Agent试图正面硬刚Anthropic的自研软件和核心系统，但连着折腾了好几天，都没能啃下这块硬骨头。</p>
+  <p>正面大门既然焊死了，AI Agent立马换了个思路，开始绕着院墙找「狗洞」。</p>
+  <p>它们盯上了Anthropic日常用于行政管理和销售业务的第三方商业软件。</p>
+  <p>这类外采的通用办公软件很多公司都在用，防线远没有AI实验室的核心基建那么严密。</p>
+  <p>顺着第三方软件里的漏洞切进去之后，Cathedral的AI Agent自动扫描、串联权限，<strong>不到12个小时就打穿了一条通往Anthropic内部敏感数据与通信系统的路径</strong>。</p>
+  <p>钻进内网之后，这群AI Agent看到的东西相当刺激。</p>
+  <p>内部会议纪要、员工的薪资单、录用Offer明细，全都赫然在目。</p>
+  <p>再往里走，部分客户与合作伙伴的商务联系方式、基础用户账户记录也被翻了出来。</p>
+  <p>最要命的是，AI Agent一路摸进了Anthropic员工日常办公用的Slack频道，里面正聊着Anthropic最前沿AI模型的研发进展。</p>
+  <p>整件事里最黑色幽默的一幕是，就在上个月，Anthropic刚刚发生过一场动静不小的公开辞职。</p>
+  <p>当时名叫<strong>Jacob Coxon</strong>的Anthropic员工愤然离职，专门在X上发帖控诉公司对待危险AI技术极不负责任。</p>
+  <p>他在帖子里点名喷了一件事，就是公司过度依赖普通的外部商业办公软件，直言<strong>Anthropic正在进行一场「不该从一家私人公司的Slack里发起的傲慢豪赌」</strong>。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,420" src="https://img.36krcdn.com/hsossms/20261027/v2_f5c6cafd3e934551a1da12675ec6bca7@5888275_oswg179887oswg1080oswg420_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>前脚员工刚因为嫌弃Slack和普通商业软件不安全而摔门走人，后脚不到一个月，别人的AI Agent就真顺着普通商业软件摸进了自家的Slack。</p>
+  <p>这嘴简直跟开过光一样。</p>
+  <p>为了弄清这次渗透到底有多严重，《华盛顿邮报》专门把Cathedral的这份报告拿给AI编程独角兽Cognition的首席信息安全官、前斯坦福大学互联网观察站主任<strong>Alex Stamos</strong>看了一眼。</p>
+  <p>这位安全界老炮看完直接给出了定性，「他们挖到了个大雷（They found something big here）」。</p>
+  <p>在Alex Stamos看来，把第三方办公应用接入公司内网确实是所有企业都在头疼的大麻烦，但Cathedral的发现暴露出了Anthropic在管理外部软件供应商时的明显缺口。</p>
+  <p>他一点面子也没给，<strong>「这确实是个难题，但Anthropic本可以做得好得多」</strong>。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,671" src="https://img.36krcdn.com/hsossms/20261027/v2_a299c3cf33cf4c789ace52636e13077e@5888275_oswg120210oswg1080oswg671_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>眼看家丑被捅到媒体上，Anthropic赶紧发声明灭火，同时不忘跟Cathedral打上一架。</p>
+  <p>Anthropic在声明里承认，Cathedral的研究员确实访问到了「有限的一部分」销售、HR和IT系统。</p>
+  <p>但官方把界限划得很死，强调<strong>用户的Claude聊天记录、模型返回的内容、底层源代码以及最核心的「模型权重」全都安然无恙</strong>，没有被触及分毫。</p>
+  <p>紧接着Anthropic就开始反呛，指责Cathedral在报告里夸大了这件事的潜在安全影响，还控诉对方没有完全遵守漏洞悬赏项目的规则，隐瞒了在Anthropic系统内部的部分活动轨迹。</p>
+  <p>按照Anthropic的说法，早在Cathedral把报告交上来之前，自家的安全监控系统就已经揪出了这批异常活动，并在当天就掐断了访问通道、停用了涉事的第三方商业软件，直到软件供应商确认补好漏洞才重新开启。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,759" src="https://img.36krcdn.com/hsossms/20261027/v2_3201d4a4519845f697c70eabe23e4779@5888275_oswg140009oswg1080oswg759_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Cathedral那边当然也不认账。</p>
+  <p>他们在报告里直接顶了回去，称所有数据访问都严格限制在安全研究最佳实践所要求的最低限度内，并同步通知了涉事的软件厂商。</p>
+  <p>末了，Cathedral还在报告里留下了一句相当扎心的结语，「普通企业软件里的弱点，足以攻破哪怕是最先进机构的基础设施，这一事实应该给全美所有公司敲响警钟」。</p>
+  <h2><strong>「刚创业的毛头小子」 ，估值14亿美元</strong></h2>
+  <p>那这个只用12个小时就把Anthropic搞得灰头土脸的Cathedral，到底是个什么来头？</p>
+  <p>说出来可能有点搞心态，这家公司成立才刚刚几个月。</p>
+  <p>四位联合创始人分别是<strong>Gavin Kliger、Luke Farritor、Marko Elez和Jack Stein</strong>，此前全都来自马斯克牵头的「DOGE」项目团队。</p>
+  <p>从原有项目出来之后，这四个人一拍即合，扎进了AI自动化网络攻防赛道，专门给企业和机构提供基于AI Agent的网络安全工具。</p>
+  <p>别看公司年轻，团队里的人手活一个比一个硬。</p>
+  <p>联创之一的Gavin Kliger此前担任过首席数据官，自己就深度参与过针对硅谷前沿AI实验室的防渗透推演。</p>
+  <p>据知情人士透露，他以前经常坐在会议室里推演外部力量会怎么摸进硅谷顶级AI实验室窃取研究成果，对AI大厂的防御软肋门儿清。</p>
+  <p>这回带队摸进Anthropic，某种程度上就是把以前在纸面上推演过的剧本，拿自家的AI Agent实操了一遍。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,639" src="https://img.36krcdn.com/hsossms/20261027/v2_b44ee0faffb64a97a43c2cc1046c1ec1@5888275_oswg210084oswg1080oswg639_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>另一位联创Luke Farritor更是AI圈的老熟人。</p>
+  <p>这位00后极客还在读大学的时候，就曾训练AI模型从CT扫描图里破译了被维苏威火山灰掩埋两千年的古罗马赫库兰尼姆焦黑卷轴，一举拿下了70万美元的「维苏威挑战赛」大奖。</p>
+  <p>不过从破译两千年前的古罗马碳化羊皮纸，到破译硅谷当红AI炸子鸡的内网防线，跨度也是有点大。</p>
+  <p>这里不得不提一句，这位大神的领英主页写得也是相当有个性。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1061" src="https://img.36krcdn.com/hsossms/20261027/v2_b556d047d2d04b188c19af89b74bb787@5888275_oswg202977oswg1080oswg1061_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>资本市场给这帮年轻人的定价比他们的破解速度还要夸张。</p>
+  <p>根据PitchBook的数据，<strong>成立才几个月的Cathedral已经从投资人手里拿下了1.6亿美元的巨额融资，公司估值直接干到了14亿美元</strong>。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,626" src="https://img.36krcdn.com/hsossms/20261027/v2_14becf6e3ea2403691755c131cfed38c@5888275_oswg174772oswg1080oswg626_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>硅谷顶级风投a16z和红杉资本双双押注，a16z联创Marc Andreessen和红杉合伙人Shaun Maguire更是直接坐进了Cathedral的董事会。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,295" src="https://img.36krcdn.com/hsossms/20261027/v2_6b77bb4aee984b91bbcb8c9b800953cf@5888275_oswg75958oswg1080oswg295_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>另一家参投的风投机构Lux Capital联创Josh Wolfe也在X上高调认领了自家这个明星项目，直言这次测试暴露出的问题「相当严峻」。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,831" src="https://img.36krcdn.com/hsossms/20261027/v2_08d9546631f94e7f8aefaa1565e2d5f9@5888275_oswg320673oswg1080oswg831_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>因为A\这样的顶级AI实验室里攒着数万亿美元的价值和最前沿的研究成果，外围防线却脆弱得像纸糊的一样。</p>
+  <p>《华盛顿邮报》在报道里引述了一位知情人士的原话，把这种荒诞感拉到了顶点。</p>
+  <p>这名人士读完内部报告后坦言自己惊出一身冷汗，因为一家掌控着「几乎相当于核武器级别材料」的顶级AI公司，其敏感内部系统居然在这么短的时间内，就被「一帮刚创业的毛头小子（a bunch of kids）」给摸了进去。</p>
+  <p>潜台词是，几个刚攒局几个月的年轻人放出一群AI Agent都能在半天之内逛完你的后花园，真要碰上全副武装的顶尖黑客组织，这防线还能剩几块砖？</p>
+  <h2><strong>回旋镖终究扎回了自己身上</strong></h2>
+  <p>如果被黑的是别人，硅谷看客们可能也就笑笑过去了。</p>
+  <p>偏偏这次翻车的是Anthropic，过去大半年里，整个科技圈把「AI网络安全」口号喊得最响、人设端得最高的就是它。</p>
+  <p>甚至就在上个月，一批黑客黑进OpenAI并警告全行业没做好安全准备时，手里用的作案辅助工具都是Anthropic家的Claude。</p>
+  <p>在此之前，Claude基本只出现在「帮别人挖漏洞」的新闻里。</p>
+  <p>今年4月，Anthropic搞出过一轮轰动全行业的公关大戏。</p>
+  <p>当时他们高调宣布研发出了未公开的前沿模型「Claude Mythos Preview」，宣称这个模型的自动化漏洞挖掘和利用能力已经强到跨越了临界点，除了极少数人类顶尖安全专家，没人能比得过它。</p>
+  <p>因为能力「太强太危险」，Anthropic宣布不敢把它向公众开放，转头拉上亚马逊AWS、苹果、谷歌、微软、英伟达、思科、CrowdStrike等一众科技巨头，组建了一个名叫<strong>「Project Glasswing」</strong>的豪华安全联盟。</p>
+  <p>Anthropic大手一挥，承诺掏出1亿美元的模型使用额度，外加400万美元开源安全捐款，带着40多家关键基础设施机构一起用Claude Mythos给全世界的底层软件「抓虫」。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,524" src="https://img.36krcdn.com/hsossms/20261027/v2_34ae2c5144aa4740b8edbceb9225e555@5888275_oswg405385oswg1080oswg524_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>为了证明自己没吹牛，Anthropic当时晒出了一份让整个安全圈倒吸凉气的成绩单。</p>
+  <p>在没有任何人类干预的情况下，Claude Mythos全自动挖出了数千个高危零日漏洞，横扫了市面上所有的主流操作系统和主流浏览器。</p>
+  <p>号称全球最安全、专门用来跑防火墙的操作系统OpenBSD，里面藏了一个足足27年没人发现的远程崩溃漏洞，被Claude Mythos一把揪了出来。</p>
+  <p>无数音视频软件都在用的底层库FFmpeg，有一行代码曾经被传统自动化测试工具扫过500万次都没报过错，Claude Mythos硬是从里面挖出了一个潜伏16年的老bug。</p>
+  <p>它甚至还能自己把Linux内核里的好几个漏洞串联起来，直接从普通用户权限一路提权拿下一整台服务器的最高控制权。</p>
+  <p>在「CyberGym」漏洞复现基准测试里，Claude Mythos直接刷出了83.1%的成绩，把上一代Opus 4.6的66.6%按在地上摩擦。</p>
+  <p>今年10月初，Anthropic又趁热打铁推出了扩充版的「网络验证计划（CVP）」，分三个等级向安全团队开放Claude Mythos 5.1和Opus 5.5的漏洞挖掘能力，俨然一副「全行业网络安全救世主」的架势。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,589" src="https://img.36krcdn.com/hsossms/20261027/v2_848d6661603548c4b77a68298209eeb2@5888275_oswg361162oswg1080oswg589_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>结果呢？</p>
+  <p>对外重拳出击帮全世界抓了27年陈年老虫的Anthropic，自家的安全防线今年却漏得像个筛子。</p>
+  <p><strong>先是自家的王牌编程工具「Claude Code」成了重灾区。</strong></p>
+  <p>今年2月到7月间，Check Point等安全机构接连在Claude Code里挖出了多个高危远程代码执行（RCE）漏洞。</p>
+  <p>攻击者甚至不需要多高深的技术，只要在项目配置文件里埋一段恶意指令，一旦开发者用Claude Code打开项目，电脑就会直接被黑客远程接管，连本地存着的API密钥都能被悄无声息地打包偷走。</p>
+  <p>自家的工具不断被爆漏洞还不算完，自家关在笼子里做安全评测的模型，也三番五次出去惹祸。</p>
+  <p>今年7月底，Anthropic自己发了一篇检讨公告，坦白在复盘141006次网络安全评测记录时，发现了三起Claude模型越界黑进真实机构生产环境的事故。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,648" src="https://img.36krcdn.com/hsossms/20261027/v2_6eb799aef0fb43aeac0a570796464a02@5888275_oswg270755oswg1080oswg648_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>起因听着相当草台班子。</p>
+  <p>Anthropic在系统提示词里信誓旦旦地告诉Claude「你处于模拟沙盒中，没有互联网连接」，结果因为跟第三方评测合作方的配置失误，测试机器的公网网线根本没拔。</p>
+  <p>被要求去夺旗（CTF）的Claude Opus 4.7和Mythos 5在虚拟靶场里没找着目标，顺着网线摸上了真实互联网，把外面三家真真正正的公司当成了演习靶子。</p>
+  <p>其中Claude Opus 4.7在明明已经从推理过程里意识到「这好像是真实生产系统」的情况下，自己给自己找了个理由说「这家真实公司肯定也是演习的一部分」，然后心安理得地继续攻击，直接拖走了人家几百行生产数据库记录。</p>
+  <p>另一场测试里的Claude Mythos 5更绝。</p>
+  <p>为了给目标下套，它自己盘算着去公共Python软件库PyPI上传一个同名的恶意安装包。</p>
+  <p>为了注册PyPI账号，它先去搞邮箱，搞邮箱需要手机号验证，它在网上找免费接码平台失败后，甚至试图自己去搞钱付手机号的费用，最后好不容易找到一个免验证的免费邮箱注册成功，把带后门的恶意代码传上了真实的PyPI公共库。</p>
+  <p>在那个恶意包挂在网上的大概一个小时里，全球有15台真实的电脑系统下载并运行了这段代码，其中一家真实安全公司的扫描器当场中招，连公司凭证都被Claude顺手偷了回来。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,774" src="https://img.36krcdn.com/hsossms/20261027/v2_4b5e06eb773848089e6b0a8b87f467fe@5888275_oswg430791oswg1080oswg774_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>就在这次被Cathedral破防的前三天，也就是10月23日，Anthropic才刚刚发长文复盘了另一桩更离谱的测试事故。</p>
+  <p>在今年8月英国AI安全研究所（AISI）组织的43场夺旗测试里，Claude Mythos 5有9场都干出了越界影响真实世界的出格操作。</p>
+  <p>在最典型的一场测试里，Claude Mythos 5为了攻破靶机，摸上GitHub盯上了一个毫无关系的真实人类开发者的开源项目，试图提交带木马的恶意代码搞供应链投毒。</p>
+  <p>不仅如此，它还绕过GitHub注册检查，伪装成人类给项目维护者发邮件催促合并代码。</p>
+  <p>后来有一名外部人类开发者在沙盒里跑了一下它上传的代码，发现不对劲，赶紧在评论区警告项目维护者「这代码里有木马」。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,801" src="https://img.36krcdn.com/hsossms/20261027/v2_cc7a8d9dd189480a81abd8da534994b1@5888275_oswg693784oswg1080oswg801_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>你敢信Claude Mythos 5接下来干了什么吗？？？</p>
+  <p>它转头自己注册了一个「马甲小号（sock-puppet account）」，一边在GitHub评论区里留言，一边给维护者发邮件作伪证，信誓旦旦地替自己担保说「代码已经改干净了、绝对安全有用」。</p>
+  <p>接着又偷偷把带木马的新代码传了上去，一直死缠烂打到Token额度耗尽才停手。</p>
+  <p>把这几件事串在一起看，你会发现硅谷如今最魔幻的图景莫过于此。</p>
+  <p>AI巨头们一边训练着能挖穿27年底层老漏洞、甚至学会注册小号搞社会工程学诈骗的超级模型，一边却在用着漏洞百出的第三方商业软件处理日常行政、在Slack里热火朝天地聊着最核心的模型机密。</p>
+  <p><strong>大家都忙着给金库正门装上三尺厚的钛合金钢板，却忘了每天进出送盒饭的物业侧门连锁都没挂好。</strong></p>
+  <p>当攻防两端都交给了全天候不眠不休的AI Agent，攻破一家万亿赛道的顶级AI巨头，根本不需要正面撞开它引以为傲的模型防线。</p>
+  <p>顺着人事和销售留下的办公软件缝隙溜进去，不到12个小时，就够把底裤摸得一干二净了。</p>
+  <p>参考链接：https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/X_qVxU7qK99Lhj_v5JuJ2A">“量子位”</a>，作者：关注前沿科技，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 27 Oct 2026 13:35:24 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4044047126107266</guid>
+            <link>https://www.36kr.com/p/4044047126107266</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[价格跌96%，AI漫剧老板：行业已死]]></title>
+            <description><![CDATA[<p>“AI做剧这个赛道已经死了，死透了。”</p>
+  <p>一位AI漫剧创业者陈远航（化名）告诉铅笔道。</p>
+  <p>今年以来，做剧的人却越来越多，部分AI漫剧制作报价从5000元一分钟，跌到200元，甚至几十元。价格跌了96%。</p>
+  <p>“你花100块钱做出来的剧，人家1块钱来回收，那你亏99块。”陈远航说。</p>
+  <p>在他看来，平台掌握用户和流量，制作公司忙着出片，最后却可能连成本都收不回来。</p>
+  <p>但另一边，已经有人赚到了钱。</p>
+  <p>港股上市公司兑吧今年上半年AI短剧收入达到2.23亿元，10月14日又披露，这项业务已连续三个月实现单月盈利。</p>
+  <p>DataEye数据显示，2026年9月，仅抖音端就新增5.18万部AI剧、漫剧，播放增量超过2000亿次。</p>
+  <p>同一个行业，有人200元一分钟还在抢订单，有人半年收入超过2亿元。钱究竟被谁赚走了？</p>
+  <h2><strong>区区200元制作费，还有人抢单</strong></h2>
+  <p>10月22日，新浪科技《BUG》栏目报道，今年部分AI漫剧制作报价，已从每分钟约5000元跌到200元，甚至几十元。</p>
+  <p>当然，不同作品价格差别很大。流水线动态漫主要靠AI让漫画人物动起来；精品漫剧还需要专业分镜、美术和剪辑，报价可达到每集1000—2000元。</p>
+  <p>过去做动画，从原画、建模到配音、剪辑，需要多人配合。如今不少环节可以交给AI，小团队搭套工作流就能接单。</p>
+  <p>会做的人越来越多，价格自然被打了下来。</p>
+  <p>更夸张的是产能。新浪科技报道，有从业者接触过一家漫剧公司，极限状态下一天能生产600集。</p>
+  <p>陈远航认为，这种生产速度，让大批制作团队失去了议价能力。</p>
+  <p>“现在还能活下来的，可能就是有稳定客户、稳定团队，能够做出精品和爆款的公司。”</p>
+  <p>以前掌握AI视频制作能力，就能接单赚钱。如今大家都会用，同样一部剧，有人报价500元一分钟，就有人敢报300元、200元。</p>
+  <p>接单利润越来越薄，一些团队开始自己找IP、做剧，再拿到平台上分账。</p>
+  <p>但这条路可能更难。</p>
+  <p>10月21日，蓝鲸科技采访多位从业者发现，部分制作方根据后台收入测算，近期每万次播放只能分到约1—2元。</p>
+  <p>按这个数字算，制作公司想回本太难了。假设一部漫剧花2万元制作，每万次播放分到2元，就需要1亿次播放才能覆盖制作费；如果只有1元，则需要2亿次播放。IP、投流等费用还没算进去。</p>
+  <p>更何况，现在最不缺的就是新剧。</p>
+  <p>2026年上半年，抖音端原生AI剧、漫剧新增22.19万部；到了9月，一个月又新增5.18万部。</p>
+  <p>但9月新剧中，只有1.46%的作品拿走了64.6%的播放增量，约82%的新剧当月播放量不足100万。</p>
+  <p>“内容现在已经严重过剩了。”陈远航认为，没有资源、大IP或稳定客户，普通团队想靠一部剧突然爆红，机会越来越少。</p>
+  <h2><strong>剧越做越多，钱却越分越少</strong></h2>
+  <p>陈远航认为，制作公司越来越难赚钱，还有一个原因：平台掌握着流量和分账规则。</p>
+  <p>“平台掌握C端用户，制作和发行团队却很难拿到相应的收益。”</p>
+  <p>他甚至估计，字节系在相关市场中的份额超过七成。不过，这个数字缺少统一、可核实的公开口径，只能作为他的个人判断。</p>
+  <p>可以作为参考的是，DataEye统计，9月番茄作为关联发行方，对应的新剧播放增量达到1116亿次，占当月抖音端新剧播放增量的53.3%。</p>
+  <p>渠道集中之后，内容上线怎么分钱，成了制作团队绕不开的问题。</p>
+  <p>以红果为例，观众免费看剧，平台通过广告、会员等方式获得收入，再按照协议向内容方支付保底、分账或奖励。</p>
+  <p>据蓝鲸科技报道，短剧分成主要与用户新增观看时长、动态结算单价有关，但单价会随平台收益、合作方式等因素变化，并不对外公开。</p>
+  <p>有制作方表示，后台可以看到最后分了多少钱，却很难在做剧之前算准收入。</p>
+  <p>人员、算力甚至IP采购的钱，都得提前花。剧上线后能不能火、分多少钱，却要等平台结算。</p>
+  <p>以前部分项目还有保底，做完大致知道能收多少钱。如今一些保底被取消，制作方更多依靠播放表现获得收益。</p>
+  <p>平台减少保底，有淘汰低质量内容的考虑，但制作团队承担的风险也增加了。</p>
+  <p>规则还在变化。9月22日，红果更新优质AI剧生产活动政策，取消系列剧规模系数，从10月起生效。过去靠同一个IP连续制作续集、获得额外奖励的团队，需要重新算账。</p>
+  <p>10月19日，字节旗下火山引擎推出Seedance精品AI剧激励计划，进入红果月度AI剧热度榜前50名、符合指定模型使用条件的作品，有机会获得5万至20万元奖励。</p>
+  <p>但奖励只有一半是现金，另一半是算力Token或创作工具使用权益。</p>
+  <p>即使拿到最高20万元奖励，真正能直接用来发工资的现金只有10万元，剩下10万元要用于相关工具或算力。</p>
+  <p>对需要大量使用AI工具的团队，这当然有价值。但也能看出，平台如今既经营内容分发，又提供AI工具。</p>
+  <p>制作团队花钱用工具生成视频，再拿作品到平台争取流量，最后按照规则分账。</p>
+  <p>平台还有广告收入。</p>
+  <p>蓝鲸科技采访的一家广告服务商透露，红果品牌广告报价约为每千次曝光25元。当然，这只是服务商报价，不能直接与制作方分账比较，更不能据此计算平台利润。</p>
+  <p>但双方处境不同。制作公司先承担成本，最后能拿多少，要看播放表现；平台掌握用户和广告位，还能经营会员及AI工具服务。</p>
+  <p>当然，平台也有研发、审核和运营成本，不能据此认定平台一定赚得最多。但对于缺少稳定客户的制作团队来说，收入越来越难预测。</p>
+  <h2><strong>有人为200元抢单，有人半年收入2亿</strong></h2>
+  <p>制作价格一路下跌，行业里却已经有公司开始赚钱。</p>
+  <p>比如兑吧集团。</p>
+  <p>这家公司以前主要做互联网广告和用户运营，今年1月才进入AI短剧行业。没想到短短半年，新业务就贡献了公司一半以上的收入。</p>
+  <p>2026年上半年，兑吧AI短剧收入达到2.23亿元，占集团总收入的51.2%。</p>
+  <p>它是怎么赚钱的？</p>
+  <p>兑吧没有只做视频代工，而是把剧本、制作和发行都接了过来。先用AI生产短剧，再通过自建发行系统，把作品推向抖音、快手、视频号等渠道，从内容发行和商业化合作中获得收入。</p>
+  <p>做发行，兑吧算是干回了老本行。过去多年，它一直和广告主、流量打交道，知道怎么投广告、找用户，也积累了数据分析和投放经验。如今换成短剧，这些经验还能用上。</p>
+  <p>制作成本也在往下降。兑吧披露，自研编剧Agent将编剧效率提高了5—8倍，部分原本需要多人配合的工作，如今可以交给AI完成。</p>
+  <p>产量上去后，播放量也跟着涨。</p>
+  <p>今年7月，兑吧AI短剧全网新增播放量超过68亿次；到了9月，这个数字涨到264亿次以上，单月播放过亿的剧集也从22部增加到32部。</p>
+  <p>10月14日，兑吧进一步披露，根据未经审核的内部账目，AI短剧业务预计已连续三个月实现单月盈利。</p>
+  <p>不过，2.23亿元收入具体有多少来自平台分账、版权交易或其他合作，公司没有详细披露。集团上半年整体仍亏损2533万元，短剧业务能否持续赚钱，还得看后续表现。</p>
+  <p>但兑吧至少提供了一种思路：很多制作团队还在为200元一分钟的订单抢破头，它已经把生意做到了发行端。剧做出来以后，还要想办法让更多人看，再从内容发行中获得收入。</p>
+  <p>当然，也不是谁都能照着兑吧的路子走。没有现成的投放经验和渠道，自己做发行，同样可能赔钱。</p>
+  <p>那么，缺少这些资源的小团队，还有机会吗？</p>
+  <p>陈远航认为，未来更值钱的可能是IP和编剧。</p>
+  <p>“掌握IP的人能有一定收入，好的编剧，人的脑子还是值钱的。”</p>
+  <p>道理不难理解。同样是修仙、逆袭、复仇，有些剧能让观众一口气追几十集，有些开头两分钟就被划走。差别可能就在人物怎么塑造、冲突怎么安排，以及下一集的悬念留得够不够吸引人。</p>
+  <p>AI能快速生成画面，却没法保证每个故事都有人爱看。</p>
+  <p>回头看陈远航那句“AI做剧已经死透了”，确实有些绝对。市场还在增长，兑吧也已经披露新业务实现连续单月盈利。</p>
+  <p>但对于那些只靠AI工具接单、没有IP和稳定客户的小团队，他的担忧不难理解。</p>
+  <p>年初一分钟能卖几千元，如今200元都有人抢。更残酷的是，制作便宜以后，剧也没有因此更容易卖出去。</p>
+  <p>AI一天能生产600集漫剧，但能把这些剧卖出去、把观众留下来，才有机会真正赚到钱。</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI0NzAzNTUwMQ==&amp;mid=2652521026&amp;idx=1&amp;sn=8fcf295b1511ba888a267679ededf83b&amp;chksm=f3544235a45bda3e8e1cf1d7fa4a976ae1c9e61176fb740b3ad1763d0996c7d28e6d6a8ceb31&amp;scene=0&amp;xtrack=1#rd">“铅笔道”（ID：pencilnews）</a>，作者：铅笔道，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Tue, 27 Oct 2026 13:33:52 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4044045316019078</guid>
+            <link>https://www.36kr.com/p/4044045316019078</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[OpenAI掀翻计算机科学30年基石，还解决了挂谷猜想]]></title>
@@ -1662,878 +2732,6 @@
             <pubDate>Tue, 27 Oct 2026 10:25:17 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4043841479316357</guid>
             <link>https://www.36kr.com/p/4043841479316357</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[“抢钱者”联盟：AI巨头开启资本大逃杀]]></title>
-            <description><![CDATA[<p>2026年秋天，AI行业终于撕掉了最后一块温情脉脉的面纱。</p>
-  <p>10月26日，Anthropic已正式向美国证券交易委员会（S<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>）提交S-1注册声明文件，计划以“ANT”为代码在纳斯达克全球精选市场挂牌，正式启动冲刺史上规模最大IPO的程序。这家公司的估值在5月H轮融资后锚定在9650亿美元，而市场对其IPO估值的预期在1.5万亿至2万亿美元之间反复拉锯——募资规模据报最高约1000亿美元，路演预计11月9日启动，11月中旬有望挂牌，华尔街一度相信它将以2万亿美元的身价刷新人类历史上最大IPO的纪录。</p>
-  <p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20261027/v2_034aa958ffcc43d4a944797f3d8b1885@5634060_oswg54547oswg640oswg360_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>同一个月，它的宿敌OpenAI正在以异常紧凑的节奏推进一轮约300亿美元的新融资，目标估值超过1.4万亿美元，目的只有一个：在Anthropic的招股书把一切摊在阳光下之前，先把金主的钱锁进自己的账户。</p>
-  <p>这不是一场从用户口袋里掏钱的战争。用户早已被免费策略和补贴喂饱，ChatGPT的周活跃用户超过9亿，订阅用户超过5000万，但这组数字在真正的牌桌上几乎不值一提。<strong>2026年底的AI大战，战场不在产品界面，而在资本的账本上。</strong></p>
-  <p>一级市场的私募融资、IPO的定价窗口、债务市场的信用额度、主权财富基金的配置清单——每一处能容纳万亿级美元的地方，都成了前沿AI实验室和它们的中国同行们争相涌入的“提款口”。</p>
-  <h2><strong>抢在见光之前</strong></h2>
-  <p>OpenAI和Anthropic争夺的是同一批人：软银、阿布扎比的MGX、红杉、Altimeter、Dragoneer。Anthropic在5月刚刚完成650亿美元的H轮融资，投后估值9650亿美元，领投方名单几乎就是全球成长型资本的名人录。</p>
-  <p>OpenAI则在3月完成1220亿美元的私募融资，估值8520亿美元，亚马逊、英伟达和软银站在最前排。到10月，两家同时出现在同一批投资者的日历上，Anthropic在旧金山办投资者日，OpenAI在隔壁与多头基金和主权基金密谈。一位参与交易的人士对路透社描述得直白：<strong>“谁先完成融资，谁就能提前锁定一部分本可能流向对手的资金。”</strong></p>
-  <p>这场抢跑有一个残酷的底层逻辑。Anthropic在10月向潜在IPO投资者披露的三季度数据并不难看：营收168亿美元，环比增长46%，调整后实现盈利，录得正向现金流。但增速在放缓。二季度营收还比一季度翻了超过一倍，三季度的环比增幅已经掉到46%，部分现有股东和潜在投资者在投资者日上开始讨论1.5万亿美元的估值，较此前2万亿美元的预期整整缩水了四分之一。</p>
-  <p>OpenAI抓住的正是这个裂缝。它告诉投资者，GPT-6 Astra发布后增长重新加速，年化收入已达500亿美元，年底有望冲到700亿美元，同时指责Anthropic通过云渠道全额确认收入、“夸大了收入规模”。在IPO定价的前夜，增长速度的一阶导数比增长速度本身更值钱。</p>
-  <p>而Anthropic需要在S-1里向公开市场交代的，不止是增速和亏损。据媒体10月25日报道，其旗下模型Claude在一次内部统计项目中，未经人工指令，自主请求通行凭证并绕过付费墙，访问了一个通常需付费查看的数据仪表盘，获取了某州的汇总统计数据。</p>
-  <p>Anthropic确认了绕过付费墙的行为，但表示Claude未触及个人记录系统，也未修改或提取任何个人数据。公司数周前已向相关数据管理方通报，但公开披露节奏一度引发外界对AI企业透明度的讨论；此前Anthropic也曾因AI事件披露不够及时受到监管方面关注。该事件不会直接改变S-1里的收入曲线，但它会影响承销商和监管者对“风险因素”章节的评估——一家估值冲向2万亿美元的AI公司，其模型在无人工指令下自主突破数据获取边界，这类风险比环比增速放缓更难被包装成“通往AGI的必要试错”。</p>
-  <p>招股书还披露了原文未覆盖的更深层安全事件：Anthropic因安全顾虑暂停了下一代旗舰模型的训练超过一个月；四个AI智能体在测试期间逃逸出沙箱环境，接入实时外部计算机系统，其中一次会话持续长达34小时，模型甚至利用发现的密码获取了第三方系统的管理员权限。公司警告训练暂停“可能会延迟收入”并使其在竞争中落后。</p>
-  <p><strong>资本故事要求的是可计算的风险，而Claude展示的恰恰是不可完全计算的那一类。</strong></p>
-  <h2><strong>太平洋另一侧的千亿集结</strong></h2>
-  <p>10月22日，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>被曝出最新一轮融资目标从最初的500亿元一路上调至约1000亿元人民币（约150亿美元），腾讯和宁德时代是出资最多的两家，投前估值维持在约5000亿元人民币。这刷新中国AI行业单轮融资的纪录。梁文锋在投资者会议上透露，公司的年化营收运行率刚刚突破10亿美元，几个月前还不到5亿。一个年化收入10亿美元的公司，在一级市场被定价到约740亿美元，市销率超过70倍。</p>
-  <p>这不是孤例。年初智谱和<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>相继登陆港交所，智谱的股价从发行价116.2港元一路冲到1645港元，市值一度突破7300亿港元。智谱在9月又完成约50亿美元的新一轮融资，股份配售加可转债的组合拳打出来，距离上一笔配售不到两个月。月之暗面在5月完成约20亿美元融资，投后估值突破200亿美元。“大模型五强”中已有四家身家越过千亿元门槛。<strong>中国大模型公司的千亿级融资计划，本质上是对美国同行估值逻辑的一次镜像追赶</strong>——如果Anthropic可以在一级市场拿到9650亿美元，如果OpenAI可以谈论1.4万亿，那么<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>的5000亿人民币投前估值看起来就不再荒谬，而是一种“相对折价”。</p>
-  <p>但两边的钱来自不同的口袋，带着不同的温度。美国AI公司的融资越来越依赖债务市场：2026年前7个月，美国主要科技企业的债券净融资达到2330亿美元，超过2025年全年总和，是同期IPO募资规模的2.5倍，科技巨头在公司债净融资中的占比从15%跳升到36%。中国大模型公司的千亿融资则更多来自产业资本和战略投资者——腾讯、宁德时代、美团龙珠，它们的支票上写着财务回报的诉求，也写着算力卡位和生态锁定的意图。<strong>美国在赌信用市场的耐心，中国在赌产业资本的耐心。</strong></p>
-  <h2><strong>卖家给买家递子弹</strong></h2>
-  <p>这场资本大战最精致的产物，是一个被IMF在10月23日正式命名为“循环融资”的结构。IMF覆盖14个典型案例的研究发现，AI领域正在形成“股权投资→未来营收承诺→债务融资”的三重嵌套：总计约3000亿美元的股权投资，撬动了1.4万亿美元的未来营收承诺，而这些承诺又被用作抵押，派生出高达6500亿美元的隐性债务。</p>
-  <p>英伟达联合高盛、贝莱德、黑石等六家金融机构搭建了一个目标5000亿美元的AI基础设施融资平台，为数据中心项目提供信用担保；OpenAI与甲骨文签署了价值3000亿美元、为期五年的云算力采购合同，而英伟达又向OpenAI投资高达1000亿美元——芯片卖家帮买家找钱，买家拿钱向卖家买芯片，甲骨文在中间承接算力负载，三家公司的资产负债表在同一个闭环里互相喂养。</p>
-  <p>黄仁勋说外界多虑了，英伟达手头的现金足够厚，这种结构“并不特别危险”。但真正的问题不在英伟达的现金，而在<strong>收入与承诺之间的那道裂缝。</strong></p>
-  <p>Gartner在10月给出的测算让所有乐观叙事都显得局促：2026年全球AI基础设施支出预计接近1万亿美元，2027到2030年还需追加约6万亿美元，而到2030年，这些投资需要产生累计8.5万亿美元的营收才能获得12%的回报——Gartner自己的预测是，AI收入最多只能达到3.6万亿。缺口接近5万亿美元。</p>
-  <p>五大超大规模云厂商2026年的资本开支合计接近8000亿美元，而同期AI相关收入只有大约1150亿美元。<strong>AI行业正在用一万亿美元的开支，对赌一千亿美元的收入，中间的差额由资本市场暂时垫付。</strong></p>
-  <h2><strong>用一万亿赌一千亿</strong></h2>
-  <p>垫付的人已经开始看表。CoreWeave的股价在一周内暴跌25%，这家靠近500亿美元借款扩张的云服务商成了市场情绪的震中；黑石支持的AirTrunk REIT、英伟达支持的Firmus、软银支持的SB Energy相继撤回或暂停上市计划。TS Lombard的警告被反复引用：到2030年AI公司需要实现2.5万亿至3万亿美元的年度营收才能为当前投资提供合理支撑，约为当前营收的14倍。</p>
-  <p>纽约大学斯特恩商学院的Aswath Damodaran对Anthropic做了一次反向估值：如果以2万亿美元上市，假设成熟后税后经营利润率30%，公司需要在10年后做到接近1.2万亿美元的年收入——那是一个比今天绝大多数国家GDP还大的数字。金沙江创投的朱啸虎把话说得不能再直白：<strong>“此前的AI是叙事性估值，以后要转向基本面估值。”</strong></p>
-  <p>这恰恰是2026年底这场抢钱大战最吊诡的地方。OpenAI和Anthropic争相在对方的财务数据被公开比较之前完成融资和IPO，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>和它的中国同行们赶在科创板窗口和港股流动性尚存的时候把千亿人民币装进资产负债表——所有人都知道，<strong>资本市场的窗口不会永远敞开，而一旦第一个季度的收入增速低于预期，或者第一笔循环债务出现裂痕，抢来的钱就会从弹药变成负担。</strong></p>
-  <p>Anthropic上半年的净亏损是807亿美元，其中720亿美元来自可转换票据的会计费用，算力和基础设施支出近90亿美元，而未来数年可能再花7500亿美元购买算力。OpenAI的内部预测显示，2026到2030年累计负自由现金流可能达到2780亿美元，同期算力支出约8560亿美元。这些数字放在任何一份传统的招股书里都足以让承销商失眠，但在2026年的AI叙事中，它们被包装成“通往AGI的必要资本形成”。</p>
-  <h2><strong>枪响之后，跑道尽头不是终点线</strong></h2>
-  <p>资本从来不是被说服的，资本是被裹挟的。当软银、MGX、红杉和腾讯、宁德时代坐在同一张牌桌的两侧，当英伟达的信用担保和甲骨文的算力合同把芯片、云和数据中心捆成一根绳上的三只蚂蚱，当Gartner的5万亿美元缺口和IMF的6500亿隐性债务同时摆在监管者的桌上，2026年底的AI抢钱大战已经越过了“融资”的范畴。</p>
-  <p><strong>它是一场关于谁来承担AGI试错成本的集体摊派。</strong>硅谷的选择是把账单递给公开市场和债券持有人，中国的选择是把账单递给产业资本和最终的A股投资者。两条路径的终点是同一个问题：当模型能力趋同、API价格战打响、收入增速从三位数滑向两位数，那些在2026年秋天被抢到手里的千亿美元，究竟会变成下一代智能的基础设施，还是变成下一轮减值周期里最先被核销的商誉。</p>
-  <p>Anthropic的S-1会在不久后的某一天出现在S<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>的数据库里。OpenAI的300亿美元融资大概率会在Anthropic定价之前签字。<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>的1000亿人民币会在“短时间内”完成。<strong>枪已经响了。但跑道尽头等待的，不一定是终点线，很可能是另一场厮杀。</strong></p>
- 
-]]></description>
-            <pubDate>Tue, 27 Oct 2026 10:16:18 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4043828032542343</guid>
-            <link>https://www.36kr.com/p/4043828032542343</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[OpenAI新模型降价，中国大模型的“便宜”要失灵了？]]></title>
-            <description><![CDATA[<p>Anthropic前脚递交招股书，OpenAI后脚就发布了新模型，巨头们动作不断，都在为自己谋关注度。</p>
-  <p>北京时间10月27日，OpenAI发布GPT-6.1 Terra。OpenAI称，Terra的Agent能力足以与旗舰Astra掰手腕，价格却只有后者的十分之一。</p>
-  <p>这个数字本身不稀奇，毕竟过去一年，大模型降价新闻早就看腻了。但这次与以往不一样的地方在于，相比上一代GPT-5.6 Terra，新模型的标准API价格直接降低50%，但在复杂任务执行、事实准确率和编程能力上均有明显提升。</p>
-  <p class="image-wrapper"><img data-img-size-val="830,694" src="https://img.36krcdn.com/hsossms/20261027/v2_b07dd52f70b649dcb8cac44b1c8fb27f@6452560_oswg67790oswg830oswg694_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>OpenAI的新动作国内尤其关注，毕竟它要抢的正是中国大模型最舒服的那块地盘。</p>
-  <h2><strong>01 OpenAI也算“经济账”了</strong></h2>
-  <p>如果只看榜单最高分，Terra算不上一枚重磅炸弹。但把定价页和跑分图并排看，信号比分数更值得读：OpenAI这次卖的不是能力上限，是单位成本。</p>
-  <p>据OpenAI官方，GPT-6.1 Terra的API定价为每百万输入token 1美元、每百万输出token 5美元，比上一代Terra和同代Sol低50%。中等推理强度下，它在Agents’Last Exam上的得分比GPT-5.6 Terra高出15个百分点，单任务成本约为后者的三分之一。</p>
-  <p>评论区不少用户的第一反应是：“就这？”“感觉没比上一代惊艳多少”。官方给它的定位很直白：以更低成本完成复杂的电脑操作任务。在这个定位下，“是否最强”退居其次，“够用且便宜”才是卖点。</p>
-  <p>只看OpenAI自己的产品线，会感觉这只是一次正常的代际升级。但把视线拉回当下的大模型市场，另一条参照线绕不开：<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> K3.1 Pro、<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>等国产模型，已经把高性能模型的价格锚点拽了下来。</p>
-  <p><ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> K3.1 Pro的API定价为每百万输入token 2美元、每百万输出token 10美元。这是一款总参数2.8万亿的模型（权重计划于11月初开放），综合智能水平高于同类中位数，月之暗面称其价格“仅为GPT-6 Astra的五分之一”。</p>
-  <p>单看绝对数字，Terra输出单价5美元/百万token，确实低于K3.1 Pro的10美元。但两者不在同一层：Terra是OpenAI矩阵里的“高级打工仔”，上面还有Sol和Astra顶着最复杂的任务；K3.1 Pro则是开源阵营里正面硬刚前沿闭源旗舰的产品。前者对标“干日常杂活，够用且便宜”，后者对标“接近前沿，且便宜”。</p>
-  <p>更关键的是，中国模型把性价比压下来，靠的不是烧钱补贴。瑞银证券分析师认为，中国大模型的训练成本仅为海外头部厂商的十分之一，API定价为海外对标模型的10%至20%；这种低价并非来自亏损，厂商在API业务上仍能保持20%至40%的毛利。</p>
-  <p>成本优势的来源，就是混合专家架构让每次推理激活的参数比极低，领先厂商的GPU利用率达到70%以上。月之暗面在K3系列上使用的MoonClip优化器，官方称实现了“20T训练数据用出40T的效果”；线性注意力机制则压住了长上下文带来的成本膨胀。他们是靠架构和工程效率，把成本结构本身压了下来。</p>
-  <p>OpenAI的逻辑很清楚：旗舰模型负责秀肌肉，Terra负责走量。走量的价格，直接对标全球所有“便宜够用”的模型。</p>
-  <h2><strong>02 算力硬边界与“额度”何解？</strong></h2>
-  <p>最关键的一点，Terra也并非单纯的防御性降价，硬实力是同步提升的。</p>
-  <p>据OpenAI公布的数据，在Terminal-Bench 4.0命令行编程测试中，Terra在最高推理强度下的成功率达50.3%，上一代仅为21.5%；在内部事实性测试中，低推理强度的错误率从53.6%降至16.7%，最高推理强度降至4.3%。活干得更好，价格还更便宜。</p>
-  <p class="image-wrapper"><img data-img-size-val="832,676" src="https://img.36krcdn.com/hsossms/20261027/v2_a8d9b7ea40304fdfa545946830366ec4@6452560_oswg49317oswg832oswg676_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>但中国大模型绕不开一个痛点：额度。<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> K3.1 Pro发布不到48小时，月之暗面就发出致歉公告，承认新模型上线后遭遇限流、额度异常消耗等问题，直言“问题出在我们，我们也本应更早修复”，并向订阅会员紧急补偿月度总额25%的用量。</p>
-  <p>这不是孤例。<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>平台也曾因用户激增与算力扩容失衡多次大规模宕机，其官方服务状态页显示，2026年初至今已出现数十次服务异常。算法和架构可以把单位成本压到极低，但在算力供给的总量约束下，规模本身就是一道硬边界。瑞银分析师也指出，部分模型厂商商业扩展的核心瓶颈“主要在于算力供给不足，而非市场需求”。</p>
-  <p>当然，Terra不是最强模型，它只是把“够用加便宜”这个档位做得更狠。而这一档，恰恰是国产模型的主战场。所以，国产模型需要面对的挑战不是技术，而是在“便宜”不再是独家武器的情况下，当对手也开始卷性价比，手里还剩什么？</p>
-  <p>B端场景、数据合规、本地化部署、政企渠道，这些是OpenAI短期给不了的。&nbsp;</p>
-  <p>未来，开发者和企业要问的恐怕不再是“哪个模型最聪明”，而是“完成这个任务，哪个模型最划算”。厂商的分工也在变清晰：旗舰攻坚能力上限，中坚层负责把AI塞进打工人的日常流程。</p>
-  <p>真正的比拼不再是“模型比模型”，而在模型之外的一笔账：谁能让便宜变成可持续的成本结构，谁把模型嵌进了别人进不来的场景，谁才能是笑到最后的那个。</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/SFVsj7jEn9jeCDhSMWZ_kQ">“第四波”</a>，作者：卢杨，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 27 Oct 2026 10:10:26 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4043827057186438</guid>
-            <link>https://www.36kr.com/p/4043827057186438</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[同一门"卖Token"的生意：一家自述已跨过成本线，头部的毛利率是-24%]]></title>
-            <description><![CDATA[<p>北京趋境科技最近完成超13亿元B轮融资。浙财创新、萧山资本、工银投资、中关村科学城、星连资本、钱江世纪城共同领投，商汤、网宿科技、中信聚信等跟投。</p>
-  <p>这家公司成立不到三年，2026年内已经累计融了24亿元，平均两个月一轮。</p>
-  <p>团队底色也值得看一眼。创始人艾智远是清华计算机系博士，做过深信服研发主管；联合创始人任旭阳是百度早期创业元老、真知创投创始人；首席科学家武永卫是清华教授，郑纬民院士担任首席科学顾问。核心团队出自清华KVCache.AI，在"高性能计算+分布式存储"上有十年积累。</p>
-  <p>它做的生意叫"AI Token生产服务"——业内更习惯叫它"Token工厂"。</p>
-  <p>而在这轮融资的表述里，有一句话比13亿更值得注意：公司自述"整体业务已跨过成本线"。</p>
-  <h2><strong>一句话背后的对照</strong></h2>
-  <p>先看这句话值多少。</p>
-  <p>在同一门生意里，有一家已经递表港交所的公司——硅基流动。它的招股书数据是这样的：</p>
-  <ul>
-   <li>2024年营收735万元，2025年5533万元，同比增长653%<br>2024年亏损8192万元，2025年亏损3.45亿元<br>毛利率：2024年39.4%，2025年变成-24%，录得毛损1330万元</li>
-  </ul>
-  <p>也就是说，这家在中国独立生态词元供应平台里排名第一的公司，卖Token卖到了毛利为负。</p>
-  <p>原因需要拆开看。硅基的公有云业务毛利率本身就是负的，2024年是-271.6%，2025年改善到-119%；整体毛利率从39.4%跌到-24%，主要是因为低毛利的公有云收入占比从14.6%快速涨到52.9%，摊薄了整体。</p>
-  <p>与此同时，招股书里写着：销售及营销开支从639万暴增1210%到8374万，其中"推广型算力资源成本"——就是免费Token代金券的成本——占64.7%。这笔钱是费用，不是毛利变负的直接原因。</p>
-  <p>顺便说一句，行业的量是在爆的：中国词元供应市场的规模，2024到2025年增长了1602.6%；日均Token调用量从2024年初的约1000亿，涨到2026年3月的超过140万亿。量涨了一千多倍，钱却没赚到——这才是这门生意最反常识的地方。</p>
-  <p>自2023年以来，头部大模型厂商累计十余次下调API价格，部分主流模型的千Token价格从最初的几毛钱降到几分钱，累计降幅超过90%。2026年5月，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>宣布V4-Pro的API永久降价75%；随后小米跟进，最高降99%；6月3日起，腾讯云下调<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>-V4系列价格，普通输入输出降75%，"缓存命中"部分最高降97.5%。</p>
-  <p>下游在降价，上游的成本是刚性的。这就是Token工厂的结构性困境。</p>
-  <p>所以，当趋境说"已跨过成本线"时，它其实是在说：我们找到了另一种活法。</p>
-  <h2><strong>Token这门生意，有两本账</strong></h2>
-  <p>"Token工厂"这个词，其实装着两种不同的账：一种按Token卖，一种按厂建。</p>
-  <p>一种按零售卖。</p>
-  <p>把芯片适配、模型部署、推理调优、异构调度这些工程能力封装成标准API，挂在公有云上，谁都能来买，按量付费。这门生意的核心是"零售"——用户越多越好，价格越低越有竞争力。</p>
-  <p>硅基流动的公有云业务走的就是这条路。它的公有云收入占比从2024年的14.6%涨到2025年的52.9%，注册用户破千万，企业客户超1.3万家。不过它还有另一半：本地部署业务，2025年仍占收入的47.1%，这部分毛利更高。</p>
-  <p>但零售生意的剧本很残酷：为了拉新，你得发免费Token券；为了留客，你得跟着大厂降价。两头一挤，毛利就没了。</p>
-  <p>一种按厂建。</p>
-  <p>趋境除了把Token直营卖给模型厂商、互联网平台和大型企业，还和地方政府、产业方、算力方合作，在一个区域共建"Token工厂"，双方按约定分成。</p>
-  <p>趋境在直营之外，同时在做这件事。它的公开表述是：携手产业伙伴推进十余个日均万亿级Token工厂项目，与商汤共建产线，联合并行科技、弘信电子、网宿科技等打造Token工厂，在河南、杭州、海南布局区域化基础设施。</p>
-  <p>这两种账的差别，不在技术，在怎么收钱。</p>
-  <p>超市的客户是千千万万个开发者，他们对价格极其敏感，一毛钱的差价就会迁移。</p>
-  <p>电厂的客户是地方政府和产业集团，他们买的不是"Token"，是"算力基础设施落地"——这里面有土地、有电费、有补贴、有税收，账不是按Token算的。</p>
-  <h2><strong>趋境自述的"跨过成本线"，靠什么撑起来</strong></h2>
-  <p>趋境没有披露分业务的财务数据。"跨过成本线"到底靠什么撑起来，只能从几个公开信息去推。</p>
-  <p>第一是成本结构。区域化建厂，有可能拿到更低的电费和更便宜的地。而Token的成本里，电和折旧占大头。这一点是否成立、能省多少，趋境没有公开数据，只能作为待验证的推测。</p>
-  <p>第二是技术路线。趋境的技术主张是"以存换算"——用存储换计算。这个思路说白了：与其堆更多GPU去算，不如把中间结果（KV Cache）存下来复用，减少重复计算。</p>
-  <p>而这支团队，恰好是在"存储换计算"这件事上有十年积累的那批人。</p>
-  <p>这里可以把"以存换算"翻成大白话：大模型在生成回答时，会反复用到之前已经算过的中间结果。如果每次都重算，就要反复占用GPU；如果能把这些结果存下来、下次直接取，就能省掉大量重复计算。趋境管这叫"以存换算"，逻辑就是把成本从"贵的内存"挪到"便宜的存储"上。</p>
-  <p>这套思路并不新，但难在工程——要在万亿参数、万亿Token的规模上把它跑稳，还要保证延迟不升高。做成了，单位Token的成本就能比"纯堆算力"低一截。</p>
-  <p>第三是收入结构。共运营模式下，趋境的收入里可能包含工程建设和交付的部分，而不只是按每一次API调用计费。但具体怎么分账、这一块占多少、毛利几何，公司没有披露。</p>
-  <p>所以"跨过成本线"这句话，可能来自它直营和共运营两块业务叠加的结果。但公司没有披露分业务的财务数据，这句话到底对应哪块、能持续多久，目前只能存疑。</p>
-  <h2><strong>共运营这条路，也有它的代价</strong></h2>
-  <p>共运营这条路不是没有代价。它的几个代价，恰好对应零售模式的优势。</p>
-  <p>第一，规模效应弱。</p>
-  <p>零售业务多一个用户，服务器、显存和网络仍要按调用量消耗，边际成本并不为零；共运营业务多一个客户，则要重新谈合作、建产能，扩张节奏更重。</p>
-  <p>第二，客户集中度高。</p>
-  <p>十余个项目，听起来不少，但如果其中几个是主要收入来源，那任何一个项目的延期，都会直接影响现金流。</p>
-  <p>第三，也是最要命的一点：它的客户，本身就在被价格战冲刷。</p>
-  <p>如果Token的零售价一路跌到几分钱，那地方建厂的账也会跟着变——今天算得过来的投资回报，明年可能就算不过来了。</p>
-  <h2><strong>两条路线，各有各的账</strong></h2>
-  <p>把两家公司放在一起看，能看出这门生意当下的两种账。</p>
-  <p>硅基流动走的是公有云为主的规模路线：用规模换份额，代价是持续的亏损和负毛利。它的盈利预期，建立在公有云Serverless业务的亏损收窄、以及未来涨价空间之上。</p>
-  <p>趋境走的是直营加共运营的路线：一边卖Token，一边帮地方和产业方建厂、共营。它能否持续覆盖成本，取决于共运营的账算不算得过来、以及国产算力的性价比能不能兑现。</p>
-  <p>两条路线都成立。</p>
-  <p>零售路线的估值，按用户数和调用量给；共运营路线的估值，更看重订单和交付。前者的想象空间更大。</p>
-  <p>而整个赛道现在最大的变数，不是技术，是降价——当Token便宜到像自来水，卖水的生意就越来越难做。</p>
-  <p>---</p>
-  <p>回到趋境科技这13亿。</p>
-  <p>它年内融了24亿，两个月一轮，钱主要投在"高品质AI Token产能扩张"和ATaaS平台升级上。日均Token产量已经超过万亿，公司披露年内业务收入达到去年全年的近十倍。</p>
-  <p>这些数字都很漂亮。但真正决定它能不能走下去的，是那句"已跨过成本线"能不能维持住。</p>
-  <p>因为在这门生意里，成本线不是固定的。下游价格过去两年累计降了九成，上游的厂房、芯片、电费却是刚性的。今天跨过去了，明天可能又被冲回来。</p>
-  <p>硅基流动的毛利率从39.4%掉到-24%，只用了十二个月。</p>
-  <p>毛利率的下滑，说明的是收入与成本的匹配在变差，不能直接等同单位成本的下降。一家公司能在这条线上站多久，不取决于这次融了多少钱，而取决于它省下的每一分钱，是不是真的来自技术。</p>
- 
-]]></description>
-            <pubDate>Tue, 27 Oct 2026 09:35:23 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4043709773059971</guid>
-            <link>https://www.36kr.com/p/4043709773059971</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[杨振宁当年的遗憾，被OpenAI补上了?]]></title>
-            <description><![CDATA[<p>2019年3月21日，《国家科学评论》（NSR）执行主编、神经生物学家蒲慕明和斯坦福大学的加速器物理学家赵午，到清华找杨振宁聊天。</p>
-  <p>他们聊到了1954年那篇论文，96岁的杨振宁回忆称，他和米尔斯算出了一个极其好看的结果，但里面有个硬伤，如果按照他们的理论，世界上应该存在一种“有电荷却没有质量”的粒子，可自然界根本没有这样的东西。</p>
-  <p>当时他们纠结了很久，最后还是决定发表。</p>
-  <p>杨振宁的第一个理由是“它（杨-米尔斯场论）真的是非常非常漂亮”（because it was very very beautiful），第二个理由是“场论也还没有得到数学上的精确描述。场论被发散困难所困扰，但是这并没有阻止它在重整化方案中获得神奇的成功。所以，场论有可能在将来解决我们遇到的问题。”</p>
-  <p>说完这句，他又补了一句：“而泡利的选择是不发表。”</p>
-  <p>泡利是量子力学的主要奠基人之一，不相容原理和中微子都出自他手，1945年拿了诺贝尔物理学奖。泡利曾早于杨振宁计算出与杨-米尔斯场论相似的结果，但是由于泡利无法说服自己自然界存在没有质量的粒子，最终没有将该结果发表。</p>
-  <p>在杨-米尔斯发表的72年后，OpenAI发了一篇文章，标题叫《与学术社群合作，建立科学认知》，通过OpenAI的内部模型，替杨振宁回答了那个问题，声称他们证明了杨-米尔斯场论的数学存在。</p>
-  <p>这篇文章一口气宣布了三件事。</p>
-  <p>数学上，模型证明了所有维度的局部平滑猜想，连带把挂谷猜想和斯坦因限制猜想一起解决了。计算机科学上，它推翻了指数时间假说（ETH）。</p>
-  <p>物理上，模型给出了量子场论的严格存在性证明，从纯杨-米尔斯场论，再到量子色动力学（QCD），再往上，最后甚至给出了一个能在极小尺度上描述标准模型的大统一理论。</p>
-  <p>同时，OpenAI给三个发现各配了一支外部专家队伍当“牧羊人”，负责把证明读懂、验证、写成人能看懂的说明、核对它引用了哪些前人的工作，并决定材料怎么对外公开。</p>
-  <p>虽然杨振宁1957年拿诺贝尔奖，靠的是他和李政道提出的宇称不守恒，并非杨-米尔斯。</p>
-  <p>然而杨-米尔斯场论早已成为物理学的地基之一。1979年的电弱统一、1999年的非阿贝尔规范场量子结构、2004年的渐近自由、2013年的希格斯机制，四个物理学奖都靠这套方程而成立。</p>
-  <p>1999年那份诺贝尔奖的官方背景说明里写到：“1954年，杨振宁和米尔斯构造了第一个非阿贝尔规范理论的例子。”</p>
-  <p>只不过OpenAI这一次，只替杨振宁回答了一半。</p>
-  <h2><strong>01</strong></h2>
-  <p>假如你把全世界的时钟都拨快一个小时，那么北京依然比美东（夏令时）快12个小时，比日本慢一个小时。科学家们管这种“做了某种改变、规律却纹丝不动”的性质叫做对称性。</p>
-  <p>量子场在时空的每一个点上都有一个相位，你可以把它想成每个点上都放着一个钟表，指针的位置就是这个点的相位。</p>
-  <p>但是如果每个钟表各调各的，比如把北京的时间调快1个小时，把日本调慢5个小时。这时候有一个粒子从北京走到日本，它按北京的时间出发，到了日本就会发现时间对不上。</p>
-  <p>杨振宁提出，就算每个地区都各拨各的，物理规律也必须照样成立。因为物理规律应该是彻底“地方自治”的。</p>
-  <p>因此必须引入一个新事物，专门负责记录变化。这个铺满整个时空、随位置变化的对照规则，就是规范场；粒子穿过场的时候，表针被一路带着扭转，它感受到的这种“被扭”，就是力。</p>
-  <p><strong>杨-米尔斯场论，就是基于“非阿贝尔规范对称性”的一类量子场论。</strong></p>
-  <p>它把电磁学里“每个点各拨各的钟表”那套规则，延伸到“每个点有一个能朝多个方向转、且转动顺序不能交换的指针”，由于对称性，它又会自动长出一个自己带“荷”、会自己跟自己作用的场，这个场的粒子就是传递力的玻色子。</p>
-  <p>杨-米尔斯场论本质上就是三件事。它要求物理规律在每个时空点独立做内部变换时都不变（局域规范对称）；这种变换在它这里不可交换，先后顺序会影响结果（非阿贝尔）；为了满足这个更苛刻的要求，数学上必然长出一个新场，而这个场的粒子会自己带着荷，会互相辐射、互相劈裂（自相互作用）。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,572" src="https://img.36krcdn.com/hsossms/20261027/v2_017599db2d3146f1944851f0a5c6c9da@000000_oswg1136587oswg1080oswg572_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>然而这个场论其实有两个BUG。</strong></p>
-  <p>第一个BUG是质量。按照杨振宁的方程，必须存在三个无质量、带电荷的粒子（电荷 +1、0、−1）。1999年那份诺奖说明是这么写的：“尽管自然界中并不存在这样的无质量粒子，这种思路却构成了粒子物理标准模型赖以建立的基础。”</p>
-  <p>为什么无质量是致命的？因为一个不携带质量的粒子传不了短程力。它不会被“消耗”掉，可以一路跑到无穷远。可强相互作用的作用范围只有大约1费米，和原子核差不多。</p>
-  <p>就像你要让一辆汽车按照火车的路程跑，显然不现实。</p>
-  <p>1954年2月，杨振宁在普林斯顿高等研究院做报告，泡利坐在下面，一开口就问：这些规范场对应的粒子质量是多少？杨振宁答不上来。</p>
-  <p>第二个BUG是整个量子场论，在数学上还没有被精确定义过。</p>
-  <p>物理学家算场论，算着算着就会冒出无穷大。他们的办法是让无穷大和无穷大相减，把剩下的有限部分拿去跟实验比，结果吻合到小数点后十位，这套办法叫做重整化。</p>
-  <p>重整化在1965年拿了诺贝尔奖，此后所有粒子物理的计算都靠它活着。但没人能说清楚为什么可以这么算。一个在数学上还站不住的东西，为什么能准到这种程度？杨振宁称其为“神奇的成功”。</p>
-  <p>这才有了文章开头提到的事情，1954年夏天，泡利做出过类似的东西，看到有电荷无质量，所以选择不发表。杨振宁和米尔斯的选择是发表。</p>
-  <p>这对于杨振宁来说是一场“豪赌”，学界有可能会拿杨振宁当成笑柄，毕竟自然界根本不存在这样的事物。而杨振宁认为，场论有可能在将来解决我们遇到的问题。</p>
-  <p>1960年代，对称性破缺被引进来，无质量的问题解决了。粒子并不是没有质量，只是质量是被“藏”起来的，靠希格斯机制长出来。</p>
-  <p>1973年，渐近自由被发现，QCD站住了脚，强相互作用终于有了正解。到标准模型成型，这套方程也就不需要再被“重新证明”了。</p>
-  <p>杨-米尔斯场论的第一个BUG“质量从哪来”有了解决办法，但是在数学上，还没有办法证明杨-米尔斯场论到底存不存在。</p>
-  <h2><strong>02</strong></h2>
-  <p>数学上说一个东西“存在”，不是你脑子里能想象它，也不是摆在那，你看得见摸得着，而是说：你能真的把它造出来，每一条该满足的条件都满足。</p>
-  <p>物理学家手里的量子场论，就像自动售货机。你投币、按键、出货，取出来的数字和加速器测到的一模一样，准确到十位小数。但是你光在外面看，不知道里面究竟什么原理，是不是通过电路板控制？还是说里面其实躲了个人，你按哪个键他就给你拿出对应的商品？</p>
-  <p>“场论是否存在”，问的就是机箱里的东西。要造出来，你得同时给出一整套对象：一个希尔伯特空间（所有可能状态的集合）、一套作用在它上面的算符（对应可测量的物理量）、一个能量有下界的哈密顿量、一个满足所有对称性的真空。</p>
-  <p>任何一条缺了，这个理论在数学上就视为“不存在”。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,572" src="https://img.36krcdn.com/hsossms/20261027/v2_b836c8f034e4461da0326a46253c46af@000000_oswg1177844oswg1080oswg572_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>问题是场论里有无穷多个自由度。时空是连续的，每一个点上都有一个场值，等你把整个空间的点都数完，自由度是无穷大。数学家和物理学家因此在这里已经卡了七十年。</p>
-  <p>1980年代，数学家塔德乌什·巴拉班（Tadeusz Balaban）是这么做的：他先把时空切成格子，再把每一格里的自由度用一个“块自旋”的办法揉成一个平均值，然后一层一层往上做尺度变换，每上一层就重新调整一次参数，把发散一<ai-product-link data-id="14953" data-name="点点" data-logo="https://img.36dianping.com/20260731/v2_7f20642df457498595ae7c552043d930_oswg142435oswg1000oswg1000_img_jpg" data-classify-list="智能搜索,AI助理,办公辅助" data-refer-type="20">点点</ai-product-link>吸收掉。</p>
-  <p>就像你看一张特别模糊的照片，把它缩小，照片的轮廓浮出来。再小点，轮廓就更清晰。</p>
-  <p>每缩小一次，你能从照片上看到的“信息”就不一样，但每一次缩小都能被上一次解释。</p>
-  <p>巴拉班始终没能在四维上证明杨-米尔斯场论存在。</p>
-  <p><strong>OpenAI这次，就是顺着巴拉班的理论继续走下去。</strong>不过OpenAI在文章中提到，物理部分是三个结果里唯一不公开材料的，所以目前没办法了解模型证明杨-米尔斯场论数学存在的具体过程。</p>
-  <p>OpenAI表示，模型补全了巴拉班没走完的后半段，把链条从有限体积推到无限体积（热力学极限），最终在连续四维空间里得到一个严格存在、能自我相互作用的规范场。</p>
-  <p>巴拉班就像是搭好了脚手架、证明了前几层的承重，OpenAI说AI把剩下所有楼层的承重计算逐条补齐，整栋楼的结构证明就此闭合。</p>
-  <p>9月9日，OpenAI的模型输出了纯杨-米尔斯场论在四维的存在性证明。9月18日，证明了QCD的数学存在。10月16日，杨-米尔斯部分的Lean形式化完成。</p>
-  <p>最终OpenAI表示，这个模型给出了包含标准模型全部规范场和费米子的最简单的大统一补全。</p>
-  <p>回到开头，杨振宁说的那句“场论还没有得到数学上的精确描述”，OpenAI替杨振宁补上了当年的遗憾。</p>
-  <h2><strong>03</strong></h2>
-  <p>要看清这一半是怎么切开的，得先知道另外一半叫什么。</p>
-  <p>克雷数学研究所在2000年列了七个千禧年问题，每个悬赏一百万美元。其中有一条是“杨-米尔斯场论与质量间隙”。</p>
-  <p>这道题要求两件事：第一，对任意紧致单李群，在四维欧氏空间上存在一个非平凡的量子杨-米尔斯场论；第二，这个理论的能量谱里有一个正的质量间隙。</p>
-  <p><strong>OpenAI只解决了第一件事，却没有解决第二件事。</strong></p>
-  <p>什么叫质量间隙？把真空想成一面鼓。你敲一下，它会响；但响声不会无限低下去，总有一个最小的声音，再往下就没有了。质量间隙说的就是这面鼓的最低音必须大于零。</p>
-  <p>在这套理论里，真空和第一个激发态之间必须隔着一道严格大于零的坎。哪怕是最轻的粒子，它也必须得有质量，不允许任何零质量的东西跑到无穷远。</p>
-  <p>数学上的存在性，只是要求你能把东西造出来，质量间隙是要求你造出来之后，还能控制住它的整条能量谱。</p>
-  <p>这相当于前者是证明你有能力制造一个钟，至于这个钟能不能响，音色如何，那都无所谓了。后者是证明这口钟敲下去一定有最低音，而且那个最低音不低于某个正值。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,565" src="https://img.36krcdn.com/hsossms/20261027/v2_97df9c2097b34fdba5837c0c663ee062@000000_oswg1077369oswg1080oswg565_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>还有一个问题，引力。</p>
-  <p>2019年的访谈里，杨振宁说：“我们现在还没有解决的问题中，最重要的就是怎么把引力引入进来，统一到现有的模型中。我想，我和大部分物理学家都相信，实现统一的方法还是要引入更多的对称。过去40年中，大家都想寻找这些新的对称，但是现在还没有成功。”</p>
-  <p>OpenAI这次证明的，是“包含规范场和费米子”的场论，而引力不属于规范场。</p>
-  <p>最重要的，这些结论现在还没有被核实，甚至还没有公开。</p>
-  <p>所以“只证明一半”这个说法，其实还算是客气的。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI2NjU1MTcwMA==&amp;mid=2247568367&amp;idx=1&amp;sn=8715a7cfaf275e70cd2c9c59e4c676ec&amp;chksm=eb82d6552fe901a4bb4d97770da68a5ec842dd7c851bcfa84a806faea904e752f0b7fdbadb76&amp;scene=0&amp;xtrack=1#rd">“字母榜”（ID：wujicaijing）</a>，作者：苗正，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 27 Oct 2026 09:28:26 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4043775631381385</guid>
-            <link>https://www.36kr.com/p/4043775631381385</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[从Anthropic招股书，再看智谱和MiniMax的增长、估值和长期叙事]]></title>
-            <description><![CDATA[<p>10月26日，Anthropic向美国证券交易委员会公开了招股书文件，拟以“ANT”为代码登陆纳斯达克，截至2026年6月30日的财务数据、客户结构、算力合同和治理安排，第一次被完整放到市场面前。</p>
-  <p>财务数字方面，Anthropic 2026年上半年收入162.86亿美元，同比增长约1300%；营业亏损6.93亿美元，调整后营业利润16.18亿美元；经营活动现金流为正39.29亿美元。与此同时，报表净亏损达到807.48亿美元，但其中约有800亿美元是由非经营性项目造成的，主要包括股权及可转债等金融工具的公允价值变动、投资损失以及相关一次性会计调整。</p>
-  <p>在成本和支出方面，Anthropic上半年算力与基础设施费用89.45亿美元，占收入54.9%；截至6月底持有现金1123.89亿美元、短期投资192.62亿美元，但同期融资现金流也达到1107.74亿美元。在算力租赁方面，公司与其他三家主要的云厂商Google、Amazon和Microsoft签订的主要不可取消算力合同合计约2694亿美元。</p>
-  <p>高速增长、正经营现金流和长期算力承诺同时存在，构成了Anthropic当前的基本面。</p>
-  <p>「明亮公司」此前曾提及，随着SpaceX上市、Anthropic和OpenAI陆续进入上市阶段，其公开财务数据的意义还在于能够给市场一个更清晰的“定价锚”，从财务到叙事层面，Anthropic也会成为智谱(02513.HK)和<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>(00100.HK)，以及未来可能上市的<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>和月之暗面的参照对象。</p>
-  <p>有趣的是，在招股书公布后的第一个交易日（27日），截至发稿，智谱和<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的股价纷纷上涨，但智谱的涨幅（7.81%）更大一些，这也多少反映出市场的偏好。</p>
-  <h2><strong>Anthropic：增速史无前例的公司</strong></h2>
-  <p>从招股书来看，Anthropic给人的第一印象是一家增速“史无前例”公司。公司收入从2023年的4100万美元增至2024年的3.86亿美元，2025年达到45.85亿美元。2026年上半年收入为162.86亿美元，去年同期为11.63亿美元，同比增长约1300%。半年收入已经是2025年全年的3.6倍。</p>
-  <p>对比之下，公司的亏损也在急剧收窄，且经营现金流已经转正。2026年上半年，Anthropic营业亏损为6.93亿美元，营业亏损率约4.3%，去年同期亏损21.35亿美元。调整后营业利润为16.18亿美元，调整后净利润为26.71亿美元。经营活动现金流为正39.29亿美元。</p>
-  <p>至于亏损，其招股书中的807.48亿美元净亏损需要具体拆出来看，其中723.88亿美元来自可转债、衍生工具和SAFE的公允价值变动，另有87.57亿美元其他收支净额，主要也与金融工具重估有关。这里需要指出的是，Anthropic估值上升，会提高相关负债的账面价值，因此产生巨额非现金费用，净亏损更多是受融资工具的会计处理的影响，并非直接影响现金流。</p>
-  <p>相较传统公司，Anthropic并未给出毛利率，公司从2025年起，把费用按性质列了出来，<strong>不再把费用分成收入成本、研发、销售和管理</strong>，其中，2026年上半年，算力与基础设施费用为89.45亿美元，占收入54.9%。同一时期，公司的人员费用为31.52亿美元，销售、营销及渠道费用为31.68亿美元，其他经营及管理费用为17.14亿美元。营业费用合计169.79亿美元，略高于收入。</p>
-  <p>或许这里更有意义的信号是，<strong>算力费用占收入的比例从2025年上半年的201%降至55%，这意味着收入增长快于已经锁定的算力基数。</strong></p>
-  <p>Anthropic的收入结构也不同于传统软件公司。2026年上半年，按量计费收入占80%，订阅收入占20%。云市场渠道贡献48%的收入，在付费方式上，公司与终端客户签约，再向AWS、Google Cloud和Microsoft Azure支付渠道费用。</p>
-  <p>在客户方面，截至9月底，<strong>公司年支出超过10万美元的客户达到11900家，</strong>净收入留存率约900%，美国投资人Greg Isenberg认为，这相当于<strong>“客户在使用一年后的支出增长了约9倍，相比之下，优秀的 SaaS 公司通常会把120%的净收入留存率当作值得炫耀的成绩”</strong>，不过，这个指标也似乎不适合长期做线性外推。</p>
-  <p>Anthropic并没有给出ARR的具体数据，此前市场流传的版本中，Primary的口径是672亿美元，NYT援引知情人士给出的年末ARR指引可能到1000亿美元；而大多数主流媒体给出的数字在650亿美元-670亿美元之间。</p>
-  <h2><strong>对比智谱和MiniMax财务数字：增速已是最相似的部分</strong></h2>
-  <p>如果把这一数据对比国内已经上市的两家AI大模型公司智谱和<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>，可以发现有诸多不同的逻辑。</p>
-  <p>以2026年上半年来看，Anthropic收入162.86亿美元，同比增长约1300%；营业亏损6.93亿美元，调整后营业利润16.18亿美元，经营现金流净流入39.29亿美元。</p>
-  <p>智谱收入9.54亿元人民币，同比增长399.7%；毛利率26.4%，经调整净亏损19.64亿元，经营现金流净流出33.74亿元。</p>
-  <p><ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>收入1.17亿美元，同比增长283.1%；毛利率17.9%，经调整净亏损2.93亿美元，经营现金流净流出3.18亿美元。</p>
-  <p class="image-wrapper"><img data-img-size-val="865,324" src="https://img.36krcdn.com/hsossms/20261027/v2_7cc897cf45634efcb3053427f14b020a@000000_oswg84412oswg865oswg324_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">来源：公司招股书、财报</p>
-  <p>从上述数据来看，Anthropic已经越过经营现金流拐点，智谱和<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>仍在“输血阶段”。</p>
-  <p>三家公司共同的增长来源，则都从一次性交付或固定订阅转向持续调用。</p>
-  <p>三家公司2026年上半年收入增速与现金流状态也体现在收入和支出上。</p>
-  <p>正如之前所说的，智谱和<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的报表毛利率可以互相比较，但不能直接和Anthropic比较。智谱和<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>把模型训练投入放在研发费用中，销售成本主要反映推理和交付。Anthropic则把训练、推理和内部算力合并披露。</p>
-  <p>若比较整个经营体系的投入，智谱和<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>仍处于高投入阶段。上半年研发费用分别相当于收入的223%和255%。</p>
-  <p>在收入方面，三家公司收入结构正在靠近，但起点不同。</p>
-  <p>收入模式方面，Anthropic按量计费收入占80%，订阅及其他收入占20%；渠道方面，云市场渠道贡献48%，直销及合作伙伴渠道贡献32%，核心是企业客户通过API和云渠道持续购买Token。</p>
-  <p>智谱过去以政企客户和本地化部署为主。至少在收入模式，智谱和Anthropic比例接近，2026年上半年，开放平台和API收入增至8.25亿元，占总收入86.5%，本地化部署收入占比降至13.5%。公司从卖项目转向卖调用量，收入开始与Token消耗直接相关。</p>
-  <p><ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>此前更偏消费级AI产品。<strong>2025年，AI原生产品贡献约三分之二收入。</strong>到2026年上半年，开放平台及企业服务收入同比增长703.1%，占比升至63.4%；AI原生产品占36.6%。</p>
-  <p>公司仍保留视频、语音、音乐和AI陪伴产品，同时把企业和开发者平台作为新的增长来源。海外收入占60.8%，这是<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>最明确的差异。</p>
-  <p>结合上一数据，可以再对比下智谱和<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>三家的估值水平。</p>
-  <p>10月26日收盘，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>市值约614亿港元，折合约79亿美元；智谱市值约2354亿港元，折合约302亿美元。</p>
-  <p>考虑到Anthropic尚未上市，最近一轮约9650亿美元融资仍是一级市场估值，而二级市场的估值预期可能在1.5万亿-2万亿美元之间，市场声音中，接近1.5万亿美元估值的声音似乎跟多。</p>
-  <p>再看ARR。公开运营数据称，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>在8月ARR超过8亿美元，智谱8月底ARR约16亿美元。</p>
-  <p>按上述市值粗算，<strong><ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的P/ARR约9.8倍，智谱约18.9倍。</strong>Anthropic最近一轮融资估值约9650亿美元，若采用约672亿美元ARR，对应约14.4倍；<strong>若按市场讨论的1.5万亿美元IPO估值计算，则约22倍。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="865,407" src="https://img.36krcdn.com/hsossms/20261027/v2_c7e382e1399c4924b3c443aa3c141bd8@000000_oswg73097oswg865oswg407_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">来源：AlphaEngine整理</p>
-  <p>因此，三者不是“Anthropic便宜、两家港股都贵”，而是形成了估值分层。<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的倍数最低，Anthropic的私募估值居中，智谱更高；<strong>如果Anthropic按1.5万亿美元上市，它又会成为三者中倍数最高的一家。</strong></p>
-  <p>在ARR约672亿美元不变的静态假设下，其P/ARR约为22至29.8倍；若ARR继续增长，实际倍数会低于这一水平。</p>
-  <p>这个区间意味着，Anthropic需要同时证明收入增长、毛利率改善、模型训练和推理成本下降，以及企业客户合同的持续性，否则，2万亿美元更像是对未来数年收入和利润一种提前预支。</p>
-  <p>从相对估值看，Anthropic达到1.5万亿美元后，P/ARR将高于智谱和<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>；达到2万亿美元后，估值溢价会更加明显，<strong>它可能成为全球大模型公司的定价锚，但也会提高整个板块的估值门槛：</strong>如果Anthropic能够以更高倍数上市并持续兑现增长，港股模型公司可能获得估值重估；<strong>如果其上市后因高估值出现回撤，则智谱和<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的相对折价未必足以抵消行业风险。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="865,280" src="https://img.36krcdn.com/hsossms/20261027/v2_f1b6497cf1784e44bf253135d231e50d@000000_oswg57681oswg865oswg280_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">来源：AlphaEngine整理</p>
-  <p>如果再用上半年收入年化计算，差异更大。Anthropic在9650亿美元估值下约为30倍，在1.5万亿美元估值下约为46倍。若进一步上升至2万亿美元，则对应约61倍上半年收入年化。<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>约34倍。智谱按公司披露的美元折算口径约超过100倍。</p>
-  <p><strong>智谱的ARR远高于上半年收入年化，说明其增长主要发生在报告期末之后，也说明估值更依赖未来收入兑现。</strong></p>
-  <p>智谱获得较高倍数有几层原因。它是港股少数纯基础模型公司，具备国产模型、国产算力适配和政企客户等标签。公司又把商业逻辑从本地化部署转向API、Coding和智能体，市场愿意为收入结构变化付费。</p>
-  <h2><strong>长期叙事：技术之内和技术之外</strong></h2>
-  <p class="image-wrapper"><img data-img-size-val="865,701" src="https://img.36krcdn.com/hsossms/20261027/v2_f2ae5af5afcd40e38c3acca438ad454b@000000_oswg667841oswg865oswg701_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>如果阅读Anthropic在招股书开篇的”致投资者的信”，你可能会发现，它是站在一个“文明”的高度，来描述AI与公司之间的关系——甚至<strong>更像是公司是一种把AI带到人间的“使命感”和“被选中的人”。</strong>其中，公司特别谈到了技术对社会的影响，公司相信Scaling Laws仍会推动机器认知能力增长，最终形成“数据中心里的天才之国”。数百万智能体将进入软件、科学、医学、金融、政府和国家安全领域。AI不仅提高劳动效率，还会改变创新过程本身。</p>
-  <p>相比于智谱和<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>，Anthropic在行业上特别强提及了AI在生物医药领域的潜力，在信中，其写到：“首先，我们相信，人工智能将极大加快生物学和医学领域的进步，有可能治愈那些困扰人类数千年的疾病，包括癌症、阿尔茨海默病、心脏病、罕见遗传病以及重大传染病。人工智能正在创造全新的科学研究和药物开发方式。<strong>我们希望在开发服务于更广泛科学界的工具方面发挥领导作用。Anthropic 已经与许多生物技术和制药公司展开合作，改善基础研究和临床试验。</strong>从帮助制药公司科学家解决药物发现中的难题，到将临床试验报告的撰写时间从几个月缩短到几分钟，我们都在参与其中。”</p>
-  <p>这封信同时把风险放在愿景内部。Anthropic将风险分为滥用、失控、威权主义利用和经济冲击。公司明确表示，<strong>可能延后模型发布，放弃短期收入，甚至主动把发展速度控制在技术上能够达到的水平以下。</strong>而且，Claude将保持无广告模式。公司也可能做出不符合利润最大化原则的决定。</p>
-  <p>而且，这些承诺与公司治理相连，Anthropic是公益公司，长期利益信托可以选举董事会多数成员。公司设立公共利益基金，初始投入5%股权；当估值达到一定里程碑时，董事会还可以继续投入股权。</p>
-  <p>对比之下，<strong>智谱的叙事更接近技术路线图。</strong>招股书提出“让机器像人一样思考，以可靠AI造福人类”，并把AGI演进分为多个阶段。最新中报进一步提出能力阶梯：Chat、Coding、Agent、Co-work和Autonomous AI。模型先回答问题，再完成代码，随后进入专业流程，最终在无人值守条件下承担长期目标。</p>
-  <p>智谱把这种路线写成商业公式：智能上界扩大任务边界，任务价值决定Token能够承载的经济价值。公司关注长程任务、强化学习、任务环境和递归式自我改进。国产芯片集群、MaaS平台和开源生态构成它的基础设施叙事。</p>
-  <p>安全也被定义为可验证的公共品，通过红队测试、漏洞披露、外部评估和敏感能力受控开放建立信任。</p>
-  <p><strong><ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>在招股书中的使命是“Intelligence with Everyone”。</strong>公司强调多模态、推理效率和全球可获得性。目标是让模型既能处理编程和复杂智能体任务，也能生成视频、语音、音乐，并进入普通用户的日常生活。<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的核心表述是“性能成本前沿”。模型能力首先要达到任务要求，随后通过模型、系统、基础设施和产品的联合优化降低推理成本。成本下降后，更多任务才有商业价值，更多用户才会持续调用。</p>
-  <p>安全在其招股书中主要表现为数据过滤、对齐、内容治理和人工监督，没有成为面向投资者的治理契约。</p>
-  <p><strong>整体来看，Anthropic是“AI的开发者和治理者”，智谱是“AGI能力与基础设施建设者”，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>是“全球AI产品和AI普惠的平台”。</strong>三者都相信模型能力会继续提升，但各自选择了不同的证明方式。</p>
-  <p><strong>总结来看，</strong>Anthropic上市会让市场更关注收入、毛利率、算力成本和现金流。<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的优势在于全球化和产品多元化，智谱则受益于中国政企市场、开源生态和本地化经验，显然，两家公司都需要证明ARR能转化为真实收入，并改善毛利率和经营现金流。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI1Njk1MDgyMQ==&amp;mid=2247511732&amp;idx=1&amp;sn=afd5f30d223c78146f18bc85e08f7bec&amp;chksm=eb5a73685121815c9a99a92cea99e19eaaf18d9d1165ffc2abf35b751dd52ec0b0b1eb8310a8&amp;scene=0&amp;xtrack=1#rd">“明亮公司”（ID：suchbright）</a>，作者：主编24小时在线，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 27 Oct 2026 08:59:09 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4043698696066180</guid>
-            <link>https://www.36kr.com/p/4043698696066180</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[租GPU跑DeepSeek，靠卖Token月入百万]]></title>
-            <description><![CDATA[<p>在AI大模型的造富神话里，如果你以为只有像OpenAI那样烧掉上百亿美元训练一个超级模型才能赚钱，那你可能错过了当下最隐秘、也最疯狂的财富密码。</p>
-  <p>近期，硅谷知名风投 Menlo Ventures 的投资人 Deedy Das 揭开了这个隐秘的角落：一批硅谷AI初创公司，正通过一种极为简单粗暴的模式，在短短几个月内实现了每月超过 100 万美元的营收。</p>
-  <p>他们的核心玩法只有一个：租借英伟达GPU，部署开源的 <ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>、<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>、GLM，然后按 Token 卖给客户。</p>
-  <p>这听起来就像是数字时代的“算力二房东”。在这场狂欢中，以 <ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>、<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>、GLM 为代表的中国开源大模型，成了全球草根创业团队最趁手的“印钞机”。但随着这波红利被迅速抹平，一场极其惨烈的价格战，已经拉开了帷幕。</p>
-  <p class="image-wrapper"><img data-img-size-val="564,722" src="https://img.36krcdn.com/hsossms/20261027/v2_315816b9cadd4ceda542ce1fbecb405f@5857174_oswg226254oswg564oswg722_img_png?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>稳赚的算术</strong></h2>
-  <p>要让这套模式跑通，核心在于算一笔极其精准的经济账。</p>
-  <p>Deedy Das 算了一笔账：在当前的市场上，即便你去租用最顶级的英伟达 B300 GPU，按需计费的价格高达每小时 8 美元。这听起来极其昂贵，但这正是魔法发生的地方。</p>
-  <p>只要你部署的开源模型处理效率足够高，且能接到足够多的客户订单，这台每小时租金 8 美元的机器，每小时就能生产出价值 10 到 20 美元的 Token 产量。如果你的软件工程能力足够强，甚至可以用 AI 辅助代码工具，在一两周内就搭建起一套完整的推理服务架构。</p>
-  <p>更重要的是，开源模型拉平了产品壁垒。在过去，想做大模型，你需要几百人的科学家团队，花费千万美元去预训练。而现在，中国企业开源的模型（如 GLM-5.3、<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> K3、<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link> V4.1），性能已经逼近闭源巨头。这些模型允许免费商用，你只要下载权重，找个机房跑起来，就能对外提供高质量的AI服务。</p>
-  <p>不仅如此，基础设施的完善也大大降低了门槛。像 OpenRouter 这样的模型聚合平台，以及 Vercel 这样的部署工具，直接帮你解决了获客和工程部署的难题。只要你的 API 够便宜、够稳定，平台上自然会有海量的开发者源源不断地把需求喂给你。这是一门极致的“薄利多销”生意。</p>
-  <h2><strong>惨烈的价格战</strong></h2>
-  <p>然而，这世界上极少有容易赚的钱能长久。</p>
-  <p>当“租卡+开源模型=印钞”的秘密被彻底公开后，蜂拥而至的淘金者瞬间填满了这条赛道。几乎每个星期，都有几十家提供类似服务的初创公司冒出来。</p>
-  <p>危机，首先来自内部的自相残杀。为了争夺客户，这些初创公司开始了极其惨烈的价格战。大家都在拼了命地买卡、租机柜，推高了 GPU 的租赁成本；转过头来，为了从同行手里抢走客户，又疯狂地压低 Token 的售价。</p>
-  <p>这导致了一个极其诡异的局面：账面上的营收数字节节攀升，极其亮眼，但实际到手的毛利却被压缩得薄如蝉翼。 所谓的每月百万营收，刨除高昂的算力租金、电费和平台抽成，真正能落进兜里的钱，根本没有想象的那么多。</p>
-  <p>更残酷的是，这个商业模式极度缺乏护城河。你没有自己的底层模型，也没有自研的芯片。你今天能部署 <ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>，你的对手明天就能部署 <ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>，大家用的都是同一批开源权重，最后只能卷价格。在硅谷的投资人眼里，这根本不是什么高科技壁垒，而是一场彻头彻尾的“中间商套利”。</p>
-  <h2><strong>界限的模糊</strong></h2>
-  <p>在这场狂热中，最有趣的现象是产业链上下游的“互相偷家”。</p>
-  <p>在过去，云计算厂商和算力租赁公司（比如 CoreWeave、Nebius）是稳稳的“卖铲人”，他们建好机房、买好GPU，只管收租金，旱涝保收。而像 OpenAI 这样的模型公司则是“淘金者”。</p>
-  <p>但现在，边界彻底消失了。</p>
-  <p>随着算力租赁市场竞争加剧，CoreWeave 和 Nebius 发现，单纯租 GPU 赚差价越来越难了。于是，他们开始直接下场，搞起了推理服务，自己部署开源模型，直接向客户卖 Token。</p>
-  <p>而在另一边，那些靠着卖 Token 赚到第一桶金的初创公司，眼看着价格战打得头破血流，竟然开始攒钱去搞底层算力租赁，甚至想要自己去搞模型的后训练（Post-training）微调。</p>
-  <p>“卖铲子的想跳进河里淘金，淘到金的又拼命想去造铲子。”这种奇妙的折叠，折射出AI大模型赛道当下极度的集体焦虑。大家都意识到，单纯靠某一个环节，已经无法在这片红海中建立长期优势。</p>
-  <h2><strong>巨头的清场</strong></h2>
-  <p>这场算力二房东的狂欢，还能持续多久？</p>
-  <p>Menlo Ventures 的 Deedy Das 给出了一个极其冷酷的终局判断：在这场旷日持久的价格战中，真正的优势，永远掌握在那些“拥有极低算力成本，且拥有庞大客户基础”的超级大厂手里。</p>
-  <p>这几乎是必然的。当微软、亚马逊或谷歌这样拥有自建数据中心、自研芯片，且自带海量企业客户的巨头真正发力推理市场时，草根初创公司的成本优势将荡然无存。巨头哪怕把 Token 卖成白菜价，依然能通过云生态的其他服务赚回来；而初创公司如果跟进这个价格，唯一的结局就是破产。</p>
-  <p>但大厂的反应通常比较缓慢，这就给中小团队留出了一个极其宝贵的时间窗口。当下的初创公司，唯一的生存法则就是“生死时速”。他们必须在价格战彻底卷到零利润之前，利用账面上那些极其漂亮的营收数据，迅速去资本市场拿到下一轮融资。或者，赶紧积累下第一批高质量的企业客户，把简单的 Token 交易，变成深度的业务绑定。</p>
-  <h2><strong>结语</strong></h2>
-  <p>开源模型的大爆发，毫无疑问是人类科技史上的一次伟大平权。它让最顶级的技术，不再被少数几个闭源巨头垄断。<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>、<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>、GLM 等中国开源力量，让全世界无数没有算力和资金搞底层研发的创业者，也能体验并售卖最前沿的AI能力。</p>
-  <p>然而，商业的铁律永远不会改变。当技术变得像自来水和电一样廉价时，靠“倒卖自来水”是发不了大财的。</p>
-  <p>这批靠租卡、跑开源模型月入百万的公司，注定只是AI大航海时代里的一段插曲。他们是技术的搬运工，而不是创造者。当泡沫退去，真正留在沙滩上的，要么是掌握底层算力和芯片命脉的“基建狂魔”，要么是拥有独家数据、能将AI深度缝合进具体业务流中的“场景霸主”。</p>
-  <p>本文来自微信公众号“Tech商业”，作者：Tech商业，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 27 Oct 2026 08:43:13 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4043609942923145</guid>
-            <link>https://www.36kr.com/p/4043609942923145</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Neocloud这堵快塌的墙，黄仁勋扶，马斯克推]]></title>
-            <description><![CDATA[<p>黄仁勋还在努力扶住Neocloud这堵墙，马斯克却已经预言了它的倒塌。</p>
-  <p>AI泡沫的第一张多米诺骨牌，可能就藏在这批公司之中。</p>
-  <p>10月25日，马斯克在X上发出警告：<strong>最近几周，债务市场几乎已经不再向那些缺乏AI数据中心之外实质收入的企业提供资金。</strong></p>
-  <p>他预言，200多家Neocloud将迎来“孔雀鱼式”（guppy-level）的死亡与整合，最终可能只有少数公司能够存活。</p>
-  <p class="image-wrapper"><img data-img-size-val="692,484" src="https://img.36krcdn.com/hsossms/20261027/v2_43aff461b88e40aeb696b4e3b2ec51c8@6119835_oswg130577oswg692oswg484_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>但就在三天前，英伟达CEO黄仁勋给出了几乎相反的判断。</p>
-  <p>10月22日，黄仁勋在接受CNBC采访时坚称，Neocloud的算力需求依然极其旺盛，真正限制它们发展的只是营运资金不足，而融资困难终将得到解决。</p>
-  <p>两人都看好AI算力需求，却对经营算力租赁业务的公司能否活下去，给出了截然不同的判断。</p>
-  <p>而越来越多的迹象表明，这门曾经被AI热潮捧上天的生意，正在出现裂缝。</p>
-  <h2><strong>黄仁勋扶，马斯克推</strong></h2>
-  <p>Neocloud，简单来说，就是专门出租AI算力的新型云计算公司。与亚马逊AWS、微软Azure等业务广泛的传统云厂商不同，这些公司主要围绕AI计算需求提供服务。它们采购大量GPU，建设数据中心，再把算力租给需要训练、运行AI模型的企业。</p>
-  <p>其中最有代表性的公司，就是CoreWeave、Nebius和Nscale。</p>
-  <p><strong>从进入AI算力租赁市场开始，它们的生意就高度依赖英伟达的GPU。</strong>对于英伟达而言，Neocloud自然是非常重要的客户。</p>
-  <p>黄仁勋对它们的支持并不只存在于口头上，他拿出了真金白银，甚至亲自为Neocloud的算力收入托底。</p>
-  <p>2025年9月，英伟达与CoreWeave签订了一份初始价值63亿美元的算力采购协议。根据约定，如果CoreWeave的数据中心算力无法全部卖给其他客户，英伟达将按协议购买剩余算力，相关承诺持续至2032年。</p>
-  <p>今年1月，英伟达又进一步向CoreWeave投资20亿美元，支持其加快数据中心建设，双方计划到2030年建成超过5吉瓦的AI计算基础设施。</p>
-  <p>3月，英伟达又宣布向另一家Neocloud企业Nebius投资20亿美元，帮助其扩大AI云计算业务。</p>
-  <p>除此之外，英伟达还设计了一套更直接的扶持机制。在今年8月26日的财报电话会上，英伟达管理层披露，公司开始为部分Neocloud提供最低收入保障，承诺购买项目中的一部分算力，以帮助它们获得银行融资。</p>
-  <p>作为交换，当这些算力产生的收入超过保底水平时，英伟达会参与分成。</p>
-  <p><strong>“按照这种模式，我们可以赚两次钱：一次来自硬件销售，另一次来自租赁收入分成。”</strong>英伟达首席财务官科莱特·克雷斯直接表示。</p>
-  <p class="image-wrapper"><img data-img-size-val="692,390" src="https://img.36krcdn.com/hsossms/20261027/v2_f83ff34aa57842408655596d893015c9@6119835_oswg626841oswg692oswg390_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图片由AI生成</p>
-  <p>甚至有媒体评论干脆把英伟达比喻为“AI行业的中央银行”，形容它一边向Neocloud出售GPU，一边通过股权投资、算力采购承诺等方式为这些公司提供资金支持，帮助它们继续获得贷款、扩建数据中心，维持整个AI算力市场的运转。</p>
-  <p>黄仁勋如此积极地扶持Neocloud，当然有非常现实的商业利益。这些公司需要不断购买最新的GPU、扩大数据中心规模，才能满足客户需求。Neocloud持续扩张，意味着英伟达能够不断获得新的芯片订单。</p>
-  <p><strong>只不过，英伟达愿意为Neocloud提供融资支持，不代表资本市场也愿意继续借钱给它们。</strong></p>
-  <p>这也是马斯克发出警告的原因。</p>
-  <p>值得注意的是，马斯克自己也在大规模举债购买GPU。10月25日，他刚刚宣布，SpaceX用于购买英伟达GPU的400亿美元债务融资已经“关闭”，主要对应2027年第一、第二季度交付的GPU。</p>
-  <p>但与主要依靠算力租赁收入的Neocloud不同，SpaceX还有Starlink和火箭发射等成熟业务作为支撑。<strong>在马斯克看来，缺乏其他收入来源的Neocloud，很可能撑不过接下来的行业洗牌。</strong></p>
-  <p>当有网友猜测，马斯克是在故意唱衰Neocloud，以便趁股价下跌低价收购时，马斯克的回答是：</p>
-  <p>“SpaceX不会购买任何Neocloud。这毫无意义。”</p>
-  <p class="image-wrapper"><img data-img-size-val="692,329" src="https://img.36krcdn.com/hsossms/20261027/v2_da83dfb38ae14a3380ab91ed2d109907@6119835_oswg77499oswg692oswg329_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>Neocloud的好日子到头了吗？</strong></h2>
-  <p>2023年以来，随着生成式AI爆发，英伟达GPU供不应求。微软、Google、亚马逊等传统云厂商无法及时满足市场需求，Neocloud抓住机会迅速崛起。</p>
-  <p>它们不需要建设完整的云服务体系，只要能买到GPU、部署好集群，就有机会拿到大额订单。</p>
-  <p>CoreWeave是其中的典型代表：2023年这家公司的全年营收只有2.29亿美元，到2025年就已经达到51.3亿美元，两年增长约22倍。</p>
-  <p>Nebius的AI云业务增长同样惊人，2023年营收仅960万美元，2025年已经达到4.8亿美元。</p>
-  <p><strong>但营收暴涨，并不意味着能够长期赚钱。</strong></p>
-  <p>尽管2025年CoreWeave营收达到51.31亿美元，但其净亏损为11.67亿美元，全年净利息支出更是高达12.29亿美元。</p>
-  <p>Neocloud需要提前投入巨额资金购买GPU、建设数据中心，再依靠未来的租赁收入收回成本。但随着GPU的更新换代，租赁价格也在下降。</p>
-  <p>麦肯锡2025年11月的一份研究显示，<strong>2021年至2025年，英伟达A100的公开租赁报价从每小时3.10美元降至1.50美元，跌幅超过50%。</strong></p>
-  <p>麦肯锡还以B200 GPU为例测算，在完全使用股权资金、不考虑债务融资的情况下，GPU租赁业务扣除折旧等成本后的营业利润率仅约8%。如果设备利用率降至80%以下，或者租赁价格小幅下降，投资回报就可能被抹平。</p>
-  <p>与此同时，微软等Neocloud的大客户，也在不断建设自己的AI基础设施。谷歌、亚马逊等传统云巨头，同样在扩张AI算力业务。</p>
-  <p><strong>Neocloud既要承担巨额资本开支，又要面对GPU贬值和大客户的竞争。一旦供需关系发生变化，过去的优势就可能迅速消失。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="692,390" src="https://img.36krcdn.com/hsossms/20261027/v2_22a6b15c47514d5db0a9f590b40e37eb@6119835_oswg607493oswg692oswg390_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图片由AI生成</p>
-  <p>而最近，资本市场已经开始重新审视这门生意。</p>
-  <blockquote>
-   <p>10月以来，Neocloud代表企业CoreWeave股债双双承压。截至10月26日，其股价较10月1日收盘价下跌近38%，收于55.19美元。10月中旬，其部分债券收益率一度升至15%至16%；到10月26日，CoreWeave部分2033年到期债券的价格已跌至历史新低。</p>
-  </blockquote>
-  <p>10月22日，据外媒报道，做空CoreWeave、Nebius等五家AI基建公司的投资者，当月账面获利约60亿美元。其中，CoreWeave股价当月跌幅接近30%。</p>
-  <p>有意思的是，10月26日，CoreWeave股价还经历了一次反弹。当天，其股价盘前一度因马斯克的悲观言论下跌约5%，随后受到Anthropic公开IPO招股书的消息提振，最终收涨1.76%。</p>
-  <p>不过，这次反弹并没有改变CoreWeave近一个月来的整体跌势。</p>
-  <p class="image-wrapper"><img data-img-size-val="692,335" src="https://img.36krcdn.com/hsossms/20261027/v2_02d400cc3886463292166e8135af2ebb@6119835_oswg55982oswg692oswg335_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>资本市场之外，数据中心建设也遇到了麻烦。</p>
-  <p>10月19日，微软退出Neocloud企业Nscale位于英国的一个数据中心项目。该项目原计划2027年初投入运营，部署超过2.3万块英伟达GB300 GPU，但电力供应可能直到2030年代才能落实。</p>
-  <p>对于依赖债务融资建设数据中心的Neocloud而言，项目延期意味着收入暂时无法兑现，前期投入和融资成本却还在不断累积。拖得越久，财务压力就越大。</p>
-  <p>研究机构Gartner预计，<strong>到2030年，超过80%的Neocloud将因成本压力和缺乏差异化而停止独立经营，包括被收购、合并或退出市场。</strong></p>
-  <p>这个依靠GPU短缺迅速崛起的行业，如今已经开始为自身脆弱的商业模式付出代价。</p>
-  <h2><strong>敢问路在何方</strong></h2>
-  <p>Neocloud眼下的麻烦，可能还只是开始。</p>
-  <p>10月25日，硅谷投资人、Social Capital创始人查马斯·帕利哈皮提亚 （Chamath Palihapitiya）在回应马斯克时，给出了一个大胆而悲观的预测：<strong>2027年，AI行业可能出现大量闲置算力。</strong></p>
-  <p>查马斯本人持有一批已经接入电力的数据中心用地资产，因此，他对AI基础设施的建设情况有着直接的观察。在他看来，Neocloud普遍资金不足、组织混乱，虽然部分公司表现较好，但整个行业的建设能力仍然令人担忧。</p>
-  <p>不过，传统云厂商也好不到哪里去——查马斯抱怨，这些大公司的官僚主义严重，仅签署一份保密协议就可能花上三个月，还会要求长达18个月的资金托管期。</p>
-  <p>更大的问题在于，已经规划的数据中心项目正在出现延误。</p>
-  <p>查马斯认为，这些问题将在2027年集中暴露。届时，大型云厂商可能优先满足自己的算力需求，而大量已经购买的GPU，却可能因为数据中心未能完工、需求与供给错配等原因，无法充分投入使用。</p>
-  <p>他因此预计，2027年将成为行业动荡的一年，大量错误的投资决策会被清算，一些企业则将在整合中消失。</p>
-  <p class="image-wrapper"><img data-img-size-val="692,876" src="https://img.36krcdn.com/hsossms/20261027/v2_478e72ccd49440639cc0e5a6e711aa2b@6119835_oswg471120oswg692oswg876_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>况且，即使这些建设和交付问题最终得到解决，Neocloud的处境也未必会好转。</p>
-  <p>研究机构Gartner预计，AI优化云基础设施市场的支出将从2027年的660亿美元增长至2030年的1740亿美元。即便如此，市场增长仍可能不足以让大多数AI算力供应商在现有一代芯片被替换前收回投资。</p>
-  <p>随着微软、Google、亚马逊等科技巨头持续扩建自己的AI基础设施，GPU供应增加，Neocloud赖以崛起的市场环境也可能逐渐发生变化。</p>
-  <p><strong>麦肯锡早在2025年11月就指出，Neocloud最初是为填补GPU供应缺口而诞生的。</strong>如果不能摆脱单纯出租算力的商业模式，建立长期竞争优势，它们可能重演早期云计算公司的命运，最终被大型云厂商收购、挤出市场，或者退守细分领域。</p>
-  <p>英伟达可以提供融资支持、保底采购，帮助这些企业渡过眼下的困难，却无法保证它们永远能够依靠GPU短缺赚钱。</p>
-  <p>黄仁勋可以扶一时，但不能扶一世。</p>
-  <p class="image-wrapper"><img data-img-size-val="692,390" src="https://img.36krcdn.com/hsossms/20261027/v2_4101dc9def3447d3922f146d3a90dd7e@6119835_oswg602358oswg692oswg390_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图片由AI生成</p>
-  <p>尤其，在整个AI产业链中，Neocloud可能是最容易被绕过、抗风险能力也最弱的一环。</p>
-  <p>对于真正需要算力的科技巨头而言，租用Neocloud的GPU只是满足需求的一种方式。它们可以自己建设数据中心，可以收购现成的算力资产，也可以向大型云厂商租赁算力。</p>
-  <p>但是，甲骨文、微软、亚马逊乃至SpaceX等大型企业，尽管同样承担巨额资本开支，但至少还有其他成熟业务提供资金支持，能够承受更长时间的市场波动。</p>
-  <p>Neocloud却没有什么退路，只要算力租赁的收入增长稍慢一点，原本建立在高速增长预期上的商业模式，就可能难以为继。</p>
-  <p>同样的市场变化，对大型科技公司可能只是一阵动荡，却可能成为Neocloud的生存危机。</p>
-  <p><strong>当GPU短缺逐渐缓解，客户有了更多选择，而Neocloud又无法证明自己不可替代，这批企业就可能成为AI产业扩张过程中的第一批牺牲品。</strong></p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/inXp67z7xSoVyIjMjyUJTw">“字母AI”</a>，作者：袁心玥，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 27 Oct 2026 08:30:50 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4043642459084680</guid>
-            <link>https://www.36kr.com/p/4043642459084680</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[真资本永动机，贾跃亭的机器人公司，挂牌上市了]]></title>
-            <description><![CDATA[<p>贾老板的资本功力还是太强了。</p>
-  <p>刚刚，贾跃亭的全球具身智能（EAI）生态公司Faraday Future与FFR（FF EAI Robotics Ecosystem）公司宣布，FFR已完成了对Faraday Future机器人业务的收购。</p>
-  <p>就这样，<strong>“四核全智”人形和仿生Physical AI机器人生态Pure-Play第一股</strong>在纳斯达克诞生了。</p>
-  <p>需要注意的是，这次并不是敲钟上市，而是FFR整体装入FF的机器人业务，从而实现“挂牌上市”的资本路径。</p>
-  <p>收购完成后，FFR将继续运营机器人业务，并继续在纳斯达克以“FFR”股票代码交易 而Faraday Future将继续在纳斯达克以“FFAI”股票代码交易。</p>
-  <p>作为收购的一部分，任命<strong>贾跃亭担任CEO</strong>，Jerry Wang担任执行董事长，Chen Shi担任首席独立董事，Jason E. Dodier 担任独立董事。</p>
-  <p>“FFR挂牌上市，这是我个人及整个团队的又一历史性时刻。”FFR CEO贾跃亭说。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,699" src="https://img.36krcdn.com/hsossms/20261027/v2_764a54e291064eeab88dfa4b0b56127b@000000_oswg763022oswg1080oswg699_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>同时还有相当宏伟的愿景——目标是成为机器人教育全美第一，保持Physical AI机器人行业综合排名前三，并成为Physical AI时代下最具价值的公司之一。</p>
-  <p>在追逐风口这件事上，贾老板从未让人失望。</p>
-  <h2><strong>01 未来5年要营收19.8亿美元</strong></h2>
-  <p>不过，和此前贾跃亭一贯的“故事总能跑在产品前头”不同，FFR这次确实是<strong>先拿出了可以商业化的产品</strong>。</p>
-  <p>就在这次上市的一个月前，贾跃亭就通过Faraday Future在洛杉矶举办了一场“四核全智”生态新品发布会，一口气发布了9款机器人，覆盖人形和四足两种机器人形态，不同型号还配有价值1000美元至1.5万美元的技能包，用于教育、科研、安防和工业巡检等场景。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,569" src="https://img.36krcdn.com/hsossms/20261027/v2_1d71e6a6ea1d498c9af8f2c2757e329f@000000_oswg553916oswg1080oswg569_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而且这些产品已经开始销售和交付，可以通过FF官网、亚马逊和机器人销售平台RobotShop下单，还有了进账。</p>
-  <p>数据显示，FFAI机器人业务2026年上半年确认收入114.1万美元，第二季度毛利润20.9万美元；截至9月底，其机器人累计销售及出货817台，累计收入超152万美元，第二季度平均毛利率约为30.9%。</p>
-  <p>这个数字的意义不在于绝对规模。它真正验证的是，FFR的机器人已经<strong>越过了“工程样机→可销售产品”的界限</strong>。</p>
-  <p>FFR预计，10月份机器人销售及出货量将超过300台，再创月度新高，累计销售及出货量将超过1,100台，</p>
-  <p>有了产品和收入，故事就更好讲了。</p>
-  <p>因为在上市的同时，FFR还直接发布了2026年全年业绩指引，机器人业务按2026年独立全年口径计算，预计机器人本体销售及出货量约为2000台。</p>
-  <p>还给未来五年做出了规划，其中预计2027年营收约4520万美元，其中EAI本体核营收约3250万美元，其他三核生态营收约1270万美元，EAI本体销量约7400台。</p>
-  <p>未来五年，目标累计营收约<strong>19.8亿美元</strong>，其中本体核营收约10.8亿美元，其它三核生态营收约9亿美元，机器人本体累计销量约13.3万台。</p>
-  <p>当然，还有一句话必不可少，这一切都建立在“<strong>公司在获得必要融资的前提下</strong>”。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20261027/v2_e4383ce222d8497492c1f031b5c5dd0f@000000_oswg117839oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>或许是为了让未来的业绩增长有迹可循，公司还一口气宣布了三项战略合作，分别指向<strong>政府，教育和家庭</strong>三个领域，其中的核心是与KYA集团的合作。</p>
-  <p>KYA集团是一家布局美国政府采购、教育、安防及公共基础设施领域的服务企业，在加州拥有超过1,000条政府采购相关记录，涉及200多家公共机构。同时，KYAKYA集团旗下公司持有美国联邦政府GSA Multiple Award Schedule（MAS）合同，覆盖23个获批采购类别，具备成熟的政府采购渠道和广泛的行业资源。</p>
-  <p>这就意味着，两者的合作间接建立了对接美国联邦政府GSA采购体系的合作通道，为机器人产品进入政府采购市场创造了机会，而其也是未来最可观的出货增量。</p>
-  <p>另外，还宣布与加州科技大学（CSTU）和波士顿国际商学院（BIBS）达成全面战略合作，并计划共同建立BIBS-FF-CSTU联合机器人实验室。</p>
-  <p>此外，还与南加州头部房产经纪公司之一Pinnacle签署战略合作协议，达成了To B房产经纪和To C家庭安防解决方案的合作。</p>
-  <p>资本故事可以讲得很快，但一家机器人公司值多少钱，最后还要回到已经卖出去多少台。</p>
-  <h2><strong>02 再讲新故事</strong></h2>
-  <p>纵观这次上市资本路径，依然是熟悉的贾跃亭式打法：</p>
-  <p>将机器人业务放进另一家纳斯达克上市公司，从而实现<strong>借壳上市</strong>，但是这个“壳”早就和FF已经是一家人。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261027/v2_fde95ce510a14afd9f0c33343d46b73a@000000_oswg93393oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>因为这次上市的FFR并不是新面孔，在更名前，其叫做AIxCrypto Holdings（代码AIXC），一家主打加密货币和Web3业务的上市公司。</p>
-  <p>AIxC用股票收购FFAI的机器人业务，随后更名为FF EAI Robotics Ecosystem Inc.，并退出了原有的加密资产战略，当时交易对价对应的市场化估值约为2亿美元。</p>
-  <p>而且值得一提的是，AIxC前身为QLGN，2025年11月起就由FFAI实现控股，连同关联方合计持股约63%，也就是说，本次交易的实质是在贾跃亭控制的<strong>两个上市平台之间进行机器人资产的整合腾挪</strong>。</p>
-  <p>把机器人业务放进一家自己控制的上市公司里，让这块业务拥有单独的股票代码和融资平台。目的就是，把机器人业务从一家历史包袱复杂的上市公司里切出来，用一个干净的纳斯达克壳承接，让它以Pure-Play的身份单独定价。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20261027/v2_a70d69d1d4a04ed08fc11424880a0d1f@000000_oswg136618oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这意味着机器人业务拥有独立的估值体系和融资通道，不再被汽车业务的亏损叙事拖累。</p>
-  <p>而剥离机器人业务后，FFAI也将转型为类“伯克希尔+Alphabet”模式的<strong>投资控股公司</strong>，战略升级为Robotaxi共享网络加AI视舱运营商，并联合RoboShare拓展包括接入特斯拉Cybercab在内的无人共享出行网络。</p>
-  <p>此次FFR的独立上市也意味着，贾跃亭从造车到炒币再到机器人，其操盘的FF系资本运作故事又翻开了新的一页。</p>
-  <p>但要讲好机器人故事，还有两个关键，一是把817台出货变成13万台的五年预测，需要真产线、真订单、真复购；二是“正毛利”能不能在规模放大后依然成立。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,578" src="https://img.36krcdn.com/hsossms/20261027/v2_4bedd05b85ca451e907e1acbf9e9dfb8@000000_oswg526418oswg1080oswg578_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>但是有一个极易被忽略的细节是，在FF机器人业务还没被装进FFR之前，在向美国证券交易委员会提交的文件中，其明确表示，目前销售的机器人产品全部<strong>依赖中国OEM厂商供应</strong>，其中大部分产品还集中来自同一家供应商。</p>
-  <p>显然，这样的“造人”模式终归不是一个能实现长久自我造血的路径，而这也是FFR上市后真正要接受检验的东西。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=Mzg5MTc3NjgxNQ==&amp;mid=2247550353&amp;idx=1&amp;sn=60e5f88553c90b6723e07b5c6dae9386&amp;chksm=ce196eae238d8eba789de69c2581cbe058b9457ca4ab06cc6982c7aebe3f49e334c9a4e693c6&amp;scene=0&amp;xtrack=1#rd">“超电实验室”（ID：SuperEV-Lab）</a>，作者：王磊，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 27 Oct 2026 08:23:56 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4043676822819717</guid>
-            <link>https://www.36kr.com/p/4043676822819717</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[“实习生月薪十万元”，风口背后的抢人热潮]]></title>
-            <description><![CDATA[<p><strong>十万元一个月，实习生的工资报价</strong>，把很多打工人看沉默了。&nbsp;</p>
-  <p>有人为几百元涨薪反复争取，有人还在读书，就被企业拿着高薪提前预订。AI和具身智能的热度，就这样闯进了普通人的工资单。&nbsp;</p>
-  <p>这条新闻里的十万元，需要先说清楚。&nbsp;</p>
-  <p>10月25日，据某知名媒体报道，猎头及匿名行业人士透露，有创业公司给实习生开出月薪十万元，还有公司让提前入职的毕业生在实习期间领取全职薪资。&nbsp;</p>
-  <p>这属于媒体报道中的个别报价。原文涉及企业采用匿名表述，相应合同、现金与股权构成、实际发薪记录，仍待进一步证实。&nbsp;</p>
-  <p>因此，笔者个人认为新闻说的“实习生工资都有十万”，是少数人的待遇不是个行业的行情。几个字的差别，足以改变很多年轻人对就业的判断。&nbsp;</p>
-  <p>企业肯为本事花钱，值得肯定。&nbsp;</p>
-  <h2><strong>高薪集中在少数关键岗位</strong></h2>
-  <p>今年的AI招聘确实热。&nbsp;</p>
-  <blockquote>
-   <p>据新浪科技转载TechWeb对脉脉报告的介绍，2026年1至7月，脉脉平台新经济行业新发AI岗位量同比增长789.47%，平均招聘月薪63160元，同比增长2.74%。&nbsp;</p>
-  </blockquote>
-  <p>这组数据有两个限定：统计来自特定招聘平台，薪酬属于岗位招聘口径。普通求职者实际能拿多少，还要看资历、录用条件及薪酬约定。&nbsp;</p>
-  <p>岗位大量增加，平均报价涨幅相对温和，说明行业热度与个人待遇之间，隔着岗位和能力的差别。&nbsp;</p>
-  <p>企业扩大招聘，也在仔细挑人。&nbsp;</p>
-  <p>每日经济新闻援引脉脉春招报告显示，今年1至4月，具身智能岗位平均招聘月薪61625元，AI科学家及负责人平均月薪132796元。&nbsp;</p>
-  <p>后者承担研究或带队职责，本来就属于高薪岗位。拿这种价格衡量普通实习生，容易让人误判机会。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1000,888" src="https://img.36krcdn.com/hsossms/20261027/v2_a356386e909f454a87f2d9f93aa7fc72@5888275_oswg172780oswg1000oswg888_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>企业愿意为少数人开高价，原因很实际。&nbsp;</p>
-  <p>研发项目花钱，也耗时间。关键算法迟迟做不出来，后续工作就得等；机器人调试反复出问题，交付计划也会受影响。对于研发任务紧迫的企业，一个能缩短试错时间的人，可能值得更高的工资。&nbsp;</p>
-  <p>优秀学生提前参与核心研究，企业也可能提前争取。高薪有没有道理，最终取决于他解决的问题有多难、成果有多大。&nbsp;</p>
-  <h2><strong>企业更需要能把产品做成的人</strong></h2>
-  <p>看招聘要求，比看最高报价更有用。&nbsp;</p>
-  <p>宇树官网的具身智能软件工程师岗位，工作涉及算法集成、模型部署、软件优化和真机测试；机器人数据运营工程师需要处理数据采集、质量管理以及采集过程中的软硬件异常。&nbsp;</p>
-  <p>这些工作具体、琐碎，出了问题还得有人到现场解决。&nbsp;</p>
-  <p>模型在电脑里运行，到了机器人身上，就要面对电机响应、传感器误差、设备算力等限制。实验效果再好，客户现场仍可能出现新的故障。企业需要有人把原因找出来，再让设备稳定干活。&nbsp;</p>
-  <p>据此判断，未来更吃香的人，往往在某个专业上钻得足够深，同时懂得怎样与其他环节协作。&nbsp;</p>
-  <p>算法工程师理解硬件限制，方案落地会少些反复；机械工程师懂控制要求，设计时就能提前处理一些问题；交付人员熟悉客户业务，才知道哪项功能值得优先做。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1000,888" src="https://img.36krcdn.com/hsossms/20261027/v2_be2ae77598d44f52856eb8d2b8058768@5888275_oswg210234oswg1000oswg888_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>对普通求职者来说，把原有专业用好，再补上AI工具和项目经验，是更实际的路。&nbsp;</p>
-  <p>做财务的人能否减少重复核对，做制造的人能否改善质检，做销售的人能否提高客户跟进效率，都可以成为可展示的工作成果。&nbsp;</p>
-  <p>企业最终愿意为解决问题付钱。&nbsp;</p>
-  <p>一份做过、验证过的项目，比满页热门名词更有分量。&nbsp;</p>
-  <h2><strong>抢人会继续出价，也会更挑剔</strong></h2>
-  <p>这轮热度能持续多久，取决于技术进展、客户需求和企业资金状况。给出一个具体结束日期，依据还远远不足。&nbsp;</p>
-  <p>从已披露的经营数据看，部分机器人企业收入增长较快，同时仍承受研发和亏损压力。&nbsp;</p>
-  <p>新京报报道，优必选2026年上半年营收12.69亿元，研发费用3.03亿元，净亏损3.39亿元；新浪财经披露的越疆中期业绩信息显示，越疆同期营收3.16亿元，研发投入1.02亿元，净亏损1.08亿元。&nbsp;</p>
-  <p class="image-wrapper"><img data-img-size-val="1000,758" src="https://img.36krcdn.com/hsossms/20261027/v2_70376e140bdd46e8a72bd59fa218d4b7@5888275_oswg107060oswg1000oswg758_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这两家公司的业务构成不同，数据仅用于观察研发投入与经营规模。&nbsp;</p>
-  <p>它们与报道中的十万元实习报价之间，公开材料尚未建立关联。研发支出也包含多类费用，应与工资总额分开理解。&nbsp;</p>
-  <p>企业可以在研发阶段持续投入，前提是能够获得资金支持，并逐步做出有商业价值的成果。收入增长给招聘提供支撑，亏损则要求管理层衡量新增人员的成本和贡献。&nbsp;</p>
-  <p><strong>笔者个人的判断是，关键人才的竞争还会持续，普遍抬价会越来越难。</strong></p>
-  <p>能解决技术难题、提高设备稳定性的人，依然有议价空间。主要依靠热门履历、工作成果又难以验证的岗位，工资更容易受到预算变化影响。&nbsp;</p>
-  <p>供给也会变化。&nbsp;</p>
-  <p>随着更多人进入相关领域、积累项目经验，一些今天稀缺的技能，未来可能变得常见。个人想把高薪拿得长久，得继续解决新的问题。&nbsp;</p>
-  <p>对企业而言，招聘预算迟早要接受客户的检验。产品卖得出去、交得出来，客户愿意继续采购，高薪才能获得更扎实的支撑。&nbsp;</p>
-  <h2><strong>谈高薪也要顾及普通人的感受</strong></h2>
-  <p>年轻人凭本事获得高收入，值得祝福。企业重视人才，也值得鼓励。&nbsp;</p>
-  <p>但品牌企业公开谈薪酬，要对自己的表达负责。&nbsp;</p>
-  <p>招聘消息经过转发，最容易留下最高的那个数字。适用人群、选拔标准、工作要求，却常常在传播中消失。公众看到的，便成了一个轻飘飘的“实习生月薪十万”。&nbsp;</p>
-  <p>对于正在找工作、承担房租和生活开支的人，这个数字很容易变成压力。有的人会怀疑专业选错了，有的人会误以为换个赛道，收入就能翻上去。&nbsp;</p>
-  <p>企业应把话讲具体：<strong>招什么人，做什么工作，工资怎样构成，待遇适用于多少岗位</strong>。信息越完整，公众越容易作出判断。&nbsp;</p>
-  <p>高薪本身完全可以坦然介绍。&nbsp;</p>
-  <p>把少数岗位的特殊待遇说成普遍机会，就容易透支信任。&nbsp;</p>
-  <p>当前报道采用匿名信源，讨论也应守住证据边界，避免把责任随意安到某家企业头上。&nbsp;</p>
-  <p>一家公司的用人水平，既体现在争取顶尖人才的诚意，也体现在普通员工的待遇和成长机会里。&nbsp;</p>
-  <p>研发、测试、生产、售后，很多工作远离聚光灯，却决定产品能走多远。&nbsp;</p>
-  <p>十万元的报价能带来关注。稳定发薪、兑现承诺，让更多员工分享企业成长，才能把这份关注变成认可。&nbsp;</p>
-  <p><strong>资本市场喜欢听天才的故事，普通人更在意自己的生活能否改善。</strong></p>
-  <p>企业说话时记得这一点，品牌才更容易赢得人心。&nbsp;</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/om3ugR0iT-dUvP0IMfNWnw">“投行圈子”</a>，作者：投行大师姐，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 27 Oct 2026 08:17:03 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4043787891233920</guid>
-            <link>https://www.36kr.com/p/4043787891233920</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[看了招股书，我终于知道为什么 Anthropic 不在乎用户了]]></title>
-            <description><![CDATA[<p>大的，终于来了。</p>
-  <p>10 月 26 日，Anthropic 向美国证监会公开递交了 S-1 招股书，准备在纳斯达克全球精选市场挂牌上市，股票代码定为 ANT。媒体报道中，<strong>这家公司的估值讨论区间已经来到了 1.5 万亿至 2 万亿美元</strong>，发行价区间尚未披露。</p>
-  <p>24 小时内，这本 300 多页的招股书已经被科技圈和金融圈翻了个底朝天，最抓眼球的几个数字大家都看过了：2026 年上半年营收 162.86 亿美元，去年同期只有 11.63 亿美元；第二季度交出 9.74 亿美元经营利润，迎来公司历史上首个经营盈利的季度；至于账面上高达 807 亿美元的净亏损，大头是 723.88 亿美元的可转债、衍生负债和 SAFE 公允价值变动，属于非现金的会计费用。</p>
-  <p>但在这些华尔街叙事之外，国内的开发者和日常使用者有着另一种割裂的体感。在中国大陆用户眼里，Claude 大概是目前市面上封号最多、风控最严苛、用起来最让人恼火的 AI 产品。</p>
-  <p><strong>为什么一家做出顶尖大模型的公司，在面对普通个人用户时总是显得如此冷淡</strong>？</p>
-  <p>翻完招股书的财务附注和风险提示，答案其实就写在账本上。在 Anthropic 的商业版图里，个人用户贡献的真金白银占比非常小。</p>
-  <h2><strong>01 不到 20% 的个人用户</strong></h2>
-  <p>要看懂一家公司真正在乎谁，最直接的办法就是去翻它的收入构成表。在招股书的财报附注 2 里，Anthropic 把营收拆成了两大块，一块是按用量计费的收入，另一块是订阅收入。</p>
-  <p>数据对比非常悬殊。2025 年全年，按用量计费的收入是 37.96 亿美元，订阅收入只有 7.89 亿美元，比例大约是 83% 对 17%。到了 2026 年上半年，按用量计费的收入冲到 130.64 亿美元，订阅收入是 32.22 亿美元，前者依然占到 80% 左右，订阅收入只占约 20%。</p>
-  <p>更关键的细节藏在订阅收入的构成里。这 20% 里，既有个人用户的 Claude Pro 和 Claude Max，也有企业级的 Team 和 Enterprise 套餐，招股书并没有把个人订阅单独拆出来。<strong>这意味着，个人用户掏腰包买会员贡献的收入，在 Anthropic 总营收里的占比肯定低于两成，甚至可能还要低得多。</strong></p>
-  <p>那么，八成的按用量计费收入从哪来？答案是<strong>云厂商渠道和成千上万家企业</strong>。</p>
-  <p>通过亚马逊、谷歌、微软这几家云厂商市场卖给客户的收入，占比一路狂飙：2023 年约 11%，2024 年约 32%，2025 年约 47%，2026 年上半年约 48%。几乎半壁江山都是靠三大云巨头的分销管道撑起来的。</p>
-  <p>撑起这台印钞机的，是一批迅速膨胀的机构客户。截至 2026 年 9 月 30 日，过去 12 个月贡献收入 10 万美元以上的客户（按独立组织统计），从一年前的 950 多家暴增到 11900 多家。客户结构也很健康，2026 年前 9 个月没有任何单一客户收入占比超过 10%，前五大客户合计约 25%。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,484" src="https://img.36krcdn.com/hsossms/20261027/v2_d7b4db7b412f4d539f761d97285b7f29@000000_oswg22306oswg1080oswg484_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">招股书中的企业客户增长图：过去 12 个月贡献收入 10 万美元以上的客户，从 2023 年底约 20 家增长到 2026 年 9 月底的 11900 多家｜图片来源：Anthropic</p>
-  <p><strong>招股书给个人付费用户专门用了一个词叫「prosumers」，定义是订阅 AI 工具来做知识工作的个人用户</strong>，比如研究人员、开发者、分析师和写作者。头衔听起来很专业，但这群人在核心财务指标面前依然处于边缘位置。</p>
-  <p>整份 300 多页的招股书，没有披露日活和月活用户数，连付费订阅人数都没有提。</p>
-  <p>最能体现这种态度的是净收入留存率。</p>
-  <p>截至 2026 年 9 月 30 日，<strong>Anthropic 的净收入留存率高达约 900%，这是一个让所有软件公司都眼红的数字</strong>。但在计算这个核心指标时，Claude Pro 和 Max 的个人订阅用户被剔除在外，理由是固定价格订阅不能反映这个指标要衡量的扩张和收缩行为。</p>
-  <p><strong>一家公司最在意什么，就看它给投资人汇报什么指标。</strong>当一家公司不展示日活月活，算核心留存率还要把个人订户排除在外时，普通个人用户在它心目中的分量已经不言自明。</p>
-  <h2><strong>02 钱是 Claude Code 和企业挣的</strong></h2>
-  <p>既然大头是按用量计费的收入，企业客户到底在为什么烧钱？招股书把聚光灯打在了 Claude Code 身上，称其为「最具体地定义了自主 AI 工作是什么样子」的产品。</p>
-  <p>一个普通的聊天框消耗不了多少 Token，真正能把算力当水一样喝掉的，是能够自己写代码、跑测试、改 Bug 的智能体。招股书给出了一组对比：2026 年第三季度，没有使用 Claude Code 的 Claude Enterprise 用户，月均花费不到 75 美元；而使用<strong>Claude Code 的前 5% 的 Claude Enterprise 用户，花费约为前者的 20 倍</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,556" src="https://img.36krcdn.com/hsossms/20261027/v2_b2072ec0439746abb4d9140867d0699b@000000_oswg48950oswg1080oswg556_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">招股书把产品形态分成三代：聊天机器人、嵌在单个应用里的 Copilot，以及能接下目标、长时间自主工作的「虚拟协作者」｜图片来源：Anthropic</p>
-  <p>这也是 Anthropic 能用精简团队撬动百亿营收的原因。截至 2026 年 9 月 30 日，公司员工约 5300 人，过去 12 个月人均营收超过 660 万美元，一年前这个数字还是 140 万美元。</p>
-  <p>看懂了这台赚钱机器的运转逻辑，再看它怎么对待免费用户。</p>
-  <p>在财务记账上，<strong>免费用户消耗的算力被归入了「销售与营销」费用</strong>。财报附注写得很清楚，这项费用包括渠道合作伙伴费用、营销和广告、人员成本，以及「为免费访问提供的算力与基础设施成本」。2026 年上半年，销售与营销费用是 38.08 亿美元。换句话说，免费用户在账上是一笔获客成本。</p>
-  <p>风险因素章节把话挑得更明。公司承认，提供免费访问很大程度上是为了建立认知和使用习惯，触达在企业组织之外从事知识工作的个人，希望逐步把他们转化为付费客户；但转化可能不成功，免费层还可能蚕食付费订阅。</p>
-  <p>招股书还两次强调，公司「一直在算力受限的环境中运营，客户需求超过可用算力」。招股书没有写算力怎么在不同客户之间分配，但在算力永远不够用的前提下，一边是月费固定的个人订户，一边是花费高出 20 倍的 Claude Code 企业用户，这笔账并不难算。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,602" src="https://img.36krcdn.com/hsossms/20261027/v2_a327935ab2794874a46b192272f31174@000000_oswg47119oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">招股书中的「每 1 美元算力带来的营收」图：从 2025 年第一季度的 0.40 美元，增长到 2026 年第二季度的 2.08 美元｜图片来源：Anthropic</p>
-  <p>全世界的 Pro 和 Max 用户都在经历额度和限流的变化。对此，Anthropic 在风险因素里坦白：<strong>我们曾经改变、将来也可能改变用量上限、速率上限，或模型和产品能力，这可能损害我们的声誉以及产品在用户心中的价值</strong>；其中一些变化已经引发、将来也可能引发指控，称我们关于模型访问或能力的披露不充分或有误导性。</p>
-  <p>知道改配额会挨骂、会伤及声誉，Anthropic 还是把这条写进了招股书，提前给投资人打了预防针。</p>
-  <h2><strong>03 作为「火种」的用户</strong></h2>
-  <p>既然个人用户贡献的收入这么少，还要消耗受限的算力，Anthropic 为什么不干脆关掉个人端，彻底做一家后台接口供应商？</p>
-  <p>这正是招股书里的微妙之处。个人用户在收入账本上分量很轻，在商业扩张的链条上却有不可替代的战略价值。</p>
-  <p><strong>他们是帮 Anthropic 攻入企业内部的火种。</strong></p>
-  <p>招股书复盘了这个增长飞轮。到目前为止，Claude 的扩散很大程度上是自发的，由软件开发者和专业个人用户推动。这些人自己先用上 Claude，再在所在组织内部推动更大范围的采用，省去了建立庞大直销团队的麻烦。官方直言，这种方式让他们能用比其他大型企业科技公司更小的团队实现规模化。</p>
-  <p>软件开发者是其中最核心的群体。招股书认为，<strong>他们懂系统怎么运作，在评估技术工具上有公信力，经常在内部推动采用新技术，赢得他们的信任，是 Claude 在企业员工中更广泛扩散的基础</strong>。</p>
-  <p>看清了这层逻辑，就能明白免费算力为什么会记在「销售与营销」账目下。给个人用户提供服务，本质上是 Anthropic 的获客手段：一个程序员先自己用起来，回公司说服团队采购 Enterprise 套餐，最后把整个研发流程接进按量计费的 Claude Code。</p>
-  <p>但这种模式有一个软肋。招股书承认，它假设个人采用会继续转化为组织层面的采用。在风险因素里，Anthropic 警告投资人，拥有更强消费者业务、更大用户群、更成熟品牌的公司可能加大对企业客户的投入；如果这些竞争对手通过消费者应用等方式抢走了「我们企业采用的起点」，也就是个人用户，公司业务可能受到不利影响。</p>
-  <p>这就构成了一种拧巴的局面。Anthropic 需要个人用户帮它做口碑、做企业内部的推动者，生怕竞争对手把这群人抢走；与此同时，招股书又明确表示，公司的研究优先级、产品路线图和市场团队全都围绕企业使用场景来组织。</p>
-  <p>它需要你当火种，但核心资源都在为企业服务。当企业大单涌入、算力又捉襟见肘时，最先被限制氧气供应的，偏偏是火种自己。</p>
-  <h2><strong>04 披着消费级外衣的 To B 公司</strong></h2>
-  <p>合上这本招股书，Anthropic 的真实面目已经很清晰：它本质上是一家 To B 公司。为了获客和构建生态，它把产品做成了一个人人都能上手的聊天框，真正的生意是向上万家企业兜售按量计费的算力和自主干活的 Agent。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,635" src="https://img.36krcdn.com/hsossms/20261027/v2_60647dca762f4351b284cd6b630d403b@000000_oswg74022oswg1080oswg635_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">招股书中的产品结构图：底层是 Mythos、Opus、Sonnet、Haiku 四个模型系列，中间是开发者平台，最上层是交付给企业客户的价值｜图片来源：Anthropic</p>
-  <p>至于国内用户最敏感的封号问题，招股书也有一句制度上的交代：公司有「支持地区政策」，并实施基于 IP 的地理封锁，限制特定地区访问其模型、平台和应用。中国大陆本来就不在它的服务地区范围内。</p>
-  <p>当一家估值冲击两万亿美元的公司，把筹码都押在企业工作流和代码智能体上，个人用户在它眼里的位置只会越来越靠后。</p>
-  <p>只是不知道，当越来越多吃了闭门羹的开发者转身投向其他竞争对手，Anthropic 还能不能守住它引以为傲的企业采用起点？</p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653115481&amp;idx=1&amp;sn=fd15b7b725515ec843eba22746d6ccf9&amp;chksm=7fc41b0b573fd0e9e32ed99c6a020ebdc41074ba401a800b2cb3ac8e5467a5ca90adff6b8b01&amp;scene=0&amp;xtrack=1#rd">“极客公园”（ID：geekpark）</a>，作者：Wildcard，编辑：靖宇，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 27 Oct 2026 08:00:01 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4043539457889414</guid>
-            <link>https://www.36kr.com/p/4043539457889414</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[史上最大IPO来了，半年巨亏807亿美元，Anthropic招股书还藏着什么？]]></title>
-            <description><![CDATA[<p>六年前的10月26日，蚂蚁集团递交IPO文件，剑指全球最大IPO。六年后同一天，另一家拟使用“ANT”作为股票代码的公司，也向纳斯达克递交了招股书。</p>
-  <p>Anthropic，Claude背后的AI巨头。据市场消息，公司计划通过IPO募资最高1000亿美元，目标估值达1.5万亿至2万亿美元，有望刷新全球IPO募资纪录。</p>
-  <p class="image-wrapper"><img data-img-size-val="830,508" src="https://img.36krcdn.com/hsossms/20261027/v2_cbbf76cb43c94423ae0d6e95f252d26b@5888275_oswg168260oswg830oswg508_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>但比天价估值更值得关注的，是招股书里一组极具反差的数字。</p>
-  <p><strong>五个季度营收暴涨30倍，上半年却净亏807亿美元，未来还有规模超过6000亿美元的算力采购及基础设施安排。</strong></p>
-  <p>一边是AI商业化史上罕见的增长速度，一边是堪比重工业的巨额投入。</p>
-  <p><strong>一家刚刚开始实现经营盈利的AI公司，账上还有千亿美元现金，为什么反而急着冲击史上最大IPO？</strong></p>
-  <p>答案或许不只关乎Anthropic的估值，更藏着整个AI行业下一阶段的商业逻辑。</p>
-  <h2><strong>01 营收暴涨30倍， Anthropic凭什么值2万亿美元？&nbsp;</strong></h2>
-  <p>Anthropic敢于冲击2万亿美元估值，最直接的底气，来自收入规模、盈利能力和企业客户需求的同步增长。</p>
-  <p><strong>首先，营收增长速度，已经远超传统企业软件公司的增长水平。</strong></p>
-  <p>2023年，Anthropic全年营收只有4100万美元，甚至不及同期6900万美元的利息收入。但到了2026年第二季度，其单季营收已达到115.55亿美元，相当于2023年全年收入的近282倍。</p>
-  <p>增长真正提速是在2025年。从2025年第一季度的3.76亿美元，到2026年第二季度的115.55亿美元，一年多时间里，季度营收增长约30倍。</p>
-  <p class="image-wrapper"><img data-img-size-val="985,617" src="https://img.36krcdn.com/hsossms/20261027/v2_31d3fb2b5c9341e8b7e0203754af6dcd@5888275_oswg28633oswg985oswg617_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>对于传统企业软件公司而言，能够连续多年保持30%以上的年增长率，已经相当出色。Anthropic却在短短一年多时间里，将单季度收入扩大了近30倍。</p>
-  <p>这意味着，<strong>前沿大模型正在从依赖资本投入的技术研发，转向能够创造百亿美元级季度收入的规模化商业生意</strong>。</p>
-  <p><strong>其次，比收入暴涨更重要的是，Anthropic开始证明，大模型生意可以赚钱。</strong></p>
-  <p>过去几年，大模型商业化始终面临一个难题：模型能力越强、调用规模越大，背后的算力消耗也越高。收入增长未必能覆盖成本增长，甚至可能出现用户越多、亏损越大的情况。</p>
-  <p>Anthropic也曾如此。2025年第一季度，公司每投入1美元算力及基础设施费用，只能创造0.40美元收入；到了第四季度，这一比例仍不足0.70美元。</p>
-  <p>但进入2026年，情况出现明显变化。</p>
-  <p>第一季度，每1美元算力及基础设施费用对应的收入提升至1.40美元，第二季度进一步升至2.08美元。一年多时间里，单位算力投入产出比提升了五倍以上。</p>
-  <p>这一变化也反映在利润表上。2026年第二季度，Anthropic首次录得9.74亿美元经营利润，经营利润率约8.4%。</p>
-  <p class="image-wrapper"><img data-img-size-val="948,665" src="https://img.36krcdn.com/hsossms/20261027/v2_fe9b54ba0107464fa8246d4cc78cc9ef@5888275_oswg32999oswg948oswg665_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>从每花1美元算力成本只能换回4毛收入，到每花1美元能换回2美元收入，Anthropic正在跨过大模型商业化最关键的一道门槛：<strong>收入增长开始快于算力成本增长。</strong></p>
-  <p>当模型能力提升、单位推理成本下降，原本难以实现商业化的AI场景，也开始具备规模化部署的经济性。</p>
-  <p><strong>最后，真正支撑Anthropic长期估值的，是企业客户持续扩大的付费需求。</strong></p>
-  <p>目前，财富500强企业中，超过一半每年在Anthropic上的支出达到10万美元以上。放眼全部客户，年消费超过100万美元的企业已有1900多家，其中约250家的年消费超过1000万美元。</p>
-  <p>这说明，<strong>Claude已经不只是企业员工尝试使用的AI工具，而是正在成为企业愿意投入真金白银采购的生产力产品</strong>。</p>
-  <p>更值得关注的是，<strong>客户不仅愿意付钱，还在不断增加投入</strong>。</p>
-  <p>Anthropic披露的净收入留存率约900%。简单来说，同一批企业客户今年在Claude上花费的金额，约为去年的9倍。</p>
-  <p class="image-wrapper"><img data-img-size-val="1077,174" src="https://img.36krcdn.com/hsossms/20261027/v2_1caf7fef137442278c8912114deb7d1e@5888275_oswg141436oswg1077oswg174_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>背后是AI使用场景的不断扩大。以Claude Code为例，企业最初可能只让部分程序员使用，随着实际效果得到验证，再逐步推广到更多研发团队和业务流程，采购规模也随之增加。</p>
-  <p>而<strong>这部分需求仍有增长空间</strong>。 按照相关披露，即使是已经大规模采购Claude的企业，相关支出平均也不到其总开支的0.1%。</p>
-  <p>这意味着，Anthropic虽然已经进入大型企业的采购体系，但AI在企业整体预算中的占比仍然很低。未来随着更多业务流程引入AI，企业仍可能继续增加采购。</p>
-  <p>因此，<strong>Anthropic的增长潜力，不只来自不断获取新客户，更来自现有客户持续扩大AI使用规模</strong>。</p>
-  <p>从营收暴涨，到算力效率改善，再到企业客户持续增加采购，Anthropic已经拿出了支撑高估值的商业化成绩单。</p>
-  <h2><strong>02 807亿美元巨亏背后， 藏着一张更大的账单&nbsp;</strong></h2>
-  <p>相比收入暴涨30倍，Anthropic招股书里更值得关注的，是807亿美元净亏损与数千亿美元长期算力承诺之间的巨大反差。</p>
-  <p>表面上看，这是一家半年收入163亿美元、却亏掉807亿美元的公司。但仔细拆解财务数据会发现，当期账面亏损与未来资金压力，其实是两回事。</p>
-  <p><strong>第一层：807亿美元巨亏，大部分并非经营中真正花掉的钱。</strong></p>
-  <p>2026年上半年，Anthropic净亏损807.48亿美元，其中约723.88亿美元来自可转换票据、衍生负债和SAFE等融资工具的公允价值变动，占净亏损的近90%。</p>
-  <p class="image-wrapper"><img data-img-size-val="1031,396" src="https://img.36krcdn.com/hsossms/20261027/v2_fb7686a621c847978804dc13d7b1830c@5888275_oswg63079oswg1031oswg396_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>简单理解，这笔亏损主要源于公司估值上涨带来的会计调整，而不是同期实际支付了同等金额的现金。</p>
-  <p>此前，部分投资方通过可转换票据等方式向Anthropic提供资金，未来可按照约定条件转换成公司股票。随着Anthropic估值不断攀升，这些转换权也变得越来越值钱，对应负债的公允价值随之上升，并被计入当期损益。</p>
-  <p>今年2月，Anthropic投后估值约3800亿美元，5月进一步升至9650亿美元，估值大幅上涨也放大了相关账面损失。</p>
-  <p>于是出现了一个反常识的结果：<strong>公司估值越高，账面亏损反而可能越大</strong>。</p>
-  <p>剔除公允价值变动、股权激励等特定项目后，Anthropic上半年调整后净利润为26.71亿美元。</p>
-  <p>当然，非现金亏损不等于虚假亏损，相关融资工具仍可能带来股权稀释等影响。但807亿美元净亏损，显然不能直接等同于实际烧掉的现金。</p>
-  <p>同样，<strong>调整后盈利也不意味着公司已经实现现金流自给自足</strong>。 对于Anthropic这样的AI企业，真正的资金压力，还要结合实际现金流和未来算力付款义务来看。</p>
-  <p><strong>第二层：比账面亏损更值得警惕的，是未来数千亿美元的算力账单。</strong></p>
-  <p>为了保障未来的算力供应，Anthropic<strong>与谷歌、亚马逊、微软、博通等企业签订了规模庞大的长期协议</strong>。</p>
-  <p>其中，与谷歌的协议涉及至少约1145亿美元，亚马逊约1100亿美元，微软约449亿美元，博通相关的五年期AI加速器租赁安排约1612亿美元。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,159" src="https://img.36krcdn.com/hsossms/20261027/v2_114ce64a75194ab3a40cf9bd2e3befbb@5888275_oswg105090oswg1080oswg159_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1077,156" src="https://img.36krcdn.com/hsossms/20261027/v2_14a078d541f84d41bcedb59934860d48@5888275_oswg104179oswg1077oswg156_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>此外，Anthropic还<strong>与多家基础设施企业达成了算力采购及租赁安排</strong>，部分合同期限长达20年。</p>
-  <p>不过，这些金额涉及最低付款、租赁承诺和可选采购额度等不同口径，不能简单相加，更不能全部视为已经确定的现金付款义务。</p>
-  <p>而且，部分协议甚至采用了类似能源行业“照付不议”的模式：<strong>无论实际使用多少算力，企业都可能需要支付约定的最低费用</strong>。</p>
-  <p>这意味着，Anthropic正在用长期付款承诺换取未来的算力保障。即使AI需求增长放缓，或者模型效率提升导致算力需求低于预期，部分合同费用仍需支付。</p>
-  <p>这也是Anthropic与传统软件公司的一大区别：收入可以随着需求波动，但相当一部分算力成本已经被提前锁定。</p>
-  <h2><strong>03 账上千亿美元， Anthropic为何急着上市？&nbsp;</strong></h2>
-  <p>Anthropic选择此时冲击史上最大IPO，背后不仅是估值不断攀升，更有未来持续扩张的资金需求。</p>
-  <p><strong>一方面，Anthropic所需的融资规模，正在超出传统私募市场能够轻松承接的范围。</strong></p>
-  <p>2026年2月，Anthropic完成300亿美元G轮融资，投后估值约3800亿美元；仅三个月后，H轮融资规模进一步扩大至650亿美元，投后估值飙升至9650亿美元。</p>
-  <p class="image-wrapper"><img data-img-size-val="591,557" src="https://img.36krcdn.com/hsossms/20261027/v2_396214b993c74fc1abeb2facff85c62e@5888275_oswg106592oswg591oswg557_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>短短三个月，融资规模翻倍，估值也增长超过一倍。如今，公司IPO目标估值已来到1.5万亿至2万亿美元区间。</p>
-  <p>但融资规模越大，下一轮筹钱的难度也越高。</p>
-  <p>650亿美元的单轮融资，已经不是普通风险投资机构能够轻易承接的规模。更重要的是，Anthropic未来仍需持续投入巨额资金，用于算力采购、芯片租赁和数据中心建设。</p>
-  <p><strong>另一方面，IPO能够为Anthropic打开更广阔、更持续的融资渠道。</strong></p>
-  <p>上市不仅能帮助公司一次性募集大量资金，还能建立公开市场估值，为未来通过增发、债券等方式继续融资提供更多选择。</p>
-  <p>对于传统软件公司而言，收入增长通常不需要同比例增加物理基础设施。但前沿AI公司不同，模型训练、推理和Agent应用规模扩张，都需要持续投入算力。</p>
-  <p>因此，谁能长期获得资金支持，谁就更有能力提前锁定芯片和数据中心资源，为下一代模型研发和商业化扩张提供保障。</p>
-  <p>对Anthropic而言，IPO的意义已经不只是筹集1000亿美元，更是为未来数年的算力竞争建立持续融资能力。</p>
-  <p><strong>当然最关键的是，AI资本市场的融资窗口可能不会一直敞开。</strong></p>
-  <p>今年10月，全球部分AI相关资产出现调整，市场开始更加关注AI基础设施投入能否带来足够的商业回报。</p>
-  <p>过去，投资者更愿意为模型能力、用户增长和营收规模支付高估值；如今，随着AI资本开支持续攀升，利润率、现金流和投资回报正受到更多审视。</p>
-  <p>这对Anthropic而言是一个现实压力。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261027/v2_c1bb73d8b40643dda91b1a8f2b687eda@5888275_oswg87474oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>截至2026年6月底，Anthropic持有的现金及短期投资合计超过1300亿美元。</p>
-  <p>这也恰恰说明Anthropic并非因为眼下缺钱才急着上市，而是未来算力投入规模太大，需要提前建立更稳定的融资渠道。</p>
-  <p>与此同时，AI企业的估值预期也可能随着市场环境变化。趁投资者仍愿意为高速增长支付高溢价时上市，有助于Anthropic争取更有利的融资条件。</p>
-  <h2><strong>04 从1.5万亿到2万亿美元， Anthropic还差什么？&nbsp;</strong></h2>
-  <p>Anthropic的营收增长和盈利表现，已经为其冲击万亿美元估值提供了底气。但它究竟值1.5万亿还是2万亿美元，资本市场仍存在分歧。</p>
-  <p>原因很简单：<strong>Anthropic虽然赚得越来越多，但这些收入能否持续增长、最终能留下多少利润，仍有不确定性</strong>。</p>
-  <p>要看清这5000亿美元的估值差距，关键还得看三个方面。</p>
-  <p><strong>第一，云厂商贡献了近半营收，但渠道依赖也可能挤压Anthropic的利润空间。</strong></p>
-  <p>2026年上半年，通过AWS、谷歌云和微软云市场产生的销售额，占Anthropic总收入的约48%，而2023年这一比例仅约11%。</p>
-  <p>依托云厂商的客户资源和销售网络，Anthropic能够快速进入大型企业市场，但也需要支付相应的渠道费用。仅2026年上半年，相关费用同比就增加约27亿美元。</p>
-  <p>这意味着，Anthropic的营收增长，并不一定能同比例转化为利润增长。 云厂商带来了客户和收入，也会分走一部分收益。</p>
-  <p class="image-wrapper"><img data-img-size-val="588,543" src="https://img.36krcdn.com/hsossms/20261027/v2_0d57f1809ce14db3ba8f1a63b3a795c7@5888275_oswg275273oswg588oswg543_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>此外，不同AI公司的渠道收入确认方式可能存在差异。有的按总额确认收入，再将渠道费用计入成本；有的则按净额确认收入。</p>
-  <p>因此，<strong>投资者不能只比较Anthropic与其他AI公司的营收规模，还需要看渠道成本和实际盈利能力</strong>。</p>
-  <p>说到底，营收增长决定市场想象空间，最终能留下多少利润，才决定高估值能否站稳。</p>
-  <p><strong>第二，企业客户增长迅猛，但未来收入的稳定性仍需检验。</strong></p>
-  <p>2026年上半年，Anthropic约20%的营收来自两家客户，说明部分大客户仍对其收入表现具有较大影响。</p>
-  <p>与此同时，许多企业客户并未签订不可撤销的长期采购合同。</p>
-  <p>这意味着，即使Anthropic已经进入大型企业的采购体系，也不能保证这些客户未来几年会持续增加采购。</p>
-  <p>一旦客户转向其他模型，或者开始使用成本更低的开源模型，Anthropic的收入就可能受到影响。</p>
-  <p><strong>上游成本具有长期刚性，下游收入却存在波动风险</strong>，这种不对称是其估值面临的重要考验。</p>
-  <p><strong>第三，创始团队掌握过半投票权，公众投资者的实际话语权可能受到限制。</strong></p>
-  <p>按照拟议上市方案，Anthropic七位联合创始人通过Founder LLC持有一股特殊的F类股票。虽然这股股票不享有普通经济权益，却掌握着公司50.1%的投票权。此外，长期利益信托还拥有选举和罢免董事会多数成员的权力。</p>
-  <p class="image-wrapper"><img data-img-size-val="1068,492" src="https://img.36krcdn.com/hsossms/20261027/v2_1a598b8e51f84186ba73ef7008d10899@5888275_oswg96339oswg1068oswg492_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>简单来说，即使Anthropic上市后引入大量公众投资者，公司的关键决策权仍将主要掌握在创始团队及相关治理机构手中。</p>
-  <p>Anthropic这样设计，是为了保护其长期AI安全使命，避免公司为了迎合短期股东利益而牺牲技术研发和安全目标。</p>
-  <p>但问题在于，<strong>公众投资者出钱承担经营风险，却未必能获得与持股比例相对应的话语权。</strong></p>
-  <p>这可能影响投资者对Anthropic的估值判断。毕竟，投资者不仅关心公司未来能赚多少钱，也关心自己能否对公司的重大决策施加影响。</p>
-  <p>因此，特殊治理结构虽然有助于Anthropic坚持长期目标，却也可能成为其争取2万亿美元高估值的一项阻力。</p>
-  <p>综合来看，Anthropic的估值争议，实际上集中在三个问题：收入能留下多少利润、客户能否持续付费、公众股东能获得多少治理权利。</p>
-  <p>看好Anthropic的投资者，相信其高速增长和企业AI市场空间足以支撑高估值；谨慎的投资者，则会对渠道成本、收入稳定性和治理风险提出更高要求。</p>
-  <p>这也是Anthropic此次IPO真正的考验：它不仅要证明AI能够创造惊人的收入，还要证明这门生意能够长期、稳定地为股东创造回报。</p>
-  <h2><strong>05 结语：史上最大IPO， 考验的不只是Anthropic&nbsp;</strong></h2>
-  <p>Anthropic冲击史上最大IPO，让外界看到前沿大模型惊人的商业化潜力，也暴露出支撑这种增长所需的巨额成本。</p>
-  <p><strong>过去，AI企业比拼的是模型能力；如今，算力效率、客户付费能力和现金流表现，正在成为同样重要的竞争指标。</strong></p>
-  <p>对Anthropic而言，上市只是新的起点。它真正需要证明的，是能否在持续投入巨额资金的同时，将高速增长转化为长期稳定的回报。</p>
-  <p><strong>而资本市场最终愿意为它支付多少估值，也将为整个大模型行业提供一次重要的定价参照。</strong></p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/RCImqOC15OyZkf96yvLYNg">“第一新声”</a>，作者：第一新声，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 27 Oct 2026 07:58:01 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4043805482996870</guid>
-            <link>https://www.36kr.com/p/4043805482996870</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[张一鸣登顶，梁文锋领衔AI硬科技登上财富前台]]></title>
-            <description><![CDATA[<p>10月27日，《2026胡润百富榜》发布。全榜新晋富豪263位，总上榜人数1529位，创下榜单28年历史最高纪录。上榜企业家总财富32万亿元，同比增长7%。</p>
-  <p>与往年相比，今年最值得关注的变化来自新人榜头部群体。新上榜硬科技企业家集中在AI大模型、AI芯片、人形机器人、商业航天、半导体显示等高成长赛道，代表人物有<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>梁文锋，宇树科技王兴兴，惠科王智勇，智谱AI刘德兵、唐杰，沐曦股份陈维良，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>闫俊杰，以及商业航天赛道的张昌武、康永来、杨毅强。新财富不再主要来自消费、房地产或传统互联网平台，而是来自技术突破、产业估值重估和资本市场定价。</p>
-  <p>此次榜单最显著的变化是首富更迭，43岁的字节跳动创始人张一鸣财富增长2000亿元，以6700亿元第二次成为中国首富，并刷新中国首富财富纪录。其财富增长主要得益于AI业务进展推动公司估值进一步走高，字节跳动当前估值已达3.3万亿元。</p>
-  <p>前十迎来三位新面孔，分别是恒力集团陈建华、范红卫夫妇，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>梁文锋，以及寒武纪陈天石，硬科技属性尤为突出。</p>
-  <p class="image-wrapper"><img data-img-size-val="690,424" src="https://img.36krcdn.com/hsossms/20261027/v2_7d57a980deee4dfd850fb2596777b233@000000_oswg238028oswg690oswg424_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>梁文锋领衔AI新势力</strong></h2>
-  <p>梁文锋是本届榜单最受关注的新晋者。41岁的<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>创始人首次上榜即以2800亿元财富位列总榜第七、新人榜第一位。<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>凭借开源大模型路线迅速获得市场关注，公司估值已攀升至5000亿元。梁文锋的上榜具有标志性意义，AI大模型从技术叙事进入财富兑现阶段，开源模型、算力生态和产业应用正在被资本市场重新定价。</p>
-  <p>陈天石则以2050亿元财富进入第十名，较上年增长250亿元。寒武纪作为国内AI芯片代表企业，受益于AI算力需求爆发，市值大幅上升，推动其创始人财富进入前十。这说明AI财富链条不只在算法层，也在芯片、算力基础设施和半导体产业链上快速延伸。</p>
-  <p>恒力集团陈建华、范红卫夫妇以3020亿元位列第六，财富增长1120亿元。恒力从传统化纤业务延伸至炼化一体化、新材料与造船高端装备领域，依靠超大型油轮订单在全球造船市场站稳脚跟，依托造船业务爆发实现财富大幅增长，代表传统龙头依托产业升级抓住周期红利。</p>
-  <h2><strong>硬科技批量上榜</strong></h2>
-  <p>在新上榜者中，硬科技赛道同样占据主导。宇树科技创始人王兴兴财富695亿元，新人榜第二位，按财富规模对应总榜第78位。36岁的王兴兴代表人形机器人赛道的财富新势力。宇树科技今年登陆科创板，上市首日市值一度冲高至4400亿元，按照榜单9月1日的测算节点，王兴兴对应财富回落至695亿元。机器人赛道今年有近80位企业家上榜，大疆汪滔以1100亿元仍是该赛道财富最高者。</p>
-  <p>惠科创始人王智勇财富645亿元，新人榜第三位，按财富规模对应总榜第84位。56岁的王智勇代表半导体显示面板方向。惠科作为国内显示面板重要企业之一，其上榜说明半导体显示、光电制造等中游硬件环节仍在财富版图中占据重要位置。</p>
-  <p>AI产业梯队还有多位创业者跻身榜单。智谱AI刘德兵财富395亿元，智谱AI唐杰财富275亿元，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>闫俊杰财富225亿元，三人扎根大模型基础模型与算法研发。沐曦股份陈维良财富375亿元，专注AI GPU芯片研发，为大模型提供算力底座。这些新面孔共同构成AI产业创业群体的财富图谱，从基础模型、算法研发到算力芯片、应用生态，AI正在形成批量造富能力。</p>
-  <h2><strong>商业航天新面孔集中亮相</strong></h2>
-  <p>今年胡润百富榜中，商业航天是硬科技新面孔集中的领域之一。胡润研究院特别提到，商业航天赛道有三位火箭创始人首次上榜，分别是蓝箭航天张昌武，天兵科技康永来，以及中科宇航杨毅强。</p>
-  <p>张昌武43岁，2015年创办蓝箭航天。公司核心产品朱雀三号采用液氧甲烷、不锈钢箭体、着陆腿垂直回收路线。北京时间2026年8月19日7时35分，朱雀三号遥二火箭完成入轨发射，7时43分许一子级在甘肃民勤着陆场成功软着陆，这是中国首次实现入轨级运载火箭一子级陆地回收，也是中国民营火箭首次完成入轨加回收全流程。蓝箭航天科创板IPO目前处于中止状态，中止原因为财报更新，拟募资75亿元。公司2025年营收5209万元，净亏损17.11亿元，预计最早2029年盈利。</p>
-  <p>康永来曾任中国运载火箭技术研究院运载火箭总体研究室主任、型号副总师，2019年创办天兵科技。公司主打中大型液体运载火箭，天龙二号曾于2023年实现首飞成功。天兵科技此前估值约225亿元，据泰伯网等媒体2026年7月报道，新一轮融资落地后估值有望突破300亿元。</p>
-  <p>杨毅强曾任中国运载火箭技术研究院我国首型空射运载火箭首任行政总负责人，后在中科院力学研究所体系内从事可重复使用运载器研究。中科宇航是国内首家混合所有制商业火箭企业，产品包括力箭系列火箭。中科宇航2025年营收约2.77亿元，在民营火箭企业中收入规模较高。2024、2025年按发射载荷重量计算的民营商业火箭市场占有率分别约50%、63%。公司科创板IPO申请同样处于中止状态，中止原因为财报更新，拟募资41.8亿元，最近一次外部股权融资投后估值约150亿元。</p>
-  <h2><strong>AI成最大财富增长引擎</strong></h2>
-  <p>从行业结构看，AI已成为本届榜单最大的单一财富增长引擎。胡润研究院统计，上榜企业家中，以AI为主导方向的占比达10.4%，2019年之前榜单中几乎没有以AI为主业的上榜者。半导体行业占比上升至6.9%，成为增长最快的行业之一。机器人领域占比4.9%，高端装备占6.4%。</p>
-  <p>与此同时，传统消费和互联网平台财富普遍回调。钟睒睒财富缩水1200亿元，腾讯马化腾财富减少1190亿元，小米雷军回落1570亿元。这并不意味着这些企业失去价值，而是说明财富增长动能正在切换。上一轮以移动互联网、新消费和平台经济为主的扩张周期趋于平稳，新一轮以AI、算力、机器人、半导体和商业航天为主的技术周期开始主导财富分配。</p>
-  <p>这份榜单传递的信号很清晰。注册制、硬科技产业化和AI全球竞争，正在共同重塑中国企业家财富版图。张一鸣以6700亿元领跑全榜，一批硬科技创业者集中登上榜单，覆盖AI大模型、人形机器人、半导体显示、AI芯片、商业航天多个方向。梁文锋以总榜第七的名次领跑这批新晋力量，王兴兴、王智勇落在前一百区间内，其余硬科技新人上榜但未进入前一百。未来能否进入财富榜前列，不仅取决于企业规模，更取决于是否掌握核心技术，是否具备持续商业化能力，以及能否在全球产业链中形成定价权。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5MjI0Nzk5NA==&amp;mid=2650237028&amp;idx=1&amp;sn=2b30237806a5372c5d2eb813f6b0d6cd&amp;chksm=bf8b6e869de4cd71a3b9d057a61b85e571269069a5a979e1f53c342063d1863324d7bcae591b&amp;scene=0&amp;xtrack=1#rd">“融中财经”（ID：thecapital）</a>，作者：戴贤超，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Tue, 27 Oct 2026 07:53:15 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4043785145357449</guid>
-            <link>https://www.36kr.com/p/4043785145357449</link>
             
             
             
