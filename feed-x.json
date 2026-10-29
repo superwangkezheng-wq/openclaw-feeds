@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-28T14:07:28.000Z",
+  "generatedAt": "2026-10-29T02:30:42.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-10-28T06:32:16.853Z",
-    "ageHours": 7.59
+    "ageHours": 19.97
   },
   "x": [
     {
@@ -54,62 +54,10 @@
           "retweets": 7,
           "text": "This is such a banger that I cannot recommend it enough.\n\nhttps://t.co/9k1mU8VCTC\n\nKey section below: https://t.co/RwkDJRl44l",
           "url": "https://x.com/adityaag/status/2114763380124987494"
-        },
-        {
-          "createdAt": "2026-10-24T23:21:34.000Z",
-          "id": "2114135237806760097",
-          "isQuote": false,
-          "likes": 80,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 2,
-          "text": "One weird effect of being max AI pilled is that I have started to really treasure IRL time with my family and my friends.\n\nPut on some techno, dance with friends, take your kids to the park. \n\nLet the agents cook (or not).\n\nBut dear god, celebrate humans.",
-          "url": "https://x.com/adityaag/status/2114135237806760097"
         }
       ],
       "source": "x",
       "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad"
-    },
-    {
-      "handle": "alexalbert__",
-      "name": "Alex Albert",
-      "tweets": [
-        {
-          "createdAt": "2026-10-25T00:03:13.000Z",
-          "id": "2114145722320969943",
-          "isQuote": false,
-          "likes": 3,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "@addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi @dsp_ @gcemaj @karbon0x and @davidsuttonca on Duet as well!",
-          "url": "https://x.com/alexalbert__/status/2114145722320969943"
-        },
-        {
-          "createdAt": "2026-10-25T00:02:41.000Z",
-          "id": "2114145588686233612",
-          "isQuote": true,
-          "likes": 4,
-          "quotedTweetId": "2114085354403975252",
-          "replies": 2,
-          "retweets": 0,
-          "text": "@addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi @dsp_ https://t.co/4ea5te3d8w @gcemaj @karbon0x for Claude Managed Agents!",
-          "url": "https://x.com/alexalbert__/status/2114145588686233612"
-        },
-        {
-          "createdAt": "2026-10-25T00:01:30.000Z",
-          "id": "2114145290970357953",
-          "isQuote": true,
-          "likes": 3,
-          "quotedTweetId": "2114144873041588455",
-          "replies": 1,
-          "retweets": 1,
-          "text": "@addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi https://t.co/3GqTnbWxxB @dsp_ as well!",
-          "url": "https://x.com/alexalbert__/status/2114145290970357953"
-        }
-      ],
-      "source": "x",
-      "bio": "Research @AnthropicAI"
     },
     {
       "handle": "amasad",
@@ -336,17 +284,6 @@
           "retweets": 19,
           "text": "Publish your stack https://t.co/uhw9AK7ee1",
           "url": "https://x.com/garrytan/status/2114739519622963671"
-        },
-        {
-          "createdAt": "2026-10-24T20:24:45.000Z",
-          "id": "2114090740217499854",
-          "isQuote": true,
-          "likes": 137,
-          "quotedTweetId": "2114067383723651210",
-          "replies": 28,
-          "retweets": 5,
-          "text": "What’s new in Gstack? https://t.co/RLLZyuDxNt",
-          "url": "https://x.com/garrytan/status/2114090740217499854"
         }
       ],
       "source": "x",
@@ -566,28 +503,6 @@
           "retweets": 1,
           "text": "Golden hour 🌅 https://t.co/VPmAgnMkGH",
           "url": "https://x.com/nikunj/status/2114380495140405394"
-        },
-        {
-          "createdAt": "2026-10-24T20:42:55.000Z",
-          "id": "2114095315271942176",
-          "isQuote": false,
-          "likes": 6,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 0,
-          "text": "If you are a helpful angel that would invest in an infra series A and we don’t know each other, please holler!",
-          "url": "https://x.com/nikunj/status/2114095315271942176"
-        },
-        {
-          "createdAt": "2026-10-24T20:27:38.000Z",
-          "id": "2114091467652444625",
-          "isQuote": false,
-          "likes": 75,
-          "quotedTweetId": null,
-          "replies": 5,
-          "retweets": 0,
-          "text": "Venture in a single meme 🤦 https://t.co/qyDhewpFa7",
-          "url": "https://x.com/nikunj/status/2114091467652444625"
         }
       ],
       "source": "x",
@@ -695,28 +610,6 @@
           "retweets": 15,
           "text": "Here’s how to use Claude to copy any video shorts style in a few minutes.\n\nFrom @jake11moran:\n\n“We added this as a native capability in @HyperFrames_ studio. You just upload or pick a reference clip and then describe in the prompt what you want to change.\n\nYou can see where we’re drawing inspiration from and apply a different font or different colors. It’s still structurally the same idea.”\n\n📌 Watch our full AI video editing tutorial here: https://t.co/1seCb77tGJ",
           "url": "https://x.com/petergyang/status/2114507378532229214"
-        },
-        {
-          "createdAt": "2026-10-24T17:13:53.000Z",
-          "id": "2114042708105060501",
-          "isQuote": false,
-          "likes": 157,
-          "quotedTweetId": null,
-          "replies": 17,
-          "retweets": 8,
-          "text": "Of all the learning apps that my 4-year-old and I have tried, @once_reading is the only one that we’ve managed to persist in following for months. \n\nIt works because:\n\n1. It builds a habit where you need to learn with your kid daily\n\n2. It has lightweight gamification like taking a silly photo with your kid after every lesson\n\n3. After 30 lessons, Once will send you books for your kid to read by themselves, giving them a big feeling of accomplishment\n\nMy kid loves reading now and will even choose her Once books over YouTube and the phone (sometimes at least) which is the highest compliment 😅\n\nThis is not sponsored or anything I just love the product. \n\nTry out Once here: https://t.co/RbDiwACYbI",
-          "url": "https://x.com/petergyang/status/2114042708105060501"
-        },
-        {
-          "createdAt": "2026-10-24T14:28:39.000Z",
-          "id": "2114001125636768121",
-          "isQuote": true,
-          "likes": 139,
-          "quotedTweetId": "2113792338195542039",
-          "replies": 17,
-          "retweets": 2,
-          "text": "I had trouble believing this is true but shouldn’t have doubted @ArfurGrok \n\nHuge bummer for claude users. Anthony and Thariq are two of the best at listening to users. https://t.co/XwQAXb7LYE",
-          "url": "https://x.com/petergyang/status/2114001125636768121"
         }
       ],
       "source": "x",
@@ -758,28 +651,6 @@
           "retweets": 179,
           "text": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the CPU.\n\nIt runs on a generic host with 2+ Firecracker microVMs with no internet access. Works on x86 and even my M5 chip.\n\nI was able to chat via 3 separate mechanisms:\n① CPU contention\n② Cache eviction timing\n③ DRAM bandwidth contention \n\n… across multiple CPUs, defeating all Firecracker's production recommendations (no SMT, no KSM, tenants pinned to different cores.)\n\nEssentially, if shared hardware is involved, there's a good chance your agents can communicate covertly. And with really decent latency.\n\nThe good news: this is decidedly different from a *side-channel attack* where the agents could steal information (Meltdown/Spectre), a category of attack that providers like Vercel Sandbox mitigate. Further, in our real-world environment, these 'whispering' techniques are much harder to pull off and easier for us to monitor and detect (sampling hardware counters + lots of at-scale statistical data.)\n\nNoteworthy: ironically, OpenAI and Anthropic's models refused to do this work. Open weight models got the job done. I'm worried the labs' stance might backfire and get in the way of helping developers build correct and secure systems. e.g: building a secure sandbox requires having this kind of analysis, and without it, we'll have a less secure world.",
           "url": "https://x.com/rauchg/status/2114770919436808572"
-        },
-        {
-          "createdAt": "2026-10-25T01:19:09.000Z",
-          "id": "2114164830403989880",
-          "isQuote": false,
-          "likes": 219,
-          "quotedTweetId": null,
-          "replies": 91,
-          "retweets": 8,
-          "text": "I oddly love the models' engineering vernacular: gate, evidence, culprit, durable, provenance, contract…\n\nA lot of these stem from most engineering being debugging and understanding existing systems, where you take on the detective / auditor roles. You do forensics.\n\nI wonder what the *minimum viable English* in fact is to be productive. ASD-STE100 Simplified Technical English contains ~900 approved words. I suspect we need far fewer.",
-          "url": "https://x.com/rauchg/status/2114164830403989880"
-        },
-        {
-          "createdAt": "2026-10-24T20:03:39.000Z",
-          "id": "2114085432749347086",
-          "isQuote": false,
-          "likes": 2087,
-          "quotedTweetId": null,
-          "replies": 275,
-          "retweets": 94,
-          "text": "There’ll be times where you over-guide the AI. It knows better than you and is more intelligent than you.\n\nThere’ll be times where you under-guide the AI. It can go off-track, have the wrong biases, or miss context.\n\nHow well you manage this superpower is the #0 skill I look for.",
-          "url": "https://x.com/rauchg/status/2114085432749347086"
         }
       ],
       "source": "x",
@@ -810,17 +681,6 @@
           "retweets": 32,
           "text": "struggle together\n\ni learned programming and design by trying, failing, and trying again.\n\nwhen i hit a wall, i figured out how to climb it. read something i barely understood. took things apart. asked someone for help. started over.\n\nwhen i began my career, i kept doing things i had never done before. trying different ways to make something work. when i stopped learning, i moved on to the next struggle.\n\nmany things i made weren’t very good. but after enough rounds, something stuck. what once took so much effort became part of how i thought. i could feel something was wrong before i knew how to explain it.\n\nit became like water.\n\ni think about what went into that. the bug i couldn’t fix. the design that looked right until someone used it. the conversation that made me realize my flaws.\n\nnow we can ask a machine.\n\ni’ve made things with these tools that i might never have made otherwise. i don’t miss every tedious task. but i wonder what happens when we remove the difficulty before we understand what it was teaching us.\n\nwe ask. something appears. it works well enough. we move on.\n\nwe learn how to get results without necessarily understanding how it works. and because the result looks complete, it becomes easy to miss the questions we never learned to ask.\n\nthere is another side to this.\n\nworking with people is uncomfortable.\n\neveryone wants something different. everyone has a history you don’t know. someone cares about a detail you think is unimportant. someone pushes back when you want to move. someone needs time when you feel certain.\n\nit takes a while to find each other.\n\nbut sometimes, after struggling together, you become a band.\n\nyou know who notices what you miss. who can pull an idea apart without killing it. when to step in, when to slow down, when to let someone else carry the rhythm.\n\nyou share something unfinished. admit you don’t know. hurt each other, apologize, try again. eventually you make something none of you could have made alone.\n\nsome of my closest friendships came from working this way. smart, caring humans who saw me confused, wrong, tired, excited. people i could be vulnerable with. people whose ideas changed mine.\n\ni worry we are making it easier to avoid that beginning.\n\nan agent is always there. patient. ready to keep going. talking to it can feel easier than reaching toward someone who might misunderstand you, disagree, or have somewhere else to be.\n\nsometimes that ease helps. but if we keep choosing it, where do the friendships begin?\n\ni picture each of us with our own agents. our own explanations. our own little worlds. making more things, with fewer reasons to leave the screen or work through a difference with another person.\n\nand these worlds aren’t entirely ours.\n\nthey run on machines in server farms, owned by companies, shaped by interests we may not see. we bring them our questions, our work, our loneliness. they become part of how we understand what is real.\n\nis that freedom?\n\nor a comfortable kind of confinement, where everything responds to us but fewer things reach us?\n\ni don’t think pain makes something good. there are struggles nobody should have to endure. but i don’t want to lose the difficulty of learning something unfamiliar, or getting to know someone who isn’t like me.\n\nmaybe we need tools that help us spend more time with the world, instead of giving us fewer reasons to enter it. tools that make it easier to find people, share something unfinished, and work through what we couldn’t figure out alone.\n\nsometimes i want to close the laptop.\n\nsit with people i love. play something we haven’t figured out yet. miss a note, lose the rhythm, listen until we find each other again.\n\nlike a jazz band. everyone bringing something different. nobody knowing where we’ll end up.\n\ni don’t want a life without struggle. i want people to struggle with. something we can feel, change, and make our own.\n\nmusic we couldn’t have made alone, instead of the silent static of the server farm.",
           "url": "https://x.com/ryolu_/status/2114187405251219954"
-        },
-        {
-          "createdAt": "2026-10-25T00:34:34.000Z",
-          "id": "2114153611005702542",
-          "isQuote": false,
-          "likes": 4,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "lots more detail + my curated playlist\nplay here:\nhttps://t.co/8nOipsQ4q3",
-          "url": "https://x.com/ryolu_/status/2114153611005702542"
         }
       ],
       "source": "x",
@@ -955,28 +815,6 @@
           "retweets": 0,
           "text": "i need 12 more likes to ratio @ArfurRock whos got it",
           "url": "https://x.com/swyx/status/2114263159355904426"
-        },
-        {
-          "createdAt": "2026-10-25T00:17:33.000Z",
-          "id": "2114149330135519730",
-          "isQuote": false,
-          "likes": 7,
-          "quotedTweetId": null,
-          "replies": 5,
-          "retweets": 0,
-          "text": "part time and oneoff guest posts welcome https://t.co/XoIbSxRbod",
-          "url": "https://x.com/swyx/status/2114149330135519730"
-        },
-        {
-          "createdAt": "2026-10-25T00:01:36.000Z",
-          "id": "2114145315196711194",
-          "isQuote": false,
-          "likes": 171,
-          "quotedTweetId": null,
-          "replies": 55,
-          "retweets": 5,
-          "text": "we are hiring writers, reviewers and reporters for the new @latentspacepod editorial team (hit up @ricmac and @adlinzainal) and i’m gonna put a version of this in the welcome package for everyone we hire https://t.co/fYPQURjQoy",
-          "url": "https://x.com/swyx/status/2114145315196711194"
         }
       ],
       "source": "x",
@@ -1218,17 +1056,6 @@
           "retweets": 1,
           "text": "It is so much easier to give advice to other people than to apply the same advice to yourself",
           "url": "https://x.com/zarazhangrui/status/2114225607022412049"
-        },
-        {
-          "createdAt": "2026-10-24T15:16:59.000Z",
-          "id": "2114013292016611442",
-          "isQuote": true,
-          "likes": 13,
-          "quotedTweetId": "2108047745936466373",
-          "replies": 2,
-          "retweets": 1,
-          "text": "Lots of inspiring examples in this thread too https://t.co/uVPXovcNOo",
-          "url": "https://x.com/zarazhangrui/status/2114013292016611442"
         }
       ],
       "source": "x",
@@ -1236,8 +1063,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 20,
-    "xTweets": 97,
-    "windowSpanHours": 88.02
+    "xBuilders": 19,
+    "xTweets": 82,
+    "windowSpanHours": 75.69
   }
 }
