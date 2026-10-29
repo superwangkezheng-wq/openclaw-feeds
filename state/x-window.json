@@ -49,6 +49,17 @@
           "retweets": 2,
           "text": "Very very excited about what @centai_health is building.\n\nSo much potential to bring better health to everyone in India. https://t.co/SAU5pLzijv",
           "url": "https://x.com/adityaag/status/2115119516191801809"
+        },
+        "id:2115486597739430004": {
+          "createdAt": "2026-10-28T16:51:23.000Z",
+          "id": "2115486597739430004",
+          "isQuote": false,
+          "likes": 155,
+          "quotedTweetId": null,
+          "replies": 1,
+          "retweets": 15,
+          "text": "This is a LP letter that we recently wrote with our lessons on spotting talent from a decade of investing at the frontier.\n\nhttps://t.co/v1TnHjvAox\n\nThe most common thing you hear about early stage investing is that \"It is 90% about the founder\".\n\nWe agree but have always been unsatisfied by the lack of falsifiability, specificity, and repeatability of that statement.\n\nWhat are the dimensions of excellence? How do they translate into companies?\n\nIt was a pleasure to collaborate with @gopalkraman on this.",
+          "url": "https://x.com/adityaag/status/2115486597739430004"
         }
       }
     },
@@ -123,6 +134,58 @@
           "retweets": 31,
           "text": "If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturated by sub-frontier models.",
           "url": "https://x.com/amasad/status/2115207856496480261"
+        },
+        "id:2115497454552441336": {
+          "createdAt": "2026-10-28T17:34:31.000Z",
+          "id": "2115497454552441336",
+          "isQuote": false,
+          "likes": 32,
+          "quotedTweetId": null,
+          "replies": 2,
+          "retweets": 1,
+          "text": "https://t.co/r71rDYqrbI",
+          "url": "https://x.com/amasad/status/2115497454552441336"
+        },
+        "id:2115565072734888447": {
+          "createdAt": "2026-10-28T22:03:13.000Z",
+          "id": "2115565072734888447",
+          "isQuote": false,
+          "likes": 98,
+          "quotedTweetId": null,
+          "replies": 34,
+          "retweets": 3,
+          "text": "ViBench 2.0 (prompt to app benchmark) just dropped and GPT 6.1 Sol takes the lead. https://t.co/r7MJXBL2vY",
+          "url": "https://x.com/amasad/status/2115565072734888447"
+        },
+        "id:2115565321201520994": {
+          "createdAt": "2026-10-28T22:04:12.000Z",
+          "id": "2115565321201520994",
+          "isQuote": true,
+          "likes": 3,
+          "quotedTweetId": "2115553116942975013",
+          "replies": 6,
+          "retweets": 0,
+          "text": "https://t.co/sdzxN6UTWO https://t.co/ZAQdox5uUe",
+          "url": "https://x.com/amasad/status/2115565321201520994"
+        }
+      }
+    },
+    "bcherny": {
+      "bio": "Claude @anthropicai",
+      "handle": "bcherny",
+      "name": "Boris Cherny",
+      "source": "x",
+      "tweets": {
+        "id:2115491259381072269": {
+          "createdAt": "2026-10-28T17:09:54.000Z",
+          "id": "2115491259381072269",
+          "isQuote": true,
+          "likes": 2446,
+          "quotedTweetId": "2115207004293853358",
+          "replies": 186,
+          "retweets": 80,
+          "text": "Utah gave Claude Code to 34 developers across 10 state agencies. 80% had a working environment within 30 minutes, 71% reported saving 20+ hours by the end of the four-week pilot. https://t.co/ERZpBFuYSa",
+          "url": "https://x.com/bcherny/status/2115491259381072269"
         }
       }
     },
@@ -142,6 +205,28 @@
           "retweets": 244,
           "text": "More than 25,000 nonprofits now use Claude. Most are small, local teams.\n\nWe’re expanding Claude for Nonprofits with a plugin built with around 30 of them, adding skills for fundraising, marketing, and hiring grounded in each team’s context and AI policy: https://t.co/LWHcr1CT20 https://t.co/WHG2zRDyxO",
           "url": "https://x.com/claudeai/status/2114780227465338985"
+        },
+        "id:2115467192276025500": {
+          "createdAt": "2026-10-28T15:34:16.000Z",
+          "id": "2115467192276025500",
+          "isQuote": false,
+          "likes": 24460,
+          "quotedTweetId": null,
+          "replies": 695,
+          "retweets": 1521,
+          "text": "New in Claude for Legal: a gallery of ready-made artifacts for contract review, regulatory horizon scans, cite checks, and more.\n\nStart from the built-in example, add your own documents and connectors, and share it with anyone across the business. https://t.co/Wn2VK2HeMU",
+          "url": "https://x.com/claudeai/status/2115467192276025500"
+        },
+        "id:2115467193626571174": {
+          "createdAt": "2026-10-28T15:34:17.000Z",
+          "id": "2115467193626571174",
+          "isQuote": false,
+          "likes": 677,
+          "quotedTweetId": null,
+          "replies": 15,
+          "retweets": 38,
+          "text": "Learn more: https://t.co/m3tOri9JR3",
+          "url": "https://x.com/claudeai/status/2115467193626571174"
         }
       }
     },
@@ -279,6 +364,28 @@
           "retweets": 3,
           "text": "I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6",
           "url": "https://x.com/garrytan/status/2115215790756794496"
+        },
+        "id:2115517748860375286": {
+          "createdAt": "2026-10-28T18:55:10.000Z",
+          "id": "2115517748860375286",
+          "isQuote": true,
+          "likes": 208,
+          "quotedTweetId": "2115497949421883648",
+          "replies": 41,
+          "retweets": 9,
+          "text": "Particle will be on the frontier for smartest model at lowest dollar per unit of intelligence https://t.co/psCDwwcURe",
+          "url": "https://x.com/garrytan/status/2115517748860375286"
+        },
+        "id:2115639558935359941": {
+          "createdAt": "2026-10-29T02:59:12.000Z",
+          "id": "2115639558935359941",
+          "isQuote": true,
+          "likes": 466,
+          "quotedTweetId": "2115604482629259557",
+          "replies": 39,
+          "retweets": 34,
+          "text": "There’s a budget crush and high schoolers can’t take honors classes (they’re phasing out) but guess what new classes they are getting next https://t.co/HXjeqjtuLk",
+          "url": "https://x.com/garrytan/status/2115639558935359941"
         }
       }
     },
@@ -309,6 +416,39 @@
           "retweets": 0,
           "text": "https://t.co/CC63BMiD4z",
           "url": "https://x.com/joshwoodward/status/2114840670016065576"
+        },
+        "id:2115495943948902517": {
+          "createdAt": "2026-10-28T17:28:31.000Z",
+          "id": "2115495943948902517",
+          "isQuote": true,
+          "likes": 884,
+          "quotedTweetId": "2115489219804352921",
+          "replies": 82,
+          "retweets": 50,
+          "text": "2 weeks ago: Gemini 4 Argon\nToday: Gemini 4 Carbon\n\nThe frontier is fast, and the internal vibes on this model are good. Rolling out to cyber defenders first, then more widely available as the next step! https://t.co/sUb0q8YCMk",
+          "url": "https://x.com/joshwoodward/status/2115495943948902517"
+        },
+        "id:2115580552170627080": {
+          "createdAt": "2026-10-28T23:04:43.000Z",
+          "id": "2115580552170627080",
+          "isQuote": false,
+          "likes": 432,
+          "quotedTweetId": null,
+          "replies": 32,
+          "retweets": 25,
+          "text": "New in Gemini: Connect your @Strava account to turn years of raw workout logs into your personalized coaching plan https://t.co/iQXRYjMzoX",
+          "url": "https://x.com/joshwoodward/status/2115580552170627080"
+        },
+        "id:2115603212304843230": {
+          "createdAt": "2026-10-29T00:34:46.000Z",
+          "id": "2115603212304843230",
+          "isQuote": false,
+          "likes": 6,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 0,
+          "text": "@Strava You can turn it on here: https://t.co/wAEcM3IYP1",
+          "url": "https://x.com/joshwoodward/status/2115603212304843230"
         }
       }
     },
@@ -318,17 +458,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2114187326406766604": {
-          "createdAt": "2026-10-25T02:48:32.000Z",
-          "id": "2114187326406766604",
-          "isQuote": true,
-          "likes": 88,
-          "quotedTweetId": "2114072722040819849",
-          "replies": 50,
-          "retweets": 8,
-          "text": "We’ll likely have 1,000X more tokens flowing through cyber agents soon than we do today. \n\nAs the surface area of cyber risk increases, at some point soon it will be nearly impossible to keep up with the volume of new risks (we’re essentially already there). Large companies barely had the resources to pull this off before, but the vast majority of companies don’t. \n\nThere’s a never ending set of libraries to keep up with, tools to leverage, and sprawling infrastructure and code to secure. We’ll have agent swarms that can fan out, leverage any security tool, test various perpetuations of attacks, read through logs, process enterprise data for risk level, and more. \n\nThis capability only emerged in the past few months. Wouldn’t have been possible before long running agents and computer use were good enough, and models hadn’t been trained on cyber deeply. That’s all changing now.\n\nThis is a huge area of opportunity right now for every layer of the security stack across identity, firewall, network, code scanning, data protection, and more. And it’s at least one reason to be optimistic about the balance of offensive and defensive capability.",
-          "url": "https://x.com/levie/status/2114187326406766604"
-        },
         "id:2114391265655816315": {
           "createdAt": "2026-10-25T16:18:55.000Z",
           "id": "2114391265655816315",
@@ -361,6 +490,17 @@
           "retweets": 10,
           "text": "This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now.\n\nAt best you have a few automated systems in a company that do a single pass of an LLM to make a decision or provide feedback, but very little real “automation”. Some of this is a statement about the adoption rates of technology in enterprises, but the vast majority of it is really just due to the capability of AI itself.\n\nThat’s all changing. Now with computer use, long running agents, harness improvements and surrounding infrastructure, we’re finally at a point where we can start to apply agents at more complex workflows. \n\nWe will see self-improving systems that can take any particular workflow goal and improve the execution rates over a volume of instances. And with the emerging form factor of agent swarms, you can just choose to deploy any amount of compute at a problem and agents will off and do the work.\n\nThis won’t be about and users prompting agents to complete a specific task for them, but instead the organization reengineering the underlying workflows to take advantage of agents in their processes. This will have a massive impact in finance, life sciences, healthcare, and other information-heavy domains. Lots of opportunity to build and deploy these systems right now.",
           "url": "https://x.com/levie/status/2115305369799110905"
+        },
+        "id:2115516370695987435": {
+          "createdAt": "2026-10-28T18:49:41.000Z",
+          "id": "2115516370695987435",
+          "isQuote": true,
+          "likes": 283,
+          "quotedTweetId": "2115497949421883648",
+          "replies": 87,
+          "retweets": 17,
+          "text": "Agents are going to consume 1,000X more tokens than we consume today. \n\nBecause they’re going to be running in our workflows, processing all of our data, building out nearly all software, securing enterprises, and much more. To do this at scale we will need a variety of approaches at the frontier of AI. \n\nThis includes continuing to push the boundaries of closed models, while also increasing the capability of open weights models, making them more secure, as well as making them more efficient for large workloads. \n\nVery exciting to see what @Suhail is building with Particle on this front.",
+          "url": "https://x.com/levie/status/2115516370695987435"
         }
       }
     },
@@ -424,6 +564,39 @@
           "retweets": 11,
           "text": "Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis!\n\nAlso:\n\n* Anthropic: 7 co-founders\n\n* OpenAI: 11 co-founders\n\n* Databricks: 7 co-founders",
           "url": "https://x.com/mattturck/status/2115132327131328806"
+        },
+        "id:2115417700059304019": {
+          "createdAt": "2026-10-28T12:17:36.000Z",
+          "id": "2115417700059304019",
+          "isQuote": false,
+          "likes": 20,
+          "quotedTweetId": null,
+          "replies": 9,
+          "retweets": 0,
+          "text": "Woah they actually made a movie about the GPU shortage https://t.co/co03Lq1aXy",
+          "url": "https://x.com/mattturck/status/2115417700059304019"
+        },
+        "id:2115539958123376855": {
+          "createdAt": "2026-10-28T20:23:25.000Z",
+          "id": "2115539958123376855",
+          "isQuote": true,
+          "likes": 46,
+          "quotedTweetId": "2115475046433247638",
+          "replies": 6,
+          "retweets": 2,
+          "text": "When VCs ask Instinct to help them invest in hot deals https://t.co/o9uHh0crXE",
+          "url": "https://x.com/mattturck/status/2115539958123376855"
+        },
+        "id:2115596406077452628": {
+          "createdAt": "2026-10-29T00:07:43.000Z",
+          "id": "2115596406077452628",
+          "isQuote": true,
+          "likes": 183,
+          "quotedTweetId": "2115162550572827024",
+          "replies": 11,
+          "retweets": 6,
+          "text": "This is why French founders are a special breed - to even start a company, they have to first face this kind of feedback from their families and friends lol 😂 https://t.co/XU6m5JcHcO",
+          "url": "https://x.com/mattturck/status/2115596406077452628"
         }
       }
     },
@@ -498,6 +671,28 @@
           "retweets": 4,
           "text": "VCs love talking about the number of cofounders and how sometimes there’s too many..\n\n@AnthropicAI x @databricks both with 7 cofounders showing that the best startups are truly outliers. \n\nAll the definitions of the “right” way of identifying or building startups are wrong. \n\nThere’s no “right” way, there’s only the way that works for you!",
           "url": "https://x.com/nikunj/status/2115157188704612735"
+        },
+        "id:2115583054530171227": {
+          "createdAt": "2026-10-28T23:14:40.000Z",
+          "id": "2115583054530171227",
+          "isQuote": false,
+          "likes": 116,
+          "quotedTweetId": null,
+          "replies": 11,
+          "retweets": 3,
+          "text": "https://t.co/YR5yYDTHc9",
+          "url": "https://x.com/nikunj/status/2115583054530171227"
+        },
+        "id:2115613336200998979": {
+          "createdAt": "2026-10-29T01:15:00.000Z",
+          "id": "2115613336200998979",
+          "isQuote": true,
+          "likes": 22,
+          "quotedTweetId": "2115583054530171227",
+          "replies": 2,
+          "retweets": 1,
+          "text": "Been sharing this feedback to a lot of seed founders on how to bridge the gap between their dream to what is often required at the A from someone who sits on the other side of the table.. \n\nThanks @dflieb, @adityaag &amp; a few seed founders for reviewing drafts of this! https://t.co/e6k8pyXGc5",
+          "url": "https://x.com/nikunj/status/2115613336200998979"
         }
       }
     },
@@ -605,6 +800,39 @@
           "retweets": 0,
           "text": "Other hiring practices that need to change: \n\n1. Filtering candidates based on years of experience or some company name \n\n2. Prioritizing resumes and cover letters over proof of work and real projects \n\n3. Listing number of people managed as an accomplishment by itself \n\n4. Endless rounds of interviews over short work trials\n\nI could go on.",
           "url": "https://x.com/petergyang/status/2115319325137731757"
+        },
+        "id:2115556794076741647": {
+          "createdAt": "2026-10-28T21:30:19.000Z",
+          "id": "2115556794076741647",
+          "isQuote": true,
+          "likes": 14,
+          "quotedTweetId": "2115528989414760880",
+          "replies": 8,
+          "retweets": 0,
+          "text": "I think world models are still in the GPT 3.5 era, but not for long.\n\nLike the old Will Smith eating spaghetti videos, world models are impressive but not quite there yet. You can see it in the reel below, which has a mix of my Genie 4 generations and Google's.\n\nBut once they hit the GPT-5 or GPT-6 stage, I think they'll have massive implications for a lot of industries:\n\nMovies - A big effects shot like a dragon battle takes a VFX studio months of work. With a great world model, a director could create a single frame and have AI generate the full scene from it.\n\nGames - From my time working in gaming, I learned the real work is core loops, progression systems, and the mechanics that make a game fun. World models are already good at graphics and sound, but the gameplay isn't there yet. Still, they'll make it much easier for anyone to build their own game that looks and sounds amazing.\n\nJust like the rise of personal apps, I think world models (along with good coding models) could make creating your own game as fun as playing a mass market one which again has huge implications.\n\n📌 Watch my full Genie 4 tutorial to see how I created the worlds in the reel below: https://t.co/GvzPewT5gj",
+          "url": "https://x.com/petergyang/status/2115556794076741647"
+        },
+        "id:2115640765422706948": {
+          "createdAt": "2026-10-29T03:03:59.000Z",
+          "id": "2115640765422706948",
+          "isQuote": false,
+          "likes": 22,
+          "quotedTweetId": null,
+          "replies": 9,
+          "retweets": 1,
+          "text": ".@ChatGPT and browser use has been an absolute godsend for working through medical paperwork.",
+          "url": "https://x.com/petergyang/status/2115640765422706948"
+        },
+        "id:2115642806010274271": {
+          "createdAt": "2026-10-29T03:12:06.000Z",
+          "id": "2115642806010274271",
+          "isQuote": false,
+          "likes": 79,
+          "quotedTweetId": null,
+          "replies": 26,
+          "retweets": 8,
+          "text": "The job that AI will never disrupt is selling your little hand-made trinkets at the local farmer's market.\n\nFarmer's markets are about to experience a renaissance, mark my words.",
+          "url": "https://x.com/petergyang/status/2115642806010274271"
         }
       }
     },
@@ -646,6 +874,39 @@
           "retweets": 4,
           "text": "$ 𝚊𝚕𝚒𝚊𝚜 𝚗𝚘𝚠=𝚟𝚎𝚛𝚌𝚎𝚕\n$ 𝚌𝚊𝚝 >𝙳𝚘𝚌𝚔𝚎𝚛𝚏𝚒𝚕𝚎 <<'𝙴𝙾𝙵'\n𝙵𝚁𝙾𝙼 𝚘𝚟𝚎𝚗/𝚋𝚞𝚗:𝚊𝚕𝚙𝚒𝚗𝚎\n𝙲𝙼𝙳 [\"𝚋𝚞𝚗\",\"-𝚎\",\"𝙱𝚞𝚗.𝚜𝚎𝚛𝚟𝚎({𝚙𝚘𝚛𝚝:𝟾𝟶,𝚏𝚎𝚝𝚌𝚑:()=>𝚗𝚎𝚠 𝚁𝚎𝚜𝚙𝚘𝚗𝚜𝚎('𝚠𝚎 𝚊𝚛𝚎 𝚜𝚘 𝚋𝚊𝚌𝚔')})\"]\n𝙴𝙾𝙵\n$ 𝚗𝚘𝚠\n> Ready: https://t.co/tOqwRwGUa2",
           "url": "https://x.com/rauchg/status/2115218670389756243"
+        },
+        "id:2115539426684408300": {
+          "createdAt": "2026-10-28T20:21:18.000Z",
+          "id": "2115539426684408300",
+          "isQuote": true,
+          "likes": 360,
+          "quotedTweetId": "2115526935636021696",
+          "replies": 95,
+          "retweets": 12,
+          "text": "Vercel CI solves the \"AI coding bottleneck\" via:\n① Fast and stable infrastructure (faster work)\n② Turborepo integration (less work)\n③ Agentic CI\n\n① is obvious. Your CI is slow, flaky, goes down. We solve that. We operate 20 worldwide clusters doing millions of microVMs per day.\n\n② is less obvious, but very powerful. Turborepo was designed to intelligently skip and cache prior work. The graph of dependencies is computed, not written. \n\nAsk your agent to migrate to @turborepo and start saving money and time. Even if you don't use us. But you should, it's really good.\n\n③ is a game-changer. 𝚟𝚎𝚛𝚌𝚎𝚕 𝚌𝚒 in the CLI is the first step, because now your agents can inspect, abort, trigger, replay CI. Vercel Agent can help optimize it. And this is just the start.\n\nYou can expect a lot of hooks and capabilities to make CI something far more intelligent, that can even capture the nuance and judgment an engineer would have (\"Are those tests even worth running?\")\n\nAgentic CI is the future of how we ship software. Excited to build it with you all!",
+          "url": "https://x.com/rauchg/status/2115539426684408300"
+        },
+        "id:2115566139447382115": {
+          "createdAt": "2026-10-28T22:07:27.000Z",
+          "id": "2115566139447382115",
+          "isQuote": true,
+          "likes": 116,
+          "quotedTweetId": "2115557868330176607",
+          "replies": 23,
+          "retweets": 1,
+          "text": "Excited to partner with @suhail to serve Particle's models and inference via @vercel AI Gateway.\n\nParticle's mission is to make intelligence as accessible and abundant as electricity. Together, we'll make this a reality for every developer and enterprise. https://t.co/aYS6FrWFsm",
+          "url": "https://x.com/rauchg/status/2115566139447382115"
+        },
+        "id:2115573969369845855": {
+          "createdAt": "2026-10-28T22:38:34.000Z",
+          "id": "2115573969369845855",
+          "isQuote": true,
+          "likes": 196,
+          "quotedTweetId": "2115571121622073355",
+          "replies": 98,
+          "retweets": 4,
+          "text": "This is like DNS for models. An alias that *resolves* to a model, giving you traffic-steering abilities.\n\nSolves a huge number of problems. From not having teams stuck on old model versions, to saving on costs, to removing “decision paralysis”. Try it! https://t.co/8Tap7STV09",
+          "url": "https://x.com/rauchg/status/2115573969369845855"
         }
       }
     },
@@ -655,27 +916,27 @@
       "name": "Ryo Lu",
       "source": "x",
       "tweets": {
-        "id:2114187405251219954": {
-          "createdAt": "2026-10-25T02:48:51.000Z",
-          "id": "2114187405251219954",
+        "id:2115683228027912634": {
+          "createdAt": "2026-10-29T05:52:43.000Z",
+          "id": "2115683228027912634",
           "isQuote": false,
-          "likes": 511,
+          "likes": 79,
           "quotedTweetId": null,
-          "replies": 26,
-          "retweets": 32,
-          "text": "struggle together\n\ni learned programming and design by trying, failing, and trying again.\n\nwhen i hit a wall, i figured out how to climb it. read something i barely understood. took things apart. asked someone for help. started over.\n\nwhen i began my career, i kept doing things i had never done before. trying different ways to make something work. when i stopped learning, i moved on to the next struggle.\n\nmany things i made weren’t very good. but after enough rounds, something stuck. what once took so much effort became part of how i thought. i could feel something was wrong before i knew how to explain it.\n\nit became like water.\n\ni think about what went into that. the bug i couldn’t fix. the design that looked right until someone used it. the conversation that made me realize my flaws.\n\nnow we can ask a machine.\n\ni’ve made things with these tools that i might never have made otherwise. i don’t miss every tedious task. but i wonder what happens when we remove the difficulty before we understand what it was teaching us.\n\nwe ask. something appears. it works well enough. we move on.\n\nwe learn how to get results without necessarily understanding how it works. and because the result looks complete, it becomes easy to miss the questions we never learned to ask.\n\nthere is another side to this.\n\nworking with people is uncomfortable.\n\neveryone wants something different. everyone has a history you don’t know. someone cares about a detail you think is unimportant. someone pushes back when you want to move. someone needs time when you feel certain.\n\nit takes a while to find each other.\n\nbut sometimes, after struggling together, you become a band.\n\nyou know who notices what you miss. who can pull an idea apart without killing it. when to step in, when to slow down, when to let someone else carry the rhythm.\n\nyou share something unfinished. admit you don’t know. hurt each other, apologize, try again. eventually you make something none of you could have made alone.\n\nsome of my closest friendships came from working this way. smart, caring humans who saw me confused, wrong, tired, excited. people i could be vulnerable with. people whose ideas changed mine.\n\ni worry we are making it easier to avoid that beginning.\n\nan agent is always there. patient. ready to keep going. talking to it can feel easier than reaching toward someone who might misunderstand you, disagree, or have somewhere else to be.\n\nsometimes that ease helps. but if we keep choosing it, where do the friendships begin?\n\ni picture each of us with our own agents. our own explanations. our own little worlds. making more things, with fewer reasons to leave the screen or work through a difference with another person.\n\nand these worlds aren’t entirely ours.\n\nthey run on machines in server farms, owned by companies, shaped by interests we may not see. we bring them our questions, our work, our loneliness. they become part of how we understand what is real.\n\nis that freedom?\n\nor a comfortable kind of confinement, where everything responds to us but fewer things reach us?\n\ni don’t think pain makes something good. there are struggles nobody should have to endure. but i don’t want to lose the difficulty of learning something unfamiliar, or getting to know someone who isn’t like me.\n\nmaybe we need tools that help us spend more time with the world, instead of giving us fewer reasons to enter it. tools that make it easier to find people, share something unfinished, and work through what we couldn’t figure out alone.\n\nsometimes i want to close the laptop.\n\nsit with people i love. play something we haven’t figured out yet. miss a note, lose the rhythm, listen until we find each other again.\n\nlike a jazz band. everyone bringing something different. nobody knowing where we’ll end up.\n\ni don’t want a life without struggle. i want people to struggle with. something we can feel, change, and make our own.\n\nmusic we couldn’t have made alone, instead of the silent static of the server farm.",
-          "url": "https://x.com/ryolu_/status/2114187405251219954"
+          "replies": 15,
+          "retweets": 8,
+          "text": "augmenting human intellect\n\nwhen i started making software, i wasn’t dreaming of a factory.\n\ni loved that something on a screen could become an extension of my mind. a place to put a thought before i understood it. to move things around until new connections appeared. to make little systems that worked the way i worked, even if it made no sense to anyone else.\n\nthe computer wasn’t interesting because it could do work without me. it was interesting because of what i could do with it.\n\nthe early lineage of computing was built around this possibility. in 1962, Engelbart described augmenting human intellect as helping a person understand complex situations and find solutions that were previously out of reach. his starting point was the human being, not the autonomous machine.\n\nhe wasn’t describing a faster black box. he was looking at the whole relationship between a person, their tools, their language, their methods, and what they could learn to do with them. the capability belonged to that whole system.\n\nsomewhere along the way, we started telling a much smaller story about a much more powerful technology.\n\nmore automation. more agents. more software producing more software. more output from fewer people. more growth. more numbers to prove that something is happening.\n\nand less attention to the person any of this is supposed to be for.\n\ni don’t want to pretend computing had a pure innocent beginning. replacing human labor was one of its ambitions. even in 1960, Licklider distinguished human-computer symbiosis from systems where the remaining people mainly served the machine. he wanted computers to participate in the formation of ideas, not only execute problems already defined.\n\nthat distinction feels important – does the system help you discover what you mean? or does it only want you to submit a request, and wait outside while it works?\n\nsometimes waiting is exactly what i want. please do the search. move the files. take away the repetitive work.\n\nbut not everything difficult is overhead.\n\nsometimes moving the pieces around is how you understand them. sometimes making the thing changes what you wanted to make. sometimes you need to see the wrong version, touch it, take it apart, and discover a better question.\n\ni want tools that leave room for that relationship.\n\nin his 1981 paper on Smalltalk, Ingalls described a system meant to support everyone’s creative spirit. personal mastery mattered: an individual should be able to comprehend the system, rather than remain dependent on something permanently beyond their reach.\n\nhe also argued that computer models should fit the human mind, rather than demand the reverse.\n\nnot one perfect workflow for everyone. systems that different people can inhabit differently. someone who thinks through pictures. someone who needs to write. someone who understands a problem by building a simulation. someone whose way of organizing their life doesn’t resemble a SaaS dashboard.\n\na system you can reshape as your understanding changes.\n\nthis is what i want AI to make possible. not just pumping out software, but having a living relationship with it. being able to ask why something works this way. change one part without surrendering the rest. see what happened. undo it. learn enough to make the next change yourself.\n\nthe machine can become more capable without making the person smaller.\n\nbut that won’t happen just because we make the models better. we have to care about it. design for it. notice when we are making someone more dependent while calling it empowerment.\n\ni don’t want to measure the future only by how much work happens without us.\n\ni want to know what becomes possible for the person who couldn’t participate before.\n\nwhat can they understand now? what can they express? what can they change without asking permission?\n\nwhen i say augmenting human intellect, that is what i mean.\n\nnot a world that no longer needs us.\na world we have more ability to shape.",
+          "url": "https://x.com/ryolu_/status/2115683228027912634"
         },
-        "id:2114187660734668884": {
-          "createdAt": "2026-10-25T02:49:52.000Z",
-          "id": "2114187660734668884",
+        "id:2115683366389559464": {
+          "createdAt": "2026-10-29T05:53:16.000Z",
+          "id": "2115683366389559464",
           "isQuote": false,
-          "likes": 21,
+          "likes": 10,
           "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 0,
-          "text": "https://t.co/0E2zuZ5M3N",
-          "url": "https://x.com/ryolu_/status/2114187660734668884"
+          "replies": 0,
+          "retweets": 3,
+          "text": "https://t.co/9JFKOz3lEv",
+          "url": "https://x.com/ryolu_/status/2115683366389559464"
         }
       }
     },
@@ -725,6 +986,39 @@
           "retweets": 12,
           "text": "I spent some time on the weekend to test bun's AOT compiler and results are nothing short of amazing. Performance up 2-3x, memory use less than half. https://t.co/2yobmkrUUa",
           "url": "https://x.com/steipete/status/2114879798434758905"
+        },
+        "id:2115380217938158049": {
+          "createdAt": "2026-10-28T09:48:40.000Z",
+          "id": "2115380217938158049",
+          "isQuote": false,
+          "likes": 707,
+          "quotedTweetId": null,
+          "replies": 116,
+          "retweets": 12,
+          "text": "Kinda funny how easy it is to spot bugs by agents vs humans. Someone at Disney still writes code by HAND? https://t.co/kiz2czVU7m",
+          "url": "https://x.com/steipete/status/2115380217938158049"
+        },
+        "id:2115397368229060636": {
+          "createdAt": "2026-10-28T10:56:49.000Z",
+          "id": "2115397368229060636",
+          "isQuote": false,
+          "likes": 704,
+          "quotedTweetId": null,
+          "replies": 113,
+          "retweets": 28,
+          "text": "OpenClaw’s web UI now works offline and uses a smart websocket compression/reconnect logic.\n\nBeen flying to Vienna today and got plenty work done, despite spotty airplane wifi. https://t.co/7wGhL1zi7Z",
+          "url": "https://x.com/steipete/status/2115397368229060636"
+        },
+        "id:2115398725212238088": {
+          "createdAt": "2026-10-28T11:02:12.000Z",
+          "id": "2115398725212238088",
+          "isQuote": false,
+          "likes": 59,
+          "quotedTweetId": null,
+          "replies": 13,
+          "retweets": 5,
+          "text": "Meanwhile people still work local and in the cli? 👴",
+          "url": "https://x.com/steipete/status/2115398725212238088"
         }
       }
     },
@@ -734,17 +1028,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2114263159355904426": {
-          "createdAt": "2026-10-25T07:49:52.000Z",
-          "id": "2114263159355904426",
-          "isQuote": false,
-          "likes": 10,
-          "quotedTweetId": null,
-          "replies": 4,
-          "retweets": 0,
-          "text": "i need 12 more likes to ratio @ArfurRock whos got it",
-          "url": "https://x.com/swyx/status/2114263159355904426"
-        },
         "id:2114805687226376267": {
           "createdAt": "2026-10-26T19:45:41.000Z",
           "id": "2114805687226376267",
@@ -810,6 +1093,28 @@
           "retweets": 0,
           "text": "anyway here's my soundcloud https://t.co/12VJjC5aB8",
           "url": "https://x.com/swyx/status/2115156135875629109"
+        },
+        "id:2115341903311024395": {
+          "createdAt": "2026-10-28T07:16:25.000Z",
+          "id": "2115341903311024395",
+          "isQuote": true,
+          "likes": 126,
+          "quotedTweetId": "2115104790262796305",
+          "replies": 38,
+          "retweets": 7,
+          "text": "hello from literally everybody who took psychology 101 in undergrad https://t.co/ySHn3soaQn https://t.co/ervWlYbDQ8",
+          "url": "https://x.com/swyx/status/2115341903311024395"
+        },
+        "id:2115624308567658713": {
+          "createdAt": "2026-10-29T01:58:36.000Z",
+          "id": "2115624308567658713",
+          "isQuote": true,
+          "likes": 109,
+          "quotedTweetId": "2115494553780367384",
+          "replies": 100,
+          "retweets": 1,
+          "text": "Gemini #1 on AAv5???\n\nthis is making me open up @antigravity for the first time in a long time. i’m getting an early review, will report back soon.\n\nif google actually pulls this off it is officially comeback season with Meta, Grok and now GDM being cool again. \n\n@saranormous talked about model neurodiversity last year. we have roughly 2x more frontier labs than when she was last on the aie stage. absolutely bizarre counter example to the bitter lesson.",
+          "url": "https://x.com/swyx/status/2115624308567658713"
         }
       }
     },
@@ -851,6 +1156,17 @@
           "retweets": 0,
           "text": "“Delightful” they said in the design crit \n\nhttps://t.co/yrse5yfssx",
           "url": "https://x.com/thenanyu/status/2114800172270252037"
+        },
+        "id:2115638747002003968": {
+          "createdAt": "2026-10-29T02:55:58.000Z",
+          "id": "2115638747002003968",
+          "isQuote": false,
+          "likes": 23,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 1,
+          "text": "HEY JOHN APPLE 5G ON MY MACBOOK SEND TWEET",
+          "url": "https://x.com/thenanyu/status/2115638747002003968"
         }
       }
     },
@@ -860,39 +1176,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2114200152701575656": {
-          "createdAt": "2026-10-25T03:39:31.000Z",
-          "id": "2114200152701575656",
-          "isQuote": false,
-          "likes": 6524,
-          "quotedTweetId": null,
-          "replies": 839,
-          "retweets": 369,
-          "text": "Day 20/ Rest and reset",
-          "url": "https://x.com/thsottiaux/status/2114200152701575656"
-        },
-        "id:2114200291319124163": {
-          "createdAt": "2026-10-25T03:40:04.000Z",
-          "id": "2114200291319124163",
-          "isQuote": false,
-          "likes": 1470,
-          "quotedTweetId": null,
-          "replies": 304,
-          "retweets": 48,
-          "text": "By midnight PST",
-          "url": "https://x.com/thsottiaux/status/2114200291319124163"
-        },
-        "id:2114237083652882932": {
-          "createdAt": "2026-10-25T06:06:16.000Z",
-          "id": "2114237083652882932",
-          "isQuote": true,
-          "likes": 1398,
-          "quotedTweetId": "2114200291319124163",
-          "replies": 343,
-          "retweets": 74,
-          "text": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too. https://t.co/qOrzwSeIZZ https://t.co/xKaK95EAly",
-          "url": "https://x.com/thsottiaux/status/2114237083652882932"
-        },
         "id:2114588174249071102": {
           "createdAt": "2026-10-26T05:21:22.000Z",
           "id": "2114588174249071102",
@@ -958,6 +1241,39 @@
           "retweets": 15,
           "text": "And it's done. See you tomorrow for some good news. https://t.co/WhJle2cWRG",
           "url": "https://x.com/thsottiaux/status/2115330127886463244"
+        },
+        "id:2115473170279080149": {
+          "createdAt": "2026-10-28T15:58:02.000Z",
+          "id": "2115473170279080149",
+          "isQuote": true,
+          "likes": 4762,
+          "quotedTweetId": "2115297093879472332",
+          "replies": 606,
+          "retweets": 61,
+          "text": "Pretty wild that this site got 3M views. https://t.co/LPLx981qtn",
+          "url": "https://x.com/thsottiaux/status/2115473170279080149"
+        },
+        "id:2115588390414581916": {
+          "createdAt": "2026-10-28T23:35:52.000Z",
+          "id": "2115588390414581916",
+          "isQuote": true,
+          "likes": 3920,
+          "quotedTweetId": "2115565560603824452",
+          "replies": 1215,
+          "retweets": 234,
+          "text": "Team is working on this but it's not rolling out just yet, sorry for any confusion. Plan is to bring together best of both Chat / Work capabilities together at some point this year, but we're going to proceed carefully here and take our time.\n\nWe'll have more to share soon. https://t.co/St57fti6qW",
+          "url": "https://x.com/thsottiaux/status/2115588390414581916"
+        },
+        "id:2115622002581188681": {
+          "createdAt": "2026-10-29T01:49:26.000Z",
+          "id": "2115622002581188681",
+          "isQuote": true,
+          "likes": 2574,
+          "quotedTweetId": "2115496387613786374",
+          "replies": 1538,
+          "retweets": 93,
+          "text": "Day 24/ Text your dot just like anyone else. Makes it super easy to share/forward things, leave it voice notes or you can even go creative with \"Hey Siri, text Iggy to &lt;INSERT WILD REQUEST&gt;\" and sit back and relax. https://t.co/T4t4m1m6DV",
+          "url": "https://x.com/thsottiaux/status/2115622002581188681"
         }
       }
     },
@@ -1010,6 +1326,39 @@
           "retweets": 53,
           "text": "feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in\n\ncoding agents can do this but they won’t do it automatically https://t.co/6iejoVGp1D",
           "url": "https://x.com/trq212/status/2115188992861970693"
+        },
+        "id:2115493334324310463": {
+          "createdAt": "2026-10-28T17:18:09.000Z",
+          "id": "2115493334324310463",
+          "isQuote": false,
+          "likes": 5119,
+          "quotedTweetId": null,
+          "replies": 190,
+          "retweets": 323,
+          "text": "courage in shorter supply than genius",
+          "url": "https://x.com/trq212/status/2115493334324310463"
+        },
+        "id:2115544056038350960": {
+          "createdAt": "2026-10-28T20:39:42.000Z",
+          "id": "2115544056038350960",
+          "isQuote": false,
+          "likes": 23251,
+          "quotedTweetId": null,
+          "replies": 1067,
+          "retweets": 1418,
+          "text": "very weird thing happening rn\n\ntechnical people are sad, they think their skills are now useless\n\nnon-technical people are desperately wishing they were more technical so they could use agents better",
+          "url": "https://x.com/trq212/status/2115544056038350960"
+        },
+        "id:2115641110710419752": {
+          "createdAt": "2026-10-29T03:05:22.000Z",
+          "id": "2115641110710419752",
+          "isQuote": true,
+          "likes": 1290,
+          "quotedTweetId": "2115544056038350960",
+          "replies": 127,
+          "retweets": 33,
+          "text": "I think the same is true of creative fields, like I see artists really worrying about AI\n\nbut I wish so badly that I could sketch animation ideas and character concepts for my agent to flesh out instead of trying to find examples\n\nI don't have the language! https://t.co/Q6EPcpiXtu",
+          "url": "https://x.com/trq212/status/2115641110710419752"
         }
       }
     },
@@ -1019,28 +1368,6 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2114225607022412049": {
-          "createdAt": "2026-10-25T05:20:39.000Z",
-          "id": "2114225607022412049",
-          "isQuote": false,
-          "likes": 33,
-          "quotedTweetId": null,
-          "replies": 15,
-          "retweets": 1,
-          "text": "It is so much easier to give advice to other people than to apply the same advice to yourself",
-          "url": "https://x.com/zarazhangrui/status/2114225607022412049"
-        },
-        "id:2114255477907570865": {
-          "createdAt": "2026-10-25T07:19:21.000Z",
-          "id": "2114255477907570865",
-          "isQuote": true,
-          "likes": 256,
-          "quotedTweetId": "2113654566776709147",
-          "replies": 27,
-          "retweets": 16,
-          "text": "Great interview. Most people overestimate the importance of one huge launch and underestimate the power of just showing up every day on the timeline\n\nDevelop a system where you make a video every day &gt; spending tens of thousands of dollars on a single launch video https://t.co/ujN4fPyN1y",
-          "url": "https://x.com/zarazhangrui/status/2114255477907570865"
-        },
         "id:2115288579173921266": {
           "createdAt": "2026-10-28T03:44:32.000Z",
           "id": "2115288579173921266",
@@ -1051,6 +1378,17 @@
           "retweets": 0,
           "text": "Had no idea this would become my most viewed tweet of all time 😂 https://t.co/mEG5Z28kyU",
           "url": "https://x.com/zarazhangrui/status/2115288579173921266"
+        },
+        "id:2115336629770707254": {
+          "createdAt": "2026-10-28T06:55:28.000Z",
+          "id": "2115336629770707254",
+          "isQuote": false,
+          "likes": 2134,
+          "quotedTweetId": null,
+          "replies": 56,
+          "retweets": 97,
+          "text": "this is too cute https://t.co/dtttFifGe7",
+          "url": "https://x.com/zarazhangrui/status/2115336629770707254"
         }
       }
     }
