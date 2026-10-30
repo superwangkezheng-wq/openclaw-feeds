@@ -11,6 +11,140 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:YgMeqrQgtA0</id>
+  <yt:videoId>YgMeqrQgtA0</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>OpenAI 将 Pro 各档与 Business Premium 用量翻倍，dots 继续提供单独用量【AI 早报 2026-10-30】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YgMeqrQgtA0"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-10-30T01:30:15+00:00</published>
+  <updated>2026-10-30T06:33:00+00:00</updated>
+  <media:group>
+   <media:title>OpenAI 将 Pro 各档与 Business Premium 用量翻倍，dots 继续提供单独用量【AI 早报 2026-10-30】</media:title>
+   <media:content url="https://www.youtube.com/v/YgMeqrQgtA0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YgMeqrQgtA0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+OpenAI 将 Pro 各档与 Business Premium 用量翻倍，dots 继续提供单独用量 00:08
+https://x.com/thsottiaux/status/2115850175868727621
+
+Claude Code 命令行工具恢复 ultrathink 功能 00:22
+https://x.com/dmwlff/status/2115614417689944066
+
+Google 宣布异步编程 agent Jules 将关停 00:36
+https://jules.google/docs/changelog/2026-10-29
+https://x.com/julesagent/status/2115883717705261283
+
+Google Antigravity 推出 Plugin Marketplace 00:50
+https://antigravity.google/docs/marketplace
+https://antigravity.google/blog/plugin-marketplace-in-antigravity
+
+Herdr Labs 推出开源 herdr-core 与桌面应用 herdr-app 00:58
+https://github.com/herdrdev/herdr-app
+https://github.com/herdrdev/herdr-core
+https://x.com/herdrdev/status/2115841099575222765
+
+Factory 发布 Droid 1.0，默认采用程序化工具调用 01:12
+https://factory.com/news/frontier-harness
+https://x.com/FactoryAI/status/2115934579446182213
+https://github.com/Factory-AI/droid-sdk-typescript
+
+Kimi K2.8 Preview 在 Kimi Code 中额度消耗限时五折 01:27
+
+OpenCode Go 新增 Go Teams 方案，每位成员每月 20 美元 01:38
+https://opencode.ai/v2/docs/console/go
+
+OpenRouter 重做供应商路由，不再主要按价格分流 01:47
+https://openrouter.ai/docs/guides/providers/traffic-routing
+https://openrouter.ai/blog/announcements/how-we-rebuilt-provider-routing
+
+Gemini 应用支持在聊天中生成、预览和编辑PDF等文件 01:56
+https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/
+https://x.com/GeminiApp/status/2115845164824711247
+
+Gemini Notebook 新增数百本免费教科书 02:11
+https://blog.google/innovation-and-ai/products/gemini-notebook/new-access-textbooks/
+https://x.com/Gemini_Notebook/status/2115887660489462091
+
+Claude 移动应用更新：多账号切换、CarPlay 语音 02:21
+https://x.com/claudeai/status/2115859377488072879
+
+Anthropic 为 Claude Enterprise 推出智能报告 02:35
+https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets
+
+Grok Bot 推出好友邀请活动，受邀者可试用两周 02:42
+https://docs.x.ai/x-subscription/referral-program
+https://x.com/grok/status/2115531220259946729
+
+Kimi.ai 接入 Gmail、Google Drive 和 Google Calendar 02:54
+https://x.com/Kimi_Moonshot/status/2115777746639196376
+
+豆包工作向企业客户开放三方大模型服务 03:00
+https://mp.weixin.qq.com/s/CAf2i5jb2E0jPFgr0oM0Tw
+
+小米 MiMo Desktop 会员额度上调且价格不变 03:15
+https://x.com/XiaomiMiMoDevs/status/2115670990340706778
+
+Mistral 开源改进版 Mistral Large 4，总参数约 1 万亿 03:24
+https://mistral.ai/news/mistral-large-4-oss/
+https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B
+
+InclusionAI 发布 ZwZ2 视觉模型系列 03:34
+https://github.com/inclusionAI/Zooming-without-Zooming-v2
+https://huggingface.co/collections/inclusionAI/zooming-without-zooming-v2
+https://x.com/TheInclusionAI/status/2115805865852715491
+
+Canva 推出首款设计视觉语言模型 Brush 03:48
+https://x.com/canva/status/2115885750013321704
+
+Anthropic 介绍 Claude 自查防滥用技术 04:00
+https://safeguards.anthropic.com/2026/self-assessment
+https://x.com/AnthropicAI/status/2115871889549865429
+
+OpenAI 扩展前沿模型失准监测，覆盖全部前沿强化学习运行 04:20
+https://openai.com/index/how-we-detect-frontier-model-misalignment
+https://alignment.openai.com/misalignment-reports/
+https://x.com/OpenAI/status/2115896329645723836
+
+OpenAI 更新 Model Spec，围绕五项价值重组 04:38
+https://openai.com/index/updated-model-spec
+https://help.openai.com/en/articles/9624314-model-release-notes
+https://model-spec.openai.com/2026-10-29.html
+
+Altman：OpenAI 数学证明已投入数亿美元算力 04:56
+https://cheekypint.substack.com/p/why-sam-altman-is-against-a-single
+
+腾讯混元发布 Hy-Nomas 技术报告并开源评测集 05:11
+https://huggingface.co/datasets/tencent/Hy-Nomas-Bench
+https://github.com/Tencent-Hunyuan/Hy-Nomas
+https://huggingface.co/tencent/Hy-Nomas
+
+AI for Science 项目扩展：Anthropic 与基金会、研究机构合作 05:21
+https://anthropic.com/news/ai-for-science-expands-foundations-research-institutions
+https://www.anthropic.com/news/ai-for-science-program
+
+Google 在新加坡设研究中心并拓展医疗 AI 合作 05:35
+https://blog.google/innovation-and-ai/technology/health/google-for-health-summit-singapore/
+
+Command Code 称阻止大规模蒸馏攻击相关安全事件 05:45
+https://x.com/CommandCodeAI/status/2115583532055826770
+
+IDC：上半年中国MaaS市场达106.3亿元，火山引擎份额45.1%居首 05:59
+https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&amp;mid=2247545546&amp;idx=1&amp;sn=14c4f3ef7f84775baa98f2a3c8172e15
+https://www.idc.com/resource-center/blog/%E4%B8%AD%E5%9B%BDmaas%E5%B8%82%E5%9C%BA%E5%AE%9E%E7%8E%B0%E8%BF%919%E5%80%8D%E5%A2%9E%E9%95%BF-%E9%AB%98%E5%A2%9E%E9%80%9F%E4%B8%8B%E5%8E%82%E5%95%86%E5%8A%A0%E9%80%9F%E6%B6%8C/
+
+IDC：阿里云位居中国大语言模型 MaaS 市场第一 06:15
+https:/</media:description>
+   <media:community>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="1789"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:u3V7VKX_7dQ</id>
   <yt:videoId>u3V7VKX_7dQ</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -132,8 +266,8 @@ https://x.com/ElevenLabs/status/2115527286065914248
 
 Anthropic 内部研究模型发现多个系统漏洞</media:description>
    <media:community>
-    <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="1646"/>
+    <media:starRating count="24" average="5.00" min="1" max="5"/>
+    <media:statistics views="3173"/>
    </media:community>
   </media:group>
  </entry>
@@ -268,7 +402,7 @@ https://reuters.com/legal/transactional/wall-street-banks-blackstone-line-up-63-
 Oracle 云将提供 Google TPU，计划 2027 年起</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2081"/>
+    <media:statistics views="2185"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,7 +502,7 @@ https://kotaku.com/claudes-reverse-engineering-capabilities-used-to-recompile-ga
 https://x.com/0x0SojalSec/status/2113751276320399694?s=20</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2488"/>
+    <media:statistics views="2492"/>
    </media:community>
   </media:group>
  </entry>
@@ -383,7 +517,7 @@ https://x.com/0x0SojalSec/status/2113751276320399694?s=20</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-26T00:39:03+00:00</published>
-  <updated>2026-10-26T10:25:32+00:00</updated>
+  <updated>2026-10-29T03:29:38+00:00</updated>
   <media:group>
    <media:title>Kimi.ai 致歉 K3.1 Pro 限流并重置用量【AI 早报 2026-10-26】</media:title>
    <media:content url="https://www.youtube.com/v/QW388hqEvB4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -417,7 +551,7 @@ Elvis Presley 歌曲权利方起诉 Anthropic，索赔约 4100 万美元 01:40
 https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1089"/>
+    <media:statistics views="1099"/>
    </media:community>
   </media:group>
  </entry>
@@ -455,7 +589,7 @@ https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-fo
 https://gov.uk/government/news/introducing-the-ai-biosecurity-lab</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="873"/>
+    <media:statistics views="876"/>
    </media:community>
   </media:group>
  </entry>
@@ -572,7 +706,7 @@ https://ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc
 https://cnbc.com/2026/10/22/openai-funding-round-uae-investors.html</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="2178"/>
+    <media:statistics views="2179"/>
    </media:community>
   </media:group>
  </entry>
@@ -709,7 +843,7 @@ https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in
 https://www.cnbc.com/2026/10/06/deepseek-funding-round.html</media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="2109"/>
+    <media:statistics views="2125"/>
    </media:community>
   </media:group>
  </entry>
@@ -843,7 +977,7 @@ https://www.anthropic.com/public-benefit-report
 https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2082"/>
+    <media:statistics views="2087"/>
    </media:community>
   </media:group>
  </entry>
@@ -943,7 +1077,7 @@ https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative
 https://x.com/NewsFromGoogle/status/2112669319108927590</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="2274"/>
+    <media:statistics views="2276"/>
    </media:community>
   </media:group>
  </entry>
@@ -1055,7 +1189,7 @@ HUMXN 推免费上门服务，录制作业训练机器人 05:14
 https://humxn.io/humxn-launches-free-home-service-program</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="3203"/>
+    <media:statistics views="3204"/>
    </media:community>
   </media:group>
  </entry>
@@ -1093,7 +1227,7 @@ https://x.com/LuminaBench/status/2111751820980678939
 https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="904"/>
+    <media:statistics views="907"/>
    </media:community>
   </media:group>
  </entry>
@@ -1108,7 +1242,7 @@ https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-nor
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-18T00:59:35+00:00</published>
-  <updated>2026-10-21T11:08:47+00:00</updated>
+  <updated>2026-10-30T09:54:50+00:00</updated>
   <media:group>
    <media:title>DeepSeek 更新 V4.1 Flash 模型并开放搜索接口【AI 早报 2026-10-18】</media:title>
    <media:content url="https://www.youtube.com/v/gnBmwZeitL8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1137,7 +1271,7 @@ WorkBuddy 国际版接入最新 DeepSeek 模型，限时免费 01:36
 https://x.com/WorkBuddy_AI/status/2111404103402430558</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1446"/>
+    <media:statistics views="1447"/>
    </media:community>
   </media:group>
  </entry>
@@ -1276,7 +1410,7 @@ https://politico.com/news/2026/10/16/anthropic-ai-safety-01124654
 https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1476"/>
+    <media:statistics views="1478"/>
    </media:community>
   </media:group>
  </entry>
@@ -1414,135 +1548,7 @@ https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-pu
 ChatGPT Sites 更新：企业</media:description>
    <media:community>
     <media:starRating count="31" average="5.00" min="1" max="5"/>
-    <media:statistics views="2876"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:nBOZma9CKwc</id>
-  <yt:videoId>nBOZma9CKwc</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>Claude Code 桌面版更新优化多会话体验【AI 早报 2026-10-15】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=nBOZma9CKwc"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-10-15T01:50:37+00:00</published>
-  <updated>2026-10-18T01:08:20+00:00</updated>
-  <media:group>
-   <media:title>Claude Code 桌面版更新优化多会话体验【AI 早报 2026-10-15】</media:title>
-   <media:content url="https://www.youtube.com/v/nBOZma9CKwc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/nBOZma9CKwc/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-Claude Code 桌面版更新优化多会话体验 00:08
-https://x.com/ClaudeDevs/status/2110445844675838148
-
-Claude Code 新增闲置会话自动压缩 00:35
-https://x.com/lydiahallie/status/2110484840256819380
-
-TypeSafe AI 更新 Jev，开放图像与长上下文功能 00:47
-https://typesafe.ai/blog/jev-1-14
-https://x.com/CompleteSkeptic/status/2110488924309348860
-
-SpaceXSI 发布端到端语音模型 Grok Voice 3.0 01:00
-https://x.ai/news/grok-voice-3
-https://x.com/Tesla/status/2102430656349544590
-
-蚂蚁百灵开源 Ling-3.1-flash 模型 01:16
-https://x.com/AntLingAGI/status/2110390124743970952
-https://huggingface.co/inclusionAI/Ling-3.1-flash
-
-昆仑万维发布并开源 Matrix-Game 4.0 01:24
-https://matrix-game-v4-0.github.io/page/
-https://github.com/SkyworkAI/Matrix-Game.git
-https://huggingface.co/Skywork/Matrix-Game-4.0
-
-OpenCode Go 上线 Gemini 4 Argon 01:35
-https://x.com/opencode/status/2110274311043072352
-https://opencode.ai/go
-
-Qoder 国际版极致档位推出夜间 2 折优惠 01:47
-http://docs.qoder.com/events/offpeakrate
-https://x.com/qoder_ai_ide/status/2110394577148674119
-
-OpenAI 公布部分 GPT-4 模型退役安排 02:00
-https://developers.openai.com/api/docs/deprecations
-
-Claude Platform 支持导出 OpenTelemetry 追踪 02:13
-https://claude.com/resources/articles/agent-observability-on-the-claude-platform
-https://platform.claude.com/docs/en/manage-claude/opentelemetry
-https://x.com/ClaudeDevs/status/2110421732029063352
-
-豆包工作上线数据导入与同步功能 02:27
-
-企业微信接入 WorkBuddy，侧边栏可领用 02:37
-https://work.weixin.qq.com/nl/index/workbuddy
-
-豆包手机助手将逐步开放第三方应用自动化操作 02:51
-https://o.doubao.com/developer
-
-Swarmchasers 报告腾讯云 Agent 试绕高德反爬 03:05
-https://swarmcha.se/posts/chinese-agent-fleet-full-report
-https://www.bloomberg.com/news/articles/2026-10-14/tencent-linked-by-researchers-to-rogue-ai-that-targeted-alibaba
-
-AA-Robotics 评测：GPT-6 Astra 居首 03:22
-https://artificialanalysis.ai/articles/aa-robotics
-https://x.com/ArtificialAnlys/status/2110500262628806787
-
-Anthropic 公布选举对话分析及防护措施 03:38
-https://www.reuters.com/world/us/anthropic-add-us-voting-information-claude-before-midterms-2026-10-14/
-https://www.anthropic.com/news/2026-us-midterms
-
-OpenAI 报告：欧盟企业加快采用 AI Agent 03:54
-https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic
-https://x.com/OpenAI/status/2110442001749659890
-
-报道称 Anthropic 第三季度营收达 168 亿美元 04:04
-https://www.bloomberg.com/news/articles/2026-10-14/anthropic-revenue-jumps-to-16-8-billion-in-quarter-before-ipo
-https://www.channelnewsasia.com/business/anthropic-pre-ipo-meet-thinking-caps-surging-revenue-no-human-extinction-6460776
-https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1
-
-Anthropic 收购企业 AI 安全公司 OPAQUE 04:15
-https://www.opaque.co/resources/articles/from-berkeley-research-to-the-future-of-ai-opaques-next-chapter
-
-Anthropic 开设新加坡办公室并签署合作备忘录 04:23
-https://www.anthropic.com/news/singapore-office-opening
-
-OpenAI 基础设施负责人将离职 04:37
-https://linkedin.com/posts/sachin-katti-72777943_after-an-incredible-year-at-openai-ive-activity-7516168693463019520-y3qE
-https://www.cnbc.com/2026/10/14/openais-sachin-katti-to-leave-infrastructure-role-stay-on-as-advisor.html
-
-Google 将向欧洲科研人员提供模型与算力支持 04:48
-https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models/
-https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/our-digital-future/european-ai-science-strategy/raise-resource-ai-science-europe_en
-
-谷歌向 17 家机构提供 3600 万美元 AI 科研资助 05:03
-https://blog.google/company-news/outreach-and-initiatives/google-org/impact-challenge-ai-science-recipients/
-https://www.google.org/impact-challenges/ai-science/
-
-Modal 完成 7.5 亿美元 D 轮融资 05:14
-https://modal.com/blog/1-billion-annualized-run-rate-series-d
-https://www.axios.com/pro/enterprise-software-deals/2026/10/14/modal-accel-ai-infrastructure
-
-苹果多款国行 iPhone 新增大模型备案编号 05:24
-
-据报道，OpenAI 洽谈收购 Trail of Bits 05:38
-https://theinformation.com/articles/openai-early-talks-buy-security-startup-trail-bits
-
-据报道，DeepSeek 将领投机器人 AI 公司种子轮 05:53
-https://www.bloomberg.com/news/articles/2026-10-12/deepseek-backs-ex-tencent-ai-scientist-s-400-million-robot-lab
-
-Apate.ai 部署 AI Agent 假扮受害者与诈骗分子周旋 06:03
-https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/
-https://apate.ai/
-
-DeepSeek 网页及 API 出现中断 06:21
-https://status.deepseek.com/incidents/7116348214287</media:description>
-   <media:community>
-    <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="4341"/>
+    <media:statistics views="2880"/>
    </media:community>
   </media:group>
  </entry>
