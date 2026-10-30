@@ -236,17 +236,6 @@
       "name": "Dan Shipper",
       "source": "x",
       "tweets": {
-        "id:2114509827057561603": {
-          "createdAt": "2026-10-26T00:10:03.000Z",
-          "id": "2114509827057561603",
-          "isQuote": true,
-          "likes": 33,
-          "quotedTweetId": "2114388808628379695",
-          "replies": 8,
-          "retweets": 0,
-          "text": "https://t.co/F3WWInD6LH https://t.co/PKNm0MT3So",
-          "url": "https://x.com/danshipper/status/2114509827057561603"
-        },
         "id:2114714881312305542": {
           "createdAt": "2026-10-26T13:44:51.000Z",
           "id": "2114714881312305542",
@@ -458,17 +447,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2114391265655816315": {
-          "createdAt": "2026-10-25T16:18:55.000Z",
-          "id": "2114391265655816315",
-          "isQuote": true,
-          "likes": 244,
-          "quotedTweetId": "2114372350707986492",
-          "replies": 69,
-          "retweets": 23,
-          "text": "Good assessment of the on the ground reality for security in most large enterprises right now. The fragmented landscape of the risk surface is only going to get more gnarly, making it even more complex for enterprises to solve.\n\nThere’s a never ending set of libraries to keep up with, tools to leverage, and sprawling infrastructure, data, and code to secure. Most large enterprises can barely keep up with this, let alone smaller startups or most companies outside of tech. \n\nIn many cases enterprises need to work to modernize their tech stacks. Data, in most organizations, is highly fragmented which means you don’t really know the state of risk at any given time. Some systems are open up privileges too broadly, and others are operating primarily via security through obscurity. Lots of upgrading here to do.\n\nOnce you can get your data and infra into a better spot, at least you have a chance for agents to help you secure the environment. Agent swarms can fan out, leverage any security tool, test various perpetuations of attacks, read through logs, process enterprise data for risk level, and more. This capability only emerged in the past few months, and none of it would be possible before we had long running agents and computer use good enough.\n\nThis is a huge area of opportunity right now for every layer of the security stack across identity, firewall, network, code scanning, data protection, and more. And it’s at least one reason to be optimistic about the balance of offensive and defensive capability. \n\nBut everyone does need to do the hard work of getting the basics right at the start.",
-          "url": "https://x.com/levie/status/2114391265655816315"
-        },
         "id:2114761816199098587": {
           "createdAt": "2026-10-26T16:51:22.000Z",
           "id": "2114761816199098587",
@@ -510,28 +488,6 @@
       "name": "Matt Turck",
       "source": "x",
       "tweets": {
-        "id:2114411547594457483": {
-          "createdAt": "2026-10-25T17:39:31.000Z",
-          "id": "2114411547594457483",
-          "isQuote": true,
-          "likes": 100,
-          "quotedTweetId": "2114306073846751404",
-          "replies": 3,
-          "retweets": 6,
-          "text": "Good neighborhood https://t.co/ZRTxHmsoZv https://t.co/OCMZ85Yk8G",
-          "url": "https://x.com/mattturck/status/2114411547594457483"
-        },
-        "id:2114507945585328606": {
-          "createdAt": "2026-10-26T00:02:34.000Z",
-          "id": "2114507945585328606",
-          "isQuote": false,
-          "likes": 53,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 5,
-          "text": "Rare footage of how VCs turned their 2021 bets in metaverse, gaming and crypto mining into 'mission-critical AI infrastructure’ https://t.co/ULSKrUwg1f",
-          "url": "https://x.com/mattturck/status/2114507945585328606"
-        },
         "id:2114755282181955616": {
           "createdAt": "2026-10-26T16:25:24.000Z",
           "id": "2114755282181955616",
@@ -606,17 +562,6 @@
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2114380495140405394": {
-          "createdAt": "2026-10-25T15:36:07.000Z",
-          "id": "2114380495140405394",
-          "isQuote": false,
-          "likes": 40,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 1,
-          "text": "Golden hour 🌅 https://t.co/VPmAgnMkGH",
-          "url": "https://x.com/nikunj/status/2114380495140405394"
-        },
         "id:2114736254642528659": {
           "createdAt": "2026-10-26T15:09:47.000Z",
           "id": "2114736254642528659",
@@ -702,17 +647,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2114507378532229214": {
-          "createdAt": "2026-10-26T00:00:19.000Z",
-          "id": "2114507378532229214",
-          "isQuote": true,
-          "likes": 245,
-          "quotedTweetId": "2114360145505595842",
-          "replies": 28,
-          "retweets": 15,
-          "text": "Here’s how to use Claude to copy any video shorts style in a few minutes.\n\nFrom @jake11moran:\n\n“We added this as a native capability in @HyperFrames_ studio. You just upload or pick a reference clip and then describe in the prompt what you want to change.\n\nYou can see where we’re drawing inspiration from and apply a different font or different colors. It’s still structurally the same idea.”\n\n📌 Watch our full AI video editing tutorial here: https://t.co/1seCb77tGJ",
-          "url": "https://x.com/petergyang/status/2114507378532229214"
-        },
         "id:2114557067700916723": {
           "createdAt": "2026-10-26T03:17:46.000Z",
           "id": "2114557067700916723",
@@ -1124,28 +1058,6 @@
       "name": "Nan Yu",
       "source": "x",
       "tweets": {
-        "id:2114427877240488442": {
-          "createdAt": "2026-10-25T18:44:24.000Z",
-          "id": "2114427877240488442",
-          "isQuote": true,
-          "likes": 129,
-          "quotedTweetId": "2114040855073820966",
-          "replies": 4,
-          "retweets": 6,
-          "text": "By the time it shows up in the data or UXR interviews it’s too late. The damage has been done and the reputation tarnished https://t.co/hIPaT1BOmk",
-          "url": "https://x.com/thenanyu/status/2114427877240488442"
-        },
-        "id:2114433404557279435": {
-          "createdAt": "2026-10-25T19:06:22.000Z",
-          "id": "2114433404557279435",
-          "isQuote": true,
-          "likes": 55,
-          "quotedTweetId": "2114231252375232804",
-          "replies": 8,
-          "retweets": 0,
-          "text": "Anyone else find it insane that this is the default for unoptimized apps when the iPhone Duo supports split mode? https://t.co/TOoeDyhMzz https://t.co/uXGfG7EbYt",
-          "url": "https://x.com/thenanyu/status/2114433404557279435"
-        },
         "id:2114800172270252037": {
           "createdAt": "2026-10-26T19:23:46.000Z",
           "id": "2114800172270252037",
