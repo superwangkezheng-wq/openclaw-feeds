@@ -15,8 +15,107 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Fri, 30 Oct 2026 14:20:42 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Oct 2026 02:30:59 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[Claude套餐大升级！Max 20x 升级为 Ultra，5 小时限额直接取消]]></title>
+            <description><![CDATA[<p>就在刚刚，Anthorpic官宣：Claude顶级付费套餐大升级！</p>
+  <p><strong>原有的 Max 5x 套餐，正式更名为 Max（官网月费仍维持 100 美元不变）。</strong></p>
+  <p><strong>原有的 Max 20x 顶配套餐，正式更名为 Ultra（官网月费仍维持 200 美元不变）。</strong></p>
+  <p>如果你已经是这两档的订阅用户，什么都不用做，系统会自动为你无缝迁移。</p>
+  <p>但真正让人激动的，是接下来这句——</p>
+  <p><strong>「从今天开始，我们将对已认证的 Ultra 账户取消 5 小时的用量限制！」</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1381" src="https://img.36krcdn.com/hsossms/20261031/v2_d7bf28e540204116b9ed29bf32c1b10e@000000_oswg341480oswg1080oswg1381_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这句话意味着什么？<strong>没被Claude关过「小黑屋」的人，很难体会那种窒息感。</strong></p>
+  <p>在过去，哪怕你花了大价钱买了最顶级的套餐，Anthropic 依然会用「每 5 小时重置一次」的限额，死死卡住你脖子。</p>
+  <p>正在库库写代码心流着呢，突然就被limit了，这感觉实在崩溃。</p>
+  <p>但现在，枷锁被彻底砸碎了！</p>
+  <p>Claude Code之父Boris Cherny 和 Alex Albert 都在第一时间确认消息。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,349" src="https://img.36krcdn.com/hsossms/20261031/v2_b7a79813f8f246608165cee10a2ea8a9@000000_oswg74849oswg1080oswg349_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>对于大多数Ultra 订阅者来说，这项福利从<strong>今天起！即刻生效！</strong>你可以肝上一整天，再也不用盯着倒计时写代码了。</p>
+  <p>Anthorpic和OpenAI的额度大战，简直烧到白热化了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,432" src="https://img.36krcdn.com/hsossms/20261031/v2_54d3a310f96c4d3987c81ac2c528419b@000000_oswg57379oswg1080oswg432_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>深扒官网定价页：从平民变土豪了！</strong>&nbsp;</h2>
+  <p>这项调整从公告当天开始，将覆盖大多数现有Ultra订阅者。较新的账户仍有临时限制，自动验证后限制将解除，并发邮件通知。</p>
+  <p>看来，为了防止被「羊毛党」倒卖API，Anthropic留了一手。</p>
+  <p>而<strong>每月100美元的Max，继续保留五小时上限。</strong></p>
+  <p>另外，每周的总限额依然不变。但即便如此，打破5小时限制，依然是Claude商业化之路上的一次大让步！</p>
+  <p>官方到底下的是什么棋？我们火速去全新的定价页面扒了扒。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,382" src="https://img.36krcdn.com/hsossms/20261031/v2_c4e0ae6de9394f599f1ae8c79da86f7e@000000_oswg66182oswg1080oswg382_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>一看才知道，现在Anthropic把用户的「阶级」划得那叫一个明白，刀法堪比库克。</p>
+  <p>在他们眼里，用户分为以下几个梯队。</p>
+  <p><strong>第一梯队：白嫖党与轻度玩家</strong></p>
+  <p><strong>Free（免费版）</strong>：零成本体验 Claude 3.5 Sonnet，但额度少得可怜。</p>
+  <p><strong>Pro（17美元/月）</strong>：最熟悉的打工人标配。用量比免费版更多，支持项目Projects功能/Claude Code等功能，能体验到 Claude 最核心的生产力。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,582" src="https://img.36krcdn.com/hsossms/20261031/v2_6ce7e2cc34634302996d8909096eb948@000000_oswg161138oswg1080oswg582_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>第二梯队：硬核开发者（本次升级的核心）</strong></p>
+  <p><strong>Max（100 美元/月，原 Max 5x）</strong>：觉得 Pro 版完全不够用的重度用户，你们有福了。在这个档位，你的算力配额大大提升，性价比极高。</p>
+  <p><strong>Ultra（200 美元/月，原 Max 20x）</strong>：这就是<strong>今天的主角！尊贵的 Ultra 俱乐部！</strong>&nbsp;能买这个套餐的，基本都是资深大佬。</p>
+  <p>此外，开发者套餐除了个人套餐的全部权益，还有更多额外权益，但价格不变！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,626" src="https://img.36krcdn.com/hsossms/20261031/v2_712c404d4ae145c98e3da44120e77600@000000_oswg133328oswg1080oswg626_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Anthropic 这次取消 Ultra 的 5 小时限制，逻辑非常清晰——</p>
+  <p><strong>既然大佬们愿意掏 200 美元，那我们就得提供真正的「头等舱服务」。</strong></p>
+  <p>不能让高净值用户在付费后还有憋屈感，Anthropic的订阅制，你可终于懂事了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,668" src="https://img.36krcdn.com/hsossms/20261031/v2_390c1100121342cda057622fd9ce08c5@000000_oswg104744oswg1080oswg668_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>隐藏彩蛋来了</strong>&nbsp;</h2>
+  <p>现在，Anthropic对全线付费套餐的权益账本做了一次全面梳理。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,698" src="https://img.36krcdn.com/hsossms/20261031/v2_301a45fe6f364350a6d3821857b6458a@000000_oswg318938oswg1080oswg698_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>然而改版之后，有用户发现，Max 20x 改名Ultra之后，官网居然说「每周额度为Pro的10倍」？</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,349" src="https://img.36krcdn.com/hsossms/20261031/v2_76c69c5999d64513849a7a305a71e6a2@000000_oswg68606oswg1080oswg349_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,849" src="https://img.36krcdn.com/hsossms/20261031/v2_8b74cc8bc6bc4898b0baea2242f77d26@000000_oswg181837oswg1080oswg849_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>左边是新的官网定价页，写着「10x Pro每周用量」；右边是用户点进账户后台切换套餐的弹窗，还挂着老版的「20x Pro用量」文案</p>
+  <p>难道是Anthropic挂羊头卖狗肉，暗戳戳砍额度？</p>
+  <p>仔细看一下文档，就明白了。</p>
+  <p><strong>先说清楚20倍到底是怎么回事。</strong></p>
+  <p>老版Max 20x标榜的「20倍」，衡量的只是5小时单次窗口内，你能塞进Pro用户20倍的消息量。但拉长到7天来看，200美元档的每周总上限，一直固定在Pro的10倍。</p>
+  <p>Ultra取消5小时单次限额后，「单次窗口20倍」失去了参照物，官网干脆统一改用「每周总上限为Pro的10倍」。至于后台切弹窗里还留着20x字样，纯粹是前端更新时漏掉了旧弹窗。</p>
+  <p><strong>重度用户要注意一条隐藏规则。</strong></p>
+  <p>如果你在Ultra套餐里高频调用最顶级Fable模型，它设有一条独立的每周防线：最多可使用你每周总用量的50%，折算下来相当于Pro每周额度的5倍。</p>
+  <p><strong>除了每周总额度分毫未损，Anthropic这次还给Ultra订户塞了一个真金白银的大彩蛋：每月免费赠送的Claude平台（原Anthropic Console）API额度，从Max档的100美元翻倍到了200美元！</strong></p>
+  <p>这笔200美元API赠金，在每个月度账单周期自动到账、月底清零，无论是拿来调API跑自动化脚本，还是体验Claude Managed Agents托管服务，全都相当于白捡。</p>
+  <p>由于这两天AI巨头的套餐算术题实在太绕，连Netflix平台负责人David Leen都吐槽：恐怕得用Lean才能算明白这些优惠了。</p>
+  <p>咦，怎么看起来有点眼熟。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,500" src="https://img.36krcdn.com/hsossms/20261031/v2_4a3937f325b246be8b557d29bde41ce4@000000_oswg147167oswg1080oswg500_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>都是200刀？双雄连夜打响大战</strong>&nbsp;</h2>
+  <p>这个时间点，可太巧了。</p>
+  <p>就在昨天，OpenAI刚刚官宣：降额取消，ChatGPT Pro所有档位额度翻倍。</p>
+  <p><strong>Pro 100、Pro 200、Pro 500 这三个土豪档位，以及Business Premium，所有用量上限统统翻倍，且即日生效！</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="764,399" src="https://img.36krcdn.com/hsossms/20261031/v2_2bee4c2708b04c7dbd100721166a3a64@000000_oswg60846oswg764oswg399_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>原本要给 Pro 200 做的降额计划，也被火速下架。</p>
+  <p>原因就在于，之前OpenAI觉得算力扛不住了，原本计划对Pro 200暗戳戳降额，给Work和Codex用量砍一刀。</p>
+  <p>消息一出，整个社区都炸了：「退钱！立刻退钱！」</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261031/v2_45076b6751e7477a9ba2bd9c1d34cd55@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这一炸，OpenAI管理层直接吓住了，额度从砍半到翻倍，就隔了一个晚上。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,727" src="https://img.36krcdn.com/hsossms/20261031/v2_14e8a8409a0a453ca9d908210fff07bb@000000_oswg519529oswg1080oswg727_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Tibo已暂时加冕为「T 圣」</p>
+  <p>为何两家公司，如今都盯上了100刀、200刀这些昂贵套餐？</p>
+  <p>显然， 20 美元/月的 Plus 和 Pro用户，对大模型公司已经不香了。</p>
+  <p>现在他们开始争夺的，是高净值客户——专业的程序员、分析师、架构师。</p>
+  <p>大多数CC的重度用户，对价格并不敏感，要的是流畅度和稳定性。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,450" src="https://img.36krcdn.com/hsossms/20261031/v2_490a48d07be34108928c976fe518638b@000000_oswg107916oswg1080oswg450_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>取消5小时限制，是重大利好。</p>
+  <p>而对OpenAI的Pro 200 和 Pro 500 的用户，如果因为区区几块钱的算力成本把他们逼走，对 OpenAI 的生态将是巨大的打击。</p>
+  <p>今天你取消限制，明天我额度翻倍，正是体现了这个真相——</p>
+  <p><strong>底层模型的差距正在缩小，算力配额和用户体验，正在成为真正的护城河。</strong></p>
+  <p>参考资料：</p>
+  <p>https://claude.com/pricing#developer&nbsp;</p>
+  <p>https://x.com/Joshua_WD/status/2115620634386419984&nbsp;</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652739361&amp;idx=1&amp;sn=7f127692144e8fa7e173a1128ff4da3d&amp;chksm=f0864501227b64f89041b0f94d7e8880b537786cf323d5834747c0e67cb4dd82dea5a45e57d2&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 31 Oct 2026 01:15:58 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4049021975886084</guid>
+            <link>https://www.36kr.com/p/4049021975886084</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[离开人类，AI能独自活下去么？从图灵测试到“鲁滨逊测试”]]></title>
@@ -2312,45 +2411,6 @@
             <pubDate>Fri, 30 Oct 2026 04:03:39 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4047843835034117</guid>
             <link>https://www.36kr.com/p/4047843835034117</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[主打一个听劝，OpenAI把Pro额度翻倍了]]></title>
-            <description><![CDATA[<p>智东西10月30日报道，凌晨，OpenAI Codex和ChatGPT负责人Tibo宣布，Codex和ChatGPT Work的<strong>Pro100、200、500以及Business Premium</strong>的<strong>订阅使用额度翻倍</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,763" src="https://img.36krcdn.com/hsossms/20261030/v2_5d24966a24db4d788f72e1d71eee248c@000000_oswg267328oswg1080oswg763_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>Tibo称，OpenAI听到了Pro 200订阅用户的友善反馈，决定<strong>撤回原定于10月30日执行的额度削减计划</strong>。</p>
-  <p>Tibo还在评论区玩梗，说OpenAI已经从重置公司转变到了Token公司，有额度管够的感觉，但不知道是不是暗含重置减少的意思。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,215" src="https://img.36krcdn.com/hsossms/20261030/v2_978100176c234b7f8c4bcd64502904ee@000000_oswg60715oswg1080oswg215_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>按照此前安排，Pro 200老用户的Codex和ChatGPT Work使用额度将<strong>从原来Plus套餐额度的20倍降至10倍</strong>。此次调整后，老用户将继续保留原有20倍额度。</p>
-  <p>除了Pro订阅，OpenAI还宣布Business Premium的使用额度翻倍。同时，Dots的额外使用额度也将继续提供，且Dots的使用量仍与默认订阅额度分开计算。</p>
-  <p>从具体变化来看，Pro 100和Pro 500的使用额度将直接翻倍。按照此前公布的额度倍数，<strong>Pro 100从5倍提升至10倍，Pro 500则从25倍提升至50倍</strong>。</p>
-  <p>Pro 200则采取了不同的调整方式：此前享有较高额度的老用户<strong>继续保留20倍额度</strong>，原本适用10倍额度的新订阅用户则<strong>从即日起获得两倍额度</strong>，最终与老用户达到相同水平。</p>
-  <p>此次调整与OpenAI此前的Pro套餐改版有关。</p>
-  <p>9月29日，OpenAI推出了每月500美元的Pro 500套餐，将其定位为Pro系列中使用额度最高的档位，并独家提供Astra Ultrafast模型访问权限。</p>
-  <p>与此同时，OpenAI重新开放了Pro 200套餐订阅，但<strong>新订阅用户适用的额度为10倍，低于此前的老用户标准的20倍额度</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,756" src="https://img.36krcdn.com/hsossms/20261030/v2_5e0d86886d994d8f95f51bfae2011c9e@000000_oswg261619oswg1080oswg756_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>根据OpenAI此前公布的政策，对于符合条件的老用户，OpenAI设置了一个月的过渡期，<strong>允许其暂时保留20倍额度</strong>，并计划于10月30日起将其额度也下调至10倍。</p>
-  <p>这次额度翻倍，本质上是一次“先减半再翻倍”的营销策略，在推出新订阅档位的时候将额度减半，再通过翻倍保持原有额度。</p>
-  <p>值得注意的是，此次额度调整<strong>并未惠及Plus订阅用户</strong>。</p>
-  <p>在Pro系列各档位额度提高的同时，Plus用户的Codex和Work使用额度并没有随之增加。一些Plus用户也在社交平台表达了不满，认为OpenAI将更多资源和关注放在了高价订阅用户身上。</p>
-  <p class="image-wrapper"><img data-img-size-val="896,238" src="https://img.36krcdn.com/hsossms/20261030/v2_ff7c449cfe354ca2a432b818e9720f62@000000_oswg26878oswg896oswg238_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>从套餐设计来看，OpenAI正在进一步拉开不同付费档位之间的使用额度差距。对于高频使用Codex进行编程开发、需要长时间运行Agent任务的用户，Pro套餐能够提供更大的使用空间。</p>
-  <p>最后，附上一张网友制作的Tibo28天计划更新日历，期待最后三天会有什么惊喜吧。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,904" src="https://img.36krcdn.com/hsossms/20261030/v2_481b1c6db0164817bedb2c717cfc3cee@000000_oswg514018oswg1080oswg904_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652812943&amp;idx=3&amp;sn=d4280cf43fc28c5018555c47ebbbc758&amp;chksm=85bfac9752e6f003dc0f087c4917e4d0ad5f8e94beaa6ebf71c63333ffa209b344f0f6b4fe84&amp;scene=0&amp;xtrack=1#rd">“智东西”（ID：zhidxcom）</a>，作者：毕伟豪，编辑：李水青，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 30 Oct 2026 04:01:26 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4047766370121986</guid>
-            <link>https://www.36kr.com/p/4047766370121986</link>
             
             
             
