@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-31T13:43:40.000Z",
+  "generatedAt": "2026-11-01T02:19:58.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-10-31T06:25:12.592Z",
-    "ageHours": 7.31
+    "ageHours": 19.91
   },
   "x": [
     {
@@ -43,17 +43,6 @@
           "retweets": 15,
           "text": "This is a LP letter that we recently wrote with our lessons on spotting talent from a decade of investing at the frontier.\n\nhttps://t.co/v1TnHjvAox\n\nThe most common thing you hear about early stage investing is that \"It is 90% about the founder\".\n\nWe agree but have always been unsatisfied by the lack of falsifiability, specificity, and repeatability of that statement.\n\nWhat are the dimensions of excellence? How do they translate into companies?\n\nIt was a pleasure to collaborate with @gopalkraman on this.",
           "url": "https://x.com/adityaag/status/2115486597739430004"
-        },
-        {
-          "createdAt": "2026-10-27T16:32:44.000Z",
-          "id": "2115119516191801809",
-          "isQuote": true,
-          "likes": 25,
-          "quotedTweetId": "2114991579576283514",
-          "replies": 0,
-          "retweets": 2,
-          "text": "Very very excited about what @centai_health is building.\n\nSo much potential to bring better health to everyone in India. https://t.co/SAU5pLzijv",
-          "url": "https://x.com/adityaag/status/2115119516191801809"
         }
       ],
       "source": "x",
@@ -180,39 +169,6 @@
           "retweets": 1,
           "text": "https://t.co/r71rDYqrbI",
           "url": "https://x.com/amasad/status/2115497454552441336"
-        },
-        {
-          "createdAt": "2026-10-27T22:23:46.000Z",
-          "id": "2115207856496480261",
-          "isQuote": false,
-          "likes": 592,
-          "quotedTweetId": null,
-          "replies": 115,
-          "retweets": 31,
-          "text": "If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturated by sub-frontier models.",
-          "url": "https://x.com/amasad/status/2115207856496480261"
-        },
-        {
-          "createdAt": "2026-10-27T20:37:17.000Z",
-          "id": "2115181058815660449",
-          "isQuote": false,
-          "likes": 102,
-          "quotedTweetId": null,
-          "replies": 36,
-          "retweets": 2,
-          "text": "In the Stanford piracy case against Anthropic, the judge’s name is “Alsup” which sounds suspiciously close to “AI slop” when say it fast. https://t.co/hcuRaiQwJp",
-          "url": "https://x.com/amasad/status/2115181058815660449"
-        },
-        {
-          "createdAt": "2026-10-27T18:36:34.000Z",
-          "id": "2115150680977715419",
-          "isQuote": true,
-          "likes": 265,
-          "quotedTweetId": "2115130930125996103",
-          "replies": 47,
-          "retweets": 14,
-          "text": "Designers’ contribution to the codebase. https://t.co/FMlhbFzszv https://t.co/IdcnEzDEmW",
-          "url": "https://x.com/amasad/status/2115150680977715419"
         }
       ],
       "source": "x",
@@ -358,39 +314,6 @@
           "retweets": 2,
           "text": "if you're not livestreaming thesis on november 5th from @every FOR FREE\n\nwhat are you doing?\n\nhttps://t.co/cUTjlHZ7MQ https://t.co/FGxabh1Sdo",
           "url": "https://x.com/danshipper/status/2115928263331594365"
-        },
-        {
-          "createdAt": "2026-10-27T16:05:40.000Z",
-          "id": "2115112705162182754",
-          "isQuote": false,
-          "likes": 1,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 0,
-          "text": "we'll have more on this in @every this week:\n\nhttps://t.co/9wRhOCVapS",
-          "url": "https://x.com/danshipper/status/2115112705162182754"
-        },
-        {
-          "createdAt": "2026-10-27T14:47:45.000Z",
-          "id": "2115093098816745910",
-          "isQuote": false,
-          "likes": 227,
-          "quotedTweetId": null,
-          "replies": 45,
-          "retweets": 21,
-          "text": "video creation and game making are going to become widely distributed foundations of knowledge work in the same way doc and deck creation are today",
-          "url": "https://x.com/danshipper/status/2115093098816745910"
-        },
-        {
-          "createdAt": "2026-10-27T13:58:55.000Z",
-          "id": "2115080807656419759",
-          "isQuote": true,
-          "likes": 442,
-          "quotedTweetId": "2114892366586823133",
-          "replies": 6,
-          "retweets": 11,
-          "text": "extremely good explanation https://t.co/qikxoeig2o",
-          "url": "https://x.com/danshipper/status/2115080807656419759"
         }
       ],
       "source": "x",
@@ -476,39 +399,6 @@
           "retweets": 9,
           "text": "Particle will be on the frontier for smartest model at lowest dollar per unit of intelligence https://t.co/psCDwwcURe",
           "url": "https://x.com/garrytan/status/2115517748860375286"
-        },
-        {
-          "createdAt": "2026-10-27T22:55:17.000Z",
-          "id": "2115215790756794496",
-          "isQuote": true,
-          "likes": 92,
-          "quotedTweetId": "2115213279912173914",
-          "replies": 36,
-          "retweets": 3,
-          "text": "I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6",
-          "url": "https://x.com/garrytan/status/2115215790756794496"
-        },
-        {
-          "createdAt": "2026-10-27T22:35:44.000Z",
-          "id": "2115210866962624810",
-          "isQuote": false,
-          "likes": 8,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 1,
-          "text": "What did my Capy software factory do on the greenest days? https://t.co/miOR2treNF",
-          "url": "https://x.com/garrytan/status/2115210866962624810"
-        },
-        {
-          "createdAt": "2026-10-27T21:26:49.000Z",
-          "id": "2115193524152860771",
-          "isQuote": true,
-          "likes": 114,
-          "quotedTweetId": "2115190553126342694",
-          "replies": 53,
-          "retweets": 8,
-          "text": "The @capydotai software factory renormalization of your GitHub contribution colors is real\n\nHere is mine 👀 \n\nI was no token slouch before but wow the PRs are hot and heavy with Capy Captains (10 to 20 subagents running at all times on GStack and GBrain) https://t.co/cCDEI6d0Xu https://t.co/15R8aFycyA",
-          "url": "https://x.com/garrytan/status/2115193524152860771"
         }
       ],
       "source": "x",
@@ -728,17 +618,6 @@
           "retweets": 0,
           "text": "Woah they actually made a movie about the GPU shortage https://t.co/co03Lq1aXy",
           "url": "https://x.com/mattturck/status/2115417700059304019"
-        },
-        {
-          "createdAt": "2026-10-27T17:23:38.000Z",
-          "id": "2115132327131328806",
-          "isQuote": false,
-          "likes": 220,
-          "quotedTweetId": null,
-          "replies": 54,
-          "retweets": 11,
-          "text": "Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis!\n\nAlso:\n\n* Anthropic: 7 co-founders\n\n* OpenAI: 11 co-founders\n\n* Databricks: 7 co-founders",
-          "url": "https://x.com/mattturck/status/2115132327131328806"
         }
       ],
       "source": "x",
@@ -769,28 +648,6 @@
           "retweets": 3,
           "text": "https://t.co/YR5yYDTHc9",
           "url": "https://x.com/nikunj/status/2115583054530171227"
-        },
-        {
-          "createdAt": "2026-10-27T19:02:26.000Z",
-          "id": "2115157188704612735",
-          "isQuote": false,
-          "likes": 97,
-          "quotedTweetId": null,
-          "replies": 12,
-          "retweets": 4,
-          "text": "VCs love talking about the number of cofounders and how sometimes there’s too many..\n\n@AnthropicAI x @databricks both with 7 cofounders showing that the best startups are truly outliers. \n\nAll the definitions of the “right” way of identifying or building startups are wrong. \n\nThere’s no “right” way, there’s only the way that works for you!",
-          "url": "https://x.com/nikunj/status/2115157188704612735"
-        },
-        {
-          "createdAt": "2026-10-27T16:00:41.000Z",
-          "id": "2115111451614744845",
-          "isQuote": false,
-          "likes": 41,
-          "quotedTweetId": null,
-          "replies": 4,
-          "retweets": 0,
-          "text": "Things I have a pretty decent idea about but I still have to go deep on since I’ll get 10 wildly different definitions…\n\n> long horizon\n> out of distribution (esp data)\n> intelligence per watt\n> rl environments\n> “forward deployed”\n> revenue\n> “frontier”\n> self improving\n\nSure, some of these are rightfully subjective, but you’d be surprised at the variance of the responses 😅",
-          "url": "https://x.com/nikunj/status/2115111451614744845"
         }
       ],
       "source": "x",
@@ -920,17 +777,6 @@
           "retweets": 0,
           "text": "If you’re going to make videos about some made-up ARR then just be a satirical media company. \n\nI’d respect that.",
           "url": "https://x.com/petergyang/status/2115309642209436057"
-        },
-        {
-          "createdAt": "2026-10-28T00:28:43.000Z",
-          "id": "2115239304092106772",
-          "isQuote": false,
-          "likes": 65,
-          "quotedTweetId": null,
-          "replies": 17,
-          "retweets": 1,
-          "text": "I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. \n\nIt's not quite launched to everyone but should be coming very soon.\n\nI'm going to make a video on just this feature. Subscribe here to get it soon: https://t.co/NSTj7ijxE0",
-          "url": "https://x.com/petergyang/status/2115239304092106772"
         }
       ],
       "source": "x",
@@ -1038,28 +884,6 @@
           "retweets": 12,
           "text": "Vercel CI solves the \"AI coding bottleneck\" via:\n① Fast and stable infrastructure (faster work)\n② Turborepo integration (less work)\n③ Agentic CI\n\n① is obvious. Your CI is slow, flaky, goes down. We solve that. We operate 20 worldwide clusters doing millions of microVMs per day.\n\n② is less obvious, but very powerful. Turborepo was designed to intelligently skip and cache prior work. The graph of dependencies is computed, not written. \n\nAsk your agent to migrate to @turborepo and start saving money and time. Even if you don't use us. But you should, it's really good.\n\n③ is a game-changer. 𝚟𝚎𝚛𝚌𝚎𝚕 𝚌𝚒 in the CLI is the first step, because now your agents can inspect, abort, trigger, replay CI. Vercel Agent can help optimize it. And this is just the start.\n\nYou can expect a lot of hooks and capabilities to make CI something far more intelligent, that can even capture the nuance and judgment an engineer would have (\"Are those tests even worth running?\")\n\nAgentic CI is the future of how we ship software. Excited to build it with you all!",
           "url": "https://x.com/rauchg/status/2115539426684408300"
-        },
-        {
-          "createdAt": "2026-10-27T23:06:44.000Z",
-          "id": "2115218670389756243",
-          "isQuote": true,
-          "likes": 196,
-          "quotedTweetId": "2115210098222236058",
-          "replies": 49,
-          "retweets": 4,
-          "text": "$ 𝚊𝚕𝚒𝚊𝚜 𝚗𝚘𝚠=𝚟𝚎𝚛𝚌𝚎𝚕\n$ 𝚌𝚊𝚝 >𝙳𝚘𝚌𝚔𝚎𝚛𝚏𝚒𝚕𝚎 <<'𝙴𝙾𝙵'\n𝙵𝚁𝙾𝙼 𝚘𝚟𝚎𝚗/𝚋𝚞𝚗:𝚊𝚕𝚙𝚒𝚗𝚎\n𝙲𝙼𝙳 [\"𝚋𝚞𝚗\",\"-𝚎\",\"𝙱𝚞𝚗.𝚜𝚎𝚛𝚟𝚎({𝚙𝚘𝚛𝚝:𝟾𝟶,𝚏𝚎𝚝𝚌𝚑:()=>𝚗𝚎𝚠 𝚁𝚎𝚜𝚙𝚘𝚗𝚜𝚎('𝚠𝚎 𝚊𝚛𝚎 𝚜𝚘 𝚋𝚊𝚌𝚔')})\"]\n𝙴𝙾𝙵\n$ 𝚗𝚘𝚠\n> Ready: https://t.co/tOqwRwGUa2",
-          "url": "https://x.com/rauchg/status/2115218670389756243"
-        },
-        {
-          "createdAt": "2026-10-27T19:18:00.000Z",
-          "id": "2115161107078021563",
-          "isQuote": false,
-          "likes": 454,
-          "quotedTweetId": null,
-          "replies": 41,
-          "retweets": 12,
-          "text": "https://t.co/04L6MqJwe8 https://t.co/l0HypHrirg",
-          "url": "https://x.com/rauchg/status/2115161107078021563"
         }
       ],
       "source": "x",
@@ -1304,39 +1128,6 @@
           "retweets": 7,
           "text": "hello from literally everybody who took psychology 101 in undergrad https://t.co/ySHn3soaQn https://t.co/ervWlYbDQ8",
           "url": "https://x.com/swyx/status/2115341903311024395"
-        },
-        {
-          "createdAt": "2026-10-27T18:58:15.000Z",
-          "id": "2115156135875629109",
-          "isQuote": true,
-          "likes": 22,
-          "quotedTweetId": "2115156080309489736",
-          "replies": 1,
-          "retweets": 0,
-          "text": "anyway here's my soundcloud https://t.co/12VJjC5aB8",
-          "url": "https://x.com/swyx/status/2115156135875629109"
-        },
-        {
-          "createdAt": "2026-10-27T17:36:02.000Z",
-          "id": "2115135448876269782",
-          "isQuote": false,
-          "likes": 53,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 1,
-          "text": "yeah you ignored a @mntruell email in 2024 but did you pitch something like  Claude Code in 2019 and then.... not do it  for 7 years https://t.co/dEix0oyszd",
-          "url": "https://x.com/swyx/status/2115135448876269782"
-        },
-        {
-          "createdAt": "2026-10-27T14:35:00.000Z",
-          "id": "2115089887959359988",
-          "isQuote": true,
-          "likes": 1437,
-          "quotedTweetId": "2114864999709753526",
-          "replies": 194,
-          "retweets": 7,
-          "text": "at spacex ipo everyone was posting their cursor bag fumble.\n\nkid stuff.\n\nmy turn.\n\ni estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc i've been a typescript cli maintainer). fml. https://t.co/O4SZbwKhoQ https://t.co/kEV0gzb1Q6",
-          "url": "https://x.com/swyx/status/2115089887959359988"
         }
       ],
       "source": "x",
@@ -1570,39 +1361,6 @@
           "retweets": 323,
           "text": "courage in shorter supply than genius",
           "url": "https://x.com/trq212/status/2115493334324310463"
-        },
-        {
-          "createdAt": "2026-10-27T21:08:48.000Z",
-          "id": "2115188992861970693",
-          "isQuote": true,
-          "likes": 2465,
-          "quotedTweetId": "2115135857669881939",
-          "replies": 219,
-          "retweets": 53,
-          "text": "feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in\n\ncoding agents can do this but they won’t do it automatically https://t.co/6iejoVGp1D",
-          "url": "https://x.com/trq212/status/2115188992861970693"
-        },
-        {
-          "createdAt": "2026-10-27T17:37:40.000Z",
-          "id": "2115135859075015137",
-          "isQuote": false,
-          "likes": 628,
-          "quotedTweetId": null,
-          "replies": 19,
-          "retweets": 2,
-          "text": "this is the kind of HCI work I've been wanting to do for a while, but messing with OS internals has always been very time consuming\n\nnot sharing yet, there are still many edge cases (would not recommend using), but fun to experiment with!",
-          "url": "https://x.com/trq212/status/2115135859075015137"
-        },
-        {
-          "createdAt": "2026-10-27T17:37:40.000Z",
-          "id": "2115135857669881939",
-          "isQuote": false,
-          "likes": 8262,
-          "quotedTweetId": null,
-          "replies": 432,
-          "retweets": 215,
-          "text": "experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused\n\nmy agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time &amp; act on them https://t.co/yplDQUwTv5",
-          "url": "https://x.com/trq212/status/2115135857669881939"
         }
       ],
       "source": "x",
@@ -1663,7 +1421,7 @@
   ],
   "stats": {
     "xBuilders": 21,
-    "xTweets": 135,
-    "windowSpanHours": 87.73
+    "xTweets": 113,
+    "windowSpanHours": 74.98
   }
 }
