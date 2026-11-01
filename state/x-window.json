@@ -394,6 +394,17 @@
           "retweets": 8,
           "text": "GBrain Cloud is the fastest way to get GBrain going across all your agents. Every harness has its strengths - Grok/Muse/Dots for personal, OpenClaw/Hermes for raw power, Claude Code/Codex/Capy for codegen\n\nGBrain lets you run your context on all of them\n\nhttps://t.co/liju9MjWoY",
           "url": "https://x.com/garrytan/status/2116303457774899251"
+        },
+        "id:2116640529232609515": {
+          "createdAt": "2026-10-31T21:16:42.000Z",
+          "id": "2116640529232609515",
+          "isQuote": true,
+          "likes": 119,
+          "quotedTweetId": "2116285524516229287",
+          "replies": 19,
+          "retweets": 10,
+          "text": "> Why does the worst rise to the top in a society rife with broken politics? \n\n“When the plan fails—and it always fails—coercion is needed. You need people willing to do what honest people refuse to do. The system doesn't promote the best; it selects those with no scruples. And to rally a majority around the plan, nothing works better than a common enemy: the rich, the foreigner, the dissenter.”",
+          "url": "https://x.com/garrytan/status/2116640529232609515"
         }
       }
     },
@@ -507,17 +518,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2115305369799110905": {
-          "createdAt": "2026-10-28T04:51:15.000Z",
-          "id": "2115305369799110905",
-          "isQuote": true,
-          "likes": 186,
-          "quotedTweetId": "2115193664981152000",
-          "replies": 54,
-          "retweets": 10,
-          "text": "This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now.\n\nAt best you have a few automated systems in a company that do a single pass of an LLM to make a decision or provide feedback, but very little real “automation”. Some of this is a statement about the adoption rates of technology in enterprises, but the vast majority of it is really just due to the capability of AI itself.\n\nThat’s all changing. Now with computer use, long running agents, harness improvements and surrounding infrastructure, we’re finally at a point where we can start to apply agents at more complex workflows. \n\nWe will see self-improving systems that can take any particular workflow goal and improve the execution rates over a volume of instances. And with the emerging form factor of agent swarms, you can just choose to deploy any amount of compute at a problem and agents will off and do the work.\n\nThis won’t be about and users prompting agents to complete a specific task for them, but instead the organization reengineering the underlying workflows to take advantage of agents in their processes. This will have a massive impact in finance, life sciences, healthcare, and other information-heavy domains. Lots of opportunity to build and deploy these systems right now.",
-          "url": "https://x.com/levie/status/2115305369799110905"
-        },
         "id:2115516370695987435": {
           "createdAt": "2026-10-28T18:49:41.000Z",
           "id": "2115516370695987435",
@@ -539,6 +539,17 @@
           "retweets": 127,
           "text": "It’s almost incomprehensible how wide the distance is between someone who’s working at the frontier with AI and basically everyone else right now. \n\nThe crazy thing is these lines are not converging, but only growing farther apart. If the curve of AI progress had leveled off, it would certainly have given most people and companies time to catch up or implement their workflows in a standardized way. The technology would have neutralized competitive advantage because everyone would be using it the same way.\n\nBut what’s happened is the opposite. The curve of AI progress is basically going vertical right now, which means if you had codified your processes 3-6 months ago you’re likely already behind again. Now imagine most companies that kicked into gear a year ago and thought that they were done. Even further behind now.\n\nI’ve never seen a technology in my life and career that improves at this rate, which consequently means you need to upgrade your expectations at a similar rate. Our brains weren’t wired for this, and our organizational change management processes certainly weren’t either.\n\nWith any form of recursive self improvement, things just get wilder. It’s a time when you will need to be constantly reevaluating the things that didn’t work just a couple months ago to see if they now can be solved. AI native companies certainly have a strong advantage due to this right now, so now it comes down to can the bigger companies keep up. Wild times.",
           "url": "https://x.com/levie/status/2116029912243184006"
+        },
+        "id:2116652002830963114": {
+          "createdAt": "2026-10-31T22:02:17.000Z",
+          "id": "2116652002830963114",
+          "isQuote": true,
+          "likes": 618,
+          "quotedTweetId": "2116567219199234317",
+          "replies": 107,
+          "retweets": 53,
+          "text": "This is one of the better litmus tests for whether you’re pushing your use of AI enough or not. \n\nUp until maybe six months ago probably the best you could do with AI was pull off something you already would produce, but just doing it a little faster. But now we’re entering a point where the output of working with AI can and should dramatically exceed what you would been able to do before, in a fraction of the time.\n\nThe product prototype should not only be fully functional and interactive, but it should probably have meaningfully better features than it would have had before. The engineering architecture should be able to deliver performance gains that you wouldn’t have been able to go after otherwise. \n\nThe research for a project should consume every single fact on the subject across every dimension of analysis possible. The business process you implement with AI should operate entirely differently and learn from all its past failures in a way no human could. \n\nWe’re unquestionably entering a period where AI will be smarter than us on most axes. Perhaps not on every dimension that matters (intelligence is still very jagged), but at least on enough dimensions that when we combine it with what we’re good at, you get qualitatively different outcomes.\n\nSo the simple test is: if you could have done what you’re doing before AI, you’re likely not pushing it enough.",
+          "url": "https://x.com/levie/status/2116652002830963114"
         }
       }
     },
@@ -548,17 +559,6 @@
       "name": "Matt Turck",
       "source": "x",
       "tweets": {
-        "id:2115417700059304019": {
-          "createdAt": "2026-10-28T12:17:36.000Z",
-          "id": "2115417700059304019",
-          "isQuote": false,
-          "likes": 20,
-          "quotedTweetId": null,
-          "replies": 9,
-          "retweets": 0,
-          "text": "Woah they actually made a movie about the GPU shortage https://t.co/co03Lq1aXy",
-          "url": "https://x.com/mattturck/status/2115417700059304019"
-        },
         "id:2115539958123376855": {
           "createdAt": "2026-10-28T20:23:25.000Z",
           "id": "2115539958123376855",
@@ -613,6 +613,17 @@
           "retweets": 11,
           "text": "Not to spoil the French jokes, but: \n\n* This is NOT law\n\n* This has zero chance of becoming law - will never survive the legistlative process\n\n* This is a vote by 11 populist morons in the lower chamber which was nearly empty (35 out of 577 MPs present) \n\nYes still embarrassing https://t.co/C9sKmsBTRC",
           "url": "https://x.com/mattturck/status/2116335155535052951"
+        },
+        "id:2116653171741470990": {
+          "createdAt": "2026-10-31T22:06:56.000Z",
+          "id": "2116653171741470990",
+          "isQuote": false,
+          "likes": 17,
+          "quotedTweetId": null,
+          "replies": 5,
+          "retweets": 1,
+          "text": "A classic that never goes out of style 🎃👻 https://t.co/4AiSR3Qg4L",
+          "url": "https://x.com/mattturck/status/2116653171741470990"
         }
       }
     },
@@ -643,6 +654,28 @@
           "retweets": 1,
           "text": "Been sharing this feedback to a lot of seed founders on how to bridge the gap between their dream to what is often required at the A from someone who sits on the other side of the table.. \n\nThanks @dflieb, @adityaag &amp; a few seed founders for reviewing drafts of this! https://t.co/e6k8pyXGc5",
           "url": "https://x.com/nikunj/status/2115613336200998979"
+        },
+        "id:2116554844207198501": {
+          "createdAt": "2026-10-31T15:36:13.000Z",
+          "id": "2116554844207198501",
+          "isQuote": false,
+          "likes": 6,
+          "quotedTweetId": null,
+          "replies": 4,
+          "retweets": 0,
+          "text": "what do you mean you dressed up as cybersecurity awareness month for halloween\n\ni hate sf https://t.co/TLitKBVgUu",
+          "url": "https://x.com/nikunj/status/2116554844207198501"
+        },
+        "id:2116624458198982668": {
+          "createdAt": "2026-10-31T20:12:50.000Z",
+          "id": "2116624458198982668",
+          "isQuote": false,
+          "likes": 74,
+          "quotedTweetId": null,
+          "replies": 8,
+          "retweets": 0,
+          "text": "First snow is always special ❄️ https://t.co/FzWYVB4HUl",
+          "url": "https://x.com/nikunj/status/2116624458198982668"
         }
       }
     },
@@ -652,28 +685,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2115309642209436057": {
-          "createdAt": "2026-10-28T05:08:13.000Z",
-          "id": "2115309642209436057",
-          "isQuote": false,
-          "likes": 12,
-          "quotedTweetId": null,
-          "replies": 9,
-          "retweets": 0,
-          "text": "If you’re going to make videos about some made-up ARR then just be a satirical media company. \n\nI’d respect that.",
-          "url": "https://x.com/petergyang/status/2115309642209436057"
-        },
-        "id:2115319325137731757": {
-          "createdAt": "2026-10-28T05:46:42.000Z",
-          "id": "2115319325137731757",
-          "isQuote": true,
-          "likes": 16,
-          "quotedTweetId": "2115200995546566910",
-          "replies": 4,
-          "retweets": 0,
-          "text": "Other hiring practices that need to change: \n\n1. Filtering candidates based on years of experience or some company name \n\n2. Prioritizing resumes and cover letters over proof of work and real projects \n\n3. Listing number of people managed as an accomplishment by itself \n\n4. Endless rounds of interviews over short work trials\n\nI could go on.",
-          "url": "https://x.com/petergyang/status/2115319325137731757"
-        },
         "id:2115556794076741647": {
           "createdAt": "2026-10-28T21:30:19.000Z",
           "id": "2115556794076741647",
@@ -772,6 +783,39 @@
           "retweets": 6,
           "text": "If you a millenial who loved The Next Generation and miss Patrick Stewart, I highly recommend watching Picard season 3. \n\nI saw it years ago and it's the proper ending this crew deserves. Very grateful to @TerryMatalas and folks for making it.\n\nYou don't need to watch season 1 and 2, just go straight to season 3.",
           "url": "https://x.com/petergyang/status/2116353054614442364"
+        },
+        "id:2116732887265656978": {
+          "createdAt": "2026-11-01T03:23:41.000Z",
+          "id": "2116732887265656978",
+          "isQuote": false,
+          "likes": 25,
+          "quotedTweetId": null,
+          "replies": 7,
+          "retweets": 0,
+          "text": "Halloween is honestly the best holiday and should be held every quarter",
+          "url": "https://x.com/petergyang/status/2116732887265656978"
+        },
+        "id:2116733034926100841": {
+          "createdAt": "2026-11-01T03:24:17.000Z",
+          "id": "2116733034926100841",
+          "isQuote": false,
+          "likes": 3,
+          "quotedTweetId": null,
+          "replies": 3,
+          "retweets": 0,
+          "text": "Don't particularly care about the trick or treat part, just being able to dress up as whatever you want is the best",
+          "url": "https://x.com/petergyang/status/2116733034926100841"
+        },
+        "id:2116754343315841471": {
+          "createdAt": "2026-11-01T04:48:57.000Z",
+          "id": "2116754343315841471",
+          "isQuote": false,
+          "likes": 13,
+          "quotedTweetId": null,
+          "replies": 7,
+          "retweets": 0,
+          "text": "Is it weird if I prefer listening to this over Spotify https://t.co/lH3wixKArx",
+          "url": "https://x.com/petergyang/status/2116754343315841471"
         }
       }
     },
@@ -879,6 +923,17 @@
           "retweets": 25,
           "text": "We're in humanity's golden age",
           "url": "https://x.com/rauchg/status/2116369601508593911"
+        },
+        "id:2116710688550994042": {
+          "createdAt": "2026-11-01T01:55:29.000Z",
+          "id": "2116710688550994042",
+          "isQuote": false,
+          "likes": 673,
+          "quotedTweetId": null,
+          "replies": 48,
+          "retweets": 18,
+          "text": "This would go so hard in SF https://t.co/RgE7UIADws",
+          "url": "https://x.com/rauchg/status/2116710688550994042"
         }
       }
     },
@@ -962,39 +1017,6 @@
       "name": "Peter Steinberger",
       "source": "x",
       "tweets": {
-        "id:2115380217938158049": {
-          "createdAt": "2026-10-28T09:48:40.000Z",
-          "id": "2115380217938158049",
-          "isQuote": false,
-          "likes": 707,
-          "quotedTweetId": null,
-          "replies": 116,
-          "retweets": 12,
-          "text": "Kinda funny how easy it is to spot bugs by agents vs humans. Someone at Disney still writes code by HAND? https://t.co/kiz2czVU7m",
-          "url": "https://x.com/steipete/status/2115380217938158049"
-        },
-        "id:2115397368229060636": {
-          "createdAt": "2026-10-28T10:56:49.000Z",
-          "id": "2115397368229060636",
-          "isQuote": false,
-          "likes": 704,
-          "quotedTweetId": null,
-          "replies": 113,
-          "retweets": 28,
-          "text": "OpenClaw’s web UI now works offline and uses a smart websocket compression/reconnect logic.\n\nBeen flying to Vienna today and got plenty work done, despite spotty airplane wifi. https://t.co/7wGhL1zi7Z",
-          "url": "https://x.com/steipete/status/2115397368229060636"
-        },
-        "id:2115398725212238088": {
-          "createdAt": "2026-10-28T11:02:12.000Z",
-          "id": "2115398725212238088",
-          "isQuote": false,
-          "likes": 59,
-          "quotedTweetId": null,
-          "replies": 13,
-          "retweets": 5,
-          "text": "Meanwhile people still work local and in the cli? 👴",
-          "url": "https://x.com/steipete/status/2115398725212238088"
-        },
         "id:2116121832919122164": {
           "createdAt": "2026-10-30T10:55:35.000Z",
           "id": "2116121832919122164",
@@ -1036,17 +1058,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2115341903311024395": {
-          "createdAt": "2026-10-28T07:16:25.000Z",
-          "id": "2115341903311024395",
-          "isQuote": true,
-          "likes": 126,
-          "quotedTweetId": "2115104790262796305",
-          "replies": 38,
-          "retweets": 7,
-          "text": "hello from literally everybody who took psychology 101 in undergrad https://t.co/ySHn3soaQn https://t.co/ervWlYbDQ8",
-          "url": "https://x.com/swyx/status/2115341903311024395"
-        },
         "id:2115624308567658713": {
           "createdAt": "2026-10-29T01:58:36.000Z",
           "id": "2115624308567658713",
@@ -1123,6 +1134,39 @@
           "retweets": 3,
           "text": "everything is fine why are you asking https://t.co/nzsIgjogJn",
           "url": "https://x.com/swyx/status/2116379186831257954"
+        },
+        "id:2116544052267205093": {
+          "createdAt": "2026-10-31T14:53:20.000Z",
+          "id": "2116544052267205093",
+          "isQuote": false,
+          "likes": 14,
+          "quotedTweetId": null,
+          "replies": 6,
+          "retweets": 0,
+          "text": "direct clip: https://t.co/fcuFuFRIpO",
+          "url": "https://x.com/swyx/status/2116544052267205093"
+        },
+        "id:2116642586387730593": {
+          "createdAt": "2026-10-31T21:24:52.000Z",
+          "id": "2116642586387730593",
+          "isQuote": true,
+          "likes": 135,
+          "quotedTweetId": "2116420089411145913",
+          "replies": 156,
+          "retweets": 0,
+          "text": "join me all the way on the light side guys\n\nlow effort + critique loop &gt; superultramaxhighwhatever\n\n(for the throughput-constrained; see swyxio/skills/babysit-runs) https://t.co/TuAWCwUPR1",
+          "url": "https://x.com/swyx/status/2116642586387730593"
+        },
+        "id:2116773135668404286": {
+          "createdAt": "2026-11-01T06:03:37.000Z",
+          "id": "2116773135668404286",
+          "isQuote": true,
+          "likes": 35,
+          "quotedTweetId": "2116642586387730593",
+          "replies": 29,
+          "retweets": 0,
+          "text": "btw @karpathy uses medium on opus 5.5 on his latest project (Hackertube launched today).\n\noverall i think having strong opinions on effort levels is like the tabs vs spaces of our time. just tweak to taste. altho mine is definitely superior to yours. https://t.co/oSCPvlogKc https://t.co/3OIWb03BtY",
+          "url": "https://x.com/swyx/status/2116773135668404286"
         }
       }
     },
@@ -1151,39 +1195,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2115273253711409208": {
-          "createdAt": "2026-10-28T02:43:38.000Z",
-          "id": "2115273253711409208",
-          "isQuote": false,
-          "likes": 1622,
-          "quotedTweetId": null,
-          "replies": 398,
-          "retweets": 50,
-          "text": "Lands by midnight PST.",
-          "url": "https://x.com/thsottiaux/status/2115273253711409208"
-        },
-        "id:2115297093879472332": {
-          "createdAt": "2026-10-28T04:18:22.000Z",
-          "id": "2115297093879472332",
-          "isQuote": false,
-          "likes": 5209,
-          "quotedTweetId": null,
-          "replies": 1127,
-          "retweets": 176,
-          "text": "https://t.co/Fgy0dBAHsJ has landed",
-          "url": "https://x.com/thsottiaux/status/2115297093879472332"
-        },
-        "id:2115330127886463244": {
-          "createdAt": "2026-10-28T06:29:38.000Z",
-          "id": "2115330127886463244",
-          "isQuote": true,
-          "likes": 305,
-          "quotedTweetId": "2115273253711409208",
-          "replies": 102,
-          "retweets": 15,
-          "text": "And it's done. See you tomorrow for some good news. https://t.co/WhJle2cWRG",
-          "url": "https://x.com/thsottiaux/status/2115330127886463244"
-        },
         "id:2115473170279080149": {
           "createdAt": "2026-10-28T15:58:02.000Z",
           "id": "2115473170279080149",
@@ -1260,6 +1271,17 @@
           "retweets": 218,
           "text": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.\n\nhttps://t.co/iQxsqbuk0f",
           "url": "https://x.com/thsottiaux/status/2116405414921384099"
+        },
+        "id:2116692529970311254": {
+          "createdAt": "2026-11-01T00:43:20.000Z",
+          "id": "2116692529970311254",
+          "isQuote": false,
+          "likes": 6582,
+          "quotedTweetId": null,
+          "replies": 1024,
+          "retweets": 181,
+          "text": "Banked 1/2",
+          "url": "https://x.com/thsottiaux/status/2116692529970311254"
         }
       }
     },
@@ -1365,28 +1387,6 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2115288579173921266": {
-          "createdAt": "2026-10-28T03:44:32.000Z",
-          "id": "2115288579173921266",
-          "isQuote": true,
-          "likes": 75,
-          "quotedTweetId": "2113148949842534482",
-          "replies": 18,
-          "retweets": 0,
-          "text": "Had no idea this would become my most viewed tweet of all time 😂 https://t.co/mEG5Z28kyU",
-          "url": "https://x.com/zarazhangrui/status/2115288579173921266"
-        },
-        "id:2115336629770707254": {
-          "createdAt": "2026-10-28T06:55:28.000Z",
-          "id": "2115336629770707254",
-          "isQuote": false,
-          "likes": 2134,
-          "quotedTweetId": null,
-          "replies": 56,
-          "retweets": 97,
-          "text": "this is too cute https://t.co/dtttFifGe7",
-          "url": "https://x.com/zarazhangrui/status/2115336629770707254"
-        },
         "id:2116281211962454056": {
           "createdAt": "2026-10-30T21:28:54.000Z",
           "id": "2116281211962454056",

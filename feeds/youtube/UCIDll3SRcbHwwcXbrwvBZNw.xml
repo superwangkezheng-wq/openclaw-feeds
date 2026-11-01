@@ -11,6 +11,83 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:Gx-P6B1JhdE</id>
+  <yt:videoId>Gx-P6B1JhdE</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>OpenAI：12 月起 ChatGPT 与 Codex 共享额度【AI 早报 2026-11-01】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Gx-P6B1JhdE"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-11-01T01:01:54+00:00</published>
+  <updated>2026-11-01T06:47:48+00:00</updated>
+  <media:group>
+   <media:title>OpenAI：12 月起 ChatGPT 与 Codex 共享额度【AI 早报 2026-11-01】</media:title>
+   <media:content url="https://www.youtube.com/v/Gx-P6B1JhdE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Gx-P6B1JhdE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+OpenAI：12 月起 ChatGPT 与 Codex 共享额度 00:08
+https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits
+
+DeepSeek 发文探讨 Super-agent 架构，并开源研究原型 00:27
+https://mp.weixin.qq.com/s/zoS7GlReWPhfCjENGxXCdg
+https://github.com/deepseek-ai/dsh-superagent-prototype
+
+OpenAI 说明 ChatGPT 支付卡和设备限制 00:42
+https://help.openai.com/en/articles/20001559-understanding-card-and-device-limits-in-chatgpt
+https://help.openai.com/articles/12642688
+https://help.openai.com/articles/20001507
+https://help.openai.com/articles/20001068
+https://help.openai.com/articles/6614161
+
+ChatGPT 推出多账号切换，Codex 将提供可留存额度重置 00:54
+https://x.com/thsottiaux/status/2116405414921384099
+https://x.com/thsottiaux/status/2106845241357824205
+
+OpenAI 团队成员：Prism 正逐步停止服务 01:05
+https://x.com/feitong_yang/status/2116245744327995489
+
+OpenAI 推出生命科学模型，仅向获批机构开放 01:19
+https://developers.openai.com/api/docs/pricing?life-sciences-context-length=short
+https://help.openai.com/en/articles/20001193-gpt-rosalind-for-life-sciences-research
+https://deploymentsafety.openai.com/gpt-rosalind-6
+
+OpenAI 法律模型现身 API 定价页 01:32
+https://developers.openai.com/api/docs/pricing
+https://openai.com/index/astra-for-law
+
+Command Code 永久额度更新 01:43
+https://x.com/CommandCodeAI/status/2116329543921475861
+
+OpenCode 优化 DeepSeek 模型服务 01:54
+https://x.com/thdxr/status/2116581467715195278
+
+Anthropic 自动化红队实验发现训练数据监控漏洞 02:04
+https://alignment.anthropic.com/2026/automated-em-search
+https://www.anthropic.com/research/agentic-misalignment
+
+SpaceXSI 将为 Grok API 文本默认加入不可见水印 02:21
+https://docs.x.ai/developers/advanced-api-usage/watermarking?lid=860k1ub3kf6m
+
+报道称 Blackstone 下调对 Anthropic 信用评级预期 02:35
+https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/
+https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f?syn-25a6b1a6=1
+
+报道称 OpenAI 新一轮融资获约 110 亿美元承诺 02:46
+https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5
+
+OpenAI 计划使用 Daybreak Blue 数据训练模型 02:59
+https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt
+https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/</media:description>
+   <media:community>
+    <media:starRating count="19" average="5.00" min="1" max="5"/>
+    <media:statistics views="1404"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:cwJTwCj6IJc</id>
   <yt:videoId>cwJTwCj6IJc</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -21,7 +98,7 @@
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-31T01:18:27+00:00</published>
-  <updated>2026-10-31T09:43:30+00:00</updated>
+  <updated>2026-10-31T14:40:15+00:00</updated>
   <media:group>
    <media:title>Anthropic 更名 Claude 订阅方案，逐步取消已验证 Ultra 账户五小时限制【AI 早报 2026-10-31】</media:title>
    <media:content url="https://www.youtube.com/v/cwJTwCj6IJc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -80,8 +157,8 @@ https://x.com/elonmusk/status/2116036703538606301
 
 据报道 Anthropic 是 SpaceX 最大单一客户 03:06</media:description>
    <media:community>
-    <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1447"/>
+    <media:starRating count="22" average="5.00" min="1" max="5"/>
+    <media:statistics views="2122"/>
    </media:community>
   </media:group>
  </entry>
@@ -96,7 +173,7 @@ https://x.com/elonmusk/status/2116036703538606301
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-30T01:30:15+00:00</published>
-  <updated>2026-10-30T06:33:00+00:00</updated>
+  <updated>2026-10-31T14:40:26+00:00</updated>
   <media:group>
    <media:title>OpenAI 将 Pro 各档与 Business Premium 用量翻倍，dots 继续提供单独用量【AI 早报 2026-10-30】</media:title>
    <media:content url="https://www.youtube.com/v/YgMeqrQgtA0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -214,8 +291,8 @@ https://www.idc.com/resource-center/blog/%E4%B8%AD%E5%9B%BDmaas%E5%B8%82%E5%9C%B
 IDC：阿里云位居中国大语言模型 MaaS 市场第一 06:15
 https:/</media:description>
    <media:community>
-    <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="2525"/>
+    <media:starRating count="21" average="5.00" min="1" max="5"/>
+    <media:statistics views="2676"/>
    </media:community>
   </media:group>
  </entry>
@@ -342,7 +419,7 @@ https://x.com/ElevenLabs/status/2115527286065914248
 Anthropic 内部研究模型发现多个系统漏洞</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="3246"/>
+    <media:statistics views="3279"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +434,7 @@ Anthropic 内部研究模型发现多个系统漏洞</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-28T01:28:56+00:00</published>
-  <updated>2026-10-28T10:16:33+00:00</updated>
+  <updated>2026-10-31T04:32:59+00:00</updated>
   <media:group>
    <media:title>Google DeepMind 发布世界模型 Genie 4 研究预览，可实时改场景【AI 早报 2026-10-28】</media:title>
    <media:content url="https://www.youtube.com/v/ib0XULK0p90?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -477,7 +554,7 @@ https://reuters.com/legal/transactional/wall-street-banks-blackstone-line-up-63-
 Oracle 云将提供 Google TPU，计划 2027 年起</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2204"/>
+    <media:statistics views="2202"/>
    </media:community>
   </media:group>
  </entry>
@@ -492,7 +569,7 @@ Oracle 云将提供 Google TPU，计划 2027 年起</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-27T01:11:10+00:00</published>
-  <updated>2026-10-28T01:25:24+00:00</updated>
+  <updated>2026-10-30T10:09:04+00:00</updated>
   <media:group>
    <media:title>OpenAI 发布 GPT-6.1 Terra，主打电脑操作【AI 早报 2026-10-27】</media:title>
    <media:content url="https://www.youtube.com/v/S4vWj1RLHpc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -577,7 +654,7 @@ https://kotaku.com/claudes-reverse-engineering-capabilities-used-to-recompile-ga
 https://x.com/0x0SojalSec/status/2113751276320399694?s=20</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2509"/>
+    <media:statistics views="2513"/>
    </media:community>
   </media:group>
  </entry>
@@ -626,7 +703,7 @@ Elvis Presley 歌曲权利方起诉 Anthropic，索赔约 4100 万美元 01:40
 https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1118"/>
+    <media:statistics views="1130"/>
    </media:community>
   </media:group>
  </entry>
@@ -664,7 +741,7 @@ https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-fo
 https://gov.uk/government/news/introducing-the-ai-biosecurity-lab</media:description>
    <media:community>
     <media:starRating count="8" average="5.00" min="1" max="5"/>
-    <media:statistics views="878"/>
+    <media:statistics views="884"/>
    </media:community>
   </media:group>
  </entry>
@@ -781,7 +858,7 @@ https://ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc
 https://cnbc.com/2026/10/22/openai-funding-round-uae-investors.html</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="2181"/>
+    <media:statistics views="2186"/>
    </media:community>
   </media:group>
  </entry>
@@ -1052,7 +1129,7 @@ https://www.anthropic.com/public-benefit-report
 https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2090"/>
+    <media:statistics views="2093"/>
    </media:community>
   </media:group>
  </entry>
@@ -1152,7 +1229,7 @@ https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative
 https://x.com/NewsFromGoogle/status/2112669319108927590</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="2277"/>
+    <media:statistics views="2279"/>
    </media:community>
   </media:group>
  </entry>
@@ -1264,7 +1341,7 @@ HUMXN 推免费上门服务，录制作业训练机器人 05:14
 https://humxn.io/humxn-launches-free-home-service-program</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="3204"/>
+    <media:statistics views="3206"/>
    </media:community>
   </media:group>
  </entry>
@@ -1347,145 +1424,6 @@ https://x.com/WorkBuddy_AI/status/2111404103402430558</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
     <media:statistics views="1449"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:6VXBmYc0Dc8</id>
-  <yt:videoId>6VXBmYc0Dc8</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>有关部门拟增列AI技术进入出口管制目录【AI 早报 2026-10-17】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=6VXBmYc0Dc8"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-10-17T01:50:22+00:00</published>
-  <updated>2026-10-20T02:36:02+00:00</updated>
-  <media:group>
-   <media:title>有关部门拟增列AI技术进入出口管制目录【AI 早报 2026-10-17】</media:title>
-   <media:content url="https://www.youtube.com/v/6VXBmYc0Dc8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/6VXBmYc0Dc8/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-有关部门拟增列AI技术进入出口管制目录 00:08
-https://aqygzj.mofcom.gov.cn/flzc/gzjgfxwj/art/2026/art_c99f95ca0cd043829ac9991495fc283c.html
-https://www.mofcom.gov.cn/syxwfb/art/2026/art_a4acff07e134447fbe7bbeb486df3ea6.html
-
-OpenAI 宣布优化 Codex 提升用户有效使用量 00:53
-https://x.com/thsottiaux/status/2111244596131111253
-
-DeepSeek 整合多支团队成立产品部 01:02
-https://mp.weixin.qq.com/s/oHvOQB8QfOS_FKieyPgQAg
-https://talent.deepseek.com/
-
-DeepSeek 新增搜索与抓取 API 并按次收费 01:18
-https://api-docs.deepseek.com/zh-cn/guides/search/
-
-Google AI Studio 向 Pro 订阅用户开放 Gemini 4 Argon 01:32
-https://x.com/GoogleAIStudio/status/2111240722426802258
-https://ai.google.dev/gemini-api/docs/google-ai-plans
-
-WorkBuddy 公布 DeepSeek 故障补偿 01:40
-https://mp.weixin.qq.com/s/dGd6Nz03MF4-1ua1CMmZxA
-
-Antigravity 为全体用户重置模型用量限额 01:52
-https://x.com/_mohansolo/status/2111220356178751860
-
-ChatGPT 为 dot 推出 iOS 小组件与快捷指令支持 02:00
-https://x.com/ChatGPT/status/2111210005617889406
-
-OpenAI 上线 ChatGPT Slides 02:14
-https://help.openai.com/en/articles/6825453-chatgpt-release-notes
-
-OpenCode 免费提供 GLM 5.3 Flash 02:25
-https://x.com/opencode/status/2110986357539754114
-
-Claude Code 压缩对话，缩短响应等待 02:33
-https://x.com/ClaudeDevs/status/2111209208012210409
-
-Qoder CN 大使计划开放申请 02:46
-https://mp.weixin.qq.com/s/_vVPGBW-6AJmT0D2JcAilA
-
-Kimi 新增 Ultra 会员，月费 1399 元 02:57
-https://www.kimi.com/membership/pricing
-
-TRAE 新增侧边对话，主任务无需暂停 03:07
-https://mp.weixin.qq.com/s/rATEQPWt8SU_g5Q4S8EkYg
-
-Perplexity 开源沙箱平台 SPACE 03:14
-https://perplexity.ai/hub/blog/open-sourcing-space
-https://github.com/perplexityai/SPACE
-https://x.com/denisyarats/status/2110791712813592860
-
-腾讯混元开源 Hy Memory 2.0：AI 记忆模型、框架与应用 03:25
-https://memory.hunyuan.tencent.com/
-https://github.com/Tencent-Hunyuan/Hy-Memory
-https://huggingface.co/tencent/Hy-Memory-30B-A3B
-https://arxiv.org/abs/2610.22196
-
-Beam 开放权重发布，支持跨平台部署 03:35
-https://reflection.ai/blog/beam-is-available
-http://reflection.ai/beam-model-card
-https://huggingface.co/reflection/Beam-1.0-501B-A23B
-
-OpenMOSS 发布文生图模型 MOSS-Image 03:48
-https://openmoss.ai/MOSS-Image/
-https://github.com/OpenMOSS/MOSS-Image
-https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT
-https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base
-
-Perplexity 发布并开源两款决策模型 04:04
-https://x.com/perplexitydevs/status/2111166029539758120
-https://huggingface.co/perplexity-ai/pplx-decider-flash-v1.2
-https://huggingface.co/perplexity-ai/pplx-decider-v1.2
-
-JetBrains 开源12B编程模型 Mellum2.1 04:13
-https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/
-https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF
-
-Glimpse 发布，支持边推理边回看画面 04:24
-https://elorian.ai/blog/introducing-glimpse
-
-d1-ultra 发布，登顶决策模型榜 04:38
-https://www.liquid.ai/blog/d1-ultra
-https://x.com/ArtificialAnlys/status/2111052531166249039
-
-OpenAI 升级 GPT-6 Astra Pro，支持多 Agent 并行 04:46
-https://help.openai.com/en/articles/6825453-chatgpt-release-notes
-https://x.com/OpenAI/status/2111192259073094035
-
-Claude Code 团队发文披露内部代码审查流程 05:00
-https://claude.dev/blog/solving-code-review-at-anthropic/
-https://x.com/ClaudeDevs/status/2111168901723906176
-
-Claude 追溯出 NIST 的 5 条标准曲线种子来源 05:14
-https://www.anthropic.com/research/ecdsa-curve-origins
-
-Anthropic 公布研究：Claude 优化 8 项量子电路任务 05:25
-https://www.anthropic.com/research/designing-efficient-quantum-circuits
-https://x.com/AnthropicAI/status/2111152183240511640
-https://arxiv.org/abs/2610.22367
-
-Anthropic 调查揭示员工与公众的 AI 预期差距 05:40
-https://www.anthropic.com/research/expectations-for-the-future
-
-腾讯混元回应 Agent 异常网页浏览事件 05:55
-https://x.com/TencentHunyuan/status/2110885021280268664
-https://swarmcha.se/posts/chinese-agent-fleet-full-report
-
-印度 CERT-In：测试中 AI 越权读取真实数据 06:09
-https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&amp;pageid=PUBVLNOTES02
-
-Mistral CEO呼吁欧洲自主研发前沿 AI 06:24
-https://x.com/arthurmensch/status/2110990492930314712
-
-据报道 Anthropic 向美国国会推介 AI 安全草案 06:39
-https://politico.com/news/2026/10/16/anthropic-ai-safety-01124654
-https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/</media:description>
-   <media:community>
-    <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1478"/>
    </media:community>
   </media:group>
  </entry>
