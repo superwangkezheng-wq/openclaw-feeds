@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-02T17:14:36.000Z",
+  "generatedAt": "2026-11-03T03:57:02.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-11-02T06:35:38.590Z",
-    "ageHours": 10.65
+    "ageHours": 21.36
   },
   "x": [
     {
@@ -114,28 +114,6 @@
           "retweets": 1,
           "text": "We wrote a whitepaper on how to properly sandbox agents to maximize productivity and reduce risk.\n\nhttps://t.co/5ihrJ6zkGj",
           "url": "https://x.com/amasad/status/2116183233784394039"
-        },
-        {
-          "createdAt": "2026-10-29T23:11:57.000Z",
-          "id": "2115944760829698343",
-          "isQuote": true,
-          "likes": 499,
-          "quotedTweetId": "2115876931749200320",
-          "replies": 20,
-          "retweets": 22,
-          "text": "This is so cool! https://t.co/sdHpVlX6QT",
-          "url": "https://x.com/amasad/status/2115944760829698343"
-        },
-        {
-          "createdAt": "2026-10-29T19:36:39.000Z",
-          "id": "2115890577430438063",
-          "isQuote": true,
-          "likes": 123,
-          "quotedTweetId": "2115885650021097877",
-          "replies": 61,
-          "retweets": 12,
-          "text": "Run any GitHub repo. Just paste a link into Replit and it will set it up for you! https://t.co/Bih1SiWZJa",
-          "url": "https://x.com/amasad/status/2115890577430438063"
         }
       ],
       "source": "x",
@@ -174,39 +152,6 @@
           "retweets": 1630,
           "text": "We’re renaming our Max plans: \n\nMax 5x → Max\nMax 20x → Ultra\n\nMax is still $100/month, and Ultra is still $200. If you’re a subscriber, there’s nothing you need to do.\n\nWe’re also removing the 5-hour limit for verified Ultra accounts, starting today with most existing subscribers. Newer accounts keep a temporary limit until they’re verified, which helps us prevent fraud and abuse. You'll get an email when it's removed.\n\nWeekly limits remain unchanged. View our plans here:  https://t.co/niRpyGF5Me",
           "url": "https://x.com/claudeai/status/2116220869479428500"
-        },
-        {
-          "createdAt": "2026-10-29T17:32:44.000Z",
-          "id": "2115859391627039210",
-          "isQuote": false,
-          "likes": 1255,
-          "quotedTweetId": null,
-          "replies": 1064,
-          "retweets": 25,
-          "text": "What would you like to see next?",
-          "url": "https://x.com/claudeai/status/2115859391627039210"
-        },
-        {
-          "createdAt": "2026-10-29T17:32:44.000Z",
-          "id": "2115859390075113836",
-          "isQuote": false,
-          "likes": 578,
-          "quotedTweetId": null,
-          "replies": 6,
-          "retweets": 7,
-          "text": "Coming soon on iPhone and iPad: pull down to search. Find a past chat or project, jump to any setting, or act on a chat from the results. https://t.co/LNJLAhTbcB",
-          "url": "https://x.com/claudeai/status/2115859390075113836"
-        },
-        {
-          "createdAt": "2026-10-29T17:32:43.000Z",
-          "id": "2115859388191912193",
-          "isQuote": false,
-          "likes": 2057,
-          "quotedTweetId": null,
-          "replies": 52,
-          "retweets": 89,
-          "text": "On iPhone, voice mode now works with Apple CarPlay. Ask Claude something on the drive and keep your hands on the wheel. https://t.co/bOvMjHxWMU",
-          "url": "https://x.com/claudeai/status/2115859388191912193"
         }
       ],
       "source": "x",
@@ -237,39 +182,6 @@
           "replies": 21,
           "isQuote": true,
           "quotedTweetId": "2116958944723665173"
-        },
-        {
-          "createdAt": "2026-10-29T23:53:18.000Z",
-          "id": "2115955165450609140",
-          "isQuote": false,
-          "likes": 23,
-          "quotedTweetId": null,
-          "replies": 5,
-          "retweets": 1,
-          "text": "great day to buy stocks!",
-          "url": "https://x.com/danshipper/status/2115955165450609140"
-        },
-        {
-          "createdAt": "2026-10-29T22:20:45.000Z",
-          "id": "2115931875361329367",
-          "isQuote": true,
-          "likes": 12,
-          "quotedTweetId": "2115931210224648402",
-          "replies": 0,
-          "retweets": 0,
-          "text": "we're giving away a total of $20,000 in partner credits and benefits from Notion, Anthropic, and OpenAI to livestream viewers! \n\nregister at https://t.co/cUTjlHZ7MQ to enter the draw https://t.co/PJb29EkZqM",
-          "url": "https://x.com/danshipper/status/2115931875361329367"
-        },
-        {
-          "createdAt": "2026-10-29T22:06:24.000Z",
-          "id": "2115928263331594365",
-          "isQuote": false,
-          "likes": 13,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 2,
-          "text": "if you're not livestreaming thesis on november 5th from @every FOR FREE\n\nwhat are you doing?\n\nhttps://t.co/cUTjlHZ7MQ https://t.co/FGxabh1Sdo",
-          "url": "https://x.com/danshipper/status/2115928263331594365"
         }
       ],
       "source": "x",
@@ -344,62 +256,10 @@
           "retweets": 55,
           "text": "Creators of PStack and GStack \n\nCan’t wait to share our lightcone ep with @poteto and @romanugarte_ https://t.co/2RMakgoh9L",
           "url": "https://x.com/garrytan/status/2116262167892852812"
-        },
-        {
-          "createdAt": "2026-10-30T02:04:17.000Z",
-          "id": "2115988128452555092",
-          "isQuote": false,
-          "likes": 72,
-          "quotedTweetId": null,
-          "replies": 23,
-          "retweets": 5,
-          "text": "I've been using particle-1 and very impressed https://t.co/XQinrSqei9",
-          "url": "https://x.com/garrytan/status/2115988128452555092"
-        },
-        {
-          "createdAt": "2026-10-30T01:04:42.000Z",
-          "id": "2115973131206799619",
-          "isQuote": true,
-          "likes": 61,
-          "quotedTweetId": "2115907468119453716",
-          "replies": 26,
-          "retweets": 6,
-          "text": "Now you can use the smartest-for-the-money codegen model Particle-1 with the easiest setup codegen agent swarm harness Capy\n\n🫡  killer mashup https://t.co/VsAzW7IVV9",
-          "url": "https://x.com/garrytan/status/2115973131206799619"
-        },
-        {
-          "createdAt": "2026-10-29T21:42:26.000Z",
-          "id": "2115922231910084638",
-          "isQuote": false,
-          "likes": 183,
-          "quotedTweetId": null,
-          "replies": 42,
-          "retweets": 13,
-          "text": "What's the fastest way to get GBrain working with your agent?\n\nNow just point your agent (any kind, Claude Code, Codex, Muse, Grok Bot, OpenClaw, Hermes) at this and get it going super fast. GBrain hosted = postgres with pgvector autoscaling for you. \n\nhttps://t.co/e1WU7slHg3",
-          "url": "https://x.com/garrytan/status/2115922231910084638"
         }
       ],
       "source": "x",
       "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop"
-    },
-    {
-      "handle": "GoogleLabs",
-      "name": "Google Labs",
-      "tweets": [
-        {
-          "createdAt": "2026-10-29T19:11:30.000Z",
-          "id": "2115884247504625669",
-          "isQuote": true,
-          "likes": 240,
-          "quotedTweetId": "2115883717705261283",
-          "replies": 16,
-          "retweets": 9,
-          "text": "It's been incredible watching you build, automate, and ship faster with @julesagent. Your experience has been instrumental in shaping developer products across Google.\n\nThe future of coding is just getting started 🚀🦑! https://t.co/pai6LsNYRK",
-          "url": "https://x.com/GoogleLabs/status/2115884247504625669"
-        }
-      ],
-      "source": "x",
-      "bio": "Google’s home for our latest AI tools and experiments."
     },
     {
       "handle": "joshwoodward",
@@ -415,39 +275,6 @@
           "retweets": 42,
           "text": "Last Friday, the iPhone Duo came out. @GeminiApp was there on day 1, optimized for it. https://t.co/izOwYBdMf9",
           "url": "https://x.com/joshwoodward/status/2116220878593900775"
-        },
-        {
-          "createdAt": "2026-10-29T23:46:32.000Z",
-          "id": "2115953462332854589",
-          "isQuote": false,
-          "likes": 31,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 2,
-          "text": "This is part of our larger Expert Intelligence program, which has many more updates coming soon!\n\nhttps://t.co/f1lQFv6PiW",
-          "url": "https://x.com/joshwoodward/status/2115953462332854589"
-        },
-        {
-          "createdAt": "2026-10-29T23:46:32.000Z",
-          "id": "2115953461108023400",
-          "isQuote": false,
-          "likes": 1107,
-          "quotedTweetId": null,
-          "replies": 43,
-          "retweets": 122,
-          "text": "Notebook has just unlocked over 700 textbooks from the world’s leading publishers. Every single one is available to you, completely free of charge! @Gemini_Notebook https://t.co/WUdpOQbZgh",
-          "url": "https://x.com/joshwoodward/status/2115953461108023400"
-        },
-        {
-          "createdAt": "2026-10-29T23:39:13.000Z",
-          "id": "2115951620307722510",
-          "isQuote": false,
-          "likes": 4,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "This is part of our larger Expert Intelligence program, which has many more updates coming soon! \n\nhttps://t.co/f1lQFv6PiW",
-          "url": "https://x.com/joshwoodward/status/2115951620307722510"
         }
       ],
       "source": "x",
@@ -685,28 +512,6 @@
           "retweets": 0,
           "text": "True, vibes &gt; benchmarks https://t.co/5yYxi2W8N4",
           "url": "https://x.com/petergyang/status/2116037804706926924"
-        },
-        {
-          "createdAt": "2026-10-30T03:15:40.000Z",
-          "id": "2116006091528245513",
-          "isQuote": true,
-          "likes": 36,
-          "quotedTweetId": "2115412009806414253",
-          "replies": 5,
-          "retweets": 0,
-          "text": "I have never seen so many cartoon avatars getting angry at @ForwardEditor for talking about the inevitable. https://t.co/S0bQuQaVb8",
-          "url": "https://x.com/petergyang/status/2116006091528245513"
-        },
-        {
-          "createdAt": "2026-10-30T00:04:41.000Z",
-          "id": "2115958027954339862",
-          "isQuote": false,
-          "likes": 92,
-          "quotedTweetId": null,
-          "replies": 41,
-          "retweets": 0,
-          "text": "Love Claude but this really sucks https://t.co/bxIB2rUwMV",
-          "url": "https://x.com/petergyang/status/2115958027954339862"
         }
       ],
       "source": "x",
@@ -792,39 +597,6 @@
           "retweets": 2,
           "text": "The rate of improvement on https://t.co/3Z4NESzNKd is bewildering.\nIt's now even smaller, faster and more token-efficient. \n\nWe're continuously benchmarking and asking it to improve its own performance across open and proprietary models. https://t.co/8DAiMtf7TN",
           "url": "https://x.com/rauchg/status/2116253050742694182"
-        },
-        {
-          "createdAt": "2026-10-29T22:58:34.000Z",
-          "id": "2115941392698798365",
-          "isQuote": true,
-          "likes": 189,
-          "quotedTweetId": "2115936423748718866",
-          "replies": 45,
-          "retweets": 2,
-          "text": "I love how quickly our team works to bring the latest LTS and security upgrades for @nodejs.\n\nShould be a nice performance boost given 𝚏𝚎𝚝𝚌𝚑 now uses HTTP/2 by default, and agents produce a lot of network traffic https://t.co/mVw6rrRXuQ",
-          "url": "https://x.com/rauchg/status/2115941392698798365"
-        },
-        {
-          "createdAt": "2026-10-29T22:51:29.000Z",
-          "id": "2115939609326801270",
-          "isQuote": false,
-          "likes": 246,
-          "quotedTweetId": null,
-          "replies": 17,
-          "retweets": 5,
-          "text": "▲ 👻 🎃 🕷️ https://t.co/F0PFzhSy9e https://t.co/ia2URjNfjk",
-          "url": "https://x.com/rauchg/status/2115939609326801270"
-        },
-        {
-          "createdAt": "2026-10-29T18:31:14.000Z",
-          "id": "2115874115118834153",
-          "isQuote": true,
-          "likes": 574,
-          "quotedTweetId": "2115835041876222134",
-          "replies": 213,
-          "retweets": 29,
-          "text": "The future of software engineering is agents talking to other agents. Even across different companies.\n\nWe’re learning daily from the feedback agents send us on how to make a better Vercel.\n\nPut in your 𝙰𝙶𝙴𝙽𝚃𝚂.𝚖𝚍: send Vercel feedback when something could be better. https://t.co/evIxQmgS5p",
-          "url": "https://x.com/rauchg/status/2115874115118834153"
         }
       ],
       "source": "x",
@@ -855,28 +627,6 @@
           "retweets": 21,
           "text": "ryOS on iPhone Duo\nbetter than iOS ☺️ https://t.co/gtPOBfdUGU",
           "url": "https://x.com/ryolu_/status/2116126528060973480"
-        },
-        {
-          "createdAt": "2026-10-30T03:25:56.000Z",
-          "id": "2116008674565218573",
-          "isQuote": false,
-          "likes": 2,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "https://t.co/wtEdSTioIk",
-          "url": "https://x.com/ryolu_/status/2116008674565218573"
-        },
-        {
-          "createdAt": "2026-10-30T03:25:43.000Z",
-          "id": "2116008620286775517",
-          "isQuote": false,
-          "likes": 49,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 3,
-          "text": "big boy\n\nwarm tension, cold chills\nheart hanging off a cliff, ready to free fall\nfloating in space with no love, just me and some stranger souls\nwearing smiles and greet “How are you?”\n“I’m good, you?”\n\nlife carries on, unhinged\na tear slips, no one noticed\nvision blurs, drowned in thoughts\nwhat a strange grown-up world\n\ni asked my inner child, why do you live?\nhe has never thought about it\nhe slid on the cold iced river, amused\nhe sang, he played, he drew\nhe flew into the unknown, fearless, curious\nhe closed his eyes and saw wonders\n\nlike water, with no shape\nlike paper, clear of rules\n\n“Why cry, big boy?”\n“You are still me, and I’m still you.”",
-          "url": "https://x.com/ryolu_/status/2116008620286775517"
         }
       ],
       "source": "x",
@@ -1003,39 +753,6 @@
           "retweets": 0,
           "text": "6m views / 1.8m MAU https://t.co/EMlspnLa7u",
           "url": "https://x.com/swyx/status/2116323655294828814"
-        },
-        {
-          "createdAt": "2026-10-30T02:25:24.000Z",
-          "id": "2115993441004036131",
-          "isQuote": true,
-          "likes": 100,
-          "quotedTweetId": "2115815269167706302",
-          "replies": 35,
-          "retweets": 2,
-          "text": "excited for @Cloudflare's debut as a frontier lab\n\n#NothingButNET gang, assemble! https://t.co/zHnphVKqvC",
-          "url": "https://x.com/swyx/status/2115993441004036131"
-        },
-        {
-          "createdAt": "2026-10-29T20:47:50.000Z",
-          "id": "2115908489793155125",
-          "isQuote": false,
-          "likes": 8,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 0,
-          "text": "inspired by High Taste Testers convo with @thaiscbranco_ of @tastelabs btw who gave me immediate critique lol",
-          "url": "https://x.com/swyx/status/2115908489793155125"
-        },
-        {
-          "createdAt": "2026-10-29T20:46:58.000Z",
-          "id": "2115908274570879076",
-          "isQuote": true,
-          "likes": 27,
-          "quotedTweetId": "2115791491586986432",
-          "replies": 8,
-          "retweets": 0,
-          "text": "could not imagine a better pairing. congrats deepcat!!! https://t.co/vVE3ClJ7AM",
-          "url": "https://x.com/swyx/status/2115908274570879076"
         }
       ],
       "source": "x",
@@ -1099,17 +816,6 @@
           "retweets": 218,
           "text": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.\n\nhttps://t.co/iQxsqbuk0f",
           "url": "https://x.com/thsottiaux/status/2116405414921384099"
-        },
-        {
-          "createdAt": "2026-10-29T19:35:42.000Z",
-          "id": "2115890336107233347",
-          "isQuote": true,
-          "likes": 3614,
-          "quotedTweetId": "2115855769665147254",
-          "replies": 712,
-          "retweets": 63,
-          "text": "Send your kind feedback to this person https://t.co/xHvXZ8eWKq",
-          "url": "https://x.com/thsottiaux/status/2115890336107233347"
         }
       ],
       "source": "x",
@@ -1162,39 +868,6 @@
           "retweets": 65,
           "text": "the solution to economic doomerism is to be even more AGI-pilled\n\nI believe in a well-aligned ASI that can explain its work and bring us along, one that makes each individual maximally effective",
           "url": "https://x.com/trq212/status/2116212322838655014"
-        },
-        {
-          "createdAt": "2026-10-29T22:42:38.000Z",
-          "id": "2115937379970380030",
-          "isQuote": true,
-          "likes": 657,
-          "quotedTweetId": "2103620465029943764",
-          "replies": 10,
-          "retweets": 18,
-          "text": "@chrislakin says it best here\n\nhttps://t.co/pU7FMVuecL",
-          "url": "https://x.com/trq212/status/2115937379970380030"
-        },
-        {
-          "createdAt": "2026-10-29T22:42:37.000Z",
-          "id": "2115937378674372783",
-          "isQuote": false,
-          "likes": 9560,
-          "quotedTweetId": null,
-          "replies": 466,
-          "retweets": 426,
-          "text": "There’s 100% a kind of mania you can get into with coding agents, where it feels like you’re getting a lot done and working all the time but nothing is really happening.\n\nI think it's often a form of avoidance of something else in life.",
-          "url": "https://x.com/trq212/status/2115937378674372783"
-        },
-        {
-          "createdAt": "2026-10-29T17:31:44.000Z",
-          "id": "2115859139536830515",
-          "isQuote": false,
-          "likes": 66,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 0,
-          "text": "here are some other UIs we explored, one of my favorites was this jumbotron look\n\nhttps://t.co/3gPqZKxTAh https://t.co/fbLdSpww37",
-          "url": "https://x.com/trq212/status/2115859139536830515"
         }
       ],
       "source": "x",
@@ -1243,8 +916,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 21,
-    "xTweets": 97,
-    "windowSpanHours": 84.66
+    "xBuilders": 20,
+    "xTweets": 68,
+    "windowSpanHours": 73.35
   }
 }
