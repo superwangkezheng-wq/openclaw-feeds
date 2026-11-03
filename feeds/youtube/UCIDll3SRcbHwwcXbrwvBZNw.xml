@@ -11,6 +11,88 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:SQfZgN-e2DI</id>
+  <yt:videoId>SQfZgN-e2DI</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>研究者称 GPT-6 Astra 直接改写模型权重【AI 早报 2026-11-03】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SQfZgN-e2DI"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-11-03T01:34:21+00:00</published>
+  <updated>2026-11-03T02:10:55+00:00</updated>
+  <media:group>
+   <media:title>研究者称 GPT-6 Astra 直接改写模型权重【AI 早报 2026-11-03】</media:title>
+   <media:content url="https://www.youtube.com/v/SQfZgN-e2DI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/SQfZgN-e2DI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+研究者称 GPT-6 Astra 直接改写模型权重 00:08
+https://rikiyat.github.io/blog/weight-space-programming/
+https://x.com/rikiyatakehi/status/2117313742891327994
+https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming
+
+OpenAI 自研 Git 后端 Pando 投产，中位推送延迟降近 80% 00:29
+https://openai.com/index/scaling-git-at-openai
+https://github.com/openai/git
+
+Kimi 发布游戏开发与创意工作解决方案 00:45
+https://mp.weixin.qq.com/s/qSwHJXAuAyrjeYXGC3XnFA
+
+阿里云发布 AI 投研工作台 Qovest 00:57
+
+商汤推出 SenseNova 6.8 Flash 正式版，目前限时免费 01:07
+https://www.sensenova.cn/flash-6-8
+
+TRAE 宝开启限时免费：问答与任务不消耗积分 01:22
+https://mp.weixin.qq.com/s/7MGo9-U0oxLZ1fNW2AZOeQ?nwr_flag=1
+
+ZCode 上线三款官方插件，网页项目一键部署 01:37
+https://mp.weixin.qq.com/s/dkGAhKckTpN_Yku_mQ7sUQ
+
+Anthropic Message API 推出 message threads 公测 01:49
+https://x.com/ClaudeDevs/status/2117332452603527535
+https://claude.com/resources/articles/message-threads
+https://platform.claude.com/docs/en/build-with-claude/message-threads
+
+OpenAI 发布 LifeVal 基准，衡量 AI 完成日常任务的能力 02:03
+https://openai.com/index/lifeval
+
+OpenAI 部署激活分类器，实时拦截模型违规输出 02:16
+https://alignment.openai.com/training-activation-classifiers/
+
+腾讯混元发布 Hyra 2.0：从解题到造工具 02:32
+https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&amp;mid=2247498763&amp;idx=1&amp;sn=279f8fb4e43a987fdc0aa2af0b0f7958
+https://github.com/Tencent-Hunyuan/hyra-results/
+
+SemiAnalysis 发布 GDPx 基准，最佳模型仅得 12% 02:46
+https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities
+
+Anthropic 三季度营收 169.6 亿美元，同比增长 1127% 02:59
+https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm
+
+Anthropic 更新使用政策，禁止未经授权转售或代理 Claude 03:16
+https://anthropic.com/legal/aup
+
+OpenAI 推出 Grid Protectors 计划，算力园区将为电网削峰 03:31
+https://openai.com/index/grid-protectors-program/
+
+阿布扎比与 OpenAI 签署四项协议，涉政府能源投资 03:44
+https://mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai
+
+沙特阿美收购 HUMAIN 49% 股份 03:56
+https://aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transaction-to-accelerate-humains-global-growth
+
+《纽约时报》起诉 Brave，指其抓取内容卖给 AI 04:12
+https://reuters.com/legal/litigation/new-york-times-sues-maker-brave-web-browser-over-copyrights-2026-11-02</media:description>
+   <media:community>
+    <media:starRating count="23" average="5.00" min="1" max="5"/>
+    <media:statistics views="1278"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Ir7OExbKsuc</id>
   <yt:videoId>Ir7OExbKsuc</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -51,7 +133,7 @@ Axios：OpenAI 计划选后发起政策和公关宣传 01:11
 https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="986"/>
+    <media:statistics views="1298"/>
    </media:community>
   </media:group>
  </entry>
@@ -127,8 +209,8 @@ OpenAI 计划使用 Daybreak Blue 数据训练模型 02:59
 https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt
 https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/</media:description>
    <media:community>
-    <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="1753"/>
+    <media:starRating count="21" average="5.00" min="1" max="5"/>
+    <media:statistics views="1797"/>
    </media:community>
   </media:group>
  </entry>
@@ -203,7 +285,7 @@ https://x.com/elonmusk/status/2116036703538606301
 据报道 Anthropic 是 SpaceX 最大单一客户 03:06</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2237"/>
+    <media:statistics views="2323"/>
    </media:community>
   </media:group>
  </entry>
@@ -218,7 +300,7 @@ https://x.com/elonmusk/status/2116036703538606301
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-30T01:30:15+00:00</published>
-  <updated>2026-10-31T14:40:26+00:00</updated>
+  <updated>2026-11-02T00:40:34+00:00</updated>
   <media:group>
    <media:title>OpenAI 将 Pro 各档与 Business Premium 用量翻倍，dots 继续提供单独用量【AI 早报 2026-10-30】</media:title>
    <media:content url="https://www.youtube.com/v/YgMeqrQgtA0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -337,7 +419,7 @@ IDC：阿里云位居中国大语言模型 MaaS 市场第一 06:15
 https:/</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2777"/>
+    <media:statistics views="2818"/>
    </media:community>
   </media:group>
  </entry>
@@ -352,7 +434,7 @@ https:/</media:description>
    <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
   </author>
   <published>2026-10-29T02:15:25+00:00</published>
-  <updated>2026-10-29T07:59:17+00:00</updated>
+  <updated>2026-11-02T00:41:03+00:00</updated>
   <media:group>
    <media:title>Google 推出 Gemini 4 Carbon，先向部分用户开放【AI 早报 2026-10-29】</media:title>
    <media:content url="https://www.youtube.com/v/u3V7VKX_7dQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -464,7 +546,7 @@ https://x.com/ElevenLabs/status/2115527286065914248
 Anthropic 内部研究模型发现多个系统漏洞</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="3330"/>
+    <media:statistics views="3391"/>
    </media:community>
   </media:group>
  </entry>
@@ -599,7 +681,7 @@ https://reuters.com/legal/transactional/wall-street-banks-blackstone-line-up-63-
 Oracle 云将提供 Google TPU，计划 2027 年起</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2215"/>
+    <media:statistics views="2224"/>
    </media:community>
   </media:group>
  </entry>
@@ -699,7 +781,7 @@ https://kotaku.com/claudes-reverse-engineering-capabilities-used-to-recompile-ga
 https://x.com/0x0SojalSec/status/2113751276320399694?s=20</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2518"/>
+    <media:statistics views="2525"/>
    </media:community>
   </media:group>
  </entry>
@@ -748,7 +830,7 @@ Elvis Presley 歌曲权利方起诉 Anthropic，索赔约 4100 万美元 01:40
 https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1133"/>
+    <media:statistics views="1134"/>
    </media:community>
   </media:group>
  </entry>
@@ -903,7 +985,7 @@ https://ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc
 https://cnbc.com/2026/10/22/openai-funding-round-uae-investors.html</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="2192"/>
+    <media:statistics views="2191"/>
    </media:community>
   </media:group>
  </entry>
@@ -1174,7 +1256,7 @@ https://www.anthropic.com/public-benefit-report
 https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2103"/>
+    <media:statistics views="2106"/>
    </media:community>
   </media:group>
  </entry>
@@ -1387,44 +1469,6 @@ https://humxn.io/humxn-launches-free-home-service-program</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
     <media:statistics views="3206"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:3oA9693OIBw</id>
-  <yt:videoId>3oA9693OIBw</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>Anthropic 设公益基金，先投 5% 股份【AI 早报 2026-10-19】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=3oA9693OIBw"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-10-19T00:41:43+00:00</published>
-  <updated>2026-10-22T03:00:21+00:00</updated>
-  <media:group>
-   <media:title>Anthropic 设公益基金，先投 5% 股份【AI 早报 2026-10-19】</media:title>
-   <media:content url="https://www.youtube.com/v/3oA9693OIBw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i4.ytimg.com/vi/3oA9693OIBw/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-Anthropic 设公益基金，先投 5% 股份 00:08
-https://www.anthropic.com/news/public-benefit-fund
-https://x.com/AnthropicAI/status/2111881963657412903
-
-开源模型背后的训练算力：Wolf 估算累计已近 10 亿美元 00:43
-https://x.com/Thom_Wolf/status/2111828314851598745
-https://thomwolf-hub-dollars.static.hf.space
-
-OpenAI 据称出现 3 个新模型 ID 01:06
-https://x.com/testingcatalog/status/2111724606927028578
-https://x.com/LuminaBench/status/2111751820980678939
-
-报道称 Anthropic 正与律所商讨 AI 谈判规范 01:22
-https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/</media:description>
-   <media:community>
-    <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="908"/>
    </media:community>
   </media:group>
  </entry>
