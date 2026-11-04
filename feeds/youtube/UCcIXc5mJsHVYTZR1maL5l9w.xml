@@ -11,6 +11,41 @@
  </author>
  <published>2017-08-22T22:27:58+00:00</published>
  <entry>
+  <id>yt:video:5__Fm2TnPcU</id>
+  <yt:videoId>5__Fm2TnPcU</yt:videoId>
+  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
+  <title>Stop guessing how to fix your agent</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5__Fm2TnPcU"/>
+  <author>
+   <name>DeepLearningAI</name>
+   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
+  </author>
+  <published>2026-11-04T11:00:19+00:00</published>
+  <updated>2026-11-04T11:00:20+00:00</updated>
+  <media:group>
+   <media:title>Stop guessing how to fix your agent</media:title>
+   <media:content url="https://www.youtube.com/v/5__Fm2TnPcU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5__Fm2TnPcU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Learn More: https://bit.ly/4ikf9L0
+
+Traditional software tests confirm that your code is working, but fall short when it comes to testing agents. Evals allow you to measure an agent’s decisions and actions when its failures may not be obvious.
+
+In our new course, Evaluating and Improving Agentic Applications, built in partnership with Arize AI, you’ll take an agent through the full evaluation process, from reading its traces to improving it. Taught by Laurie Voss, Head of Developer Relations at Arize and co-founder of npm.
+
+In this course, you’ll learn how to:
+
+Read your agent’s traces to find recurring failures and turn them into a test set you can rerun after every change.
+Automate evaluation with code and LLM judges you can rely on. 
+Use your evals to check that every change makes your agent better. 
+
+Enroll for free: https://bit.ly/4ikf9L0</media:description>
+   <media:community>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="1245"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:p1jhV6LlbFY</id>
   <yt:videoId>p1jhV6LlbFY</yt:videoId>
   <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
@@ -38,8 +73,8 @@ Andrew opens the AI Engineering Skills Map, then sits down with Yann LeCun for a
 📅November 30–December 1, 2026 · Chelsea Piers, New York
 Explore the program and get tickets</media:description>
    <media:community>
-    <media:starRating count="33" average="5.00" min="1" max="5"/>
-    <media:statistics views="4824"/>
+    <media:starRating count="34" average="5.00" min="1" max="5"/>
+    <media:statistics views="5048"/>
    </media:community>
   </media:group>
  </entry>
@@ -73,8 +108,8 @@ In this course, you'll learn how to:
 
 Enroll Now: https://bit.ly/4BuaMVb</media:description>
    <media:community>
-    <media:starRating count="61" average="5.00" min="1" max="5"/>
-    <media:statistics views="6116"/>
+    <media:starRating count="63" average="5.00" min="1" max="5"/>
+    <media:statistics views="6382"/>
    </media:community>
   </media:group>
  </entry>
@@ -115,7 +150,7 @@ AI Code Review, built in collaboration with Qodo and taught by Nnenna Ndukwe, wa
 #DeepLearningAI #CodeReview #AIEngineering</media:description>
    <media:community>
     <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="2149"/>
+    <media:statistics views="2185"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +179,7 @@ Plus speakers from Vocal Bridge, NYC Tech Talent Pipeline, Unblocked, Qdrant, An
 Explore the program and get tickets: https://ai-dev.deeplearning.ai/</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="1698"/>
+    <media:statistics views="1720"/>
    </media:community>
   </media:group>
  </entry>
@@ -178,7 +213,7 @@ In this course, you'll learn:
 Enroll for free: https://bit.ly/4yy5iWP</media:description>
    <media:community>
     <media:starRating count="65" average="5.00" min="1" max="5"/>
-    <media:statistics views="8779"/>
+    <media:statistics views="8837"/>
    </media:community>
   </media:group>
  </entry>
@@ -209,7 +244,7 @@ We analyzed more than 10,000 job roles and interviewed dozens of leading AI engi
 See how our program could work for your team: deeplearning.ai/business</media:description>
    <media:community>
     <media:starRating count="39" average="5.00" min="1" max="5"/>
-    <media:statistics views="6862"/>
+    <media:statistics views="6872"/>
    </media:community>
   </media:group>
  </entry>
@@ -234,7 +269,7 @@ See how our program could work for your team: deeplearning.ai/business</media:de
 Enroll for free: https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory</media:description>
    <media:community>
     <media:starRating count="36" average="5.00" min="1" max="5"/>
-    <media:statistics views="3041"/>
+    <media:statistics views="3056"/>
    </media:community>
   </media:group>
  </entry>
@@ -266,7 +301,7 @@ You'll learn foundational data engineering skills while implementing modern data
 Enroll Now: https://bit.ly/3ViOXHF</media:description>
    <media:community>
     <media:starRating count="169" average="5.00" min="1" max="5"/>
-    <media:statistics views="19045"/>
+    <media:statistics views="19069"/>
    </media:community>
   </media:group>
  </entry>
@@ -304,7 +339,7 @@ This course also includes our new AI coding lab, so you can practice building wi
 Enroll Now:https://bit.ly/4AlVW2n</media:description>
    <media:community>
     <media:starRating count="78" average="5.00" min="1" max="5"/>
-    <media:statistics views="12533"/>
+    <media:statistics views="12544"/>
    </media:community>
   </media:group>
  </entry>
@@ -338,8 +373,8 @@ Spec-Driven Development with Coding Agents is built in partnership with JetBrain
 
 Recommended: basic familiarity with a programming language and experience with LLM-based coding tools.</media:description>
    <media:community>
-    <media:starRating count="4437" average="5.00" min="1" max="5"/>
-    <media:statistics views="383370"/>
+    <media:starRating count="4462" average="5.00" min="1" max="5"/>
+    <media:statistics views="386250"/>
    </media:community>
   </media:group>
  </entry>
@@ -368,7 +403,7 @@ Learn to build it, plus a video generation agent, in &quot;AI Agents for Image a
 Join here: https://www.deeplearning.ai/courses/ai-agents-for-image-and-video-generation</media:description>
    <media:community>
     <media:starRating count="50" average="5.00" min="1" max="5"/>
-    <media:statistics views="3628"/>
+    <media:statistics views="3636"/>
    </media:community>
   </media:group>
  </entry>
@@ -394,7 +429,7 @@ Take the course, then come share what you build:
 https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local</media:description>
    <media:community>
     <media:starRating count="53" average="5.00" min="1" max="5"/>
-    <media:statistics views="3013"/>
+    <media:statistics views="3017"/>
    </media:community>
   </media:group>
  </entry>
@@ -432,7 +467,7 @@ LinkedIn: https://www.linkedin.com/company/deeplearningai · X: https://x.com/De
 #AIDev #DeepLearningAI #AndrewNg  #AIDeveloper #AIEngineering #AgenticAI</media:description>
    <media:community>
     <media:starRating count="112" average="5.00" min="1" max="5"/>
-    <media:statistics views="15859"/>
+    <media:statistics views="15862"/>
    </media:community>
   </media:group>
  </entry>
@@ -459,48 +494,7 @@ Paul Everitt worked both into his new course with DeepLearning.AI. Check it out:
 https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="3095"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:MbB1gNIj3G0</id>
-  <yt:videoId>MbB1gNIj3G0</yt:videoId>
-  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
-  <title>Build AI agents that learn from experience</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=MbB1gNIj3G0"/>
-  <author>
-   <name>DeepLearningAI</name>
-   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
-  </author>
-  <published>2026-08-26T13:00:14+00:00</published>
-  <updated>2026-10-02T03:38:49+00:00</updated>
-  <media:group>
-   <media:title>Build AI agents that learn from experience</media:title>
-   <media:content url="https://www.youtube.com/v/MbB1gNIj3G0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/MbB1gNIj3G0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Learn More: https://bit.ly/4iu7p9F 
-
-Introducing Building Adaptive AI Agents, a short course built in partnership with Oracle and taught by Nacho Martínez, Data Scientist Advocate at Oracle, and Casius Lee, AI Developer Advocate at Oracle.
-
-Agents don't need to relearn the job every session: give them mechanisms to carry experience forward, and they get faster and more reliable with every run. Today's coding agents can write code, use tools, and carry out multi-step tasks, but each fresh session starts from zero. An agent that spent minutes fixing an environment issue yesterday will burn the same time and tokens rediscovering the fix today.
-
-In this course, you'll work with three adaptation layers. For behavior adaptation, you'll build a skill induction pipeline that turns the agent's traces, its conversations, tool calls, errors, and fixes, into reusable skills it applies the next time it sees a similar task, with a human in the loop approving each skill. For knowledge adaptation, you'll build a code knowledge graph that connects files through imports, function calls, and co-edits in git history, so the agent retrieves context by navigating the structure of the codebase instead of relying on keyword search. For model adaptation, you'll learn when it makes sense to adapt the model itself with techniques like fine-tuning.
-
-In detail, you'll:
-
-Build a mental model for adaptive AI agents, including why forgetting is expensive and where an agent can improve.
-Build a skill induction pipeline that turns repeated experiences in an agent's traces into reusable skills the agent retrieves on similar tasks.
-See why retrieval, not code generation, is often the real bottleneck in large codebases, and where keyword and regex search miss the files that matter.
-Construct a code knowledge graph from imports, function calls, and co-edits in git history, then compare graph-based retrieval against regex matching and text search.
-Learn when and how weight-space adaptation, such as fine-tuning, can be the right tool.
-
-By the end, you'll know how to build agents that get measurably better at the same work from one day to the next, instead of paying for the same mistakes twice.
-
-Enroll Now: https://bit.ly/4iu7p9F</media:description>
-   <media:community>
-    <media:starRating count="85" average="5.00" min="1" max="5"/>
-    <media:statistics views="11211"/>
+    <media:statistics views="3097"/>
    </media:community>
   </media:group>
  </entry>
