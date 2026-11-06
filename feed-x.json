@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-05T15:37:05.000Z",
+  "generatedAt": "2026-11-06T03:28:50.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-11-05T06:28:43.321Z",
-    "ageHours": 9.14
+    "ageHours": 21.0
   },
   "x": [
     {
@@ -125,28 +125,6 @@
           "retweets": 48,
           "text": "This is widespread in finance. The ban hammer is coming down. https://t.co/ivdSKYiK4a",
           "url": "https://x.com/amasad/status/2117481616943820843"
-        },
-        {
-          "createdAt": "2026-11-01T21:48:15.000Z",
-          "id": "2117010858845089805",
-          "isQuote": true,
-          "likes": 2266,
-          "quotedTweetId": "2116996456204640264",
-          "replies": 176,
-          "retweets": 93,
-          "text": "If you’re enjoying a subsidized AI subscription get ready to get rug pulled. https://t.co/XCjMc61pir",
-          "url": "https://x.com/amasad/status/2117010858845089805"
-        },
-        {
-          "createdAt": "2026-11-01T20:57:46.000Z",
-          "id": "2116998155925360965",
-          "isQuote": true,
-          "likes": 245,
-          "quotedTweetId": "2116636967517798672",
-          "replies": 76,
-          "retweets": 9,
-          "text": "You can enable this on Replit with one toggle. If you enable the “feedback widget” on your site, users’ feedback become prompts for the agents to build. https://t.co/QLBwKenews",
-          "url": "https://x.com/amasad/status/2116998155925360965"
         }
       ],
       "source": "x",
@@ -240,28 +218,6 @@
           "retweets": 0,
           "text": "partly argon is so good\n\npartly antigravity is stuck in 2025 so it doesnt have all of the crazy features and complexity",
           "url": "https://x.com/danshipper/status/2117363007340609556"
-        },
-        {
-          "createdAt": "2026-11-01T22:02:45.000Z",
-          "id": "2117014507083948453",
-          "isQuote": true,
-          "likes": 116,
-          "quotedTweetId": "2116435070856876209",
-          "replies": 6,
-          "retweets": 2,
-          "text": "argon cooks https://t.co/RmZ0FeQLpM",
-          "url": "https://x.com/danshipper/status/2117014507083948453"
-        },
-        {
-          "createdAt": "2026-11-01T19:38:10.000Z",
-          "id": "2116978123044688304",
-          "isQuote": true,
-          "likes": 108,
-          "quotedTweetId": "2116958944723665173",
-          "replies": 21,
-          "retweets": 6,
-          "text": "this is anti competitive and not cool https://t.co/3hu26UpLkX",
-          "url": "https://x.com/danshipper/status/2116978123044688304"
         }
       ],
       "source": "x",
@@ -380,17 +336,6 @@
           "retweets": 3,
           "text": "Particle-1 is as good as much larger models for agentic retrieval but 1/23 the price\n\nhttps://t.co/1CmqlXOx8D https://t.co/7s33EuSO0L",
           "url": "https://x.com/garrytan/status/2117137390016073977"
-        },
-        {
-          "createdAt": "2026-11-01T17:11:25.000Z",
-          "id": "2116941191526895975",
-          "isQuote": true,
-          "likes": 296,
-          "quotedTweetId": "2116727410972590380",
-          "replies": 53,
-          "retweets": 9,
-          "text": "Practical robotics is nigh https://t.co/uFs7HoCLvs",
-          "url": "https://x.com/garrytan/status/2116941191526895975"
         }
       ],
       "source": "x",
@@ -433,24 +378,6 @@
       ],
       "source": "x",
       "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio"
-    },
-    {
-      "handle": "karpathy",
-      "name": "Andrej Karpathy",
-      "tweets": [
-        {
-          "createdAt": "2026-11-01T18:14:46.000Z",
-          "id": "2116957135661945283",
-          "isQuote": false,
-          "likes": 36797,
-          "quotedTweetId": null,
-          "replies": 1497,
-          "retweets": 3269,
-          "text": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5:\nhttps://t.co/JIhXN7OSh1\n\n- Excellent recs without any logins (state is kept in local browser session)\n- Thumbnail is a representative frame from middle of the video instead of the super duper A/B test hyper-optimized user uploads\n- Underlying data from the comment analysis as one zip file, point your Claude at it and ask for your own version\n- HackerTube Longs ✊\n\nA bit more on the process:\nI use Claude Code (desktop app for Mac), Opus 5.5 on Medium effort as my default. I only talk to Claude and have it do everything, the only \"manual work\" I helped with in tandem was in the browser (reminiscent of MenuGen): 1) I had to create some kind of API key from Google Cloud UI to query YouTube for video metadata, 2) I booted up a VPS box for serving and 3) I bought the domain name. Once the box was up I gave Claude the IP and told it update, secure, harden, deploy and optimize the code, and it did the whole thing.\n\nMany awesome projects that would have normally taken weeks/months even can now be few-shotted for breakfast. What else are we not thinking of.",
-          "url": "https://x.com/karpathy/status/2116957135661945283"
-        }
-      ],
-      "source": "x"
     },
     {
       "handle": "levie",
@@ -721,39 +648,6 @@
           "retweets": 3,
           "text": "The best model for writing & editing is held back by its harness.\n\nI just had both ChatGPT and @GeminiApp suggest copy edits for a post that I'm working on.\n\nChatGPT's suggestions were almost entirely bad but Gemini's suggestions were actually great.\n\nUnfortunately, Antigravity doesn't seem to have working browser use so I basically have to paste all of Gemini's edits back into ChatGPT to make the edits in my browser.\n\nTweeting this in the hope that Antigravity will get much better much faster.",
           "url": "https://x.com/petergyang/status/2117333424403042330"
-        },
-        {
-          "createdAt": "2026-11-02T01:00:04.000Z",
-          "id": "2117059131349868790",
-          "isQuote": false,
-          "likes": 40,
-          "quotedTweetId": null,
-          "replies": 19,
-          "retweets": 0,
-          "text": "Upcoming episodes of Behind the Craft:\n\n1. Ashley Alexander\n\nAshley is VP of Product at @OpenAI. We had a heart-to-heart conversation about what it's like to care for parents through cancer and where ChatGPT and AI can help.\n\n2. Nate Parrott\n\n@nateparrott is the @AnthropicAI designer behind Claude Design, Dashboard, Motion, and more. He was refreshingly honest about how to get Claude to avoid designing AI slop with a live walkthrough of a real example.\n\n3. Matt Pocock\n\nMatt's AI skills for working with coding agents have 300K+ (!) GitHub stars. He teaches an excellent course on engineering fundamentals, and I can't wait to learn from him how to build software factories the right way.\n\n4. Jacob Sansbury\n\n@jsnnsa, according to my friend and a16z partner @illscience, has built the most AI-pilled gaming company in the world with just 10 people and $32M/year in Claude spend. Excited to dig into all this with him.\n\nWith all my interviews, I try to find people who are builders and practitioners who can talk about topics that I genuinely care about.\n\n📌 Subscribe to get all the episodes soon:\nhttps://t.co/NSTj7ijxE0\n\nThanks for your support!",
-          "url": "https://x.com/petergyang/status/2117059131349868790"
-        },
-        {
-          "createdAt": "2026-11-01T20:15:06.000Z",
-          "id": "2116987415319740756",
-          "isQuote": true,
-          "likes": 17,
-          "quotedTweetId": "2116921336006410550",
-          "replies": 17,
-          "retweets": 0,
-          "text": "\"It really makes you question, why do you want a person in your product? Is your product something that needs a UI?\"\n\nFrom @jacalulu (product director at @GoogleLabs):\n\n\"Anything that involves me creating something. Anything where I want to learn something, there might be a reason for me to interact.\n\nAnytime I want to be entertained or consume something, I'm still the one using the product.\n\nBut there are definitely products that I use today that I would be more than happy to not use, or at least not be the main person interacting with the interface.\"\n\n📌 Watch our full episode here: https://t.co/8hLt6x6atQ",
-          "url": "https://x.com/petergyang/status/2116987415319740756"
-        },
-        {
-          "createdAt": "2026-11-01T17:31:48.000Z",
-          "id": "2116946320674152810",
-          "isQuote": false,
-          "likes": 190,
-          "quotedTweetId": null,
-          "replies": 82,
-          "retweets": 6,
-          "text": "I wish I could just use one AI tool but right now there are clear winners in each category below:\n\nBrowser/computer use = ChatGPT + Codex\nDesign/video editing/\"taste\" = Claude\n24/7 agents and scheduled jobs = Grok Bot\n\nAlso, Gemini is underrated for writing but need to test it more.",
-          "url": "https://x.com/petergyang/status/2116946320674152810"
         }
       ],
       "source": "x",
@@ -861,39 +755,6 @@
           "retweets": 6,
           "text": "Stateless sandboxes are the wrong benchmark. Agents are only useful if they have their workspace with them (identity, skills, repos, memories…)\n\nVercel Sandbox team has been beautifully delivering on their latency & throughput SLOs, while prioritizing reliability and security.\n\nDoing this while shipping clusters in 19 (‼️) global regions, new features every week, and under immense amount of customer demand in the double digit growth percentage per week.",
           "url": "https://x.com/rauchg/status/2117338179535810957"
-        },
-        {
-          "createdAt": "2026-11-01T23:43:01.000Z",
-          "id": "2117039740096847920",
-          "isQuote": true,
-          "likes": 555,
-          "quotedTweetId": "2117038247549231138",
-          "replies": 35,
-          "retweets": 13,
-          "text": "F1 is basically the perfect competition for our times. The celebration of extraordinary technology and extraordinary human ability. That’s what Vercel stands for! (also: winning) https://t.co/XkxVDnmWjE",
-          "url": "https://x.com/rauchg/status/2117039740096847920"
-        },
-        {
-          "createdAt": "2026-11-01T21:08:22.000Z",
-          "id": "2117000819623243925",
-          "isQuote": false,
-          "likes": 2251,
-          "quotedTweetId": null,
-          "replies": 242,
-          "retweets": 222,
-          "text": "Own your intelligence.\n\nAnyone that opposes this has something to sell you (perhaps your own intelligence back to you.)\n\nLocal models need to continue proliferating. The “absolute unit” massive models may be out of reach for now locally, so your best option is to, indeed, keep your options open. Own your harness, data, connections, runtime: your agents. Embrace open source.",
-          "url": "https://x.com/rauchg/status/2117000819623243925"
-        },
-        {
-          "createdAt": "2026-11-01T20:18:45.000Z",
-          "id": "2116988333096370443",
-          "isQuote": false,
-          "likes": 381,
-          "quotedTweetId": null,
-          "replies": 69,
-          "retweets": 9,
-          "text": "Working with Gemini on https://t.co/3Z4NESzNKd is hilarious 😂😂\n\nOther than being SUPER EXCITED!, I've been testing it on two high complexity projects and it's doing great. https://t.co/Vb16Fbyats",
-          "url": "https://x.com/rauchg/status/2116988333096370443"
         }
       ],
       "source": "x",
@@ -1206,39 +1067,6 @@
           "retweets": 34,
           "text": "Your dot will choose the best model for the task, drawing on different models for different parts of the work.",
           "url": "https://x.com/thsottiaux/status/2117283355427495983"
-        },
-        {
-          "createdAt": "2026-11-01T23:27:20.000Z",
-          "id": "2117035794678546764",
-          "isQuote": false,
-          "likes": 7495,
-          "quotedTweetId": null,
-          "replies": 1342,
-          "retweets": 233,
-          "text": "Day 28/ Banked 2/2",
-          "url": "https://x.com/thsottiaux/status/2117035794678546764"
-        },
-        {
-          "createdAt": "2026-11-01T16:51:36.000Z",
-          "id": "2116936205623611781",
-          "isQuote": false,
-          "likes": 509,
-          "quotedTweetId": null,
-          "replies": 32,
-          "retweets": 1,
-          "text": "My dog just patched that bug we couldn’t find for two weeks. Clever dog",
-          "url": "https://x.com/thsottiaux/status/2116936205623611781"
-        },
-        {
-          "createdAt": "2026-11-01T16:50:55.000Z",
-          "id": "2116936031866077423",
-          "isQuote": false,
-          "likes": 403,
-          "quotedTweetId": null,
-          "replies": 18,
-          "retweets": 1,
-          "text": "My dog sent you the meeting notes from yesterday, did you see them?",
-          "url": "https://x.com/thsottiaux/status/2116936031866077423"
         }
       ],
       "source": "x",
@@ -1291,28 +1119,6 @@
           "retweets": 133,
           "text": "one week in my takeaway is that you don't need unlimited tokens to do great work, the $200 plans are amazing \n\nand this is the most expensive intelligence will ever be",
           "url": "https://x.com/trq212/status/2117305792923889731"
-        },
-        {
-          "createdAt": "2026-11-01T19:35:09.000Z",
-          "id": "2116977363728867664",
-          "isQuote": false,
-          "likes": 43,
-          "quotedTweetId": null,
-          "replies": 5,
-          "retweets": 0,
-          "text": "also had a little highlight intro video\n\nI like how its all coming together! hoping to have a vertical slice sometime next week https://t.co/YAurDfYM5S",
-          "url": "https://x.com/trq212/status/2116977363728867664"
-        },
-        {
-          "createdAt": "2026-11-01T19:32:52.000Z",
-          "id": "2116976789046350040",
-          "isQuote": true,
-          "likes": 990,
-          "quotedTweetId": "2105333496768319969",
-          "replies": 93,
-          "retweets": 16,
-          "text": "adding a new character: a taekwondo master that fights with fire\n\nI also updated the art style from 3d models to use generated sprites https://t.co/4F60NS4TQy https://t.co/hLIVplRPrW",
-          "url": "https://x.com/trq212/status/2116976789046350040"
         }
       ],
       "source": "x",
@@ -1354,17 +1160,6 @@
           "retweets": 3,
           "text": "A presentation can feel like embroidery 🪡 https://t.co/ytBdA9PNUU",
           "url": "https://x.com/zarazhangrui/status/2117776720606716157"
-        },
-        {
-          "createdAt": "2026-11-02T02:49:00.000Z",
-          "id": "2117086544586780867",
-          "isQuote": true,
-          "likes": 83,
-          "quotedTweetId": "2081103577590718865",
-          "replies": 16,
-          "retweets": 2,
-          "text": "What if your Linktree were an actual tree https://t.co/3ozuquLIIC https://t.co/WEzBKd6aaF",
-          "url": "https://x.com/zarazhangrui/status/2117086544586780867"
         }
       ],
       "source": "x",
@@ -1372,8 +1167,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 22,
-    "xTweets": 108,
-    "windowSpanHours": 85.11
+    "xBuilders": 21,
+    "xTweets": 90,
+    "windowSpanHours": 71.93
   }
 }
