@@ -15,8 +15,288 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Fri, 06 Nov 2026 15:11:43 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Nov 2026 02:55:14 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[成都具身智能公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发]]></title>
+            <description><![CDATA[<p>作者&nbsp;|&nbsp;黄楠</p>
+  <p>编辑&nbsp;|&nbsp;袁斯来</p>
+  <p>硬氪获悉，成都具身大脑公司「奇林波」近日完成千万级人民币天使轮融资，投资方包括成都方寸引擎科技有限公司及天使投资人。本轮资金将重点用于核心技术研发、研发团队建设和市场拓展，为公司持续推进机器脑与多机协作系统的研发、产品化及应用落地提供资金支持。</p>
+  <p>奇林波成立于2025年12月，公司聚焦具身智能核心软件，以机器人自主行动与多机协作为核心方向，致力于让机器人具备持续执行任务的能力，并通过多机协作完成更复杂的工作。</p>
+  <p>联合创始人兼CEO唐佐林具备跨AI算法、嵌入式系统、国产操作系统的复合技术背景；他早年任职摩托罗拉，深耕嵌入式、芯片与驱动开发；后续作为核心开发者参与开源鸿蒙基座、Python国产化框架相关建设。</p>
+  <p>技术差异化方面，开源鸿蒙、国产计算平台适配与本地模型部署是公司的重要研发方向。奇林波团队将国产化基座作为支撑机器人应用、适配不同场景的重要工程基础。</p>
+  <p>其具身机器人可搭载开源鸿蒙系统。奇林波联合创始人唐佐林向硬氪表示，以开源鸿蒙为基座开发具身智能，能够发挥团队在底层系统与软硬件适配方面的技术积累，也有助于公司面向自主可控、数据安全要求较高的场景开展应用。这一优势的前提是系统、芯片与算法能够协同工作。</p>
+  <p>依托在鸿蒙体系上的技术积累，公司已形成稳定现金流订单。团队将相关能力迁移至机器人领域，优先面向中小学与高校，交付桌面履带机器人、桌面机器狗，匹配人工智能普惠教育、鸿蒙+具身智能的教学科研需求。在桌面机型基础上，进一步推进工业级四足机器狗与工业机械臂的应用适配。</p>
+  <p>奇林波整套技术架构分为端云两层，一侧是自研“灵雁引擎”，面向单台机器人的任务理解、规划决策与自主执行。另一侧的“雁阵系统”面向不同形态机器人的任务分配、资源协调与协同工作。</p>
+  <p>单体智能加协作智能的两级结构之上，单机在端侧完成实时响应，云端则在更高层级完成跨设备、跨空间的任务分配与资源调度。</p>
+  <p>目前，“灵雁引擎”支持跨形态适配，可部署于机器狗、机械臂、人形机器人等不同本体，并接入“雁阵系统”。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20261106/v2_951677f209b34e9f9afc81e817447b8a@6022551_oswg907751oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">支持多具身机器人落地适配（图源/企业）</p>
+  <p>按照规划，现阶段教育科研场景是其端侧、云端系统重要的打磨与验证载体。团队在教学科研场景中持续迭代“灵雁引擎”与“雁阵”调度系统，并结合不同本体与任务需求，逐步向园区、工业等场景拓展，推进项目应用与实地验证。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,580" src="https://img.36krcdn.com/hsossms/20261106/v2_533f335f338f4122ba8f70aa7b4a7537@6022551_oswg152625oswg1080oswg580_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">灵雁引擎架构（图源/企业）</p>
+  <p>这一架构判断源于唐佐林对行业结构性短板的观察。</p>
+  <p>唐佐林告诉硬氪，随着具身本体数量快速增长，多数本体仍停留在演示与单机作业阶段，缺乏真实工况下持续完成任务的能力。“本体之间的协同是下一阶段的关键缺口，单机智能再强，也无法独立完成需要多设备配合的任务。”</p>
+  <p>以跨楼层巡检场景为例，当一台机器狗巡检中发现突发情况、发出协助请求时，需要系统结合任务规则判断是否需要支援，并协调其他机器人资源。云端大脑负责需求研判、资源匹配与协同调度，再将任务下发至端侧执行。端侧负责“任务如何执行”，云端负责判断“哪台设备来负责、怎么配合”，两层能力相互配合。</p>
+  <p>在教育科研之外，奇林波也关注高风险、低效率、人力难以持续覆盖的工况，定位是与人形成协同互补。以园区夜间巡检为例，人工巡场存在时间盲区，难以持续覆盖重<ai-product-link data-id="14953" data-name="点点" data-logo="https://img.36dianping.com/20260731/v2_7f20642df457498595ae7c552043d930_oswg142435oswg1000oswg1000_img_jpg" data-classify-list="智能搜索,AI助理,办公辅助" data-refer-type="20">点点</ai-product-link>位的温度监测；搭载红外热成像模块的机器狗可在点位采集热数据并回传，值班人员在中控端即可完成风险研判。油田、矿山、森林防火等也是公司关注的潜在应用方向。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20261106/v2_d2f4823808c647109e3518139b69fe52@6022551_oswg1357178oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">搭载“灵雁引擎”的四足机器人进行园区巡检中（图源/企业）</p>
+  <p>硬氪了解到，在当前园区与工业应用探索中，公司将四足机器人作为主要适配本体之一，核心考量是相关场景对结构稳定性和持续作业能力的要求。四足结构在负重、越障和复杂地形通过性上更适配巡检类任务，也便于在现阶段推进适配与实机验证。唐佐林同时表示，公司也关注人形本体，未来若人形机器人在特定场景中形成明确任务闭环，同样可以部署“灵雁”系统。</p>
+  <p>本轮融资后，奇林波将进一步加强机器人应用开发、具身智能算法和工程化团队建设，把研发投入落实到开源鸿蒙与国产计算平台适配、核心软件、模型部署、任务技能与实机验证等环节。通过持续迭代，提升产品的稳定性、可维护性和部署效率，逐步形成能够在不同设备与任务中复用的软件能力。</p>
+  <p><strong>以下为硬氪与奇林波联合创始人兼CEO唐佐林的访谈节选（经编辑）：</strong></p>
+  <p><strong>硬氪：以开源鸿蒙为代表的国产化软硬件栈，在具身智能落地中是差异化叙事，还是重点行业的准入条件？这套选型对交付、成本与行业拓展有哪些实际影响？</strong></p>
+  <p><strong>唐佐林：</strong>在我们看来，国产化软硬件栈既是团队的技术特色，也是面向部分重点行业项目的重要工程条件。公司设备优先采用国产芯片，系统层支持开源鸿蒙或Linux，不依赖单一海外算力生态。这一选择有两层现实逻辑。</p>
+  <p>第一层是行业与项目要求。矿山、油田、能源、政务等场景对安全、合规和数据自主可控的要求较高，部分项目也会对国产化软硬件提出明确要求。供应链、数据与系统能力需要可控，底层算力生态需要减少单点依赖。过去不少具身方案高度依赖单一海外算力生态，一旦涉及重点行业部署或外部供应波动，就容易在准入、交付和长期运维上受限。国产芯片加开源鸿蒙的组合，有助于我们从底层增强系统的自主性。</p>
+  <p>第二层是成本与可控性。国产芯片在满足端侧推理需求的前提下，为采购成本、供货渠道和深度适配提供了更多选择。国产化需要全栈适配能力：系统裁剪、编译优化、驱动适配、算子调优、性能调优，缺一环都难以充分释放硬件算力。</p>
+  <p>这也是我们团队背景上的长板。早期参与开源鸿蒙基座和Python国产化框架建设，让团队对底层系统的裁剪、编译、驱动适配和性能调优有长期积累，能够持续优化国产硬件在机器人端侧的实际运行表现。</p>
+  <p>这些底层能力也可以为不同机器人形态和应用场景的适配提供基础。在教育科研、园区和工业等场景中，设备形态、任务需求和部署条件各不相同，我们希望通过持续适配与验证，逐步沉淀能够复用的软件能力。</p>
+  <p>从落地影响看，国产化选型会影响项目适配范围、交付与运维的自主性，以及成本结构。具身智能要规模化进入能源、矿山、政务等对安全与合规要求较高的场景，需要结合具体项目要求，持续完善国产化适配与工程验证。</p>
+  <p>奇林波团队将国产化纳入系统基座的研发，目的正是让大脑系统从一开始就重视面向不同设备和场景的工程条件。</p>
+  <p><strong>硬氪：通用大模型能力持续增强的背景下，端云协同架构在实时性、可靠性与成本之间如何取舍？</strong></p>
+  <p><strong>唐佐林：</strong>通用大模型强在高层语义理解、开放场景推理和长程任务规划，但机器人真正复杂的部分，是大量强实时、强确定性的物理闭环。抓取、接触、避障、避险这类操作，对反馈延时高度敏感；云端往返的网络抖动，可能影响动作执行的稳定性与安全性。</p>
+  <p>如果所有感知与决策都依赖云端，就绕不开网络时延、带宽占用、断网风险，以及不同应用环境下网络条件不稳定的现实约束。过度依赖云端，会让作业可靠性受到网络条件的较大影响。</p>
+  <p>因此，我们坚持在端侧部署自研“灵雁引擎”，针对机器人物理交互做定向优化：通过模型蒸馏、结构轻量化、算子裁剪和硬件适配，推进高频感知、实时响应与执行能力的本地部署，提升本体在断网或弱网条件下基础作业的连续性；同时保留对大模型的调用通道，处理相对低频的高层语义理解与长程规划。云端“雁阵”系统承担全局调度与多机协同，这部分可以复用成熟的开源大模型能力。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,576" src="https://img.36krcdn.com/hsossms/20261106/v2_1e2c26b75e1b435683abd868a697bc4c@6022551_oswg166732oswg1080oswg576_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">端云架构（图源/企业）</p>
+  <p>这套端云架构的核心，是按任务特性分配算力与职责：强实时、强可靠的物理闭环留在端侧，复杂推理、全局协同、多机调度交给云端。端侧解决“能不能安全、稳定地动起来”，云端解决“多台本体如何协同、任务如何编排”。</p>
+  <p>对机器人的实际应用而言，可靠性是基础要求。端云协同的价值，正在于通过架构分层，在实时性、可靠性与成本之间取得平衡，并根据不同设备和场景的要求调整部署方式。</p>
+ 
+]]></description>
+            <pubDate>Sat, 07 Nov 2026 01:30:00 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4052696726328452</guid>
+            <link>https://www.36kr.com/p/4052696726328452</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了]]></title>
+            <description><![CDATA[<p>&nbsp;</p>
+  <p>11 月 5 日晚，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 公布了产品及社区最新进展。截至 11 月 4 日，以使用官方 API 的用户为统计范围，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 日活跃用户已达到 154 万，日消耗 Token 约 92 万亿。与此同时，平台第三方插件数量已增长至约 3.5 万个，约 60% 的活跃用户制作或安装了至少一款第三方插件。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,274" src="https://img.36krcdn.com/hsossms/20261106/v2_63c865a754a547e2b23c5b165c5bb44f@000000_oswg34613oswg1080oswg274_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 表示，希望成为 Agent 时代的操作系统，为用户提供稳定的基础能力和通用功能，而专业场景、特定行业及个性化需求则交由开发者通过插件实现。其提出的“一切皆插件”设计，甚至意味着内置功能也可以由第三方插件替换。</p>
+  <p>从 8 月 13 日发布 v0.1 版本至今，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 正在从一款 Agent 工具向开放式应用平台扩展。社区开发者已经围绕内容创作、设计、上下文管理和科研等场景，开发了大量第三方插件。</p>
+  <p>不过，随着插件数量增加，新的问题也开始出现：插件越多，Agent 是否真的越强？大量插件说明和工具规则会不会挤占模型上下文，增加执行成本？对于普通用户而言，究竟应该获得自由组合能力的空间，还是一套开箱即用的完整产品？</p>
+  <p>高度开放，但插件越多会让 Agent 越难用吗？&nbsp;</p>
+  <p><ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 高度开放的插件架构是其最有吸引力的地方：用户不必接受厂商预先定义的 Agent 工作流，而是可以根据自己的需求组合模型、工具、记忆和界面，搭建一套专属的工作环境。</p>
+  <p>有用户分享，自己此前主要使用 Hermes 处理通用任务、OMP 进行编程，但两款工具都难以完全满足其定制化需求。转向 <ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 后，他通过插件加入看板、主题、Token 优化、记忆、视觉连接器和浏览器等能力，不到一天就搭建出了一套符合自己工作习惯的 Agent 环境。更让他惊喜的是，同一个 Qwen 3.8 模型此前可能需要 24 小时才能找到的 Bug，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 速度更快。</p>
+  <p>还有用户正在尝试将 <ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 从单一工具扩展为通用 Agent 工作环境。</p>
+  <p>例如，有开发者推出 dsh-aio-agent，将 Cursor、Claude Code、Codex、OpenCode、CodeBuddy 和 <ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link> Code 等多款编码 Agent 接入 <ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>，用户可以在统一界面中选择不同工具执行任务；另有开发者通过 dsh-ltm 构建本地长期记忆系统，支持中文关键词检索、按项目划分记忆召回范围，以及记忆去重、修改和管理。</p>
+  <p>还有开发者推出 TheOne 插件，通过大模型识别用户消息所属的话题，并自动路由至对应的独立会话，避免多个项目和话题混杂在同一段对话中。还有社区项目使用 ESP32-S3 开发板作为 iPhone 的 USB 鼠标和键盘，同时通过 AirPlay 接收手机屏幕镜像，Agent 可以截图、点击、长按、滑动和输入文字，控制一台未越狱的真实 iPhone。</p>
+  <p><ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 的插件生态已经出现了非常多具有实际使用价值的应用。但另一方面，插件扩展能力的同时，也可能增加 Agent 的使用复杂性。</p>
+  <p>11 月 5 日，一位开发者分享了自己从“一切借插件”到主动删减插件的经历。他表示，自己曾经给 Agent 安装了 15 个以上的插件，但随着插件数量增加，系统反而出现无限循环、上下文溢出和 Token 消耗增加等问题。</p>
+  <p>在他看来，每增加一个插件，模型就需要额外理解相应的说明、使用规则和约束。如果大量插件的信息同时进入上下文，模型就不得不花费更多注意力处理工具本身，而不是专注于任务推理。他还提出，插件越多，Agent 的自由度未必越高，过多的预设工具和规则反而可能限制模型自主解决问题的空间。</p>
+  <p>不过有用户指出，在不影响核心能力、不会导致回归问题的前提下保持精简是可以的，但开发者首先得为自己的插件组合负责。“例如，如果我希望省 token，那么我根本不会安装活跃气氛的插件。在我看来，这些例子是转嫁自我责任的，你不能因为家里没装修好，就怪房地产商卖你毛坯房而不是精装房。”</p>
+  <p>此外，有用户指出，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 相比 Pi 的提示词体量偏大，建议借鉴其选择性披露机制，仅在需要时向模型提供对应插件的说明，而不是让所有插件信息始终占据上下文。</p>
+  <p>类似的担忧也出现在执行成本上。有用户表示，自己使用 <ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 完成一个小型项目时，Token 消耗超 OpenCode 的 20 倍，单个任务耗时 30 至 40 分钟，而 OpenCode 约 30 秒。这只是个别用户的体验，但至少反映出用户对调用工具成本的关注。</p>
+  <p>频繁迭代，插件治理远未结束&nbsp;</p>
+  <p>面对插件管理、上下文成本和使用门槛等问题，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 在过去几个月里已经进行了多轮版本迭代。梳理官方 GitHub Releases 可以发现，其优化方向正逐渐从提供插件扩展接口，转向完善插件的发现、安装、更新、依赖管理和运行监控。</p>
+  <p>10 月 15 日至 23 日，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 连续更新插件管理能力，先后支持自定义插件索引、版本兼容性检查，以及插件启停、卸载、依赖同步和热重载，并增加 Agent 辅助创建插件的入口。同时，v0.2.1-rc.1 开始支持极简模式下的长对话自动压缩，Web 和桌面端也可以通过&nbsp;/compact&nbsp;指令手动压缩上下文。</p>
+  <p>10 月 28 日发布的 v0.2.2-alpha.2，开始支持第三方插件包更新，并在热更新失败时尝试恢复旧版本，同时增加实验性的开发者统计插件，可以查看上下文、缓存、模型和工具耗时；11 月 3 日发布的 v0.2.2-alpha.3，进一步增加插件安装失败诊断和 Host 日志入口，区分安装失败与安装后启用失败，帮助用户定位问题。</p>
+  <p>11 月 4 日发布的 v0.2.2-rc.1，作为 0.2.2 系列首个候选版本，汇总了此前多个版本的改进，还优化了 Auto 自动审核在连续工具调用之间的历史上下文缓存复用，并在切换至上下文容量较小的模型时，先使用原模型压缩历史记录；同时为全局和项目级 AGENTS.md 设置独立字节预算，减少指令相互挤占。</p>
+  <p>从这些更新可以看出，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 已经开始回应社区提出的部分问题：插件发现和管理入口更加完善，依赖同步与热重载降低了维护成本，长对话压缩和缓存复用开始处理上下文与 Token 消耗，统计工具则让开发者能够观察 Agent 的实际执行成本。</p>
+  <p>不过，部分反馈显示，插件更新和配置恢复机制仍然存在不稳定因素。</p>
+  <p>11 月 5 日，一位 Windows 用户报告，自己将桌面端从 v0.2.1-rc.5 升级至 v0.2.2-rc.1 后，原先配置的 32 个第三方及本地插件包条目丢失，配置文件中的插件数量从 34 项缩减至 2 项。同时，由于一个本地化插件与新版本不兼容，应用首次启动直接失败。由于当时缺少更新前的自动配置备份，客户端也不支持版本回滚，用户只能手动恢复工作环境，整个故障修复过程耗时约 5 小时。</p>
+  <p>对于长期使用 Agent 的用户而言，插件不只是一个可以随时替换的小工具。用户可能已经围绕特定插件建立了自己的工作流，配置了 MCP 服务器、模型路由、Agent 预设和本地依赖。一旦升级过程中配置被覆盖，损失的就不仅是某个插件，而是此前积累的整套工作环境。</p>
+  <p>因此，插件生态还需要可靠的版本管理、依赖检查、配置保护、自动备份和故障回滚机制。尤其当 Agent 开始承担更复杂的工作时，用户对工作环境稳定性的要求会越来越高。</p>
+  <p>开发者扶持，着手建设插件市场&nbsp;</p>
+  <p>此次 <ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 公布的开发者支持计划，正是围绕生态持续建设展开。</p>
+  <p>官方表示，未来将进一步提升插件 API 的稳定性与兼容性，完善插件安全机制，并建设官方插件市场，让开发者能够更方便地上传插件，用户也能够更容易地发现和安装所需功能。</p>
+  <p>在开发者激励方面，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 正在筹备专门面向插件作者的支持计划，初步考虑通过 Token 激励、技术交流和作品推荐等方式，支持开发者探索新想法、持续完善已有作品。</p>
+  <p>不过，Token 激励能够降低开发者探索和测试的成本，却不能直接保证插件质量；作品推荐能够提高插件曝光度，也不意味着插件一定具备长期维护能力。对于平台而言，如何让开发者获得持续收益，让用户能够找到真正可靠的插件，并让不同插件在同一个 Agent 环境中稳定协作，才是生态能否持续发展的关键。</p>
+  <p><ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link> 目前已经初步形成了用户和开发者生态规模，下一阶段需要建立一套让插件持续运行、相互兼容并且容易使用的基础设施。官方插件市场除了提供分发渠道，还需要考虑插件审核、质量评级、版本兼容、权限管理和安全提示。否则，插件数量越多，用户筛选和维护的负担也可能越重。</p>
+  <p><strong>参考链接：</strong></p>
+  <p>https://mp.weixin.qq.com/s/xqyrRaiBpIcf0jeJzP7W0g</p>
+  <p>https://github.com/deepseek-ai/deepseek-harness/discussions/categories/show-your-plugins</p>
+  <p>https://github.com/deepseek-ai/deepseek-harness/discussions/12329</p>
+  <p>https://github.com/deepseek-ai/deepseek-harness/discussions/7374</p>
+  <p>https://github.com/deepseek-ai/deepseek-harness/discussions/12349</p>
+  <p>https://www.reddit.com/r/<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>/comments/1wqb9se/deepseek_harness_feedback</p>
+  <p><strong>声明：本文为&nbsp;InfoQ 原创，不代表平台观点，也不构成投资建议，未经许可禁止转载。</strong></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651296725&amp;idx=1&amp;sn=de299b4c3e493cf3b625ccfa52a4174d&amp;chksm=bc325dac076d2fc5a26a7e8d318691afec499613d14dbae83c9c209257214e3330a5bc7f2727&amp;scene=0&amp;xtrack=1#rd">“InfoQ”（ID：infoqchina）</a>，作者：褚杏娟，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 07 Nov 2026 00:46:54 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4057774236652417</guid>
+            <link>https://www.36kr.com/p/4057774236652417</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[Anthropic最强Model 4首次曝光：RSI狂飙2倍速]]></title>
+            <description><![CDATA[<p>&nbsp;</p>
+  <p>Anthropic藏得极深的<strong>神秘「Model 4」</strong>，曝光了！</p>
+  <p><strong>9到10月秘密练完</strong>，内部综合能力指数（A<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>I）直接飙上178.6的逆天高分，现有的考卷已经快要压不住它了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,809" src="https://img.36krcdn.com/hsossms/20261107/v2_8ebd0618c6e14c3fb09036faa663407e@1200352198_oswg479617oswg1080oswg809_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1058" src="https://img.36krcdn.com/hsossms/20261107/v2_5c63fdfdd9d54c488fb3f7573619219e@1200352198_oswg365614oswg1080oswg1058_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>就在今天，第三方评测机构METR甩出重磅调查。</p>
+  <p>连肝11周，深挖Anthropic内部敏感数据，最后只得出了一个结论——</p>
+  <p><strong>Anthropic模型的进化速度，已经彻底失控，直接原地翻倍。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,369" src="https://img.36krcdn.com/hsossms/20261107/v2_124fb33db8564562bd50a9402d437b97@1200352198_oswg107367oswg1080oswg369_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>报告里最炸的，是这几组数字。</p>
+  <p>截至10月，Anthropic在明确任务上的能力提升速度，已是2024年3月-2025年10月那段时间的2倍。</p>
+  <p>转折点，<strong>就落在2025年10月</strong>。</p>
+  <p>从那以后，内部能力指数A<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>I的增速直接拉到此前的1.9倍，<strong>一年就跑完了过去两年的路</strong>。</p>
+  <p>更恐怖的是，这波狂飙里，<strong>80%的推力居然来自AI自己</strong>！Claude正在亲手造出更强的Claude。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,436" src="https://img.36krcdn.com/hsossms/20261107/v2_b61cb168af764ecfb80857c124257f7d@1200352198_oswg185011oswg1080oswg436_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>METR研究员Ryan Greenblatt直言，「这份报告就是通向一两年内实现ASI的重磅信号」。</p>
+  <p>照这个速度下去，「AI 2027」剧本里的ASI，在短短的4个月后就会彻底降临！</p>
+  <p>&nbsp;</p>
+  <h2><strong>神秘Model 4突然现身</strong></h2>
+  <h2><strong>15张考卷刷爆50%</strong></h2>
+  <p>这份报告最抓眼的，就是一连串Anthropic从未公开过的神秘代号。</p>
+  <p>报告的附录中，METR列出了<strong>四款内部未公开模型</strong>。</p>
+  <p>它们分别是2022年练完的「Unreleased 2022」、2026年7月练完的Model 2、8–9月练完的Model 3，以及9–10月刚出炉的Model 4。</p>
+  <p class="image-wrapper"><img data-img-size-val="1073,293" src="https://img.36krcdn.com/hsossms/20261107/v2_a6ff6e7de4ec4364923030607f2cb7ea@1200352198_oswg65824oswg1073oswg293_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>真正把全网点燃的，正是这款上个月刚训完的Model 4。</p>
+  <p><strong>它在A<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>I上拿下了178.6分，远超公开模型Opus 5.5（174.5分）与Mythos 5.1（172.5分）。</strong></p>
+  <p><strong>A<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>I就像大模型的「高考总分」，把各科基准测试的卷面成绩折算成一个综合段位分。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,695" src="https://img.36krcdn.com/hsossms/20261107/v2_c46d91f3f75f4057acbbbb88fae99b73@1200352198_oswg85643oswg1080oswg695_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>再看单科，Model 4参加的15项基准测试，每一项正确率都过了50%。而就在9个月前，Opus 4.6还有不少基准没能过半。</p>
+  <p>但这还不是Model 4的真实极限！</p>
+  <p>METR团队甚至在报告里做了一次「除虫测试」，他们发现15个测试基准里有3个存在长尾过难或题目损坏的凹陷现象。</p>
+  <p>一旦把这3个干扰基准剔除重新计算，Model 4的A<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>I得分会进一步跳涨1.1分，冲上179.7分。</p>
+  <p>甚至在Token消耗量上，Anthropic内部测试也还没有把Model 4的潜能彻底榨干。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,737" src="https://img.36krcdn.com/hsossms/20261107/v2_176359f4359443518927501e55c47011@1200352198_oswg412564oswg1080oswg737_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>跑一次普通基准测试，单个任务平均就要消耗250万输入Token、生成7万多输出Token。</p>
+  <p>要是让Agent去写代码，单任务直接吃下整整1000万输入Token，输出也拉到9.4万Token。</p>
+  <p>更让METR评测人员感到棘手的是，<strong>现有的考卷已经快要测不出Model 4的极限了</strong>。</p>
+  <p>也难怪Anthropic在IPO前再次更新S-1招股书，专门新增了一条风险提示。</p>
+  <p>据内部估算，未来的模型很快就会触发「AI显著加速研发」阈值，1年就能干完过去2年的活儿。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1524" src="https://img.36krcdn.com/hsossms/20261107/v2_4e3810662fb94616a0e7ed4f837c0de1@1200352198_oswg793867oswg1080oswg1524_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Model 4就是最好的证明。至于图中的Model 3，网友推测它就是传闻中的Mythos 5.5。</p>
+  <p>&nbsp;</p>
+  <h2><strong>80%加速是AI自己</strong></h2>
+  <p>Model 4能冲上如此高分，背后是模型进化的速度正在明显加快。</p>
+  <p><strong>历史性拐点，停在了2025年10月7日。</strong></p>
+  <p>在这条分界线之前，Anthropic模型的A<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>I得分每年大约上涨15分。</p>
+  <p><strong>从2025年10月开始，这条曲线的走势直接猛拐向上，变成每年大涨29分，增速达到过去的1.9倍（95%置信区间在1.5倍到2.8倍之间）。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,896" src="https://img.36krcdn.com/hsossms/20261107/v2_118b29ea60d94a85bb4c08c4c9e2f35c@1200352198_oswg76156oswg1080oswg896_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Anthropic曾在今年8月的风险报告里提出一种温和假设，认为这只是启用新工具和新评测方法带来的一次性「台阶式跳跃」。</p>
+  <p>于是METR做了一组严格的盲测对比实验。</p>
+  <p>研究人员用Mythos 5及更早的模型数据画出两条预测线，再去盲测后来出炉的Model 2、Model 3、Opus 5.5和Model 4。</p>
+  <p>结果非常清晰。在81%的统计抽样中，按「长期持续提速」预测的误差只有1.9分，远比「一次性跳涨」更吻合真实数据。后者的误差高达3.9分。</p>
+  <p>2倍加速度，<strong>也就意味着过去短短1年时间里，Anthropic走完了过去整整2年的技术路程</strong>！</p>
+  <p>如果放在指数增长的维度下，原本每年翻3倍的指标，在2倍加速度下会变成每年狂翻9倍（3^2）！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,675" src="https://img.36krcdn.com/hsossms/20261107/v2_1c45d51bf55f45858d5cb468371e5b83@1200352198_oswg173859oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>为了查清这股推力从哪来，METR把算力、算法和人员投入拆开算了一笔总账。</p>
+  <p><strong>METR明确排除了「靠猛堆训练算力提速」的可能，因为2025年10月之后训练算力的增长率反而比以前更慢。</strong></p>
+  <p>真正的推手落在了研发端。</p>
+  <p>METR估算，当前约2倍的研发加速中，大约80%都来自AI自身的研发辅助，剩下的小部分才来自研究员人数增加和推理算力扩容。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,923" src="https://img.36krcdn.com/hsossms/20261107/v2_64ebd2e4f37543308df31a1769bc4b0a@1200352198_oswg65977oswg1080oswg923_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>&nbsp;</p>
+  <h2><strong>内部员工提速12倍</strong></h2>
+  <h2><strong>10个点子同时丢给Agent</strong></h2>
+  <p>既然外部还没有人能亲手测试Model 4，Anthropic内部研究员的日常实测就成了唯一的窗口。</p>
+  <p>METR在报告里公开了一张Anthropic内部非正式调查与Slack全员投票的趋势图。</p>
+  <p>2025年春天用3.7 Sonnet和Opus 4时，员工自报的效率提升还只有1.3倍到1.4倍。</p>
+  <p>到了今年6月的Mythos 5，自报提速跳到了5倍左右。</p>
+  <p><strong>等到今年10月用上Model 4，员工自报的研发提速已经冲到了约12倍，按指数拟合相当于每年暴涨3.9倍。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,675" src="https://img.36krcdn.com/hsossms/20261107/v2_b1323f60d703405aa27e94a407823482@1200352198_oswg53574oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>为了搞清这12倍是怎么来的，METR在9月底深度访谈了11位Anthropic一线技术研究员。</p>
+  <p>受访研究员J用三个阶段概括了他们工作流的变化。</p>
+  <p>第一阶段只是拿Claude当自动补全，顺手写点一次性小脚本。</p>
+  <p>第二阶段变成人类在旁边盯着单个Claude实例，让它开发完整功能。</p>
+  <p>到了现在的第三阶段，内部掀起了「全面Claude化」运动，研究员开始同时指挥一大群Agent并行跑实验。</p>
+  <p>受访研究员C、D和E透露，公司今年专门发起了内部悬赏，鼓励大家把平时不敢试的疯狂点子全交给AI Agent去跑。</p>
+  <p><strong>于是大家直接把10个研究点子同时丢给内部Agent系统，看看哪个能跑出结果。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,619" src="https://img.36krcdn.com/hsossms/20261107/v2_44ed68d62a604bd4a65dc7ac938aa430@1200352198_oswg187165oswg1080oswg619_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>受访研究员A表示，手写代码做实验原本很耗时间，靠Claude辅助后，从冒出想法到跑通实验的时间缩短了80%。</p>
+  <p>用这位研究员自己的话说：</p>
+  <p>我现在只卡在点子和算力上，再也不会卡在写代码上了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,344" src="https://img.36krcdn.com/hsossms/20261107/v2_6978ace6388146838c1b5fc4e357a92a@1200352198_oswg123997oswg1080oswg344_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>受访研究员B则估算自己整体提速了3倍，感觉就像手下突然多了几个随叫随到的博士后和研究生。</p>
+  <p>目前AI还没有完全独自接管最核心的模型训练设计，但多位受访研究员向METR证实，AI自主贡献核心训练已经出现了明显的「生命迹象」。</p>
+  <p>&nbsp;</p>
+  <h3><strong>自进化找不到刹车</strong></h3>
+  <p>整份评估里最具冲突感的一幕，藏在那些没有公开的页面里。</p>
+  <p>METR在官方帖中直言，他们向Anthropic提交了约100页的完整报告，但Anthropic在公开版中删掉了大部分信息量最大的核心证据。</p>
+  <p>翻开公开版报告，<strong>敏感位置到处都是「［REDACTED］」涂黑标记</strong>。</p>
+  <p><strong>其中一张原本用来预测Anthropic未来几个月新模型能力得分的表格，连同整段分析被整块涂黑。</strong></p>
+  <p>在METR看来，未来12个月内，无论是<strong>算法、算力还是数据，都没有看到任何会让这台加速机器停下来的明显瓶颈。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,579" src="https://img.36krcdn.com/hsossms/20261107/v2_f5f8b72b148e45eda087c07adbe7dc35@1200352198_oswg162811oswg1080oswg579_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>更强的Claude帮研究员省下80%的实验时间，省下来的时间立刻被用来孵化178.6分的Model 4。</p>
+  <p>而人类现有的考卷，已经快不够它刷了。</p>
+  <p>没看到瓶颈，也没找到刹车。而速度，还在翻倍。</p>
+  <p>参考资料：</p>
+  <p>https://x.com/METR_Evals/status/2118412183860351084</p>
+  <p>https://x.com/deredleritt3r/status/2118422855549358552</p>
+  <p>&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,662" src="https://img.36krcdn.com/hsossms/20261107/v2_e5d502689ece420fa69527b3ea0768c8@1200352198_oswg876619oswg1080oswg662_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/6Sb6LjiIk8efnmiAALWnGg">“新智元”</a>，作者：ASI启示录，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 07 Nov 2026 00:45:19 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4058973865825161</guid>
+            <link>https://www.36kr.com/p/4058973865825161</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[刚刚，OpenAI被曝完成110亿美元融资，CFO：数据中心还会继续建]]></title>
+            <description><![CDATA[<p>OpenAI 这轮备受瞩目的融资，终于阶段性落地了？</p>
+  <p>刚刚，彭博社援引知情人士消息称，OpenAI 已完成新一轮融资的首批交割，规模约 110 亿美元，本轮融资对应的公司估值为 1.25 万亿美元。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,935" src="https://img.36krcdn.com/hsossms/20261107/v2_3edfc58b235a4e06851cc8a7b72235e7@1200352198_oswg481523oswg1080oswg935_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>彭博社披露，这笔资金已于周五汇入公司，剩余部分预计在未来几周完成，届时整轮融资总额可能达到 200 亿美元。OpenAI 对此拒绝置评。也就是说，110 亿美元是据报已经完成的部分，200 亿美元仍是可能达到的总规模。</p>
+  <p>9 月底，外媒曾报道，OpenAI 希望募集至少 300 亿美元，寻求约 1.4 万亿美元的投前估值。这笔钱被视为推迟 IPO 之后的一轮过渡融资，为公司上市前继续提供资金支持。</p>
+  <p>到了 10 月底，《金融时报》报道称，OpenAI 已将融资目标削减约 100 亿美元，降至约 200 亿美元，目标估值也从 1.4 万亿美元降到 1.25 万亿美元。路透社转述称，部分投资者缩减了拟投资额度，首批交割预计无法一次达到调整后的 200 亿美元目标。</p>
+  <p>此次落地的 110 亿美元当然是一笔巨款，但它距离 OpenAI 最初设想的规模还有相当距离。与此同时，融资仍在进行，也不能拿首批交割金额直接当作整轮融资的最终成绩。</p>
+  <p>参与者也在逐渐浮出水面。彭博社最新报道提到，Coatue 和普信集团参与了首批交割；本轮其他投资者包括软银、红杉资本、Founders Fund 和 Andreessen Horowitz，另有阿联酋投资者组成的财团加入。OpenAI 还在与投资银行合作，向高净值个人及零售投资者募集资金。</p>
+  <p>随着本轮募资目标下调，市场关注的重点也自然落到了一个更实际的问题上：支撑这些数字的钱，从哪里赚回来？</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,621" src="https://img.36krcdn.com/hsossms/20261107/v2_9fa1c9a195be4945aba928425334148b@1200352198_oswg155912oswg1080oswg621_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>OpenAI 管理层给出的回应，则是需求还在，投资也得继续。</p>
+  <p>11 月 6 日，OpenAI 首席财务官 Sarah Friar 在加州举行的花旗 TMT 领导力峰会上接受采访。谈到美国中期选举后，数据中心面临的压力。她表示，公司仍需继续投资，以满足客户需求；既要依靠此前与大型云服务商建立的合作关系，也意味着接下来还会继续融资。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,614" src="https://img.36krcdn.com/hsossms/20261107/v2_2c973691158a44ca8a01a0e894dcf251@1200352198_oswg146263oswg1080oswg614_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>她还说了一句颇有 CFO 风格的话：「一个好的 CFO，总会在能融资的时候融资。」她明确表示，这轮融资仍在进行，并强调 AI 需求是真实存在的。</p>
+  <p>这番表态的背景是，数据中心建设已经成为美国地方政治中的争议议题。</p>
+  <p>根据 CNBC 引用的 Ballotpedia 分析及其补充统计，在此次中期选举涉及 10 个州的 41 项地方投票措施中，有 40 项的结果倾向于限制数据中心建设，或否决支持开发的措施。居民担心的事情很具体，包括电费上涨、环境影响，以及 AI 带来的就业压力。</p>
+  <p>对于 OpenAI 来说，这些争议直接关系到算力能不能按计划落地。融资可以支持扩张，但数据中心最终还要建在具体的社区里，接入当地的电网。</p>
+  <p>11 月 5 日，OpenAI 公布了一系列承诺，计划适用于未来由公司拥有和运营的数据中心：承担供电的全部成本、征求社区意见、公开建设计划，并停止在讨论未来选址时与公职人员签署保密协议。公司还提出政策建议，希望推动类似要求成为法律。</p>
+  <p>Friar 在采访中表示，如果选举意味着外界会更加关注数据中心与社区的关系，OpenAI 就会继续进入社区、建立信任。她并不认为选举结果让公司的业务发生了根本变化。</p>
+  <p>她同时透露，OpenAI 仍在研究 2027 年上市的可能性。据报道，该公司已于今年 6 月向美国证券交易委员会秘密提交招股文件。不过，考虑 2027 年上市，并不等于已经确定了上市时间。</p>
+  <p>这让眼前的融资进展更值得关注：在上市时间尚未敲定、基础设施投资仍要继续的情况下，新资本能给 OpenAI 增加多少腾挪空间，后续资金能否按预期到位，都还有待观察。</p>
+  <p>接下来，这轮融资最值得追踪的，是最终能否达到约 200 亿美元，以及公司如何把持续投入的算力，转化成能够支撑万亿美元估值的收入和盈利能力。</p>
+  <p>参考链接：</p>
+  <p>https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value</p>
+  <p>https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/Z96UJSfg8cfnh0RrGyOsTA">“机器之心”</a>，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 07 Nov 2026 00:06:06 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4058879839359873</guid>
+            <link>https://www.36kr.com/p/4058879839359873</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[不如《牛来》，谁在期待AI电影？]]></title>
@@ -2024,287 +2304,6 @@
             <pubDate>Fri, 06 Nov 2026 10:03:35 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4057954731857797</guid>
             <link>https://www.36kr.com/p/4057954731857797</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[腾讯阿里字节，最担心的事情发生了？]]></title>
-            <description><![CDATA[<p>国内AI办公市场，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>也开始来抢地盘了。</p>
-  <p>昨晚，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>公布了一组相当亮眼的数据：上线不到三个月，日活跃用户已经达到154万，每天消耗约92万亿Token。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,842" src="https://img.36krcdn.com/hsossms/20261106/v2_89739d62bc3e4b188b919d3a28b65a20@000000_oswg57520oswg1080oswg842_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,842" src="https://img.36krcdn.com/hsossms/20261106/v2_ae683c2fb5034194aae6a60de7458e96@000000_oswg56464oswg1080oswg842_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这个成绩，比我预想的要快不少。</p>
-  <p>毕竟现在国内AI办公市场已经挤满了大厂。腾讯有<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>，阿里有<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公，字节有<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>，百度有搭子。</p>
-  <p>相比这些产品，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>推出时间较晚，虽然已经具备办公和代码两大模式，能够完成文档、表格、PPT、编程等常见任务，但在功能丰富度、产品界面和用户体验上，还有不少需要完善的地方。</p>
-  <p>更关键的是，Harness目前使用模型通常还需要自己承担API费用，免费使用的门槛比另外几家高出不少。</p>
-  <p>可即便如此，它还是做到了154万日活。</p>
-  <p>如果接下来<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>继续完善产品，再推出免费额度或者Agent Plan套餐，它有没有可能冲进国内AI办公前三或者第一呢？</p>
-  <h2><strong>01、上线不到三个月，日活154万</strong></h2>
-  <p>先看看<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>的发展速度。</p>
-  <p>今年8月13日，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>推出v0.1版本，9月29日正式发布桌面客户端。截至11月4日，日活跃用户已经达到154万，每天消耗约92万亿Token。</p>
-  <p>这里需要特别说明，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>是一款独立的AI Agent产品，和大家熟悉的<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>聊天App并不是同一个东西。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20261106/v2_eca8399235eb4760a3e1945ec3317f21@000000_oswg63310oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>主App拥有庞大的用户规模，而这次披露的154万日活，统计范围是使用官方API的Harness用户，也不能简单理解为桌面客户端的独立日活。</p>
-  <p>从第一个版本发布到现在，还不到三个月。对于一款刚进入AI办公市场的产品来说，这个成绩已经相当不错。</p>
-  <p>那么，154万日活，放在国内AI办公市场究竟是什么水平？</p>
-  <h2><strong>02、腾讯、阿里、百度，日活可能有多少？</strong></h2>
-  <p>QuestMobile此前发布的2026年第三季度AI应用市场报告，公布了几款主流AI办公产品的月活数据。</p>
-  <p>截至9月，腾讯<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>月活3235.3万，百度搭子977万，阿里<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公790.5万，字节<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>204.9万。</p>
-  <p class="image-wrapper"><img data-img-size-val="960,598" src="https://img.36krcdn.com/hsossms/20261106/v2_b429fcc8e339400d87a6049339c43b5d@000000_oswg93326oswg960oswg598_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>腾讯<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>的领先优势相当明显，百度和阿里紧随其后。</p>
-  <p>不过，这几个数字都是月活，而<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>公布的是日活，直接比较肯定不合理。</p>
-  <p>我们不妨做一次数据推演。</p>
-  <p>假设这几款AI办公产品的日活/月活比率为15%，那么<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>日活约485万，百度搭子约147万，<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公约119万，<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>约31万。</p>
-  <p>有意思的地方来了。</p>
-  <p>按照这个假设，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>的154万日活，甚至已经超过了百度搭子、<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公和<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>的估算值，已经妥妥排名第二了。</p>
-  <p>如果把日活/月活比率提高到20%，情况又不同了。</p>
-  <p><ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>日活约647万，百度搭子约195万，<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公约158万，<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>约41万。</p>
-  <p>这时候<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>会落在<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公后面，但两者只差约4万日活。</p>
-  <p>当然，上面只是基于公开月活数据做的情景预测，15%和20%都是假设值，并非真实统计结果。而且竞品月活来自9月，Harness日活来自11月，统计范围也不完全一致，所以暂时不能据此确定真实排名。</p>
-  <p>但从用户量级来看，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>已经具备挑战国内AI办公头部产品的可能性。</p>
-  <p>而且，它还有一个特别值得关注的地方。</p>
-  <h2><strong>03、DeepSeek还有一个劣势：用起来得花钱</strong></h2>
-  <p>仔细研究<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>的产品机制，会发现它目前还有一个明显的增长门槛。</p>
-  <p>模型调用通常需要付费。</p>
-  <p>Harness软件本身免费开源，但使用官方模型，需要通过<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>开放平台账户充值。如果用户选择其他模型，也可以自行接入<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>、<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>、GLM等第三方模型API，费用按照相应服务商的规则计算。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,522" src="https://img.36krcdn.com/hsossms/20261106/v2_91413a1a4d884ae48bd099e7921e732c@000000_oswg29393oswg1080oswg522_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,860" src="https://img.36krcdn.com/hsossms/20261106/v2_480d63ad9ff946d292e82de510a2863d@000000_oswg48876oswg1080oswg860_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>当然，如果接入第三方免费模型，或者已经购买了其他模型套餐，也有机会降低使用成本。</p>
-  <p>但对于普通用户来说，配置模型、理解Token计费，本身就增加了使用门槛。</p>
-  <p>再看看国内其他几家AI办公产品。</p>
-  <p>腾讯<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>已经提供免费体验额度以及积分领取渠道，百度搭子有每日签到领取积分的活动，字节<ai-product-link data-id="15159" data-name="豆包工作" data-logo="https://img.36dianping.com/20260825/v2_a95384cf3e9c4ee194a862ee0d5c2c09_oswg14650oswg430oswg430_img_000" data-classify-list="大厂出品,效率工具,办公辅助" data-refer-type="20">豆包工作</ai-product-link>最近也推出了签到福利，累计签到30天可以获得8800额度。</p>
-  <p>阿里<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>办公同样提供免费积分及部分会员模型权益。</p>
-  <p>各家的免费政策并不完全相同，有些还是限时活动，但方向很明确：尽可能降低用户第一次使用AI办公产品的成本。</p>
-  <p><ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>目前在这方面明显还有提升空间。</p>
-  <p>一个模型调用通常需要付费、产品体验还不算完善的Agent，已经积累了154万日活。如果哪天<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>也开始大规模送免费额度，会怎么样？</p>
-  <p>我觉得这个问题值得腾讯、阿里、字节和百度认真考虑。</p>
-  <p>比如，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>每天签到赠送一定Token，让普通用户免费完成几份文档、表格或者PPT任务。</p>
-  <p>再比如，默认接入部分第三方免费模型，简单任务用免费模型解决，复杂任务再调用更强大的付费模型。</p>
-  <p>甚至还可以推出类似Agent Plan的订阅套餐，每个月支付固定费用，享受一定额度内的Agent任务调用服务。</p>
-  <p>对于普通用户来说，固定订阅显然比每次都要估算API费用更容易接受。</p>
-  <p>目前<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>并没有宣布这些计划，上述几种模式都只是产品发展方向的猜想。</p>
-  <p>但站在产品经理的角度，这些都是值得考虑的增长手段。</p>
-  <p>尤其是在已经拥有154万日活的情况下，如果再降低使用门槛，配合办公功能的持续完善，Harness确实有机会获得更多普通用户。</p>
-  <p>当然，免费额度背后是真金白银的模型成本，Agent任务越复杂，消耗的Token往往越多。<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>能不能承担补贴，以及如何把免费用户转化成长期付费用户，同样是需要解决的问题。</p>
-  <h2><strong>03、5万个插件，DeepSeek开始走生态路线</strong></h2>
-  <p>除了用户增长，<ai-product-link data-id="15145" data-name="DeepSeek Harness" data-logo="https://img.36dianping.com/20260814/v2_ace0217f238749c0aa3271952a50e976_oswg2962oswg430oswg430_img_000" data-classify-list="开发者工具,编程辅助" data-refer-type="20">DeepSeek Harness</ai-product-link>还有一个值得关注的优势：插件生态。</p>
-  <p>根据最新官方数据，Harness第三方插件数量已经达到约3.5万个，约60%的活跃用户制作或安装了至少一款第三方插件。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,842" src="https://img.36krcdn.com/hsossms/20261106/v2_70a27863b9df49079f72e5de5004d4c0@000000_oswg62641oswg1080oswg842_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这个数据挺牛X，说明不少用户已经开始主动探索和扩展Harness的能力，甚至自己动手制作插件。</p>
-  <p><ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>采用的是“一切皆插件”的架构，开发者可以根据自己的需求扩展功能，甚至通过第三方插件替换部分内置能力。</p>
-  <p>这次<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>还宣布，接下来将建设官方插件市场，并通过Token激励、技术交流、作品推荐等方式支持插件开发者。</p>
-  <p>颇有几分AI时代AppStore的味道了。</p>
-  <p>现在腾讯、阿里、字节都在拼命丰富自家AI办公产品的功能，同时借助微信、企业微信、钉钉、飞书等生态，争夺用户的工作入口。</p>
-  <p><ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>没有这些成熟的办公软件和组织协作体系，想要追赶大厂，难度确实不小。</p>
-  <p>但如果越来越多的第三方开发者愿意为Harness制作插件，那它可以覆盖的业务场景就会越来越丰富。</p>
-  <p>甚至以后用户需要什么功能，直接去插件市场找一个装上就行。</p>
-  <p>当然，3.5万个插件不代表3.5万个成熟好用的产品。插件的安全性、兼容性以及质量控制，都是<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>接下来必须解决的问题。</p>
-  <h2><strong>04、DeepSeek成立产品部，开始认真做产品了</strong></h2>
-  <p>还有一件事，我觉得不能忽略。</p>
-  <p>10月16日，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>整合成立产品部，将Harness、Web、App、Platform等团队纳入统一管理，由崔添翼负责。</p>
-  <p>这位负责人此前曾在Jane Street工作九年，今年3月加入<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>，负责Harness相关业务。</p>
-  <p>对于<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>来说，这是一次值得关注的组织调整。</p>
-  <p>过去大家提到<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>，首先想到的是大模型能力。至于产品体验，似乎一直没有模型本身那么受关注。</p>
-  <p>但模型再强，普通用户最终还是要通过产品来使用。</p>
-  <p>尤其是AI Agent，涉及文件操作、工具调用、任务执行、工作流管理，产品体验的重要性只会越来越高。</p>
-  <p>现在DeepSeek专门成立产品部，并将Harness纳入统一管理，后续在功能丰富度、界面交互、模型接入以及插件生态方面，应该都会有更多动作。</p>
-  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261106/v2_6475d0cf97eb4d24a4e1b761d3c87859@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261106/v2_76888513dfe94a4295ef1f9c28fb4118@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">图片来自DeepSeek公众号</p>
-  <p>在这次官方公告中，DeepSeek甚至提出，希望将Harness打造为Agent时代的操作系统。</p>
-  <p>这个目标确实不小。</p>
-  <p>如果未来用户可以像安装App一样安装各种Agent插件，通过一个入口完成办公、编程、数据分析、设计乃至企业业务流程，那Harness的想象空间就远不止一款AI办公软件了。</p>
-  <p>不过，理想很丰满，现实中的竞争也非常激烈。</p>
-  <p>腾讯有企业微信，阿里有钉钉，字节有飞书。这些大厂不缺办公入口，也不缺资金和技术团队。</p>
-  <p>DeepSeek想要进入普通用户的日常工作流程，还需要持续完善产品体验，让用户愿意每天打开它，而不仅仅是尝鲜。</p>
-  <p>但一个推出不到三个月、模型调用通常还需要付费的AI Agent，已经做到了154万日活，这个增长速度已经足以让其他厂商瑟瑟发抖了。</p>
-  <p>如果接下来DeepSeek把产品体验补齐，再推出免费额度或者Agent Plan套餐，国内AI办公市场的竞争恐怕会更加激烈。</p>
-  <p>至于DeepSeek Harness能不能冲进前三，可能没啥悬念了。</p>
-  <p>资料参考：DeepSeek Harness公众号及用户协议、QuestMobile《2026年第三季度AI应用市场报告》、竞品日活测算仅为情景分析，不代表官方统计数据。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&amp;mid=2651934138&amp;idx=1&amp;sn=215ce6812c8bcda5a4354f6f22800789&amp;chksm=bcd98ab28a8b1cdfff7deffc25bf66a3ff9fa68d81d0a6d4cc888ec51c28e4d296c7e26620fd&amp;scene=0&amp;xtrack=1#rd">“人人都是产品经理”（ID：woshipm）</a>，作者：怪哥，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 06 Nov 2026 09:45:56 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4057963796059017</guid>
-            <link>https://www.36kr.com/p/4057963796059017</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[姚顺雨摇人]]></title>
-            <description><![CDATA[<p>“这会不会是腾讯AI史上非常重要的一年？”</p>
-  <p>伴随新模型Hy4发布，讨论声涌来。在此之前，腾讯混元发布模型时表述都较平实谦逊，但这一次发布博客中却颇有信心写道：Hy4已跻身全球第一梯队开源模型行列。</p>
-  <p>底气聚焦在姚顺雨身上。这位1998年出生的年轻人，2025年底正式任腾讯首席AI科学家，彼时接手能力尚缺的Hy2，主导推出Hy3 preview、Hy3、Hy4 preview，再到Hy4。至今一年时间，腾讯似乎成了那个“模型能力进步最迅猛的互联网大厂”。</p>
-  <p>由此，对的人至关重要。Hy4发布同日，姚顺雨执掌的腾讯混元也上线招聘，包括社招以及青云课题——招聘官网显示，青云课题涵盖逾160个岗位，而混元社招有60余个岗位。</p>
-  <p>AI竞争是一场漫长的马拉松。成事在人，腾讯无疑深有体会。</p>
-  <h2><strong>腾讯追上来，正在招兵买马</strong></h2>
-  <p>外界开始感受到腾讯AI真的上桌了。</p>
-  <p>本次发布的Hy4，进一步扩大预训练和后训练规模，相比三个月前的Hy4 preview，Hy4首次“睁眼”，引入视觉理解能力。在参数规模上，Hy4相较于Hy3总参数规模翻倍为770B，并首次支持电脑操作。</p>
-  <p>专业金融分析是一项重点升级。混元找来213位金融专家，围绕基金研究、证券分析和量化策略等场景做了579个真实任务众测。结果显示，Hy4正式版综合得分为3.04，排在参评开源模型第一位。</p>
-  <p>这一次，官方直接喊出“为真实生产力而生”的定调口号。作为混元负责人的姚顺雨在社交平台上转发时同样不掩肯定：<strong>为我们在过去一年时间里取得的成就自豪。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,739" src="https://img.36krcdn.com/hsossms/20261106/v2_da5ebbd963fb4bdaa97221656b81f485@000000_oswg70539oswg1080oswg739_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>不过，混元团队仍留以谦虚，称尽管Hy4已经是目前最强的开源模型之一，但与顶尖闭源模型仍然存在较大差距，将持续稳健地扩展预训练和后训练规模，努力缩小差距。</p>
-  <p>值此备受瞩目之际，腾讯混元顺势放出岗位招募启事：</p>
-  <p>青云课题方面，招募校招和实习生，需求部门包括基础模型部、AI Infra部、AIData部，其招聘官网显示共有165个岗位在招；社招岗位则包括基础模型部、AI Infra部等，官网显示共60余个岗位在招。我们注意到，<strong>绝大多数社招岗位信息均更新于2026年10月至11月。</strong></p>
-  <p>招兵买马，并不稀奇。过去一年多时间里，处于追赶状态的腾讯混元持续高薪纳人才，例如田永龙、蔺旭东等核心陆续加入。The Information就曾报道，腾讯以双倍薪水积极挖角字节部分核心研究员，对博士应届生开价比行业平均高出50%。今年7月，姚顺雨本人也在社交平台上为混元AI4S招人，称“Hyai4S is hiring”。</p>
-  <p>如今，Hy4赶上来，对人才密度的需求不会停止。但可以感受到变化：今年下半年来，包括混元在内的国内基模团队，招聘要求显著变高，“今年更难进了”。</p>
-  <h2><strong>姚顺雨这一年</strong></h2>
-  <p>如此迅速跻身国内第一梯队水平，仅仅在这一年间。</p>
-  <p>姚顺雨被认为是那个逆转局面的角色。在此之前，腾讯是国内大厂中最晚推出自研大模型的一家，这也让腾讯一度陷入没有拿到AI船票的焦虑与尴尬里，今年5月的股东大会上，连马化腾也复盘道：“原来一年前，我们以为上了船，后来发现那个船漏水了”。</p>
-  <p>直到2025年底，一个充满变革意味的决定做出——腾讯正式宣布任命1998年的姚顺雨为CEO/总裁办公室首席AI科学家。这位天才少年的履历也迅速为外界所关注：</p>
-  <p><strong>安徽合肥人，高中就读于合肥一中。2015年，姚顺雨以704分的高考成绩进入清华姚班，学习计算机科学，师从清华学长、深度学习大牛吴佳俊，开始系统性接触通用人工智能；</strong></p>
-  <p><strong>2019年，姚顺雨赴普林斯顿大学读博，原本主攻计算机视觉，但姚顺雨认为自然语言处理更有潜力，改道自然语言处理与强化学习，结识了导师Karthik Narasimhan。此时，赫赫有名的Transformer架构横空出世已经两年，自然语言处理正值热门方向。</strong></p>
-  <p>博士毕业后，姚顺雨于2024年加入OpenAI，参与Operator、DeepResearch和计算机使用智能体等重点项目研发。到腾讯把姚顺雨从OpenAI挖过来时，他其实还只有一年工作经验。</p>
-  <p>但腾讯很笃定，为这位AI人才提供前所未有的薪酬水平和入职规格。</p>
-  <p>2025年12月姚顺雨加入，3个月后，存续10年的AI Lab撤销，核心研发人员并入混元。今年7月，合并大语言模型部和多模态模型部，成立基础模型部，姚顺雨统一管理。如今，姚顺雨除了手握基础模型部、AI Infra部两大部门之外，还成为AI Data部负责人，完整覆盖混元大模型全链路。</p>
-  <p>不到一年，姚顺雨开始交卷。</p>
-  <p>7月发布的混元Hy3，可以看作是姚顺雨加入腾讯后的第一张成绩单，但彼时不止腾讯内部，外界对姚顺雨及混元Hy3的期待还只是“走出谷底，走到赛道上来”。如今的Hy4，则更加有一种开始展露实力乃至诚意的意味。</p>
-  <p>“比Hy3乃至Hy4 preview提升非常大，进入国模top3没有悬念”，一位业内人士实测感叹。外界期待，不出意外，Hy5的总参数规模会上T了。</p>
-  <h2><strong>全面开战</strong></h2>
-  <p>AI竞争是一场漫长的马拉松。</p>
-  <p>于腾讯而言，面对市场格局未定、商业模式尚在演进的AI下半场，基模追上来，该发挥场景这张最厚的底牌——作为拥有大量to C和to B产品的互联网大厂，腾讯连接着真实用户、具体的场景需求以及业务流程。</p>
-  <p>承接力度最明显的，是今年三月腾讯推出的AI智能体办公助手<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>。据悉，目前中国500强企业中已有超过50%在使用<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>，100强企业中则已覆盖六成。在腾讯内部，<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="AI助理,效率工具,办公辅助" data-refer-type="20">WorkBuddy</ai-product-link>被视为QQ、微信之后的下一个战略级产品。</p>
-  <p>“<strong>起得早固然重要，熬得久才有机会抓住持续出现的新机遇</strong>。”近日，腾讯集团高级执行副总裁汤道生在回应腾讯AI“步调偏慢”时说起。</p>
-  <p>毕竟，AI时代没有永远的领先者。</p>
-  <p>仍记得两年前，各家都在比拼参数规模、训练数据和算力投入，竞争焦点在推理、代码、长文本、图像和视频生成上。再到2025年，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>-R1、OpenAI o系列等模型，让复杂推理成为竞争重点，行业开始重视调用价格、响应速度和实际效果。</p>
-  <p>而到了今天，AI的竞争正在从单纯追求模型能力，转向模型、智能体、基础设施、商业化和安全治理之间的全面竞争。最直观的是，AI投入也愈发大手笔。</p>
-  <p>仅看国内大厂，市场流传字节2026年AI投资预算接近1600亿元，阿里则宣布三年内在AI及云计算领域投入3800亿元并追加资本开支，腾讯方面单季在AI基础设施上的投入也超过千亿元。<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>今年前7个月在AI基础设施相关的支出上花费了约110亿元，比2025年暴增了10倍。</p>
-  <p>追逐投资规模后，必然会开始审视回报。对于大厂AI一号位的年轻人们，水大鱼大，风大也雨大，这场影响巨头命运的竞争才刚刚开始。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247744318&amp;idx=1&amp;sn=821967670e440730ca8ea27bafcbac92&amp;chksm=ed58f403e10cefe6d52ce7b66ca7763eb4a477ee90ef09060d1a03b95426b6df379481a7101c&amp;scene=0&amp;xtrack=1#rd">“投资界”（ID：pedaily2012）</a>，作者：冯雨晨，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 06 Nov 2026 09:33:14 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4057963458974857</guid>
-            <link>https://www.36kr.com/p/4057963458974857</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[世界模型「云游戏」问世，李飞飞World Labs出品]]></title>
-            <description><![CDATA[<p>今天，AI 圈的人在打游戏。</p>
-  <p class="image-wrapper"><img data-img-size-val="600,332" src="https://img.36krcdn.com/hsossms/20261106/v2_003a27e9c2ba4584a6ff87da63788caa@6100851_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
-  <p>李飞飞的创业公司 World Labs 推出了自己的第一个「应用」<strong>Frameboy</strong>，由&nbsp;<strong>AI&nbsp;实时生成第一人称画面</strong>，把生成式 AI 变成了一种可以直接探索的体验。</p>
-  <p>Frameboy 是一个 Atlas 世界模型的优化演示版，使用云端 GPU 的流式传输，<strong>帧率最高可以达到 15 fps</strong>。实测出来模型的响应时间大概只有<strong>&nbsp;70ms</strong>，已经很接近云游戏了。</p>
-  <p>体验链接：https://frameboy.worldlabs.ai/</p>
-  <p>它目前提供精选场景供用户探索，包括各种真实世界中的风景、赛博朋克空间以及斯坦福大学的校园等。这些场景有的是从一张图片出发，让 Atlas 脑补出其他视角，逐步构成一个可探索的环境，也有的是输入了同一地点的多张照片，再由模型生成照片之间、以及照片之外的新视角。</p>
-  <p class="image-wrapper"><img data-img-size-val="1078,455" src="https://img.36krcdn.com/hsossms/20261106/v2_40e876eb13ee49e3ab7adf524e7ab7ab@6100851_img_gif?x-oss-process=image/quality,q_80" referrerpolicy="no-referrer"></p>
-  <p>World Labs 还在 beta 网络应用 Viewfinder 中直接集成了 Frameboy 作为流媒体覆盖渲染模式，这让用户能够用<strong>自己的输入内容逐帧构建场景</strong>，然后在实时中探索和扩展虚拟的世界。</p>
-  <p>就像使用摄像机一样，你可以从不同的视角导航并生成 3D 一致的世界视图。每一帧都由 Atlas 生成，包含颜色和深度信息。准备就绪后，用户可以触发 Frameboy 叠加层，在探索过程中实时播放生成的帧。</p>
-  <h2><strong>Atlas：从一张照片，推演出一个三维世界</strong></h2>
-  <p>要理解这次 Frameboy 实时演示的意义，首先需要看看它背后的&nbsp;<strong>Atlas</strong>&nbsp;究竟是什么。</p>
-  <p>今年 9 月 1 日，李飞飞创立的 World Labs 正式发布 Atlas，这是一个从头开始预训练的通用世界模型，能够处理文字、图像、视频和三维空间信息。与主要生成连续画面的视频模型不同，Atlas 试图解决一个更复杂的问题：如果摄像机移动到另一个位置，眼前的世界应该是什么样子？</p>
-  <p>World Labs 在发布时展示了一个很直观的例子。</p>
-  <p>研究人员先向 Atlas 提供一张花园的照片，要求它生成从空中俯瞰这片区域的画面。由于原始照片只包含花园的一部分，模型虽然重现了已有景物，却不得不自行推测周围的房屋和环境。</p>
-  <p>随后，研究人员加入第二张照片，展示花园旁边的一座小屋。这一次，Atlas 生成的画面同时包含花园和小屋，但更远处的建筑仍由模型自行补全。直到第三张照片加入，展示附近的主屋，模型才将整个场景重建得更接近真实环境。</p>
-  <p class="image-wrapper"><img data-img-size-val="1328,744" src="https://img.36krcdn.com/hsossms/20261106/v2_9f73d831e8fa47a1a9ea966a309c2976@6100851_oswg1002636oswg1328oswg744_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这个过程展示了 Atlas 的一个重要特点：它既能根据有限的图像重建已经观察到的空间，也能利用训练中学到的世界知识，推测镜头之外可能存在什么。</p>
-  <p>World Labs 将其核心机制称为<strong>「空间上下文」（Spatial Context）</strong>。</p>
-  <p>简单来说，Atlas 不只是识别图片中有哪些物体，还会将每张图片与摄像机在三维空间中的位置、朝向关联起来。当用户指定新的观察位置时，模型便根据已有的空间信息，生成从这个位置应该看到的画面。</p>
-  <p>这也是 Atlas 与普通视频生成模型的一个重要区别。后者通常依靠「向左移动镜头」「绕着人物旋转」等文字描述控制运镜，而 Atlas 可以直接接收精确的摄像机位置和角度，让用户明确指定观察世界的视角。</p>
-  <p>在技术架构上，Atlas 采用<strong>多模态自回归扩散 Transformer</strong>。它结合了语言模型和扩散生成模型的思路：将文字、图像、摄像机位姿和深度信息组织成统一的空间上下文，再逐步生成新的画面及空间数据。</p>
-  <p>在最初的演示中，用户已经能够预先设计摄像机路径，让 Atlas 生成最长一分钟、最高 1440p 分辨率的视频，并在不同镜头之间尽可能维持场景的一致性。</p>
-  <p>但 Atlas 的能力并不止于生成视频。</p>
-  <p>它还可以<strong>同时生成图像与深度信息</strong>，并输出点云、3D Gaussian Splatting（三维高斯泼溅）等三维表示。换句话说，模型不仅能够呈现某个角度的画面，还能产生可供三维渲染、空间重建等工作流程使用的数据。</p>
-  <p>例如，研究人员曾使用三到五部普通手机和运动相机，从不同角度拍摄同一场景。Atlas 根据这些画面重建空间，使用户可以在动作发生的同一时刻切换观察角度，实现类似电影《黑客帝国》中<strong>「子弹时间」</strong>的效果，而不必部署传统的大规模多机位拍摄系统。</p>
-  <p class="image-wrapper"><img data-img-size-val="1320,752" src="https://img.36krcdn.com/hsossms/20261106/v2_e446bf28a12b4953b4a101c2107d9023@6100851_oswg1003452oswg1320oswg752_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>另一个应用方向是<strong>机器人仿真</strong>。研究人员可以通过手机视频记录真实环境，再利用 Atlas 重建空间，并生成机器人沿不同路线移动时，其机载摄像头可能观察到的画面和深度数据。这为利用少量真实记录构建机器人模拟环境提供了新的方法。</p>
-  <p>现在，Frameboy 的出现让人们基于世界模型的创作方式发生了改变，我们可以边移动边观察，边决定下一步。这种体验在电影勘景、空间概念设计、游戏关卡的构思上都具有潜力。</p>
-  <p>参考内容：https://www.worldlabs.ai/blog/atlas-realtime</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651072640&amp;idx=3&amp;sn=52917d7d6f2663f8f3276ce4ae36cbb6&amp;chksm=856d6417b70933ea18bed667d1b0bd02115f6659f76073970596c7c9ccd7d7c0043558cec42a&amp;scene=0&amp;xtrack=1#rd">“机器之心”（ID：almosthuman2014）</a>，编辑：Neo、泽南&nbsp;，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 06 Nov 2026 09:31:29 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4057974684292233</guid>
-            <link>https://www.36kr.com/p/4057974684292233</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[快手孵化潜力独角兽：又融资10亿]]></title>
-            <description><![CDATA[<p>11月4日，快手孵化的凌川科技宣布，完成10亿元B轮融资。</p>
-  <p>凌川科技给视频平台造"压缩芯片"，帮它们省带宽、省钱。创始人刘凌志曾任快手副总裁，带队造出的SL200视频芯片累计卖出近10万颗，覆盖了快手99.7%的直播相关业务。</p>
-  <p>"如果没有快手这样的大后方，估计没有几家创业公司会选择这个方向。"头部芯片公司创始人郝易（化名）告诉铅笔道。</p>
-  <p>在他看来，视频芯片创业最难的，是有没有足够大的客户，愿意长期买单。</p>
-  <h2><strong>为快手造芯，到融资10亿</strong></h2>
-  <p>2018年，快手日活跃用户突破1亿，服务器成本压力剧增。同年，刘凌志加入快手，担任副总裁，组建异构计算与芯片团队。他是上海交通大学博士、美国华盛顿大学博士后，曾在华为、英特尔任职。</p>
-  <p>两年后，快手正式立项自研芯片。目标很明确：专门造一颗处理视频编解码的芯片，把成本打下来。</p>
-  <p>2023年，团队研发的SL200芯片已在快手内部部署数万颗。刘凌志此前接受36氪采访时透露，芯片带来的成本节省超出预期。</p>
-  <p>2024年3月，北京市人工智能基金与快手集团共同发起设立凌川科技，原团队从快手拆分出来，刘凌志出任董事长兼CEO。</p>
-  <p>此后融资一路加速：2025年7月完成数亿元A轮，2026年6月又拿到数亿元A+轮，不到半年，10亿元B轮接上。本轮由亦庄国投屹唐盛和基金、启明创投、朝晖资本联合领投，20家新老投资方里，国资和产业资本占了大半。</p>
-  <p>在芯片国产替代的背景下，一家从互联网大厂肚子里长出来的芯片公司，成了国资眼中的稀缺标的。</p>
-  <p>作为资本市场的香饽饽，郝易认为，凌川科技的优势不只是技术。"重点是应用场景在哪里，客户的需求是什么。"</p>
-  <p>他告诉铅笔道，视频芯片研发需要持续投入，但真正拥有大规模需求的客户并不多。没有足够大的客户支撑，创业团队很难长期做下去。</p>
-  <p>凌川科技背靠快手，在寻找外部客户之前，就在快手业务中部署了数万颗。</p>
-  <h2><strong>卖出近10万颗，赚钱的账还要细算</strong></h2>
-  <p>凌川科技卖的究竟是什么？</p>
-  <p>目前已经规模应用的SL200，主要负责视频编解码、转码。一个主播开播，平台要把画面实时转换成不同清晰度的视频流，让不同网速的观众都能流畅观看。直播间越多，后台要处理的视频流就越多——对平台来说，降低每一路视频的成本，就是实打实地省钱。</p>
-  <p>SL200瞄准的正是这笔开支。</p>
-  <p>这颗芯片的技术成色，有过公开检验。在MSU世界编码器大赛中，SL200连续三届拿下商业化赛道第一，压过英伟达、英特尔的同期方案。据36氪报道，单颗SL200可以处理36路视频任务，相较传统方案节能约30%，单路处理成本降低约40%。</p>
-  <p>凌川科技披露，SL200累计销售近10万颗，已部署到快手、阿里云、百度云、哔哩哔哩等客户场景。今年以来，产品还通过合作伙伴进入数据中心、智慧安防等领域。</p>
-  <p>但拆开看，这门生意的账本并不轻松。</p>
-  <p>公司没有披露过收入和利润，能确认的出货量只有一个数字：累计近10万颗。而芯片从设计、流片到量产，每一代投入都以亿元计——这10亿元B轮融资的大头，正是下一代芯片的研发与量产。</p>
-  <p>客户结构，是另一笔要细算的账。快手99.7%的直播相关业务跑在SL200上，说明"娘家"仍是绝对基本盘；外部客户名单里虽有阿里云、百度云、B站，但各自贡献多少，公司没有披露。对一家从母体拆分出来的创业公司来说，这是估值故事里最敏感的一环。</p>
-  <p>这门生意的难点，恰恰在客户身上。</p>
-  <p>郝易告诉铅笔道，大规模视频处理需求主要集中在头部互联网平台、云服务商，以及部分公安安防客户。"你很难找到真实的客户，找到需求量足够大的客户来支撑你做这件事。"</p>
-  <p>一方面，客户数量有限；另一方面，这些客户对芯片的要求又很高。视频处理设备必须长时间稳定运行，一旦客户已经采用某套成熟方案，新供应商想进去，得经过测试、软件适配和业务迁移。</p>
-  <p>客户不好找，拿下来也不容易。</p>
-  <p>另一家视频芯片公司镕铭微电子就是一个参照。这家公司成立于2015年，专门研发VPU视频处理芯片，产品用在直播、点播、云游戏等场景，其CEO朱照远今年接受媒体采访时透露，公司VPU累计出货数十万颗。</p>
-  <p>镕铭微与凌川的路径不同：前者长期面向外部市场销售专业芯片，后者从快手内部团队独立出来。一个先学会了自己找饭，一个先在家里吃饱。</p>
-  <p>郝易认为，视频芯片最终能不能盈利，还是要看用量。只有客户采购规模足够大，研发成本才有机会被摊薄。</p>
-  <p>为了上量，今年开始，凌川科技把目光投向AI视频生成。</p>
-  <p>AI广告、AI短剧，生成和修改画面都需要消耗算力。公司披露，面向AI视频生成的新一代3D堆叠芯片已于4月完成流片、近期回片，计划2027年规模出货；配套的LUCAS计算平台，也在适配主流视频生成模型。</p>
-  <p>有趣的是，AI视频生成的头部玩家之一可灵，正是快手旗下的产品。绕一圈，新故事的起点，可能还是娘家。</p>
-  <p>但进入这个市场，竞争对手也变了。过去，凌川主要与传统视频处理方案比效率；未来，还要与GPU等通用AI计算方案比性能、成本和软件适配能力。</p>
-  <h2><strong>大厂自己造，创业公司抢客户</strong></h2>
-  <p>视频芯片行业有个有意思的现象：最需要这类芯片的企业，往往也有能力自己造。</p>
-  <p>谷歌就是典型。YouTube每天要处理海量视频，为了降低成本，谷歌专门研发了视频处理芯片Argos。2021年，谷歌在研究论文中披露，相比此前优化过的非专用加速方案，Argos系统的计算效率提高了20至33倍。两年后，Meta也公开了自研视频处理芯片MSVP，用于Facebook等平台的视频编解码任务。</p>
-  <p>谷歌、Meta选择自己造，快手当初组建芯片团队，也有相似的成本考虑。区别在于，凌川后来走出了快手，开始向外部客户卖芯片。</p>
-  <p>大厂自己造，专业厂商卖芯片，争的都是视频处理这笔算力预算。</p>
-  <p>但郝易分析，不能只看到视频流量越来越大，就认为专业视频芯片公司一定越来越好赚钱。</p>
-  <p>原因之一，是客户集中。大型互联网平台掌握着海量视频业务，其中一些还具备自研能力。专业芯片公司要拿下这些客户，就得拿出足够有吸引力的成本和效率优势。</p>
-  <p>另一个变化，来自视频处理方式本身。</p>
-  <p>郝易观察到，过去不少视频任务由摄像头、终端设备或者边缘节点承担，现在越来越多的任务开始集中到服务器和云端。公安安防等有私有化部署需求的客户，也在向集中处理方式发展。车载摄像头同样如此，一部分视频处理任务已经交给汽车主控芯片完成。</p>
-  <p>原来需要独立芯片处理的工作，正在被其他计算平台吸收。</p>
-  <p>更大的变量来自AI。</p>
-  <p>郝易认为，未来视频芯片可能沿着两条路线发展：一条是凌川这样的专用芯片，继续提高多路视频处理效率，同时拓展AI计算能力；另一条是GPU等通用芯片，不断增强视频编解码、AI推理等专门功能。</p>
-  <p>"专用芯片通用化，通用芯片专用化。"</p>
-  <p>过去，专业视频芯片负责视频编解码，GPU负责更广泛的计算任务。如今，两边开始进入对方的市场。</p>
-  <p>对凌川来说，这场赛跑手里的筹码很清楚：快手喂出来的近10万颗装机量，和刚刚到位的10亿元。要交的答卷也很清楚——走出快手，证明自己。</p>
-  <p>本文不构成任何投资建议。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI0NzAzNTUwMQ==&amp;mid=2652521186&amp;idx=1&amp;sn=a68ff917d15061384359ec721e95d636&amp;chksm=f3f1af3ab803de26c21cab0fb2ed84878502b48dd164b07eb8d046dffef0728b0fed766af531&amp;scene=0&amp;xtrack=1#rd">“铅笔道”（ID：pencilnews）</a>，作者：铅笔道，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 06 Nov 2026 09:27:11 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4057994854667395</guid>
-            <link>https://www.36kr.com/p/4057994854667395</link>
             
             
             
