@@ -15,8 +15,470 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Sun, 08 Nov 2026 02:33:24 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Nov 2026 14:23:01 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[GPT-6之后，具身大模型画地为牢！明年自研预算估计悬了]]></title>
+            <description><![CDATA[<p>GPT-6 Astra发布才两个月，GPT-6.2 Astra眼瞅着就要来了。</p>
+  <p>然而具身智能行业还没从上一轮打击中缓过神来。</p>
+  <p>一切都是那么猝不及防。</p>
+  <p>还记得GPT-6 Astra刚出来时，一批具身从业者被打懵了。特别是在一线搞预训练的工程师，更是人人自危。</p>
+  <p>近期，业内又传出消息，一些具身智能公司开始裁撤算法岗。</p>
+  <p>过去需要大量数据、算力和算法工程师一<ai-product-link data-id="14953" data-name="点点" data-logo="https://img.36dianping.com/20260731/v2_7f20642df457498595ae7c552043d930_oswg142435oswg1000oswg1000_img_jpg" data-classify-list="智能搜索,AI助理,办公辅助" data-refer-type="20">点点</ai-product-link>啃下来的能力，GPT-6 Astra在部分测试中，却不需要针对具体任务进行额外后训练，就能够展现出来。</p>
+  <p>这还让人怎么卷？？？</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1029" src="https://img.36krcdn.com/hsossms/20261108/v2_2b9cdbe8d8af4339adf508923e8f8251@000000_oswg92361oswg1080oswg1029_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>一位在机器人公司搞模型开发的工程师告诉量子位：</p>
+  <blockquote>
+   <p>比起具身智能迟迟没有出现新的范式级突破，以Astra为代表的通用大模型，正在以coding的方式垂直打击具身行业，这才是真冲击。</p>
+  </blockquote>
+  <p>冲击带来的压力，不完全来自硅谷。</p>
+  <p>相比OpenAI等海外大模型公司的技术进展，国内具身公司对本土大模型玩家的下一步动作更敏感。</p>
+  <p><ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>、<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>、智谱……这些名字正在成为具身行业不得不关注的变量。</p>
+  <p>在最近火热的RoboDojo评测中，越来越多团队也开始尝试将通用大模型（如GPT-6 Astra）引入自己的机器人系统，泛化很强，能力惊人。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,701" src="https://img.36krcdn.com/hsossms/20261108/v2_17c59bafb7fd4786924134786d62b5a9@000000_oswg803866oswg1080oswg701_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>据RoboTwin/RoboDojo评测基准第一作者陈天行透露，<strong>一些原本坚持训练原生具身基础模型的团队，如今也开始提交结合Robot-Use-Agent（RUA）等技术的方案，借助通用大模型完成机器人任务。</strong></p>
+  <p>效果相当直接。原先只有20分、30分的模型，在结合Astra相关方案后，评测成绩能够提升至50分、60分。</p>
+  <p>榜单分数涨上去了，具身公司满脑子却只有一个声音：</p>
+  <p><strong>还有必要自研模型吗……（cry）</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1000" src="https://img.36krcdn.com/hsossms/20261108/v2_6e041f0dd5014f1fa5e5abba418b6967@000000_oswg40275oswg1080oswg1000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>作为香港大学MMLab具身智能方向的博士生，陈天行参与了RoboDojo针对GPT-6 Astra的评测及评估报告（以下简称“报告”）撰写。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,295" src="https://img.36krcdn.com/hsossms/20261108/v2_336372bf20c846ffa433d59ec1b4a8fe@000000_oswg108127oswg1080oswg295_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>RoboDojo团队对GPT-6 Astra的早期评估报告</p>
+  <p>回忆起9月中旬的一天，陈天行告诉量子位，当伙伴们陆续把测试结果拿来，他愣了好几秒：</p>
+  <blockquote>
+   <p>你能看到它对3D重建、对数学等各个领域的冲击都是空前的。</p>
+   <p>吓人，真挺吓人的。</p>
+  </blockquote>
+  <h2><strong>都被GPT-6打懵了</strong></h2>
+  <p>“具身自研模型还在80分上不断加0.1、加0.2，GPT-6 Astra已经一次性从80分跳到了90分。”</p>
+  <p>这是陈天行复盘这次评测时，给出的一个形象比喻。</p>
+  <p>更扎心的是，在部分测试中，Astra甚至没有针对具体任务进行额外后训练，也没有使用任务示范，仅凭语言指令，就能完成不少机器人操作任务。</p>
+  <p>最让他意外的，还是Astra一下子展现出了三项具身模型过去需要重点攻克的能力。</p>
+  <p><strong>第一项是ICL（In-Context Learning，上下文学习）。</strong></p>
+  <p>简单来说，就是让机器人通过少量上下文信息，快速学会一个新任务。</p>
+  <p>比如，人类拍一段自己操作的视频，再配上文字说明，机器人就能理解人是怎么做的，并尝试让机械臂复现。</p>
+  <p>今年7月，ICL还是具身圈一个相当热门的研究方向。常见的范式是展示人类操作，让机器人模仿以习得新技能——即所谓的单次情境学习。</p>
+  <p>但社区发现，给Astra提供图像或文字示范，成功率可以高于不提供示范。</p>
+  <p>更让人意外的是它的在线适应能力。研究人员故意改变摄像头画面和动作坐标系，Astra能够根据实际执行结果，在几轮尝试后调整策略，顺利完成任务。</p>
+  <p>也就是说，它不光能理解上下文，还能边做边修正。</p>
+  <p>在陈天行看来，因为通用模型本身就有很强的上下文理解能力。平时聊天时，它能记住之前的对话历史，给它一段视频，它也能理解视频内容和文字之间的关系。</p>
+  <p>把这些能力迁移到机器人操作上，原本需要专门研究的ICL问题，突然就有了现成的解法。</p>
+  <p><strong>第二项是OOD（Out-of-Distribution，分布外泛化）和Correction（纠错能力）。</strong></p>
+  <p>机器人在真实环境里，很容易碰到训练数据之外的情况。</p>
+  <p>比如，机械臂正准备抓一个杯子，结果杯子突然被碰了一下，位置变了。</p>
+  <p>一个过度依赖训练数据的模型，可能还会沿着原来的轨迹执行，最后抓了个空。</p>
+  <p>而Astra能够根据变化后的视觉信息重新调整动作，尝试把物体抓起来。</p>
+  <p>听起来只是一个很小的动作，背后却是机器人能不能适应真实世界的问题。</p>
+  <p>毕竟，现实世界可没有人负责把每一个杯子都摆回训练时的位置。</p>
+  <p><strong>第三项是Open-Vocabulary Manipulation（开放词汇操作）。</strong></p>
+  <p>这项能力涉及语言与动作之间的对齐。</p>
+  <p>比如，用户换不同的说法提出操作要求，机器人依然能够听懂并执行。</p>
+  <p>过去，语言理解和动作执行之间往往存在断层，具身模型需要针对具体任务进行后训练，才能更好地完成对齐。</p>
+  <p>但Astra在这方面展现出了更强的能力。在部分测试中，即使没有针对具体任务额外后训练和示范，它也能仅凭语言指令完成不少机器人操作。</p>
+  <p>在陈天行看来，<strong>以上三项曾是具身领域极具分量的技术命题，过去都属于可以单独拿出来讲创业故事的。</strong></p>
+  <p>如今，Astra一次性把这三道题都做了，对原有具身模型研发路线是一场近乎爆裂的冲击。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,894" src="https://img.36krcdn.com/hsossms/20261108/v2_215735e77e4c4ae6bd5ffd0ec07f773d@000000_oswg223243oswg1080oswg894_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>在RoboDojo-Sim基准测试中的零样本测试结果，不代表Astra已经能够在真实机器人上稳定完成这些任务。</p>
+  <p>报告中，RoboDojo团队提示，<strong>Astra的真机测试曾因安全问题中止。</strong></p>
+  <p>仿真榜单上的高分，还不能直接等同于真实世界中的生产力。</p>
+  <p>但它已经足以让具身公司重新审视过去的研发投入。</p>
+  <p><strong>为什么一个原本不是为机器人操作而生的通用大模型，能快速逼近具身公司多年积累的能力？</strong></p>
+  <p>说起来有点无心插柳。</p>
+  <p>虽然通用大模型不是从零开始学机器人，但它是带着在大规模预训练中，攒下的语言、视觉、推理和Coding等一系列能力进入的机器人领域。</p>
+  <p>这些能力原本各有各的用处，没想到放到机器人身上，竟也能直接派上用场。</p>
+  <p><strong>反观具身公司，很多团队从零开始训练机器人大脑，手里的数据主要来自机器人操作本身。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1024,1024" src="https://img.36krcdn.com/hsossms/20261108/v2_f01a313af3534cc19b336aa9ef007343@000000_oswg48465oswg1024oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>模型要理解环境、听懂指令、学会动作，很多能力都得从有限的数据里一<ai-product-link data-id="14953" data-name="点点" data-logo="https://img.36dianping.com/20260731/v2_7f20642df457498595ae7c552043d930_oswg142435oswg1000oswg1000_img_jpg" data-classify-list="智能搜索,AI助理,办公辅助" data-refer-type="20">点点</ai-product-link>磨出来。</p>
+  <p>一个是带着一身通用本事来做机器人，一个还在为每一项能力单独投入数据、算力和人力。</p>
+  <p>这场较量，本身起跑线就不一样。</p>
+  <h2><strong>自研模型还有必要吗？</strong></h2>
+  <p>GPT-6 Astra确实很强，但它还没强到让具身公司可以直接缴械投降。</p>
+  <p>至少在真实物理世界里，还有不少硬骨头等着啃。</p>
+  <p>破壳机器人创始人许华哲把具身智能的能力拆成了语义、空间和物理泛化三个层次。</p>
+  <p>他认为，Astra在前两项上表现突出，<strong>但到了复杂物理接触、受力变化、物体形变和高精度操作，仍然面临挑战。</strong></p>
+  <p>比如，让机器人知道一个杯子在哪里、应该伸手去拿，和让它稳稳抓住一个杯子，完全是两回事。</p>
+  <p>杯子是软是硬？抓取时该用多大的力？物体被挤压、碰撞后会发生什么变化？</p>
+  <p>这些问题，光靠看懂画面、理解指令还不够。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,345" src="https://img.36krcdn.com/hsossms/20261108/v2_17995addefcc4864b1ff3bd4e20a4f68@000000_oswg134680oswg1080oswg345_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>报告截图</p>
+  <p>RoboDojo团队在评测中也发现，Astra并非在所有任务上都占优。</p>
+  <p>几何对齐、语言指令理解是它的强项，但到了连续接触和多步骤物理操作，现有VLA仍然有不少机会。</p>
+  <p>自变量创始人王潜的观点是，通用大模型要进入具身，依然必须面对机器人数据、现实世界评测、硬件、仿真和部署等基础设施问题。</p>
+  <blockquote>
+   <p>这些难度不会因为拥有一个更强的语言模型而自动消失。</p>
+  </blockquote>
+  <p>问题是，<strong>Astra今天做不好的事情，明天会不会突然就做到了？</strong></p>
+  <p>目前，业内吐槽Astra比较多的，还有<strong>推理速度太慢。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1065,1035" src="https://img.36krcdn.com/hsossms/20261108/v2_18d5189a79ad4d56b44a8e59d6082637@000000_oswg46818oswg1065oswg1035_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>陈天行也注意到，GPT-6 Astra云端API推理延迟较高，这对机器人实时闭环控制是现实阻碍。</p>
+  <p>你想呀，如果机器人每做一个动作，都要等大模型想半天，恐怕很难满足真实场景的要求。</p>
+  <p>但陈天行认为，<strong>该问题并非根本性壁垒，现有LLM端侧部署方案已经较多，包括模型量化、蒸馏、端侧推理引擎等技术。</strong>只要大模型公司将机器人视为重要商业场景，就可以利用现有技术栈完成延迟优化。</p>
+  <p>这个问题出现的背后，是一个极易弄混的概念：<strong>「模型推理频率」</strong>和<strong>「机器人控制频率」</strong>，不是一回事。</p>
+  <p>一位不愿具名的具身模型工程师告诉量子位：</p>
+  <blockquote>
+   <p>推理慢仍然可以控制快，牺牲的只是反应速度。对于比较吃节拍类型的流水线任务来说，反而无关紧要。</p>
+  </blockquote>
+  <p>比如快递分拣，机器人需要连续、稳定地抓取和投放。高层模型负责理解任务、规划动作，底层控制系统则以更高频率执行控制指令。</p>
+  <p>只要任务允许提前规划，或者对反应延迟有一定容忍度，大模型未必需要参与每一个底层控制周期。</p>
+  <p>当然，遇到高速动态变化、复杂接触等任务，反应速度依然重要。</p>
+  <p>但至少，推理慢未必意味着机器人的控制不快。</p>
+  <p class="image-wrapper"><img data-img-size-val="254,242" src="https://img.36krcdn.com/hsossms/20261108/v2_1fc1c3c31a6947fc9e8bc9063b423b83@000000_oswg77925oswg254oswg242_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>今天通用大模型所暴露出来的各类短板，不能直接当作具身公司未来赖以生存的护城河。</strong></p>
+  <p>对具身公司来说，这句实话，多少有些扎心。</p>
+  <p>但事实摆在那里。今年，OpenAI已经开始大量招机器人相关岗位。</p>
+  <p>倘若未来通用模型吸收更多机器人操作数据，原本属于专用具身模型的能力边界，还可能继续被压缩。</p>
+  <p>具身公司还有机会吗？自研模型还有必要吗？</p>
+  <p>陈天行的判断是，<strong>具身公司的机会，不在于比谁的模型更聪明，而在于比谁能创造更好的「经济效益」。</strong></p>
+  <p>这笔帐很容易算。</p>
+  <p>在一条高度标准化的工业流水线上，机器人每天重复同样的动作，客户最关心的是成功率、节拍、稳定性和成本。</p>
+  <p>如果花几毛钱调用一个模型就能稳定完成任务，为什么非要花几块钱调用GPT-6 Astra？</p>
+  <p>即使需要一定的智能和泛化能力，一个经过专门优化的小模型，也可能比直接调用Astra更经济。</p>
+  <p class="image-wrapper"><img data-img-size-val="370,377" src="https://img.36krcdn.com/hsossms/20261108/v2_2449f94993b046158a0e36cada689de6@000000_oswg21428oswg370oswg377_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>当然，如果换成家庭服务机器人，情况就不同了。</p>
+  <p>今天收拾桌子，明天寻找物品，后天又来了一个从未见过的新任务。</p>
+  <p>在这样的开放环境里，任务变化越多，对理解、规划和泛化能力的要求就越高。更强的通用模型，可能反而更有优势。</p>
+  <p>11月6日，陈天行在个人博客上，用两条轴线解释了其中的区别。</p>
+  <p><strong>左侧是「场景需求」，右侧是「模型能力」</strong>。越往上越偏重通用性，越往下越偏重效率。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,748" src="https://img.36krcdn.com/hsossms/20261108/v2_25148f8e4c734c51ac7188960aaebdd6@000000_oswg217825oswg1080oswg748_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>△</strong>陈天行博客</p>
+  <p>「开放任务可以更多借助通用模型，稳定任务可以采用规则或轻量策略，中间的场景则给场景优化模型留下了空间。」陈天行说。</p>
+  <p>依我看，两条轴线放在一起，就一句话：</p>
+  <p><strong>能用规则/轻量策略解决的事，没必要上大模型；能用小模型完成的任务，也没必要每次都请Astra出场。</strong></p>
+  <p>反过来，如果任务变化太多，专用模型需要不断采集数据、重新训练，直接调用通用模型可能更合算。</p>
+  <p>决定采用哪种方案，最终还得算一笔完整的经济账。</p>
+  <blockquote>
+   <p>一次任务的成功率是多少？要花多少时间？失败后需要多少人工介入？数据采集、模型训练和长期部署又要花多少钱？</p>
+  </blockquote>
+  <p>这些实打实的数字，决定了一套机器人系统有没有商业价值。</p>
+  <p>所以说，<strong>不是自研不重要，而是具身公司的「自研方向」需要重新排序了。</strong></p>
+  <p>通用模型已经擅长的语言理解、任务规划等能力，可以考虑直接利用；涉及物理交互、特定本体控制、真实场景适配和部署效率的问题，仍然需要大量专门研发。</p>
+  <p>至于有没有必要继续从头训练一个更大的具身基础模型，就要看它能否在实际任务中提供足够明显、足够持久的优势。</p>
+  <p>有行业朋友和量子位吐槽，<strong>很多具身团队现在还带着比较强的学者心态，总想着做一个通用智能模型，恨不得把所有任务都装进自己的模型里。</strong></p>
+  <p>但现在情况变了。GPT-6.2 Astra都快要来了。</p>
+  <p>若企业研究方向和目标产业脱节，模型训得再漂亮，商业闭环也未必成立。</p>
+  <h2><strong>One more thing</strong></h2>
+  <p>过去的60天里，很多具身从业者私下聊起来，仍旧迷茫。</p>
+  <p>只不过到了公开场合，大家该捍卫自己的利益和立场，还是要坚持到底。</p>
+  <p>可以肯定的是，GPT-6 Astra确实搅乱了具身行业原本的节奏……</p>
+  <p>马太效应、宇树上市后的行业重估、RSI成为新风口……叠加在一起，最终形成的是近期的行业情绪——</p>
+  <p><strong>「投资人开始不投具身了」。</strong></p>
+  <p>或许有夸张的成分，但具身智能机器人创业告别Demo、烧投资的阶段，却是无比真实的。</p>
+  <p>百机大战的淘汰赛，已经开始了。</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247940440&amp;idx=1&amp;sn=f809b3847e32b108fef02ebb0e81099d&amp;chksm=e975b9a08bfaa313b48e6d2245155e075588804e0fbed9ded0528e1b92847253343f00e50153&amp;scene=0&amp;xtrack=1#rd">“量子位”（ID：QbitAI）</a>，作者：关注前沿科技，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 08 Nov 2026 08:26:19 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4060707751826311</guid>
+            <link>https://www.36kr.com/p/4060707751826311</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[GPT-6.1 Sol参与活体大脑手术！三轮定位，一次比一次准]]></title>
+            <description><![CDATA[<p>在小鼠脑部手术中，考验操作者的往往是进针之前的一个细节：找到头骨上几个极其关键的解剖标志。这些点看起来不起眼，却决定了后续手术坐标如何计算。位置稍有偏差，针头就可能无法准确抵达预定的脑区。</p>
+  <p>现在，AI 也开始学习这项操作了。</p>
+  <p>近日，生物科技初创公司 Exin Therapeutics 联合创始人兼 CEO Gabriel Ocana-Santero 分享了一组实验结果：团队让 GPT-6.1 Sol 连续参与三轮小鼠脑部手术定位。</p>
+  <p>每次操作结束后，专业外科医生都会纠正模型的定位结果，模型则保存自己的图像、测量数据和专家修正记录，供下一轮操作参考。</p>
+  <p>结果相当有意思。</p>
+  <p>到了第三次操作，<strong>GPT-6.1 Sol 寻找解剖标志的时间从 169 秒缩短到 86 秒，所需的纠正动作从 4 次减少到 2 次，定位误差也从 0.6 毫米降至 0.3 毫米</strong>。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261108/v2_2c9f6f4f6db94c8f9f20892196b1ea9e@000000_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Ocana-Santero 将这一过程称为基于真实世界经验的上下文学习（In-context Learning）。</p>
+  <p>需要注意的是，这组数据只有 3 次操作，距离证明 AI 已经掌握稳定的手术能力还有很长距离。但它展示了一种值得关注的变化：AI 开始把真实操作中的观察结果和专家反馈带入下一轮任务，逐步积累经验。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,837" src="https://img.36krcdn.com/hsossms/20261108/v2_1ef90f3013294d0a9f9e253b1ba18572@000000_oswg277922oswg1080oswg837_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这项实验还引出了一个值得关注的问题：这究竟是真实手术，还是模拟环境中的演示？</p>
+  <p>X 用户 Stephane 在评论中直接向 Ocana-Santero 求证，后者明确回应是真实手术。Stephane 随后表示，这种结合上下文、在执行过程中即时积累经验的方式很有意思。他还透露，自己正在另一个领域探索类似机制：让模型保存每次任务中获得的经验，等再次遇到相关问题时，就能直接调用。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1068" src="https://img.36krcdn.com/hsossms/20261108/v2_7b30cf59074f4a51950faff1fa2df67d@000000_oswg284472oswg1080oswg1068_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>先找到头骨上的两个点</strong></p>
+  <p><strong>才能准确定位大脑</strong></p>
+  <p>要理解这次实验，得先认识两个神经科学实验中经常出现的名字：Bregma（前囟点）和 Lambda（人字缝点）。</p>
+  <p>它们并不是大脑内部的神经核团，而是小鼠头骨表面的两个解剖标志点。</p>
+  <p>Bregma 位于矢状缝与冠状缝的交汇处，Lambda 则位于矢状缝与人字缝的交汇处。研究人员通常以 Bregma 作为立体定位坐标的参考原点，再结合 Lambda 等标志校准头骨的位置和倾斜程度。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,756" src="https://img.36krcdn.com/hsossms/20261108/v2_840f77dab15140cf9764dc1288f601dd@000000_oswg129016oswg1080oswg756_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>图源：https://www.jove.com/t/67381/an-immunocompetent-murine-model-for-laser-interstitial-thermal</p>
+  <p>为什么要如此在意这两个点？这是因为小鼠脑部的很多实验，都需要通过立体定位设备，将注射针、电极或其他实验器械准确送到指定脑区。</p>
+  <p>研究人员首先要找到头骨上的参考点，再结合脑图谱，将目标脑区转换成前后、左右和深度三个方向的坐标，最终交给设备执行。整个过程看似只是寻找几个交点，实际上需要同时处理视觉识别、空间定位和坐标校准。</p>
+  <p>头骨上的缝合线并不总是清晰可辨。小鼠个体之间也存在解剖差异，头部固定角度和水平校准都会影响最终的坐标。相关研究甚至专门讨论过不同测量方法带来的 Bregma 定位误差。</p>
+  <p>对于刚开始接触这类实验的研究人员来说，准确找到标志点并完成头部校准，本身就是需要反复练习的基本功。</p>
+  <p>这次实验，GPT-6.1 Sol 要完成的就是其中一个关键环节。它需要根据实验图像判断 Bregma 和 Lambda 的位置，给出自己的定位结果。专家外科医生随后检查这些位置，并对不准确的判断进行修正。</p>
+  <p>每次操作结束，模型都会保存自己的估计图像和测量结果，以及专家纠正后的数据。这些信息成为下一轮操作可以利用的经验。</p>
+  <p><strong>从 169 秒到 86 秒</strong></p>
+  <p><strong>AI 开始积累操作经验</strong></p>
+  <p>这次实验最有意思的地方，在于 GPT-6.1 Sol 并没有在每次任务结束后简单清空之前的操作记录。模型会保留此前操作中的图像和测量数据，同时记录专家给出的修正结果。这样一来，模型能够在后续操作中参考之前的判断与纠正，逐渐改善定位表现。</p>
+  <p>三项指标都出现了改善：搜索时间缩短了近一半，纠正动作减少了一半，定位误差也直接减半。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,293" src="https://img.36krcdn.com/hsossms/20261108/v2_d77eba84886846f6b8ccd49cae219766@000000_oswg18813oswg1080oswg293_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这次实验采用的是上下文学习思路。</p>
+  <p>传统模型训练通常需要通过训练数据和优化算法调整模型参数，让模型在后续任务中获得新的能力。而这次实验披露的机制，重点在于积累和利用实际操作记录。模型将此前的图像、测量结果以及专家反馈保存下来，再用于后续操作。</p>
+  <p>目前，团队没有披露这套经验记录具体如何接入模型，以及是否涉及底层模型权重更新。因此，还不能将它描述为 GPT-6.1 Sol 通过三次手术完成了自主训练或参数层面的自我进化。</p>
+  <p>但从实验思路来看，这种方式已经让 AI 拥有了一种更接近人类实践学习的能力：先尝试，再接受纠正，然后带着上一次的经验继续操作。对于需要大量重复实验的生物医学研究，这种能力有实际意义。</p>
+  <p><strong>从让 AI 做脑部注射</strong></p>
+  <p><strong>到让它自己积累实验经验</strong></p>
+  <p>这并非 Exin Therapeutics 第一次让 AI 接触真实的小鼠脑部手术。</p>
+  <p>10 月 28 日，Ocana-Santero 就曾披露过一次更引人注目的实验。当时，团队给 AI 智能体准备了 19 种基因治疗载体、一只癫痫模型小鼠，以及一套带有摄像头的电动立体定位手术设备，目标是寻找能够减少癫痫发作的治疗方案。</p>
+  <p>AI 需要先阅读相关研究资料，从候选方案中选择基因治疗载体，再确定应该向大脑哪个区域注射，以及具体的注射坐标。随后，它通过摄像头观察手术区域，控制设备上的机械臂和注射针，完成注射操作。</p>
+  <p>整个过程注入了 250 纳升的治疗载体。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1167" src="https://img.36krcdn.com/hsossms/20261108/v2_592e7b49c2204d9d9c942a03af7668ff@000000_oswg861473oswg1080oswg1167_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这项实验有一个值得注意的区别：传统手术机器人通常由人类医生确定手术方案，再由机器人执行具体动作。而这次实验中，AI 还参与了治疗方案和脑区的选择。</p>
+  <p>不过，<strong>整个过程并非无人监督</strong>。一名持证兽医外科医生负责切开头皮、开颅和缝合，并监督关键操作。团队还设置了不可绕过的操作限制、关键步骤的人类审批机制，以及能够直接切断电机电源的物理紧急停止装置。</p>
+  <p>在一次设备坐标异常时，AI 识别出了位置问题，并拒绝继续移动针头。最终，研究人员通过人工修复设备控制代码解决了故障。</p>
+  <p>10 月 31 日，Ocana-Santero 又公布了进一步的实验：</p>
+  <p>Claude Sonnet 5、GPT-6.1 Sol 和 Grok 4.7 分别参与了同一目标下的小鼠脑部实验。三个模型拿到相同的 19 种候选基因治疗载体和相同的实验目标，却选择了不同的脑区、治疗机制和方案。例如 Claude 选择了内嗅皮层，GPT 选择了海马体，Grok 则选择了躯体感觉皮层。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1159" src="https://img.36krcdn.com/hsossms/20261108/v2_f214742a292040e7b0347e5085f7b026@000000_oswg827739oswg1080oswg1159_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这说明，即使面对相同的科学问题，不同模型也可能根据各自的知识推理给出不同的实验路径。究竟哪种方案更有效，还需要通过后续实验验证。</p>
+  <p>从最初让 AI 选择治疗方案、控制注射设备，到现在让它通过连续操作和专家反馈改善定位表现，Exin 正在尝试把 AI 接入更完整的实验流程。</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651072888&amp;idx=2&amp;sn=7451fe12fd75fc3295e0e71c0235040a&amp;chksm=85c6542991838d8f3313a10430cb6a3cd1975d6022c66a79b1d7a023f9e071229062a3188ba0&amp;scene=0&amp;xtrack=1#rd">“机器之心”（ID：almosthuman2014）</a>，作者：关注AI生物科学的，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 08 Nov 2026 08:25:08 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4060588343825282</guid>
+            <link>https://www.36kr.com/p/4060588343825282</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[MiniMax怎样实现AGI？闫俊杰的办法是抄“后”路]]></title>
+            <description><![CDATA[<p>“最后这5%的差距，可能比完成前面95%要难得多。”</p>
+  <p>在最近发布的一期英国播客《Invest in Progress》中，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>创始人闫俊杰谈到了中国大模型追赶美国同行的难度。</p>
+  <p>与他对谈的是Scottish Mortgage投资经理劳伦斯·伯恩斯（Lawrence Burns）。2025年12月，伯恩斯到中国拜访闫俊杰，听到了一个令他印象深刻的判断：中国最好的模型已经能达到美国顶尖模型约95%的性能，成本却只有十分之一。随后，Scottish Mortgage参与了<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的香港IPO。</p>
+  <p>这一次，伯恩斯想知道，这两个差距发生了什么变化。</p>
+  <p>闫俊杰没有给出新的百分比。他说，最后5%仍需要时间追赶，中美模型在通往AGI的路上也都处于早期阶段。他更关心的是进步的速度。</p>
+  <p>成本是这场对话反复涉及的话题。闫俊杰认为，降低推理成本，既能让更多人用上模型，也能让<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>做更多后训练，继续提高模型能力。他用公司的名字解释这件事：Mini，是把推理成本降下来；Max，是把智能的上限推高。</p>
+  <p>围绕这条路线，他还给出了一项承诺：“我们打算一直开源下去，直到AGI实现。”</p>
+  <p class="image-wrapper"><img data-img-size-val="1024,150" src="https://img.36krcdn.com/hsossms/20261108/v2_196b8f4d2d66416b9d5e6d949f07765e@6119835_oswg3202oswg1024oswg150_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>追赶最后5%</strong></p>
+  <p>谈到中国模型与美国模型的差距，闫俊杰首先提到了算力。</p>
+  <p>“对我们来说，尤其是对一家中国AI公司而言，算力始终是一种约束。”</p>
+  <p><ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>从创办之初就要考虑，如何让有限的算力承担更多工作。模型架构怎么设计，基础设施怎么搭建，推理过程怎么优化，都要围绕效率展开。闫俊杰说，公司的一个设计原则是，无论使用什么芯片，模型都应有不错的表现。</p>
+  <p>在他看来，中国几家头部模型公司都在想办法提高效率，只是各自选择不同：有的调整Transformer架构，有的改进后训练基础设施，也有的重点投入不同模态。这让中国模型之间保留了差异。</p>
+  <p class="image-wrapper"><img data-img-size-val="586,362" src="https://img.36krcdn.com/hsossms/20261108/v2_8ea0df02038849ba974b76a3d78d4d06@6119835_oswg241304oswg586oswg362_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>伯恩斯在采访中问得更直接：美国的前沿实验室是否被充裕的算力“惯坏了”？它们有条件不断推进技术边界，却没有从第一天起就被迫把效率放在核心位置。</p>
+  <p>闫俊杰把讨论落到了中国公司的处境上。硬件越受限，算法、架构和基础设施的改进就越重要。</p>
+  <p>“约束让我们成了更好的工程师和研究人员。”</p>
+  <p>闫俊杰还想把省下来的推理成本，用到后训练中。</p>
+  <p>强化学习需要模型反复尝试、获得反馈；合成训练数据，也需要调用模型。这些过程都消耗推理算力。一次推理的成本降下来，同样的资源就能支持更多训练。</p>
+  <p>他判断，后训练在模型迭代中的分量会越来越重。<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>提高推理效率，也是为了把后训练规模做大。他甚至提出，未来某个时候，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>可能拥有规模最大的后训练系统，并借此走到智能的最前沿。</p>
+  <p>这仍是一个目标。对于当下的中美差距，他的判断相对谨慎：过去三年，双方模型的进步速度已经大致相当，但剩下的5%可能比此前的95%更难完成。</p>
+  <p>效率也延伸到了公司的组织方式。按闫俊杰在采访中的说法，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>只有500人，研发要遵循两条原则：让架构和基础设施尽量简单；坚持自建基础设施，即便这会让短期内的产品发布慢一些。</p>
+  <p>前一条是为了让有限的团队集中精力，后一条则为后续扩大模型和训练规模做准备。他认为，公司的资本效率和组织效率，是在这些选择及外部约束下逐渐形成的。</p>
+  <p>不过，低成本能否带来利润，仍是伯恩斯作为投资人关心的问题。<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>还在亏损，模型能力的提升、用户增长和收入增加，最终需要支撑持续投入。</p>
+  <p>闫俊杰给出的思路是，通过技术创新降低推理成本，在保持价格优势的同时提高模型能力，让收入增长快于成本增长。</p>
+  <p>截至8月，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的年化收入运行率已超过8亿美元，企业业务贡献超过80%。这里的年化收入运行率，是将8月收入乘以12，不代表公司已经取得了8亿美元的全年收入。</p>
+  <p>作为参照，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>披露的2026年上半年收入为1.166亿美元，同比增长283.1%；开放平台及其他AI企业服务收入为7390万美元，占总收入的63.4%。后一个比例对应上半年已实现的收入结构，与采访中的8月年化口径不同。</p>
+  <p>同期，公司经调整净亏损为2.93亿美元。采访中，闫俊杰没有给出实现盈利的时间表。</p>
+  <p class="image-wrapper"><img data-img-size-val="1024,150" src="https://img.36krcdn.com/hsossms/20261108/v2_2d68e69b139e4a66a309bdd2020d6e3a@6119835_oswg3512oswg1024oswg150_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>外公想写一本回忆录</strong></p>
+  <p>在闫俊杰决定做通用人工智能的过程中，一件家事给了他触动。</p>
+  <p>他的外公想写一本回忆录，把几十年的人生经历留下来。但老人不会打字，也很难独自把往事组织成文字。闫俊杰觉得，AI应该能够帮上这个忙，可当时的技术还做不到。</p>
+  <p>这件事让他更在意“通用”的意义。按照他的回忆，那时的计算机视觉、语音识别主要服务于企业，距离普通消费者的日常需求还有一段距离。一个老人想记录自己的一生，就是其中一个尚未被满足的需求。</p>
+  <p>闫俊杰很早就接触了数学和计算机。他在河南长大，父亲是一名数学教师，家里有不少书。中学时，他已开始自学大学水平的数学和计算机科学。吸引他的，是把两者结合起来，通过编程解决现实问题。</p>
+  <p>2014年，他在百度深度学习研究院实习，余凯是他的导师。彼时，他已经发表过数十篇计算机视觉论文，AlexNet在图像分类上的突破仍让他受到很大震动。他想找一家拥有大量GPU的公司，验证深度学习究竟能走多远。</p>
+  <p>据闫俊杰回忆，实习期间，他在高峰时能调用百度三分之一的GPU。他用这些资源研究图像分类和目标检测，与另一位实习生搭档参加当年的ImageNet挑战赛，获得第三名。</p>
+  <p>到了创办<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>时，他确信AGI值得做，却还不知道它会在什么时候到来。</p>
+  <p class="image-wrapper"><img data-img-size-val="754,457" src="https://img.36krcdn.com/hsossms/20261108/v2_f807e41c88db4d879e5857c464cb77a5@6119835_oswg59116oswg754oswg457_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>第一年，团队搭建基础设施，训练语言、图像和音频生成模型的初代版本，也做了一个应用来检验模型表现。这个应用就是Glow，用户可以在里面与虚拟伙伴聊天。它很快积累了数百万用户，超出了团队最初做实验的预期。</p>
+  <p>随后，ChatGPT发布。闫俊杰说，这改变了他对技术发展时间表的判断：基础设施、数据和模型规模，都需要以比原先预想更大的幅度、更快的速度扩张。</p>
+  <p><ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>也选择同时投入文本、图像、视频、音乐和语音。对于一家资源有限的公司，这意味着研发力量要分散到多个方向。</p>
+  <p>闫俊杰承认，创业时并不清楚模型最终会是什么形态，所以先把各个方向做起来，等技术足够成熟，再尝试融合。他认为，多模态能够带来更丰富的数据，也是模型继续扩展的一条必经之路。</p>
+  <p>“如果一开始只专注一种模态，我们早期的进展可能会更快。”他说。</p>
+  <p>采访中，他将<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的模型归为两大系列：M系列是语言模型，重点投入编程和智能体；H系列以视频生成为主，覆盖视频、图像和音频。接下来的计划，是继续提升两类模型的能力，再把它们合进同一个系统。</p>
+  <p>在智能体方面，他希望AI能在较长的任务周期中自己设定目标，并验证执行结果。他把这种自主性视为智能体接下来要突破的方向。</p>
+  <p>录制采访时，闫俊杰正把主要精力放在下一代模型M3 Pro上。他说，模型尚未完成，但他期待它带来一次重要突破。</p>
+  <p>对于AGI，他也有一个明确的判断标准：AI能够发展出新的理论，科学上的新突破主要依赖AI。</p>
+  <p class="image-wrapper"><img data-img-size-val="1024,150" src="https://img.36krcdn.com/hsossms/20261108/v2_ef275701644e4b30a47b74f0a796d6b4@6119835_oswg3573oswg1024oswg150_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p><strong>开源到AGI实现</strong></p>
+  <p><ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>一边通过API收费，一边开放模型权重，让开发者能够自行部署和修改。</p>
+  <p>闫俊杰认为，开源可以促进商业化，也能让更多开发者参与模型改进。<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>自己做不完的探索，社区可以接着做。</p>
+  <p>他以H3为例。据他在采访中的介绍，这款模型在此前一个月下载约2500万次；开放后的前两周，已有约300个开放模型在它的基础上衍生出来。</p>
+  <p>其中一个例子，是美国公司fal.ai基于H3进行后训练得到的H3 Max。按照闫俊杰的介绍，它能在3秒内生成5秒视频，生成速度已快于视频的播放速度。</p>
+  <p>这样的速度，让视频有了更多交互用途。闫俊杰提到，已有开发者做出24小时AI直播，根据观众想看的内容实时生成画面。同样的能力，也可能被用于游戏、教育等场景。</p>
+  <p>这些尝试又会给<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>带来反馈，帮助它发现模型能做什么、还缺什么。闫俊杰把这视为开源对研发最直接的帮助。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20261108/v2_33226b7232be4011a4ff8d78c1ee4a64@6119835_oswg31775oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>另一项好处来自部署方式。企业和政府客户能够在自己的设备上运行开放权重模型，对数据和隐私保有更多控制，也能围绕自身需求继续训练和开发。</p>
+  <p>“我们打算一直开源下去，直到AGI实现。”</p>
+  <p>谈到字节、阿里等公司的竞争时，闫俊杰认为，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>的优势在于目标集中。大型科技公司需要兼顾多条业务线，<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>则把研发集中在高效率的多模态AGI上。社区开发者提供的改进和新用途，也是它借助外部力量的一种方式。</p>
+  <p>他希望最终把最好的语言模型和视频模型合进一个系统，让模型能够承担更多工作。这个设想也延续了<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>早期同时投入多种模态的选择。</p>
+  <p>在中美AI的发展路径上，闫俊杰预计，算力、资本和芯片获取条件的差异，还会持续影响两边的技术与产品。他用一句话概括自己的观察：“美国生态在巨额资本支撑下构建封闭系统，中国生态在效率支撑下构建协作体系。”他认为，两套生态未必会走到同一条路上。</p>
+  <p>采访最后，伯恩斯请他描述：如果<ai-product-link data-id="14626" data-name="MiniMax" data-logo="https://img.36dianping.com/20260427/v2_ff68b8ca5e0f498f81709fddf9f76930_oswg239168oswg1000oswg1000_img_jpg" data-classify-list="大厂出品,AI助理" data-refer-type="20">MiniMax</ai-product-link>实现了自己的目标，世界会变成什么样？</p>
+  <p>闫俊杰谈到了AGI的归属。他认为，这项技术太重要，不应只属于某一家公司、国家或组织。使用模型的人、开发者和研究者，都参与了模型的成长，也应该分享它带来的能力。</p>
+  <p>这也是他坚持使用“Intelligence with everyone”这句口号的原因。与所有人一起发展智能，意味着模型开放之后，更多人可以在它的基础上继续工作。</p>
+  <p>他还好奇，当世界拥有更多智能，人类对世界乃至宇宙的理解，会不会随之改变？</p>
+  <p>“我认为会。正是这种可能性在推动我。”</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/f7XqsKJLzLAzugg3QbeNbg">“字母AI”</a>，作者：苗正，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 08 Nov 2026 07:57:13 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4060696576038533</guid>
+            <link>https://www.36kr.com/p/4060696576038533</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[九成代码AI写，谁来审？Claude Code亮出6道关卡！]]></title>
+            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="1080,460" src="https://img.36krcdn.com/hsossms/20261108/v2_0ecb2316f27f4abd90bda97c94ba7749@000000_oswg866083oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Claude Code约90%的自身代码，已经交给Claude编写。</p>
+  <p>写代码的换成了AI，改动数量也跟着暴涨：6月到9月，合并进代码库的PR数量，翻了一倍多。</p>
+  <p>放眼整个Anthropic，主代码库每天合并的改动，从5月约2500次，涨到9月超过3万次。</p>
+  <p>这么多代码，人还读得过来吗？如果连审查也交给AI，谁来判断它有没有犯错？</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,345" src="https://img.36krcdn.com/hsossms/20261108/v2_8011c6653b224493905786f444ab8f31@000000_oswg51097oswg1080oswg345_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>10月15日，Claude Code团队公开了内部代码审查流程，披露在PR数量翻倍的同时，需要回滚的PR占比，反而相对下降超过40%。</p>
+  <p>做到这一点，他们靠的是六层检查，加上一套快速发现、快速回滚的兜底机制。</p>
+  <p>Claude Code团队的判断是：</p>
+  <p>在这个体量下，逐行人审已经不现实。</p>
+  <p>但他们并没有取消审查，而是把大部分读代码的活儿，交给了机器。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,974" src="https://img.36krcdn.com/hsossms/20261108/v2_70eca8759894466890ea66211db80550@000000_oswg304478oswg1080oswg974_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>一段AI写的代码，上线前要先跑测试、接受AI和安全审查，再按风险决定是否需要人来批准。</p>
+  <p>在Claude Code团队看来，「有没有人读过这段代码」是个不够精确的问题。</p>
+  <p>真正的问题应该是：</p>
+  <p>这次改动可能出什么错，如果出错应该由哪一道检查阻拦？</p>
+  <h2><strong>人工审查之前</strong> ，<strong>AI先拿出验证结果</strong></h2>
+  <p>一次改动，要过六道检查，最后还有一张安全网。</p>
+  <p>第一关，在创建合并请求（PR）之前。</p>
+  <p>Claude要跑测试、完成构建；涉及界面的改动，还要截图对照设计稿。</p>
+  <p>接着，再派一个使用全新上下文的子智能体审查代码差异，它没参与写代码，专门挑刺。</p>
+  <p>官方的要求很明确：</p>
+  <p>Claude要把执行的命令和输出摆出来，光回复一句「测试全部通过」不算数。</p>
+  <p><strong>普通开发者也能照着做：给AI任务时，把怎么验收一起说清楚。</strong></p>
+  <p>第二关，才是PR上的AI审查。</p>
+  <p>几个智能体并行找bug，另一组再投票核验。票数够了，问题才会贴到PR上。</p>
+  <p>只涉及代码风格、诊断提示或代码清理的意见，不会发到PR上，直接被过滤掉。</p>
+  <p>3月这套审查刚上线时，获得实质性审查意见的内部PR占比，从16%升到了54%。</p>
+  <p>第三关，是安全审查。</p>
+  <p>在团队内部，代码审查或安全审查留下的发现，只要没关闭，PR就合不进去：要么修掉，要么写明理由关掉。</p>
+  <p>第四关是持续集成（CI）检查，包括代码规范、类型检查、各平台测试和构建打包。</p>
+  <p>一个普通的命令行工具（CLI）改动，在交给人审之前，可能就要跑几十项检查。</p>
+  <p>反复出现的问题，还要变成下一次的检查依据。</p>
+  <p>CLAUDE.md记录项目约定，REVIEW.md告诉审查器重点查什么、哪些可以跳过，让这次发现的问题，成为下次审查的经验。</p>
+  <p><strong>同一条意见提到第三遍，就该写进规则里。</strong></p>
+  <p>第五关是人工审批，这一关最关键，下一节细说。</p>
+  <p>第六关，合并与发布。</p>
+  <p>改动通过前面几关后，还要进合并队列排队。</p>
+  <p>轮到它时，系统把它放到主分支的最新版本上，所有检查再跑一遍。</p>
+  <p>这一步防的是「各自没问题，合起来出问题」。</p>
+  <p>合并之后，新功能也不会马上推给所有用户。</p>
+  <p>它先隐藏在功能开关后面，只对Anthropic内部员工开放。员工天天高强度使用，往往比外部用户更早撞上问题。</p>
+  <p>而功能开关就像一个总闸，不用改代码、不用重新发版，就能决定功能开还是关。</p>
+  <p>最后是兜底。</p>
+  <p>出了问题，先拉下总闸。</p>
+  <p>团队每周轮班值守，每次事故复盘都要追问：这件事本该在哪一关被拦住？</p>
+  <p><strong>所以，审查没有消失，变成了贯穿开发、合并和发布的层层检查。</strong></p>
+  <h2><strong>零人审批的边界在哪里</strong></h2>
+  <p>前四关全绿之后，第五关根据风险分级，决定这次改动需要几个人批准。</p>
+  <p>文档、文案、仅内部可见的功能，以及藏在开关后的新增改动，属于低风险，自动审查和安全检查通过后，可以免人工审批。</p>
+  <p>普通产品改动，以及缓存、自动更新器、系统提示词这类敏感区域，需要一个人。</p>
+  <p>风险最高的代码，加上少数指定路径，需要两个人。</p>
+  <p>看上去，低风险改动已经「无人驾驶」了？</p>
+  <p>没那么简单。</p>
+  <p>风险档位由改动本身决定：第一个分类器读代码、定风险，第二个再判断是否需要额外增加人工审批。</p>
+  <p>代码所有者标记的敏感路径，以及所有CI工作流文件，必须有人审查。</p>
+  <p>轻量审批通道也有门槛：只对仓库「可信作者」名单里的人开放，名单外的人必须再找一个人批准。</p>
+  <p>指挥AI写代码的人，本身就算一名审查者，也要像亲手写代码一样，为这次改动负责。</p>
+  <p><strong>零人审批，不等于无人负责</strong>。</p>
+  <p>人要决定功能该不该做、架构是否合理，还要判断现有检查能不能覆盖这次的风险。</p>
+  <p>所以Claude Code团队有条规矩：<strong>你合进去的代码，出了问题，通常由你来修。</strong></p>
+  <p>点下批准之前，审查者得说清楚：这些检查验证了什么，还有哪些风险没有覆盖。</p>
+  <p>说不清，就别急着点通过，先补上必要的审查。</p>
+  <h2><strong>AI审查也会失灵</strong></h2>
+  <p>自动化审查，也会把自己卡住。</p>
+  <p>一个CLI项目的PR，一夜之间经历了五十多轮审查和修复，最后是作者手动叫停。</p>
+  <p>人可以一秒钟忽略一个小毛病，但AI不会，它会老老实实去改，改完又是一次提交，又是一轮审查。</p>
+  <p>团队用git blame回查，发现审查器反复标出的问题里，约59%是首轮审查前就在的老代码。它很少找到新bug，只是每轮多挖出几个旧的。</p>
+  <p>后来他们改了四条规矩：</p>
+  <p>满三轮还没通过，就提醒作者退一步、重新想方案；</p>
+  <p>前几轮之后，只审新增改动；</p>
+  <p>同类问题一次指出；</p>
+  <p>提过的问题不再重复。</p>
+  <p>效果立竿见影。</p>
+  <p>经过一轮审查和修复就通过的内部PR占比，从65%升到78%；需要五轮及以上的，从8.9%降到1.5%；平均审查次数，从2.08降到1.32。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,564" src="https://img.36krcdn.com/hsossms/20261108/v2_f25abce71d284032b6112aaa86033b62@000000_oswg92105oswg1080oswg564_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>调整复审规则后，一轮审查和修复后的通过率从65%升至78%，平均审查次数从2.08降至1.32。</p>
+  <p>审查的本事，一半在找问题，一半在知道何时收手。</p>
+  <p>多层审查，是不是就万无一失？</p>
+  <p>Anthropic自己给过一个反例。</p>
+  <p>3月26日，Claude Code上线了一项优化：会话闲置超过一小时，就清理一次旧的推理记录。</p>
+  <p>但一个bug让它在恢复对话后的每一轮都在执行清理。结果，Claude变得健忘、开始重复，使用工具也变得反常。这个 bug直到4月10日才修复。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,430" src="https://img.36krcdn.com/hsossms/20261108/v2_eb19415b102f40f8ab52a704acc26b1b@000000_oswg114619oswg1080oswg430_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>闲置后本应只清理一次旧推理，实际却每轮持续清理；红框标出误删内容。</p>
+  <p>官方4月23日的复盘承认：</p>
+  <p>这个改动穿过了多轮人工和自动审查，单元测试、端到端测试、内部试用全没拦住，光确认根因就花了一周多。</p>
+  <p>转折在复盘里。</p>
+  <p>团队用Code Review重审了出事的PR，在给足相关仓库上下文时，Opus 4.7找到了这个bug，Opus 4.6没找到。</p>
+  <p>这次回测说明，模型能力和上下文完整性，都会影响检出结果。于是他们让审查能引入更多仓库。</p>
+  <p>如今，每一次事故，都会变成一道考题。</p>
+  <p>团队把PR收集起来，由熟悉代码的工程师逐个确认其中的bug，整理成一套考题。</p>
+  <p>审查器每天对着这套考题跑分。每次调整提示词、工具或模型，也要用它检验效果：成绩没有提高，这次调整就不采用。</p>
+  <p>团队也没把话说满。</p>
+  <p>改动上线后，仍要靠开发者、值班人员结合数据看板发现异常。</p>
+  <p>根据回滚率等指标自动收紧审批的「熔断」机制，还没有建好。工程师们希望先补上这道保险，再让更多改动走零人审批。</p>
+  <p><strong>审查难免漏检，发现和补救也要跟上。</strong></p>
+  <p>一位Claude Code团队成员这样解释：放慢速度确实能少出错，但主要因为你什么都做得少了。所以他们更愿意把力气花在更快发现问题、更快修复上。</p>
+  <h2><strong>一个人用AI写代码，要验收什么</strong></h2>
+  <p>AI审查只给意见，拍板的还是你。</p>
+  <p>所以，别急着追求「不用看」，而是先让AI每次交付都回答三个问题。</p>
+  <p>第一，怎么验证的？</p>
+  <p>跑了什么检查，结果是什么，哪些情况还没覆盖。</p>
+  <p>Claude Code创造者Boris Cherny说过，给Claude一个验证自己的办法，可能是最重要的一件事。他估计，这能让最终结果的质量达到原来的2至3倍。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,267" src="https://img.36krcdn.com/hsossms/20261108/v2_3ca637b025fd4df88590f8bafb60639b@000000_oswg118084oswg1080oswg267_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Boris Cherny建议让Claude自行验证工作，形成反馈循环；他估计最终结果质量可提升至2—3倍。</p>
+  <p>第二，会影响哪里？</p>
+  <p>改动涉及哪些用户、数据和权限。</p>
+  <p>让AI给汇报工具加一个共享功能，就得问清楚：链接谁能打开，打开后能看到什么。</p>
+  <p>第三，出错怎么撤回？能不能一键关掉新功能、退回上一版。</p>
+  <p>动手前先提交存档，每次改动尽量小。<strong>先能撤回，再谈少审。</strong></p>
+  <p>除了这三个问题，再养成三个习惯。</p>
+  <p>第一，换个「脑子」复审。</p>
+  <p>写代码的会话，最容易对自己的bug视而不见。</p>
+  <p>开一个新会话，或者让子智能体用全新上下文复审，本地的/code-review和/security-review命令也能直接跑。</p>
+  <p>第二，给改动分档。</p>
+  <p>改文案、调样式，检查通过、实际效果确认后再合并；涉及登录、付款、删除数据，就要人工细查关键逻辑，并补上针对性测试。</p>
+  <p>先严一点，等验证和回滚流程跑顺了，再逐步减少低风险改动的人工审查。</p>
+  <p>第三，三轮不过，就换思路。</p>
+  <p>AI改了三轮还在原地打转，别催它第四轮，先问问方案本身是不是错了。</p>
+  <p>最重要的一点：AI说「通过」，不等于你已经完成验收。</p>
+  <p>代码是你让它写的，上线后的结果，也得由你负责。</p>
+  <p>Claude Code团队的目标，是让多数PR至多一人介入，同时守住回滚率和事故率。</p>
+  <p>人的注意力，要更多地放在判断风险、确认检查是否充分，以及出错后如何补救上。</p>
+  <p><strong>人可以不读每一行代码，但每一次上线，都必须有人负责。</strong></p>
+  <p>参考资料：</p>
+  <p>https://claude.dev/blog/solving-code-review-at-anthropic/?utm_source=chatgpt.com&nbsp;</p>
+  <p>https://www.anthropic.com/research/april-23-postmortem?utm_source=chatgpt.com&nbsp;</p>
+  <p>https://x.com/bcherny/status/2007179861115511237&nbsp;</p>
+  <p>编辑：元宇</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652741088&amp;idx=2&amp;sn=ecc8f4648b13472b8408dfde2e19dc30&amp;chksm=f094a2e3ce441f46e53882f4b0f0bee486333f19aa5b2fe3d4cbb911f59b674e1c5a3f55fbe3&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sun, 08 Nov 2026 07:20:37 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4060672855757954</guid>
+            <link>https://www.36kr.com/p/4060672855757954</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[机器人大泡沫正在破裂：IPO关了，借壳堵死]]></title>
@@ -2034,295 +2496,6 @@
             <pubDate>Fri, 06 Nov 2026 11:13:48 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4057812855527302</guid>
             <link>https://www.36kr.com/p/4057812855527302</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[智元急忙落地]]></title>
-            <description><![CDATA[<p>桌子上还有食物，但是顾客已经离桌，这份食物要不要当垃圾处理？</p>
-  <p>对人来说，这问题不难，比如可以观察顾客是否已经食用，或者观察顾客是不是已经离店，来判断顾客是否还会回来。</p>
-  <p>但对于机器人来说，这件事却难。</p>
-  <p>11月2号，智元的机器人们在一个便利店上岗，六台机器人分别承担迎宾、取货、做咖啡、做熟食、理货、清洁岗位的工作。其中，一位叫冷姐的机器人负责的正是清洁工作，与其他工作相比，这份工作部分环节是“非标”的，因此也更容易出错。</p>
-  <p>在判断顾客已经离桌后，冷姐很快就上前清洁桌面，面对一份纸质包装袋打包好的熟食，冷姐思考几秒后便扔进垃圾框中。</p>
-  <p>而事实上，顾客只是短暂离桌去观察货架，而且这份熟食还没有食用。</p>
-  <p>冷姐或许是没有办法透过纸质包装，来判断里面的熟食是否完整，才导致这次工作的失误。但这无伤大雅，毕竟主播和观众都知道，这只是一次测试，今天大家对于机器人犯点错是有预期的。</p>
-  <p><strong>智元真正想展现的，并不是一个还在进化中的机器人，而是它与商业场景已经发生了关系。</strong></p>
-  <p>9月，监管机构的“窗口指导”已经成为具身智能行业上市之旅的“路书”，文件中提到的“具备经常性收入、处于亏损收窄轨道”等要求，让这个原本还在讲宏大叙事的行业，迅速切换到商业化落地的实务上。</p>
-  <p>具身智能的商业化落地通常需要打通两个环节，第一是有场景可落地，便利店当然是其中之一。而另一个环节则是，机器人得到了真实场景数据的训练，可以基本胜任工作。</p>
-  <p>例如，在正式在便利店上岗前，智元的机器人已经在仿真环境里进行过岗前培训测试，其中就涉及到要不要把桌面上的物品当垃圾处理。但现实世界远比训练场景要复杂多变，这当然也是具身企业规模化落地到商业场景的一大阻力。</p>
-  <p>中国信通院等机构联合发布的《具身智能训练场研究报告（2026年）》显示，具身基础模型想要迎来“ChatGPT时刻”，至少还需要千万小时级的真实数据。目前，供需还存在量级差距。</p>
-  <p>这种供需差异催生了大量数采需求，9月23日，智元上线众包数采平台觅蜂派，据公司称，上线一个多月时间，觅蜂派的注册用户超过了15万。</p>
-  <p>对于这家本处在上市前临门一脚的高科技公司来说，这何尝不是另一种落地。</p>
-  <h2><strong>01</strong></h2>
-  <p>智元机器人上岗前，其实需要经过三个阶段的训练，分别是预训练、后训练和部署后。</p>
-  <p><strong>其中，预训练是花费时间最长且成本最高的训练阶段。</strong></p>
-  <p>据透露，目前智元机器人已经采集近百万小时的数据用于预训练。虽然数据规模突破不能等同于技术领先，但不可否认的是，这至少让智元争夺到模型迭代的主动性，而不是将核心智能交由外部主导。</p>
-  <p>这百万小时的训练集中，既包括真机采集数据，也包括无本体采集数据，也就是真人第一视角采集数据。而后者数据主要来源于智元机器人旗下的觅蜂科技，觅蜂派即为觅蜂科技的项目。</p>
-  <p>但这种模式并不是智元机器人首创，今年8月份，美国的具身智能公司Figure发布数据采集项目Index。在正式发布前，Index其实已经运营数月，截至发布前周活跃用户已经达到4.4万，用户覆盖108个国家。</p>
-  <p>还有一组值得关注的数据是，在Index正式发布前，就已经累计收到1600万条视频，相当于每天收集4.32万小时的人类活动。</p>
-  <p>虽然通用机器人的数据瓶颈问题还没有解决，但Index已经通过众包形式能建立罕见的数据吞吐量。</p>
-  <p>觅蜂派的经营逻辑，其实与Index非常相似，主要区别在于Index主要是服务自家机器人闭环，而觅蜂派则是要做整个具身行业共享的数据基础设施，为具身智能公司、世界模型公司以及大模型厂商们提供定制化服务。</p>
-  <p>也是因为如此，Index采集的场景主要是家庭场景，而觅蜂派的任务场景则覆盖包括生产类、餐饮类、零售类在内的近40大类场景。</p>
-  <p>而且就生产大类场景而言，又会细分成橡胶厂、塑料厂、造纸厂等20余种具体的工厂或车间场景。</p>
-  <p>觅蜂科技CEO姚卯青透露，规模化状态下无本体采集成本约为真机遥操的一半，甚至能到三分之一。</p>
-  <p><strong>但本质上，数采行业还是属于重资产。从采集设备制造、人员雇佣，再到数据储存和处理等，都需要大量的资金投入。</strong></p>
-  <p>姚卯青估算要满足今年1000万小时的数据需求，固定资产投入达数亿元。而觅蜂科技规划的产能是2030年能实现百亿小时级数据，这背后的成本投入可想而知。</p>
-  <p><strong>为了卸下重资产的包袱，觅蜂科技在众包模式的基础上，计划在扩张过程中引入加盟代工模式。</strong></p>
-  <p>也就是说，觅蜂科技只负责样版打造、流程规划和标准制定，合作加盟伙伴负责固定资产投资与团队组建。</p>
-  <p>目前，觅蜂派已经在部分城市招募到“城市合伙人”。深圳的张庆元就是觅蜂派的城市合伙人，现在他的团队有49名成员，高峰时期每天能采集到300多个小时的数据，团队中排名第一的采集员就能贡献16个小时的有效时长。</p>
-  <p>作为城市合伙人，张庆元的工作主要有两部分，一是通过社交平台精准招募采集员，二是囤积设备并把这些数采设备铺向自己负责的区域，租赁给采集员们。</p>
-  <p>这也意味着，觅蜂科技城市合伙人能在一定程度上帮其分担设备和人员招募等成本。</p>
-  <h2><strong>02</strong></h2>
-  <p>正如外卖骑手众包模式中，外卖骑手也需要租赁或购买电动车等装备一样，<strong>觅</strong>蜂派的采集员们也不是无成本兼职，因此并不是所有人都能从觅蜂派赚到钱。</p>
-  <p>在张庆元的团队里，有五分之一的人都处于付费兼职的状态。根据张庆元分享的“每日有效采集时长排行”，即使是在高峰时期，他的团队中也有10人的有效时长在1个小时以下，最少的甚至只有0.06小时。</p>
-  <p>目前觅蜂派任务大厅的任务价格都是14～37元，但这其中还包含日激励，这部分的收益需要达到指定的有效采集时长才能拿到。具体而言，任务单价为14元，当有效采集时长为1～3小时、3～5小时、5小时以上，分别可以拿到17元、20元和23元的日激励。</p>
-  <p>在觅蜂派领取任务前，需要绑定数采设备，而租赁设备的成本需要采集员自己承担。扫描张庆元提供的设备租赁二维码，会跳转到支付宝的租机界面，设备是觅蜂科技自研的Mego&nbsp;Ego，是一套头戴采集设备。</p>
-  <p>目前这套设备的日租金为19元，租期为7天。但根据《租赁服务协议》约定，这只是推广期的价格，过了推广期后，设备日租金会上涨到39元。</p>
-  <p>张庆元介绍说，设备的押金是跟芝麻信用分有关，最高是5000元，最低是0元。想要免押金，芝麻信用分要达到800分，这对采集员来说都不是一件容易的事。</p>
-  <p>另外，张庆元还提醒，设备在使用过程中摔坏或者丢失，需要采集员自己赔付，赔付的上限是5000元。</p>
-  <p><strong>这就意味着，采集员们至少每天采集够2小时的有效时长，才能覆盖设备成本。</strong></p>
-  <p>目前，张庆元团队的整体有效时长率能达到90%，提交354个小时，有效时长能达到319个小时，这是他们摸索了近两个月的成果。</p>
-  <p>看起来，如果按照张庆元团队的效率，完成采集任务并不难，但如果结合具体的采集任务来看，已经把相当一部分采集员拒之门外。</p>
-  <p>目前觅蜂派上还有剩余名额的主要是一些物流、仓储、文旅、金融、建筑、医疗健康、公共服务类的场景，这些场景已经把非从业人员排除在外。</p>
-  <p>而一些普通人更容易接触到的生活服务类的场景，目前都是“暂无任务”状态。</p>
-  <p>徐阳在进入数采行业前，就是做地推的，虽然他很擅长跟中小商户打交道，但是在拓展医院场景时吃过不少闭门羹。</p>
-  <p>徐阳总结，一方面医院是不缺钱，另一方面是会涉及到隐私问题，比如他曾接触的一个医院负责人就询问过“会不会拍到人脸”这类的问题。</p>
-  <p>在文旅场景，徐阳也是被屡屡拒绝。徐阳曾与一个古镇的负责人沟通，想在游客服务中心、售票区和文化展示区进行数据采集，但对方以淡季没有游客为由委婉拒绝。</p>
-  <p>单靠一家公司的BD很难敲开各行各业的大门，但众包模式也算不上是最优解法。众包模式吸引的更多的是没有专业技能的群体，真正稀缺场景的专业人员并没有成为觅蜂派的主力群体。</p>
-  <h2><strong>03</strong></h2>
-  <p>Smart&nbsp;Analytics&nbsp;Global数据显示，2026年上半年，智元人形机器人出货8400台，同比增长562%，拿下44%的全球份额。</p>
-  <p>这也意味着，智元出货量已经超过宇树科技，升至全球第一。而且，智元和宇树已经合计占据全球75%的份额，中国厂商合计贡献的出货量更是超过97%。</p>
-  <p>但是智元和宇树还是有区别的，其中之一就是前者还没上市，后者已经上市。</p>
-  <p>据媒体报道，今年7月份，智元启动港股上市筹备工作，但到了10月13日，智元却启动新一轮的融资。也就是说，智元今年内无法完成IPO，其IPO进程暂缓。</p>
-  <p>与其在准备不够充分的时候面对来自资本市场以及社会大众的拷问，不如留出窗口期打磨业务，这是包括智元在内的具身玩家们的无奈选择。</p>
-  <p>姚卯青曾总结，具身模型的成长之路，不只是在数据里训练出来的，更在真实场景里干出来的。</p>
-  <p>所以现在的智元开始两手抓，一边把机器人投入到真实的商业场景中，另一边用孵化觅蜂科技来突破数据瓶颈。</p>
-  <p>智元不仅让机器人前往便利店上岗，而且还与长隆打造具身智能主题乐园。在乐园里，300多台人形机器人与四足狗都已经上岗打工，在文娱商演、科普研学、服务零售站等100多个点位为游客带来服务。</p>
-  <p>在刚刚过去的智元创新日上，智元发布一个新的定义物理AI价值的度量衡worken（有效智能工时），用来衡量机器人能否自主、持续完成有价值的工作及实际成果。</p>
-  <p><strong>这恰恰也说明，智元想要证明自己的商业化能力，光靠出货量还不够。</strong></p>
-  <p>而通过搭建具身智能数据平台型供给基础设施，来加速商业化这条路的回报周期同样不明晰。</p>
-  <p>王臻是一家数采公司的创始人，在他看来，觅蜂派短时间内还没有办法实现规模化。</p>
-  <p>最主要的一个原因就是平台与用户的利益相悖，觅蜂派害怕采集员“白嫖”上万元的设备，而采集员背负了押金和租金，就会有压力。</p>
-  <p>但就目前情况来说，采集员每周干满6天，每天干满8小时又无法实现，而如果设备闲置，采集员就会亏钱。</p>
-  <p>王臻担忧的是众包模式背后的矛盾，在更宏观的层面上，数据采集项目能不能撑得起一门生意，同样要打上一个问号。</p>
-  <p>一个月前，美国的具身数据公司Eidon倒下了，创始人Sam&nbsp;Padilla把数据资产都进行开源处理，并且也为后来者留下一些忠告。</p>
-  <p><strong>在Sam&nbsp;Padilla看来，技术上存在数据瓶颈，但并不必然意味着这是一门好生意。</strong></p>
-  <p>一方面，机器人数据的买家圈子非常小，全世界可能就两百来人，如何接触到这些买家，并且让这些买家认为自己的公司采集的数据是有价值的，是第一道门槛。</p>
-  <p>比如Eidon押注的是IMU路线，但现在具身技术还没有收敛，部分实验室并不认可这类数据。不同买家对传感器、任务和信号要求不一样，如果不能满足他们的规模和规格，订单就会流向其他数据供应商。</p>
-  <p>另一方面，还要算一笔经济账，包括采集员报酬、BOM成本、质量审核等。Eidon会把数据按每1000小时一批出售，根据数据质量，定价在每小时60美元到100美元。如果数据采购价格不断下调，觅蜂派的运营压力会更大。</p>
-  <p>不过，Eidon用五个月的时间积累3000个小时的数据，而觅蜂派在短短数月采集量就突破百万小时。</p>
-  <p><strong>能否通过规模化摊薄成本，是觅蜂派算清这笔经济账的关键。</strong></p>
-  <p>但总体来说，虽然数据采集干起来挺苦，好歹是门生意，这大概是智元们今天最需要的。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=Mzg5NTczNTkyOA==&amp;mid=2247494886&amp;idx=1&amp;sn=13f54adfa2a040b9dc3215ab29e3cdce&amp;chksm=c1d40c75bce8e83a5c00eee18001483f14431ac9af85d1d08f269001a1237cc8d531cfbf923d&amp;scene=0&amp;xtrack=1#rd">“最话FunTalk”（ID：iFuntalker）</a>，作者：最话团队，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 06 Nov 2026 11:08:30 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4057768716899203</guid>
-            <link>https://www.36kr.com/p/4057768716899203</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[美的全屋智能锚定A2A：家电互联正从「接口对接」走向「Agent对话」｜最前线]]></title>
-            <description><![CDATA[<p>作者｜黄楠</p>
-  <p>编辑｜袁斯来</p>
-  <p>全屋智能概念发展多年，行业始终没有跨过规模化普及的门槛。市面上大量产品可以在单品牌体系内流畅联动，一旦跨品牌、跨品类协作，往往就陷入割裂。</p>
-  <p>近日，美的集团第31届科技月大会在佛山顺德举办，集中展出了美的在技术研发、产品创新与数智转型上的最新成果。</p>
-  <p>美的全屋智能总经理尚喆博士在科技月期间的采访中指出，长期以来，全屋智能行业的卡点并不来自单体硬件性能，而是三道系统性约束：异构设备的数据孤岛难以打通；智能交互的实际效果与用户预期存在落差；系统部署调试的工程门槛对普通家庭不够友好。</p>
-  <p>硬件本身的性能已经可以满足基础使用，但体验短板集中暴露在系统协同层面。这三道表象问题背后，藏着同一个结构性矛盾：行业并不缺少互联互通的主观意愿，却始终没有形成一套低成本、可大规模复制的跨品牌、跨品类协同技术范式，多数合作只能停留在点状项目试点，难以向海量普通家庭普及。</p>
-  <p>比如主流的云云点对点API对接方案，这套实现路径逻辑直观，却存在难以回避的规模缺陷，对接成本会随着合作生态数量呈指数级上涨。</p>
-  <p>“假设A厂商、B厂商各自有上千款设备，双向打通就意味着海量接口开发、持续联调与后期维护。”尚喆博士算了一笔产业账，每接入一个新的合作生态，就要重新完成一轮接口适配。这就决定了API模式只适合打造少数案例，不适配支撑大范围的设备互联，这也是行业生态难以破局的技术根源之一。</p>
-  <p>当大模型浪潮下，AI Agent开始成为家庭、车载系统的能力中枢，行业出现了另一条解题思路：Agent to Agent（A2A）。</p>
-  <p>A2A 的核心思路，不再是为每一台设备单独写对接接口。简单来讲，是由两方的AI智能体直接对话：一方把用户的真实需求传递过去，交由合作方的智能体自行判断这件事能不能做，再调度自家设备完成动作，最后把执行结果反馈回来。</p>
-  <p>如果碰到涉及家庭安全等敏感信息操作，Agent会将选择权交还到用户手上确认。整套协作只需做好两套AI Agent间统一的沟通语言，无需再对各式各样的硬件逐个做开发适配。</p>
-  <p>据尚喆介绍，美的与奇瑞iCAR已完成A2A对接，iCAR车型已接入美的美居平台，实现车家互联。车主在车内用自然语言下达指令，就能查询家中耗材余量，后续还可延伸至语音触发补货。这一步已经突破了传统“车控家”的开关联动，设备之间不再是简单的指令转发，而是跨系统的业务级任务协作。</p>
-  <p>支撑美的A2A平台的技术底座，是美的自研家庭智能体MevoX。它区别于市面上多数仅能应答显性指令的语音助手，具备两大核心能力：一是深度推理。面对用户模糊、不完整的表达，MevoX能结合空间范围、设备归属和环境情境拆解真实意图，而不是停留在字面指令的匹配上。</p>
-  <p class="image-wrapper"><img data-img-size-val="4720,3148" src="https://img.36krcdn.com/hsossms/20261106/v2_34bb6c9c8aa049c796b39f1c63a4f601@6022551_oswg4917407oswg4720oswg3148_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">美的自研家庭智能体MevoX（图源/企业）</p>
-  <p>二是长期记忆。用户的使用习惯会被持续沉淀下来，后续调节灯光、空气等个性化参数时，系统会默认用户更偏好的设定，让全屋智能交互逐步走向千人千面，而不是每次从零开始。</p>
-  <p>叠加美的多年的家电智能化积累和全品类硬件矩阵，构成了MevoX在真实家庭场景里的能力纵深：前端能接住模糊意图，后端能调动具体设备，中间基于上下文记忆把一次次交互串起来。这不是单点技术的堆叠，而是从理解意图到执行落地的完整链路。</p>
-  <p>落到业务策略层面，美的选择定位为家庭侧能力供给方，坚持向外开放互联，与外部车载、移动端Agent建立协作关系。</p>
-  <p>目前，美的已同华为、vivo、OPPO、荣耀等头部手机厂商，及比亚迪、蔚来、长安、奇瑞等核心车企实现人车家互联。今年，美的作为家电行业中首个将家庭智能体A2A与生态伙伴打通的企业，已率先实现了与<ai-product-link data-id="13438" data-name="千问" data-logo="https://img.36dianping.com/20250909/v2_ab9ccd231d1247a28821b0595221be8b_oswg15379oswg268oswg268_img_000" data-classify-list="文本生成,辅助写作,摘要总结" data-refer-type="20">千问</ai-product-link>、微信小微、荣耀yoyo助手和奇瑞汽车的智能体深度协同。</p>
-  <p class="image-wrapper"><img data-img-size-val="3200,1800" src="https://img.36krcdn.com/hsossms/20261106/v2_d73c14017487488c9b507e77be60a8e6@6022551_oswg5366585oswg3200oswg1800_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">首个将家庭智能体A2A与生态伙伴打通的家电企业（图源/企业）</p>
-  <p>当前，行业底层硬件协议的标准化建设也在同步推进。如由工信部组织、美的作为核心工作组成员、多家企业共同参与制定的多项家电互联互通标准从去年八月启动相关工作以来，到今年九月底，已有五项标准草案基本制定结束，十月起进入技术标准测试验证阶段，预计明年1月完成验证并进入公示。这套标准要解决的，正是不同品牌设备间的互联互通难题。</p>
-  <p>车家互联方面，美的还联合中国信通院、比亚迪等机构和企业，以及相关行业组织，共同推进车家互联标准相关工作。美的正把开放连接从企业间的点对点对接，推向更广泛的产业协同。</p>
-  <p>从产业周期视角来看，全屋智能的竞争范式已经迎来迭代。衡量企业竞争力的核心锚点，正由硬件单品、设备接入的规模指标，逐步转向 Agent 的推理能力与跨生态协同效率。</p>
-  <p>而随着A2A智能体互操作范式实现成熟落地，最直接的产业效应就是跨厂商协同边际成本大幅降低。中小厂商不必投入高额研发成本逐一对接多套生态，异构硬件也可打破品牌壁垒，围绕用户场景完成联动。</p>
-  <p>其带来的深层变革，是生态架构的迭代，传统“中心化平台+接入伙伴”的模式，有望演进成多Agent对等协作的“分布式”网络。头部企业的壁垒不再来源于生态圈地，中小厂商无需依附外部平台获取场景入口，竞争焦点将回归企业自身核心能力。</p>
- 
-]]></description>
-            <pubDate>Fri, 06 Nov 2026 11:08:17 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4057965347869576</guid>
-            <link>https://www.36kr.com/p/4057965347869576</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[三个哈佛女孩勇闯AI创业圈，她融资过亿美元]]></title>
-            <description><![CDATA[<p>80后90后的读者，可能对初代哈佛女孩刘亦婷还有印象。</p>
-  <p>1999年，成都外国语学校的学生刘亦婷本科被哈佛大学全额奖学金录取，她的母亲刘卫华随即出版《哈佛女孩刘亦婷》，成为轰动一时的现象级出版物。刘母名利双收，据说光版税收入就有超数百万元。</p>
-  <p>把刘亦婷的老黄历翻出来不是想怀旧，而是因为二十多年后有一批新的「哈佛女孩」成为了她的对照组：与刘亦婷后来选择进世界500强、做金融投资的职业路径不同，她们主动抓住正在发生的人工智能技术革命浪潮，自己创业做产品、拿融资、上头条，勇闯AI赛道。</p>
-  <h2><strong>95后郭文景创立AI文生视频项目PIKA，融资超1亿美元</strong></h2>
-  <p>2015 年，杭州第二中学的郭文景成为浙江第一个被哈佛本科提前录取的学生，被央视报道为「天才少女」，一炮走红。</p>
-  <p>在哈佛，她拿到数学学士与计算机硕士学位，先后在Meta AI Research、微软、谷歌大脑、Epic Games 实习，履历表上的几乎每一段都是普通工程师梦寐以求的起点。</p>
-  <p>随后她进入斯坦福 AI Lab 读博，研究方向是图形学。</p>
-  <p>2023 年 4 月，ChatGPT 掀起的巨浪拍到了每个 AI 研究者的书桌前，郭文景和同为斯坦福博士的 Chenlin Meng（孟晨霖）做出同一个决定：退学创业。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261106/v2_c9a5a3194c244948b05006b21f319889@000000_oswg356996oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>两人联手创立 Pika Labs，郭文景担任 CEO，孟晨霖担任 CTO；第三位创始成员陈思禹，是郭文景杭二中同班同学、北大首届图灵班成员。</p>
-  <p>Pika 做的是 AI 视频生成。</p>
-  <p>2023 年 11 月，Pika 1.0 发布，一张「马斯克穿着太空服」的 AI 生成视频在全网刷屏，产品一度注册排队几十万。</p>
-  <p>产品轰动后，融资速度也是坐上了火箭，成立半年内，Pika 完成了三轮共 5500 万美元融资，Nat Friedman、Daniel Gross、Lightspeed 等知名机构和人物先后出手。</p>
-  <p>2024 年 6 月，Spark Capital 领投 8000 万美元 B 轮，Pika 累计融资 1.35 亿美元，估值超过 4.7 亿美元，约合人民币 34 亿元。</p>
-  <p>没想到，<strong>这个故事顺便还带动了中国资本市场，原来郭文景是A 股上市公司信雅达实控人郭华强之女</strong>。Pika 爆火后，信雅达股价短期内曾连续涨停，「女儿概念股」「父凭女贵」等说法一时刷屏。</p>
-  <p>进入2025 年，AI 视频赛道进入巨头绞杀阶段，OpenAI 的 Sora、谷歌的 Veo 相继入场，Pika 的声量一度被认为受到挤压。但据彭博社报道，Meta正在与 Pika 就收购或技术授权展开谈判。</p>
-  <p>不过，在2026年，AI视频生成领域经历了重大洗牌，Sora 在4月底正式关停，Seedance 2.0、可灵等国产AI视频平台强势崛起，Pika与Meta的收购谈判是否还在进行也不得而知。</p>
-  <h2><strong>00后的她从哈佛休学创业做GEO，融了一百万美元</strong></h2>
-  <p>如果说郭文景代表的是「天才博士退学」的路线，那么Christine Zhang（张）的故事，则是更典型的 Z 世代剧本，创业比毕业更早到来。</p>
-  <p>Christine Zhang 父母来自甘肃兰州、岷县，后移民到美国。她考入哈佛，原本会按部就班走精英路线。</p>
-  <p>但在宿舍里，她与同为哈佛CS 专业的室友 Julia Hudson 一起，发现了一个新的商业机会：电商行业知道如何在搜索引擎里投放关键词，但当消费者开始向 ChatGPT、Gemini 问「推荐一款跑鞋」时，商品几乎invisible——因为 AI 读不懂为传统搜索优化过的页面。</p>
-  <p class="image-wrapper"><img data-img-size-val="800,800" src="https://img.36krcdn.com/hsossms/20261106/v2_d9be3121f4114a37ab776a0889dd33f8@000000_oswg412903oswg800oswg800_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>她们创办的公司叫 Veil，做的事被业内称为<strong>GEO（生成式引擎优化）</strong>或AEO（答案引擎优化）：把商品内容改写成 AI 看得懂的格式，让品牌在被 AI 推荐时排名靠前。</p>
-  <p>据其对外数据，客户的 AI 可见度平均提升约 67%。</p>
-  <p>2025 年 10 月，美国商业媒体 Business Insider 刊出了她的自述：</p>
-  <blockquote>
-   <p>「我 19 岁，正在哈佛 gap year，我在做自己的 AI 创业。」 公司成立不到三个月，Veil 就完成了 100 万美元种子轮，客户接近 500 家，团队仅 6 人。</p>
-  </blockquote>
-  <p>当她告诉父母要休学时，父母的反应是「他们以为我疯了」。但她也刻意说明了一个细节是「休学」而非「辍学」，这意味着她以后有机会还能再回到哈佛，继续把学位读完。</p>
-  <p>对 Christine Zhang来说，创业只是中场休息，重新开了一个人生副本。</p>
-  <h2><strong>她创业两年做AI教育，项目已被收购</strong></h2>
-  <p>第三位AI创业的哈佛女孩Avery Pan，是AI 教育公司 Class Companion 的联合创始人兼 CEO。她毕业于哈佛大学，曾经做过写作辅导老师，母亲和婆婆都是教师。</p>
-  <p>在创业之前，Pan 还曾任职于知名K12在线教育公司Outschool，负责国际增长业务；并曾担任Zymergen公司的战略与企业发展实习生。</p>
-  <p class="image-wrapper"><img data-img-size-val="200,200" src="https://img.36krcdn.com/hsossms/20261106/v2_7cbe1ea026e54dfeaef0a911dd86ee14@000000_oswg36370oswg200oswg200_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">这位创业者非常低调，没有看到宣传图，只有履历中的头像</p>
-  <p>Class Companion 踩中的是2023 年教育界最大的焦虑：ChatGPT 让学生的作业一夜之间变得「不可信任」。</p>
-  <p>Avery Pan 的方案不是与 AI 对抗，而是把 AI 交到老师手里，让学生照常写作，AI 负责即时生成个性化反馈，教师保留最终评分权。</p>
-  <p>这个「师本位」的立场，让公司在教育界获得了意想不到的欢迎。</p>
-  <p>2023 年 10 月，Class Companion 完成 400 万美元种子轮融资，Index Ventures 领投，OpenAI Startup Fund 参投，Andrej Karpathy 等知名个人跟投。</p>
-  <p>2025 年 4 月，教育数据公司 Panorama Education 宣布收购 Class Companion。&nbsp;</p>
-  <p>从创立到退出仅两年时间，这是「哈佛女孩AI 创业」的一个完整样本，既拿了顶级资本的钱，也能安安稳稳地退出。</p>
-  <h2><strong>华人女性AI创业者崛起，新一代人的选择</strong></h2>
-  <p>可以说，<strong>「哈佛+华人+退学/休学+AI 创业」正在成为过去三年硅谷创投圈一条稳定的叙事支线。</strong></p>
-  <p>在这条线上，男性固然不遑多让，但女性也正占据越来越显眼的位置。而哈佛只是一个美国顶尖高校的代名词，它可以变成斯坦福、MIT等等。</p>
-  <p>比如，Jessica Wu就从MIT 辍学，2023年创立自动化编程平台 Sola Solutions，连续获得 a16z 和 Conviction 等机构的投资，总融资约 2100 万美元。</p>
-  <p>还有风头正盛的洪乐潼，本科毕业于MIT（麻省理工学院），在斯坦福读博士的期间退学创业，2025年创立「AI 数学家」模型公司 Axiom Math，今年拿下A轮融资2亿美元，成立仅一年，公司投后估值已超10亿美元。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20261106/v2_67390ac19c944f42bef4dd12bca940b5@000000_oswg1111636oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>耐人寻味的是新时代下的叙事语境、风向似乎完全转变了。</p>
-  <p>80后的刘亦婷，人生的高光时刻定格在收到录取通知书的那个下午，她的故事由其母亲执笔书写，并最终沉淀为一本育儿书、一场关于「鸡娃值不值」的全民辩论。</p>
-  <p>新时代95后00后哈佛女孩们，把人生最重的筹码押在了哈佛之后的路上，她们创立Pika 、Vei、Class Companion，通过创业经历、拿结果来证明自己的价值。</p>
-  <p>初代「哈佛女孩」们的叙事核心是「被哈佛选择=人生赢家」，刘亦婷的最大价值在于她替无数家庭证明了「女孩也可以上哈佛」。</p>
-  <p>这一代「哈佛女孩」的叙事核心是「不被哈佛定义」，有人退学，有人休学、gapyear，光环的来源早已不是学历、学校本身，而是她们脑子里的创意、手上的能力。</p>
-  <p>两代人的选择似乎截然不同，但底层驱动力是相似的，上一代父母赌的是「学历改变命运」，这一代年轻人相信的是「时机改变命运」。</p>
-  <p>而 AI，恰好给了她们改写命运剧本的机会。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5MjQ2NzA2Mg==&amp;mid=2649631542&amp;idx=1&amp;sn=c64f78f66362776d5945781ccd164414&amp;chksm=bf96dadfeef2905bca4a54a19a32c29ae382ea6fa6ad07cf4a8272e76db534066e2286c28dc1&amp;scene=0&amp;xtrack=1#rd">“IT桔子”（ID：itjuzi521）</a>，作者：吴梅梅，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 06 Nov 2026 11:02:33 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4057767992251523</guid>
-            <link>https://www.36kr.com/p/4057767992251523</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[上海戴家小妹，31年前创立的公司市值1.8万亿]]></title>
-            <description><![CDATA[<p><strong>史上最大上市科技公司并购，来了。</strong></p>
-  <p><strong>近日，美国芯片巨头Marvell宣布，将以全股票方式收购同样是美股上市公司的光通信企业Lumentum，交易隐含企业价值高达1150亿美元（约合人民币超7600亿元）。</strong></p>
-  <p><strong>据彭博社并购数据库统计，按股权价值计算，若不计入今年2月SpaceX与xAI的“内部整合”，这笔交易不仅创下了2026年以来全球最大并购纪录，也刷新了全球科技行业有史以来的并购规模纪录。</strong></p>
-  <p>巧的是，两家公司背后都有同一个投资者——英伟达。今年3月，其通过认购可转换优先股，先后向两家公司各投资20亿美元。据彭博社报道，两家企业宣布合并前，双方CEO还曾征求黄仁勋的意见，并获得了他的支持。</p>
-  <p>黄仁勋点了头，华尔街却不买账。11月2日公告当天，Marvell与Lumentum股价分别大跌12.72%和18.59%。此后，两家公司股价继续下挫。11月5日，受美股科技股集体下挫影响，两家公司再度分别大跌16.43%和18.58%。截至当天收盘，较公告前最后一个交易日，两家公司累计跌幅已扩大至约32%和39.3%，市值分别缩水至约1171亿美元和463亿美元。</p>
-  <p>一家做芯片，一家做光通信，Marvell为何不惜重金收购Lumentum？黄仁勋提前押注的40亿美元，又透露了什么信号？</p>
-  <h2><strong>为何要合并？</strong></h2>
-  <p><strong>这笔交易，Marvell不需要直接拿出1150亿美元现金，而是用自己的股票换取Lumentum的股份。</strong></p>
-  <p>据双方公告，每持有1股Lumentum股票，股东将获得4.5股Marvell股票。按10月28日并购传闻出现前的股价计算，这4.5股Marvell股票价值约1132美元，较当时Lumentum股价溢价23.9%。</p>
-  <p>至于1150亿美元，则是考虑了债务、现金等因素后的企业整体估值。据路透社报道，若只计算股权价值，交易规模约为1025亿美元。</p>
-  <p>根据双方公告，交易完成后，原Marvell股东预计持有合并后公司约67%的股份，Lumentum股东持有约33%。Marvell现任董事长兼CEO马特·墨菲（Matt Murphy）将继续掌舵，Lumentum CEO迈克尔·赫尔斯顿（Michael Hurlston）等三名董事将加入董事会。交易预计于2028年上半年完成，仍需获得双方股东及监管机构批准。</p>
-  <p>再来看这两家公司。</p>
-  <p><strong>Marvell是一家带有华人创业印记的美国芯片企业。1995年，来自上海的戴伟立（Weili Dai）与丈夫周秀文（Sehat Sutardja）、丈夫的弟弟周秀武（Pantas Sutardja）共同创办了Marvell。2000年6月，公司登陆纳斯达克，IPO发行600万股，发行募资总额9000万美元。</strong></p>
-  <p>早年，Marvell主要从事硬盘控制芯片业务。2016年，创始人夫妇退出公司管理层，墨菲接任CEO。此后，通过一系列收购，公司逐渐将业务重心转向数据中心与网络通信。</p>
-  <p>离开Marvell后，戴伟立并未离开科技创业圈。她先后参与创办AI企业MeetKai和先进封装公司Silicon Box。她的两位兄长同样是芯片行业的知名创业者：大哥戴伟民创办了科创板上市公司芯原股份，现任董事长兼CEO；二哥戴伟进曾联合创办Silicon Perspective，目前也在芯原担任董事、首席战略官。戴氏三兄妹，先后创办了六家芯片企业。</p>
-  <p>如今，Marvell已成为AI基础设施产业链的重要参与者，主要为亚马逊等大型云计算企业设计定制AI芯片，同时提供网络交换芯片、高速信号处理芯片等产品。相比英伟达，Marvell的知名度或许没那么高，但它同样是美国科技巨头建设AI数据中心的重要供应商。</p>
-  <p><strong>Lumentum则于2015年8月从老牌光通信企业JDSU分拆独立，并于当月4日在纳斯达克上市。</strong>其主要产品包括激光器、光收发器、光交换设备等，是全球重要的光通信技术供应商。</p>
-  <p>近年来，AI数据中心建设热潮也带动了Lumentum的业绩增长。据公司11月2日公布的最新财报，2027财年第一季度营收达到12.63亿美元，同比增长136.5%。</p>
-  <p>随着AI热潮兴起，两家公司都曾跻身千亿美元市值俱乐部。今年10月初，Lumentum市值突破了1000亿美元，Marvell同期市值则超2000亿美元。</p>
-  <p>从股权结构来看，两家公司的主要机构股东也存在交集。Marvell的主要股东包括FMR、先锋领航和贝莱德，Lumentum的主要股东则包括先锋领航旗下机构和贝莱德。</p>
-  <p>都是成长迅速的上市公司，Marvell为何还要斥巨资收购Lumentum？</p>
-  <p>关键在于，AI数据中心的瓶颈，正从计算能力延伸到数据传输。随着成千上万颗GPU协同工作，芯片之间需要不断交换数据。如果传输速度跟不上，再强大的算力也难以充分发挥。传统铜线在短距离连接中仍有优势，但随着带宽和传输距离增加，损耗和能耗问题逐渐显现，光通信的重要性随之上升。</p>
-  <p>两家公司恰好掌握着其中的关键技术。Marvell擅长DSP（数字信号处理）芯片，负责高速信号处理；Lumentum则拥有激光器、光学器件及磷化铟等化合物半导体制造能力，为高速光信号传输提供关键支持。</p>
-  <p><strong>过去，芯片和光学器件通常由不同企业分别研发，再由光模块厂商整合。但随着传输速率不断提高，两者需要在设计阶段就紧密配合。Marvell收购Lumentum，就是希望将芯片设计与光学技术整合起来，加快产品研发与交付，同时增强自身在高速光互连产业链中的竞争力。</strong></p>
-  <p>事实上，Marvell早已开始布局光通信。2021年，公司收购高速互连芯片企业Inphi；今年2月，又完成了对光互连企业Celestial AI的收购。如今再拟收购Lumentum，相当于进一步补齐了激光器、光学器件和相关制造能力。</p>
-  <p>按照双方公告，合并后公司预计可服务的潜在市场规模将扩大至5500亿美元，并有望每年实现超过10亿美元的成本协同效益。从实际业务规模来看，据双方公布的投资者资料，合并后公司年化营收约177亿美元，预计下一季度有望突破210亿美元。按公告前股价计算，合并企业价值超2750亿美元<strong>（约合人民币1.8万亿元）。</strong></p>
-  <p>在Marvell看来，光通信已经不只是数据中心的配套环节，而是值得投入千亿美元争夺的核心技术。</p>
-  <p>只是，华尔街暂时还不愿为这笔豪赌买单。</p>
-  <h2><strong>股价先跌了</strong></h2>
-  <p><strong>市场首先担心的，是收购价格太高。</strong></p>
-  <p>据路透社基于LSEG数据测算，此次交易对Lumentum的估值约为其未来12个月预期核心经营利润的33倍，而同行业可比公司的估值中位数仅为16倍，溢价相当明显。</p>
-  <p>不仅如此，这笔收购的股权价值超过Marvell公告前自身市值的一半，规模更是其2021年收购Inphi的十倍以上。对于一家年营收不到百亿美元的芯片企业而言，如此大规模的收购，无疑是一场豪赌。</p>
-  <p>IG集团首席技术分析师Axel Rudolph接受路透社采访时也指出，投资者有理由质疑，Marvell是否付出了过高的价格，又是否一次承担了太多风险。</p>
-  <p><strong>除了收购价格过高，股价下跌还带来了另一个问题：由于双方采用固定换股比例，Lumentum股东最终获得的股票价值，也会随着Marvell股价缩水。</strong></p>
-  <p>到了11月4日，Marvell股价已跌至159.8美元。按照此前约定的换股比例计算，每股Lumentum对应的股票价值仅约719美元，较最初公布的估算价格缩水超过三成。</p>
-  <p>而当天，Lumentum股价收于626.75美元，甚至低于换股后的理论价值。这一差距也反映出，投资者仍在为交易能否顺利完成等不确定性留出折价。</p>
-  <p>监管审批同样是一道难关。根据Marvell向美国证券交易委员会（S<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>）提交的8-K文件，如果交易因特定反垄断或监管审批障碍而失败，在满足约定条件的情况下，Marvell可能需要向Lumentum支付32亿美元的监管终止费。</p>
-  <p><strong>同时，这笔收购也牵动了中国光通信市场。</strong></p>
-  <p>近几日，A股光通信板块持续震荡。11月3日，中际旭创、天孚通信等龙头股一度大幅下挫，次日迎来反弹，但11月5日再度走弱——截至收盘，中际旭创下跌7.51%，新易盛下跌5.54%，天孚通信下跌4.78%，源杰科技下跌1.06%。</p>
-  <p>市场担忧的是，一旦Marvell与Lumentum完成合并，DSP芯片与EML激光器等高速光模块关键零部件将进一步集中，国内光模块厂商可能面临更大的采购和议价压力。</p>
-  <p>不过，板块下跌也不能完全归因于此次并购。光通信板块自三季度以来就持续调整，关键零部件供应紧张等因素同样在影响市场预期。</p>
-  <p>说到底，市场并非不看好AI光通信的发展前景，而是Marvell为此付出的代价，已经让投资者感到不安。</p>
-  <h2><strong>黄仁勋的40亿美元，押中了什么？</strong></h2>
-  <p><strong>这笔交易背后，还有一个值得关注的名字——英伟达。</strong></p>
-  <p>今年3月2日，英伟达宣布向Lumentum投资20亿美元，支持其先进光学技术研发和美国本土制造扩产。双方还签订了多年采购协议，英伟达获得未来先进激光器组件的相关产能使用权。</p>
-  <p>同一天，英伟达又向另一家光通信巨头Coherent投资20亿美元，同样涉及激光器、光学器件研发和制造产能。</p>
-  <p>3月31日，英伟达再向Marvell投资20亿美元，双方将在定制AI芯片、高速互连和硅光子技术方面展开合作。</p>
-  <p>短短一个月，60亿美元投向三家企业。其中，Lumentum和Coherent掌握着先进激光器、光学器件及相关制造能力，Marvell则擅长定制AI芯片、高速信号处理和网络互连技术。</p>
-  <p>这几笔投资，恰好覆盖了AI数据中心从芯片计算到高速数据传输的多个关键环节。</p>
-  <p>英伟达为何如此重视这些企业？</p>
-  <p>英伟达的竞争优势早已不止于GPU，而是逐渐延伸至整个AI计算系统。数据中心规模越大，算力能否充分释放，就越取决于芯片间的高速连接和关键零部件供应。</p>
-  <p>这也改变了芯片企业的竞争方式。过去，不同厂商可以分别提供芯片和光学器件，再由客户完成整合。如今，随着光通信技术逐渐向芯片和封装内部延伸，两者需要在设计阶段就紧密配合。谁能更好地整合这些技术，谁就更有机会参与下一代AI系统的核心设计。</p>
-  <p>据路透社报道，Marvell预计，到2030年，其所关注的互连市场规模将达到650亿美元，未来数年的年均增速有望达到65%。</p>
-  <p><strong>对英伟达而言，投资Lumentum和Coherent，是为了支持更多先进光学器件的研发和产能建设，降低未来关键零部件供应不足的风险。而投资Marvell，还有另一层考虑。</strong></p>
-  <p>如今，亚马逊、谷歌等大型科技企业都在开发定制AI芯片。根据英伟达3月31日公告，Marvell将通过NVLink Fusion平台，把自身设计的定制计算芯片接入英伟达的互连生态。这意味着，即使客户采用其他厂商设计的计算芯片，仍可以使用英伟达的部分网络和互连技术。</p>
-  <p>因此，英伟达的投资不只是为了获得财务回报，而是通过股权投资、长期采购和技术合作，把关键供应商更紧密地联系起来。</p>
-  <p>据彭博社援引知情人士消息，交易宣布前，Marvell和Lumentum两家公司CEO曾征求黄仁勋的意见，并获得其支持。Marvell CEO墨菲也表示，合并将使英伟达受益，并进一步加强对英伟达的支持。</p>
-  <p>不过，Marvell的客户并不只有英伟达。公司还与亚马逊、谷歌等科技巨头建立了合作关系。收购Lumentum后，Marvell有望凭借更完整的光互连产品布局，增强对大型云计算客户的吸引力。</p>
-  <p>从这笔交易可以看到，美国AI产业链的竞争，正从芯片性能延伸到整套系统的技术整合。英伟达通过投资和合作布局关键供应商，Marvell则选择收购，希望在下一代AI基础设施中掌握更多话语权。</p>
-  <p>对于中国光通信企业而言，这场并购也可能带来新的机会。如果下游光模块厂商为分散供应链风险，加快引入其他供应商，国产高速EML激光器等产品有望获得更多验证和采购机会。但能否真正转化为订单，仍取决于国内企业的技术成熟度和量产能力。</p>
-  <h2><strong>结语</strong></h2>
-  <p>从1995年一家华人参与创办的芯片企业，到如今发起1150亿美元收购，Marvell走了31年。</p>
-  <p>这笔交易能否顺利完成，还要等到2028年。即便最终获批，如何消化如此庞大的收购，仍是Marvell必须面对的考验。</p>
-  <p>1150亿美元，想买下的是一家光通信巨头，押上的却是Marvell未来十年的竞争力。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5MjI0Nzk5NA==&amp;mid=2650237556&amp;idx=1&amp;sn=6cae784f390977457c67c3c80f6ead7b&amp;chksm=bfd9b0e1db523c7029a569d90bfd779ccf55fd088b748035e497c03fa311eab08d2cbabe0824&amp;scene=0&amp;xtrack=1#rd">“融中财经”（ID：thecapital）</a>，作者：李冰之，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 06 Nov 2026 10:33:39 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4057773827117959</guid>
-            <link>https://www.36kr.com/p/4057773827117959</link>
             
             
             

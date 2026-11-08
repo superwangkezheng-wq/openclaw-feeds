@@ -79,6 +79,17 @@
           "retweets": 0,
           "text": "Full conversation at @spc with @traestephens https://t.co/tvo01XNqet",
           "url": "https://x.com/adityaag/status/2118733093230240144"
+        },
+        "id:2119157297167372646": {
+          "createdAt": "2026-11-07T19:57:26.000Z",
+          "id": "2119157297167372646",
+          "isQuote": false,
+          "likes": 41,
+          "quotedTweetId": null,
+          "replies": 5,
+          "retweets": 3,
+          "text": "If building datacenters becomes harder, it is obvious that you should be super long anyone who has existing capacity (aka hyperscalers).\n\nIt's not like the demand for the spice is going way -- it is only continuing to go up.\n\nThus the spice holders will win big.\n\nWhat will suffer is the rate of new model training. \n\nI guess we will pace the frontier after all. The body politic speaketh.",
+          "url": "https://x.com/adityaag/status/2119157297167372646"
         }
       }
     },
@@ -88,17 +99,6 @@
       "name": "Amjad Masad",
       "source": "x",
       "tweets": {
-        "id:2117904733658845218": {
-          "createdAt": "2026-11-04T09:00:11.000Z",
-          "id": "2117904733658845218",
-          "isQuote": false,
-          "likes": 7790,
-          "quotedTweetId": null,
-          "replies": 293,
-          "retweets": 376,
-          "text": "Wow can’t believe Michigan is under Shawerma law now",
-          "url": "https://x.com/amasad/status/2117904733658845218"
-        },
         "id:2118180254300688857": {
           "createdAt": "2026-11-05T03:15:01.000Z",
           "id": "2118180254300688857",
@@ -131,6 +131,28 @@
           "retweets": 9,
           "text": "Replit is the only collaborative AI coding system out there. https://t.co/va9lrWiCga",
           "url": "https://x.com/amasad/status/2118506378440400951"
+        },
+        "id:2119126064815608270": {
+          "createdAt": "2026-11-07T17:53:19.000Z",
+          "id": "2119126064815608270",
+          "isQuote": true,
+          "likes": 454,
+          "quotedTweetId": "2119120067371913453",
+          "replies": 37,
+          "retweets": 22,
+          "text": "Really enjoyed Kazakhstan — super AI pilled government. And a great place for the Network School. https://t.co/Mt9rIomS6q",
+          "url": "https://x.com/amasad/status/2119126064815608270"
+        },
+        "id:2119217304953053419": {
+          "createdAt": "2026-11-07T23:55:53.000Z",
+          "id": "2119217304953053419",
+          "isQuote": true,
+          "likes": 255,
+          "quotedTweetId": "2119142310894334262",
+          "replies": 37,
+          "retweets": 12,
+          "text": "The Better Lesson: https://t.co/662AivSigr",
+          "url": "https://x.com/amasad/status/2119217304953053419"
         }
       }
     },
@@ -331,6 +353,57 @@
           "retweets": 1,
           "text": "Computer use on Aside is *amazing* and also has an added benefit of literally being a real Chromium browser that few/almost no sites can block https://t.co/jmZVxOansa",
           "url": "https://x.com/garrytan/status/2118951284376285508"
+        },
+        "id:2119142686422859899": {
+          "createdAt": "2026-11-07T18:59:22.000Z",
+          "id": "2119142686422859899",
+          "isQuote": true,
+          "likes": 84,
+          "quotedTweetId": "2118802471124349121",
+          "replies": 5,
+          "retweets": 0,
+          "text": "Man don’t show this essay to the NIMBYs https://t.co/n7W3CQaHH8",
+          "url": "https://x.com/garrytan/status/2119142686422859899"
+        },
+        "id:2119146939514278238": {
+          "createdAt": "2026-11-07T19:16:16.000Z",
+          "id": "2119146939514278238",
+          "isQuote": true,
+          "likes": 314,
+          "quotedTweetId": "2105674330579365960",
+          "replies": 55,
+          "retweets": 21,
+          "text": "We could have abundance \n\nThis is going to be the defining political issue of the next decade: can we have human progress in science, medicine and engineering through superintelligence? \n\nOr will we choose the darkness? https://t.co/efmVMYZwsM",
+          "url": "https://x.com/garrytan/status/2119146939514278238"
+        },
+        "id:2119172824271360124": {
+          "createdAt": "2026-11-07T20:59:08.000Z",
+          "id": "2119172824271360124",
+          "isQuote": true,
+          "likes": 110,
+          "quotedTweetId": "2118941821740953637",
+          "replies": 16,
+          "retweets": 3,
+          "text": "WIRED is a shell of its former self https://t.co/vERIHNqbga",
+          "url": "https://x.com/garrytan/status/2119172824271360124"
+        }
+      }
+    },
+    "karpathy": {
+      "handle": "karpathy",
+      "name": "Andrej Karpathy",
+      "source": "x",
+      "tweets": {
+        "id:2119114537442189652": {
+          "createdAt": "2026-11-07T17:07:31.000Z",
+          "id": "2119114537442189652",
+          "isQuote": true,
+          "likes": 6445,
+          "quotedTweetId": "2116957135661945283",
+          "replies": 475,
+          "retweets": 515,
+          "text": "Earlier this week Tristan published his top YouTube channels:\nhttps://t.co/NZ3UCNo6cT\nWhich looked excellent so clearly I had to turn it into TristanTube:\nhttps://t.co/l0KyW1WdNH\n47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes) https://t.co/FZU0ltwVxL",
+          "url": "https://x.com/karpathy/status/2119114537442189652"
         }
       }
     },
@@ -372,6 +445,28 @@
           "retweets": 20,
           "text": "The future is files. And GPUs. https://t.co/fbI1NHn8u5",
           "url": "https://x.com/levie/status/2118723097901846580"
+        },
+        "id:2118953909524050288": {
+          "createdAt": "2026-11-07T06:29:14.000Z",
+          "id": "2118953909524050288",
+          "isQuote": true,
+          "likes": 256,
+          "quotedTweetId": "2118394836726551035",
+          "replies": 105,
+          "retweets": 37,
+          "text": "The interesting thing about AI agents is that as a theoretical matter, their inference can kind of run anywhere. AI is one of the few areas of technology that isn’t *as* sensitive to latency back to the user. \n\nLong running agents are now going to be the norm, which means it’s ok to send off work to an AI factory somewhere and that work can essentially be largely done within that remote data center and a final result spit back to the user. The data can pass into these systems in an encrypted manner, be combed through by agents, and then disregarded right after. \n\nAnd because the economic value of the task is so high relative to the latency sensitivity (eg getting back $500 in value from an automated task, but it takes an extra second to return), you don’t have to have the inference to be particularly close to the user. \n\nAlso, because inference is a temporary process with no sensitive data needing to be stored long term where the inference is happening, you can effectively treat AI factories as ephemeral systems, changing some of the data residency dynamics slightly.\n\nCombined, this means you have more flexibility in where you can begin to deploy AI data centers. This is both a huge economic opportunity for the states or countries (or space) that want to take advantage of this fact. And it’s a loss to the states or countries that decide to forgo the opportunity.",
+          "url": "https://x.com/levie/status/2118953909524050288"
+        },
+        "id:2119111328099168409": {
+          "createdAt": "2026-11-07T16:54:46.000Z",
+          "id": "2119111328099168409",
+          "isQuote": true,
+          "likes": 582,
+          "quotedTweetId": "2118842996414415220",
+          "replies": 99,
+          "retweets": 51,
+          "text": "This sounds extreme and I wouldn’t have believed it even a year ago, but we’re starting to see plenty of examples of productivity gains that are an order of magnitude or two above output levels pre-AI. \n\nWith the right harness, a deep understanding of your domain of what you want to build, likely a relatively new codebase (with some exceptions), a fluency of how to work with multiple agents at once, and a setup that makes it so you can test and deploy with limited friction, outputs on this level feel realistic in coding.  \n\nWhat’s crazy is this gap doesn’t appear to be diminishing over time. You’d think that we’d see a convergence in the lines because of AI, but it turns out the more depth you had before -and willingness now to take a different approach- gives you crazy leverage. And that is only compounding as the models can take on larger work and harder problems.\n\nRight now this is most pronounced in software engineering for the obvious reasons. But there’s no reason we don’t start to see this in a number of other computer-use-sensitive domains like other scientific fields, AEC, finance, cyber, and more. Going to get quite wild.",
+          "url": "https://x.com/levie/status/2119111328099168409"
         }
       }
     },
@@ -465,6 +560,28 @@
           "retweets": 0,
           "text": "(re) introducing texts wrapped\n\n&gt; imessage, whatsapp and phone calls analyzed\n&gt; one terminal command, full disk access and that's it (or use claude code / codex)\n&gt; runs on Mac, 100% local, no AI, open source\n&gt; fresh coat of paint, new insights, better accuracy\n\nwrap2026 dot com https://t.co/u6hprVFnBm",
           "url": "https://x.com/nikunj/status/2118840414853861627"
+        },
+        "id:2119162212044742938": {
+          "createdAt": "2026-11-07T20:16:58.000Z",
+          "id": "2119162212044742938",
+          "isQuote": true,
+          "likes": 80,
+          "quotedTweetId": "2118758688567792008",
+          "replies": 8,
+          "retweets": 3,
+          "text": "ok here’s how we get investors to fomo our series A and get seven term sheets..\n\nfirst, we have to vague post revenue. or customers. this is absolutely critical. no y axis, just keep showing numbers and to the right. graphs work and of course get your investors to quote tweet it and take credit. they love doing that anyway. make it vague like “slowly but surely” or “i see an exponential when I see one”\n\nok, once you do that, you know you can do another launch video for features or even better multiple for features so you get maximum airtime. after that case studies are critical - get a trendsetter company to talk about you or even better have the labs mention you in articles. this will guarantee cold emails to grab coffee from partners. \n\nalso you know you can buy “articles” in “premier” publications. you can even run ads against it targeted to just investors too. you’re joking? no dead serious bro. \n\nok now that you have interest and top of mindshare - the most important thing is to use the magic mantras of “large ambition” and combinations of “long horizon agent swarms abilterared world models physical ai”. \n\nand finally and most importantly you don’t have a deck because of course we’re not raising, we were thinking early next year. and of course we still got pre empted so we don’t have a data room even. you get on or not it’s your call. \n\nand then you use the magic words of optimizing for the best partner but let’s be honest we both know i just want the best valuation. \n\n(again the whole thing is satire, but individually each line is true)",
+          "url": "https://x.com/nikunj/status/2119162212044742938"
+        },
+        "id:2119229917019971879": {
+          "createdAt": "2026-11-08T00:46:00.000Z",
+          "id": "2119229917019971879",
+          "isQuote": false,
+          "likes": 13,
+          "quotedTweetId": null,
+          "replies": 3,
+          "retweets": 1,
+          "text": "Next guest up is @danielrupawalla, cofounder of @ArcanumLabs_ next Wednesday, Nov 11th at noon. \n\nFor this session, we'll be chatting about all things data (what the labs are buying, who is selling, how do i get into this business, will this market even last..)\n\nFormat:\n> 60 minute sessions (IRL only) in SF\n> For the first 45 mins, I get to ask the guest spicy questions about their expertise\n> For the last 15 mins, they get to ask me anything they want to learn about venture\n> All off the record, chatham house rules\n> Open to 10-12 guests who listen in and can ask some of their own questions\n\nRegister here if you want to join, and subscribe to the Luma for future guests: https://t.co/esETUKhcm7",
+          "url": "https://x.com/nikunj/status/2119229917019971879"
         }
       }
     },
@@ -474,17 +591,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2117825980115067035": {
-          "createdAt": "2026-11-04T03:47:15.000Z",
-          "id": "2117825980115067035",
-          "isQuote": false,
-          "likes": 74,
-          "quotedTweetId": null,
-          "replies": 26,
-          "retweets": 1,
-          "text": "Remember when leaving a company before 2-3 years made you look like a job hopper?\n\nIt feels increasingly normal to see very talented people leave AI-native companies after 1-2 years or less.\n\nPeople leave for all kinds of reasons. But I do wonder how sustainable these jobs are, especially for parents.",
-          "url": "https://x.com/petergyang/status/2117825980115067035"
-        },
         "id:2118002158201340288": {
           "createdAt": "2026-11-04T15:27:19.000Z",
           "id": "2118002158201340288",
@@ -769,6 +875,17 @@
           "retweets": 4,
           "text": "Is my perception off or is Apple just lying here? Anytime I build for or use Safari, it’s slower, has fewer features, weird bugs and plenty websites just don’t work. It’s a fight to get even somewhat close to Chrome’s performance. https://t.co/GkoqN84Wxd",
           "url": "https://x.com/steipete/status/2118492097917628704"
+        },
+        "id:2119264334627090514": {
+          "createdAt": "2026-11-08T03:02:46.000Z",
+          "id": "2119264334627090514",
+          "isQuote": false,
+          "likes": 1053,
+          "quotedTweetId": null,
+          "replies": 85,
+          "retweets": 44,
+          "text": "The Asahi project was all about taking something closed and restricted and opening it up.\n\nAdding new restrictions that make it harder for other projects to build on that is not the way. And that AI rejection is just silly. https://t.co/fT4O4wieQm",
+          "url": "https://x.com/steipete/status/2119264334627090514"
         }
       }
     },
@@ -876,6 +993,39 @@
           "retweets": 0,
           "text": "we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. \n\nHaving covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.",
           "url": "https://x.com/swyx/status/2118905788915982341"
+        },
+        "id:2119210582654210255": {
+          "createdAt": "2026-11-07T23:29:10.000Z",
+          "id": "2119210582654210255",
+          "isQuote": true,
+          "likes": 92,
+          "quotedTweetId": "2112276851355693315",
+          "replies": 18,
+          "retweets": 2,
+          "text": "just arrived… best swag game in the business. u guys are in for a treat next week https://t.co/4tppCNnBWf https://t.co/uBruvPBba5",
+          "url": "https://x.com/swyx/status/2119210582654210255"
+        },
+        "id:2119210618976944259": {
+          "createdAt": "2026-11-07T23:29:19.000Z",
+          "id": "2119210618976944259",
+          "isQuote": false,
+          "likes": 1,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 0,
+          "text": "https://t.co/ydo8JgYDXr",
+          "url": "https://x.com/swyx/status/2119210618976944259"
+        },
+        "id:2119242830707311005": {
+          "createdAt": "2026-11-08T01:37:19.000Z",
+          "id": "2119242830707311005",
+          "isQuote": true,
+          "likes": 74,
+          "quotedTweetId": "2119210582654210255",
+          "replies": 9,
+          "retweets": 0,
+          "text": "sticker game inspired by @dexhorthy @CompleteSkeptic et al https://t.co/NWvVRZ71uW https://t.co/QHmHu3ZSFG",
+          "url": "https://x.com/swyx/status/2119242830707311005"
         }
       }
     },
@@ -1013,6 +1163,39 @@
           "retweets": 7,
           "text": "Quite cool what you can do with a single prompt these days 👀",
           "url": "https://x.com/thsottiaux/status/2118939076791546000"
+        },
+        "id:2118953362725159104": {
+          "createdAt": "2026-11-07T06:27:04.000Z",
+          "id": "2118953362725159104",
+          "isQuote": true,
+          "likes": 1601,
+          "quotedTweetId": "2118409855119880354",
+          "replies": 417,
+          "retweets": 39,
+          "text": "Cyber https://t.co/SEBUvxdyEj",
+          "url": "https://x.com/thsottiaux/status/2118953362725159104"
+        },
+        "id:2119296267545419987": {
+          "createdAt": "2026-11-08T05:09:39.000Z",
+          "id": "2119296267545419987",
+          "isQuote": false,
+          "likes": 2756,
+          "quotedTweetId": null,
+          "replies": 650,
+          "retweets": 86,
+          "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n✅ Pro 200 = 20X\n✅ Pro 500 = 50X, access to ultrafast",
+          "url": "https://x.com/thsottiaux/status/2119296267545419987"
+        },
+        "id:2119305294291612140": {
+          "createdAt": "2026-11-08T05:45:31.000Z",
+          "id": "2119305294291612140",
+          "isQuote": true,
+          "likes": 1369,
+          "quotedTweetId": "2119296267545419987",
+          "replies": 855,
+          "retweets": 58,
+          "text": "Would a Pro 50 make sense? Wdyt? https://t.co/WZi6KGXFc9",
+          "url": "https://x.com/thsottiaux/status/2119305294291612140"
         }
       }
     },
@@ -1096,17 +1279,6 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2117869262505427072": {
-          "createdAt": "2026-11-04T06:39:14.000Z",
-          "id": "2117869262505427072",
-          "isQuote": true,
-          "likes": 99,
-          "quotedTweetId": "2113148949842534482",
-          "replies": 43,
-          "retweets": 3,
-          "text": "One thing I noticed: the vast majority of people who shared their personal websites in this thread are developers or designers.\n\nIs it because only developers and designers need personal websites, or because only they know how to make one? https://t.co/mEG5Z28kyU",
-          "url": "https://x.com/zarazhangrui/status/2117869262505427072"
-        },
         "id:2118120795780370768": {
           "createdAt": "2026-11-04T23:18:45.000Z",
           "id": "2118120795780370768",
@@ -1128,6 +1300,17 @@
           "retweets": 2,
           "text": "As I've said before, your personal website is the new resume\n\nLinkedIn shows a list of titles; your personal website shows your taste, your thinking, your actual work\n\nYou don't need to be confined by the existing social media platforms https://t.co/Eysl2kgvsa",
           "url": "https://x.com/zarazhangrui/status/2118939184841052386"
+        },
+        "id:2118968862557475298": {
+          "createdAt": "2026-11-07T07:28:40.000Z",
+          "id": "2118968862557475298",
+          "isQuote": false,
+          "likes": 146,
+          "quotedTweetId": null,
+          "replies": 29,
+          "retweets": 5,
+          "text": "So many people speak of startup as if their fates are predestined: X idea will never work out; the market for Y is too niche...\n\nBut startups' fates are MADE, not predetermined. Given one idea, there are 1000 ways to execute it, 100 people will have 100 different approaches. Brilliant people with brilliant execution often create something when there was nothing, or make the impossible seem obvious in hindsight.",
+          "url": "https://x.com/zarazhangrui/status/2118968862557475298"
         }
       }
     }
