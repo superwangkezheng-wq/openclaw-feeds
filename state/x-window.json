@@ -80,17 +80,6 @@
       "name": "Amjad Masad",
       "source": "x",
       "tweets": {
-        "id:2118180254300688857": {
-          "createdAt": "2026-11-05T03:15:01.000Z",
-          "id": "2118180254300688857",
-          "isQuote": false,
-          "likes": 216,
-          "quotedTweetId": null,
-          "replies": 48,
-          "retweets": 12,
-          "text": "Excited to announce our partnership with Sumitomo Mitsui Finance & Leasing (SMFL), one of Japan’s leading financial institutions!\n\nReplit is powering SMFL’s core software products and has massively accelerated their development process: For example they recently in just one week, with one person, completed a project that previously required six people working for six months.\n\nNext we’re partnering to bring AI-powered software creation to Japanese enterprises, helping them overcome labor shortages, accelerate innovation, and unlock entirely new business opportunities.\n\nhttps://t.co/eTMLFDkIv1",
-          "url": "https://x.com/amasad/status/2118180254300688857"
-        },
         "id:2118503241390665776": {
           "createdAt": "2026-11-06T00:38:27.000Z",
           "id": "2118503241390665776",
@@ -214,17 +203,6 @@
       "name": "Garry Tan",
       "source": "x",
       "tweets": {
-        "id:2118221083233206736": {
-          "createdAt": "2026-11-05T05:57:15.000Z",
-          "id": "2118221083233206736",
-          "isQuote": false,
-          "likes": 29,
-          "quotedTweetId": null,
-          "replies": 22,
-          "retweets": 2,
-          "text": "GStack’s /review skill is actually useful for preventing bugs still https://t.co/aROfFOWDwK",
-          "url": "https://x.com/garrytan/status/2118221083233206736"
-        },
         "id:2118527182092071179": {
           "createdAt": "2026-11-06T02:13:35.000Z",
           "id": "2118527182092071179",
@@ -323,6 +301,39 @@
           "retweets": 3,
           "text": "WIRED is a shell of its former self https://t.co/vERIHNqbga",
           "url": "https://x.com/garrytan/status/2119172824271360124"
+        },
+        "id:2119612084220842483": {
+          "createdAt": "2026-11-09T02:04:36.000Z",
+          "id": "2119612084220842483",
+          "isQuote": false,
+          "likes": 22,
+          "quotedTweetId": null,
+          "replies": 2,
+          "retweets": 0,
+          "text": "Once you realize software is so easily changed with frontier models, these bugs become a little bit unbearable\n\nAnd simultaneously, it seems obvious personal just-in-time software will be inevitable",
+          "url": "https://x.com/garrytan/status/2119612084220842483"
+        },
+        "id:2119615647592395037": {
+          "createdAt": "2026-11-09T02:18:45.000Z",
+          "id": "2119615647592395037",
+          "isQuote": true,
+          "likes": 344,
+          "quotedTweetId": "2119093769991774480",
+          "replies": 32,
+          "retweets": 24,
+          "text": "You're really going to want your own software factory https://t.co/lmk0Mati0N",
+          "url": "https://x.com/garrytan/status/2119615647592395037"
+        },
+        "id:2119624260675350605": {
+          "createdAt": "2026-11-09T02:52:59.000Z",
+          "id": "2119624260675350605",
+          "isQuote": true,
+          "likes": 140,
+          "quotedTweetId": "2104783226833186920",
+          "replies": 24,
+          "retweets": 8,
+          "text": "My gstack-evals project took a look at this Jev Engineering article and tried to replicate it, and I also told it to try particle-1 and it turns out this article replicates, and particle-1 is even better https://t.co/Lf4QULKRnF https://t.co/FfCzahr6UJ",
+          "url": "https://x.com/garrytan/status/2119624260675350605"
         }
       }
     },
@@ -404,6 +415,28 @@
           "retweets": 51,
           "text": "This sounds extreme and I wouldn’t have believed it even a year ago, but we’re starting to see plenty of examples of productivity gains that are an order of magnitude or two above output levels pre-AI. \n\nWith the right harness, a deep understanding of your domain of what you want to build, likely a relatively new codebase (with some exceptions), a fluency of how to work with multiple agents at once, and a setup that makes it so you can test and deploy with limited friction, outputs on this level feel realistic in coding.  \n\nWhat’s crazy is this gap doesn’t appear to be diminishing over time. You’d think that we’d see a convergence in the lines because of AI, but it turns out the more depth you had before -and willingness now to take a different approach- gives you crazy leverage. And that is only compounding as the models can take on larger work and harder problems.\n\nRight now this is most pronounced in software engineering for the obvious reasons. But there’s no reason we don’t start to see this in a number of other computer-use-sensitive domains like other scientific fields, AEC, finance, cyber, and more. Going to get quite wild.",
           "url": "https://x.com/levie/status/2119111328099168409"
+        },
+        "id:2119502716770902234": {
+          "createdAt": "2026-11-08T18:50:00.000Z",
+          "id": "2119502716770902234",
+          "isQuote": false,
+          "likes": 278,
+          "quotedTweetId": null,
+          "replies": 105,
+          "retweets": 19,
+          "text": "A good lesson in AI is that you need to check back in on the latest with every 3 to 6 months to try something that wasn’t possible before and see if it works again.\n\nAt no point in AI’s history is that more true than today. Just the past six months of model progress around computer and tool use, less context rot, better reasoning, multimodality, and deeper domain expertise in a number of key fields, these models are vastly more capable on what they can execute.\n\nThis is opening up a new vector of what AI systems will be able to autonomously work on. Essentially, anything with an API (and even many things without), we can anticipate that an agent will be able to control and utilize as an underlying capability to complete a process.\n\nThis means that we are no longer dependent on *just* the models generating everything from whole cloth, but instead they can fully utilize existing systems (or new ones purpose built for them) very effectively. This creates immense leverage for agents.\n\nSecurity agents can leverage existing data feeds and cyber tooling, IT agents that can execute workflows reliably across software stacks, data agents that can migrate data or processes between systems, architect and design agents can leverage CAD and design tools, and on and on. And any of today’s tools that don’t work will likely be replaced by agent-friendly or OSS tooling that does the same. \n\nWhen you combine this with the domain understanding being trained into agents, you started to get autonomous collaborators for every job function and industry. This will open up a ton of new opportunities in AI if you build with this understanding in mind.",
+          "url": "https://x.com/levie/status/2119502716770902234"
+        },
+        "id:2119592025440092192": {
+          "createdAt": "2026-11-09T00:44:53.000Z",
+          "id": "2119592025440092192",
+          "isQuote": true,
+          "likes": 256,
+          "quotedTweetId": "2119561347805687848",
+          "replies": 81,
+          "retweets": 18,
+          "text": "We’re moving from an era of AI where the output comes roughly at the rate that you can chat back and forth with the AI to work with you, to a period where you can set a problem for a set of agents to go off and do an arbitrarily large amount of work for you. This means productivity gains that are maybe 20-50% to gains that don’t really have an upper limit.\n\nAgent swarms and the ability to fan out complex work across many agents doing tasks in parallel provide a massive unlock in a lot of spaces. This will lead to qualitatively different outcomes in my fields. \n\nThis has already been seen across the coding domain. Next, cyber is almost entirely a problem space where more agents reviewing more things will lead to far better outcomes. We’re seeing the same now in many scientific fields, and this almost certainly will change life sciences. \n\nBut this will increasingly be true in any field where you can parallelize computer-based work to complete something faster or do something at a totally different quality level. Which is actually are some of the most valuable domains of knowledge work today. \n\nOur brains aren’t really wired for the new scenario we’re heading into where compute becomes the variable that we can flex to solve any problem that we want. We’re used to thinking that the amount of time that goes into a task is correlated to the output that we get from it. And most domains of knowledge work or science have generally always been correlated with this. That’s changing forever.",
+          "url": "https://x.com/levie/status/2119592025440092192"
         }
       }
     },
@@ -423,6 +456,28 @@
           "retweets": 1,
           "text": "How VCs who got into the 2nd tranche of a hot deal look at the VCs in the third tranche https://t.co/pU1gEhbacZ",
           "url": "https://x.com/mattturck/status/2118791325394845839"
+        },
+        "id:2119457959625498698": {
+          "createdAt": "2026-11-08T15:52:09.000Z",
+          "id": "2119457959625498698",
+          "isQuote": false,
+          "likes": 2018,
+          "quotedTweetId": null,
+          "replies": 53,
+          "retweets": 138,
+          "text": "Lol not Elon now, after nailing the Tucker Carlson impersonation 😂Absolutely epic run from Jeremy Culhane https://t.co/m26EQ0PBC0",
+          "url": "https://x.com/mattturck/status/2119457959625498698"
+        },
+        "id:2119525416780361766": {
+          "createdAt": "2026-11-08T20:20:12.000Z",
+          "id": "2119525416780361766",
+          "isQuote": false,
+          "likes": 21,
+          "quotedTweetId": null,
+          "replies": 2,
+          "retweets": 0,
+          "text": "ok lol trolls coming out in full force - Elon is a business genius, a visionary and and the richest man in the world, it’s ok for comedians to attempt to poke some fun, relax!",
+          "url": "https://x.com/mattturck/status/2119525416780361766"
         }
       }
     },
@@ -486,6 +541,17 @@
           "retweets": 1,
           "text": "Next guest up is @danielrupawalla, cofounder of @ArcanumLabs_ next Wednesday, Nov 11th at noon. \n\nFor this session, we'll be chatting about all things data (what the labs are buying, who is selling, how do i get into this business, will this market even last..)\n\nFormat:\n> 60 minute sessions (IRL only) in SF\n> For the first 45 mins, I get to ask the guest spicy questions about their expertise\n> For the last 15 mins, they get to ask me anything they want to learn about venture\n> All off the record, chatham house rules\n> Open to 10-12 guests who listen in and can ask some of their own questions\n\nRegister here if you want to join, and subscribe to the Luma for future guests: https://t.co/esETUKhcm7",
           "url": "https://x.com/nikunj/status/2119229917019971879"
+        },
+        "id:2119670529254981756": {
+          "createdAt": "2026-11-09T05:56:50.000Z",
+          "id": "2119670529254981756",
+          "isQuote": false,
+          "likes": 17,
+          "quotedTweetId": null,
+          "replies": 2,
+          "retweets": 0,
+          "text": "If you are visiting SF, and trying to meet more people, here are a random list of things you should remove from your vocabulary..\n\n> swap notes\n> \"synergies\"\n> pick your brain\n> networking\n> \"san fran\" (tourist tell)\n> grab coffee if you're free\n\nIf you want to meet interesting people here, show your work. The most interesting people I know in the city are not attending that fancy large conference - they are probably at their office. \n\nSo what's the work? It can be as simple as a thoughtful cold email, a five line pointed DM, or complex as some side projects that you have shipped, or a meetup that you are organizing.\n\nIf you put in the effort, it shows, yes, even in this AI era. I still get so much slop across the board, that if I see anyone put in the effort, I try to go out of my way to meet them. \n\nEven the busiest people have 15 mins to give you, if you give them a reason to!",
+          "url": "https://x.com/nikunj/status/2119670529254981756"
         }
       }
     },
@@ -495,17 +561,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2118197393229545534": {
-          "createdAt": "2026-11-05T04:23:07.000Z",
-          "id": "2118197393229545534",
-          "isQuote": true,
-          "likes": 17,
-          "quotedTweetId": "2118169474658648110",
-          "replies": 7,
-          "retweets": 1,
-          "text": "Was super fun hosting this event with my friends from @OpenAI and @Amplitude_HQ https://t.co/VVwHHCVofW https://t.co/TPdxuCYJxz",
-          "url": "https://x.com/petergyang/status/2118197393229545534"
-        },
         "id:2118530037431611880": {
           "createdAt": "2026-11-06T02:24:55.000Z",
           "id": "2118530037431611880",
@@ -571,6 +626,39 @@
           "retweets": 0,
           "text": "Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09",
           "url": "https://x.com/petergyang/status/2118869042153095422"
+        },
+        "id:2119556651636441416": {
+          "createdAt": "2026-11-08T22:24:19.000Z",
+          "id": "2119556651636441416",
+          "isQuote": false,
+          "likes": 280,
+          "quotedTweetId": null,
+          "replies": 43,
+          "retweets": 14,
+          "text": "Anecdotally, I think cheating is far more common in Asia. \n\nPlenty of guys who have their wife and kids living in the US/Canada, while they do business in Asia and have another girlfriend or even family in a 二奶村.\n\nMost of the time their wife knows about this too. Not saying any of this is right but just what I've seen and heard 🤷\n\nJust randomly came across this article",
+          "url": "https://x.com/petergyang/status/2119556651636441416"
+        },
+        "id:2119595860057288967": {
+          "createdAt": "2026-11-09T01:00:07.000Z",
+          "id": "2119595860057288967",
+          "isQuote": true,
+          "likes": 46,
+          "quotedTweetId": "2119448683918049412",
+          "replies": 2,
+          "retweets": 8,
+          "text": "“Both of my parents got diagnosed with two cancers each within a week of each other.”\n\nFrom @AshleyYuki, VP of Product at @OpenAI:\n\n“I just decided to take a month [off work]. It was one of the best things I could have done in that moment to care for my parents.\n\nYou also have to care for yourself as a caregiver. We don’t talk about that enough. It’s still a really big cognitive load, emotional load, just pure time load to be a caregiver. You have to make sure you’re budgeting time for your own mental health.”\n\n📌 Watch our full episode here: https://t.co/Z3HibgPP8S",
+          "url": "https://x.com/petergyang/status/2119595860057288967"
+        },
+        "id:2119657833516171384": {
+          "createdAt": "2026-11-09T05:06:23.000Z",
+          "id": "2119657833516171384",
+          "isQuote": false,
+          "likes": 60,
+          "quotedTweetId": null,
+          "replies": 12,
+          "retweets": 1,
+          "text": "This affair is going to destroy billions in shareholder value isn’t it",
+          "url": "https://x.com/petergyang/status/2119657833516171384"
         }
       }
     },
@@ -645,6 +733,17 @@
           "retweets": 2,
           "text": "Imagine we get gta6.wasm before gta6",
           "url": "https://x.com/rauchg/status/2118928276118986991"
+        },
+        "id:2119536313712230802": {
+          "createdAt": "2026-11-08T21:03:30.000Z",
+          "id": "2119536313712230802",
+          "isQuote": false,
+          "likes": 2242,
+          "quotedTweetId": null,
+          "replies": 187,
+          "retweets": 143,
+          "text": "Built a physical simulation of a record player with WebGL2 and Web Audio. It's *shockingly* accurate: https://t.co/MBNaTfKoai.\n\nInstead of playing a song, it works by converting it into the physical shape of a groove. Then a simulated stylus rides those walls 384,000 times a second, and you hear the voltage that motion would induce in a cartridge.\n\nSo the crackle, the pops, the wow/flutter, the dull inner grooves are natural byproducts of the simulation. You can also \"DJ\" the record.\n\n(The converted songs are in the public domain or CC-licensed. Code is linked for you to remix and re-deploy.)",
+          "url": "https://x.com/rauchg/status/2119536313712230802"
         }
       }
     },
@@ -673,16 +772,16 @@
       "name": "Ryo Lu",
       "source": "x",
       "tweets": {
-        "id:2118207967728451760": {
-          "createdAt": "2026-11-05T05:05:08.000Z",
-          "id": "2118207967728451760",
-          "isQuote": true,
-          "likes": 162,
-          "quotedTweetId": "2118197358601379910",
-          "replies": 8,
-          "retweets": 5,
-          "text": "gave a talk at @aiDotEngineer shanghai about about a question i keep coming back to: when we can make anything, do we still know what we want?\n\ni want tools that help us find our own answers, not skip the process of forming them. not just more output, but more room to think, care, and make together.\n\nwill share more soon!",
-          "url": "https://x.com/ryolu_/status/2118207967728451760"
+        "id:2119586846657454152": {
+          "createdAt": "2026-11-09T00:24:18.000Z",
+          "id": "2119586846657454152",
+          "isQuote": false,
+          "likes": 704,
+          "quotedTweetId": null,
+          "replies": 29,
+          "retweets": 70,
+          "text": "when we can do anything,\ndo we still know what we want?\n\nthe full talk from @aiDotEngineer shanghai. every slide handmade in keynote, subs in 中文 and english https://t.co/EeyHu7l3Fc",
+          "url": "https://x.com/ryolu_/status/2119586846657454152"
         }
       }
     },
@@ -692,17 +791,6 @@
       "name": "Peter Steinberger",
       "source": "x",
       "tweets": {
-        "id:2118380936882803044": {
-          "createdAt": "2026-11-05T16:32:27.000Z",
-          "id": "2118380936882803044",
-          "isQuote": true,
-          "likes": 251,
-          "quotedTweetId": "2118306312736116835",
-          "replies": 22,
-          "retweets": 11,
-          "text": "Just a normal Thursday. https://t.co/ss7kbiO9ng",
-          "url": "https://x.com/steipete/status/2118380936882803044"
-        },
         "id:2118492097917628704": {
           "createdAt": "2026-11-05T23:54:10.000Z",
           "id": "2118492097917628704",
@@ -733,17 +821,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2118208851506036989": {
-          "createdAt": "2026-11-05T05:08:39.000Z",
-          "id": "2118208851506036989",
-          "isQuote": true,
-          "likes": 52,
-          "quotedTweetId": "2118069614521241739",
-          "replies": 54,
-          "retweets": 1,
-          "text": "uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2\n\nthis is distillation without tradeoffs. i think @thinkymachines inkling is one of the most underrated base models in the world. expect to see a TON more of these esp on US pretrained models https://t.co/zvJFP9EIPL",
-          "url": "https://x.com/swyx/status/2118208851506036989"
-        },
         "id:2118538896434999759": {
           "createdAt": "2026-11-06T03:00:08.000Z",
           "id": "2118538896434999759",
@@ -842,6 +919,39 @@
           "retweets": 0,
           "text": "sticker game inspired by @dexhorthy @CompleteSkeptic et al https://t.co/NWvVRZ71uW https://t.co/QHmHu3ZSFG",
           "url": "https://x.com/swyx/status/2119242830707311005"
+        },
+        "id:2119543788192600450": {
+          "createdAt": "2026-11-08T21:33:12.000Z",
+          "id": "2119543788192600450",
+          "isQuote": true,
+          "likes": 1,
+          "quotedTweetId": "2082159947236655311",
+          "replies": 1,
+          "retweets": 0,
+          "text": "if youre wondering how, ask their VP of FDE Pauline Brunet (thanks @realbasilchatha for curating this)\n\nhttps://t.co/KMjK2emil8",
+          "url": "https://x.com/swyx/status/2119543788192600450"
+        },
+        "id:2119550477629379009": {
+          "createdAt": "2026-11-08T21:59:47.000Z",
+          "id": "2119550477629379009",
+          "isQuote": true,
+          "likes": 3,
+          "quotedTweetId": "2119550367222653193",
+          "replies": 0,
+          "retweets": 0,
+          "text": "and a special pod! https://t.co/LGOjNlcyAR",
+          "url": "https://x.com/swyx/status/2119550477629379009"
+        },
+        "id:2119611058881192187": {
+          "createdAt": "2026-11-09T02:00:31.000Z",
+          "id": "2119611058881192187",
+          "isQuote": true,
+          "likes": 134,
+          "quotedTweetId": "2119250590337470728",
+          "replies": 20,
+          "retweets": 2,
+          "text": "are you listening anon? https://t.co/52rrkgKNg5 https://t.co/CFJg15NMCt",
+          "url": "https://x.com/swyx/status/2119611058881192187"
         }
       }
     },
@@ -861,6 +971,39 @@
           "retweets": 0,
           "text": "what do the shrimp welfare ppl think about this one I wonder https://t.co/3jInoOgkac",
           "url": "https://x.com/thenanyu/status/2118826112562434303"
+        },
+        "id:2119462224721002560": {
+          "createdAt": "2026-11-08T16:09:06.000Z",
+          "id": "2119462224721002560",
+          "isQuote": false,
+          "likes": 193,
+          "quotedTweetId": null,
+          "replies": 14,
+          "retweets": 11,
+          "text": "Software got a lot easier if you know what you wanna build, and a lot harder if you don’t. \n\nWith clarity, you can straight-shot to the solution. Without it, you’ll ship a pile of junk and spend a lot of money doing it. Pre-AI era you would ship nothing, which is an improvement.",
+          "url": "https://x.com/thenanyu/status/2119462224721002560"
+        },
+        "id:2119462979179892925": {
+          "createdAt": "2026-11-08T16:12:06.000Z",
+          "id": "2119462979179892925",
+          "isQuote": true,
+          "likes": 263,
+          "quotedTweetId": "2119278726886339004",
+          "replies": 22,
+          "retweets": 11,
+          "text": "This is basically true in all aspects of software. Choose the dumbest architecture that’ll work. choose the dumbest design that gets the job done. Being clever means your users also have to be just as clever to understand your cleverness https://t.co/aUC8OeQjU9",
+          "url": "https://x.com/thenanyu/status/2119462979179892925"
+        },
+        "id:2119493015190249556": {
+          "createdAt": "2026-11-08T18:11:27.000Z",
+          "id": "2119493015190249556",
+          "isQuote": true,
+          "likes": 9,
+          "quotedTweetId": "2119468655205663115",
+          "replies": 1,
+          "retweets": 1,
+          "text": "This is a good question. And you should definitely pick \"dumbest\" over \"simplest\". \n\nSimple is something you iterate to. Dumb is the correct starting point. Otherwise, you start to outsmart yourself. \n \nhttps://t.co/KdxEVgEmhm",
+          "url": "https://x.com/thenanyu/status/2119493015190249556"
         }
       }
     },
@@ -1050,6 +1193,28 @@
           "retweets": 5,
           "text": "So many people speak of startup as if their fates are predestined: X idea will never work out; the market for Y is too niche...\n\nBut startups' fates are MADE, not predetermined. Given one idea, there are 1000 ways to execute it, 100 people will have 100 different approaches. Brilliant people with brilliant execution often create something when there was nothing, or make the impossible seem obvious in hindsight.",
           "url": "https://x.com/zarazhangrui/status/2118968862557475298"
+        },
+        "id:2119342420412510686": {
+          "createdAt": "2026-11-08T08:13:03.000Z",
+          "id": "2119342420412510686",
+          "isQuote": false,
+          "likes": 168,
+          "quotedTweetId": null,
+          "replies": 32,
+          "retweets": 7,
+          "text": "The joy of building a product comes from the collision between the predictability of how technology behaves &amp; the unpredictability of how humans behave",
+          "url": "https://x.com/zarazhangrui/status/2119342420412510686"
+        },
+        "id:2119592080318341128": {
+          "createdAt": "2026-11-09T00:45:06.000Z",
+          "id": "2119592080318341128",
+          "isQuote": false,
+          "likes": 404,
+          "quotedTweetId": null,
+          "replies": 182,
+          "retweets": 12,
+          "text": "I’ve almost stopped using the term “vibe coding” because there’s a negative connotation to it \n\nIt implies that you didn’t put a lot of effort or soul into the output and it’s just AI slop\n\nBut oftentimes people ARE putting their heart and soul into the work even when using AI coding tools. The 2 are not contradictory\n\nWe need a better word for describing this",
+          "url": "https://x.com/zarazhangrui/status/2119592080318341128"
         }
       }
     }
