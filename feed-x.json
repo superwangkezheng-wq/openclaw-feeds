@@ -1,31 +1,12 @@
 {
-  "generatedAt": "2026-11-08T14:22:53.000Z",
+  "generatedAt": "2026-11-09T02:44:30.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-11-08T06:25:57.526Z",
-    "ageHours": 7.95
+    "ageHours": 20.31
   },
   "x": [
-    {
-      "handle": "_catwu",
-      "name": "Cat Wu",
-      "tweets": [
-        {
-          "createdAt": "2026-11-05T00:25:34.000Z",
-          "id": "2118137612577968402",
-          "isQuote": false,
-          "likes": 11973,
-          "quotedTweetId": null,
-          "replies": 1422,
-          "retweets": 527,
-          "text": "Some news: I’m joining OpenAI to lead product management for Core Products!\n\nI have a lot of respect for OpenAI for showing the world that scaling works, for bringing AI to over a billion people, and for believing great products are core to the mission.\n\nI’m excited to work with @thsottiaux, an incredible PM team, and everyone across OpenAI. Together, we’ll build agents that have your back and your team’s, and keep you in control, so you get more time for the people and work you love.\n\nLots to learn, and lots to build. Please keep your feedback coming!",
-          "url": "https://x.com/_catwu/status/2118137612577968402"
-        }
-      ],
-      "source": "x",
-      "bio": "core products @openai, prev: claude code @anthropic, @dagster, @scale_ai"
-    },
     {
       "handle": "adityaag",
       "name": "Aditya Agarwal",
@@ -229,28 +210,6 @@
           "retweets": 5,
           "text": "Thesis: 2027 - LIVE from Brooklyn! https://t.co/3LEMTqBsHr",
           "url": "https://x.com/danshipper/status/2118421854666838338"
-        },
-        {
-          "createdAt": "2026-11-05T02:37:29.000Z",
-          "id": "2118170810841965023",
-          "isQuote": false,
-          "likes": 57,
-          "quotedTweetId": null,
-          "replies": 13,
-          "retweets": 4,
-          "text": "all of these new @openai hires obvoiusly because they read my codex piece https://t.co/UA75jNNUoJ",
-          "url": "https://x.com/danshipper/status/2118170810841965023"
-        },
-        {
-          "createdAt": "2026-11-05T00:30:51.000Z",
-          "id": "2118138941765280149",
-          "isQuote": true,
-          "likes": 201,
-          "quotedTweetId": "2118137612577968402",
-          "replies": 9,
-          "retweets": 0,
-          "text": "omfg https://t.co/q9LDAvVXND",
-          "url": "https://x.com/danshipper/status/2118138941765280149"
         }
       ],
       "source": "x",
@@ -369,28 +328,6 @@
           "retweets": 2,
           "text": "GStack’s /review skill is actually useful for preventing bugs still https://t.co/aROfFOWDwK",
           "url": "https://x.com/garrytan/status/2118221083233206736"
-        },
-        {
-          "createdAt": "2026-11-05T01:34:14.000Z",
-          "id": "2118154891176857608",
-          "isQuote": true,
-          "likes": 1450,
-          "quotedTweetId": "2056554821789073613",
-          "replies": 50,
-          "retweets": 26,
-          "text": "We did it guys\n\nConnie Chan is a private citizen https://t.co/0CtlQS2XNU https://t.co/kLvPG0kTUh",
-          "url": "https://x.com/garrytan/status/2118154891176857608"
-        },
-        {
-          "createdAt": "2026-11-04T19:10:58.000Z",
-          "id": "2118058438714650985",
-          "isQuote": true,
-          "likes": 726,
-          "quotedTweetId": "2014965727695143045",
-          "replies": 28,
-          "retweets": 39,
-          "text": "We dodged a bullet on this asset seizure tax. With any luck Prop 42 will pass. \n\nBuilders of tech in California had a good day yesterday: we want abundance and asset seizure is the one guaranteed way to kill the golden goose. \n\nHuge thanks to Sergey Brin here. https://t.co/HIznVbS14W",
-          "url": "https://x.com/garrytan/status/2118058438714650985"
         }
       ],
       "source": "x",
@@ -491,28 +428,6 @@
           "retweets": 1,
           "text": "How VCs who got into the 2nd tranche of a hot deal look at the VCs in the third tranche https://t.co/pU1gEhbacZ",
           "url": "https://x.com/mattturck/status/2118791325394845839"
-        },
-        {
-          "createdAt": "2026-11-05T00:44:59.000Z",
-          "id": "2118142497188610501",
-          "isQuote": true,
-          "likes": 91,
-          "quotedTweetId": "2021797037486772717",
-          "replies": 20,
-          "retweets": 0,
-          "text": "2028:\n\n* Ossoff wins dem primary over Talarico (whose profile considerably increases throughout 2027) and AOC\n\n* Rubio beats JD Vance (too tied to Trump) in the GOP primary\n\n* Ossoff wins the presidency\n\n(I'm a foreign-born VC, you can totally trust my U.S. political predictions) https://t.co/IshuqUdBBE",
-          "url": "https://x.com/mattturck/status/2118142497188610501"
-        },
-        {
-          "createdAt": "2026-11-04T16:02:00.000Z",
-          "id": "2118010883754299884",
-          "isQuote": true,
-          "likes": 18,
-          "quotedTweetId": "2117998584155049986",
-          "replies": 12,
-          "retweets": 2,
-          "text": "As a customer, what I want: one central brain (AI) that can interact with me whether I text it or speak to it, whether I want to buy something or need support, and can actually do something helpful for me (agentic action) - 24/7, always in a good mood, instantly available.\n\nThe combination between @dialpad and @ada_cx creates a major new entrant pursuing this big vision.\n\nAs an investor since the Series A, excited for @mimurchison and team to go after it.",
-          "url": "https://x.com/mattturck/status/2118010883754299884"
         }
       ],
       "source": "x",
@@ -576,17 +491,6 @@
           "retweets": 3,
           "text": "When I see a startup talking about their views on X..\n\n(when most of them were paid partnerships) https://t.co/D8yIYK5t82",
           "url": "https://x.com/nikunj/status/2118606231405547841"
-        },
-        {
-          "createdAt": "2026-11-05T00:48:47.000Z",
-          "id": "2118143456799494541",
-          "isQuote": true,
-          "likes": 34,
-          "quotedTweetId": "2117413490256433207",
-          "replies": 11,
-          "retweets": 0,
-          "text": "This was really fun - thanks @PeterJ_Walker and guests for coming so spontaneously. \n\nAim to do this every week so if you know someone who wants to be interviewed, please DM me. \n\nLooking for speakers who a) can speak about an area casually but in depth for 45 mins and b) who are not a household name now but will most likely be one in 12 months. \n\nPhoto post event taken by @tedkornish",
-          "url": "https://x.com/nikunj/status/2118143456799494541"
         }
       ],
       "source": "x",
@@ -672,28 +576,6 @@
           "retweets": 1,
           "text": "Was super fun hosting this event with my friends from @OpenAI and @Amplitude_HQ https://t.co/VVwHHCVofW https://t.co/TPdxuCYJxz",
           "url": "https://x.com/petergyang/status/2118197393229545534"
-        },
-        {
-          "createdAt": "2026-11-04T17:32:17.000Z",
-          "id": "2118033608007139638",
-          "isQuote": true,
-          "likes": 34,
-          "quotedTweetId": "2117638801296380159",
-          "replies": 36,
-          "retweets": 0,
-          "text": "I don't use AI to call local businesses but I literally have no sympathy for using it to call Xfinity's shitty customer support.\n\nTheir phone system won't let you talk to a human when your address has an active outage...what?! https://t.co/znuMdrusP3 https://t.co/1kqwNCppk2",
-          "url": "https://x.com/petergyang/status/2118033608007139638"
-        },
-        {
-          "createdAt": "2026-11-04T15:27:19.000Z",
-          "id": "2118002158201340288",
-          "isQuote": false,
-          "likes": 10,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 0,
-          "text": "Read the written post for all 5 steps: https://t.co/Y03RZBpCJ5",
-          "url": "https://x.com/petergyang/status/2118002158201340288"
         }
       ],
       "source": "x",
@@ -768,39 +650,6 @@
           "retweets": 6,
           "text": "“Doing stuff for you over time” is the killer app of agents.\n\nMuse and Instinct consolidate memories at night, remind you of stuff in the morning, message you after N days passed since your last interaction…\n\nVercel Schedules are like Cron on steroids. They can be defined at runtime, scale infinitely, and sit outside of the Sandbox, which means you can cost-efficiently invoke compute as needed.",
           "url": "https://x.com/rauchg/status/2118440831355068671"
-        },
-        {
-          "createdAt": "2026-11-05T02:22:14.000Z",
-          "id": "2118166970273292299",
-          "isQuote": false,
-          "likes": 2482,
-          "quotedTweetId": null,
-          "replies": 198,
-          "retweets": 222,
-          "text": "We will all be learning in coming weeks & months, that most human-made software:\n\n▫️ Was really slow\n▫️ Had many security vulnerabilities\n▫️ Was under-specified and incorrect\n\nAI will rewrite it all. Many times. It will make it fast, cost-efficient, and secure. It will think about failure modes we couldn't wrap our heads around.\n\nIt will prove, formally verify, load test, harden. It will turn memory-unsafe foundations into robust, optimized ones. If you ask, it'll thoroughly document it, teach you about it, make diagrams, animations, and slide decks.\n\nIn many ways, we are witnessing the true birth of software engineering.",
-          "url": "https://x.com/rauchg/status/2118166970273292299"
-        },
-        {
-          "createdAt": "2026-11-05T01:23:39.000Z",
-          "id": "2118152230260092940",
-          "isQuote": true,
-          "likes": 839,
-          "quotedTweetId": "2117726156992753721",
-          "replies": 78,
-          "retweets": 39,
-          "text": "In just 24 hours 🤯\n✓ 𝟲,𝟴𝟭𝟳 vulnerabilities identified\n✓ 𝟱𝟴𝟬 critical or high\n✓ 𝟭,𝟰𝟭𝟭 already patched by Agent\n\nVercel Security Reviews are 100% free until Nov 10 https://t.co/e4mHdykByr",
-          "url": "https://x.com/rauchg/status/2118152230260092940"
-        },
-        {
-          "createdAt": "2026-11-04T20:20:20.000Z",
-          "id": "2118075898830463048",
-          "isQuote": true,
-          "likes": 377,
-          "quotedTweetId": "2118044364329140653",
-          "replies": 75,
-          "retweets": 11,
-          "text": "It’s so inspiring to work with people who care so much about building quality products. \n\nGreatness is the byproduct of a million iterations. Agents or otherwise. https://t.co/0hDrXe2PIX",
-          "url": "https://x.com/rauchg/status/2118075898830463048"
         }
       ],
       "source": "x",
@@ -880,17 +729,6 @@
           "retweets": 11,
           "text": "Just a normal Thursday. https://t.co/ss7kbiO9ng",
           "url": "https://x.com/steipete/status/2118380936882803044"
-        },
-        {
-          "createdAt": "2026-11-04T23:01:44.000Z",
-          "id": "2118116514700386439",
-          "isQuote": true,
-          "likes": 518,
-          "quotedTweetId": "2118068667103453360",
-          "replies": 118,
-          "retweets": 22,
-          "text": "Do individual limits still make sense? As capabilities increase you want to work with and support an agent that represents your project, that runs loops and evolves your codebase. The humans merely curate the automations. https://t.co/7A1dRKVtJk",
-          "url": "https://x.com/steipete/status/2118116514700386439"
         }
       ],
       "source": "x",
@@ -1009,28 +847,6 @@
           "retweets": 1,
           "text": "uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2\n\nthis is distillation without tradeoffs. i think @thinkymachines inkling is one of the most underrated base models in the world. expect to see a TON more of these esp on US pretrained models https://t.co/zvJFP9EIPL",
           "url": "https://x.com/swyx/status/2118208851506036989"
-        },
-        {
-          "createdAt": "2026-11-05T02:33:13.000Z",
-          "id": "2118169736563589350",
-          "isQuote": true,
-          "likes": 1,
-          "quotedTweetId": "2118048131052933313",
-          "replies": 0,
-          "retweets": 0,
-          "text": "announced on aie channel. so hyped\n\nhttps://t.co/eFuOmBuROE",
-          "url": "https://x.com/swyx/status/2118169736563589350"
-        },
-        {
-          "createdAt": "2026-11-05T01:25:04.000Z",
-          "id": "2118152585911869634",
-          "isQuote": true,
-          "likes": 234,
-          "quotedTweetId": "2118151813555945505",
-          "replies": 43,
-          "retweets": 3,
-          "text": "i'm still processing. what an insane run. $0 to $100B ARR in 2.5 years. https://t.co/i56rhUUFg0",
-          "url": "https://x.com/swyx/status/2118152585911869634"
         }
       ],
       "source": "x",
@@ -1050,17 +866,6 @@
           "retweets": 0,
           "text": "what do the shrimp welfare ppl think about this one I wonder https://t.co/3jInoOgkac",
           "url": "https://x.com/thenanyu/status/2118826112562434303"
-        },
-        {
-          "createdAt": "2026-11-05T01:10:26.000Z",
-          "id": "2118148902125998468",
-          "isQuote": true,
-          "likes": 76,
-          "quotedTweetId": "2118137612577968402",
-          "replies": 4,
-          "retweets": 0,
-          "text": "CatGPT https://t.co/2teaKfXFIr",
-          "url": "https://x.com/thenanyu/status/2118148902125998468"
         }
       ],
       "source": "x",
@@ -1168,39 +973,6 @@
           "retweets": 0,
           "text": "Generating*",
           "url": "https://x.com/thsottiaux/status/2118473288368406582"
-        },
-        {
-          "createdAt": "2026-11-05T01:02:13.000Z",
-          "id": "2118146834325733453",
-          "isQuote": false,
-          "likes": 227,
-          "quotedTweetId": null,
-          "replies": 47,
-          "retweets": 5,
-          "text": "Reach out to @clintgibler if you want to work on securing the world.",
-          "url": "https://x.com/thsottiaux/status/2118146834325733453"
-        },
-        {
-          "createdAt": "2026-11-05T01:02:03.000Z",
-          "id": "2118146794362405231",
-          "isQuote": true,
-          "likes": 2188,
-          "quotedTweetId": "2118119451401048497",
-          "replies": 268,
-          "retweets": 68,
-          "text": "We’ve assembled a world class cyber team and I’m excited for us to share more about our work over the weeks and months. https://t.co/Hj3w8j1Xf2",
-          "url": "https://x.com/thsottiaux/status/2118146794362405231"
-        },
-        {
-          "createdAt": "2026-11-05T00:30:09.000Z",
-          "id": "2118138764161913278",
-          "isQuote": false,
-          "likes": 989,
-          "quotedTweetId": null,
-          "replies": 106,
-          "retweets": 33,
-          "text": "CatGPT",
-          "url": "https://x.com/thsottiaux/status/2118138764161913278"
         }
       ],
       "source": "x",
@@ -1253,28 +1025,6 @@
           "retweets": 45,
           "text": "one of my favorite prompts for agents like Instinct is location based reminders\n\ne.g. \"Keep track of when I've done my laundry. If it's been more than 5 days, remind me 30 minutes after I get home on a week day and bug me until I confirm or delay\"",
           "url": "https://x.com/trq212/status/2118399561324699655"
-        },
-        {
-          "createdAt": "2026-11-04T23:32:38.000Z",
-          "id": "2118124292500287814",
-          "isQuote": false,
-          "likes": 862,
-          "quotedTweetId": null,
-          "replies": 16,
-          "retweets": 5,
-          "text": "sorry I mean inshallah",
-          "url": "https://x.com/trq212/status/2118124292500287814"
-        },
-        {
-          "createdAt": "2026-11-04T23:32:21.000Z",
-          "id": "2118124218839859700",
-          "isQuote": false,
-          "likes": 1790,
-          "quotedTweetId": null,
-          "replies": 67,
-          "retweets": 25,
-          "text": "manifesting\n\n⠀⠀⠀⠀    🕯️🕯️🕯️🕯️🕯️\n⠀⠀🕯️⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀🕯️\n 🕯️⠀⠀Apple lets apps⠀   🕯️\n🕯️⠀⠀⠀build Shortcuts      🕯️\n🕯️⠀⠀⠀⠀.   for you⠀⠀ ⠀    🕯️\n⠀⠀🕯️⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀🕯️\n⠀⠀⠀⠀    🕯️🕯️🕯️🕯️🕯️",
-          "url": "https://x.com/trq212/status/2118124218839859700"
         }
       ],
       "source": "x",
@@ -1305,17 +1055,6 @@
           "retweets": 2,
           "text": "As I've said before, your personal website is the new resume\n\nLinkedIn shows a list of titles; your personal website shows your taste, your thinking, your actual work\n\nYou don't need to be confined by the existing social media platforms https://t.co/Eysl2kgvsa",
           "url": "https://x.com/zarazhangrui/status/2118939184841052386"
-        },
-        {
-          "createdAt": "2026-11-04T23:18:45.000Z",
-          "id": "2118120795780370768",
-          "isQuote": false,
-          "likes": 64,
-          "quotedTweetId": null,
-          "replies": 59,
-          "retweets": 1,
-          "text": "What's the best group chat tool for engaging with a user community? Discord feels too overwhelming, WhatsApp isn't widely used in the US, iMessage is too personal, Slack feels too corporate",
-          "url": "https://x.com/zarazhangrui/status/2118120795780370768"
         }
       ],
       "source": "x",
@@ -1323,8 +1062,8 @@
     }
   ],
   "stats": {
-    "xBuilders": 20,
-    "xTweets": 105,
-    "windowSpanHours": 86.3
+    "xBuilders": 19,
+    "xTweets": 82,
+    "windowSpanHours": 74.51
   }
 }
