@@ -11,6 +11,111 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:Oi55T8LtTSI</id>
+  <yt:videoId>Oi55T8LtTSI</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>Anthropic 发布 Fable 5.2 和 Mythos 5.2，编程与科学评测提升【AI 早报 2026-11-10】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Oi55T8LtTSI"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-11-10T01:45:07+00:00</published>
+  <updated>2026-11-10T01:46:42+00:00</updated>
+  <media:group>
+   <media:title>Anthropic 发布 Fable 5.2 和 Mythos 5.2，编程与科学评测提升【AI 早报 2026-11-10】</media:title>
+   <media:content url="https://www.youtube.com/v/Oi55T8LtTSI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Oi55T8LtTSI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+Anthropic 发布 Fable 5.2 和 Mythos 5.2，编程与科学评测提升 00:08
+https://anthropic.com/claude-fable-and-mythos-5-2
+https://www.anthropic.com/research/claude-electronics-design
+https://x.com/claudeai/status/2119867114450268322
+
+Anthropic 随 Fable 5.2 上线推出限时优惠，高阶订阅最多可获 3 次重置 00:31
+https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers
+https://x.com/ClaudeDevs/status/2119868704544711108
+
+字节跳动发布 Seedream 5.5，改图百轮不走样 00:45
+https://seed.bytedance.com/zh/seedream5_5
+https://seed.bytedance.com/zh/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5
+https://mp.weixin.qq.com/s/ubijsh8dX01ZrfkmlcKT9g
+
+阿里云 Token Plan 个人版额度上调，Pro 月费降至 312 元 01:08
+https://mp.weixin.qq.com/s/jHMi-kO0VpjQKqezGEiK9g
+
+OpenAI dot 现可连接多台电脑，按任务指定用哪台 01:24
+https://learn.chatgpt.com/docs/dots/computers-and-apps
+https://x.com/OpenAIDevs/status/2119883176726409645
+
+Meta 发布迄今最小模型 Muse Ember，专攻 agent 重复任务 01:36
+https://research.meta.ai/blog/muse-ember
+https://x.com/AIatMeta/status/2119853591703998787
+
+Adventists AI 开源全双工语音模型 Sophon-Realtime v1 01:50
+https://modelscope.ai/models/AdventistsAI/Sophon-Realtime-v1
+https://modelscope.cn/models/AdventistsAI/Sophon-Realtime-32B-Tag
+https://github.com/adventists-ai/sophon-realtime
+https://x.com/ModelScope2022/status/2119777024403444161
+
+美团开源 LongCat-2.5，MIT 协议可商用 02:04
+https://mp.weixin.qq.com/s/EGLDrPxND-xGTyStJIDXrw
+https://huggingface.co/meituan-longcat/LongCat-2.5
+
+Inkling 2 Small 上架 OpenRouter，限时免费调用 02:15
+https://openrouter.ai/thinkingmachines/inkling-2-small:free
+https://x.com/ModelsOnOR/status/2119918325132300382
+
+OpenAI Agents API 推出三项新功能，prompt cache 可保留 12 小时 02:21
+https://x.com/AzianMike/status/2119876908066427244
+
+AI Studio 可用自然语言生成 Google 地图应用 02:34
+https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio
+https://developers.google.com/maps/ai/ai-studio
+https://x.com/GoogleAIStudio/status/2119837788937896234
+
+Ollama 推出使用情况页面，每日花费与 token 用量可查 02:45
+https://x.com/ollama/status/2119897229758788041
+
+OpenCode 安卓应用上线，需连接电脑或服务器使用 02:56
+https://play.google.com/store/apps/details?id=ai.opencode.mobilecode
+https://x.com/DanielSmolsky/status/2119835842822750222
+
+Grok Bot 宣布为所有用户重置每周限额 03:06
+https://x.com/bot/status/2119871982946971659
+
+马斯克称 Grok Bot 修复连夜实施，预计次日显著改善 03:12
+https://x.com/elonmusk/status/2119617455102333206
+
+Google Antigravity 推出 Knowledge Work 界面布局，隐藏终端和 Git 03:24
+https://antigravity.google/blog/antigravity-for-knowledge-work
+https://x.com/antigravity/status/2119913586109579283
+
+钉钉发布千问办公 2.0：推出协作空间与数字员工小Q 03:36
+https://mp.weixin.qq.com/s?new=1&amp;signature=WsAlCDU%2AkZymDtJJKpBstmU9mr6qalSPhltNuojPmJRmdt6zEI9ML7NDVp6td56cW49Wvd3T3cJ-69M7goAA9Ug39P8og2Lhs7uyB4aXMjdyv5WYspcMq0Ok94F9c3A9&amp;src=11&amp;timestamp=1794218499&amp;ver=7078
+
+OpenAI 发布 Control Room，35 秒内可叫停研究中的模型任务 03:50
+https://openai.com/index/control-room
+https://x.com/OpenAI/status/2119913172039868579
+
+Google 发布 TPU 8tx 和 8i Max，一年内 TPU 系统达四款 04:05
+https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/
+
+NVIDIA 与韩国扩大主权 AI 生态合作 04:20
+https://www.lg.co.kr/media/release/30760
+http://blogs.nvidia.com/blog/korea-secure-agentic-ai
+https://huggingface.co/datasets/nvidia/Nemotron-Personas-Korea
+
+Fireworks 确认黑客入侵暴露客户账单与模型数据 04:34
+https://fireworks.ai/security/bulletins/october-2026-security-incident-update</media:description>
+   <media:community>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="340"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:bHFlbVUR26E</id>
   <yt:videoId>bHFlbVUR26E</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -54,8 +159,8 @@ https://x.com/elonmusk/status/2119415029812609301
 
 OpenAI 开发者账号发布明日预告 02:08</media:description>
    <media:community>
-    <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1199"/>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="1325"/>
    </media:community>
   </media:group>
  </entry>
@@ -106,7 +211,7 @@ https://www.reuters.com/world/ai-backlash-could-threaten-anthropic-ipo-timing-po
 https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1392"/>
+    <media:statistics views="1408"/>
    </media:community>
   </media:group>
  </entry>
@@ -214,7 +319,7 @@ https://www.theverge.com/news/1029248/tsmc-is-apparently-considering-getting-int
 https://theinformation.com/articles/tsmc-weighs-making-advanced-memory-chips-capture-ai-spending</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2152"/>
+    <media:statistics views="2180"/>
    </media:community>
   </media:group>
  </entry>
@@ -310,8 +415,8 @@ https://x.com/RepYassAnsari/status/2118054336077127797
 
 OpenAI 发布社区契约，承诺自担园区用电成本 04:56</media:description>
    <media:community>
-    <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="2521"/>
+    <media:starRating count="30" average="5.00" min="1" max="5"/>
+    <media:statistics views="2573"/>
    </media:community>
   </media:group>
  </entry>
@@ -425,7 +530,7 @@ ChatGPT 被曝筹备五档家庭订阅 06:20
 https://x.com/btibor91/status/2117875196594209270</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="2330"/>
+    <media:statistics views="2337"/>
    </media:community>
   </media:group>
  </entry>
@@ -514,7 +619,7 @@ https://mp.weixin.qq.com/s/R-1u2exLwZMOu7AITyU5kg
 https://x.com/TencentHunyuan/status/2117591591666016487</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="1852"/>
+    <media:statistics views="1853"/>
    </media:community>
   </media:group>
  </entry>
@@ -596,7 +701,7 @@ https://aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transacti
 https://reuters.com/legal/litigation/new-york-times-sues-maker-brave-web-browser-over-copyrights-2026-11-02</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="1816"/>
+    <media:statistics views="1821"/>
    </media:community>
   </media:group>
  </entry>
@@ -641,7 +746,7 @@ Axios：OpenAI 计划选后发起政策和公关宣传 01:11
 https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1400"/>
+    <media:statistics views="1401"/>
    </media:community>
   </media:group>
  </entry>
@@ -718,7 +823,7 @@ https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt
 https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="1876"/>
+    <media:statistics views="1888"/>
    </media:community>
   </media:group>
  </entry>
@@ -793,7 +898,7 @@ https://x.com/elonmusk/status/2116036703538606301
 据报道 Anthropic 是 SpaceX 最大单一客户 03:06</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="2383"/>
+    <media:statistics views="2384"/>
    </media:community>
   </media:group>
  </entry>
@@ -927,7 +1032,7 @@ IDC：阿里云位居中国大语言模型 MaaS 市场第一 06:15
 https:/</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2898"/>
+    <media:statistics views="2899"/>
    </media:community>
   </media:group>
  </entry>
@@ -1054,7 +1159,7 @@ https://x.com/ElevenLabs/status/2115527286065914248
 Anthropic 内部研究模型发现多个系统漏洞</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="3458"/>
+    <media:statistics views="3459"/>
    </media:community>
   </media:group>
  </entry>
@@ -1188,8 +1293,8 @@ https://reuters.com/legal/transactional/wall-street-banks-blackstone-line-up-63-
 
 Oracle 云将提供 Google TPU，计划 2027 年起</media:description>
    <media:community>
-    <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2257"/>
+    <media:starRating count="20" average="5.00" min="1" max="5"/>
+    <media:statistics views="2258"/>
    </media:community>
   </media:group>
  </entry>
@@ -1290,55 +1395,6 @@ https://x.com/0x0SojalSec/status/2113751276320399694?s=20</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
     <media:statistics views="2539"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:QW388hqEvB4</id>
-  <yt:videoId>QW388hqEvB4</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>Kimi.ai 致歉 K3.1 Pro 限流并重置用量【AI 早报 2026-10-26】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=QW388hqEvB4"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-10-26T00:39:03+00:00</published>
-  <updated>2026-10-29T03:29:38+00:00</updated>
-  <media:group>
-   <media:title>Kimi.ai 致歉 K3.1 Pro 限流并重置用量【AI 早报 2026-10-26】</media:title>
-   <media:content url="https://www.youtube.com/v/QW388hqEvB4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/QW388hqEvB4/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-Kimi.ai 致歉 K3.1 Pro 限流并重置用量 00:08
-https://x.com/Kimi_Moonshot/status/2114450610724708492
-https://x.com/KimiDevs/status/2114327830465237001
-
-OpenAI 28 天计划第 20 天全量重置，Tibo 称改动已传播完成 00:25
-https://x.com/thsottiaux/status/2114237083652882932
-
-CapCut 插件将接入 ChatGPT，11 月开放测试 00:35
-https://www.capcut.com/tools/capcut-x-codex
-https://x.com/capcutapp/status/2114062937094823955
-
-OpenCode 披露 DeepSeek 推理机架运行数据 00:50
-https://x.com/thdxr/status/2114211145615626433
-https://x.com/thdxr/status/2114176734056857916
-
-Nanbeige 开源 33B 模型 Nanbeige4.3-33B 01:06
-https://x.com/nanbeige/status/2114328933181333798
-https://huggingface.co/Nanbeige/Nanbeige4.3-33B
-
-Anthropic 建议企业将部分 subagent 并入主 agent 循环 01:22
-https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
-https://github.com/anthropics/single-agent-loop-kit
-
-Elvis Presley 歌曲权利方起诉 Anthropic，索赔约 4100 万美元 01:40
-https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/</media:description>
-   <media:community>
-    <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1140"/>
    </media:community>
   </media:group>
  </entry>
