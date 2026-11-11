@@ -11,6 +11,39 @@
  </author>
  <published>2017-08-22T22:27:58+00:00</published>
  <entry>
+  <id>yt:video:0NbLVdCZHF0</id>
+  <yt:videoId>0NbLVdCZHF0</yt:videoId>
+  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
+  <title>Tabular Foundation Models for Data Science Agents</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0NbLVdCZHF0"/>
+  <author>
+   <name>DeepLearningAI</name>
+   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
+  </author>
+  <published>2026-11-11T11:00:19+00:00</published>
+  <updated>2026-11-11T11:00:20+00:00</updated>
+  <media:group>
+   <media:title>Tabular Foundation Models for Data Science Agents</media:title>
+   <media:content url="https://www.youtube.com/v/0NbLVdCZHF0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0NbLVdCZHF0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Learn More: https://bit.ly/4j2WLq8
+
+Tabular foundation models use in-context learning to make predictions on new datasets without training a model from scratch. In this short course, built in partnership with Prior Labs and taught by Frank Hutter, Eliott Kalfon, and Tuana Çelik, you'll:
+
+- Make classification, regression, and forecasting predictions with a tabular foundation model
+- Speed up repeated predictions with KV caching
+- Interpret predictions to see which features influence them and what drove each one
+- Build a data science agent that calls a tabular foundation model as a tool when a prediction is needed
+- Train a tiny tabular foundation model from scratch to see how they are built
+
+Enroll for free: https://bit.ly/4j2WLq8</media:description>
+   <media:community>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="1080"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:QyXrlveEpxE</id>
   <yt:videoId>QyXrlveEpxE</yt:videoId>
   <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
@@ -33,8 +66,8 @@ Learn three ways to add voice to apps and agents with Ashwyn Sharma in Voice for
 Enroll through the course link:
 https://www.deeplearning.ai/courses/voice-for-ai-agents-and-applications?utm_source=yt&amp;utm_medium=organic&amp;utm_campaign=dlai</media:description>
    <media:community>
-    <media:starRating count="125" average="5.00" min="1" max="5"/>
-    <media:statistics views="6182"/>
+    <media:starRating count="127" average="5.00" min="1" max="5"/>
+    <media:statistics views="6435"/>
    </media:community>
   </media:group>
  </entry>
@@ -69,7 +102,7 @@ Use your evals to check that every change makes your agent better.
 Enroll for free: https://bit.ly/4ikf9L0</media:description>
    <media:community>
     <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="5190"/>
+    <media:statistics views="5398"/>
    </media:community>
   </media:group>
  </entry>
@@ -102,7 +135,7 @@ Andrew opens the AI Engineering Skills Map, then sits down with Yann LeCun for a
 Explore the program and get tickets</media:description>
    <media:community>
     <media:starRating count="35" average="5.00" min="1" max="5"/>
-    <media:statistics views="5720"/>
+    <media:statistics views="5795"/>
    </media:community>
   </media:group>
  </entry>
@@ -136,8 +169,8 @@ In this course, you'll learn how to:
 
 Enroll Now: https://bit.ly/4BuaMVb</media:description>
    <media:community>
-    <media:starRating count="68" average="5.00" min="1" max="5"/>
-    <media:statistics views="7219"/>
+    <media:starRating count="69" average="5.00" min="1" max="5"/>
+    <media:statistics views="7310"/>
    </media:community>
   </media:group>
  </entry>
@@ -177,8 +210,8 @@ AI Code Review, built in collaboration with Qodo and taught by Nnenna Ndukwe, wa
 
 #DeepLearningAI #CodeReview #AIEngineering</media:description>
    <media:community>
-    <media:starRating count="42" average="5.00" min="1" max="5"/>
-    <media:statistics views="2404"/>
+    <media:starRating count="43" average="5.00" min="1" max="5"/>
+    <media:statistics views="2425"/>
    </media:community>
   </media:group>
  </entry>
@@ -206,8 +239,8 @@ Plus speakers from Vocal Bridge, NYC Tech Talent Pipeline, Unblocked, Qdrant, An
 
 Explore the program and get tickets: https://ai-dev.deeplearning.ai/</media:description>
    <media:community>
-    <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="1844"/>
+    <media:starRating count="25" average="5.00" min="1" max="5"/>
+    <media:statistics views="1862"/>
    </media:community>
   </media:group>
  </entry>
@@ -241,7 +274,7 @@ In this course, you'll learn:
 Enroll for free: https://bit.ly/4yy5iWP</media:description>
    <media:community>
     <media:starRating count="67" average="5.00" min="1" max="5"/>
-    <media:statistics views="9102"/>
+    <media:statistics views="9136"/>
    </media:community>
   </media:group>
  </entry>
@@ -272,7 +305,7 @@ We analyzed more than 10,000 job roles and interviewed dozens of leading AI engi
 See how our program could work for your team: https://deeplearning.ai/business</media:description>
    <media:community>
     <media:starRating count="40" average="5.00" min="1" max="5"/>
-    <media:statistics views="6935"/>
+    <media:statistics views="6945"/>
    </media:community>
   </media:group>
  </entry>
@@ -296,8 +329,8 @@ See how our program could work for your team: https://deeplearning.ai/business</
 
 Enroll for free: https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory</media:description>
    <media:community>
-    <media:starRating count="36" average="5.00" min="1" max="5"/>
-    <media:statistics views="3122"/>
+    <media:starRating count="37" average="5.00" min="1" max="5"/>
+    <media:statistics views="3139"/>
    </media:community>
   </media:group>
  </entry>
@@ -329,7 +362,7 @@ You'll learn foundational data engineering skills while implementing modern data
 Enroll Now: https://bit.ly/3ViOXHF</media:description>
    <media:community>
     <media:starRating count="170" average="5.00" min="1" max="5"/>
-    <media:statistics views="19193"/>
+    <media:statistics views="19213"/>
    </media:community>
   </media:group>
  </entry>
@@ -366,8 +399,8 @@ This course also includes our new AI coding lab, so you can practice building wi
 
 Enroll Now:https://bit.ly/4AlVW2n</media:description>
    <media:community>
-    <media:starRating count="78" average="5.00" min="1" max="5"/>
-    <media:statistics views="12622"/>
+    <media:starRating count="80" average="5.00" min="1" max="5"/>
+    <media:statistics views="12638"/>
    </media:community>
   </media:group>
  </entry>
@@ -401,8 +434,8 @@ Spec-Driven Development with Coding Agents is built in partnership with JetBrain
 
 Recommended: basic familiarity with a programming language and experience with LLM-based coding tools.</media:description>
    <media:community>
-    <media:starRating count="4587" average="5.00" min="1" max="5"/>
-    <media:statistics views="400827"/>
+    <media:starRating count="4613" average="5.00" min="1" max="5"/>
+    <media:statistics views="403665"/>
    </media:community>
   </media:group>
  </entry>
@@ -431,7 +464,7 @@ Learn to build it, plus a video generation agent, in &quot;AI Agents for Image a
 Join here: https://www.deeplearning.ai/courses/ai-agents-for-image-and-video-generation</media:description>
    <media:community>
     <media:starRating count="51" average="5.00" min="1" max="5"/>
-    <media:statistics views="3694"/>
+    <media:statistics views="3706"/>
    </media:community>
   </media:group>
  </entry>
@@ -457,45 +490,7 @@ Take the course, then come share what you build:
 https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local</media:description>
    <media:community>
     <media:starRating count="53" average="5.00" min="1" max="5"/>
-    <media:statistics views="3039"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:Y_bxMqcCNbU</id>
-  <yt:videoId>Y_bxMqcCNbU</yt:videoId>
-  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
-  <title>AI Dev | San Francisco 2026 | 2,599 AI Developers</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=Y_bxMqcCNbU"/>
-  <author>
-   <name>DeepLearningAI</name>
-   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
-  </author>
-  <published>2026-09-01T21:18:23+00:00</published>
-  <updated>2026-10-05T15:26:43+00:00</updated>
-  <media:group>
-   <media:title>AI Dev | San Francisco 2026 | 2,599 AI Developers</media:title>
-   <media:content url="https://www.youtube.com/v/Y_bxMqcCNbU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/Y_bxMqcCNbU/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Thousands of developers, two days on the San Francisco waterfront, and a whole lot of code.
-
-AI Dev in San Francisco brought the DeepLearning.AI community together on April 28 - 29 for the biggest AI Dev yet. Hosted by Andrew Ng, the conference ran on hands-on workshops, technical sessions, live demos, and the kind of hallway conversations that turn into projects.
-
-Sessions covered the problems developers are actually solving right now: agentic systems, context engineering, multimodal applications, reliability in production, and building with AI coding agents. Speakers came from Google DeepMind, LangChain, Oracle, AMD, Arm, Neo4j, Replit, LandingAI, and AI21 Labs.
-
-AI Dev started in 2025 as a 700-person gathering in San Francisco. This one was more than 3x that size. Thanks to everyone who showed up, built something, and made it what it was. Join us this fall in NYC!
-
-🎟 AI Dev x NYC is coming this fall. Secure your tickets: https://ai-dev.deeplearning.ai/#tickets 
-📬 Subscribe to The Batch for weekly AI news from Andrew Ng: https://www.deeplearning.ai/the-batch/
-🌐 Conference details: https://ai-dev.deeplearning.ai/
-
-Follow DeepLearning.AI
-LinkedIn: https://www.linkedin.com/company/deeplearningai · X: https://x.com/DeepLearningAI · Instagram: https://www.instagram.com/deeplearningai/ 
-
-#AIDev #DeepLearningAI #AndrewNg  #AIDeveloper #AIEngineering #AgenticAI</media:description>
-   <media:community>
-    <media:starRating count="111" average="5.00" min="1" max="5"/>
-    <media:statistics views="15899"/>
+    <media:statistics views="3044"/>
    </media:community>
   </media:group>
  </entry>
