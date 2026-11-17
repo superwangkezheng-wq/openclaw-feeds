@@ -11,6 +11,29 @@
  </author>
  <published>2011-06-27T17:15:38+00:00</published>
  <entry>
+  <id>yt:video:v5me-YHuHhc</id>
+  <yt:videoId>v5me-YHuHhc</yt:videoId>
+  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
+  <title>Physics Vs. Data</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=v5me-YHuHhc"/>
+  <author>
+   <name>Semiconductor Engineering</name>
+   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
+  </author>
+  <published>2026-11-17T08:00:16+00:00</published>
+  <updated>2026-11-17T08:00:16+00:00</updated>
+  <media:group>
+   <media:title>Physics Vs. Data</media:title>
+   <media:content url="https://www.youtube.com/v/v5me-YHuHhc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/v5me-YHuHhc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>AI is driving the chip industry harder and faster than ever, requiring more decisions about everything from atomistic simulation to materials chemistry to the structural stability of a 3D architecture. The big question now is whether those decisions should be based on data or physics, or some combination of both. David Fried, chief AI officer and corporate vice president for Semiverse Solutions at Lam Research, talks with Semiconductor Engineering about different approaches to speed up simulations, how to account for process variability with angstrom-level accuracy, and how to optimize systems for different memories and packaging options.</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="205"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:68oMarzN2xI</id>
   <yt:videoId>68oMarzN2xI</yt:videoId>
   <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
@@ -29,7 +52,7 @@
    <media:description>Humanoid robots, autonomous vehicles, and drones all share one thing in common — they can only function as long as the battery lasts. After that, they need to return to a charger. Today, in the case of humanoid robots, usefulness may only last a few hours per charge. So how can that time be extended? There's no simple answer because no single component will solve all problems, but the underlying basics remain the same — efficient processing, denser and faster memory, and optimized data movement between processors and memories. Frank Ferro, group director for product management at Cadence, talks with Semiconductor Engineering about why data hierarchies are so critical for physical AI, what can be done on the memory side to speed up read/write times, and how to maximize performance while keeping costs down.</media:description>
    <media:community>
     <media:starRating count="40" average="5.00" min="1" max="5"/>
-    <media:statistics views="2100"/>
+    <media:statistics views="2119"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +75,7 @@
    <media:description>Verifying chips is becoming much more difficult in multi-die assemblies. Unlike in the past, when simulation was sufficient, designs now require a combination of simulation, emulation, and FPGA prototyping to ensure that entire systems will work as expected. Purna Mohanty, CEO of SignatureIP, talks with Semiconductor Engineering about the impact of chiplets and shared memory resources, the challenges of version control across multiple flavors of I/O, and the challenges engineering teams face when hardware-accelerated tools are running at different speeds than the actual design.</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="727"/>
+    <media:statistics views="736"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +98,7 @@
    <media:description>Physical AI poses a host of new challenges for chip engineers. These systems contain a mix of compute elements, which collectively must process a stream of real-time data, analyze it, make decisions, and still function long enough on a battery to be useful. The key here is deciding what data gets processed where, and how to minimize the movement of data. Ashley Stevens, director of product management and marketing at Arteris, talks with Semiconductor Engineering about why data movement plays such an important role in these systems, why coherent interconnects are better suited to CPUs and non-coherent interconnects are better for AI acceleration, and what other challenges engineers will face going forward.</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="997"/>
+    <media:statistics views="1000"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +190,7 @@
    <media:description>The rapid build-out of AI on the edge marks a fundamental shift in where intelligence is located, how much is included in devices, and the speed at which that intelligence can be applied to everyday problems. While the cloud will still be used for training large language models, the edge will include a collection of smaller, much more targeted language models. Nigel Drego, CTO and co-founder of Quadric, talks with Semiconductor Engineering about how edge AI will interact with the cloud in co-optimized systems, how the proliferation of edge AI will improve response time and reduce privacy concerns, and how quickly this market is expanding. [According to recent estimates, 100 billion models are being run locally on edge devices today.]</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="692"/>
+    <media:statistics views="693"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +213,7 @@
    <media:description>The use of AI agents in chip design has been limited to small portions of the design flow. Engineers have been proceeding cautiously to understand how agents work, how to ensure they are delivering consistent results, and how different agents work together. The next step is to extend their role beyond just gluing together coding and tooling functions. Mehir Arora, head of engineering at ChipAgents, talks with Semiconductor Engineering about what happens when the role of AI agents is expanded to include semantics and physics, what's happens when agents work in parallel on different engineering problems, and what's needed to achieve a 10X or greater improvement in productivity.</media:description>
    <media:community>
     <media:starRating count="48" average="5.00" min="1" max="5"/>
-    <media:statistics views="2438"/>
+    <media:statistics views="2443"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +236,7 @@
    <media:description>More data, more processing elements, and more memories are making it much harder to maintain consistent throughput in a multi-die assembly. There is more concurrent traffic, more potential interactions, and more protocol layers. Ashish Darbari, CEO of Axiomise, talks with Semiconductor Engineering about the of coherency on serialization bugs, how to ensure data is secure, and how to ferret out the root cause of problems like silent data corruption using formal technology.</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="7400"/>
+    <media:statistics views="7401"/>
    </media:community>
   </media:group>
  </entry>
@@ -329,29 +352,6 @@
    <media:community>
     <media:starRating count="41" average="5.00" min="1" max="5"/>
     <media:statistics views="913"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:5KcuFshl29U</id>
-  <yt:videoId>5KcuFshl29U</yt:videoId>
-  <yt:channelId>UC2LCc4VvMYj-6Kqe09avwow</yt:channelId>
-  <title>Building Multi-Agent Systems For ASIC Flows</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=5KcuFshl29U"/>
-  <author>
-   <name>Semiconductor Engineering</name>
-   <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
-  </author>
-  <published>2026-06-10T07:00:17+00:00</published>
-  <updated>2026-10-03T11:41:00+00:00</updated>
-  <media:group>
-   <media:title>Building Multi-Agent Systems For ASIC Flows</media:title>
-   <media:content url="https://www.youtube.com/v/5KcuFshl29U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/5KcuFshl29U/hqdefault.jpg" width="480" height="360"/>
-   <media:description>If one AI agent can solve a problem in a certain amount of time, can multiple agents solve it faster? The answer is yes, but only if the agents have well-defined roles and targets. This is where orchestrators fit in, and why they are so critical to agentic AI. Kexun Zhang, head of research at ChipAgents, talks with Semiconductor Engineering about what exactly AI agents are, how they can be used to solve big problems that would require many experienced engineers, and how to parse a problem to maximize the effectiveness of those agents.</media:description>
-   <media:community>
-    <media:starRating count="27" average="5.00" min="1" max="5"/>
-    <media:statistics views="2006"/>
    </media:community>
   </media:group>
  </entry>
