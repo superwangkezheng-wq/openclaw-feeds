@@ -58,17 +58,6 @@
       "name": "Amjad Masad",
       "source": "x",
       "tweets": {
-        "id:2121765647168483589": {
-          "createdAt": "2026-11-15T00:42:05.000Z",
-          "id": "2121765647168483589",
-          "isQuote": true,
-          "likes": 298,
-          "quotedTweetId": "2121753188495954071",
-          "replies": 67,
-          "retweets": 16,
-          "text": "Autonomous Businesses are here. https://t.co/4pISz57GP9",
-          "url": "https://x.com/amasad/status/2121765647168483589"
-        },
         "id:2122062419010961439": {
           "createdAt": "2026-11-15T20:21:21.000Z",
           "id": "2122062419010961439",
@@ -154,17 +143,6 @@
       "name": "Dan Shipper",
       "source": "x",
       "tweets": {
-        "id:2121652571211510094": {
-          "createdAt": "2026-11-14T17:12:46.000Z",
-          "id": "2121652571211510094",
-          "isQuote": true,
-          "likes": 93,
-          "quotedTweetId": "2121597266024862136",
-          "replies": 8,
-          "retweets": 1,
-          "text": "live look of how Fable wrote an email for me this morning https://t.co/DfgwzjXHeG",
-          "url": "https://x.com/danshipper/status/2121652571211510094"
-        },
         "id:2122091033001337134": {
           "createdAt": "2026-11-15T22:15:03.000Z",
           "id": "2122091033001337134",
@@ -228,28 +206,6 @@
       "name": "Garry Tan",
       "source": "x",
       "tweets": {
-        "id:2121727702025765094": {
-          "createdAt": "2026-11-14T22:11:18.000Z",
-          "id": "2121727702025765094",
-          "isQuote": true,
-          "likes": 167,
-          "quotedTweetId": "2105395957357588561",
-          "replies": 36,
-          "retweets": 14,
-          "text": "It turns out paper chart and copper wire and an antiquated system that is brittle and doesn’t have enough failsafe let alone any modern software is not serving the people of America properly. \n\nModernize the FAA. https://t.co/J4wbogmVSy",
-          "url": "https://x.com/garrytan/status/2121727702025765094"
-        },
-        "id:2121768476775989404": {
-          "createdAt": "2026-11-15T00:53:20.000Z",
-          "id": "2121768476775989404",
-          "isQuote": true,
-          "likes": 455,
-          "quotedTweetId": "2121331227009364340",
-          "replies": 47,
-          "retweets": 11,
-          "text": "Do all this and use it with gbrain :-) https://t.co/WxlVS6Elf9",
-          "url": "https://x.com/garrytan/status/2121768476775989404"
-        },
         "id:2121824006819258485": {
           "createdAt": "2026-11-15T04:33:59.000Z",
           "id": "2121824006819258485",
@@ -354,28 +310,6 @@
       "name": "Josh Woodward",
       "source": "x",
       "tweets": {
-        "id:2121755282326102417": {
-          "createdAt": "2026-11-15T00:00:54.000Z",
-          "id": "2121755282326102417",
-          "isQuote": false,
-          "likes": 462,
-          "quotedTweetId": null,
-          "replies": 42,
-          "retweets": 40,
-          "text": "New in Gemini: Connect Google Wallet for personal finance insights\n\nThis is powerful for things like:\n+ making instant charts to visualize your spend\n+ finding sneaky subscription price hikes\n+ making a holiday budget based on what you actually spent last year https://t.co/wzrBpwYpxm",
-          "url": "https://x.com/joshwoodward/status/2121755282326102417"
-        },
-        "id:2121755283785699376": {
-          "createdAt": "2026-11-15T00:00:54.000Z",
-          "id": "2121755283785699376",
-          "isQuote": false,
-          "likes": 24,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 1,
-          "text": "Available to all Gemini app users in the USA to start\n\nhttps://t.co/LMhEmp58DA",
-          "url": "https://x.com/joshwoodward/status/2121755283785699376"
-        },
         "id:2122453269842886788": {
           "createdAt": "2026-11-16T22:14:27.000Z",
           "id": "2122453269842886788",
@@ -428,17 +362,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2121686564078297461": {
-          "createdAt": "2026-11-14T19:27:50.000Z",
-          "id": "2121686564078297461",
-          "isQuote": false,
-          "likes": 206,
-          "quotedTweetId": null,
-          "replies": 96,
-          "retweets": 18,
-          "text": "AI models are inevitably going to keep getting better and better at all coding, tool and computer use, math, and other coding-related tasks. As a result, agents that can use software to do their work, or generate code from scratch, will improve at a faster rate than all other domains of knowledge work.\n\nOn one hand that could mean that only a small subset of work can get automated. But probably what happens is that more and more work just becomes coding-shaped to adapt to what agents are good at.\n\nYou can see it in the most recent examples of model releases in the past couple of months, where agents can generate code that becomes animated videos, games, 3D models for products, and so on. We also know that tool use gives agents the ability to work with much of the same software that people already work with. This helps in cyber, life sciences, finance, and a number of other domains.\n\nOur mental model traditionally has been that the models have to be able to know everything about anything to generate value, but in reality they *really* have to know how to use or generate software effectively combined with deep domain expertise to make the right judgment calls inside of workflows. \n\nWhen you have that powerful combination, almost everything else gets unlocked. This is why the acceleration of agents in knowledge work is only going to increase from here.",
-          "url": "https://x.com/levie/status/2121686564078297461"
-        },
         "id:2122508098351038532": {
           "createdAt": "2026-11-17T01:52:19.000Z",
           "id": "2122508098351038532",
@@ -573,17 +496,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2121649295950762363": {
-          "createdAt": "2026-11-14T16:59:45.000Z",
-          "id": "2121649295950762363",
-          "isQuote": true,
-          "likes": 440,
-          "quotedTweetId": "2121286290629107967",
-          "replies": 53,
-          "retweets": 18,
-          "text": "Two very useful prompts to try with Fable 5.2:\n\n\"/doctor prompt-audit\": Audits your Claude Code setup (Claude md, skills, commands) and proposes fixes.\n\n\"/claude-api prompt-audit [skill name]\": Audits one skill in depth.\n\nI wish Claude Code auto-suggested running these every time Anthropic releases a new model.\n\n📌 Watch my full tutorial on how I use Fable and Opus here: https://t.co/slyEbWvvqA",
-          "url": "https://x.com/petergyang/status/2121649295950762363"
-        },
         "id:2122039657001300125": {
           "createdAt": "2026-11-15T18:50:54.000Z",
           "id": "2122039657001300125",
@@ -680,28 +592,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2121739228698886454": {
-          "createdAt": "2026-11-14T22:57:06.000Z",
-          "id": "2121739228698886454",
-          "isQuote": true,
-          "likes": 275,
-          "quotedTweetId": "2121738219826131008",
-          "replies": 71,
-          "retweets": 6,
-          "text": "Subagents on https://t.co/3Z4NESzNKd work so well… extremely delightful. Amazing how much goodness fits in 6.33mb 😁\n\nAll my projects are built by planning with the smartest model + delegating to fast model subagents. It's a 1-line instruction in ~/.𝚏𝚡/𝙰𝙶𝙴𝙽𝚃𝚂.𝚖𝚍. https://t.co/27S2By5smT",
-          "url": "https://x.com/rauchg/status/2121739228698886454"
-        },
-        "id:2121804295381377342": {
-          "createdAt": "2026-11-15T03:15:39.000Z",
-          "id": "2121804295381377342",
-          "isQuote": true,
-          "likes": 616,
-          "quotedTweetId": "2121486705819799643",
-          "replies": 74,
-          "retweets": 23,
-          "text": "Got to experience the magic of @uisdk.\n\nTwo prompts of fx + Gemini Argon. Pure Web Components. No framework.\n\nThe agent reused 14 UI SDK behaviors out of the box 🤯: window resizing, drag, menubar hover-switching,  typeahead, roving toolbar focus, 10-band EQ sliders, scoped hotkeys, ARIA, and WebMCP agent control.\n\nhttps://t.co/1Ol3xqKWJz (source linked)\nMusic by @suno.",
-          "url": "https://x.com/rauchg/status/2121804295381377342"
-        },
         "id:2121825273373229134": {
           "createdAt": "2026-11-15T04:39:01.000Z",
           "id": "2121825273373229134",
@@ -858,17 +748,6 @@
       "name": "Peter Steinberger",
       "source": "x",
       "tweets": {
-        "id:2121706904917520875": {
-          "createdAt": "2026-11-14T20:48:40.000Z",
-          "id": "2121706904917520875",
-          "isQuote": true,
-          "likes": 485,
-          "quotedTweetId": "2121646621725495373",
-          "replies": 27,
-          "retweets": 9,
-          "text": "🍿 https://t.co/nKrqXP5ZWD",
-          "url": "https://x.com/steipete/status/2121706904917520875"
-        },
         "id:2122463466304971068": {
           "createdAt": "2026-11-16T22:54:58.000Z",
           "id": "2122463466304971068",
@@ -888,39 +767,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2121738675705029005": {
-          "createdAt": "2026-11-14T22:54:54.000Z",
-          "id": "2121738675705029005",
-          "isQuote": false,
-          "likes": 2,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 0,
-          "text": "there WILL be audience participation https://t.co/GqGaekFHtl",
-          "url": "https://x.com/swyx/status/2121738675705029005"
-        },
-        "id:2121757606801023085": {
-          "createdAt": "2026-11-15T00:10:08.000Z",
-          "id": "2121757606801023085",
-          "isQuote": true,
-          "likes": 225,
-          "quotedTweetId": "2121015724374397183",
-          "replies": 83,
-          "retweets": 6,
-          "text": "obviously correct, we are so suboptimal in AI UX rn it is crazy esp given existence of models too cheap to meter https://t.co/6S0eWejPXK",
-          "url": "https://x.com/swyx/status/2121757606801023085"
-        },
-        "id:2121815348370612414": {
-          "createdAt": "2026-11-15T03:59:35.000Z",
-          "id": "2121815348370612414",
-          "isQuote": true,
-          "likes": 62,
-          "quotedTweetId": "2121673563489140863",
-          "replies": 8,
-          "retweets": 0,
-          "text": "holy shit u guys like a lot of poteto https://t.co/vZn94FofDx https://t.co/39aoCIMcSK",
-          "url": "https://x.com/swyx/status/2121815348370612414"
-        },
         "id:2122031563961684032": {
           "createdAt": "2026-11-15T18:18:44.000Z",
           "id": "2122031563961684032",
@@ -1184,17 +1030,6 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2121654053453357342": {
-          "createdAt": "2026-11-14T17:18:39.000Z",
-          "id": "2121654053453357342",
-          "isQuote": true,
-          "likes": 60,
-          "quotedTweetId": "2121327276805525905",
-          "replies": 3,
-          "retweets": 1,
-          "text": "True https://t.co/9AdjpBTBzF",
-          "url": "https://x.com/zarazhangrui/status/2121654053453357342"
-        },
         "id:2122021053442703852": {
           "createdAt": "2026-11-15T17:36:59.000Z",
           "id": "2122021053442703852",
