@@ -11,6 +11,37 @@
  </author>
  <published>2018-05-14T20:46:11+00:00</published>
  <entry>
+  <id>yt:video:ETHe--0iTic</id>
+  <yt:videoId>ETHe--0iTic</yt:videoId>
+  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
+  <title>What exactly IS Binary?</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/ETHe--0iTic"/>
+  <author>
+   <name>Branch Education</name>
+   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
+  </author>
+  <published>2026-11-19T19:20:19+00:00</published>
+  <updated>2026-11-19T20:57:20+00:00</updated>
+  <media:group>
+   <media:title>What exactly IS Binary?</media:title>
+   <media:content url="https://www.youtube.com/v/ETHe--0iTic?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ETHe--0iTic/hqdefault.jpg" width="480" height="360"/>
+   <media:description>You’ve probably heard that computers run on binary, 1s and 0s. But inside a computer, there aren’t any actual 1s and 0s moving around, so what does binary physically mean?
+
+When we zoom into a CPU, we find billions of transistors connected by a maze of tiny metal wires. Running between them are power and ground rails. The power rail sits at roughly 0.7 to 1.3 volts and represents a 1. The ground rail sits at 0 volts and represents a 0. As transistors switch on and off, each logic gate’s output connects to either the power rail or the ground rail. That’s how voltage becomes the 1s and 0s behind everything your computer does.
+
+Want to see how it all fits together? Watch the full video on how computers work: https://youtu.be/_Pqfjer8-O4
+
+Subscribe for more 3D-animated explainers on how technology works.
+
+#binary #computers #cpu #transistors #engineering #shorts #brancheducation</media:description>
+   <media:community>
+    <media:starRating count="434" average="5.00" min="1" max="5"/>
+    <media:statistics views="7561"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:ZZTC_dXcC2o</id>
   <yt:videoId>ZZTC_dXcC2o</yt:videoId>
   <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
@@ -62,8 +93,8 @@ Attribution: Cyberpunk Hovercar by Lionsharp Studios is licensed under Creative 
  
 #HardDrive #HDD #HowItWorks #Engineering #ComputerHardware</media:description>
    <media:community>
-    <media:starRating count="6762" average="5.00" min="1" max="5"/>
-    <media:statistics views="302695"/>
+    <media:starRating count="6814" average="5.00" min="1" max="5"/>
+    <media:statistics views="306273"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,8 +118,8 @@ Attribution: Cyberpunk Hovercar by Lionsharp Studios is licensed under Creative 
 
 #Microchips #EUV #Engineering #HowItsMade #BranchEducation</media:description>
    <media:community>
-    <media:starRating count="23451" average="5.00" min="1" max="5"/>
-    <media:statistics views="766806"/>
+    <media:starRating count="23461" average="5.00" min="1" max="5"/>
+    <media:statistics views="767585"/>
    </media:community>
   </media:group>
  </entry>
@@ -116,8 +147,8 @@ This is how modern chip manufacturing achieves extraordinary speed and accuracy.
 
 #GPU #Semiconductor #ChipManufacturing #Engineering #Technology #Microchips #BranchEducation</media:description>
    <media:community>
-    <media:starRating count="7081" average="5.00" min="1" max="5"/>
-    <media:statistics views="328975"/>
+    <media:starRating count="7095" average="5.00" min="1" max="5"/>
+    <media:statistics views="329707"/>
    </media:community>
   </media:group>
  </entry>
@@ -188,8 +219,8 @@ Klaus Finkenzeller — RFID Handbook, 3rd ed. (Wiley)
 
 #Taptopay #WirelessPayments #Contactless Payment</media:description>
    <media:community>
-    <media:starRating count="25808" average="5.00" min="1" max="5"/>
-    <media:statistics views="770616"/>
+    <media:starRating count="25820" average="5.00" min="1" max="5"/>
+    <media:statistics views="771306"/>
    </media:community>
   </media:group>
  </entry>
@@ -255,8 +286,8 @@ We used a CT Scan by Lumafield for reference in modeling the microSD Card
 
 #microSD #IEEE #Storage</media:description>
    <media:community>
-    <media:starRating count="30371" average="5.00" min="1" max="5"/>
-    <media:statistics views="1565953"/>
+    <media:starRating count="30389" average="5.00" min="1" max="5"/>
+    <media:statistics views="1568313"/>
    </media:community>
   </media:group>
  </entry>
@@ -288,8 +319,8 @@ Watch the full video on EUV Photolithography:  https://youtu.be/B2482h_TNwg
 
 #Shorts #GPU #Nvidia #EUV #Photolithography #Microchip #Semiconductor #ChipManufacturing #SiliconWafer #Nanotechnology #TechExplained #Engineering #ASML #ComputerHardware #ScienceShorts</media:description>
    <media:community>
-    <media:starRating count="36785" average="5.00" min="1" max="5"/>
-    <media:statistics views="1015914"/>
+    <media:starRating count="36874" average="5.00" min="1" max="5"/>
+    <media:statistics views="1021532"/>
    </media:community>
   </media:group>
  </entry>
@@ -317,8 +348,8 @@ https://youtu.be/16zrEPOsIcI
 
 #Shorts #AppleII #AppleComputer #RetroTech #VintageComputers #ComputerHistory #RetroComputing #ClassicTech #TechHistory #HowComputersWork</media:description>
    <media:community>
-    <media:starRating count="1810" average="5.00" min="1" max="5"/>
-    <media:statistics views="61284"/>
+    <media:starRating count="1813" average="5.00" min="1" max="5"/>
+    <media:statistics views="61331"/>
    </media:community>
   </media:group>
  </entry>
@@ -344,8 +375,8 @@ Watch the full video to see how it all fits together. 🔬https://youtu.be/_Pqfj
 
 #semiconductors #chips #engineering #howitworks #technology #smartphone #transistors #computerscience</media:description>
    <media:community>
-    <media:starRating count="17449" average="5.00" min="1" max="5"/>
-    <media:statistics views="512368"/>
+    <media:starRating count="17523" average="5.00" min="1" max="5"/>
+    <media:statistics views="516019"/>
    </media:community>
   </media:group>
  </entry>
@@ -375,8 +406,8 @@ This is why modern chip manufacturing is one of the most expensive industries on
 
 #Shorts #EUV #Photolithography #Microchip #Semiconductor #ChipManufacturing #ASML #Nanotechnology #Engineering #TechExplained #ScienceShorts #FutureTech #CPU #GPU #SiliconWafer</media:description>
    <media:community>
-    <media:starRating count="5124" average="5.00" min="1" max="5"/>
-    <media:statistics views="140708"/>
+    <media:starRating count="5134" average="5.00" min="1" max="5"/>
+    <media:statistics views="141085"/>
    </media:community>
   </media:group>
  </entry>
@@ -403,8 +434,8 @@ https://youtu.be/16zrEPOsIcI
 
 #cpu #computer #computerscience</media:description>
    <media:community>
-    <media:starRating count="6111" average="5.00" min="1" max="5"/>
-    <media:statistics views="138974"/>
+    <media:starRating count="6119" average="5.00" min="1" max="5"/>
+    <media:statistics views="139367"/>
    </media:community>
   </media:group>
  </entry>
@@ -489,8 +520,8 @@ See the DRAM, SSD, and HDD videos for all the references in there.
  
 #DRAM #SSD #Micron</media:description>
    <media:community>
-    <media:starRating count="21509" average="5.00" min="1" max="5"/>
-    <media:statistics views="529568"/>
+    <media:starRating count="21514" average="5.00" min="1" max="5"/>
+    <media:statistics views="529935"/>
    </media:community>
   </media:group>
  </entry>
@@ -593,8 +624,8 @@ United States v. International Business Machines Corp.
 
 #Computers #HistoryofComputers #HowItWorks</media:description>
    <media:community>
-    <media:starRating count="38779" average="5.00" min="1" max="5"/>
-    <media:statistics views="913316"/>
+    <media:starRating count="38785" average="5.00" min="1" max="5"/>
+    <media:statistics views="913778"/>
    </media:community>
   </media:group>
  </entry>
@@ -620,8 +651,8 @@ We’ll take a close-up look at its internal circuitry, show how transistors are
 
 Watch the full video on how Logic Gates Actually Work!  - https://youtu.be/_Pqfjer8-O4</media:description>
    <media:community>
-    <media:starRating count="6144" average="5.00" min="1" max="5"/>
-    <media:statistics views="151417"/>
+    <media:starRating count="6153" average="5.00" min="1" max="5"/>
+    <media:statistics views="151691"/>
    </media:community>
   </media:group>
  </entry>
@@ -649,33 +680,8 @@ Whether wired or wireless, the mouse communicates with your computer in millisec
 
 Watch the Full Video - https://www.youtube.com/watch?v=SAaESb4wTCM&amp;t=24s</media:description>
    <media:community>
-    <media:starRating count="4898" average="5.00" min="1" max="5"/>
-    <media:statistics views="151665"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:VwY3YoJnkCQ</id>
-  <yt:videoId>VwY3YoJnkCQ</yt:videoId>
-  <yt:channelId>UCdp4_l1vPmpN-gDbUwhaRUQ</yt:channelId>
-  <title>How do Scroll Wheels Work? #mouse #howitworks</title>
-  <link rel="alternate" href="https://www.youtube.com/shorts/VwY3YoJnkCQ"/>
-  <author>
-   <name>Branch Education</name>
-   <uri>https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ</uri>
-  </author>
-  <published>2025-12-30T20:01:59+00:00</published>
-  <updated>2026-10-03T04:16:35+00:00</updated>
-  <media:group>
-   <media:title>How do Scroll Wheels Work? #mouse #howitworks</media:title>
-   <media:content url="https://www.youtube.com/v/VwY3YoJnkCQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/VwY3YoJnkCQ/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Ever wondered how the scroll wheel on your computer mouse actually works? 🖱️ Using 3D animation, this short dives inside the mouse to show how the scroll wheel detects movement, translates rotation into signals, and lets you smoothly scroll through pages—revealing the tiny mechanical and electronic parts that make it all feel effortless.
-
-Watch the full video -  https://youtu.be/-HVKm5fIUA8</media:description>
-   <media:community>
-    <media:starRating count="9401" average="5.00" min="1" max="5"/>
-    <media:statistics views="295100"/>
+    <media:starRating count="4899" average="5.00" min="1" max="5"/>
+    <media:statistics views="151720"/>
    </media:community>
   </media:group>
  </entry>

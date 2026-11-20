@@ -11,6 +11,67 @@
  </author>
  <published>2017-08-22T22:27:58+00:00</published>
  <entry>
+  <id>yt:video:8cPAg4KEtNM</id>
+  <yt:videoId>8cPAg4KEtNM</yt:videoId>
+  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
+  <title>Andrew Ng on adding voice to his daughter’s math quiz #deeplearningai #aiagents</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/8cPAg4KEtNM"/>
+  <author>
+   <name>DeepLearningAI</name>
+   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
+  </author>
+  <published>2026-11-19T20:00:20+00:00</published>
+  <updated>2026-11-19T23:17:16+00:00</updated>
+  <media:group>
+   <media:title>Andrew Ng on adding voice to his daughter’s math quiz #deeplearningai #aiagents</media:title>
+   <media:content url="https://www.youtube.com/v/8cPAg4KEtNM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8cPAg4KEtNM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>How do you want people to feel when they use your app? A friendly spoken question and the chance to answer aloud can make a familiar activity feel more personal. Think about where that kind of exchange could fit in your own project.
+Explore it in Voice for AI Agents and Applications, our course with ​ ⁨@VocalBridgeAI ,  taught by Ashwyn Sharma. You’ll build a tic-tac-toe game that responds to speech and mouse clicks.
+Enroll now: https://www.deeplearning.ai/courses/voice-for-ai-agents-and-applications
+#VoiceAI #BuildWithAI</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="188"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:H2tmNDX9FnQ</id>
+  <yt:videoId>H2tmNDX9FnQ</yt:videoId>
+  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
+  <title>Full Course: AI Coding Workflows From Cloud to Local</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=H2tmNDX9FnQ"/>
+  <author>
+   <name>DeepLearningAI</name>
+   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
+  </author>
+  <published>2026-11-19T18:02:34+00:00</published>
+  <updated>2026-11-19T18:10:49+00:00</updated>
+  <media:group>
+   <media:title>Full Course: AI Coding Workflows From Cloud to Local</media:title>
+   <media:content url="https://www.youtube.com/v/H2tmNDX9FnQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/H2tmNDX9FnQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Coding agents like Claude Code are convenient, but they limit your control over which models you use, what you spend, and where your code goes. This course gives you that control back one layer at a time, rebuilding the same Python app in cloud, hybrid, and fully local setups.
+
+Take the quiz and earn your accomplishment here: https://bit.ly/3Uz1pmF
+
+You'll learn to:
+- Evaluate AI coding setups: the agent, the models, and where those models run
+- Split work across subagents and hand implementation to cheaper models
+- Rebuild your app in OpenCode with cloud models through OpenRouter
+- Run local models with LM Studio, first as the implementer, then as the main agent
+
+AI Coding Workflows: From Cloud to Local is built in partnership with JetBrains and taught by Paul Everitt, Developer Advocate at JetBrains.
+
+Recommended: experience with an AI coding agent like Claude Code or Codex, and comfort with Python and the terminal. The local-model lessons work best on a capable machine.</media:description>
+   <media:community>
+    <media:starRating count="45" average="5.00" min="1" max="5"/>
+    <media:statistics views="3366"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:yvFC-X0pAZY</id>
   <yt:videoId>yvFC-X0pAZY</yt:videoId>
   <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
@@ -21,7 +82,7 @@
    <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
   </author>
   <published>2026-11-18T14:16:16+00:00</published>
-  <updated>2026-11-19T05:41:56+00:00</updated>
+  <updated>2026-11-20T00:38:29+00:00</updated>
   <media:group>
    <media:title>Why agents repeat their mistakes #deeplearningai #aiagents #oracle</media:title>
    <media:content url="https://www.youtube.com/v/yvFC-X0pAZY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -36,7 +97,7 @@ Join here: https://www.deeplearning.ai/courses/building-adaptive-ai-agents
 #AI #AIAgents #Oracle #DeepLearningAI</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="1257"/>
+    <media:statistics views="1375"/>
    </media:community>
   </media:group>
  </entry>
@@ -65,7 +126,7 @@ Enroll through the course link on our channel profile.
 #VoiceAI #AIAgents</media:description>
    <media:community>
     <media:starRating count="107" average="5.00" min="1" max="5"/>
-    <media:statistics views="5357"/>
+    <media:statistics views="5419"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +159,7 @@ Tabular foundation models use in-context learning to make predictions on new dat
 Enroll for free: https://bit.ly/4j2WLq8</media:description>
    <media:community>
     <media:starRating count="34" average="5.00" min="1" max="5"/>
-    <media:statistics views="6106"/>
+    <media:statistics views="6236"/>
    </media:community>
   </media:group>
  </entry>
@@ -125,8 +186,8 @@ Learn three ways to add voice to apps and agents with Ashwyn Sharma in Voice for
 Enroll through the course link:
 https://www.deeplearning.ai/courses/voice-for-ai-agents-and-applications?utm_source=yt&amp;utm_medium=organic&amp;utm_campaign=dlai</media:description>
    <media:community>
-    <media:starRating count="133" average="5.00" min="1" max="5"/>
-    <media:statistics views="7100"/>
+    <media:starRating count="134" average="5.00" min="1" max="5"/>
+    <media:statistics views="7121"/>
    </media:community>
   </media:group>
  </entry>
@@ -161,7 +222,7 @@ Use your evals to check that every change makes your agent better.
 Enroll for free: https://bit.ly/4ikf9L0</media:description>
    <media:community>
     <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="6319"/>
+    <media:statistics views="6346"/>
    </media:community>
   </media:group>
  </entry>
@@ -194,7 +255,7 @@ Andrew opens the AI Engineering Skills Map, then sits down with Yann LeCun for a
 Explore the program and get tickets</media:description>
    <media:community>
     <media:starRating count="37" average="5.00" min="1" max="5"/>
-    <media:statistics views="27262"/>
+    <media:statistics views="27320"/>
    </media:community>
   </media:group>
  </entry>
@@ -229,7 +290,7 @@ In this course, you'll learn how to:
 Enroll Now: https://bit.ly/4BuaMVb</media:description>
    <media:community>
     <media:starRating count="72" average="5.00" min="1" max="5"/>
-    <media:statistics views="7585"/>
+    <media:statistics views="7590"/>
    </media:community>
   </media:group>
  </entry>
@@ -270,7 +331,7 @@ AI Code Review, built in collaboration with Qodo and taught by Nnenna Ndukwe, wa
 #DeepLearningAI #CodeReview #AIEngineering</media:description>
    <media:community>
     <media:starRating count="44" average="5.00" min="1" max="5"/>
-    <media:statistics views="2633"/>
+    <media:statistics views="2644"/>
    </media:community>
   </media:group>
  </entry>
@@ -299,7 +360,7 @@ Plus speakers from Vocal Bridge, NYC Tech Talent Pipeline, Unblocked, Qdrant, An
 Explore the program and get tickets: https://ai-dev.deeplearning.ai/</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="1994"/>
+    <media:statistics views="2000"/>
    </media:community>
   </media:group>
  </entry>
@@ -333,7 +394,7 @@ In this course, you'll learn:
 Enroll for free: https://bit.ly/4yy5iWP</media:description>
    <media:community>
     <media:starRating count="68" average="5.00" min="1" max="5"/>
-    <media:statistics views="9325"/>
+    <media:statistics views="9338"/>
    </media:community>
   </media:group>
  </entry>
@@ -364,7 +425,7 @@ We analyzed more than 10,000 job roles and interviewed dozens of leading AI engi
 See how our program could work for your team: https://deeplearning.ai/business</media:description>
    <media:community>
     <media:starRating count="40" average="5.00" min="1" max="5"/>
-    <media:statistics views="6990"/>
+    <media:statistics views="6993"/>
    </media:community>
   </media:group>
  </entry>
@@ -389,7 +450,7 @@ See how our program could work for your team: https://deeplearning.ai/business</
 Enroll for free: https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory</media:description>
    <media:community>
     <media:starRating count="39" average="5.00" min="1" max="5"/>
-    <media:statistics views="3218"/>
+    <media:statistics views="3219"/>
    </media:community>
   </media:group>
  </entry>
@@ -421,80 +482,7 @@ You'll learn foundational data engineering skills while implementing modern data
 Enroll Now: https://bit.ly/3ViOXHF</media:description>
    <media:community>
     <media:starRating count="171" average="5.00" min="1" max="5"/>
-    <media:statistics views="19365"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:uRGHx-1CqBQ</id>
-  <yt:videoId>uRGHx-1CqBQ</yt:videoId>
-  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
-  <title>Building AI Assistants with On-Device Memory</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=uRGHx-1CqBQ"/>
-  <author>
-   <name>DeepLearningAI</name>
-   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
-  </author>
-  <published>2026-09-23T13:30:05+00:00</published>
-  <updated>2026-10-09T09:45:39+00:00</updated>
-  <media:group>
-   <media:title>Building AI Assistants with On-Device Memory</media:title>
-   <media:content url="https://www.youtube.com/v/uRGHx-1CqBQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/uRGHx-1CqBQ/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Learn More: https://bit.ly/4AlVW2n
-
-A cloud-based assistant can remember what it sees, hears, and is told, but only by staying connected and sending that data to a remote server.
-
-In our new short course, Building AI Assistants with On-Device Memory, built in partnership with Qdrant and taught by Dylan Couzon, Developer Experience Engineer at Qdrant, you'll learn to store and search an assistant's memories locally, so nothing has to leave the device.
-
-In this course, you'll learn how to:
-
-- Build a local memory system that stores, retrieves, filters, and forgets text and image memories.
-- Build an offline assistant that recalls experiences across text, voice, and images.
-- Teach an AI application to recognize new objects from stored examples without retraining a model.
-- Run the on-device AI assistant on a local machine, including Mac, Windows, and Linux.
-
-This course also includes our new AI coding lab, so you can practice building with an AI coding agent from the DeepLearning.AI mobile app.
-
-Enroll Now:https://bit.ly/4AlVW2n</media:description>
-   <media:community>
-    <media:starRating count="81" average="5.00" min="1" max="5"/>
-    <media:statistics views="12715"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:hy8UstR2NEg</id>
-  <yt:videoId>hy8UstR2NEg</yt:videoId>
-  <yt:channelId>UCcIXc5mJsHVYTZR1maL5l9w</yt:channelId>
-  <title>Full Course: Spec-Driven Development with Coding Agents</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=hy8UstR2NEg"/>
-  <author>
-   <name>DeepLearningAI</name>
-   <uri>https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w</uri>
-  </author>
-  <published>2026-09-22T19:32:17+00:00</published>
-  <updated>2026-10-03T09:06:50+00:00</updated>
-  <media:group>
-   <media:title>Full Course: Spec-Driven Development with Coding Agents</media:title>
-   <media:content url="https://www.youtube.com/v/hy8UstR2NEg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i1.ytimg.com/vi/hy8UstR2NEg/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Vibe coding is fast, but it often produces code that doesn't match what you asked for. Spec-driven development is the disciplined alternative: write a clear markdown spec defining what to build, and let your coding agent implement it.
-
-Earn your certificate here: https://bit.ly/4hmJc2K
-
-You'll learn to:
-- Write a project constitution defining mission, tech stack, and roadmap
-- Plan, implement, and validate features using a spec as the agent's guide
-- Introduce SDD to a legacy codebase
-- Package your workflow into an agent skill that's portable across agents and IDEs
-
-Spec-Driven Development with Coding Agents is built in partnership with JetBrains and taught by Paul Everitt, Developer Advocate at JetBrains.
-
-Recommended: basic familiarity with a programming language and experience with LLM-based coding tools.</media:description>
-   <media:community>
-    <media:starRating count="4820" average="5.00" min="1" max="5"/>
-    <media:statistics views="424195"/>
+    <media:statistics views="19374"/>
    </media:community>
   </media:group>
  </entry>

@@ -69,17 +69,6 @@
       "name": "Amjad Masad",
       "source": "x",
       "tweets": {
-        "id:2122062419010961439": {
-          "createdAt": "2026-11-15T20:21:21.000Z",
-          "id": "2122062419010961439",
-          "isQuote": true,
-          "likes": 336,
-          "quotedTweetId": "2122008431611588833",
-          "replies": 12,
-          "retweets": 18,
-          "text": "Good summary. https://t.co/KThCywHmZt",
-          "url": "https://x.com/amasad/status/2122062419010961439"
-        },
         "id:2122185760799609017": {
           "createdAt": "2026-11-16T04:31:28.000Z",
           "id": "2122185760799609017",
@@ -165,17 +154,6 @@
       "name": "Dan Shipper",
       "source": "x",
       "tweets": {
-        "id:2122091033001337134": {
-          "createdAt": "2026-11-15T22:15:03.000Z",
-          "id": "2122091033001337134",
-          "isQuote": false,
-          "likes": 143,
-          "quotedTweetId": null,
-          "replies": 30,
-          "retweets": 4,
-          "text": "we've been working hard on compounding skills lately (skills that get better every time you use them) \n\nand i think @hammer_mt finally cracked it\n\nthis weekend i made a skill to help us write context window summaries, and used autoresearch to iterate until it hit 80% of my taste on summaries vs. a no-skill baseline\n\nfull writeup for your agnets on the @every frontier feed: https://t.co/2MT0NTucoK",
-          "url": "https://x.com/danshipper/status/2122091033001337134"
-        },
         "id:2122541401804054826": {
           "createdAt": "2026-11-17T04:04:39.000Z",
           "id": "2122541401804054826",
@@ -521,17 +499,6 @@
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2122042319419609105": {
-          "createdAt": "2026-11-15T19:01:29.000Z",
-          "id": "2122042319419609105",
-          "isQuote": false,
-          "likes": 58,
-          "quotedTweetId": null,
-          "replies": 4,
-          "retweets": 1,
-          "text": "Next guest up in this weekly series is @kanavg1, cofounder of @coreauto on Friday, Nov 20th at noon. \n\nFor this session, we'll be chatting about all things RL (methods, synthetic data, loops, automation etc)\n\nFormat:\n> 60 minute sessions (IRL only) in SF\n> For the first 45 mins, I get to ask the guest spicy questions about their expertise\n> For the last 15 mins, they get to ask me anything they want to learn about venture\n> All off the record, chatham house rules\n> Open to 15 guests who listen in and can ask some of their own questions\n\nRegister here if you want to join, and subscribe to the Luma for future guests: https://t.co/gOHqA2XtZB",
-          "url": "https://x.com/nikunj/status/2122042319419609105"
-        },
         "id:2122412013251162592": {
           "createdAt": "2026-11-16T19:30:31.000Z",
           "id": "2122412013251162592",
@@ -617,39 +584,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2122039657001300125": {
-          "createdAt": "2026-11-15T18:50:54.000Z",
-          "id": "2122039657001300125",
-          "isQuote": false,
-          "likes": 109,
-          "quotedTweetId": null,
-          "replies": 14,
-          "retweets": 2,
-          "text": "Alright I can't help it:\n\nNYTimes published this article that \"US intelligence had believed\" Alice Huang was a spy: https://t.co/DQSjGBRsaE\n\nBut there's still no proof one way or another whether she was a spy or not, per CNN: https://t.co/c5lwbDl2R5\n\nSo where did this spy narrative come from? Show us the evidence?",
-          "url": "https://x.com/petergyang/status/2122039657001300125"
-        },
-        "id:2122060856498524510": {
-          "createdAt": "2026-11-15T20:15:08.000Z",
-          "id": "2122060856498524510",
-          "isQuote": true,
-          "likes": 42,
-          "quotedTweetId": "2121985397551239366",
-          "replies": 10,
-          "retweets": 0,
-          "text": "\"Do you find being a designer more fun now that you can easily prototype everything?\"\n\nThat's the question I asked @nateparrott (Anthropic). His answer:\n\n\"I'm a little weird in that I have an engineering background. Before Anthropic, I worked at The Browser Company, where we made a browser called Arc.\n\nWe spent a year in pre-production before we released Arc. It took us a couple weeks to build out each idea and see which worked.\n\nNow at Anthropic, you can kind of do that in one to two days.\n\nSo you've really compressed the cycle of building. What you haven't compressed is the cycle of putting it in people's hands and understanding if they're going to use it.\"\n\n📌 Watch our full episode here: https://t.co/HPX5HjXafX",
-          "url": "https://x.com/petergyang/status/2122060856498524510"
-        },
-        "id:2122132596352327816": {
-          "createdAt": "2026-11-16T01:00:12.000Z",
-          "id": "2122132596352327816",
-          "isQuote": true,
-          "likes": 51,
-          "quotedTweetId": "2121985397551239366",
-          "replies": 24,
-          "retweets": 1,
-          "text": "\"When you ask Claude to create something, it's operating in a fresh context where it thinks: Oh my God, the user asked me to make an app. I'm going to invent the most brilliant visual style.\"\n\nFrom @nateparrott at Anthropic on how to get Claude to avoid the same designs:\n\n\"It's going to be serif text, an off-white background, orange, and these bars on the edges of the cards. Because in Claude's mind, it's only ever done this once, so it thinks this is totally original.\n\nSo in our Claude Design prompt, we tell Claude, 'For this particular model, you tend to overly bias toward these two fonts and colors. So don't use them unless the user asks you to.' That tends to help a lot.\"\n\n📌 Watch our full episode here: https://t.co/HPX5HjXafX",
-          "url": "https://x.com/petergyang/status/2122132596352327816"
-        },
         "id:2122347721298510021": {
           "createdAt": "2026-11-16T15:15:02.000Z",
           "id": "2122347721298510021",
@@ -746,17 +680,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2122127120055034258": {
-          "createdAt": "2026-11-16T00:38:27.000Z",
-          "id": "2122127120055034258",
-          "isQuote": false,
-          "likes": 459,
-          "quotedTweetId": null,
-          "replies": 110,
-          "retweets": 8,
-          "text": "AI models are getting really good at naming things. I created a little CLI to diagnose system slowdowns, and it named it 𝚑𝚘𝚐 🐖, which I love. Given they're already good at cache invalidation, maybe computer science's hardest problems are solved after all 😂",
-          "url": "https://x.com/rauchg/status/2122127120055034258"
-        },
         "id:2122184794209714368": {
           "createdAt": "2026-11-16T04:27:37.000Z",
           "id": "2122184794209714368",
@@ -954,39 +877,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2122031563961684032": {
-          "createdAt": "2026-11-15T18:18:44.000Z",
-          "id": "2122031563961684032",
-          "isQuote": false,
-          "likes": 8,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 1,
-          "text": "clanker wrote up a short recap of the talk\nhttps://t.co/1tWf4s9R60",
-          "url": "https://x.com/swyx/status/2122031563961684032"
-        },
-        "id:2122032217430032548": {
-          "createdAt": "2026-11-15T18:21:20.000Z",
-          "id": "2122032217430032548",
-          "isQuote": false,
-          "likes": 0,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 0,
-          "text": "clanker wrote up the talk https://t.co/hxZj0VaJV4",
-          "url": "https://x.com/swyx/status/2122032217430032548"
-        },
-        "id:2122066060769952161": {
-          "createdAt": "2026-11-15T20:35:49.000Z",
-          "id": "2122066060769952161",
-          "isQuote": true,
-          "likes": 4,
-          "quotedTweetId": "2121764764737290472",
-          "replies": 2,
-          "retweets": 0,
-          "text": "apparently it is pretty normal\n\nhttps://t.co/br8TZ6oKOM",
-          "url": "https://x.com/swyx/status/2122066060769952161"
-        },
         "id:2122427240441131203": {
           "createdAt": "2026-11-16T20:31:01.000Z",
           "id": "2122427240441131203",
@@ -1094,28 +984,6 @@
       "name": "Nan Yu",
       "source": "x",
       "tweets": {
-        "id:2122096121946468451": {
-          "createdAt": "2026-11-15T22:35:16.000Z",
-          "id": "2122096121946468451",
-          "isQuote": false,
-          "likes": 57,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 2,
-          "text": "It’s cute that my Waymo turns on its windshield wipers in the rain",
-          "url": "https://x.com/thenanyu/status/2122096121946468451"
-        },
-        "id:2122096965865664924": {
-          "createdAt": "2026-11-15T22:38:37.000Z",
-          "id": "2122096965865664924",
-          "isQuote": true,
-          "likes": 18,
-          "quotedTweetId": "2122092065890635873",
-          "replies": 10,
-          "retweets": 0,
-          "text": "What’s the best home automation hub out there if I just wanna use Codex to control everything?\n\nIdeally, something plug-and-play that my Codex just sees as another computer, more or less https://t.co/VEvCTzc1zi",
-          "url": "https://x.com/thenanyu/status/2122096965865664924"
-        },
         "id:2122371754731708883": {
           "createdAt": "2026-11-16T16:50:32.000Z",
           "id": "2122371754731708883",
@@ -1231,17 +1099,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2122154124024381828": {
-          "createdAt": "2026-11-16T02:25:45.000Z",
-          "id": "2122154124024381828",
-          "isQuote": true,
-          "likes": 956,
-          "quotedTweetId": "2105333496768319969",
-          "replies": 54,
-          "retweets": 11,
-          "text": "a new arena and two new characters https://t.co/e8nHEldjoD https://t.co/hLIVplRPrW",
-          "url": "https://x.com/trq212/status/2122154124024381828"
-        },
         "id:2122438326431154210": {
           "createdAt": "2026-11-16T21:15:04.000Z",
           "id": "2122438326431154210",
@@ -1294,28 +1151,6 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2122021053442703852": {
-          "createdAt": "2026-11-15T17:36:59.000Z",
-          "id": "2122021053442703852",
-          "isQuote": true,
-          "likes": 21,
-          "quotedTweetId": "2121943801900020222",
-          "replies": 2,
-          "retweets": 0,
-          "text": "I love this store so much 😭 https://t.co/SNteDhX5uA",
-          "url": "https://x.com/zarazhangrui/status/2122021053442703852"
-        },
-        "id:2122021380745290202": {
-          "createdAt": "2026-11-15T17:38:17.000Z",
-          "id": "2122021380745290202",
-          "isQuote": true,
-          "likes": 122,
-          "quotedTweetId": "2121959406791270715",
-          "replies": 33,
-          "retweets": 3,
-          "text": "Being good at LinkedIn probably makes you bad at X https://t.co/dFYRSQLn9V",
-          "url": "https://x.com/zarazhangrui/status/2122021380745290202"
-        },
         "id:2122743151127667145": {
           "createdAt": "2026-11-17T17:26:20.000Z",
           "id": "2122743151127667145",
