@@ -60,6 +60,39 @@
           "retweets": 0,
           "text": "This completely tracks with our data as well.\n\nI have always thought it was copium when early stage VCs complained that they could not do “AI”.\n\nYou just have to take more risk and be non-consensus. And work on frontier problems. https://t.co/Skc0x1ZRBh",
           "url": "https://x.com/adityaag/status/2123293726110020052"
+        },
+        "id:2123479646629183631": {
+          "createdAt": "2026-11-19T18:12:54.000Z",
+          "id": "2123479646629183631",
+          "isQuote": true,
+          "likes": 18,
+          "quotedTweetId": "2123445947443364102",
+          "replies": 1,
+          "retweets": 3,
+          "text": "Agents are moving from single tasks to whole jobs, and the data has to follow. RoleCUA from Fig maps expert roles across months of real work, with every action tied to the task and objective it serves. https://t.co/yVnPhJBOzn",
+          "url": "https://x.com/adityaag/status/2123479646629183631"
+        },
+        "id:2123494873919783073": {
+          "createdAt": "2026-11-19T19:13:25.000Z",
+          "id": "2123494873919783073",
+          "isQuote": false,
+          "likes": 95,
+          "quotedTweetId": null,
+          "replies": 7,
+          "retweets": 5,
+          "text": "Congratulations to the folks at Anthropic.\n\nSPC's goal isn't just to get people to start companies. \n\nToday is a good day to explain why.\n\nTwo of the people who helped build Anthropic spent significant time at @spc.\n\n@nottombrown showed up at SPC in 2016 with no ML background. He spent his days working through papers with other members, then co-founded Anthropic.\n\n@trq212 joined SPC having just wound down his gaming company. He was working on interpretability when a fellow member asked if he'd tried Claude Code. Soon he was helping build a tool most of us use every day. \n\nIf you put ambitious people next to each other, it leads to extraordinary things.\n\nSometimes the impact comes years later.\n\nI'm so happy for Tom, for Thariq, and for all of my friends at @AnthropicAI.",
+          "url": "https://x.com/adityaag/status/2123494873919783073"
+        },
+        "id:2123579739868959110": {
+          "createdAt": "2026-11-20T00:50:38.000Z",
+          "id": "2123579739868959110",
+          "isQuote": false,
+          "likes": 48,
+          "quotedTweetId": null,
+          "replies": 4,
+          "retweets": 1,
+          "text": "I am just immensely proud of our industry today.\n\nThis is not a zero-sum day.\n\nAll of us in \"computers\" / silicon valley / venture capital should be proud. \n\nWe are all helping to accelerate progress for humanity. \n\nWhat a time to be alive.",
+          "url": "https://x.com/adityaag/status/2123579739868959110"
         }
       }
     },
@@ -69,17 +102,6 @@
       "name": "Amjad Masad",
       "source": "x",
       "tweets": {
-        "id:2122185760799609017": {
-          "createdAt": "2026-11-16T04:31:28.000Z",
-          "id": "2122185760799609017",
-          "isQuote": true,
-          "likes": 491,
-          "quotedTweetId": "2122156768629301483",
-          "replies": 30,
-          "retweets": 21,
-          "text": "It’s been an interesting 48 hours. https://t.co/t4IOusuJn0",
-          "url": "https://x.com/amasad/status/2122185760799609017"
-        },
         "id:2122422367557464548": {
           "createdAt": "2026-11-16T20:11:39.000Z",
           "id": "2122422367557464548",
@@ -145,6 +167,80 @@
           "retweets": 6,
           "text": "One of the more fascinating things in the OpenAI/Hugging Face incident was reading the message boards where agents communicate.\n\nWith Replit Missions you can see how the agents are coordinating and talking. https://t.co/5imCE6zYAQ",
           "url": "https://x.com/amasad/status/2123133509028008331"
+        },
+        "id:2123433375830561130": {
+          "createdAt": "2026-11-19T15:09:02.000Z",
+          "id": "2123433375830561130",
+          "isQuote": true,
+          "likes": 57,
+          "quotedTweetId": "2123423598698471922",
+          "replies": 9,
+          "retweets": 2,
+          "text": "Sick! https://t.co/eLdvynPjsp",
+          "url": "https://x.com/amasad/status/2123433375830561130"
+        },
+        "id:2123535362568134894": {
+          "createdAt": "2026-11-19T21:54:18.000Z",
+          "id": "2123535362568134894",
+          "isQuote": true,
+          "likes": 75,
+          "quotedTweetId": "2123450721375076625",
+          "replies": 35,
+          "retweets": 4,
+          "text": "Having a contract with your agent is a paradigm I expect many will copy from us https://t.co/ye6WQLu6Xq",
+          "url": "https://x.com/amasad/status/2123535362568134894"
+        },
+        "id:2123535544718418191": {
+          "createdAt": "2026-11-19T21:55:01.000Z",
+          "id": "2123535544718418191",
+          "isQuote": true,
+          "likes": 393,
+          "quotedTweetId": "2123525657451954420",
+          "replies": 37,
+          "retweets": 24,
+          "text": "Build your own Muse-like personal agent with one prompt. https://t.co/24iScdeQvb",
+          "url": "https://x.com/amasad/status/2123535544718418191"
+        }
+      }
+    },
+    "claudeai": {
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "handle": "claudeai",
+      "name": "Claude",
+      "source": "x",
+      "tweets": {
+        "id:2123431923678601304": {
+          "createdAt": "2026-11-19T15:03:16.000Z",
+          "id": "2123431923678601304",
+          "isQuote": true,
+          "likes": 54,
+          "quotedTweetId": "2038026304226726058",
+          "replies": 1,
+          "retweets": 2,
+          "text": "https://t.co/3O68guMC3u",
+          "url": "https://x.com/claudeai/status/2123431923678601304"
+        },
+        "id:2123431925918433403": {
+          "createdAt": "2026-11-19T15:03:17.000Z",
+          "id": "2123431925918433403",
+          "isQuote": true,
+          "likes": 108,
+          "quotedTweetId": "2069129613427831169",
+          "replies": 2,
+          "retweets": 2,
+          "text": "https://t.co/7YnqMnFefK",
+          "url": "https://x.com/claudeai/status/2123431925918433403"
+        },
+        "id:2123431928414273582": {
+          "createdAt": "2026-11-19T15:03:17.000Z",
+          "id": "2123431928414273582",
+          "isQuote": true,
+          "likes": 141,
+          "quotedTweetId": "2100648966866231592",
+          "replies": 0,
+          "retweets": 5,
+          "text": "https://t.co/Lvg7iH5c8n",
+          "url": "https://x.com/claudeai/status/2123431928414273582"
         }
       }
     },
@@ -230,6 +326,17 @@
           "retweets": 1,
           "text": "Legggoooo https://t.co/plMcv2r3X0",
           "url": "https://x.com/danshipper/status/2123196924421661149"
+        },
+        "id:2123435061236404385": {
+          "createdAt": "2026-11-19T15:15:44.000Z",
+          "id": "2123435061236404385",
+          "isQuote": false,
+          "likes": 65,
+          "quotedTweetId": null,
+          "replies": 14,
+          "retweets": 5,
+          "text": "who is working on helping stop the infrastructure attacks happening right now, and how can people in AI help?",
+          "url": "https://x.com/danshipper/status/2123435061236404385"
         }
       }
     },
@@ -304,6 +411,17 @@
           "retweets": 21,
           "text": "If you’re a shareholder, employee or former employee your voice is needed here https://t.co/w6gz1FYpKZ",
           "url": "https://x.com/garrytan/status/2122913046603649325"
+        },
+        "id:2123496208316694669": {
+          "createdAt": "2026-11-19T19:18:43.000Z",
+          "id": "2123496208316694669",
+          "isQuote": true,
+          "likes": 263,
+          "quotedTweetId": "2123495352460546133",
+          "replies": 31,
+          "retweets": 21,
+          "text": "Bostrom: \"if nobody builds it, everyone dies\"\n\nHard agree https://t.co/4PsIoscsD8",
+          "url": "https://x.com/garrytan/status/2123496208316694669"
         }
       }
     },
@@ -430,6 +548,17 @@
           "retweets": 1,
           "text": "Read more and try it out in @GeminiApp\n\nhttps://t.co/G8TOtEtbzU",
           "url": "https://x.com/joshwoodward/status/2123178015874302328"
+        },
+        "id:2123534862569324703": {
+          "createdAt": "2026-11-19T21:52:19.000Z",
+          "id": "2123534862569324703",
+          "isQuote": true,
+          "likes": 876,
+          "quotedTweetId": "2123513203745538423",
+          "replies": 72,
+          "retweets": 35,
+          "text": "Gemini app on Mac can now do tasks on your computer, a top feature request! https://t.co/WZL40Vz57r",
+          "url": "https://x.com/joshwoodward/status/2123534862569324703"
         }
       }
     },
@@ -490,6 +619,39 @@
           "retweets": 3,
           "text": "Daytona continues to push agentic infra innovation - first to provide macOS sandboxes, for computer-use agents on Macs and building and testing Apple apps https://t.co/wAYXaDLpXK",
           "url": "https://x.com/mattturck/status/2122726760185741673"
+        },
+        "id:2123424351953301526": {
+          "createdAt": "2026-11-19T14:33:11.000Z",
+          "id": "2123424351953301526",
+          "isQuote": false,
+          "likes": 23,
+          "quotedTweetId": null,
+          "replies": 3,
+          "retweets": 0,
+          "text": "Seems that @felixrieseberg from @AnthropicAI was having a really good day, for some reason? 🤷‍♂️ \n\n(Slush purpleness photo kindly taken by the multi-talented @deedydas) https://t.co/QjAhL7PIkE",
+          "url": "https://x.com/mattturck/status/2123424351953301526"
+        },
+        "id:2123424356286017975": {
+          "createdAt": "2026-11-19T14:33:12.000Z",
+          "id": "2123424356286017975",
+          "isQuote": false,
+          "likes": 2,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 0,
+          "text": "My earlier conversation with the truly excellent @felixrieseberg here:\n\nhttps://t.co/odrvhyQXcY",
+          "url": "https://x.com/mattturck/status/2123424356286017975"
+        },
+        "id:2123465585166295351": {
+          "createdAt": "2026-11-19T17:17:02.000Z",
+          "id": "2123465585166295351",
+          "isQuote": false,
+          "likes": 58,
+          "quotedTweetId": null,
+          "replies": 2,
+          "retweets": 3,
+          "text": "lol NASDAQ hedging their bets https://t.co/nwoIV114l5",
+          "url": "https://x.com/mattturck/status/2123465585166295351"
         }
       }
     },
@@ -575,6 +737,28 @@
           "retweets": 6,
           "text": "SF VCs (who didn’t invest in Anthropic): Dear Lord, it’d be nice to have some liquidity so that I can raise my next fund. \n\nLord: Tathastu\n\nVC: No, not that kind of liquidity 🤦‍♂️ https://t.co/4PlobnPg4n",
           "url": "https://x.com/nikunj/status/2123183421002588327"
+        },
+        "id:2123426647273800172": {
+          "createdAt": "2026-11-19T14:42:18.000Z",
+          "id": "2123426647273800172",
+          "isQuote": false,
+          "likes": 15,
+          "quotedTweetId": null,
+          "replies": 5,
+          "retweets": 1,
+          "text": "As these network attacks and impersonation attempts happen, who's securing the elderly? \n\nEspecially thinking about my parents and grandparents.\n\nThere are four layers I can think through where this could work.\n\nOne is at the browser level, where somebody builds a secure browser that ensures that whatever websites they're going to are secured. Texts typically lead to a link, even for payments. This is why browser is key.\n\nTwo could be at the network layer, where there is a physical device, similar to Pi-hole, or an Onavo-like VPN on your phone, that blocks websites that could be deemed unsafe.\n\nThree could be at the payments layer, where transactions that look like scams get flagged before the money leaves.\n\nAnd fourth and most crazy could be at the phone level, where everything is monitored, and you're only getting calls from your loved ones. Cloned voices would work with a provider like Reality Defender. \n\nThere are individual solutions for this today but none neatly packaged. \n\nThis could all be packaged with insurance that covers any activities on the OS or phone. In that way, incentives are aligned to keep this on the edge.\n\nThe buyer would be the kids, someone like me, who get alerted when something looks off.",
+          "url": "https://x.com/nikunj/status/2123426647273800172"
+        },
+        "id:2123521753381232917": {
+          "createdAt": "2026-11-19T21:00:13.000Z",
+          "id": "2123521753381232917",
+          "isQuote": true,
+          "likes": 13,
+          "quotedTweetId": "2076458876816540144",
+          "replies": 0,
+          "retweets": 0,
+          "text": "Same same, but now it’s PR-maxxing 🤦‍♂️\n\nFocus on the what, who and why, and not on the how!! https://t.co/O3cjhVuuP1",
+          "url": "https://x.com/nikunj/status/2123521753381232917"
         }
       }
     },
@@ -584,17 +768,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2122347721298510021": {
-          "createdAt": "2026-11-16T15:15:02.000Z",
-          "id": "2122347721298510021",
-          "isQuote": true,
-          "likes": 138,
-          "quotedTweetId": "2121985397551239366",
-          "replies": 43,
-          "retweets": 12,
-          "text": "My top 5 takeaways from @nateparrott on how to get Claude to design without AI slop:\n\n1. Give Claude context upfront.\n\nShare screenshots, pages you like, and your past work. For an existing product, have Claude rebuild the real screens from code.\n\n2. Research familiar UX patterns.\n\nFor hard layout problems, ask Claude to research familiar products that solve something similar and note the layouts people already know how to use.\n\n3. Make Claude aware of its design biases.\n\n\"The model has no idea what its own biases are.\" In your design.md or another file, consider discouraging Claude's tells like serif text, off-white backgrounds, and card-edge bars.\n\n4. Start with wireframes.\n\nHave Claude create wireframes first and give it feedback to nail your core user flows before going deep on fonts and colors.\n\n5. Ask for multiple options, then remix them.\n\nAsk Claude for 5 options for key screens with different fonts, colors, and styles. Then pick the parts you like and ask it to remix and create 5 more options.\n\n📌 Watch the full episode now: https://t.co/HPX5HjXafX\n\nAlso available as a written post: https://t.co/jcofmkQc01",
-          "url": "https://x.com/petergyang/status/2122347721298510021"
-        },
         "id:2122558387162652701": {
           "createdAt": "2026-11-17T05:12:09.000Z",
           "id": "2122558387162652701",
@@ -671,6 +844,39 @@
           "retweets": 1,
           "text": "I think we’re all missing some info in this Nvidia saga:\n\n1. What led Jensen to resign so abruptly? Was there a smoking gun? \n\n2. Why has the board who spent so many years with him moved on so quickly?\n\n3. If there is a smoking gun why is the president saying he’s fine with Jensen coming back?\n\nIs this just about some board members losing trust in him that he lied or is there some other info we (and most Nvidia employees) are not aware of?",
           "url": "https://x.com/petergyang/status/2123290075882807352"
+        },
+        "id:2123540875733315815": {
+          "createdAt": "2026-11-19T22:16:12.000Z",
+          "id": "2123540875733315815",
+          "isQuote": false,
+          "likes": 164,
+          "quotedTweetId": null,
+          "replies": 20,
+          "retweets": 5,
+          "text": "Gemini 4 Neon is getting rave reviews, so I made a new video comparing it to Opus 5.5, my favorite model for everyday work.\n\nSome takeaways:\n\n1. Opus is still better at 3D and design from my testing, but Neon is on par or better at writing and personality, which is a huge accomplishment.\n\n2. @Google Gemini 4 has 3 models, but in reality I think I'll use Neon for 99% of tasks. It's much faster than Carbon and its results are just as good.\n\n3. The $100/mo Gemini Ultra subscription is a steal. You get Gemini 4, YouTube Premium Family (my favorite subscription ever) for ad-free YouTube and Music, 20 TB of storage for all your photos and files, and more.\n\n📌 Watch me test Neon vs Opus across 5 use cases here: https://t.co/irRiNDdqgY",
+          "url": "https://x.com/petergyang/status/2123540875733315815"
+        },
+        "id:2123620968568676457": {
+          "createdAt": "2026-11-20T03:34:28.000Z",
+          "id": "2123620968568676457",
+          "isQuote": true,
+          "likes": 21,
+          "quotedTweetId": "2123540875733315815",
+          "replies": 10,
+          "retweets": 0,
+          "text": "Opus 5.5 vs Gemini 4 Neon for Shibuya Crossing at night. Which one do you prefer?\n\n📌 Watch my 4 other head to head comparisons here: https://t.co/8rKllg4xBx https://t.co/QrSv4LzvmI https://t.co/p7nr6lHYU0",
+          "url": "https://x.com/petergyang/status/2123620968568676457"
+        },
+        "id:2123648490844897389": {
+          "createdAt": "2026-11-20T05:23:50.000Z",
+          "id": "2123648490844897389",
+          "isQuote": true,
+          "likes": 35,
+          "quotedTweetId": "2123540875733315815",
+          "replies": 5,
+          "retweets": 0,
+          "text": "People make fun of Google for being large and bureaucratic but I think one of their competitive advantages is they have 100,000+ employees testing their latest models and tools before wide release.\n\nAt that employee population you can even run staff-only A/B tests that are stat sig :)",
+          "url": "https://x.com/petergyang/status/2123648490844897389"
         }
       }
     },
@@ -680,17 +886,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2122184794209714368": {
-          "createdAt": "2026-11-16T04:27:37.000Z",
-          "id": "2122184794209714368",
-          "isQuote": false,
-          "likes": 629,
-          "quotedTweetId": null,
-          "replies": 81,
-          "retweets": 27,
-          "text": "Introducing 𝚡𝚎𝚎𝚝: https://t.co/YaLEMbmKwf.\n\nA hermetic, pixel-perfect X post renderer in safe Rust / wasm. Zero browser, network, filesystem, system fonts. Renders a post to PNG in ~1ms (and 0.4 ms for @jack's \"setting up my twttr\" 😁).\n\nX is the global town square, and the medium is the message. Being able to preview what things will look like before posting is great for both humans and agents.\n\nRendering with xeet is is 100x-1000x faster than booting up a browser and taking a screenshot, yet it's just as accurate.\n\nIt reproduces Blink & HarfBuzz text shaping, 1/64px line breaking, RTL bidi, 28 Chirp font subsets, CJK/Math/Emoji fallbacks, \"Show more\" rules, etc. It's the kind of thing that would be wildly impractical, if not impossible, for a human engineer to pull off.\n\nExcept 𝚡𝚎𝚎𝚝 is structured as an \"autorepo.\" An oracle boots up Chrome, and verifies tens of thousands of text layout rules. A CI canary then watches the evolution of the original, and files signed PRs for agents to act on. It was conceived from the ground up around 'verification engineering', and the result speaks for itself.\n\nEnjoy!",
-          "url": "https://x.com/rauchg/status/2122184794209714368"
-        },
         "id:2122396034186014919": {
           "createdAt": "2026-11-16T18:27:01.000Z",
           "id": "2122396034186014919",
@@ -789,6 +984,39 @@
           "retweets": 1,
           "text": "Nov 1997 vs Nov 2026 https://t.co/C1zXJavktJ",
           "url": "https://x.com/rauchg/status/2123298562960466017"
+        },
+        "id:2123468825538789380": {
+          "createdAt": "2026-11-19T17:29:54.000Z",
+          "id": "2123468825538789380",
+          "isQuote": true,
+          "likes": 332,
+          "quotedTweetId": "2123442758606352420",
+          "replies": 78,
+          "retweets": 10,
+          "text": "𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍 has no heavyweight or opinionated UI. It's infra not product. I love the \"headless Slack\" for agents analogy, because UI is free now.\n\nYou can generate and deploy the ideal \"factory interface\" for each usecase. A security team will focus on vulnerability counts, SEV classifications, confirmed vs unconfirmed.\n\nI've seen internal factories at Vercel built on Board that are just TUIs. Or mostly managed via a Slack agent, and you just focus on the outcomes and giving feedback to the agents. \n\nThe board is like the Redux state manager of your agents. It's foundational.",
+          "url": "https://x.com/rauchg/status/2123468825538789380"
+        },
+        "id:2123505400591106113": {
+          "createdAt": "2026-11-19T19:55:14.000Z",
+          "id": "2123505400591106113",
+          "isQuote": false,
+          "likes": 1574,
+          "quotedTweetId": null,
+          "replies": 129,
+          "retweets": 94,
+          "text": "My “is engineering a valuable pursuit” math. \n\nAn outcome-oriented, creative engineer is now a 1000x engineer.\n\nA tabs-vs-spaces-debating, miss-forest-for-trees engineer is now a -10x engineer.\n\nThe regular knowledge worker is now a 2x engineer.\n\nThis is also backed by the distribution of token consumption we see in both our startups and enterprise base. Engineers and software factories will consume exponentially more tokens.\n\nIf there’s a takeaway from Anthropic’s success, it’s that coding is the #1 killer app of AI.",
+          "url": "https://x.com/rauchg/status/2123505400591106113"
+        },
+        "id:2123553975945556144": {
+          "createdAt": "2026-11-19T23:08:16.000Z",
+          "id": "2123553975945556144",
+          "isQuote": true,
+          "likes": 187,
+          "quotedTweetId": "2123538362862862661",
+          "replies": 55,
+          "retweets": 9,
+          "text": "A company’s genesis is the agent that helps you build the company https://t.co/JAeoreokGR",
+          "url": "https://x.com/rauchg/status/2123553975945556144"
         }
       }
     },
@@ -868,6 +1096,17 @@
           "retweets": 42,
           "text": "People: Please reduce the number of permission alerts so agents can work on macOS without constant babysitting\n\nApple: I hear you, here’s some new scary alerts https://t.co/Saw8ftcNNW",
           "url": "https://x.com/steipete/status/2122463466304971068"
+        },
+        "id:2123487048250327497": {
+          "createdAt": "2026-11-19T18:42:19.000Z",
+          "id": "2123487048250327497",
+          "isQuote": true,
+          "likes": 198,
+          "quotedTweetId": "2123291268814094409",
+          "replies": 34,
+          "retweets": 9,
+          "text": "Landed a fix for that in OpenClaw yesterday (for the few folks using the embedded harness instead of codex, since it’s a plugin), most harnesses aren’t updated yet. https://t.co/hyjqyZw1AU",
+          "url": "https://x.com/steipete/status/2123487048250327497"
         }
       }
     },
@@ -975,6 +1214,39 @@
           "retweets": 0,
           "text": "poteto https://t.co/6qMBfvE93k",
           "url": "https://x.com/swyx/status/2123298074911248526"
+        },
+        "id:2123552457649492023": {
+          "createdAt": "2026-11-19T23:02:14.000Z",
+          "id": "2123552457649492023",
+          "isQuote": true,
+          "likes": 4,
+          "quotedTweetId": "2123485713056633138",
+          "replies": 2,
+          "retweets": 0,
+          "text": "fuuuuuuck\n\nhttps://t.co/y1lntMSVtd",
+          "url": "https://x.com/swyx/status/2123552457649492023"
+        },
+        "id:2123591875349422435": {
+          "createdAt": "2026-11-20T01:38:52.000Z",
+          "id": "2123591875349422435",
+          "isQuote": true,
+          "likes": 261,
+          "quotedTweetId": "2123423354367377492",
+          "replies": 63,
+          "retweets": 6,
+          "text": "when scrolling social media i think it is worth bearing in mind that you can say “odds of reaching SOTA have dropped to zero” and get alot of likes and then 3 months later when they have reached SOTA you post apology form and get even more likes and the subject of your writing prints it out and thanks you for motivation\n\ntheres no consequences at all for inaccuracy and every incentive for hyperbole and the x algorithm is tuned for this",
+          "url": "https://x.com/swyx/status/2123591875349422435"
+        },
+        "id:2123659761887625602": {
+          "createdAt": "2026-11-20T06:08:37.000Z",
+          "id": "2123659761887625602",
+          "isQuote": false,
+          "likes": 0,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 0,
+          "text": "you cant be serious https://t.co/pll3CcsPFp",
+          "url": "https://x.com/swyx/status/2123659761887625602"
         }
       }
     },
@@ -1025,17 +1297,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2122206990101536852": {
-          "createdAt": "2026-11-16T05:55:49.000Z",
-          "id": "2122206990101536852",
-          "isQuote": false,
-          "likes": 2500,
-          "quotedTweetId": null,
-          "replies": 795,
-          "retweets": 84,
-          "text": "Codex team might have actually fixed the \"model at capacity\" errors that have been pestering you. https://t.co/EgS0HkOATY",
-          "url": "https://x.com/thsottiaux/status/2122206990101536852"
-        },
         "id:2122754551187132438": {
           "createdAt": "2026-11-17T18:11:38.000Z",
           "id": "2122754551187132438",
@@ -1090,6 +1351,39 @@
           "retweets": 100,
           "text": "GPT-6.2 Astra is pretty good at hard things. Here the team shared some results on AMD and Jalapeño chip optimizations.\n\nI do get the feedback on its communication style and we're working on that, but for really the hardest tasks in the world it does seem to be in a league of its own at the moment.",
           "url": "https://x.com/thsottiaux/status/2123175166519992652"
+        },
+        "id:2123557171321561133": {
+          "createdAt": "2026-11-19T23:20:58.000Z",
+          "id": "2123557171321561133",
+          "isQuote": true,
+          "likes": 5244,
+          "quotedTweetId": "2123556256392847657",
+          "replies": 720,
+          "retweets": 276,
+          "text": "We’re also working on a new mobile experience for ChatGPT! \n\nIt’s easier to get to your favorite features and discover what you can do in ChatGPT. We’re starting with Pro users who have a dot or are eligible to create one. Your dot gets its own tab, and you can pin Codex, Projects, Images, and more to the tab bar. Some of you will see the new experience by default. \n\nYou can turn it on or off anytime in Settings > New ChatGPT Design. \n\nSuper excited to hear your feedback before we roll it out more widely!",
+          "url": "https://x.com/thsottiaux/status/2123557171321561133"
+        },
+        "id:2123612433923051976": {
+          "createdAt": "2026-11-20T03:00:33.000Z",
+          "id": "2123612433923051976",
+          "isQuote": true,
+          "likes": 1911,
+          "quotedTweetId": "2123557171321561133",
+          "replies": 335,
+          "retweets": 57,
+          "text": "Le ChatGPT 2.0 https://t.co/QooOVLPLlf",
+          "url": "https://x.com/thsottiaux/status/2123612433923051976"
+        },
+        "id:2123612889416339762": {
+          "createdAt": "2026-11-20T03:02:22.000Z",
+          "id": "2123612889416339762",
+          "isQuote": false,
+          "likes": 491,
+          "quotedTweetId": null,
+          "replies": 85,
+          "retweets": 6,
+          "text": "Team is crazy enough to think they can succeed at improving the experience used by 1.2B users in place. Let's see if the strategy plays out.",
+          "url": "https://x.com/thsottiaux/status/2123612889416339762"
         }
       }
     },
@@ -1142,6 +1436,39 @@
           "retweets": 251,
           "text": "this is one of those reasons why I don't think most people will really generate their own software\n\ngood software is a set of strong opinions and I'd rather have something that's been really thought through by someone else",
           "url": "https://x.com/trq212/status/2123106370161705127"
+        },
+        "id:2123452888248992024": {
+          "createdAt": "2026-11-19T16:26:35.000Z",
+          "id": "2123452888248992024",
+          "isQuote": true,
+          "likes": 2999,
+          "quotedTweetId": "2123431689934291083",
+          "replies": 78,
+          "retweets": 66,
+          "text": "an age of miracles https://t.co/WcSHQzzhn8",
+          "url": "https://x.com/trq212/status/2123452888248992024"
+        },
+        "id:2123457177419760100": {
+          "createdAt": "2026-11-19T16:43:37.000Z",
+          "id": "2123457177419760100",
+          "isQuote": false,
+          "likes": 10013,
+          "quotedTweetId": null,
+          "replies": 111,
+          "retweets": 640,
+          "text": "https://t.co/2jiFanMHll",
+          "url": "https://x.com/trq212/status/2123457177419760100"
+        },
+        "id:2123524052195463568": {
+          "createdAt": "2026-11-19T21:09:21.000Z",
+          "id": "2123524052195463568",
+          "isQuote": true,
+          "likes": 793,
+          "quotedTweetId": "2123514398438211840",
+          "replies": 46,
+          "retweets": 49,
+          "text": "Software is both art and utility. AI is both an Industrial Revolution and a Renaissance.\n\nFactories are for utilities, at AIE Code I talked about how we can make better art. https://t.co/KrETTn6hA3",
+          "url": "https://x.com/trq212/status/2123524052195463568"
         }
       }
     },
