@@ -11,6 +11,113 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:3lQWDMhXPlg</id>
+  <yt:videoId>3lQWDMhXPlg</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>数学家称与 Claude 合作证明黎曼猜想【AI 早报 2026-11-21】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=3lQWDMhXPlg"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-11-21T00:48:09+00:00</published>
+  <updated>2026-11-21T01:53:48+00:00</updated>
+  <media:group>
+   <media:title>数学家称与 Claude 合作证明黎曼猜想【AI 早报 2026-11-21】</media:title>
+   <media:content url="https://www.youtube.com/v/3lQWDMhXPlg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/3lQWDMhXPlg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+数学家称与 Claude 合作证明黎曼猜想 00:08
+https://alpo.ge/remark.pdf
+https://x.com/scottnarmstrong/status/2123773647919661288
+
+Thinking Machines 发布并开源 Inkling 2 Mini 00:25
+https://thinkingmachines.ai/news/inkling-2-mini/
+https://huggingface.co/unsloth/Inkling-2-Mini-GGUF
+
+Antigravity 扩大 cache pool，完成后重置配额 00:40
+https://x.com/_mohansolo/status/2123848516581892181
+
+OpenAI 向 Plus 用户开放 Space 协作空间 00:54
+https://x.com/ChatGPT/status/2123850912867471807
+
+腾讯混元开源旗舰模型 Hy4：总参数 770B 01:09
+https://mp.weixin.qq.com/s/M0TIIvCzizkLw7_A3MCSjA
+https://huggingface.co/tencent/Hy4
+
+微信开源全模态模型系列WeMM-Video 01:21
+https://github.com/Tencent/WeMM-Video
+https://huggingface.co/collections/tencent/wemm-video
+
+Codex 更新对话线程，改善切换与加载体验 01:36
+https://x.com/matteing/status/2123884630654996756
+
+Codex WebSocket 请求上限提至 128 MB 01:50
+https://x.com/charliermarsh/status/2123849871480463669
+
+OpenAI API 为 GPT-6.2 启用跨轮推理复用 02:05
+https://developers.openai.com/api/docs/guides/keep-prefix-unchanged
+https://x.com/OpenAIDevs/status/2123566018866151579
+
+Google 在 Gemini API 开放语音编辑预览 02:14
+https://aistudio.google.com/docs/models/gemini-3.5-transcribe
+https://x.com/Google/status/2123827050968764511
+
+Google 黑五早鸟优惠上线，AI 订阅最高五折 02:19
+https://x.com/vikaskansalHQ/status/2123833450297995624
+
+小米 MiMo 超高速模型限时上线 TokenPlan 02:29
+
+OpenAI 上线 CarPlay Dot 通话功能 02:37
+https://x.com/romainhuet/status/2123924316110966824
+
+Google Gemini 推出 GIF 生成功能 02:45
+https://x.com/GeminiApp/status/2123813017855103449
+
+Claude App 新版移动端体验开始推送 02:59
+https://x.com/daniel__designs/status/2123860186951516287
+
+Meta 个人 AI agent Muse 推出邮箱功能 03:11
+https://meta.com/help/superintelligence/1149305437517250
+https://x.com/Muse/status/2123602791356883032
+
+腾讯 WorkBuddy 上线电脑操控能力 03:22
+https://mp.weixin.qq.com/s/9lAJiEkOWDqfGtfhvYt4bw
+
+OpenAI 发文称新防御下窃取推理成功率降至0.2% 03:29
+https://openai.com/index/combatting-adversarial-distillation/
+https://x.com/OpenAI/status/2123862344422088794
+
+OpenAI 用数千 agents 32 分钟完成数月分析 03:45
+https://openai.com/index/scaling-ai-research-for-complex-biological-data
+https://www.biorxiv.org/content/10.64898/2026.10.15.759436v1
+
+OpenAI 发布药物化学基准 MedChemBench 04:01
+https://cdn.openai.com/pdf/09c4ec60-a32e-4652-837b-1811368a3bb0/medchembench-paper.pdf
+https://openai.com/index/introducing-medchembench/
+https://x.com/OpenAI/status/2123856316187975756
+
+美众议院报告：Cursor 考虑逐步停用中国 AI 模型 04:17
+https://homeland.house.gov/wp-content/uploads/2026/11/2026.11.20-Joint-Report-PRC-AI-Models.pdf
+http://chinaselectcommittee.house.gov/media/reports/joint-investigation-report-china-is-trying-to-get-us-companies-addicted-to-chinese-ai-models
+
+Isomorphic Labs 联手 MSD 研发肿瘤药物 04:28
+https://www.isomorphiclabs.com/articles/isomorphic-labs-enters-into-a-research-collaboration-with-msd
+https://x.com/IsomorphicLabs/status/2123382767434297656
+
+近期流传研报称智谱将推 3 万亿参数旗舰模型 04:41
+https://news.futunn.com/post/1004821534/navigating-through-noise-advancing-steadily-key-takeaways-from-the-tig
+
+Gemini 订阅换 harness？谷歌成员回应 04:57
+https://x.com/OfficialLoganK/status/2123657759896007035</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="254"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:qBG86MsdfE8</id>
   <yt:videoId>qBG86MsdfE8</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -108,8 +215,8 @@ OpenCode 称自有 GPU 承接 44% tokens 04:21
 https://x.com/thdxr/status/2123216909931864355
 https://x.com/opencode/status/2123214984389771684</media:description>
    <media:community>
-    <media:starRating count="21" average="5.00" min="1" max="5"/>
-    <media:statistics views="1337"/>
+    <media:starRating count="22" average="5.00" min="1" max="5"/>
+    <media:statistics views="1478"/>
    </media:community>
   </media:group>
  </entry>
@@ -226,7 +333,7 @@ Nginx 发布安全更新，修复 10 处漏洞 05:45
 https://nginx.org/en/security_advisories.html</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1969"/>
+    <media:statistics views="1973"/>
    </media:community>
   </media:group>
  </entry>
@@ -350,7 +457,7 @@ https://x.com/sama/status/2122798042734633452
 https://x.com/thsottiaux/status/2122816458711548126</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="1816"/>
+    <media:statistics views="1813"/>
    </media:community>
   </media:group>
  </entry>
@@ -505,7 +612,7 @@ https://wccftech.com/jensen-huang-considers-returning-to-nvidia-as-his-allies-as
 https://uk.finance.yahoo.com/news/petition-reinstate-jensen-huang-nvidia-172805507.html</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="855"/>
+    <media:statistics views="856"/>
    </media:community>
   </media:group>
  </entry>
@@ -554,7 +661,7 @@ https://cursor.com/blog/security-incident-update
 https://cursor.com/blog/claude-code-extension-security-notice</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="1373"/>
+    <media:statistics views="1374"/>
    </media:community>
   </media:group>
  </entry>
@@ -672,7 +779,7 @@ SpaceXAI 被曝裁撤 Grok Imagine 团队 05:04
 https://x.com/theinformation/status/2121279457084244122</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="1770"/>
+    <media:statistics views="1775"/>
    </media:community>
   </media:group>
  </entry>
@@ -775,7 +882,7 @@ https://cloud.baidu.com/product-s/token_exchange.html?from=cloud_banner
 https://x.com/Baidu_Inc/status/2120773996698546653</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="1895"/>
+    <media:statistics views="1893"/>
    </media:community>
   </media:group>
  </entry>
@@ -885,7 +992,7 @@ https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-cuts-fu
 https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=mhp</media:description>
    <media:community>
     <media:starRating count="24" average="5.00" min="1" max="5"/>
-    <media:statistics views="1945"/>
+    <media:statistics views="1944"/>
    </media:community>
   </media:group>
  </entry>
@@ -990,7 +1097,7 @@ Fireworks 确认黑客入侵暴露客户账单与模型数据 04:34
 https://fireworks.ai/security/bulletins/october-2026-security-incident-update</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1659"/>
+    <media:statistics views="1661"/>
    </media:community>
   </media:group>
  </entry>
@@ -1090,7 +1197,7 @@ https://www.reuters.com/world/ai-backlash-could-threaten-anthropic-ipo-timing-po
 https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1605"/>
+    <media:statistics views="1613"/>
    </media:community>
   </media:group>
  </entry>
@@ -1198,7 +1305,7 @@ https://www.theverge.com/news/1029248/tsmc-is-apparently-considering-getting-int
 https://theinformation.com/articles/tsmc-weighs-making-advanced-memory-chips-capture-ai-spending</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="2263"/>
+    <media:statistics views="2262"/>
    </media:community>
   </media:group>
  </entry>
@@ -1296,120 +1403,6 @@ OpenAI 发布社区契约，承诺自担园区用电成本 04:56</media:descript
    <media:community>
     <media:starRating count="30" average="5.00" min="1" max="5"/>
     <media:statistics views="2648"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:UoLqNKs0_n0</id>
-  <yt:videoId>UoLqNKs0_n0</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>OpenAI 发布 Images 2.6：支持动画 GIF 生成，提速 50%【AI 早报 2026-11-05】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=UoLqNKs0_n0"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-11-05T01:37:27+00:00</published>
-  <updated>2026-11-07T23:37:37+00:00</updated>
-  <media:group>
-   <media:title>OpenAI 发布 Images 2.6：支持动画 GIF 生成，提速 50%【AI 早报 2026-11-05】</media:title>
-   <media:content url="https://www.youtube.com/v/UoLqNKs0_n0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i2.ytimg.com/vi/UoLqNKs0_n0/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-OpenAI 发布 Images 2.6：支持动画 GIF 生成，提速 50% 00:08
-https://openai.com/index/introducing-images-2-6/
-https://x.com/OpenAI/status/2118124953832935810
-https://developers.openai.com/api/docs/pricing#image-generation
-
-腾讯混元 Hy4 正式版发布 00:43
-https://hy.tencent.com/research/hy4
-https://mp.weixin.qq.com/s/JrQeiqx3PXBDSGish2IzwA
-
-报道称 OpenAI 高管 Tibo 接手内部安全项目 01:21
-https://x.com/ajambrosino/status/2117793530076946814
-https://x.com/thsottiaux/status/2115890336107233347
-
-Cat Wu 宣布加入 OpenAI，负责 Core Products 产品管理 01:40
-https://x.com/TheRealAdamG/status/2118139840554254829
-https://x.com/gdb/status/2118138320375136695
-https://x.com/thsottiaux/status/2118138648214585591
-https://x.com/_catwu/status/2118137612577968402
-
-用户发现 Google Play 订阅的 ChatGPT 可领 API 额度 01:53
-
-Claude Code 调整游戏限制：提现有游戏不再被拒，复刻原作仍禁 02:03
-https://x.com/addyosmani/status/2117848568535106001
-
-Antigravity CLI 1.5.0 发布：agy acp 内置 02:17
-https://x.com/shengzheyao/status/2117899282733044063
-https://github.com/google-antigravity/antigravity-cli/blob/main/CHANGELOG.md
-
-Google 上线 Gemini 3.8 Flash TTS Voice Remixing 功能 02:29
-https://x.com/Google/status/2118027058794148099
-
-ChatGPT dots 更新：iOS 与 Windows 体验优化 02:41
-https://x.com/_samirism/status/2118103057980690771
-
-Claude 桌面版新增 Storage 面板 02:59
-https://x.com/lydiahallie/status/2118045439803195567
-
-Ricursive Intelligence 发布 65B 稠密模型 Ripple-65B Preview 03:09
-https://ricursive.com/ripple
-https://x.com/RicursiveAI/status/2118046768034468188
-https://huggingface.co/ricursiveAI/Ripple-65B-Preview
-
-Cognition 推出 SWE-2 Flash，称胜过所有美国开放权重模型 03:20
-https://cognition.com/blog/swe-2-flash
-
-字节跳动开源 Axion 1.0 Agent 模型 03:34
-https://axion1-0.github.io/
-https://huggingface.co/Axion1-0/Axion-1.0-35B
-https://arxiv.org/abs/2611.03233
-
-月之暗面开放 Kimi K3.1 Pro 模型权重 03:51
-https://huggingface.co/moonshotai/Kimi-K3.1-Pro
-https://kimi.ai/blog/kimi-k3-1-pro
-
-Anthropic 称与 Claude 合作首次测得细菌来源 vault 结构 04:06
-https://anthropic.com/research/investigating-vault-particles-with-claude
-https://x.com/AnthropicAI/status/2118073667858887068
-
-OpenAI 称自主流程为 948 个 Linux 内核漏洞生成补丁 04:17
-https://openai.com/index/a-thousand-fewer-paths-to-root
-https://x.com/OpenAI/status/2118119451401048497
-https://github.com/openai/plugins/tree/main/plugins/codex-security
-
-Altman：人类应始终掌控未来，不应交给超级智能 04:40
-https://x.com/sama/status/2117794005165748448
-
-DeepSeek 谈开源安全：正研究模型分级等方案 04:55
-
-Artificial Analysis 更新 API 性能基准，改按任务总时长衡量模型 05:09
-https://x.com/ArtificialAnlys/status/2118034157909712992
-https://artificialanalysis.ai/methodology/performance-benchmarking
-
-OpenAI 宣布将收购开发者工具公司 Pierre，加速打造 Codex 协作平台 05:21
-https://openai.com/index/openai-to-acquire-pierre
-https://x.com/OpenAINewsroom/status/2117999237745049883
-
-OpenAI 与 Mazda 分享汽车设计研究成果 05:32
-https://openai.com/index/accelerating-engineering-for-the-physical-world
-
-OpenAI 称印度 ChatGPT 周活用户超美国，居全球首位 05:41
-https://indianstartupnews.com/news/india-overtakes-the-united-states-as-chatgpts-largest-market-user-base-doubled-in-10-months-12780027
-
-Meta 收购 AI 编程初创公司 Conductor 05:51
-https://conductor.build/announcement
-
-中国信通院联合多家企业发布智能体发展自律公约 06:01
-https://mp.weixin.qq.com/s?new=1&amp;signature=ZXFIEJTXFSrTZRVCqoYjz98shoKy1zpDpoEaKD91Fx8pBxuVxVv0UwJmk%2AeA8VbPQ3UQMuWyZd%2Ag34zNqoTl42ABOP9XYr7TnWAie4EBT3322hDMli9AbV951bdp%2Adlp&amp;src=11&amp;timestamp=1793785314&amp;ver=7068
-
-ChatGPT 被曝筹备五档家庭订阅 06:20
-https://x.com/btibor91/status/2117875196594209270</media:description>
-   <media:community>
-    <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="2377"/>
    </media:community>
   </media:group>
  </entry>

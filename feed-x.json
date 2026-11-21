@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-20T16:14:43.000Z",
+  "generatedAt": "2026-11-21T04:02:00.000Z",
   "lookbackHours": 96,
   "upstream": {
     "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
     "generatedAt": "2026-11-20T06:29:26.095Z",
-    "ageHours": 9.75
+    "ageHours": 21.54
   },
   "x": [
     {
@@ -65,39 +65,6 @@
           "retweets": 0,
           "text": "Stablecoins will likely be one of the biggest ways for America to exert soft power.\n\nIf you are living in most countries outside of India and China, then you 100% would prefer to own dollars. Ditto for businesses.\n\n🇺🇸🇺🇸",
           "url": "https://x.com/adityaag/status/2123262616776921257"
-        },
-        {
-          "createdAt": "2026-11-16T17:50:58.000Z",
-          "id": "2122386960862056629",
-          "isQuote": true,
-          "likes": 5,
-          "quotedTweetId": "2122238310496280912",
-          "replies": 0,
-          "retweets": 1,
-          "text": "https://t.co/XnkC6s7c5A",
-          "url": "https://x.com/adityaag/status/2122386960862056629"
-        },
-        {
-          "createdAt": "2026-11-16T17:50:57.000Z",
-          "id": "2122386958101959118",
-          "isQuote": true,
-          "likes": 81,
-          "quotedTweetId": "2122265319201009789",
-          "replies": 4,
-          "retweets": 5,
-          "text": "Two thoughts:\n1/ Embedding AI as close to the silicon as possible will be critical for a lot of hardtech.\n2/ We can build semi-conductors in India. People said it wasn’t possible. We are proving them wrong.\n\nWe’re excited to lead @BharatSemi_'s $24M seed round with Redstart Ventures and IndusBridge. \n\nOnwards.",
-          "url": "https://x.com/adityaag/status/2122386958101959118"
-        },
-        {
-          "createdAt": "2026-11-16T16:33:49.000Z",
-          "id": "2122367547312119843",
-          "isQuote": true,
-          "likes": 41,
-          "quotedTweetId": "2122362693730574665",
-          "replies": 2,
-          "retweets": 2,
-          "text": "Our goal when starting an interpretability work was to develop confidence in our methods to the point where we could apply it to leading frontier models.\n\nReally happy that day is here. This is super critical to get right. https://t.co/f2SCVVl9Ag",
-          "url": "https://x.com/adityaag/status/2122367547312119843"
         }
       ],
       "source": "x",
@@ -183,28 +150,6 @@
           "retweets": 7,
           "text": "Didn’t think it was possible to do iOS-quality gestures on the web https://t.co/PEnljUKPQI",
           "url": "https://x.com/amasad/status/2122805977187549558"
-        },
-        {
-          "createdAt": "2026-11-16T22:56:45.000Z",
-          "id": "2122463916114813249",
-          "isQuote": true,
-          "likes": 85,
-          "quotedTweetId": "2122455296450711987",
-          "replies": 10,
-          "retweets": 5,
-          "text": "💪 https://t.co/OwGRhdeacL",
-          "url": "https://x.com/amasad/status/2122463916114813249"
-        },
-        {
-          "createdAt": "2026-11-16T20:11:39.000Z",
-          "id": "2122422367557464548",
-          "isQuote": true,
-          "likes": 3212,
-          "quotedTweetId": "2122361245357478085",
-          "replies": 62,
-          "retweets": 149,
-          "text": "Deranged cult https://t.co/FmC9L8N1ZL",
-          "url": "https://x.com/amasad/status/2122422367557464548"
         }
       ],
       "source": "x",
@@ -405,28 +350,6 @@
           "retweets": 0,
           "text": "Fun project for GBrain coming in the next few weeks using Vorflux as my software factory: GBrain backend engine written in Rust\n\nThis will replace postgres+pgvector or pglite as the backing store for vector search, graph search, embeddings, RAG and HNSW",
           "url": "https://x.com/garrytan/status/2122576951080792543"
-        },
-        {
-          "createdAt": "2026-11-17T02:30:24.000Z",
-          "id": "2122517681740124271",
-          "isQuote": false,
-          "likes": 317,
-          "quotedTweetId": null,
-          "replies": 51,
-          "retweets": 18,
-          "text": "If you want individual employee brains rolling up into team brains and then a top level company brain, GBrain's Hosted option supports it out of the box \n\nMemory works the way you want it to\n\nhttps://t.co/3z3j2G3Oyl https://t.co/myV5KlcvmK",
-          "url": "https://x.com/garrytan/status/2122517681740124271"
-        },
-        {
-          "createdAt": "2026-11-17T00:31:56.000Z",
-          "id": "2122487869780742304",
-          "isQuote": true,
-          "likes": 93,
-          "quotedTweetId": "2122353094348390834",
-          "replies": 26,
-          "retweets": 4,
-          "text": "True drone autonomy on top of almost any other flight platform is now here\n\nDegla is already working with mission critical government agencies for search &amp; rescue https://t.co/VFcnBzZGmZ",
-          "url": "https://x.com/garrytan/status/2122487869780742304"
         }
       ],
       "source": "x",
@@ -457,17 +380,6 @@
           "retweets": 45,
           "text": "🚨NEW EXPERIMENT 🚨\n\nPlease join us in welcoming Stitch Loop, an always-on product agent that works non-stop to help lean teams build better products.\n\nJoin the waitlist: https://t.co/L0cp6slvxZ https://t.co/Ym6uf756GB",
           "url": "https://x.com/GoogleLabs/status/2123102389775573314"
-        },
-        {
-          "createdAt": "2026-11-16T22:48:44.000Z",
-          "id": "2122461899178820069",
-          "isQuote": true,
-          "likes": 502,
-          "quotedTweetId": "2122458258145468597",
-          "replies": 15,
-          "retweets": 38,
-          "text": "We’re excited to welcome Howie to Google Labs! \n\nThe @Howie_ai team has spent years figuring out scheduling and calendar management.  We can’t wait to learn from them as we build the next generation of intuitive AI tools together for small businesses 🤝 https://t.co/8bzjebeGdD",
-          "url": "https://x.com/GoogleLabs/status/2122461899178820069"
         }
       ],
       "source": "x",
@@ -542,28 +454,6 @@
           "retweets": 60,
           "text": "Gemini can now do your tasks free of charge in six countries! We’ve built it for anyone who has tasks piling up during all the classes, meetings, and school drop-offs that fill the day. Our goal is for Gemini to get the job done and save you time and money along the way.\n\n3 major updates:\n\n1) Running on our new Gemini 4 Hydrogen model, Gemini can get stuff done at no cost for hundreds of millions of people across the US, Japan, Korea, Canada, Australia, and India.\n\n2) Many highly requested features are rolling out now, starting in the US:\n* Call local businesses (via Google Duplex)\n* Pay and check out (via Google Pay)\n* Text Gemini on Android or iOS (via RCS)\n* Forward emails to Gemini (via Gmail)\n* Sign into sites without sharing passwords outside Google (via Google Password Manager)\n\n3) We’ve also landed our biggest update yet for the Gemini <> Google Workspace integration. The tools trigger more reliably, and you can do much more without ever leaving Gemini. Draft or send emails. Create and edit Docs or Sheets. Add multiple Calendar events at once.\n\nReady to hand off your next task? We can’t wait to see what Gemini crosses off your list first.",
           "url": "https://x.com/joshwoodward/status/2122737427970425171"
-        },
-        {
-          "createdAt": "2026-11-17T02:16:45.000Z",
-          "id": "2122514247045496978",
-          "isQuote": true,
-          "likes": 112,
-          "quotedTweetId": "2122461899178820069",
-          "replies": 7,
-          "retweets": 4,
-          "text": "Welcome! Welcome! https://t.co/vJHr1az0rL",
-          "url": "https://x.com/joshwoodward/status/2122514247045496978"
-        },
-        {
-          "createdAt": "2026-11-16T22:14:27.000Z",
-          "id": "2122453269842886788",
-          "isQuote": false,
-          "likes": 294,
-          "quotedTweetId": null,
-          "replies": 18,
-          "retweets": 29,
-          "text": "Turn your sources into interactive sites with @Gemini_Notebook - we made one with all the periodic table names. :) These are easy to make, easy to share. https://t.co/7atKNhzskL",
-          "url": "https://x.com/joshwoodward/status/2122453269842886788"
         }
       ],
       "source": "x",
@@ -583,17 +473,6 @@
           "retweets": 8,
           "text": "Regardless of what it’s called, we’re clearly moving to yet another era of AI agents in our work. \n\nWe’ve quickly jumped from agents that spit out a quick answer for you, to today agents that you orchestrate inside of a set of tasks. But as agents can both fan out and work in parallel, handle much larger context, be able to do long running work, and have far greater levels of capabilities, we’re entering yet another level of what we can have AI do for us.\n\nWe’ll soon be able to give agents a set of goals, and they can go out and design the best solution for that goal, while also continuously improving it based on the ongoing execution of whatever it built. This will obviously start with engineering because that’s where we’re seeing the best practices emerge first in almost every new era of agents. \n\nBut the impact can be quite massive across the rest of knowledge work. You’ll tell an agent to improve your client onboarding workflow to achieve a certain targeted goal; or have agents go reduce risk in your business; or improve your security posture on an ongoing basis.\n\nThese autonomous systems will be able to take on a set of goals, design the best outcome, test and iterate, deploy, and then optimize whatever it built on an ongoing basis. Importantly, this leads to outcomes and results that humans literally couldn’t have accomplished before. This will lead to fairly new levels of productivity with AI.",
           "url": "https://x.com/levie/status/2123278949749059756"
-        },
-        {
-          "createdAt": "2026-11-17T01:52:19.000Z",
-          "id": "2122508098351038532",
-          "isQuote": true,
-          "likes": 192,
-          "quotedTweetId": "2122409826302988403",
-          "replies": 57,
-          "retweets": 18,
-          "text": "The chart of token spend per employee still has no ceiling in sight. And the closer you are to AI right now the deeper the sense is that we’re actually still in the early part of the curve of token use and adoption. \n\nThis summer and fall’s model releases have continued to push the state of the art forward at a rate that already felt hard to maintain. As a result, for most productive use-cases the models are only now starting to actually work, and the feeling is that things will only accelerate from here.\n\nCoding, in retrospect, was basically trash even 12 months ago. Now it’s finally starting to get good. And now that coding is actually working, you’re getting tool and computer use, which open up a wide variety of knowledge work domains that weren’t possible to throw agents at before.\n\nOnce you have agents that can code, use computers, leverage any tool out there, and understand a variety of domains, you can begin to throw them at a wide variety of knowledge work tasks that were hard to bring automation to across finance, life sciences, cyber, and more. So that brings agents to a broad set of work that we’re not really using them in yet at scale. \n\nThen comes the new form factors of agents. Agent swarms and background agents are going to eat up vastly more tokens than anything we can imagine. You’ll have agents running in most enterprises workflows processing data, validating work, doing research, providing decision support, and so on. And we’ll have swarms that fan out in parallel in areas like cyber, life sciences, coding, and more.\n\nSo basically tokens are only going up from here.",
-          "url": "https://x.com/levie/status/2122508098351038532"
         }
       ],
       "source": "x",
@@ -742,28 +621,6 @@
           "retweets": 0,
           "text": "2026 infra wars in a nutshell..\n\nVibe coding in Q1 \nHarnesses in Q2 \nSandboxes in Q3 \nAgentic CI in Q4\n\nMore providers than I can keep track of. \n\nAny guesses for what comes next?",
           "url": "https://x.com/nikunj/status/2122543500814336281"
-        },
-        {
-          "createdAt": "2026-11-17T00:43:47.000Z",
-          "id": "2122490852497125485",
-          "isQuote": true,
-          "likes": 4,
-          "quotedTweetId": "2122429413942014385",
-          "replies": 0,
-          "retweets": 0,
-          "text": "Like a phoenix, we’re going to see the entire internet burn down to emerge stronger on the other side. \n\nHugops to every single infra company 🙏 https://t.co/hkGgv2hmcZ",
-          "url": "https://x.com/nikunj/status/2122490852497125485"
-        },
-        {
-          "createdAt": "2026-11-16T19:30:31.000Z",
-          "id": "2122412013251162592",
-          "isQuote": false,
-          "likes": 0,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "Make your own here: https://t.co/EADcTLXI4H",
-          "url": "https://x.com/nikunj/status/2122412013251162592"
         }
       ],
       "source": "x",
@@ -989,39 +846,6 @@
           "retweets": 12,
           "text": "OpenAI just put out the most cybersecurity-capable models in the world. Excellent timing.\n\nImportant signal: @vercel DeepsecBench is a stealth cyber benchmark. No lab has had access to the codebases to train on.\n\nhttps://t.co/14WK4F7irU https://t.co/TXMgZ8URsA",
           "url": "https://x.com/rauchg/status/2122812237169426606"
-        },
-        {
-          "createdAt": "2026-11-16T22:36:21.000Z",
-          "id": "2122458782294847807",
-          "isQuote": true,
-          "likes": 273,
-          "quotedTweetId": "2122457875364864347",
-          "replies": 60,
-          "retweets": 10,
-          "text": "Own your intelligence roadmap:\n① Use open SDKs &amp; harnesses\n② Own model choice with Gateways\n③ Own your traces and data, enforce ZDR\n④ Own your models with private inference https://t.co/4Y1dyKDxlm",
-          "url": "https://x.com/rauchg/status/2122458782294847807"
-        },
-        {
-          "createdAt": "2026-11-16T19:44:23.000Z",
-          "id": "2122415506451841215",
-          "isQuote": true,
-          "likes": 585,
-          "quotedTweetId": "2122397118426181962",
-          "replies": 89,
-          "retweets": 23,
-          "text": "The old way: users are human, you run user interviews, get inspired, mock up user journeys.\n\nThe new way: users are agents, you run evals, evals inform the software engineering loop.\n\nGood read on how we do evals at Vercel. https://t.co/zkre5Qbohe",
-          "url": "https://x.com/rauchg/status/2122415506451841215"
-        },
-        {
-          "createdAt": "2026-11-16T18:27:01.000Z",
-          "id": "2122396034186014919",
-          "isQuote": true,
-          "likes": 3933,
-          "quotedTweetId": "2122394902168473975",
-          "replies": 141,
-          "retweets": 142,
-          "text": "A new era of software is upon us. Personalized, fully owned, open source. And higher quality than what it replaces. https://t.co/r2HlwWWvvl",
-          "url": "https://x.com/rauchg/status/2122396034186014919"
         }
       ],
       "source": "x",
@@ -1101,17 +925,6 @@
           "replies": 34,
           "isQuote": true,
           "quotedTweetId": "2123291268814094409"
-        },
-        {
-          "createdAt": "2026-11-16T22:54:58.000Z",
-          "id": "2122463466304971068",
-          "isQuote": true,
-          "likes": 1089,
-          "quotedTweetId": "2122436634172129687",
-          "replies": 143,
-          "retweets": 42,
-          "text": "People: Please reduce the number of permission alerts so agents can work on macOS without constant babysitting\n\nApple: I hear you, here’s some new scary alerts https://t.co/Saw8ftcNNW",
-          "url": "https://x.com/steipete/status/2122463466304971068"
         }
       ],
       "source": "x",
@@ -1230,28 +1043,6 @@
           "retweets": 0,
           "text": "together deleted megkernels\n\nhttps://t.co/3mcdXAmmdR",
           "url": "https://x.com/swyx/status/2122566522094915765"
-        },
-        {
-          "createdAt": "2026-11-17T02:08:09.000Z",
-          "id": "2122512082835067151",
-          "isQuote": false,
-          "likes": 7,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 0,
-          "text": "women are destroying the men, wtf is happening rn https://t.co/KckmQKykvy",
-          "url": "https://x.com/swyx/status/2122512082835067151"
-        },
-        {
-          "createdAt": "2026-11-16T20:31:01.000Z",
-          "id": "2122427240441131203",
-          "isQuote": false,
-          "likes": 0,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 0,
-          "text": "gmail has no gcal search despite cal is sent via gmail https://t.co/EzdQbPNP6s",
-          "url": "https://x.com/swyx/status/2122427240441131203"
         }
       ],
       "source": "x",
@@ -1271,28 +1062,6 @@
           "retweets": 0,
           "text": "also applies to work https://t.co/K8wxqJQoeV",
           "url": "https://x.com/thenanyu/status/2123197657896321439"
-        },
-        {
-          "createdAt": "2026-11-16T21:17:13.000Z",
-          "id": "2122438864791110126",
-          "isQuote": true,
-          "likes": 310,
-          "quotedTweetId": "2122438326431154210",
-          "replies": 4,
-          "retweets": 4,
-          "text": "look, a sane person https://t.co/PejOwWp8RZ",
-          "url": "https://x.com/thenanyu/status/2122438864791110126"
-        },
-        {
-          "createdAt": "2026-11-16T16:50:32.000Z",
-          "id": "2122371754731708883",
-          "isQuote": true,
-          "likes": 40,
-          "quotedTweetId": "2122148144716890348",
-          "replies": 1,
-          "retweets": 0,
-          "text": "Be like jori https://t.co/gnjCetIAS6",
-          "url": "https://x.com/thenanyu/status/2122371754731708883"
         }
       ],
       "source": "x",
@@ -1452,28 +1221,6 @@
           "retweets": 38,
           "text": "making your own software is tough, even with AI, because it's hard to know what you really want\n\nI didn't end up sticking with this, the modes weren't the right way for me to organize my work\n\ngonna a different take that’s more to-do oriented https://t.co/6iejoVGp1D",
           "url": "https://x.com/trq212/status/2123106368492298653"
-        },
-        {
-          "createdAt": "2026-11-16T21:15:05.000Z",
-          "id": "2122438328079524159",
-          "isQuote": false,
-          "likes": 1329,
-          "quotedTweetId": null,
-          "replies": 69,
-          "retweets": 34,
-          "text": "for example, this is me working with agents on a new character for my game https://t.co/jfWNcszyin",
-          "url": "https://x.com/trq212/status/2122438328079524159"
-        },
-        {
-          "createdAt": "2026-11-16T21:15:04.000Z",
-          "id": "2122438326431154210",
-          "isQuote": false,
-          "likes": 4841,
-          "quotedTweetId": null,
-          "replies": 374,
-          "retweets": 200,
-          "text": "software factories feel like a temporary problem. the models will learn to build them for you\n\nthe more interesting question to me is how to build a workspace where agents can collaborate with you",
-          "url": "https://x.com/trq212/status/2122438326431154210"
         }
       ],
       "source": "x",
@@ -1545,7 +1292,7 @@
   ],
   "stats": {
     "xBuilders": 20,
-    "xTweets": 125,
-    "windowSpanHours": 85.58
+    "xTweets": 102,
+    "windowSpanHours": 74.07
   }
 }

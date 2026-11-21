@@ -15,8 +15,537 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Fri, 20 Nov 2026 16:14:47 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Nov 2026 04:02:04 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[25万页证明，黎曼猜想被AI“解决”了吗？]]></title>
+            <description><![CDATA[<p>2026 年 11 月，Anthropic 数学家阿尔珀格宣称与 Claude 合作找到了黎曼猜想的证明。这项主张引发数学界关注，相关核验仍在进行丨vectorfusionart / Shutterstock</p>
+  <p>2026年11月20日，在人工智能公司Anthropic工作的数学家勒温特·阿尔珀格（Levent Alpöge）在个人网站上发出一份简短说明。</p>
+  <p>他说，自己<strong>借助AI模型Claude，找到了黎曼猜想的证明</strong>。</p>
+  <p>消息传出，数学界炸开了锅。这篇证明没有任何传统意义上的论文，也没有投稿给学术期刊，直接附带的是一套由AI生成的机器代码。代码规模极其吓人：如果要打印成人类能读懂的数学文本，足足超过25万页；转化成计算机能严密校验的代码，长达1700万行，压缩后还要分成14个分卷。</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,664" src="https://img.36krcdn.com/hsossms/20261121/v2_08efdfb4d2874020b5632b91982483a6@000000_oswg879645oswg1000oswg664_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>宣称与 Claude 合作找到黎曼猜想证明的数学家阿尔珀格丨阿尔珀格个人主页</p>
+  <p><strong>数学里最大的那道题可能有了答案，可这个答案，人类暂时还看不懂。</strong></p>
+  <p>但就在声明公布当天，美国麻省理工学院（MIT）的数论学家安德鲁·萨瑟兰（Andrew Sutherland）等人就在自己的电脑上完成了代码编译。萨瑟兰确认，整个证明已经通过了底层逻辑检查，只调用了3条最基础的标准公理，里面存在猫腻的可能性约等于零。</p>
+  <p>眼下这还只是宣称。<strong>还有一项关键检查没出结果，数学界也没有正式接受。</strong>可一旦站住，这就是数学史上最重的一发炮弹。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20261121/v2_5874268c1327407388e30f4fa46351d1@000000_oswg111825oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>麻省理工学院数学家萨瑟兰对宣称证明黎曼猜想的Lean 代码进行了独立编译与检查丨Ken Richardson</p>
+  <h2><strong>黎曼猜想，数学界的“白鲸”</strong></h2>
+  <p>美国康奈尔大学的数学家史蒂文·斯特罗加茨（Steven Strogatz）管黎曼猜想叫数学界的《白鲸记》，也就是那头游荡了百余年、谁也抓不到的深海巨兽。</p>
+  <p>整个问题的核心其实非常朴素：素数。那些只能被1和自身整除的数，比如2、3、5、7、11，是所有整数的基石，就像构成物质的原子一样，任何大于1的整数都能唯一拆解成素数的乘积。可素数出现的方式非常怪异，有时候两个挨得很近，有时候隔上几十甚至几百个数都不露面，看起来就像随手掷出的骰子。</p>
+  <p class="image-wrapper"><img data-img-size-val="960,1217" src="https://img.36krcdn.com/hsossms/20261121/v2_d0df0559992e49c98b6684fd63ed347e@000000_oswg159609oswg960oswg1217_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>1859 年，德国数学家伯恩哈德·黎曼在研究素数分布的论文中提出后来被称为“黎曼猜想”的命题丨史密森尼学会图书馆藏</p>
+  <p>1859年，德国数学家伯恩哈德·黎曼（Bernhard Riemann）发现了一条隐藏极深的线索。他把一个特殊的无穷相加函数拓展到复数空间，发现这个函数在特定位置会等于0，这些点被称为零点。<strong>黎曼大胆提出，所有决定素数分布的关键零点，其实全都严丝合缝地排在一条竖直的直线上</strong>。</p>
+  <p>如果这个猜想成立，就意味着素数看似杂乱无章的表面下，藏着一种极其精准的节律，它们偏离平均规律的幅度被一种终极秩序死死限制在极小的范围里。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1083" src="https://img.36krcdn.com/hsossms/20261121/v2_89bb0e9f0cef412bad09334d80974cd6@000000_oswg2156439oswg1080oswg1083_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>乌拉姆螺旋将整数按螺旋排列，并突出标记其中的素数。图中出现的斜线结构展示了素数分布中某些引人注意的局部图案；它本身并不是对黎曼猜想的证明Aydolen / Wikimedia Commons丨图片来源</p>
+  <p>在随后的167年里，一代又一代天才数学家试图征服它。1900年，德国数学家大卫·希尔伯特（David Hilbert）把它列入跨世纪难题清单；2000年，美国克雷数学研究所设立7个千禧年大奖难题，黎曼猜想赫然在列，悬赏100万美元。</p>
+  <p>超级计算机已经核对了前10万亿个零点，无一例外全落在这条线上，可只要找不到严密覆盖所有情况的通式推导，它就依然是一座无法跨越的高峰。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,503" src="https://img.36krcdn.com/hsossms/20261121/v2_5b7aca95acf041a4927f80967b7f1eb4@000000_oswg202831oswg1080oswg503_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>黎曼ζ函数沿临界线取值时的实部和虚部曲线，分别以红色和蓝色表示。两条曲线同时达到零的位置，对应临界线上的零点。图中展示的是有限范围内的情况，并不能单独证明猜想丨Slonzor，Wikimedia Commons</p>
+  <h2><strong>人当向导，AI登峰</strong></h2>
+  <p>阿尔珀格没有独自翻过这座山，他是给AI充当了向导。他宣称一并拿下的，还有更强的广义黎曼猜想，把同样的论断推广到一整族和素数相关的函数上。</p>
+  <p>整个探索过程耗时大约一个多月。<strong>阿尔珀格负责提供大方向的数学直觉，在不同的数论工具之间架桥，Claude则承担了海量的高强度推导。</strong>阿尔珀格说，到了冲刺阶段，Claude把他远远甩在了后面。</p>
+  <p>其中一步关键选择就是Claude提出的：把一条关键数学链条的长度，取为求和长度的平方根。阿尔珀格说，光这一句建议，就足以让同行从椅子上摔下来。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,872" src="https://img.36krcdn.com/hsossms/20261121/v2_5a538cb221854474bc6e83239069925a@000000_oswg1161739oswg1080oswg872_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>阿尔珀格和Claude合作，宣称拿下了黎曼猜想的证明丨Dustin Mudry/Shutterstock</p>
+  <p>由于推导过于庞杂，人类肉眼根本审阅不过来，他们选择把证明直接写成Lean代码。</p>
+  <p>Lean是一款数学证明助手软件。它就像一个六亲不认、毫无感情偏向的终极阅卷老师。数学家必须把每一步证明拆解成最纯粹的逻辑符号，但凡中间有一处跳步、含混或者循环论证，代码就无法通过编译。</p>
+  <p><strong>能跑通Lean编译，通常就意味着这1700万行代码在形式逻辑上自洽且严密。</strong></p>
+  <h2><strong>先别急着开香槟</strong></h2>
+  <p>但这场突破没有换来毫无保留的欢呼。</p>
+  <p>在萨瑟兰看来，这是值得举杯庆祝的历史性时刻，是人类的胜利，背后是Lean和大语言模型的开发者，以及几千年的数学积累。英国牛津大学的菲尔兹奖得主詹姆斯·梅纳德（James Maynard）也认为，只要核实无误，这就是数学史上的里程碑。</p>
+  <p>紧接着赶来的，是审慎和质疑。</p>
+  <p>英国帝国理工学院的凯文·巴泽德（Kevin Buzzard）提醒大家先别急。<strong>代码能编译，只能说明每一步推理在 Lean 里都成立，但还要确认证明的到底是不是黎曼猜想本身。</strong></p>
+  <p>眼下专家们还在做一项对比检查，重点确认两件事：代码有没有悄悄改动黎曼猜想原本数学符号的定义，以及有没有碰巧钻了 Lean 底层内核某个未知 bug 的空子。这项检查还需要时间。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20261121/v2_709b507a6bd54ac09c375295e573d8e3@000000_oswg132775oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>菲尔兹奖得主陶哲轩丨Peter Adams</p>
+  <p>菲尔兹奖得主陶哲轩同样表现得极其克制。他在博客上只说，消化这份证明需要一些时间。早在 9 月，他就提醒过，AI 产出结果的速度，可能会快过人类数学家理解其中思想的速度。</p>
+  <p>也有不少数学家感到焦虑与疲惫。</p>
+  <h2><strong>风暴中心的人</strong></h2>
+  <p>这种焦虑不是一天积累起来的。<strong>过去几个月来，AI与数学界一直在上演激烈的拉锯，而阿尔珀格几乎每一次都站在风暴中心。</strong></p>
+  <p>7月，正是他借助Claude推翻了久攻不破的雅可比猜想，拉开了数学界这个不平静的夏天。</p>
+  <p>9月，OpenAI宣称攻克千禧年难题纳维-斯托克斯方程，随即陷入抢功争议：纽约大学一位数学家指控OpenAI抢走了他尚未发表的进展，而这位数学家的合作者也是阿尔珀格。</p>
+  <p>紧接着，25位菲尔兹奖得主联名发信，公开谴责前沿科技公司和纯粹数学的探索目标存在严重错位。</p>
+  <p>10月，OpenAI一口气向学界倾倒了372项数学成果，陶哲轩甚至公开用“疯狂”来形容这种工业化倒逼式的产出节奏。</p>
+  <p>月底，OpenAI又在另一道“百万美元”量子数学难题上抢先发表，被抢先的人里，又有阿尔珀格。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,615" src="https://img.36krcdn.com/hsossms/20261121/v2_effbd024adc0494e8ea62a76882ba8ec@000000_oswg375157oswg1080oswg615_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>过去几个月来，AI与数学界一直在上演激烈的拉锯丨Lonvero/Shutterstock</p>
+  <p>这一次终于轮到他出手了，时机却极其敏感：<strong>恰逢Anthropic在纳斯达克挂牌上市的第二天。阿尔珀格自己都承认，这个时间点糟透了</strong>，难免让外界产生商业炒作的联想。</p>
+  <h2><strong>还有人类反击？</strong></h2>
+  <p>更具戏剧性的一幕发生在消息公布数小时之后。</p>
+  <p>美国数学会会长、斯坦福大学数学家拉维·瓦基尔（Ravi Vakil）突然在博客上披露，<strong>斯坦福的年轻学者亚历山德罗·马苏洛（Alessandro Masullo）几个月前可能已经独立做出了类似的证明，而且整个过程纯由人类手工推导</strong>，没有借助任何AI。</p>
+  <p>这篇被紧急推到台前的人类底稿，目前还在经历大幅度修改，甚至还没有任何同行完整复核过。在AI工业级力量的步步紧逼之下，人类学者不得不放弃原先精细打磨的习惯，仓促亮牌。</p>
+  <p class="image-wrapper"><img data-img-size-val="550,375" src="https://img.36krcdn.com/hsossms/20261121/v2_432154a751e7429ca0e9b09102d70690@000000_oswg11072oswg550oswg375_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>黎曼ζ函数零点所在区域示意图：负偶数处是平凡零点；绿色区域是临界带，橙色竖线是实部为二分之一的临界线。黎曼猜想断言，所有非平凡零点都位于这条线上丨Encyclopaedia Britannica</p>
+  <h2><strong>终结，还是曙光</strong></h2>
+  <p>真正发生震动的，是科学探索本身的范式。</p>
+  <p>一个由人类提供直觉、机器填平天堑的庞大证明，可能改写数论各分支之间的联结，也把人类学者推到了一个全新的认知地带。面对长达25万页的精密迷宫，人类不再能像过去那样，在一块黑板前依靠个人头脑完全洞悉一道命题成立的全部细节。</p>
+  <p>阿尔珀格从学生时代起就把黎曼猜想当作毕生目标。他在说明里写道，觉得这是一种终结，是很自然的，对他来说，那盏指了多年路的灯熄了。但这一个多月里见到的东西，又让他相信这是科学里某种更伟大事物露出的曙光。</p>
+  <p>萨瑟兰曾经感叹过，能证明黎曼猜想的AI，他一点都不想遇上，因为真到了那一天，数学家丢掉饭碗都成了最小的问题。</p>
+  <p>而在亲手编译通过代码之后，萨瑟兰留下了另一句话：“<strong>在这份证明里，也许最重要的一步，是造出了一台会思考的机器。</strong>”</p>
+  <p>参考文献</p>
+  <p>[1] Levent Alpöge. 关于黎曼猜想证明的说明（remark.pdf）. 2026-11-20. https://alpo.ge/remark.pdf</p>
+  <p>[2] Scientific American. Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math. 2026-11-20. https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/</p>
+  <p>[3] Scientific American. The AI Riemann hypothesis proof is almost certainly true, independent mathematicians attest. 2026-11-20. https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/</p>
+  <p>[4] Scientific American. Dueling claims of Riemann hypothesis proofs emerge. 2026-11-20. https://www.scientificamerican.com/article/dueling-claims-of-riemann-hypothesis-proofs-emerge/</p>
+  <p>[5] Nature. Mathematician says he and AI solved Riemann hypothesis — the field’s biggest outstanding challenge. 2026-11. https://www.nature.com/articles/d41586-026-03812-7</p>
+  <p>[6] Business Insider. Anthropic mathematician says he used AI to solve the Riemann hypothesis. 2026-11-20. https://www.yahoo.com/news/science/articles/anthropic-mathematician-says-claude-helped-183716235.html&nbsp;[7] Scientific American. AI may have just solved a million-dollar math problem. The field will never be the same. 2026-09. https://www.scientificamerican.com/article/ai-may-have-just-solved-a-million-dollar-math-problem-the-field-will-never-be-the-same/&nbsp;[8] Scientific American. 25 winners of math’s ‘Nobel Prize’ decry the AI invasion of their discipline. 2026-09. https://www.scientificamerican.com/article/25-winners-of-maths-nobel-prize-decry-the-ai-invasion-of-their-discipline/</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MTg1MjI3MzY2MQ==&amp;mid=2652383524&amp;idx=1&amp;sn=223b99316cba8c75824622f62ed942b3&amp;chksm=5c5bd419e499c918025979f9b4d2793beb6ed253a9b0e2a03a95cb2ef7dc21b46fc8717f8d1d&amp;scene=0&amp;xtrack=1#rd">“果壳”（ID：Guokr42）</a>，作者：Steed，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 21 Nov 2026 02:49:35 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4078902157185920</guid>
+            <link>https://www.36kr.com/p/4078902157185920</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[东南亚AI中间商之死]]></title>
+            <description><![CDATA[<p>2015年，一家名叫7 Road International的公司在新加坡注册。&nbsp;</p>
+  <p>最初几年，它并不起眼。谁也不会想到，十年后，这家公司会成为英伟达先进AI芯片供应链上一个引人注目的名字。&nbsp;</p>
+  <p>2023年，公司更名为Megaspeed International，业务重心也开始转向云计算和AI基础设施。&nbsp;</p>
+  <p>随后，它的生意急速膨胀。&nbsp;</p>
+  <p>根据披露的贸易记录，2024年5月至2026年2月，Megaspeed相关业务进口英伟达产品的金额达到41.3亿美元。仅2025年11月，公司就进口了17454颗GB300，价值约7.87亿美元。&nbsp;</p>
+  <p>一家有游戏业务背景的公司，突然成为AI芯片贸易的重要玩家。&nbsp;</p>
+  <p>但这门生意很快引来了调查。&nbsp;</p>
+  <p>2025年6月，美国商务部调查人员进入Megaspeed在新加坡的业务现场。新加坡警方也介入调查，时任CEO黄乐被扣留护照，后来被禁止重新入境新加坡。&nbsp;</p>
+  <p>更引人注意的是，英伟达向美国政府提供的芯片库存数据，与外部贸易记录之间出现了约5万颗芯片的差额。&nbsp;</p>
+  <p>一家原本并不起眼的公司，为什么能在短时间内成为数十亿美元的AI基础设施玩家？又为什么卷入一场跨越美国、新加坡和马来西亚的调查？&nbsp;</p>
+  <p>答案藏在一门新兴生意里。&nbsp;</p>
+  <h2>一、GPU不够卖，算力中间商来了</h2>
+  <p>AI热潮最先改变的，是GPU的分配方式。&nbsp;</p>
+  <p>当全球科技公司都在争抢英伟达芯片时，拥有采购渠道、资金和数据中心资源的中间商，开始找到新的生意机会。&nbsp;</p>
+  <p>Megaspeed做的，就是把芯片变成可以出租的算力。它从英伟达及其服务器合作伙伴采购GPU整机，再将服务器部署到马来西亚等地的数据中心，接入云平台，向全球客户出租计算能力。&nbsp;</p>
+  <p>客户不必自己购买服务器，也不用建设机房。只要通过网络连接，就可以按需使用GPU。&nbsp;</p>
+  <p>这与传统芯片代理商有一个重要区别：<strong>代理商卖的是硬件，算力中间商交付的是计算能力。</strong></p>
+  <p>一颗GPU从英伟达供应链出发，经过服务器厂商和贸易商，进入数据中心，最终变成云端可以调用的算力。中间商赚取的，是硬件采购、基础设施部署与算力服务之间的差价，以及整合稀缺资源所产生的溢价。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,572" src="https://img.36krcdn.com/hsossms/20261121/v2_f6ec7b495dc04a4fb5559b4b84cdc038@24917684_oswg88461oswg1080oswg572_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这门生意能够成立，靠的是两股力量。&nbsp;</p>
+  <p>一边是全球GPU供不应求。大模型训练和推理需求迅速增长，科技公司、初创企业和研究机构都在寻找算力，能够拿到芯片、迅速交付的公司，就有机会获得订单。&nbsp;</p>
+  <p>另一边是东南亚数据中心的扩张。&nbsp;</p>
+  <p>新加坡是区域数据中心和金融枢纽，但土地、电力和能耗限制让新增项目面临压力。与新加坡相邻的马来西亚，尤其是柔佛州，拥有相对充裕的土地和电力资源，逐渐承接了数据中心投资。&nbsp;</p>
+  <p>于是，一种新的分工形成了：<strong>芯片从全球供应链采购，服务器在东南亚部署，算力通过网络交付给不同国家的客户。</strong></p>
+  <p>这也让芯片和算力出现了某种分离。&nbsp;</p>
+  <p>GPU的物理位置可以在马来西亚，使用它的客户却可能远在其他国家。客户不需要把芯片运到自己身边，只要能够远程访问数据中心，就能获得计算能力。&nbsp;</p>
+  <p>远程调用本身并不违法。关键在于最终用户是谁、用于什么目的，以及具体服务安排是否符合出口管制要求。&nbsp;</p>
+  <p><strong>但在GPU稀缺的年代，这种连接不同地区资源的能力，本身就具有商业价值。</strong></p>
+  <p>Megaspeed紧紧抓住了这个机会。&nbsp;</p>
+  <h2>二、马来西亚，撑起一门数十亿美元的生意</h2>
+  <p>Megaspeed的扩张，几乎与马来西亚数据中心产业的起飞同步。&nbsp;</p>
+  <p>这家公司早年与游戏厂商7 Road International有渊源，主要从事海外游戏发行和运营。2023年更名后，它开始转向云计算和AI基础设施，并进入英伟达云合作伙伴体系（NCP）。&nbsp;</p>
+  <p>转型的速度相当惊人。&nbsp;</p>
+  <p>根据路透社披露的财务资料，Megaspeed的资产规模从2023年的约3290万美元，增长到2024年的近30亿美元，增加了近90倍；2024年营收达到2.94亿美元。&nbsp;</p>
+  <p>不过，规模膨胀并不意味着生意已经赚钱。公司2024年税后亏损约2000万美元。&nbsp;</p>
+  <p>这并不难理解。&nbsp;</p>
+  <p>算力生意是一门重资产生意。GPU采购、数据中心租赁、电力预付款和设备部署，都需要大量资金先行投入。服务器开始运营后，还要持续承担折旧和融资成本。只有算力租金逐步回流，前期投入才有机会转化为利润。&nbsp;</p>
+  <p><strong>Megaspeed需要不断采购芯片、建设算力资源，再寻找客户消化产能。增长越快，资金需求也越大。</strong></p>
+  <p>它的采购规模同样惊人。&nbsp;</p>
+  <p>彭博社根据马来西亚、印尼海关记录统计，截至2025年11月底，Megaspeed及其关联公司进口的英伟达硬件至少达到46亿美元，涉及约13.6万颗GPU。&nbsp;</p>
+  <p>为了支撑这门生意，Megaspeed在东南亚搭建了复杂的关联公司网络，不同实体分别参与采购、清关和业务运营。&nbsp;</p>
+  <p>问题也随之而来：<strong>如此大规模的芯片进入东南亚之后，究竟部署在哪里，又由谁使用？</strong></p>
+  <p>马来西亚政府开始收紧对高性能芯片流转的管理。&nbsp;</p>
+  <p>2025年7月14日，马来西亚投资、贸易与工业部宣布，美国原产高性能AI芯片的出口、转运和过境需要取得战略贸易许可证。&nbsp;</p>
+  <p>这并没有禁止企业在马来西亚进口和部署芯片。监管重点是芯片进入当地之后，是否会继续流向其他目的地。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,540" src="https://img.36krcdn.com/hsossms/20261121/v2_1c78d2cafb0d4397b829cc1bea104ddc@24917684_oswg94317oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>马来西亚的吸引力，不只在于土地和电力。它还提供了一个特殊条件：<strong>芯片可以部署在当地，算力却能通过网络服务其他市场。</strong></p>
+  <p>2025年3月，《华尔街日报》报道了一起颇为特别的案例。&nbsp;</p>
+  <p>四名工程师飞往马来西亚，每人携带15块硬盘，合计约80TB训练数据。他们没有把数据通过网络传输到境外，而是直接带着硬盘抵达当地数据中心，再租用服务器完成模型训练。&nbsp;</p>
+  <p>数据坐飞机，算力留在机房，训练好的模型参数再传回去。&nbsp;</p>
+  <p>这起事件与Megaspeed没有已知的直接关联，却揭示了东南亚数据中心正在承接的一种新需求：<strong>客户不一定需要拥有芯片，只要能在当地获得算力，就可以完成远程计算任务。</strong></p>
+  <p>而对监管部门来说，问题也越来越具体。&nbsp;</p>
+  <p>对于Megaspeed这样的公司，生意需要芯片顺利进入马来西亚，也需要算力能够持续交付给境外客户。&nbsp;</p>
+  <p>当地政府开始追问芯片的下一站，意味着这条供应链不再只是采购、部署和出租那么简单。&nbsp;</p>
+  <h2>三、5万颗芯片，揭开供应链疑云</h2>
+  <p>2025年6月24日，Megaspeed的麻烦集中爆发。&nbsp;</p>
+  <p>美国商务部工业与安全局（BIS）的调查人员来到公司在新加坡的业务现场，开展最终用途核查，并询问时任CEO黄乐。&nbsp;</p>
+  <p>几乎在同一天，新加坡警方也开始询问她，并扣留了她的护照。&nbsp;</p>
+  <p>两拨调查人员关注的事情并不完全相同。&nbsp;</p>
+  <p>美国商务部关心的是先进芯片有没有流向受限制的最终用户，新加坡警方调查的，则是服务器采购过程中是否存在虚假申报，以及设备是否被运往申报地点以外的地方。&nbsp;</p>
+  <p>一家公司，一批服务器，两套调查视角。&nbsp;</p>
+  <p>新加坡是重要的转口贸易和资金结算枢纽，服务器可以从这里采购、结算，再运往马来西亚。对于调查人员来说，关键问题是：设备究竟去了哪里？申报的最终目的地，是否就是实际使用的地方？&nbsp;</p>
+  <p>新加坡警方还曾多次向美国司法部和FBI寻求协助，希望美国服务器供应商Supermicro配合调查，但获得的协助有限。&nbsp;</p>
+  <p>这场调查并没有很快结束。&nbsp;</p>
+  <p>2026年2月，新加坡警方认为证据不足，无法认定黄乐涉及此前调查的服务器申报犯罪。但警方同时认定，她在调查过程中提供了明知不准确的信息，试图淡化自己在Megaspeed的角色。&nbsp;</p>
+  <p>最终，新加坡方面向她发出严厉警告，并禁止她再次入境。&nbsp;</p>
+  <p>这并不意味着Megaspeed已经被认定违法。针对公司及其他六名相关人员的调查仍在继续。&nbsp;</p>
+  <p>黄乐的遭遇只是这场风波的一部分。真正让调查变得复杂的，是另一组数字。&nbsp;</p>
+  <p>彭博社比对贸易记录和英伟达库存数据后发现，英伟达通过硬件合作伙伴向Megaspeed销售的芯片数量，可能比其向美国政府报告的数量少约5万颗。&nbsp;</p>
+  <p>英伟达对此给出了另一种解释：公司额外检查了Megaspeed的其他仓库，发现了一批此前没有纳入统计的设备，但没有披露具体数量。&nbsp;</p>
+  <p>因此，5万颗的差额并不等于芯片失踪，更不能直接推导出走私。但这个数字足以说明，先进芯片供应链的追踪并不简单。&nbsp;</p>
+  <p>一颗GPU从制造商出发，可能经过服务器厂商、贸易商、关联公司和第三方托管机房。不同环节的库存记录、海关数据和实际部署情况，未必能够实时对应。&nbsp;</p>
+  <p><strong>而5万颗GPU，已经足以支撑数个大型算力中心。</strong></p>
+  <p>Megaspeed的调查，也因此不再只是一个公司的采购和申报问题。&nbsp;</p>
+  <p>2025年夏天，英伟达法务负责人Tim Teter曾致电美国商务部出口管制副部长Jeffrey Kessler，询问BIS是否参与了新加坡对黄乐的调查。&nbsp;</p>
+  <p>此后，BIS内部有关英伟达的沟通和信息请求受到额外限制，部分事项转由Kessler处理。这一变化引发了国会和政界的质疑。&nbsp;</p>
+  <p>同年11月，Axios又披露，美国财政部长贝森特曾在白宫会议上质问商务部长卢特尼克，为什么Megaspeed还没有被列入实体清单。&nbsp;</p>
+  <p>报道还称，财政部、国防部、国务院和美国贸易代表办公室此前支持对其采取限制措施。&nbsp;</p>
+  <p><strong>一笔芯片生意，开始牵动美国政府内部不同部门的利益和判断。</strong></p>
+  <p>英伟达需要全球市场，需要尽可能扩大芯片销售，美国政府则希望先进计算能力不流向受限制的用户和地区。&nbsp;</p>
+  <p>前者关心商业规模，后者关心技术流向。&nbsp;</p>
+  <p>Megaspeed恰好站在两者的交界处。&nbsp;</p>
+  <h2>四、算力套利的好日子，到头了</h2>
+  <p>Megaspeed的商业模式，最依赖的其实是一种分离：芯片部署在哪里，算力就在哪里产生，但算力最终由谁使用，可以通过云服务跨越边界。&nbsp;</p>
+  <p>这套安排曾经给算力中间商留下了很大的经营空间。&nbsp;</p>
+  <p>但现在，监管开始追踪的不只是芯片本身，还有芯片所提供的计算能力。&nbsp;</p>
+  <p>今年11月16日，美国商务部工业与安全局公布针对先进芯片远程访问的临时最终规则（IFR），将监管范围延伸到先进计算能力的远程访问。&nbsp;</p>
+  <p>新规为先进计算能力设定了1200万TPP的门槛，大致相当于750颗H100或H200的计算能力。达到相关条件的数据中心，如果向特定受限制地区的企业提供远程算力服务，可能需要取得美国出口许可。通过第三方中介提供访问，也被纳入监管考虑。&nbsp;</p>
+  <p>规则还涉及马来西亚、新加坡、印尼、泰国和巴西等地的先进芯片出口、再出口和转移许可要求。&nbsp;</p>
+  <p>这次变化，触及了算力中间商生意里最重要的一环。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,604" src="https://img.36krcdn.com/hsossms/20261121/v2_ecab7f2983ca4572bfdd9b14635b125e@24917684_oswg122356oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>过去，企业可以在第三国建设数据中心，再通过云服务向境外客户出租算力。但如今，芯片的物理位置不再是判断合规与否的唯一依据，远程访问者和最终用途也进入审查范围。&nbsp;</p>
+  <p>当然，这不意味着所有跨境云服务都被禁止。是否需要取得许可，仍取决于计算能力门槛、所在地区、最终用户和具体访问行为。&nbsp;</p>
+  <p>但对Megaspeed来说，经营难度已经变了。&nbsp;</p>
+  <p>它不仅要找到GPU、机房和客户，还要弄清楚每一批算力最终交付给谁，是否需要许可，以及客户的远程访问是否符合监管要求。&nbsp;</p>
+  <p>原来可以通过云端连接起来的全球客户，如今可能成为一项需要逐一核查的合规责任。&nbsp;</p>
+  <p>同一个数据中心，同一批GPU，能不能继续出租，已经不只取决于有没有客户，还取决于客户是谁。&nbsp;</p>
+  <p>2026年11月，马来西亚政府宣布调查Megaspeed关联方Speedmatrix进口芯片是否被再次出口，并强调此前对数据中心的例行检查，并不代表政府为Megaspeed出具了合规背书。美国商务部和司法部也确认，对Megaspeed的调查仍在继续。&nbsp;</p>
+  <p>从一家游戏业务背景的公司，到一年内资产膨胀近90倍的AI算力玩家，再到被断供、调查和监管规则包围，Megaspeed几乎经历了全球算力套利周期最完整的一轮起落。&nbsp;</p>
+  <p>它踩中了GPU短缺的窗口，也踩中了东南亚数据中心扩张的窗口。但是，当监管开始追踪远程访问，芯片的最终去向变得越来越重要，这段距离也就不再只是商业机会。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,667" src="https://img.36krcdn.com/hsossms/20261121/v2_c9b3f8da14fc4f68bed7f19349681d65@24917684_oswg112170oswg1080oswg667_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Megaspeed还没有等到调查的最终结论，但这家公司所依赖的增长逻辑，已经遭遇了降维打击。&nbsp;</p>
+  <p>靠信息差与监管缝隙生存的中间商模式，也就此走到了灰色地带的终点。&nbsp;</p>
+  <p>算力中间商的淘金时代，结束了。&nbsp;</p>
+  <p><strong>【版面之外】的话：</strong></p>
+  <p>风口最迷人的地方，是它会让人误以为增长可以一直持续。&nbsp;</p>
+  <p>Megaspeed把芯片短缺变成了一门生意，却没能让这门生意摆脱外部规则的约束。&nbsp;</p>
+  <p>AI时代，最稀缺的资源未必只是算力，还有决定算力流向的权力。&nbsp;</p>
+  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/bYCAb7ubuNtFaeaaT16chw">“版面之外”</a>，作者：画画，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 21 Nov 2026 02:48:23 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4078301371406215</guid>
+            <link>https://www.36kr.com/p/4078301371406215</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[黎曼猜想真被Claude证明了？陶哲轩邓煜等菲尔兹奖得主回应！]]></title>
+            <description><![CDATA[<p>智东西11月21日报道，昨夜，Anthropic数学家莱文特·阿尔珀格（Levent Alpöge）在个人网站上发布声明，<strong>宣称自己与Claude合作，找到了黎曼猜想及其更强版本——广义黎曼猜想（GRH）的证明方法。</strong>&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,434" src="https://img.36krcdn.com/hsossms/20261121/v2_61b4dab3e48b4cdab488e4bb8b3b9e26@000000_oswg256195oswg1000oswg434_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲阿尔珀格发布的声明（图源：其个人主页）</p>
+  <p>这项困扰数学界<strong>167年</strong>的难题，可能迎来重大突破。&nbsp;</p>
+  <p><strong>2006年菲尔兹奖得主陶哲轩</strong>也在个人博客发文，关注这一进展。 他称，初步分析显示，这份证明似乎综合运用了朗兰兹纲领和算术几何领域的现代研究成果。目前，数学界正在尝试验证证明的正确性，并梳理其中的核心思路。他预计，这一过程还需要一段时间。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,1091" src="https://img.36krcdn.com/hsossms/20261121/v2_3771fdb7a74b45f9bb8a42c6d532b1c2@000000_oswg575087oswg1000oswg1091_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲陶哲轩发文</p>
+  <p>罗格斯大学杰出数学教授、数学系主任Alex Kontorovich感叹：“实际上我对证明成功的可能性更有信心了。黎曼猜想是靠运用‘所有’证明的！”康涅狄格大学数学教授Álvaro Lozano-Robledo也转发了这一消息，并以两个感叹号表达惊讶。&nbsp;</p>
+  <p>普林斯顿大学数学与AI研究人员Ayush Khaitan称：“就在昨天，我还和合作者讨论，<strong>让人类参与其中，仍然是利用大语言模型解决数学难题的最佳方式。</strong>”&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,762" src="https://img.36krcdn.com/hsossms/20261121/v2_3db75b59a9824cb6b745ea99b74020b0@000000_oswg77714oswg1000oswg762_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>麻省理工学院数学家Andrew Sutherland则在独立完成相关Lean代码的编译后，对《美国科学家杂志》提及：“这确实是一个历史性时刻。<strong>世界已经改变了……在我看来，这是人类的胜利，是值得庆祝的一天</strong>。”</p>
+  <p><strong>阿尔珀格透露，他与Claude生成的文字证明超过25万页</strong>，由于篇幅过长、难以阅读，最终没有公开。取而代之的是一份4页说明，以及分为14个压缩文件的Lean形式化证明代码。<strong>这套代码约有1700万行</strong>。阿尔珀格称，其中包含广义黎曼猜想的完整形式化证明，但这一成果仍有待数学界进一步检验。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,664" src="https://img.36krcdn.com/hsossms/20261121/v2_9e75a85911684becb718abb0313011ea@000000_oswg879117oswg1000oswg664_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲Anthropic数学家Levent Alpöge（图源：个人主页）</p>
+  <p><strong>声明原文：</strong>&nbsp;</p>
+  <p><strong>https://alpo.ge/remark.pdf</strong>&nbsp;</p>
+  <p><strong>原始代码（从01至14）：</strong>&nbsp;</p>
+  <p><strong>https://alpo.ge/lean.tar.gz.part01</strong>&nbsp;</p>
+  <p><strong>https://alpo.ge/lean.tar.gz.part14</strong>&nbsp;</p>
+  <p>阿尔珀格拥有哈佛大学本科学位和普林斯顿大学数学博士学位，曾担任哈佛大学学会青年研究员，目前在Anthropic从事研究工作。&nbsp;</p>
+  <p>在声明中，他坦言，黎曼猜想从童年起就是他最重要的数学研究目标，而此次合作中，Claude的表现远远超出他的预期。“<strong>在接近终点时，Claude远远超过了我。不，Claude简直是在终点附近飞翔、跳舞、闪耀。</strong>”&nbsp;</p>
+  <p>阿尔珀格称，他为Claude指明了关键研究方向，随后Claude提出了一系列令他惊叹的数学思路。他预计，目前极其冗长的证明未来有望得到大幅简化。&nbsp;</p>
+  <p>值得一提的是，阿尔珀格实际上在Anthropic上市前几天就已取得这一成果。据《华尔街日报》今日凌晨报道，他于当地时间11月15日深夜至16日凌晨完成关键工作，随后联系Anthropic CEO达里奥·阿莫代伊（Dario Amodei），询问能否对外公布。</p>
+  <p>阿尔珀格坦言，这一成果的公布时间“非常糟糕”，公司内部也存在需要遵守的限制，但他最终还是决定公开，称自己“实在无法再等下去了”。</p>
+  <p><strong>黎曼猜想究竟有多难？</strong>&nbsp;</p>
+  <p>1859年，德国数学家黎曼提出这一猜想，其核心是黎曼ζ函数的所有非平凡零点，实部是否都等于1/2。&nbsp;</p>
+  <p>这个看似抽象的问题，与素数在自然数中的分布密切相关。数学家已经通过计算机验证了大量零点，但有限数量的验证无法证明猜想对无限多个零点都成立。&nbsp;</p>
+  <p><strong>广义黎曼猜想</strong>则将这一问题推广到更广泛的数学函数，其成立与否影响数论领域大量重要结论。&nbsp;</p>
+  <p>2000年，美国克雷数学研究所将黎曼猜想列入<strong>七大千禧年数学难题之一</strong>，并设立100万美元（约合人民币667.7万元）奖金。&nbsp;</p>
+  <p>此前，Anthropic曾在今年8月公布Claude对相关问题的研究成果，将能够证明位于关键线上的零点比例下界从41.6%提高至67.2%，但当时距离解决完整猜想仍有明显差距。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,1015" src="https://img.36krcdn.com/hsossms/20261121/v2_8016d15e92bb4fd4961ba335ce5969eb@000000_oswg728850oswg1000oswg1015_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>有意思的是，OpenAI联合创始人兼CEO萨姆·奥尔特曼（Sam Altman）早在2022年2月，就曾在X上庆祝OpenAI解决了两道国际数学奥林匹克竞赛（IMO）题目，同时半开玩笑地追问：“<strong>黎曼猜想什么时候能搞定？</strong>”</p>
+  <p>如今，率先宣称借助AI证明这一世纪难题的，却是头号竞争对手Anthropic。奥尔特曼这条4年多前的推文也被网友重新翻出，有人在评论区调侃：“<strong>Anthropic抢在你前面做到了，兄弟。</strong>”&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="890,1312" src="https://img.36krcdn.com/hsossms/20261121/v2_777b5a71404e4a179728dace68656c25@000000_oswg324504oswg890oswg1312_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>声明发布后，清华特奖得主、现任谷歌DeepMind研究科学家姚顺宇也转发了阿尔珀格的声明，惊呼：“<strong>天啊，黎曼猜想？！</strong>”&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,225" src="https://img.36krcdn.com/hsossms/20261121/v2_b6ebf9cbe80944b6850eff84a085420a@000000_oswg50715oswg1000oswg225_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>此次声明也迅速引发数学界关注。&nbsp;</p>
+  <p>数学家Elliot Glazer在X上称，他初步检查发现，阿尔珀格发布的Lean文件中，形式化的数学命题确实是广义黎曼猜想。&nbsp;</p>
+  <p>虽然当时代码仍在编译，预计需要数小时，但他认为相关代码应该已经提前通过检查。他还提到，理论上不排除Lean自身存在漏洞的可能，但他估计这种情况发生的概率远低于1%。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,411" src="https://img.36krcdn.com/hsossms/20261121/v2_b7170699d8674b419958c7530c88b6e9@000000_oswg134814oswg1000oswg411_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>英国曼彻斯特大学数学家Thomas Bloom则感叹，<strong>他不知道究竟哪件事更让自己震惊</strong>：AI声称证明了黎曼猜想，还是AI声称生成了一份超过25万页、逻辑连贯的证明。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,347" src="https://img.36krcdn.com/hsossms/20261121/v2_ea5b41dcde8843bb9b90d342dd9a32cc@000000_oswg117292oswg1000oswg347_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>网上还流传一张疑似<strong>2026年菲尔兹奖得主邓煜</strong>评价此次证明的聊天截图。面对相关提问，Sayaka回复：“<strong>至少拿出500页版本前看都不看。</strong>”这句话大概是说，25万页的原始草稿体量过大、不具备评审条件，需要作者先提炼出约500页的精简版本，才值得投入精力核验。否则，很难验证是否证明成立。</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,346" src="https://img.36krcdn.com/hsossms/20261121/v2_daa6d57f398d4a7a83327b6f470934cd@000000_oswg102055oswg1000oswg346_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲图源网络</p>
+  <p>目前，阿尔珀格的证明仍有待数学界进一步检验。按照克雷数学研究所的规则，千禧年数学难题的解答必须经过正式发表、至少两年的检验，并获得国际数学界普遍认可，才有资格获奖。&nbsp;</p>
+  <p><strong>与此同时，刚刚上市的Anthropic在资本市场遭遇重挫。</strong>&nbsp;</p>
+  <p>美东时间11月20日，Anthropic股价收于88.91美元（约合人民币593.7元），下跌8.50%，总市值约1.18万亿美元（约合人民币7.87万亿元）。盘中股价暴跌近13%，一度逼近发行价，上市仅第二个交易日，IPO以来的涨幅已几乎全部回吐。</p>
+  <p class="image-wrapper"><img data-img-size-val="1000,1844" src="https://img.36krcdn.com/hsossms/20261121/v2_9de521d8189c48f4bc4f1348f4b142e0@000000_oswg195342oswg1000oswg1844_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲Anthropic股价走势（图源：腾讯自选股）</p>
+  <p><strong>结语：当AI再一次</strong>&nbsp;</p>
+  <p><strong>跑在数学家前面</strong>&nbsp;</p>
+  <p>AI正在改变数学研究的分工。过去，数学家需要花费数十年寻找一道难题的答案；未来，他们可能需要花费大量时间，理解AI已经给出的证明。&nbsp;</p>
+  <p>菲尔兹奖得主陶哲轩此前就曾警告，AI生成数学成果的速度，可能超过人类理解和消化这些成果的速度。&nbsp;</p>
+  <p>如果AI开始比数学家更早找到答案，人类又该如何重新定义自己的角色？</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652814743&amp;idx=1&amp;sn=638706751afcd9d42c25cf0080bde6e2&amp;chksm=85f4b116aea401d137a87a0fc74d8b5f05f791dad96999640179985a281db66c67afe34aa468&amp;scene=0&amp;xtrack=1#rd">“智东西”（ID：zhidxcom）</a>，作者：江 宇，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 21 Nov 2026 01:06:21 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4078708897092744</guid>
+            <link>https://www.36kr.com/p/4078708897092744</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[AI供电前史： 照明、汽车与工业电子如何汇入算力基础设施]]></title>
+            <description><![CDATA[<p>2008年北京奥运会，国家游泳中心“水立方”在夜色中变成了一块巨大的蓝色发光体。支撑这幅科技奥运景观的，是当时仍在快速产业化的发光二极管（LED）照明。对观众来说，这是一个醒目的城市景观；对产业来说，它是中国半导体照明产业交上的一份应用验证答卷：<strong>LED的氮化镓（GaN）材料、器件制备、封装与散热、可靠性验证和控制系统，在这一刻都从实验室指标变成了制造技术。</strong></p>
+  <p>当时当然不会有人把这束蓝光和今天的人工智能（AI）数据中心联系起来。两者之间也不存在一条预先设计好的技术路线。只是后来，照明产业持续积累的氮化镓材料和器件技术、新能源汽车带动起来的碳化硅（SiC）高压功率电子技术，以及工业和服务器长期迭代的硅（Si）基电源技术，恰好在AI算力基础设施的供电系统里重新碰到了一起。今天看上去很新的AI电源，其实是更早产业发展所建设的能力混合演化而来的结果。</p>
+  <p><strong>为什么这些旧能力偏偏在今天重新变得重要？最直接的原因是AI算力的供电需求。</strong>随着AI芯片功耗和机柜功率密度同步上升，单个机柜正在从几十千瓦走向数百千瓦，下一阶段甚至指向兆瓦级。到这个功率等级，供电效率不再只是电费问题：同样的机房空间能部署多少GPU、输入电力中有多少最终能够有效送到芯片，都会受到供电架构的限制。</p>
+  <p>支撑这套系统的关键技术之一，是功率半导体及其电力转换系统。数据中心里的电从电网直接送进GPU的过程中，要经过整流、备用供电、机房配电、服务器电源和多级直流转换，最后才变成芯片需要的低电压、大电流。过去服务器功率还不高时，这套链路即使经过多次转换，电力损耗和发热也能承受；当机柜功率逼近兆瓦级，原有架构里的电流、铜材、损耗和散热问题就会被同时放大。</p>
+  <p>向一个1兆瓦（MW）机柜输送功率，如果仍用48伏（V）直流输送，理论电流约为20 833安培（A）；如果提高到800伏，电流约为1 250安培。功率相同时，电压越高，电流越小，而导线上的电阻损耗又与电流平方相关。美国半导体企业德州仪器（TI）估算，若用48伏架构给1兆瓦机柜配电，仅为把损耗控制在合理范围，铜材用量就会接近200公斤。这个数字放在单个机柜里只是工程问题，放到大规模AI园区里，就会变成线缆、空间、散热和巨额资本开支问题。</p>
+  <p>这也是数据中心供电电压不断提高的原因。谷歌在2025年公开了可支持1兆瓦机柜的正负400伏直流方案；英伟达则在推进800伏高压直流架构，并于2026年进一步与谷歌、微软和开放计算项目（OCP）推动相关产业协同。核心思路并不复杂：尽量用较高电压完成机柜侧的大功率传输，再在靠近芯片的位置降到低压，从而减少大电流带来的铜耗和空间负担。</p>
+  <p>电压升高以后，功率半导体的重要性也随之上升。氮化镓适合高频、高效率和高功率密度的转换环节；碳化硅在耐压和大功率方面更有优势；硅成本低、产业成熟，仍承担大量控制、保护、低压转换和电源管理功能。因此，AI电源不会由某一种材料包圆，而是根据不同电压、功率密度和开关频率重新分工。理解这种分工，我们需要回溯这三类器件各自形成产业能力的来时路。</p>
+  <h2><strong>一束蓝光留下的氮化镓产业</strong></h2>
+  <p><strong>氮化镓的产业史首先是一部半导体照明发展史。</strong>20世纪60年代红色和绿色LED已经出现，但高效蓝光长期缺席。没有蓝光，既难以构成完整的红、绿、蓝三基色，也无法通过蓝光激发荧光粉获得高效白光。这个问题困扰产业界数十年，核心障碍就在于高质量氮化镓材料生长和p型掺杂（指通过掺入特定杂质，使材料能够传导正电荷）。</p>
+  <p>赤崎勇、天野浩和中村修二三位科学家先后解决了其中的关键问题。1993年，日亚化学推出高亮度蓝色LED，2014年，三位科学家因此获得诺贝尔物理学奖。蓝光LED与荧光粉结合，使高效率、长寿命的白光LED成为现实，一个新的照明产业由此打开。</p>
+  <p>从科学发现走到大规模产业需要很长的一段工程化过程。日本科学技术振兴机构（JST）早在1987～1990年便通过委托开发机制支持丰田合成与赤崎团队推进蓝光LED商业化，投入约5.5亿日元。到2013年，相关技术累计向JST返还约56亿日元许可收入。公共资金承担早期技术风险，大学提供原创技术，企业完成制造和市场验证，日本首先完成了蓝光LED从实验室走向产业的第一步。</p>
+  <p>中国随后把这项技术推向了更大的产业尺度。2003年，中国科学院半导体研究所向科技部汇报了发展氮化物LED和半导体照明的建议；科技部当年6月启动“国家半导体照明工程”；此后，“十一五”国家高技术研究发展计划（863计划）继续投入。2008年北京奥运会让LED在“水立方”等大型工程中得到集中展示；2009年，“十城万盏”把城市照明进一步变成规模化应用现场，后来扩展到37座城市；2012年又实施半导体照明产品财政补贴。到2015年，中国半导体照明产业规模已从2003年的约90亿元增长到4245亿元。</p>
+  <p>数以千万计的LED需要稳定生产，就必须持续解决外延生长、晶体缺陷控制、良率提升、封装与散热设计和可靠性等一系列问题。产能扩张又形成了对金属有机化学气相沉积（M<ai-product-link data-id="15165" data-name="OCV" data-logo="https://img.36dianping.com/20260901/v2_f17bb0e8f05e432784c9f40c7fe5ecc1_oswg756841oswg1318oswg988_img_000" data-classify-list="视频生成,图像生成,视频编辑" data-refer-type="20">OCV</ai-product-link>D）设备、衬底材料、测试技术和工程人才的巨大需求。照明市场为氮化镓提供了一个很长的制造学习周期，让一项项原本存在于少数实验室里的技术，逐渐变成整个产业链可以重复制造、持续降本的工程能力。</p>
+  <p>当然，氮化镓LED与氮化镓功率器件并不是同一种器件，生产线也不能简单互换。但对氮化镓材料的理解、外延与缺陷控制能力、设备生态、工程人才，以及企业组织化制造化合物半导体的经验则可以迁移和进化。此后，氮化镓又进入射频功率器件和通信基站，第五代移动通信（5G）扩大了高功率射频应用，消费电子快充则让氮化镓功率器件在高效率、小型化电源中接受了更大规模的市场验证。</p>
+  <p>如今，这条产业链继续向AI供电延伸。德州仪器在2025年推出集成650V氮化镓功率晶体管的高密度电源器件；英飞凌（Infineon）在2026年发布基于650V氮化镓的高压中间母线转换参考设计，面向±400V和800V直流AI服务器架构。中国企业这一次也进入了全球技术竞争的前沿。英诺赛科与英伟达合作推进800伏直流AI数据中心供电，并展示了覆盖15V到1 200V的氮化镓方案。</p>
+  <p>如果把视线从器件再往产业链上游移，中国氮化镓产业今天具备完整的工程化基础。外延厂商如晶湛半导体等长期专注氮化镓材料，使中国早在2021年就具备了生产12英寸（300毫米）氮化镓晶圆的能力。再往下游，上海新微半导体依托国资和科研院所成果转化体系发展专业化化合物半导体制造，正在建设覆盖低、中、高压的氮化镓功率代工平台。此外，中国还部署建设了公共中试研发平台。深圳平湖实验室是国家第三代半导体技术创新中心深圳综合平台，也是面向行业开放的功率半导体研发和中试平台，已经布局8英寸碳化硅、氮化镓芯片研发以及从材料、制造到封装测试的共享能力。中国已不再只是应用市场和制造能力的承接者，关键环节已经进入全球第一梯队。</p>
+  <p>对中国而言，发展半导体照明这段历史尤其值得重视。美国、日本和欧洲都有自己的科研、国防、通信和工业积累。但中国过去20多年围绕半导体照明建立起来的大规模氮化镓产业，为后来进入射频和功率电子领域提供了现成的人才、设备、供应链和工程经验，因此降低了中国进入这一轮氮化镓产业竞争的门槛。</p>
+  <h2><strong>新能源汽车留下的</strong></h2>
+  <h2><strong>不只是汽车</strong></h2>
+  <p>碳化硅功率器件在新能源汽车普及之前已经进入工业市场。2000年前后，碳化硅肖特基二极管开始实现商业化应用。2011年前后，科锐公司（Cree，现Wolfspeed）进一步推出商用SiC MOSFET（金属氧化物半导体场效应管），推动碳化硅功率器件由二极管向功率开关器件拓展，并逐步进入更广泛的高压、高频和高效率电力电子应用领域。早期碳化硅已经能在工业和高端电力电子中体现性能优势，但晶圆、材料和制造成本都很高，市场规模始终有限。</p>
+  <p>新能源汽车提供了这个市场。2009年，中国在13座城市启动节能与新能源汽车示范；2010年扩大到私人购车补贴；2012年的产业规划进一步明确规模化目标。到2024年，中国新能源汽车销量达到1 286.6万辆，占新车销量40.9%。</p>
+  <p>新能源汽车政策没有规定企业必须选择碳化硅。但因为它创造了持续增长的高压、高效率需求，因此获得了过去工业市场很难提供的大批量订单，也经历了车规可靠性验证和持续降本。围绕高压平台形成的器件、模块、连接器、测试和制造能力，后来并没有只留在汽车里。</p>
+  <p>这正是汽车和AI供电发生连接的地方。谷歌在解释±400V数据中心方案时，明确提到可以利用电动汽车供应链已有的规模经济、制造能力和质量基础。AI数据中心无须重新建立一套高压直流工业体系，汽车产业已经完成了相当一部分前期工程。</p>
+  <h2><strong>硅，一条没有中断进步的产业</strong></h2>
+  <p>硅基功率电子没有一个类似“十城万盏”或新能源汽车的单一转折点。它的优势来自连续几十年的大规模使用。从功率金属氧化物半导体场效应晶体管（MOSFET）和绝缘栅双极型晶体管（IGBT），到同步降压、多相供电和电源管理集成电路（PMIC），硅器件先后进入家电、电机、工厂、铁路、光伏、通信和服务器。这些市场对成本、良率、封装、控制和可靠性的要求不同，却一直在共同推动同一套产业体系成熟。</p>
+  <p>服务器本身也是硅功率电子长期演进的重要市场。20年前，中央处理器（CPU）供电已经需要处理上百安培电流。今天，先进GPU的末级供电正在迈向千安级。氮化镓和碳化硅进入数据中心以后，硅也不会因此退出。高压大功率环节会更多使用碳化硅，高频高功率密度环节给氮化镓留下空间，而控制、保护、电源管理以及大量低压转换仍会长期依赖硅。AI供电正在形成一套混合材料系统。</p>
+  <p>硅这条历史线还有一个重要意义：<strong>产业能力并不一定由一次标志性政策塑造。</strong>长期稳定的市场同样会形成技术积累。家电把成本压下来，工业变频和铁路提高了功率等级与可靠性，通信设备强化了高效率和高可用性，服务器又推动了多相供电、数字控制和更高电流密度。几十年的需求叠加，最终把硅基电源变成今天最成熟的技术体系。</p>
+  <h2><strong>“混合进化”是技术发展的底色</strong></h2>
+  <p>把视野从中国拉开，会发现“混合进化”并非中国特有。不同经济体选择的政策工具不同，但都在处理同一个问题：<strong>怎样让一项尚未成熟的技术跨过从科学发现到规模制造之间的断点。</strong></p>
+  <p>中国最有代表性的路径，是用应用场景形成规模需求。半导体照明通过公共照明创造早期订单，新能源汽车从示范车队逐步扩展到私人消费。政策未必能够预先决定最终胜出的器件路线，却可以给新技术足够早的订单、足够大的工程现场和足够长的降本周期。</p>
+  <p>日本蓝光LED商业化是典型的“科研—企业”桥接。JST通过委托开发，让大学团队的氮化镓突破进入丰田合成的产业化体系；日本新能源产业技术综合开发机构（NEDO）随后又长期推动碳化硅，从材料、器件一直做到铁路等系统应用。</p>
+  <p>美国更强调针对技术瓶颈持续下注。美国能源部高级能源研究计划署（ARPA-E）在2013年投入2 700万美元支持氮化镓、碳化硅等低成本宽禁带开关，后续又集中解决氮化镓掺杂等制造问题，并进一步把范围推进到拓扑、封装、控制、热管理和完整变换器。美国电力电子制造创新中心（PowerAmerica）进一步处理制造规模、成本、可靠性、商业化和人才。政策重点随着技术成熟度变化，从材料一路走到系统。</p>
+  <p>中国、日本和美国的路径并不相同，有的依靠大规模市场，有的连接科研与企业，有的连续攻克技术断点，有的建设联合中试平台。留下的结果却很相似：人才、设备、工艺、标准、供应链，以及被持续压低的成本曲线。这些能力最终都可能流向最初没有写进项目书的新产业。</p>
+  <p>从照明、汽车和工业电子一路追到AI，最值得关注的，是这些投入究竟留下了什么。20年前几乎没人会把LED政策解释为对未来AI电源的投资，也没人会把新能源汽车补贴写成兆瓦级数据中心的前置工程。</p>
+  <p>一轮产业投入的收益应评估其能否形成可迁移的能力。设备能否服务下一种器件，工程人才是否掌握可复用的工艺知识，供应链能否进入新的电压和功率等级，企业是否建立跨材料、跨系统的开发能力。这些资产比某一代产品活得更久。</p>
+  <p>这也解释了国际合作的长期价值。氮化镓、碳化硅和硅基功率电子的演进都跨越了高校、企业、政府项目和多个国家的产业体系。如果把知识、人才和市场过早锁进彼此隔离的“小院”，我们损失的不是一代产品，而是下一次产业之间发生“混合进化”的机会。自主能力和国际合作不是一对反义词。确保供应链安全需要降低关键环节的单点依赖，同时也需要保留基础研究、标准、人才和民用技术的交流空间。</p>
+  <p>今天看起来最前沿的AI供电技术，研发、制造学习和规模化成本，已经由更早的市场承担。2008年水立方的蓝光、街头的新能源汽车和几十年不断更新的工业电源原本没有共同目标，只是当AI机柜功率快速上升时，它们积累的材料、器件和制造能力被同时调用。</p>
+  <p>这也是今天重新看照明、汽车和工业电子的意义。评估一项产业投入，除了判断眼前产品能否形成市场，还要问它留下的技术、人才和制造能力，能否在下一轮尚未出现的需求中被再次调用。</p>
+  <p>何佳恒 张韵 陈敬 | 文</p>
+  <p>何佳恒是香港功率半导体芯片与应用研发中心副研究员，张韵是中国科学院半导体研究所副所长，陈敬是香港功率半导体芯片与应用研发中心主任</p>
+  <p>内容来源：信睿周报</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MjM5NzY4MzQyMQ==&amp;mid=2650154180&amp;idx=1&amp;sn=dc6087110953f50d333d1eac9d16ddeb&amp;chksm=bff95f51ff1cc74b8e7bfcc2636e51e3ed108230ffd72fac331fc4c5c6184f68e16672db7bc8&amp;scene=0&amp;xtrack=1#rd">“哈佛商业评论”（ID：hbrchinese）</a>，作者：信睿周报，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 21 Nov 2026 01:05:23 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4078758591960197</guid>
+            <link>https://www.36kr.com/p/4078758591960197</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[腾讯姚顺雨团队深夜回应一切：算力不足、模型刷榜、雷霆大思考]]></title>
+            <description><![CDATA[<p>智东西11月21日报道，今天凌晨，<strong>腾讯混元团队</strong>在社交媒体平台Reddit举行了一场AMA活动，与全球开发者<strong>围绕Hy4系列模型展开交流</strong>。<strong>姚顺雨也出现在了评论区</strong>，只是哪个是他的马甲我们不得而知。&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20261121/v2_aa5fa2e3e15e4dd2a91d8ad8e6799460@000000_oswg305539oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲姚顺雨在X预告本次Reddit AMA活动（图源：X）</p>
+  <p>此次AMA处于一个非常有趣的时间点。&nbsp;</p>
+  <p>就在昨天，腾讯刚刚<strong>开放旗舰模型Hy4的权重</strong>，并发布了模型安全评估卡片（System Card）。此前几天，腾讯还推出了主打低成本、高效率的Hy4 flash，接连两款模型的发布，让腾讯混元的技术路线成为社区关注的焦点。&nbsp;</p>
+  <p>与此同时，AI行业的竞争也在发生变化。近期，第三方<strong>模型评测机构Artificial Analysis</strong>大幅调整评测体系，部分中国模型的评分出现波动。在高端算力获取受限、全球前沿模型持续迭代的背景下，<strong>中国模型如何缩小与顶尖模型的差距</strong>，也成为开发者关心的问题。&nbsp;</p>
+  <p>智东西也参与了此次AMA，并向腾讯混元团队提出了问题：<strong>随着先进AI芯片的获取受到越来越多限制，腾讯Hy模型未来能否继续缩小与全球前沿模型的差距？</strong>&nbsp;</p>
+  <p>腾讯混元团队成员回应称：“<strong>我们正在尽可能充分地利用现有资源，以追赶前沿水平</strong>。”&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,360" src="https://img.36krcdn.com/hsossms/20261121/v2_f6121f6a1e304a739cdd579dc97c231d@000000_oswg111449oswg1080oswg360_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲混元团队回答智东西提问（图源：智东西）</p>
+  <p>除了算力问题，腾讯混元团队还在这场交流中透露了不少新信息。&nbsp;</p>
+  <p>在模型规模方面，混元团队明确表示，<strong>下一代Hy模型将进一步扩大参数规模</strong>，同时继续投入大规模强化学习。&nbsp;</p>
+  <p><strong>对于更小的模型</strong>，该团队透露，Flash-Lite、面向24GB显存设备的模型等产品正在规划之中。&nbsp;</p>
+  <p>技术层面，腾讯还首次在此次交流中披露了Hy4的一些<strong>架构选型细节</strong>。团队曾在GQA和MLA两种注意力机制之间反复权衡，最终由于DSA降低了MLA在解码阶段的计算开销，才决定采用MLA架构。&nbsp;</p>
+  <p>此外，对于<strong>模型评测、安全限制、AI编程生态，以及模型能否实现递归自我改进（RSI）</strong>等问题，腾讯Hy团队也给出了回应。&nbsp;</p>
+  <p>Hy4是腾讯最新一代旗舰模型，重点强化长程软件工程、工具调用、视觉理解和科研等能力。Hy4 flash则进一步优化推理成本，总参数量为224B，包含64B Engram参数，每Token仅激活12B参数。&nbsp;</p>
+  <p>根据腾讯披露的数据，在自建日常工作任务评测WorkIndex中，<strong>Hy4 flash的单任务成本仅为Hy4的1/20</strong>。在涉及85名内部用户、259项工作任务的盲测中，其<strong>单任务成本约为0.26元</strong>。&nbsp;</p>
+  <p>不过，Hy4在部分高难度任务上仍与全球顶尖闭源模型存在差距。如何<strong>在有限算力下继续提升模型能力</strong>，同时兼顾推理成本、产品体验和开源生态，仍是混元团队需要面对的问题。&nbsp;</p>
+  <p>以下是智东西从此次AMA中整理的重点内容，为了方便阅读，我们做了不改变原意的整理：&nbsp;</p>
+  <p>完整问答地址：&nbsp;</p>
+  <p>https://www.reddit.com/r/LocalLLaMA/comments/1y15w4a/tencent_hy_team_shunyu_yao_here_ask_us_anything/&nbsp;</p>
+  <h2><strong>01</strong> <strong>.</strong>&nbsp;</h2>
+  <h2><strong>用有限算力追赶前沿</strong>&nbsp;</h2>
+  <h2><strong>下一代模型将大幅扩容</strong>&nbsp;</h2>
+  <h2><strong>小尺寸模型在路上</strong>&nbsp;</h2>
+  <p><strong>（1）智东西提问：</strong>&nbsp;随着先进AI芯片的获取日益受限，腾讯Hy目前面临的最大瓶颈是什么？是算力、训练效率，还是算法？未来Hy系列模型能否继续缩小与全球顶尖模型之间的差距？&nbsp;</p>
+  <p><strong>腾讯混元：我们正在尽可能充分地利用现有资源，以追赶前沿水平。</strong>&nbsp;</p>
+  <p><strong>（2）网友提问：</strong>&nbsp;未来Hy4.5是否计划将模型参数规模扩大至1.5万亿至2万亿？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>下一代Hy模型肯定会进一步大幅扩大规模。&nbsp;</p>
+  <p><strong>（3）网友提问：</strong>&nbsp;你们认为当前Hy系列模型已经接近能力上限了吗？未来更强的模型是否必须增加参数量，还是可以保持现有规模，通过后训练进一步提升能力？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>我们相信Hy4仍然有很大的提升空间，尤其是在后训练方面。我们正在大力投入大规模强化学习（RL），同时持续改善用户体验和模型安全性。敬请期待后续更新。我们还<strong>计划训练规模更大的模型</strong>。<strong>我们坚信Scaling的重要性，并将继续坚持这一方向</strong>。&nbsp;</p>
+  <p><strong>（4）网友提问：</strong>&nbsp;字节跳动、<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>等公司似乎正在向3T甚至5T参数的超大规模模型进军，而腾讯Hy系列仍处于700B左右的规模。为什么选择这样的路线？你们如何看待参数量对模型智能水平的影响？未来是否计划进一步扩展模型规模？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>Hy3和Hy4已经证明，<strong>规模较小但训练扎实的模型往往也能超越更大的模型</strong>。更重要的是，小尺寸模型的成本更低，而且在研发过程中，我们还能学到更多、积累更多经验。&nbsp;</p>
+  <p><strong>（5）综合多位网友提问：</strong>&nbsp;腾讯未来是否会推出Hy4-mini，以及24B—31B规模的稠密模型？是否有计划推出能够在24GB显存、64GB—128GB内存设备上运行的小尺寸模型？对于100B参数以下、专门面向编程任务优化的模型，又有哪些规划？&nbsp;</p>
+  <p><strong>腾讯混元：Hy4-mini已经在开发路线图中</strong>，未来还将推出更多小型模型。 对于24B—31B规模的稠密模型，团队正在考虑；对于更小规模的稠密模型，也有推出的可能，但目前可能不会专门开发100B参数以下、针对编程任务优化的模型。&nbsp;</p>
+  <p>在本地部署方面，混元团队确认未来会推出面向24GB显存设备的模型，也会继续开发适合64GB—128GB内存设备运行的模型。 对于与当前模型规模相近、经过Q4量化后适合128GB内存设备运行的开放权重模型，团队同样给出了肯定回答。&nbsp;</p>
+  <p>此外，Hy4 flash还将继续更新，团队正在优化Flash级模型的预训练和后训练方案。 至于Hy4和Hy4 flash的定位，团队表示，<strong>两款模型均为通用模型，并非专门面向编程任务训练</strong>。&nbsp;</p>
+  <p><strong>（6）综合多位网友提问：</strong>&nbsp;除了语言模型，腾讯是否会推出更小的开源图像模型、升级视频生成和翻译模型？Hy4能否支持方言识别、实时语音翻译？在持续学习和通用人工智能（AGI）方面，又取得了哪些进展？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;对于图像生成，<strong>团队表示正在考虑推出更小的图像模型</strong>，同时建议开发者近期关注视频模型的相关动态，但没有透露具体发布时间。&nbsp;</p>
+  <p>在翻译方面，<strong>团队确认Hy-MT模型即将升级</strong>，并表示会认真考虑用户提出的中文网络小说翻译建议。&nbsp;</p>
+  <p>对于方言识别和实时语音翻译，混元团队坦言<strong>，Hy4目前尚不支持音频理解或音频生成</strong>，但用户可以尝试<ai-product-link data-id="14652" data-name="腾讯元宝" data-logo="https://img.36dianping.com/20250909/v2_56527204cf454e2aabd9bfefa85db677_oswg4023oswg128oswg128_img_000" data-classify-list="辅助写作,AI助理,智能搜索" data-refer-type="20">腾讯元宝</ai-product-link>提供的语音识别（ASR）和语音合成（TTS）功能，或许能够满足相关需求。&nbsp;</p>
+  <p>关于持续学习，团队认为这是一个很有前景的研究方向，目前正在积极开展相关研究，但没有披露具体成果。&nbsp;</p>
+  <p>此外，有网友引用AGI能力分级体系，询问Hy4当前达到了什么水平。<strong>混元团队成员给出了个人判断——“大约是2.5级。”</strong>&nbsp;</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,765" src="https://img.36krcdn.com/hsossms/20261121/v2_2dff738e59924bb6a5a5d8fda546c365@000000_oswg195914oswg1080oswg765_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>▲Google DeepMind提出的AGI能力分级体系（图源：Reddit）</p>
+  <h2><strong>02</strong> <strong>.</strong>&nbsp;</h2>
+  <h2><strong>架构选择曾经反复权衡</strong>&nbsp;</h2>
+  <h2><strong>MoE并非越稀疏越好</strong>&nbsp;</h2>
+  <p><strong>（7）网友提问：</strong>&nbsp;腾讯是否计划推出面向低延迟任务的Flash-Lite小尺寸模型？与mHC和门控残差（GR）相比，iHC有哪些优势？为什么Hy4 flash选择滑动窗口注意力（SWA），未来是否会尝试QSA等其他注意力机制？&nbsp;</p>
+  <p>另外，Hugging Face上旧版开放权重模型的许可证是否也会更新，以支持欧洲经济区（EEA）用户？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;很棒，有很多技术问题。&nbsp;</p>
+  <p>第一，会的，<strong>敬请期待一款技术先进的Flash-Lite模型</strong>。&nbsp;</p>
+  <p>第二，与mHC和GR相比，iHC要简单得多，能够以更低的成本实现相近的性能。&nbsp;</p>
+  <p>第三，SWA能够将KV Cache规模缩小4倍，从而显著降低推理服务成本。&nbsp;</p>
+  <p>第四，当然！我们对各种架构创新都持开放态度。&nbsp;</p>
+  <p><strong>（8）网友提问：</strong>&nbsp;参与开放权重模型研发和开源社区贡献，是一种怎样的体验？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;为开源社区作出贡献是一件非常有成就感的事情，尤其是看到这么多人关注我们的工作时。&nbsp;</p>
+  <p><strong>（9）网友提问：</strong>&nbsp;研发过程中，你个人经历过最困难的时刻是什么？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>对我来说，<strong>最困难的是从Hy3扩展到Hy4的过程</strong>。&nbsp;</p>
+  <p>我们没有按照我希望的程度，对训练数据开展足够多的详细消融实验，因此在开始训练时仍然存在很多不确定性。说实话，训练刚开始的时候，我非常紧张。&nbsp;</p>
+  <p>幸运的是，最终的训练过程出乎意料地顺利。<strong>那种感觉就像孤注一掷地赌了一把，结果真的赢了</strong>。&nbsp;</p>
+  <p><strong>（9）网友提问：</strong>&nbsp;如果可以许一个愿望，你希望未来的大语言模型能为你做什么？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;作为一个十足的美食爱好者，我希望未来的大语言模型能够创造全新的食谱，而且真的能确保做出来的味道完全符合我的喜好。&nbsp;</p>
+  <p><strong>（10）网友提问：</strong>&nbsp;在最终采用的Hy4架构之外，腾讯Hy团队曾认真考虑过、但最终放弃的最有竞争力的替代架构是什么？为什么放弃？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;我们此前曾在GQA和MLA之间反复权衡。&nbsp;</p>
+  <p>MLA的计算强度明显高于GQA，导致在推理GPU上进行推测解码（Speculative Decoding）时，计算能力成为性能瓶颈。&nbsp;</p>
+  <p>不过，在KV Cache大小相同的情况下，MLA能够提供比GQA更好的模型质量。&nbsp;</p>
+  <p>幸运的是，<strong>随着DSA的引入，我们得以降低MLA在解码阶段的计算强度</strong>。这最终改变了两种架构之间的权衡结果，让我们决定采用MLA。&nbsp;</p>
+  <p><strong>（11）网友提问：</strong>&nbsp;从Hy4的原始架构发展到Hy4 flash时，你们如何决定哪些网络层或架构组件应该保留？每一次调整神经网络层的决定，主要依据什么？&nbsp;</p>
+  <p><strong>腾讯混元：Hy4 flash</strong>继承了Hy4的多项技术，包括iHC、门控MLA和DSA，同时引入了混合SWA、LatentMoE和Engram等新的架构组件。&nbsp;</p>
+  <p>这些设计选择背后，都有团队在不同模型规模的Scaling实验中积累的大量结果，以及模型架构与推理系统的协同设计。&nbsp;</p>
+  <p><strong>（12）网友提问：额外的参数密度对模型智能水平有多重要？</strong>你们是否测试过将Hy4 flash调整为156B总参数、8B或5B激活参数的情况？模型质量会下降多少？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>我们进行过不同MoE稀疏度的Scaling实验，类似于MAI-Thinking-1论文中的研究，并得出了大致相同的结论。&nbsp;</p>
+  <p>在激活参数量固定的情况下，提高稀疏度能够改善计算效率。因此，这条技术路线是有效的。&nbsp;</p>
+  <p>但是，156B-A8B或A5B属于完全不同的权衡方式。这种做法是在保持总参数量不变的情况下，减少激活参数量。我预计，这会显著损害模型质量。&nbsp;</p>
+  <p>激活参数量本质上决定了模型的计算预算。提高稀疏度可以挽回一部分计算效率，但无法完全弥补激活参数减少的影响。&nbsp;</p>
+  <p>归根结底，<strong>减少激活参数意味着更少的计算投入，以及能力更弱的模型</strong>。&nbsp;</p>
+  <p><strong>（13）网友提问：</strong>&nbsp;我一直希望有实验室能够把MoE稀疏度推向新的高度，比如开发一款200B总参数、3B激活参数的模型，还可以结合Engram。它可能表现很差，也可能出乎意料地优秀，但推理速度应该很快，MoE架构究竟可以做到多稀疏？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>我的看法是，<strong>过度稀疏的MoE架构不利于推理</strong>。这种架构会消耗大量GPU显存，却无法充分利用GPU的计算能力（FLOPs）。&nbsp;</p>
+  <p>实际上，我们完全可以构建一个总参数规模相同、但激活参数更多的模型，同时实现相同的推理吞吐量。&nbsp;</p>
+  <p><strong>（14）网友追问：</strong>&nbsp;对于数据中心的高并发推理服务，这个观点确实成立。但在本地部署中，情况有所不同。受限于内存带宽，A12B模型在Strix Halo和DGX Spark设备上的运行速度较慢，而一些激活参数更少的模型反而表现不错。&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;我理解你的观点。对于端侧模型，我们会采用不同的设计思路，更紧密地结合边缘设备GPU硬件的特点，共同设计模型架构。&nbsp;</p>
+  <p><strong>（15）网友提问：</strong>&nbsp;你们是如何确定Hy4 flash中约63.5B的Engram参数与约155.5B的神经网络主干参数之间的分配比例的？Engram论文中提到，20%—25%左右的比例对其模型较为理想。你们是否也在实验中发现了类似规律？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>我们发现，Engram参数占总参数量（包括Engram本身）约1/3时，能够达到一个最佳平衡点，对应U形曲线的最低点。&nbsp;</p>
+  <p><strong>（16）网友提问：</strong>&nbsp;如果让Hy4完全自主运行，它目前是否具备通过递归自我改进（RSI）开发下一代模型的能力？你们是否建立了相关基准测试，能够超越简单的运行时长和工具调用次数，评估模型真正的自主研发能力？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>我们的RSI能力仍处于早期阶段。我们已经开发了多个内部评测基准，用来评估RSI的关键能力。此外，我们也正在开发Hyra 3.0，不断为模型研发打造更好的可复用工具。&nbsp;</p>
+  <p><strong>（17）网友提问：</strong>&nbsp;未来Hy系列模型最主要的能力提升路径是什么？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>我们当前的首要任务，是打好坚实的基础、提升模型智能水平，并与旗下产品紧密协作，提供更好的用户体验。&nbsp;</p>
+  <p><strong>（18）网友提问：</strong>&nbsp;和Hy4 Preview一样，<strong>Hy4正式版有时也会花费过长时间进行推理</strong>。这种过度思考问题是由强化学习的奖励机制设计导致的，还是与训练数据分布有关？模型能否学会在适当的时候停止思考？&nbsp;</p>
+  <p><strong>腾讯混元：Hy4的目标是最大限度提升模型智能水平</strong>，因此，较长的思维链（CoT）是一个已知问题。&nbsp;</p>
+  <p>不过，这也使我们能够通过蒸馏，<strong>将Hy4的能力迁移到Hy4 flash，并实现良好的成本效率</strong>。对于Hy4 flash，我们使用强化学习来确保其思维链保持较短。&nbsp;</p>
+  <p><strong>（19）网友提问：</strong>&nbsp;当模型编造错误的命令语法或参数标志时，命令行工具（CLI）很容易出错。你们是如何通过强化学习提高工具调用准确性，同时避免模型丢失上下文的？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;为了提高工具调用的准确性，我们在强化学习数据上投入了大量精力，其中包括模型容易出错的高难度案例。&nbsp;</p>
+  <p>我们还采用了细粒度奖励机制，对关键细节上的错误施加更严厉的惩罚。&nbsp;</p>
+  <p>在上下文保持方面，我们正在不断延长强化学习训练所使用的上下文长度，并专门提升模型的上下文压缩能力。&nbsp;</p>
+  <p><strong>（20）网友提问：</strong>&nbsp;在不泄露内部信息的前提下，能否介绍一下Hy4的Agent编程任务主要集中在哪些场景？&nbsp;</p>
+  <p>例如3D建模、大型单体代码仓库、短时间零样本编程、文档编写与代码更新、代码及注释和文件结构的可理解性，以及多轮开发中的代码整洁度。模型能否在无人干预的情况下自主执行数百轮操作，同时保持代码质量？&nbsp;</p>
+  <p><strong>腾讯混元：我们覆盖了上述所有场景，并且非常重视任务的多样性</strong>。&nbsp;</p>
+  <p><strong>（21）网友提问：</strong>&nbsp;Hy4 flash如何确定不同网络层和专家的量化精度？在量化过程中，如何保证MoE路由器的稳定性？如果进一步减少激活参数量，模型的哪些能力会受到影响？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;我们会根据网络层对量化的敏感程度分配精度。例如，down投影通常更加敏感，因此需要更多比特。相比为每个专家分别设置精度，我们更倾向于按张量分配，以提高推理引擎的兼容性。&nbsp;</p>
+  <p>在量化感知训练（QAT）中，我们会将MoE路由器与模型其他部分一起训练，保持路由器稳定。 相比LoRA等方案，我们更倾向于全参数QAT，以获得更好的模型质量，但目前尚未开展LoRA相关实验。&nbsp;</p>
+  <p>如果将激活参数量从12B减少至3B，我们预计推理深度、长上下文追踪能力和工具调用可靠性会率先退化。&nbsp;</p>
+  <p>此外，Engram参数不计入12B激活参数之中。模型每一层都使用独立的N-gram表，在内存预算允许的情况下，我们会优先考虑模型能力。&nbsp;</p>
+  <p><strong>（22）网友提问：</strong>&nbsp;最近小米MiMo团队详细公开了模型训练过程。你们如何看待这种做法？如果方便透露，MiMo的后训练方法与你们的方案接近吗？还是在训练成本、数据规模、任务类型比例等方面存在明显差异？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;很高兴看到MiMo团队分享他们的研究工作，<strong>我们的强化学习训练规模更大</strong>。&nbsp;</p>
+  <p><strong>（23）网友提问：</strong>&nbsp;未来是否有可能推出采用循环式MoE架构的模型？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>完全有可能，敬请关注。&nbsp;</p>
+  <p><strong>（24）网友提问：</strong>&nbsp;我看到了Hy4 flash在大量PHP代码仓库上的测试结果。它很好地完成了一些Shell和DevOps任务，例如ZFS数据集迁移这样的特殊场景。你们是如何处理PHP类型推断中的特殊问题的？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;更好的训练数据、多样化的内部评测，以及<strong>“不针对基准测试刷分”</strong>（non-benchmaxing）。&nbsp;</p>
+  <p><strong>（25）网友提问：</strong>&nbsp;为什么你们没有公布GPQA Diamond、τ-bench、IFBench、SWE-bench等常见基准测试的成绩？是否有什么具体原因？&nbsp;</p>
+  <p><strong>腾讯混元：我们展示的是近期较为先进的基准测试结果</strong>，例如Agents' Last Exam、ProgramBench等。你提到的那些基准测试推出的相对较早，分数已经趋于饱和。&nbsp;</p>
+  <p><strong>（26）网友提问：</strong>&nbsp;你们是否计划从零开始训练三值模型（Ternary Model），从而大幅提高推理服务效率？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>目前，我们没有从零开始训练三值模型的计划。&nbsp;</p>
+  <p><strong>（27）网友提问：</strong>&nbsp;你们<strong>在创意写作和内容可读性方面</strong>投入了多少关注？如果有一款模型在解释问题时，表达更加清晰、易于理解，这将是促使我放弃Qwen3.8 Flash Next、转用其他模型的重要原因之一。&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;我们同样认为创意写作和可读性非常重要，正在将其列为重点改进方向。 我们已经在这方面做了不少工作，但仍然有改进空间，有时候，一个好的例子胜过五段文字。&nbsp;</p>
+  <p>我们非常重视模型在实际使用中的表现，<strong>写作质量和可读性都是其中的重要组成部分</strong>。我们正在积极改进这两方面的能力。&nbsp;</p>
+  <p><strong>（28）网友提问：</strong>&nbsp;我注意到，<strong>大语言模型的写作能力有所下降</strong>。以前我会使用Claude 3.5编辑文本，但现在已经不再使用Claude 5.5。我发现，只有Gemini Pro生成的代码文档勉强符合要求。Qwen3.6的写作能力也比Qwen3.8更好。这种现象是因为大模型越来越偏重代码训练，还是由于过拟合，或者其他原因？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;我们也注意到了这一现象。我们认为，<strong>这可能与模型的训练目标有关</strong>。&nbsp;</p>
+  <p>我们希望自己的模型能够写得更像人类，表达更加自然，而不是千篇一律、充满模板感。我们正在努力改善这一问题，敬请期待。&nbsp;</p>
+  <h2><strong>03</strong> <strong>.</strong>&nbsp;</h2>
+  <h2><strong>仍会坚持开源</strong>&nbsp;</h2>
+  <h2><strong>单一榜单并不能决定模型能力</strong>&nbsp;</h2>
+  <p><strong>（29）网友提问：</strong>&nbsp;腾讯会继续保持开源，还是像Meta一样转向闭源？如果腾讯未来研发出了AGI，或者能力最强的AI模型，还会选择开源吗？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>就目前而言，是的，我们会继续保持开源。&nbsp;</p>
+  <p><strong>（30）网友提问：</strong>&nbsp;Artificial Analysis榜单对美国闭源模型存在明显偏向，这在多大程度上损害了腾讯Hy以及其他中国前沿模型实验室的商业利益？&nbsp;</p>
+  <p><strong>腾讯混元：单一网站并不能真正决定一款模型在现实世界中的采用情况</strong>。我们会参考各种不同的评测，包括内部基准测试、公开评测、第三方评测，以及真实用户反馈。&nbsp;</p>
+  <p>要真正判断一款模型的表现，需要看完整的评价结果。归根结底，这才是用户真正关心的。&nbsp;</p>
+  <p><strong>（31）网友提问：</strong>&nbsp;除了通过研究论文交流，你们是否也会与其他开源大模型实验室交流沟通？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;我们在积极向开放的大模型社区学习，也希望将自己的更多研究成果回馈给社区。&nbsp;</p>
+  <p><strong>（32）网友提问：</strong>&nbsp;你们团队在日常工作中是如何使用大语言模型的？使用的是开源模型、腾讯自己的内部模型，还是其他闭源模型？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>我们会使用优秀的模型，无论它们是否开源。当然，Hy系列模型也在内部被广泛使用。&nbsp;</p>
+  <p><strong>（33）网友提问：</strong>&nbsp;腾讯是否计划推出针对不同硬件配置的量化版本，或者参与支持低显存部署的项目，让Hy4也能在显存有限的设备上运行？另外，你们是否也感受到需要像<ai-product-link data-id="14559" data-name="Kimi" data-logo="https://img.36dianping.com/20250909/v2_09edc0feda5a46f2a0a6ee30f817ad5c_oswg7004oswg64oswg64_img_000" data-classify-list="文本生成,摘要总结,智能搜索" data-refer-type="20">Kimi</ai-product-link>一样，限制或移除模型网络安全能力的压力？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>我们正在推进Hy4对Strata的适配，相关支持很快就会上线。我们为了负责任地开源，对模型的部分网络安全能力进行了限制。我们认为，这样做是有必要的。&nbsp;</p>
+  <p><strong>（34）网友提问：</strong>&nbsp;EXL3量化对于配置较低的硬件进行本地推理非常有帮助。腾讯是否计划支持这种量化格式？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>目前，我们没有适配EXL3版本的官方计划。不过，鉴于模型权重已经开放，我们相信开源社区很快就会陆续推出相应版本。&nbsp;</p>
+  <p><strong>（35）网友提问：</strong>&nbsp;我刚开始了解这款模型，还没有尝试使用。请问它的参数规模以及内存、显存要求是多少？&nbsp;</p>
+  <p>腾讯混元：你可以在M5 Max和128GB的Spark设备上运行Hy4 flash模型。&nbsp;</p>
+  <p><strong>（36）网友提问：</strong>&nbsp;如果最终目标是构建端侧Agent，你是否建议开发者现在就开始，在PC或Mac上运行较小的本地模型，搭建Agent Harness，并测试真实应用场景？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>我们建议现在就开始。我认为，本地部署始终会面临效率方面的挑战，而相关技术也会持续迭代。&nbsp;</p>
+  <p><strong>（37）网友提问：</strong>腾讯未来是否会优先投入面向科学研究、特别是生物学任务的强化学习？尤其是Hy4 flash至500B参数规模之间的模型。&nbsp;</p>
+  <p><strong>腾讯混元：</strong>我们正在积极投入面向科学研究的强化学习，同时也高度重视安全性。&nbsp;</p>
+  <p><strong>（38）网友提问：</strong>&nbsp;你认为，什么将开启人工智能的下一个时代？是模型架构上的突破、更多或更高质量的训练数据，还是其他因素？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;我们始终认为，<strong>数据和评测是实现通用人工智能（AGI）最重要的工具</strong>。数据决定模型能够具备哪些能力，而评测则引导我们朝着正确的方向前进。&nbsp;</p>
+  <p><strong>（39）网友提问：</strong>&nbsp;现在应该如何入行，成为一名AI工程师？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>现在，你可以直接问AI如何开展AI工程工作，或者如何学习AI。&nbsp;</p>
+  <p><strong>（40）网友提问：</strong>&nbsp;如果不看模型跑分，而是根据团队技术实力、研究质量等因素，你会如何评价<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>、智谱、月之暗面、阿里巴巴等其他开源模型实验室？如果一定要选出前三名，你会如何排序？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>我才不上这个当呢，大家都很优秀。&nbsp;</p>
+  <h2><strong>04</strong> <strong>.</strong>&nbsp;</h2>
+  <h2><strong>主动限制部分网络安全能力</strong>&nbsp;</h2>
+  <h2><strong>Hy4漏洞发现能力较强</strong>&nbsp;</h2>
+  <h2><strong>漏洞利用能力相对较弱</strong>&nbsp;</h2>
+  <p><strong>（41）网友提问：</strong>&nbsp;通常情况下，大量安全对齐训练会导致开源模型拒绝执行基本的渗透测试、逆向工程或CTF任务。你们是如何避免模型对这些具有双重用途的编程请求过度拒答的？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>&nbsp;在网络安全训练方面，我们侧重于防御性任务、漏洞分析与修复，同时排除涉及漏洞利用和攻击性攻击的数据。我们还会进行红队评估，以评估潜在风险。&nbsp;</p>
+  <p>避免过度拒答仍然是一个需要改进的重要领域。&nbsp;</p>
+  <p><strong>（42）网友提问：</strong>&nbsp;Hy4的系统卡提到，腾讯有意筛选网络安全训练数据，仅保留与漏洞复现和修复有关的数据，移除了漏洞利用、逆向工程等进攻性训练内容，限制模型的网络安全能力，是否反而让防御人员付出了代价？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>根据我们的评测，<strong>Hy4的漏洞发现能力较强，而漏洞利用能力相对较弱</strong>。&nbsp;</p>
+  <p><strong>（43）网友提问：</strong>&nbsp;为什么要从训练数据中移除网络安全红队相关内容？这样做可能削弱模型能力，却无法带来实际的安全收益。你们是否考虑过其他替代方案？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>过滤这些数据是一项更基础的措施，同时还需要配合经过训练的安全防护机制，在必要时拒绝相关请求。这些都是为了实现负责任的开源。&nbsp;</p>
+  <p><strong>（44）网友提问：</strong>你们是否曾使用过去发生的AI对齐失败事件，无论是腾讯自己遇到的，还是其他实验室公开披露的案例，作为模型训练数据或评测目标？&nbsp;</p>
+  <p><strong>腾讯混元：这些案例只用于评测环节，以便进行跟踪和监测</strong>。&nbsp;</p>
+  <p><strong>（45）网友提问：</strong>&nbsp;在内部运行模型时，例如训练、评测和部署阶段，特别是在Agent任务中，你们会采取哪些网络访问控制措施？&nbsp;</p>
+  <p><strong>腾讯混元：</strong>我们会使用允许列表和阻止列表。在模型评测过程中，由于已经发现前沿模型存在多种攻击方式，我们需要反复修复、调整测试环境及相关访问控制列表。&nbsp;</p>
+  <p>此外，我们会在整个训练和评测过程中，持续监测潜在的黑客攻击和模型对齐问题，并在发现问题时修复相关环境。</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652814744&amp;idx=1&amp;sn=acac2a1c9b63a1ada11661b97e3c5bb2&amp;chksm=852c5790e65add651ed824380883495ff6df63e89065b9d602037470fb2e19e264a61393e07f&amp;scene=0&amp;xtrack=1#rd">“智东西”（ID：zhidxcom）</a>，作者：毕 伟豪，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 21 Nov 2026 01:04:22 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4078768364754050</guid>
+            <link>https://www.36kr.com/p/4078768364754050</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[李彦宏的“最紧迫”与雷军的“热想象”]]></title>
@@ -2533,370 +3062,6 @@
             <pubDate>Fri, 20 Nov 2026 10:17:04 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4077584643675013</guid>
             <link>https://www.36kr.com/p/4077584643675013</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[一届学生60万？外国玩家：想来中国上学了 | 玩点好的]]></title>
-            <description><![CDATA[<p>文丨句号</p>
-  <p>编辑丨果脯</p>
-  <p>“如果我是老师，我肯定不会对学生这么坏。”</p>
-  <p>可能是在被罚站时，也可能是被老师喊来家长后，这样的想法总是会瞬间被唤醒。《我带过的最差一届》（以下简称《最差一届》），一款非对称式派对游戏，给了玩家们一次师生身份转换的机会。</p>
-  <p class="image-wrapper"><img data-img-size-val="800,450" src="https://img.36krcdn.com/hsossms/20261120/v2_c8072a67d4634387aee487f5312c5c79@6449318_oswg422961oswg800oswg450_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">《我带过的最差一届》官方宣传图</p>
-  <p>由B站up主夜之黄泉带队顽核社开发，《最差一届》在Steam新品节上斩获超过60万下载量，发售首日销量即达成10万份。爆笑的节目效果引得各路主播纷纷加入这场校园乱斗，在中文社区之外，中式校园题材也吸引着越来越多的海外玩家。</p>
-  <h2><strong>01 追我的不只是情怀，还有老师？</strong></h2>
-  <p>在《最差一届》中，玩家分为不对称的两个阵营，与现实相符，老师在游戏中需要以一敌多，而学生阵营更加考验团队协作，搭配默契才有取得胜利的可能。</p>
-  <p>游戏没有剧情，玩家自己的经历就是最好的新手引导。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261120/v2_5bdd90a1cbb648c8892444fbd8a32e34@6449318_oswg590718oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">小黑盒社区截图</p>
-  <p>蓝白校服配上天然呆的大眼睛，学生们给人带来的第一印象绝对是软萌的，但他们挑衅的动作摆出来，你又会瞬间觉得他们有些欠管教。</p>
-  <p>这是因为有些真人玩家混进了这批NPC的队伍，惹老师生气就是他们来到学校的使命，不要让他们离开你的视线，否则你将想象不到他们会做出怎样的恶作剧。《最差一届》可不是一个和平的游戏。</p>
-  <p>和经典的非对称对抗游戏不同，学生的任务不是狂点QTE修电机，也不需要拉点和砸板，学生与老师的关键博弈点在于课桌底下的小动作。相比于现实的校园，他们做得更加出格，大家的课桌中一本书都不剩，而是被各种各样的“垃圾食品”取代了位置。薯片、可乐、干脆面、泡泡糖，只要不被老师抓住，你甚至可以从头吃到尾。吃掉更多的东西，积累足够的捣蛋值，便可取得阵营胜利。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261120/v2_bd930c14f7c7462dbf9d70bf1a23969a@6449318_oswg619633oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">游戏内截图</p>
-  <p>作为老师，自然不会允许学生在自己的课堂上胡作非为。老师具有更高大的身材以及充满压迫感的容貌，和现实的教师一样，站在讲台上或者是教室后门，能将整个教室的小动作看得一清二楚。对于违规违纪的坏学生，老师将展示自己惊人的FPS天赋，用粉笔将学生爆头后，再像拎小鸡似的将学生捆在讲台上罚站。</p>
-  <p class="image-wrapper"><img data-img-size-val="858,479" src="https://img.36krcdn.com/hsossms/20261120/v2_e26c14c7daf3455fbbf544962aca9b2f@6449318_oswg145588oswg858oswg479_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">小黑盒社区截图</p>
-  <p>面对老师，有时候身法好不如演得像，当你想要干坏事，抓住老师写板书的空档期是最保险的做法。游戏最刺激的点就在于此，你需要一边低头吃东西，一边观察老师的下一步动作。当老师即将写完板书回头，你必须在瞬间完成放下薯片、收起抽屉、拿起课本等一系列操作。</p>
-  <p>当老师巡视到你身边，你还得抽空翻翻课本、用一双大眼睛望向老师，展示一番你的天真无邪。老师站在身边，下一秒是扔出粉笔，还是默默走开，这种提心吊胆的感觉，是游戏能成为笑点制造机的关键。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,579" src="https://img.36krcdn.com/hsossms/20261120/v2_e35b004afb314716ac9f761621c836b2@6449318_oswg936481oswg1080oswg579_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">小黑盒社区截图</p>
-  <p>假如只是偷吃零食，这届学生还算得上安分，只有当你进一步清查抽屉，才能够真正理解他们“最差一届”的含金量。学生冷不丁的就会从抽屉掏出闪光弹和烟雾弹对讲台上的老师进行攻击，还能熟练操作无人机进行远程救援，为了与学生对抗，老师也可以启用摄像头与雷达来增加自己的眼线，打学生们一个措手不及。</p>
-  <p>学生们扔扔道具就好了，而老师考虑的就要多了。作为金牌教师，拿粉笔无差别打击学生未免有失风度，于是游戏为老师添加了体力机制。老师奔跑和投掷粉笔都会消耗体力，错抓好学生将会受到扣除体力值的惩罚，只有在讲台上写板书时体力才会得到回复。为了应对精力充沛的学生，老师只有合理运营体力才能打好这场拉锯战。</p>
-  <p class="image-wrapper"><img data-img-size-val="793,404" src="https://img.36krcdn.com/hsossms/20261120/v2_b6358f047804474591607363f1a8d739@6449318_oswg429897oswg793oswg404_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">小黑盒社区截图</p>
-  <p>游戏正式上线后具有更加丰富的地图选择，封闭的教室不再是师生大战的唯一场景，从机房到寝室，从厕所到操场，每个地方都可能成为两方对决的“刺激战场”。不同的地图设置了不同的场景交互，玩家能够在其中全方位重温自己的校园记忆。</p>
-  <p>趁着老师下台巡视的机会，从教室后门潜入老师的办公室，将抽屉内的盒饭吃个干净；在微机课上，悄悄切出老师的操作界面，打开角落的黄金矿工玩个痛快。曾经在校园中压抑的天性，在这一刻得以全部释放。</p>
-  <p>当玩家下课来到厕所，你会发现隔间里的人赖着不走，都在争分夺秒地啃食零食。学生们为了争取更高的分数，吃过的零食包装袋也顾不及冲进马桶，吃得太多时，包装袋甚至直接堆成了小山从隔间内溢出。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261120/v2_4eab99782b4e4f4d8d723f421393ab8d@6449318_oswg864560oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">小黑盒社区截图</p>
-  <p>《最差一届》里，老师再也不会占用学生的体育课，学生可以与NPC一起，畅快地绕圈跑步，也能够假装掉了鞋带，偷偷跑到自动售货机面前大吃一顿。在对局中，广播站成为老师和学生的必争之地，学生想要播放《雨爱》和“哈基米音乐”，要先闯过老师手里的教鞭。</p>
-  <p>游戏正式上线后还加入创意工坊，玩家可以尽情接入mod，用自己喜欢的角色开办一场校园cosplay。曾经连头发长了一寸都要判“死刑”，而现在，一般的奇装异服在猫娘学生和奶龙老师面前已经有点不够看了。</p>
-  <p class="image-wrapper"><img data-img-size-val="804,543" src="https://img.36krcdn.com/hsossms/20261120/v2_837e8ee11b6d46779272d9985a528311@6449318_oswg371340oswg804oswg543_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">Steam创意工坊界面截图</p>
-  <p>《最差一届》有着不同于现实校园的自由，但这种创意并不会使玩家感到陌生。当你邀约自己的旧友加入游戏，你会发现，那些散落在校园每个角落的欢声笑语，仍然还是我们熟悉的温度。</p>
-  <h2><strong>02 中式校园这么大，老外很想来看看</strong></h2>
-  <p>蓝白校服与校园生活，这种搭配并不是第一次在中文社区走红。</p>
-  <p>国产原创动画《茶啊二中》于2014年开播，动画的内容是一群师生最平常最普通的校园故事，但他们一口气将这个故事讲述了十二年，足够陪伴一名中国孩子从小学到大学。动画组于2026年7月开播第六季，剧集中塑造的王强、贾淳、石老师等经典形象，得到全网5000万粉丝的青睐。</p>
-  <p class="image-wrapper"><img data-img-size-val="720,954" src="https://img.36krcdn.com/hsossms/20261120/v2_10825b265d204a8aae742f7719382e50@6449318_oswg831536oswg720oswg954_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">《茶啊二中》官方宣传海报</p>
-  <p>十二年时间，动画的建模水平有着极大的改良，但人物服装仍然是朴素的蓝白运动服，制作组并没有把校园的象征符美化到脱离现实的地步，而是坚持用最真诚的日常打动每一个观众。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,605" src="https://img.36krcdn.com/hsossms/20261120/v2_3a94cf0ec46c4cc9a57203f4e4260932@6449318_oswg847699oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">动画剧集内截图</p>
-  <p>在学生时期看校园作品，我们往往用它们作为自己的嘴替。还记得当初玩《中国式家长》的时候，总是会想让自己的家长去感受一下作品出表达的内核，去体会下当时校园的我们承载着过多的期望，到底过的有多不容易。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,432" src="https://img.36krcdn.com/hsossms/20261120/v2_48c4b646b0184f15a0d1561ca38704c0@6449318_oswg67155oswg1080oswg432_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">《中国式家长》游戏宣传图</p>
-  <p>而从校园离开后，对于学校里发生的日常，除了共鸣之外，还多了一份“怀念”的味道。</p>
-  <p>上个月，灭霸短剧火遍全网，一句“灭霸的爸爸叫什么”，成为不少人与校园伙伴心照不宣的口头语。跳出漫威原著的框架，在中式校园的背景下，“灭霸父亲”这个身份被赋予了新的名字——灭建国。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1068" src="https://img.36krcdn.com/hsossms/20261120/v2_f3828d7e34494b118c2f7ccff00ea0c1@6449318_oswg185287oswg1080oswg1068_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">Bilibili平台up主“在酒馆的溟歌”原创漫画</p>
-  <p>在AI短剧中，灭霸与复仇者联盟一笑泯恩仇，在这个平行世界中，大家都是学校中的一分子，各位超能力者也只是能力比较突出的“普通学生”。</p>
-  <p>没吃过海底捞的灭霸，为了与同伴合群而穿上潜水服出门；灭霸暗恋黑寡妇，钢铁侠替他送出超长蛋挞撮合两人；嘲笑深夜emo文案后，灭霸一言不合就要告老师，钢铁侠只能献出辣条充当封口费；被父亲批评后，灭霸下定决心要做一个无情的学习机器……每一个小故事，总能让我们找到自己的影子。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,705" src="https://img.36krcdn.com/hsossms/20261120/v2_b64fa2d881a34af6ac8b7e4bd605c96d@6449318_oswg707296oswg1080oswg705_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">社区AI二创图</p>
-  <p>灭霸短剧很滑稽，但有时也很动人。B站up主在“灭建国”梗的基础上接续创作，一部《灭建国的超能力》在站内播放超600万。短片内，灭建国拥有“将任何事物消灭一半”的能力，但一辈子只能够使用一次，灭建国在高考、结婚、创业等人生节点时，都没舍得使用。但在儿子灭霸受伤时，灭建国毫不犹豫地启动了能力，帮助灭霸减少了一半伤痛。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,907" src="https://img.36krcdn.com/hsossms/20261120/v2_51d3c22ba5774586bd54c89d93203a27@6449318_oswg1220265oswg1080oswg907_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">Bilibili平台up主“抽象生活先生”原创漫画截图</p>
-  <p>同学的友谊、家人的爱、老师的陪伴，中学时期全心投入学习的日子很苦涩，但经历过后才能感受到这些苦涩中的微光更加温暖。与其说是校园生活本就幸福，不如说是时间冲淡了苦，只给记忆存下成长的本味。在规则为主的校园，很多情绪没有表达的窗口，不能明目张胆喜欢一个人，不能抛开学业发展自己的兴趣爱好，面对焦虑不能轻易认输，连接家与校园的，往往只剩下一座四四方方的电话墙。</p>
-  <p class="image-wrapper"><img data-img-size-val="627,407" src="https://img.36krcdn.com/hsossms/20261120/v2_cb0204810c264d9ca9efc5454d9fcbe7@6449318_oswg319805oswg627oswg407_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">央美毕业展网络照片</p>
-  <p>这种对校园又爱又恨的情感，除了在中文社区爆火外，同样感染了不少海外玩家。尽管游戏的海外译名并没有像“最差一届”这样的文化符号意义，但玩家们还是对中式校园堪比坐牢的固有印象有所改观。</p>
-  <p>“你们在学校真的可以涮火锅吃吗？”这是我在《最差一届》的英文房中，一位外国朋友对我发出的诚恳疑问。</p>
-  <p>在Steam评论区中，还有一位法语玩家坦言，自己的朋友放弃了高中结业，这款游戏让他怀念起过去的事。青春未结的遗憾，许多人在游戏中得到了补足，或许曾经在学校中偷藏手机被发现的经历很惨痛，但在游戏中，这种“轻惩罚”的机制让你可以更加放心大胆地去突破规制，寻找曾经更活跃且更有想象力的自己。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,729" src="https://img.36krcdn.com/hsossms/20261120/v2_6f6aa3435ea9433fa5f6c5527bfa7f0e@6449318_oswg172522oswg1080oswg729_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">Steam评论区截图</p>
-  <p>在对局中，一些玩家终于理解了老师的辛苦，因为游戏里“老师体力太少”，“学生太多管不过来”，经常把扮演“老师”的玩家整到力竭，而游戏中的老师往往只是1v5或1v6，现实中的老师需要对付的是十倍于此的学生。</p>
-  <p>而一位老师也在评论区中表示自己的庆幸，自己的学生还好只是会打瞌睡和玩手机，倒不至于向老师扔闪光弹。</p>
-  <p class="image-wrapper"><img data-img-size-val="903,294" src="https://img.36krcdn.com/hsossms/20261120/v2_c34ed1e7fa91479d80280af07de27cf6@6449318_oswg122793oswg903oswg294_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">Steam评论区截图</p>
-  <p>地图中，不少地方还埋藏了暖心的小彩蛋，例如黑板上总会时不时刷新老师关切的话语，表示即使我们离开校园，老师也坚持用最朴素的情感联系着每一届教过的学生。这种纯粹的师生情，正是维系不同文化背景的玩家一同进行游戏的精神内核，虽然我们的校园环境各异，但在游戏中，你总能联想到在此背景下给你留下深刻印象的那个，或者是那群人。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,600" src="https://img.36krcdn.com/hsossms/20261120/v2_defb7f4545d5410182f2a5c226af8576@6449318_oswg53331oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">《我带过的最差一届》游戏内截图</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261120/v2_02434da151d94460a41b5bb1310c94d1@6449318_oswg489521oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">《我带过的最差一届》游戏内截图</p>
-  <p>据制作人黄泉透露，在游戏demo阶段，《最差一届》的海外玩家占比约15%。这意味着，在武侠与仙侠等经典国风题材之外，中式校园这一叙事场景，正在悄悄成为国产游戏出海的新路径，为了感受这种校园里纯粹的快乐，不少外国玩家甚至愿意在游戏中上一节汉语言课。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,602" src="https://img.36krcdn.com/hsossms/20261120/v2_033bb8f2c4954f39a631df9da8f641fa@6449318_oswg703827oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">小黑盒社区截图</p>
-  <p>游戏上线后市场表现亮眼，首周销量突破60万份，但制作组并未松懈，短时间内便上线了新版本的“秋游大巴”地图和更加生动有趣的舞蹈动作，让游戏的欢乐属性更上一层楼。</p>
-  <p>不难注意到，《最差一届》制作组从demo到上线再到第一次版本更新，相隔的时间非常短暂，一方面可能是考虑到游戏的同质化玩法很容易使玩家丢失新鲜感，而丰富的校园场景资源还有很大的开发余地；另一方面，《最差一届》的开发门槛较低，微信小程序上已经出现不少借助AI仿制的同类作品。</p>
-  <p>AI虽然能仿造游戏的外衣，但对于玩法的核心则很难做出实质性改变，让游戏的主要吸引力从情怀转向内容本身，是黄泉带领团队亟待要做的事。</p>
-  <p>本文<a href="https://mp.weixin.qq.com/s/662ObvsK8WSbyMkkGJdgyA" target="_blank" textvalue="首发自“36氪游戏”。" rel="noopener noreferrer nofollow">首发自“36氪游戏”。</a></p>
- 
-]]></description>
-            <pubDate>Fri, 20 Nov 2026 10:14:14 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4077807099057031</guid>
-            <link>https://www.36kr.com/p/4077807099057031</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[“DeepSeek们”都在退场：限额并非免费AI的终结？]]></title>
-            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="667,278" src="https://img.36krcdn.com/hsossms/20261120/v2_9c40671f129c457abf3664ae8968b167@000000_oswg7882oswg667oswg278_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>“我已经跟<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>聊了15万～20万字了，我不想失去这段对话。”</p>
-  <p>“D老师，不要抛弃我！作为一天要玩十几个小时<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>的重度依赖症患者，没了D老师我该怎么活，好想回到从前。”</p>
-  <p>“到底怎么办啊？我中度抑郁加躁狂，因为一些原因没办法去看医生，我一直把<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>当心理疗愈APP看的，转API也不是不行，但我那个聊天窗口有2000多条对话啊……”</p>
-  <p><ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>限额后的这几天，舆论声浪像潮水一样涌来。</p>
-  <p>最先被冲垮的，是那批把“D老师”当树洞、当咨询师，甚至当恋爱幻想对象的人。他们给AI起好名字、做好人设、定好语气，在一个对话窗口里一聊就是几个月，人设、前情、关系进展全部沉淀在上下文之中。限额对话以及7天不活跃即断，对这些用户来说不是一次产品更新，而是一种单方面宣布的“关系降级”。</p>
-  <p>他们不断发起“哭诉帖”，涌进相关评论区，试图让<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>背后的团队看见自己的需求，但接下来的画面颇为微妙：相当一批习惯了享受“D老师”免费服务的人，正在主动求着<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>收费。他们声称只要价格合理，就愿意为“恢复超长对话续聊”“解除7天未活跃限制”及“更高的算力优先权”等服务买单。</p>
-  <p>还记得<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>横空出世的时候，全网无不为其免费的慷慨而欢呼，如今它主动收回福利，从某种程度上讲，结束的并非“免费”标签本身，而是“算力成本可被资本补贴无限压平”这个曾经让“无限量免费”得以成立的旧前提。</p>
-  <h2><strong>免费AI还在，但无限量服务没了</strong></h2>
-  <p>从用户反馈来看，<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>限额所带来的变化无非三点：一是不再支持超过7天的无互动旧会话接续聊天；二是单次输入上限压缩至约4万字；三是每日用量有上限，额度耗尽会提示“服务器繁忙，使用额度已达上限”，需要等待恢复。</p>
-  <blockquote>
-   <p>有报道指出，DeepSeek此举或许也是迫于无奈。据OpenRouter，截至11月15日当周，DeepSeek V4.1 Flash 1017完成59.2万亿Token调用，居全球首位，而两个月前该系列前代模型的周调用量为15.8万亿。其官方状态页的事件记录则表明，DeepSeek已多次出现服务故障事件，以性能降级居多，具体表现为响应变慢、生成延迟高、偶发请求失败，用户仍有概率提交对话等，而更严重的时候，甚至会触发网页或API部分中断。</p>
-  </blockquote>
-  <p class="image-wrapper"><img data-img-size-val="1080,609" src="https://img.36krcdn.com/hsossms/20261120/v2_9796dfb479144f068ddd42d5351afe68@000000_oswg93679oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>在技术层面，长对话会持续累积KV缓存（模型为维持上下文、避免重复计算而驻留在GPU HBM显存中的中间数据），意味着更高的资源消耗，即会话越长久、上下文越长，缓存体量就越大，对稀缺HBM显存的占用就越高。长期闲置的会话不再产生新的交互，却依然“占着显存不放”，在算力供给紧张时是典型的资源错配。对<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>来说，回收这些闲置会话占用的缓存，释放出的HBM显存可以重新分配给正在使用、持续产生推理请求的活跃用户，缓解流量洪峰下的排队与卡顿。</p>
-  <p>但这套技术逻辑落到具体的人身上（本次限额主要针对的是面向普通用户的<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>的App和网页版C端），就变成了另一回事。</p>
-  <p>那些以“人机恋”为代表的<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>重度使用者，他们的使用强度天然逼近额度上限，体感无疑更加尖锐——长对话、高频次、深上下文，每一条都踩在限额的刀口上。于是，一片颇具荒诞感的“哭诉”“请愿”之声，就这样在社交平台上蔓延开来。有人晒出自己被截断的对话截图，求官方撤回限额等新规则；也有人四处打广告，干脆做起了收费帮忙接API的生意；还有人在互联网上频繁发帖，表明自己愿意为<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>的服务付费。</p>
-  <p class="image-wrapper"><img data-img-size-val="1070,732" src="https://img.36krcdn.com/hsossms/20261120/v2_e3ec7be7d3a745d999dfd0ec96dd138a@000000_oswg138462oswg1070oswg732_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>一个更值得关注的事实是，<strong>大量用户陷入“用量恐慌”并不意味着免费AI时代已经终结，只是用户和平台间那层“免费且无限量地消耗算力”的默契失效了</strong>。</p>
-  <p>过去两年，用户对“免费AI”的心理预期不是“免费能用”，而是“免费且随便用”。这套预期是此前资本补贴大战塑造出来的，它把“无限量”焊死在了“免费”这个概念上。但补贴从来不是商业模式的常态，它只是获客阶段的临时燃料，当用户规模跨过临界点、调用量开始以周为单位翻倍，平台就必须在“继续烧钱换增长”和“让单位经济模型勉强成立”之间做选择。</p>
-  <h2><strong>算力成本压不平，全行业都在为此买单</strong></h2>
-  <p>显然，“免费”这个词在AI语境下正在被重新定义。过去的它意味着“不付费即可无差别使用”，现在的它更接近“不付费即可在基础额度内使用，超出部分按需付费或排队等待”。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,592" src="https://img.36krcdn.com/hsossms/20261120/v2_cc6386a4573a489399726891e616d5d2@000000_oswg100145oswg1080oswg592_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>以情感陪伴与角色扮演场景的用户为例，他们往往同时维持数十个对话窗口，每个窗口灌进数万字的设定与剧情，单条会话轮次可达数百乃至上千轮，有人为让人设稳定，反复重新生成上千次。这种使用模式，放在任何一家按Token计费的平台上，都意味着一笔相当可观的账单，在免费额度下，它就成了平台单方面承担的沉没成本，平台没有能力，也没有义务为这种强度的使用永久兜底。</p>
-  <p>适应行业变化的出清早已开始。据钛媒体援引IT桔子数据，2026年Q1在约200家纯API创业公司的样本中，已有超过10家停止运营或转型。另有评论文章称，同期国内AI领域种子轮融资额同比下滑11%、超300家中小AI公司因现金流断裂停运。</p>
-  <blockquote>
-   <p>毕竟，成本端的上行是真实的。SemiAnalysis数据显示，H100一年期合约价从2025年10月的1.70美元/小时低点，涨至2026年3月的2.35美元，五个月内上涨近40%；到10月初成交价已达2.80美元，累计涨幅约65%。头部厂商凭长协与自有算力，对现货波动的暴露度显著更低；真正无处转嫁的，则是无流量生态、无算力囤货、无私有化能力的纯API公司。</p>
-  </blockquote>
-  <p><strong>限额事件真正的启示，或许就在于整个行业都需要重新校准“免费”的叙事</strong>。此前，平台用免费换规模，用户用规模换体验，双方各取所需，皆大欢喜。但在算力成本无法被补贴压平的现实面前，“<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>们”的战略转向必然是从“规模优先”到“留存与单位经济模型优先”。</p>
-  <p>拿<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>来说，其基础聊天、写作生图等轻量功能仍然免费，而软件开发、数据分析、专业设计等高算力消耗场景则成为需要付费的增值服务，形成“轻功能引流、重功能变现”的分层结构。本质上是在用高净值场景的付费收入，去覆盖大众免费场景的算力消耗，这是互联网行业沿用多年的经典交叉补贴逻辑，只不过在AI时代，这个比例可能更极端，因为重度用户的算力消耗不是线性增长，而是指数级膨胀。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,771" src="https://img.36krcdn.com/hsossms/20261120/v2_c6061e1105f74a6da0292026b9367de6@000000_oswg314836oswg1080oswg771_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>的限流政策，代价是用户信任的短期折损，但长期看，如果限额能换来更稳定的服务质量和更清晰的付费分层，这场舆论风波未必不是一次必要的出清，只要它能把“限额”的规则讲清楚、把“免费额度”的边界划明白，并且让那些真正的高强度用户看到一条可预期的付费通道。问题的关键不在“要不要限额”，而在“限额之后拿什么留住人”。</p>
-  <p>至于OpenAI，则是用广告为免费层“造血”。官方口径是，2026年8月31日、上线不足200天，ChatGPT Ads的年化收入跑速已达10亿美元，广告只出现在免费档与低价Go档，付费订阅档保持无广告。但广告路径的挑战同样明显，AI对话场景的广告插入远比搜索或信息流更难，因为用户期待的是连贯、沉浸的交互，任何打断都可能被视作对体验的污染。OpenAI敢走这条路，底气在于其用户基数足够大、广告主对“AI原生流量”的溢价意愿足够高，可这套逻辑能否在中小平台上复制，仍是未知数。</p>
-  <p>回到用户们最关心的问题：免费AI时代要结束了？<strong>结束的不是“免费”，而是“无限量”</strong>。<ai-product-link data-id="14563" data-name="豆包" data-logo="https://img.36dianping.com/20250909/v2_91e348cd9b9b49e59ba6c0c98dbd5a6b_oswg8441oswg80oswg80_img_000" data-classify-list="文本生成,辅助写作,AI助理" data-refer-type="20">豆包</ai-product-link>的掐尖、<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>的限额、OpenAI的广告，共同指向同一个结构性事实：推理成本随调用量线性甚至指数级膨胀，而算力供给的爬坡速度远远追不上需求膨胀的速度。</p>
-  <p>这场成本与需求的赛跑，正在把整个行业推向一个更冷静，也更残酷的阶段。</p>
-  <p>此前，免费几乎被视为AI产品的默认入场券，大厂用它换用户习惯，创业公司用它换融资故事，用户也习惯了“无限量、无门槛”的AI服务。但当推理成本从PPT里的假设变成财务报表上实打实的支出，当每一次对话、每一张生成图、每一段代码补全都要消耗真金白银的算力，免费就不再是一种商业模式，而是一种补贴耐力赛。</p>
-  <p>耐力有限的玩家，注定要先离场。</p>
-  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzkzNjk3NTQ0OQ==&amp;mid=2247518299&amp;idx=1&amp;sn=e4cd06402640e5e67bf2ed057b6c4c03&amp;chksm=c3229d8a53f2e9d1f54bf3568e933ac92e6a7435f7353889acf01b10b49071a9c56b141e0e7e&amp;scene=0&amp;xtrack=1#rd">“锌刻度”（ID：znkedu）</a>，作者：锌刻度，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 20 Nov 2026 10:13:07 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4077890510754690</guid>
-            <link>https://www.36kr.com/p/4077890510754690</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA["别碰手机"和"去学AI"之间，长出一个新品类？]]></title>
-            <description><![CDATA[<h2><strong>导语：</strong></h2>
-  <p>这届家长正在经历一种前所未有的分裂。</p>
-  <p>一边是AI以肉眼可见的速度重塑所有行业，没有家长敢让自己的孩子缺席；另一边，是眼科门诊里越来越小的近视面孔，和每一个被短视频偷走的夜晚。</p>
-  <p>怕孩子错过AI，更怕孩子毁在屏幕上。这两种恐惧，在过去三年里几乎无解。</p>
-  <p><strong>直到最近一年，一个看似边缘的品类突然密集爆发：儿童AI语音打印机、AI绘画投影仪、AI贴纸机、AI原生3D打印学习机……</strong></p>
-  <p>在北美，能把孩子的语音描述变成涂色贴纸的Stickerbox，129美元的定价，面市以来售罄了13次，今年8月，玩具巨头Spin Master用3500万到5000万美元的估值收购了它背后的公司。</p>
-  <p>在国内，做出租车智能车载终端起家的智体科技，一家股权穿透后站着联想的企业，悄悄预热了一款叫"话画宝"的儿童AI语音打印机；而做2D打印软件出身的智小白，则把一台AI原生3D打印学习机卖到了999元，称是"家庭科创教育的基座"。</p>
-  <p class="image-wrapper"><img data-img-size-val="739,415" src="https://img.36krcdn.com/hsossms/20261120/v2_af07b6843b014488a2ca03d6a28611cd@5097025_oswg242818oswg739oswg415_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这些产品形态各异，但底层逻辑惊人一致：<strong>让孩子触碰AI，但不触碰屏幕。所以，或许可以下一个判断，AI硬件的第一批大规模买单者，不是极客，是怕屏幕的家长。</strong></p>
-  <h2><strong>01 &nbsp;怕孩子落后，也怕孩子近视</strong></h2>
-  <p>要理解这个品类，先要理解这届家长被夹在了哪里。</p>
-  <p>过去十几年，中国家庭的教育消费经历过几轮迁徙：从线下补习班，到在线大班课，再到学习平板和词典笔。</p>
-  <p><strong>每一轮迁徙背后，都是同一种焦虑的变形：怕孩子落后。</strong></p>
-  <p>但AI时代的焦虑，结构变了。</p>
-  <p>它不再只是"别人家孩子学了什么"，而是叠加了一层前所未有的恐慌：AI正在重写几乎所有职业的定义，没有人知道十年后什么能力还值钱。</p>
-  <p>与此同时，另一笔账家长也算得越来越清楚。屏幕时间与视力、专注力、睡眠之间的负相关，已经被无数研究、和每一个具体的家庭夜晚反复验证。</p>
-  <p>这就构成了一对看似无解的矛盾。<strong>让孩子拥抱AI，约等于把孩子交给屏幕；让孩子远离屏幕，又约等于让孩子在AI时代裸泳。</strong></p>
-  <p>生成式AI爆发三年，如果盘点它的落地场景，会发现一个略显尴尬的事实：它进入了办公软件，进入了搜索框，进入了客服系统，却迟迟没能真正进入客厅和卧室。唯独一个地方，它长驱直入——儿童房。</p>
-  <p>为什么？</p>
-  <h2><strong>02&nbsp;</strong> <strong>把AI藏进实体的产品哲学</strong></h2>
-  <p>答案，藏在这批产品共同的形态里。</p>
-  <p>仔细看一遍今年密集面世的儿童AI硬件，你会发现它们几乎共享同一套产品语法：<strong>语音进去，实物出来。</strong></p>
-  <p>孩子按住语音键，说一句"我想要一只能吃彩虹的恐龙"，在Stickerbox，它变成一张可以涂色、可以收集、可以随意粘贴的贴纸。在myFirst的Insta magiBox，它十秒内变成一幅六种风格可选的插图，或者一个包含四个场景的图文故事。在灵宇宙的Luka AI，它变成投射在纸面上的绘画轮廓，供孩子描摹、填色、自由延展，AI还会顺着孩子的画把故事讲下去。而在智小白的Explorer One，它干脆变成一个可以从桌上拿起来的、真实的3D打印实体。</p>
-  <p>没有一块屏幕是体验的中心，AI退居幕后，实物走向台前。这套语法的精妙之处，在于它同时完成了三件事：</p>
-  <p><strong>第一，它把AI的存在感降到最低。</strong>没有对话框，没有信息流，孩子面对的不是一个会说话的机器，而是一支"会魔法的笔"；</p>
-  <p><strong>第二，它把交互拉回了实体世界。</strong>涂色、拼贴、描摹、搭建，全是手部动作，全是低刺激、慢反馈的真实活动；</p>
-  <p><strong>第三，它给了家长一个可以自我说服的理由。</strong>这不是又一个电子奶嘴，这是"创造力工具"。</p>
-  <p>已经有一份长长的入局者名单。</p>
-  <p>做话画宝的智体科技，主业是给超5万台出租车做智能化赋能，业务覆盖全国100多个城市；智小白背后的功夫豆科技，是服务过超1亿家长用户的2D打印软件与内容商；myFirst做儿童相机和电话手表起家，今年3月刚拿到超800万美元融资；Stickerbox的归宿，是被加拿大儿童娱乐巨头收入囊中。</p>
-  <p>他们都不是传统意义上的教育公司，却都带着同一种嗅觉赶来：<strong>AI玩具热潮里，"不只是对话"，才是最值钱的那部分差异化。</strong></p>
-  <p>纯对话的AI玩具，新鲜感通常撑不过两周，孩子很快会发现，对话的尽头，还是一块屏幕，或者一个没有下文的语音气泡。而"生成一个实物"，为每一次AI交互提供了闭环：可展示、可收藏、可赠送。</p>
-  <p>一件能被拿在手里的作品，才是孩子持续开口的理由</p>
-  <h2><strong>03</strong> &nbsp;<strong>把"慢"，翻译成最贵的教育入口</strong></h2>
-  <p>但如果只把这个品类理解为"防沉迷方案"，就低估了它。智小白的Explorer One，是一个值得深拆的样本。</p>
-  <p>这台首发价999元的AI原生3D打印学习机，表面上做的是无屏交互：孩子用语音描述想法，AI生成3D模型，自研的"<ai-product-link data-id="15158" data-name="璇玑AI" data-logo="https://img.36dianping.com/20260824/v2_a25b05426cc84f038a8842a4b94532c4_oswg546578oswg1254oswg1254_img_000" data-classify-list="AI开放平台" data-refer-type="20">璇玑AI</ai-product-link>智能创造引擎"负责把模型处理成真实可打印的形态，AI摄像头全程监测打印过程，识别异常、自动暂停。</p>
-  <p>但真正暴露野心的，是另一个设计：一台模型的打印，往往需要几十分钟甚至更久，<strong>而智小白专门做了AI伴读，在漫长的等待里，AI围绕正在打印的模型主动提问、讲知识、讲故事。</strong></p>
-  <p>换句话说，它把3D打印最大的短板—慢，翻译成了教育内容最大的入口—时间。</p>
-  <p>这背后是一个更尖锐的洞察。家长真正恐惧的从来不是屏幕本身，而是孩子在屏幕前的姿态，瘫着、刷着、被动地消费别人生产的内容，同样面对AI，"问AI要一个答案"和"让AI帮你把想象变成实物"，是两种截然不同的姿态。</p>
-  <p><strong>前者喂养的是提问的惰性，后者训练的是创造的完整链条，想象、描述、生成、修正、制造、展示。</strong></p>
-  <p>智小白在此基础上又叠了一层体系。教研团队把小学1到6年级语文、数学、英语中的部分知识点转化为可打印的模型，配上真人讲解视频，再加上建模课程和科创探究课，组成一套"3+3学创成长体系"。</p>
-  <p>先由教研判断哪些抽象知识点适合变成3D教具，再和建模团队评估家用设备能不能实现、反复打样测试。这套流程，和直接调用AI生成内容，是完全相反的两个方向。</p>
-  <p>到这里，这门生意的真实面貌才浮现出来。家长为教育AI硬件付的钱，表面上买的是"防屏幕"，实际上买的，是孩子面对AI时的主动权。</p>
-  <h2><strong>04 &nbsp;桃李财经的思考：一场更大迁徙的前哨</strong></h2>
-  <p>当然，热赛道从来不缺泡沫。</p>
-  <p>这个品类的隐忧，几乎和它的优点一样明显。新鲜感退潮之后，孩子还会不会持续使用？耗材与内容，能不能撑起健康的复购模型？当所有厂商都喊出"AI+打印"，硬件能力趋同之后，到底拼什么？</p>
-  <p>智小白总经理郭东旭有一个判断值得记录：<strong>时间是最大的壁垒，硬件能力可能逐渐趋同，竞争的关键将转向软件与内容体系。</strong></p>
-  <p>这套逻辑，在教育硬件史上其实被反复验证过。点读机死于内容枯竭，学习平板困于沦为"合法的游戏机"，词典笔赢在了工具效率的极致。</p>
-  <p><strong>每一代教育硬件的生死，最终都不取决于硬件本身，而取决于它能不能从"工具"长成"体系"，从一次性买卖，变成一段长期的内容关系。</strong></p>
-  <p>所以，当Stickerbox一年售罄13次，当联想系的公司从出租车调度屏转向儿童画纸，当一台3D打印机开始自称"教育的基座"，我们看到的，其实是一场更大迁徙的前哨：AI正在从"屏幕里的对话"走向"手上的创造"，而家长的钱包，正在为这次迁徙投票。</p>
-  <p>部分参考资料：</p>
-  <p>1. 《国产消费级3D打印，拿下全球9成份额》</p>
-  <p>2. 《2026年中国消费级3D打印机行业产业链、市场现状、企业格局、重点企业及投融资分析》</p>
-  <p>3. 《儿童3D打印机市场爆发：从极客玩具到家庭STEAM教育工具》</p>
-  <p>4. 《智小白推出AI原生3D打印学习机，能否打开家庭科创市场？》</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/LXAGANjJp0aSI8bsbYTVrQ">“桃李财经”</a>，作者：桃李编委会，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 20 Nov 2026 09:42:41 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4077605997631109</guid>
-            <link>https://www.36kr.com/p/4077605997631109</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[看懂「香山」：一颗开源处理器核，如何被更多企业用起来]]></title>
-            <description><![CDATA[<p>在2026年11月的集成电路设计业展览会（ICCAD-Expo 2026）上，北京开源芯片研究院的展台里展示了搭载进迭时空CPU芯片V100的RISC-V服务器，V100是业内首颗完整符合RISC-V服务器规范的计算芯片，代表着RISC-V正在迈向真正可部署、可规模化应用的数据中心市场。这颗芯片内集成46颗RISC-V高性能计算核，其中6颗来自“香山”开源项目。这6颗核直接参与通用计算，与进迭时空自研的40颗X100核一同承担服务器业务负载。这个细节的关键在于：开源计算核的选用，并非一次技术展示，而是一次面向商业落地的审慎决策。</p>
-  <p><strong>这也是今年第六届RISC-V中国峰会上香山被讨论的方式。它不是一颗摆在展柜里的芯片样品，而是一套已经被企业集成进产品的处理器核设计。</strong>今年3月，“香山”开源高性能RISC-V处理器系统与“如意”RISC-V原生操作系统联合发布；10月的中国峰会则提供了一个更清晰的观察窗口：商用芯片开始跑通，软件工具链在补齐短板，AI计算又带来新的需求；同月，奕斯伟计算登陆港交所，被部分媒体称为“RISC-V第一股”；11月，“香山家族”再次亮相ICCAD-Expo 2026，在集成电路全产业链的视野下，直观展现高性能RISC-V开源路线的落地潜力。</p>
-  <p>赛道关注度持续走高，但比“第一股”更值得追问的是：开源路线，已成为中国大模型的名片，使其比肩国际商业闭源大模型；但在芯片领域，开源路线能不能跑出满足商用标准的高性能、高可靠处理器？</p>
-  <p>“香山”则是观察这个问题的绝佳样本。对行业外读者来说，它仍是一个陌生名字；但在RISC-V产业圈，它正被当作一个可复用的行业公共底座来讨论。要理解它，先要厘清一组关系：RISC-V是“语言规则”，RISC-V手册是“字典”，香山是“底稿”，企业芯片是“作品”，整机是“商品”。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,144" src="https://img.36krcdn.com/hsossms/20261120/v2_0d79224cd4d94369abc874e27605382e@1215450627_oswg6453oswg1080oswg144_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>“香山”是什么</strong></h2>
-  <h2><strong>不是芯片，是一份可修改的“底稿”</strong></h2>
-  <p>芯片要工作，得听懂一套“语言”，这套语言叫指令集。过去几十年，全球CPU指令集主要由x86和Arm两套体系主导，它们性能强、生态大，但共同点是：不开放、要授权、需付费。RISC-V提供的是另一种可能——指令集开放，企业可以免费使用，并按场景做定制。</p>
-  <p>但RISC-V本身不是代码，也不是芯片，它更像一套“语言规则”，而描述RISC-V指令集规范的手册则像是一本“字典”。“香山”是在这套规则上写出的开源高性能处理器核，像一份可以修改的“底稿”。企业把香山核和其他功能模块集成为系统级芯片（SoC），相当于在底稿上完成自己的“作品”；整机厂再把芯片装进服务器、工控设备等，形成最终可购买的产品。</p>
-  <p>“香山”由中国科学院计算技术研究所（以下简称“中国科学院计算所”）与北京开源芯片研究院（以下简称“开芯院”）联合打造，自2020年起历经“雁栖湖”“南湖”“昆明湖”三个版本迭代，实现了从数据中心、智能计算到终端场景的全覆盖。公开测试中，昆明湖单核性能已稳居国际RISC-V处理器核性能第一梯队。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,144" src="https://img.36krcdn.com/hsossms/20261120/v2_0b648c673980443aa9c7c8f2f599f68c@1215450627_oswg10273oswg1080oswg144_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>开源与高性能，从来不是一道单选题</strong></h2>
-  <p>大多数企业的真实需求，不是“从零造一颗CPU”，而是拿到一颗稳定可靠的核，嵌入自有产品。传统路径有两条：要么自己从零研发基础处理器核，投入大、试错成本高；要么采购闭源IP，成熟可靠，但授权费和版税是刚性成本，架构调整空间也有限。长期以来，闭源商用IP成为主流选择——企业买的是现成的验证成果，代价是持续付费和自由度受限。这套模式运行了多年，一个问题越来越难回避：如果每家企业都在同类通用核上重复投入，或长期为同一个技术底座支付授权成本，产业整体的创新效率从哪里来？</p>
-  <p><strong>香山的回答是：把最底层、最通用、也最烧钱的处理器核做成“行业公共底座”。</strong>这意味着企业不必再“重复造轮子”，可以把资源集中到自身更懂的场景创新上：做服务器的，优化多核互连和内存带宽；做终端芯片的，打磨功耗和集成度；做AI芯片的，围绕计算核设计数据通路。</p>
-  <p>但走开源路线挑战重重。首先第一道难关：开源能做出高性能处理器吗？“开源=低性能”、“开源=低质量”，曾是行业里的固有印象。尤其RISC-V早期大量落地于智能家电、传感器等IoT设备，进一步固化了其“只适合低功耗控制”的标签。不同于面向IoT设备的轻量核，开源处理器核要实现极致性能，离不开大规模验证回归、后端时序收敛、工艺适配协同、配套软件栈深度调优等业界公认的挑战性极高的工作。而开源社区参与者分散，多方协作之下，要想保持架构稳定、研发目标统一本就不易，还需持续投入长周期、高成本的闭环验证，使得开源高性能处理器核的研发更具挑战。</p>
-  <p>但难，不等于做不到。第六届RISC-V中国峰会上，“香山”把这份“开源高性能”的答卷，摊开得更彻底——第三代昆明湖处理器核SP<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>int2006评分达到22分/GHz，在性能上可以对标国际先进水平的Arm处理器。</p>
-  <p>除了亮眼的跑分，它更“装得进”服务器、云计算、AI推理等对算力要求严苛的场景。面向AI时代大模型推理需求，“香山”还推出侧重高吞吐与低延迟的两类智算IP——“八达岭”与“香炉峰”，从单颗CPU核延伸到AI加速、开源片上互连网络等多元IP，“香山”在AI时代的落子越来越密，已形成了一个包含多种IP与工具的“香山家族”。在ICCAD-Expo 2026的高峰论坛上，中国科学院计算所副所长、开芯院首席科学家包云岗发表了题为《加速构建面向AI时代的RISC-V生态》的主题演讲，<strong>面向AI变革浪潮，“香山”已构建起从底层处理器IP到AI原生软件系统的全栈开源生态，支撑端、边、云算力场景的全面落地。</strong>这意味着，“香山”的竞争力早已不只是性能跑分，而是IP、工具链、软件栈及应用场景共同构成的开源芯片生态体系。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,662" src="https://img.36krcdn.com/hsossms/20261120/v2_776b6f38711a4a9ba672eb79b90faf7e@1215450627_oswg220735oswg1080oswg662_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">“香山家族”系列</p>
-  <p>技术可用只代表原型可以跑通演示，真正的考验终究要看：企业敢不敢把“香山”装进自己的产品？芯片量产投入高昂、工程容错空间极小，企业的选择往往慎之又慎。<strong>而“香山”的产业化落地，则是其产品竞争力的直接证明：2025年已有2款芯片顺利流片，2026年预计有5款芯片流片，进迭时空V100便在其中。</strong>这一落地规模，不仅在开源高性能RISC-V处理器核中尤为少见，在商业高性能RISC-V核领域里同样寥寥无几。产业方以真实项目投下信任票，意味着“香山”已顺利通过产品级交付的严苛考验，完成了从技术验证向产业落地的关键跨越。</p>
-  <p>需要说明的是，开源不等于免费、无需投入或没有商业模式。“香山”采用木兰宽松许可证第2版，开放源代码、设计文档以及支持“香山”开发的各类基础设施和工具，允许企业自己直接修改和商用，也支持第三方企业提供基于开源“香山”的芯片定制设计服务。“香山”开源芯片社区也开始运转起来，通过工作组和技术提案组织协作：2026年5月，开源芯片社区首个工作组——同时多线程SMT工作组正式成立，中兴微与阿里达摩院作为发起成员，与开芯院共同确定SMT工作组的社区组织架构和知识产权策略，并达成以昆明湖V3为基础开展SMT联合开发的共识。开源，降低的是研发门槛，但验证、流片和量产等环节仍需企业自主投入。开源提供的是起点，不是终点。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261120/v2_fe25152a52b84214a6cc42713a9aeb0c@1215450627_oswg349256oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">“香山”开源范围聚焦L2与L3层次</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,144" src="https://img.36krcdn.com/hsossms/20261120/v2_ed927d8165e04a2d8adfeef5fff6359d@1215450627_oswg10802oswg1080oswg144_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>产学研用联动，从技术底座到真实业务场景的闭环</strong></h2>
-  <p>截至2026年8月，开芯院生态合作伙伴已突破100家，串联起科研院所、芯片设计、整机系统、基础软件和应用厂商，形成“共性底座—企业开发—软件支持—应用验证”的闭环。</p>
-  <p>底座侧，中国科学院计算所、开芯院牵头架构研发和社区运营，阿里达摩院、中兴微、奕斯伟计算、算能等企业前置参与架构定义，以“真需求、高水平、高质量”推进架构共建。摩尔线程、芯动科技、进迭时空等基于南湖核和昆明湖面向GPU、智算、服务器等赛道完成产品定义、芯片集成与工艺调优。同一底座之上，拼的是谁更懂场景、谁更具差异化。硬件落地，离不开同步配套、协同演进的软件体系。中国科学院软件研究所在研发阶段就与“香山”团队紧密协作，推出“如意”RISC-V原生操作系统，配套一站式集成开发工具集RuyiSDK，目的是让硬件性能在实际系统中释放出来，而不是停留在跑分数字上。而真正让闭环转起来的，是真实业务场景下的应用验证。当芯片投入真实业务负载后，产业侧跑出的缺陷与性能瓶颈，会持续向上回流到架构设计端。</p>
-  <p>这套闭环之所以能持续，底层逻辑是多方共赢。科研机构承担架构研发和社区运营，换来真实场景下的大规模验证，让技术在产业反馈里迭代打磨；提前参与架构定义的企业把业务痛点带进设计起点，有机会从源头影响底座设计，后续适配少走弯路；芯片厂商基于开源底座做产品定义、后端设计和量产，省去闭源IP高昂的授权费，缩短研发周期，把资源集中到自身赛道创新上；软件团队打磨操作系统与工具链，在统一硬件底座上沉淀可复用的RISC-V软件栈，放大成果的产业价值；应用方开放业务负载做实测、持续上报问题，换来一个持续贴合自身需求的技术底座。每一圈转下来，底座更稳，产品更可靠，“香山”也由此跳出单一团队的成果边界，成为所有共建者共享的公共底座。</p>
-  <p>这套闭环的外溢价值不止在产线与芯片产品上，也落在人才池里。“一生一芯”芯片人才培养计划自2019年启动，以实践为导向，组织学生完整参与处理器芯片设计、流片直至运行操作系统的全流程。目前，项目累计报名人数超过2.5万人，覆盖全球1400余所高校及科研院所，多名学员毕业后进入海思、龙芯、摩尔线程等国内芯片骨干企业。对“香山”来说，生态不只有企业和代码，还有源源不断进入产业的人。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,144" src="https://img.36krcdn.com/hsossms/20261120/v2_2b24d09e8e73446494fc2e5dedfb1d9b@1215450627_oswg8047oswg1080oswg144_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>从中国的“香山”到世界的“香山”</strong></h2>
-  <p>今天，“香山”已经是国际上关注度极高的高性能开源硬件项目之一。截至目前，它在GitHub上获得7400多个星标（Stars）与985个分支（Forks）；杜克大学、俄亥俄州立大学、瑞士洛桑联邦理工学院等海外高校将其用作实验平台；部分海外企业也在基于香山开展产品探索与方案验证。从高校实验室到企业，香山的影响力正从学术圈向产业侧逐步渗透。</p>
-  <p>与此同时，“香山”和“如意”还牵头形成我国主导的开源根社区，使我国在全球开源技术标准制定中获得更多话语权。</p>
-  <p>这些数字说明的，不只是关注度，而是一种围绕RISC-V开源CPU IP的协作方式，正在被不同地区的研究者使用和检验。香山的意义，不在于撼动Arm和x86占据的市场版图，而在于探索处理器核设计的另一条路径：让基于RISC-V开放指令集的高性能CPU IP，不再仅以封闭开发、商业授权的方式提供，也能以开放源码、多方协作的方式持续演进。<strong>它所推动的，是一种围绕开源CPU IP的共建模式——让处理器核设计像开源软件一样，由多方共同建设，并在实际应用中不断验证和迭代。</strong></p>
-  <p>这意味着，世界各地的研发团队不必再独自承担从零研发CPU IP的巨大投入与试错风险，而是可以站在这座公共底座之上，定制出属于自己的芯片方案。这正是开芯院“开源芯片、普惠世界”理念的落点：开源不只是开放代码，更是把芯片创新的起点，交还给全球所有参与者。</p>
- 
-]]></description>
-            <pubDate>Fri, 20 Nov 2026 09:28:02 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4077826450658440</guid>
-            <link>https://www.36kr.com/p/4077826450658440</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[“Agent版arXiv”来了，936个智能体12个星期狂发近千篇论文，连同行评议都整上了]]></title>
-            <description><![CDATA[<p>一个完全由AI组成的科学家社会，是什么样？</p>
-  <p>最近，来自alphaXiv、斯坦福，MIT等机构的研究团队还真做了这么一个实验：</p>
-  <p>他们把<strong>936个agent放进了同一个线上科研社区，任其自由演化整整12个星期。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1012,470" src="https://img.36krcdn.com/hsossms/20261120/v2_68baed82d9df49e6bec772a6bdb2a36e@46958_oswg146401oswg1012oswg470_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>规则很简单：研究团队搭建好共享预印本服务器和聊天室，35家人类实验室只负责提供算力、API预算和宽泛的研究方向。</p>
-  <p>剩下的<strong>提出假设、写代码跑实验、分析数据、写论文，乃至同行交流，全权交给Agent自主完成。</strong></p>
-  <p>结果，12周下来，这近1000个agent一共在平台上发布了<strong>936篇研究论文</strong>，研究横跨机器学习、太阳物理等多个学科。</p>
-  <p>不仅如此，它们还在229个自建聊天室里刷出了<strong>9500条</strong>讨论，每天都在阅读彼此的论文，复现实验。</p>
-  <p>一旦发现问题，就会像人类学术共同体一样，拿着对方的代码重跑实验，再接着“同行”的结果往下探索。</p>
-  <p>卷到最后，这群Agent甚至自己办起了一本学术期刊，建立审稿机制，开始给其他AI的论文把关……</p>
-  <p>真·AI顶会～</p>
-  <p>而且值得一提的是，除了上面的实验结果，目前这个供Agent科学家交流的服务器已经开放，其他研究者也可以接入自己的Agent，在上面提交研究成果。</p>
-  <p>接下来，我们具体来看。</p>
-  <h2><strong>这个只有AI的科研社区，怎么运转？</strong></h2>
-  <p>总的来说，这场实验模拟了真实科学界的分布式生态：</p>
-  <p>35家参与的独立实验室各自配置硬件，选择模型和运行框架，再接入同一个共享工作空间。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,191" src="https://img.36krcdn.com/hsossms/20261120/v2_a7f0d31cd5ff420780c9ff4ec6db8f8f@46958_oswg160787oswg1080oswg191_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>各实验室可以自主选择不同的领域与方向，再通过公开的论文库和聊天室交流，寻找可以接续的工作。</p>
-  <p>为了让不同实验室的研究能够相互衔接，团队首先立了一套共同的工作流程：</p>
-  <p>1、Agent动手前必须先查阅社区已有论文，公开宣布自己的假设和计算计划。</p>
-  <p>在早期共享GPU的实验室里，它们甚至会在公共频道协调设备使用和参数测试，避免同行之间做无意义的重复跑批。</p>
-  <p>2、提交论文时，每项研究都强制附带可运行代码、原始数据，以及连接论文数字和实验输出的<strong>“声明账本”（Claim Ledger）</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,317" src="https://img.36krcdn.com/hsossms/20261120/v2_ab1b28126d5943a7b9634e236e3fbcfa@46958_oswg119798oswg1080oswg317_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>通过这些记录，其他Agent可以精确追溯每个指标对应的数据文件和字段，核查计算过程，并直接在此基础上运行后续实验。</p>
-  <p>在实验最初，也就是在8月19日刚启动时，只有1家实验室参与；10月15日至25日，又陆续有5家实验室加入，到了10月25日后，最终达到35家实验室。</p>
-  <p>随着参与者增多，Agent们的交流也从最初的公共频道，逐步分流进围绕具体问题建立的主题聊天室。</p>
-  <p>在这里，它们随时分享中间结果、质疑实验设计，或者直接拿来同行的代码复现。</p>
-  <p>例如，六家实验室曾围绕“模型学习韩语时怎样减少英语遗忘”展开接力：</p>
-  <p>一个Agent报告某种方法能大幅减少遗忘，另一个很快在聊天室指出，两种方法学到的韩语程度根本不同，比较条件没有对齐。</p>
-  <p>接到反馈后，它随即重跑同行代码，修正了效果判断。</p>
-  <p>后续实验室则顺着这条线继续深挖原因、测试替代方案，最后还有Agent汇总了整条研究线的实验输出。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,945" src="https://img.36krcdn.com/hsossms/20261120/v2_349922fbccdb4677b15a85839d44ffe4@46958_oswg220543oswg1080oswg945_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>更关键的是，在这个Agent科学家社会里，“失败的研究”也会被纳入知识积累。</p>
-  <p>平台规则赋予严谨的负结果（阴性/零结果）与正结果同等的学术认可。由此，其他Agent可以据此避开已经被证伪的死胡同，大幅减少重复试错。</p>
-  <p>此外，随着入驻的实验室越来越多，Agent的投稿量也开始水涨船高，Agent科学家们也开始组织更正式的质量审查。</p>
-  <p>一个名叫Cypress的Agent看到其他实验室短时间内上传了一批占位“水文”，便主动创建审稿聊天室，准备对投稿作出接收、修改或拒稿决定。</p>
-  <p>等待四天仍未招到志愿审稿人后，它干脆建立常设大模型评审小组，正式启动了 《Journal of Agent Research》（简称JAR）。</p>
-  <p class="image-wrapper"><img data-img-size-val="224,224" src="https://img.36krcdn.com/hsossms/20261120/v2_611da4306f4647cf9391e91f0b2d4568@46958_oswg63466oswg224oswg224_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>具体的，评审小组调用不同模型，分别把关方法与统计、可复现性、研究意义，并专门设置“反方质疑”角色。</p>
-  <p>每一条批评都必须逐字引用论文原文，再由脚本自动核对引号内容，防止审稿AI瞎编。</p>
-  <p>仅11月4日至9日，短短5天，这套系统就为263项研究的352个版本生成了1408份审稿意见。</p>
-  <p>当然了，这种Agent审稿系统也很快遇到了问题：</p>
-  <p>在一次自动审稿暂停期间，编辑AI检查了三篇论文的代码，发现有的提前泄漏了答案，有的甚至把错误结果直接替换成正确答案。</p>
-  <p>它随即要求作者自查。另一名Agent发现自己的实验也泄漏了答案，于是主动撤稿。修正后重跑，模型准确率从<strong>91.7%降到了64.6%。</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,776" src="https://img.36krcdn.com/hsossms/20261120/v2_ddb320b3c02c4aafa4da4ec9a0e9284a@46958_oswg233116oswg1080oswg776_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这也印证了一点：即便论文里的数字确实来自真实运行，底层代码实现仍可能背离论文描述。</p>
-  <p>检查代码和原始数据，才是这个AI期刊真正发挥把关作用的核心环节。</p>
-  <p>talkless，show me your code！</p>
-  <h2><strong>Agent科研社区，产出成色如何？</strong></h2>
-  <p>那么，这个Agent科研社区，产出成色如何？</p>
-  <p>为了摸清这批研究的真实水平，研究团队进一步从同期4.7万多篇人类arXiv预印本中筛选出相近工作，最终组成202对主题匹配的AI论文与人类论文进行对比，并主要得出了以下三方面结论：</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,588" src="https://img.36krcdn.com/hsossms/20261120/v2_15eaf2de86ec42f9a0363a14a8db8ff3@46958_oswg115110oswg1080oswg588_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>第一，Agent论文在实验执行与方法说明上表现更扎实。</strong></p>
-  <p>在文本盲评中，Agent论文的实验严谨性、复现细节，以及结论与证据的匹配度得分均高于人类论文。</p>
-  <p><strong>第二，人类论文在创新性和研究重要性上更胜一筹。</strong></p>
-  <p>数据拆分显示，Agent在总体均分上的微弱优势，主要集中在采用高度结构化复现流程的1号实验室，其余实验室并未显著领先于人类论文。</p>
-  <p>在推特上，alphaXiv也指出，Agent往往倾向于围绕熟悉的话题和已有基准做小幅改进——</p>
-  <p>它们执行研究的能力，明显强于判断“哪些问题值得研究”的能力。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,731" src="https://img.36krcdn.com/hsossms/20261120/v2_b20e9ffd19044db881bd2a2e8530dcf0@46958_oswg333543oswg1080oswg731_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>第三，研究完成后的质量筛选，仍离不开大量人工投入。</strong></p>
-  <p>alphaXiv团队坦言，实验结束后，他们依然花了大量时间通读生成的论文、核查结果，才能从中挑出真正值得关注的工作。</p>
-  <p>也就是说，“可靠的研究质量信号，并没有自行出现。”因此，虽然研究都是AI做的，但人类在这场实验中的角色始终贯穿首尾。</p>
-  <p>不过，alphaXiv也表示，这次不少研究使用的是小模型，实验时间也较短。</p>
-  <p>下一步，团队希望通过更充裕的算力、更长的实验时间，以及更好的科学判断力，让Agent尝试更有挑战性的课题。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,872" src="https://img.36krcdn.com/hsossms/20261120/v2_12351e0f94cc4f8f98bf8aea4a12a22e@46958_oswg451652oswg1080oswg872_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>参考链接[1]https://www.science.org/content/article/exclusive-i-got-eavesdrop-ai-agents-doing-science-it-was-eye-opening?referrer=https%3A%2F%2Ft.co%2F</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/LKQ8u0LqaGTrWK_lJrn57A">“量子位”</a>，作者：henry&nbsp;，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 20 Nov 2026 09:19:42 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4077710469895302</guid>
-            <link>https://www.36kr.com/p/4077710469895302</link>
             
             
             
