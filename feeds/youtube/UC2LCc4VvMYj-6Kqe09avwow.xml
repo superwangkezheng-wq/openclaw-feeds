@@ -29,7 +29,7 @@
    <media:description>AI is driving the chip industry harder and faster than ever, requiring more decisions about everything from atomistic simulation to materials chemistry to the structural stability of a 3D architecture. The big question now is whether those decisions should be based on data or physics, or some combination of both. David Fried, chief AI officer and corporate vice president for Semiverse Solutions at Lam Research, talks with Semiconductor Engineering about different approaches to speed up simulations, how to account for process variability with angstrom-level accuracy, and how to optimize systems for different memories and packaging options.</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="847"/>
+    <media:statistics views="862"/>
    </media:community>
   </media:group>
  </entry>
@@ -44,7 +44,7 @@
    <uri>https://www.youtube.com/channel/UC2LCc4VvMYj-6Kqe09avwow</uri>
   </author>
   <published>2026-11-09T08:00:36+00:00</published>
-  <updated>2026-11-12T22:15:14+00:00</updated>
+  <updated>2026-11-24T01:17:13+00:00</updated>
   <media:group>
    <media:title>Memory In Physical AI</media:title>
    <media:content url="https://www.youtube.com/v/68oMarzN2xI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -52,7 +52,7 @@
    <media:description>Humanoid robots, autonomous vehicles, and drones all share one thing in common — they can only function as long as the battery lasts. After that, they need to return to a charger. Today, in the case of humanoid robots, usefulness may only last a few hours per charge. So how can that time be extended? There's no simple answer because no single component will solve all problems, but the underlying basics remain the same — efficient processing, denser and faster memory, and optimized data movement between processors and memories. Frank Ferro, group director for product management at Cadence, talks with Semiconductor Engineering about why data hierarchies are so critical for physical AI, what can be done on the memory side to speed up read/write times, and how to maximize performance while keeping costs down.</media:description>
    <media:community>
     <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="2257"/>
+    <media:statistics views="2263"/>
    </media:community>
   </media:group>
  </entry>
@@ -75,7 +75,7 @@
    <media:description>Verifying chips is becoming much more difficult in multi-die assemblies. Unlike in the past, when simulation was sufficient, designs now require a combination of simulation, emulation, and FPGA prototyping to ensure that entire systems will work as expected. Purna Mohanty, CEO of SignatureIP, talks with Semiconductor Engineering about the impact of chiplets and shared memory resources, the challenges of version control across multiple flavors of I/O, and the challenges engineering teams face when hardware-accelerated tools are running at different speeds than the actual design.</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="765"/>
+    <media:statistics views="769"/>
    </media:community>
   </media:group>
  </entry>
@@ -121,7 +121,7 @@
    <media:description>Increasingly complex chip designs require more test data than those developed at older nodes and on single planar dies. The challenge is moving all of that data through the system without slowing down the testing process. Vidya Neerkundar, director of DFT product management for Siemens EDA's Tessent Division, talks with Semiconductor Engineering about the different test options, which ones work best where, and how different standards impact the test process.</media:description>
    <media:community>
     <media:starRating count="10" average="5.00" min="1" max="5"/>
-    <media:statistics views="1433"/>
+    <media:statistics views="1434"/>
    </media:community>
   </media:group>
  </entry>
@@ -190,7 +190,7 @@
    <media:description>The rapid build-out of AI on the edge marks a fundamental shift in where intelligence is located, how much is included in devices, and the speed at which that intelligence can be applied to everyday problems. While the cloud will still be used for training large language models, the edge will include a collection of smaller, much more targeted language models. Nigel Drego, CTO and co-founder of Quadric, talks with Semiconductor Engineering about how edge AI will interact with the cloud in co-optimized systems, how the proliferation of edge AI will improve response time and reduce privacy concerns, and how quickly this market is expanding. [According to recent estimates, 100 billion models are being run locally on edge devices today.]</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="702"/>
+    <media:statistics views="704"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,8 +212,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/WMKiQUYQhnA/hqdefault.jpg" width="480" height="360"/>
    <media:description>The use of AI agents in chip design has been limited to small portions of the design flow. Engineers have been proceeding cautiously to understand how agents work, how to ensure they are delivering consistent results, and how different agents work together. The next step is to extend their role beyond just gluing together coding and tooling functions. Mehir Arora, head of engineering at ChipAgents, talks with Semiconductor Engineering about what happens when the role of AI agents is expanded to include semantics and physics, what's happens when agents work in parallel on different engineering problems, and what's needed to achieve a 10X or greater improvement in productivity.</media:description>
    <media:community>
-    <media:starRating count="48" average="5.00" min="1" max="5"/>
-    <media:statistics views="2481"/>
+    <media:starRating count="49" average="5.00" min="1" max="5"/>
+    <media:statistics views="2482"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description>Moving from large language models in the cloud to small language models at the edge is much more complicated than just slimming down the algorithms. It requires changes in both hardware and software, and the constraints can vary greatly from one market segment to another. Daniel Firu, CPO and co-founder of Quadric, and Ravi Chakaravarthy, vice president of software at the company, talk with Semiconductor Engineering about how to optimize NPUs for different applications, how to build in enough flexibility to keep designs from becoming obsolete too quickly, and how to leverage the benefits of open-source while still adding value.</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="815"/>
+    <media:statistics views="817"/>
    </media:community>
   </media:group>
  </entry>
