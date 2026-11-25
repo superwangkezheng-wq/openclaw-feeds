@@ -29,7 +29,7 @@
    <media:description>AI is driving the chip industry harder and faster than ever, requiring more decisions about everything from atomistic simulation to materials chemistry to the structural stability of a 3D architecture. The big question now is whether those decisions should be based on data or physics, or some combination of both. David Fried, chief AI officer and corporate vice president for Semiverse Solutions at Lam Research, talks with Semiconductor Engineering about different approaches to speed up simulations, how to account for process variability with angstrom-level accuracy, and how to optimize systems for different memories and packaging options.</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="891"/>
+    <media:statistics views="899"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>Humanoid robots, autonomous vehicles, and drones all share one thing in common — they can only function as long as the battery lasts. After that, they need to return to a charger. Today, in the case of humanoid robots, usefulness may only last a few hours per charge. So how can that time be extended? There's no simple answer because no single component will solve all problems, but the underlying basics remain the same — efficient processing, denser and faster memory, and optimized data movement between processors and memories. Frank Ferro, group director for product management at Cadence, talks with Semiconductor Engineering about why data hierarchies are so critical for physical AI, what can be done on the memory side to speed up read/write times, and how to maximize performance while keeping costs down.</media:description>
    <media:community>
     <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="2276"/>
+    <media:statistics views="2278"/>
    </media:community>
   </media:group>
  </entry>
@@ -144,7 +144,7 @@
    <media:description>Increasingly capable natural language processing is changing how audio systems are designed, integrated, and perceived. Voice has been used to navigate through menus for the better part of two decades, but the addition of AI has transformed it from often annoying and highly limited responses to numbers to a much more interactive human-machine interface. Amol Borkar, group director of product management and marketing for Tensilica DSPs at Cadence, talks with Semiconductor Engineering about how this technology will improve even further in the future, why the focus isn't just about faster processors, and why this is so important for edge systems.</media:description>
    <media:community>
     <media:starRating count="11" average="5.00" min="1" max="5"/>
-    <media:statistics views="1002"/>
+    <media:statistics views="1003"/>
    </media:community>
   </media:group>
  </entry>
@@ -212,8 +212,8 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/WMKiQUYQhnA/hqdefault.jpg" width="480" height="360"/>
    <media:description>The use of AI agents in chip design has been limited to small portions of the design flow. Engineers have been proceeding cautiously to understand how agents work, how to ensure they are delivering consistent results, and how different agents work together. The next step is to extend their role beyond just gluing together coding and tooling functions. Mehir Arora, head of engineering at ChipAgents, talks with Semiconductor Engineering about what happens when the role of AI agents is expanded to include semantics and physics, what's happens when agents work in parallel on different engineering problems, and what's needed to achieve a 10X or greater improvement in productivity.</media:description>
    <media:community>
-    <media:starRating count="49" average="5.00" min="1" max="5"/>
-    <media:statistics views="2491"/>
+    <media:starRating count="50" average="5.00" min="1" max="5"/>
+    <media:statistics views="2494"/>
    </media:community>
   </media:group>
  </entry>
