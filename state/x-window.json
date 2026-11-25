@@ -58,39 +58,6 @@
       "name": "Amjad Masad",
       "source": "x",
       "tweets": {
-        "id:2123874539218010491": {
-          "createdAt": "2026-11-20T20:22:04.000Z",
-          "id": "2123874539218010491",
-          "isQuote": true,
-          "likes": 1064,
-          "quotedTweetId": "2123847664064241799",
-          "replies": 51,
-          "retweets": 47,
-          "text": "With two separate Riemann proofs, one AI and one Human, coming out at the same time, assuming they’re both correct, it’ll be interesting to see the difference especially on elegance. https://t.co/rp4thKnxg7",
-          "url": "https://x.com/amasad/status/2123874539218010491"
-        },
-        "id:2123876961923613180": {
-          "createdAt": "2026-11-20T20:31:42.000Z",
-          "id": "2123876961923613180",
-          "isQuote": false,
-          "likes": 30,
-          "quotedTweetId": null,
-          "replies": 29,
-          "retweets": 1,
-          "text": "Is it a bear market?",
-          "url": "https://x.com/amasad/status/2123876961923613180"
-        },
-        "id:2123877625915375950": {
-          "createdAt": "2026-11-20T20:34:20.000Z",
-          "id": "2123877625915375950",
-          "isQuote": true,
-          "likes": 80,
-          "quotedTweetId": "2123845192969224558",
-          "replies": 9,
-          "retweets": 3,
-          "text": "It’s phenomenal https://t.co/ctwhrva2lY",
-          "url": "https://x.com/amasad/status/2123877625915375950"
-        },
         "id:2124277564596519355": {
           "createdAt": "2026-11-21T23:03:33.000Z",
           "id": "2124277564596519355",
@@ -367,36 +334,6 @@
         }
       }
     },
-    "joshwoodward": {
-      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
-      "handle": "joshwoodward",
-      "name": "Josh Woodward",
-      "source": "x",
-      "tweets": {
-        "id:2123943606906138868": {
-          "createdAt": "2026-11-21T00:56:31.000Z",
-          "id": "2123943606906138868",
-          "isQuote": false,
-          "likes": 380,
-          "quotedTweetId": null,
-          "replies": 44,
-          "retweets": 22,
-          "text": "Whew, what a week of shipping! A few of us were having fun with Gemini Neon on the Friday afternoon before the holiday week ahead, and we loved the post from @UFO2002616 so much that we just built it and threw it into prod! \n\nLong click on the model picker on the web and enjoy 🙂 https://t.co/9cT7TekxBs",
-          "url": "https://x.com/joshwoodward/status/2123943606906138868"
-        },
-        "id:2123943608516792480": {
-          "createdAt": "2026-11-21T00:56:31.000Z",
-          "id": "2123943608516792480",
-          "isQuote": true,
-          "likes": 39,
-          "quotedTweetId": "2122321834331005104",
-          "replies": 1,
-          "retweets": 0,
-          "text": "Thanks again to @UFO2002616 for the inspiration!\n https://t.co/V5BHwpoy9b",
-          "url": "https://x.com/joshwoodward/status/2123943608516792480"
-        }
-      }
-    },
     "levie": {
       "bio": "ceo @box - your business lives in content. unleash it with AI",
       "handle": "levie",
@@ -614,39 +551,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2123879309463228445": {
-          "createdAt": "2026-11-20T20:41:01.000Z",
-          "id": "2123879309463228445",
-          "isQuote": true,
-          "likes": 159,
-          "quotedTweetId": "2123540875733315815",
-          "replies": 27,
-          "retweets": 7,
-          "text": "For those of you trying out @antigravity for Neon, here's a quick tip:\n\n1. Go to https://t.co/GRhlnGkO1i\n2. Tap see more and then the share button\n3. Tap Add to Home Screen\n\nThen you can talk to all your Antigravity threads via remote control on mobile.\n\nEven though Antigravity doesn't have a mobile app (yet), I find its remote control actually better than Claude's because all the threads are available by default.",
-          "url": "https://x.com/petergyang/status/2123879309463228445"
-        },
-        "id:2123941250902667762": {
-          "createdAt": "2026-11-21T00:47:09.000Z",
-          "id": "2123941250902667762",
-          "isQuote": false,
-          "likes": 2983,
-          "quotedTweetId": null,
-          "replies": 135,
-          "retweets": 154,
-          "text": "BREAKING: @JensenHuang Once Tried to Offer Brisket to a Visibly Vegetarian Squirrel https://t.co/VoMGaNDGSh",
-          "url": "https://x.com/petergyang/status/2123941250902667762"
-        },
-        "id:2123944322190254340": {
-          "createdAt": "2026-11-21T00:59:22.000Z",
-          "id": "2123944322190254340",
-          "isQuote": false,
-          "likes": 37,
-          "quotedTweetId": null,
-          "replies": 15,
-          "retweets": 0,
-          "text": "3 hours of download left before I can play this, what's going with the user score though 🤔 https://t.co/BgAKoYCGC9",
-          "url": "https://x.com/petergyang/status/2123944322190254340"
-        },
         "id:2124197623683027363": {
           "createdAt": "2026-11-21T17:45:53.000Z",
           "id": "2124197623683027363",
@@ -754,28 +658,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2123869175085191298": {
-          "createdAt": "2026-11-20T20:00:45.000Z",
-          "id": "2123869175085191298",
-          "isQuote": true,
-          "likes": 660,
-          "quotedTweetId": "2123852179345969470",
-          "replies": 51,
-          "retweets": 26,
-          "text": "ISO 42001:2023 is like the \"SOC2 of AI\".\n\nIt's the first global, independently audited standard for how companies build, evaluate, monitor and govern AI systems.\n\nWhen you ship on and use Vercel's AI, you now know the infra is audited annually by an accredited third party. https://t.co/8vT5AYUjNd",
-          "url": "https://x.com/rauchg/status/2123869175085191298"
-        },
-        "id:2123879031049449791": {
-          "createdAt": "2026-11-20T20:39:55.000Z",
-          "id": "2123879031049449791",
-          "isQuote": true,
-          "likes": 219,
-          "quotedTweetId": "2123873236844953798",
-          "replies": 48,
-          "retweets": 13,
-          "text": "When I first tried an internal pre-release version of @eve, a personal shopper agent was my \"hello world\". It worked, but a lot of the infrastructure was missing.\n\nNow, @agentcardhq exists, models are better, iMessage and WhatsApp eve channels are mature, and performance is vastly improved (without trading off durability and encryption.)\n\nThe result is you can ship a platform of the caliber of Muse / Instinct, that you fully control, on our open intelligence stack. The experience is pure delight. I highly recommend you try this. Run with this template. Make it your own.",
-          "url": "https://x.com/rauchg/status/2123879031049449791"
-        },
         "id:2124386118661738994": {
           "createdAt": "2026-11-22T06:14:54.000Z",
           "id": "2124386118661738994",
@@ -850,17 +732,6 @@
       "name": "Madhu Guru",
       "source": "x",
       "tweets": {
-        "id:2123972492645777629": {
-          "createdAt": "2026-11-21T02:51:18.000Z",
-          "id": "2123972492645777629",
-          "isQuote": false,
-          "likes": 112,
-          "quotedTweetId": null,
-          "replies": 33,
-          "retweets": 6,
-          "text": "Who are the most interesting AI people I should meet in Chennai? \n\nI’ll be in town end of Nov - 1st wk Dec.\n\nabout me: \nI’m at Meta building AI products now; previously led product for Gemini, Veo and Nano Banana models at Google.\n\nschedule is tight but I should be able to squeeze in a few meetings.",
-          "url": "https://x.com/realmadhuguru/status/2123972492645777629"
-        },
         "id:2124758161068556756": {
           "createdAt": "2026-11-23T06:53:16.000Z",
           "id": "2124758161068556756",
@@ -973,17 +844,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2123856303974121851": {
-          "createdAt": "2026-11-20T19:09:36.000Z",
-          "id": "2123856303974121851",
-          "isQuote": true,
-          "likes": 2,
-          "quotedTweetId": "2123581995288846611",
-          "replies": 0,
-          "retweets": 0,
-          "text": "broooo\n\nhttps://t.co/5qYHHbBOyV https://t.co/Pc6VYX8bxt",
-          "url": "https://x.com/swyx/status/2123856303974121851"
-        },
         "id:2124147427313861009": {
           "createdAt": "2026-11-21T14:26:26.000Z",
           "id": "2124147427313861009",
@@ -1058,17 +918,6 @@
       "name": "Nan Yu",
       "source": "x",
       "tweets": {
-        "id:2123983081577267264": {
-          "createdAt": "2026-11-21T03:33:23.000Z",
-          "id": "2123983081577267264",
-          "isQuote": true,
-          "likes": 8,
-          "quotedTweetId": "2123884630654996756",
-          "replies": 0,
-          "retweets": 0,
-          "text": "big perf and QoL wins for actions you do dozens to hundreds of times a day https://t.co/R5MfrV54gs",
-          "url": "https://x.com/thenanyu/status/2123983081577267264"
-        },
         "id:2124241838358008184": {
           "createdAt": "2026-11-21T20:41:35.000Z",
           "id": "2124241838358008184",
@@ -1099,39 +948,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2123861214644347122": {
-          "createdAt": "2026-11-20T19:29:07.000Z",
-          "id": "2123861214644347122",
-          "isQuote": true,
-          "likes": 2743,
-          "quotedTweetId": "2123840812534452296",
-          "replies": 360,
-          "retweets": 64,
-          "text": "Team is locked in, upgrade your desktop app. Faster, simpler and a lot more pleasant to use. https://t.co/1X8M5JwL77",
-          "url": "https://x.com/thsottiaux/status/2123861214644347122"
-        },
-        "id:2123864112694509995": {
-          "createdAt": "2026-11-20T19:40:38.000Z",
-          "id": "2123864112694509995",
-          "isQuote": true,
-          "likes": 2650,
-          "quotedTweetId": "2123854751150625144",
-          "replies": 244,
-          "retweets": 33,
-          "text": "First tweet from Akshay. Be nice to this one, he’s special. https://t.co/GNLkstqT9K",
-          "url": "https://x.com/thsottiaux/status/2123864112694509995"
-        },
-        "id:2123997735326232775": {
-          "createdAt": "2026-11-21T04:31:36.000Z",
-          "id": "2123997735326232775",
-          "isQuote": false,
-          "likes": 3281,
-          "quotedTweetId": null,
-          "replies": 656,
-          "retweets": 88,
-          "text": "We’ve been messing around a bit and inadvertently created an experience that’s a bit too fun internally and now everyone is just having fun instead of working. We might not recover from this.",
-          "url": "https://x.com/thsottiaux/status/2123997735326232775"
-        },
         "id:2124277855131664869": {
           "createdAt": "2026-11-21T23:04:42.000Z",
           "id": "2124277855131664869",
@@ -1195,39 +1011,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2123895040821071959": {
-          "createdAt": "2026-11-20T21:43:32.000Z",
-          "id": "2123895040821071959",
-          "isQuote": false,
-          "likes": 374,
-          "quotedTweetId": null,
-          "replies": 6,
-          "retweets": 1,
-          "text": "I am now even more against handoff",
-          "url": "https://x.com/trq212/status/2123895040821071959"
-        },
-        "id:2123909357071159327": {
-          "createdAt": "2026-11-20T22:40:25.000Z",
-          "id": "2123909357071159327",
-          "isQuote": true,
-          "likes": 537,
-          "quotedTweetId": "2105333496768319969",
-          "replies": 50,
-          "retweets": 7,
-          "text": "I think I’ve figured out the gameplay loop!\n\nIt’s a sports anime game, but the sport is elemental bending.\n\nYou fight in tournaments alongside your squad, and between matches they have their own stories you can get into, like in Mass Effect or Dragon Age. https://t.co/Z21CYJxYoX https://t.co/hLIVplRPrW",
-          "url": "https://x.com/trq212/status/2123909357071159327"
-        },
-        "id:2123909358828539965": {
-          "createdAt": "2026-11-20T22:40:26.000Z",
-          "id": "2123909358828539965",
-          "isQuote": false,
-          "likes": 21,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 0,
-          "text": "I'm calling it Home Ground.",
-          "url": "https://x.com/trq212/status/2123909358828539965"
-        },
         "id:2124239684536840682": {
           "createdAt": "2026-11-21T20:33:01.000Z",
           "id": "2124239684536840682",

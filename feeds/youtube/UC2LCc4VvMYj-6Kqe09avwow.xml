@@ -29,7 +29,7 @@
    <media:description>AI is driving the chip industry harder and faster than ever, requiring more decisions about everything from atomistic simulation to materials chemistry to the structural stability of a 3D architecture. The big question now is whether those decisions should be based on data or physics, or some combination of both. David Fried, chief AI officer and corporate vice president for Semiverse Solutions at Lam Research, talks with Semiconductor Engineering about different approaches to speed up simulations, how to account for process variability with angstrom-level accuracy, and how to optimize systems for different memories and packaging options.</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="872"/>
+    <media:statistics views="891"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>Humanoid robots, autonomous vehicles, and drones all share one thing in common — they can only function as long as the battery lasts. After that, they need to return to a charger. Today, in the case of humanoid robots, usefulness may only last a few hours per charge. So how can that time be extended? There's no simple answer because no single component will solve all problems, but the underlying basics remain the same — efficient processing, denser and faster memory, and optimized data movement between processors and memories. Frank Ferro, group director for product management at Cadence, talks with Semiconductor Engineering about why data hierarchies are so critical for physical AI, what can be done on the memory side to speed up read/write times, and how to maximize performance while keeping costs down.</media:description>
    <media:community>
     <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="2273"/>
+    <media:statistics views="2276"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>Physical AI poses a host of new challenges for chip engineers. These systems contain a mix of compute elements, which collectively must process a stream of real-time data, analyze it, make decisions, and still function long enough on a battery to be useful. The key here is deciding what data gets processed where, and how to minimize the movement of data. Ashley Stevens, director of product management and marketing at Arteris, talks with Semiconductor Engineering about why data movement plays such an important role in these systems, why coherent interconnects are better suited to CPUs and non-coherent interconnects are better for AI acceleration, and what other challenges engineers will face going forward.</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="1017"/>
+    <media:statistics views="1020"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>Nearly all leading-edge designs today are multi-die assemblies, which means that one defective die can render the entire device unusable. But not all dies that are deemed defective should be scrapped, and not all dies that pass inspection will behave as expected in the field, especially over time. Nir Sever, senior director of business development at proteanTecs, talks with Semiconductor Engineering about how to train machine learning models to identify outliers in context, replacing a rigid pass/fail decision tied to a spec with one that assesses its usefulness based on its behavior under real workloads in a complex system.</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="917"/>
+    <media:statistics views="918"/>
    </media:community>
   </media:group>
  </entry>
@@ -213,7 +213,7 @@
    <media:description>The use of AI agents in chip design has been limited to small portions of the design flow. Engineers have been proceeding cautiously to understand how agents work, how to ensure they are delivering consistent results, and how different agents work together. The next step is to extend their role beyond just gluing together coding and tooling functions. Mehir Arora, head of engineering at ChipAgents, talks with Semiconductor Engineering about what happens when the role of AI agents is expanded to include semantics and physics, what's happens when agents work in parallel on different engineering problems, and what's needed to achieve a 10X or greater improvement in productivity.</media:description>
    <media:community>
     <media:starRating count="49" average="5.00" min="1" max="5"/>
-    <media:statistics views="2487"/>
+    <media:statistics views="2491"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>More data, more processing elements, and more memories are making it much harder to maintain consistent throughput in a multi-die assembly. There is more concurrent traffic, more potential interactions, and more protocol layers. Ashish Darbari, CEO of Axiomise, talks with Semiconductor Engineering about the of coherency on serialization bugs, how to ensure data is secure, and how to ferret out the root cause of problems like silent data corruption using formal technology.</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="7417"/>
+    <media:statistics views="7418"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@
    <media:description>Moving from large language models in the cloud to small language models at the edge is much more complicated than just slimming down the algorithms. It requires changes in both hardware and software, and the constraints can vary greatly from one market segment to another. Daniel Firu, CPO and co-founder of Quadric, and Ravi Chakaravarthy, vice president of software at the company, talk with Semiconductor Engineering about how to optimize NPUs for different applications, how to build in enough flexibility to keep designs from becoming obsolete too quickly, and how to leverage the benefits of open-source while still adding value.</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="817"/>
+    <media:statistics views="818"/>
    </media:community>
   </media:group>
  </entry>
@@ -282,7 +282,7 @@
    <media:description>More steps in the design flow are shifting left, which makes a complicated design process even more complex. This includes early software prototyping, workload mapping, verification, multi-physics integration, verification, IP qualification. Frank Schirrmeister, executive director of strategic programs for System Solutions at Synopsys, talks with Semiconductor Engineering about the increasing number of steps, the potential trouble spots, how reuse and chiplets impact the flow, and what engineers need to know in order to get a working chip out the door and on schedule.</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="787"/>
+    <media:statistics views="788"/>
    </media:community>
   </media:group>
  </entry>
@@ -328,7 +328,7 @@
    <media:description>Increased density at advanced nodes, multi-die assemblies, and the rollout of AI everywhere are making it much more challenging to ensure that memory will function properly over its expected lifetime. Test is no longer about a single memory or one approach for testing memory. It can vary by application, by workload, and by architecture. Some testing is close to memory, some is built into memory, and some is a combination of multiple approaches with corners tied to a particular manufacturing process. Yervant Zorian, chief architect and fellow at Synopsys, and president of Synopsys Armenia, talks with Semiconductor Engineering about why a hierarchical approach is now essential for testing memory, what can go wrong while testing different memories tied to different types of processors, and why massive multi-physics simulations and digital twins are needed for everything from smartphones to robots.</media:description>
    <media:community>
     <media:starRating count="43" average="5.00" min="1" max="5"/>
-    <media:statistics views="1231"/>
+    <media:statistics views="1232"/>
    </media:community>
   </media:group>
  </entry>

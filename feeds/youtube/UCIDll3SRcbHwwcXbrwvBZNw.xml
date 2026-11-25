@@ -11,6 +11,131 @@
  </author>
  <published>2025-07-23T22:22:35+00:00</published>
  <entry>
+  <id>yt:video:FyrpstpidQI</id>
+  <yt:videoId>FyrpstpidQI</yt:videoId>
+  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
+  <title>ChatGPT 合并 Chat 和 Work，部分用户率先体验【AI 早报 2026-11-25】</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FyrpstpidQI"/>
+  <author>
+   <name>橘鸦Juya</name>
+   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
+  </author>
+  <published>2026-11-25T01:14:55+00:00</published>
+  <updated>2026-11-25T01:59:36+00:00</updated>
+  <media:group>
+   <media:title>ChatGPT 合并 Chat 和 Work，部分用户率先体验【AI 早报 2026-11-25】</media:title>
+   <media:content url="https://www.youtube.com/v/FyrpstpidQI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FyrpstpidQI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Intro 00:00
+
+ChatGPT 合并 Chat 和 Work，部分用户率先体验 00:08
+https://x.com/thsottiaux/status/2125284868414394550
+
+OpenAI 员工宣布 Business 套餐 Fast mode 免费至年底 00:20
+https://x.com/thsottiaux/status/2125299248782778588
+
+OpenAI 改进 Dots 审核，减少任务中的额外审批 00:28
+https://x.com/frits__vp/status/2125285321491259626
+
+Antigravity 新版非必要审批减半，Neon 任务快 17% 00:41
+https://x.com/_mohansolo/status/2125337132021780867
+https://x.com/_mohansolo/status/2125318340004720839
+
+Anthropic 推出测试功能：artifacts 可装成桌面应用 00:54
+https://claude.com/resources/articles/install-as-app
+https://x.com/ClaudeDevs/status/2125315491522650299
+
+Cognition 发布编码模型 SWE-2.1 01:07
+https://cognition.com/blog/swe-2-1
+https://x.com/cognition/status/2125305349414523061
+
+腾讯混元发布并开源第三代翻译模型 Hy MT3 01:23
+https://huggingface.co/collections/tencent/hy-mt3
+https://mp.weixin.qq.com/s/SB42Uuhq0m6JvqZdih3TqA
+
+LlamaIndex 开放文档解析模型 OCRia-1 权重 01:41
+https://ollama.com/llamaindex/ocria-1
+https://www.llamaindex.ai/blog/parse-ocria-1
+
+百灵大模型发布并开源 Ling-3.2-air 01:53
+https://huggingface.co/inclusionAI/Ling-3.2-air
+https://mp.weixin.qq.com/s/7-Dnhz1ouC6ans0znH154g
+
+蚂蚁百灵团队发布并开源生理信号基础模型 LingSante-Pulse 02:08
+https://huggingface.co/inclusionAI/LingSante-Pulse-1.0
+https://mp.weixin.qq.com/s/xidWztAK7Fob87FhoD5fzQ
+
+商汤发布并开源 SenseNova U1.6 02:19
+https://huggingface.co/sensenova/SenseNova-U1.6-8B-MoT-Native/tree/ed98cc5ca5a1891028db2041f665b43b96a43cfa
+https://github.com/OpenSenseNova/SenseNova-U1
+https://mp.weixin.qq.com/s/gX-WbxdIHQxMZJeaFXSIsQ
+
+百度开源 ERNIE 5.5 Flash Preview 权重 02:33
+https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview
+https://mp.weixin.qq.com/s/S9MyfFssIdKF88fFzC-3sg
+
+OpenCode 宣布 HungerG 模型本周向 Go 订阅用户免费开放 02:43
+https://x.com/opencode/status/2125062647846694979
+
+Anthropic 升级 MCP：Skills 公测、Tasks 正式推出 02:55
+https://claude.com/blog/skills-over-mcp-tasks-and-more
+https://code.claude.com/docs/en/mcp#use-skills-from-mcp-servers
+https://github.com/modelcontextprotocol/experimental-ext-file-uploads
+
+Google 推出 Workspace MCP 服务器和 CLI 03:09
+https://developers.google.com/workspace/guides/workspace-cli
+
+智谱 Coding Plan 限时活动：GLM-5.3-Flash 额度翻倍 03:23
+https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5.3-flash
+
+豆包旗下 AI 个人助理小豆开启公测 03:35
+https://apps.apple.com/cn/app/%E5%B0%8F%E8%B1%86-%E8%B1%86%E5%8C%85%E6%97%97%E4%B8%8B-ai-%E4%B8%AA%E4%BA%BA%E5%8A%A9%E7%90%86/id6815582077
+
+Anthropic 发布神经元可解释性研究 03:51
+https://alignment.anthropic.com/2026/neuron-basis-applications
+https://alignment.anthropic.com/2026/neuron-basis-theory
+
+Anthropic发布安全评测Siren，测Claude是否越出沙箱 04:03
+https://safeguards.anthropic.com/2026/siren
+
+OpenAI 称 GPT-6 系列模型具备蛋白质设计能力 04:15
+https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
+
+OpenAI：两名业余天文学家借助 AI 寻找系外行星 04:30
+https://openai.com/index/searching-for-distant-planets-with-astra
+
+Google 推出 Humanity's First Exam：测大模型可靠性 04:42
+https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/
+https://kaggle.com/benchmarks/deepmind/hfe/leaderboard
+https://x.com/kaggle/status/2125313430303244739
+
+Artificial Analysis 横评 harness：最优因模型而异 04:57
+https://artificialanalysis.ai/methodology/coding-agents-benchmarking
+https://x.com/ArtificialAnlys/status/2125069725977968935
+
+Arena.ai 推出 3D 排行榜，Claude Fable 5.2 居首 05:10
+https://arena.ai/blog/introducing-the-arena-3d-leaderboard
+https://x.com/arena/status/2125290119271772222
+
+报道称 OpenAI 和 Anthropic 员工忧内部模型难以安全发布 05:23
+https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks
+
+马斯克称 SpaceX 的 AI 开发落后对手，出租算力比自用更赚钱 05:35
+https://finance.yahoo.com/technology/ai/articles/musk-ai-push-faces-dilemma-170103778.html
+
+豆包 App 灰度测试“豆包购物”，交易复用抖音电商履约体系 05:51
+https://www.ithome.com/1/031/464.htm
+
+T3 Code 被指默认遥测并读取账号文件识别用户 06:05
+https://x.com/theo/status/2125332390239494211
+https://github.com/pingdotgg/t3code/pull/15028</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="498"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:3jf8OWsujPg</id>
   <yt:videoId>3jf8OWsujPg</yt:videoId>
   <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
@@ -107,8 +232,8 @@ https://openai.com/form/openworks-partner/
 https://openai.com/openworks
 https://x.com/OpenAI/status/2124922133545714160</media:description>
    <media:community>
-    <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="1658"/>
+    <media:starRating count="20" average="5.00" min="1" max="5"/>
+    <media:statistics views="1776"/>
    </media:community>
   </media:group>
  </entry>
@@ -155,7 +280,7 @@ OpenAI 团队：ChatGPT/Codex 桌面应用又将迎来重大更新 01:55
 https://x.com/thsottiaux/status/2124322968499282388</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="685"/>
+    <media:statistics views="692"/>
    </media:community>
   </media:group>
  </entry>
@@ -216,7 +341,7 @@ https://appleinsider.com/articles/26/11/20/apple-supplier-tsmc-cuts-off-china-ch
 https://mp.weixin.qq.com/s/LHZxKjzVkEpnsCDcNlaMXw</media:description>
    <media:community>
     <media:starRating count="17" average="5.00" min="1" max="5"/>
-    <media:statistics views="1469"/>
+    <media:statistics views="1453"/>
    </media:community>
   </media:group>
  </entry>
@@ -323,7 +448,7 @@ Gemini 订阅换 harness？谷歌成员回应 04:57
 https://x.com/OfficialLoganK/status/2123657759896007035</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="1264"/>
+    <media:statistics views="1258"/>
    </media:community>
   </media:group>
  </entry>
@@ -426,7 +551,7 @@ https://x.com/thdxr/status/2123216909931864355
 https://x.com/opencode/status/2123214984389771684</media:description>
    <media:community>
     <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="1661"/>
+    <media:statistics views="1666"/>
    </media:community>
   </media:group>
  </entry>
@@ -543,7 +668,7 @@ Nginx 发布安全更新，修复 10 处漏洞 05:45
 https://nginx.org/en/security_advisories.html</media:description>
    <media:community>
     <media:starRating count="20" average="5.00" min="1" max="5"/>
-    <media:statistics views="2033"/>
+    <media:statistics views="2034"/>
    </media:community>
   </media:group>
  </entry>
@@ -667,7 +792,7 @@ https://x.com/sama/status/2122798042734633452
 https://x.com/thsottiaux/status/2122816458711548126</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="1851"/>
+    <media:statistics views="1857"/>
    </media:community>
   </media:group>
  </entry>
@@ -871,7 +996,7 @@ https://cursor.com/blog/security-incident-update
 https://cursor.com/blog/claude-code-extension-security-notice</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="1443"/>
+    <media:statistics views="1446"/>
    </media:community>
   </media:group>
  </entry>
@@ -1092,7 +1217,7 @@ https://cloud.baidu.com/product-s/token_exchange.html?from=cloud_banner
 https://x.com/Baidu_Inc/status/2120773996698546653</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="1910"/>
+    <media:statistics views="1911"/>
    </media:community>
   </media:group>
  </entry>
@@ -1202,7 +1327,7 @@ https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-cuts-fu
 https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=mhp</media:description>
    <media:community>
     <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="1952"/>
+    <media:statistics views="1953"/>
    </media:community>
   </media:group>
  </entry>
@@ -1307,56 +1432,7 @@ Fireworks 确认黑客入侵暴露客户账单与模型数据 04:34
 https://fireworks.ai/security/bulletins/october-2026-security-incident-update</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1666"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:bHFlbVUR26E</id>
-  <yt:videoId>bHFlbVUR26E</yt:videoId>
-  <yt:channelId>UCIDll3SRcbHwwcXbrwvBZNw</yt:channelId>
-  <title>恢复原价未及时公告，WorkBuddy 将返还积分差额【AI 早报 2026-11-09】</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=bHFlbVUR26E"/>
-  <author>
-   <name>橘鸦Juya</name>
-   <uri>https://www.youtube.com/channel/UCIDll3SRcbHwwcXbrwvBZNw</uri>
-  </author>
-  <published>2026-11-09T01:14:35+00:00</published>
-  <updated>2026-11-11T23:26:46+00:00</updated>
-  <media:group>
-   <media:title>恢复原价未及时公告，WorkBuddy 将返还积分差额【AI 早报 2026-11-09】</media:title>
-   <media:content url="https://www.youtube.com/v/bHFlbVUR26E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/bHFlbVUR26E/hqdefault.jpg" width="480" height="360"/>
-   <media:description>Intro 00:00
-
-恢复原价未及时公告，WorkBuddy 将返还积分差额 00:08
-https://mp.weixin.qq.com/s/SoYZS-V1A1ysYNxfBXlO9Q
-
-OpenAI 员工征询用户意见：是否增设 Pro 50 档位 00:22
-https://x.com/thsottiaux/status/2119305294291612140
-
-NVIDIA 创始人黄仁勋承认对妻子不忠并道歉 00:38
-https://nvidianews.nvidia.com/news/a-message-to-our-company
-
-DeepSeek Harness 负责人回应插件作者：内置功能可被插件替换 00:55
-https://x.com/tianyi/status/2119433744671273441
-
-GPT-6.1 Sol 连续 3 次参与活体小鼠脑手术，定位误差减半 01:09
-https://x.com/OcanaSantero/status/2118282298789650505
-
-报道称 Anthropic 34 亿美元买燃气发电机组 01:24
-https://ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0?syn-25a6b1a6=1
-
-DeepMind 高管预告未来几周发布科学成果 01:36
-https://x.com/pushmeet/status/2119373171321196892
-
-用户反映 Grok Bot 额度消耗加快，Elon Musk 称将核查用量 01:51
-https://x.com/elonmusk/status/2119415029812609301
-
-OpenAI 开发者账号发布明日预告 02:08</media:description>
-   <media:community>
-    <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="1461"/>
+    <media:statistics views="1667"/>
    </media:community>
   </media:group>
  </entry>
