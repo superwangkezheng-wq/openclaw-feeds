@@ -29,7 +29,7 @@
    <media:description>AI is driving the chip industry harder and faster than ever, requiring more decisions about everything from atomistic simulation to materials chemistry to the structural stability of a 3D architecture. The big question now is whether those decisions should be based on data or physics, or some combination of both. David Fried, chief AI officer and corporate vice president for Semiverse Solutions at Lam Research, talks with Semiconductor Engineering about different approaches to speed up simulations, how to account for process variability with angstrom-level accuracy, and how to optimize systems for different memories and packaging options.</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="899"/>
+    <media:statistics views="909"/>
    </media:community>
   </media:group>
  </entry>
@@ -52,7 +52,7 @@
    <media:description>Humanoid robots, autonomous vehicles, and drones all share one thing in common — they can only function as long as the battery lasts. After that, they need to return to a charger. Today, in the case of humanoid robots, usefulness may only last a few hours per charge. So how can that time be extended? There's no simple answer because no single component will solve all problems, but the underlying basics remain the same — efficient processing, denser and faster memory, and optimized data movement between processors and memories. Frank Ferro, group director for product management at Cadence, talks with Semiconductor Engineering about why data hierarchies are so critical for physical AI, what can be done on the memory side to speed up read/write times, and how to maximize performance while keeping costs down.</media:description>
    <media:community>
     <media:starRating count="41" average="5.00" min="1" max="5"/>
-    <media:statistics views="2278"/>
+    <media:statistics views="2279"/>
    </media:community>
   </media:group>
  </entry>
@@ -98,7 +98,7 @@
    <media:description>Physical AI poses a host of new challenges for chip engineers. These systems contain a mix of compute elements, which collectively must process a stream of real-time data, analyze it, make decisions, and still function long enough on a battery to be useful. The key here is deciding what data gets processed where, and how to minimize the movement of data. Ashley Stevens, director of product management and marketing at Arteris, talks with Semiconductor Engineering about why data movement plays such an important role in these systems, why coherent interconnects are better suited to CPUs and non-coherent interconnects are better for AI acceleration, and what other challenges engineers will face going forward.</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="1020"/>
+    <media:statistics views="1024"/>
    </media:community>
   </media:group>
  </entry>
@@ -167,7 +167,7 @@
    <media:description>Nearly all leading-edge designs today are multi-die assemblies, which means that one defective die can render the entire device unusable. But not all dies that are deemed defective should be scrapped, and not all dies that pass inspection will behave as expected in the field, especially over time. Nir Sever, senior director of business development at proteanTecs, talks with Semiconductor Engineering about how to train machine learning models to identify outliers in context, replacing a rigid pass/fail decision tied to a spec with one that assesses its usefulness based on its behavior under real workloads in a complex system.</media:description>
    <media:community>
     <media:starRating count="7" average="5.00" min="1" max="5"/>
-    <media:statistics views="918"/>
+    <media:statistics views="920"/>
    </media:community>
   </media:group>
  </entry>
@@ -236,7 +236,7 @@
    <media:description>More data, more processing elements, and more memories are making it much harder to maintain consistent throughput in a multi-die assembly. There is more concurrent traffic, more potential interactions, and more protocol layers. Ashish Darbari, CEO of Axiomise, talks with Semiconductor Engineering about the of coherency on serialization bugs, how to ensure data is secure, and how to ferret out the root cause of problems like silent data corruption using formal technology.</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="7418"/>
+    <media:statistics views="7419"/>
    </media:community>
   </media:group>
  </entry>
@@ -305,7 +305,7 @@
    <media:description>Just because it's a standard doesn't mean everything will work together, and this is especially evident with conflicting USB standards. David Shin, senior product marketing manager at Cadence Design Systems, talks with Semiconductor Engineering about where incompatibilities can crop up, why it's so difficult to control the different versions, and what's behind all this confusion.</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="659"/>
+    <media:statistics views="660"/>
    </media:community>
   </media:group>
  </entry>

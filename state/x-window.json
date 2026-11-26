@@ -47,28 +47,6 @@
       "name": "Amjad Masad",
       "source": "x",
       "tweets": {
-        "id:2124277564596519355": {
-          "createdAt": "2026-11-21T23:03:33.000Z",
-          "id": "2124277564596519355",
-          "isQuote": true,
-          "likes": 171,
-          "quotedTweetId": "2124123683832942795",
-          "replies": 34,
-          "retweets": 8,
-          "text": "Amuse, built by Replit Missions, is open source! https://t.co/n7NeLwXfs3",
-          "url": "https://x.com/amasad/status/2124277564596519355"
-        },
-        "id:2124345037408686228": {
-          "createdAt": "2026-11-22T03:31:39.000Z",
-          "id": "2124345037408686228",
-          "isQuote": false,
-          "likes": 401,
-          "quotedTweetId": null,
-          "replies": 56,
-          "retweets": 30,
-          "text": "A high school kid is recompiling the GTA6 to work on PC.\n\nWhat’s more interesting is how they’re github issues to coordinate tasks across agent swarms.\n\nA new model for open source? https://t.co/16FgzS9kft",
-          "url": "https://x.com/amasad/status/2124345037408686228"
-        },
         "id:2124604574606795002": {
           "createdAt": "2026-11-22T20:42:58.000Z",
           "id": "2124604574606795002",
@@ -258,28 +236,6 @@
       "name": "Dan Shipper",
       "source": "x",
       "tweets": {
-        "id:2124292892168475086": {
-          "createdAt": "2026-11-22T00:04:27.000Z",
-          "id": "2124292892168475086",
-          "isQuote": true,
-          "likes": 20,
-          "quotedTweetId": "2123944723492782408",
-          "replies": 15,
-          "retweets": 0,
-          "text": "great piece\n\nbenchmarks have to choose what to measure and what to keep constant—numbers go up doesn't always mean what you think it means\n\nanother good window into this is to look in rich detail at how AI-pilled teams are putting model capabilities to work in practice:\nhttps://t.co/goJ3MXtFDm",
-          "url": "https://x.com/danshipper/status/2124292892168475086"
-        },
-        "id:2124315217936945171": {
-          "createdAt": "2026-11-22T01:33:10.000Z",
-          "id": "2124315217936945171",
-          "isQuote": false,
-          "likes": 18,
-          "quotedTweetId": null,
-          "replies": 6,
-          "retweets": 0,
-          "text": "this is gonna be up there with that patent officer who said “everything that will be invented has been invented” in the hall of fame of bad technology takes https://t.co/Ydfhq1TdGD",
-          "url": "https://x.com/danshipper/status/2124315217936945171"
-        },
         "id:2124567533449613819": {
           "createdAt": "2026-11-22T18:15:47.000Z",
           "id": "2124567533449613819",
@@ -354,17 +310,6 @@
       "name": "Garry Tan",
       "source": "x",
       "tweets": {
-        "id:2124265097313046867": {
-          "createdAt": "2026-11-21T22:14:00.000Z",
-          "id": "2124265097313046867",
-          "isQuote": true,
-          "likes": 528,
-          "quotedTweetId": "2124263805169414273",
-          "replies": 61,
-          "retweets": 10,
-          "text": "You can just automate your work and it’s so easy tbh https://t.co/6BexpmRbgS",
-          "url": "https://x.com/garrytan/status/2124265097313046867"
-        },
         "id:2124905972296560973": {
           "createdAt": "2026-11-23T16:40:37.000Z",
           "id": "2124905972296560973",
@@ -417,17 +362,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2124252844710887549": {
-          "createdAt": "2026-11-21T21:25:19.000Z",
-          "id": "2124252844710887549",
-          "isQuote": true,
-          "likes": 560,
-          "quotedTweetId": "2123861825750290445",
-          "replies": 60,
-          "retweets": 66,
-          "text": "This post nails why we why we should take the Riemann Hypothesis breakthrough very seriously, even beyond math. We’re entering an era where solving problems will look very different from how we solved them in the past.\n\n“This is not theory-building in the usual sense. It is something much weirder and more alien. The best human mathematicians know how to build theory, painstakingly, to reach a goal. But no human brain, on its own, is capable of creating a wormhole that requires a 25,000 page long tour through existing infrastructure with no obvious or realistic connection to the goal. But huge credit to Levent here: I think no current AI, on its own, is capable of this either.”\n\nIt used to be the case that to solve a particular problem - code, life sciences, math, cyber, engineering, and so on - you were ultimately bound by how much information an individual or team could retain and understand about the space. More information or more team members don’t always help, because it gets harder to connect the dots or coordinate amongst everyone. AI changes that completely. \n\nFor the first time ever we can decouple the human context limits and ability to work through information from our ability to drive productivity or discoveries. This is likely not just a small increase in the kinds of discoveries we can drive, but a qualitative shift in human output. \n\nNow every single form of prior art, insight, past research, past decision, or unrelated breakthrough, can be used for the discovery or creation of something new. This is useful for anything from cybersecurity to life sciences research. Agents will be able to correlate entirely unrelated work to a separate project; scan every bit of data in your enterprise for solving a problem; and so on. \n\nThe solutions may not be as elegant as they were in the past, but we sure will have far more of them. We’re only in the first couple of months of actually understanding the implications of this but it’s clearly going to drive a lot of change.",
-          "url": "https://x.com/levie/status/2124252844710887549"
-        },
         "id:2124658150771188157": {
           "createdAt": "2026-11-23T00:15:52.000Z",
           "id": "2124658150771188157",
@@ -480,17 +414,6 @@
       "name": "Matt Turck",
       "source": "x",
       "tweets": {
-        "id:2124239403107459490": {
-          "createdAt": "2026-11-21T20:31:54.000Z",
-          "id": "2124239403107459490",
-          "isQuote": false,
-          "likes": 100,
-          "quotedTweetId": null,
-          "replies": 20,
-          "retweets": 4,
-          "text": "The art of tweeting excitedly about AI solving the Riemann Hypothesis when you have no idea what the Riemann Hypothesis is",
-          "url": "https://x.com/mattturck/status/2124239403107459490"
-        },
         "id:2124515224946422095": {
           "createdAt": "2026-11-22T14:47:55.000Z",
           "id": "2124515224946422095",
@@ -661,28 +584,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2124217176655843483": {
-          "createdAt": "2026-11-21T19:03:35.000Z",
-          "id": "2124217176655843483",
-          "isQuote": false,
-          "likes": 54,
-          "quotedTweetId": null,
-          "replies": 29,
-          "retweets": 2,
-          "text": "The new ChatGPT mobile app is very clean but if you miss your codex threads like me you can go to the right most tab and hold to pin codex to the bottom nav. \n\nThis isn’t obvious at all btw @chatgpt https://t.co/HLuufayVy7",
-          "url": "https://x.com/petergyang/status/2124217176655843483"
-        },
-        "id:2124217179717648537": {
-          "createdAt": "2026-11-21T19:03:36.000Z",
-          "id": "2124217179717648537",
-          "isQuote": false,
-          "likes": 7,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 0,
-          "text": "Also I think chats in the left nav should include local recent codex threads not just chat threads",
-          "url": "https://x.com/petergyang/status/2124217179717648537"
-        },
         "id:2124669298191090033": {
           "createdAt": "2026-11-23T01:00:09.000Z",
           "id": "2124669298191090033",
@@ -1135,17 +1036,6 @@
       "name": "Nan Yu",
       "source": "x",
       "tweets": {
-        "id:2124241838358008184": {
-          "createdAt": "2026-11-21T20:41:35.000Z",
-          "id": "2124241838358008184",
-          "isQuote": false,
-          "likes": 24,
-          "quotedTweetId": null,
-          "replies": 8,
-          "retweets": 0,
-          "text": "Forget second brain. Third brain.",
-          "url": "https://x.com/thenanyu/status/2124241838358008184"
-        },
         "id:2124592238974156861": {
           "createdAt": "2026-11-22T19:53:57.000Z",
           "id": "2124592238974156861",
@@ -1187,28 +1077,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2124277855131664869": {
-          "createdAt": "2026-11-21T23:04:42.000Z",
-          "id": "2124277855131664869",
-          "isQuote": false,
-          "likes": 2376,
-          "quotedTweetId": null,
-          "replies": 434,
-          "retweets": 37,
-          "text": "Going to check out this threads thing",
-          "url": "https://x.com/thsottiaux/status/2124277855131664869"
-        },
-        "id:2124322968499282388": {
-          "createdAt": "2026-11-22T02:03:58.000Z",
-          "id": "2124322968499282388",
-          "isQuote": true,
-          "likes": 2158,
-          "quotedTweetId": "2123840812534452296",
-          "replies": 1116,
-          "retweets": 66,
-          "text": "Team is already preparing another big update, but how are things since yesterday’s update to the ChatGPT/Codex desktop app? What still requires attention and is not quite there? https://t.co/1X8M5JwL77",
-          "url": "https://x.com/thsottiaux/status/2124322968499282388"
-        },
         "id:2124923055072043052": {
           "createdAt": "2026-11-23T17:48:30.000Z",
           "id": "2124923055072043052",
@@ -1283,39 +1151,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2124239684536840682": {
-          "createdAt": "2026-11-21T20:33:01.000Z",
-          "id": "2124239684536840682",
-          "isQuote": false,
-          "likes": 294,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 6,
-          "text": "yes, Claude is doing a lot of the technical work. and yes, maybe future models will one-shot \"prove the Riemann hypothesis\" or \"make javascript a static language\"\n\nbut I believe collaborating with models to push the frontier is a deeply technical skill in its own right",
-          "url": "https://x.com/trq212/status/2124239684536840682"
-        },
-        "id:2124239686482923553": {
-          "createdAt": "2026-11-21T20:33:02.000Z",
-          "id": "2124239686482923553",
-          "isQuote": false,
-          "likes": 219,
-          "quotedTweetId": null,
-          "replies": 9,
-          "retweets": 4,
-          "text": "it seems to me that as models get more powerful, the skill of working with them becomes more and more important, and I have not seen diminishing returns on that skill yet\n\nwe have many many more problems to solve",
-          "url": "https://x.com/trq212/status/2124239686482923553"
-        },
-        "id:2124239688013914132": {
-          "createdAt": "2026-11-21T20:33:02.000Z",
-          "id": "2124239688013914132",
-          "isQuote": false,
-          "likes": 188,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 6,
-          "text": "I fear we are too quick to disintermediate ourselves, and by doing so we do both ourselves and the models disservice.",
-          "url": "https://x.com/trq212/status/2124239688013914132"
-        },
         "id:2124767804247379968": {
           "createdAt": "2026-11-23T07:31:35.000Z",
           "id": "2124767804247379968",
@@ -1357,17 +1192,6 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2124309178982572442": {
-          "createdAt": "2026-11-22T01:09:10.000Z",
-          "id": "2124309178982572442",
-          "isQuote": true,
-          "likes": 52,
-          "quotedTweetId": "2124254344589832645",
-          "replies": 2,
-          "retweets": 0,
-          "text": "Build for yourself https://t.co/GDqIj6u1xx",
-          "url": "https://x.com/zarazhangrui/status/2124309178982572442"
-        },
         "id:2124905740095885414": {
           "createdAt": "2026-11-23T16:39:41.000Z",
           "id": "2124905740095885414",
