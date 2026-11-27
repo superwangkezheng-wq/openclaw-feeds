@@ -58,28 +58,6 @@
       "name": "Amjad Masad",
       "source": "x",
       "tweets": {
-        "id:2124604574606795002": {
-          "createdAt": "2026-11-22T20:42:58.000Z",
-          "id": "2124604574606795002",
-          "isQuote": false,
-          "likes": 201,
-          "quotedTweetId": null,
-          "replies": 57,
-          "retweets": 11,
-          "text": "Desktop AI apps are generally a security &amp; privacy nightmare.\n\nWe worked with Windows to ship a world-class security model for Replit Desktop.\n\nWhich is why Christie’s, the world’s preeminent custodian of rare art, chose Replit for secure agentic work! https://t.co/58YGxzHp1o",
-          "url": "https://x.com/amasad/status/2124604574606795002"
-        },
-        "id:2124671335700091020": {
-          "createdAt": "2026-11-23T01:08:15.000Z",
-          "id": "2124671335700091020",
-          "isQuote": false,
-          "likes": 164,
-          "quotedTweetId": null,
-          "replies": 15,
-          "retweets": 3,
-          "text": "Spectacle https://t.co/UFQgu06XJF",
-          "url": "https://x.com/amasad/status/2124671335700091020"
-        },
         "id:2124969305674748175": {
           "createdAt": "2026-11-23T20:52:17.000Z",
           "id": "2124969305674748175",
@@ -291,17 +269,6 @@
       "name": "Dan Shipper",
       "source": "x",
       "tweets": {
-        "id:2124567533449613819": {
-          "createdAt": "2026-11-22T18:15:47.000Z",
-          "id": "2124567533449613819",
-          "isQuote": false,
-          "likes": 41,
-          "quotedTweetId": null,
-          "replies": 12,
-          "retweets": 2,
-          "text": "i am usually not alarmist but assuming this is caused by an AI-assisted cyber attack it's very bad\n\nif you want to make all of the security measures we have in place from 9/11 onward to prevent human hijackers irrelevant all you have to do is be able to mess with a plane and pilot's ability to know its own weight, how much fuel is left, and where it is\n\nwithout knowing any more information about this, you'd also expect smaller attakcs like this to find edges and what's possible\n\ni am not an expert on the systems inside airplanes, and i know most planes have manual overrides for example. but still extremely tricky when visibility is bad \n\nif you know more than me about this please weigh in!",
-          "url": "https://x.com/danshipper/status/2124567533449613819"
-        },
         "id:2124886826909622653": {
           "createdAt": "2026-11-23T15:24:32.000Z",
           "id": "2124886826909622653",
@@ -531,17 +498,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2124658150771188157": {
-          "createdAt": "2026-11-23T00:15:52.000Z",
-          "id": "2124658150771188157",
-          "isQuote": true,
-          "likes": 364,
-          "quotedTweetId": "2124336124172935336",
-          "replies": 66,
-          "retweets": 21,
-          "text": "Yes to all of this. As agents take on more and more long running project work, and you have swarms of agents that parallelize work against a goal, the agent harness and architecture for orchestration will have to evolve. \n\nOne of the biggest shifts is how those agents collectively share their knowledge, keep track of the tasks, and also coordinate with human users. This in theory is technically straightforward, but there’s a ton of complexity to get right to ensure agents can both get access to the revenant resources without too much or little exposure.\n\nThere are a lot of lessons to pull from based on how people already do this kind of work together (people share their files, have computers to work with, community in chats and inboxes, and so on). But equally the primitives need to be able to enable this work at a throughput far higher than people, and in a world where agents can much more easily become a vector of security risk. \n\nGoing to be super fun building out this next generation of how agents operate. Lots of opportunity here both for horizontal and vertical specific approaches to bring this to life.",
-          "url": "https://x.com/levie/status/2124658150771188157"
-        },
         "id:2124930801485930564": {
           "createdAt": "2026-11-23T18:19:17.000Z",
           "id": "2124930801485930564",
@@ -594,17 +550,6 @@
       "name": "Matt Turck",
       "source": "x",
       "tweets": {
-        "id:2124671699245257037": {
-          "createdAt": "2026-11-23T01:09:42.000Z",
-          "id": "2124671699245257037",
-          "isQuote": false,
-          "likes": 85,
-          "quotedTweetId": null,
-          "replies": 8,
-          "retweets": 0,
-          "text": "Breaking: AI fails to solve the most intractable math problem, how VCs are going to return those huge funds when the entry valuation of their deals is  &gt; $1B pre-product",
-          "url": "https://x.com/mattturck/status/2124671699245257037"
-        },
         "id:2124867013684367396": {
           "createdAt": "2026-11-23T14:05:48.000Z",
           "id": "2124867013684367396",
@@ -668,39 +613,6 @@
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2124585398362128469": {
-          "createdAt": "2026-11-22T19:26:46.000Z",
-          "id": "2124585398362128469",
-          "isQuote": false,
-          "likes": 2,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "On the list now 🫡 - thank you Tesla friend (not @ ing to avoid the deluge)",
-          "url": "https://x.com/nikunj/status/2124585398362128469"
-        },
-        "id:2124597844808196252": {
-          "createdAt": "2026-11-22T20:16:13.000Z",
-          "id": "2124597844808196252",
-          "isQuote": false,
-          "likes": 69,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 1,
-          "text": "2026 Docusign stock holders must be the smuggest of people rn.. https://t.co/wLk0Zs03Kg",
-          "url": "https://x.com/nikunj/status/2124597844808196252"
-        },
-        "id:2124646168428966181": {
-          "createdAt": "2026-11-22T23:28:15.000Z",
-          "id": "2124646168428966181",
-          "isQuote": false,
-          "likes": 442,
-          "quotedTweetId": null,
-          "replies": 38,
-          "retweets": 3,
-          "text": "The worst cold email does not exi- https://t.co/lgw2iwWFwv",
-          "url": "https://x.com/nikunj/status/2124646168428966181"
-        },
         "id:2124874329238466842": {
           "createdAt": "2026-11-23T14:34:53.000Z",
           "id": "2124874329238466842",
@@ -786,39 +698,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2124669298191090033": {
-          "createdAt": "2026-11-23T01:00:09.000Z",
-          "id": "2124669298191090033",
-          "isQuote": true,
-          "likes": 7,
-          "quotedTweetId": "2124529581134913992",
-          "replies": 10,
-          "retweets": 1,
-          "text": "\"Agents are very harsh customers.\"\n\nFrom @clamanna (EVP @Microsoft Copilot) on what happens when agents become the main users of software:\n\n\"[Agents] will look for the best performance, price, and reliability. What an agent prefers isn't always what a person would prefer.\n\nWhen a person does a search, you give them 10 links with small snippets. An agent doesn't care. You can return a thousand results.\n\nOur APIs and user experiences will start to evolve and have modes that better support agents.\"\n\n📌 Watch our full episode here: https://t.co/asVgmPQ9wF",
-          "url": "https://x.com/petergyang/status/2124669298191090033"
-        },
-        "id:2124695613971603850": {
-          "createdAt": "2026-11-23T02:44:43.000Z",
-          "id": "2124695613971603850",
-          "isQuote": false,
-          "likes": 3,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 0,
-          "text": "@grok list all the recommendations by most recommended and write 1 sentence each why",
-          "url": "https://x.com/petergyang/status/2124695613971603850"
-        },
-        "id:2124723140437959022": {
-          "createdAt": "2026-11-23T04:34:06.000Z",
-          "id": "2124723140437959022",
-          "isQuote": false,
-          "likes": 0,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "Just played this with fam and wow highly recommended for coop games https://t.co/McJsuqNmPN",
-          "url": "https://x.com/petergyang/status/2124723140437959022"
-        },
         "id:2125030140577296647": {
           "createdAt": "2026-11-24T00:54:01.000Z",
           "id": "2125030140577296647",
@@ -926,28 +805,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2124595496849445079": {
-          "createdAt": "2026-11-22T20:06:54.000Z",
-          "id": "2124595496849445079",
-          "isQuote": true,
-          "likes": 491,
-          "quotedTweetId": "2105476587756138942",
-          "replies": 91,
-          "retweets": 21,
-          "text": "This aged extremely well.\n\nThere's a tweet out there (will likely get deleted soon) of a provider giving you \"free\" inference of a \"stealth model\" that's \"ZDR\" with millions of views.\n\nThese stealth models are mechanisms of industrial scale data exfiltration to nation state programs, I strongly suspect, and the Dragos research seems to confirm.\n\nImagine explaining to your boss: sorry chief, I *had* to try this really cool ZDR free stealth model… all our secrets, customer data, and code are now in a different continent!\n\nVercel AI Gateway built up tremendous, real-world token volume without taking any of these shortcuts. More to come tomorrow on how we will push the trust, privacy, and security bar even higher.",
-          "url": "https://x.com/rauchg/status/2124595496849445079"
-        },
-        "id:2124654108124848350": {
-          "createdAt": "2026-11-22T23:59:48.000Z",
-          "id": "2124654108124848350",
-          "isQuote": true,
-          "likes": 127,
-          "quotedTweetId": "2124362531032432940",
-          "replies": 62,
-          "retweets": 7,
-          "text": "Rather than art, we ought to point AI towards human-understandability and conceptualization.\n\nThe Riemann proof should come with a paper, a walkthrough, new concepts and insights.\n\nMuch like the intermediate representation of high-level code is desirable even in a world where LLM will go straight to CPU instructions output.",
-          "url": "https://x.com/rauchg/status/2124654108124848350"
-        },
         "id:2124880074168242369": {
           "createdAt": "2026-11-23T14:57:42.000Z",
           "id": "2124880074168242369",
@@ -1219,39 +1076,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2124583459356373052": {
-          "createdAt": "2026-11-22T19:19:04.000Z",
-          "id": "2124583459356373052",
-          "isQuote": true,
-          "likes": 112,
-          "quotedTweetId": "2124549218995949967",
-          "replies": 82,
-          "retweets": 2,
-          "text": "OpenAI proposes perplexity as the universal metric for industry self regulation and pacing (as opposed to eg FLOPS)\n\n“Given that the main way new surprising capabilities emerge is by progress on compression, a measure rooted in perplexity could give us a shared benchmark for general intelligence, regardless of the degree of automation of the development process. Extrapolating from recent progress, we should expect further transformative capabilities as we enter the ~0.68-0.7 log-perplexity window.”\n\nthis chart is one of the most beautiful ways to tell the story of the last 4 years. it also shows that a lot of the post training issues we debate is kinda the B plot to the overall A plot of large scale pretrain progress.",
-          "url": "https://x.com/swyx/status/2124583459356373052"
-        },
-        "id:2124590240539259381": {
-          "createdAt": "2026-11-22T19:46:00.000Z",
-          "id": "2124590240539259381",
-          "isQuote": false,
-          "likes": 7,
-          "quotedTweetId": null,
-          "replies": 6,
-          "retweets": 1,
-          "text": "by this metric we have seen more ai progress this year than in 2022-2025. is that true? doesn’t suuuper feel like it but who knows we could be cooked by algorithm and/or metric only translates at frontier math level",
-          "url": "https://x.com/swyx/status/2124590240539259381"
-        },
-        "id:2124730733147390347": {
-          "createdAt": "2026-11-23T05:04:17.000Z",
-          "id": "2124730733147390347",
-          "isQuote": true,
-          "likes": 47,
-          "quotedTweetId": "2124610047741177871",
-          "replies": 28,
-          "retweets": 4,
-          "text": "incredible founder journey breakdown from founding to acquisition complete with regrets and advice. not enough founders document this! please do, it saves others potentially a lot of pain\n\nhighlights \n- @theallinpod top ticking saas market\n- IP assignment woes\n- do not brag about your SEO\n- how to draw @naval’s interest\n- hiring advice and layoff advice\n- how to fish for an acquisition\n- how to clear roadblocks for an acquisition\n- there are CTO coaches??",
-          "url": "https://x.com/swyx/status/2124730733147390347"
-        },
         "id:2124766474736976240": {
           "createdAt": "2026-11-23T07:26:18.000Z",
           "id": "2124766474736976240",
@@ -1348,17 +1172,6 @@
       "name": "Nan Yu",
       "source": "x",
       "tweets": {
-        "id:2124592238974156861": {
-          "createdAt": "2026-11-22T19:53:57.000Z",
-          "id": "2124592238974156861",
-          "isQuote": false,
-          "likes": 33,
-          "quotedTweetId": null,
-          "replies": 5,
-          "retweets": 0,
-          "text": "I found a secret prompt that makes all your vibecoded projects scale and perform better, with higher reliability. \n\n“Use Postgres”",
-          "url": "https://x.com/thenanyu/status/2124592238974156861"
-        },
         "id:2125388928647880795": {
           "createdAt": "2026-11-25T00:39:43.000Z",
           "id": "2125388928647880795",
