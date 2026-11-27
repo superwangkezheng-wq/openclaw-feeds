@@ -49,6 +49,17 @@
           "retweets": 10,
           "text": "https://t.co/4WLHL6jgR4",
           "url": "https://x.com/adityaag/status/2125817213890478282"
+        },
+        "id:2126201584094748886": {
+          "createdAt": "2026-11-27T06:28:55.000Z",
+          "id": "2126201584094748886",
+          "isQuote": true,
+          "likes": 0,
+          "quotedTweetId": "2125634841320305131",
+          "replies": 0,
+          "retweets": 0,
+          "text": "You really cannot make this stuff up. https://t.co/0c9oC3KxZm",
+          "url": "https://x.com/adityaag/status/2126201584094748886"
         }
       }
     },
@@ -134,6 +145,17 @@
           "retweets": 43,
           "text": "Large scale software migration is now viable provided you can verify the results.\n\nThis is exceptionally important given the aging software systems running critical infrastructure. https://t.co/SOg7AEmMGT https://t.co/TaZ5gbzuFa",
           "url": "https://x.com/amasad/status/2125664998454366305"
+        },
+        "id:2126018746884243652": {
+          "createdAt": "2026-11-26T18:22:23.000Z",
+          "id": "2126018746884243652",
+          "isQuote": true,
+          "likes": 448,
+          "quotedTweetId": "2125770526748745790",
+          "replies": 46,
+          "retweets": 12,
+          "text": "Google really cooked with Gemini 4.\n\nTake them for a ride on Replit! https://t.co/RqvuIxh3lZ",
+          "url": "https://x.com/amasad/status/2126018746884243652"
         }
       }
     },
@@ -269,28 +291,6 @@
       "name": "Dan Shipper",
       "source": "x",
       "tweets": {
-        "id:2124886826909622653": {
-          "createdAt": "2026-11-23T15:24:32.000Z",
-          "id": "2124886826909622653",
-          "isQuote": true,
-          "likes": 153,
-          "quotedTweetId": "2124880074168242369",
-          "replies": 22,
-          "retweets": 3,
-          "text": "You need to be personal benchmark maxxing https://t.co/p8owPoAMhP",
-          "url": "https://x.com/danshipper/status/2124886826909622653"
-        },
-        "id:2124896430783447510": {
-          "createdAt": "2026-11-23T16:02:42.000Z",
-          "id": "2124896430783447510",
-          "isQuote": false,
-          "likes": 6,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 2,
-          "text": "here's how to make a personal benchmark, courtesy our very own @hammer_mt: https://t.co/aZMpB64xSl",
-          "url": "https://x.com/danshipper/status/2124896430783447510"
-        },
         "id:2125370917719343278": {
           "createdAt": "2026-11-24T23:28:08.000Z",
           "id": "2125370917719343278",
@@ -365,17 +365,6 @@
       "name": "Garry Tan",
       "source": "x",
       "tweets": {
-        "id:2124905972296560973": {
-          "createdAt": "2026-11-23T16:40:37.000Z",
-          "id": "2124905972296560973",
-          "isQuote": true,
-          "likes": 462,
-          "quotedTweetId": "2124897667771732168",
-          "replies": 94,
-          "retweets": 16,
-          "text": "One trick a startup can use to self-prompt in a loop: ask yourself “are we dying?”\n\nIf you ask you might spot the thing killing you and avert it https://t.co/oJuZIg115y",
-          "url": "https://x.com/garrytan/status/2124905972296560973"
-        },
         "id:2125247943540142577": {
           "createdAt": "2026-11-24T15:19:29.000Z",
           "id": "2125247943540142577",
@@ -541,6 +530,17 @@
           "retweets": 1,
           "text": "Coding gives you a window into what the future will look like for a large amount of knowledge work. \n\nThe first step for most jobs is that we go from doing most of the research, typing, and value creation manually (even if it’s using digital tools) to soon coordinating the work that agents are doing. \n\nNext, as this step itself becomes redundant or slows down what agents are capable of, we will be giving agents goals to optimize against and they’ll go off on and increasingly solve larger problems for us. \n\nThis may at first blush look like something whose impact gets stuck with coding, but actually a large percentage of knowledge work may eventually just converge with this form factor due to the massive productivity gains that can be generated. Agents will use computers, leverage our existing tools or write new ones, and write code on the fly to solve larger swaths of knowledge work. \n\nSo even if a task today doesn’t seem to be “coding” directly, the task may eventually fold into being coding adjacent. Manufacturing, architecture, life sciences, material sciences, cyber, and on and on.\n \nOne big hurdle in the way ultimately will be that much of this work remains non-verifiable, so humans will be even more in the loop than they are in coding. But the part that they can hand off will just get bigger and bigger over time as the models are more capable.\n\nSo in short, pay attention to coding and you’ll get a sense for where work is going.",
           "url": "https://x.com/levie/status/2125837181398950233"
+        },
+        "id:2125983542475894821": {
+          "createdAt": "2026-11-26T16:02:30.000Z",
+          "id": "2125983542475894821",
+          "isQuote": true,
+          "likes": 883,
+          "quotedTweetId": "2125603025586966893",
+          "replies": 145,
+          "retweets": 57,
+          "text": "Huge opportunity right now to build new services firms from the ground up, or transform existing ones, with agents at the center. \n\nThe expertise that services firms in theory should have is as important as ever because you still need deep domain understanding to get the most out of agents. But now the ability to deliver on projects has a 10X multiplier. This means that you can make clients happier, compete to win more of them, go after smaller customers not in the TAM before, or deliver outcomes that weren’t really conceivable.\n\nThis is going to happen in advertising, IT transformation, management consulting, finance, and a number of other fields that historically are just fully constrained by the speed of their workforce for output. \n\nThis is a huge opportunity right now for those starting these firms. I wouldn’t count out existing players that commit to the transformation either as existing customer trust goes a long way. But they have to move quickly to make it work.",
+          "url": "https://x.com/levie/status/2125983542475894821"
         }
       }
     },
@@ -550,28 +550,6 @@
       "name": "Matt Turck",
       "source": "x",
       "tweets": {
-        "id:2124867013684367396": {
-          "createdAt": "2026-11-23T14:05:48.000Z",
-          "id": "2124867013684367396",
-          "isQuote": false,
-          "likes": 89,
-          "quotedTweetId": null,
-          "replies": 3,
-          "retweets": 5,
-          "text": "BREAKING: AI JESUS IS RISEN",
-          "url": "https://x.com/mattturck/status/2124867013684367396"
-        },
-        "id:2124908682626613368": {
-          "createdAt": "2026-11-23T16:51:23.000Z",
-          "id": "2124908682626613368",
-          "isQuote": false,
-          "likes": 439,
-          "quotedTweetId": null,
-          "replies": 34,
-          "retweets": 14,
-          "text": "People on LinkedIn are going to go WILD when they hear about Jensen returning, next week",
-          "url": "https://x.com/mattturck/status/2124908682626613368"
-        },
         "id:2125275072802029631": {
           "createdAt": "2026-11-24T17:07:17.000Z",
           "id": "2125275072802029631",
@@ -604,6 +582,17 @@
           "retweets": 2,
           "text": "I probably shouldn't be tweeting about those things, but putting Jensen in therapy is the most hilarious thing - rich and powerful guy succumbs to temptation, it's the oldest story in the book from times immemorial, not a mental health problem, lol",
           "url": "https://x.com/mattturck/status/2125652799648399603"
+        },
+        "id:2126068708527198482": {
+          "createdAt": "2026-11-26T21:40:55.000Z",
+          "id": "2126068708527198482",
+          "isQuote": false,
+          "likes": 62,
+          "quotedTweetId": null,
+          "replies": 15,
+          "retweets": 1,
+          "text": "\"Thankful to VCs for their thought leadership, podcasts and market maps\"\n\n-- no founder yet (but it's still early on Thanksgiving day)",
+          "url": "https://x.com/mattturck/status/2126068708527198482"
         }
       }
     },
@@ -613,28 +602,6 @@
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2124874329238466842": {
-          "createdAt": "2026-11-23T14:34:53.000Z",
-          "id": "2124874329238466842",
-          "isQuote": true,
-          "likes": 20,
-          "quotedTweetId": "2124597844808196252",
-          "replies": 0,
-          "retweets": 0,
-          "text": "Nvidia board took this one personally 😂 https://t.co/HSDRzghDMi",
-          "url": "https://x.com/nikunj/status/2124874329238466842"
-        },
-        "id:2124915267864301581": {
-          "createdAt": "2026-11-23T17:17:33.000Z",
-          "id": "2124915267864301581",
-          "isQuote": false,
-          "likes": 18,
-          "quotedTweetId": null,
-          "replies": 5,
-          "retweets": 1,
-          "text": "If you like news and drama, there’s simply no month like November for AI.. https://t.co/yMFFGz3Qg6",
-          "url": "https://x.com/nikunj/status/2124915267864301581"
-        },
         "id:2125033540287131901": {
           "createdAt": "2026-11-24T01:07:31.000Z",
           "id": "2125033540287131901",
@@ -689,6 +656,17 @@
           "retweets": 2,
           "text": "This is my new favorite coffee shop in SF.. \n\n&gt; coffee\n&gt; music\n&gt; lighting\n&gt; seating\n&gt; baristas\n&gt; outlets\n\nAll A+\n\nWho’s going to rainbolt this? https://t.co/Gi5eRg9ZjY",
           "url": "https://x.com/nikunj/status/2125709379303588068"
+        },
+        "id:2126133563292803100": {
+          "createdAt": "2026-11-27T01:58:37.000Z",
+          "id": "2126133563292803100",
+          "isQuote": false,
+          "likes": 23,
+          "quotedTweetId": null,
+          "replies": 5,
+          "retweets": 1,
+          "text": "Last Thanksgiving, I was mildly paranoid about forgetting to text folks who I had spent significant time with last year.. that's when Claude discovered that iMessage & Whatsapp are local databases on your computer. \n\nOne thing led to another, and it transformed into a surprisingly helpful project. \n\nIf you are equally paranoid like me, use the local scripts here (no AI, fully local) to text people you have spent time with (https://t.co/agVCIXkP4f).\n\nHappy Thanksgiving to one and all 🦃",
+          "url": "https://x.com/nikunj/status/2126133563292803100"
         }
       }
     },
@@ -796,6 +774,39 @@
           "retweets": 0,
           "text": "Is the new blade runner any good",
           "url": "https://x.com/petergyang/status/2125800904628781428"
+        },
+        "id:2126021289102230008": {
+          "createdAt": "2026-11-26T18:32:29.000Z",
+          "id": "2126021289102230008",
+          "isQuote": false,
+          "likes": 41,
+          "quotedTweetId": null,
+          "replies": 12,
+          "retweets": 0,
+          "text": "Things to teach your kids during the holidays:\n\n- Reading\n- Math\n- How to rob a bank by masking up, going through the backdoor, using a snap gun to pick the locks, removing the security tape, and threatening the staff for the safe code courtesy of GTA VI",
+          "url": "https://x.com/petergyang/status/2126021289102230008"
+        },
+        "id:2126042318793064914": {
+          "createdAt": "2026-11-26T19:56:03.000Z",
+          "id": "2126042318793064914",
+          "isQuote": true,
+          "likes": 194,
+          "quotedTweetId": "2125797463047258119",
+          "replies": 8,
+          "retweets": 1,
+          "text": "This is awesome I just set up Trump accounts for my kids, thank you @elonmusk! \n\nOne day I hope to take them to see a Starship launch. https://t.co/FQJctoRzzH",
+          "url": "https://x.com/petergyang/status/2126042318793064914"
+        },
+        "id:2126046533904896077": {
+          "createdAt": "2026-11-26T20:12:48.000Z",
+          "id": "2126046533904896077",
+          "isQuote": true,
+          "likes": 261,
+          "quotedTweetId": "2126042318793064914",
+          "replies": 15,
+          "retweets": 15,
+          "text": "Hey look @elonmusk is giving a SpaceX share to every kid in America I wonder whether NY Times covered this: https://t.co/GfgcssTSBR https://t.co/cGuTqBPpRO",
+          "url": "https://x.com/petergyang/status/2126046533904896077"
         }
       }
     },
@@ -805,28 +816,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2124880074168242369": {
-          "createdAt": "2026-11-23T14:57:42.000Z",
-          "id": "2124880074168242369",
-          "isQuote": false,
-          "likes": 1792,
-          "quotedTweetId": null,
-          "replies": 200,
-          "retweets": 44,
-          "text": "I asked Fable to study all my https://t.co/3Z4NESzNKd coding sessions and decide whether Opus or Gemini Neon is best. Think of it as a 'personal eval'.\n\nIt picked Neon. Google being so, so back seems widely (and wildly) under-discussed. https://t.co/W6s4WZPvnU",
-          "url": "https://x.com/rauchg/status/2124880074168242369"
-        },
-        "id:2124881919506886832": {
-          "createdAt": "2026-11-23T15:05:02.000Z",
-          "id": "2124881919506886832",
-          "isQuote": true,
-          "likes": 393,
-          "quotedTweetId": "2124797717834543167",
-          "replies": 22,
-          "retweets": 5,
-          "text": "An actually good board! https://t.co/x0h7508SXG",
-          "url": "https://x.com/rauchg/status/2124881919506886832"
-        },
         "id:2125057274213507253": {
           "createdAt": "2026-11-24T02:41:50.000Z",
           "id": "2125057274213507253",
@@ -903,6 +892,17 @@
           "retweets": 8,
           "text": "We made workflows 10x faster again. Generally speaking, workflows were plenty fast already!\n\nFor harness durability (@eve, libfx, pi, opencode…), this is a big deal, as it crushes latency in between turns.\n\nUpgrade to 𝚠𝚘𝚛𝚔𝚏𝚕𝚘𝚠@𝚕𝚊𝚝𝚎𝚜𝚝. No code changes. https://t.co/GmvGi7Ryh9",
           "url": "https://x.com/rauchg/status/2125685667833520237"
+        },
+        "id:2126037393241424065": {
+          "createdAt": "2026-11-26T19:36:29.000Z",
+          "id": "2126037393241424065",
+          "isQuote": false,
+          "likes": 744,
+          "quotedTweetId": null,
+          "replies": 53,
+          "retweets": 24,
+          "text": "I'm thankful for all the optimists. Americans are a profoundly optimistic bunch, and I think it's one of the things you really appreciate and are drawn to as an immigrant.\n\nIn order to define the future and lead the world, you must possess a positive vision of what's to come.\n\nThese days many people speak in terms of a future we must blindly accept and capitulate to. Instead, we must use our, yes, agency to build and project the amazing future we want for our grandchildren and loved ones. Happy thanksgiving!",
+          "url": "https://x.com/rauchg/status/2126037393241424065"
         }
       }
     },
@@ -912,17 +912,6 @@
       "name": "Madhu Guru",
       "source": "x",
       "tweets": {
-        "id:2124758161068556756": {
-          "createdAt": "2026-11-23T06:53:16.000Z",
-          "id": "2124758161068556756",
-          "isQuote": false,
-          "likes": 1,
-          "quotedTweetId": null,
-          "replies": 0,
-          "retweets": 0,
-          "text": "thanks for all the interest, pointers and DMs! let’s make a meetup happens.\n\nmight not be able to reply to each individually, but will post updates here. \n\nStay tuned!",
-          "url": "https://x.com/realmadhuguru/status/2124758161068556756"
-        },
         "id:2125102190196859156": {
           "createdAt": "2026-11-24T05:40:19.000Z",
           "id": "2125102190196859156",
@@ -994,28 +983,6 @@
       "name": "Sam Altman",
       "source": "x",
       "tweets": {
-        "id:2124887162206495228": {
-          "createdAt": "2026-11-23T15:25:52.000Z",
-          "id": "2124887162206495228",
-          "isQuote": false,
-          "likes": 84928,
-          "quotedTweetId": null,
-          "replies": 2004,
-          "retweets": 3397,
-          "text": "Jensen!",
-          "url": "https://x.com/sama/status/2124887162206495228"
-        },
-        "id:2124894264564092952": {
-          "createdAt": "2026-11-23T15:54:05.000Z",
-          "id": "2124894264564092952",
-          "isQuote": true,
-          "likes": 4032,
-          "quotedTweetId": "2124884201283485934",
-          "replies": 347,
-          "retweets": 285,
-          "text": "This is really really good: https://t.co/LcWViyLKii",
-          "url": "https://x.com/sama/status/2124894264564092952"
-        },
         "id:2125638790593274259": {
           "createdAt": "2026-11-25T17:12:34.000Z",
           "id": "2125638790593274259",
@@ -1037,6 +1004,39 @@
           "retweets": 248,
           "text": "I don't think I'd heard the word \"hyperstitioning\" before, but it's a good one. https://t.co/0I1yz7jivU",
           "url": "https://x.com/sama/status/2125639418849714280"
+        },
+        "id:2125983591389974980": {
+          "createdAt": "2026-11-26T16:02:41.000Z",
+          "id": "2125983591389974980",
+          "isQuote": false,
+          "likes": 13315,
+          "quotedTweetId": null,
+          "replies": 905,
+          "retweets": 384,
+          "text": "I am thankful for a lot of things in life, but my family is the best thing that has ever happened to me.\n\nThe two most common things people said to me before having kids is that it's better than anyone can explain to you and it goes very fast; these are both true and I don't have much to add. But I am very grateful and I love them more than there is any way to explain.\n\nAlso I cannot really imagine life without Ollie and I think without his unwavering support and great advice I would have gone crazy by now.\n\n🦃",
+          "url": "https://x.com/sama/status/2125983591389974980"
+        },
+        "id:2125984053119836399": {
+          "createdAt": "2026-11-26T16:04:31.000Z",
+          "id": "2125984053119836399",
+          "isQuote": false,
+          "likes": 2123,
+          "quotedTweetId": null,
+          "replies": 129,
+          "retweets": 40,
+          "text": "Oh, one thing about kids:\n\nMost good things get a little less satisfying the 100th time you do them.\n\nA quiet evening hanging out with your kids, even doing very mundane stuff, is in the rare category of something repetitive just getting better and better.",
+          "url": "https://x.com/sama/status/2125984053119836399"
+        },
+        "id:2125990371897557278": {
+          "createdAt": "2026-11-26T16:29:38.000Z",
+          "id": "2125990371897557278",
+          "isQuote": true,
+          "likes": 6775,
+          "quotedTweetId": "2125809711509336342",
+          "replies": 435,
+          "retweets": 321,
+          "text": "Ven was one of the earliest believers that we could use our then-current model to solve millenium prize problems.\n\nThere are a lot of brilliant people in the world, but being brilliant and also having correctly-placed confidence and courage to keep pushing on something that others don't think is possible is a very valuable thing and fairly rare.\n\nI am grateful so many people at OpenAI have this combination.",
+          "url": "https://x.com/sama/status/2125990371897557278"
         }
       }
     },
@@ -1076,28 +1076,6 @@
       "name": "Swyx",
       "source": "x",
       "tweets": {
-        "id:2124766474736976240": {
-          "createdAt": "2026-11-23T07:26:18.000Z",
-          "id": "2124766474736976240",
-          "isQuote": true,
-          "likes": 7,
-          "quotedTweetId": "2124618540997304647",
-          "replies": 0,
-          "retweets": 0,
-          "text": "@theallinpod also this FTX SBF quote https://t.co/Pursth2YcR",
-          "url": "https://x.com/swyx/status/2124766474736976240"
-        },
-        "id:2124780264916423021": {
-          "createdAt": "2026-11-23T08:21:06.000Z",
-          "id": "2124780264916423021",
-          "isQuote": true,
-          "likes": 11,
-          "quotedTweetId": "2124663594449318173",
-          "replies": 10,
-          "retweets": 0,
-          "text": "microsoft answers the call!!!!! oh my, am I a @mustafasuleyman stan?? https://t.co/wvFVavk1qs\n\ni think we need @alexandr_wang to join in and that will be the tipping point for all labs to unite on this effort",
-          "url": "https://x.com/swyx/status/2124780264916423021"
-        },
         "id:2125431392226148670": {
           "createdAt": "2026-11-25T03:28:27.000Z",
           "id": "2125431392226148670",
@@ -1163,6 +1141,39 @@
           "retweets": 1,
           "text": "really hurtful to be a new media founder when old media is dying this quickly.\n\nlike; its not a \"haha they suck this is a skill issue\" thing, it's a \"we need to figure out what they couldn't with 31 years of experience\" https://t.co/ampl4QdDGU https://t.co/Gi9jyxD3Pi",
           "url": "https://x.com/swyx/status/2125638081848250634"
+        },
+        "id:2126072968761721013": {
+          "createdAt": "2026-11-26T21:57:50.000Z",
+          "id": "2126072968761721013",
+          "isQuote": true,
+          "likes": 8,
+          "quotedTweetId": "2125751491634008548",
+          "replies": 3,
+          "retweets": 1,
+          "text": "another good one is https://t.co/z8Wlkvx3E9 - when you refound in public, there's a few good things here:\n\n1. critical feedback from people who aren't paid to say yes to you\n2. you are putting a human face on an otherwise corporate feel\n3. turn an \"incumbent\" into an \"underdog\" story\n\ntwitter \"isn't real\" (99% of your customers won't actually ever even see your tweets, though 80% of your influencers might) so its actually a pretty safe space to think in public as long as you stay inside overton",
+          "url": "https://x.com/swyx/status/2126072968761721013"
+        },
+        "id:2126106139582677088": {
+          "createdAt": "2026-11-27T00:09:39.000Z",
+          "id": "2126106139582677088",
+          "isQuote": true,
+          "likes": 81,
+          "quotedTweetId": "2125700569654542615",
+          "replies": 81,
+          "retweets": 0,
+          "text": "i think agentic payments is one of the most divisive yet important themes to get right for 2028. no real in between, either you get in early or you declare its basically never gonna happen https://t.co/p6dDMMMvZ5 https://t.co/7eUeZpn97a",
+          "url": "https://x.com/swyx/status/2126106139582677088"
+        },
+        "id:2126201671026180469": {
+          "createdAt": "2026-11-27T06:29:15.000Z",
+          "id": "2126201671026180469",
+          "isQuote": true,
+          "likes": 1,
+          "quotedTweetId": "2126047712596631876",
+          "replies": 0,
+          "retweets": 0,
+          "text": "beating cursor and t3code on day 0. strong start https://t.co/2xa4bNqUnB https://t.co/QYzyfs0hhV",
+          "url": "https://x.com/swyx/status/2126201671026180469"
         }
       }
     },
@@ -1226,6 +1237,17 @@
           "retweets": 4,
           "text": "Whenever someone says “chat isn’t the right interface for AI” I know they’re gonna follow it up with a bunch of hand-waving.",
           "url": "https://x.com/thenanyu/status/2125718932741120476"
+        },
+        "id:2126036677642928363": {
+          "createdAt": "2026-11-26T19:33:38.000Z",
+          "id": "2126036677642928363",
+          "isQuote": false,
+          "likes": 3,
+          "quotedTweetId": null,
+          "replies": 2,
+          "retweets": 0,
+          "text": "Guys... Voice chat is chat. \n\nSending images into the chat is chat. \n\nIssuing instructions and getting a site back is chat. \n\nYou can literally do all of these things in ChstGPT right now.",
+          "url": "https://x.com/thenanyu/status/2126036677642928363"
         }
       }
     },
@@ -1311,6 +1333,17 @@
           "retweets": 563,
           "text": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. \n\nWe’ve fixed this now, so the same work will use more of your plan’s usage allowance. Comparing to last week, you will reach your limits 40% faster on GPT-6.2 Astra and 25% faster on Sol. You should still see these go further in usage compared to 6 Astra and 6.1 Sol. Other models weren’t affected, and we won’t charge you for the difference on past usage.\n\nAs a small token to apologize for the mistake, we’ll be adding one banked reset for everyone on Go, Plus, Pro, and Business.",
           "url": "https://x.com/thsottiaux/status/2125784147889393806"
+        },
+        "id:2125853628250599730": {
+          "createdAt": "2026-11-26T07:26:16.000Z",
+          "id": "2125853628250599730",
+          "isQuote": false,
+          "likes": 7984,
+          "quotedTweetId": null,
+          "replies": 1538,
+          "retweets": 198,
+          "text": "Banked reset is online",
+          "url": "https://x.com/thsottiaux/status/2125853628250599730"
         }
       }
     },
@@ -1320,17 +1353,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2124767804247379968": {
-          "createdAt": "2026-11-23T07:31:35.000Z",
-          "id": "2124767804247379968",
-          "isQuote": false,
-          "likes": 10567,
-          "quotedTweetId": null,
-          "replies": 105,
-          "retweets": 546,
-          "text": "they cut the scene in Hitchhiker's Guide where the computer follows 42 with 500 million pages of Lean",
-          "url": "https://x.com/trq212/status/2124767804247379968"
-        },
         "id:2124987187406275037": {
           "createdAt": "2026-11-23T22:03:20.000Z",
           "id": "2124987187406275037",
@@ -1394,17 +1416,6 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2124905740095885414": {
-          "createdAt": "2026-11-23T16:39:41.000Z",
-          "id": "2124905740095885414",
-          "isQuote": false,
-          "likes": 263,
-          "quotedTweetId": null,
-          "replies": 19,
-          "retweets": 12,
-          "text": "You can post on social media every day and still be a very private person; the two are not contradictory \n\nMany people have the misconception that sharing your thoughts online means turning your whole life into an open book for others to see. This can’t be further from the truth\n\nI post almost every day but I only share a tiny sliver of my life & thoughts, probably less than 1%. I only share what I’m comfortable with sharing\n\nThe key is to find out which 1% is at the intersection of “interesting to others” and “comfortable for you”",
-          "url": "https://x.com/zarazhangrui/status/2124905740095885414"
-        },
         "id:2125074988210463019": {
           "createdAt": "2026-11-24T03:52:13.000Z",
           "id": "2125074988210463019",
@@ -1459,6 +1470,17 @@
           "retweets": 1,
           "text": "I'm surprised to see that my Frontend Slides skill has kept growing (now at 32k stars on GitHub) organically even though I haven't talked about it for months. \n\nI thought the growing capabilities of the coding agents would make the skill obsolete. \n\nWhy are people still using it?? Why are you unhappy with the slides produced by Claude/Codex as is?",
           "url": "https://x.com/zarazhangrui/status/2125649866902868355"
+        },
+        "id:2126055939749118294": {
+          "createdAt": "2026-11-26T20:50:10.000Z",
+          "id": "2126055939749118294",
+          "isQuote": false,
+          "likes": 341,
+          "quotedTweetId": null,
+          "replies": 39,
+          "retweets": 14,
+          "text": "12 tips for people who posted on LinkedIn but now wanna post on X\n\nA lot of people I know are moving their posting from LinkedIn to X. When they ask me how I grew 80k followers on X in one year, here’s what I tell them:\n\n1. LinkedIn is a stage. X is a party. First you find your crowd, then you listen to what they're already talking about. Don't start talking until you get it\n\n2. You can't reach the C-suite directly. LinkedIn is a professional network, so you can go straight to decision makers. X doesn't work like that. You have to get mass attention first, and then the right people notice you\n\n3. Post way more than you think. On LinkedIn, 3-5 posts a week counts as a lot. I posted 3 times a day on X for 6 months. Some founders I follow post 5 times a day. It's not that they're on X all day. They just don't overthink it\n\n4. Make posting a reflex. If you spend too long on a post, you won't post. Whenever a thought comes up, post it right there. No planning, no scheduling, no waiting for the right time\n\n5. It's a numbers game. Most posts won't do well. Maybe 1 in 10 will. Maybe 1 in 50 goes viral. That's normal\n\n6. Half your posts should be reactions. LinkedIn is mostly “proactive content”. On X, at least at the start, half of what you post should be “reactive content”: replies, quote tweets, commentary on what others already said\n\n7. Know the difference between a reply and a quote tweet. A reply is like a LinkedIn DM. It says \"notice me.\" A quote tweet uses someone else's content to grow your own account\n\n8. Fix your feed first. If you wanna talk about cybersecurity and your feed is all politics, you can't join the right conversations. Pick a few big names in your niche. See who they follow and who they engage with, and follow those people too. Like, bookmark and comment. After about a week your timeline will look totally different\n\n9. Write like you're texting an acquaintance. Polish turns people off. Everyone's allergic to perfect AI-sounding writing. And please don't use AI or bots to write your replies. People can tell, and they might block you\n\n10. Post the stuff that's obvious to you. Make a list of the top 10 questions customers, investors and your team ask you. That's where you're the expert. What seems too obvious to talk about is exactly what people want to hear\n\n11. Post what you just said out loud. If you say something in real life and people go \"huh, never thought of it that way,\" post it on your way back. Don't wait, you'll forget. You don't have to block out time to think of what to say. Just say what you've already said\n\n12. Show your face, and don't sell yet. X is a wall of text, so video stands out. I just record myself on my laptop with something on the screen. People wanna know you're a real human, not AI slop. And until you have about 1,000 followers, don't promote your company. Share real opinions first. Later, when you repost company news, always add your own take, not PR speak.\n\nRemember: people follow people, not companies",
+          "url": "https://x.com/zarazhangrui/status/2126055939749118294"
         }
       }
     }
