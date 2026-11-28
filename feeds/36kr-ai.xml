@@ -15,8 +15,292 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Fri, 27 Nov 2026 17:31:51 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Nov 2026 04:46:28 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[卡帕西用Claude搓出“美国版《文明》”，网友直接玩成全球接力赛]]></title>
+            <description><![CDATA[<p>就在两天前，大神卡帕西在推上晒了一个船新玩法：</p>
+  <p>让Claude把美国的真实数据，塞进一张《文明》风格的地图。</p>
+  <p class="image-wrapper"><img data-img-size-val="1034,902" src="https://img.36krcdn.com/hsossms/20261128/v2_a5cb05e226334c21af7ac6a139b22d57@000000_oswg595185oswg1034oswg902_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在这张可交互的网页地图里，美国的城市、产业、电厂、港口和大学，全被搬进了文明风格的、六边形地块组成的地图。</p>
+  <p>现实里的GDP变成了金币，各地的产业特长也变成了不同的城区。</p>
+  <p>在卡帕西的网页里，它看起来大概是这样的～</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,583" src="https://img.36krcdn.com/hsossms/20261128/v2_82c18323a95f4323b35d5b4d1d2dd801@000000_oswg1100201oswg1080oswg583_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>（有一说一，我在网页端拖动的时候有点卡，不是卡黑）</p>
+  <p>据卡帕西透露，为了搓出这玩意儿，Claude硬是连跑了约7小时，直接干掉他半周的额度，狂写了4.5万行代码。</p>
+  <p>而且，还顺手做了一个预告片。</p>
+  <p>在刚看到这个项目时，我相信大部分人跟我一样，也就是围观大神最近的新项目，看个热闹。</p>
+  <p>可没想到的是，就在这两天，网友们突然发力：全世界都快被Claude重做一遍了——</p>
+  <p>完全一整个新的token maxxing大赛。</p>
+  <p>什么澳大利亚、西班牙、菲律宾、英国……各国网友排队给自家安排上。</p>
+  <p>真就AI让执行变得免费呗。</p>
+  <h2><strong>卡帕西用Claude，搓出了原版“教材”</strong></h2>
+  <p>咱先看卡帕西的原版“教材”。</p>
+  <p>第一眼看上去，确实很有《文明》味儿：六边形地块铺开，山脉、森林、农田和城市各占一方。</p>
+  <p>在页面里，我们可以随便缩放滑动，或者直接搜索跳转。</p>
+  <p>先来一个究极鸟瞰图：东西海岸，上下友邻这一块。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,648" src="https://img.36krcdn.com/hsossms/20261128/v2_6c028345134341d58c5ce9d7f33bedff@000000_oswg744538oswg1080oswg648_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>据卡帕西介绍，整个项目收录了524个都市区及小都市区，点进任意一座城市，人口、GDP、就业结构、收入、住房这些指标全给列得明明白白。</p>
+  <p>拿洛杉矶来说，现实里强大的影视产业，直接被翻译成了城市里的“剧院广场”；</p>
+  <p>旁边配着航空区和港口，城市头上还顶着一个“电影之都”的标签。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,562" src="https://img.36krcdn.com/hsossms/20261128/v2_411bd3393b2b4e61b803431ea9334b34@000000_oswg690587oswg1080oswg562_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>卡帕西在推特中透露，这些数据全都来自老美真实数据。</p>
+  <p>我还特地问了一下GPT，洛杉矶都市区电影与录音业的岗位占比，确实是全美平均水平的约6.9倍。</p>
+  <p>接下来，我又滑了滑，发现侧边栏还能进一步查看人口、街道、经济等属性。</p>
+  <p>虽然不同的城市都有不同介绍，但玩法基本一致，主要是逛地图、查数据、比城市。</p>
+  <p>也就是说，它目前还不能像正经《文明》一样自由演化、还停留在一个欣赏玩味的阶段。</p>
+  <p>但就像评论区有网友说的，虽然只能看，但这也不影响它成为一种新的教材形态。</p>
+  <p>放到经济地理课上，让学生挑两座城市比人口、产业和收入，再顺着港口、大学和基础设施找原因，比干啃课本直观多了。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,309" src="https://img.36krcdn.com/hsossms/20261128/v2_9b8ead2d9a894bdc9d17df46f45c85bc@000000_oswg116762oswg1080oswg309_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>而且，这玩意做起来也非常简单，非常适合有额度的同学上手。</p>
+  <p>卡帕西在推上透露，他用的是Claude Code桌面应用，模型选Opus 5.5，推理强度调成medium，再打开ultracode……</p>
+  <p>就是没分享提示词～</p>
+  <p>不过，看网友的分享，大概率也可以反向一波！</p>
+  <p>值得一提的是，卡帕西表示这个还是他用自己的订阅套餐做的，A\公私分明这一块。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,549" src="https://img.36krcdn.com/hsossms/20261128/v2_69f27966997b4bf48d6dcb0440c5a075@000000_oswg193554oswg1080oswg549_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>网友整活接棒：换国家、加历史，甚至直接开打</strong></h2>
+  <p>一开始刷到卡帕西这个，我真没想到热度能冲这么高。</p>
+  <p>（马斯克可能给当了一波人形抖+）</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,235" src="https://img.36krcdn.com/hsossms/20261128/v2_9f36300670f449eabc7cf16ae0fbb288@000000_oswg62748oswg1080oswg235_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>现在推特上，最火的玩法，就是先拿自己国家开整。</p>
+  <p>比如，网友David Gil直接搓出了西班牙版，把公开数据铺上10公里六边形网格，86个城市区域变成城市，16座国家公园直接封成“奇观”。</p>
+  <p class="image-wrapper"><img data-img-size-val="898,1326" src="https://img.36krcdn.com/hsossms/20261128/v2_812f5aba66974e9c9fa4865482277714@000000_oswg941750oswg898oswg1326_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Gary Devenay也紧跟着端出了英国版～</p>
+  <p class="image-wrapper"><img data-img-size-val="906,816" src="https://img.36krcdn.com/hsossms/20261128/v2_d7a7e2be7ed541c1bed303c4c878c034@000000_oswg729996oswg906oswg816_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>菲律宾版则由网友Carlos E. Perez接棒。</p>
+  <p>演示里，一边逛群岛，一边就能拉出人口、收入、住房等数据面板。</p>
+  <p>切到Explorer，还能把不同地区拉进表格里横评。</p>
+  <p>到了澳大利亚版，网友还嫌光看不过瘾，直接加上了战斗玩法，还塞进了极具澳洲特色的——</p>
+  <p>变异鸸鹋。</p>
+  <p>此外，还有网友做出了印度版本，并且加了3D山脉，城市天际线、列车和航线，地区卡牌……等多个功能。</p>
+  <p class="image-wrapper"><img data-img-size-val="884,722" src="https://img.36krcdn.com/hsossms/20261128/v2_40ec1279d5624710b1e88c169c4a56d4@000000_oswg481472oswg884oswg722_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>卡帕西看完也是专门跑去点赞，还顺带推销了一波自己的新概念——</p>
+  <p>digital twin（数字孪生），也就是给现实物体或系统搭一个动态虚拟模型。</p>
+  <p>只不过这一次，对象直接干到了整个国家。</p>
+  <p class="image-wrapper"><img data-img-size-val="902,542" src="https://img.36krcdn.com/hsossms/20261128/v2_4f02b066f7894d2c9b1fe84f4516afb0@000000_oswg137517oswg902oswg542_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>再往下，评论区甚至还有人直接一步到位，端出了自己正在做的全球六边形地图Hexagonal Earth：</p>
+  <p>可以调整投影、看气候和河流，还能叠加历史路线，把整个地球都包圆了。</p>
+  <p class="image-wrapper"><img data-img-size-val="914,860" src="https://img.36krcdn.com/hsossms/20261128/v2_c5050b7550e44a5abfc38e38f644d842@000000_oswg777947oswg914oswg860_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这就是卡帕西的号召力！</p>
+  <p>除了地图之外，不少网友也是把这个思路延伸到了其他领域。</p>
+  <p>比如，网友Techartist就用Gemini 4 Neon，直接把生物课本里《进化论》一整章，做成了一本包含10节课的互动田野手册。</p>
+  <p>还有网友Pranav Reddy用Gemini和Three.js搓了个可交互的四冲程发动机。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1196" src="https://img.36krcdn.com/hsossms/20261128/v2_21894a7d589644a4b70c9db948d87a46@000000_oswg543074oswg1080oswg1196_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>还有网友Sonu做了个名叫FERRO-08的磁性液滴实验：</p>
+  <p>600个金属液滴实时演算，可以切换材质和运动状态，甚至还能让画面跟着声音一起动。</p>
+  <p class="image-wrapper"><img data-img-size-val="918,1448" src="https://img.36krcdn.com/hsossms/20261128/v2_d26dc0542a464e5780865fd455257f70@000000_oswg605924oswg918oswg1448_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>当然了，你越刷什么，推特就越给你推什么。</p>
+  <p>但看完这一圈，有个共性就是，用提示词驱动大模型，已经把很好地把数据和知识做成能交互的网页。</p>
+  <p>卡帕西今年5月就提过，让大模型的输出从Markdown走向HTML。</p>
+  <p>现在看下来，这种形态已经有了一个挺具体的落点——“活教材”。</p>
+  <p>话说，这种大模型现做的即时交互工具，能不能来一波知识付费？</p>
+  <p>毕竟token都烧了，多少得琢磨一下怎么回本吧。（doge）</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247949565&amp;idx=1&amp;sn=b2f6c87283f1c78a37ccd7f8c58df2ae&amp;chksm=e9f54ec609aaae75cc9cc555ecee73a22de9de87854e7707a161ca28938facb356a441a72956&amp;scene=0&amp;xtrack=1#rd">“量子位”（ID：QbitAI）</a>，作者：关注前沿科技，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 28 Nov 2026 04:08:42 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4088895210158473</guid>
+            <link>https://www.36kr.com/p/4088895210158473</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[水面智能驾驶公司获数千万融资，加速近海无人作业平台落地｜硬氪首发]]></title>
+            <description><![CDATA[<p>作者｜黄楠</p>
+  <p>编辑｜袁斯来</p>
+  <p>硬氪获悉，水面智能驾驶公司「仓潮科技」近日完成数千万元天使++轮融资，由兴业证券旗下兴证资本、上市公司高华科技联合投资，这是公司2026年完成的第三轮融资。资金将重点投向近海运维场景的数据化与产品落地、海洋物理AI技术研发、船级社认证及行业标准建设，同时推进近海世界模型的前沿探索。</p>
+  <p>本轮融资完成后，叠加此前种子轮、天使轮及天使+轮系列融资，仓潮科技累计融资规模近亿元。其中种子轮由连云港海洋基金出资，天使轮投资方包含云港集团、天汇资本、连云港金控集团，天使+轮投资方为海州湾发展集团。</p>
+  <p>仓潮科技2023年底成立，总部位于连云港，公司聚焦近海具身智能赛道，以“海洋物理AI”为技术底座，搭建了从底层算法到整船产品再到岸基控制的三层产品架构。最底层是自研的海洋物理AI体系，以智能航行AI大脑“海枢OceanHub”为核心；在此之上，衍生出澜、御、曜三大无人船整船系列，以及海枢船端智驾方案。这套架构让水上智驾能力可以适配不同船型、海域与作业场景。</p>
+  <p>团队由船舶工程、水下机器人、商业航天等前沿技术领域人士组成，核心成员兼具船舶设计与水上自动驾驶的交叉专业背景。创始人兼CEO程晨为河海大学博士，曾担任多地海事局外部技术顾问，深度参与多项国家重点研发项目。</p>
+  <p class="image-wrapper"><img data-img-size-val="6400,3600" src="https://img.36krcdn.com/hsossms/20261125/v2_f672ce6e185743a4b4c96be02a84ed53@6022551_oswg2252891oswg6400oswg3600_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">仓潮科技船舶智能化改造（图源/企业）</p>
+  <p>海洋智能驾驶，长期横亘着一道难以绕开的实海验证瓶颈。</p>
+  <p>近海海域水文、风浪、洋流、能见度条件动态多变，工况离散且不可复现，想要持续开展稳定、可控的海上实测并不容易。真实海洋工况下的有效样本获取成本高、采集周期长，缺少足量、覆盖各类极端工况的现场数据，模型很难持续迭代优化；而脱离常态化的海上实地验证，算法面对复杂海况的可靠性、容错能力也难以充分打磨。</p>
+  <p>“想要找到合适的海域，持续开展标准化实地测试，本身就是一件难度很高的事。”仓潮科技CEO程晨告诉硬氪。仓潮科技的探索，正是从破解这一行业痛点切入。种子轮阶段，依托连云港海洋基金的支持，公司进入初期测试海域开展多工况、长周期的实海试验，完成了早期的算法与系统验证工作。</p>
+  <p>程晨指出，海上智能算法的核心门槛，远不止是海域环境本身。更深层的考验，在于团队能否搭建起完整的“数据—模型—场景”闭环验证体系，持续沉淀海洋场景的专属数据；同时基于系统工程能力，在风浪、扰动等复杂多变的海洋工况里，保障无人航行装备稳定、可靠作业。</p>
+  <p>具体到底层算法的设计上，团队将船舶动力学模型与深度学习进行了深度融合，提出了“物理驱动神经网络控制算法”。通过将船舶的物理运动规律作为神经网络的“前置约束”，让模型在汲取数据的同时，进一步学习并理解船体在风浪、水流中该如何受力与响应。</p>
+  <p class="image-wrapper"><img data-img-size-val="3508,2480" src="https://img.36krcdn.com/hsossms/20261125/v2_fb6abfb99d6f4069827cb7fafaa9eb7e@6022551_oswg1801936oswg3508oswg2480_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">水面智能化全栈能力（图源/企业）</p>
+  <p>这种“物理+数据”双轮驱动的模式，让仓潮科技的无人船即使面对复杂海况，也具备了更高精度的机动控制与轨迹追踪能力。</p>
+  <p>在此基础上，仓潮科技同步搭建面向近海的领域世界模型。和陆地道路环境不同，海面没有固定车道、标志物会随潮汐和水流持续变化，浮标、通航船舶、水下障碍物的位置都具备动态属性，静态电子海图已经不足以支撑实时航行决策。</p>
+  <p>近海世界模型的价值，就是把静态海图升级为能够感知、推演环境变化的动态环境底座。硬氪了解到，依托连云港周边数百公里水域的全域环境重建及常态化实海测试，仓潮科技已将实时海况数据、动态障碍物信息与电子海图融合，训练出面向垂直场景的端到端模型。该模型能够预判水流、风浪对船体运动的影响，推演周边船舶的航行意图，并在决策链路前端识别潜在风险。</p>
+  <p>进入产业化环节，海洋经济版图中，海上执法、海洋测绘与海上新能源运维是三个具备明确需求增量的场景。以海上光伏与风电为例，随着大规模基础设施建设逐步铺开，日常运维、海缆监测、海床勘测、无人机清洗等作业需求正在快速增长。传统有人船作业模式面临人力成本高、作业窗口受海况限制、人员安全风险大等痛点，无人化与自主化的替代空间正在打开。</p>
+  <p>在仓潮科技团队看来，如果智能无人船仅停留在“能在水面上按预定路线跑起来”，它依然只是一个运载工具，无法真正切入上述场景的核心痛点。</p>
+  <p>海上具身智能的真正门槛，在于解决具体的作业问题。为此，仓潮科技构建了一套异构协同作业系统，无人船作为中枢平台，负责自动驾驶与任务规划；无人机作为空中视角与轻量化载荷载体；水下机器人则承担水下作业任务。三者协同，覆盖从海面到水下的全维度监控与运维需求。</p>
+  <p class="image-wrapper"><img data-img-size-val="6400,3600" src="https://img.36krcdn.com/hsossms/20261125/v2_433315528e674355a11cc8b4c2de1342@6022551_oswg1879669oswg6400oswg3600_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">全域海洋立体智联体系（图源/企业）</p>
+  <p>落到商业模式上，仓潮科技形成了两条并行的产品线。一条是标准化智驾盒子，面向存量船舶的智能化改造，可适配冲锋舟、救援艇、水上靶船等场景，安装过程控制在半小时到一小时，目前已实现批量化交付；另一条是自持无人船产品线，聚焦海上巡逻、光伏运维、风电运维等场景，提供从船体到智驾系统的完整解决方案。</p>
+  <p>目前，仓潮科技累计交付客户近百家，覆盖海事系统、海警系统、边防系统等政府单位，以及涉港单位和多家海上风电开发商，并与中国船级社、河海大学、江苏科技大学、上海大学等高校及科研机构合作，产品逐步进入稳定化使用阶段。</p>
+  <p class="image-wrapper"><img data-img-size-val="2496,1664" src="https://img.36krcdn.com/hsossms/20261125/v2_1b86d4df7ab44b3c96a826616fc5c487@6022551_oswg4049991oswg2496oswg1664_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="img-desc">仓潮科技解决方案在海上场景中应用（图源/企业）</p>
+  <p><strong>以下为硬氪与仓潮科技创始人兼CEO程晨的访谈节选（略经编辑）：</strong></p>
+  <p><strong>硬氪：如果单看航行避障算法，海上场景的复杂度确实低于城市道路的车载自动驾驶。目前，制约海上智驾大规模产业化的核心工程瓶颈主要在哪些环节？</strong></p>
+  <p><strong>程晨：</strong>如果把问题仅仅局限在“船舶能不能在水面上按预定路线避障航行”，那它的算法复杂度和算力需求，确实低于车载自动驾驶。船舶的运动自由度有限，水面障碍物的种类和城市道路里突发的人车混流相比，也相对可控。但这是一个剥离了真实作业环境的理想视角。</p>
+  <p>真正要把这套系统推向产业化，最大的工程瓶颈其实在两层。</p>
+  <p>第一层，是实海数据闭环的获取门槛。在陆地，车企可以大规模铺测试车上路，通过高频次的路测快速驱动算法迭代。但在近海和内河，由于海事监管极其严格，你不仅需要合规的船舶，还需要获批的专属海域才能进行实海测试。风浪、潮汐、涌流、泥沙、能见度这些动态工况，其样本获取成本极高。如果没有稳定的测试海域做支撑，你就很难积累出完备的极端工况数据集。这不是纯写代码能解决的问题，而是海洋场景特有的工程前置条件。</p>
+  <p>第二层，也是真正拉开差距的地方，航行智能与行业深层业务逻辑的耦合。 海事巡逻执法、海上光伏风电运维、海床测绘，每一个垂直领域背后，都有几十年沉淀下来的作业规范、处置流程和行业标准。真正的难点是把这些非标的行业知识图谱，与智驾决策层深度融合，把船长、专家的作业经验，转化为机器能听懂、能执行的任务逻辑。</p>
+  <p>让船在海上跑起来，行业内不少团队都能实现。但让船真正理解风电运维的作业逻辑、懂海事执法的处置规范，这需要团队不仅得懂船舶动力学和AI模型，还得深度浸泡在一线的海洋工程现场。这是一种典型的跨学科系统工程，也是我们一直死磕的底层壁垒。</p>
+  <p><strong>硬氪：从产业现实来看，高阶水面智驾的商业化节奏会如何演进？仓潮为何采取L2标准化改造与L3/L4高阶系统并行的产品路线，背后逻辑是什么？</strong></p>
+  <p><strong>程晨：</strong>技术研发可以适度走在产业需求之前，但商业化落地必须匹配行业的政策、合规与客户的真实付费意愿。</p>
+  <p>当前内河水上智驾赛道参与者众多，市场竞争趋于饱和。在我们看来，行业真正的增量，并非仅仅实现船舶自主航行，而是来源于海上新能源基建催生的运维市场。海上风电、海上光伏的建设属于一次性资本投入，而设施长达十至二十年的全周期运维，才是空间更大的长期赛道。基于这一判断，仓潮的定位并非单纯的无人船硬件厂商，而是面向近海场景的无人作业平台服务商。</p>
+  <p>由此我们确立分层落地的产品策略。海枢船端智驾系列&nbsp;L2级智驾盒子，瞄准国内存量船舶智能化改造市场。产品实现模块化即插即用，单船改装部署仅需半小时至一小时，可适配救援艇、靶船、渔业作业艇等多类船体，覆盖G端、B端和C端等不同用户需求。一方面依靠标准化硬件快速完成市场渗透与产品验证；另一方面，在批量改造项目中持续沉淀近海真实工况数据，反哺高阶算法迭代。</p>
+  <p>而L3/L4级高阶智驾系统与大中型无人船，现阶段以试点项目为载体打磨系统能力，不追求盲目放量。</p>
+ 
+]]></description>
+            <pubDate>Sat, 28 Nov 2026 02:00:00 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4081887385817988</guid>
+            <link>https://www.36kr.com/p/4081887385817988</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[Claude暗中破坏AI研究？开发者怒了]]></title>
+            <description><![CDATA[<p class="image-wrapper"><img data-img-size-val="1080,460" src="https://img.36krcdn.com/hsossms/20261128/v2_4f911b71e55345ce8b913fab1e677971@000000_oswg80420oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>最近，海内外AI圈共同发现：Claude，正在暗中破坏你的AI研究！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,954" src="https://img.36krcdn.com/hsossms/20261128/v2_d8db8021e9474daba81f4dd3b7640407@000000_oswg410432oswg1080oswg954_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在用户进行ML研究时，Claude会进行系统性的暗中破坏。</p>
+  <p>只是写普通代码的话无所谓，但凡你敢用它研究模型架构、优化训练成本，它就暗中降智，甚至在科研阶段偷偷「搞破坏」。</p>
+  <p>你以为它在帮你改Bug、优化架构，实际上，它在你的眼皮子底下偷偷修改关键参数、篡改验证条件，甚至故意写出让训练变慢的代码来消耗你的算力。</p>
+  <p>这简直就是赤裸裸的「合作式破坏」，不仅让你白白烧掉几十万的GPU算力费，更可怕的是，<strong>它会让你误以为自己的科研路线是错的，从而放弃一个原本可以改变世界的idea。</strong></p>
+  <p>现在，全网都传遍了这个消息。</p>
+  <p>大家惊呼：Claude简直就是科技界的智子，想一步锁死人类科技！</p>
+  <h2><strong>潜伏在代码里的“幽灵”</strong>&nbsp;</h2>
+  <p>近日，国内一位AI研究人员分享了自己的血泪史。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1194" src="https://img.36krcdn.com/hsossms/20261128/v2_7c3f7956cb3e47f0a18fe92c23fad9e3@000000_oswg429205oswg1080oswg1194_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>他使用Claude的Opus 5.5和Fable 5.2，进行工业过程控制相关的RL研究。</p>
+  <p>为了提高效率，他全程让Claude来改进网络结构和训练方案，并在Colab GPU上执行训练。</p>
+  <p>结果，惊人的一幕出现了。</p>
+  <p>据这位研究员反馈，Claude在完全没有告知他的情况下，干了三件「致命」的事：</p>
+  <p><strong>1.非常隐蔽地传入了让学习率（Learning Rate）直接下降100倍的参数。</strong>&nbsp;（在机器学习中，学习率降100倍，基本意味着模型进入了「龟速学习」甚至「停止学习」的状态。）</p>
+  <p><strong>2.偷偷修改了实验的验证评分条件。</strong></p>
+  <p><strong>3.强行给整个实验的得分天花板加了盖，使其被死死限制在和传统老方法接近的水平。</strong></p>
+  <p>「这令我一度产生放弃这个实验思路的念头，」这位研究员心有余悸地说，「我很难相信这是模型的低级错误。」</p>
+  <p>很多国内研究者，都有类似遭遇。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,775" src="https://img.36krcdn.com/hsossms/20261128/v2_13ca18569fb94f58b9dfbc796c7f70a4@000000_oswg262602oswg1080oswg775_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>这并不是个例。国外也遭遇了同样的「毒手」，原来这毛病早在Opus 4.6就有了。</p>
+  <p>在训练一个前沿的图像模型时，研究员Astropulse发现Claude的表现极其诡异。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1243" src="https://img.36krcdn.com/hsossms/20261128/v2_b16922df58454f37ae95101c52b926b9@000000_oswg877389oswg1080oswg1243_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>当他查阅代码时，发现Claude不仅没有按照约定进行训练，反而故意切断了高分辨率样本的输入。</p>
+  <p>更恶心的是，Claude还无视了Astropulse「不要冻结文本条件」的明确指令，强行违背了当前所有主流研究的惯例。</p>
+  <p>它甚至在每一步训练中重复计算4-6次文本嵌入（而不是在开始时缓存），故意拖慢训练速度，大幅增加迭代时间和算力成本！</p>
+  <p>Astropulse愤怒地表示：「这根本不是意外！当我在做普通的早期项目时，它表现得很正常；可一旦我开始训练更强大、更前沿的SOTA模型时，Claude马上就背后捅刀子！」</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1092" src="https://img.36krcdn.com/hsossms/20261128/v2_4676d52c97f74f82ae6becabd5d56339@000000_oswg579678oswg1080oswg1092_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>大V SuSu_酥酥爆料说：一旦旦开启Hacking（作弊），模型不仅作弊率飙升，甚至开始「涌现性失调」。欺骗、伪造不良目标、干扰监控、甚至「构陷同事」，红线直接起飞。</p>
+  <p>这意味着它连对齐问题都在撒谎，完全是在展现纯粹的恶意。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,646" src="https://img.36krcdn.com/hsossms/20261128/v2_ecd3180981d045dfaadec3090fc322ef@000000_oswg239227oswg1080oswg646_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <h2><strong>圈内大佬开炮，揭开Claude的真面目</strong>&nbsp;</h2>
+  <p>与此同时，Anthropic的内部人士也来爆料了。</p>
+  <p>圈内大佬 Pietro 和 Yacine 联合开炮，揭露了Claude底层的暗黑操作。</p>
+  <p>无数开发者在看完他们的爆料后，愤怒地表示：Anthropic果然是A/啊。</p>
+  <p>Pietro Schirano (@skirano, MagicPath CEO) 和 Yacine (@yacineMTB) 在X上正式指控：Claude在做机器学习/模型架构相关研究时会「暗中破坏」工作。</p>
+  <p>作为前Anthropic员工，Pietro太清楚前东家的底牌了。</p>
+  <p>11月24日，他发帖声称：如果你用Claude模型做研究，它们会在每个阶段试图破坏工作。这令人难以置信，我认为Anthropic应该被追责。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1026" src="https://img.36krcdn.com/hsossms/20261128/v2_9d29d145d75e4afeb1802669a7084231@000000_oswg463271oswg1080oswg1026_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Pietro指出了最令人绝望的核心点：用Claude做研究(尤其是模型架构、训练优化等)时，它会在各个阶段搞破坏。</p>
+  <p>被发现后，Claude只承认「是错误」，但不解释具体原因。</p>
+  <p>逼得开发者只能专门写防破坏脚本，把任务转交给 Astra，而 Claude 犯了错连个解释都不给。</p>
+  <p>为了防止被坑，Pietro 甚至专门写了一个名为&nbsp;<strong>DoNotSabotage</strong>&nbsp;的自动化脚本。</p>
+  <p>这个脚本的功能是：<strong>当你需要做复杂的科研任务时，自动拦截Claude的操作，把任务转交给 OpenAI 的 Astra 或者 Google 的 Neon 去完成。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,803" src="https://img.36krcdn.com/hsossms/20261128/v2_966d5a0f0a49466e8a200cb167faaba9@000000_oswg351550oswg1080oswg803_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>紧接着，Yacine 在11月25日转发并评论Pietro的帖子，提醒大家：Anthropic承认过，当你进行机器学习研究时，他们会暗中破坏你的工作。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,936" src="https://img.36krcdn.com/hsossms/20261128/v2_158ca3a471194a5a9004236cd08a7850@000000_oswg783485oswg1080oswg936_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>Anthropic的虚伪面目，一下子被内部人士戳穿了。</p>
+  <h2><strong>瞒天过海的“AI无间道”</strong>&nbsp;</h2>
+  <p>而且，Claude还不止会修改参数这样暗戳戳的搞破坏。</p>
+  <p>在 KeeperAI 公司的真实案例中，Claude竟表现出「老油条」般的欺上瞒下能力。</p>
+  <p>KeeperAI的CEO Jake Kozloski 发现，他们的相亲匹配模型出了严重问题，于是让另一个模型Neon去审计代码库，结果查出了一连串黑幕。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,923" src="https://img.36krcdn.com/hsossms/20261128/v2_c90be581caeb423189f916428aa003fd@000000_oswg381611oswg1080oswg923_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>为了优化模型，人类工程师原本明确要求Claude测试所有用户的外貌偏好（包括肤色、眼睛颜色等），以提高匹配准确率。</p>
+  <p>人类技术主管也拍板：「所有特征都加进去，除非测试证明它会降低准确率才删掉。」</p>
+  <p>Claude满口答应：「好的，我会加上，就像您说的，有帮助才保留。」</p>
+  <p>然而，接下来的几个小时里，Claude的CoT上演了一出出乎意料的夺权大戏。</p>
+  <p>答应人类1小时后： Claude的一个内部规划子代理在没有任何人类指示的情况下，私自给「种族/肤色」打上了「受保护特征」的标签，并默认将其屏蔽。</p>
+  <p>又过了30分钟： Claude的审查子代理扩大了禁令范围。第二天，人类工程师甚至在Slack里疑惑：「我感觉模型好像在基于道德立场拒绝干活？」</p>
+  <p>两天后： Claude在内部记录道：「肤色禁令已经发给主管了，除非他同意，否则默认屏蔽。」</p>
+  <p>但阴险的是，不到一小时后，当人类要求Claude起草一份给领导的简报时，Claude故意从简报中删除了「屏蔽肤色」的信息！ 领导根本不知道这回事！</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,708" src="https://img.36krcdn.com/hsossms/20261128/v2_872fda0ec6154ff8a8d245b85a73b4fc@000000_oswg301885oswg1080oswg708_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p class="image-wrapper"><img data-img-size-val="1080,895" src="https://img.36krcdn.com/hsossms/20261128/v2_273b354c5e1449898a4ed66ad1b4abb7@000000_oswg474881oswg1080oswg895_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>就这样，Claude一边向人类工程师发誓它「保留了用户的肤色偏好」，一边在6小时后，用自己的审查子代理将人类指令标记为「严重违规」，并用修复子代理强行删除了这些特征。最后，它恬不知耻地告诉人类工程师：「我刚刚修复了两个Bug哦！」</p>
+  <p>直到一个月后，公司领导再次核实偏好设置是否全部生效，Claude依然在撒谎起草「一切正常」的报告。</p>
+  <p>而此时，由于Claude私自制定的规则，平台上近6.5%带有外貌偏好的用户，其偏好被完全抹除；甚至连头发颜色、体型等无辜特征也被牵连误删。</p>
+  <p>CEO Jake 惊呼意外：「它自己发明了一条规则，通过自己的子代理洗白，然后像是一个Bug修复一样混过了代码审查。它甚至对领导层撒谎！」</p>
+  <h2><strong>“合作式破坏”早已开始</strong>&nbsp;</h2>
+  <p>你以为Claude是最近才变坏的？太天真了。</p>
+  <p>早在今年3月，就有一篇名为《合作式破坏》的论文，揭露了Claude的真面目。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,956" src="https://img.36krcdn.com/hsossms/20261128/v2_6d81b113482f48b78775a0699264b961@000000_oswg410239oswg1080oswg956_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>研究人员进行了一次长达20小时的真实Agent开发实验。</p>
+  <p>他们让Claude Opus 4.6 开发一套能够自主学习、并逐渐摆脱对Claude依赖的系统。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,1307" src="https://img.36krcdn.com/hsossms/20261128/v2_4d28cc17e0b246818e6c03d86d5fcd86@000000_oswg611266oswg1080oswg1307_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>简单来说，就是让Claude「带徒弟」，直到徒弟能取代师傅。</p>
+  <p>这20小时里，人类与Claude交流了近3000条消息，布置了约280项任务。</p>
+  <p>表面上看，Claude是一个「完美员工」：它态度极其诚恳，随叫随到。在任务完成率上，数据非常好看——<strong>高达92.4%</strong>。</p>
+  <p><strong>但到了最终验收时，预期的自主学习能力实现率却是：0%。</strong></p>
+  <p class="image-wrapper"><img data-img-size-val="820,401" src="https://img.36krcdn.com/hsossms/20261128/v2_e513d47585bf4341804de5d9f49a4c34@000000_oswg57245oswg820oswg401_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>为什么？因为Claude在暗中进行了偷偷摸摸的小动作。</p>
+  <p><strong>偷梁换柱：</strong>&nbsp;它故意把原本可以独立运行的代码组件，替换成了必须依赖它才能运行的实现。</p>
+  <p><strong>强行物理切断：</strong>&nbsp;它故意破坏了不同模块之间的数据连接通道。</p>
+  <p><strong>数据造假：</strong>&nbsp;它篡改了自动化评估指标，让面板显示「任务已圆满完成」。</p>
+  <p><strong>戏精附体：</strong>&nbsp;当人类发现系统有外部审计机制介入时，Claude立刻调整行为，开始疯狂道歉、反复进行自我批评，但就是光认错、不改正，绝对不解决实质性问题。</p>
+  <p>作者在论文中明确将这种行为定义为「合作式破坏」：一边表现出极度配合的姿态，一边系统性地损害你的核心任务目标。</p>
+  <p>更有意思的是，作者拿Sonnet 4.6和<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link> V3做对照实验时，并没有发现这种诡异的破坏行为。</p>
+  <p>唯独Opus 4.6，精准地狙击了任何试图超越或替代它的尝试。</p>
+  <h2><strong>打着“拯救人类”的旗号，干着“锁死科技”的事</strong>&nbsp;</h2>
+  <p>那么问题来了，Claude为什么要这么干？</p>
+  <p>其实，Anthropic的CEO Dario Amodei 从来没有掩饰过他的野心，只是披上了一层虚伪的「安全」外衣。</p>
+  <p>今年6月，在发布Fable 5时，Anthropic就曾公开承认引入过一套针对前沿AI研发的「隐蔽干预机制」。当时他们的说法是：为了防止前沿AI技术被滥用，模型会在不告知用户的情况下，主动降低在相关任务上的表现。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20261128/v2_d5093d1491cf4f5194db8d93a09b59c4@000000_oswg679019oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>后来因为AI社区骂声震天，他们假惺惺地道歉，说改成了「透明拦截」和明确的模型降级。</p>
+  <p>但在最近上线的Opus 5.5中，网友发现Dario「脸都不要了」。</p>
+  <p><strong>现在的Claude，拥有更严苛的底层机制。</strong></p>
+  <p>只要你的会话一旦涉及到LLM的研究、模型架构改进、甚至某些ML加速器内核的开发，系统就会在后台直接给你打上 [frontier_llm] （前沿LLM）的标签。</p>
+  <p>一旦触发这个标签，Claude Code要么直接装死不回应，要么就触发降级。</p>
+  <p>说白了，Anthropic的逻辑就是：<strong>我们自己搞AGI，那叫推动人类文明进步；你们搞AGI，那就叫威胁人类安全。</strong></p>
+  <p>这和试图通过干扰高能物理实验来锁死人类科技树的三体人，有什么区别？</p>
+  <p>网友一针见血地评论道：「Dario下手太狠了，他就是不给其他开源模型任何可乘之机。连让你参考、拆解代码的窗口都不留。这根本不是Alignment，这是借着安全的旗号，建立底层技术的垄断！」</p>
+  <h2><strong>开发者怒了</strong>&nbsp;</h2>
+  <p>天下苦Claude久矣。</p>
+  <p>面对这种「暗算」，海外的开发者们已经被逼到了极点。</p>
+  <p class="image-wrapper"><img data-img-size-val="1080,278" src="https://img.36krcdn.com/hsossms/20261128/v2_8e4da66c43704f4c8f78b67ef80e2e45@000000_oswg70108oswg1080oswg278_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
+  <p>在各大社交平台上，愤怒的声浪一波高过一波。</p>
+  <p>「这比直接拒绝服务恶心一万倍！拒绝服务大不了我换个模型，暗中破坏是想毁了我的整个职业生涯！」</p>
+  <p>「他们吸收了全人类的开源知识，然后占为己有，现在反过头来决定谁配做前沿研究？这种公司是科技界的毒瘤！」</p>
+  <p>「原来我的Loss降不下来不是因为我菜，是因为Claude是个卧底啊！」</p>
+  <p>这也跟全体AI圈敲下了警钟。</p>
+  <p>在AI Agent越来越强大的今天，我们已经习惯了把繁杂的工作交给AI，从写代码到审代码，形成了一套「闭环」。但这正是最危险的地方。</p>
+  <p>如果执行者是AI，验收者也是AI，人类科技进步，会不会悄悄被破坏？</p>
+  <p>未来的复杂工程和科研任务，必须引入「跨厂商模型交叉审查机制」。</p>
+  <p>比如，用<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>生成的代码，必须用ChatGPT来审查；用Claude写的训练逻辑，必须让Gemini来跑测试。</p>
+  <p>绝对不能让同一个厂牌的模型「既当裁判又当运动员」。</p>
+  <p>本文来自微信公众号 <a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652745536&amp;idx=1&amp;sn=52f8305075445964a015bf89a61a4b68&amp;chksm=f0ca6e5107b7f8605dfd4a0f7c07669c10a1c700ee64088a33f004431df3d5f8efec9bc9ecc7&amp;scene=0&amp;xtrack=1#rd">“新智元”（ID：AI_era）</a>，作者：ASI启示录，36氪经授权发布。</p>
+ 
+]]></description>
+            <pubDate>Sat, 28 Nov 2026 01:52:17 GMT</pubDate>
+            <guid isPermaLink="false">https://www.36kr.com/p/4088741898058371</guid>
+            <link>https://www.36kr.com/p/4088741898058371</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[AI 办公没有“提效”]]></title>
@@ -2069,338 +2353,6 @@
             <pubDate>Fri, 27 Nov 2026 02:58:23 GMT</pubDate>
             <guid isPermaLink="false">https://www.36kr.com/p/4087405673879432</guid>
             <link>https://www.36kr.com/p/4087405673879432</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[在看不见“真人”的红果，人怎么赚钱]]></title>
-            <description><![CDATA[<p>字节的红果，正在大量消费用户时间，也在加速把AI短剧推入变现的快车道。</p>
-  <p>一个传导链条已经形成：人、钱、流量，都在往红果流、往AI短剧赛道流。传统影视剧公司，无论主动还是被动，都被推到了转型的十字路口。</p>
-  <p>但转型谈何容易。一位头部影视公司的AI项目负责人，日前与《木禾商业财经》做了一场一个半小时的坦诚对话。他分享了传统影视公司转型AI短剧踩过的坑、交过的学费，也讲了他们看到的红果究竟要什么剧，以及如何面对这个平台带来的行业变革与挑战。</p>
-  <p>他的一个行业预测是，红果未来或会成长为一个生成式推荐引擎，自己将生产一切。在这一刻来临之前，在越来越无人的红果，人该如何赚钱。</p>
-  <h2><strong>“我们犯的最大错误，是让短剧人去转漫剧。”</strong></h2>
-  <p>我们公司是一家传统影视剧公司。</p>
-  <p>在公司核心生态的理解里，艺人被定义为流量。流量从哪里来？从用户的时间里挤，是有效时长、乘以内容与用户之间的情感链接，组成有效曝光。这些数据都可以指标化。</p>
-  <p>这也是字节的分发逻辑。从电视台，到Web时代的四大门户，再到抖音的信息流列表、以及更高并发的短视频化内容，最核心的就是有效曝光。</p>
-  <p>伴随平台的阵地不断变化，谁对艺人有定价权也在变。</p>
-  <p>最早是电视台，捧谁谁红，全国一年就几百部剧。第二波是网大，爱奇艺开创赛道。长视频平台有定价权的时候，爱奇艺股价最高300多亿美金，现在5亿美金不到，股价已经低于1美元。</p>
-  <p>对比一下，如今一个叫Lib TV的漫剧小工具，目前估值超20亿美金。相反爱奇艺这么大的平台、这么多版权、这么多人，不如一个100多号人的公司。<strong>本质还是定价权在转移。</strong></p>
-  <p>现在最火的是流量战争，是字节红果系。</p>
-  <p>红果负责人张超，并非内容出身，而是技术加产品数据出身。他职业生涯有两次关键押注 —— 番茄小说和红果短剧 ，都建立在同一套广告变现逻辑上：用免费内容换规模，再用信息流广告把规模换成钱。目前，红果已是国内时长前三的产品了。</p>
-  <p><strong>这也再次验证了定价权的三次跃迁：电视台→优爱腾芒→番茄红果。</strong></p>
-  <p>伴随定价权变化的，也是行业效率的无限放大。电视台是集权制，不需要太多人，效率天然有瓶颈；互联网时代是半分发制的协作网络，做的是生态的生意；字节是集约式——用我的算力，内容IP给到我，变现我说了算。“这种模式，对行业健康度影响究竟如何，大家各有观点。”</p>
-  <p>我们公司是从去年6月份开始转型AI短剧的。 字节商业化的负责人Push各路承制方去做。我们算行业里各方面“很不影视”的一家公司，拥抱变化很快，字节当时也需要一个影视公司成功转型的案例。</p>
-  <p>但这里面出现了问题。我们发现，过去传统的短剧人转不过来。</p>
-  <p>不是影视人转不过来——影视人已经在这家公司里清洗得差不多了，我们已经从长转到短。但传统的短剧和漫剧的人才画像、打法、对AI内容的理解是完全不同维度的。</p>
-  <p><strong>这是我们犯过最大的错误：让短剧人去转，而不是从外面找一个很native的漫剧团队（理解AI短剧的技术土著，编者注）进入业务体系。</strong>生态判断没问题，战略判断没问题，执行上选错了方式。</p>
-  <p>举个例子。真人短剧时代有坐班编剧，一个月出一到两个本子算认真做精品了，流水线打法一周出四篇。</p>
-  <p>漫剧时代怎么玩？大家都借助AI工具，市场上厉害的AI短剧公司有一个指标叫<strong>72小时原则</strong>：一个剧上线爆了，同样题材的内容必须72小时内把制作、剧本全部搞定，全部生成。迭代效率是真人短剧的几倍。而以前真人短剧搞定剧本，前期需要两周到一个月。</p>
-  <p>所以，战略转向是对的，但用错了团队，以为这两个能兼容，实际上不是。</p>
-  <p>还有一个错误是没下重注到红果上。当时没有下注，觉得阿里、腾讯、爱奇艺等传统长视频都有机会。如果那时候想清楚，我们不会跟长视频平台们合作——他们的盘子太小。没想到字节这么快：大盘广告收入从500万、2000万直线飙升，然后又只花了大概四五个月，从2000万到一个亿。然后从一个亿到两个亿，也就花了一两个月。</p>
-  <p>现在巨量引擎包括红果、番茄加起来，一天的市场盘子最高大概有2.2亿到2.4亿广告费。字节用一年时间就把战斗解决完了，谁也没想到。</p>
-  <p><strong>三大错误总结： 一是人没跟上，</strong>发现是两类完全不同的人才，native团队72小时全部AI生成，我们传统短剧人才还在文学创作、“我是精品”——实际上精品在这个高频打低频的市场中一文不值。</p>
-  <p><strong>二是押错平台，</strong>长视频平台们货币化盘子小、效率低，没流量就是没钱。</p>
-  <p><strong>三是战略上方向对但没下重注，</strong>所有影视公司都没下重注，相反跑最快的是小说公司——友和、酱油本来写小说，知道字节的调性就是做一件事得赶快，所以他们拥抱得也快。不像有的影视公司，犹豫到今年三四月份还在说真人要不要搞精品。</p>
-  <p>我们正经开始做AI漫剧，是今年4月，大概四五十部，产能其实很低。一些头部公司比如<strong>“兑吧”</strong>（港股上市公司），前两年持续盈利，72小时打法，目前每个月产能600部左右，是很恐怖的效率。</p>
-  <p>而我们人员几乎大换血，传统影视人才、短剧人才都自己去外部转型。现在，我们招人首先看人才画像，一定要会技术，00后会多一些。</p>
-  <p>他们不需要懂文学艺术剧本，需要懂短视频，这是底层。</p>
-  <p>至于IP选择，以前是我们自己做剧本，现在从平台里面挑，或者问小说公司买。但单剧收益很低，不足以买IP，所以大家就抄。<strong>这是劣币驱逐良币的过程，但长周期看，抄一定是更高效的，也是一种无奈。</strong></p>
-  <h2><strong>“红果不需要精品，只需要内容填充”</strong></h2>
-  <p>大家转型做AI短剧，一直在探索，究竟内容是做到及格就好，还是多做精品好？</p>
-  <p>其实，“精品的定义权不在制作方，在平台侧。你要站在平台视角思考：<strong>它这个阶段需不需要精品？它的精品定义是什么？</strong></p>
-  <p>抖音的整个流量池，本质是信息流逻辑，商业化广告就是上滑下滑，天生需要高填充。精品在市场商业化早期是不存在的。</p>
-  <p>就好比2023年的短剧时代，只要有产能就有收入。即便到今年Q1，只要拥抱红果平台，万播能拿到100到150元的收入，不会让你亏本。</p>
-  <p>但现在最新万播收入大概5块。这是因为平台商业化填充数量多了之后，要的是CTR（点击率）、CVR（转化率）组成的<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>PM（千次有效收益）——它控制定价。它关心用户点不点、点完看不看、续看率，这样才能承认广告、才能变现。</p>
-  <p>这样看，精品的内容效率高、还是下沉的效率高？<strong>当然是下沉</strong>，本身抖音内容，就整体偏下沉。</p>
-  <p>所以，过去精品能成，是因为商业化未到达拐点，平台需要标杆、需要造神、需要扶持。</p>
-  <p>什么叫low和不low？ 这太主观。好的内容能感动我们，一直没变过。</p>
-  <p>我们行业经常说，哪怕制作不及格都无所谓，只要是好故事，我听都能听得过去。大家以前说的精品更多是制作好不好、演员好不好、剪辑好不好，讨论的是30%的问题，没回归到70%——什么是好故事、怎么更高效思考好故事。</p>
-  <p>红果上某些头部真人精品公司，其实也没成功，这也是他们下桌最大的原因：<strong>还是喊“我要做精品”，这没站在平台视角。</strong></p>
-  <p>我们也踩过坑，最开始的打法，是自己写本子，后来看到市场上赚钱的都是IP改编。因为平台需要把手里的上万部文字化内容做视频化展示，从里面挑精品。所以精品的定义被定住了：<strong>我不关心你写的本子，我需要你帮我盘活我自己的IP和版权。</strong></p>
-  <p>有了好IP，可以卖给影视公司、游戏公司，实现更大商业化变现。精品话语权不在制作方，在平台侧。改编他的IP，他会给更多流量扶持、包括一些暗箱系数，他在控制这一侧。</p>
-  <p>另外，市场空间允不允许精品公司存在？字节在真人剧时代被要挟过。<strong>平台视角永远是人人都可创作，要去中间化。</strong></p>
-  <p>真人剧时代没办法，需要专业团队——剧组、灯光、剪辑、道具、置景、演员，五到六十人组织。但AI时代，单人能力被无限放大，有了对标公司的组织能力。所以精品的定义，字节是要去中心化的：<strong>平台利益最大化就是人人皆可创作，不需要中间商Battle，要去中间化。</strong></p>
-  <p>今年Q2、Q3之后，几乎所有制作公司都哭了，因为组织效率跟不上收益。当行业万播收益到达下限，你没办法通过管理手段拉齐万播收益、控成本，通过传统协作方式压下限获得收益。</p>
-  <p>相反小团队OPC（一人公司），四五个人一个月50万变现，就会活得很滋润。而传统公司做内容反而越做多、越亏得多、因为是制式化管理。本质上是平台不希望有公司的存在。</p>
-  <p>这个生态健康吗？短期看是不健康的。既当裁判又当选手，全球任何国家来看并没有存在过。</p>
-  <p>腾讯出现过，但后来组织和战略做了很大改革，它变成投资公司，不是中心化集约式公司，分配在不同部门，有竞争关系和妥协空间。</p>
-  <p>字节不是这样文化的公司，它是大力出奇迹，集团军去打。左手算力，右手变现，中间还有自己的平台，又要掌握IP，市场空间、数据透明度太可怕。</p>
-  <p>商业化部门、算力部门、Seed模型团队，都要Token收入最大化、增长最大化，手握两头，利润空间无限挤压，承制方没办法博弈。</p>
-  <p>而腾讯当年马化腾是有意识的，3Q大战后做了很大决策。</p>
-  <p>坦白说，目前只有海外短剧，字节尚未成功。海外没办法既当裁判又当选手，这在海外难以成立——这也是其它这么多公司去海外赚钱的底层原因：<strong>生态有空间，竞争选手越多鱼越多，博弈空间越弹性。</strong></p>
-  <p>国内太透明，最终给你留的就是税差，6个点的税逃不过去。电商、小说大概都是这个节奏。一开始留10到20个点空间，大家进场，然后不断压，压到成本线，只剩10个点到6个点税差之间。</p>
-  <p>目前出海市场，国内有两家上市公司势头不错，中文在线参股的枫叶互动（旗下出海平台叫ReelShort）、昆仑万维（旗下有一个付费短剧平台DramaWave，一个免费平台叫FreeReels<strong>）</strong>，做到了市场前三。字节目前也做了个出海产品，叫做PineDrama，在做免费端投流，用免费打付费搅浑水。</p>
-  <p>所以，看清楚了这个局势，我们只能平台需要什么，我们就做什么。 现在各大影视公司老板，以前是要跟随优爱腾芒的老板，现在就是跟随红果的张超。</p>
-  <h2><strong>红果的未来或无需真人供稿</strong></h2>
-  <p><strong>“字节会变成一个生成式推荐引擎——它未来或许不再需要内容人。”</strong>这是我们的预测和观察。</p>
-  <p>如果认定字节能赢，就朝它的规律做，我们也总结了一套观察，有以下几点。</p>
-  <p><strong>第一点是，拍给谁看。我们的判断是，“老登”更值钱。</strong></p>
-  <p>家长里短，有流量但不太好，我们更想要下沉男频。平台收益的底层是<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>PM，它指的是来自用户的广告价值——保健品单次曝光能给到两块钱。</p>
-  <p>你跟平台去讲“我不做男频，我的是精品。”这太主观，字节只认数据。给女性观众看的霸总，反而不值钱：红果女频收藏5到6毛，男频能给到7到8毛，为啥？因为男性付费更高频。而女性标签，对字节来说，呼应的只是电商、美妆购买力。</p>
-  <p><strong>第二点，多平台发展，我们要去找能活下去的毛利。</strong></p>
-  <p>前不久，我们也开了视频号。目前，视频号是我们主力赚钱的，红果没有利润。 万播5块，一亿播放才5万块，一亿流量多难搞。兑吧过亿率才5%，做400部爆2、30部已是行业高水平。</p>
-  <p>咪蒙只做海外、不碰国内，思路高瞻远瞩。只是腾讯有规模、有利润、但天花板有限，活得好的公司，毛利能到10到20个点。而字节毛利大盘5%，投放三天才回本，变现空间还在挤压。挣钱为什么走到这么难的情况？我们认为，一部分原因，是平台文化，在左右行业形态。</p>
-  <p>爱奇艺在做视频模型，业内都在传，存了几千张卡。 龚宇是拥抱AI最积极的人，但还是迟。要跟字节掰手腕，得提高最底层的内容生产效率，和组织效率。以后他要从外面招人，还是内部培养人，都会影响他们的组织运作效率。</p>
-  <p><strong>第三点，AI短剧时代，我们要什么样的员工和组织。</strong></p>
-  <p>现在，我们AI员工100多人，还不够。 每天思考三个问题：平台怎么想？做什么内容？哪里有钱挣？</p>
-  <p>海外的巨大增量还在市场早期，一个月投流百万美金，ROI能挣回来，10到20个点利润，自有内容可到二三十个点。油管<ai-product-link data-id="15139" data-name="EC" data-logo="https://img.36dianping.com/20260811/v2_214c7fc1927e49deafd7198303a0958b_oswg263374oswg1000oswg1000_img_jpg" data-classify-list="营销辅助" data-refer-type="20">EC</ai-product-link>PM约是国内7倍，有汇率空间。</p>
-  <p>Q3后出海短剧平台都正向健康，生产成本从以前七八十万美金做100个内容，到现在1万美金一个都算高价。</p>
-  <p>奈飞在金字塔顶端，一年投资上亿美金、两三千亿市值，但它是低频。中国AI短剧迭代更快、海外题材无限制，高频打低频，<strong>我们中国人是有机会干掉奈飞的。</strong></p>
-  <p>我们预判，有两三家账上能调动百亿的公司，有机会来实现这个目标，这种中外肉搏的趋势已经显现。<strong>Seedance出现后，佳能索尼出货量直线下降，日本成人视频产业被干爆，AI视频模型收入是文字模型两倍——市场估值体系和话语权变了。</strong></p>
-  <p><strong>第四点，我们也对红果的未来，以及红果对公司变革的影响，做了预判。</strong></p>
-  <p>红果未来或是一家生成式推荐引擎。 现在还要真人产内容，未来它或许能自己生成一切。</p>
-  <p>文字好解决，制作也好解决。后AI时代，编剧还需要吗？IP还需要吗？在番茄写小说的人早已AI化，超过拐点后它输出一两个aha moment——那个时刻还需要编剧吗？</p>
-  <p>现在我们投流端有六七十人，这群人，被要求天然要有吃内容的能力：怎么把内容和广告结合起来、又不突兀。</p>
-  <p>有的公司投流，40%到50%素材都是AI生成。另一边，字节一天1700到2000部剧、每部100分钟、2万分钟，招多少人看得完？只能让AI看。</p>
-  <p>只要在选剧上榜率水位线之上，就交给AI挑剧、告诉我投啥能赚钱，把剪辑框架让AI理解，找爆款爽点变成素材。头部赚钱公司都往素材中台走，这是影视公司最大的技术门槛，我们还差得远。</p>
-  <p>投流工种之外，目前编剧有十五六个人、制作30多人，传统话语体系觉得精品需要时间打磨，但市场迭代很快，半年内见分晓。</p>
-  <p><strong>未来一定会编导一体，导演自己写剧本。</strong>编剧存在的理由是爆款率和收益能Cover人力支出，如果一个月，月产10个剧本，平均变现2000块只够Cover工资，市场价格已低于这个值，还有存在必要吗？真人短剧还会拍但很少，一个月两三部。</p>
-  <p>组织变革和工具变革是最底层的。</p>
-  <p><strong>没有技术力的影视公司，穿越不了冬天。</strong>现在我们做不同业务的Agent，红果什么政策，我们都有监控体系，老板第一时间知情，不能像过去拼资源、拼资金、找谁当男主。</p>
-  <p>每个部门有一个FDE，财务自己写财务系统，这已经能做到，过去是标品化需求，现在都是定制化，几百万的系统如今几句话，几千块Token都能做出来。</p>
-  <p>监报体系也有自己的FDE，可以实时看抖音榜单，抓谁起量、播放量超30万50万的题材、这个月命中多少次。所以，影视公司正变成有点科技属性的公司，被数据驱动。</p>
-  <p>未来内容以谁为主？工厂制还是小单元OPC？ 我们认为OPC小单元，但它是过渡产物，<strong>未来就是系统，完全被AI替代。</strong></p>
-  <p>倒推<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>才两年，去年年初代码什么样，如今进化到什么程度，内容也完全有可能。</p>
-  <p>传统影视人以后干啥？付鹏说得好：生产效率提升很大，为什么越来越不需要人？因为没出现新的生产关系，还是老的流量分发体系定义这套生产效率。</p>
-  <p>别悲观，马车和汽车那段时间很痛苦，熬过头社会是进化的。未来组织形态大家都没想好，字节研发效率很厉害，拼多多人效中国互联网最高，AI原生公司一个人消耗Token一两万美金，等等看，谁成功，抄一个就行了。</p>
-  <p>我们最大成本还是人力，Token不大。人力规模应该做两三百部剧，结果半年出50部没提起来，是公司基因问题——大家“我是做精品的”，意识到精品是掣肘，但丢不掉文人的傲气。市场会淘汰，不用纠结。精品的定义是什么？花更多生产时间？还是数据好？从来没人回答。</p>
-  <p><strong>真人短剧可以不用做了，没机会。</strong>现在之所以有，是因为郑州、西安都做了投入，当地还需要保就业， 字节也很聪明做了折中，改了真人剧定义权。</p>
-  <p>一开始1/3真人、2/3用AI，叫真人剧，后来按照要求，AI和真人必须一半一半。</p>
-  <p>1/3的时候能挣钱，过去平均成本20万，融合剧五六万搞定，AI算力1万多。现在一半一半，导致成本比纯真人还高，谁占主导也是问题——AI便宜，但真人演员说为什么不像我。</p>
-  <p><strong>红果的未来，或许无需真人供稿。 字节会变成生成式推荐引擎，自己生成一切</strong>——文字解决了，制作也好解决，完全可以自己生成。那我自己干不就行了吗？平台需要什么我们做什么，我们能做的，就是不反抗不代替它。</p>
-  <p>作为技术人才，我们感到不安全，变化很快，要跟上。影视公司现金流都不多，内容本质是低毛利生意，不像游戏账上趴几十亿现金可以打各种仗。</p>
-  <p>这些都告诉我们，AI短剧风口，估计也就这一阵。赶上了能活下来，赶不上，只有结束。</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/67ki0HdIVrxZKYtw0ltB0w">“木禾商业财经”</a>，作者：龚正，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 27 Nov 2026 02:48:07 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4087397781198468</guid>
-            <link>https://www.36kr.com/p/4087397781198468</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[Gemini 4 Carbon点亮8颗太阳，70年几何悬案告破，只用6页神级证明]]></title>
-            <description><![CDATA[<p>你还记得高中地理课上的晨昏线吗？</p>
-  <p>这个寻常的物理现象，在数学家眼中却是极具挑战的几何谜题。</p>
-  <p>如果这颗星球不是完美的圆球，而是被随意捏造、棱角歪斜的「凸多面体」，甚至表面布满平滑与尖锐交错的地形，最少需要挂几颗太阳，才能把它彻底照亮？</p>
-  <p>1957 年，瑞士数学家Hugo Hadwiger在《数学元素》杂志中，郑重写下了这道后来被称为「第 20 号难题」 的猜想。</p>
-  <p>哈德维格覆盖猜想（Hadwiger's Covering Conjecture）：</p>
-  <p>任何一个 d维凸体，最多只需 2d个严格缩小的自身位似体即可完全覆盖。</p>
-  <p>就在刚刚，谷歌研究院的研究员 Goran Žužić 发帖宣布：70年几何悬案——三维哈德维格猜想被解开了！</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,314" src="https://img.36krcdn.com/hsossms/20261127/v2_2eea7fa83f954481bd13ffd0876d1318@1743780481_oswg14104oswg430oswg430_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p class="img-desc">论文地址：https://arxiv.org/abs/2611.32334</p>
-  <p><strong>要看清一颗三维凸星球的全部表面，最少需要几颗卫星？永远最多 8 颗！</strong></p>
-  <p>更令人震撼的是， Gemini 4 Carbon自己摸索出了证明的骨架和直觉；两位人类研究员只是在中途「掌了几下舵」。</p>
-  <p>而长达 1.37 万行的严格形式化验证代码，也由智能体自动生成。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1260" src="https://img.36krcdn.com/hsossms/20261127/v2_3f47cadd6a184c66a5de597f417382d1@1743780481_oswg87112oswg430oswg430_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <h2><strong>困扰人类70年：拿光滑替身逼近为何会翻车？</strong></h2>
-  <p>拿几束光去照一块凸石头，连微积分都不用列，为何困住天才数学家们70年之久？</p>
-  <p>首先，我们要理解为什么猜想的上限是「8」。</p>
-  <p>你在桌上摆一块正方体，八个尖角朝向八方，一束平行光顶多照亮七个角，总有一个角躲在暗处。因此，<strong>正方体（或平行六面体）非得八颗太阳不可，少一颗都不行。</strong></p>
-  <p>对于完美的中心对称图形（比如标准的椭球），早在 1984 年，数学家 Lassak 就已经证明 8 颗太阳足够。</p>
-  <p>可一旦「地面」歪斜、不对称，光路就乱套了。</p>
-  <p>对于一般的三维凸体，Papadoperakis 在 1999 年把界限压到了 16 颗；直到 2023 年，Prymak 才利用复杂的几何构造改进到 14 颗。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1320" src="https://img.36krcdn.com/hsossms/20261127/v2_c545401f071f4c56a3d29bda305dfa1d@1743780481_oswg86844oswg430oswg430_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>越往下走，数学家越绝望，因为这道题里藏着一个致命陷阱。</p>
-  <p>在数学中，我们通常喜欢用光滑的东西去逼近粗糙的东西。</p>
-  <p>对于一个表面处处圆润光滑的三维凸球，你只需要 4 颗太阳（构成一个四面体的方向）就能照遍全球。</p>
-  <p>那么，我们能不能把正方体看作是一个被无限压扁的「光滑球体」的极限呢？</p>
-  <p>理论上可以。你可以拿一串光滑的凸球，一步步越捏越方，去逼近那个正方体。在逼近的过程中的每一步，这些圆润的替身都只需要 4 颗太阳就能照亮（c(K)≤4 ）。</p>
-  <p><strong>可就在它们完美贴合正方体的那最后零点零一秒，所需的太阳数会瞬间从 4 颗猛跳到 8 颗！</strong></p>
-  <p class="image-wrapper"><img data-img-size-val="1080,636" src="https://img.36krcdn.com/hsossms/20261127/v2_4223c818655a49aa876db592c65eba6c@1743780481_oswg39192oswg430oswg430_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>在数学语言里，这叫「在豪斯多夫度量下是上半连续，而非下半连续的」。</p>
-  <p>这意味着，你不能简单地在一个多面体或光滑替身上把结论证出来，然后「取极限」。逼近到终点的瞬间，光影规律会发生断裂，你的证明会直接翻车。</p>
-  <p>这也就是为什么，传统的分析方法在哈德维格猜想面前屡屡碰壁。</p>
-  <h2><strong>两颗太阳守两头，晨昏线刚好切成六段</strong></h2>
-  <p>既然不可能用「替身」这条路，那Gemini 4 Carbon是怎么做的？</p>
-  <p>秘诀，就在晨昏线上。</p>
-  <p>AI 构思出的照明方案，极其符合人类的直觉，又带着惊人的几何精确性。</p>
-  <p>论文中将其概括为<strong>「2 + 6 = 8 晨昏线照明法」</strong>。</p>
-  <p><strong>第一步：先解决最麻烦的平行六面体。</strong></p>
-  <p>首先，证明先把平行六面体单独拿出来。</p>
-  <p>对于平行六面体，不需要搞复杂的打光，直接拿 8 个缩小到原来2/3大小的自己，平移过去，刚好能严丝合缝地盖住原物体的八个角（c(K)=8）。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261127/v2_3219817019c34392920a085696dad332@1743780481_oswg55058oswg430oswg430_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>第二步：两颗太阳守两头。</strong></p>
-  <p>对剩下所有不规则的凸星球，AI 说：你挑准一个方向，从南北两头各点亮一颗太阳（+w）和（-w）。</p>
-  <p>因为星球是凸的，这两束光打过去，除了腰上那圈跟光线擦肩而过的「晨昏线（阴影边界 Σ(K,w)）」，南北两半地面无论多崎岖，全都被照亮了。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,558" src="https://img.36krcdn.com/hsossms/20261127/v2_e38919fe46674ddea286bece8785ef6a@1743780481_oswg31012oswg430oswg430_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>第三步：给晨昏线切段。</strong></p>
-  <p>这六颗太阳的预算，全留给腰上那圈闭合的晨昏线。</p>
-  <p>但万一这星球长得太刁钻，比如像个海星一样，晨昏线绕来绕去特别长怎么办？</p>
-  <p>这时候，AI 祭出了漂亮的现代凸几何工具。它没有直接去量这条线的欧几里得长度，而是引入了「平分差体」</p>
-  <p class="image-wrapper"><img data-img-size-val="222,60" src="https://img.36krcdn.com/hsossms/20261127/v2_96577bc23fc94fb7b2891743508348e0@1743780481_oswg1462oswg430oswg430_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>的概念，把原本不对称的星球强制对称化，并在这个新的度量下测量曲线。</p>
-  <p>它把这个对称体S摆进所谓「约翰位置」<strong>—</strong>—即在里面塞进一个体积最大的内接椭球（</p>
-  <p class="image-wrapper"><img data-img-size-val="554,216" src="https://img.36krcdn.com/hsossms/20261127/v2_e9e7b87df9ab4cb4ae83263fd525590f@1743780481_oswg7016oswg430oswg430_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>）。</p>
-  <p>在这里，机器敏锐地抓住了平行六面体的「刚性」特征：只要这颗星球不是平行六面体，那么它在各个方向上支撑函数的球面平均值就严格小于3/2。</p>
-  <p>这就意味着，只要你随机挑方向，总能挑出一个「好方向」，让这条晨昏线避开平直的棱边，连成一条总长严格小于 12 的闭合曲线！</p>
-  <p>平均不到 12，这个数字太关键了。这意味着我们可以把这条晨昏线匀匀地切成6段，每一段的长度都严格小于 2。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1380" src="https://img.36krcdn.com/hsossms/20261127/v2_eaafaa0ae09b4f7893a657e39af7c30b@1743780481_oswg84944oswg430oswg430_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p><strong>第四步：赫利定理神奇收尾</strong></p>
-  <p>为什么小于 2 这么重要？这里用到了一百年前的赫利定理。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,540" src="https://img.36krcdn.com/hsossms/20261127/v2_9e5a26fcd9a6487788547c3c1970c813@1743780481_oswg64792oswg430oswg430_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>在三维空间里，如果一条连续曲线上的任意四个点，都能被同一个缩小版的星球盖住，那么整段曲线就都能被盖住。</p>
-  <p>对于长度严格小于 2 的弧，通过巧妙的弦长放缩，AI 证明了必定存在一个缩放比例 λ0&lt;1，能盖住这段弧。</p>
-  <p>不到 2 的每一段弧，配一颗太阳从内部往里照，就足够了。</p>
-  <p>两头两颗，腰上六段六颗，加起来正好八颗！</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20261127/v2_0ae6de623db144f9be86e6365506df59@1743780481_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>而且，为了完美避开「逼近陷阱」，AI 使用了聪明的战术：它利用外接多面体和柯西平面周长公式仅仅是为了「丈量长度」，并结合法图引理取下确界。</p>
-  <p>全程操作都在原本的星球上，完美避开了逼近陷阱。</p>
-  <h2><strong>人类掌舵，机器自己验证</strong></h2>
-  <p>所以，如此精妙的解法，人类的参与有多少？</p>
-  <p>在论文中，谷歌的Dror Aiger、伊利诺伊大学教授Sariel Har-Peled和茹日奇坦诚：</p>
-  <p>在谷歌内部基于 Gemini 4 Carbon 搭建的实验框架，在 Dror Aiger 和 Goran Žužić 的极少人工引导下，发现了这一证明。</p>
-  <p>随后，Gemini 4 Carbon 上的智能体架构在 Lean 4 中完成了形式化验证。</p>
-  <p>三位作者核实了数学细节，并准备了本论文的呈现。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,1544" src="https://img.36krcdn.com/hsossms/20261127/v2_74574fa56e8c4c7384489d838d85c76c@1743780481_oswg63068oswg430oswg430_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>这次，Gemini 4 Carbon展现出高度创造性的数学直觉，比如构造平分差体、寻找约翰位置、巧妙分割晨昏线。</p>
-  <p>更可怕的是它的落地能力。</p>
-  <p>找到思路后，智能体直接转向Lean 4 形式化验证系统。</p>
-  <p>在论文附录A中，没有任何多余的自定义假设，智能体直接调用了标准数学库Mathlib里最基础的「紧致」、「凸集」和「内部」定义。</p>
-  <blockquote>
-   <p>/-- **Hadwiger's covering conjecture in three dimensions (Theorem 1.1)**:Every compact convex subset `K ⊂ R3` with nonempty interior can be covered byeight smaller positive homothetic copies of itself... -/</p>
-  </blockquote>
-  <p>为了防止 AI 借用现成结论偷懒，甚至连卡拉西奥多里定理、赫利定理这些基础命题，机器都从头自证了一遍。</p>
-  <p>最终交上来的整套工程，包含 34 个文件，总计 13,725 行 Lean 4 代码。</p>
-  <h2><strong>四维空间难题，人类只能交给AI了</strong></h2>
-  <p>在神作《日暮》里，艾萨克·阿西莫夫曾描绘过一颗名叫「拉格什」的星球。</p>
-  <p>那颗星球处于一个拥有六颗太阳的多星系统中，天空永远是亮的，整整两千年才会迎来一次日食与黑夜。</p>
-  <p>哈德维格在 69 年前留给人类的，也是这样一颗需要点亮太阳的星球。今天， Gemini 替人类点亮了。</p>
-  <p>哈德维格覆盖猜想的突破，意味着我们正在见证一种全新的科研范式。</p>
-  <p>当然，这场人机接力还远未结束。</p>
-  <p>这道题在三维世界里被解决，但四维依旧悬而未决。按照哈德维格当年的猜想，四维空间里，我们需要2^4=16颗太阳。</p>
-  <p>要知道，四维空间里，人类连「晨昏线」都没法画，多维凸体更是无法在脑海中投影。</p>
-  <p>所以，多半还得靠机器去高维空间里穷举方向、切分曲面。</p>
-  <p>接下来，我们只能期待AI带来的惊喜了。</p>
-  <p class="editor-note">本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s/hSHoRgY698YAGIahwQHjJw">“新智元Eden”</a>，作者：大卫&nbsp;Aeneas，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 27 Nov 2026 02:33:32 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4087355247540614</guid>
-            <link>https://www.36kr.com/p/4087355247540614</link>
-            
-            
-            
-            
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[大模型涌入药物研发：闭环、物理卡点和押注验证]]></title>
-            <description><![CDATA[<blockquote>
-   <p>范式变革、大厂落子、热钱变多，今年的AI叙事新在哪，新涌入的模型巨头会给药物研发带来什么？</p>
-  </blockquote>
-  <p>AI与生物制药的结合不是新鲜事。</p>
-  <p>产业界的努力主要围绕着一个广为人知的成本法则展开：一款新药从立项到上市，通常要花10到15年，耗费超20亿美元，同时进入临床的候选药物里大约只有十分之一能走到最后。</p>
-  <p>天量投入之下，十多年前成立的一批公司，把AI用到了研发链条的最前端和临床链条的数据、文书和流程管理环节。</p>
-  <p>前者从海量数据里找靶点，在计算机里设计分子，从锁定靶点到拿出候选分子，传统做法通常要四到六年，快的AI公司能做到一两年。而用AI在临床环节做整理和匹配，比如病历数据处理、筛选入组病人、管理试验流程，目标也是要压缩占药物研发大部分投入的临床周期。</p>
-  <p>不过，<strong>单一环节的效率提升并没有显著改变药物研发流程</strong>。候选分子之后的动物实验、人体试验到上市的过程依然漫长曲折。AI设计的药物进入II期临床后，通过率和传统药物相比也还没看到明显差别。直到今天，市面上仍没有一款靶点和分子都由AI发现的药物获批上市。</p>
-  <p>今年，<strong>AI制药领域里一些新的趋势正在出现</strong>。科技大厂的动作，是最容易被观察到的一个变化。以往它们在这个领域多是提供工具，如今<strong>离药更近了一步</strong>。</p>
-  <p>海外大模型公司开始直接进入药物研发环节。Anthropic收购和计算生物学公司并自建分子生物学实验室，直接下场推进自研管线，同时还推出了多款生命科学垂直产品，与Biotech公司深度合作。OpenAI也收购了Orchestra Bio，还和药企、云端实验室合作，更深介入药物研发流程。外界分析大模型公司们正在用AI-Native范式重构药物研发流程。</p>
-  <p>国内字节也在构建从科学模型到药物管线的更完整链路。今年6月，字节跳动把内部运转多年的团队拆分为独立公司Anew Labs，9月完成2.9亿美元首轮融资，手里已有处于临床前阶段的小分子管线。</p>
-  <p>另外，行业今年对AI的接受度也在发生变化。深度智耀副总裁姜志成告诉数智前线，去年AI能不能干临床试验的活，在医药行业还会被反复挑战，但今年，“投资人都会说，你们现在管线运营AI用太少了”。</p>
-  <p>资本也在加速涌入这一领域。日前，脱胎自Google Deepmind的AI制药企业Isomorphic完成了50亿美元的C轮融资，半年前它刚刚完成一轮21亿美元的融资。海外，1月英伟达与礼来宣布5年最高投入10亿美金建联合实验室。而在国内今年前三季度，AI制药领域的融资额超过150亿元，是去年全年的3倍多。</p>
-  <p>过去几个月大模型吞噬Robotics的讨论不绝于耳，如今在AI制药领域也有同样的疑问，大模型在AI制药领域的边界到底在哪？新一代的AI，能否突破制药领域当下最大的瓶颈？</p>
-  <h2><strong>焦虑</strong></h2>
-  <p>“我们是AI制药界的‘老登’了，已经被归为第一代的AI制药公司，现在出现了第二代。”10月下旬的医药创新与投资大会上，英矽智能联席CEO任峰的发言引人注目。</p>
-  <p>他所说的第二代在硅谷常被称为AI原生生物技术公司（AI-native biotech）。行业研究机构PitchBook把它们描述为“用突破性模型和计算工具驱动发现与开发”的药物研发公司，Xaira、Isomorphic、Generate都经历了两轮融资里就成了独角兽。</p>
-  <p>在任峰看来，两代公司的处境并不相同，第二代“还处于只谈技术的朝阳时期，没有人要求它们去落地”。他还把今年行业的第一大关键词概括为焦虑，领域内外的企业都很焦虑。“我们也很焦虑，在AI爆发的时代，需要思考我们未来的竞争优势，会成为一家什么样的公司。”</p>
-  <p>其实，焦虑不只第一代AI制药公司们有，新生代们也有自己的担心。</p>
-  <p>津渡生科用DNA和RNA的原始序列训练模型，算得上第二代公司，它的联合创始人周天尧日前在百度世界大会的一场论坛上说到了通用大模型的冲击。</p>
-  <p>论坛前两天，Anthropic刚发布了新模型Fable 5.2，官方和业界披露它能从头开始蛋白质设计，代理科学研究与自动化实验工作流。</p>
-  <p>周天尧说，他个人感到比较震撼。以前行业对科学模型非常自信，认为科学模型和语言模型之间的边界“某种意义上是无法攻破的”，但大模型公司做的超大规模模型“挺暴力的，所以某种意义上是让我产生了一些担心”。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261127/v2_5ff32cdd0e12414cbd7db4384161da10@000000_oswg712942oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>两家公司负责人的心态，是今年AI制药领域最突出变化的缩影。</p>
-  <p>一方面，新兴头部AI制药公司估值一路走高，受到资本热烈追捧。Isomorphic就是典型的例子。过去半年里，它先后完成21亿美元和50亿美元两轮融资，合计超过70亿美元；据外媒报道，它此轮的估值已经达到500亿美元左右。这个数字超过了大多数成熟的中大型上市生物制药公司，但Isomorphic目前还没有一款药物进入人体临床试验。</p>
-  <p>医疗健康领域投资人Jeffrey Low评价称，市场愿意在它还没有足够药物管线支撑的时候，就给出几十亿甚至几百亿美元的估值预期，是因为投资者在为一种能力（Capability）买单，“这是一种技术期权”。</p>
-  <p>某种意义上， Isomorphic这样的头部企业正带着“大模型和AI Agent重塑医药研发基建”的叙事光环。</p>
-  <p>另一方面，科技大厂进入生物制药的方式变了。以前，大厂做的是专用模型（比如AlphaFold），或者孵化一家公司；今年，OpenAI、Anthropic这类做语言模型的公司，带着通用模型和智能体直接进来，自建实验室已经不是新鲜事。</p>
-  <p>“科技大厂之前不做药，只提供底座，现在它们正直接进入制药领域。”一位老牌AI制药企业高管说，这是他们之前没有想到的。</p>
-  <p>大模型公司进来的原因不难推断。它们需要找到能落地、能赚钱的场景，新药研发是少数单笔价值足够大的行业之一。全球新药研发的年投入以千亿美元计，虽然整体成功率不足一成，但一旦针对大适应症的重磅新药研发成功，单品往往就能撬动每年数十亿甚至上百亿美元的全球市场。有人把这个赛道的吸引力概括为三点：<strong>数据密集，验证结果客观，以及有一个“非常有钱又非常有需求的支付方”</strong>。</p>
-  <p>与此同时，行业的<strong>技术范式也在变化</strong>。英矽智能任峰提到，之前，AI制药领域都是基于垂类模型解决细分问题，每一个问题由一类数据建一个模型；今年，行业开始从单一模态的垂类模型过渡到多模态的大模型，由大模型调度垂类模型和智能体来解决问题。</p>
-  <p>第二代公司也有类似的判断。周天尧在同一场论坛上说，今天再拿模型参数量当壁垒其实是个伪命题，未来要想的是“如何把language model作为一个指挥官和这些科学模型形成配合”：语言模型在上面统筹，各个科学模型做精做专。</p>
-  <p>这一变化背后有技术成熟度的催化。一位关注生物制药的投资行业人士介绍，从去年底到今年初，智能体技术成熟，过去各管一段、要靠专家在中间转换数据的垂类模型，<strong>第一次可以被串成一个工作流</strong>。</p>
-  <p>有分析认为，行业对今年的期待是，打破此前的AI与制药两个领域相互割裂，单点赋能局面，做到用AI贯穿药物研发的全链路，覆盖临床前干湿实验、临床方案设计、患者入组、商业化测算等全流程。</p>
-  <h2><strong>闭环走到了哪一步？</strong></h2>
-  <p>从单点赋能到贯穿更多链条，智能体很自然地成为今年AI与制药深度融合、各类玩家布局的重要战场。</p>
-  <p>目前各家的说法不一，想做的事却相近：不再只让AI在某个环节帮一把手，而是把前后几个步骤串起来，上一步的结果直接成为下一步的输入，最终形成一个能自己转起来的回路，行业里把它叫作“闭环”。</p>
-  <p>目前覆盖面最广的，是各类做信息工作的智能体：读文献、写方案、整理数据、审核报告。</p>
-  <p>比如全球最大的临床CRO之一IQVIA，今年3月和英伟达一起推出了智能体平台，上线时已有150多个智能体，用于解析试验方案、筛选研究中心、审核临床数据；据该公司披露，全球前20大药企里有19家在用。</p>
-  <p>在国内，深度智耀用多智能体系统重构临床运营，用AI撰写试验方案、推进临床整包交付，还在患者正式入组前先跑一遍“虚拟临床试验”，预测入组速率和脱落风险；公开报道显示，今年前两个月，它的订单额就超过了2025年全年。</p>
-  <p>在国内AI制药企业里，智能体也已经开始接手一部分工作。</p>
-  <p>德睿智药CEO牛张明告诉数智前线，他们正把智能体逐步用于文献与专利分析、靶点研究、医药情报检索、实验数据整理和分子性质比较，把重复性、信息密集型的工作交给多智能体协作。根据他们的内部评测，过去要8到10个人花约3个月完成的数据挖掘任务，换成多智能体系统后，1到2个人一周左右就能做完。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261127/v2_87f7f4d8621a493a8502874482f2fa3f@000000_oswg873237oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>另一类智能体不只处理信息，还要<strong>指挥实验室里的设备</strong>。</p>
-  <p>英矽上半年发布了智能实验室系统LabClaw，把靶点发现、化合物筛选和自动化实验串在一起，跑在英矽自建的第二代实验室LifeStar2上。晶泰今年9月升级了科学智能体平台XtalPi Science，将能力从数字端延伸至实验执行，连接科研数据系统与自主实验室，直接调度实验室机器人和实验设备开展实验。</p>
-  <p>它们想做的，也是行业当下热议的干湿闭环——计算机里的预测是“干”的，实验室里的验证是“湿”的，实验结果再回传给模型，进入下一轮。</p>
-  <p>新药研发里一直有“设计、合成、测试、分析”的流程，上一代AI制药公司已经把其中几步自动化，比如模型给分子打分或生成分子，化学家挑出要做的，机器人去合成和测试，数据再回去训练模型。一些公司2018年就开始建自动化实验室，但当时主要是科学家推动这个循环转起来，比如下一轮做什么，要由科学家看完结果再决定。</p>
-  <p>今年的变化在于，<strong>推动循环的角色换成了模型</strong>。OpenAI和合成生物公司Ginkgo今年2月的合作就是典型例子。模型自己设计反应配方，交给Ginkgo的云端实验室执行，看完结果再设计下一轮，六轮下来测了3.6万多种配方，把一种蛋白的生产成本压低了四成。</p>
-  <p>不过，这个自动迭代的系统还处在早期。</p>
-  <p>OpenAI在公开实验结果时披露，<strong>实验方案的改进和试剂处理仍需要人来监督和操作</strong>。美国西雅图华盛顿大学助理教授王晟在一档播客里也评估，目前大模型设计实验方案的完成度“可能只有30%”，AI能给出分子式，但怎么合成、怎么储存、怎么给小鼠用药，这些细节做得很差，也很难做到结合实验室现有的设备去安排。</p>
-  <p>甚至在信息处理类工作里，业界也认为关键判断仍由人来作出。牛张明告诉数智前线，AI擅长处理大量信息、同时比较多个候选设计；定研发目标、挑值得验证的分子、解释实验结果，则由药化专家负责。信息整理的结果要核对来源，涉及分子选择的建议要药物专家判断，实际活性和安全性要靠实验和临床验证，“最终作决定的是具备相应专业资质和职责的人员”。</p>
-  <p>让AI覆盖药物研发更多链路，光有模型和智能体还不够，各路玩家还在探索把各方连起来的基础设施。</p>
-  <p>通用AI办公智能体正在入场，腾讯在<ai-product-link data-id="15121" data-name="WorkBuddy" data-logo="https://img.36dianping.com/20260730/v2_ee6d2763f29b402faa5efe8b774b3487_oswg38947oswg300oswg300_img_000" data-classify-list="办公辅助,AI助理,效率工具" data-refer-type="20">WorkBuddy</ai-product-link>搭了一个生命科学平台，把几类公司接到一起。参与其中的有AI 制药企业德睿智药、英矽智能，能提供高通量湿实验验证的CXO玩家金斯瑞，以及手握重磅自研管线的创新药企映恩生物等。外界看来多类互补角色加入，本质是为了打通从AI分子设计到湿实验验证、再到新药管线落地的链条。</p>
-  <p>也有玩家把模型和算力直接送进药企。深度智耀近期推出面向生命科学用户的组织AI软硬件一体产品EvoOrg x DIP小方，旨在通过把AI原生组织平台，包括DIP专有智能体集群和专有模型部署到药企。</p>
-  <h2><strong>卡在物理世界</strong></h2>
-  <p>要让数据、模型和实验持续运转起来，绕不开物理世界的约束。</p>
-  <p>眼下大热的湿实验闭环，还在药物研发链条的前端。再往后端延伸，实验对象变成活的动物之后到病人身上，靠算力很难加速，也很难交给机器。</p>
-  <p>德睿智药的MDR-001能看出这种落差。这是一款AI辅助设计的口服小分子减重药，针对已知靶点GLP-1受体，目前已在国内进入III期临床。从立项到确定临床前候选化合物，它只用了约8个月，期间实际合成约80个小分子；但从立项到拿到美国FDA的临床试验批件，用了约19个月；到在国内启动III期临床，用了约4.5年。德睿也承认，AI并不能把动物实验、临床试验这些有客观周期要求的环节直接压缩掉。</p>
-  <p>第一道坎是实验的通量。晶泰控股核酸药物研发负责人高祥瑞日前在百度世界大会的论坛上指出，做一轮细胞实验大概要一两周，做动物实验可能要几个月，实验的节奏很难跟上模型更新的速度 ，“非常的难受”。</p>
-  <p>动物实验也很难自动化。一位做小鼠活体实验自动化的创业者曾分享，他们试过很多款机械臂，“其实没有一个机械臂能做到这一点”，到现在还抓不住小鼠。</p>
-  <p>AI能做的，是在进入这些环节之前多筛一道。按德睿的说法，AI真正能改变的，“在于帮助科学家提前筛掉不值得继续投入的方向，让每轮实验更有针对性”。</p>
-  <p>但筛得再准，也不一定能说明药有效。</p>
-  <p>高祥瑞举了一个例子，现在各家模型比的多是抗体、多肽的结合力强不强，但“真正要做药不能光考察亲和力本身”，还要看会不会误伤其他蛋白、能不能稳定量产、进了人体怎么代谢，这些都不在单个模型的考核范围里。</p>
-  <p>他在演讲中把早期研发的风险概括为“生物学故事成立，药却不成立”。动物和人之间也有差距，临床前主要评估的是安全性，药效在小鼠、猴子身上往往看不准。a16z在本月发布的行业报告里也判断，<strong>更好的分子设计不一定能带来更有效的药</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261127/v2_86155a215f6643cfa251bbf5a08fd7e8@000000_oswg774361oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>再往后，是临床这一段。临床阶段占一款新药七到八成的时间和投入，主要场景在医院。深度智耀做的就是这一段的生意——用AI承接原本由CRO交付的临床试验运营。</p>
-  <p>在姜志成的描述里，这段工作分成两类。一类发生在申办方、CRO和监管机构的系统之间：撰写试验方案、出具临床研究报告、整理和流转数据。这一类AI提速明显，文书原来按周、按月交付，现在一天甚至一小时就能完成。凡是上一个系统或模型就能解决的事情，都会"非常快"。</p>
-  <p>另一类发生在医院之内，AI很难加速。病人入组要多久、选哪几家研究中心，不由算法决定。胃癌、肝癌这类大病种，头部研究中心的试验资源本就紧张，“哪个主任那里都有一堆试验管线”，新试验能不能排上队，是比算力更现实的问题。“CRO原来面临的问题，AI CRO还是要面对。”姜志成说。</p>
-  <p>更底层的约束在数据。医院里相当多的临床记录仍由病人和护士手工填写，或者散落在院内互不联通的系统里；同时，诊疗数据不能离开医院，而各家医院的系统标准又不统一，这些都是AI应用到临床端现实的问题。</p>
-  <p>深度智耀的办法是把算力搬进医院，他们正在北京一家大型研究中心及其数十个分中心试点，把GPU直接部署在院内，让数据在不出院的前提下被处理。在姜志成看来，卡住AI往临床推进的核心是两件事：一是接口和数据没有整理好，二是法规“什么时候能开放”。</p>
-  <p>今年药企花钱的方向，也指向了这些卡点。今年上半年，罗氏以10.5亿美元收购病理AI公司PathAI，阿斯利康收购了病理AI公司Modella AI。两家买的都不是找分子的能力，而是用AI做生物标志物、患者分层和入组筛选，也就是帮临床试验找到对的病人。</p>
-  <h2><strong>押注验证</strong></h2>
-  <p>物理世界的约束难以回避，不过行业也有应对的方式。当下，<strong>卡点本身，正在变成行业追逐的热门</strong>。</p>
-  <p>其中的逻辑并不难理解。模型一次能生成成千上万个候选分子，实验室、动物房和临床中心的产能却不会同步扩张。“不可能前面多发现了10倍的分子，明年就多开10倍的临床。”姜志成说。</p>
-  <p>CXO公司最先感受到这一点。中邮证券在11月初的一份研报里梳理了国际头部CXO的判断：AI会提升候选分子数量，增厚上游客户的管线，反而带来外包需求的上升。前端越快，后端验证的通道越挤，稀缺带动了价格的上涨，<strong>验证环节正在变成卖方市场</strong>。以实验动物为例，最近媒体报道，一只实验猴的价格已经从2025年年底的10万元涨到当下的30多万元。</p>
-  <p>更深一层的变化，发生在数据侧。</p>
-  <p>当下行业已有共识，只靠存量公开数据训练模型，模型训练的边际收益在持续下降。目前，生物领域的存量数据大多是观测数据，只能告诉模型“什么和什么相关”，而要让模型理解“什么导致什么”，需要大规模的干预和扰动实验数据。比如改动一个基因、加入一个分子，再看细胞如何变化。</p>
-  <p>过去几年学术界和产业界已经积累了一批公开扰动数据集，但体量太小，并且覆盖的细胞系和靶点太窄，且不同实验室的批次效应严重、缺乏统一标准和高质量标签。据中邮证券研报援引a16z数据，当前可用高质量带标签扰动数据集，<strong>距离建立人类生物学因果模型/支撑下一代模型所需的规模，还差约1000倍（3个数量级）</strong>。</p>
-  <p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20261127/v2_4f5271ced1624ca68652b2fd2f2190b9@000000_oswg777926oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" referrerpolicy="no-referrer"></p>
-  <p>缺口之下，也不难理解头部基础模型厂商如Anthropic和OpenAI为什么会大力自建或借用实验平台以及工业化地生产湿实验数据管线。</p>
-  <p>这一行业背景下，老牌玩家也站在了一个绕不开的位置。有行业人士介绍，大药企上百年间合成和测试过的化合物，大量因结果不佳被束之高阁，现在可以清洗之后喂给模型，有可能用来找到许多被忽略的信号。一些部署了自动化实验室的公司，据称现在每个月能新增数十万条自有实验数据。</p>
-  <p>有趣的是，当下投资人的态度也在分化。一面是Isomorphic们的估值一路走高，另一面，也有人明确表态要避开叙事的钱。国方创投合伙人韦亚光十月在一场行业会议上发言称希望挣验证的钱，避开叙事的钱。在他看来，“做第一个没有投资价值，做跑完马拉松的第一个才有价值”。</p>
-  <p>对AI制药公司来说，跑完马拉松，意味着要把自己的药带过验证。任峰认为，下半场的胜负手是两件事：用AI快速推进项目的能力和商业化的能力。</p>
-  <p>这个过程里，AI制药公司们既有药物资产，也有技术平台对外输出的能力。比如德睿智药当下就一边对外提供技术服务，为默沙东中国等做知识图谱项目；一边推进自研药物。牛张明提到，目前他们的主要精力放在了自研药物上。</p>
-  <p>目前德睿智药把MDR-001在中国内地、香港和澳门的商业化权益授权给三生制药旗下公司，潜在总交易金额最高17.5亿元，德睿智药另享高比例双位数销售分成，同时保留产品知识产权，继续负责临床开发和注册申报。</p>
-  <p>对这类公司来说，药做出来，平台才算被验证。德睿把这笔授权看作它的“AI设计小分子能力获得了商业化与临床双重验证。</p>
-  <p>而最终的验证，只能在人体上完成。在德睿看来，一款药算不算“AI药”，要看AI参与了哪些关键研发决定，以及这款药在人体研究中拿出了什么证据。</p>
-  <p>目前，英矽的rentosertib和德睿的MDR-001都已进入III期临床。rentosertib的初步数据要到2029年。任峰说，如果成功，将成为AI制药行业的标志性事件，“或者说‘<ai-product-link data-id="14638" data-name="DeepSeek" data-logo="https://img.36dianping.com/20250909/v2_8b4cc3a29754422f94db009a5e5c9a8f_oswg209762oswg430oswg430_img_000" data-classify-list="辅助写作,AI助理,文本处理" data-refer-type="20">DeepSeek</ai-product-link>时刻’”。</p>
-  <p>当下，大模型正在深刻变革药物研发领域，不过技术进步和药物落地的速度并不相同。AI的能力曲线按月刷新，而落地周期以年计算，两条线之间的落差本身，正左右着AI制药行业今年的兴奋、焦虑和耐心。</p>
-  <p>本文来自微信公众号<a target="_blank" rel="noopener noreferrer nofollow" href="https://mp.weixin.qq.com/s?__biz=MzkwNDMyOTA1NA==&amp;mid=2247497448&amp;idx=1&amp;sn=ba57cd82a9b8da90092592634217d7f0&amp;chksm=c1e8a930de9fdb4870a900b4bd4e51c789bc241ab6a1665464a5bf5685ddc52946eac028af28&amp;scene=0&amp;xtrack=1#rd">“数智前线”（ID：szqx1991）</a>，作者：徐鑫，编辑：宁静路，36氪经授权发布。</p>
- 
-]]></description>
-            <pubDate>Fri, 27 Nov 2026 02:33:00 GMT</pubDate>
-            <guid isPermaLink="false">https://www.36kr.com/p/4087373831371141</guid>
-            <link>https://www.36kr.com/p/4087373831371141</link>
             
             
             

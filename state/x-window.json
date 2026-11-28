@@ -6,17 +6,6 @@
       "name": "Aditya Agarwal",
       "source": "x",
       "tweets": {
-        "id:2124947675913367832": {
-          "createdAt": "2026-11-23T19:26:20.000Z",
-          "id": "2124947675913367832",
-          "isQuote": true,
-          "likes": 23,
-          "quotedTweetId": "2124910589323743517",
-          "replies": 1,
-          "retweets": 0,
-          "text": "This is an agent you don't have to prompt. It's proactive. \n\nExcited about this launch. https://t.co/KrINO0HQUT",
-          "url": "https://x.com/adityaag/status/2124947675913367832"
-        },
         "id:2125096073228439683": {
           "createdAt": "2026-11-24T05:16:00.000Z",
           "id": "2125096073228439683",
@@ -69,39 +58,6 @@
       "name": "Amjad Masad",
       "source": "x",
       "tweets": {
-        "id:2124969305674748175": {
-          "createdAt": "2026-11-23T20:52:17.000Z",
-          "id": "2124969305674748175",
-          "isQuote": false,
-          "likes": 295,
-          "quotedTweetId": null,
-          "replies": 72,
-          "retweets": 19,
-          "text": "New research from Replit on scaling laws for agent swarms. \n\nWe show that scaling the number of agents can yield dramatic performance gains, but unlike traditional scaling laws, more compute doesn't necessarily translate into better results, and how agents organize themselves matters.\n\n- Given a fixed two-hour window, Opus 5.5 went from a 3.7x speedup on NumPy with one agent to 18.9x with 32 agents.\n\n- GPT-6.2 Astra was the strongest solo agent but exhibited negative scaling beyond 8 agents.\n\n- Models spontaneously developed different organizational structures. Decentralized swarms scaled better than those that relied on centralized coordination.\n\n- The parallelizability of the problem was a strong predictor of swarm performance.\n\n- Interestingly, individual model intelligence is a poor predictor of collective intelligence.\n\nWe’re also open-sourcing Optimization-Bench to advance research into this new dimension of inference-time scaling.\n\nhttps://t.co/RXBU7aM5FE",
-          "url": "https://x.com/amasad/status/2124969305674748175"
-        },
-        "id:2125001371472871659": {
-          "createdAt": "2026-11-23T22:59:42.000Z",
-          "id": "2125001371472871659",
-          "isQuote": true,
-          "likes": 1498,
-          "quotedTweetId": "2124870184003424673",
-          "replies": 30,
-          "retweets": 70,
-          "text": "The man is severely underpaid. https://t.co/tPp4K55neH",
-          "url": "https://x.com/amasad/status/2125001371472871659"
-        },
-        "id:2125008810041610359": {
-          "createdAt": "2026-11-23T23:29:15.000Z",
-          "id": "2125008810041610359",
-          "isQuote": false,
-          "likes": 1852,
-          "quotedTweetId": null,
-          "replies": 130,
-          "retweets": 110,
-          "text": "Great meeting with VP @JDVance on Friday to discuss American AI leadership, cybersecurity, and modernizing our nation’s software infrastructure.\n\nWe also discussed an issue close to my heart: American leadership in open-weight AI. \n\nOur allies want sovereign AI and are increasingly looking to Chinese open models. At home, American startups need a competitive model ecosystem.\n\nAmerica could win the frontier AI race and still lose the global AI ecosystem.\n\nVery happy to see Jensen back at Nvidia. He’s been one of the most important champions of American open-weight AI.",
-          "url": "https://x.com/amasad/status/2125008810041610359"
-        },
         "id:2125287538911072753": {
           "createdAt": "2026-11-24T17:56:49.000Z",
           "id": "2125287538911072753",
@@ -165,39 +121,6 @@
       "name": "Boris Cherny",
       "source": "x",
       "tweets": {
-        "id:2124961485801836573": {
-          "createdAt": "2026-11-23T20:21:12.000Z",
-          "id": "2124961485801836573",
-          "isQuote": true,
-          "likes": 5943,
-          "quotedTweetId": "2124959436640858475",
-          "replies": 242,
-          "retweets": 178,
-          "text": "A year ago we launched Opus 4.5, the first model to write 100% of my code.\n\nShipping PRs hasn’t caught up, so today we’re launching Claude Ship in beta for Team and Enterprise. I use it all day every day and can’t imagine shipping without it. https://t.co/IfK0Oua6rZ",
-          "url": "https://x.com/bcherny/status/2124961485801836573"
-        },
-        "id:2124961487454384442": {
-          "createdAt": "2026-11-23T20:21:13.000Z",
-          "id": "2124961487454384442",
-          "isQuote": false,
-          "likes": 201,
-          "quotedTweetId": null,
-          "replies": 16,
-          "retweets": 5,
-          "text": "It multiplies my velocity. I don’t need to wait around for code review or babysit PRs, and the results are better.\nCode Review looks for bugs, PR Steward works on fixes and failing checks, and Claude Approvals approves what your team’s policy allows (the last two are in beta).",
-          "url": "https://x.com/bcherny/status/2124961487454384442"
-        },
-        "id:2124961488691740941": {
-          "createdAt": "2026-11-23T20:21:13.000Z",
-          "id": "2124961488691740941",
-          "isQuote": false,
-          "likes": 175,
-          "quotedTweetId": null,
-          "replies": 17,
-          "retweets": 5,
-          "text": "Anyone can use /ship. If you’re on a Team or Enterprise plan, your admin can turn on Claude Ship per GitHub repo. I’d start with one repo and run Approvals in observe mode until you trust it.\n\nhttps://t.co/p0T6zDSIwM",
-          "url": "https://x.com/bcherny/status/2124961488691740941"
-        },
         "id:2125292098165612585": {
           "createdAt": "2026-11-24T18:14:56.000Z",
           "id": "2125292098165612585",
@@ -217,39 +140,6 @@
       "name": "Claude",
       "source": "x",
       "tweets": {
-        "id:2124929944530587712": {
-          "createdAt": "2026-11-23T18:15:52.000Z",
-          "id": "2124929944530587712",
-          "isQuote": false,
-          "likes": 5070,
-          "quotedTweetId": null,
-          "replies": 251,
-          "retweets": 278,
-          "text": "Zero data retention (ZDR) with Enterprise Frontier Safeguards (EFS) is now in public beta for eligible businesses. It looks for misuse across many requests while remaining compatible with ZDR.\n\nWe developed it with over 100 customers.\n\nRead more: https://t.co/M8riFzHDPY https://t.co/eOonILkHt3",
-          "url": "https://x.com/claudeai/status/2124929944530587712"
-        },
-        "id:2124929946925793294": {
-          "createdAt": "2026-11-23T18:15:53.000Z",
-          "id": "2124929946925793294",
-          "isQuote": false,
-          "likes": 193,
-          "quotedTweetId": null,
-          "replies": 9,
-          "retweets": 5,
-          "text": "EFS is available on the Claude Platform, Claude Platform on AWS, Amazon Bedrock, and Claude on Google Cloud. Support for EFS in Microsoft Foundry is coming soon.",
-          "url": "https://x.com/claudeai/status/2124929946925793294"
-        },
-        "id:2124970294523945328": {
-          "createdAt": "2026-11-23T20:56:12.000Z",
-          "id": "2124970294523945328",
-          "isQuote": false,
-          "likes": 6717,
-          "quotedTweetId": null,
-          "replies": 271,
-          "retweets": 363,
-          "text": "There’s now one way to connect your tools to Claude, teach it a new skill, or do both.\n\nConnectors and skills come together as plugins. Live on Free, Pro, Max, and Ultra plans, with Team and Enterprise coming soon.\n\nBrowse 10,000+ plugins: https://t.co/gSwpY9HDPY https://t.co/K78lwls8qh",
-          "url": "https://x.com/claudeai/status/2124970294523945328"
-        },
         "id:2125616070652555573": {
           "createdAt": "2026-11-25T15:42:17.000Z",
           "id": "2125616070652555573",
@@ -487,17 +377,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2124930801485930564": {
-          "createdAt": "2026-11-23T18:19:17.000Z",
-          "id": "2124930801485930564",
-          "isQuote": false,
-          "likes": 470,
-          "quotedTweetId": null,
-          "replies": 41,
-          "retweets": 28,
-          "text": "2026 is just waking up each day to the magnitude of news that could only have happened once per decade before 2026.",
-          "url": "https://x.com/levie/status/2124930801485930564"
-        },
         "id:2125089009018040779": {
           "createdAt": "2026-11-24T04:47:56.000Z",
           "id": "2125089009018040779",
@@ -602,17 +481,6 @@
       "name": "Nikunj Kothari",
       "source": "x",
       "tweets": {
-        "id:2125033540287131901": {
-          "createdAt": "2026-11-24T01:07:31.000Z",
-          "id": "2125033540287131901",
-          "isQuote": false,
-          "likes": 25,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 0,
-          "text": "2027 job descriptions be like…\n\nFounder: Swarm Overlord\nProduct Manager: Swarm Rider\nDesigner: Swarm Choreographer\nSystems Engineer: Swarm Architect\nForward Deployed Engineer: Swarm Wrangler\nMarketer: Swarm Propagandist\nVC: Swarm Speculator",
-          "url": "https://x.com/nikunj/status/2125033540287131901"
-        },
         "id:2125270251491520702": {
           "createdAt": "2026-11-24T16:48:08.000Z",
           "id": "2125270251491520702",
@@ -676,39 +544,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2125030140577296647": {
-          "createdAt": "2026-11-24T00:54:01.000Z",
-          "id": "2125030140577296647",
-          "isQuote": false,
-          "likes": 136,
-          "quotedTweetId": null,
-          "replies": 37,
-          "retweets": 2,
-          "text": "I think it's kinda BS that schools have so many no school days like this whole week is no school while the parents still have to work",
-          "url": "https://x.com/petergyang/status/2125030140577296647"
-        },
-        "id:2125034054663999684": {
-          "createdAt": "2026-11-24T01:09:34.000Z",
-          "id": "2125034054663999684",
-          "isQuote": false,
-          "likes": 16,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 0,
-          "text": "Ok I admit I'm just salty for not being able to play GTA 6 during the day haha",
-          "url": "https://x.com/petergyang/status/2125034054663999684"
-        },
-        "id:2125060785667969399": {
-          "createdAt": "2026-11-24T02:55:47.000Z",
-          "id": "2125060785667969399",
-          "isQuote": false,
-          "likes": 96,
-          "quotedTweetId": null,
-          "replies": 60,
-          "retweets": 1,
-          "text": ".@ChatGPT Dots still feels very buggy - it sends emails without me reviewing and randomly just stops responding.\n\nI really want to like this product but maybe I’m prompting it wrong?",
-          "url": "https://x.com/petergyang/status/2125060785667969399"
-        },
         "id:2125246815884984398": {
           "createdAt": "2026-11-24T15:15:00.000Z",
           "id": "2125246815884984398",
@@ -816,17 +651,6 @@
       "name": "Guillermo Rauch",
       "source": "x",
       "tweets": {
-        "id:2125057274213507253": {
-          "createdAt": "2026-11-24T02:41:50.000Z",
-          "id": "2125057274213507253",
-          "isQuote": true,
-          "likes": 375,
-          "quotedTweetId": "2125056464494727515",
-          "replies": 31,
-          "retweets": 19,
-          "text": "▲ + 🇯🇵\nVercel is doubling down on Japan! https://t.co/IthdxqQCiv",
-          "url": "https://x.com/rauchg/status/2125057274213507253"
-        },
         "id:2125320020666565096": {
           "createdAt": "2026-11-24T20:05:54.000Z",
           "id": "2125320020666565096",
@@ -1257,39 +1081,6 @@
       "name": "Thibault Sottiaux",
       "source": "x",
       "tweets": {
-        "id:2124923055072043052": {
-          "createdAt": "2026-11-23T17:48:30.000Z",
-          "id": "2124923055072043052",
-          "isQuote": true,
-          "likes": 2649,
-          "quotedTweetId": "2124862749247189124",
-          "replies": 769,
-          "retweets": 67,
-          "text": "Inside OpenAI, dots are quickly becoming the primary way to get things done. We have dots building the dots system. https://t.co/5YtdTspKBk",
-          "url": "https://x.com/thsottiaux/status/2124923055072043052"
-        },
-        "id:2124998553856844186": {
-          "createdAt": "2026-11-23T22:48:30.000Z",
-          "id": "2124998553856844186",
-          "isQuote": true,
-          "likes": 4241,
-          "quotedTweetId": "2124942186425069836",
-          "replies": 823,
-          "retweets": 133,
-          "text": "You should feel a significant jump in quality of answers on ChatGPT once rolled out to you.\n\nTogether with all the investments we are making across simplifying the app, making it faster and merging chat & work, it's going to be quite the improvement in day to day experience by the end of the year.",
-          "url": "https://x.com/thsottiaux/status/2124998553856844186"
-        },
-        "id:2125027477877887231": {
-          "createdAt": "2026-11-24T00:43:26.000Z",
-          "id": "2125027477877887231",
-          "isQuote": true,
-          "likes": 1510,
-          "quotedTweetId": "2125007927098699827",
-          "replies": 273,
-          "retweets": 53,
-          "text": "Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on https://t.co/afNTCaRewj",
-          "url": "https://x.com/thsottiaux/status/2125027477877887231"
-        },
         "id:2125299248782778588": {
           "createdAt": "2026-11-24T18:43:21.000Z",
           "id": "2125299248782778588",
@@ -1353,17 +1144,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2124987187406275037": {
-          "createdAt": "2026-11-23T22:03:20.000Z",
-          "id": "2124987187406275037",
-          "isQuote": false,
-          "likes": 1327,
-          "quotedTweetId": null,
-          "replies": 57,
-          "retweets": 28,
-          "text": "X payouts are such a good model for future software companies\n\nkeep a lean core team and pay the users who help it grow, get better with feedback, sell, etc.",
-          "url": "https://x.com/trq212/status/2124987187406275037"
-        },
         "id:2125156290494353663": {
           "createdAt": "2026-11-24T09:15:17.000Z",
           "id": "2125156290494353663",
@@ -1416,17 +1196,6 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2125074988210463019": {
-          "createdAt": "2026-11-24T03:52:13.000Z",
-          "id": "2125074988210463019",
-          "isQuote": true,
-          "likes": 103,
-          "quotedTweetId": "2116281211962454056",
-          "replies": 13,
-          "retweets": 3,
-          "text": "How to prevent AI slop in design (without being a designer): https://t.co/xKfBQTQXns https://t.co/49RO5JiyR1",
-          "url": "https://x.com/zarazhangrui/status/2125074988210463019"
-        },
         "id:2125256097925865639": {
           "createdAt": "2026-11-24T15:51:53.000Z",
           "id": "2125256097925865639",
