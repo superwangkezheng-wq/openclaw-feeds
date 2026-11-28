@@ -6,28 +6,6 @@
       "name": "Aditya Agarwal",
       "source": "x",
       "tweets": {
-        "id:2125096073228439683": {
-          "createdAt": "2026-11-24T05:16:00.000Z",
-          "id": "2125096073228439683",
-          "isQuote": false,
-          "likes": 27,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 1,
-          "text": "Sometimes you need to travel abroad to deeply appreciate just how inspirational America is to the rest of the world.\n\nCountries and individuals aspire to have an entreprenurial ecosystem like ours. A capital market base like ours.\n\nThey don't want to be like China or the UK or Denmark. \n\nThey want to be like America.\n\nAnd this is particularly true for the most ambitious people in every country. They are students of how America builds.\n\nThis doesn't mean we cannot do better ourselves. We must and we will.",
-          "url": "https://x.com/adityaag/status/2125096073228439683"
-        },
-        "id:2125112140260638905": {
-          "createdAt": "2026-11-24T06:19:51.000Z",
-          "id": "2125112140260638905",
-          "isQuote": false,
-          "likes": 0,
-          "quotedTweetId": null,
-          "replies": 2,
-          "retweets": 0,
-          "text": "Most good organizations when faced with an existential crisis that doesn’t destroy them will return meaner and out for blood.\n\nThey have seen what failure could look like and are ready to go to war to make sure that never happens.\n\nI felt this over and over again at Meta. \n\nNvidia isn’t going to hold back now.",
-          "url": "https://x.com/adityaag/status/2125112140260638905"
-        },
         "id:2125817213890478282": {
           "createdAt": "2026-11-26T05:01:34.000Z",
           "id": "2125817213890478282",
@@ -246,6 +224,17 @@
           "retweets": 1,
           "text": "you love to see it https://t.co/oqGDBzc19K",
           "url": "https://x.com/danshipper/status/2125725124535927221"
+        },
+        "id:2126397711033438535": {
+          "createdAt": "2026-11-27T19:28:15.000Z",
+          "id": "2126397711033438535",
+          "isQuote": false,
+          "likes": 114,
+          "quotedTweetId": null,
+          "replies": 34,
+          "retweets": 15,
+          "text": "if you like me have looked at the exponential increase in AI capabilities you see in graphs with awe, fear, and foreboding\n\nI wrote about why they’re an effective way to measure AI capabilities in a lab. And why they’re nonsense when used to predict the future of human work: https://t.co/DTnGiO0SZs",
+          "url": "https://x.com/danshipper/status/2126397711033438535"
         }
       }
     },
@@ -255,39 +244,6 @@
       "name": "Garry Tan",
       "source": "x",
       "tweets": {
-        "id:2125247943540142577": {
-          "createdAt": "2026-11-24T15:19:29.000Z",
-          "id": "2125247943540142577",
-          "isQuote": false,
-          "likes": 54,
-          "quotedTweetId": null,
-          "replies": 7,
-          "retweets": 1,
-          "text": "First, the models have reached beyond what some customers even need. Though I suspect there is still a step function in agency and taste available even if the models can do the tasks today. https://t.co/7a26JGS13f",
-          "url": "https://x.com/garrytan/status/2125247943540142577"
-        },
-        "id:2125247972158193792": {
-          "createdAt": "2026-11-24T15:19:36.000Z",
-          "id": "2125247972158193792",
-          "isQuote": false,
-          "likes": 74,
-          "quotedTweetId": null,
-          "replies": 13,
-          "retweets": 0,
-          "text": "Second, society hit a limit in its ability to absorb the tech socially. There are natural brakes on how much a knowledge work process or business process can change: people don’t like their cheese moved. https://t.co/q7VI5RNow1",
-          "url": "https://x.com/garrytan/status/2125247972158193792"
-        },
-        "id:2125258221946630432": {
-          "createdAt": "2026-11-24T16:00:20.000Z",
-          "id": "2125258221946630432",
-          "isQuote": true,
-          "likes": 315,
-          "quotedTweetId": "2125011107064721711",
-          "replies": 33,
-          "retweets": 7,
-          "text": "YC is the YC for hard tech https://t.co/NWlfp6U19R",
-          "url": "https://x.com/garrytan/status/2125258221946630432"
-        },
         "id:2125580632814412155": {
           "createdAt": "2026-11-25T13:21:28.000Z",
           "id": "2125580632814412155",
@@ -377,17 +333,6 @@
       "name": "Aaron Levie",
       "source": "x",
       "tweets": {
-        "id:2125089009018040779": {
-          "createdAt": "2026-11-24T04:47:56.000Z",
-          "id": "2125089009018040779",
-          "isQuote": true,
-          "likes": 346,
-          "quotedTweetId": "2124637749911458241",
-          "replies": 30,
-          "retweets": 13,
-          "text": "This is a pretty key insight. Services businesses are always held back by their ability to deliver outcomes to customers. \n\nThat scaling essentially only could come from headcount, and no matter how much demand you saw, there was always a finite amount of talent you could get for the problem you were going after. Not to mention, the customer generally always wants the work done faster, at a lower price, or at a higher quality.\n\nAgents entirely change the calculus here, because now we can scale output in a way that’s decoupled from the among of time that goes in. A single engineer can have the output of dozens of engineers before. A single designer can probably build out your entire design system and brand. And so on.\n\nWell why isn’t this just all agents then? Because the key is to still have experts on the front end that actually can ensure the right outcomes are delivered from agents.\n\nIt’s likely that we’re going to see this in a wide variety of categories. You’ll see this in cyber security, advertising and marketing, legal, accounting, IT transformation, and a number of other historically people-only services industries.\n\nIt’s a great time if you’re starting one of these businesses, or if you have the capability to transform an existing one.",
-          "url": "https://x.com/levie/status/2125089009018040779"
-        },
         "id:2125442246543814686": {
           "createdAt": "2026-11-25T04:11:35.000Z",
           "id": "2125442246543814686",
@@ -420,6 +365,17 @@
           "retweets": 57,
           "text": "Huge opportunity right now to build new services firms from the ground up, or transform existing ones, with agents at the center. \n\nThe expertise that services firms in theory should have is as important as ever because you still need deep domain understanding to get the most out of agents. But now the ability to deliver on projects has a 10X multiplier. This means that you can make clients happier, compete to win more of them, go after smaller customers not in the TAM before, or deliver outcomes that weren’t really conceivable.\n\nThis is going to happen in advertising, IT transformation, management consulting, finance, and a number of other fields that historically are just fully constrained by the speed of their workforce for output. \n\nThis is a huge opportunity right now for those starting these firms. I wouldn’t count out existing players that commit to the transformation either as existing customer trust goes a long way. But they have to move quickly to make it work.",
           "url": "https://x.com/levie/status/2125983542475894821"
+        },
+        "id:2126389098227376238": {
+          "createdAt": "2026-11-27T18:54:02.000Z",
+          "id": "2126389098227376238",
+          "isQuote": true,
+          "likes": 232,
+          "quotedTweetId": "2126069220504981935",
+          "replies": 92,
+          "retweets": 16,
+          "text": "This is the diffusion challenge and opportunity in a nutshell. Most people will probably get stuck with the use-cases that initially wowed them with AI, and have little incentive to move onto the next thing that will unlock another level of productivity.\n\nEven a large number of organizations can get stuck by being “satisfied” with AI gains, well before having full blown agents that can do any amount of work in the background or agent swarms that can take on complex, ambiguous problems.\n\nMuch of this comes down to the technical complexity of implementing the architectures around this. Despite lots of effort to simplify the UXes, there’s still a lot of system work, data pipelines, MCPs, and security that needs to be worked through to get the most out of agents. But even when you’re done with that, you still need to redesign your workflow or process overall to get the full benefits from agents.\n\nThis is why there’s so much opportunity to be an organization that figures this out early. It’s also why there’s going to be massive services and FDE opportunities right now as well, since most companies can’t do this on their own.",
+          "url": "https://x.com/levie/status/2126389098227376238"
         }
       }
     },
@@ -472,6 +428,17 @@
           "retweets": 1,
           "text": "\"Thankful to VCs for their thought leadership, podcasts and market maps\"\n\n-- no founder yet (but it's still early on Thanksgiving day)",
           "url": "https://x.com/mattturck/status/2126068708527198482"
+        },
+        "id:2126477464947892367": {
+          "createdAt": "2026-11-28T00:45:10.000Z",
+          "id": "2126477464947892367",
+          "isQuote": false,
+          "likes": 35,
+          "quotedTweetId": null,
+          "replies": 15,
+          "retweets": 3,
+          "text": "It’s really quite obvious why agents will accelerate the economy. \n\nThanksgiving, without agents: food coma, watch Netflix, some work, too tired \n\nThanksgiving, with agents:  that, plus email a bunch of electricians for that long overdue home project, plus Black Friday shopping, plus, plus, plus \n\nMultiply by millions of others doing the same, the economic impact is gigantic.",
+          "url": "https://x.com/mattturck/status/2126477464947892367"
         }
       }
     },
@@ -535,6 +502,28 @@
           "retweets": 1,
           "text": "Last Thanksgiving, I was mildly paranoid about forgetting to text folks who I had spent significant time with last year.. that's when Claude discovered that iMessage & Whatsapp are local databases on your computer. \n\nOne thing led to another, and it transformed into a surprisingly helpful project. \n\nIf you are equally paranoid like me, use the local scripts here (no AI, fully local) to text people you have spent time with (https://t.co/agVCIXkP4f).\n\nHappy Thanksgiving to one and all 🦃",
           "url": "https://x.com/nikunj/status/2126133563292803100"
+        },
+        "id:2126326428522442812": {
+          "createdAt": "2026-11-27T14:45:00.000Z",
+          "id": "2126326428522442812",
+          "isQuote": false,
+          "likes": 711,
+          "quotedTweetId": null,
+          "replies": 73,
+          "retweets": 50,
+          "text": "The greatest tragedy right now in Silicon Valley that NO one wants to talk about is how some startups are \"reselling\" compute and calling it revenue.. not inference, just straight up selling compute to other companies. And, no their primary business is NOT selling compute. \n\nIn this era, where everyone wants to show high \"annualized run rate\" growth as that's the story that gets marked up, companies are now being even more creative in how to lump \"revenue\" into a month.\n\nIt started with GMV-like revenue with low margins, then inference at negative gross margins and now straight up reselling compute. All lumped into a tidy \"ARR\". \n\nNaive investors will lap it up since it allows them to pass deals through IC, and seed investors will celebrate their markups - but zero shot this ends well.",
+          "url": "https://x.com/nikunj/status/2126326428522442812"
+        },
+        "id:2126422715905311210": {
+          "createdAt": "2026-11-27T21:07:37.000Z",
+          "id": "2126422715905311210",
+          "isQuote": false,
+          "likes": 17,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 1,
+          "text": "If I was a journalist posting revenue numbers from “hot” startups, this is the number one question I’d ask. \n\nBut then I won’t have a job anymore since no one is a) incentivized to give this to me and b) ever want to talk to me again 😂\n\nMy DMs are on fire regardless! https://t.co/tHa9KqaGT4",
+          "url": "https://x.com/nikunj/status/2126422715905311210"
         }
       }
     },
@@ -544,28 +533,6 @@
       "name": "Peter Yang",
       "source": "x",
       "tweets": {
-        "id:2125246815884984398": {
-          "createdAt": "2026-11-24T15:15:00.000Z",
-          "id": "2125246815884984398",
-          "isQuote": false,
-          "likes": 580,
-          "quotedTweetId": null,
-          "replies": 44,
-          "retweets": 39,
-          "text": "I've been using Gemini 4 Neon and @antigravity all weekend and made a free video course on how you can get the most out of this combo.\n\nSome takeaways:\n\n1. Orchestrator and /swarm are very useful for planning and building with multiple agents. At one point, I had 42 agents running at once.\n\n2. /grill-me is a great built-in skill that gets Antigravity to ask clarifying questions to help you flesh out the plan first.\n\n3. Remote control is better than Claude Code's because every thread is active by default. I show you how to add Antigravity to your phone home screen to run this in the video.\n\n📌 Watch my full 17-minute Antigravity course here: https://t.co/lmfSTiVBsm",
-          "url": "https://x.com/petergyang/status/2125246815884984398"
-        },
-        "id:2125246828082057462": {
-          "createdAt": "2026-11-24T15:15:03.000Z",
-          "id": "2125246828082057462",
-          "isQuote": false,
-          "likes": 6,
-          "quotedTweetId": null,
-          "replies": 1,
-          "retweets": 0,
-          "text": "Also follow @adhidesign, the designer behind Antigravity and @_mohansolo, the new \"reset guy\" for Gemini :)",
-          "url": "https://x.com/petergyang/status/2125246828082057462"
-        },
         "id:2125436963645952307": {
           "createdAt": "2026-11-25T03:50:35.000Z",
           "id": "2125436963645952307",
@@ -642,6 +609,39 @@
           "retweets": 15,
           "text": "Hey look @elonmusk is giving a SpaceX share to every kid in America I wonder whether NY Times covered this: https://t.co/GfgcssTSBR https://t.co/cGuTqBPpRO",
           "url": "https://x.com/petergyang/status/2126046533904896077"
+        },
+        "id:2126355734720135215": {
+          "createdAt": "2026-11-27T16:41:27.000Z",
+          "id": "2126355734720135215",
+          "isQuote": false,
+          "likes": 6,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 0,
+          "text": "Also, I still have a few Claude Max ($100 value) codes left for my newsletter's annual subscription, plus $600+ in codes for other top AI tools like Granola, Lovable, and more.\n\nSubscribe here to support my writing: https://t.co/aK8JeKZXgV https://t.co/uK7SHbK1VA",
+          "url": "https://x.com/petergyang/status/2126355734720135215"
+        },
+        "id:2126483723759882600": {
+          "createdAt": "2026-11-28T01:10:02.000Z",
+          "id": "2126483723759882600",
+          "isQuote": false,
+          "likes": 62,
+          "quotedTweetId": null,
+          "replies": 22,
+          "retweets": 1,
+          "text": "GTA 6: Lucia is a much better character than Jason. Jason is boring as hell and feels like he was meant to be a player avatar.",
+          "url": "https://x.com/petergyang/status/2126483723759882600"
+        },
+        "id:2126494096793760032": {
+          "createdAt": "2026-11-28T01:51:15.000Z",
+          "id": "2126494096793760032",
+          "isQuote": false,
+          "likes": 45,
+          "quotedTweetId": null,
+          "replies": 11,
+          "retweets": 0,
+          "text": "I have to confess that instead of turkey we had wagyu hotpot for Thanksgiving. It was delicious.\n\n(eating the leftovers now)",
+          "url": "https://x.com/petergyang/status/2126494096793760032"
         }
       }
     },
@@ -727,6 +727,39 @@
           "retweets": 24,
           "text": "I'm thankful for all the optimists. Americans are a profoundly optimistic bunch, and I think it's one of the things you really appreciate and are drawn to as an immigrant.\n\nIn order to define the future and lead the world, you must possess a positive vision of what's to come.\n\nThese days many people speak in terms of a future we must blindly accept and capitulate to. Instead, we must use our, yes, agency to build and project the amazing future we want for our grandchildren and loved ones. Happy thanksgiving!",
           "url": "https://x.com/rauchg/status/2126037393241424065"
+        },
+        "id:2126416639344472142": {
+          "createdAt": "2026-11-27T20:43:28.000Z",
+          "id": "2126416639344472142",
+          "isQuote": false,
+          "likes": 140,
+          "quotedTweetId": null,
+          "replies": 5,
+          "retweets": 3,
+          "text": "I love asking agents to investigate and describe the never-seen-before simulated universe they're in. https://t.co/pLBfp8Mzxt",
+          "url": "https://x.com/rauchg/status/2126416639344472142"
+        },
+        "id:2126434620816384451": {
+          "createdAt": "2026-11-27T21:54:55.000Z",
+          "id": "2126434620816384451",
+          "isQuote": true,
+          "likes": 95,
+          "quotedTweetId": "2126432291123777876",
+          "replies": 20,
+          "retweets": 3,
+          "text": "Wow! @floraai is incredible, so this is high praise https://t.co/w31uccw3hF",
+          "url": "https://x.com/rauchg/status/2126434620816384451"
+        },
+        "id:2126503317786530105": {
+          "createdAt": "2026-11-28T02:27:54.000Z",
+          "id": "2126503317786530105",
+          "isQuote": false,
+          "likes": 259,
+          "quotedTweetId": null,
+          "replies": 20,
+          "retweets": 15,
+          "text": "Everyday is breakthrough day",
+          "url": "https://x.com/rauchg/status/2126503317786530105"
         }
       }
     },
@@ -736,17 +769,6 @@
       "name": "Madhu Guru",
       "source": "x",
       "tweets": {
-        "id:2125102190196859156": {
-          "createdAt": "2026-11-24T05:40:19.000Z",
-          "id": "2125102190196859156",
-          "isQuote": true,
-          "likes": 16,
-          "quotedTweetId": "2124651500752486881",
-          "replies": 1,
-          "retweets": 1,
-          "text": "Part of the disconnect is that the name “data” massively undersells what it truly represents in model development.\n\nPeople who are not close to model development think of data as this  inert commodity you buy and shovel into a model, like coal.\n\nIn reality great data encodes incredibly high value knowledge, taste and expertise, often articulated and structured in ways that did not exist previously. \n\nThis makes it one of THE fundamental building blocks for creating increasingly capable intelligence across domains. \n\nData will continue to be incredibly central to the intelligence industry .",
-          "url": "https://x.com/realmadhuguru/status/2125102190196859156"
-        },
         "id:2125355549202194801": {
           "createdAt": "2026-11-24T22:27:04.000Z",
           "id": "2125355549202194801",
@@ -798,6 +820,28 @@
           "retweets": 1,
           "text": "name is 實實 shíshí\nmeans truth\nalso a pun on 寶寶",
           "url": "https://x.com/ryolu_/status/2125640785588871579"
+        },
+        "id:2126382660780167304": {
+          "createdAt": "2026-11-27T18:28:27.000Z",
+          "id": "2126382660780167304",
+          "isQuote": false,
+          "likes": 1744,
+          "quotedTweetId": null,
+          "replies": 90,
+          "retweets": 188,
+          "text": "the race is not inevitable\n\nlast year was fun.\n\nthe models weren't that good yet, so i had to care about every detail. i pushed each thing until it had my thoughts and my designs. the tool helped. i did the driving.\n\nnow the roles have flipped. we describe and watch things come back finished. we used to drive our dreams. more and more, we just watch.\n\nwe set out to make things that give us more freedom. now we're racing toward something we might not be able to control.\n\nrecursive self-improvement. intelligence building more intelligence, until we're no longer the ones who understand what's happening.\n\nthat's the end game. the point where nobody is driving.\n\nthe big labs are racing to get there first. the same system that cures a disease could design a new virus, or find every hole in the internet all at once. only the selected few with access could do anything about it.\n\nand somehow the possibility of losing everything we love becomes an argument for going faster.\n\nbecause someone else might get there first, and they might be less careful.\nbecause the company needs to survive.\nbecause too much money is already committed.\n\neveryone has a good reason to keep going toward an outcome nobody wants. so we call it inevitable. then nobody has to answer for it.\n\nbut a race is made of decisions. someone approves the budget. someone decides the next model will help build the one after it.\n\nand we practice living inside the race long before we build it at the scale of civilization.\n\nsleep becomes recovery for work. friendship becomes a network. curiosity has to become a project before we let ourselves spend time on it.\n\nwe get very rational. we start acting like the machines we're building.\n\neven our feelings have to defend themselves.\nwhy are you sad? is that useful?\n\nsometimes the feeling is how i begin to find out.\n\nthere's a line in Zhuangzi.\n大知閑閑，小知閒閒。\n\ngreat knowledge is wide and unhurried. small knowledge is busy, always measuring.\n\ni don't think you can hurry your way to the first kind.\n\ni moved to Taipei to slow down and experience life.\n\nwalking around Da'an. going into a cafe, or a cheap buffet. meeting new friends by accident, who brought me to a shisha bar. a 24-hour tea house, talking about life and the world we're in. getting closer to someone and feeling my heart beat faster...\n\nnone of it was planned. none of it would show up in a report.\n\ni don't want to become so certain about where i'm going that nothing can reach me along the way.\n\nthere's a tree in Zhuangzi too. a carpenter walks past a giant oak and calls it useless wood.\n\nthat night the tree comes to him in a dream. the fruit trees you call useful get stripped every year, it says. being of no use is how i got to grow this big.\n\nthe race looks at the world the way the carpenter looks at the tree. a night in a tea house is useless wood. so is a feeling you can't explain yet.\n\nthat's most of what i want to protect.\n\nand there's a cook. after nineteen years his knife moves fast and easy, because he follows the openings between the joints. but at a hard knot, he slows down. when it's done, he stands there holding the knife and looks around.\n\nthe people building these systems are some of the best cooks alive. this is the hardest knot anyone has come to. it's where a master slows down.\n\nwe cloned a sheep thirty years ago, and we still don't clone people.\n\nwe can slow down. change direction. decide something isn't worth building, even if it would make someone very rich.\n\na probability can help us think about a risk. it can't decide what we have the right to risk on behalf of everyone else.\n\ni want what we build to stay answerable to the people who have to live with it. most of them will never be in the room.\n\nthere are no stands in this race. whatever happens, happens to us.\n\ni'd like the people in that room to come out and sit for a while. it's harder to gamble with ordinary life once you've spent an evening in the middle of it.\n\nthe tea house is open all night.",
+          "url": "https://x.com/ryolu_/status/2126382660780167304"
+        },
+        "id:2126382726400123137": {
+          "createdAt": "2026-11-27T18:28:42.000Z",
+          "id": "2126382726400123137",
+          "isQuote": false,
+          "likes": 59,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 4,
+          "text": "https://t.co/HwqaRnpRNp",
+          "url": "https://x.com/ryolu_/status/2126382726400123137"
         }
       }
     },
@@ -998,6 +1042,39 @@
           "retweets": 0,
           "text": "beating cursor and t3code on day 0. strong start https://t.co/2xa4bNqUnB https://t.co/QYzyfs0hhV",
           "url": "https://x.com/swyx/status/2126201671026180469"
+        },
+        "id:2126522235334832346": {
+          "createdAt": "2026-11-28T03:43:04.000Z",
+          "id": "2126522235334832346",
+          "isQuote": true,
+          "likes": 0,
+          "quotedTweetId": "2125008996583018609",
+          "replies": 1,
+          "retweets": 0,
+          "text": "https://t.co/utPSHkHtFx",
+          "url": "https://x.com/swyx/status/2126522235334832346"
+        },
+        "id:2126528882262348003": {
+          "createdAt": "2026-11-28T04:09:29.000Z",
+          "id": "2126528882262348003",
+          "isQuote": true,
+          "likes": 114,
+          "quotedTweetId": "2126458072596140248",
+          "replies": 14,
+          "retweets": 5,
+          "text": "worthwhile talk on whats going on with the neolab reinventions https://t.co/OHtWw6m1Vp https://t.co/gJ228bXl5V",
+          "url": "https://x.com/swyx/status/2126528882262348003"
+        },
+        "id:2126528949073453544": {
+          "createdAt": "2026-11-28T04:09:45.000Z",
+          "id": "2126528949073453544",
+          "isQuote": false,
+          "likes": 1,
+          "quotedTweetId": null,
+          "replies": 0,
+          "retweets": 0,
+          "text": "@michellechen https://t.co/ldgYNSN8lY",
+          "url": "https://x.com/swyx/status/2126528949073453544"
         }
       }
     },
@@ -1072,6 +1149,39 @@
           "retweets": 0,
           "text": "Guys... Voice chat is chat. \n\nSending images into the chat is chat. \n\nIssuing instructions and getting a site back is chat. \n\nYou can literally do all of these things in ChstGPT right now.",
           "url": "https://x.com/thenanyu/status/2126036677642928363"
+        },
+        "id:2126404412604334391": {
+          "createdAt": "2026-11-27T19:54:53.000Z",
+          "id": "2126404412604334391",
+          "isQuote": true,
+          "likes": 51,
+          "quotedTweetId": "2126342639117287880",
+          "replies": 3,
+          "retweets": 1,
+          "text": "you met me at a very chinese time in my life https://t.co/jIJdhzRmcQ",
+          "url": "https://x.com/thenanyu/status/2126404412604334391"
+        },
+        "id:2126406463803592972": {
+          "createdAt": "2026-11-27T20:03:02.000Z",
+          "id": "2126406463803592972",
+          "isQuote": true,
+          "likes": 3,
+          "quotedTweetId": "2126191866827726966",
+          "replies": 0,
+          "retweets": 0,
+          "text": "https://t.co/D30u3ko1NB https://t.co/CPVPked3GP",
+          "url": "https://x.com/thenanyu/status/2126406463803592972"
+        },
+        "id:2126468550437261706": {
+          "createdAt": "2026-11-28T00:09:44.000Z",
+          "id": "2126468550437261706",
+          "isQuote": false,
+          "likes": 33,
+          "quotedTweetId": null,
+          "replies": 5,
+          "retweets": 1,
+          "text": "I wish the larping would stop",
+          "url": "https://x.com/thenanyu/status/2126468550437261706"
         }
       }
     },
@@ -1144,17 +1254,6 @@
       "name": "Thariq",
       "source": "x",
       "tweets": {
-        "id:2125156290494353663": {
-          "createdAt": "2026-11-24T09:15:17.000Z",
-          "id": "2125156290494353663",
-          "isQuote": false,
-          "likes": 2013,
-          "quotedTweetId": null,
-          "replies": 77,
-          "retweets": 77,
-          "text": "you have to be bad at it for a while https://t.co/s5ECrbQ3sG",
-          "url": "https://x.com/trq212/status/2125156290494353663"
-        },
         "id:2125675533761671405": {
           "createdAt": "2026-11-25T19:38:35.000Z",
           "id": "2125675533761671405",
@@ -1187,6 +1286,39 @@
           "retweets": 2,
           "text": "just like me fr https://t.co/8lTxaWoUvw",
           "url": "https://x.com/trq212/status/2125750153609163075"
+        },
+        "id:2126386932989210714": {
+          "createdAt": "2026-11-27T18:45:25.000Z",
+          "id": "2126386932989210714",
+          "isQuote": false,
+          "likes": 4791,
+          "quotedTweetId": null,
+          "replies": 254,
+          "retweets": 196,
+          "text": "Models should be scored more like an RPG stat sheet than a leaderboard. https://t.co/dVkFqXXgNE",
+          "url": "https://x.com/trq212/status/2126386932989210714"
+        },
+        "id:2126386934918651919": {
+          "createdAt": "2026-11-27T18:45:26.000Z",
+          "id": "2126386934918651919",
+          "isQuote": false,
+          "likes": 482,
+          "quotedTweetId": null,
+          "replies": 60,
+          "retweets": 7,
+          "text": "for example I asked both Claude (left) and Codex (right) to generate images for this tweet \n\nClaude's looks better and has thought about the problem ore (+creativity, +endurance) but Codex sticks to the spirit of what I want more (+ wisdom, +alignment) https://t.co/RQVXsJ3R2O",
+          "url": "https://x.com/trq212/status/2126386934918651919"
+        },
+        "id:2126386936579600522": {
+          "createdAt": "2026-11-27T18:45:26.000Z",
+          "id": "2126386936579600522",
+          "isQuote": false,
+          "likes": 252,
+          "quotedTweetId": null,
+          "replies": 17,
+          "retweets": 3,
+          "text": "this is also a call for evals",
+          "url": "https://x.com/trq212/status/2126386936579600522"
         }
       }
     },
@@ -1196,17 +1328,6 @@
       "name": "Zara Zhang",
       "source": "x",
       "tweets": {
-        "id:2125256097925865639": {
-          "createdAt": "2026-11-24T15:51:53.000Z",
-          "id": "2125256097925865639",
-          "isQuote": false,
-          "likes": 92,
-          "quotedTweetId": null,
-          "replies": 13,
-          "retweets": 6,
-          "text": "The clarity of a product’s positioning is inversely proportional to the number of words it takes to explain what it is in plain language",
-          "url": "https://x.com/zarazhangrui/status/2125256097925865639"
-        },
         "id:2125339516496200100": {
           "createdAt": "2026-11-24T21:23:22.000Z",
           "id": "2125339516496200100",
